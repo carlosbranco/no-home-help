@@ -57,6 +57,8 @@ Use the [`templates/city.html`](templates/city.html) file when adding a city. It
 
 An existing completed page, [`usa/new-york/new-york-city.html`](usa/new-york/new-york-city.html), can be used as a practical reference. Do not copy its services into another city; every local resource must be independently verified.
 
+Work through the [`CITY_RESEARCH_CHECKLIST.md`](CITY_RESEARCH_CHECKLIST.md) category by category before publishing. It explains what to search for, what facts to record, and how to document a category that is not available locally. Major cities should normally contain several verified choices in core categories such as shelter, food, religious help, health, and social support.
+
 ## Repository structure
 
 ```text
@@ -64,26 +66,25 @@ An existing completed page, [`usa/new-york/new-york-city.html`](usa/new-york/new
 ├── index.html
 ├── style.css
 ├── data/
-│   └── locations.csv
-├── portugal/
-│   └── index.html
-├── usa/
+│   ├── locations.csv
+│   └── POPULATION_POLICY.md
+├── CITY_RESEARCH_CHECKLIST.md
+├── country-slug/
 │   ├── index.html
-│   └── new-york/
+│   └── region-slug/
 │       ├── index.html
-│       └── new-york-city.html
+│       └── city-slug.html
 └── templates/
     └── city.html
 ```
 
 ## Location data
 
-`data/locations.csv` is a single UTF-8 file containing an initial editorial selection of:
+`data/locations.csv` is a UTF-8 geographic registry for 85 countries in Europe and the Americas. It distinguishes `country` rows from `city` rows and records the language, administrative division, population source, selection rule, and page status.
 
-- five places for each of the 50 U.S. states, plus an additional row for Washington, D.C.;
-- five principal localities for each of Portugal's 18 mainland districts and two autonomous regions.
+Each first-level administrative division has no more than five selected cities. The normal threshold is 200,000 inhabitants. A division with no qualifying city may use the 100,000 threshold; if it would still be empty, one smaller regional centre is retained as an explicitly labelled fallback. Read the complete [`data/POPULATION_POLICY.md`](data/POPULATION_POLICY.md) for the source definitions and selection rules.
 
-The list is a navigation seed, not an official population ranking. In Portugal, `area_group` distinguishes `Continente` from `Ilhas`; Portuguese names retain their diacritics. Place names in the CSV do not mean that a verified city help page already exists.
+The list is a navigation and contribution seed, not a claim that services are already available. A `draft` city page contains no verified local help and uses `noindex` until contributors replace the scaffold with researched information.
 
 ## Language policy
 
@@ -123,6 +124,7 @@ Add only categories for which reliable local information is available. Never cre
 | Other useful resources | Libraries, warming and cooling centers, drinking water, outreach teams, community centers, and verified help that does not fit another category. |
 
 Every city page begins with emergency information and a verification date. Categories with no verified information should be omitted rather than published empty.
+Include the relevant official government support and benefits links whenever they exist. Charity listings complement public services; they do not replace the official application, eligibility, or emergency information.
 
 ## Contributing countries, regions, and cities
 
@@ -141,6 +143,8 @@ Country -> State, province, region, or district -> City
 ```
 
 When adding a country, create its directory and `index.html`, write it in the local language, add it to the main country list, and add its geographic seed rows to [`data/locations.csv`](data/locations.csv). When adding a city, copy the [city template](templates/city.html), verify every resource, and link the new page from its region page.
+
+Generated draft city pages can also be edited in place. Replace the draft scaffold with the [city template](templates/city.html), complete the [research checklist](CITY_RESEARCH_CHECKLIST.md), remove `noindex` and the generated draft marker, and change the CSV `page_status` only after the information has been reviewed.
 
 Read the complete [contribution guide](CONTRIBUTING.md) before opening a Pull Request.
 
