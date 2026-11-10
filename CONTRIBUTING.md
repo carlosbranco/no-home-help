@@ -2,7 +2,7 @@
 
 Thank you for helping keep practical information available to people who may need it urgently.
 
-- Website: [nohomehelp.org](https://nohomehelp.org/)
+- Website: [nohomehelp.com](https://nohomehelp.com/)
 - Repository: [github.com/carlosbranco/no-home-help](https://github.com/carlosbranco/no-home-help)
 - Issues: [report incorrect information or discuss a change](https://github.com/carlosbranco/no-home-help/issues)
 

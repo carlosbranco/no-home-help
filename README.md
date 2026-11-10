@@ -2,7 +2,7 @@
 
 No Home Help is a free, international directory of practical services for people experiencing homelessness. The priority is to help someone find essential information in less than 30 seconds, including on an old phone or a slow connection.
 
-- Official website: [nohomehelp.org](https://nohomehelp.org/)
+- Official website: [nohomehelp.com](https://nohomehelp.com/)
 - Official repository: [github.com/carlosbranco/no-home-help](https://github.com/carlosbranco/no-home-help)
 - Report incorrect information: [open a GitHub issue](https://github.com/carlosbranco/no-home-help/issues/new?template=incorrect-information.md)
 
@@ -152,7 +152,7 @@ Read the complete [contribution guide](CONTRIBUTING.md) before opening a Pull Re
 
 Prefer official government or organization sources. Never invent a service, address, phone number, opening time, fare, eligibility rule, or bed availability. Every city page must show a verification date and warn readers that information can change.
 
-The root [`CNAME`](CNAME) file declares `nohomehelp.org` as the custom domain for GitHub Pages. The domain must also be configured in the repository's Pages settings and in its DNS records.
+The root [`CNAME`](CNAME) file declares `nohomehelp.com` as the custom domain for GitHub Pages. The domain must also be configured in the repository's Pages settings and in its DNS records.
 
 ## License
 
