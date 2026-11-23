@@ -26,7 +26,10 @@ const templates = {
   root: await loadTemplate("index.html"),
   country: await loadTemplate("country.html"),
   region: await loadTemplate("region.html"),
+  sitemap: await loadTemplate("sitemap.html"),
 };
+
+const SITE_ORIGIN = "https://nohomehelp.com";
 
 function fillTemplate(template, values) {
   return template.replace(/\{\{([A-Z_]+)\}\}/g, (placeholder, key) => {
@@ -357,6 +360,95 @@ function renderRegionIndex(cities) {
   });
 }
 
+function renderSitemapHtml(cities) {
+  const continents = new Map();
+  for (const city of cities) {
+    const continent = city.location.continent || "Other";
+    if (!continents.has(continent)) continents.set(continent, new Map());
+    const countries = continents.get(continent);
+    const countryKey = city.location.country_slug;
+    if (!countries.has(countryKey)) countries.set(countryKey, { first: city, regions: new Map() });
+    const country = countries.get(countryKey);
+    const regionKey = city.location.region_slug;
+    if (!country.regions.has(regionKey)) country.regions.set(regionKey, []);
+    country.regions.get(regionKey).push(city);
+  }
+
+  const sections = [...continents.entries()]
+    .sort(([a], [b]) => a.localeCompare(b))
+    .map(([continent, countries]) => {
+      const countryBlocks = [...countries.values()]
+        .sort((a, b) => a.first.location.country_local_name.localeCompare(b.first.location.country_local_name))
+        .map(({ first, regions }) => {
+          const countryName = first.location.country_local_name;
+          const countryPath = `${first.location.country_slug}/index.html`;
+          const regionBlocks = [...regions.values()]
+            .sort((a, b) => a[0].location.region_name.localeCompare(b[0].location.region_name))
+            .map((regionCities) => {
+              regionCities.sort((a, b) => a.location.city_name.localeCompare(b.location.city_name));
+              const region = regionCities[0].location;
+              const cityLinks = regionCities
+                .map((city) => `          <li><a href="${escapeHtml(cityRelativePath(city))}" hreflang="${escapeHtml(city.locale.language)}">${escapeHtml(city.location.city_name)}</a></li>`)
+                .join("\n");
+              return [
+                `        <h4><a href="${escapeHtml(region.country_slug ?? first.location.country_slug)}/${escapeHtml(region.region_slug)}/index.html">${escapeHtml(region.region_name)}</a></h4>`,
+                "        <ul>",
+                cityLinks,
+                "        </ul>",
+              ].join("\n");
+            }).join("\n");
+          return [
+            `      <section class="sitemap-country">`,
+            `        <h3><a href="${escapeHtml(countryPath)}">${escapeHtml(countryName)}</a></h3>`,
+            regionBlocks,
+            "      </section>",
+          ].join("\n");
+        }).join("\n");
+      return `    <section>\n      <h2>${escapeHtml(continent)}</h2>\n${countryBlocks}\n    </section>`;
+    }).join("\n");
+
+  return fillTemplate(templates.sitemap, {
+    CITY_COUNT: String(cities.length),
+    SECTIONS: sections,
+  });
+}
+
+function latestVerification(cities) {
+  return cities.reduce((latest, city) => city.page.last_verified > latest ? city.page.last_verified : latest, "");
+}
+
+function escapeXml(value) {
+  return String(value)
+    .replaceAll("&", "&amp;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;")
+    .replaceAll("\"", "&quot;")
+    .replaceAll("'", "&apos;");
+}
+
+function renderSitemapXml(published, primaryPublished, byCountry, byRegion) {
+  const latest = latestVerification(primaryPublished);
+  const pages = [
+    { relative: "", lastmod: latest },
+    { relative: "about.html" },
+    { relative: "sitemap.html", lastmod: latest },
+  ];
+  for (const [country, cities] of byCountry) pages.push({ relative: `${country}/`, lastmod: latestVerification(cities) });
+  for (const [region, cities] of byRegion) pages.push({ relative: `${region}/`, lastmod: latestVerification(cities) });
+  for (const city of published) pages.push({ relative: cityRelativePath(city), lastmod: city.page.last_verified });
+  pages.sort((a, b) => a.relative.localeCompare(b.relative));
+  const urls = pages.map(({ relative, lastmod }) => {
+    const url = `${SITE_ORIGIN}/${relative}`;
+    const modified = lastmod ? `\n    <lastmod>${escapeXml(lastmod)}</lastmod>` : "";
+    return `  <url>\n    <loc>${escapeXml(url)}</loc>${modified}\n  </url>`;
+  }).join("\n");
+  return `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls}\n</urlset>\n`;
+}
+
+function renderRobotsTxt() {
+  return `User-agent: *\nAllow: /\n\nSitemap: ${SITE_ORIGIN}/sitemap.xml\n`;
+}
+
 async function queueWrite(relativePath, content) {
   const target = path.join(ROOT, relativePath);
   let current = null;
@@ -419,6 +511,7 @@ if (failures.length) {
 
 for (const city of published) await queueWrite(cityRelativePath(city), renderCity(city, translationsByCity.get(cityKey(city))));
 await queueWrite("index.html", renderRootIndex(primaryPublished));
+await queueWrite("sitemap.html", renderSitemapHtml(primaryPublished));
 
 const byCountry = new Map();
 const byRegion = new Map();
@@ -431,9 +524,11 @@ for (const city of primaryPublished) {
 }
 for (const [country, cities] of byCountry) await queueWrite(`${country}/index.html`, renderCountryIndex(cities));
 for (const [region, cities] of byRegion) await queueWrite(`${region}/index.html`, renderRegionIndex(cities));
+await queueWrite("sitemap.xml", renderSitemapXml(published, primaryPublished, byCountry, byRegion));
+await queueWrite("robots.txt", renderRobotsTxt());
 
 if (pruneDrafts) {
-  const desiredGeneratedPaths = new Set(["index.html", ...publishedPaths]);
+  const desiredGeneratedPaths = new Set(["index.html", "sitemap.html", ...publishedPaths]);
   for (const country of byCountry.keys()) desiredGeneratedPaths.add(`${country}/index.html`);
   for (const region of byRegion.keys()) desiredGeneratedPaths.add(`${region}/index.html`);
   const locations = await readLocations();

@@ -59,7 +59,7 @@ Set `locale.language` to its BCP 47 tag and `locale.primary` to `false`. Transla
 
 ## Edit the site design
 
-Generated pages use the HTML files in `templates/` and the shared `style.css`. Edit those files and run `npm run generate` to apply a layout change everywhere.
+Generated pages use the HTML files in `templates/` and the shared `style.css`. Edit those files and run `npm run generate` to apply a layout change everywhere. The same command also rebuilds `sitemap.html`, `sitemap.xml`, and `robots.txt` from the published guides.
 
 Public output must have:
 

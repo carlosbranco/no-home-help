@@ -6,7 +6,7 @@ No Home Help is a free, international directory of practical services for people
 - Repository: [github.com/carlosbranco/no-home-help](https://github.com/carlosbranco/no-home-help)
 - Report incorrect information: [open a GitHub issue](https://github.com/carlosbranco/no-home-help/issues/new?template=incorrect-information.md)
 
-The public website is static, lightweight, privacy-respecting, and open source. City content lives in JSON; HTML pages and navigation indexes are generated from that data.
+The public website is static, lightweight, privacy-respecting, and open source. City content lives in JSON; HTML pages, navigation indexes, the human-readable sitemap, the XML sitemap, and `robots.txt` are generated from that data.
 
 ## How the site works
 
@@ -78,8 +78,12 @@ Generated HTML must not be edited directly. To change the design or semantic lay
 │   ├── city.html
 │   ├── country.html
 │   ├── region.html
+│   ├── sitemap.html
 │   └── index.html
 ├── style.css
+├── sitemap.html
+├── sitemap.xml
+├── robots.txt
 └── generated country and city HTML
 ```
 
@@ -93,7 +97,7 @@ npm run check
 npm run check:external
 ```
 
-- `generate` validates JSON, regenerates all published pages and indexes, and removes only marked legacy draft scaffolds.
+- `generate` validates JSON, regenerates all published pages, indexes and sitemaps, updates `robots.txt`, and removes only marked legacy draft scaffolds.
 - `check` confirms generated HTML is current and checks city references, dates, phone links, and CSV synchronization.
 - `check:external` checks external links; it is intended for the monthly CI job because remote sites can be temporarily unavailable.
 

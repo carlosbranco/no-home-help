@@ -55,7 +55,7 @@ async function checkHtml(relative, html, sourceMarker) {
 const records = await loadCityData();
 const published = records.filter((record) => record.data.status === "published");
 const primary = published.filter((record) => record.data.locale.primary);
-const indexPaths = new Set(["index.html"]);
+const indexPaths = new Set(["index.html", "sitemap.html"]);
 for (const record of primary) {
   indexPaths.add(`${record.data.location.country_slug}/index.html`);
   indexPaths.add(`${record.data.location.country_slug}/${record.data.location.region_slug}/index.html`);
