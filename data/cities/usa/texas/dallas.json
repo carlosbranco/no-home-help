@@ -1,0 +1,419 @@
+{
+  "$schema": "https://nohomehelp.com/schemas/city.schema.json",
+  "documentation": "https://github.com/carlosbranco/no-home-help/blob/main/EDIT_CITY_JSON.md",
+  "schema_version": 2,
+  "status": "published",
+  "locale": {
+    "language": "en",
+    "direction": "ltr",
+    "primary": true
+  },
+  "location": {
+    "continent": "Americas",
+    "country_code": "US",
+    "country_name": "United States",
+    "country_local_name": "United States",
+    "country_slug": "usa",
+    "region_code": "TX",
+    "region_name": "Texas",
+    "region_slug": "texas",
+    "city_name": "Dallas",
+    "city_slug": "dallas"
+  },
+  "seo": {
+    "title": "Dallas Homeless Help - No Home Help",
+    "description": "Verified shelter, food, hygiene, health, benefits, employment, legal, and safety resources for people experiencing homelessness in Dallas."
+  },
+  "page": {
+    "heading": "DALLAS - HOMELESS HELP",
+    "last_verified": "2026-11-23",
+    "urgent": "Immediate danger or life-threatening emergency: 911. Shelter and homelessness resources: 888-411-6802. City non-emergency help: 311.",
+    "notice": "Availability and eligibility can change. Call ahead when possible. A listing does not guarantee a bed, meal, appointment, benefit, job, or legal representation.",
+    "intro": "If you need a safe place tonight, call the Housing Forward Crisis Helpline or contact The Bridge or Austin Street Center. Bed availability is not guaranteed.",
+    "footer": "Availability, hours, and eligibility can change. Call ahead when possible. Report incorrect information through the GitHub link in the footer."
+  },
+  "categories": [
+    {
+      "id": "emergency",
+      "title": "Emergency help",
+      "entries": [
+        {
+          "id": "emergency-911",
+          "title": "Emergency services — 911",
+          "description": "Call 911 for immediate danger, fire, a life-threatening medical emergency, or a violent situation.",
+          "last_verified": "2026-11-23",
+          "address": "",
+          "phone": "911",
+          "website": "https://dallascityhall.com/departments/housing-and-homelessness/Pages/get-support.aspx",
+          "hours": "24 hours",
+          "how_to_access": "Give the exact location and describe what is happening."
+        },
+        {
+          "id": "housing-forward-crisis-helpline",
+          "title": "Housing Forward Crisis Helpline",
+          "description": "Connects people experiencing homelessness with shelter, street outreach, housing support, and community resources. It is not an emergency line and does not guarantee a bed.",
+          "last_verified": "2026-11-23",
+          "address": "",
+          "phone": "+18884116802",
+          "website": "https://dallascityhall.com/departments/housing-and-homelessness/Pages/get-support.aspx",
+          "hours": "24-hour coverage is indicated by city shelter guidance",
+          "how_to_access": "Call and explain who needs help, current location, household type, and whether there are urgent health or safety needs."
+        }
+      ]
+    },
+    {
+      "id": "shelter",
+      "title": "Emergency shelters and housing",
+      "entries": [
+        {
+          "id": "the-bridge-night-shelter",
+          "title": "The Bridge Homeless Recovery Center",
+          "description": "Free day and night shelter for adults age 18 or older experiencing homelessness. No government ID, background check, or sobriety check is required for intake. Space is not guaranteed. Guest intake: 214-670-1507.",
+          "last_verified": "2026-11-23",
+          "address": "1818 Corsicana Street, Dallas, TX 75201",
+          "phone": "+12146701100",
+          "website": "https://www.bridgehrc.org/",
+          "hours": "Night shelter 5:00 PM–6:00 AM; day services 6:00 AM–5:00 PM",
+          "how_to_access": "Go to intake or call 214-670-1507. Ask about current bed availability."
+        },
+        {
+          "id": "austin-street-center",
+          "title": "Austin Street Center",
+          "description": "Emergency shelter and housing-focused services for people living outside or in an unsafe environment. Eligibility and space vary; call before traveling.",
+          "last_verified": "2026-11-23",
+          "address": "1717 Jeffries Street, Dallas, TX 75226",
+          "phone": "+12144284242",
+          "website": "https://austinstreet.org/get-help/",
+          "hours": "",
+          "how_to_access": "Call for current intake rules, eligible groups, and bed availability."
+        }
+      ]
+    },
+    {
+      "id": "food",
+      "title": "Free food",
+      "entries": [
+        {
+          "id": "the-bridge-meals",
+          "title": "The Bridge — meals",
+          "description": "Free meals for adult guests experiencing homelessness. The official site lists breakfast, lunch, and dinner; schedules can change.",
+          "last_verified": "2026-11-23",
+          "address": "1818 Corsicana Street, Dallas, TX 75201",
+          "phone": "+12146701100",
+          "website": "https://www.bridgehrc.org/",
+          "hours": "Day services 6:00 AM–5:00 PM; night services 5:00 PM–6:00 AM",
+          "how_to_access": "Go through guest intake. No ID is required for intake."
+        },
+        {
+          "id": "ourcalling-meals",
+          "title": "OurCalling — breakfast and lunch",
+          "description": "Faith-based daytime outreach center serving a light breakfast and lunch to people sleeping outside. It is not an overnight shelter and does not distribute food boxes.",
+          "last_verified": "2026-11-23",
+          "address": "1702 S. Cesar Chavez Boulevard, Dallas, TX 75215",
+          "phone": "+12144448796",
+          "website": "https://www.ourcalling.org/findhelp/",
+          "hours": "Gates: Monday–Saturday, 7:00 AM–3:00 PM",
+          "how_to_access": "Arrive during open hours and ask staff about that day's meal schedule."
+        }
+      ]
+    },
+    {
+      "id": "community",
+      "title": "Churches and religious organizations",
+      "entries": [
+        {
+          "id": "ourcalling",
+          "title": "OurCalling",
+          "description": "Christian faith-based daytime outreach center for people sleeping outside. It offers meals, showers, laundry, care navigation, and placement referrals. It is not an overnight shelter. Ask staff about any religious activities and whether participation is optional.",
+          "last_verified": "2026-11-23",
+          "address": "1702 S. Cesar Chavez Boulevard, Dallas, TX 75215",
+          "phone": "+12144448796",
+          "website": "https://www.ourcalling.org/findhelp/",
+          "hours": "Monday–Saturday, 7:00 AM–3:00 PM",
+          "how_to_access": "Walk in during open hours or call the hotline."
+        }
+      ]
+    },
+    {
+      "id": "hygiene",
+      "title": "Showers, laundry and hygiene",
+      "entries": [
+        {
+          "id": "the-bridge-hygiene",
+          "title": "The Bridge — showers and laundry",
+          "description": "Free showers, laundry, meals, storage, mail, phones, case management, and other services for homeless adults.",
+          "last_verified": "2026-11-23",
+          "address": "1818 Corsicana Street, Dallas, TX 75201",
+          "phone": "+12146701100",
+          "website": "https://www.bridgehrc.org/",
+          "hours": "Day services 6:00 AM–5:00 PM",
+          "how_to_access": "Complete guest intake. No ID is required."
+        },
+        {
+          "id": "ourcalling-showers-laundry",
+          "title": "OurCalling — showers and laundry",
+          "description": "Showers and laundry are available on a limited schedule. Sign-up begins at 7:00 AM and capacity can fill. The official page says each service may be used every seven days.",
+          "last_verified": "2026-11-23",
+          "address": "1702 S. Cesar Chavez Boulevard, Dallas, TX 75215",
+          "phone": "+12144448796",
+          "website": "https://www.ourcalling.org/findhelp/",
+          "hours": "Shower sign-up 7:00 AM; showers 7:00 AM–1:00 PM; laundry walk-up 7:45–11:00 AM",
+          "how_to_access": "Arrive early. Ask staff for the current sign-up process."
+        }
+      ]
+    },
+    {
+      "id": "clothing",
+      "title": "Free clothing",
+      "entries": []
+    },
+    {
+      "id": "health",
+      "title": "Free or low-cost medical care",
+      "entries": [
+        {
+          "id": "the-bridge-health-connections",
+          "title": "The Bridge — health connections",
+          "description": "The Bridge provides access to physical-care partners and care management for homeless adults. Services and clinic availability vary; call or ask at intake. Call 911 for a medical emergency.",
+          "last_verified": "2026-11-23",
+          "address": "1818 Corsicana Street, Dallas, TX 75201",
+          "phone": "+12146701100",
+          "website": "https://www.bridgehrc.org/",
+          "hours": "Open 24/7; individual health services have their own schedules",
+          "how_to_access": "Complete guest intake and ask for physical health care."
+        }
+      ]
+    },
+    {
+      "id": "mental-health",
+      "title": "Mental health and substance use",
+      "entries": [
+        {
+          "id": "metrocare-homeless-outreach-clinics",
+          "title": "Metrocare homeless mental-health outreach",
+          "description": "Mental health and substance-use outreach and clinics for adults experiencing homelessness. Housing placement is through coordinated access; people cannot apply directly to Metrocare housing. Clinics operate at The Bridge and several other shelters.",
+          "last_verified": "2026-11-23",
+          "address": "1818 Corsicana Street, Dallas, TX 75201",
+          "phone": "",
+          "website": "https://www.metrocareservices.org/mental-health-services/homeless-housing/",
+          "hours": "The Bridge clinic: Monday–Friday, 8:00 AM–12:00 PM and 1:00–5:00 PM",
+          "how_to_access": "Visit a listed outreach clinic. For housing-resource screening, call 888-411-6802."
+        }
+      ]
+    },
+    {
+      "id": "public-facilities",
+      "title": "Public toilets and day services",
+      "entries": [
+        {
+          "id": "the-bridge-day-shelter",
+          "title": "The Bridge — day shelter",
+          "description": "A safe daytime space with restrooms, showers, laundry, meals, storage, mail, phones, computers, case management, and connections to services.",
+          "last_verified": "2026-11-23",
+          "address": "1818 Corsicana Street, Dallas, TX 75201",
+          "phone": "+12146701100",
+          "website": "https://www.bridgehrc.org/",
+          "hours": "Daily, 6:00 AM–5:00 PM",
+          "how_to_access": "Adults experiencing homelessness can complete intake without ID."
+        }
+      ]
+    },
+    {
+      "id": "phone-internet",
+      "title": "Phone charging and internet",
+      "entries": [
+        {
+          "id": "the-bridge-phones-computers",
+          "title": "The Bridge — phones and computer access",
+          "description": "The official service list includes phones, a library, and computer access for adult guests experiencing homelessness. Availability can vary.",
+          "last_verified": "2026-11-23",
+          "address": "1818 Corsicana Street, Dallas, TX 75201",
+          "phone": "+12146701100",
+          "website": "https://www.bridgehrc.org/",
+          "hours": "Day services 6:00 AM–5:00 PM",
+          "how_to_access": "Complete intake and ask staff about phone charging and computer use."
+        }
+      ]
+    },
+    {
+      "id": "transport",
+      "title": "Free or reduced-cost transportation",
+      "entries": []
+    },
+    {
+      "id": "benefits",
+      "title": "Government benefits",
+      "entries": [
+        {
+          "id": "your-texas-benefits",
+          "title": "Your Texas Benefits and 2-1-1 Texas",
+          "description": "Apply for or manage SNAP food benefits, Medicaid, TANF, and other Texas benefits. Calling 2-1-1 is free; choose a language and Option 2 for benefits help. Eligibility is not guaranteed.",
+          "last_verified": "2026-11-23",
+          "address": "",
+          "phone": "211",
+          "website": "https://www.hhs.texas.gov/contact",
+          "hours": "",
+          "how_to_access": "Call 2-1-1 or 877-541-7905, or apply online. Ask The Bridge for benefits assistance if you need help with the application."
+        }
+      ]
+    },
+    {
+      "id": "employment",
+      "title": "Employment assistance",
+      "entries": [
+        {
+          "id": "workforce-solutions-opportunity-center",
+          "title": "Workforce Solutions Greater Dallas — Opportunity Center",
+          "description": "Free job-search help, career counseling, access to computers and phones, training information, and referrals to job openings.",
+          "last_verified": "2026-11-23",
+          "address": "1610 S. Malcolm X Boulevard, Dallas, TX 75226",
+          "phone": "+14698021800",
+          "website": "https://www.wfsdallas.com/visit-a-center/",
+          "hours": "Monday–Friday, 8:00 AM–5:00 PM",
+          "how_to_access": "Walk in or call. Bring identification and work history if available, but ask staff what alternatives are accepted."
+        }
+      ]
+    },
+    {
+      "id": "legal",
+      "title": "Free legal aid",
+      "entries": [
+        {
+          "id": "legal-aid-northwest-texas-dallas",
+          "title": "Legal Aid of NorthWest Texas — Dallas",
+          "description": "Free civil legal help for eligible low-income people, including housing, eviction, public benefits, family law, consumer, employment, and driver-license matters. Help depends on eligibility, priorities, and capacity.",
+          "last_verified": "2026-11-23",
+          "address": "1515 Main Street, Dallas, TX 75201",
+          "phone": "+12147481234",
+          "website": "https://legalaidtx.org/locations/dallas/",
+          "hours": "Monday–Friday, 8:00 AM–5:00 PM",
+          "how_to_access": "Call or apply online. An application does not guarantee representation."
+        }
+      ]
+    },
+    {
+      "id": "documents",
+      "title": "Documents and identification",
+      "entries": [
+        {
+          "id": "the-stewpot-id-vital-records",
+          "title": "The Stewpot — ID and vital records",
+          "description": "Helps eligible people obtain a Texas ID, birth certificate, marriage license, school records, or other vital records. A referral letter from a shelter or qualifying agency is required. Services are for people sleeping outside or in an emergency shelter.",
+          "last_verified": "2026-11-23",
+          "address": "1610 S. Malcolm X Boulevard, Dallas, TX 75226",
+          "phone": "",
+          "website": "https://www.thestewpot.org/homeless-services",
+          "hours": "Monday–Thursday, 8:00 AM–3:00 PM",
+          "how_to_access": "Bring a referral letter. Ask a shelter or case manager to refer you."
+        }
+      ]
+    },
+    {
+      "id": "mail",
+      "title": "Mailing address",
+      "entries": [
+        {
+          "id": "the-stewpot-mail",
+          "title": "The Stewpot — mailing address",
+          "description": "Provides a mailing address for eligible unsheltered people. Shelter residents must bring a referral letter from the shelter. Eligibility rules exclude some other living situations.",
+          "last_verified": "2026-11-23",
+          "address": "1610 S. Malcolm X Boulevard, Dallas, TX 75226",
+          "phone": "",
+          "website": "https://www.thestewpot.org/homeless-services",
+          "hours": "Sign-up Monday–Thursday, 8:00 AM–3:00 PM; pickup times listed on the official page",
+          "how_to_access": "Bring a referral letter from a shelter or qualifying agency."
+        }
+      ]
+    },
+    {
+      "id": "storage",
+      "title": "Storage services",
+      "entries": [
+        {
+          "id": "the-bridge-storage",
+          "title": "The Bridge — storage",
+          "description": "Storage is available as part of The Bridge's free services for homeless adults. Space and rules can change.",
+          "last_verified": "2026-11-23",
+          "address": "1818 Corsicana Street, Dallas, TX 75201",
+          "phone": "+12146701100",
+          "website": "https://www.bridgehrc.org/",
+          "hours": "Day services 6:00 AM–5:00 PM",
+          "how_to_access": "Complete intake and ask about current storage limits."
+        }
+      ]
+    },
+    {
+      "id": "safety",
+      "title": "Domestic violence support",
+      "entries": [
+        {
+          "id": "the-family-place-crisis-hotline",
+          "title": "The Family Place — domestic and family violence",
+          "description": "Free, confidential 24-hour crisis hotline, emergency shelter, safety planning, legal advocacy, counseling, and transportation to shelter for survivors of domestic or family violence. Services are available in English and Spanish. Shelter locations are confidential.",
+          "last_verified": "2026-11-23",
+          "address": "",
+          "phone": "+12149411991",
+          "website": "https://familyplace.org/get-help/",
+          "hours": "24 hours",
+          "how_to_access": "Call from a safe place if possible. In immediate danger, call 911."
+        }
+      ]
+    },
+    {
+      "id": "specialist-support",
+      "title": "Specialist support",
+      "entries": []
+    },
+    {
+      "id": "veterans",
+      "title": "Veterans assistance",
+      "entries": [
+        {
+          "id": "homeless-veterans-call-center",
+          "title": "National Call Center for Homeless Veterans",
+          "description": "Free, confidential help for veterans who are homeless or at risk, and for people calling on their behalf. Connects callers to local VA housing, health care, and other services.",
+          "last_verified": "2026-11-23",
+          "address": "",
+          "phone": "+18774243838",
+          "website": "https://department.va.gov/homeless/nationalcallcenter/",
+          "hours": "24 hours, 7 days a week",
+          "how_to_access": "Call or use the official online chat. In immediate danger, call 911."
+        }
+      ]
+    },
+    {
+      "id": "pets",
+      "title": "Help for people with pets",
+      "entries": [
+        {
+          "id": "the-bridge-canine-kennel",
+          "title": "The Bridge — canine kennel",
+          "description": "On-site kennel for guests' dogs, with food, shelter, and veterinary services. The official site lists 16 spaces, so availability is limited.",
+          "last_verified": "2026-11-23",
+          "address": "1818 Corsicana Street, Dallas, TX 75201",
+          "phone": "+12146701100",
+          "website": "https://www.bridgehrc.org/",
+          "hours": "",
+          "how_to_access": "Call guest intake at 214-670-1507 before traveling with a dog and ask about space and requirements."
+        }
+      ]
+    },
+    {
+      "id": "other",
+      "title": "Other useful resources",
+      "entries": [
+        {
+          "id": "dallas-311-homeless-support",
+          "title": "Dallas 311",
+          "description": "City non-emergency service line. It can connect people to homelessness outreach and city services. Outside Dallas dialing area, call 214-670-3111. A request does not guarantee immediate outreach or shelter.",
+          "last_verified": "2026-11-23",
+          "address": "",
+          "phone": "311",
+          "website": "https://dallascityhall.com/services/311/Pages/about_us.aspx",
+          "hours": "24 hours for urgent city requests",
+          "how_to_access": "For shelter and housing resources, also call the Housing Forward Crisis Helpline at 888-411-6802."
+        }
+      ]
+    }
+  ]
+}

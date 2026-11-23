@@ -1,0 +1,337 @@
+{
+  "$schema": "https://nohomehelp.com/schemas/city.schema.json",
+  "documentation": "https://github.com/carlosbranco/no-home-help/blob/main/EDIT_CITY_JSON.md",
+  "schema_version": 2,
+  "status": "published",
+  "locale": {
+    "language": "pt-BR",
+    "direction": "ltr",
+    "primary": true
+  },
+  "location": {
+    "continent": "Americas",
+    "country_code": "BR",
+    "country_name": "Brazil",
+    "country_local_name": "Brasil",
+    "country_slug": "brazil",
+    "region_code": "07",
+    "region_name": "Federal District",
+    "region_slug": "federal-district",
+    "city_name": "Brasília",
+    "city_slug": "brasilia"
+  },
+  "seo": {
+    "title": "Brasília — apoio a pessoas em situação de rua - No Home Help",
+    "description": "Acolhimento, alimentação, higiene, saúde, benefícios, emprego e apoio jurídico verificados para pessoas em situação de rua em Brasília."
+  },
+  "page": {
+    "heading": "BRASÍLIA — APOIO A PESSOAS EM SITUAÇÃO DE RUA",
+    "last_verified": "2026-11-23",
+    "urgent": "Emergência médica: 192. Polícia e perigo imediato: 190. Abordagem social: 156.",
+    "notice": "A disponibilidade e os critérios podem mudar. Ligue antes. Uma referência não garante vaga, refeição, consulta, benefício ou emprego.",
+    "intro": "Para apoio social, alimentação, banho, documentos ou encaminhamento para acolhimento, comece pelo Centro POP Brasília ou pelo 156.",
+    "footer": "A disponibilidade, os horários e os critérios podem mudar. Ligue antes sempre que possível. Comunique erros através do link do GitHub no rodapé."
+  },
+  "categories": [
+    {
+      "id": "emergency",
+      "title": "Ajuda de emergência",
+      "entries": [
+        {
+          "id": "samu-192",
+          "title": "SAMU 192 — emergência médica",
+          "description": "Ligue 192 em caso de urgência ou emergência médica. Para perigo imediato, violência ou necessidade policial, ligue 190.",
+          "last_verified": "2026-11-23",
+          "address": "",
+          "phone": "192",
+          "website": "https://www.gov.br/mulheres/pt-br/central-de-conteudos/noticias/2026/outubro-defeso-eleitoral/saude-mental-e-combate-a-violencia-de-genero-saiba-como-acessar-a-rede-publica-de-apoio-e-cuidados",
+          "hours": "24 horas",
+          "how_to_access": "Informe o que aconteceu e a localização exata."
+        }
+      ]
+    },
+    {
+      "id": "shelter",
+      "title": "Alojamento e habitação",
+      "entries": [
+        {
+          "id": "acolhimento-institucional-sedes",
+          "title": "Acolhimento institucional para adultos e famílias — SEDES",
+          "description": "O acesso às casas de passagem e unidades de acolhimento do DF é feito por encaminhamento da rede socioassistencial, incluindo Centro POP e equipes de abordagem social. Não vá a uma unidade supondo que existe vaga; a entrada depende de avaliação, perfil e capacidade.",
+          "last_verified": "2026-11-23",
+          "address": "",
+          "phone": "",
+          "website": "https://www.agenciabrasilia.df.gov.br/w/saiba-como-funciona-o-servico-de-acolhimento-institucional-do-df",
+          "hours": "",
+          "how_to_access": "Procure o Centro POP Brasília ou ligue 156 para pedir abordagem e encaminhamento."
+        },
+        {
+          "id": "centro-comunitario-sao-lucas",
+          "title": "Centro Comunitário São Lucas — casa de passagem",
+          "description": "Unidade parceira de acolhimento para adultos e famílias, listada pela SEDES com 40 vagas. Não funciona como entrada direta garantida; o acolhimento depende de encaminhamento e vaga. Outro telefone: (61) 3372-7611.",
+          "last_verified": "2026-11-23",
+          "address": "QNM 33, Módulo A, Área Especial, Ceilândia, Brasília - DF",
+          "phone": "+556133713339",
+          "website": "https://www.sedes.df.gov.br/documents/d/sedes/mulheres-e-familia-pdf",
+          "hours": "24 horas como unidade de acolhimento",
+          "how_to_access": "Solicite encaminhamento pelo Centro POP ou pelo Serviço Especializado em Abordagem Social, via 156."
+        }
+      ]
+    },
+    {
+      "id": "food",
+      "title": "Alimentação",
+      "entries": [
+        {
+          "id": "centro-pop-brasilia-alimentacao",
+          "title": "Centro POP Brasília — refeições",
+          "description": "Ponto de apoio para pessoas adultas em situação de rua. Oferece alimentação, atendimento social, banho, lavandaria, guarda de pertences e apoio documental. Não é abrigo. Telefones publicados antes da mudança de endereço: (61) 3773-7561, 3773-7562 e 3773-7563.",
+          "last_verified": "2026-11-23",
+          "address": "SGON, Quadra 4, Lote 3, Brasília - DF",
+          "phone": "+556137737561",
+          "website": "https://www.agenciabrasilia.df.gov.br/w/centro-pop-brasilia-registra-105-mil-acessos-no-primeiro-mes-em-novo-endereco",
+          "hours": "Dias úteis; confirme o horário por telefone",
+          "how_to_access": "Pessoas em situação de rua com 18 anos ou mais podem procurar diretamente, sem marcação e sem documento obrigatório."
+        },
+        {
+          "id": "restaurantes-comunitarios-df",
+          "title": "Restaurantes Comunitários do DF",
+          "description": "As refeições disponíveis nos Restaurantes Comunitários são gratuitas para pessoas em situação de rua. A rede e os horários variam por unidade; confirme qual restaurante está aberto e quais refeições serve.",
+          "last_verified": "2026-11-23",
+          "address": "",
+          "phone": "",
+          "website": "https://agenciabrasilia.df.gov.br/w/refeicoes-gratuitas-restaurantes-comunitarios-reforcam-seguranca-alimentar-para-pessoas-em-situacao-de-vulnerabilidade-no-df",
+          "hours": "",
+          "how_to_access": "Consulte a lista atual ou peça orientação no Centro POP/156. A gratuidade é destinada à população em situação de rua."
+        }
+      ]
+    },
+    {
+      "id": "community",
+      "title": "Apoio comunitário e religioso",
+      "entries": []
+    },
+    {
+      "id": "hygiene",
+      "title": "Banho, lavandaria e higiene",
+      "entries": [
+        {
+          "id": "centro-pop-brasilia-higiene",
+          "title": "Centro POP Brasília — banho e lavandaria",
+          "description": "Oferece banho, lavandaria, alimentação, guarda de pertences e acompanhamento social. É um serviço diurno, não um abrigo.",
+          "last_verified": "2026-11-23",
+          "address": "SGON, Quadra 4, Lote 3, Brasília - DF",
+          "phone": "+556137737561",
+          "website": "https://www.agenciabrasilia.df.gov.br/w/centro-pop-brasilia-registra-105-mil-acessos-no-primeiro-mes-em-novo-endereco",
+          "hours": "Dias úteis; confirme o horário por telefone",
+          "how_to_access": "Acesso direto para pessoas em situação de rua com 18 anos ou mais; não exige marcação nem documentação."
+        }
+      ]
+    },
+    {
+      "id": "clothing",
+      "title": "Roupa",
+      "entries": []
+    },
+    {
+      "id": "health",
+      "title": "Cuidados de saúde",
+      "entries": [
+        {
+          "id": "ubs-df-sem-documentos",
+          "title": "Unidades Básicas de Saúde — atendimento sem documentos",
+          "description": "O acolhimento numa UBS não pode ser negado por falta de documentos. Pessoas em situação de rua podem procurar atendimento; urgências, vacinação e farmácia básica podem ser acessadas em qualquer UBS, conforme o serviço disponível.",
+          "last_verified": "2026-11-23",
+          "address": "",
+          "phone": "",
+          "website": "https://info.saude.df.gov.br/busca-saude-ubs/",
+          "hours": "Varia por unidade",
+          "how_to_access": "Use o localizador oficial para encontrar uma UBS. Em emergência médica, ligue 192."
+        }
+      ]
+    },
+    {
+      "id": "mental-health",
+      "title": "Saúde mental e dependências",
+      "entries": [
+        {
+          "id": "rede-saude-mental-populacao-rua",
+          "title": "Rede de saúde mental e Consultório na Rua",
+          "description": "As equipas de Consultório na Rua, UBS e Rede de Atenção Psicossocial atendem pessoas em situação de rua, incluindo problemas de saúde mental e uso de álcool e outras drogas. O Centro POP pode ajudar no encaminhamento.",
+          "last_verified": "2026-11-23",
+          "address": "",
+          "phone": "",
+          "website": "https://agenciabrasilia.df.gov.br/w/df-estabelece-novo-fluxo-de-atendimento-de-saude-mental-a-populacao-em-situacao-de-rua",
+          "hours": "",
+          "how_to_access": "Procure uma UBS ou o Centro POP. Em risco imediato para a vida, ligue 192 ou 190."
+        }
+      ]
+    },
+    {
+      "id": "public-facilities",
+      "title": "Sanitários públicos e serviços diurnos",
+      "entries": [
+        {
+          "id": "centro-pop-brasilia-servico-diurno",
+          "title": "Centro POP Brasília — serviço diurno",
+          "description": "Espaço de convivência e apoio com sanitários, banho, lavandaria, alimentação e atendimento socioassistencial. Não oferece pernoita.",
+          "last_verified": "2026-11-23",
+          "address": "SGON, Quadra 4, Lote 3, Brasília - DF",
+          "phone": "+556137737561",
+          "website": "https://www.agenciabrasilia.df.gov.br/w/centro-pop-brasilia-registra-105-mil-acessos-no-primeiro-mes-em-novo-endereco",
+          "hours": "Dias úteis; confirme o horário por telefone",
+          "how_to_access": "Acesso direto para maiores de 18 anos em situação de rua."
+        }
+      ]
+    },
+    {
+      "id": "phone-internet",
+      "title": "Carregamento de telefone e internet",
+      "entries": []
+    },
+    {
+      "id": "transport",
+      "title": "Transporte",
+      "entries": []
+    },
+    {
+      "id": "benefits",
+      "title": "Benefícios públicos e apoio social",
+      "entries": [
+        {
+          "id": "centro-pop-cadastro-unico-beneficios",
+          "title": "Centro POP — Cadastro Único e benefícios",
+          "description": "A equipa orienta sobre direitos, Cadastro Único, benefícios socioassistenciais e outros serviços públicos. A concessão de qualquer benefício depende dos critérios do programa.",
+          "last_verified": "2026-11-23",
+          "address": "SGON, Quadra 4, Lote 3, Brasília - DF",
+          "phone": "+556137737561",
+          "website": "https://www.sedes.df.gov.br/wp-conteudo/uploads/2024/08/Carta-de-Servicos-2024-2.pdf",
+          "hours": "Dias úteis; confirme o horário por telefone",
+          "how_to_access": "Pode procurar diretamente sem marcação e sem documento obrigatório; leve os documentos que possuir."
+        }
+      ]
+    },
+    {
+      "id": "employment",
+      "title": "Emprego",
+      "entries": [
+        {
+          "id": "agencia-trabalhador-plano-piloto-i",
+          "title": "Agência do Trabalhador — Plano Piloto I",
+          "description": "Cadastro e encaminhamento para vagas, orientação e serviços de emprego. As vagas e os requisitos mudam diariamente. Outro telefone: (61) 3773-9470.",
+          "last_verified": "2026-11-23",
+          "address": "SEPN Quadra 511, Bloco A, térreo, Asa Norte, Brasília - DF 70750-541",
+          "phone": "+556137739482",
+          "website": "https://www.agenciabrasilia.df.gov.br/w/ag%C3%AAncias-do-trabalhador-oferecem-mais-de-mil-vagas-nesta-ter%C3%A7a-30-",
+          "hours": "Segunda a sexta, 08:00–17:00",
+          "how_to_access": "Cadastre o currículo na Carteira de Trabalho Digital ou vá à agência. Peça orientação se lhe faltarem documentos."
+        }
+      ]
+    },
+    {
+      "id": "legal",
+      "title": "Apoio jurídico",
+      "entries": [
+        {
+          "id": "disque-defensoria-129",
+          "title": "Defensoria Pública do Distrito Federal — 129",
+          "description": "Orientação e triagem jurídica gratuita para pessoas que não podem pagar advogado, sujeita a critérios e análise do caso. Pessoas fora do DF podem ligar (61) 3465-8200.",
+          "last_verified": "2026-11-23",
+          "address": "",
+          "phone": "129",
+          "website": "https://escola.defensoria.df.gov.br/wp-content/uploads/2025/09/Cartilha-CRC-Central-de-Relacionamento-com-os-Cidadaos-DPDF.pdf",
+          "hours": "Dias úteis, 09:00–17:00",
+          "how_to_access": "Ligue 129 para triagem. Para violência doméstica, escolha a opção 2."
+        }
+      ]
+    },
+    {
+      "id": "documents",
+      "title": "Documentos e identificação",
+      "entries": [
+        {
+          "id": "centro-pop-documentacao",
+          "title": "Centro POP Brasília — documentação civil",
+          "description": "Apoio para obtenção ou regularização de documentação civil e encaminhamento aos órgãos responsáveis.",
+          "last_verified": "2026-11-23",
+          "address": "SGON, Quadra 4, Lote 3, Brasília - DF",
+          "phone": "+556137737561",
+          "website": "https://www.agenciabrasilia.df.gov.br/w/centro-pop-brasilia-registra-105-mil-acessos-no-primeiro-mes-em-novo-endereco",
+          "hours": "Dias úteis; confirme o horário por telefone",
+          "how_to_access": "Pode procurar diretamente mesmo sem documentos."
+        }
+      ]
+    },
+    {
+      "id": "mail",
+      "title": "Endereço postal",
+      "entries": []
+    },
+    {
+      "id": "storage",
+      "title": "Guarda de pertences",
+      "entries": [
+        {
+          "id": "centro-pop-guarda-pertences",
+          "title": "Centro POP Brasília — guarda de pertences",
+          "description": "Guarda de pertences como parte do serviço diurno. Espaço, regras e duração podem variar.",
+          "last_verified": "2026-11-23",
+          "address": "SGON, Quadra 4, Lote 3, Brasília - DF",
+          "phone": "+556137737561",
+          "website": "https://www.agenciabrasilia.df.gov.br/w/centro-pop-brasilia-registra-105-mil-acessos-no-primeiro-mes-em-novo-endereco",
+          "hours": "Dias úteis; confirme o horário por telefone",
+          "how_to_access": "Pergunte na receção sobre regras e espaço disponível."
+        }
+      ]
+    },
+    {
+      "id": "safety",
+      "title": "Segurança e violência doméstica",
+      "entries": [
+        {
+          "id": "ligue-180",
+          "title": "Ligue 180 — violência contra a mulher",
+          "description": "Central gratuita de atendimento à mulher. Oferece orientação, regista denúncias e indica serviços próximos. WhatsApp: (61) 9610-0180. Em perigo imediato, ligue 190.",
+          "last_verified": "2026-11-23",
+          "address": "",
+          "phone": "180",
+          "website": "https://www.gov.br/mulheres/pt-br/ligue180",
+          "hours": "24 horas",
+          "how_to_access": "Ligue ou envie mensagem a partir de um local seguro, se possível."
+        }
+      ]
+    },
+    {
+      "id": "specialist-support",
+      "title": "Apoio especializado",
+      "entries": [
+        {
+          "id": "abordagem-social-156",
+          "title": "Serviço Especializado em Abordagem Social — 156",
+          "description": "Equipas fazem busca ativa, escuta, orientação e encaminhamento de pessoas em situação de rua para Centro POP, acolhimento, saúde e outros serviços. O pedido não garante recolha imediata nem vaga.",
+          "last_verified": "2026-11-23",
+          "address": "",
+          "phone": "156",
+          "website": "https://www.agenciabrasilia.df.gov.br/w/acao-de-acolhimento-atendeu-68-pessoas-em-situacao-de-rua-em-diferentes-pontos-do-df",
+          "hours": "",
+          "how_to_access": "Ligue 156 e informe a localização exata, referências próximas e necessidades urgentes."
+        }
+      ]
+    },
+    {
+      "id": "veterans",
+      "title": "Apoio a veteranos",
+      "entries": []
+    },
+    {
+      "id": "pets",
+      "title": "Ajuda para pessoas com animais",
+      "entries": []
+    },
+    {
+      "id": "other",
+      "title": "Outros recursos úteis",
+      "entries": []
+    }
+  ]
+}

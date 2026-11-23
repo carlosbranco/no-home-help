@@ -1,0 +1,300 @@
+{
+  "$schema": "https://nohomehelp.com/schemas/city.schema.json",
+  "documentation": "https://github.com/carlosbranco/no-home-help/blob/main/EDIT_CITY_JSON.md",
+  "schema_version": 2,
+  "status": "published",
+  "locale": {
+    "language": "es",
+    "direction": "ltr",
+    "primary": true
+  },
+  "location": {
+    "continent": "Americas",
+    "country_code": "PA",
+    "country_name": "Panama",
+    "country_local_name": "Panamá",
+    "country_slug": "panama",
+    "region_code": "08",
+    "region_name": "Panamá",
+    "region_slug": "panama",
+    "city_name": "Ciudad de Panamá",
+    "city_slug": "ciudad-de-panama"
+  },
+  "seo": {
+    "title": "Ciudad de Panamá — ayuda para personas sin hogar - No Home Help",
+    "description": "Alojamiento, alimentación, apoyo social, salud mental, empleo y asistencia legal verificados en Ciudad de Panamá."
+  },
+  "page": {
+    "heading": "CIUDAD DE PANAMÁ — AYUDA PARA PERSONAS SIN HOGAR",
+    "last_verified": "2026-11-23",
+    "urgent": "Emergencia médica: 911. Policía: 104. Apoyo psicológico y social MIDES: 147.",
+    "notice": "Los servicios y las plazas pueden cambiar. Llame antes. Una referencia no garantiza cama, comida, cita, prestación ni empleo.",
+    "intro": "Para solicitar orientación social o alojamiento, comience por la Línea 147 o contacte directamente el recurso que corresponda a su situación.",
+    "footer": "La disponibilidad, los horarios y los requisitos pueden cambiar. Llame antes cuando sea posible. Informe errores mediante el enlace de GitHub al pie de la página."
+  },
+  "categories": [
+    {
+      "id": "emergency",
+      "title": "Ayuda de emergencia",
+      "entries": [
+        {
+          "id": "sume-911",
+          "title": "SUME 911 — emergencias médicas",
+          "description": "Número gratuito para emergencias médicas que ponen en riesgo la vida. El centro puede coordinar o transferir otros servicios de emergencia.",
+          "last_verified": "2026-11-23",
+          "address": "",
+          "phone": "911",
+          "website": "https://sume911.pa/acerca-de/como-funciona",
+          "hours": "24 horas",
+          "how_to_access": "Indique qué ocurre y la ubicación exacta."
+        },
+        {
+          "id": "policia-nacional-104",
+          "title": "Policía Nacional — 104",
+          "description": "Llame al 104 ante peligro inmediato o cuando necesite asistencia policial.",
+          "last_verified": "2026-11-23",
+          "address": "",
+          "phone": "104",
+          "website": "https://www.policia.gob.pa/home25.php",
+          "hours": "24 horas",
+          "how_to_access": "Para urgencias médicas, use el 911."
+        }
+      ]
+    },
+    {
+      "id": "shelter",
+      "title": "Albergue y vivienda",
+      "entries": [
+        {
+          "id": "centro-san-juan-pablo-ii",
+          "title": "Centro de Orientación y Atención Integral San Juan Pablo II",
+          "description": "Organización que presta alojamiento temporal y atención a personas en situación de calle y vulnerabilidad. La plaza no está garantizada y el acceso puede requerir entrevista o derivación.",
+          "last_verified": "2026-11-23",
+          "address": "Calle Estudiante, cerca de la Asamblea Nacional, Santa Ana, Ciudad de Panamá",
+          "phone": "+50769101967",
+          "website": "https://www.cancilleria.gob.ec/wp-content/uploads/2025/05/Catalogo-ServiciosV6.pdf",
+          "hours": "",
+          "how_to_access": "Llame para confirmar la ubicación exacta, el proceso de ingreso y la disponibilidad."
+        },
+        {
+          "id": "hogar-luisa",
+          "title": "Hogar Luisa — personas refugiadas y migrantes",
+          "description": "Albergue temporal y apoyo social, psicológico, jurídico y pastoral para personas refugiadas y migrantes. La admisión depende del perfil, entrevista y capacidad. Otro teléfono publicado: 224-0970.",
+          "last_verified": "2026-11-23",
+          "address": "Parque Lefevre, Calle 92 y Avenida 3 Sur, Calle 8va, frente al Gimnasio Gringo de la Guardia, casa 11, Ciudad de Panamá",
+          "phone": "+5072037600",
+          "website": "https://www.movilidadhumanapanama.org/hogar-luisa/",
+          "hours": "Lunes a viernes, 08:00–16:00",
+          "how_to_access": "Llame antes y explique su situación migratoria y necesidad de alojamiento."
+        }
+      ]
+    },
+    {
+      "id": "food",
+      "title": "Alimentación",
+      "entries": [
+        {
+          "id": "centro-san-juan-pablo-ii-alimentacion",
+          "title": "Centro San Juan Pablo II — alimentación",
+          "description": "El catálogo consular ecuatoriano incluye alimentación y alojamiento entre los servicios. La disponibilidad y los horarios pueden cambiar.",
+          "last_verified": "2026-11-23",
+          "address": "Calle Estudiante, cerca de la Asamblea Nacional, Santa Ana, Ciudad de Panamá",
+          "phone": "+50769101967",
+          "website": "https://www.cancilleria.gob.ec/wp-content/uploads/2025/05/Catalogo-ServiciosV6.pdf",
+          "hours": "",
+          "how_to_access": "Llame antes para confirmar el horario y el acceso a comidas."
+        },
+        {
+          "id": "comedor-santa-ana-obras-misericordia",
+          "title": "Comedor de Obras de Misericordia — Santa Ana",
+          "description": "Directorio de obras sociales de Panamá indica entrega de comidas a personas en situación de calle en el sector de Santa Ana. No se encontró teléfono u horario público reciente.",
+          "last_verified": "2026-11-23",
+          "address": "Calle 14 con Calle 13, Santa Ana, Ciudad de Panamá",
+          "phone": "",
+          "website": "https://pges.org.pa/wp-content/uploads/Directorio-Obras-de-Misericordia-Final-Publicado.pdf",
+          "hours": "",
+          "how_to_access": "Confirme localmente antes de depender de este punto; los horarios pueden cambiar."
+        }
+      ]
+    },
+    {
+      "id": "community",
+      "title": "Ayuda comunitaria y religiosa",
+      "entries": [
+        {
+          "id": "caritas-arquidiocesana-panama",
+          "title": "Cáritas Arquidiocesana de Panamá",
+          "description": "Organización católica que orienta y presta apoyo social según programas y disponibilidad. La oficina no debe asumirse como albergue ni comedor.",
+          "last_verified": "2026-11-23",
+          "address": "Carrasquilla, junto a la Iglesia de Lourdes, oficina 106, Ciudad de Panamá",
+          "phone": "+5072290554",
+          "website": "https://arquidiocesisdepanama.org/wp-content/uploads/2026/02/DIRECTORIO-PASTORALES-SOCIALES-ESPECIALIZADAS_-003.pdf",
+          "hours": "",
+          "how_to_access": "Llame para explicar la necesidad y preguntar por el servicio o parroquia más adecuado."
+        }
+      ]
+    },
+    {
+      "id": "hygiene",
+      "title": "Duchas, lavandería e higiene",
+      "entries": []
+    },
+    {
+      "id": "clothing",
+      "title": "Ropa",
+      "entries": []
+    },
+    {
+      "id": "health",
+      "title": "Atención de salud",
+      "entries": []
+    },
+    {
+      "id": "mental-health",
+      "title": "Salud mental y adicciones",
+      "entries": [
+        {
+          "id": "linea-147-salud-mental",
+          "title": "Línea 147 — apoyo psicológico y social",
+          "description": "Línea gratuita del MIDES para apoyo psicológico, salud mental, orientación social y canalización. WhatsApp publicado: +507 6694-2747. No sustituye al 911 en una emergencia médica o peligro inmediato.",
+          "last_verified": "2026-11-23",
+          "address": "",
+          "phone": "147",
+          "website": "https://www.mides.gob.pa/2025/10/10/mides-y-metro-de-panama-firman-memorando-de-entendimiento-para-promover-la-salud-mental-y-el-bienestar-social/",
+          "hours": "24 horas",
+          "how_to_access": "Llame al 147 o escriba al WhatsApp; use 911 si hay riesgo inmediato para la vida."
+        }
+      ]
+    },
+    {
+      "id": "public-facilities",
+      "title": "Baños públicos y centros diurnos",
+      "entries": []
+    },
+    {
+      "id": "phone-internet",
+      "title": "Carga de teléfono e internet",
+      "entries": []
+    },
+    {
+      "id": "transport",
+      "title": "Transporte",
+      "entries": []
+    },
+    {
+      "id": "benefits",
+      "title": "Beneficios públicos y apoyo social",
+      "entries": [
+        {
+          "id": "mides-linea-147",
+          "title": "MIDES — Línea 147 y Centro de Atención y Orientación Integral",
+          "description": "Orientación sobre problemas sociales, solicitudes de albergue, beneficios y servicios para personas o familias en riesgo. La ayuda depende de evaluación y disponibilidad.",
+          "last_verified": "2026-11-23",
+          "address": "",
+          "phone": "147",
+          "website": "https://www.mides.gob.pa/ptmc/centro-de-atencion-y-orientacion-integral/",
+          "hours": "24 horas",
+          "how_to_access": "Explique su situación, ubicación y necesidad principal para solicitar canalización."
+        }
+      ]
+    },
+    {
+      "id": "employment",
+      "title": "Empleo",
+      "entries": [
+        {
+          "id": "mitradel-empleos-panama",
+          "title": "MITRADEL — Empleos Panamá",
+          "description": "Portal y orientación del Ministerio de Trabajo para buscar vacantes reales y servicios de empleo. El funcionamiento del portal y las vacantes pueden variar.",
+          "last_verified": "2026-11-23",
+          "address": "Plaza Edison, quinto piso, Ciudad de Panamá",
+          "phone": "",
+          "website": "https://www.mitradel.gob.pa/mitradel-te-conecta-con-oportunidades-de-empleos-reales-en-todo-el-pais/",
+          "hours": "",
+          "how_to_access": "Consulte el portal o acuda a MITRADEL; confirme antes si la plataforma está en mantenimiento."
+        }
+      ]
+    },
+    {
+      "id": "legal",
+      "title": "Asistencia legal",
+      "entries": [
+        {
+          "id": "cealp-asistencia-legal",
+          "title": "Centro de Asistencia Legal Popular — CEALP",
+          "description": "Orientación y asistencia jurídica para personas refugiadas, migrantes y otras personas vulnerables, según la guía oficial. La aceptación del caso depende de evaluación.",
+          "last_verified": "2026-11-23",
+          "address": "Avenida Cuba, Calle 39, edificio Tarraco S.A., local 1, Ciudad de Panamá",
+          "phone": "+5072275150",
+          "website": "https://www.mingob.gob.pa/wp-content/uploads/2025/10/GUIA-INFORMATIVA-REFUGIADOS.pdf",
+          "hours": "Lunes a viernes, 08:00–12:00 y 13:30–17:00",
+          "how_to_access": "Llame para confirmar elegibilidad y cita."
+        }
+      ]
+    },
+    {
+      "id": "documents",
+      "title": "Documentos e identificación",
+      "entries": []
+    },
+    {
+      "id": "mail",
+      "title": "Dirección postal",
+      "entries": []
+    },
+    {
+      "id": "storage",
+      "title": "Guardado de pertenencias",
+      "entries": []
+    },
+    {
+      "id": "safety",
+      "title": "Seguridad y violencia doméstica",
+      "entries": [
+        {
+          "id": "linea-182-inamu",
+          "title": "Línea 182 — violencia contra las mujeres",
+          "description": "Orientación y apoyo del Instituto Nacional de la Mujer para situaciones de violencia. Si existe peligro inmediato, llame al 104 o al 911.",
+          "last_verified": "2026-11-23",
+          "address": "",
+          "phone": "182",
+          "website": "https://www.consulado.gob.cl/consulado-contigo/redes-de-apoyo-en-ciudad-de-panama",
+          "hours": "24 horas",
+          "how_to_access": "Llame desde un lugar seguro. La línea puede orientar sobre protección y servicios."
+        }
+      ]
+    },
+    {
+      "id": "specialist-support",
+      "title": "Apoyo especializado",
+      "entries": [
+        {
+          "id": "hogar-luisa-movilidad-humana",
+          "title": "Hogar Luisa — movilidad humana",
+          "description": "Atención especializada para personas refugiadas y migrantes: orientación social, psicológica, jurídica y pastoral, además de alojamiento temporal según capacidad.",
+          "last_verified": "2026-11-23",
+          "address": "Parque Lefevre, Calle 92 y Avenida 3 Sur, Calle 8va, frente al Gimnasio Gringo de la Guardia, casa 11, Ciudad de Panamá",
+          "phone": "+5072037600",
+          "website": "https://help.unhcr.org/panama/donde-encontrar-ayuda/",
+          "hours": "Lunes a viernes, 08:00–16:00",
+          "how_to_access": "Llame antes para saber qué documentos o entrevista se requieren."
+        }
+      ]
+    },
+    {
+      "id": "veterans",
+      "title": "Apoyo para veteranos",
+      "entries": []
+    },
+    {
+      "id": "pets",
+      "title": "Ayuda para personas con animales",
+      "entries": []
+    },
+    {
+      "id": "other",
+      "title": "Otros recursos útiles",
+      "entries": []
+    }
+  ]
+}

@@ -1,0 +1,335 @@
+{
+  "$schema": "https://nohomehelp.com/schemas/city.schema.json",
+  "documentation": "https://github.com/carlosbranco/no-home-help/blob/main/EDIT_CITY_JSON.md",
+  "schema_version": 2,
+  "status": "published",
+  "locale": {
+    "language": "es",
+    "direction": "ltr",
+    "primary": true
+  },
+  "location": {
+    "continent": "Americas",
+    "country_code": "MX",
+    "country_name": "Mexico",
+    "country_local_name": "México",
+    "country_slug": "mexico",
+    "region_code": "02",
+    "region_name": "Baja California",
+    "region_slug": "baja-california",
+    "city_name": "Tijuana",
+    "city_slug": "tijuana"
+  },
+  "seo": {
+    "title": "Tijuana — ayuda para personas sin hogar - No Home Help",
+    "description": "Albergues, alimentación, higiene, salud, empleo y apoyo social verificados para personas sin hogar o en movilidad en Tijuana."
+  },
+  "page": {
+    "heading": "TIJUANA — AYUDA PARA PERSONAS SIN HOGAR",
+    "last_verified": "2026-11-23",
+    "urgent": "Peligro inmediato, incendio o urgencia médica: 911. Apoyo psicológico y orientación social DIF: 075.",
+    "notice": "La disponibilidad y los requisitos pueden cambiar. Llame antes. Una referencia no garantiza cama, comida, cita, prestación ni empleo.",
+    "intro": "Para alojamiento esta noche, contacte directamente los albergues y la Línea 075. La admisión depende del perfil, evaluación y espacio disponible.",
+    "footer": "La disponibilidad, los horarios y los requisitos pueden cambiar. Llame antes cuando sea posible. Informe errores mediante el enlace de GitHub al pie de la página."
+  },
+  "categories": [
+    {
+      "id": "emergency",
+      "title": "Ayuda de emergencia",
+      "entries": [
+        {
+          "id": "emergencias-911",
+          "title": "Emergencias — 911",
+          "description": "Llame al 911 ante peligro inmediato, violencia, incendio o urgencia médica.",
+          "last_verified": "2026-11-23",
+          "address": "",
+          "phone": "911",
+          "website": "https://www.tijuana.gob.mx/",
+          "hours": "",
+          "how_to_access": "Indique la ubicación exacta y qué está ocurriendo."
+        },
+        {
+          "id": "linea-apoyo-075",
+          "title": "Línea de Apoyo 075 — DIF Tijuana",
+          "description": "Línea gratuita de apoyo psicológico y orientación social. También recibe reportes sobre personas adultas mayores que viven en la calle y puede orientar o canalizar casos. No sustituye al 911.",
+          "last_verified": "2026-11-23",
+          "address": "",
+          "phone": "075",
+          "website": "https://dif.tijuana.gob.mx/familia.aspx",
+          "hours": "24 horas",
+          "how_to_access": "Llame al 075; ante peligro inmediato use el 911."
+        }
+      ]
+    },
+    {
+      "id": "shelter",
+      "title": "Albergue y vivienda",
+      "entries": [
+        {
+          "id": "casa-del-migrante-tijuana",
+          "title": "Casa del Migrante en Tijuana",
+          "description": "Albergue gratuito y servicios para personas en movilidad. Puede ofrecer alojamiento, alimentación, ropa, higiene, atención médica y apoyo documental, según criterios y capacidad. La admisión y la cama no están garantizadas.",
+          "last_verified": "2026-11-23",
+          "address": "Calle Galileo 239, Colonia Postal, Tijuana, Baja California 22416",
+          "phone": "+526646825180",
+          "website": "https://help.unhcr.org/mexico/donde-encontrar-ayuda/albergues/",
+          "hours": "Todos los días, 09:00–21:00",
+          "how_to_access": "Llame antes o acuda dentro del horario para solicitar evaluación."
+        },
+        {
+          "id": "instituto-madre-asunta",
+          "title": "Instituto Madre Asunta",
+          "description": "Albergue gratuito para mujeres solas y mujeres con hijos; la ficha de ACNUR indica que los niños varones deben ser menores de 10 años. La admisión depende de evaluación, reglas y espacio disponible.",
+          "last_verified": "2026-11-23",
+          "address": "Calle Galileo 2305, Colonia Postal, Tijuana, Baja California",
+          "phone": "+526646830575",
+          "website": "https://help.unhcr.org/mexico/donde-encontrar-ayuda/albergues/",
+          "hours": "Lunes a viernes, 08:00–17:00; sábado, 08:00–13:00",
+          "how_to_access": "Llame antes y explique quién necesita alojamiento."
+        },
+        {
+          "id": "casa-de-los-pobres",
+          "title": "Casa de los Pobres",
+          "description": "Organización católica que figura en el estudio municipal de albergues como recurso para mujeres, hombres y familias, incluidas personas en situación de calle. Los servicios y la capacidad pueden cambiar; llame antes.",
+          "last_verified": "2026-11-23",
+          "address": "Calle Genoveva 6511, Colonia Altamira, Tijuana, Baja California",
+          "phone": "+526646871340",
+          "website": "https://iglesiatijuana.org/web/pobres-4/",
+          "hours": "",
+          "how_to_access": "Solicite información sobre comida, albergue, higiene y proceso de admisión."
+        }
+      ]
+    },
+    {
+      "id": "food",
+      "title": "Alimentación",
+      "entries": [
+        {
+          "id": "proyecto-salesiano-tijuana",
+          "title": "Proyecto Salesiano Tijuana — comedor",
+          "description": "Organización salesiana que mantiene comedor y otros apoyos para población migrante y vulnerable. La dirección es la oficina publicada; confirme por teléfono dónde se sirve la comida y a qué hora.",
+          "last_verified": "2026-11-23",
+          "address": "Avenida Venustiano Carranza 6250, Colonia Castillo, Tijuana, Baja California 22050",
+          "phone": "+526646871050",
+          "website": "https://www.salesianostijuanapst.org/",
+          "hours": "",
+          "how_to_access": "Llame antes para confirmar el punto de acceso y el horario del comedor."
+        },
+        {
+          "id": "casa-de-los-pobres-alimentos",
+          "title": "Casa de los Pobres — alimentos",
+          "description": "Apoyo alimentario de una organización católica local. La disponibilidad, modalidad y requisitos pueden variar.",
+          "last_verified": "2026-11-23",
+          "address": "Calle Genoveva 6511, Colonia Altamira, Tijuana, Baja California",
+          "phone": "+526646871340",
+          "website": "https://iglesiatijuana.org/web/pobres-4/",
+          "hours": "",
+          "how_to_access": "Llame para conocer el horario y los requisitos actuales."
+        }
+      ]
+    },
+    {
+      "id": "community",
+      "title": "Ayuda comunitaria y religiosa",
+      "entries": [
+        {
+          "id": "proyecto-salesiano-apoyo",
+          "title": "Proyecto Salesiano Tijuana",
+          "description": "Organización católica salesiana con comedor, albergue y acompañamiento. La participación religiosa no debe suponerse obligatoria; pregunte directamente por las condiciones del servicio que necesita.",
+          "last_verified": "2026-11-23",
+          "address": "Avenida Venustiano Carranza 6250, Colonia Castillo, Tijuana, Baja California 22050",
+          "phone": "+526646871050",
+          "website": "https://www.salesianostijuanapst.org/",
+          "hours": "",
+          "how_to_access": "Llame para conocer los servicios activos y el acceso."
+        }
+      ]
+    },
+    {
+      "id": "hygiene",
+      "title": "Duchas, lavandería e higiene",
+      "entries": [
+        {
+          "id": "casa-del-migrante-higiene",
+          "title": "Casa del Migrante — higiene y artículos básicos",
+          "description": "El directorio de ACNUR indica que Casa del Migrante ofrece higiene, ropa y otros servicios a personas en movilidad. Disponibilidad sujeta a evaluación y existencias.",
+          "last_verified": "2026-11-23",
+          "address": "Calle Galileo 239, Colonia Postal, Tijuana, Baja California 22416",
+          "phone": "+526646825180",
+          "website": "https://help.unhcr.org/mexico/donde-encontrar-ayuda/albergues/",
+          "hours": "Todos los días, 09:00–21:00",
+          "how_to_access": "Pregunte en admisión por duchas y artículos de higiene."
+        }
+      ]
+    },
+    {
+      "id": "clothing",
+      "title": "Ropa",
+      "entries": []
+    },
+    {
+      "id": "health",
+      "title": "Atención de salud",
+      "entries": [
+        {
+          "id": "casa-del-migrante-atencion-medica",
+          "title": "Casa del Migrante — orientación y atención médica",
+          "description": "El directorio de ACNUR incluye atención médica entre sus servicios para personas en movilidad. No sustituye a urgencias hospitalarias; use el 911 en una emergencia.",
+          "last_verified": "2026-11-23",
+          "address": "Calle Galileo 239, Colonia Postal, Tijuana, Baja California 22416",
+          "phone": "+526646825180",
+          "website": "https://help.unhcr.org/mexico/donde-encontrar-ayuda/albergues/",
+          "hours": "Todos los días, 09:00–21:00",
+          "how_to_access": "Solicite evaluación en el albergue o llame para confirmar."
+        }
+      ]
+    },
+    {
+      "id": "mental-health",
+      "title": "Salud mental y adicciones",
+      "entries": []
+    },
+    {
+      "id": "public-facilities",
+      "title": "Baños públicos y centros diurnos",
+      "entries": []
+    },
+    {
+      "id": "phone-internet",
+      "title": "Carga de teléfono e internet",
+      "entries": []
+    },
+    {
+      "id": "transport",
+      "title": "Transporte",
+      "entries": []
+    },
+    {
+      "id": "benefits",
+      "title": "Beneficios públicos y apoyo social",
+      "entries": [
+        {
+          "id": "dif-baja-california-pilares",
+          "title": "DIF Baja California — asistencia social en Pilares",
+          "description": "Orientación, estudio socioeconómico, canalización y apoyos para personas en situación vulnerable o de emergencia. El apoyo depende de valoración y reglas del programa.",
+          "last_verified": "2026-11-23",
+          "address": "Uruguayos s/n, INFONAVIT Latinos, Tijuana, Baja California 22180",
+          "phone": "+526649065832",
+          "website": "https://retys.bajacalifornia.gob.mx/Portal/TyS/301",
+          "hours": "Lunes a viernes, 08:00–17:00",
+          "how_to_access": "Acuda para entrevista socioeconómica; lleve los documentos que tenga, pero llame si no dispone de ellos."
+        }
+      ]
+    },
+    {
+      "id": "employment",
+      "title": "Empleo",
+      "entries": [
+        {
+          "id": "servicio-nacional-empleo-tijuana",
+          "title": "Servicio Nacional de Empleo — Unidad Regional Tijuana",
+          "description": "Orientación laboral, vinculación con vacantes y servicios de empleo del Gobierno de Baja California. Las vacantes y requisitos cambian.",
+          "last_verified": "2026-11-23",
+          "address": "Boulevard Federico Benítez 14785, Colonia Las Brisas, Tijuana, Baja California 22115",
+          "phone": "",
+          "website": "https://retys.bajacalifornia.gob.mx/Portal/TyS/1083?temaId=21",
+          "hours": "Lunes a viernes, 08:00–15:00",
+          "how_to_access": "Acuda con identificación y currículum si los tiene; pida orientación si le falta documentación."
+        }
+      ]
+    },
+    {
+      "id": "legal",
+      "title": "Asistencia legal",
+      "entries": [
+        {
+          "id": "dif-tijuana-orientacion-juridica",
+          "title": "DIF Tijuana — orientación jurídica gratuita",
+          "description": "Orientación en materias penal, familiar, civil y laboral, además de apoyo psicológico y trabajo social. La representación legal no está garantizada.",
+          "last_verified": "2026-11-23",
+          "address": "Boulevard Insurgentes 1760-8, Fraccionamiento Los Álamos, Tijuana, Baja California 22110",
+          "phone": "+526646088200",
+          "website": "https://apps.tijuana.gob.mx/webpanel/comunicado/comunicadoCompleto.aspx?iIdComunicado=+34912",
+          "hours": "Lunes a viernes, 08:00–16:00",
+          "how_to_access": "Llame y pida la extensión 8061 para confirmar atención."
+        }
+      ]
+    },
+    {
+      "id": "documents",
+      "title": "Documentos e identificación",
+      "entries": [
+        {
+          "id": "casa-del-migrante-documentos",
+          "title": "Casa del Migrante — CURP, RFC y NSS",
+          "description": "Apoyo para trámites como CURP, RFC y Número de Seguridad Social para personas en movilidad, según el directorio de ACNUR y la situación individual.",
+          "last_verified": "2026-11-23",
+          "address": "Calle Galileo 239, Colonia Postal, Tijuana, Baja California 22416",
+          "phone": "+526646825180",
+          "website": "https://help.unhcr.org/mexico/donde-encontrar-ayuda/albergues/",
+          "hours": "Todos los días, 09:00–21:00",
+          "how_to_access": "Pregunte qué documentos puede tramitar y qué comprobantes necesita."
+        }
+      ]
+    },
+    {
+      "id": "mail",
+      "title": "Dirección postal",
+      "entries": []
+    },
+    {
+      "id": "storage",
+      "title": "Guardado de pertenencias",
+      "entries": []
+    },
+    {
+      "id": "safety",
+      "title": "Seguridad y violencia doméstica",
+      "entries": [
+        {
+          "id": "dif-tijuana-crisis-y-violencia",
+          "title": "DIF Tijuana — crisis y canalización segura",
+          "description": "La Línea 075 ofrece apoyo psicológico, intervención en crisis y canalización. Trabajo Social del DIF puede orientar sobre albergues para mujeres víctimas de violencia y otros grupos. Si existe peligro inmediato, llame al 911.",
+          "last_verified": "2026-11-23",
+          "address": "",
+          "phone": "075",
+          "website": "https://dif.tijuana.gob.mx/familia.aspx",
+          "hours": "24 horas",
+          "how_to_access": "Llame desde un lugar seguro y explique si necesita refugio por violencia."
+        }
+      ]
+    },
+    {
+      "id": "specialist-support",
+      "title": "Apoyo especializado",
+      "entries": [
+        {
+          "id": "casa-del-migrante-personas-en-movilidad",
+          "title": "Casa del Migrante — apoyo a personas en movilidad",
+          "description": "Alojamiento y acompañamiento para personas migrantes, deportadas, refugiadas o en tránsito, sujeto a criterios y capacidad. Incluye orientación social y documental.",
+          "last_verified": "2026-11-23",
+          "address": "Calle Galileo 239, Colonia Postal, Tijuana, Baja California 22416",
+          "phone": "+526646825180",
+          "website": "https://casadelmigrantetijuana.com/nosotros/",
+          "hours": "",
+          "how_to_access": "Llame o acuda para solicitar evaluación; no se garantiza plaza."
+        }
+      ]
+    },
+    {
+      "id": "veterans",
+      "title": "Apoyo para veteranos",
+      "entries": []
+    },
+    {
+      "id": "pets",
+      "title": "Ayuda para personas con animales",
+      "entries": []
+    },
+    {
+      "id": "other",
+      "title": "Otros recursos útiles",
+      "entries": []
+    }
+  ]
+}
