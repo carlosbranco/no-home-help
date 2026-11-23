@@ -1,6 +1,7 @@
 {
   "$schema": "https://nohomehelp.com/schemas/city.schema.json",
-  "schema_version": 1,
+  "documentation": "https://github.com/carlosbranco/no-home-help/blob/main/EDIT_CITY_JSON.md",
+  "schema_version": 2,
   "status": "published",
   "locale": {
     "language": "tr",
@@ -26,3196 +27,857 @@
   "page": {
     "heading": "Ankara'da evsizler ve barınma krizi için yardım",
     "last_verified": "2026-11-12",
-    "urgent": [
-      {
-        "type": "paragraph",
-        "content": [
-          {
-            "text": "Hayati tehlike, yangın, polis veya ambulans:",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "112",
-            "href": "tel:112"
-          },
-          {
-            "break": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "Sokakta kalan kişi ve belediye hizmetleri:",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "153",
-            "href": "tel:153"
-          },
-          {
-            "text": " veya "
-          },
-          {
-            "text": "0312 153 00 00",
-            "href": "tel:+903121530000"
-          },
-          {
-            "break": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "Kadın, çocuk, engelli, yaşlı ve sosyal hizmet:",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "183",
-            "href": "tel:183"
-          },
-          {
-            "break": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "Sosyal yardım bilgisi:",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "144",
-            "href": "tel:144"
-          },
-          {
-            "break": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "Madde bağımlılığı desteği:",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "191",
-            "href": "tel:191"
-          }
-        ]
-      }
-    ],
-    "notice": [
-      {
-        "text": "Information can change. Call ahead when possible."
-      }
-    ],
-    "intro": [],
-    "footer": [
-      {
-        "type": "paragraph",
-        "content": [
-          {
-            "text": "No Home Help resmî bir kurum değildir. Bu sayfa ücretsiz ve açık kaynaklı bir rehberdir."
-          }
-        ]
-      }
-    ]
+    "urgent": "Hayati tehlike, yangın, polis veya ambulans: 112 Sokakta kalan kişi ve belediye hizmetleri: 153 veya 0312 153 00 00 Kadın, çocuk, engelli, yaşlı ve sosyal hizmet: 183 Sosyal yardım bilgisi: 144 Madde bağımlılığı desteği: 191",
+    "notice": "Information can change. Call ahead when possible.",
+    "intro": "",
+    "footer": "No Home Help resmî bir kurum değildir. Bu sayfa ücretsiz ve açık kaynaklı bir rehberdir."
   },
   "categories": [
     {
-      "id": "urgent",
-      "title": "1. Acil yardım ve sokak ekibi",
-      "items": [
+      "id": "emergency",
+      "title": "Acil yardım ve sokak ekibi",
+      "entries": [
         {
-          "type": "resource",
           "id": "acil-cagr-merkezi-112",
-          "name": "Acil Çağrı Merkezi — 112",
+          "title": "Acil Çağrı Merkezi — 112",
+          "description": "Telefon: 112.\nŞiddet, ciddi yaralanma, nefes alamama, bilinç kaybı, aşırı doz, yangın, ağır hipotermi veya başka bir hayati tehlikede arayın. Önce açık adresi ya da görülebilir bir konum tarifini verin.\n112 Acil Çağrı Merkezi",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefon:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "112",
-                  "href": "tel:112"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Şiddet, ciddi yaralanma, nefes alamama, bilinç kaybı, aşırı doz, yangın, ağır hipotermi veya başka bir hayati tehlikede arayın. Önce açık adresi ya da görülebilir bir konum tarifini verin."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "112 Acil Çağrı Merkezi",
-                  "href": "https://www.112.gov.tr/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "112",
+          "website": "https://www.112.gov.tr/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "baskent-153-sokakta-kalan-kisi-icin-ekip",
-          "name": "Başkent 153 — sokakta kalan kişi için ekip",
+          "title": "Başkent 153 — sokakta kalan kişi için ekip",
+          "description": "Telefon: 153 veya 0312 153 00 00.\nBarınma ihtiyacı olan kendiniz ya da gördüğünüz bir kişi için konumu, kıyafet tarifini, sağlık riskini ve ulaşılabilecek telefonu bildirin. Belediye uygun görülen kişiyi barınma evine yönlendirebilir veya araçla alabilir.\nABB sokakta kalan kişi acil rehberi",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefon:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "153",
-                  "href": "tel:153"
-                },
-                {
-                  "text": " veya "
-                },
-                {
-                  "text": "0312 153 00 00",
-                  "href": "tel:+903121530000"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Barınma ihtiyacı olan kendiniz ya da gördüğünüz bir kişi için konumu, kıyafet tarifini, sağlık riskini ve ulaşılabilecek telefonu bildirin. Belediye uygun görülen kişiyi barınma evine yönlendirebilir veya araçla alabilir."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "ABB sokakta kalan kişi acil rehberi",
-                  "href": "https://sosyalhizmet.ankara.bel.tr/acil-durum-rehberi/barinma-ihtiyaci"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "153",
+          "website": "https://sosyalhizmet.ankara.bel.tr/acil-durum-rehberi/barinma-ihtiyaci",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "basvurunuzu-takip-edin",
-          "name": "Başvurunuzu takip edin",
+          "title": "Başvurunuzu takip edin",
+          "description": "153 kaydının numarasını, saati ve konuştuğunuz birimi not edin. Yeriniz veya güvenlik durumunuz değişirse tekrar arayın. Araç geleceği söylenmedikçe tek başınıza tehlikeli bir noktada uzun süre beklemeyin.\nBarınma yeri doluysa aynı görüşmede gece için başka yönlendirme, sosyal hizmet uzmanı ve güvenli bekleme noktası sorun.\nABB Barınma Evleri",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "153 kaydının numarasını, saati ve konuştuğunuz birimi not edin. Yeriniz veya güvenlik durumunuz değişirse tekrar arayın. Araç geleceği söylenmedikçe tek başınıza tehlikeli bir noktada uzun süre beklemeyin."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Barınma yeri doluysa aynı görüşmede gece için başka yönlendirme, sosyal hizmet uzmanı ve güvenli bekleme noktası sorun."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "ABB Barınma Evleri",
-                  "href": "https://www.ankara.bel.tr/hizmetler/sosyal-hizmetler/barinma-evi"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.ankara.bel.tr/hizmetler/sosyal-hizmetler/barinma-evi",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "alo-183-sosyal-hizmet-ve-siddet-hatt",
-          "name": "ALO 183 — sosyal hizmet ve şiddet hattı",
+          "title": "ALO 183 — sosyal hizmet ve şiddet hattı",
+          "description": "Telefon: 183, 7 gün 24 saat ve yurt içinden ücretsiz. Kürtçe ve Arapça dâhil çok dilli destek bulunabilir.\nKadın, çocuk, engelli, yaşlı, şehit yakını ve gaziler için rehberlik; ihmal, istismar ve şiddet bildirimi; uygun sosyal hizmet birimine yönlendirme sağlar.\nALO 183 resmî bilgisi",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefon:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "183",
-                  "href": "tel:183"
-                },
-                {
-                  "text": ", 7 gün 24 saat ve yurt içinden ücretsiz. Kürtçe ve Arapça dâhil çok dilli destek bulunabilir."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Kadın, çocuk, engelli, yaşlı, şehit yakını ve gaziler için rehberlik; ihmal, istismar ve şiddet bildirimi; uygun sosyal hizmet birimine yönlendirme sağlar."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "ALO 183 resmî bilgisi",
-                  "href": "https://www.aile.gov.tr/alo-183"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "183",
+          "website": "https://www.aile.gov.tr/alo-183",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "as-r-soguk-veya-s-cak",
-          "name": "Aşırı soğuk veya sıcak",
+          "title": "Aşırı soğuk veya sıcak",
+          "description": "Başkent 153'e kişinin tam konumunu, ıslak kıyafet, titreme, bilinç bulanıklığı, susuzluk veya baygınlık durumunu bildirin. Bilinç değişikliği, göğüs ağrısı ya da nefes sorunu varsa 112'yi arayın.\nAnkara'da kışın sokak taraması yapılır; ekip ve yatak bulunurluğu anlık değişebilir. Kayıt numarası alın.\nABB saha çalışması açıklaması",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Başkent 153'e kişinin tam konumunu, ıslak kıyafet, titreme, bilinç bulanıklığı, susuzluk veya baygınlık durumunu bildirin. Bilinç değişikliği, göğüs ağrısı ya da nefes sorunu varsa 112'yi arayın."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ankara'da kışın sokak taraması yapılır; ekip ve yatak bulunurluğu anlık değişebilir. Kayıt numarası alın."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "ABB saha çalışması açıklaması",
-                  "href": "https://www.ankara.bel.tr/duyurular/kamuoyuna-aciklama-1341"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.ankara.bel.tr/duyurular/kamuoyuna-aciklama-1341",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
       "id": "shelter",
-      "title": "2. Barınma ve güvenli yer",
-      "items": [
+      "title": "Barınma ve güvenli yer",
+      "entries": [
         {
-          "type": "resource",
           "id": "d-skap-bar-nma-evi",
-          "name": "Dışkapı Barınma Evi",
+          "title": "Dışkapı Barınma Evi",
+          "description": "Telefon: 0312 312 42 21. Belediye tesisi 7 gün 24 saat hizmet verdiğini yayımlıyor. Başvurmadan önce 153 veya tesisi arayın.\nGeçici konaklama, iki öğün yemek, sıcak su, banyo, kişisel bakım, temiz giysi, çamaşırhane, psikolog ve sosyal hizmet yönlendirmesi bulunabilir. Kabul sosyal incelemeye, kurallara ve kapasiteye bağlıdır.\nAdres, telefon ve hizmetler",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Adres:",
-                  "strong": true
-                },
-                {
-                  "text": " Ziraat Mahallesi, Şehit Ömer Halisdemir Caddesi No:6, Altındağ, Ankara"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefon:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "0312 312 42 21",
-                  "href": "tel:+903123124221"
-                },
-                {
-                  "text": ". Belediye tesisi 7 gün 24 saat hizmet verdiğini yayımlıyor. Başvurmadan önce 153 veya tesisi arayın."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Geçici konaklama, iki öğün yemek, sıcak su, banyo, kişisel bakım, temiz giysi, çamaşırhane, psikolog ve sosyal hizmet yönlendirmesi bulunabilir. Kabul sosyal incelemeye, kurallara ve kapasiteye bağlıdır."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Adres, telefon ve hizmetler",
-                  "href": "https://www.ankara.bel.tr/hizmetler/sosyal-hizmetler/barinma-evi"
-                }
-              ]
-            }
-          ]
+          "address": "Adres: Ziraat Mahallesi, Şehit Ömer Halisdemir Caddesi No:6, Altındağ, Ankara",
+          "phone": "+903123124221",
+          "website": "https://www.ankara.bel.tr/hizmetler/sosyal-hizmetler/barinma-evi",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "ulus-bar-nma-evi",
-          "name": "Ulus Barınma Evi",
+          "title": "Ulus Barınma Evi",
+          "description": "Telefon: 0312 311 11 07. Telefonla veya şahsen başvuru yapılabilir; yola çıkmadan önce kabul durumunu sorun.\nBarınma, yemek, yıkanma ve giysi yanında kimlik çıkarma, sosyal yardım, sağlık ve uzun süreli bakım yönlendirmesi için sosyal hizmet uzmanı desteği verilebilir.\nABB Barınma Evi bilgisi",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Adres:",
-                  "strong": true
-                },
-                {
-                  "text": " Kale Mahallesi, Hisar Caddesi, Firuz Ağa Sokak No:9, Ulus, Altındağ, Ankara"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefon:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "0312 311 11 07",
-                  "href": "tel:+903123111107"
-                },
-                {
-                  "text": ". Telefonla veya şahsen başvuru yapılabilir; yola çıkmadan önce kabul durumunu sorun."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Barınma, yemek, yıkanma ve giysi yanında kimlik çıkarma, sosyal yardım, sağlık ve uzun süreli bakım yönlendirmesi için sosyal hizmet uzmanı desteği verilebilir."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "ABB Barınma Evi bilgisi",
-                  "href": "https://www.ankara.bel.tr/hizmetler/sosyal-hizmetler/barinma-evi"
-                }
-              ]
-            }
-          ]
+          "address": "Adres: Kale Mahallesi, Hisar Caddesi, Firuz Ağa Sokak No:9, Ulus, Altındağ, Ankara",
+          "phone": "+903123111107",
+          "website": "https://www.ankara.bel.tr/hizmetler/sosyal-hizmetler/barinma-evi",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "konaklama-suresi-ve-yeniden-degerlendirme",
-          "name": "Konaklama süresi ve yeniden değerlendirme",
+          "title": "Konaklama süresi ve yeniden değerlendirme",
+          "description": "ABB'nin 16 Ekim 2026 tarihli açıklamasında ücretsiz konaklama süresi 15 gün olarak yayımlandı. Bu süre içinde sosyal hizmet uzmanı kimlik, aile, sağlık, gelir ve uygun kurum seçeneklerini değerlendirebilir.\nUzatma veya başka bir kuruma geçiş garanti değildir. İlk görüşmede çıkış planını, ilaç saklamayı, işe gidip gelmeyi ve evrakları nerede tutacağınızı sorun.\n2026 ABB barınma evleri açıklaması",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "ABB'nin 16 Ekim 2026 tarihli açıklamasında ücretsiz konaklama süresi 15 gün olarak yayımlandı. Bu süre içinde sosyal hizmet uzmanı kimlik, aile, sağlık, gelir ve uygun kurum seçeneklerini değerlendirebilir."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Uzatma veya başka bir kuruma geçiş garanti değildir. İlk görüşmede çıkış planını, ilaç saklamayı, işe gidip gelmeyi ve evrakları nerede tutacağınızı sorun."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "2026 ABB barınma evleri açıklaması",
-                  "href": "https://direct.ankara.bel.tr/haberler/abb-nin-barinmaevleri-sokakta-yasayanlara-sicak-yuva-oluyor-18513"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://direct.ankara.bel.tr/haberler/abb-nin-barinmaevleri-sokakta-yasayanlara-sicak-yuva-oluyor-18513",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "cocuklu-aileler-ve-18-yas-ndan-kucukler",
-          "name": "Çocuklu aileler ve 18 yaşından küçükler",
+          "title": "Çocuklu aileler ve 18 yaşından küçükler",
+          "description": "Telefon: 183. Çocuk tek başına sokaktaysa, istismar riski varsa veya ailenin çocuklarla güvenli bir yeri yoksa bunu açıkça söyleyin. Acil tehlikede 112.\nYetişkin barınma evi çocuklar için uygun olmayabilir. ALO 183 vakayı Ankara Aile ve Sosyal Hizmetler birimine aktarabilir; yerleştirme değerlendirmeye bağlıdır.\nAnkara sosyal hizmet kuruluşları",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefon:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "183",
-                  "href": "tel:183"
-                },
-                {
-                  "text": ". Çocuk tek başına sokaktaysa, istismar riski varsa veya ailenin çocuklarla güvenli bir yeri yoksa bunu açıkça söyleyin. Acil tehlikede 112."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Yetişkin barınma evi çocuklar için uygun olmayabilir. ALO 183 vakayı Ankara Aile ve Sosyal Hizmetler birimine aktarabilir; yerleştirme değerlendirmeye bağlıdır."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ankara sosyal hizmet kuruluşları",
-                  "href": "https://aile.gov.tr/ankara/kuruluslarimiz/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "183",
+          "website": "https://aile.gov.tr/ankara/kuruluslarimiz/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "siddet-goren-kad-nlar-ve-cocuklar",
-          "name": "Şiddet gören kadınlar ve çocukları",
+          "title": "Şiddet gören kadınlar ve çocukları",
+          "description": "ALO 183: 183. ABB Kadın Danışma 7/24: 0549 248 64 86. Acil saldırı veya takipte 112.\nKadın konukevi adresleri güvenlik nedeniyle yayımlanmaz. ŞÖNİM, kolluk, ABB Kadın Danışma Merkezi veya ALO 183 üzerinden güvenli yer ve koruma seçeneklerini isteyin.\nABB kadın destek hattı",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "ALO 183:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "183",
-                  "href": "tel:183"
-                },
-                {
-                  "text": ". "
-                },
-                {
-                  "text": "ABB Kadın Danışma 7/24:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "0549 248 64 86",
-                  "href": "tel:+905492486486"
-                },
-                {
-                  "text": ". Acil saldırı veya takipte 112."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Kadın konukevi adresleri güvenlik nedeniyle yayımlanmaz. ŞÖNİM, kolluk, ABB Kadın Danışma Merkezi veya ALO 183 üzerinden güvenli yer ve koruma seçeneklerini isteyin."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "ABB kadın destek hattı",
-                  "href": "https://kadincalismalari.ankara.bel.tr/service/7-24-destek-hatti/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "183",
+          "website": "https://kadincalismalari.ankara.bel.tr/service/7-24-destek-hatti/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "sefkat-evleri-tedavi-icin-sehir-d-s-ndan-gelenler",
-          "name": "Şefkat Evleri — tedavi için şehir dışından gelenler",
+          "title": "Şefkat Evleri — tedavi için şehir dışından gelenler",
+          "description": "Ankara dışından tedavi için gelen, kalacak yeri ve maddi imkânı olmayan hasta ve refakatçileri için ayrı bir belediye hizmetidir. Barınma evi yerine kullanılmaz ve hastane belgesi ile ön değerlendirme istenir.\nRüzgârlı, Etlik ve Varlık tesislerinin güncel uygunluğunu Başkent 153 veya ABB Sosyal Hizmetler Danışma Hattı 0312 507 37 00 üzerinden sorun.\nABB sosyal hizmetler listesi",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ankara dışından tedavi için gelen, kalacak yeri ve maddi imkânı olmayan hasta ve refakatçileri için ayrı bir belediye hizmetidir. Barınma evi yerine kullanılmaz ve hastane belgesi ile ön değerlendirme istenir."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Rüzgârlı, Etlik ve Varlık tesislerinin güncel uygunluğunu Başkent 153 veya ABB Sosyal Hizmetler Danışma Hattı "
-                },
-                {
-                  "text": "0312 507 37 00",
-                  "href": "tel:+903125073700"
-                },
-                {
-                  "text": " üzerinden sorun."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "ABB sosyal hizmetler listesi",
-                  "href": "https://www.ankara.bel.tr/hizmetler/sosyal-hizmetler"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+903125073700",
+          "website": "https://www.ankara.bel.tr/hizmetler/sosyal-hizmetler",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "size-en-yak-n-sosyal-hizmet-noktas",
-          "name": "Size en yakın sosyal hizmet noktası",
+          "title": "Size en yakın sosyal hizmet noktası",
+          "description": "ABB'nin resmî haritasında ilçeye göre sosyal yardım birimleri, kadın danışma merkezleri, gençlik merkezleri ve psikolojik danışmanlık noktaları listelenir.\nGitmeden önce telefonla hizmet türünü ve gereken belgeleri doğrulayın. Haritadaki bir sosyal yardım noktası gece barınağı değildir.\nABB Sosyal Hizmet Haritası",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "ABB'nin resmî haritasında ilçeye göre sosyal yardım birimleri, kadın danışma merkezleri, gençlik merkezleri ve psikolojik danışmanlık noktaları listelenir."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Gitmeden önce telefonla hizmet türünü ve gereken belgeleri doğrulayın. Haritadaki bir sosyal yardım noktası gece barınağı değildir."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "ABB Sosyal Hizmet Haritası",
-                  "href": "https://sosyalhizmet.ankara.bel.tr/sosyal-hizmet-haritasi"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://sosyalhizmet.ankara.bel.tr/sosyal-hizmet-haritasi",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
       "id": "food",
-      "title": "3. Yemek ve gıda",
-      "items": [
+      "title": "Yemek ve gıda",
+      "entries": [
         {
-          "type": "resource",
           "id": "ulus-ve-d-skap-bar-nma-evleri",
-          "name": "Ulus ve Dışkapı Barınma Evleri",
+          "title": "Ulus ve Dışkapı Barınma Evleri",
+          "description": "Kabul edilen misafirlere günde iki öğün yemek verildiği 2026'da yayımlandı. Yemek için dışarıdan günlük sıra veya herkese açık dağıtım garantisi yoktur.\nBarınmıyorsanız 153'e en yakın açık yemek noktasını, sosyal yardım birimini ve o günkü koşulları sorun.\nBarınma evlerindeki güncel hizmetler",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Kabul edilen misafirlere günde iki öğün yemek verildiği 2026'da yayımlandı. Yemek için dışarıdan günlük sıra veya herkese açık dağıtım garantisi yoktur."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Barınmıyorsanız 153'e en yakın açık yemek noktasını, sosyal yardım birimini ve o günkü koşulları sorun."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Barınma evlerindeki güncel hizmetler",
-                  "href": "https://direct.ankara.bel.tr/haberler/abb-nin-barinmaevleri-sokakta-yasayanlara-sicak-yuva-oluyor-18513"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://direct.ankara.bel.tr/haberler/abb-nin-barinmaevleri-sokakta-yasayanlara-sicak-yuva-oluyor-18513",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "abb-sosyal-yard-m-ve-baskent-kart",
-          "name": "ABB sosyal yardım ve Başkent Kart",
+          "title": "ABB sosyal yardım ve Başkent Kart",
+          "description": "Danışma: 0312 507 37 00. Gıda, ekmek, yakacak, ulaşım ve diğer destekler sosyal inceleme ve güncel program koşullarına göre verilir.\nSabit adresiniz veya kimliğiniz yoksa önce barınma evi sosyal hizmet uzmanına ya da Ulus Sosyal Hizmet Merkezi'ne durumunuzu anlatın.\nABB sosyal hizmet programları",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Danışma:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "0312 507 37 00",
-                  "href": "tel:+903125073700"
-                },
-                {
-                  "text": ". Gıda, ekmek, yakacak, ulaşım ve diğer destekler sosyal inceleme ve güncel program koşullarına göre verilir."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Sabit adresiniz veya kimliğiniz yoksa önce barınma evi sosyal hizmet uzmanına ya da Ulus Sosyal Hizmet Merkezi'ne durumunuzu anlatın."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "ABB sosyal hizmet programları",
-                  "href": "https://sosyalhizmet.ankara.bel.tr/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+903125073700",
+          "website": "https://sosyalhizmet.ankara.bel.tr/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "cankaya-genclik-sofras-k-z-lay",
-          "name": "Çankaya Gençlik Sofrası — Kızılay",
+          "title": "Çankaya Gençlik Sofrası — Kızılay",
+          "description": "Telefon: 444 06 01. Ankara'da üniversite öğrencileri öğrenci kimliği göstererek hafta içi 17.30–19.00 arasında ücretsiz sıcak yemek alabilir.\nProgram öğrencilere yöneliktir; tatil, kapasite ve saat değişikliğini gitmeden önce doğrulayın.\nÇankaya Gençlik Sofrası",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Adres:",
-                  "strong": true
-                },
-                {
-                  "text": " Çankaya Belediye Başkanlığı, Ziya Gökalp Caddesi No:11, Kızılay"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefon:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "444 06 01",
-                  "href": "tel:+904440601"
-                },
-                {
-                  "text": ". Ankara'da üniversite öğrencileri öğrenci kimliği göstererek hafta içi 17.30–19.00 arasında ücretsiz sıcak yemek alabilir."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Program öğrencilere yöneliktir; tatil, kapasite ve saat değişikliğini gitmeden önce doğrulayın."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Çankaya Gençlik Sofrası",
-                  "href": "https://www.cankaya.bel.tr/hizmetler/genclik-sofrasi"
-                }
-              ]
-            }
-          ]
+          "address": "Adres: Çankaya Belediye Başkanlığı, Ziya Gökalp Caddesi No:11, Kızılay",
+          "phone": "+904440601",
+          "website": "https://www.cankaya.bel.tr/hizmetler/genclik-sofrasi",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "cankaya-genclik-sofras-100-y-l",
-          "name": "Çankaya Gençlik Sofrası — 100. Yıl",
+          "title": "Çankaya Gençlik Sofrası — 100. Yıl",
+          "description": "Üniversite öğrencileri için hafta içi 17.30–19.00 arasında ücretsiz sıcak yemek yayımlanmıştır. Öğrenci kimliği gerekir.\nYola çıkmadan önce 444 06 01 üzerinden dönemi ve servisi doğrulayın.\nKoşullar ve iki yemek noktası",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Adres:",
-                  "strong": true
-                },
-                {
-                  "text": " 100. Yıl Çankaya Evi, İşçi Blokları Mahallesi, 1534. Sokak ile 1524. Sokak kesişimi"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Üniversite öğrencileri için hafta içi 17.30–19.00 arasında ücretsiz sıcak yemek yayımlanmıştır. Öğrenci kimliği gerekir."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Yola çıkmadan önce "
-                },
-                {
-                  "text": "444 06 01",
-                  "href": "tel:+904440601"
-                },
-                {
-                  "text": " üzerinden dönemi ve servisi doğrulayın."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Koşullar ve iki yemek noktası",
-                  "href": "https://www.cankaya.bel.tr/hizmetler/genclik-sofrasi"
-                }
-              ]
-            }
-          ]
+          "address": "Adres: 100. Yıl Çankaya Evi, İşçi Blokları Mahallesi, 1534. Sokak ile 1524. Sokak kesişimi",
+          "phone": "+904440601",
+          "website": "https://www.cankaya.bel.tr/hizmetler/genclik-sofrasi",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "etimesgut-belediyesi-asevi",
-          "name": "Etimesgut Belediyesi Aşevi",
+          "title": "Etimesgut Belediyesi Aşevi",
+          "description": "İlçe sınırlarında yaşayan, sosyal incelemede uygun bulunan engelli kişiler, 65 yaş üstü yemek yapamayanlar ve yalnız yaşayan yaşlılar için sıcak yemek desteği verir.\nHerkese açık günlük yemek noktası değildir. Önce belediyeye başvurup uygunluk ve teslim şeklini sorun.\nEtimesgut Aşevi koşulları",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Başvuru:",
-                  "strong": true
-                },
-                {
-                  "text": " 30 Ağustos Mahallesi, Şehit Hasan Öztürk Caddesi No:5, Etimesgut"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "İlçe sınırlarında yaşayan, sosyal incelemede uygun bulunan engelli kişiler, 65 yaş üstü yemek yapamayanlar ve yalnız yaşayan yaşlılar için sıcak yemek desteği verir."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Herkese açık günlük yemek noktası değildir. Önce belediyeye başvurup uygunluk ve teslim şeklini sorun."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Etimesgut Aşevi koşulları",
-                  "href": "https://www.etimesgut.bel.tr/index.php/hizmet/default/asevi"
-                }
-              ]
-            }
-          ]
+          "address": "Başvuru: 30 Ağustos Mahallesi, Şehit Hasan Öztürk Caddesi No:5, Etimesgut",
+          "phone": "",
+          "website": "https://www.etimesgut.bel.tr/index.php/hizmet/default/asevi",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "abb-s-cak-corba-dag-t-m",
-          "name": "ABB sıcak çorba dağıtımı",
+          "title": "ABB sıcak çorba dağıtımı",
+          "description": "Belediye dönemsel olarak metro durakları, hastaneler ve yoğun noktalarda sıcak çorba dağıtır. Yer ve saatler mevsime göre değişebilir; bunu tek günlük yemek planınız olarak görmeyin.\nGüncel dağıtım için Başkent 153'ü arayın. Eski listede görünen her noktanın bugün açık olduğunu varsaymayın.\nABB sıcak çorba programı",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Belediye dönemsel olarak metro durakları, hastaneler ve yoğun noktalarda sıcak çorba dağıtır. Yer ve saatler mevsime göre değişebilir; bunu tek günlük yemek planınız olarak görmeyin."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Güncel dağıtım için Başkent 153'ü arayın. Eski listede görünen her noktanın bugün açık olduğunu varsaymayın."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "ABB sıcak çorba programı",
-                  "href": "https://www.ankara.bel.tr/proje/sicak-corba-dagitimi-214"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.ankara.bel.tr/proje/sicak-corba-dagitimi-214",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "vak-flar-bolge-mudurlugu-asevi-ve-muhtac-ayl-g",
-          "name": "Vakıflar Bölge Müdürlüğü — aşevi ve muhtaç aylığı",
+          "title": "Vakıflar Bölge Müdürlüğü — aşevi ve muhtaç aylığı",
+          "description": "Telefon: 0312 309 89 10. Aşevi, muhtaç aylığı ve diğer vakıf yardımları için güncel koşulları ve başvuru yerini sorun.\nYardım uygunluk değerlendirmesine ve programa bağlıdır; aynı gün yemek veya ödeme garantisi yoktur.\nAnkara Vakıflar Bölge Müdürlüğü",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Adres:",
-                  "strong": true
-                },
-                {
-                  "text": " Meşrutiyet Mahallesi, Atatürk Bulvarı No:133, Çankaya, Ankara"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefon:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "0312 309 89 10",
-                  "href": "tel:+903123098910"
-                },
-                {
-                  "text": ". Aşevi, muhtaç aylığı ve diğer vakıf yardımları için güncel koşulları ve başvuru yerini sorun."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Yardım uygunluk değerlendirmesine ve programa bağlıdır; aynı gün yemek veya ödeme garantisi yoktur."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ankara Vakıflar Bölge Müdürlüğü",
-                  "href": "https://ankara.gov.tr/ankara-vakiflar-bolge-mudurlugu"
-                }
-              ]
-            }
-          ]
+          "address": "Adres: Meşrutiyet Mahallesi, Atatürk Bulvarı No:133, Çankaya, Ankara",
+          "phone": "+903123098910",
+          "website": "https://ankara.gov.tr/ankara-vakiflar-bolge-mudurlugu",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "turk-k-z-lay-168",
-          "name": "Türk Kızılay — 168",
+          "title": "Türk Kızılay — 168",
+          "description": "Telefon: 168. Bulunduğunuz ilçedeki güncel sosyal yardım, toplum merkezi veya yönlendirme hizmetini sorun.\nKızılay'ın tüm birimleri doğrudan yemek veya nakit dağıtmaz. İhtiyacınızı, kimlik durumunuzu ve bulunduğunuz ilçeyi söyleyin.\nTürk Kızılay iletişim",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefon:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "168",
-                  "href": "tel:168"
-                },
-                {
-                  "text": ". Bulunduğunuz ilçedeki güncel sosyal yardım, toplum merkezi veya yönlendirme hizmetini sorun."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Kızılay'ın tüm birimleri doğrudan yemek veya nakit dağıtmaz. İhtiyacınızı, kimlik durumunuzu ve bulunduğunuz ilçeyi söyleyin."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Türk Kızılay iletişim",
-                  "href": "https://www.kizilay.org.tr/iletisim"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "168",
+          "website": "https://www.kizilay.org.tr/iletisim",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
-      "id": "basic",
-      "title": "4. Duş, çamaşır, giysi, tuvalet ve internet",
-      "items": [
+      "id": "community",
+      "title": "Community and religious help",
+      "entries": []
+    },
+    {
+      "id": "hygiene",
+      "title": "Duş, çamaşır, giysi, tuvalet ve internet",
+      "entries": [
         {
-          "type": "resource",
           "id": "bar-nma-evlerinde-dus-camas-r-ve-giysi",
-          "name": "Barınma evlerinde duş, çamaşır ve giysi",
+          "title": "Barınma evlerinde duş, çamaşır ve giysi",
+          "description": "Ulus ve Dışkapı Barınma Evleri kabul edilen misafirlere 24 saat sıcak su, banyo, kişisel bakım, temiz kıyafet ve çamaşırhane hizmeti yayımlıyor.\nGünübirlik kullanım veya dışarıdan çamaşır bırakma garantisi yoktur. Telefonla sorun ve özel bakım, regl ürünü, tıraş veya erişilebilir duş ihtiyacınızı belirtin.\nBarınma Evi hizmetleri",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ulus ve Dışkapı Barınma Evleri kabul edilen misafirlere 24 saat sıcak su, banyo, kişisel bakım, temiz kıyafet ve çamaşırhane hizmeti yayımlıyor."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Günübirlik kullanım veya dışarıdan çamaşır bırakma garantisi yoktur. Telefonla sorun ve özel bakım, regl ürünü, tıraş veya erişilebilir duş ihtiyacınızı belirtin."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Barınma Evi hizmetleri",
-                  "href": "https://www.ankara.bel.tr/hizmetler/sosyal-hizmetler/barinma-evi"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.ankara.bel.tr/hizmetler/sosyal-hizmetler/barinma-evi",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "kurtulus-giysi-y-kama-merkezi",
-          "name": "Kurtuluş Giysi Yıkama Merkezi",
+          "title": "Kurtuluş Giysi Yıkama Merkezi",
+          "description": "Telefon: 0312 431 28 38. Ücretsiz yıkama, kurutma ve ütü; öncelikle öğrenciler, engelli ve yaşlı kişiler içindir.\nHaftanın altı günü hizmet yayımlanmıştır. Uygunluk, kapasite ve teslim süresini arayarak doğrulayın.\nABB Giysi Yıkama Merkezleri",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Adres:",
-                  "strong": true
-                },
-                {
-                  "text": " Cemal Gürsel Caddesi, Ozanlar Sokak No:6/10, Ankara"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefon:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "0312 431 28 38",
-                  "href": "tel:+903124312838"
-                },
-                {
-                  "text": ". Ücretsiz yıkama, kurutma ve ütü; öncelikle öğrenciler, engelli ve yaşlı kişiler içindir."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Haftanın altı günü hizmet yayımlanmıştır. Uygunluk, kapasite ve teslim süresini arayarak doğrulayın."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "ABB Giysi Yıkama Merkezleri",
-                  "href": "https://www.ankara.bel.tr/hizmetler/sosyal-hizmetler/giysi-yikama-merkezleri"
-                }
-              ]
-            }
-          ]
+          "address": "Adres: Cemal Gürsel Caddesi, Ozanlar Sokak No:6/10, Ankara",
+          "phone": "+903124312838",
+          "website": "https://www.ankara.bel.tr/hizmetler/sosyal-hizmetler/giysi-yikama-merkezleri",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "besevler-giysi-y-kama-merkezi",
-          "name": "Beşevler Giysi Yıkama Merkezi",
+          "title": "Beşevler Giysi Yıkama Merkezi",
+          "description": "Telefon: 0312 222 81 85. Öğrenci, engelli ve yaşlı kişiler için ücretsiz çamaşır hizmeti.\nKimlik veya uygunluk belgesi gerekip gerekmediğini ve kaç parça kabul edildiğini önceden sorun.\nAdresler ve hizmet açıklaması",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Adres:",
-                  "strong": true
-                },
-                {
-                  "text": " Bahçelievler 1. Cadde, 58. Sokak No:12/A, Ankara"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefon:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "0312 222 81 85",
-                  "href": "tel:+903122228185"
-                },
-                {
-                  "text": ". Öğrenci, engelli ve yaşlı kişiler için ücretsiz çamaşır hizmeti."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Kimlik veya uygunluk belgesi gerekip gerekmediğini ve kaç parça kabul edildiğini önceden sorun."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Adresler ve hizmet açıklaması",
-                  "href": "https://www.ankara.bel.tr/hizmetler/sosyal-hizmetler/giysi-yikama-merkezleri"
-                }
-              ]
-            }
-          ]
+          "address": "Adres: Bahçelievler 1. Cadde, 58. Sokak No:12/A, Ankara",
+          "phone": "+903122228185",
+          "website": "https://www.ankara.bel.tr/hizmetler/sosyal-hizmetler/giysi-yikama-merkezleri",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "mamak-araplar-giysi-y-kama-merkezi",
-          "name": "Mamak Araplar Giysi Yıkama Merkezi",
+          "title": "Mamak Araplar Giysi Yıkama Merkezi",
+          "description": "Telefon: 0312 571 13 06. Ücretsiz yıkama, kurutma ve ütü hizmeti için önce arayın.\nProgram tüm evsiz yetişkinlere otomatik açık değildir; sosyal hizmet uzmanından yönlendirme isteyin.\nABB çamaşır hizmeti",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Adres:",
-                  "strong": true
-                },
-                {
-                  "text": " Araplar Mahallesi Büyükşehir Toplu Konutları, Aile Yaşam Merkezi içi, Mamak"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefon:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "0312 571 13 06",
-                  "href": "tel:+903125711306"
-                },
-                {
-                  "text": ". Ücretsiz yıkama, kurutma ve ütü hizmeti için önce arayın."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Program tüm evsiz yetişkinlere otomatik açık değildir; sosyal hizmet uzmanından yönlendirme isteyin."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "ABB çamaşır hizmeti",
-                  "href": "https://www.ankara.bel.tr/hizmetler/sosyal-hizmetler/giysi-yikama-merkezleri"
-                }
-              ]
-            }
-          ]
+          "address": "Adres: Araplar Mahallesi Büyükşehir Toplu Konutları, Aile Yaşam Merkezi içi, Mamak",
+          "phone": "+903125711306",
+          "website": "https://www.ankara.bel.tr/hizmetler/sosyal-hizmetler/giysi-yikama-merkezleri",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "gazi-giysi-y-kama-merkezi",
-          "name": "Gazi Giysi Yıkama Merkezi",
+          "title": "Gazi Giysi Yıkama Merkezi",
+          "description": "Telefon: 0312 223 54 46. Öğrenci, engelli ve yaşlı kişiler için yayımlanan ücretsiz hizmet.\nTemiz giysi dağıtımı ile çamaşır yıkama aynı hizmet değildir. Giysiniz yoksa Ulus Sosyal Hizmet Merkezi'ndeki Giysi Evi'ni sorun.\nGüncel merkez listesi",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Adres:",
-                  "strong": true
-                },
-                {
-                  "text": " Emniyet Mahallesi, Silahtarlar Caddesi, Atasoy Sokak No:7/A, Yenimahalle"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefon:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "0312 223 54 46",
-                  "href": "tel:+903122235446"
-                },
-                {
-                  "text": ". Öğrenci, engelli ve yaşlı kişiler için yayımlanan ücretsiz hizmet."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Temiz giysi dağıtımı ile çamaşır yıkama aynı hizmet değildir. Giysiniz yoksa Ulus Sosyal Hizmet Merkezi'ndeki Giysi Evi'ni sorun."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Güncel merkez listesi",
-                  "href": "https://www.ankara.bel.tr/hizmetler/sosyal-hizmetler/giysi-yikama-merkezleri"
-                }
-              ]
-            }
-          ]
+          "address": "Adres: Emniyet Mahallesi, Silahtarlar Caddesi, Atasoy Sokak No:7/A, Yenimahalle",
+          "phone": "+903122235446",
+          "website": "https://www.ankara.bel.tr/hizmetler/sosyal-hizmetler/giysi-yikama-merkezleri",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "ulus-sosyal-hizmet-merkezi-ve-giysi-evi",
-          "name": "Ulus Sosyal Hizmet Merkezi ve Giysi Evi",
+          "title": "Ulus Sosyal Hizmet Merkezi ve Giysi Evi",
+          "description": "Sosyal yardım, Başkent Kart, ulaşım, anne-bebek ve giysi desteği hakkında yüz yüze rehberlik verir. Hizmet 18 Eylül 2026'da açıldı.\nStok ve uygunluk değişir. Başkent 153 veya 0312 507 37 00 üzerinden kat, çalışma saati ve gereken belgeyi sorun.\nUlus Sosyal Hizmet Merkezi",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Yer:",
-                  "strong": true
-                },
-                {
-                  "text": " Anafartalar Çarşısı, Ulus, Ankara"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Sosyal yardım, Başkent Kart, ulaşım, anne-bebek ve giysi desteği hakkında yüz yüze rehberlik verir. Hizmet 18 Eylül 2026'da açıldı."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Stok ve uygunluk değişir. Başkent 153 veya "
-                },
-                {
-                  "text": "0312 507 37 00",
-                  "href": "tel:+903125073700"
-                },
-                {
-                  "text": " üzerinden kat, çalışma saati ve gereken belgeyi sorun."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ulus Sosyal Hizmet Merkezi",
-                  "href": "https://www.ankara.bel.tr/haberler/ulus-sosyal-hizmet-merkezi-anafartalar-carsisi-nda-acildi-18458"
-                }
-              ]
-            }
-          ]
+          "address": "Yer: Anafartalar Çarşısı, Ulus, Ankara",
+          "phone": "+903125073700",
+          "website": "https://www.ankara.bel.tr/haberler/ulus-sosyal-hizmet-merkezi-anafartalar-carsisi-nda-acildi-18458",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "adnan-otuken-il-halk-kutuphanesi",
-          "name": "Adnan Ötüken İl Halk Kütüphanesi",
+          "title": "Adnan Ötüken İl Halk Kütüphanesi",
+          "description": "Halk kütüphanesi hizmetleri, kablosuz internet ve bilgisayar kullanımı ücretsizdir; üyelik veya kimlik istenebilir. Kütüphane barınak değildir ve uyuma, bagaj, yiyecek ile giriş kuralları vardır.\nGüncel saatleri kontrol edin. Telefon şarjı, tuvalet veya bilgisayar ihtiyacınızı danışmaya sorun.\nKütüphane resmî sitesi | ücretsiz hizmetler ve üyelik — https://kygm.ktb.gov.tr/TR-318370/halk-kutuphaneleri-ucretli-mi-kutuphane-uyeligi-icin-gerekenler-neler.html",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Adres:",
-                  "strong": true
-                },
-                {
-                  "text": " Kumrular Caddesi No:3, Kızılay, Çankaya"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Halk kütüphanesi hizmetleri, kablosuz internet ve bilgisayar kullanımı ücretsizdir; üyelik veya kimlik istenebilir. Kütüphane barınak değildir ve uyuma, bagaj, yiyecek ile giriş kuralları vardır."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Güncel saatleri kontrol edin. Telefon şarjı, tuvalet veya bilgisayar ihtiyacınızı danışmaya sorun."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Kütüphane resmî sitesi",
-                  "href": "https://adnanotuken.kutuphane.gov.tr/"
-                },
-                {
-                  "text": " | "
-                },
-                {
-                  "text": "ücretsiz hizmetler ve üyelik",
-                  "href": "https://kygm.ktb.gov.tr/TR-318370/halk-kutuphaneleri-ucretli-mi-kutuphane-uyeligi-icin-gerekenler-neler.html"
-                }
-              ]
-            }
-          ]
+          "address": "Adres: Kumrular Caddesi No:3, Kızılay, Çankaya",
+          "phone": "",
+          "website": "https://adnanotuken.kutuphane.gov.tr/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "cumhurbaskanl-g-millet-kutuphanesi",
-          "name": "Cumhurbaşkanlığı Millet Kütüphanesi",
+          "title": "Cumhurbaşkanlığı Millet Kütüphanesi",
+          "description": "24 saat erişim sağlayan büyük bir halk kütüphanesidir. T.C. kimlik numarası bulunan kişiler kimlikle; uygun yabancı kimliği olanlar ana kapıda kayıtla girebilir. Kurallar ve açık salonlar değişebilir.\nKütüphane gece barınağı değildir. Kimliğiniz yoksa veya çantanız büyükse yola çıkmadan önce giriş koşullarını sorun.\nMillet Kütüphanesi | giriş bilgisi — https://kygm.ktb.gov.tr/TR-321056/millet-kutuphanesi.html",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Adres:",
-                  "strong": true
-                },
-                {
-                  "text": " Beştepe, Yenimahalle, Ankara"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "24 saat erişim sağlayan büyük bir halk kütüphanesidir. T.C. kimlik numarası bulunan kişiler kimlikle; uygun yabancı kimliği olanlar ana kapıda kayıtla girebilir. Kurallar ve açık salonlar değişebilir."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Kütüphane gece barınağı değildir. Kimliğiniz yoksa veya çantanız büyükse yola çıkmadan önce giriş koşullarını sorun."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Millet Kütüphanesi",
-                  "href": "https://mk.gov.tr/"
-                },
-                {
-                  "text": " | "
-                },
-                {
-                  "text": "giriş bilgisi",
-                  "href": "https://kygm.ktb.gov.tr/TR-321056/millet-kutuphanesi.html"
-                }
-              ]
-            }
-          ]
+          "address": "Adres: Beştepe, Yenimahalle, Ankara",
+          "phone": "",
+          "website": "https://mk.gov.tr/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "ucretsiz-internet-ve-tuvalet-bulma",
-          "name": "Ücretsiz internet ve tuvalet bulma",
+          "title": "Ücretsiz internet ve tuvalet bulma",
+          "description": "Başkent Wi-Fi noktaları, halk kütüphaneleri ve bazı belediye hizmet merkezlerinde internet bulunabilir. Tuvaletlerin saat ve ücretleri noktaya göre değişir.\nBaşkent 153'e en yakın açık belediye tesisi, erişilebilir tuvalet veya Wi-Fi noktasını sorun. Metro ve otobüs terminali bekleme alanları barınma yeri değildir.\nBaşkent Wi-Fi noktaları",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Başkent Wi-Fi noktaları, halk kütüphaneleri ve bazı belediye hizmet merkezlerinde internet bulunabilir. Tuvaletlerin saat ve ücretleri noktaya göre değişir."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Başkent 153'e en yakın açık belediye tesisi, erişilebilir tuvalet veya Wi-Fi noktasını sorun. Metro ve otobüs terminali bekleme alanları barınma yeri değildir."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Başkent Wi-Fi noktaları",
-                  "href": "https://wifi.ankara.bel.tr/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://wifi.ankara.bel.tr/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "posta-ve-evrak-saklama",
-          "name": "Posta ve evrak saklama",
+          "title": "Posta ve evrak saklama",
+          "description": "Barınma evi veya sosyal hizmet uzmanına resmî yazışmalar için hangi adresin kullanılabileceğini ve mektubun ne kadar tutulacağını sorun. Açık izin olmadan bir kurum adresini kullanmayın.\nKimlik ve evrakların fotoğrafını korumalı bir hesapta tutun; T.C. kimlik numarası ve şifreleri halka açık bilgisayarda kaydetmeyin. Emanet veya dolap hizmeti garanti değildir.\nBarınma evi sosyal hizmet desteği",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Barınma evi veya sosyal hizmet uzmanına resmî yazışmalar için hangi adresin kullanılabileceğini ve mektubun ne kadar tutulacağını sorun. Açık izin olmadan bir kurum adresini kullanmayın."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Kimlik ve evrakların fotoğrafını korumalı bir hesapta tutun; T.C. kimlik numarası ve şifreleri halka açık bilgisayarda kaydetmeyin. Emanet veya dolap hizmeti garanti değildir."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Barınma evi sosyal hizmet desteği",
-                  "href": "https://www.ankara.bel.tr/hizmetler/sosyal-hizmetler/barinma-evi"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.ankara.bel.tr/hizmetler/sosyal-hizmetler/barinma-evi",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
+    },
+    {
+      "id": "clothing",
+      "title": "Clothing",
+      "entries": []
     },
     {
       "id": "health",
-      "title": "5. Sağlık, ruh sağlığı ve bağımlılık",
-      "items": [
+      "title": "Sağlık, ruh sağlığı ve bağımlılık",
+      "entries": [
         {
-          "type": "resource",
           "id": "hayati-sagl-k-sorunu-112",
-          "name": "Hayati sağlık sorunu — 112",
+          "title": "Hayati sağlık sorunu — 112",
+          "description": "Telefon: 112. Nefes alamama, ciddi göğüs ağrısı, felç belirtisi, bilinç kaybı, ağır kanama, nöbet, aşırı doz veya aktif intihar girişiminde randevu beklemeyin.\nKişinin yaşı, bilinci, nefesi, alınan madde ve açık konumunu söyleyin. Operatör söylemedikçe kusturmaya çalışmayın.\n112 Acil",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefon:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "112",
-                  "href": "tel:112"
-                },
-                {
-                  "text": ". Nefes alamama, ciddi göğüs ağrısı, felç belirtisi, bilinç kaybı, ağır kanama, nöbet, aşırı doz veya aktif intihar girişiminde randevu beklemeyin."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Kişinin yaşı, bilinci, nefesi, alınan madde ve açık konumunu söyleyin. Operatör söylemedikçe kusturmaya çalışmayın."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "112 Acil",
-                  "href": "https://www.112.gov.tr/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "112",
+          "website": "https://www.112.gov.tr/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "mhrs-hastane-ve-aile-hekimi-randevusu",
-          "name": "MHRS — hastane ve aile hekimi randevusu",
+          "title": "MHRS — hastane ve aile hekimi randevusu",
+          "description": "Telefon: 182. T.C. kimlik numarasıyla devlet hastanesi, diş hastanesi ve poliklinik randevusu alınabilir.\nKimliğiniz, sigortanız veya kayıtlı aile hekiminiz yoksa barınma evi sosyal hizmet uzmanından ya da en yakın Sosyal Hizmet Merkezi'nden çözüm yolu isteyin.\nMerkezi Hekim Randevu Sistemi",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefon:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "182",
-                  "href": "tel:182"
-                },
-                {
-                  "text": ". T.C. kimlik numarasıyla devlet hastanesi, diş hastanesi ve poliklinik randevusu alınabilir."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Kimliğiniz, sigortanız veya kayıtlı aile hekiminiz yoksa barınma evi sosyal hizmet uzmanından ya da en yakın Sosyal Hizmet Merkezi'nden çözüm yolu isteyin."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Merkezi Hekim Randevu Sistemi",
-                  "href": "https://www.mhrs.gov.tr/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "182",
+          "website": "https://www.mhrs.gov.tr/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "ankara-bilkent-sehir-hastanesi-acil-servisi",
-          "name": "Ankara Bilkent Şehir Hastanesi acil servisi",
+          "title": "Ankara Bilkent Şehir Hastanesi acil servisi",
+          "description": "Acil servis hayati ve acil durumları triyajla değerlendirir; gece barınma veya rutin muayene yeri değildir. Acil değilse 182 üzerinden uygun polikliniği sorun.\nAnkara Bilkent Şehir Hastanesi",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Adres:",
-                  "strong": true
-                },
-                {
-                  "text": " Üniversiteler Mahallesi, 1604. Cadde No:9, Çankaya, Ankara"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Acil servis hayati ve acil durumları triyajla değerlendirir; gece barınma veya rutin muayene yeri değildir. Acil değilse 182 üzerinden uygun polikliniği sorun."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ankara Bilkent Şehir Hastanesi",
-                  "href": "https://ankarasehir.saglik.gov.tr/"
-                }
-              ]
-            }
-          ]
+          "address": "Adres: Üniversiteler Mahallesi, 1604. Cadde No:9, Çankaya, Ankara",
+          "phone": "",
+          "website": "https://ankarasehir.saglik.gov.tr/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "ankara-etlik-sehir-hastanesi-acil-servisi",
-          "name": "Ankara Etlik Şehir Hastanesi acil servisi",
+          "title": "Ankara Etlik Şehir Hastanesi acil servisi",
+          "description": "Santral: 0312 797 00 00. Acil servis tıbbi acil durum içindir; sosyal barınma için 153'ü arayın.\nEtlik Şehir Hastanesi",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Adres:",
-                  "strong": true
-                },
-                {
-                  "text": " Varlık Mahallesi, Halil Sezai Erkut Caddesi No:5, Etlik, Ankara"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Santral:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "0312 797 00 00",
-                  "href": "tel:+903127970000"
-                },
-                {
-                  "text": ". Acil servis tıbbi acil durum içindir; sosyal barınma için 153'ü arayın."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Etlik Şehir Hastanesi",
-                  "href": "https://etliksehir.saglik.gov.tr/"
-                }
-              ]
-            }
-          ]
+          "address": "Adres: Varlık Mahallesi, Halil Sezai Erkut Caddesi No:5, Etlik, Ankara",
+          "phone": "+903127970000",
+          "website": "https://etliksehir.saglik.gov.tr/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "ruh-sagl-g-krizi",
-          "name": "Ruh sağlığı krizi",
+          "title": "Ruh sağlığı krizi",
+          "description": "Kişi kendine veya başkasına zarar vermek üzereyse, silah varsa, ağır bilinç değişikliği ya da aktif intihar girişimi varsa 112'yi arayın.\nAcil olmayan psikiyatri randevusu için 182'yi arayın. ABB psikolojik danışmanlık noktaları için 0312 507 37 00.\nABB psikolojik danışmanlık noktaları",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Kişi kendine veya başkasına zarar vermek üzereyse, silah varsa, ağır bilinç değişikliği ya da aktif intihar girişimi varsa "
-                },
-                {
-                  "text": "112",
-                  "href": "tel:112"
-                },
-                {
-                  "text": "'yi arayın."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Acil olmayan psikiyatri randevusu için "
-                },
-                {
-                  "text": "182",
-                  "href": "tel:182"
-                },
-                {
-                  "text": "'yi arayın. ABB psikolojik danışmanlık noktaları için "
-                },
-                {
-                  "text": "0312 507 37 00",
-                  "href": "tel:+903125073700"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "ABB psikolojik danışmanlık noktaları",
-                  "href": "https://sosyalhizmet.ankara.bel.tr/sosyal-hizmet-haritasi"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "112",
+          "website": "https://sosyalhizmet.ankara.bel.tr/sosyal-hizmet-haritasi",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "yedam-alkol-madde-kumar-tutun-ve-internet-bag-ml-l-g",
-          "name": "YEDAM — alkol, madde, kumar, tütün ve internet bağımlılığı",
+          "title": "YEDAM — alkol, madde, kumar, tütün ve internet bağımlılığı",
+          "description": "Randevu ve danışma: 115. Ücretsiz ve gizlilik esaslı psikolojik danışmanlık ve sosyal hizmet desteği; kişiye ve yakınına açıktır.\nAnkara'da Çankaya, Keçiören, Sincan ve Yenimahalle merkezleri bulunur. Önce 115'i arayıp size uygun merkezi ve randevuyu doğrulayın.\nAnkara YEDAM adresleri",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Randevu ve danışma:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "115",
-                  "href": "tel:115"
-                },
-                {
-                  "text": ". Ücretsiz ve gizlilik esaslı psikolojik danışmanlık ve sosyal hizmet desteği; kişiye ve yakınına açıktır."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ankara'da Çankaya, Keçiören, Sincan ve Yenimahalle merkezleri bulunur. Önce 115'i arayıp size uygun merkezi ve randevuyu doğrulayın."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ankara YEDAM adresleri",
-                  "href": "https://www.yedam.org.tr/iletisim"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "115",
+          "website": "https://www.yedam.org.tr/iletisim",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "alo-191-uyusturucu-ile-mucadele-destegi",
-          "name": "ALO 191 — uyuşturucu ile mücadele desteği",
+          "title": "ALO 191 — uyuşturucu ile mücadele desteği",
+          "description": "Telefon: 191, 7 gün 24 saat. Kişi veya yakını için risk değerlendirmesi, danışmanlık ve uygun tedavi birimine yönlendirme sağlar.\nHat gizlilik esasına göre çalışır; hastane randevusu istenirse onayınızla kimlik bilgisi gerekebilir. Aşırı doz veya bilinç kaybında önce 112.\nALO 191 bilgisi",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefon:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "191",
-                  "href": "tel:191"
-                },
-                {
-                  "text": ", 7 gün 24 saat. Kişi veya yakını için risk değerlendirmesi, danışmanlık ve uygun tedavi birimine yönlendirme sağlar."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Hat gizlilik esasına göre çalışır; hastane randevusu istenirse onayınızla kimlik bilgisi gerekebilir. Aşırı doz veya bilinç kaybında önce 112."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "ALO 191 bilgisi",
-                  "href": "https://alo191.saglik.gov.tr/TR-19981/alo-191.html"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "191",
+          "website": "https://alo191.saglik.gov.tr/TR-19981/alo-191.html",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "ucretsiz-ve-anonim-hiv-testi-cankaya-belediyesi",
-          "name": "Ücretsiz ve anonim HIV testi — Çankaya Belediyesi",
+          "title": "Ücretsiz ve anonim HIV testi — Çankaya Belediyesi",
+          "description": "Telefon: 444 06 01. Sosyal güvence şartı olmadan ücretsiz danışmanlık ve anonim HIV testi; randevu alın.\nOlası HIV teması son 72 saat içindeyse test gününü beklemeden bir acil servise gidip PEP'i sorun.\nGönüllü Danışmanlık ve Test Hizmeti",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Adres:",
-                  "strong": true
-                },
-                {
-                  "text": " Çankaya Belediyesi Maltepe Yerleşkesi, Şehit Gönenç Caddesi, Maltepe"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefon:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "444 06 01",
-                  "href": "tel:+904440601"
-                },
-                {
-                  "text": ". Sosyal güvence şartı olmadan ücretsiz danışmanlık ve anonim HIV testi; randevu alın."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Olası HIV teması son 72 saat içindeyse test gününü beklemeden bir acil servise gidip PEP'i sorun."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Gönüllü Danışmanlık ve Test Hizmeti",
-                  "href": "https://www.cankaya.bel.tr/hizmetler/gonullu-danismanlik-ve-test-hizmetleri"
-                }
-              ]
-            }
-          ]
+          "address": "Adres: Çankaya Belediyesi Maltepe Yerleşkesi, Şehit Gönenç Caddesi, Maltepe",
+          "phone": "+904440601",
+          "website": "https://www.cankaya.bel.tr/hizmetler/gonullu-danismanlik-ve-test-hizmetleri",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "nobetci-eczane-ve-ilac",
-          "name": "Nöbetçi eczane ve ilaç",
+          "title": "Nöbetçi eczane ve ilaç",
+          "description": "Ankara Eczacı Odası günlük nöbetçi eczaneleri ilçeye göre yayımlar. Gitmeden önce eczaneyi arayın; reçetesiz veya ücretsiz ilaç garantisi yoktur.\nDüzenli ilacınız kaybolduysa reçete, kimlik ve sağlık güvencesi için hastane, aile hekimi ve sosyal hizmet uzmanıyla görüşün. Hayati ilaç kesintisinde 112.\nAnkara nöbetçi eczaneler",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ankara Eczacı Odası günlük nöbetçi eczaneleri ilçeye göre yayımlar. Gitmeden önce eczaneyi arayın; reçetesiz veya ücretsiz ilaç garantisi yoktur."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Düzenli ilacınız kaybolduysa reçete, kimlik ve sağlık güvencesi için hastane, aile hekimi ve sosyal hizmet uzmanıyla görüşün. Hayati ilaç kesintisinde 112."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ankara nöbetçi eczaneler",
-                  "href": "https://www.ankaraeo.org.tr/nobetci-eczane/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.ankaraeo.org.tr/nobetci-eczane/",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
+    },
+    {
+      "id": "mental-health",
+      "title": "Mental health and addiction",
+      "entries": []
+    },
+    {
+      "id": "public-facilities",
+      "title": "Public toilets and day facilities",
+      "entries": []
+    },
+    {
+      "id": "phone-internet",
+      "title": "Phone charging and internet",
+      "entries": []
+    },
+    {
+      "id": "transport",
+      "title": "Transport",
+      "entries": []
     },
     {
       "id": "benefits",
-      "title": "6. Sosyal yardımlar ve konut krizini önleme",
-      "items": [
+      "title": "Sosyal yardımlar ve konut krizini önleme",
+      "entries": [
         {
-          "type": "resource",
           "id": "alo-144-sosyal-yard-m-hatt",
-          "name": "ALO 144 — Sosyal Yardım Hattı",
+          "title": "ALO 144 — Sosyal Yardım Hattı",
+          "description": "Telefon: 144, hafta içi 08.00–19.00 ve yurt içinden ücretsiz.\nSYDV tarafından yürütülen gıda, yakacak, engelli aylığı, eşi vefat eden kadın, barınma ve diğer yardımların koşullarını, başvuru yerini ve mevcut başvurunun durumunu sorun.\nALO 144 resmî bilgisi",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefon:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "144",
-                  "href": "tel:144"
-                },
-                {
-                  "text": ", hafta içi 08.00–19.00 ve yurt içinden ücretsiz."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "SYDV tarafından yürütülen gıda, yakacak, engelli aylığı, eşi vefat eden kadın, barınma ve diğer yardımların koşullarını, başvuru yerini ve mevcut başvurunun durumunu sorun."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "ALO 144 resmî bilgisi",
-                  "href": "https://www.aile.gov.tr/alo-144/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "144",
+          "website": "https://www.aile.gov.tr/alo-144/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "e-devlet-sosyal-yard-m-basvurusu",
-          "name": "e-Devlet Sosyal Yardım Başvurusu",
+          "title": "e-Devlet Sosyal Yardım Başvurusu",
+          "description": "T.C. kimlik doğrulaması olan kişiler Aile ve Sosyal Hizmetler Bakanlığı sosyal yardım başvurusunu çevrimiçi yapabilir.\nBaşvuru yapmak onay garantisi değildir. Telefon, adres ve hane bilgisini güncel tutun; şifrenizi kütüphane bilgisayarında kaydetmeyin.\nSosyal Yardım Başvuru Hizmeti",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "T.C. kimlik doğrulaması olan kişiler Aile ve Sosyal Hizmetler Bakanlığı sosyal yardım başvurusunu çevrimiçi yapabilir."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Başvuru yapmak onay garantisi değildir. Telefon, adres ve hane bilgisini güncel tutun; şifrenizi kütüphane bilgisayarında kaydetmeyin."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Sosyal Yardım Başvuru Hizmeti",
-                  "href": "https://www.turkiye.gov.tr/aile-ve-sosyal-hizmetler-sosyal-yardim-basvuru-hizmeti"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.turkiye.gov.tr/aile-ve-sosyal-hizmetler-sosyal-yardim-basvuru-hizmeti",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "sosyal-yard-mlasma-ve-dayan-sma-vakf",
-          "name": "Sosyal Yardımlaşma ve Dayanışma Vakfı",
+          "title": "Sosyal Yardımlaşma ve Dayanışma Vakfı",
+          "description": "Başvurular genellikle kayıtlı ikamet adresinizin bulunduğu ilçe SYDV'sine yapılır. Sabit adresiniz yoksa ALO 144'e hangi vakfa ve hangi belgelerle başvuracağınızı sorun.\nGıda, barınma, yakacak, sağlık ve nakit programları ayrı koşullara sahiptir. Acil olduğunuzu söyleyin ancak aynı gün ödeme beklemeyin.\nİlçe vakfına yönlendirme için ALO 144",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Başvurular genellikle kayıtlı ikamet adresinizin bulunduğu ilçe SYDV'sine yapılır. Sabit adresiniz yoksa ALO 144'e hangi vakfa ve hangi belgelerle başvuracağınızı sorun."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Gıda, barınma, yakacak, sağlık ve nakit programları ayrı koşullara sahiptir. Acil olduğunuzu söyleyin ancak aynı gün ödeme beklemeyin."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "İlçe vakfına yönlendirme için ALO 144",
-                  "href": "https://www.aile.gov.tr/alo-144/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.aile.gov.tr/alo-144/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "abb-baskent-kart-ve-sosyal-destekler",
-          "name": "ABB Başkent Kart ve sosyal destekler",
+          "title": "ABB Başkent Kart ve sosyal destekler",
+          "description": "Danışma: 0312 507 37 00. Gıda, ekmek, doğalgaz, ulaşım, bebek ve diğer destekler dönemsel program ve sosyal incelemeye bağlıdır.\nBaşkent Kart tek başına yardım hakkı oluşturmaz. Güncel başvuruyu ABB sistemi veya Ulus Sosyal Hizmet Merkezi üzerinden tamamlayın.\nABB sosyal destek rehberi",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Danışma:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "0312 507 37 00",
-                  "href": "tel:+903125073700"
-                },
-                {
-                  "text": ". Gıda, ekmek, doğalgaz, ulaşım, bebek ve diğer destekler dönemsel program ve sosyal incelemeye bağlıdır."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Başkent Kart tek başına yardım hakkı oluşturmaz. Güncel başvuruyu ABB sistemi veya Ulus Sosyal Hizmet Merkezi üzerinden tamamlayın."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "ABB sosyal destek rehberi",
-                  "href": "https://sosyalhizmet.ankara.bel.tr/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+903125073700",
+          "website": "https://sosyalhizmet.ankara.bel.tr/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "tahliye-veya-kira-borcu-riski",
-          "name": "Tahliye veya kira borcu riski",
+          "title": "Tahliye veya kira borcu riski",
+          "description": "Mahkeme, icra, tahliye veya kira sözleşmesi evrakını saklayın. Aynı gün Ankara Barosu Adli Yardım, ilçe SYDV, ABB sosyal yardım ve ALO 144 ile görüşün.\nEv sahibine boş belge imzalamayın. Resmî tebligatı görmezden gelmek süre kaybına yol açabilir; hukuki son tarih için avukata sorun.\nAnkara Barosu Adli Yardım iletişimi",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Mahkeme, icra, tahliye veya kira sözleşmesi evrakını saklayın. Aynı gün Ankara Barosu Adli Yardım, ilçe SYDV, ABB sosyal yardım ve ALO 144 ile görüşün."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ev sahibine boş belge imzalamayın. Resmî tebligatı görmezden gelmek süre kaybına yol açabilir; hukuki son tarih için avukata sorun."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ankara Barosu Adli Yardım iletişimi",
-                  "href": "https://www.ankarabarosu.org.tr/baro/iletisim/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.ankarabarosu.org.tr/baro/iletisim/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "engelli-hizmet-merkezi",
-          "name": "Engelli Hizmet Merkezi",
+          "title": "Engelli Hizmet Merkezi",
+          "description": "ABB; sosyal incelemeyle sıcak yemek, temizlik, bakım, psikolojik danışmanlık, fizyoterapi ve başka destekler sağlayabilir. Ankara'da ikamet ve engellilik koşullarını sorun.\nMerkez hafta içi 08.00–17.00 hizmet yayımlıyor. Acil sağlık için 112.\nEngelli Hizmet Merkezi",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Adres:",
-                  "strong": true
-                },
-                {
-                  "text": " Yunus Emre Mahallesi, Gazi Mustafa Kemal Bulvarı No:13/A, Sincan"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "ABB; sosyal incelemeyle sıcak yemek, temizlik, bakım, psikolojik danışmanlık, fizyoterapi ve başka destekler sağlayabilir. Ankara'da ikamet ve engellilik koşullarını sorun."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Merkez hafta içi 08.00–17.00 hizmet yayımlıyor. Acil sağlık için 112."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Engelli Hizmet Merkezi",
-                  "href": "https://www.ankara.bel.tr/hizmetler/engelli-ve-yasli-hizmetleri/engelli-hizmet-merkezi"
-                }
-              ]
-            }
-          ]
+          "address": "Adres: Yunus Emre Mahallesi, Gazi Mustafa Kemal Bulvarı No:13/A, Sincan",
+          "phone": "",
+          "website": "https://www.ankara.bel.tr/hizmetler/engelli-ve-yasli-hizmetleri/engelli-hizmet-merkezi",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "yasl-lar-gaziler-ve-sehit-yak-nlar",
-          "name": "Yaşlılar, gaziler ve şehit yakınları",
+          "title": "Yaşlılar, gaziler ve şehit yakınları",
+          "description": "ALO 183: 183. Bakım, güvenli barınma, ihmal, istismar, engellilik, gazi ve şehit yakını hizmetleri için yönlendirme isteyin.\nKurum bakımı için sağlık raporu ve sosyal inceleme gerekebilir. Sokakta ve acil tehlikedeyseniz ayrıca 153 ve gerektiğinde 112'yi arayın.\nALO 183 hizmet alanları",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "ALO 183:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "183",
-                  "href": "tel:183"
-                },
-                {
-                  "text": ". Bakım, güvenli barınma, ihmal, istismar, engellilik, gazi ve şehit yakını hizmetleri için yönlendirme isteyin."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Kurum bakımı için sağlık raporu ve sosyal inceleme gerekebilir. Sokakta ve acil tehlikedeyseniz ayrıca 153 ve gerektiğinde 112'yi arayın."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "ALO 183 hizmet alanları",
-                  "href": "https://www.aile.gov.tr/alo-183"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "183",
+          "website": "https://www.aile.gov.tr/alo-183",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
-      "id": "jobs",
-      "title": "7. İş, eğitim ve gelir",
-      "items": [
+      "id": "employment",
+      "title": "İş, eğitim ve gelir",
+      "entries": [
         {
-          "type": "resource",
           "id": "abb-kariyer-merkezi",
-          "name": "ABB Kariyer Merkezi",
+          "title": "ABB Kariyer Merkezi",
+          "description": "İş arayanlara ücretsiz özgeçmiş hazırlama, iş arama becerileri, mülakat desteği, kariyer danışmanlığı ve uygun ilanlarla eşleştirme sunar. Engelli adaylar da başvurabilir.\nÇevrimiçi üyelikte T.C. kimlik, telefon ve e-posta istenir. Bunlardan biri yoksa yüz yüze kariyer ofisini veya 153'ü arayıp yardım isteyin.\nABB Kariyer Merkezi hizmetleri | iş arayan kaydı — https://kariyermerkezi.ankara.bel.tr/uyeol",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "İş arayanlara ücretsiz özgeçmiş hazırlama, iş arama becerileri, mülakat desteği, kariyer danışmanlığı ve uygun ilanlarla eşleştirme sunar. Engelli adaylar da başvurabilir."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Çevrimiçi üyelikte T.C. kimlik, telefon ve e-posta istenir. Bunlardan biri yoksa yüz yüze kariyer ofisini veya 153'ü arayıp yardım isteyin."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "ABB Kariyer Merkezi hizmetleri",
-                  "href": "https://kariyermerkezi.ankara.bel.tr/hakkimizda"
-                },
-                {
-                  "text": " | "
-                },
-                {
-                  "text": "iş arayan kaydı",
-                  "href": "https://kariyermerkezi.ankara.bel.tr/uyeol"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://kariyermerkezi.ankara.bel.tr/hakkimizda",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "iskur-ankara-il-mudurlugu",
-          "name": "İŞKUR Ankara İl Müdürlüğü",
+          "title": "İŞKUR Ankara İl Müdürlüğü",
+          "description": "Telefon: 0312 435 15 65 veya 0312 430 10 31.\nİş arayan kaydı, ilanlar, meslek danışmanlığı, kurslar ve işsizlik sigortası hakkında bilgi verir. Kimlik ve kayıt şartlarını gitmeden önce sorun.\nAnkara İŞKUR iletişim",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Adres:",
-                  "strong": true
-                },
-                {
-                  "text": " Ayrancı Mahallesi, Uçarlı Sokak No:29, Çankaya, Ankara"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefon:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "0312 435 15 65",
-                  "href": "tel:+903124351565"
-                },
-                {
-                  "text": " veya "
-                },
-                {
-                  "text": "0312 430 10 31",
-                  "href": "tel:+903124301031"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "İş arayan kaydı, ilanlar, meslek danışmanlığı, kurslar ve işsizlik sigortası hakkında bilgi verir. Kimlik ve kayıt şartlarını gitmeden önce sorun."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ankara İŞKUR iletişim",
-                  "href": "https://ankara.gov.tr/calisma-ve-is-kurumu-il-mudurlugu"
-                }
-              ]
-            }
-          ]
+          "address": "Adres: Ayrancı Mahallesi, Uçarlı Sokak No:29, Çankaya, Ankara",
+          "phone": "+903124351565",
+          "website": "https://ankara.gov.tr/calisma-ve-is-kurumu-il-mudurlugu",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "alo-170-cal-sma-hayat",
-          "name": "ALO 170 — çalışma hayatı",
+          "title": "ALO 170 — çalışma hayatı",
+          "description": "Telefon: 170. Sigortasız çalışma, ücretin ödenmemesi, iş kazası, çalışma izni, işsizlik sigortası ve iş hukuku hakkında bilgi ve kayıt.\nİşverenin adı, adresi, çalışma günleri, yazışmalar ve ödeme kanıtlarını saklayın. Acil şiddet veya zorla çalıştırmada 112.\nALO 170",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefon:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "170",
-                  "href": "tel:170"
-                },
-                {
-                  "text": ". Sigortasız çalışma, ücretin ödenmemesi, iş kazası, çalışma izni, işsizlik sigortası ve iş hukuku hakkında bilgi ve kayıt."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "İşverenin adı, adresi, çalışma günleri, yazışmalar ve ödeme kanıtlarını saklayın. Acil şiddet veya zorla çalıştırmada 112."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "ALO 170",
-                  "href": "https://www.alo170.gov.tr/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "170",
+          "website": "https://www.alo170.gov.tr/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "is-basvurusu-icin-internet-ve-belge",
-          "name": "İş başvurusu için internet ve belge",
+          "title": "İş başvurusu için internet ve belge",
+          "description": "Halk kütüphanelerinde ücretsiz internet ve bilgisayar bulunabilir. Özgeçmiş, e-posta ve başvuru için yardım isteyin; şifreyi tarayıcıya kaydetmeyin ve oturumu kapatın.\nKimlik, banka hesabı, telefon veya sabit adres sorunu varsa barınma evi sosyal hizmet uzmanı ve Ulus Sosyal Hizmet Merkezi ile çözüm planı yapın.\nÜcretsiz halk kütüphanesi hizmetleri",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Halk kütüphanelerinde ücretsiz internet ve bilgisayar bulunabilir. Özgeçmiş, e-posta ve başvuru için yardım isteyin; şifreyi tarayıcıya kaydetmeyin ve oturumu kapatın."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Kimlik, banka hesabı, telefon veya sabit adres sorunu varsa barınma evi sosyal hizmet uzmanı ve Ulus Sosyal Hizmet Merkezi ile çözüm planı yapın."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ücretsiz halk kütüphanesi hizmetleri",
-                  "href": "https://kygm.ktb.gov.tr/TR-318370/halk-kutuphaneleri-ucretli-mi-kutuphane-uyeligi-icin-gerekenler-neler.html"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://kygm.ktb.gov.tr/TR-318370/halk-kutuphaneleri-ucretli-mi-kutuphane-uyeligi-icin-gerekenler-neler.html",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
+    },
+    {
+      "id": "legal",
+      "title": "Legal aid",
+      "entries": []
     },
     {
       "id": "documents",
-      "title": "8. Kimlik, adres, hukuk ve evrak",
-      "items": [
+      "title": "Kimlik, adres, hukuk ve evrak",
+      "entries": [
         {
-          "type": "resource",
           "id": "kay-p-t-c-kimlik-kart-alo-199",
-          "name": "Kayıp T.C. kimlik kartı — ALO 199",
+          "title": "Kayıp T.C. kimlik kartı — ALO 199",
+          "description": "Telefon: 199. Kayıp bildirimi yapın ve nüfus müdürlüğü randevusu ile yenileme belgelerini sorun.\nKimliğiniz yoksa kimlik tespiti için ek işlem gerekebilir. Ücret, fotoğraf ve doğrulama şartlarını gitmeden önce öğrenin.\nKimlik kartı başvurusu ve kayıp işlemi",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefon:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "199",
-                  "href": "tel:199"
-                },
-                {
-                  "text": ". Kayıp bildirimi yapın ve nüfus müdürlüğü randevusu ile yenileme belgelerini sorun."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Kimliğiniz yoksa kimlik tespiti için ek işlem gerekebilir. Ücret, fotoğraf ve doğrulama şartlarını gitmeden önce öğrenin."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Kimlik kartı başvurusu ve kayıp işlemi",
-                  "href": "https://www.nvi.gov.tr/sss-kimlik-karti?v=1.0.22"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "199",
+          "website": "https://www.nvi.gov.tr/sss-kimlik-karti?v=1.0.22",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "sabit-adresiniz-yoksa",
-          "name": "Sabit adresiniz yoksa",
+          "title": "Sabit adresiniz yoksa",
+          "description": "Adres kaydı sosyal yardım, sağlık, iş ve tebligatları etkileyebilir. Yanlış ya da izinsiz adres bildirmeyin.\nBarınma evi sosyal hizmet uzmanına ve ALO 199'a hangi belge ve nüfus müdürlüğüyle işlem yapacağınızı sorun. Kurumun adresini kullanmadan önce açık onay alın.\nNüfus ve Vatandaşlık adres işlemleri",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Adres kaydı sosyal yardım, sağlık, iş ve tebligatları etkileyebilir. Yanlış ya da izinsiz adres bildirmeyin."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Barınma evi sosyal hizmet uzmanına ve ALO 199'a hangi belge ve nüfus müdürlüğüyle işlem yapacağınızı sorun. Kurumun adresini kullanmadan önce açık onay alın."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Nüfus ve Vatandaşlık adres işlemleri",
-                  "href": "https://www.nvi.gov.tr/sss-adres-hizmetleri?v=1.0.23"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.nvi.gov.tr/sss-adres-hizmetleri?v=1.0.23",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "bar-nma-evi-kimlik-destegi",
-          "name": "Barınma evi kimlik desteği",
+          "title": "Barınma evi kimlik desteği",
+          "description": "ABB, kimliği olmayan barınma evi misafirlerinin kimlik çıkarma işlemlerine yardımcı olduğunu yayımlıyor. Sosyal hizmet uzmanına kayıp, çalıntı veya hiç çıkarılmamış kimlik durumunu anlatın.\nBu destek kartın hemen çıkacağı anlamına gelmez; nüfus müdürlüğünün doğrulama ve ücret kuralları geçerlidir.\nBarınma Evi sosyal servis hizmetleri",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "ABB, kimliği olmayan barınma evi misafirlerinin kimlik çıkarma işlemlerine yardımcı olduğunu yayımlıyor. Sosyal hizmet uzmanına kayıp, çalıntı veya hiç çıkarılmamış kimlik durumunu anlatın."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Bu destek kartın hemen çıkacağı anlamına gelmez; nüfus müdürlüğünün doğrulama ve ücret kuralları geçerlidir."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Barınma Evi sosyal servis hizmetleri",
-                  "href": "https://www.ankara.bel.tr/hizmetler/sosyal-hizmetler/barinma-evi"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.ankara.bel.tr/hizmetler/sosyal-hizmetler/barinma-evi",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "ankara-barosu-adli-yard-m",
-          "name": "Ankara Barosu Adli Yardım",
+          "title": "Ankara Barosu Adli Yardım",
+          "description": "Telefon: 0312 416 72 18, 0312 416 72 19 veya 0312 416 72 95.\nAvukat ücretini karşılayamayan ve koşulları sağlayan kişiler için hukuki yardım değerlendirmesi. Tebligat, tahliye, aile ve borç sorunları için gereken belgeyi sorun.\nAnkara Barosu iletişim ve Adli Yardım",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Adres:",
-                  "strong": true
-                },
-                {
-                  "text": " Atatürk Bulvarı No:40, Ankara Adliyesi 5. Kat, Sıhhiye"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefon:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "0312 416 72 18",
-                  "href": "tel:+903124167218"
-                },
-                {
-                  "text": ", "
-                },
-                {
-                  "text": "0312 416 72 19",
-                  "href": "tel:+903124167219"
-                },
-                {
-                  "text": " veya "
-                },
-                {
-                  "text": "0312 416 72 95",
-                  "href": "tel:+903124167295"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Avukat ücretini karşılayamayan ve koşulları sağlayan kişiler için hukuki yardım değerlendirmesi. Tebligat, tahliye, aile ve borç sorunları için gereken belgeyi sorun."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ankara Barosu iletişim ve Adli Yardım",
-                  "href": "https://www.ankarabarosu.org.tr/baro/iletisim/"
-                }
-              ]
-            }
-          ]
+          "address": "Adres: Atatürk Bulvarı No:40, Ankara Adliyesi 5. Kat, Sıhhiye",
+          "phone": "+903124167218",
+          "website": "https://www.ankarabarosu.org.tr/baro/iletisim/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "gelincik-merkezi-siddet-icin-hukuki-yard-m",
-          "name": "Gelincik Merkezi — şiddet için hukuki yardım",
+          "title": "Gelincik Merkezi — şiddet için hukuki yardım",
+          "description": "7/24 telefon: 444 43 06. Şiddete uğrayan kadın, çocuk ve LGBTİ+ kişiler için hukuki bilgi, acil yönlendirme ve uygun mekanizmalara erişim.\nAktif saldırıda önce 112. Güvenli değilse ortak telefon veya cihazda arama geçmişinin risk oluşturup oluşturmadığını düşünün.\nAnkara Barosu Gelincik Merkezi",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "7/24 telefon:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "444 43 06",
-                  "href": "tel:+904444306"
-                },
-                {
-                  "text": ". Şiddete uğrayan kadın, çocuk ve LGBTİ+ kişiler için hukuki bilgi, acil yönlendirme ve uygun mekanizmalara erişim."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Aktif saldırıda önce 112. Güvenli değilse ortak telefon veya cihazda arama geçmişinin risk oluşturup oluşturmadığını düşünün."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ankara Barosu Gelincik Merkezi",
-                  "href": "https://ankarabarosu.org.tr/Merkezler/bed22b72-a41c-11eb-9877-000c29c9dfce"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+904444306",
+          "website": "https://ankarabarosu.org.tr/Merkezler/bed22b72-a41c-11eb-9877-000c29c9dfce",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
+    },
+    {
+      "id": "mail",
+      "title": "Mailing address",
+      "entries": []
+    },
+    {
+      "id": "storage",
+      "title": "Storage",
+      "entries": []
     },
     {
       "id": "safety",
-      "title": "9. Kadınlar, çocuklar, LGBTİ+, göçmenler ve diğer gruplar",
-      "items": [
+      "title": "Kadınlar, çocuklar, LGBTİ+, göçmenler ve diğer gruplar",
+      "entries": [
         {
-          "type": "resource",
           "id": "ankara-sonim",
-          "name": "Ankara ŞÖNİM",
+          "title": "Ankara ŞÖNİM",
+          "description": "Telefon: 0312 348 36 86. Şiddete uğrayan veya risk altındaki kişiler için güvenlik planı, koruma, konukevi ve sosyal hizmet yönlendirmesi.\nKonukevi adresi gizlidir. Acil saldırıda 112; 7/24 yönlendirme için 183.\nŞÖNİM resmî iletişim listesi",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Adres:",
-                  "strong": true
-                },
-                {
-                  "text": " Hacı Bayram Mahallesi, Anafartalar Caddesi No:66, Altındağ"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefon:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "0312 348 36 86",
-                  "href": "tel:+903123483686"
-                },
-                {
-                  "text": ". Şiddete uğrayan veya risk altındaki kişiler için güvenlik planı, koruma, konukevi ve sosyal hizmet yönlendirmesi."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Konukevi adresi gizlidir. Acil saldırıda 112; 7/24 yönlendirme için 183."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "ŞÖNİM resmî iletişim listesi",
-                  "href": "https://www.aile.gov.tr/iletisim/bakanlik-iletisim-bilgileri/sonim/"
-                }
-              ]
-            }
-          ]
+          "address": "Adres: Hacı Bayram Mahallesi, Anafartalar Caddesi No:66, Altındağ",
+          "phone": "+903123483686",
+          "website": "https://www.aile.gov.tr/iletisim/bakanlik-iletisim-bilgileri/sonim/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "abb-kad-n-dan-sma-merkezi",
-          "name": "ABB Kadın Danışma Merkezi",
+          "title": "ABB Kadın Danışma Merkezi",
+          "description": "Gündüz: 0312 507 37 60. 7/24: 0549 248 64 86.\nÜcretsiz psikolojik, sosyal ve hukuki danışmanlık; şiddet, sığınma, iş, sosyal yardım ve hijyenik ped yönlendirmesi. Çocuklarla başvuru yapılabilir.\nABB Kadın Danışma Merkezi",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Adres:",
-                  "strong": true
-                },
-                {
-                  "text": " Hacı Bayram Mahallesi, Hipodrom Caddesi, Gençlik Parkı içi, Gar Kapısı Girişi No:33, Altındağ"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Gündüz:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "0312 507 37 60",
-                  "href": "tel:+903125073760"
-                },
-                {
-                  "text": ". "
-                },
-                {
-                  "text": "7/24:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "0549 248 64 86",
-                  "href": "tel:+905492486486"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ücretsiz psikolojik, sosyal ve hukuki danışmanlık; şiddet, sığınma, iş, sosyal yardım ve hijyenik ped yönlendirmesi. Çocuklarla başvuru yapılabilir."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "ABB Kadın Danışma Merkezi",
-                  "href": "https://kadincalismalari.ankara.bel.tr/"
-                }
-              ]
-            }
-          ]
+          "address": "Adres: Hacı Bayram Mahallesi, Hipodrom Caddesi, Gençlik Parkı içi, Gar Kapısı Girişi No:33, Altındağ",
+          "phone": "+903125073760",
+          "website": "https://kadincalismalari.ankara.bel.tr/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "cocuk-veya-genc-risk-alt-ndaysa",
-          "name": "Çocuk veya genç risk altındaysa",
+          "title": "Çocuk veya genç risk altındaysa",
+          "description": "ALO 183: 183. Çocuk sokakta yalnızsa, evden kaçtıysa, ihmal veya istismar varsa bulunduğu yeri ve güvenlik durumunu bildirin.\nHayati tehlike, saldırı veya ciddi sağlık sorunu varsa 112. Çocuğu tanımadığınız özel bir araca bindirmeyin; resmî ekibi bekleyin.\nÇocuk koruma ve ALO 183 yönlendirmesi",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "ALO 183:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "183",
-                  "href": "tel:183"
-                },
-                {
-                  "text": ". Çocuk sokakta yalnızsa, evden kaçtıysa, ihmal veya istismar varsa bulunduğu yeri ve güvenlik durumunu bildirin."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Hayati tehlike, saldırı veya ciddi sağlık sorunu varsa 112. Çocuğu tanımadığınız özel bir araca bindirmeyin; resmî ekibi bekleyin."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Çocuk koruma ve ALO 183 yönlendirmesi",
-                  "href": "https://www.aile.gov.tr/sss/cocuk-hizmetleri-genel-mudurlugu/koruyucu-ve-onleyici-hizmetler/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "183",
+          "website": "https://www.aile.gov.tr/sss/cocuk-hizmetleri-genel-mudurlugu/koruyucu-ve-onleyici-hizmetler/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "lgbti-kisiler-kaos-gl-dan-smanl-k",
-          "name": "LGBTİ+ kişiler — Kaos GL danışmanlık",
+          "title": "LGBTİ+ kişiler — Kaos GL danışmanlık",
+          "description": "Sosyal danışmanlık: danisma@kaosgl.org. Hukuk: hukuk@kaosgl.org. — mailto:danisma@kaosgl.org — mailto:hukuk@kaosgl.org\nAyrımcılık, şiddet, barınma, sağlık ve haklara erişim konusunda danışmanlık isteyin. Aynı gün cevap veya barınma garantisi yoktur; acil saldırıda 112.\nKaos GL",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Sosyal danışmanlık:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "danisma@kaosgl.org",
-                  "href": "mailto:danisma@kaosgl.org"
-                },
-                {
-                  "text": ". "
-                },
-                {
-                  "text": "Hukuk:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "hukuk@kaosgl.org",
-                  "href": "mailto:hukuk@kaosgl.org"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ayrımcılık, şiddet, barınma, sağlık ve haklara erişim konusunda danışmanlık isteyin. Aynı gün cevap veya barınma garantisi yoktur; acil saldırıda 112."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Kaos GL",
-                  "href": "https://kaosgl.org/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://kaosgl.org/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "lgbti-kisiler-spod-uzaktan-destek",
-          "name": "LGBTİ+ kişiler — SPoD uzaktan destek",
+          "title": "LGBTİ+ kişiler — SPoD uzaktan destek",
+          "description": "Türkiye genelinden psikolojik, sosyal hizmet ve ücretsiz hukuki danışmanlık başvuruları alınabilir. Hukuki destek için hukuk@spod.org.tr. — mailto:hukuk@spod.org.tr\nSosyal hizmet desteği barınma, sosyal yardım, şiddet sonrası hizmetler ve iş başvuru süreçlerinde yönlendirme sağlayabilir; doğrudan yatak veya para sağlamaz.\nSPoD",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Türkiye genelinden psikolojik, sosyal hizmet ve ücretsiz hukuki danışmanlık başvuruları alınabilir. Hukuki destek için "
-                },
-                {
-                  "text": "hukuk@spod.org.tr",
-                  "href": "mailto:hukuk@spod.org.tr"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Sosyal hizmet desteği barınma, sosyal yardım, şiddet sonrası hizmetler ve iş başvuru süreçlerinde yönlendirme sağlayabilir; doğrudan yatak veya para sağlamaz."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "SPoD",
-                  "href": "https://spod.org.tr/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://spod.org.tr/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "yabanc-lar-ve-uluslararas-koruma-yimer-157",
-          "name": "Yabancılar ve uluslararası koruma — YİMER 157",
+          "title": "Yabancılar ve uluslararası koruma — YİMER 157",
+          "description": "Türkiye içinden: 157. İkamet, geçici koruma, uluslararası koruma, insan ticareti, göç işlemleri ve çok dilli bilgi.\nHayati tehlikede 112. Resmî işlem için para isteyen aracı kişilere güvenmeyin; İl Göç İdaresi işlemlerini resmî kanaldan doğrulayın.\nGöç İdaresi ve YİMER 157",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Türkiye içinden:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "157",
-                  "href": "tel:157"
-                },
-                {
-                  "text": ". İkamet, geçici koruma, uluslararası koruma, insan ticareti, göç işlemleri ve çok dilli bilgi."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Hayati tehlikede 112. Resmî işlem için para isteyen aracı kişilere güvenmeyin; İl Göç İdaresi işlemlerini resmî kanaldan doğrulayın."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Göç İdaresi ve YİMER 157",
-                  "href": "https://goc.gov.tr/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "157",
+          "website": "https://goc.gov.tr/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "sgdd-asam-multeci-ve-gocmen-destegi",
-          "name": "SGDD-ASAM — mülteci ve göçmen desteği",
+          "title": "SGDD-ASAM — mülteci ve göçmen desteği",
+          "description": "Danışmanlık: 0312 212 60 12. İdari: 0312 212 60 13.\nPsikososyal, hukuki, sağlık, eğitim ve koruma yönlendirmeleri. Ankara'da Kardelen ve Altındağ temsilcilikleri de bulunur; doğru ofisi arayarak sorun.\nSGDD Ankara ofisleri",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Danışma:",
-                  "strong": true
-                },
-                {
-                  "text": " Kazım Özalp Mahallesi, Rabat Sokak No:23-25, Çankaya"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Danışmanlık:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "0312 212 60 12",
-                  "href": "tel:+903122126012"
-                },
-                {
-                  "text": ". "
-                },
-                {
-                  "text": "İdari:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "0312 212 60 13",
-                  "href": "tel:+903122126013"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Psikososyal, hukuki, sağlık, eğitim ve koruma yönlendirmeleri. Ankara'da Kardelen ve Altındağ temsilcilikleri de bulunur; doğru ofisi arayarak sorun."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "SGDD Ankara ofisleri",
-                  "href": "https://sgdd.org.tr/neredeyiz/"
-                }
-              ]
-            }
-          ]
+          "address": "Danışma: Kazım Özalp Mahallesi, Rabat Sokak No:23-25, Çankaya",
+          "phone": "+903122126012",
+          "website": "https://sgdd.org.tr/neredeyiz/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "insan-ticareti-zorla-cal-st-rma-veya-pasaporta-el-konulmas",
-          "name": "İnsan ticareti, zorla çalıştırma veya pasaporta el konulması",
+          "title": "İnsan ticareti, zorla çalıştırma veya pasaporta el konulması",
+          "description": "Güvenli olduğunuzda YİMER 157, ALO 183 veya 112 ile iletişim kurun. Konumunuzu ve güvenli geri arama yöntemini söyleyin.\nPasaportunuza el koyan, borçla tehdit eden veya çalışmaya zorlayan kişiye planınızı açıklamayın. Ortak cihaz risk oluşturuyorsa güvenli bir telefon kullanın.\nGöç İdaresi acil iletişim kanalları",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Güvenli olduğunuzda "
-                },
-                {
-                  "text": "YİMER 157",
-                  "href": "tel:157"
-                },
-                {
-                  "text": ", "
-                },
-                {
-                  "text": "ALO 183",
-                  "href": "tel:183"
-                },
-                {
-                  "text": " veya "
-                },
-                {
-                  "text": "112",
-                  "href": "tel:112"
-                },
-                {
-                  "text": " ile iletişim kurun. Konumunuzu ve güvenli geri arama yöntemini söyleyin."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Pasaportunuza el koyan, borçla tehdit eden veya çalışmaya zorlayan kişiye planınızı açıklamayın. Ortak cihaz risk oluşturuyorsa güvenli bir telefon kullanın."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Göç İdaresi acil iletişim kanalları",
-                  "href": "https://goc.gov.tr/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "157",
+          "website": "https://goc.gov.tr/",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
+      "id": "specialist-support",
+      "title": "Specialist support",
+      "entries": []
+    },
+    {
+      "id": "veterans",
+      "title": "Veterans support",
+      "entries": []
+    },
+    {
       "id": "pets",
-      "title": "10. Hayvanlarla ilgili yardım",
-      "items": [
+      "title": "Hayvanlarla ilgili yardım",
+      "entries": [
         {
-          "type": "resource",
           "id": "bar-nma-basvurusunda-hayvan-n-z-bildirin",
-          "name": "Barınma başvurusunda hayvanınızı bildirin",
+          "title": "Barınma başvurusunda hayvanınızı bildirin",
+          "description": "Başkent 153'e hayvanın türünü, boyutunu, sağlık durumunu, aşı ve mikroçip bilgisini, taşıma çantası veya tasma olup olmadığını söyleyin.\nUlus ve Dışkapı Barınma Evleri evcil hayvan kabulünü açıkça garanti etmiyor. Yerleştirmeyi kabul etmeden önce hayvanla giriş veya geçici bakım seçeneğini sorun; hayvanı terk etmeyin.\nBaşkent 153 barınma yönlendirmesi",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Başkent 153'e hayvanın türünü, boyutunu, sağlık durumunu, aşı ve mikroçip bilgisini, taşıma çantası veya tasma olup olmadığını söyleyin."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ulus ve Dışkapı Barınma Evleri evcil hayvan kabulünü açıkça garanti etmiyor. Yerleştirmeyi kabul etmeden önce hayvanla giriş veya geçici bakım seçeneğini sorun; hayvanı terk etmeyin."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Başkent 153 barınma yönlendirmesi",
-                  "href": "https://sosyalhizmet.ankara.bel.tr/acil-durum-rehberi/barinma-ihtiyaci"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://sosyalhizmet.ankara.bel.tr/acil-durum-rehberi/barinma-ihtiyaci",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "e-pati-ve-baskent-153-yaral-sahipsiz-hayvan",
-          "name": "E-Pati ve Başkent 153 — yaralı sahipsiz hayvan",
+          "title": "E-Pati ve Başkent 153 — yaralı sahipsiz hayvan",
+          "description": "Telefon: 153. Yaralı sahipsiz hayvanın açık konumunu, durumunu ve güvenli yaklaşım bilgisini verin; kayıt numarasını saklayın.\nE-Pati üzerinden ihbar takibi, kısırlaştırma ve sahiplendirme işlemleri bulunur. Hizmet öncelikle sahipsiz hayvanlara yöneliktir; sahipli hayvan için koşulları ayrıca sorun.\nABB E-Pati",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefon:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "153",
-                  "href": "tel:153"
-                },
-                {
-                  "text": ". Yaralı sahipsiz hayvanın açık konumunu, durumunu ve güvenli yaklaşım bilgisini verin; kayıt numarasını saklayın."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "E-Pati üzerinden ihbar takibi, kısırlaştırma ve sahiplendirme işlemleri bulunur. Hizmet öncelikle sahipsiz hayvanlara yöneliktir; sahipli hayvan için koşulları ayrıca sorun."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "ABB E-Pati",
-                  "href": "https://epati.ankara.bel.tr/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "153",
+          "website": "https://epati.ankara.bel.tr/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "kurtulus-sokak-hayvanlar-sagl-k-merkezi",
-          "name": "Kurtuluş Sokak Hayvanları Sağlık Merkezi",
+          "title": "Kurtuluş Sokak Hayvanları Sağlık Merkezi",
+          "description": "Telefon: 0312 433 12 12. Yayımlanan saatler her gün 08.00–16.00.\nSahipsiz sokak hayvanlarına tedavi, aşılama, kısırlaştırma ve sahiplendirme hizmetleri. Getirmeden önce arayın; acil trafik tehlikesinde 153'e konumu bildirin.\nMerkez bilgisi",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Adres:",
-                  "strong": true
-                },
-                {
-                  "text": " Fidanlık Mahallesi, Kurtuluş Parkı içi, Çankaya"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefon:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "0312 433 12 12",
-                  "href": "tel:+903124331212"
-                },
-                {
-                  "text": ". Yayımlanan saatler her gün 08.00–16.00."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Sahipsiz sokak hayvanlarına tedavi, aşılama, kısırlaştırma ve sahiplendirme hizmetleri. Getirmeden önce arayın; acil trafik tehlikesinde 153'e konumu bildirin."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Merkez bilgisi",
-                  "href": "https://www.ankara.bel.tr/hizmetler/veteriner-hizmetleri/kurtulus-sokak-hayvanlari-saglik-merkezi"
-                }
-              ]
-            }
-          ]
+          "address": "Adres: Fidanlık Mahallesi, Kurtuluş Parkı içi, Çankaya",
+          "phone": "+903124331212",
+          "website": "https://www.ankara.bel.tr/hizmetler/veteriner-hizmetleri/kurtulus-sokak-hayvanlari-saglik-merkezi",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
+    },
+    {
+      "id": "other",
+      "title": "Other useful resources",
+      "entries": []
     }
   ]
 }

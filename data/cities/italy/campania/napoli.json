@@ -1,6 +1,7 @@
 {
   "$schema": "https://nohomehelp.com/schemas/city.schema.json",
-  "schema_version": 1,
+  "documentation": "https://github.com/carlosbranco/no-home-help/blob/main/EDIT_CITY_JSON.md",
+  "schema_version": 2,
   "status": "published",
   "locale": {
     "language": "it",
@@ -26,2578 +27,735 @@
   "page": {
     "heading": "Napoli — aiuto per persone senza dimora",
     "last_verified": "2026-11-12",
-    "urgent": [
-      {
-        "type": "paragraph",
-        "content": [
-          {
-            "text": "Emergenza unica:",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "112",
-            "href": "tel:112"
-          },
-          {
-            "text": "; "
-          },
-          {
-            "text": "emergenza sanitaria:",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "118",
-            "href": "tel:118"
-          },
-          {
-            "break": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "Centrale Operativa Sociale, 24 ore:",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "081 562 7027",
-            "href": "tel:+390815627027"
-          },
-          {
-            "break": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "Violenza e stalking:",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "1522",
-            "href": "tel:1522"
-          },
-          {
-            "text": "; "
-          },
-          {
-            "text": "minori in pericolo:",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "114",
-            "href": "tel:114"
-          },
-          {
-            "break": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "Antitratta:",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "800 290 290",
-            "href": "tel:800290290"
-          }
-        ]
-      }
-    ],
-    "notice": [
-      {
-        "text": "Posti, orari, requisiti e disponibilità possono cambiare.",
-        "strong": true
-      },
-      {
-        "text": " Telefonare prima di spostarsi quando possibile. Nessuna voce garantisce un letto, un pasto, una visita, un contributo o un lavoro nello stesso giorno."
-      }
-    ],
-    "intro": [
-      {
-        "type": "paragraph",
-        "content": [
-          {
-            "text": "Per trovare un posto disponibile, la prima chiamata utile è la Centrale Operativa Sociale del Comune. La centrale orienta verso le strutture e aggiorna la disponibilità; non è necessario visitare ogni dormitorio. Segnalare subito problemi medici, violenza, minori, gravidanza, disabilità, dipendenze, documenti mancanti o la presenza di un animale."
-          }
-        ]
-      }
-    ],
-    "footer": [
-      {
-        "type": "paragraph",
-        "content": [
-          {
-            "text": "No Home Help — informazioni gratuite e statiche, senza tracciamento."
-          }
-        ]
-      }
-    ]
+    "urgent": "Emergenza unica: 112; emergenza sanitaria: 118 Centrale Operativa Sociale, 24 ore: 081 562 7027 Violenza e stalking: 1522; minori in pericolo: 114 Antitratta: 800 290 290",
+    "notice": "Posti, orari, requisiti e disponibilità possono cambiare. Telefonare prima di spostarsi quando possibile. Nessuna voce garantisce un letto, un pasto, una visita, un contributo o un lavoro nello stesso giorno.",
+    "intro": "Per trovare un posto disponibile, la prima chiamata utile è la Centrale Operativa Sociale del Comune. La centrale orienta verso le strutture e aggiorna la disponibilità; non è necessario visitare ogni dormitorio. Segnalare subito problemi medici, violenza, minori, gravidanza, disabilità, dipendenze, documenti mancanti o la presenza di un animale.",
+    "footer": "No Home Help — informazioni gratuite e statiche, senza tracciamento."
   },
   "categories": [
     {
       "id": "emergency",
-      "title": "1. Emergenze e primo orientamento",
-      "items": [
+      "title": "Emergenze e primo orientamento",
+      "entries": [
         {
-          "type": "resource",
           "id": "112-emergenza-unica",
-          "name": "112 — emergenza unica",
+          "title": "112 — emergenza unica",
+          "description": "Chiamare: 112, gratuitamente, 24 ore.\nPer pericolo immediato, violenza, incendio, reato o quando non è chiaro quale soccorso serva. Dire per prima cosa la posizione esatta e se ci sono feriti, armi, minori o un pericolo ancora presente.\nMinistero dell'Interno — numero 112",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Chiamare:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "112",
-                  "href": "tel:112"
-                },
-                {
-                  "text": ", gratuitamente, 24 ore."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Per pericolo immediato, violenza, incendio, reato o quando non è chiaro quale soccorso serva. Dire per prima cosa la posizione esatta e se ci sono feriti, armi, minori o un pericolo ancora presente."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ministero dell'Interno — numero 112",
-                  "href": "https://www.interno.gov.it/it/temi/sicurezza/numero-unico-emergenza-112"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "112",
+          "website": "https://www.interno.gov.it/it/temi/sicurezza/numero-unico-emergenza-112",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "118-emergenza-sanitaria",
-          "name": "118 — emergenza sanitaria",
+          "title": "118 — emergenza sanitaria",
+          "description": "Chiamare: 118, gratuitamente, 24 ore.\nPer perdita di coscienza, difficoltà respiratoria, dolore toracico, grave ferita, overdose, ipotermia, colpo di calore o rischio immediato per la salute.\nMinistero della Salute — 118",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Chiamare:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "118",
-                  "href": "tel:118"
-                },
-                {
-                  "text": ", gratuitamente, 24 ore."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Per perdita di coscienza, difficoltà respiratoria, dolore toracico, grave ferita, overdose, ipotermia, colpo di calore o rischio immediato per la salute."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ministero della Salute — 118",
-                  "href": "https://www.salute.gov.it/new/it/tema/118-e-pronto-soccorso/il-numero-118/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "118",
+          "website": "https://www.salute.gov.it/new/it/tema/118-e-pronto-soccorso/il-numero-118/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "centrale-operativa-sociale-del-comune",
-          "name": "Centrale Operativa Sociale del Comune",
+          "title": "Centrale Operativa Sociale del Comune",
+          "description": "Telefono: 081 562 7027, 24 ore.\nPronto intervento sociale, orientamento e smistamento verso dormitori e servizi. Chiedere quale struttura ha disponibilità reale e come accedere; il centralino non garantisce un posto.\nComune — guida ai servizi locali",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "081 562 7027",
-                  "href": "tel:+390815627027"
-                },
-                {
-                  "text": ", 24 ore."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Pronto intervento sociale, orientamento e smistamento verso dormitori e servizi. Chiedere quale struttura ha disponibilità reale e come accedere; il centralino non garantisce un posto."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Comune — guida ai servizi locali",
-                  "href": "https://www.comune.napoli.it/flex/cm/pages/ServeAttachment.php/L/IT/D/7%252Fb%252F6%252FD.98e9ea3ab1ac02b1b0cc/P/BLOB%3AID%3D22284/E/pdf?mode=download"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+390815627027",
+          "website": "https://www.comune.napoli.it/flex/cm/pages/ServeAttachment.php/L/IT/D/7%252Fb%252F6%252FD.98e9ea3ab1ac02b1b0cc/P/BLOB%3AID%3D22284/E/pdf?mode=download",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "emergenza-freddo-e-caldo",
-          "name": "Emergenza freddo e caldo",
+          "title": "Emergenza freddo e caldo",
+          "description": "Telefonare alla Centrale Sociale per posti aggiuntivi, unità di strada e indicazioni aggiornate. Nel piano freddo 2025–2026 il Comune ha attivato posti extra in via de Blasiis e via Tanucci.\nPer una persona esposta al freddo: sos.senzadimora@comune.napoli.it. Per rischio sanitario immediato usare 118. — mailto:sos.senzadimora@comune.napoli.it\nComune — piano freddo 2025–2026",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefonare alla Centrale Sociale per posti aggiuntivi, unità di strada e indicazioni aggiornate. Nel piano freddo 2025–2026 il Comune ha attivato posti extra in via de Blasiis e via Tanucci."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Per una persona esposta al freddo: "
-                },
-                {
-                  "text": "sos.senzadimora@comune.napoli.it",
-                  "href": "mailto:sos.senzadimora@comune.napoli.it"
-                },
-                {
-                  "text": ". Per rischio sanitario immediato usare 118."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Comune — piano freddo 2025–2026",
-                  "href": "https://static-www.comune.napoli.it/wp-content/uploads/2025/08/CittaComune-n-106.pdf"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://static-www.comune.napoli.it/wp-content/uploads/2025/08/CittaComune-n-106.pdf",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "1522-violenza-e-stalking",
-          "name": "1522 — violenza e stalking",
+          "title": "1522 — violenza e stalking",
+          "description": "Telefono: 1522, gratuito, 24 ore; offre anche chat sul sito ufficiale.\nPer donne vittime di violenza o stalking, con orientamento ai centri antiviolenza e alle case rifugio. In caso di aggressione in corso chiamare anche 112.\n1522 — servizio ufficiale",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "1522",
-                  "href": "tel:1522"
-                },
-                {
-                  "text": ", gratuito, 24 ore; offre anche chat sul sito ufficiale."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Per donne vittime di violenza o stalking, con orientamento ai centri antiviolenza e alle case rifugio. In caso di aggressione in corso chiamare anche 112."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "1522 — servizio ufficiale",
-                  "href": "https://www.1522.eu/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "1522",
+          "website": "https://www.1522.eu/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "114-emergenza-infanzia",
-          "name": "114 — emergenza infanzia",
+          "title": "114 — emergenza infanzia",
+          "description": "Telefono: 114, gratuito, 24 ore.\nPer un minore abbandonato, maltrattato, sfruttato, scomparso o in pericolo. È disponibile anche per adulti che segnalano una situazione; in pericolo immediato chiamare 112.\nEmergenza Infanzia 114",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "114",
-                  "href": "tel:114"
-                },
-                {
-                  "text": ", gratuito, 24 ore."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Per un minore abbandonato, maltrattato, sfruttato, scomparso o in pericolo. È disponibile anche per adulti che segnalano una situazione; in pericolo immediato chiamare 112."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Emergenza Infanzia 114",
-                  "href": "https://www.114.it/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "114",
+          "website": "https://www.114.it/",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
       "id": "shelter",
-      "title": "2. Accoglienza notturna e unità di strada",
-      "items": [
+      "title": "Accoglienza notturna e unità di strada",
+      "entries": [
         {
-          "type": "resource",
           "id": "centro-di-prima-accoglienza-ex-dormitorio-pubblico",
-          "name": "Centro di Prima Accoglienza — ex Dormitorio Pubblico",
+          "title": "Centro di Prima Accoglienza — ex Dormitorio Pubblico",
+          "description": "Telefono: 081 795 6987.\nAccoglienza a bassa soglia per adulti, con pernottamento, cena, igiene e accompagnamento sociale. Il Comune indica requisiti di età, reddito, salute e soggiorno; senza posti si usa una lista d'attesa.\nChiamare la Centrale Sociale o il centro prima di presentarsi. Portare un documento se disponibile.\nComune — Centro di Prima Accoglienza",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Indirizzo:",
-                  "strong": true
-                },
-                {
-                  "text": " via de Blasiis 10, Napoli"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "081 795 6987",
-                  "href": "tel:+390817956987"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Accoglienza a bassa soglia per adulti, con pernottamento, cena, igiene e accompagnamento sociale. Il Comune indica requisiti di età, reddito, salute e soggiorno; senza posti si usa una lista d'attesa."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Chiamare la Centrale Sociale o il centro prima di presentarsi. Portare un documento se disponibile."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Comune — Centro di Prima Accoglienza",
-                  "href": "https://altuoservizio.comune.napoli.it/editprestazione/2530"
-                }
-              ]
-            }
-          ]
+          "address": "Indirizzo: via de Blasiis 10, Napoli",
+          "phone": "+390817956987",
+          "website": "https://altuoservizio.comune.napoli.it/editprestazione/2530",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "comunita-delle-genti",
-          "name": "Comunità delle Genti",
+          "title": "Comunità delle Genti",
+          "description": "Accoglienza residenziale Caritas per uomini senza dimora. Il documento comunale 2026 indica 75 posti e spazi con lavanderia, computer e mensa.\nL'accesso dipende da valutazione e disponibilità; contattare Caritas al 081 557 4265 o la Centrale Sociale.\nCaritas — Comunità delle Genti",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Indirizzo:",
-                  "strong": true
-                },
-                {
-                  "text": " via Santa Maria Avvocata a Foria 2, Napoli"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Accoglienza residenziale Caritas per uomini senza dimora. Il documento comunale 2026 indica 75 posti e spazi con lavanderia, computer e mensa."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "L'accesso dipende da valutazione e disponibilità; contattare Caritas al "
-                },
-                {
-                  "text": "081 557 4265",
-                  "href": "tel:+390815574265"
-                },
-                {
-                  "text": " o la Centrale Sociale."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Caritas — Comunità delle Genti",
-                  "href": "https://www.caritasnapoli.it/accoglienza/comunita-delle-genti/"
-                }
-              ]
-            }
-          ]
+          "address": "Indirizzo: via Santa Maria Avvocata a Foria 2, Napoli",
+          "phone": "+390815574265",
+          "website": "https://www.caritasnapoli.it/accoglienza/comunita-delle-genti/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "centro-la-tenda",
-          "name": "Centro La Tenda",
+          "title": "Centro La Tenda",
+          "description": "Telefono: 081 544 1775.\nLa programmazione comunale 2026 indica 50 posti di accoglienza notturna e uno spazio attrezzato per i cani. Telefonare per accesso e disponibilità.\nComune — rete di accoglienza 2026",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Indirizzo:",
-                  "strong": true
-                },
-                {
-                  "text": " via Sanità 95–96, Napoli"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "081 544 1775",
-                  "href": "tel:+390815441775"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "La programmazione comunale 2026 indica 50 posti di accoglienza notturna e uno spazio attrezzato per i cani. Telefonare per accesso e disponibilità."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Comune — rete di accoglienza 2026",
-                  "href": "https://static-www.comune.napoli.it/wp-content/uploads/2026/04/ALL03_allegato1770900075.pdf"
-                }
-              ]
-            }
-          ]
+          "address": "Indirizzo: via Sanità 95–96, Napoli",
+          "phone": "+390815441775",
+          "website": "https://static-www.comune.napoli.it/wp-content/uploads/2026/04/ALL03_allegato1770900075.pdf",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "help-center-la-tenda-napoli-centrale",
-          "name": "Help Center La Tenda — Napoli Centrale",
+          "title": "Help Center La Tenda — Napoli Centrale",
+          "description": "Sportello di ascolto per persone senza dimora, collegato al Centro La Tenda. Può orientare verso accoglienza e servizi ma non assegna automaticamente un letto.\nChiedere al personale della stazione la posizione dello sportello e confermare l'orario.\nComune — servizi senza dimora",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Luogo:",
-                  "strong": true
-                },
-                {
-                  "text": " stazione Napoli Centrale, piazza Garibaldi"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Sportello di ascolto per persone senza dimora, collegato al Centro La Tenda. Può orientare verso accoglienza e servizi ma non assegna automaticamente un letto."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Chiedere al personale della stazione la posizione dello sportello e confermare l'orario."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Comune — servizi senza dimora",
-                  "href": "https://static-www.comune.napoli.it/wp-content/uploads/2026/04/ALL03_allegato1770900075.pdf"
-                }
-              ]
-            }
-          ]
+          "address": "Luogo: stazione Napoli Centrale, piazza Garibaldi",
+          "phone": "",
+          "website": "https://static-www.comune.napoli.it/wp-content/uploads/2026/04/ALL03_allegato1770900075.pdf",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "centro-diurno-tanucci-e-posti-in-emergenza-freddo",
-          "name": "Centro diurno Tanucci e posti in emergenza freddo",
+          "title": "Centro diurno Tanucci e posti in emergenza freddo",
+          "description": "Centro diurno con docce, guardaroba, lavanderia, segretariato e supporto legale. Durante il freddo può diventare accoglienza notturna per persone fragili.\nPer sapere se i posti stagionali sono attivi chiamare la Centrale Sociale; fuori dal piano freddo non è un dormitorio ordinario.\nComune — Centro Tanucci",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Indirizzo:",
-                  "strong": true
-                },
-                {
-                  "text": " via Bernardo Tanucci 9, Real Albergo dei Poveri"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Centro diurno con docce, guardaroba, lavanderia, segretariato e supporto legale. Durante il freddo può diventare accoglienza notturna per persone fragili."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Per sapere se i posti stagionali sono attivi chiamare la Centrale Sociale; fuori dal piano freddo non è un dormitorio ordinario."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Comune — Centro Tanucci",
-                  "href": "https://static-www.comune.napoli.it/wp-content/uploads/2026/04/ALL03_allegato1770900075.pdf"
-                }
-              ]
-            }
-          ]
+          "address": "Indirizzo: via Bernardo Tanucci 9, Real Albergo dei Poveri",
+          "phone": "",
+          "website": "https://static-www.comune.napoli.it/wp-content/uploads/2026/04/ALL03_allegato1770900075.pdf",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "casa-crescenzio-dimissioni-protette",
-          "name": "Casa Crescenzio — dimissioni protette",
+          "title": "Casa Crescenzio — dimissioni protette",
+          "description": "Otto posti per persone senza dimora dimesse dall'ospedale che necessitano di continuità sociosanitaria a bassa intensità. Non è un accesso diretto.\nLa segnalazione deve essere organizzata dall'ospedale e dai servizi prima della dimissione.\nComune — dimissioni protette",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Indirizzo del servizio:",
-                  "strong": true
-                },
-                {
-                  "text": " via Sanità 95–96, Napoli"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Otto posti per persone senza dimora dimesse dall'ospedale che necessitano di continuità sociosanitaria a bassa intensità. Non è un accesso diretto."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "La segnalazione deve essere organizzata dall'ospedale e dai servizi prima della dimissione."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Comune — dimissioni protette",
-                  "href": "https://static-www.comune.napoli.it/wp-content/uploads/2026/04/ALL03_allegato1770900075.pdf"
-                }
-              ]
-            }
-          ]
+          "address": "Indirizzo del servizio: via Sanità 95–96, Napoli",
+          "phone": "",
+          "website": "https://static-www.comune.napoli.it/wp-content/uploads/2026/04/ALL03_allegato1770900075.pdf",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "se-non-c-e-posto",
-          "name": "Se non c'è posto",
+          "title": "Se non c'è posto",
+          "description": "Richiamare la Centrale Sociale e chiedere una nuova verifica, l'unità di strada, un posto stagionale o un centro diurno. Spiegare età, disabilità, gravidanza e salute.\nUn rifiuto in una struttura non significa che tutte siano piene. Per sintomi urgenti o una notte che mette la vita a rischio, chiamare 118.\nGuida DOVE Napoli e Campania 2026",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Richiamare la Centrale Sociale e chiedere una nuova verifica, l'unità di strada, un posto stagionale o un centro diurno. Spiegare età, disabilità, gravidanza e salute."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Un rifiuto in una struttura non significa che tutte siano piene. Per sintomi urgenti o una notte che mette la vita a rischio, chiamare 118."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Guida DOVE Napoli e Campania 2026",
-                  "href": "https://www.santegidio.org/pageID/30144/langID/it/Le-guide-DOVE.html"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.santegidio.org/pageID/30144/langID/it/Le-guide-DOVE.html",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
       "id": "food",
-      "title": "3. Pasti e aiuto religioso",
-      "items": [
+      "title": "Pasti e aiuto religioso",
+      "entries": [
         {
-          "type": "resource",
           "id": "mensa-del-carmine-padre-elia-alleva",
-          "name": "Mensa del Carmine Padre Elia Alleva",
+          "title": "Mensa del Carmine Padre Elia Alleva",
+          "description": "La rete Caritas offre pasti o cestini a persone senza dimora e in difficoltà. Nel programma estivo 2026 il servizio era attivo ogni giorno 12:45–14:00.\nConfermare al 081 557 4265, lunedì–venerdì 9:30–13:00.\nCaritas — mense 2026",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Indirizzo:",
-                  "strong": true
-                },
-                {
-                  "text": " piazza del Carmine 2, Napoli"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "La rete Caritas offre pasti o cestini a persone senza dimora e in difficoltà. Nel programma estivo 2026 il servizio era attivo ogni giorno 12:45–14:00."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Confermare al "
-                },
-                {
-                  "text": "081 557 4265",
-                  "href": "tel:+390815574265"
-                },
-                {
-                  "text": ", lunedì–venerdì 9:30–13:00."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Caritas — mense 2026",
-                  "href": "https://www.caritasnapoli.it/caritas-napoli-mense-aperte-ad-agosto/"
-                }
-              ]
-            }
-          ]
+          "address": "Indirizzo: piazza del Carmine 2, Napoli",
+          "phone": "+390815574265",
+          "website": "https://www.caritasnapoli.it/caritas-napoli-mense-aperte-ad-agosto/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "mensa-centro-la-tenda",
-          "name": "Mensa Centro La Tenda",
+          "title": "Mensa Centro La Tenda",
+          "description": "Nel programma Caritas 2026 era indicata ogni giorno alle 20:30, con pasti serviti ai tavoli. È distinta dall'ingresso al dormitorio.\nTelefonare al 081 544 1775 per confermare accesso e disponibilità.\nCaritas — Centro La Tenda",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Indirizzo mensa:",
-                  "strong": true
-                },
-                {
-                  "text": " via Sanità 25, Napoli"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Nel programma Caritas 2026 era indicata ogni giorno alle 20:30, con pasti serviti ai tavoli. È distinta dall'ingresso al dormitorio."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefonare al "
-                },
-                {
-                  "text": "081 544 1775",
-                  "href": "tel:+390815441775"
-                },
-                {
-                  "text": " per confermare accesso e disponibilità."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Caritas — Centro La Tenda",
-                  "href": "https://www.caritasnapoli.it/caritas-napoli-mense-aperte-ad-agosto/"
-                }
-              ]
-            }
-          ]
+          "address": "Indirizzo mensa: via Sanità 25, Napoli",
+          "phone": "+390815441775",
+          "website": "https://www.caritasnapoli.it/caritas-napoli-mense-aperte-ad-agosto/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "mensa-sant-antonio-alla-pineta",
-          "name": "Mensa Sant'Antonio alla Pineta",
+          "title": "Mensa Sant'Antonio alla Pineta",
+          "description": "Servizio dei Padri Rogazionisti collegato anche alle docce. Nel programma estivo 2026 distribuiva cestini il lunedì agli ospiti delle docce.\nVerificare con Caritas prima di partire.\nCaritas — programma mense",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Indirizzo:",
-                  "strong": true
-                },
-                {
-                  "text": " via dei Pini 53, Napoli"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Servizio dei Padri Rogazionisti collegato anche alle docce. Nel programma estivo 2026 distribuiva cestini il lunedì agli ospiti delle docce."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Verificare con Caritas prima di partire."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Caritas — programma mense",
-                  "href": "https://www.caritasnapoli.it/caritas-napoli-mense-aperte-ad-agosto/"
-                }
-              ]
-            }
-          ]
+          "address": "Indirizzo: via dei Pini 53, Napoli",
+          "phone": "",
+          "website": "https://www.caritasnapoli.it/caritas-napoli-mense-aperte-ad-agosto/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "mensa-padre-arturo-a-gianturco",
-          "name": "Mensa Padre Arturo a Gianturco",
+          "title": "Mensa Padre Arturo a Gianturco",
+          "description": "Mensa della rete Caritas con distribuzione in giornate stabilite. I periodi di apertura cambiano, soprattutto ad agosto e nelle festività.\nContattare Caritas al 081 557 4265 per il calendario.\nCaritas — mense",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Indirizzo:",
-                  "strong": true
-                },
-                {
-                  "text": " via Emanuele Gianturco 97, Napoli"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Mensa della rete Caritas con distribuzione in giornate stabilite. I periodi di apertura cambiano, soprattutto ad agosto e nelle festività."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Contattare Caritas al "
-                },
-                {
-                  "text": "081 557 4265",
-                  "href": "tel:+390815574265"
-                },
-                {
-                  "text": " per il calendario."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Caritas — mense",
-                  "href": "https://www.caritasnapoli.it/mensa/"
-                }
-              ]
-            }
-          ]
+          "address": "Indirizzo: via Emanuele Gianturco 97, Napoli",
+          "phone": "+390815574265",
+          "website": "https://www.caritasnapoli.it/mensa/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "mensa-santa-brigida",
-          "name": "Mensa Santa Brigida",
+          "title": "Mensa Santa Brigida",
+          "description": "Punto religioso della rete Caritas con distribuzioni in giorni specifici, non un servizio continuo. Chiedere giorno, ora e accesso attuali.\nCaritas — elenco delle mense",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Indirizzo:",
-                  "strong": true
-                },
-                {
-                  "text": " via Santa Brigida 72, Napoli"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Punto religioso della rete Caritas con distribuzioni in giorni specifici, non un servizio continuo. Chiedere giorno, ora e accesso attuali."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Caritas — elenco delle mense",
-                  "href": "https://www.caritasnapoli.it/aperti-per-ferie/"
-                }
-              ]
-            }
-          ]
+          "address": "Indirizzo: via Santa Brigida 72, Napoli",
+          "phone": "",
+          "website": "https://www.caritasnapoli.it/aperti-per-ferie/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "binario-della-solidarieta",
-          "name": "Binario della Solidarietà",
+          "title": "Binario della Solidarietà",
+          "description": "Telefono: 081 553 9275.\nCentro diurno Caritas con presa in carico, attività, docce e ambulatorio. L'accesso e l'eventuale pasto richiedono un colloquio; non è una mensa libera a ogni ora.\nCaritas — Binario della Solidarietà",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Indirizzo:",
-                  "strong": true
-                },
-                {
-                  "text": " via Taddeo da Sessa 93, Napoli"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "081 553 9275",
-                  "href": "tel:+390815539275"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Centro diurno Caritas con presa in carico, attività, docce e ambulatorio. L'accesso e l'eventuale pasto richiedono un colloquio; non è una mensa libera a ogni ora."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Caritas — Binario della Solidarietà",
-                  "href": "https://www.caritasnapoli.it/accoglienza/binario-della-solidarieta/"
-                }
-              ]
-            }
-          ]
+          "address": "Indirizzo: via Taddeo da Sessa 93, Napoli",
+          "phone": "+390815539275",
+          "website": "https://www.caritasnapoli.it/accoglienza/binario-della-solidarieta/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "caritas-diocesana-di-napoli",
-          "name": "Caritas Diocesana di Napoli",
+          "title": "Caritas Diocesana di Napoli",
+          "description": "Telefono: 081 557 4265, lunedì–venerdì 9:30–13:00.\nPuò indicare centro di ascolto, mensa, emporio o parrocchia. La sede amministrativa non è una mensa.\nCaritas Napoli — contatti",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Sede:",
-                  "strong": true
-                },
-                {
-                  "text": " largo Donnaregina 22, Napoli"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "081 557 4265",
-                  "href": "tel:+390815574265"
-                },
-                {
-                  "text": ", lunedì–venerdì 9:30–13:00."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Può indicare centro di ascolto, mensa, emporio o parrocchia. La sede amministrativa non è una mensa."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Caritas Napoli — contatti",
-                  "href": "https://www.caritasnapoli.it/mensa/"
-                }
-              ]
-            }
-          ]
+          "address": "Sede: largo Donnaregina 22, Napoli",
+          "phone": "+390815574265",
+          "website": "https://www.caritasnapoli.it/mensa/",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
-      "id": "basic",
-      "title": "4. Docce, vestiti, lavanderia, bagagli e internet",
-      "items": [
+      "id": "community",
+      "title": "Community and religious help",
+      "entries": []
+    },
+    {
+      "id": "hygiene",
+      "title": "Docce, vestiti, lavanderia, bagagli e internet",
+      "entries": [
         {
-          "type": "resource",
           "id": "centro-tanucci-docce-e-guardaroba",
-          "name": "Centro Tanucci — docce e guardaroba",
+          "title": "Centro Tanucci — docce e guardaroba",
+          "description": "Il Comune indica docce accessibili, cambio abiti, lavanderia, guardaroba, orientamento, assistenza legale e iscrizione anagrafica.\nGli orari possono variare; chiamare la Centrale Sociale.\nComune — Spazio Docce Tanucci",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Indirizzo:",
-                  "strong": true
-                },
-                {
-                  "text": " via Bernardo Tanucci 9, Napoli"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Il Comune indica docce accessibili, cambio abiti, lavanderia, guardaroba, orientamento, assistenza legale e iscrizione anagrafica."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Gli orari possono variare; chiamare la Centrale Sociale."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Comune — Spazio Docce Tanucci",
-                  "href": "https://static-www.comune.napoli.it/wp-content/uploads/2025/05/Documento_di_programmazione_delle_politiche_sociali_cittadine-2.pdf"
-                }
-              ]
-            }
-          ]
+          "address": "Indirizzo: via Bernardo Tanucci 9, Napoli",
+          "phone": "",
+          "website": "https://static-www.comune.napoli.it/wp-content/uploads/2025/05/Documento_di_programmazione_delle_politiche_sociali_cittadine-2.pdf",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "binario-docce-e-deposito-bagagli",
-          "name": "Binario — docce e deposito bagagli",
+          "title": "Binario — docce e deposito bagagli",
+          "description": "Telefono: 081 553 9275; lunedì–venerdì 9:30–17:30, sabato 9:30–14:00.\nDocce, ambulatorio, deposito bagagli, laboratori e corsi. L'ammissione passa da un colloquio.\nBinario — servizi",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Indirizzo:",
-                  "strong": true
-                },
-                {
-                  "text": " via Taddeo da Sessa 93, Napoli"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "081 553 9275",
-                  "href": "tel:+390815539275"
-                },
-                {
-                  "text": "; lunedì–venerdì 9:30–17:30, sabato 9:30–14:00."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Docce, ambulatorio, deposito bagagli, laboratori e corsi. L'ammissione passa da un colloquio."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Binario — servizi",
-                  "href": "https://www.caritasnapoli.it/accoglienza/binario-della-solidarieta/"
-                }
-              ]
-            }
-          ]
+          "address": "Indirizzo: via Taddeo da Sessa 93, Napoli",
+          "phone": "+390815539275",
+          "website": "https://www.caritasnapoli.it/accoglienza/binario-della-solidarieta/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "casa-dell-amicizia-lavanderia-gratuita",
-          "name": "Casa dell'Amicizia — lavanderia gratuita",
+          "title": "Casa dell'Amicizia — lavanderia gratuita",
+          "description": "La Comunità di Sant'Egidio offre lavaggio e asciugatura degli indumenti a persone povere e senza dimora.\nPresentarsi per conoscere turni e accesso; togliere documenti e valori dalle tasche.\nSant'Egidio — lavanderia",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Indirizzo:",
-                  "strong": true
-                },
-                {
-                  "text": " via San Biagio dei Librai 118, Napoli"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "La Comunità di Sant'Egidio offre lavaggio e asciugatura degli indumenti a persone povere e senza dimora."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Presentarsi per conoscere turni e accesso; togliere documenti e valori dalle tasche."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Sant'Egidio — lavanderia",
-                  "href": "https://www.santegidio.org/pageID/30284/langID/it/itemID/56109/Inaugurazione-il-12-gennaio-della-Lavanderia-di-papa-Francesco-nella-Casa-dellAmicizia-di-Napoli-via-san-Biagio-dei-Librai-118-ore-1130.html"
-                }
-              ]
-            }
-          ]
+          "address": "Indirizzo: via San Biagio dei Librai 118, Napoli",
+          "phone": "",
+          "website": "https://www.santegidio.org/pageID/30284/langID/it/itemID/56109/Inaugurazione-il-12-gennaio-della-Lavanderia-di-papa-Francesco-nella-Casa-dellAmicizia-di-Napoli-via-san-Biagio-dei-Librai-118-ore-1130.html",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "biblioteche-comunali-accesso-digitale",
-          "name": "Biblioteche comunali — accesso digitale",
+          "title": "Biblioteche comunali — accesso digitale",
+          "description": "Le biblioteche possono offrire spazio diurno, consultazione e, in alcune sedi, internet. Non sono centri di accoglienza e possono richiedere iscrizione o documento.\nComune — biblioteche",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Le biblioteche possono offrire spazio diurno, consultazione e, in alcune sedi, internet. Non sono centri di accoglienza e possono richiedere iscrizione o documento."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Comune — biblioteche",
-                  "href": "https://www.comune.napoli.it/biblioteche"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.comune.napoli.it/biblioteche",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "proteggere-documenti-e-medicinali",
-          "name": "Proteggere documenti e medicinali",
+          "title": "Proteggere documenti e medicinali",
+          "description": "Chiedere regole, durata e ricevuta prima di usare un deposito. Tenere con sé documenti, farmaci indispensabili e numeri importanti.\nNon affidare originali a sconosciuti che promettono lavoro, alloggio o pratiche.\nCaritas — deposito bagagli",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Chiedere regole, durata e ricevuta prima di usare un deposito. Tenere con sé documenti, farmaci indispensabili e numeri importanti."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Non affidare originali a sconosciuti che promettono lavoro, alloggio o pratiche."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Caritas — deposito bagagli",
-                  "href": "https://www.caritasnapoli.it/accoglienza/binario-della-solidarieta/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.caritasnapoli.it/accoglienza/binario-della-solidarieta/",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
+    },
+    {
+      "id": "clothing",
+      "title": "Clothing",
+      "entries": []
     },
     {
       "id": "health",
-      "title": "5. Salute, salute mentale e dipendenze",
-      "items": [
+      "title": "Salute, salute mentale e dipendenze",
+      "entries": [
         {
-          "type": "resource",
           "id": "poliambulatorio-solidale-casa-bartimeo",
-          "name": "Poliambulatorio Solidale Casa Bartimeo",
+          "title": "Poliambulatorio Solidale Casa Bartimeo",
+          "description": "Prenotazioni: 081 224 8520, lunedì–venerdì 9:30–12:30.\nAssistenza sanitaria gratuita per persone in difficoltà economica, con medici volontari e diverse specialità. Non sostituisce il pronto soccorso.\nCaritas — Poliambulatorio",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Indirizzo:",
-                  "strong": true
-                },
-                {
-                  "text": " corso Umberto I 292, Napoli"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Prenotazioni:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "081 224 8520",
-                  "href": "tel:+390812248520"
-                },
-                {
-                  "text": ", lunedì–venerdì 9:30–12:30."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Assistenza sanitaria gratuita per persone in difficoltà economica, con medici volontari e diverse specialità. Non sostituisce il pronto soccorso."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Caritas — Poliambulatorio",
-                  "href": "https://www.caritasnapoli.it/prevenzione-salute-e-ambiente/poliambulatorio-solidale/"
-                }
-              ]
-            }
-          ]
+          "address": "Indirizzo: corso Umberto I 292, Napoli",
+          "phone": "+390812248520",
+          "website": "https://www.caritasnapoli.it/prevenzione-salute-e-ambiente/poliambulatorio-solidale/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "ambulatorio-stp-eni-cure-per-stranieri",
-          "name": "Ambulatorio STP/ENI — cure per stranieri",
+          "title": "Ambulatorio STP/ENI — cure per stranieri",
+          "description": "Stranieri senza regolare permesso possono ottenere STP; cittadini UE non iscritti possono usare ENI. Sono garantite cure urgenti ed essenziali, gravidanza, minori e prevenzione.\nIl codice dura sei mesi ed è rinnovabile; la richiesta di cure non deve comportare segnalazione.\nASL Napoli 1 — STP/ENI",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Stranieri senza regolare permesso possono ottenere STP; cittadini UE non iscritti possono usare ENI. Sono garantite cure urgenti ed essenziali, gravidanza, minori e prevenzione."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Il codice dura sei mesi ed è rinnovabile; la richiesta di cure non deve comportare segnalazione."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "ASL Napoli 1 — STP/ENI",
-                  "href": "https://www.aslnapoli1centro.it/it/ufficio-anagrafe-sanitaria-ds28"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.aslnapoli1centro.it/it/ufficio-anagrafe-sanitaria-ds28",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "medico-di-famiglia-per-italiani-senza-dimora",
-          "name": "Medico di famiglia per italiani senza dimora",
+          "title": "Medico di famiglia per italiani senza dimora",
+          "description": "Dal 2026 la Campania permette ai cittadini italiani senza dimora e senza assistenza sanitaria di iscriversi all'ASL e scegliere un medico di famiglia.\nChiedere all'Anagrafe Sanitaria quali documenti e distretto usare; l'iscrizione non è automatica.\nRegione — legge 12/2026",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Dal 2026 la Campania permette ai cittadini italiani senza dimora e senza assistenza sanitaria di iscriversi all'ASL e scegliere un medico di famiglia."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Chiedere all'Anagrafe Sanitaria quali documenti e distretto usare; l'iscrizione non è automatica."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Regione — legge 12/2026",
-                  "href": "https://www.regione.campania.it/normativa/item.php?b79f7d70f28fffc18af20b3afb0a87ac=5ace06e8035bca245d255d4f259b0fe0&id_doc_type=1&id_tema=26&pgCode=G19I231R2155&refresh=on"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.regione.campania.it/normativa/item.php?b79f7d70f28fffc18af20b3afb0a87ac=5ace06e8035bca245d255d4f259b0fe0&id_doc_type=1&id_tema=26&pgCode=G19I231R2155&refresh=on",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "centro-di-salute-mentale-area-centrale",
-          "name": "Centro di Salute Mentale — area centrale",
+          "title": "Centro di Salute Mentale — area centrale",
+          "description": "Telefono: 081 254 2464; lunedì–sabato 8:00–20:00.\nValutazione e cura territoriale. Confermare il distretto competente; per rischio immediato chiamare 112 o 118.\nASL — salute mentale",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "CSM 31:",
-                  "strong": true
-                },
-                {
-                  "text": " via Amerigo Vespucci 9, Napoli"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "081 254 2464",
-                  "href": "tel:+390812542464"
-                },
-                {
-                  "text": "; lunedì–sabato 8:00–20:00."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Valutazione e cura territoriale. Confermare il distretto competente; per rischio immediato chiamare 112 o 118."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "ASL — salute mentale",
-                  "href": "https://aslnapoli1centro.portaleamministrazionetrasparente.it/archiviofile/aslnapolicentro/Delibera%201288.pdf"
-                }
-              ]
-            }
-          ]
+          "address": "CSM 31: via Amerigo Vespucci 9, Napoli",
+          "phone": "+390812542464",
+          "website": "https://aslnapoli1centro.portaleamministrazionetrasparente.it/archiviofile/aslnapolicentro/Delibera%201288.pdf",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "unita-di-strada-dipendenze-asl",
-          "name": "Unità di Strada Dipendenze ASL",
+          "title": "Unità di Strada Dipendenze ASL",
+          "description": "Telefono: 081 254 9307 o 081 254 9304.\nAggancio, riduzione del danno e orientamento. Chiamare per zona e orario. Per overdose o respirazione lenta chiamare subito 118.\nASL — Unità di Strada",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "081 254 9307",
-                  "href": "tel:+390812549307"
-                },
-                {
-                  "text": " o "
-                },
-                {
-                  "text": "081 254 9304",
-                  "href": "tel:+390812549304"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Aggancio, riduzione del danno e orientamento. Chiamare per zona e orario. Per overdose o respirazione lenta chiamare subito 118."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "ASL — Unità di Strada",
-                  "href": "https://www.aslna1.napoli.it/telefono-e-posta-elettronica3"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+390812549307",
+          "website": "https://www.aslna1.napoli.it/telefono-e-posta-elettronica3",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "dimissione-dall-ospedale-senza-posto-sicuro",
-          "name": "Dimissione dall'ospedale senza posto sicuro",
+          "title": "Dimissione dall'ospedale senza posto sicuro",
+          "description": "Prima di uscire, dire al medico e all'assistente sociale che non esiste un alloggio per continuare la cura. Chiedere dimissione protetta e valutazione per Casa Crescenzio.\nLa segnalazione deve partire dal reparto e non garantisce l'accoglienza.\nComune — Casa Crescenzio",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Prima di uscire, dire al medico e all'assistente sociale che non esiste un alloggio per continuare la cura. Chiedere dimissione protetta e valutazione per Casa Crescenzio."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "La segnalazione deve partire dal reparto e non garantisce l'accoglienza."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Comune — Casa Crescenzio",
-                  "href": "https://static-www.comune.napoli.it/wp-content/uploads/2026/04/ALL03_allegato1770900075.pdf"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://static-www.comune.napoli.it/wp-content/uploads/2026/04/ALL03_allegato1770900075.pdf",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
+    },
+    {
+      "id": "mental-health",
+      "title": "Mental health and addiction",
+      "entries": []
+    },
+    {
+      "id": "public-facilities",
+      "title": "Public toilets and day facilities",
+      "entries": []
+    },
+    {
+      "id": "phone-internet",
+      "title": "Phone charging and internet",
+      "entries": []
+    },
+    {
+      "id": "transport",
+      "title": "Transport",
+      "entries": []
     },
     {
       "id": "benefits",
-      "title": "6. Servizi sociali, contributi e residenza",
-      "items": [
+      "title": "Servizi sociali, contributi e residenza",
+      "entries": [
         {
-          "type": "resource",
           "id": "servizio-sociale-territoriale",
-          "name": "Servizio Sociale Territoriale",
+          "title": "Servizio Sociale Territoriale",
+          "description": "Per presa in carico, contributi, disabilità, anziani, famiglie e inclusione rivolgersi alla Municipalità competente. Se non si sa quale, chiamare la Centrale Sociale.\nPortare codice fiscale, documento, ISEE e certificazioni se disponibili; chiedere orientamento anche se manca qualcosa.\nComune — servizi sociali",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Per presa in carico, contributi, disabilità, anziani, famiglie e inclusione rivolgersi alla Municipalità competente. Se non si sa quale, chiamare la Centrale Sociale."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Portare codice fiscale, documento, ISEE e certificazioni se disponibili; chiedere orientamento anche se manca qualcosa."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Comune — servizi sociali",
-                  "href": "https://www.comune.napoli.it/servizisocialiterritoriali"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.comune.napoli.it/servizisocialiterritoriali",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "assegno-di-inclusione",
-          "name": "Assegno di Inclusione",
+          "title": "Assegno di Inclusione",
+          "description": "Misura per nuclei con minorenne, persona con disabilità, almeno 60 anni o svantaggio certificato in un programma pubblico. Si applicano requisiti economici, di soggiorno e residenza.\nChiedere assistenza a patronato o CAF; la domanda non è automaticamente approvata.\nINPS — Assegno di Inclusione",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Misura per nuclei con minorenne, persona con disabilità, almeno 60 anni o svantaggio certificato in un programma pubblico. Si applicano requisiti economici, di soggiorno e residenza."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Chiedere assistenza a patronato o CAF; la domanda non è automaticamente approvata."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "INPS — Assegno di Inclusione",
-                  "href": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.assegno-di-inclusione-adi.html"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.assegno-di-inclusione-adi.html",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "residenza-anagrafica-senza-dimora",
-          "name": "Residenza anagrafica senza dimora",
+          "title": "Residenza anagrafica senza dimora",
+          "description": "Il Comune prevede un indirizzo convenzionale per persone senza dimora con domicilio a Napoli. La pratica si presenta alla Municipalità competente.\nChiedere assistenza allo Spazio Tanucci o al servizio sociale; la residenza può servire per documenti, sanità e prestazioni.\nComune — anagrafe senza fissa dimora",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Il Comune prevede un indirizzo convenzionale per persone senza dimora con domicilio a Napoli. La pratica si presenta alla Municipalità competente."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Chiedere assistenza allo Spazio Tanucci o al servizio sociale; la residenza può servire per documenti, sanità e prestazioni."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Comune — anagrafe senza fissa dimora",
-                  "href": "https://cartadeiservizi.comune.napoli.it/prestazioni"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://cartadeiservizi.comune.napoli.it/prestazioni",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "isee-caf-e-patronato",
-          "name": "ISEE, CAF e patronato",
+          "title": "ISEE, CAF e patronato",
+          "description": "Molti sostegni richiedono DSU e ISEE. Un CAF può aiutare con la dichiarazione; un patronato con pratiche INPS. Verificare prima che il servizio sia gratuito.\nNon condividere SPID, PIN o foto dei documenti via messaggi non richiesti.\nINPS — ISEE e DSU",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Molti sostegni richiedono DSU e ISEE. Un CAF può aiutare con la dichiarazione; un patronato con pratiche INPS. Verificare prima che il servizio sia gratuito."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Non condividere SPID, PIN o foto dei documenti via messaggi non richiesti."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "INPS — ISEE e DSU",
-                  "href": "https://www.inps.it/it/it/sostegni-sussidi-indennita/per-persone-a-basso-reddito/isee-e-dsu.html"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.inps.it/it/it/sostegni-sussidi-indennita/per-persone-a-basso-reddito/isee-e-dsu.html",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "emergenza-abitativa-e-casa-popolare",
-          "name": "Emergenza abitativa e casa popolare",
+          "title": "Emergenza abitativa e casa popolare",
+          "description": "Contributi e alloggi pubblici hanno bandi, graduatorie e requisiti; non risolvono la notte. Chiedere al servizio sociale quale misura è aperta.\nDiffidare da chi chiede denaro per garantire una casa o un posto in graduatoria.\nComune — carta dei servizi",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Contributi e alloggi pubblici hanno bandi, graduatorie e requisiti; non risolvono la notte. Chiedere al servizio sociale quale misura è aperta."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Diffidare da chi chiede denaro per garantire una casa o un posto in graduatoria."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Comune — carta dei servizi",
-                  "href": "https://altuoservizio.comune.napoli.it/prestazioni"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://altuoservizio.comune.napoli.it/prestazioni",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
-      "id": "jobs",
-      "title": "7. Lavoro e formazione",
-      "items": [
+      "id": "employment",
+      "title": "Lavoro e formazione",
+      "entries": [
         {
-          "type": "resource",
           "id": "numero-unico-dei-centri-per-l-impiego",
-          "name": "Numero unico dei Centri per l'Impiego",
+          "title": "Numero unico dei Centri per l'Impiego",
+          "description": "Numero gratuito: 081 1838 5834. Operatori lunedì–venerdì 9:00–13:00, martedì e giovedì anche 14:00–15:00; sistema automatico 24 ore.\nInformazioni su iscrizione, appuntamenti, offerte, orientamento e formazione.\nRegione — numero unico CPI",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Numero gratuito:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "081 1838 5834",
-                  "href": "tel:+3908118385834"
-                },
-                {
-                  "text": ". Operatori lunedì–venerdì 9:00–13:00, martedì e giovedì anche 14:00–15:00; sistema automatico 24 ore."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Informazioni su iscrizione, appuntamenti, offerte, orientamento e formazione."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Regione — numero unico CPI",
-                  "href": "https://lavoro.regione.campania.it/index.php/home/servizi/la-rete-regionale-dei-servizi/rete-dei-servizi/centri-per-l-impiego/numero-unico"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+3908118385834",
+          "website": "https://lavoro.regione.campania.it/index.php/home/servizi/la-rete-regionale-dei-servizi/rete-dei-servizi/centri-per-l-impiego/numero-unico",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "cpi-napoli-centro-rione-luzzatti",
-          "name": "CPI Napoli Centro — rione Luzzatti",
+          "title": "CPI Napoli Centro — rione Luzzatti",
+          "description": "Nuova sede dal 13 gennaio 2026. Accesso con convocazione o appuntamento prenotato su Cliclavoro Campania con SPID o CIE.\nSenza accesso digitale, chiamare il numero unico.\nRegione — sede 2026",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Indirizzo:",
-                  "strong": true
-                },
-                {
-                  "text": " via Beato Leonardo Murialdo 7, Napoli"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Nuova sede dal 13 gennaio 2026. Accesso con convocazione o appuntamento prenotato su Cliclavoro Campania con SPID o CIE."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Senza accesso digitale, chiamare il numero unico."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Regione — sede 2026",
-                  "href": "https://lavoro.regione.campania.it/index.php/home/servizi/la-rete-regionale-dei-servizi/rete-dei-servizi/centri-per-l-impiego/news-2/2581-cpi-napoli-centro-apertura-agenda-prenotazioni-online-per-l-ulteriore-sede-al-rione-luzzatti"
-                }
-              ]
-            }
-          ]
+          "address": "Indirizzo: via Beato Leonardo Murialdo 7, Napoli",
+          "phone": "",
+          "website": "https://lavoro.regione.campania.it/index.php/home/servizi/la-rete-regionale-dei-servizi/rete-dei-servizi/centri-per-l-impiego/news-2/2581-cpi-napoli-centro-apertura-agenda-prenotazioni-online-per-l-ulteriore-sede-al-rione-luzzatti",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "cpi-napoli-centro-cisterna-dell-olio",
-          "name": "CPI Napoli Centro — Cisterna dell'Olio",
+          "title": "CPI Napoli Centro — Cisterna dell'Olio",
+          "description": "Sede per servizi specialistici e collocamento mirato. Accesso su appuntamento; verificare la sede perché alcuni servizi sono stati spostati.\nRegione — CPI Napoli",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Indirizzo:",
-                  "strong": true
-                },
-                {
-                  "text": " via Cisterna dell'Olio 44, Napoli"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Sede per servizi specialistici e collocamento mirato. Accesso su appuntamento; verificare la sede perché alcuni servizi sono stati spostati."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Regione — CPI Napoli",
-                  "href": "https://lavoro.regione.campania.it/index.php/home/servizi/la-rete-regionale-dei-servizi/rete-dei-servizi/centri-per-l-impiego/centri-per-l-impiego-in-campania?comune=382&provincia=Napoli"
-                }
-              ]
-            }
-          ]
+          "address": "Indirizzo: via Cisterna dell'Olio 44, Napoli",
+          "phone": "",
+          "website": "https://lavoro.regione.campania.it/index.php/home/servizi/la-rete-regionale-dei-servizi/rete-dei-servizi/centri-per-l-impiego/centri-per-l-impiego-in-campania?comune=382&provincia=Napoli",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "binario-laboratori-e-corsi",
-          "name": "Binario — laboratori e corsi",
+          "title": "Binario — laboratori e corsi",
+          "description": "Laboratori, corsi e accompagnamento all'autonomia per persone ammesse al percorso. Non è un'agenzia e non garantisce assunzioni.\nTelefono: 081 553 9275.\nCaritas — attività del Binario",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Indirizzo:",
-                  "strong": true
-                },
-                {
-                  "text": " via Taddeo da Sessa 93, Napoli"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Laboratori, corsi e accompagnamento all'autonomia per persone ammesse al percorso. Non è un'agenzia e non garantisce assunzioni."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "081 553 9275",
-                  "href": "tel:+390815539275"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Caritas — attività del Binario",
-                  "href": "https://www.caritasnapoli.it/accoglienza/binario-della-solidarieta/"
-                }
-              ]
-            }
-          ]
+          "address": "Indirizzo: via Taddeo da Sessa 93, Napoli",
+          "phone": "+390815539275",
+          "website": "https://www.caritasnapoli.it/accoglienza/binario-della-solidarieta/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "evitare-truffe-di-lavoro",
-          "name": "Evitare truffe di lavoro",
+          "title": "Evitare truffe di lavoro",
+          "description": "Non pagare per un contratto, non consegnare l'originale del documento e non accettare trasporto o alloggio senza conoscere datore, luogo, paga e orari.\nSe trattengono documenti, impongono debiti o minacciano, chiamare 112 o 800 290 290.\nNumero Verde Antitratta",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Non pagare per un contratto, non consegnare l'originale del documento e non accettare trasporto o alloggio senza conoscere datore, luogo, paga e orari."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Se trattengono documenti, impongono debiti o minacciano, chiamare 112 o 800 290 290."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Numero Verde Antitratta",
-                  "href": "https://www.pariopportunita.gov.it/it/politiche-e-attivita/tratta-degli-esseri-umani-e-grave-sfruttamento/numero-verde-antitratta/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.pariopportunita.gov.it/it/politiche-e-attivita/tratta-degli-esseri-umani-e-grave-sfruttamento/numero-verde-antitratta/",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
+    },
+    {
+      "id": "legal",
+      "title": "Legal aid",
+      "entries": []
     },
     {
       "id": "documents",
-      "title": "8. Documenti, assistenza legale e migrazione",
-      "items": [
+      "title": "Documenti, assistenza legale e migrazione",
+      "entries": [
         {
-          "type": "resource",
           "id": "carta-d-identita-elettronica",
-          "name": "Carta d'identità elettronica",
+          "title": "Carta d'identità elettronica",
+          "description": "La CIE si richiede presso le sedi municipali, normalmente con prenotazione, documenti e pagamento. Senza residenza, iniziare dalla procedura per persone senza dimora.\nChiedere costi, fotografie e documenti prima dell'appuntamento.\nComune — rilascio CIE",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "La CIE si richiede presso le sedi municipali, normalmente con prenotazione, documenti e pagamento. Senza residenza, iniziare dalla procedura per persone senza dimora."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Chiedere costi, fotografie e documenti prima dell'appuntamento."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Comune — rilascio CIE",
-                  "href": "https://prenotacie.comune.napoli.it/servizi/anagrafe_e_stato_civile/servizio_1.html"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://prenotacie.comune.napoli.it/servizi/anagrafe_e_stato_civile/servizio_1.html",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "assistenza-anagrafica-e-legale-a-tanucci",
-          "name": "Assistenza anagrafica e legale a Tanucci",
+          "title": "Assistenza anagrafica e legale a Tanucci",
+          "description": "Orientamento, assistenza legale civile e penale e supporto all'iscrizione anagrafica. Chiedere giorni e orari alla Centrale Sociale.\nPortare qualsiasi documento, denuncia, codice fiscale o lettera ricevuta.\nComune — servizi Tanucci",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Indirizzo:",
-                  "strong": true
-                },
-                {
-                  "text": " via Bernardo Tanucci 9, Napoli"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Orientamento, assistenza legale civile e penale e supporto all'iscrizione anagrafica. Chiedere giorni e orari alla Centrale Sociale."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Portare qualsiasi documento, denuncia, codice fiscale o lettera ricevuta."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Comune — servizi Tanucci",
-                  "href": "https://static-www.comune.napoli.it/wp-content/uploads/2025/08/CittaComune-n-106.pdf"
-                }
-              ]
-            }
-          ]
+          "address": "Indirizzo: via Bernardo Tanucci 9, Napoli",
+          "phone": "",
+          "website": "https://static-www.comune.napoli.it/wp-content/uploads/2025/08/CittaComune-n-106.pdf",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "patrocinio-a-spese-dello-stato",
-          "name": "Patrocinio a spese dello Stato",
+          "title": "Patrocinio a spese dello Stato",
+          "description": "Chi non può sostenere spese legali può chiedere il patrocinio a spese dello Stato se rientra nei requisiti. Non coincide con la nomina di un avvocato d'ufficio.\nMinistero della Giustizia — gratuito patrocinio",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Chi non può sostenere spese legali può chiedere il patrocinio a spese dello Stato se rientra nei requisiti. Non coincide con la nomina di un avvocato d'ufficio."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ministero della Giustizia — gratuito patrocinio",
-                  "href": "https://www.giustizia.it/giustizia/it/mg_14_3_1.page?contentId=GLO53028"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.giustizia.it/giustizia/it/mg_14_3_1.page?contentId=GLO53028",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "unhcr-e-arci-asilo-e-rifugiati",
-          "name": "UNHCR e ARCI — asilo e rifugiati",
+          "title": "UNHCR e ARCI — asilo e rifugiati",
+          "description": "Numero gratuito: 800 905 570; da cellulare o WhatsApp 351 437 6335.\nOrientamento gratuito su asilo, protezione, documenti e servizi. UNHCR e partner non chiedono denaro per procedure o reinsediamento.\nUNHCR Italia — aiuto",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Numero gratuito:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "800 905 570",
-                  "href": "tel:800905570"
-                },
-                {
-                  "text": "; da cellulare o WhatsApp "
-                },
-                {
-                  "text": "351 437 6335",
-                  "href": "tel:+393514376335"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Orientamento gratuito su asilo, protezione, documenti e servizi. UNHCR e partner non chiedono denaro per procedure o reinsediamento."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "UNHCR Italia — aiuto",
-                  "href": "https://help.unhcr.org/italy/it/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "800905570",
+          "website": "https://help.unhcr.org/italy/it/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "codice-fiscale-e-documenti-smarriti",
-          "name": "Codice fiscale e documenti smarriti",
+          "title": "Codice fiscale e documenti smarriti",
+          "description": "Per furto o smarrimento fare denuncia. Per il codice fiscale rivolgersi all'Agenzia delle Entrate con documento o titolo di soggiorno disponibile.\nSe mancano tutti i documenti, chiedere prima assistenza al centro diurno.\nAgenzia delle Entrate — codice fiscale",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Per furto o smarrimento fare denuncia. Per il codice fiscale rivolgersi all'Agenzia delle Entrate con documento o titolo di soggiorno disponibile."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Se mancano tutti i documenti, chiedere prima assistenza al centro diurno."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Agenzia delle Entrate — codice fiscale",
-                  "href": "https://www.agenziaentrate.gov.it/portale/web/guest/schede/istanze/richiesta-ts_cf/informazioni-codificazione-pf"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.agenziaentrate.gov.it/portale/web/guest/schede/istanze/richiesta-ts_cf/informazioni-codificazione-pf",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
-      "id": "specialized",
-      "title": "9. Donne, minori, persone LGBTQIA+ e tratta",
-      "items": [
+      "id": "mail",
+      "title": "Mailing address",
+      "entries": []
+    },
+    {
+      "id": "storage",
+      "title": "Storage",
+      "entries": []
+    },
+    {
+      "id": "safety",
+      "title": "Safety and domestic violence",
+      "entries": []
+    },
+    {
+      "id": "specialist-support",
+      "title": "Donne, minori, persone LGBTQIA+ e tratta",
+      "entries": [
         {
-          "type": "resource",
           "id": "centro-antiviolenza-centro-donna",
-          "name": "Centro Antiviolenza — Centro Donna",
+          "title": "Centro Antiviolenza — Centro Donna",
+          "description": "Telefono: 081 795 3191.\nAscolto e orientamento per donne vittime di violenza. I servizi possono attivare supporto psicologico, legale e, dopo valutazione, protezione.\nIn pericolo chiamare 112 o 1522.\nComune — Centro Antiviolenza",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Indirizzo:",
-                  "strong": true
-                },
-                {
-                  "text": " via Parco Carelli 8 C, Napoli"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "081 795 3191",
-                  "href": "tel:+390817953191"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ascolto e orientamento per donne vittime di violenza. I servizi possono attivare supporto psicologico, legale e, dopo valutazione, protezione."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "In pericolo chiamare 112 o 1522."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Comune — Centro Antiviolenza",
-                  "href": "https://reteantiviolenza.comune.napoli.it/service_cards/187"
-                }
-              ]
-            }
-          ]
+          "address": "Indirizzo: via Parco Carelli 8 C, Napoli",
+          "phone": "+390817953191",
+          "website": "https://reteantiviolenza.comune.napoli.it/service_cards/187",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "minori-soli-o-in-pericolo",
-          "name": "Minori soli o in pericolo",
+          "title": "Minori soli o in pericolo",
+          "description": "Emergenza Infanzia: 114; emergenza immediata: 112.\nNon lasciare un minore in un dormitorio per adulti e non affidarlo a sconosciuti. Indicare età, posizione, salute e accompagnatori.\n114 — segnalazioni",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Emergenza Infanzia:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "114",
-                  "href": "tel:114"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "emergenza immediata:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "112",
-                  "href": "tel:112"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Non lasciare un minore in un dormitorio per adulti e non affidarlo a sconosciuti. Indicare età, posizione, salute e accompagnatori."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "114 — segnalazioni",
-                  "href": "https://www.114.it/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "114",
+          "website": "https://www.114.it/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "casa-delle-culture-e-dell-accoglienza-lgbtqia",
-          "name": "Casa delle Culture e dell'Accoglienza LGBTQIA+",
+          "title": "Casa delle Culture e dell'Accoglienza LGBTQIA+",
+          "description": "Servizio cittadino per adulti LGBTQIA+ vittime di violenza domestica o in difficoltà economica e giovani sopra i 16 anni esposti a discriminazione.\nL'accesso richiede valutazione; chiamare la Centrale Sociale o rivolgersi ad Antinoo Arcigay Napoli. Non presentarsi a un indirizzo non confermato.\nComune — accoglienza LGBTQIA+ 2026",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Servizio cittadino per adulti LGBTQIA+ vittime di violenza domestica o in difficoltà economica e giovani sopra i 16 anni esposti a discriminazione."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "L'accesso richiede valutazione; chiamare la Centrale Sociale o rivolgersi ad Antinoo Arcigay Napoli. Non presentarsi a un indirizzo non confermato."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Comune — accoglienza LGBTQIA+ 2026",
-                  "href": "https://static-www.comune.napoli.it/wp-content/uploads/2026/04/ALL03_allegato1770900075.pdf"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://static-www.comune.napoli.it/wp-content/uploads/2026/04/ALL03_allegato1770900075.pdf",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "numero-verde-antitratta",
-          "name": "Numero Verde Antitratta",
+          "title": "Numero Verde Antitratta",
+          "description": "Telefono: 800 290 290, gratuito, 24 ore, multilingue.\nPer sfruttamento sessuale o lavorativo, mendicità forzata, documenti trattenuti, minacce o debiti imposti. Non affrontare lo sfruttatore.\nDipartimento Pari Opportunità — antitratta",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "800 290 290",
-                  "href": "tel:800290290"
-                },
-                {
-                  "text": ", gratuito, 24 ore, multilingue."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Per sfruttamento sessuale o lavorativo, mendicità forzata, documenti trattenuti, minacce o debiti imposti. Non affrontare lo sfruttatore."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Dipartimento Pari Opportunità — antitratta",
-                  "href": "https://www.pariopportunita.gov.it/it/politiche-e-attivita/tratta-degli-esseri-umani-e-grave-sfruttamento/numero-verde-antitratta/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "800290290",
+          "website": "https://www.pariopportunita.gov.it/it/politiche-e-attivita/tratta-degli-esseri-umani-e-grave-sfruttamento/numero-verde-antitratta/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "anziani-o-persone-con-disabilita-in-strada",
-          "name": "Anziani o persone con disabilità in strada",
+          "title": "Anziani o persone con disabilità in strada",
+          "description": "Chiamare la Centrale Sociale e spiegare mobilità, ausili, farmaci e necessità di assistenza. Molti dormitori richiedono autosufficienza.\nPer peggioramento improvviso o condizione incompatibile con la strada chiamare 118 e chiedere una valutazione sociosanitaria.\nComune — orientamento sociale",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Chiamare la Centrale Sociale e spiegare mobilità, ausili, farmaci e necessità di assistenza. Molti dormitori richiedono autosufficienza."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Per peggioramento improvviso o condizione incompatibile con la strada chiamare 118 e chiedere una valutazione sociosanitaria."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Comune — orientamento sociale",
-                  "href": "https://www.comune.napoli.it/flex/cm/pages/ServeAttachment.php/L/IT/D/7%252Fb%252F6%252FD.98e9ea3ab1ac02b1b0cc/P/BLOB%3AID%3D22284/E/pdf?mode=download"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.comune.napoli.it/flex/cm/pages/ServeAttachment.php/L/IT/D/7%252Fb%252F6%252FD.98e9ea3ab1ac02b1b0cc/P/BLOB%3AID%3D22284/E/pdf?mode=download",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
+    },
+    {
+      "id": "veterans",
+      "title": "Veterans support",
+      "entries": []
     },
     {
       "id": "pets",
-      "title": "10. Aiuto con gli animali",
-      "items": [
+      "title": "Aiuto con gli animali",
+      "entries": [
         {
-          "type": "resource",
           "id": "centro-la-tenda-spazio-per-cani",
-          "name": "Centro La Tenda — spazio per cani",
+          "title": "Centro La Tenda — spazio per cani",
+          "description": "Il Comune indica uno spazio esterno alle camere attrezzato per i cani delle persone ospiti. Informare del cane dalla prima chiamata.\nChiamare 081 544 1775 per regole e disponibilità; lo spazio non garantisce ammissione.\nComune — La Tenda e cani",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Indirizzo:",
-                  "strong": true
-                },
-                {
-                  "text": " via Sanità 95–96, Napoli"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Il Comune indica uno spazio esterno alle camere attrezzato per i cani delle persone ospiti. Informare del cane dalla prima chiamata."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Chiamare "
-                },
-                {
-                  "text": "081 544 1775",
-                  "href": "tel:+390815441775"
-                },
-                {
-                  "text": " per regole e disponibilità; lo spazio non garantisce ammissione."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Comune — La Tenda e cani",
-                  "href": "https://static-www.comune.napoli.it/wp-content/uploads/2026/04/ALL03_allegato1770900075.pdf"
-                }
-              ]
-            }
-          ]
+          "address": "Indirizzo: via Sanità 95–96, Napoli",
+          "phone": "+390815441775",
+          "website": "https://static-www.comune.napoli.it/wp-content/uploads/2026/04/ALL03_allegato1770900075.pdf",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "presidio-ospedaliero-veterinario-asl-napoli-1",
-          "name": "Presidio Ospedaliero Veterinario ASL Napoli 1",
+          "title": "Presidio Ospedaliero Veterinario ASL Napoli 1",
+          "description": "Telefono Sanità Animale: 081 254 9596 o 081 254 9980.\nChiamare per animali feriti, servizi pubblici e presidio competente. Chiedere prima costi e requisiti.\nASL — Sanità Animale",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefono Sanità Animale:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "081 254 9596",
-                  "href": "tel:+390812549596"
-                },
-                {
-                  "text": " o "
-                },
-                {
-                  "text": "081 254 9980",
-                  "href": "tel:+390812549980"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Chiamare per animali feriti, servizi pubblici e presidio competente. Chiedere prima costi e requisiti."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "ASL — Sanità Animale",
-                  "href": "https://www.aslnapoli1centro.it/telefono-e-posta-elettronica3"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+390812549596",
+          "website": "https://www.aslnapoli1centro.it/telefono-e-posta-elettronica3",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "prima-di-accettare-un-letto",
-          "name": "Prima di accettare un letto",
+          "title": "Prima di accettare un letto",
+          "description": "Dire specie, taglia, comportamento e necessità sanitarie. Chiedere una soluzione confermata; non abbandonare l'animale per una promessa vaga.\nTenere guinzaglio o trasportino, acqua e certificati se disponibili.\nASL — contatti veterinari",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Dire specie, taglia, comportamento e necessità sanitarie. Chiedere una soluzione confermata; non abbandonare l'animale per una promessa vaga."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Tenere guinzaglio o trasportino, acqua e certificati se disponibili."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "ASL — contatti veterinari",
-                  "href": "https://www.aslnapoli1centro.it/telefono-e-posta-elettronica3"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.aslnapoli1centro.it/telefono-e-posta-elettronica3",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
-      "id": "verifica-e-correzioni",
+      "id": "other",
       "title": "Verifica e correzioni",
-      "items": [
+      "entries": [
         {
-          "type": "paragraph",
-          "content": [
-            {
-              "text": "Questa pagina usa fonti del Comune di Napoli, Regione Campania, ASL Napoli 1 Centro, INPS, ministeri e siti ufficiali delle organizzazioni. Per servizi stagionali o su appuntamento viene consigliata una conferma diretta."
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "content": [
-            {
-              "text": "Hai trovato un servizio chiuso, un numero errato o un nuovo aiuto? "
-            },
-            {
-              "text": "Leggi come contribuire",
-              "href": "../../CONTRIBUTING.md"
-            },
-            {
-              "text": " oppure "
-            },
-            {
-              "text": "invia una correzione su GitHub",
-              "href": "https://github.com/carlosbranco/no-home-help"
-            },
-            {
-              "text": "."
-            }
-          ]
+          "id": "verifica-e-correzioni-information",
+          "title": "Verifica e correzioni",
+          "description": "Questa pagina usa fonti del Comune di Napoli, Regione Campania, ASL Napoli 1 Centro, INPS, ministeri e siti ufficiali delle organizzazioni. Per servizi stagionali o su appuntamento viene consigliata una conferma diretta.\nHai trovato un servizio chiuso, un numero errato o un nuovo aiuto? Leggi come contribuire oppure invia una correzione su GitHub. — ../../CONTRIBUTING.md",
+          "last_verified": "2026-11-12",
+          "address": "",
+          "phone": "",
+          "website": "https://github.com/carlosbranco/no-home-help",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     }

@@ -1,6 +1,7 @@
 {
   "$schema": "https://nohomehelp.com/schemas/city.schema.json",
-  "schema_version": 1,
+  "documentation": "https://github.com/carlosbranco/no-home-help/blob/main/EDIT_CITY_JSON.md",
+  "schema_version": 2,
   "status": "published",
   "locale": {
     "language": "pt-BR",
@@ -26,3014 +27,614 @@
   "page": {
     "heading": "São Paulo — ajuda para pessoas sem moradia",
     "last_verified": "2026-11-10",
-    "urgent": [
-      {
-        "type": "paragraph",
-        "content": [
-          {
-            "text": "Emergência médica — SAMU:",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "192",
-            "href": "tel:192"
-          },
-          {
-            "break": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "Polícia Militar:",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "190",
-            "href": "tel:190"
-          },
-          {
-            "text": "; "
-          },
-          {
-            "text": "Bombeiros:",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "193",
-            "href": "tel:193"
-          },
-          {
-            "break": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "Acolhimento e abordagem social:",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "156",
-            "href": "tel:156"
-          },
-          {
-            "text": ", 24 horas"
-          },
-          {
-            "break": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "Violência contra a mulher:",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "180",
-            "href": "tel:180"
-          },
-          {
-            "text": "; "
-          },
-          {
-            "text": "violações de direitos:",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "100",
-            "href": "tel:100"
-          }
-        ]
-      }
-    ],
-    "notice": [
-      {
-        "text": "Vagas, horários, endereços e critérios podem mudar.",
-        "strong": true
-      },
-      {
-        "text": " Confirme antes de se deslocar. Nenhum serviço garante vaga, refeição, dinheiro, tratamento ou emprego no mesmo dia. Em risco imediato, ligue 190, 192 ou 193."
-      }
-    ],
-    "intro": [
-      {
-        "type": "paragraph",
-        "content": [
-          {
-            "text": "Ao pedir ajuda, informe onde você está, se tem um lugar seguro para esta noite, quando comeu pela última vez, se precisa de cuidados de saúde, se está com crianças ou animais, se há risco de violência e quais documentos possui. O atendimento do Centro POP é gratuito e não exige documentos."
-          }
-        ]
-      }
-    ],
-    "footer": []
+    "urgent": "Emergência médica — SAMU: 192 Polícia Militar: 190; Bombeiros: 193 Acolhimento e abordagem social: 156, 24 horas Violência contra a mulher: 180; violações de direitos: 100",
+    "notice": "Vagas, horários, endereços e critérios podem mudar. Confirme antes de se deslocar. Nenhum serviço garante vaga, refeição, dinheiro, tratamento ou emprego no mesmo dia. Em risco imediato, ligue 190, 192 ou 193.",
+    "intro": "Ao pedir ajuda, informe onde você está, se tem um lugar seguro para esta noite, quando comeu pela última vez, se precisa de cuidados de saúde, se está com crianças ou animais, se há risco de violência e quais documentos possui. O atendimento do Centro POP é gratuito e não exige documentos.",
+    "footer": ""
   },
   "categories": [
     {
       "id": "emergency",
-      "title": "1. Emergência e abordagem",
-      "items": [
+      "title": "Emergência e abordagem",
+      "entries": [
         {
-          "type": "resource",
           "id": "samu-emergencia-medica",
-          "name": "SAMU — emergência médica",
+          "title": "SAMU — emergência médica",
+          "description": "Telefone: 192\nLigue em caso de: inconsciência, falta de ar, dor forte no peito, convulsão, sangramento grave, acidente ou outra urgência médica. Diga o endereço, um ponto de referência e o estado da pessoa.\nÚltima verificação: 10 de novembro de 2026\nSaúde para a população em situação de rua",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "192",
-                  "href": "tel:192"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ligue em caso de:",
-                  "strong": true
-                },
-                {
-                  "text": " inconsciência, falta de ar, dor forte no peito, convulsão, sangramento grave, acidente ou outra urgência médica. Diga o endereço, um ponto de referência e o estado da pessoa."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificação:",
-                  "strong": true
-                },
-                {
-                  "text": " 10 de novembro de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Saúde para a população em situação de rua",
-                  "href": "https://prefeitura.sp.gov.br/web/poprua/w/sa%C3%BAde-1"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "192",
+          "website": "https://prefeitura.sp.gov.br/web/poprua/w/sa%C3%BAde-1",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "policia-militar-e-bombeiros",
-          "name": "Polícia Militar e Bombeiros",
+          "title": "Polícia Militar e Bombeiros",
+          "description": "Polícia: 190; Bombeiros: 193\nUse para: violência em andamento, ameaça imediata, incêndio, desabamento ou outro risco grave. Para acolhimento sem perigo imediato, use o 156.\nÚltima verificação: 10 de novembro de 2026\nEmergências — Governo de São Paulo",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Polícia:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "190",
-                  "href": "tel:190"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "Bombeiros:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "193",
-                  "href": "tel:193"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Use para:",
-                  "strong": true
-                },
-                {
-                  "text": " violência em andamento, ameaça imediata, incêndio, desabamento ou outro risco grave. Para acolhimento sem perigo imediato, use o 156."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificação:",
-                  "strong": true
-                },
-                {
-                  "text": " 10 de novembro de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Emergências — Governo de São Paulo",
-                  "href": "https://www.ssp.sp.gov.br/servicos/emergencia"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "190",
+          "website": "https://www.ssp.sp.gov.br/servicos/emergencia",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "sp156-abordagem-social-e-central-de-vagas",
-          "name": "SP156 — abordagem social e Central de Vagas",
+          "title": "SP156 — abordagem social e Central de Vagas",
+          "description": "Telefone gratuito: 156, 24 horas; WhatsApp: (11) 3230-5156.\nPeça: abordagem do SEAS ou encaminhamento à Central de Vagas. Informe local exato, características da pessoa, crianças, animais e risco por frio, calor ou doença. A abordagem não é retirada forçada.\nÚltima verificação: 10 de novembro de 2026\nServiço Especializado de Abordagem Social",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefone gratuito:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "156",
-                  "href": "tel:156"
-                },
-                {
-                  "text": ", 24 horas; "
-                },
-                {
-                  "text": "WhatsApp:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(11) 3230-5156",
-                  "href": "tel:+551132305156"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Peça:",
-                  "strong": true
-                },
-                {
-                  "text": " abordagem do SEAS ou encaminhamento à Central de Vagas. Informe local exato, características da pessoa, crianças, animais e risco por frio, calor ou doença. A abordagem não é retirada forçada."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificação:",
-                  "strong": true
-                },
-                {
-                  "text": " 10 de novembro de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Serviço Especializado de Abordagem Social",
-                  "href": "https://prefeitura.sp.gov.br/web/assistencia_social/w/assistencia__social/331245"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "156",
+          "website": "https://prefeitura.sp.gov.br/web/assistencia_social/w/assistencia__social/331245",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "operacao-baixas-temperaturas",
-          "name": "Operação Baixas Temperaturas",
+          "title": "Operação Baixas Temperaturas",
+          "description": "Acione pelo: 156, sem precisar se identificar.\nServiço: em noites frias, equipes oferecem encaminhamento, pernoite, banho, jantar e café da manhã. Quando a pessoa recusa acolhimento, podem fornecer cobertor e lanche conforme a operação.\nÚltima verificação: 10 de novembro de 2026\nOperação Baixas Temperaturas",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Acione pelo:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "156",
-                  "href": "tel:156"
-                },
-                {
-                  "text": ", sem precisar se identificar."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Serviço:",
-                  "strong": true
-                },
-                {
-                  "text": " em noites frias, equipes oferecem encaminhamento, pernoite, banho, jantar e café da manhã. Quando a pessoa recusa acolhimento, podem fornecer cobertor e lanche conforme a operação."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificação:",
-                  "strong": true
-                },
-                {
-                  "text": " 10 de novembro de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Operação Baixas Temperaturas",
-                  "href": "https://prefeitura.sp.gov.br/web/assistencia_social/w/noticias/331608"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "156",
+          "website": "https://prefeitura.sp.gov.br/web/assistencia_social/w/noticias/331608",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
       "id": "shelter",
-      "title": "2. Acolhimento e apoio na rua",
-      "items": [
+      "title": "Acolhimento e apoio na rua",
+      "entries": [
         {
-          "type": "resource",
           "id": "centros-de-acolhida-da-prefeitura",
-          "name": "Centros de Acolhida da Prefeitura",
+          "title": "Centros de Acolhida da Prefeitura",
+          "description": "Serviço 24 horas: acolhimento provisório para adultos, idosos, famílias, mulheres, homens e mulheres trans, pessoas em convalescença, catadores e inserção produtiva. Sete unidades aceitam animais de estimação.\nImportante: muitos centros recebem somente por encaminhamento; confirme o fluxo e a vaga.\nÚltima verificação: 10 de novembro de 2026\nModalidades e acesso",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Acesso:",
-                  "strong": true
-                },
-                {
-                  "text": " ligue "
-                },
-                {
-                  "text": "156",
-                  "href": "tel:156"
-                },
-                {
-                  "text": " ou procure Centro POP, CREAS ou equipe SEAS."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Serviço 24 horas:",
-                  "strong": true
-                },
-                {
-                  "text": " acolhimento provisório para adultos, idosos, famílias, mulheres, homens e mulheres trans, pessoas em convalescença, catadores e inserção produtiva. Sete unidades aceitam animais de estimação."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Importante:",
-                  "strong": true
-                },
-                {
-                  "text": " muitos centros recebem somente por encaminhamento; confirme o fluxo e a vaga."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificação:",
-                  "strong": true
-                },
-                {
-                  "text": " 10 de novembro de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Modalidades e acesso",
-                  "href": "https://prefeitura.sp.gov.br/web/assistencia_social/w/populacao_em_situacao_de_rua/3183"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "156",
+          "website": "https://prefeitura.sp.gov.br/web/assistencia_social/w/populacao_em_situacao_de_rua/3183",
+          "hours": "",
+          "how_to_access": "Acesso: ligue 156 ou procure Centro POP, CREAS ou equipe SEAS."
         },
         {
-          "type": "resource",
           "id": "centro-pop-bela-vista",
-          "name": "Centro POP Bela Vista",
+          "title": "Centro POP Bela Vista",
+          "description": "Telefone: (11) 3104-0423; segunda a sexta, 8h–18h.\nServiços: entrada sem documento, acolhimento, higiene, alimentação, documentos, CadÚnico, trabalho e direitos.\nÚltima verificação: 10 de novembro de 2026\nCentros POP do Centro",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Endereço:",
-                  "strong": true
-                },
-                {
-                  "text": " Rua Jandaia, 30, Bela Vista, São Paulo 01316-100"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(11) 3104-0423",
-                  "href": "tel:+551131040423"
-                },
-                {
-                  "text": "; segunda a sexta, 8h–18h."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Serviços:",
-                  "strong": true
-                },
-                {
-                  "text": " entrada sem documento, acolhimento, higiene, alimentação, documentos, CadÚnico, trabalho e direitos."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificação:",
-                  "strong": true
-                },
-                {
-                  "text": " 10 de novembro de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Centros POP do Centro",
-                  "href": "https://prefeitura.sp.gov.br/web/assistencia_social/w/protecao_social_especial/331298"
-                }
-              ]
-            }
-          ]
+          "address": "Endereço: Rua Jandaia, 30, Bela Vista, São Paulo 01316-100",
+          "phone": "+551131040423",
+          "website": "https://prefeitura.sp.gov.br/web/assistencia_social/w/protecao_social_especial/331298",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "centro-pop-santa-cecilia",
-          "name": "Centro POP Santa Cecília",
+          "title": "Centro POP Santa Cecília",
+          "description": "Telefones: (11) 3331-7353 / 3221-6395 / 3225-0069; segunda a sexta, 8h–18h.\nÚltima verificação: 10 de novembro de 2026\nCentros POP do Centro",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Endereço:",
-                  "strong": true
-                },
-                {
-                  "text": " Rua Norma Pieruccini Giannotti, 206, Barra Funda, São Paulo 01133-010"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefones:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(11) 3331-7353",
-                  "href": "tel:+551133317353"
-                },
-                {
-                  "text": " / "
-                },
-                {
-                  "text": "3221-6395",
-                  "href": "tel:+551132216395"
-                },
-                {
-                  "text": " / "
-                },
-                {
-                  "text": "3225-0069",
-                  "href": "tel:+551132250069"
-                },
-                {
-                  "text": "; segunda a sexta, 8h–18h."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Acesso:",
-                  "strong": true
-                },
-                {
-                  "text": " demanda espontânea; não é preciso documento para o primeiro atendimento."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificação:",
-                  "strong": true
-                },
-                {
-                  "text": " 10 de novembro de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Centros POP do Centro",
-                  "href": "https://prefeitura.sp.gov.br/web/assistencia_social/w/protecao_social_especial/331298"
-                }
-              ]
-            }
-          ]
+          "address": "Endereço: Rua Norma Pieruccini Giannotti, 206, Barra Funda, São Paulo 01133-010",
+          "phone": "+551133317353",
+          "website": "https://prefeitura.sp.gov.br/web/assistencia_social/w/protecao_social_especial/331298",
+          "hours": "",
+          "how_to_access": "Acesso: demanda espontânea; não é preciso documento para o primeiro atendimento."
         },
         {
-          "type": "resource",
           "id": "centro-pop-mooca",
-          "name": "Centro POP Mooca",
+          "title": "Centro POP Mooca",
+          "description": "Telefone: (11) 2091-0016; segunda a sexta, 8h–18h.\nServiços: porta de entrada para assistência, acolhimento, documentação, CadÚnico, trabalho e saúde na Zona Leste.\nÚltima verificação: 10 de novembro de 2026\nCentro POP Zona Leste",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Endereço:",
-                  "strong": true
-                },
-                {
-                  "text": " Rua Coronel Luiz Americano, 107, Vila Azevedo, São Paulo 03308-020"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(11) 2091-0016",
-                  "href": "tel:+551120910016"
-                },
-                {
-                  "text": "; segunda a sexta, 8h–18h."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Serviços:",
-                  "strong": true
-                },
-                {
-                  "text": " porta de entrada para assistência, acolhimento, documentação, CadÚnico, trabalho e saúde na Zona Leste."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificação:",
-                  "strong": true
-                },
-                {
-                  "text": " 10 de novembro de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Centro POP Zona Leste",
-                  "href": "https://prefeitura.sp.gov.br/web/assistencia_social/w/protecao_social_especial/331300"
-                }
-              ]
-            }
-          ]
+          "address": "Endereço: Rua Coronel Luiz Americano, 107, Vila Azevedo, São Paulo 03308-020",
+          "phone": "+551120910016",
+          "website": "https://prefeitura.sp.gov.br/web/assistencia_social/w/protecao_social_especial/331300",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "centros-pop-santana-e-vila-maria",
-          "name": "Centros POP Santana e Vila Maria",
+          "title": "Centros POP Santana e Vila Maria",
+          "description": "Santana: Rua Amaral Gama, 240; (11) 2950-1289 / 2959-0079.\nVila Maria: Rua do Imperador, 1660; (11) 2221-1006.\nÚltima verificação: 10 de novembro de 2026\nCentros POP Zona Norte",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Santana:",
-                  "strong": true
-                },
-                {
-                  "text": " Rua Amaral Gama, 240; "
-                },
-                {
-                  "text": "(11) 2950-1289",
-                  "href": "tel:+551129501289"
-                },
-                {
-                  "text": " / "
-                },
-                {
-                  "text": "2959-0079",
-                  "href": "tel:+551129590079"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Vila Maria:",
-                  "strong": true
-                },
-                {
-                  "text": " Rua do Imperador, 1660; "
-                },
-                {
-                  "text": "(11) 2221-1006",
-                  "href": "tel:+551122211006"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Horário:",
-                  "strong": true
-                },
-                {
-                  "text": " segunda a sexta, 8h–18h. Compareça diretamente ou ligue 156."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificação:",
-                  "strong": true
-                },
-                {
-                  "text": " 10 de novembro de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Centros POP Zona Norte",
-                  "href": "https://prefeitura.sp.gov.br/web/assistencia_social/w/protecao_social_especial/331299"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+551129501289",
+          "website": "https://prefeitura.sp.gov.br/web/assistencia_social/w/protecao_social_especial/331299",
+          "hours": "Horário: segunda a sexta, 8h–18h. Compareça diretamente ou ligue 156.",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "centro-pop-santo-amaro",
-          "name": "Centro POP Santo Amaro",
+          "title": "Centro POP Santo Amaro",
+          "description": "Telefone: (11) 5521-3103; segunda a sexta, 8h–18h.\nÚltima verificação: 10 de novembro de 2026\nCentro POP Zona Sul",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Endereço:",
-                  "strong": true
-                },
-                {
-                  "text": " Rua Promotor Gabriel Nettuzzi Peres, 81, Santo Amaro, São Paulo 04743-020"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(11) 5521-3103",
-                  "href": "tel:+551155213103"
-                },
-                {
-                  "text": "; segunda a sexta, 8h–18h."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Acesso:",
-                  "strong": true
-                },
-                {
-                  "text": " atendimento espontâneo e gratuito para pessoas em situação de rua na Zona Sul."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificação:",
-                  "strong": true
-                },
-                {
-                  "text": " 10 de novembro de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Centro POP Zona Sul",
-                  "href": "https://prefeitura.sp.gov.br/web/assistencia_social/w/protecao_social_especial/331301"
-                }
-              ]
-            }
-          ]
+          "address": "Endereço: Rua Promotor Gabriel Nettuzzi Peres, 81, Santo Amaro, São Paulo 04743-020",
+          "phone": "+551155213103",
+          "website": "https://prefeitura.sp.gov.br/web/assistencia_social/w/protecao_social_especial/331301",
+          "hours": "",
+          "how_to_access": "Acesso: atendimento espontâneo e gratuito para pessoas em situação de rua na Zona Sul."
         },
         {
-          "type": "resource",
           "id": "arsenal-da-esperanca-homens-adultos",
-          "name": "Arsenal da Esperança — homens adultos",
+          "title": "Arsenal da Esperança — homens adultos",
+          "description": "Serviço: complexo conveniado que acolhe mais de mil homens por noite e apoia alimentação, saúde, trabalho e reconstrução de vínculos.\nÚltima verificação: 10 de novembro de 2026\nRede de acolhimento municipal",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Endereço:",
-                  "strong": true
-                },
-                {
-                  "text": " Rua Dr. Almeida Lima, 900, Mooca, São Paulo 03164-000"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Serviço:",
-                  "strong": true
-                },
-                {
-                  "text": " complexo conveniado que acolhe mais de mil homens por noite e apoia alimentação, saúde, trabalho e reconstrução de vínculos."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Acesso:",
-                  "strong": true
-                },
-                {
-                  "text": " confirme encaminhamento pelo 156 ou Centro POP; chegar ao endereço não garante entrada."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificação:",
-                  "strong": true
-                },
-                {
-                  "text": " 10 de novembro de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Rede de acolhimento municipal",
-                  "href": "https://prefeitura.sp.gov.br/web/popruasp/w/rede-de-acolhimento-da-capital-oferece-mais-de-27-mil-vagas-para-pessoas-em-situa%C3%A7%C3%A3o-de-vulnerabilidade"
-                }
-              ]
-            }
-          ]
+          "address": "Endereço: Rua Dr. Almeida Lima, 900, Mooca, São Paulo 03164-000",
+          "phone": "",
+          "website": "https://prefeitura.sp.gov.br/web/popruasp/w/rede-de-acolhimento-da-capital-oferece-mais-de-27-mil-vagas-para-pessoas-em-situa%C3%A7%C3%A3o-de-vulnerabilidade",
+          "hours": "",
+          "how_to_access": "Acesso: confirme encaminhamento pelo 156 ou Centro POP; chegar ao endereço não garante entrada."
         },
         {
-          "type": "resource",
           "id": "missao-belem-triagem-para-acolhimento",
-          "name": "Missão Belém — triagem para acolhimento",
+          "title": "Missão Belém — triagem para acolhimento",
+          "description": "Contato: (11) 93459-8191\nServiço: triagem e acolhimento inicial de adultos em situação de rua, com possível encaminhamento às casas de restauração. Entrada e permanência dependem de avaliação e regras próprias.\nÚltima verificação: 10 de novembro de 2026\nCasas e triagem da Missão Belém",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Triagem:",
-                  "strong": true
-                },
-                {
-                  "text": " Praça da Sé, 47, Centro Histórico, São Paulo 01001-000"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Contato:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(11) 93459-8191",
-                  "href": "tel:+5511934598191"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Serviço:",
-                  "strong": true
-                },
-                {
-                  "text": " triagem e acolhimento inicial de adultos em situação de rua, com possível encaminhamento às casas de restauração. Entrada e permanência dependem de avaliação e regras próprias."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificação:",
-                  "strong": true
-                },
-                {
-                  "text": " 10 de novembro de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Casas e triagem da Missão Belém",
-                  "href": "https://www.missaobelem.org/onde-estamos"
-                }
-              ]
-            }
-          ]
+          "address": "Triagem: Praça da Sé, 47, Centro Histórico, São Paulo 01001-000",
+          "phone": "+5511934598191",
+          "website": "https://www.missaobelem.org/onde-estamos",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "bagageiro-municipal",
-          "name": "Bagageiro municipal",
+          "title": "Bagageiro municipal",
+          "description": "Serviço: guarda segura de pertences para adultos em situação de rua, com ou sem filhos, por até três meses e possível prorrogação após avaliação.\nÚltima verificação: 10 de novembro de 2026\nBagageiro — Prefeitura",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Endereço:",
-                  "strong": true
-                },
-                {
-                  "text": " Rua Visconde de Parnaíba, 700, Brás"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Horário:",
-                  "strong": true
-                },
-                {
-                  "text": " todos os dias, 7h–19h."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Serviço:",
-                  "strong": true
-                },
-                {
-                  "text": " guarda segura de pertences para adultos em situação de rua, com ou sem filhos, por até três meses e possível prorrogação após avaliação."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificação:",
-                  "strong": true
-                },
-                {
-                  "text": " 10 de novembro de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Bagageiro — Prefeitura",
-                  "href": "https://prefeitura.sp.gov.br/web/popruasp/w/bagageiro-1"
-                }
-              ]
-            }
-          ]
+          "address": "Endereço: Rua Visconde de Parnaíba, 700, Brás",
+          "phone": "",
+          "website": "https://prefeitura.sp.gov.br/web/popruasp/w/bagageiro-1",
+          "hours": "Horário: todos os dias, 7h–19h.",
+          "how_to_access": ""
         }
       ]
     },
     {
       "id": "food",
-      "title": "3. Alimentação",
-      "items": [
+      "title": "Alimentação",
+      "entries": [
         {
-          "type": "resource",
           "id": "rede-cozinha-escola-refeicoes-gratuitas",
-          "name": "Rede Cozinha Escola — refeições gratuitas",
+          "title": "Rede Cozinha Escola — refeições gratuitas",
+          "description": "Serviço: 65 cozinhas comunitárias oferecem refeições de segunda a sábado, normalmente entre 10h30 e 14h; cada unidade pode alterar o horário.\nÚltima verificação: 10 de novembro de 2026\nCozinhas e endereços",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Serviço:",
-                  "strong": true
-                },
-                {
-                  "text": " 65 cozinhas comunitárias oferecem refeições de segunda a sábado, normalmente entre 10h30 e 14h; cada unidade pode alterar o horário."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Acesso:",
-                  "strong": true
-                },
-                {
-                  "text": " aberto a todos, sem CadÚnico e sem agendamento. Consulte a lista no mesmo dia ou ligue 156."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificação:",
-                  "strong": true
-                },
-                {
-                  "text": " 10 de novembro de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Cozinhas e endereços",
-                  "href": "https://prefeitura.sp.gov.br/web/sesana/w/oscs-rede-cozinha-escola"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://prefeitura.sp.gov.br/web/sesana/w/oscs-rede-cozinha-escola",
+          "hours": "",
+          "how_to_access": "Acesso: aberto a todos, sem CadÚnico e sem agendamento. Consulte a lista no mesmo dia ou ligue 156."
         },
         {
-          "type": "resource",
           "id": "rede-cozinha-escola-pontos-centrais",
-          "name": "Rede Cozinha Escola — pontos centrais",
+          "title": "Rede Cozinha Escola — pontos centrais",
+          "description": "Pão do Povo da Rua: Rua Dr. Pedro Arbues, 147, Luz.\nMovimento Estadual Pop Rua: Rua Maria Borba, 15, Consolação.\nKalebe Centro: Rua Rocha, 70, Bela Vista.\nÚltima verificação: 10 de novembro de 2026\nLista oficial",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Pão do Povo da Rua:",
-                  "strong": true
-                },
-                {
-                  "text": " Rua Dr. Pedro Arbues, 147, Luz."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Movimento Estadual Pop Rua:",
-                  "strong": true
-                },
-                {
-                  "text": " Rua Maria Borba, 15, Consolação."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Kalebe Centro:",
-                  "strong": true
-                },
-                {
-                  "text": " Rua Rocha, 70, Bela Vista."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Antes de ir:",
-                  "strong": true
-                },
-                {
-                  "text": " confirme o dia e horário; a refeição termina ao atingir a cota diária."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificação:",
-                  "strong": true
-                },
-                {
-                  "text": " 10 de novembro de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Lista oficial",
-                  "href": "https://prefeitura.sp.gov.br/web/sesana/w/oscs-rede-cozinha-escola"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://prefeitura.sp.gov.br/web/sesana/w/oscs-rede-cozinha-escola",
+          "hours": "",
+          "how_to_access": "Antes de ir: confirme o dia e horário; a refeição termina ao atingir a cota diária."
         },
         {
-          "type": "resource",
           "id": "bom-prato-refeicoes-de-baixo-custo",
-          "name": "Bom Prato — refeições de baixo custo",
+          "title": "Bom Prato — refeições de baixo custo",
+          "description": "Horários gerais: café às 7h, almoço para idosos às 10h30 e público geral às 11h, jantar às 17h onde disponível.\nUnidades centrais: Rua 25 de Março, 166; Avenida Rangel Pestana, 2327, Brás; Largo Coração de Jesus, 28, Campos Elíseos.\nImportante: confirme preço, dias e refeições; a quantidade é limitada.\nÚltima verificação: 10 de novembro de 2026\nPrograma Bom Prato",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Horários gerais:",
-                  "strong": true
-                },
-                {
-                  "text": " café às 7h, almoço para idosos às 10h30 e público geral às 11h, jantar às 17h onde disponível."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Unidades centrais:",
-                  "strong": true
-                },
-                {
-                  "text": " Rua 25 de Março, 166; Avenida Rangel Pestana, 2327, Brás; Largo Coração de Jesus, 28, Campos Elíseos."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Importante:",
-                  "strong": true
-                },
-                {
-                  "text": " confirme preço, dias e refeições; a quantidade é limitada."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificação:",
-                  "strong": true
-                },
-                {
-                  "text": " 10 de novembro de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Programa Bom Prato",
-                  "href": "https://www.desenvolvimentosocial.sp.gov.br/sec_desenvolv_social/programas%20estaduais/bom%20prato"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.desenvolvimentosocial.sp.gov.br/sec_desenvolv_social/programas%20estaduais/bom%20prato",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "alimentacao-e-higiene-no-centro-pop",
-          "name": "Alimentação e higiene no Centro POP",
+          "title": "Alimentação e higiene no Centro POP",
+          "description": "Serviço: alimentação, banho, lavagem de roupas, documentos, guarda de pertences e orientação de trabalho. A oferta concreta varia por unidade e horário.\nComo usar: vá ao Centro POP mais próximo entre 8h e 18h ou ligue 156.\nÚltima verificação: 10 de novembro de 2026\nServiços oficiais do Centro POP",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Serviço:",
-                  "strong": true
-                },
-                {
-                  "text": " alimentação, banho, lavagem de roupas, documentos, guarda de pertences e orientação de trabalho. A oferta concreta varia por unidade e horário."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Como usar:",
-                  "strong": true
-                },
-                {
-                  "text": " vá ao Centro POP mais próximo entre 8h e 18h ou ligue 156."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificação:",
-                  "strong": true
-                },
-                {
-                  "text": " 10 de novembro de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Serviços oficiais do Centro POP",
-                  "href": "https://www.gov.br/pt-br/servicos/acessar-centro-pop-centro-de-referencia-especializado-para-populacao-em-situacao-de-rua"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.gov.br/pt-br/servicos/acessar-centro-pop-centro-de-referencia-especializado-para-populacao-em-situacao-de-rua",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
       "id": "community",
-      "title": "4. Organizações comunitárias e religiosas",
-      "items": [
+      "title": "Organizações comunitárias e religiosas",
+      "entries": [
         {
-          "type": "resource",
           "id": "arsenal-da-esperanca-sermig",
-          "name": "Arsenal da Esperança — SERMIG",
+          "title": "Arsenal da Esperança — SERMIG",
+          "description": "Serviço: casa de acolhida para homens, com apoio social e caminhos para trabalho, saúde e autonomia. Integra a rede municipal conveniada.\nÚltima verificação: 10 de novembro de 2026\nArsenal da Esperança",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Endereço:",
-                  "strong": true
-                },
-                {
-                  "text": " Rua Dr. Almeida Lima, 900, Mooca"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Serviço:",
-                  "strong": true
-                },
-                {
-                  "text": " casa de acolhida para homens, com apoio social e caminhos para trabalho, saúde e autonomia. Integra a rede municipal conveniada."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Acesso:",
-                  "strong": true
-                },
-                {
-                  "text": " procure encaminhamento pelo 156 ou Centro POP."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificação:",
-                  "strong": true
-                },
-                {
-                  "text": " 10 de novembro de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Arsenal da Esperança",
-                  "href": "https://br.sermig.org/home/imprensa/perfil-sermig/perfil-arsenal-da-esperan-a.html"
-                }
-              ]
-            }
-          ]
+          "address": "Endereço: Rua Dr. Almeida Lima, 900, Mooca",
+          "phone": "",
+          "website": "https://br.sermig.org/home/imprensa/perfil-sermig/perfil-arsenal-da-esperan-a.html",
+          "hours": "",
+          "how_to_access": "Acesso: procure encaminhamento pelo 156 ou Centro POP."
         },
         {
-          "type": "resource",
           "id": "missao-belem",
-          "name": "Missão Belém",
+          "title": "Missão Belém",
+          "description": "Telefone: (11) 93459-8191\nServiço: acolhimento gratuito de base católica, alimentação e acompanhamento. O programa inclui vida comunitária e espiritual; peça explicação das regras antes de aceitar.\nÚltima verificação: 10 de novembro de 2026\nMissão Belém",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Triagem:",
-                  "strong": true
-                },
-                {
-                  "text": " Praça da Sé, 47"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(11) 93459-8191",
-                  "href": "tel:+5511934598191"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Serviço:",
-                  "strong": true
-                },
-                {
-                  "text": " acolhimento gratuito de base católica, alimentação e acompanhamento. O programa inclui vida comunitária e espiritual; peça explicação das regras antes de aceitar."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificação:",
-                  "strong": true
-                },
-                {
-                  "text": " 10 de novembro de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Missão Belém",
-                  "href": "https://www.missaobelem.org/"
-                }
-              ]
-            }
-          ]
+          "address": "Triagem: Praça da Sé, 47",
+          "phone": "+5511934598191",
+          "website": "https://www.missaobelem.org/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "cidadania-poprua",
-          "name": "Cidadania PopRua",
+          "title": "Cidadania PopRua",
+          "description": "Serviço: sete unidades lançadas em 2026 reúnem equipe multidisciplinar, acesso a direitos, higiene, lavanderia, guarda de pertences e cuidados pessoais. Santana também tem Balcão GOV.BR.\nComo acessar: pergunte ao Centro POP, 100 ou 156 qual unidade está mais próxima.\nÚltima verificação: 10 de novembro de 2026\nCidadania PopRua em São Paulo",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Serviço:",
-                  "strong": true
-                },
-                {
-                  "text": " sete unidades lançadas em 2026 reúnem equipe multidisciplinar, acesso a direitos, higiene, lavanderia, guarda de pertences e cuidados pessoais. Santana também tem Balcão GOV.BR."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Como acessar:",
-                  "strong": true
-                },
-                {
-                  "text": " pergunte ao Centro POP, 100 ou 156 qual unidade está mais próxima."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificação:",
-                  "strong": true
-                },
-                {
-                  "text": " 10 de novembro de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Cidadania PopRua em São Paulo",
-                  "href": "https://ruasvisiveis.mdh.gov.br/sao-paulo-recebe-sete-unidades-do-cidadania-poprua-e-anuncia-censo-nacional-da-populacao-em-situacao-de-rua/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://ruasvisiveis.mdh.gov.br/sao-paulo-recebe-sete-unidades-do-cidadania-poprua-e-anuncia-censo-nacional-da-populacao-em-situacao-de-rua/",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
+    },
+    {
+      "id": "hygiene",
+      "title": "Showers, laundry and hygiene",
+      "entries": []
+    },
+    {
+      "id": "clothing",
+      "title": "Clothing",
+      "entries": []
     },
     {
       "id": "health",
-      "title": "5. Saúde e saúde mental",
-      "items": [
+      "title": "Saúde e saúde mental",
+      "entries": [
         {
-          "type": "resource",
           "id": "consultorio-na-rua",
-          "name": "Consultório na Rua",
+          "title": "Consultório na Rua",
+          "description": "Serviço: equipes do SUS fazem busca ativa e cuidado contínuo, articuladas com UBS, SEAS e assistência social.\nÚltima verificação: 10 de novembro de 2026\nPrograma Reencontro — cuidado",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Serviço:",
-                  "strong": true
-                },
-                {
-                  "text": " equipes do SUS fazem busca ativa e cuidado contínuo, articuladas com UBS, SEAS e assistência social."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Como encontrar:",
-                  "strong": true
-                },
-                {
-                  "text": " pergunte ao SEAS/Centro POP ou ligue 156. Não se exige comprovante de endereço para o Cartão Nacional de Saúde de pessoa em situação de rua."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificação:",
-                  "strong": true
-                },
-                {
-                  "text": " 10 de novembro de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Programa Reencontro — cuidado",
-                  "href": "https://prefeitura.sp.gov.br/web/secretaria_executiva_de_projetos_estrategicos/w/programa_reencontro/341748"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://prefeitura.sp.gov.br/web/secretaria_executiva_de_projetos_estrategicos/w/programa_reencontro/341748",
+          "hours": "",
+          "how_to_access": "Como encontrar: pergunte ao SEAS/Centro POP ou ligue 156. Não se exige comprovante de endereço para o Cartão Nacional de Saúde de pessoa em situação de rua."
         },
         {
-          "type": "resource",
           "id": "unidades-basicas-de-saude-ubs",
-          "name": "Unidades Básicas de Saúde — UBS",
+          "title": "Unidades Básicas de Saúde — UBS",
+          "description": "Serviço: consultas, curativos, vacinação, tuberculose, saúde sexual, receitas e encaminhamentos.\nLocalização: ligue 156 ou use a Busca Saúde. Explique que está em situação de rua se não tiver endereço ou documento.\nÚltima verificação: 10 de novembro de 2026\nRede municipal de saúde",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Serviço:",
-                  "strong": true
-                },
-                {
-                  "text": " consultas, curativos, vacinação, tuberculose, saúde sexual, receitas e encaminhamentos."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Localização:",
-                  "strong": true
-                },
-                {
-                  "text": " ligue "
-                },
-                {
-                  "text": "156",
-                  "href": "tel:156"
-                },
-                {
-                  "text": " ou use a Busca Saúde. Explique que está em situação de rua se não tiver endereço ou documento."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificação:",
-                  "strong": true
-                },
-                {
-                  "text": " 10 de novembro de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Rede municipal de saúde",
-                  "href": "https://prefeitura.sp.gov.br/web/saude/w/caps-da-capital-oferecem-acolhimento-e-tratamento-para-pessoas-dependentes-de-%C3%A1lcool-e-drogas"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "156",
+          "website": "https://prefeitura.sp.gov.br/web/saude/w/caps-da-capital-oferecem-acolhimento-e-tratamento-para-pessoas-dependentes-de-%C3%A1lcool-e-drogas",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "caps-saude-mental-sem-encaminhamento",
-          "name": "CAPS — saúde mental sem encaminhamento",
+          "title": "CAPS — saúde mental sem encaminhamento",
+          "description": "Serviço: 103 CAPS de porta aberta, sem agendamento ou encaminhamento, para adultos, crianças/adolescentes e álcool e drogas; parte funciona 24 horas.\nComo achar: ligue 156 ou consulte a lista. Em emergência clínica, chame 192.\nÚltima verificação: 10 de novembro de 2026\nCAPS — endereços e funcionamento",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Serviço:",
-                  "strong": true
-                },
-                {
-                  "text": " 103 CAPS de porta aberta, sem agendamento ou encaminhamento, para adultos, crianças/adolescentes e álcool e drogas; parte funciona 24 horas."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Como achar:",
-                  "strong": true
-                },
-                {
-                  "text": " ligue 156 ou consulte a lista. Em emergência clínica, chame 192."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificação:",
-                  "strong": true
-                },
-                {
-                  "text": " 10 de novembro de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "CAPS — endereços e funcionamento",
-                  "href": "https://prefeitura.sp.gov.br/web/saude/w/saude_mental_ad/caps"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://prefeitura.sp.gov.br/web/saude/w/saude_mental_ad/caps",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "caps-ad-iv-redencao",
-          "name": "CAPS AD IV Redenção",
+          "title": "CAPS AD IV Redenção",
+          "description": "Telefone: (11) 3221-6140\nServiço: porta aberta, crise e cuidado multiprofissional para uso de álcool e outras drogas, 24 horas. O acolhimento clínico não substitui moradia.\nÚltima verificação: 10 de novembro de 2026\nRede CAPS atual",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Endereço:",
-                  "strong": true
-                },
-                {
-                  "text": " Praça Princesa Isabel, 75, Campos Elíseos, São Paulo 01206-010"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(11) 3221-6140",
-                  "href": "tel:+551132216140"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Serviço:",
-                  "strong": true
-                },
-                {
-                  "text": " porta aberta, crise e cuidado multiprofissional para uso de álcool e outras drogas, 24 horas. O acolhimento clínico não substitui moradia."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificação:",
-                  "strong": true
-                },
-                {
-                  "text": " 10 de novembro de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Rede CAPS atual",
-                  "href": "https://prefeitura.sp.gov.br/web/saude/w/saude_mental_ad/caps"
-                }
-              ]
-            }
-          ]
+          "address": "Endereço: Praça Princesa Isabel, 75, Campos Elíseos, São Paulo 01206-010",
+          "phone": "+551132216140",
+          "website": "https://prefeitura.sp.gov.br/web/saude/w/saude_mental_ad/caps",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "caps-ad-iii-armenia-e-complexo-prates",
-          "name": "CAPS AD III Armênia e Complexo Prates",
+          "title": "CAPS AD III Armênia e Complexo Prates",
+          "description": "Armênia: Rua Porto Seguro, 281; (11) 3326-9671.\nComplexo Prates: Rua Prates, 1101; (11) 3229-8192 / 3229-8563.\nServiço: saúde mental e dependência sem encaminhamento. Confirme a entrada antes de ir.\nÚltima verificação: 10 de novembro de 2026\nLista municipal de CAPS",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Armênia:",
-                  "strong": true
-                },
-                {
-                  "text": " Rua Porto Seguro, 281; "
-                },
-                {
-                  "text": "(11) 3326-9671",
-                  "href": "tel:+551133269671"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Complexo Prates:",
-                  "strong": true
-                },
-                {
-                  "text": " Rua Prates, 1101; "
-                },
-                {
-                  "text": "(11) 3229-8192",
-                  "href": "tel:+551132298192"
-                },
-                {
-                  "text": " / "
-                },
-                {
-                  "text": "3229-8563",
-                  "href": "tel:+551132298563"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Serviço:",
-                  "strong": true
-                },
-                {
-                  "text": " saúde mental e dependência sem encaminhamento. Confirme a entrada antes de ir."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificação:",
-                  "strong": true
-                },
-                {
-                  "text": " 10 de novembro de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Lista municipal de CAPS",
-                  "href": "https://drive.prefeitura.sp.gov.br/cidade/secretarias/upload/saude/2024_02_09_%20Relacao_CAPS_SMS.pdf"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+551133269671",
+          "website": "https://drive.prefeitura.sp.gov.br/cidade/secretarias/upload/saude/2024_02_09_%20Relacao_CAPS_SMS.pdf",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "disque-saude-sus",
-          "name": "Disque Saúde — SUS",
+          "title": "Disque Saúde — SUS",
+          "description": "Telefone: 136\nServiço: orientação sobre SUS, Cartão Nacional de Saúde, unidades e reclamações. Em emergência, ligue 192.\nÚltima verificação: 10 de novembro de 2026\nAtendimento oficial do SUS",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "136",
-                  "href": "tel:136"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Serviço:",
-                  "strong": true
-                },
-                {
-                  "text": " orientação sobre SUS, Cartão Nacional de Saúde, unidades e reclamações. Em emergência, ligue 192."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificação:",
-                  "strong": true
-                },
-                {
-                  "text": " 10 de novembro de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Atendimento oficial do SUS",
-                  "href": "https://webatendimento.saude.gov.br/faq/meususdigital"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "136",
+          "website": "https://webatendimento.saude.gov.br/faq/meususdigital",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
-      "id": "government",
-      "title": "6. Benefícios e assistência pública",
-      "items": [
+      "id": "mental-health",
+      "title": "Mental health and addiction",
+      "entries": []
+    },
+    {
+      "id": "public-facilities",
+      "title": "Public toilets and day facilities",
+      "entries": []
+    },
+    {
+      "id": "phone-internet",
+      "title": "Phone charging and internet",
+      "entries": []
+    },
+    {
+      "id": "transport",
+      "title": "Transport",
+      "entries": []
+    },
+    {
+      "id": "benefits",
+      "title": "Benefícios e assistência pública",
+      "entries": [
         {
-          "type": "resource",
           "id": "cadunico-para-pessoas-em-situacao-de-rua",
-          "name": "CadÚnico para pessoas em situação de rua",
+          "title": "CadÚnico para pessoas em situação de rua",
+          "description": "Onde: Centros POP, CRAS e Descomplica SP; informações pelo 156.\nUso: cadastro gratuito para possível acesso a Bolsa Família, BPC, tarifa social e outros programas. O Centro POP pode servir como endereço de referência. Cadastro não garante benefício.\nÚltima verificação: 10 de novembro de 2026\nCadÚnico em São Paulo",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Onde:",
-                  "strong": true
-                },
-                {
-                  "text": " Centros POP, CRAS e Descomplica SP; informações pelo "
-                },
-                {
-                  "text": "156",
-                  "href": "tel:156"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Uso:",
-                  "strong": true
-                },
-                {
-                  "text": " cadastro gratuito para possível acesso a Bolsa Família, BPC, tarifa social e outros programas. O Centro POP pode servir como endereço de referência. Cadastro não garante benefício."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificação:",
-                  "strong": true
-                },
-                {
-                  "text": " 10 de novembro de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "CadÚnico em São Paulo",
-                  "href": "https://prefeitura.sp.gov.br/web/assistencia_social/w/gestao_de_beneficios/327306"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "156",
+          "website": "https://prefeitura.sp.gov.br/web/assistencia_social/w/gestao_de_beneficios/327306",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "disque-social-beneficios-federais",
-          "name": "Disque Social — benefícios federais",
+          "title": "Disque Social — benefícios federais",
+          "description": "Telefone: 121; atendimento humano de segunda a sexta, 7h–19h, e eletrônico 24 horas.\nServiço: CadÚnico, Bolsa Família, BPC, consulta de benefício e revisão cadastral.\nÚltima verificação: 10 de novembro de 2026\nDisque Social 121",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "121",
-                  "href": "tel:121"
-                },
-                {
-                  "text": "; atendimento humano de segunda a sexta, 7h–19h, e eletrônico 24 horas."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Serviço:",
-                  "strong": true
-                },
-                {
-                  "text": " CadÚnico, Bolsa Família, BPC, consulta de benefício e revisão cadastral."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificação:",
-                  "strong": true
-                },
-                {
-                  "text": " 10 de novembro de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Disque Social 121",
-                  "href": "https://www.gov.br/mds/pt-br/canais_atendimento/disque-social-121"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "121",
+          "website": "https://www.gov.br/mds/pt-br/canais_atendimento/disque-social-121",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "beneficio-de-prestacao-continuada-bpc",
-          "name": "Benefício de Prestação Continuada — BPC",
+          "title": "Benefício de Prestação Continuada — BPC",
+          "description": "Para quem: pessoa com 65 anos ou mais ou com deficiência, de família de baixa renda, se cumprir os critérios. Paga um salário mínimo, mas não é aposentadoria, não tem 13.º e não deixa pensão.\nPrimeiros passos: atualize o CadÚnico e peça orientação pelo 121 ou INSS 135. Não pague intermediários.\nÚltima verificação: 10 de novembro de 2026\nRegras do BPC",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Para quem:",
-                  "strong": true
-                },
-                {
-                  "text": " pessoa com 65 anos ou mais ou com deficiência, de família de baixa renda, se cumprir os critérios. Paga um salário mínimo, mas não é aposentadoria, não tem 13.º e não deixa pensão."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Primeiros passos:",
-                  "strong": true
-                },
-                {
-                  "text": " atualize o CadÚnico e peça orientação pelo 121 ou INSS 135. Não pague intermediários."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificação:",
-                  "strong": true
-                },
-                {
-                  "text": " 10 de novembro de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Regras do BPC",
-                  "href": "https://www.gov.br/mds/pt-br/acoes-e-programas/SUAS/beneficios-assistenciais/beneficio-assistencial-ao-idoso-e-a-pessoa-com-deficiencia-bpc"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.gov.br/mds/pt-br/acoes-e-programas/SUAS/beneficios-assistenciais/beneficio-assistencial-ao-idoso-e-a-pessoa-com-deficiencia-bpc",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
-      "id": "work",
-      "title": "7. Trabalho e renda",
-      "items": [
+      "id": "employment",
+      "title": "Trabalho e renda",
+      "entries": [
         {
-          "type": "resource",
           "id": "cate-central",
-          "name": "Cate Central",
+          "title": "Cate Central",
+          "description": "Telefone: (11) 3357-2400; segunda a sexta, 8h–17h.\nServiços: vagas, intermediação, Carteira de Trabalho Digital, seguro-desemprego, oficinas, cursos e empreendedorismo. Confirme os documentos.\nÚltima verificação: 10 de novembro de 2026\nEndereços do Cate",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Endereço:",
-                  "strong": true
-                },
-                {
-                  "text": " Rua Álvares Penteado, 203, Centro, São Paulo 01012-001"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(11) 3357-2400",
-                  "href": "tel:+551133572400"
-                },
-                {
-                  "text": "; segunda a sexta, 8h–17h."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Serviços:",
-                  "strong": true
-                },
-                {
-                  "text": " vagas, intermediação, Carteira de Trabalho Digital, seguro-desemprego, oficinas, cursos e empreendedorismo. Confirme os documentos."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificação:",
-                  "strong": true
-                },
-                {
-                  "text": " 10 de novembro de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Endereços do Cate",
-                  "href": "https://prefeitura.sp.gov.br/web/desenvolvimento/w/espaco_do_trabalhador/220255"
-                }
-              ]
-            }
-          ]
+          "address": "Endereço: Rua Álvares Penteado, 203, Centro, São Paulo 01012-001",
+          "phone": "+551133572400",
+          "website": "https://prefeitura.sp.gov.br/web/desenvolvimento/w/espaco_do_trabalhador/220255",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "cate-em-todas-as-regioes",
-          "name": "Cate em todas as regiões",
+          "title": "Cate em todas as regiões",
+          "description": "Rede: 46 unidades fixas e móveis, inclusive no Descomplica SP, geralmente de segunda a sexta, 8h–17h.\nComo usar: escolha a mais próxima. Processos seletivos costumam pedir RG, CPF e carteira de trabalho; se faltarem documentos, comece pelo Centro POP.\nÚltima verificação: 10 de novembro de 2026\nUnidades Cate",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Rede:",
-                  "strong": true
-                },
-                {
-                  "text": " 46 unidades fixas e móveis, inclusive no Descomplica SP, geralmente de segunda a sexta, 8h–17h."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Como usar:",
-                  "strong": true
-                },
-                {
-                  "text": " escolha a mais próxima. Processos seletivos costumam pedir RG, CPF e carteira de trabalho; se faltarem documentos, comece pelo Centro POP."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificação:",
-                  "strong": true
-                },
-                {
-                  "text": " 10 de novembro de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Unidades Cate",
-                  "href": "https://prefeitura.sp.gov.br/web/desenvolvimento/w/espaco_do_trabalhador/220255"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://prefeitura.sp.gov.br/web/desenvolvimento/w/espaco_do_trabalhador/220255",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "programa-operacao-trabalho-pot",
-          "name": "Programa Operação Trabalho — POT",
+          "title": "Programa Operação Trabalho — POT",
+          "description": "Serviço: qualificação e atividades para pessoas desempregadas e vulneráveis, com estratégias para pessoas em situação de rua.\nComo perguntar: procure Centro POP ou Cate e peça editais e vagas abertos. Há critérios e não existe ingresso imediato garantido.\nÚltima verificação: 10 de novembro de 2026\nReencontro — emprego e renda",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Serviço:",
-                  "strong": true
-                },
-                {
-                  "text": " qualificação e atividades para pessoas desempregadas e vulneráveis, com estratégias para pessoas em situação de rua."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Como perguntar:",
-                  "strong": true
-                },
-                {
-                  "text": " procure Centro POP ou Cate e peça editais e vagas abertos. Há critérios e não existe ingresso imediato garantido."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificação:",
-                  "strong": true
-                },
-                {
-                  "text": " 10 de novembro de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Reencontro — emprego e renda",
-                  "href": "https://prefeitura.sp.gov.br/web/secretaria_executiva_de_projetos_estrategicos/w/programa_reencontro/341748"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "documents",
-      "title": "8. Documentos",
-      "items": [
-        {
-          "type": "resource",
-          "id": "centro-pop-documentos-e-endereco-de-referencia",
-          "name": "Centro POP — documentos e endereço de referência",
-          "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Direito:",
-                  "strong": true
-                },
-                {
-                  "text": " não é preciso documento para entrar. A equipe pode ajudar na emissão e regularização; o endereço do Centro POP pode ser referência documental e no CadÚnico."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Onde:",
-                  "strong": true
-                },
-                {
-                  "text": " Bela Vista, Santa Cecília, Mooca, Santana, Vila Maria ou Santo Amaro, segunda a sexta, 8h–18h."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificação:",
-                  "strong": true
-                },
-                {
-                  "text": " 10 de novembro de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Centro POP — Governo Federal",
-                  "href": "https://www.gov.br/pt-br/servicos/acessar-centro-pop-centro-de-referencia-especializado-para-populacao-em-situacao-de-rua"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "cpf-receita-federal",
-          "name": "CPF — Receita Federal",
-          "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Serviços:",
-                  "strong": true
-                },
-                {
-                  "text": " inscrição, consulta e regularização online ou presencial. O CPF é gratuito na Receita ou internet; conveniados podem cobrar tarifa."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Sem comprovante:",
-                  "strong": true
-                },
-                {
-                  "text": " informe o endereço completo disponível. Peça ao Centro POP ajuda com protocolo, documentos e internet."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificação:",
-                  "strong": true
-                },
-                {
-                  "text": " 10 de novembro de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Meu CPF",
-                  "href": "https://www.gov.br/receitafederal/pt-br/assuntos/meu-cpf"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "pop-rua-jud-e-registre-se",
-          "name": "Pop Rua Jud e Registre-se!",
-          "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Serviço:",
-                  "strong": true
-                },
-                {
-                  "text": " mutirões periódicos na Praça da Sé com certidões, RG, CPF, título eleitoral, serviço militar, CadÚnico, INSS, FGTS e orientação jurídica."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Importante:",
-                  "strong": true
-                },
-                {
-                  "text": " não funciona diariamente. Consulte o TRF3 ou Centro POP para a próxima edição; fora dela, peça encaminhamento ao órgão correto."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificação:",
-                  "strong": true
-                },
-                {
-                  "text": " 10 de novembro de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Serviços do Pop Rua Jud",
-                  "href": "https://web.trf3.jus.br/noticias-intranet-sjsp/Noticiar/ExibirNoticia/2162-pop-rua-jud-sampa-7-e-registrese-atendem-mil-pessoas"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://prefeitura.sp.gov.br/web/secretaria_executiva_de_projetos_estrategicos/w/programa_reencontro/341748",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
       "id": "legal",
-      "title": "9. Ajuda jurídica e direitos",
-      "items": [
+      "title": "Ajuda jurídica e direitos",
+      "entries": [
         {
-          "type": "resource",
           "id": "defensoria-publica-de-sao-paulo",
-          "name": "Defensoria Pública de São Paulo",
+          "title": "Defensoria Pública de São Paulo",
+          "description": "Agendamento: 0800-773-4340, dias úteis, 7h–19h.\nServiço: ajuda jurídica gratuita para quem não pode pagar advogado, sujeita a critérios. Diga se o caso é urgente e se não tem telefone, endereço ou documentos.\nÚltima verificação: 10 de novembro de 2026\nAtendimento da Defensoria",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Agendamento:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "0800-773-4340",
-                  "href": "tel:08007734340"
-                },
-                {
-                  "text": ", dias úteis, 7h–19h."
-                }
-              ]
-            },
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Núcleos especializados:",
-                  "strong": true
-                },
-                {
-                  "text": " Avenida Liberdade, 32, Liberdade; segunda a sexta, 8h–17h."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Serviço:",
-                  "strong": true
-                },
-                {
-                  "text": " ajuda jurídica gratuita para quem não pode pagar advogado, sujeita a critérios. Diga se o caso é urgente e se não tem telefone, endereço ou documentos."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificação:",
-                  "strong": true
-                },
-                {
-                  "text": " 10 de novembro de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Atendimento da Defensoria",
-                  "href": "https://www.defensoria.sp.def.br/web/guest/atendimento/agende-seu-atendimento"
-                }
-              ]
-            }
-          ]
+          "address": "Núcleos especializados: Avenida Liberdade, 32, Liberdade; segunda a sexta, 8h–17h.",
+          "phone": "08007734340",
+          "website": "https://www.defensoria.sp.def.br/web/guest/atendimento/agende-seu-atendimento",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "atendimento-sem-comprovante-de-endereco",
-          "name": "Atendimento sem comprovante de endereço",
+          "title": "Atendimento sem comprovante de endereço",
+          "description": "Regra: a política Pop Rua Jud exige atendimento judicial prioritário e desburocratizado e proíbe usar a falta de comprovante de endereço como barreira.\nSe houver recusa: peça justificativa, procure a Defensoria ou registre a violação no Disque 100.\nÚltima verificação: 10 de novembro de 2026\nPolítica Pop Rua Jud",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Regra:",
-                  "strong": true
-                },
-                {
-                  "text": " a política Pop Rua Jud exige atendimento judicial prioritário e desburocratizado e proíbe usar a falta de comprovante de endereço como barreira."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Se houver recusa:",
-                  "strong": true
-                },
-                {
-                  "text": " peça justificativa, procure a Defensoria ou registre a violação no Disque 100."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificação:",
-                  "strong": true
-                },
-                {
-                  "text": " 10 de novembro de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Política Pop Rua Jud",
-                  "href": "https://www.tre-sp.jus.br/institucional/governanca_institucional/atencao_a_pessoa_em_situacao_de_rua"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.tre-sp.jus.br/institucional/governanca_institucional/atencao_a_pessoa_em_situacao_de_rua",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "disque-100-direitos-humanos",
-          "name": "Disque 100 — direitos humanos",
+          "title": "Disque 100 — direitos humanos",
+          "description": "Telefone: 100\nUse para: violência, discriminação, abuso, exploração ou negligência institucional contra pessoa em situação de rua, criança, idoso, pessoa com deficiência ou população LGBTI+. Em emergência, ligue 190.\nÚltima verificação: 10 de novembro de 2026\nOuvidoria Nacional de Direitos Humanos",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "100",
-                  "href": "tel:100"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Use para:",
-                  "strong": true
-                },
-                {
-                  "text": " violência, discriminação, abuso, exploração ou negligência institucional contra pessoa em situação de rua, criança, idoso, pessoa com deficiência ou população LGBTI+. Em emergência, ligue 190."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificação:",
-                  "strong": true
-                },
-                {
-                  "text": " 10 de novembro de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ouvidoria Nacional de Direitos Humanos",
-                  "href": "https://www.gov.br/mdh/pt-br/ondh/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "100",
+          "website": "https://www.gov.br/mdh/pt-br/ondh/",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
+    },
+    {
+      "id": "documents",
+      "title": "Documentos",
+      "entries": [
+        {
+          "id": "centro-pop-documentos-e-endereco-de-referencia",
+          "title": "Centro POP — documentos e endereço de referência",
+          "description": "Direito: não é preciso documento para entrar. A equipe pode ajudar na emissão e regularização; o endereço do Centro POP pode ser referência documental e no CadÚnico.\nOnde: Bela Vista, Santa Cecília, Mooca, Santana, Vila Maria ou Santo Amaro, segunda a sexta, 8h–18h.\nÚltima verificação: 10 de novembro de 2026\nCentro POP — Governo Federal",
+          "last_verified": "2026-11-10",
+          "address": "",
+          "phone": "",
+          "website": "https://www.gov.br/pt-br/servicos/acessar-centro-pop-centro-de-referencia-especializado-para-populacao-em-situacao-de-rua",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "cpf-receita-federal",
+          "title": "CPF — Receita Federal",
+          "description": "Serviços: inscrição, consulta e regularização online ou presencial. O CPF é gratuito na Receita ou internet; conveniados podem cobrar tarifa.\nSem comprovante: informe o endereço completo disponível. Peça ao Centro POP ajuda com protocolo, documentos e internet.\nÚltima verificação: 10 de novembro de 2026\nMeu CPF",
+          "last_verified": "2026-11-10",
+          "address": "",
+          "phone": "",
+          "website": "https://www.gov.br/receitafederal/pt-br/assuntos/meu-cpf",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "pop-rua-jud-e-registre-se",
+          "title": "Pop Rua Jud e Registre-se!",
+          "description": "Serviço: mutirões periódicos na Praça da Sé com certidões, RG, CPF, título eleitoral, serviço militar, CadÚnico, INSS, FGTS e orientação jurídica.\nImportante: não funciona diariamente. Consulte o TRF3 ou Centro POP para a próxima edição; fora dela, peça encaminhamento ao órgão correto.\nÚltima verificação: 10 de novembro de 2026\nServiços do Pop Rua Jud",
+          "last_verified": "2026-11-10",
+          "address": "",
+          "phone": "",
+          "website": "https://web.trf3.jus.br/noticias-intranet-sjsp/Noticiar/ExibirNoticia/2162-pop-rua-jud-sampa-7-e-registrese-atendem-mil-pessoas",
+          "hours": "",
+          "how_to_access": ""
+        }
+      ]
+    },
+    {
+      "id": "mail",
+      "title": "Mailing address",
+      "entries": []
+    },
+    {
+      "id": "storage",
+      "title": "Storage",
+      "entries": []
     },
     {
       "id": "safety",
-      "title": "10. Mulheres, crianças e pessoas em risco",
-      "items": [
+      "title": "Mulheres, crianças e pessoas em risco",
+      "entries": [
         {
-          "type": "resource",
           "id": "central-de-atendimento-a-mulher",
-          "name": "Central de Atendimento à Mulher",
+          "title": "Central de Atendimento à Mulher",
+          "description": "Telefone: 180; perigo imediato: 190.\nServiço: orientação e denúncia de violência. Para acolhimento municipal seguro, também ligue 156 e explique o risco.\nÚltima verificação: 10 de novembro de 2026\nRede municipal de proteção",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "180",
-                  "href": "tel:180"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "perigo imediato:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "190",
-                  "href": "tel:190"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Serviço:",
-                  "strong": true
-                },
-                {
-                  "text": " orientação e denúncia de violência. Para acolhimento municipal seguro, também ligue 156 e explique o risco."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificação:",
-                  "strong": true
-                },
-                {
-                  "text": " 10 de novembro de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Rede municipal de proteção",
-                  "href": "https://prefeitura.sp.gov.br/web/assistencia_social/w/rede-socioassistencial-amplia-acolhimento-e-prote%C3%A7%C3%A3o-a-mulheres-v%C3%ADtimas-de-viol%C3%AAncia"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "180",
+          "website": "https://prefeitura.sp.gov.br/web/assistencia_social/w/rede-socioassistencial-amplia-acolhimento-e-prote%C3%A7%C3%A3o-a-mulheres-v%C3%ADtimas-de-viol%C3%AAncia",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "casa-da-mulher-brasileira-24-horas",
-          "name": "Casa da Mulher Brasileira — 24 horas",
+          "title": "Casa da Mulher Brasileira — 24 horas",
+          "description": "Telefone: (11) 3275-8000\nServiços: apoio psicossocial, Delegacia da Mulher, medidas protetivas, Defensoria, Ministério Público e espaço para crianças de 0 a 12 anos. Em risco no trajeto, ligue 190.\nÚltima verificação: 10 de novembro de 2026\nCasa da Mulher Brasileira",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Endereço:",
-                  "strong": true
-                },
-                {
-                  "text": " Rua Vieira Ravasco, 26, Cambuci, São Paulo 01518-030"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(11) 3275-8000",
-                  "href": "tel:+551132758000"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Serviços:",
-                  "strong": true
-                },
-                {
-                  "text": " apoio psicossocial, Delegacia da Mulher, medidas protetivas, Defensoria, Ministério Público e espaço para crianças de 0 a 12 anos. Em risco no trajeto, ligue 190."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificação:",
-                  "strong": true
-                },
-                {
-                  "text": " 10 de novembro de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Casa da Mulher Brasileira",
-                  "href": "https://prefeitura.sp.gov.br/direitos_humanos/w/mulheres/equipamentos/288423"
-                }
-              ]
-            }
-          ]
+          "address": "Endereço: Rua Vieira Ravasco, 26, Cambuci, São Paulo 01518-030",
+          "phone": "+551132758000",
+          "website": "https://prefeitura.sp.gov.br/direitos_humanos/w/mulheres/equipamentos/288423",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "cdcm-francisca-franco",
-          "name": "CDCM Francisca Franco",
+          "title": "CDCM Francisca Franco",
+          "description": "Telefone: (11) 3106-1013; 9h–17h.\nServiço: apoio psicossocial, socioassistencial e jurídico para mulheres em situação de violência. Não é emergência nem alojamento imediato.\nÚltima verificação: 10 de novembro de 2026\nAtendimento às mulheres no Centro",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Endereço:",
-                  "strong": true
-                },
-                {
-                  "text": " Rua Conselheiro Ramalho, 93, Bela Vista"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(11) 3106-1013",
-                  "href": "tel:+551131061013"
-                },
-                {
-                  "text": "; 9h–17h."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Serviço:",
-                  "strong": true
-                },
-                {
-                  "text": " apoio psicossocial, socioassistencial e jurídico para mulheres em situação de violência. Não é emergência nem alojamento imediato."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificação:",
-                  "strong": true
-                },
-                {
-                  "text": " 10 de novembro de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Atendimento às mulheres no Centro",
-                  "href": "https://prefeitura.sp.gov.br/web/direitos_humanos/w/mulheres/rede_de_protecao/casas_da_mulher/356857"
-                }
-              ]
-            }
-          ]
+          "address": "Endereço: Rua Conselheiro Ramalho, 93, Bela Vista",
+          "phone": "+551131061013",
+          "website": "https://prefeitura.sp.gov.br/web/direitos_humanos/w/mulheres/rede_de_protecao/casas_da_mulher/356857",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "protecao-de-criancas-e-adolescentes",
-          "name": "Proteção de crianças e adolescentes",
+          "title": "Proteção de crianças e adolescentes",
+          "description": "Direitos humanos: 100; emergência: 190; rede municipal: 156.\nServiço: o 156 aciona CPAS/SEAS e indica o Conselho Tutelar. Crianças sem proteção podem ser encaminhadas a SAICA, Casa Lar ou Família Acolhedora pelos órgãos competentes.\nÚltima verificação: 10 de novembro de 2026\nServiços para crianças e adolescentes",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Direitos humanos:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "100",
-                  "href": "tel:100"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "emergência:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "190",
-                  "href": "tel:190"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "rede municipal:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "156",
-                  "href": "tel:156"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Serviço:",
-                  "strong": true
-                },
-                {
-                  "text": " o 156 aciona CPAS/SEAS e indica o Conselho Tutelar. Crianças sem proteção podem ser encaminhadas a SAICA, Casa Lar ou Família Acolhedora pelos órgãos competentes."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificação:",
-                  "strong": true
-                },
-                {
-                  "text": " 10 de novembro de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Serviços para crianças e adolescentes",
-                  "href": "https://prefeitura.sp.gov.br/web/popruasp/w/crian%C3%A7as-e-adolescentes-1"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "100",
+          "website": "https://prefeitura.sp.gov.br/web/popruasp/w/crian%C3%A7as-e-adolescentes-1",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "centro-de-referencia-lgbti-brunna-valin",
-          "name": "Centro de Referência LGBTI+ Brunna Valin",
+          "title": "Centro de Referência LGBTI+ Brunna Valin",
+          "description": "Telefones: (11) 3151-5786 / 3151-5783; segunda a sexta, 9h–17h.\nServiços: apoio psicossocial, socioassistencial e jurídico, especialmente em vulnerabilidade ou LGBTfobia, com orientação sobre acolhimento específico.\nÚltima verificação: 10 de novembro de 2026\nRede municipal LGBTI+",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Endereço:",
-                  "strong": true
-                },
-                {
-                  "text": " Rua Major Sertório, 292, República, São Paulo 01222-000"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefones:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(11) 3151-5786",
-                  "href": "tel:+551131515786"
-                },
-                {
-                  "text": " / "
-                },
-                {
-                  "text": "3151-5783",
-                  "href": "tel:+551131515783"
-                },
-                {
-                  "text": "; segunda a sexta, 9h–17h."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Serviços:",
-                  "strong": true
-                },
-                {
-                  "text": " apoio psicossocial, socioassistencial e jurídico, especialmente em vulnerabilidade ou LGBTfobia, com orientação sobre acolhimento específico."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificação:",
-                  "strong": true
-                },
-                {
-                  "text": " 10 de novembro de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Rede municipal LGBTI+",
-                  "href": "https://prefeitura.sp.gov.br/web/lgbti/rede_de_atendimento"
-                }
-              ]
-            }
-          ]
+          "address": "Endereço: Rua Major Sertório, 292, República, São Paulo 01222-000",
+          "phone": "+551131515786",
+          "website": "https://prefeitura.sp.gov.br/web/lgbti/rede_de_atendimento",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
-      "id": "verificacao-e-correcoes",
+      "id": "specialist-support",
+      "title": "Specialist support",
+      "entries": []
+    },
+    {
+      "id": "veterans",
+      "title": "Veterans support",
+      "entries": []
+    },
+    {
+      "id": "pets",
+      "title": "Help for people with pets",
+      "entries": []
+    },
+    {
+      "id": "other",
       "title": "Verificação e correções",
-      "items": [
+      "entries": [
         {
-          "type": "paragraph",
-          "content": [
-            {
-              "text": "Esta página foi verificada em 10 de novembro de 2026 com fontes da Prefeitura, Estado, Governo Federal, Defensoria e organizações. Se encontrar um serviço encerrado, número incorreto ou condição diferente, veja "
-            },
-            {
-              "text": "como enviar uma correção",
-              "href": "../../CONTRIBUTING.md"
-            },
-            {
-              "text": "."
-            }
-          ]
+          "id": "verificacao-e-correcoes-information",
+          "title": "Verificação e correções",
+          "description": "Esta página foi verificada em 10 de novembro de 2026 com fontes da Prefeitura, Estado, Governo Federal, Defensoria e organizações. Se encontrar um serviço encerrado, número incorreto ou condição diferente, veja como enviar uma correção. — ../../CONTRIBUTING.md",
+          "last_verified": "2026-11-10",
+          "address": "",
+          "phone": "",
+          "website": "",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     }

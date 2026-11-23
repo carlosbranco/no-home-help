@@ -1,6 +1,7 @@
 {
   "$schema": "https://nohomehelp.com/schemas/city.schema.json",
-  "schema_version": 1,
+  "documentation": "https://github.com/carlosbranco/no-home-help/blob/main/EDIT_CITY_JSON.md",
+  "schema_version": 2,
   "status": "published",
   "locale": {
     "language": "en-GB",
@@ -26,4006 +27,1147 @@
   "page": {
     "heading": "Manchester homeless and housing-crisis help",
     "last_verified": "2026-11-11",
-    "urgent": [
-      {
-        "type": "paragraph",
-        "content": [
-          {
-            "text": "Immediate danger, serious illness, police, fire or ambulance:",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "999",
-            "href": "tel:999"
-          },
-          {
-            "text": " or "
-          },
-          {
-            "text": "112",
-            "href": "tel:112"
-          },
-          {
-            "break": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "Nowhere safe to stay tonight:",
-            "strong": true
-          },
-          {
-            "text": " Manchester City Council "
-          },
-          {
-            "text": "0161 234 5001",
-            "href": "tel:+441612345001"
-          },
-          {
-            "text": ", 24 hours for genuine emergencies"
-          },
-          {
-            "break": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "Housing assessment and advice, weekdays 9am–4:30pm:",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "0161 234 4692",
-            "href": "tel:+441612344692"
-          },
-          {
-            "break": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "Sleeping outside, weekdays 9am–4:30pm:",
-            "strong": true
-          },
-          {
-            "text": " council outreach "
-          },
-          {
-            "text": "0161 234 5339",
-            "href": "tel:+441612345339"
-          },
-          {
-            "text": "; out of hours "
-          },
-          {
-            "text": "0161 234 5001",
-            "href": "tel:+441612345001"
-          },
-          {
-            "break": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "Urgent but not life-threatening medical or mental-health help:",
-            "strong": true
-          },
-          {
-            "text": " NHS "
-          },
-          {
-            "text": "111",
-            "href": "tel:111"
-          },
-          {
-            "text": "; select option 2 for urgent mental-health support"
-          }
-        ]
-      }
-    ],
-    "notice": [
-      {
-        "text": "Beds, meals, opening times and eligibility can change.",
-        "strong": true
-      },
-      {
-        "text": " Call before travelling when possible. An assessment, alert or referral does not guarantee accommodation. Never pay anyone who claims they can secure a council or charity place."
-      }
-    ],
-    "intro": [
-      {
-        "type": "paragraph",
-        "content": [
-          {
-            "text": "Tell the worker where you are tonight, where you usually sleep, your age, whether children are with you, and whether pregnancy, disability, illness, domestic abuse, immigration restrictions or a pet affects what is safe. If a service cannot help, ask for the next safe option and write down the advice."
-          }
-        ]
-      },
-      {
-        "type": "paragraph",
-        "content": [
-          {
-            "text": "Start here:",
-            "strong": true
-          },
-          {
-            "text": " call the council if you have nowhere safe tonight. If you are sleeping outside, also contact the outreach team or make a StreetLink alert with your exact location. If you may lose your home within 56 days, ask the council for homelessness prevention help now."
-          }
-        ]
-      }
-    ],
-    "footer": [
-      {
-        "type": "paragraph",
-        "content": [
-          {
-            "text": "Is something wrong or outdated?",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "Submit a correction",
-            "href": "../../CONTRIBUTING.md"
-          },
-          {
-            "text": ". Never post personal or sensitive information publicly."
-          }
-        ]
-      }
-    ]
+    "urgent": "Immediate danger, serious illness, police, fire or ambulance: 999 or 112 Nowhere safe to stay tonight: Manchester City Council 0161 234 5001, 24 hours for genuine emergencies Housing assessment and advice, weekdays 9am–4:30pm: 0161 234 4692 Sleeping outside, weekdays 9am–4:30pm: council outreach 0161 234 5339; out of hours 0161 234 5001 Urgent but not life-threatening medical or mental-health help: NHS 111; select option 2 for urgent mental-health support",
+    "notice": "Beds, meals, opening times and eligibility can change. Call before travelling when possible. An assessment, alert or referral does not guarantee accommodation. Never pay anyone who claims they can secure a council or charity place.",
+    "intro": "Tell the worker where you are tonight, where you usually sleep, your age, whether children are with you, and whether pregnancy, disability, illness, domestic abuse, immigration restrictions or a pet affects what is safe. If a service cannot help, ask for the next safe option and write down the advice.\nStart here: call the council if you have nowhere safe tonight. If you are sleeping outside, also contact the outreach team or make a StreetLink alert with your exact location. If you may lose your home within 56 days, ask the council for homelessness prevention help now.",
+    "footer": "Is something wrong or outdated? Submit a correction. Never post personal or sensitive information publicly. — ../../CONTRIBUTING.md"
   },
   "categories": [
     {
-      "id": "urgent-help",
-      "title": "1. Urgent housing and street outreach",
-      "items": [
+      "id": "emergency",
+      "title": "Urgent housing and street outreach",
+      "entries": [
         {
-          "type": "resource",
           "id": "emergency-services",
-          "name": "Emergency services",
+          "title": "Emergency services",
+          "description": "Phone: 999 or 112.\nCall for immediate violence, serious injury, overdose, breathing difficulty, loss of consciousness, fire or another life-threatening emergency. Give the exact location or nearest landmark first. If you cannot speak on a mobile call to police, listen and press 55 when prompted.\nNHS guidance on calling 999",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "999",
-                  "href": "tel:999"
-                },
-                {
-                  "text": " or "
-                },
-                {
-                  "text": "112",
-                  "href": "tel:112"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Call for immediate violence, serious injury, overdose, breathing difficulty, loss of consciousness, fire or another life-threatening emergency. Give the exact location or nearest landmark first. If you cannot speak on a mobile call to police, listen and press 55 when prompted."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "NHS guidance on calling 999",
-                  "href": "https://www.nhs.uk/nhs-services/urgent-and-emergency-care-services/when-to-call-999/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "999",
+          "website": "https://www.nhs.uk/nhs-services/urgent-and-emergency-care-services/when-to-call-999/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "manchester-city-council-nowhere-safe-tonight",
-          "name": "Manchester City Council: nowhere safe tonight",
+          "title": "Manchester City Council: nowhere safe tonight",
+          "description": "Emergency-only phone: 0161 234 5001, 24 hours. Use it when there is an immediate threat to health or safety and you have nowhere to stay at night.\nDaytime housing assessment and advice: 0161 234 4692, Monday–Friday 9am–4:30pm. Say clearly that you want to make a homeless application and whether you need emergency accommodation that day.\nThe council must assess the circumstances; temporary accommodation depends on the law and the assessment. Explain pregnancy, children, disability, illness, violence, care history or another reason you may be especially vulnerable.\nCouncil emergency contacts",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Emergency-only phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "0161 234 5001",
-                  "href": "tel:+441612345001"
-                },
-                {
-                  "text": ", 24 hours. Use it when there is an immediate threat to health or safety and you have nowhere to stay at night."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Daytime housing assessment and advice:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "0161 234 4692",
-                  "href": "tel:+441612344692"
-                },
-                {
-                  "text": ", Monday–Friday 9am–4:30pm. Say clearly that you want to make a homeless application and whether you need emergency accommodation that day."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "The council must assess the circumstances; temporary accommodation depends on the law and the assessment. Explain pregnancy, children, disability, illness, violence, care history or another reason you may be especially vulnerable."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Council emergency contacts",
-                  "href": "https://www.manchester.gov.uk/people-and-communities/in-an-emergency"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+441612345001",
+          "website": "https://www.manchester.gov.uk/people-and-communities/in-an-emergency",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "council-prevention-help-at-risk-within-56-days",
-          "name": "Council prevention help: at risk within 56 days",
+          "title": "Council prevention help: at risk within 56 days",
+          "description": "Ask for help as soon as you may lose your home. Take an eviction notice, tenancy papers, messages from the person asking you to leave and identity or income records if you have them, but contact the council even when documents are missing.\nAn online referral is not the route for a same-day emergency. Call the numbers above when you cannot stay safely tonight.\nCouncil homelessness prevention and advice",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ask for help as soon as you may lose your home. Take an eviction notice, tenancy papers, messages from the person asking you to leave and identity or income records if you have them, but contact the council even when documents are missing."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "An online referral is not the route for a same-day emergency. Call the numbers above when you cannot stay safely tonight."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Council homelessness prevention and advice",
-                  "href": "https://www.manchester.gov.uk/homes-and-property/homeless-people/help-if-you-are-at-risk-of-losing-your-home"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.manchester.gov.uk/homes-and-property/homeless-people/help-if-you-are-at-risk-of-losing-your-home",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "manchester-rough-sleeping-outreach-team",
-          "name": "Manchester rough-sleeping outreach team",
+          "title": "Manchester rough-sleeping outreach team",
+          "description": "Phone: 0161 234 5339, Monday–Friday 9am–4:30pm. Outside these hours: 0161 234 5001.\nGive a precise sleeping location, usual time and identifying description. The team works within Manchester city boundaries and cannot guarantee that it will find someone or provide a bed on the first contact.\nReport someone sleeping rough",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "0161 234 5339",
-                  "href": "tel:+441612345339"
-                },
-                {
-                  "text": ", Monday–Friday 9am–4:30pm. "
-                },
-                {
-                  "text": "Outside these hours:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "0161 234 5001",
-                  "href": "tel:+441612345001"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Give a precise sleeping location, usual time and identifying description. The team works within Manchester city boundaries and cannot guarantee that it will find someone or provide a bed on the first contact."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Report someone sleeping rough",
-                  "href": "https://www.manchester.gov.uk/homes-and-property/homeless-people/seen-someone-sleeping-rough"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+441612345339",
+          "website": "https://www.manchester.gov.uk/homes-and-property/homeless-people/seen-someone-sleeping-rough",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "streetlink",
-          "name": "StreetLink",
+          "title": "StreetLink",
+          "description": "Make an alert or self-referral for a person sleeping outside. Include the exact public location and when the person is usually there. StreetLink is not an emergency service and does not itself provide accommodation.\nMake a StreetLink alert or self-referral",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Make an alert or self-referral for a person sleeping outside. Include the exact public location and when the person is usually there. StreetLink is not an emergency service and does not itself provide accommodation."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Make a StreetLink alert or self-referral",
-                  "href": "https://thestreetlink.org.uk/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://thestreetlink.org.uk/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "a-bed-every-night-and-severe-weather-provision",
-          "name": "A Bed Every Night and severe-weather provision",
+          "title": "A Bed Every Night and severe-weather provision",
+          "description": "Manchester participates in A Bed Every Night and activates extra severe-weather arrangements. Access is normally through the council, outreach or a partner assessment, not by arriving at a building without referral.\nAsk whether provision is active and whether a referral is appropriate. A referral is not a promise of a bed, and the location may change.\nCouncil rough-sleeping programmes",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Manchester participates in A Bed Every Night and activates extra severe-weather arrangements. Access is normally through the council, outreach or a partner assessment, not by arriving at a building without referral."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ask whether provision is active and whether a referral is appropriate. A referral is not a promise of a bed, and the location may change."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Council rough-sleeping programmes",
-                  "href": "https://www.manchester.gov.uk/homes-and-property/homeless-people/what-were-doing-now"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.manchester.gov.uk/homes-and-property/homeless-people/what-were-doing-now",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
-      "id": "day-centres",
-      "title": "2. Day centres, shelter pathways and housing support",
-      "items": [
+      "id": "shelter",
+      "title": "Day centres, shelter pathways and housing support",
+      "entries": [
         {
-          "type": "resource",
           "id": "barnabus-the-beacon",
-          "name": "Barnabus: The Beacon",
+          "title": "Barnabus: The Beacon",
+          "description": "Phone: 07507 794077. Beacon drop-in: Monday–Thursday 9am–12 noon. The support office is normally open Monday–Thursday 9am–4:30pm.\nFor adults aged 18+. Food and essentials, clothing, showers, NHS nurses, housing and benefits help, mental-health and substance-use support, employment help and activities. Barnabus is a Christian charity; help is based on need.\nBarnabus | current partnership listing — https://mhp.org.uk/support-organisation/barnabus/",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 45 Bloom Street, Manchester M1 3LY"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "07507 794077",
-                  "href": "tel:+447507794077"
-                },
-                {
-                  "text": ". "
-                },
-                {
-                  "text": "Beacon drop-in:",
-                  "strong": true
-                },
-                {
-                  "text": " Monday–Thursday 9am–12 noon. The support office is normally open Monday–Thursday 9am–4:30pm."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "For adults aged 18+. Food and essentials, clothing, showers, NHS nurses, housing and benefits help, mental-health and substance-use support, employment help and activities. Barnabus is a Christian charity; help is based on need."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Barnabus",
-                  "href": "https://www.barnabus.org/"
-                },
-                {
-                  "text": " | "
-                },
-                {
-                  "text": "current partnership listing",
-                  "href": "https://mhp.org.uk/support-organisation/barnabus/"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 45 Bloom Street, Manchester M1 3LY",
+          "phone": "+447507794077",
+          "website": "https://www.barnabus.org/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "booth-centre",
-          "name": "Booth Centre",
+          "title": "Booth Centre",
+          "description": "Phone: 0161 835 2499; email: info@boothcentre.org.uk. Usually open Monday–Friday 8am–4pm; check the day's programme. — mailto:info@boothcentre.org.uk\nBreakfast café, lunch, wellbeing and skills activities, and help with housing, income and employment. Visiting services and activities may have separate times.\nBooth Centre get-help information",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " Edward Holt House, Pimblett Street, Manchester M3 1FU"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "0161 835 2499",
-                  "href": "tel:+441618352499"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "email:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "info@boothcentre.org.uk",
-                  "href": "mailto:info@boothcentre.org.uk"
-                },
-                {
-                  "text": ". Usually open Monday–Friday 8am–4pm; check the day's programme."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Breakfast café, lunch, wellbeing and skills activities, and help with housing, income and employment. Visiting services and activities may have separate times."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Booth Centre get-help information",
-                  "href": "https://www.boothcentre.org.uk/get-help/"
-                }
-              ]
-            }
-          ]
+          "address": "Address: Edward Holt House, Pimblett Street, Manchester M3 1FU",
+          "phone": "+441618352499",
+          "website": "https://www.boothcentre.org.uk/get-help/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "caritas-cornerstone-day-centre",
-          "name": "Caritas Cornerstone Day Centre",
+          "title": "Caritas Cornerstone Day Centre",
+          "description": "Phone: 0161 232 8888; email: Cornerstone@caritassalford.org.uk. Open Monday–Friday 9:30am–1pm. — mailto:Cornerstone@caritassalford.org.uk\nHousing and benefits advice, energy, health, substance-use, mental-health and immigration help; showers; activities; an optician; and lunch and warm space from 12 noon–1pm. No general referral is required, but advice slots vary.\nCornerstone is run by the Catholic charity Caritas Diocese of Salford and supports people of any or no faith.\nCaritas Cornerstone",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 104B Denmark Road, Hulme, Manchester M15 6JS"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "0161 232 8888",
-                  "href": "tel:+441612328888"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "email:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "Cornerstone@caritassalford.org.uk",
-                  "href": "mailto:Cornerstone@caritassalford.org.uk"
-                },
-                {
-                  "text": ". Open Monday–Friday 9:30am–1pm."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Housing and benefits advice, energy, health, substance-use, mental-health and immigration help; showers; activities; an optician; and lunch and warm space from 12 noon–1pm. No general referral is required, but advice slots vary."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Cornerstone is run by the Catholic charity Caritas Diocese of Salford and supports people of any or no faith."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Caritas Cornerstone",
-                  "href": "https://www.caritassalford.org.uk/service/cornerstone-centre/"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 104B Denmark Road, Hulme, Manchester M15 6JS",
+          "phone": "+441612328888",
+          "website": "https://www.caritassalford.org.uk/service/cornerstone-centre/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "coffee4craig",
-          "name": "Coffee4Craig",
+          "title": "Coffee4Craig",
+          "description": "Phone: 0161 383 2926; email: office@coffee4craig.co.uk. — mailto:office@coffee4craig.co.uk\nPublic drop-in: Monday, Tuesday, Wednesday and Friday 6pm–8pm; Sunday 5pm–7pm. Thursday and Saturday are closed. Some afternoon sessions are invitation-only.\nHot meals, showers, clothing, advice and referrals for adults aged 18+, with priority for people sleeping outside. The showers are upstairs and there is no lift.\ncurrent Coffee4Craig listing",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " The Meanwhile, Unit 5, 153 Great Ducie Street, Manchester M3 1FB"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "0161 383 2926",
-                  "href": "tel:+441613832926"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "email:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "office@coffee4craig.co.uk",
-                  "href": "mailto:office@coffee4craig.co.uk"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Public drop-in:",
-                  "strong": true
-                },
-                {
-                  "text": " Monday, Tuesday, Wednesday and Friday 6pm–8pm; Sunday 5pm–7pm. Thursday and Saturday are closed. Some afternoon sessions are invitation-only."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Hot meals, showers, clothing, advice and referrals for adults aged 18+, with priority for people sleeping outside. The showers are upstairs and there is no lift."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "current Coffee4Craig listing",
-                  "href": "https://mhp.org.uk/support-organisation/coffee4craig/"
-                }
-              ]
-            }
-          ]
+          "address": "Address: The Meanwhile, Unit 5, 153 Great Ducie Street, Manchester M3 1FB",
+          "phone": "+441613832926",
+          "website": "https://mhp.org.uk/support-organisation/coffee4craig/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "lifeshare",
-          "name": "Lifeshare",
+          "title": "Lifeshare",
+          "description": "Office and drop-in: 1st Floor, 36–38 Sackville Street, Manchester M1 3WA; phone 07375 510222.\nLifeshare breakfast service",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Breakfast address:",
-                  "strong": true
-                },
-                {
-                  "text": " Mosaic Wellbeing Hub, 2 Dale Street, Manchester M1 1JW"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Breakfast:",
-                  "strong": true
-                },
-                {
-                  "text": " Friday, Saturday and Sunday 7am–9am. Free breakfast, hot drinks, dry clothes, showers and takeaway food are normally available."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Office and drop-in:",
-                  "strong": true
-                },
-                {
-                  "text": " 1st Floor, 36–38 Sackville Street, Manchester M1 3WA; phone "
-                },
-                {
-                  "text": "07375 510222",
-                  "href": "tel:+447375510222"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Lifeshare breakfast service",
-                  "href": "https://www.lifeshare.org.uk/breakfast/"
-                }
-              ]
-            }
-          ]
+          "address": "Breakfast address: Mosaic Wellbeing Hub, 2 Dale Street, Manchester M1 1JW",
+          "phone": "+447375510222",
+          "website": "https://www.lifeshare.org.uk/breakfast/",
+          "hours": "Breakfast: Friday, Saturday and Sunday 7am–9am. Free breakfast, hot drinks, dry clothes, showers and takeaway food are normally available.",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "mustard-tree",
-          "name": "Mustard Tree",
+          "title": "Mustard Tree",
+          "description": "Help desk: 0161 850 2282. General and referrals: 0161 228 7331; email: referrals@mustardtree.org.uk. — mailto:referrals@mustardtree.org.uk\nRegistration is required; bring photo ID and benefit evidence if available, or explain what is missing. Services include a Food Club, low-cost community shop, training, groups and help with furniture after rehousing.\nA multi-agency Street Engagement Hub is normally held Tuesday and Thursday 10am–1pm. Partner attendance changes.\nMustard Tree get-help information",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 110 Oldham Road, Ancoats, Manchester M4 6AG"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Help desk:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "0161 850 2282",
-                  "href": "tel:+441618502282"
-                },
-                {
-                  "text": ". "
-                },
-                {
-                  "text": "General and referrals:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "0161 228 7331",
-                  "href": "tel:+441612287331"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "email:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "referrals@mustardtree.org.uk",
-                  "href": "mailto:referrals@mustardtree.org.uk"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Registration is required; bring photo ID and benefit evidence if available, or explain what is missing. Services include a Food Club, low-cost community shop, training, groups and help with furniture after rehousing."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "A multi-agency Street Engagement Hub is normally held Tuesday and Thursday 10am–1pm. Partner attendance changes."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Mustard Tree get-help information",
-                  "href": "https://mustardtree.org.uk/get-help/"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 110 Oldham Road, Ancoats, Manchester M4 6AG",
+          "phone": "+441618502282",
+          "website": "https://mustardtree.org.uk/get-help/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "caritas-morning-star-supported-accommodation",
-          "name": "Caritas Morning Star supported accommodation",
+          "title": "Caritas Morning Star supported accommodation",
+          "description": "Phone: 0161 868 0606; email: morningstar@caritassalford.org.uk. — mailto:morningstar@caritassalford.org.uk\nSupported accommodation for single homeless men. It is not a walk-in shelter and does not accept self-referrals: contact Manchester City Council first.\nMorning Star access information",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 104 Denmark Road, Manchester M15 6JS"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "0161 868 0606",
-                  "href": "tel:+441618680606"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "email:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "morningstar@caritassalford.org.uk",
-                  "href": "mailto:morningstar@caritassalford.org.uk"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Supported accommodation for single homeless men. It is not a walk-in shelter and does not accept self-referrals: contact Manchester City Council first."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Morning Star access information",
-                  "href": "https://www.caritassalford.org.uk/service/morning-star/"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 104 Denmark Road, Manchester M15 6JS",
+          "phone": "+441618680606",
+          "website": "https://www.caritassalford.org.uk/service/morning-star/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "centrepoint-manchester-young-adults",
-          "name": "Centrepoint Manchester: young adults",
+          "title": "Centrepoint Manchester: young adults",
+          "description": "Manchester accommodation is for people aged 18–25 referred after a council housing assessment. It is not a walk-in shelter. National youth housing helpline, ages 16–25: 0808 800 0661, Monday–Friday 9am–5pm.\nCentrepoint Manchester | Centrepoint Helpline — https://centrepoint.org.uk/contact-help",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 52 Oldham Street, Manchester M4 1LE"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Manchester accommodation is for people aged 18–25 referred after a council housing assessment. It is not a walk-in shelter. "
-                },
-                {
-                  "text": "National youth housing helpline, ages 16–25:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "0808 800 0661",
-                  "href": "tel:+448088000661"
-                },
-                {
-                  "text": ", Monday–Friday 9am–5pm."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Centrepoint Manchester",
-                  "href": "https://centrepoint.org.uk/what-we-do/manchester"
-                },
-                {
-                  "text": " | "
-                },
-                {
-                  "text": "Centrepoint Helpline",
-                  "href": "https://centrepoint.org.uk/contact-help"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 52 Oldham Street, Manchester M4 1LE",
+          "phone": "+448088000661",
+          "website": "https://centrepoint.org.uk/what-we-do/manchester",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "street-support-manchester-directory",
-          "name": "Street Support Manchester directory",
+          "title": "Street Support Manchester directory",
+          "description": "Use the live directory to find nearby meals, health care, practical help and accommodation advice. Filter by need and check the provider's current details before setting out.\nStreet Support Manchester",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Use the live directory to find nearby meals, health care, practical help and accommodation advice. Filter by need and check the provider's current details before setting out."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Street Support Manchester",
-                  "href": "https://www.streetsupport.net/manchester"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.streetsupport.net/manchester",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
       "id": "food",
-      "title": "3. Food, meals and faith-based help",
-      "items": [
+      "title": "Food, meals and faith-based help",
+      "entries": [
         {
-          "type": "resource",
           "id": "barnabus",
-          "name": "Barnabus",
+          "title": "Barnabus",
+          "description": "Food and essential items are normally available Monday–Thursday 9am–12 noon alongside showers, clothing and casework.\nBarnabus current listing",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Food and essential items are normally available Monday–Thursday 9am–12 noon alongside showers, clothing and casework."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Barnabus current listing",
-                  "href": "https://mhp.org.uk/support-organisation/barnabus/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://mhp.org.uk/support-organisation/barnabus/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "booth-centre-cafe",
-          "name": "Booth Centre café",
+          "title": "Booth Centre café",
+          "description": "Weekday breakfast and lunch are offered with housing, employment and income support. Call 0161 835 2499 to confirm the day's times.\nBooth Centre",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Weekday breakfast and lunch are offered with housing, employment and income support. Call "
-                },
-                {
-                  "text": "0161 835 2499",
-                  "href": "tel:+441618352499"
-                },
-                {
-                  "text": " to confirm the day's times."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Booth Centre",
-                  "href": "https://www.boothcentre.org.uk/get-help/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+441618352499",
+          "website": "https://www.boothcentre.org.uk/get-help/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "caritas-cornerstone-community-lunch",
-          "name": "Caritas Cornerstone community lunch",
+          "title": "Caritas Cornerstone community lunch",
+          "description": "Free community lunch and warm space Monday–Friday 12 noon–1pm at 104B Denmark Road, M15 6JS.\nCornerstone",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Free community lunch and warm space Monday–Friday 12 noon–1pm at 104B Denmark Road, M15 6JS."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Cornerstone",
-                  "href": "https://www.caritassalford.org.uk/service/cornerstone-centre/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.caritassalford.org.uk/service/cornerstone-centre/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "coffee4craig-evening-meals",
-          "name": "Coffee4Craig evening meals",
+          "title": "Coffee4Craig evening meals",
+          "description": "Hot meals during public drop-in Monday–Wednesday and Friday 6pm–8pm, and Sunday 5pm–7pm, at 153 Great Ducie Street, M3 1FB. Closed Thursday and Saturday.\ncurrent timetable",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Hot meals during public drop-in Monday–Wednesday and Friday 6pm–8pm, and Sunday 5pm–7pm, at 153 Great Ducie Street, M3 1FB. Closed Thursday and Saturday."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "current timetable",
-                  "href": "https://mhp.org.uk/support-organisation/coffee4craig/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://mhp.org.uk/support-organisation/coffee4craig/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "lifeshare-weekend-breakfast",
-          "name": "Lifeshare weekend breakfast",
+          "title": "Lifeshare weekend breakfast",
+          "description": "Free breakfast and hot drinks Friday–Sunday 7am–9am at 2 Dale Street, M1 1JW, with showers and dry clothes subject to capacity.\nLifeshare breakfast",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Free breakfast and hot drinks Friday–Sunday 7am–9am at 2 Dale Street, M1 1JW, with showers and dry clothes subject to capacity."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Lifeshare breakfast",
-                  "href": "https://www.lifeshare.org.uk/breakfast/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.lifeshare.org.uk/breakfast/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "audacious-church-a-teams",
-          "name": "Audacious Church A-Teams",
+          "title": "Audacious Church A-Teams",
+          "description": "A Christian outreach team provides hot food and support on Tuesday evenings and Thursday mornings. The official page does not publish fixed public times, so confirm before travelling.\nEmail: julianwolstencroft@audaciouschurch.com. — mailto:julianwolstencroft@audaciouschurch.com\nAudacious A-Teams",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " Audacious Church, Trinity Way, Manchester M3 7BD"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "A Christian outreach team provides hot food and support on Tuesday evenings and Thursday mornings. The official page does not publish fixed public times, so confirm before travelling."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Email:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "julianwolstencroft@audaciouschurch.com",
-                  "href": "mailto:julianwolstencroft@audaciouschurch.com"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Audacious A-Teams",
-                  "href": "https://audaciouschurch.com/a-teams/"
-                }
-              ]
-            }
-          ]
+          "address": "Address: Audacious Church, Trinity Way, Manchester M3 7BD",
+          "phone": "",
+          "website": "https://audaciouschurch.com/a-teams/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "manchester-central-foodbank",
-          "name": "Manchester Central Foodbank",
+          "title": "Manchester Central Foodbank",
+          "description": "Phone: 07928 412339; email: info@manchestercentral.foodbank.org.uk. A voucher or partner referral is normally required. — mailto:info@manchestercentral.foodbank.org.uk\n- Openshaw: St Clement's Church, Ashton Old Road, M11 1HF; Tuesday 2pm–4pm.\n- Harpurhey: Harpurhey Neighbourhood Project, Carisbrook Street, M9 5PR; Thursday 10:30am–12:30pm.\n- Ardwick: Brunswick Parish Church, Brunswick Street, M13 9SX; Friday 10:30am–12:30pm.\nDo not travel to the Trinity Methodist Church admin address for food: it is not a distribution centre. Confirm the voucher and session.\nFoodbank locations and access rules",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "07928 412339",
-                  "href": "tel:+447928412339"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "email:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "info@manchestercentral.foodbank.org.uk",
-                  "href": "mailto:info@manchestercentral.foodbank.org.uk"
-                },
-                {
-                  "text": ". A voucher or partner referral is normally required."
-                }
-              ]
-            },
-            {
-              "type": "list",
-              "items": [
-                [
-                  {
-                    "text": "Openshaw:",
-                    "strong": true
-                  },
-                  {
-                    "text": " St Clement's Church, Ashton Old Road, M11 1HF; Tuesday 2pm–4pm."
-                  }
-                ],
-                [
-                  {
-                    "text": "Harpurhey:",
-                    "strong": true
-                  },
-                  {
-                    "text": " Harpurhey Neighbourhood Project, Carisbrook Street, M9 5PR; Thursday 10:30am–12:30pm."
-                  }
-                ],
-                [
-                  {
-                    "text": "Ardwick:",
-                    "strong": true
-                  },
-                  {
-                    "text": " Brunswick Parish Church, Brunswick Street, M13 9SX; Friday 10:30am–12:30pm."
-                  }
-                ]
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Do not travel to the Trinity Methodist Church admin address for food:",
-                  "strong": true
-                },
-                {
-                  "text": " it is not a distribution centre. Confirm the voucher and session."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Foodbank locations and access rules",
-                  "href": "https://manchestercentral.foodbank.org.uk/locations/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+447928412339",
+          "website": "https://manchestercentral.foodbank.org.uk/locations/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "mustard-tree-food-club",
-          "name": "Mustard Tree Food Club",
+          "title": "Mustard Tree Food Club",
+          "description": "Registered clients can use the Food Club and low-cost shop. This is not an immediate free meal; membership, eligibility and payment may apply.\nMustard Tree access",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Registered clients can use the Food Club and low-cost shop. This is not an immediate free meal; membership, eligibility and payment may apply."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Mustard Tree access",
-                  "href": "https://mustardtree.org.uk/get-help/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://mustardtree.org.uk/get-help/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "foodcycle-salford-cornerstone-nearby-no-referral-meal",
-          "name": "FoodCycle Salford Cornerstone: nearby no-referral meal",
+          "title": "FoodCycle Salford Cornerstone: nearby no-referral meal",
+          "description": "Free vegetarian community meal Tuesday at 6:15pm, no booking required. This is in Salford, outside Manchester city.\nFoodCycle Salford",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 451 Liverpool Street, Salford M6 5QQ"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Free vegetarian community meal Tuesday at 6:15pm, no booking required. This is in Salford, outside Manchester city."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "FoodCycle Salford",
-                  "href": "https://foodcycle.org.uk/location/foodcycle-salford/"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 451 Liverpool Street, Salford M6 5QQ",
+          "phone": "",
+          "website": "https://foodcycle.org.uk/location/foodcycle-salford/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "council-food-help-finders",
-          "name": "Council food-help finders",
+          "title": "Council food-help finders",
+          "description": "Find referral foodbanks and services available without a referral. Contact the provider because stock, times and voucher rules change.\nManchester food support",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Find referral foodbanks and services available without a referral. Contact the provider because stock, times and voucher rules change."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Manchester food support",
-                  "href": "https://www.manchester.gov.uk/people-and-communities/help-with-the-cost-of-living-crisis/food-banks"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.manchester.gov.uk/people-and-communities/help-with-the-cost-of-living-crisis/food-banks",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
+    },
+    {
+      "id": "community",
+      "title": "Community and religious help",
+      "entries": []
     },
     {
       "id": "hygiene",
-      "title": "4. Showers, laundry, clothing and essentials",
-      "items": [
+      "title": "Showers, laundry, clothing and essentials",
+      "entries": [
         {
-          "type": "resource",
           "id": "barnabus",
-          "name": "Barnabus",
+          "title": "Barnabus",
+          "description": "Showers, clothing and essentials are available during the Monday–Thursday morning drop-in, subject to capacity and supplies.\nBarnabus listing",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Showers, clothing and essentials are available during the Monday–Thursday morning drop-in, subject to capacity and supplies."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Barnabus listing",
-                  "href": "https://mhp.org.uk/support-organisation/barnabus/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://mhp.org.uk/support-organisation/barnabus/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "caritas-cornerstone",
-          "name": "Caritas Cornerstone",
+          "title": "Caritas Cornerstone",
+          "description": "Showers are normally available Monday–Friday 9:30am–1pm. Ask about toiletries and clothing.\nCornerstone services",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Showers are normally available Monday–Friday 9:30am–1pm. Ask about toiletries and clothing."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Cornerstone services",
-                  "href": "https://www.caritassalford.org.uk/service/cornerstone-centre/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.caritassalford.org.uk/service/cornerstone-centre/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "coffee4craig",
-          "name": "Coffee4Craig",
+          "title": "Coffee4Craig",
+          "description": "Showers and clothing are available during public evening drop-ins, subject to demand. Showers are upstairs and there is no lift.\nCoffee4Craig practical help",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Showers and clothing are available during public evening drop-ins, subject to demand. Showers are upstairs and there is no lift."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Coffee4Craig practical help",
-                  "href": "https://www.coffee4craig.org/how-we-help"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.coffee4craig.org/how-we-help",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "lifeshare",
-          "name": "Lifeshare",
+          "title": "Lifeshare",
+          "description": "Showers and dry clothes are available during Friday–Sunday breakfast, 7am–9am, subject to capacity.\nLifeshare facilities",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Showers and dry clothes are available during Friday–Sunday breakfast, 7am–9am, subject to capacity."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Lifeshare facilities",
-                  "href": "https://www.lifeshare.org.uk/breakfast/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.lifeshare.org.uk/breakfast/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "laundry-and-replacement-clothing",
-          "name": "Laundry and replacement clothing",
+          "title": "Laundry and replacement clothing",
+          "description": "Public laundry access is limited. Ask Barnabus, Booth Centre, Cornerstone, Coffee4Craig, Lifeshare or an accommodation worker which current partner can wash clothes or issue replacements.\nSearch practical support",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Public laundry access is limited. Ask Barnabus, Booth Centre, Cornerstone, Coffee4Craig, Lifeshare or an accommodation worker which current partner can wash clothes or issue replacements."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Search practical support",
-                  "href": "https://www.streetsupport.net/manchester"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.streetsupport.net/manchester",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
+      "id": "clothing",
+      "title": "Clothing",
+      "entries": []
+    },
+    {
       "id": "health",
-      "title": "5. Health and dental care",
-      "items": [
+      "title": "Health and dental care",
+      "entries": [
         {
-          "type": "resource",
           "id": "urban-village-medical-practice-homeless-health-service",
-          "name": "Urban Village Medical Practice Homeless Health Service",
+          "title": "Urban Village Medical Practice Homeless Health Service",
+          "description": "Phone: 0161 272 5656. Specialist primary care for people experiencing homelessness in Manchester.\nWeekday GP clinics are published for 9am–12 noon and 2pm–5pm. Registration drop-in is Thursday 10am–12 noon; wound-dressing drop-ins are normally Monday, Wednesday and Friday 2pm–4pm. Call first because schedules change.\nHomeless Health Service clinics",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " Ancoats Primary Care Centre, Old Mill Street, Manchester M4 6EE"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "0161 272 5656",
-                  "href": "tel:+441612725656"
-                },
-                {
-                  "text": ". Specialist primary care for people experiencing homelessness in Manchester."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Weekday GP clinics are published for 9am–12 noon and 2pm–5pm. Registration drop-in is Thursday 10am–12 noon; wound-dressing drop-ins are normally Monday, Wednesday and Friday 2pm–4pm. Call first because schedules change."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Homeless Health Service clinics",
-                  "href": "https://uvmp.co.uk/services/surgery-clinics/homelessness/"
-                }
-              ]
-            }
-          ]
+          "address": "Address: Ancoats Primary Care Centre, Old Mill Street, Manchester M4 6EE",
+          "phone": "+441612725656",
+          "website": "https://uvmp.co.uk/services/surgery-clinics/homelessness/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "register-with-an-nhs-gp-without-an-address-or-id",
-          "name": "Register with an NHS GP without an address or ID",
+          "title": "Register with an NHS GP without an address or ID",
+          "description": "You do not need proof of address, immigration status, identification or an NHS number to register. A practice should not refuse solely because these are missing. You may give a temporary address, the surgery address or no fixed address.\nNHS GP registration rules",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "You do not need proof of address, immigration status, identification or an NHS number to register. A practice should not refuse solely because these are missing. You may give a temporary address, the surgery address or no fixed address."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "NHS GP registration rules",
-                  "href": "https://www.nhs.uk/nhs-services/gps/how-to-register-with-a-gp-surgery/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.nhs.uk/nhs-services/gps/how-to-register-with-a-gp-surgery/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "barnabus-and-cornerstone-health-services",
-          "name": "Barnabus and Cornerstone health services",
+          "title": "Barnabus and Cornerstone health services",
+          "description": "Barnabus has NHS nursing support and Cornerstone hosts health services including an optician. Ask for the next clinic.\nBarnabus | Cornerstone — https://mhp.org.uk/support-organisation/barnabus/",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Barnabus has NHS nursing support and Cornerstone hosts health services including an optician. Ask for the next clinic."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Barnabus",
-                  "href": "https://mhp.org.uk/support-organisation/barnabus/"
-                },
-                {
-                  "text": " | "
-                },
-                {
-                  "text": "Cornerstone",
-                  "href": "https://www.caritassalford.org.uk/service/cornerstone-centre/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.caritassalford.org.uk/service/cornerstone-centre/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "urgent-nhs-care",
-          "name": "Urgent NHS care",
+          "title": "Urgent NHS care",
+          "description": "Call 111 or use NHS 111 online for urgent problems that are not life-threatening. Call 999 for a life-threatening emergency.\nNHS 111 online",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Call "
-                },
-                {
-                  "text": "111",
-                  "href": "tel:111"
-                },
-                {
-                  "text": " or use NHS 111 online for urgent problems that are not life-threatening. Call 999 for a life-threatening emergency."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "NHS 111 online",
-                  "href": "https://111.nhs.uk/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "111",
+          "website": "https://111.nhs.uk/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "dental-care",
-          "name": "Dental care",
+          "title": "Dental care",
+          "description": "Use the NHS dentist finder. For urgent dental pain, swelling, bleeding or trauma, call NHS 111.\nFind an NHS dentist",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Use the NHS dentist finder. For urgent dental pain, swelling, bleeding or trauma, call NHS 111."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Find an NHS dentist",
-                  "href": "https://www.nhs.uk/service-search/find-a-dentist"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.nhs.uk/service-search/find-a-dentist",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "help-with-health-costs",
-          "name": "Help with health costs",
+          "title": "Help with health costs",
+          "description": "Some benefits qualify automatically; others can apply through the NHS Low Income Scheme. Homelessness alone does not make prescriptions free.\nNHS Low Income Scheme",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Some benefits qualify automatically; others can apply through the NHS Low Income Scheme. Homelessness alone does not make prescriptions free."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "NHS Low Income Scheme",
-                  "href": "https://www.nhs.uk/nhs-services/help-with-health-costs/nhs-low-income-scheme-lis/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.nhs.uk/nhs-services/help-with-health-costs/nhs-low-income-scheme-lis/",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
       "id": "mental-health",
-      "title": "6. Mental health, alcohol and drugs",
-      "items": [
+      "title": "Mental health, alcohol and drugs",
+      "entries": [
         {
-          "type": "resource",
           "id": "urgent-mental-health-support-nhs-111-option-2",
-          "name": "Urgent mental-health support: NHS 111 option 2",
+          "title": "Urgent mental-health support: NHS 111 option 2",
+          "description": "Call 111 and select mental-health option 2. It is free, available 24 hours and can be used for yourself or someone else of any age.\nImportant: the former Greater Manchester 0800 crisis number closed on 3 November 2025. Call 999 or go to A&E if there is an immediate risk to life.\nGreater Manchester urgent mental-health support",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Call "
-                },
-                {
-                  "text": "111",
-                  "href": "tel:111"
-                },
-                {
-                  "text": " and select mental-health option 2. It is free, available 24 hours and can be used for yourself or someone else of any age."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Important:",
-                  "strong": true
-                },
-                {
-                  "text": " the former Greater Manchester 0800 crisis number closed on 3 November 2025. Call 999 or go to A&E if there is an immediate risk to life."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Greater Manchester urgent mental-health support",
-                  "href": "https://www.gmmh.nhs.uk/urgent-help"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "111",
+          "website": "https://www.gmmh.nhs.uk/urgent-help",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "no-93-crisis-cafe-harpurhey",
-          "name": "No.93 Crisis Café, Harpurhey",
+          "title": "No.93 Crisis Café, Harpurhey",
+          "description": "Phone ahead: 0161 271 0339 or 07778 012838. Monday–Friday 8pm–1am; Saturday–Sunday 3pm–1am.\nSupportive out-of-hours space for mental-health crisis. It is not an emergency department or accommodation service.\nNo.93 Crisis Café",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 93 Church Lane, Manchester M9 5BG"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone ahead:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "0161 271 0339",
-                  "href": "tel:+441612710339"
-                },
-                {
-                  "text": " or "
-                },
-                {
-                  "text": "07778 012838",
-                  "href": "tel:+447778012838"
-                },
-                {
-                  "text": ". Monday–Friday 8pm–1am; Saturday–Sunday 3pm–1am."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Supportive out-of-hours space for mental-health crisis. It is not an emergency department or accommodation service."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "No.93 Crisis Café",
-                  "href": "https://www.gmmh.nhs.uk/no-93"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 93 Church Lane, Manchester M9 5BG",
+          "phone": "+441612710339",
+          "website": "https://www.gmmh.nhs.uk/no-93",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "samaritans",
-          "name": "Samaritans",
+          "title": "Samaritans",
+          "description": "Call 116 123, free, 24 hours, for confidential listening. Call 999 in immediate danger.\nContact Samaritans",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Call "
-                },
-                {
-                  "text": "116 123",
-                  "href": "tel:116123"
-                },
-                {
-                  "text": ", free, 24 hours, for confidential listening. Call 999 in immediate danger."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Contact Samaritans",
-                  "href": "https://www.samaritans.org/how-we-can-help/contact-samaritan/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "116123",
+          "website": "https://www.samaritans.org/how-we-can-help/contact-samaritan/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "shout",
-          "name": "Shout",
+          "title": "Shout",
+          "description": "Text SHOUT to 85258 for free confidential crisis-text support in the UK.\nShout support",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Text "
-                },
-                {
-                  "text": "SHOUT",
-                  "strong": true
-                },
-                {
-                  "text": " to "
-                },
-                {
-                  "text": "85258",
-                  "strong": true
-                },
-                {
-                  "text": " for free confidential crisis-text support in the UK."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Shout support",
-                  "href": "https://giveusashout.org/get-help/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://giveusashout.org/get-help/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "change-grow-live-manchester-drug-and-alcohol-service",
-          "name": "Change Grow Live: Manchester drug and alcohol service",
+          "title": "Change Grow Live: Manchester drug and alcohol service",
+          "description": "Phone: 0161 823 6306; email: Manchester@cgl.org.uk. Monday–Friday 9am–5pm, with some later hub appointments. — mailto:Manchester@cgl.org.uk\nAdults can self-refer for harm reduction, needle exchange, recovery support, prescribing, detox or rehabilitation assessment, testing, housing and employment help.\nManchester drug and alcohol service",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "0161 823 6306",
-                  "href": "tel:+441618236306"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "email:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "Manchester@cgl.org.uk",
-                  "href": "mailto:Manchester@cgl.org.uk"
-                },
-                {
-                  "text": ". Monday–Friday 9am–5pm, with some later hub appointments."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Adults can self-refer for harm reduction, needle exchange, recovery support, prescribing, detox or rehabilitation assessment, testing, housing and employment help."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Manchester drug and alcohol service",
-                  "href": "https://www.changegrowlive.org/service/manchester-drug-alcohol/info"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+441618236306",
+          "website": "https://www.changegrowlive.org/service/manchester-drug-alcohol/info",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "drug-or-alcohol-emergency",
-          "name": "Drug or alcohol emergency",
+          "title": "Drug or alcohol emergency",
+          "description": "Call 999 for unconsciousness, seizures, blue or grey lips, severe breathing problems or suspected overdose. Stay with the person and follow instructions.\nNHS poisoning guidance",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Call 999 for unconsciousness, seizures, blue or grey lips, severe breathing problems or suspected overdose. Stay with the person and follow instructions."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "NHS poisoning guidance",
-                  "href": "https://www.nhs.uk/conditions/poisoning/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.nhs.uk/conditions/poisoning/",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
       "id": "public-facilities",
-      "title": "7. Toilets, internet, charging and warm spaces",
-      "items": [
+      "title": "Toilets, internet, charging and warm spaces",
+      "entries": [
         {
-          "type": "resource",
           "id": "central-library",
-          "name": "Central Library",
+          "title": "Central Library",
+          "description": "Open Monday–Thursday 9am–8pm and Friday–Saturday 9am–5pm. Libraries provide free Wi-Fi and warm public space. Free membership gives access to public computers, normally for up to two hours.\nLibrary opening times | Wi-Fi and computers — https://www.manchester.gov.uk/libraries/use-wifi-or-a-library-computer",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " St Peter's Square, Manchester M2 5PD"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Open Monday–Thursday 9am–8pm and Friday–Saturday 9am–5pm. Libraries provide free Wi-Fi and warm public space. Free membership gives access to public computers, normally for up to two hours."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Library opening times",
-                  "href": "https://www.manchester.gov.uk/libraries/opening-times-for-all-manchester-libraries"
-                },
-                {
-                  "text": " | "
-                },
-                {
-                  "text": "Wi-Fi and computers",
-                  "href": "https://www.manchester.gov.uk/libraries/use-wifi-or-a-library-computer"
-                }
-              ]
-            }
-          ]
+          "address": "Address: St Peter's Square, Manchester M2 5PD",
+          "phone": "",
+          "website": "https://www.manchester.gov.uk/libraries/opening-times-for-all-manchester-libraries",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "free-public-toilets",
-          "name": "Free public toilets",
+          "title": "Free public toilets",
+          "description": "The council lists free accessible toilets at the Town Hall Extension, Central Library, Manchester Arndale, Piccadilly Station and Victoria Station. At Victoria, ask the Duty Manager for the accessible-toilet key.\nManchester public-toilet list",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "The council lists free accessible toilets at the Town Hall Extension, Central Library, Manchester Arndale, Piccadilly Station and Victoria Station. At Victoria, ask the Duty Manager for the accessible-toilet key."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Manchester public-toilet list",
-                  "href": "https://www.manchester.gov.uk/parks-leisure-and-the-arts/events-and-tourism/find-your-nearest-public-toilet"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.manchester.gov.uk/parks-leisure-and-the-arts/events-and-tourism/find-your-nearest-public-toilet",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "warm-welcome-spaces",
-          "name": "Warm Welcome spaces",
+          "title": "Warm Welcome spaces",
+          "description": "Libraries and participating venues provide free warm space, seating, Wi-Fi and information. The 2026 campaign lists self-service hot drinks from 19 October 2026 to February 2027; supplies and venue hours vary.\nWarm Welcome spaces 2026–27",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Libraries and participating venues provide free warm space, seating, Wi-Fi and information. The 2026 campaign lists self-service hot drinks from 19 October 2026 to February 2027; supplies and venue hours vary."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Warm Welcome spaces 2026–27",
-                  "href": "https://www.manchester.gov.uk/people-and-communities/help-with-the-cost-of-living-crisis/warm-welcome-spaces-campaign-2026"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.manchester.gov.uk/people-and-communities/help-with-the-cost-of-living-crisis/warm-welcome-spaces-campaign-2026",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "digital-access-help",
-          "name": "Digital access help",
+          "title": "Digital access help",
+          "description": "Text 07860 064128 or email digitalinclusion@manchester.gov.uk for help getting online. — sms:+447860064128 — mailto:digitalinclusion@manchester.gov.uk\nCouncil digital access information",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Text "
-                },
-                {
-                  "text": "07860 064128",
-                  "href": "sms:+447860064128"
-                },
-                {
-                  "text": " or email "
-                },
-                {
-                  "text": "digitalinclusion@manchester.gov.uk",
-                  "href": "mailto:digitalinclusion@manchester.gov.uk"
-                },
-                {
-                  "text": " for help getting online."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Council digital access information",
-                  "href": "https://www.manchester.gov.uk/libraries/use-wifi-or-a-library-computer"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.manchester.gov.uk/libraries/use-wifi-or-a-library-computer",
+          "hours": "",
+          "how_to_access": ""
+        }
+      ]
+    },
+    {
+      "id": "phone-internet",
+      "title": "Phone charging and internet",
+      "entries": []
+    },
+    {
+      "id": "transport",
+      "title": "Transport and Manchester Airport",
+      "entries": [
+        {
+          "id": "bee-network-journey-planning",
+          "title": "Bee Network journey planning",
+          "description": "Use the official planner for buses, trams and trains. Ask a housing, health or Jobcentre worker whether appointment travel can be authorised; help is not automatic.\nBee Network journey planner",
+          "last_verified": "2026-11-11",
+          "address": "",
+          "phone": "",
+          "website": "https://tfgm.com/plan-a-journey",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "travel-to-a-new-job",
+          "title": "Travel to a new job",
+          "description": "The Crisis and Resilience Fund may help an eligible resident with travel when starting a job. Apply before buying a long-term ticket when possible.\nCrisis and Resilience Fund",
+          "last_verified": "2026-11-11",
+          "address": "",
+          "phone": "",
+          "website": "https://www.manchester.gov.uk/benefits-and-support/help-with-emergency-living-costs-and-crisis-support-in-manchester-crisis-and-resilience-fund",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "manchester-airport-by-train",
+          "title": "Manchester Airport by train",
+          "description": "Trains from Piccadilly normally take about 20 minutes and run frequently. The airport station is a covered 5–15 minute walk from terminals. Check live times and prices.\nAirport train information",
+          "last_verified": "2026-11-11",
+          "address": "",
+          "phone": "",
+          "website": "https://www.manchesterairport.co.uk/getting-to-and-from/by-train/",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "manchester-airport-by-tram",
+          "title": "Manchester Airport by tram",
+          "description": "Trams connect the airport with Manchester Victoria, normally about every 12 minutes. Buy a ticket or touch in before boarding and check the Bee Network on the day.\nIf stranded at the airport, speak to airport staff or police. The terminal is not accommodation; call the council emergency number if you have nowhere safe.\nAirport tram information",
+          "last_verified": "2026-11-11",
+          "address": "",
+          "phone": "",
+          "website": "https://www.manchesterairport.co.uk/getting-to-and-from/by-tram/",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
       "id": "benefits",
-      "title": "8. Benefits and emergency money",
-      "items": [
+      "title": "Benefits and emergency money",
+      "entries": [
         {
-          "type": "resource",
           "id": "manchester-cost-of-living-advice-line",
-          "name": "Manchester Cost of Living Advice Line",
+          "title": "Manchester Cost of Living Advice Line",
+          "description": "Freephone: 0800 023 2692, Monday–Friday 9am–4:30pm.\nAsk about benefits and rent, debt and bills, food, internet, laptops, phones or data. Translation and SignVideo access are available. The line gives advice and referrals; it cannot guarantee a grant.\nCost of Living Advice Line",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Freephone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "0800 023 2692",
-                  "href": "tel:+448000232692"
-                },
-                {
-                  "text": ", Monday–Friday 9am–4:30pm."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ask about benefits and rent, debt and bills, food, internet, laptops, phones or data. Translation and SignVideo access are available. The line gives advice and referrals; it cannot guarantee a grant."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Cost of Living Advice Line",
-                  "href": "https://www.manchester.gov.uk/people-and-communities/help-with-the-cost-of-living-crisis/cost-of-living-advice-line"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+448000232692",
+          "website": "https://www.manchester.gov.uk/people-and-communities/help-with-the-cost-of-living-crisis/cost-of-living-advice-line",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "universal-credit-without-a-fixed-address",
-          "name": "Universal Credit without a fixed address",
+          "title": "Universal Credit without a fixed address",
+          "description": "You can claim Universal Credit when homeless. With permission, use a trusted person's address, a hostel or day-centre address, or the Jobcentre address. DWP should offer help if you lack ID, internet, email, a bank account or a National Insurance number.\nAsk Barnabus, Booth Centre, Cornerstone, Mustard Tree or Citizens Advice before using any organisation's address.\nOfficial Universal Credit guidance for homeless people",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "You can claim Universal Credit when homeless. With permission, use a trusted person's address, a hostel or day-centre address, or the Jobcentre address. DWP should offer help if you lack ID, internet, email, a bank account or a National Insurance number."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ask Barnabus, Booth Centre, Cornerstone, Mustard Tree or Citizens Advice before using any organisation's address."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Official Universal Credit guidance for homeless people",
-                  "href": "https://www.gov.uk/government/publications/universal-credit-and-homeless-people/applying-for-universal-credit-information-for-homeless-people"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.gov.uk/government/publications/universal-credit-and-homeless-people/applying-for-universal-credit-information-for-homeless-people",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "manchester-crisis-and-resilience-fund",
-          "name": "Manchester Crisis and Resilience Fund",
+          "title": "Manchester Crisis and Resilience Fund",
+          "description": "Manchester residents on a low income who face a sudden crisis and cannot afford essentials may be able to get short-term help with food, energy, household items or travel to a new job. Each application is assessed and help is not guaranteed.\nCrisis and Resilience Fund options",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Manchester residents on a low income who face a sudden crisis and cannot afford essentials may be able to get short-term help with food, energy, household items or travel to a new job. Each application is assessed and help is not guaranteed."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Crisis and Resilience Fund options",
-                  "href": "https://www.manchester.gov.uk/benefits-and-support/help-with-emergency-living-costs-and-crisis-support-in-manchester-crisis-and-resilience-fund"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.manchester.gov.uk/benefits-and-support/help-with-emergency-living-costs-and-crisis-support-in-manchester-crisis-and-resilience-fund",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "council-cash-grant",
-          "name": "Council cash grant",
+          "title": "Council cash grant",
+          "description": "Eligible Manchester residents aged 16+ with no savings and certain means-tested benefits can apply for a £30 or £60 emergency grant. The crisis must be outside their control, and a previous grant within 12 months usually prevents another award.\nApproval is not automatic and the scheme does not replace broken furniture or white goods.\nCash-grant eligibility and application",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Eligible Manchester residents aged 16+ with no savings and certain means-tested benefits can apply for a £30 or £60 emergency grant. The crisis must be outside their control, and a previous grant within 12 months usually prevents another award."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Approval is not automatic and the scheme does not replace broken furniture or white goods."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Cash-grant eligibility and application",
-                  "href": "https://www.manchester.gov.uk/info/200008/benefits_and_support/6302/apply_for_a_cash_grant_if_you_are_in_financial_crisis"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.manchester.gov.uk/info/200008/benefits_and_support/6302/apply_for_a_cash_grant_if_you_are_in_financial_crisis",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "housing-payments-for-a-rent-shortfall",
-          "name": "Housing Payments for a rent shortfall",
+          "title": "Housing Payments for a rent shortfall",
+          "description": "From April 2026, Manchester Housing Payments replaced Discretionary Housing Payments. You may apply if you receive Housing Benefit or the Universal Credit housing-cost element and live in Manchester, or the council placed you outside Manchester.\nPayments are not guaranteed. For a paper form or help call 0161 234 5678, Monday–Friday 9am–4:30pm.\nManchester Housing Payments",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "From April 2026, Manchester Housing Payments replaced Discretionary Housing Payments. You may apply if you receive Housing Benefit or the Universal Credit housing-cost element and live in Manchester, or the council placed you outside Manchester."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Payments are not guaranteed. For a paper form or help call "
-                },
-                {
-                  "text": "0161 234 5678",
-                  "href": "tel:+441612345678"
-                },
-                {
-                  "text": ", Monday–Friday 9am–4:30pm."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Manchester Housing Payments",
-                  "href": "https://www.manchester.gov.uk/benefits-and-support/housing-payments"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+441612345678",
+          "website": "https://www.manchester.gov.uk/benefits-and-support/housing-payments",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "housing-benefit-in-supported-accommodation",
-          "name": "Housing Benefit in supported accommodation",
+          "title": "Housing Benefit in supported accommodation",
+          "description": "Housing Benefit can still apply in some supported, sheltered or temporary accommodation. Ask the provider and council which claim is correct.\nGOV.UK Housing Benefit guidance",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Housing Benefit can still apply in some supported, sheltered or temporary accommodation. Ask the provider and council which claim is correct."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "GOV.UK Housing Benefit guidance",
-                  "href": "https://www.gov.uk/housing-benefit"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.gov.uk/housing-benefit",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
-      "id": "work",
-      "title": "9. Work, training and travel to a new job",
-      "items": [
+      "id": "employment",
+      "title": "Work, training and travel to a new job",
+      "entries": [
         {
-          "type": "resource",
           "id": "booth-centre-employment-support",
-          "name": "Booth Centre employment support",
+          "title": "Booth Centre employment support",
+          "description": "Ask about one-to-one employment and income help, skills activities, volunteering and current visiting agencies.\nBooth Centre",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ask about one-to-one employment and income help, skills activities, volunteering and current visiting agencies."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Booth Centre",
-                  "href": "https://www.boothcentre.org.uk/get-help/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.boothcentre.org.uk/get-help/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "caritas-cornerstone-work-club",
-          "name": "Caritas Cornerstone Work Club",
+          "title": "Caritas Cornerstone Work Club",
+          "description": "Normally Wednesday and Friday 9:30am–1pm without an appointment. Help includes CVs, job applications and digital skills. Confirm before travelling.\nCouncil Work Club listing",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 104B Denmark Road, Manchester M15 6JS"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Normally Wednesday and Friday 9:30am–1pm without an appointment. Help includes CVs, job applications and digital skills. Confirm before travelling."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Council Work Club listing",
-                  "href": "https://www.manchester.gov.uk/online-directories/work-jobs-training-and-advice-directories/manchester-work-clubs/view-all-work-clubs/caritas-cornerstone"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 104B Denmark Road, Manchester M15 6JS",
+          "phone": "",
+          "website": "https://www.manchester.gov.uk/online-directories/work-jobs-training-and-advice-directories/manchester-work-clubs/view-all-work-clubs/caritas-cornerstone",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "mustard-tree-freedom-project",
-          "name": "Mustard Tree Freedom Project",
+          "title": "Mustard Tree Freedom Project",
+          "description": "Structured training, qualifications, work experience and support, normally two days a week for four to six months. Registration and suitability rules apply.\nMustard Tree training",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Structured training, qualifications, work experience and support, normally two days a week for four to six months. Registration and suitability rules apply."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Mustard Tree training",
-                  "href": "https://mustardtree.org.uk/get-help/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://mustardtree.org.uk/get-help/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "back-on-track-manchester",
-          "name": "Back on Track Manchester",
+          "title": "Back on Track Manchester",
+          "description": "Phone: 0161 834 1661; email: info@backontrackmanchester.org.uk. — mailto:info@backontrackmanchester.org.uk\nTraining, employability, wellbeing and practical courses for adults who have experienced homelessness, mental ill health, recovery or the criminal-justice system. Ask for the current programme and referral route.\nBack on Track contact",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 4th Floor, Swan Buildings, 20 Swan Street, Manchester M4 5JW"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "0161 834 1661",
-                  "href": "tel:+441618341661"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "email:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "info@backontrackmanchester.org.uk",
-                  "href": "mailto:info@backontrackmanchester.org.uk"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Training, employability, wellbeing and practical courses for adults who have experienced homelessness, mental ill health, recovery or the criminal-justice system. Ask for the current programme and referral route."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Back on Track contact",
-                  "href": "https://www.backontrackmanchester.org.uk/contact/swan-buildings-2/"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 4th Floor, Swan Buildings, 20 Swan Street, Manchester M4 5JW",
+          "phone": "+441618341661",
+          "website": "https://www.backontrackmanchester.org.uk/contact/swan-buildings-2/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "find-vacancies-and-a-jobcentre",
-          "name": "Find vacancies and a Jobcentre",
+          "title": "Find vacancies and a Jobcentre",
+          "description": "Use GOV.UK Find a Job and the official Jobcentre finder. Libraries and day centres can help with computer access.\nFind a Job | find a Jobcentre — https://find-your-nearest-jobcentre.dwp.gov.uk/",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Use GOV.UK Find a Job and the official Jobcentre finder. Libraries and day centres can help with computer access."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Find a Job",
-                  "href": "https://www.gov.uk/find-a-job"
-                },
-                {
-                  "text": " | "
-                },
-                {
-                  "text": "find a Jobcentre",
-                  "href": "https://find-your-nearest-jobcentre.dwp.gov.uk/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.gov.uk/find-a-job",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "travel-or-clothing-when-starting-work",
-          "name": "Travel or clothing when starting work",
+          "title": "Travel or clothing when starting work",
+          "description": "The Crisis and Resilience Fund may help with travel to a new job. A Jobcentre work coach may consider the Flexible Support Fund. Apply before paying when possible; neither is automatic.\nManchester emergency support options",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "The Crisis and Resilience Fund may help with travel to a new job. A Jobcentre work coach may consider the Flexible Support Fund. Apply before paying when possible; neither is automatic."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Manchester emergency support options",
-                  "href": "https://www.manchester.gov.uk/benefits-and-support/help-with-emergency-living-costs-and-crisis-support-in-manchester-crisis-and-resilience-fund"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "documents",
-      "title": "10. Documents, phone, mail and storage",
-      "items": [
-        {
-          "type": "resource",
-          "id": "national-insurance-number",
-          "name": "National Insurance number",
-          "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Check old payslips, benefit letters or a tax account first. You may start work before receiving a number if you can prove the right to work."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Apply for a National Insurance number",
-                  "href": "https://www.gov.uk/apply-national-insurance-number"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "prove-the-right-to-work",
-          "name": "Prove the right to work",
-          "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Some people use a share code; others use original documents. Do not pay an unofficial agent. Ask Citizens Advice or GMIAU if your status is unclear."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Official right-to-work service",
-                  "href": "https://www.gov.uk/prove-right-to-work"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "replace-a-birth-certificate",
-          "name": "Replace a birth certificate",
-          "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Order through the General Register Office or relevant local register office. Fees apply. Ask a support worker about safe delivery or fee help."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Order a certificate",
-                  "href": "https://www.gov.uk/order-copy-birth-death-marriage-certificate"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "passport-advice",
-          "name": "Passport advice",
-          "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Contact HM Passport Office before paying if documents, referees or a delivery address are difficult. Charities cannot guarantee fees."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Passport Adviceline",
-                  "href": "https://www.gov.uk/passport-advice-line"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "bank-account-and-benefit-payments",
-          "name": "Bank account and benefit payments",
-          "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ask about a basic bank account and acceptable alternative ID. Never let another person control your benefit card, PIN or online account."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "MoneyHelper basic bank accounts",
-                  "href": "https://www.moneyhelper.org.uk/en/everyday-money/banking/basic-bank-accounts"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "phone-and-online-access",
-          "name": "Phone and online access",
-          "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Libraries provide free Wi-Fi. Day centres may help with calls and forms. The Cost of Living Advice Line can assess possible help with data, a phone, laptop or internet; devices are not guaranteed."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Cost of Living Advice Line",
-                  "href": "https://www.manchester.gov.uk/people-and-communities/help-with-the-cost-of-living-crisis/cost-of-living-advice-line"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "mail-and-document-storage",
-          "name": "Mail and document storage",
-          "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ask whether a hostel, day centre or Jobcentre can authorise a care-of address and secure document storage. Confirm collection deadlines."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Do not",
-                  "strong": true
-                },
-                {
-                  "text": " send post or leave papers or belongings at a service without explicit permission. No verified open-access public luggage-storage service was found."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Official care-of address options",
-                  "href": "https://www.gov.uk/government/publications/universal-credit-and-homeless-people/applying-for-universal-credit-information-for-homeless-people"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.manchester.gov.uk/benefits-and-support/help-with-emergency-living-costs-and-crisis-support-in-manchester-crisis-and-resilience-fund",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
       "id": "legal",
-      "title": "11. Housing law, debt and legal advice",
-      "items": [
+      "title": "Housing law, debt and legal advice",
+      "entries": [
         {
-          "type": "resource",
           "id": "shelter-greater-manchester",
-          "name": "Shelter Greater Manchester",
+          "title": "Shelter Greater Manchester",
+          "description": "New Legal Aid appointments: 0344 515 1774, Monday–Friday 9am–4pm. An appointment and eligibility check are required.\nNational emergency housing helpline: 0808 800 4444, Monday–Friday 8am–5pm.\nShelter Greater Manchester",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Main office:",
-                  "strong": true
-                },
-                {
-                  "text": " Unit 3, Great Northern Tower, 5 Watson Street, Manchester M3 4EE"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "New Legal Aid appointments:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "0344 515 1774",
-                  "href": "tel:+443445151774"
-                },
-                {
-                  "text": ", Monday–Friday 9am–4pm. An appointment and eligibility check are required."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "National emergency housing helpline:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "0808 800 4444",
-                  "href": "tel:+448088004444"
-                },
-                {
-                  "text": ", Monday–Friday 8am–5pm."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Shelter Greater Manchester",
-                  "href": "https://england.shelter.org.uk/get_help/local_services/manchester"
-                }
-              ]
-            }
-          ]
+          "address": "Main office: Unit 3, Great Northern Tower, 5 Watson Street, Manchester M3 4EE",
+          "phone": "+443445151774",
+          "website": "https://england.shelter.org.uk/get_help/local_services/manchester",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "greater-manchester-law-centre",
-          "name": "Greater Manchester Law Centre",
+          "title": "Greater Manchester Law Centre",
+          "description": "Phone: 0161 769 2244; email: reception@gmlaw.org.uk. Housing appointments are normally Monday–Friday 9am–5pm; leave a name and number. — mailto:reception@gmlaw.org.uk\nFree advice and representation for people homeless or at risk in Greater Manchester, including eligible Legal Aid housing and public-law cases.\nLaw Centre housing help",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 669 Stockport Road, Longsight, Manchester M12 4QE"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "0161 769 2244",
-                  "href": "tel:+441617692244"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "email:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "reception@gmlaw.org.uk",
-                  "href": "mailto:reception@gmlaw.org.uk"
-                },
-                {
-                  "text": ". Housing appointments are normally Monday–Friday 9am–5pm; leave a name and number."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Free advice and representation for people homeless or at risk in Greater Manchester, including eligible Legal Aid housing and public-law cases."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Law Centre housing help",
-                  "href": "https://www.gmlaw.org.uk/housing/"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 669 Stockport Road, Longsight, Manchester M12 4QE",
+          "phone": "+441617692244",
+          "website": "https://www.gmlaw.org.uk/housing/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "citizens-advice-manchester",
-          "name": "Citizens Advice Manchester",
+          "title": "Citizens Advice Manchester",
+          "description": "Call 0808 278 7800 for free advice on benefits, debt, housing, employment, care, family crisis and some immigration issues.\nCitizens Advice contact",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Call "
-                },
-                {
-                  "text": "0808 278 7800",
-                  "href": "tel:+448082787800"
-                },
-                {
-                  "text": " for free advice on benefits, debt, housing, employment, care, family crisis and some immigration issues."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Citizens Advice contact",
-                  "href": "https://www.manchester.gov.uk/advice/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+448082787800",
+          "website": "https://www.manchester.gov.uk/advice/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "housing-possession-court-duty-scheme",
-          "name": "Housing Possession Court Duty Scheme",
+          "title": "Housing Possession Court Duty Scheme",
+          "description": "Free on-the-day advice and representation is available to defendants regardless of income. Contact Shelter Manchester on 0344 515 1711 or manchesterdutyscheme@shelter.org.uk. — mailto:manchesterdutyscheme@shelter.org.uk\nTake court papers, tenancy, rent statement and messages. Do not miss the hearing while waiting for advice.\nManchester housing-duty information",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Free on-the-day advice and representation is available to defendants regardless of income. Contact Shelter Manchester on "
-                },
-                {
-                  "text": "0344 515 1711",
-                  "href": "tel:+443445151711"
-                },
-                {
-                  "text": " or "
-                },
-                {
-                  "text": "manchesterdutyscheme@shelter.org.uk",
-                  "href": "mailto:manchesterdutyscheme@shelter.org.uk"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Take court papers, tenancy, rent statement and messages. Do not miss the hearing while waiting for advice."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Manchester housing-duty information",
-                  "href": "https://www.gmlaw.org.uk/housing/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+443445151711",
+          "website": "https://www.gmlaw.org.uk/housing/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "civil-legal-advice",
-          "name": "Civil Legal Advice",
+          "title": "Civil Legal Advice",
+          "description": "Call 0345 345 4345. Legal Aid advice may be available for eligible housing, debt, discrimination and domestic-abuse problems.\nCivil Legal Advice",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Call "
-                },
-                {
-                  "text": "0345 345 4345",
-                  "href": "tel:+443453454345"
-                },
-                {
-                  "text": ". Legal Aid advice may be available for eligible housing, debt, discrimination and domestic-abuse problems."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Civil Legal Advice",
-                  "href": "https://www.gov.uk/civil-legal-advice"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+443453454345",
+          "website": "https://www.gov.uk/civil-legal-advice",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
-      "id": "migrants",
-      "title": "12. Migrants, asylum and exploitation",
-      "items": [
+      "id": "documents",
+      "title": "Documents, phone, mail and storage",
+      "entries": [
         {
-          "type": "resource",
+          "id": "national-insurance-number",
+          "title": "National Insurance number",
+          "description": "Check old payslips, benefit letters or a tax account first. You may start work before receiving a number if you can prove the right to work.\nApply for a National Insurance number",
+          "last_verified": "2026-11-11",
+          "address": "",
+          "phone": "",
+          "website": "https://www.gov.uk/apply-national-insurance-number",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "prove-the-right-to-work",
+          "title": "Prove the right to work",
+          "description": "Some people use a share code; others use original documents. Do not pay an unofficial agent. Ask Citizens Advice or GMIAU if your status is unclear.\nOfficial right-to-work service",
+          "last_verified": "2026-11-11",
+          "address": "",
+          "phone": "",
+          "website": "https://www.gov.uk/prove-right-to-work",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "replace-a-birth-certificate",
+          "title": "Replace a birth certificate",
+          "description": "Order through the General Register Office or relevant local register office. Fees apply. Ask a support worker about safe delivery or fee help.\nOrder a certificate",
+          "last_verified": "2026-11-11",
+          "address": "",
+          "phone": "",
+          "website": "https://www.gov.uk/order-copy-birth-death-marriage-certificate",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "passport-advice",
+          "title": "Passport advice",
+          "description": "Contact HM Passport Office before paying if documents, referees or a delivery address are difficult. Charities cannot guarantee fees.\nPassport Adviceline",
+          "last_verified": "2026-11-11",
+          "address": "",
+          "phone": "",
+          "website": "https://www.gov.uk/passport-advice-line",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "bank-account-and-benefit-payments",
+          "title": "Bank account and benefit payments",
+          "description": "Ask about a basic bank account and acceptable alternative ID. Never let another person control your benefit card, PIN or online account.\nMoneyHelper basic bank accounts",
+          "last_verified": "2026-11-11",
+          "address": "",
+          "phone": "",
+          "website": "https://www.moneyhelper.org.uk/en/everyday-money/banking/basic-bank-accounts",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "phone-and-online-access",
+          "title": "Phone and online access",
+          "description": "Libraries provide free Wi-Fi. Day centres may help with calls and forms. The Cost of Living Advice Line can assess possible help with data, a phone, laptop or internet; devices are not guaranteed.\nCost of Living Advice Line",
+          "last_verified": "2026-11-11",
+          "address": "",
+          "phone": "",
+          "website": "https://www.manchester.gov.uk/people-and-communities/help-with-the-cost-of-living-crisis/cost-of-living-advice-line",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "mail-and-document-storage",
+          "title": "Mail and document storage",
+          "description": "Ask whether a hostel, day centre or Jobcentre can authorise a care-of address and secure document storage. Confirm collection deadlines.\nDo not send post or leave papers or belongings at a service without explicit permission. No verified open-access public luggage-storage service was found.\nOfficial care-of address options",
+          "last_verified": "2026-11-11",
+          "address": "",
+          "phone": "",
+          "website": "https://www.gov.uk/government/publications/universal-credit-and-homeless-people/applying-for-universal-credit-information-for-homeless-people",
+          "hours": "",
+          "how_to_access": ""
+        }
+      ]
+    },
+    {
+      "id": "mail",
+      "title": "Mailing address",
+      "entries": []
+    },
+    {
+      "id": "storage",
+      "title": "Storage",
+      "entries": []
+    },
+    {
+      "id": "safety",
+      "title": "Safety and domestic violence",
+      "entries": []
+    },
+    {
+      "id": "specialist-support",
+      "title": "Migrants, asylum and exploitation",
+      "entries": [
+        {
           "id": "greater-manchester-immigration-aid-unit",
-          "name": "Greater Manchester Immigration Aid Unit",
+          "title": "Greater Manchester Immigration Aid Unit",
+          "description": "Free immigration and asylum legal advice is requested through an online referral, normally open Monday–Thursday. The office is appointment-only.\nIf you cannot complete the form, call 0161 740 7722 Friday 12 noon–3pm for form help. This slot does not provide legal advice. General email cannot accept advice referrals.\nGMIAU advice referral forms",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Office:",
-                  "strong": true
-                },
-                {
-                  "text": " 1 Delaunays Road, Crumpsall, Manchester M8 4QS"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Free immigration and asylum legal advice is requested through an online referral, normally open Monday–Thursday. The office is appointment-only."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "If you cannot complete the form, call "
-                },
-                {
-                  "text": "0161 740 7722",
-                  "href": "tel:+441617407722"
-                },
-                {
-                  "text": " Friday 12 noon–3pm for form help. This slot does not provide legal advice. General email cannot accept advice referrals."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "GMIAU advice referral forms",
-                  "href": "https://referrals.gmiau.org/"
-                }
-              ]
-            }
-          ]
+          "address": "Office: 1 Delaunays Road, Crumpsall, Manchester M8 4QS",
+          "phone": "+441617407722",
+          "website": "https://referrals.gmiau.org/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "boaz-trust-restricted-eligibility-support-service",
-          "name": "Boaz Trust Restricted Eligibility Support Service",
+          "title": "Boaz Trust Restricted Eligibility Support Service",
+          "description": "For non-UK nationals aged 18+ in Greater Manchester who are single or a couple, have restricted eligibility or no recourse to public funds, and are homeless or at risk. Boaz and Booth Centre provide outreach with GMIAU immigration advice.\nThe online referral is normally reviewed weekly. It is not a same-day accommodation guarantee and is not designed for families.\nBoaz referral information",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "For non-UK nationals aged 18+ in Greater Manchester who are single or a couple, have restricted eligibility or no recourse to public funds, and are homeless or at risk. Boaz and Booth Centre provide outreach with GMIAU immigration advice."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "The online referral is normally reviewed weekly. It is not a same-day accommodation guarantee and is not designed for families."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Boaz referral information",
-                  "href": "https://www.boaztrust.org.uk/pages/20-floating-support"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.boaztrust.org.uk/pages/20-floating-support",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "migrant-help-asylum-helpline",
-          "name": "Migrant Help asylum helpline",
+          "title": "Migrant Help asylum helpline",
+          "description": "Call 0808 8010 503, free, for asylum support, destitution, accommodation problems and help finding legal representation. Migrant Help is not a law firm.\nGOV.UK asylum helplines",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Call "
-                },
-                {
-                  "text": "0808 8010 503",
-                  "href": "tel:+448088010503"
-                },
-                {
-                  "text": ", free, for asylum support, destitution, accommodation problems and help finding legal representation. Migrant Help is not a law firm."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "GOV.UK asylum helplines",
-                  "href": "https://www.gov.uk/asylum-helplines"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+448088010503",
+          "website": "https://www.gov.uk/asylum-helplines",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "destitute-migrants-relief-fund",
-          "name": "Destitute Migrants Relief Fund",
+          "title": "Destitute Migrants Relief Fund",
+          "description": "Street Support explains the current partner route for a small crisis grant for people with no recourse to public funds. Applications go through participating organisations and are not guaranteed.\nStreet Support Manchester",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Street Support explains the current partner route for a small crisis grant for people with no recourse to public funds. Applications go through participating organisations and are not guaranteed."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Street Support Manchester",
-                  "href": "https://www.streetsupport.net/manchester"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.streetsupport.net/manchester",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "modern-slavery-and-exploitation-helpline",
-          "name": "Modern Slavery and Exploitation Helpline",
+          "title": "Modern Slavery and Exploitation Helpline",
+          "description": "Call 08000 121 700. Current temporary hours are 12 noon–5pm daily. Call 999 for immediate danger.\nConfidential guidance if someone is controlled, threatened, forced to work or have sex, has pay or documents withheld, or cannot leave. You do not have to give your name.\nModern Slavery Helpline",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Call "
-                },
-                {
-                  "text": "08000 121 700",
-                  "href": "tel:+448000121700"
-                },
-                {
-                  "text": ". Current temporary hours are 12 noon–5pm daily. Call 999 for immediate danger."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Confidential guidance if someone is controlled, threatened, forced to work or have sex, has pay or documents withheld, or cannot leave. You do not have to give your name."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Modern Slavery Helpline",
-                  "href": "https://www.modernslaveryhelpline.org/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+448000121700",
+          "website": "https://www.modernslaveryhelpline.org/",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "manchester-women-s-aid",
+          "title": "Manchester Women's Aid",
+          "description": "Phone: 0161 660 7999, Monday–Friday 10am–1pm; email: referrals@manchesterwomensaid.org. — mailto:referrals@manchesterwomensaid.org\nDomestic-abuse safety planning, community help and refuge assessment. A refuge place depends on assessment and vacancies. The free Pankhurst Centre women's drop-in is Wednesday 12 noon–2pm and includes lunch.\nNational Domestic Abuse Helpline: 0808 2000 247, 24 hours. Call 999 in immediate danger.\nManchester Women's Aid",
+          "last_verified": "2026-11-11",
+          "address": "",
+          "phone": "+441616607999",
+          "website": "https://www.manchesterwomensaid.org/get-help",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "saheli",
+          "title": "Saheli",
+          "description": "Helpline: 0161 945 4187, Monday–Friday 9am–5pm; email: help@saheli.org.uk. — mailto:help@saheli.org.uk\nMultilingual, culturally appropriate help concerning domestic abuse, forced marriage and leaving an unsafe situation. The public address is a post box; call rather than travelling.\nSaheli help",
+          "last_verified": "2026-11-11",
+          "address": "",
+          "phone": "+441619454187",
+          "website": "https://www.saheli.org.uk/help",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "mash-women-who-sex-work",
+          "title": "MASH: women who sex work",
+          "description": "Freephone: 0800 183 0499. No appointment is needed during published drop-in hours; check the live timetable.\nFree, confidential and trans-inclusive help for women who currently or previously sex worked, are considering it or are being forced to do so. Food, computers, condoms, needle exchange, sexual-health nursing, housing, benefits, safety and casework are available.\nMASH drop-in",
+          "last_verified": "2026-11-11",
+          "address": "Address: 94–96 Fairfield Street, Manchester M1 2WR",
+          "phone": "+448001830499",
+          "website": "https://mash.org.uk/our-services/drop-in-centre/",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "centrepoint-ages-16-25",
+          "title": "Centrepoint: ages 16–25",
+          "description": "Free helpline: 0808 800 0661, Monday–Friday 9am–5pm. Manchester accommodation is for ages 18–25 through a council referral.\nUnder 18, tell the council and Children's Services immediately that you have nowhere safe; call 999 if at immediate risk.\nCentrepoint housing helpline",
+          "last_verified": "2026-11-11",
+          "address": "",
+          "phone": "+448088000661",
+          "website": "https://centrepoint.org.uk/contact-help",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "akt-lgbtq-young-people-aged-16-25",
+          "title": "akt: LGBTQ+ young people aged 16–25",
+          "description": "Young people who are homeless, sofa surfing, at risk or in a hostile home can self-refer, use live chat or email gethelp@akt.org.uk. Chat is normally Monday–Thursday 10am–4:30pm and Friday 10am–3pm. — mailto:gethelp@akt.org.uk\nManchester office phone: 0161 228 3308. The office is appointment-only. Housing access, advice, advocacy and education or employment support may be available; a bed is not guaranteed.\nakt immediate support",
+          "last_verified": "2026-11-11",
+          "address": "",
+          "phone": "+441612283308",
+          "website": "https://www.akt.org.uk/get-immediate-support/",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "lgbt-foundation",
+          "title": "LGBT Foundation",
+          "description": "Helpline: 0345 330 3030; email: helpline@lgbt.foundation. — mailto:helpline@lgbt.foundation\nEmotional support, sexual health, domestic-abuse, mental-health and recovery support for LGBTQ+ people. It is not emergency accommodation.\nCouncil LGBT Foundation listing",
+          "last_verified": "2026-11-11",
+          "address": "Address: Fairbairn House, 2nd Floor, 72 Sackville Street, Manchester M1 3NJ",
+          "phone": "+443453303030",
+          "website": "https://www.manchester.gov.uk/online-directories/health-and-wellbeing-directories/sexual-health-services-in-manchester/lgbt-support-and-services/lgbt-foundation",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "op-fortitude-veterans",
+          "title": "Op FORTITUDE: veterans",
+          "description": "Call 0800 952 0774. Veterans homeless or at risk can self-refer for tenancy support or specialist housing. Advice is available, but accommodation is individually assessed and not guaranteed.\nGOV.UK veteran homelessness support",
+          "last_verified": "2026-11-11",
+          "address": "",
+          "phone": "+448009520774",
+          "website": "https://www.gov.uk/guidance/getting-homelessness-support-as-a-veteran",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "age-uk-manchester-age-60",
+          "title": "Age UK Manchester: age 60+",
+          "description": "Advice Line: 0161 833 3944, Monday, Tuesday, Thursday and Friday 9am–4:30pm; email: advice@ageukmanchester.org.uk. — mailto:advice@ageukmanchester.org.uk\nFree benefits, housing, utilities and social-care advice. Say immediately if you are homeless or facing hospital discharge without safe accommodation.\nAge UK Manchester advice",
+          "last_verified": "2026-11-11",
+          "address": "",
+          "phone": "+441618333944",
+          "website": "https://www.ageuk.org.uk/manchester/our-services/information-and-advice-926165a1-e68f-ec11-b820-0003ff4b0da1/",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "adult-social-care-disability-and-safeguarding",
+          "title": "Adult social care, disability and safeguarding",
+          "description": "Phone: 0161 234 5001; email: mcsreply@manchester.gov.uk. — mailto:mcsreply@manchester.gov.uk\nAdults aged 18+ can ask for advice or an assessment when illness, disability, injury, abuse or a major life change affects daily living or safety. Online referrals are not emergencies; phone for an urgent concern.\nSocial care does not replace a homeless application. Contact both teams if care needs affect safe accommodation.\nManchester adult social care",
+          "last_verified": "2026-11-11",
+          "address": "",
+          "phone": "+441612345001",
+          "website": "https://www.manchester.gov.uk/info/100010/social_services/3584/get_help_support_or_social_care",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "care-leavers",
+          "title": "Care leavers",
+          "description": "Tell the housing team that you are a care leaver and contact your personal adviser. Manchester's leaving-care service can help with housing, benefits and setting up home.\nCare-leaver housing help",
+          "last_verified": "2026-11-11",
+          "address": "",
+          "phone": "",
+          "website": "https://www.manchester.gov.uk/social-services/childrens-services/care-leavers/getting-your-own-home/getting-help",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
-      "id": "specialist",
-      "title": "13. Women, young people, LGBTQ+ people, veterans, older and disabled people",
-      "items": [
-        {
-          "type": "resource",
-          "id": "manchester-women-s-aid",
-          "name": "Manchester Women's Aid",
-          "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "0161 660 7999",
-                  "href": "tel:+441616607999"
-                },
-                {
-                  "text": ", Monday–Friday 10am–1pm; "
-                },
-                {
-                  "text": "email:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "referrals@manchesterwomensaid.org",
-                  "href": "mailto:referrals@manchesterwomensaid.org"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Domestic-abuse safety planning, community help and refuge assessment. A refuge place depends on assessment and vacancies. The free Pankhurst Centre women's drop-in is Wednesday 12 noon–2pm and includes lunch."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "National Domestic Abuse Helpline:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "0808 2000 247",
-                  "href": "tel:+448082000247"
-                },
-                {
-                  "text": ", 24 hours. Call 999 in immediate danger."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Manchester Women's Aid",
-                  "href": "https://www.manchesterwomensaid.org/get-help"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "saheli",
-          "name": "Saheli",
-          "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Helpline:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "0161 945 4187",
-                  "href": "tel:+441619454187"
-                },
-                {
-                  "text": ", Monday–Friday 9am–5pm; "
-                },
-                {
-                  "text": "email:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "help@saheli.org.uk",
-                  "href": "mailto:help@saheli.org.uk"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Multilingual, culturally appropriate help concerning domestic abuse, forced marriage and leaving an unsafe situation. The public address is a post box; call rather than travelling."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Saheli help",
-                  "href": "https://www.saheli.org.uk/help"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "mash-women-who-sex-work",
-          "name": "MASH: women who sex work",
-          "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 94–96 Fairfield Street, Manchester M1 2WR"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Freephone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "0800 183 0499",
-                  "href": "tel:+448001830499"
-                },
-                {
-                  "text": ". No appointment is needed during published drop-in hours; check the live timetable."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Free, confidential and trans-inclusive help for women who currently or previously sex worked, are considering it or are being forced to do so. Food, computers, condoms, needle exchange, sexual-health nursing, housing, benefits, safety and casework are available."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "MASH drop-in",
-                  "href": "https://mash.org.uk/our-services/drop-in-centre/"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "centrepoint-ages-16-25",
-          "name": "Centrepoint: ages 16–25",
-          "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Free helpline:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "0808 800 0661",
-                  "href": "tel:+448088000661"
-                },
-                {
-                  "text": ", Monday–Friday 9am–5pm. Manchester accommodation is for ages 18–25 through a council referral."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Under 18, tell the council and Children's Services immediately that you have nowhere safe; call 999 if at immediate risk."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Centrepoint housing helpline",
-                  "href": "https://centrepoint.org.uk/contact-help"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "akt-lgbtq-young-people-aged-16-25",
-          "name": "akt: LGBTQ+ young people aged 16–25",
-          "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Young people who are homeless, sofa surfing, at risk or in a hostile home can self-refer, use live chat or email "
-                },
-                {
-                  "text": "gethelp@akt.org.uk",
-                  "href": "mailto:gethelp@akt.org.uk"
-                },
-                {
-                  "text": ". Chat is normally Monday–Thursday 10am–4:30pm and Friday 10am–3pm."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Manchester office phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "0161 228 3308",
-                  "href": "tel:+441612283308"
-                },
-                {
-                  "text": ". The office is appointment-only. Housing access, advice, advocacy and education or employment support may be available; a bed is not guaranteed."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "akt immediate support",
-                  "href": "https://www.akt.org.uk/get-immediate-support/"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "lgbt-foundation",
-          "name": "LGBT Foundation",
-          "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " Fairbairn House, 2nd Floor, 72 Sackville Street, Manchester M1 3NJ"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Helpline:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "0345 330 3030",
-                  "href": "tel:+443453303030"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "email:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "helpline@lgbt.foundation",
-                  "href": "mailto:helpline@lgbt.foundation"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Emotional support, sexual health, domestic-abuse, mental-health and recovery support for LGBTQ+ people. It is not emergency accommodation."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Council LGBT Foundation listing",
-                  "href": "https://www.manchester.gov.uk/online-directories/health-and-wellbeing-directories/sexual-health-services-in-manchester/lgbt-support-and-services/lgbt-foundation"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "op-fortitude-veterans",
-          "name": "Op FORTITUDE: veterans",
-          "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Call "
-                },
-                {
-                  "text": "0800 952 0774",
-                  "href": "tel:+448009520774"
-                },
-                {
-                  "text": ". Veterans homeless or at risk can self-refer for tenancy support or specialist housing. Advice is available, but accommodation is individually assessed and not guaranteed."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "GOV.UK veteran homelessness support",
-                  "href": "https://www.gov.uk/guidance/getting-homelessness-support-as-a-veteran"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "age-uk-manchester-age-60",
-          "name": "Age UK Manchester: age 60+",
-          "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Advice Line:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "0161 833 3944",
-                  "href": "tel:+441618333944"
-                },
-                {
-                  "text": ", Monday, Tuesday, Thursday and Friday 9am–4:30pm; "
-                },
-                {
-                  "text": "email:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "advice@ageukmanchester.org.uk",
-                  "href": "mailto:advice@ageukmanchester.org.uk"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Free benefits, housing, utilities and social-care advice. Say immediately if you are homeless or facing hospital discharge without safe accommodation."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Age UK Manchester advice",
-                  "href": "https://www.ageuk.org.uk/manchester/our-services/information-and-advice-926165a1-e68f-ec11-b820-0003ff4b0da1/"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "adult-social-care-disability-and-safeguarding",
-          "name": "Adult social care, disability and safeguarding",
-          "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "0161 234 5001",
-                  "href": "tel:+441612345001"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "email:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "mcsreply@manchester.gov.uk",
-                  "href": "mailto:mcsreply@manchester.gov.uk"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Adults aged 18+ can ask for advice or an assessment when illness, disability, injury, abuse or a major life change affects daily living or safety. Online referrals are not emergencies; phone for an urgent concern."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Social care does not replace a homeless application. Contact both teams if care needs affect safe accommodation."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Manchester adult social care",
-                  "href": "https://www.manchester.gov.uk/info/100010/social_services/3584/get_help_support_or_social_care"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "care-leavers",
-          "name": "Care leavers",
-          "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Tell the housing team that you are a care leaver and contact your personal adviser. Manchester's leaving-care service can help with housing, benefits and setting up home."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Care-leaver housing help",
-                  "href": "https://www.manchester.gov.uk/social-services/childrens-services/care-leavers/getting-your-own-home/getting-help"
-                }
-              ]
-            }
-          ]
-        }
-      ]
+      "id": "veterans",
+      "title": "Veterans support",
+      "entries": []
     },
     {
       "id": "pets",
-      "title": "14. Help with pets",
-      "items": [
+      "title": "Help with pets",
+      "entries": [
         {
-          "type": "resource",
           "id": "streetvet",
-          "name": "StreetVet",
+          "title": "StreetVet",
+          "description": "Free veterinary support for pets belonging to people who meet the legal definition of homelessness. Complete the help form; registration and treatment depend on an eligibility check.\nStreetVet is not an emergency service and does not pay existing bills or provide fostering. In an animal emergency, contact a veterinary practice.\nStreetVet help form",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Free veterinary support for pets belonging to people who meet the legal definition of homelessness. Complete the help form; registration and treatment depend on an eligibility check."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "StreetVet is not an emergency service and does not pay existing bills or provide fostering. In an animal emergency, contact a veterinary practice."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "StreetVet help form",
-                  "href": "https://www.streetvet.org.uk/get-help-now/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.streetvet.org.uk/get-help-now/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "dogs-trust-together-through-homelessness",
-          "name": "Dogs Trust Together Through Homelessness",
+          "title": "Dogs Trust Together Through Homelessness",
+          "description": "Phone: 020 7833 7611, Monday–Friday 10am–4pm; email: tth@dogstrust.org.uk. — mailto:tth@dogstrust.org.uk\nThe UK-wide scheme can help eligible dog owners with veterinary costs and finding dog-friendly services. Assessment and participating providers apply.\nTogether Through Homelessness",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "020 7833 7611",
-                  "href": "tel:+442078337611"
-                },
-                {
-                  "text": ", Monday–Friday 10am–4pm; "
-                },
-                {
-                  "text": "email:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "tth@dogstrust.org.uk",
-                  "href": "mailto:tth@dogstrust.org.uk"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "The UK-wide scheme can help eligible dog owners with veterinary costs and finding dog-friendly services. Assessment and participating providers apply."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Together Through Homelessness",
-                  "href": "https://www.dogstrusthopeproject.org.uk/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+442078337611",
+          "website": "https://www.dogstrusthopeproject.org.uk/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "tell-every-service-about-your-pet",
-          "name": "Tell every service about your pet",
+          "title": "Tell every service about your pet",
+          "description": "Many placements cannot accept animals; some can. Tell the council and any referrer the species, size, health and vaccination status. Ask for a pet-friendly option before accepting or rejecting a placement.\nDo not abandon an animal or arrive at an unknown hostel expecting admission.\nSearch dog-friendly services",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Many placements cannot accept animals; some can. Tell the council and any referrer the species, size, health and vaccination status. Ask for a pet-friendly option before accepting or rejecting a placement."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Do not abandon an animal or arrive at an unknown hostel expecting admission."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Search dog-friendly services",
-                  "href": "https://www.dogstrusthopeproject.org.uk/help-with-dog-friendly-services"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.dogstrusthopeproject.org.uk/help-with-dog-friendly-services",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
-      "id": "transport",
-      "title": "15. Transport and Manchester Airport",
-      "items": [
-        {
-          "type": "resource",
-          "id": "bee-network-journey-planning",
-          "name": "Bee Network journey planning",
-          "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Use the official planner for buses, trams and trains. Ask a housing, health or Jobcentre worker whether appointment travel can be authorised; help is not automatic."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Bee Network journey planner",
-                  "href": "https://tfgm.com/plan-a-journey"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "travel-to-a-new-job",
-          "name": "Travel to a new job",
-          "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "The Crisis and Resilience Fund may help an eligible resident with travel when starting a job. Apply before buying a long-term ticket when possible."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Crisis and Resilience Fund",
-                  "href": "https://www.manchester.gov.uk/benefits-and-support/help-with-emergency-living-costs-and-crisis-support-in-manchester-crisis-and-resilience-fund"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "manchester-airport-by-train",
-          "name": "Manchester Airport by train",
-          "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Trains from Piccadilly normally take about 20 minutes and run frequently. The airport station is a covered 5–15 minute walk from terminals. Check live times and prices."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Airport train information",
-                  "href": "https://www.manchesterairport.co.uk/getting-to-and-from/by-train/"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "manchester-airport-by-tram",
-          "name": "Manchester Airport by tram",
-          "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Trams connect the airport with Manchester Victoria, normally about every 12 minutes. Buy a ticket or touch in before boarding and check the Bee Network on the day."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "If stranded at the airport, speak to airport staff or police. The terminal is not accommodation; call the council emergency number if you have nowhere safe."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Airport tram information",
-                  "href": "https://www.manchesterairport.co.uk/getting-to-and-from/by-tram/"
-                }
-              ]
-            }
-          ]
-        }
-      ]
+      "id": "other",
+      "title": "Other useful resources",
+      "entries": []
     }
   ]
 }

@@ -1,6 +1,7 @@
 {
   "$schema": "https://nohomehelp.com/schemas/city.schema.json",
-  "schema_version": 1,
+  "documentation": "https://github.com/carlosbranco/no-home-help/blob/main/EDIT_CITY_JSON.md",
+  "schema_version": 2,
   "status": "published",
   "locale": {
     "language": "en",
@@ -26,4371 +27,1083 @@
   "page": {
     "heading": "WASHINGTON, D.C. - HOMELESS HELP",
     "last_verified": "2026-11-11",
-    "urgent": [
-      {
-        "type": "paragraph",
-        "content": [
-          {
-            "text": "Immediate danger or medical emergency:",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "911",
-            "href": "tel:911"
-          },
-          {
-            "break": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "Shelter, outreach, and free transport to shelter:",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "202-399-7093",
-            "href": "tel:+12023997093"
-          },
-          {
-            "text": " or "
-          },
-          {
-            "text": "311",
-            "href": "tel:311"
-          },
-          {
-            "break": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "Mental health or substance use crisis:",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "call or text 988",
-            "href": "tel:988"
-          },
-          {
-            "text": ", or call "
-          },
-          {
-            "text": "888-793-4357",
-            "href": "tel:+18887934357"
-          },
-          {
-            "break": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "Crime or domestic violence support:",
-            "strong": true
-          },
-          {
-            "text": " call or text "
-          },
-          {
-            "text": "844-443-5732",
-            "href": "tel:+18444435732"
-          }
-        ]
-      }
-    ],
-    "notice": [
-      {
-        "text": "Information can change.",
-        "strong": true
-      },
-      {
-        "text": " Call ahead when possible. A listing does not guarantee a bed, appointment, meal, service, job, benefit, or approval. Shelter is first come, first served unless a program says otherwise. If you have nowhere to sleep tonight, start with "
-      },
-      {
-        "text": "Emergency shelters",
-        "href": "#shelter"
-      },
-      {
-        "text": "."
-      }
-    ],
-    "intro": [],
-    "footer": [
-      {
-        "type": "paragraph",
-        "content": [
-          {
-            "text": "No Home Help",
-            "strong": true
-          },
-          {
-            "text": " is a lightweight, open-source directory. It is not an emergency service and does not operate the organizations listed."
-          }
-        ]
-      }
-    ]
+    "urgent": "Immediate danger or medical emergency: 911 Shelter, outreach, and free transport to shelter: 202-399-7093 or 311 Mental health or substance use crisis: call or text 988, or call 888-793-4357 Crime or domestic violence support: call or text 844-443-5732",
+    "notice": "Information can change. Call ahead when possible. A listing does not guarantee a bed, appointment, meal, service, job, benefit, or approval. Shelter is first come, first served unless a program says otherwise. If you have nowhere to sleep tonight, start with Emergency shelters.",
+    "intro": "",
+    "footer": "No Home Help is a lightweight, open-source directory. It is not an emergency service and does not operate the organizations listed."
   },
   "categories": [
     {
+      "id": "emergency",
+      "title": "Emergency help",
+      "entries": []
+    },
+    {
       "id": "shelter",
-      "title": "1. Emergency shelter and outreach",
-      "items": [
+      "title": "Emergency shelter and outreach",
+      "entries": [
         {
-          "type": "paragraph",
-          "content": [
-            {
-              "text": "If you need a place tonight, call the Shelter Hotline first.",
-              "strong": true
-            },
-            {
-              "text": " DC low-barrier shelters accept people on a first-come, first-served basis. The hotline can check current options and arrange free, accessible transport. It cannot promise that a bed will still be available when you arrive."
-            }
-          ]
-        },
-        {
-          "type": "resource",
           "id": "dc-shelter-hotline-and-street-outreach",
-          "name": "DC Shelter Hotline and street outreach",
+          "title": "DC Shelter Hotline and street outreach",
+          "description": "If you need a place tonight, call the Shelter Hotline first. DC low-barrier shelters accept people on a first-come, first-served basis. The hotline can check current options and arrange free, accessible transport. It cannot promise that a bed will still be available when you arrive.\nPhone: 202-399-7093 or 311\nHotline hours: daily, 8 a.m. to midnight; 24 hours from November 1 through March 31.\nHelp: shelter information, wellness checks, outreach, blankets or water when available, and free accessible transport to shelter or a warming site. Outreach normally operates Monday through Friday, 9 a.m. to 9 p.m., with longer hours during cold-weather activations.\n- Call the Shelter Hotline — tel:+12023997093\n- Official shelter information\n- Official outreach information — https://dhs.dc.gov/page/outreach-0",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "202-399-7093",
-                  "href": "tel:+12023997093"
-                },
-                {
-                  "text": " or "
-                },
-                {
-                  "text": "311",
-                  "href": "tel:311"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Hotline hours:",
-                  "strong": true
-                },
-                {
-                  "text": " daily, 8 a.m. to midnight; 24 hours from November 1 through March 31."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Help:",
-                  "strong": true
-                },
-                {
-                  "text": " shelter information, wellness checks, outreach, blankets or water when available, and free accessible transport to shelter or a warming site. Outreach normally operates Monday through Friday, 9 a.m. to 9 p.m., with longer hours during cold-weather activations."
-                }
-              ]
-            },
-            {
-              "type": "list",
-              "items": [
-                [
-                  {
-                    "text": "Call the Shelter Hotline",
-                    "href": "tel:+12023997093"
-                  }
-                ],
-                [
-                  {
-                    "text": "Official shelter information",
-                    "href": "https://dhs.dc.gov/page/services-individuals-experiencing-homelessness"
-                  }
-                ],
-                [
-                  {
-                    "text": "Official outreach information",
-                    "href": "https://dhs.dc.gov/page/outreach-0"
-                  }
-                ]
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+12023997093",
+          "website": "https://dhs.dc.gov/page/services-individuals-experiencing-homelessness",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "low-barrier-shelters-for-men",
-          "name": "Low-barrier shelters for men",
+          "title": "Low-barrier shelters for men",
+          "description": "801 East: 2722 Martin Luther King Jr. Avenue SE\nAdams Place: 2210 Adams Place NE\nEmery: 1725 Lincoln Road NE\nNew York Avenue: 1355 New York Avenue NE\nAdults can go directly, but call the Shelter Hotline before traveling when possible. These sites are open 24 hours according to the current DC list. Entry is first come, first served; no bed is guaranteed.\nOfficial low-barrier shelter guidance",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "801 East:",
-                  "strong": true
-                },
-                {
-                  "text": " 2722 Martin Luther King Jr. Avenue SE"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Adams Place:",
-                  "strong": true
-                },
-                {
-                  "text": " 2210 Adams Place NE"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Emery:",
-                  "strong": true
-                },
-                {
-                  "text": " 1725 Lincoln Road NE"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "New York Avenue:",
-                  "strong": true
-                },
-                {
-                  "text": " 1355 New York Avenue NE"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Adults can go directly, but call the Shelter Hotline before traveling when possible. These sites are open 24 hours according to the current DC list. Entry is first come, first served; no bed is guaranteed."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Official low-barrier shelter guidance",
-                  "href": "https://dhs.dc.gov/page/accessing-low-barrier-shelter"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://dhs.dc.gov/page/accessing-low-barrier-shelter",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "low-barrier-shelters-for-women",
-          "name": "Low-barrier shelters for women",
+          "title": "Low-barrier shelters for women",
+          "description": "Harriet Tubman: 1910 Massachusetts Avenue SE, Building 27; 24 hours.\nPat Handy Place: 810 5th Street NW; 24 hours.\nSt. Josephine Bakhita: 6010 Georgia Avenue NW; normally 7 p.m. to 7 a.m.\nEntry is first come, first served. Harriet Tubman provides shelter, meals, showers, toiletries, and referrals. Call the Shelter Hotline for current capacity and transport.\n- Harriet Tubman official information\n- DC low-barrier shelter guidance — https://dhs.dc.gov/page/accessing-low-barrier-shelter",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Harriet Tubman:",
-                  "strong": true
-                },
-                {
-                  "text": " 1910 Massachusetts Avenue SE, Building 27; 24 hours."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Pat Handy Place:",
-                  "strong": true
-                },
-                {
-                  "text": " 810 5th Street NW; 24 hours."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "St. Josephine Bakhita:",
-                  "strong": true
-                },
-                {
-                  "text": " 6010 Georgia Avenue NW; normally 7 p.m. to 7 a.m."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Entry is first come, first served. Harriet Tubman provides shelter, meals, showers, toiletries, and referrals. Call the Shelter Hotline for current capacity and transport."
-                }
-              ]
-            },
-            {
-              "type": "list",
-              "items": [
-                [
-                  {
-                    "text": "Harriet Tubman official information",
-                    "href": "https://www.catholiccharitiesdc.org/program/harriet-tubman-womens-shelter/"
-                  }
-                ],
-                [
-                  {
-                    "text": "DC low-barrier shelter guidance",
-                    "href": "https://dhs.dc.gov/page/accessing-low-barrier-shelter"
-                  }
-                ]
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.catholiccharitiesdc.org/program/harriet-tubman-womens-shelter/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "living-life-alternatives-lgbtq-low-barrier-shelter",
-          "name": "Living Life Alternatives - LGBTQ+ low-barrier shelter",
+          "title": "Living Life Alternatives - LGBTQ+ low-barrier shelter",
+          "description": "Phone: 202-560-5457\n24-hour low-barrier shelter for LGBTQ+ adults. Call the shelter or Shelter Hotline before traveling when possible; space is not guaranteed.\n- Program information\n- Current DC shelter list — https://dhs.dc.gov/release/mayor-bowser-marks-start-hypothermia-season-urges-residents-call-shelter-hotline-connect",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 400 50th Street SE, Washington, DC"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "202-560-5457",
-                  "href": "tel:+12025605457"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "24-hour low-barrier shelter for LGBTQ+ adults. Call the shelter or Shelter Hotline before traveling when possible; space is not guaranteed."
-                }
-              ]
-            },
-            {
-              "type": "list",
-              "items": [
-                [
-                  {
-                    "text": "Program information",
-                    "href": "https://kbecgroup.com/living-life-alternatives/"
-                  }
-                ],
-                [
-                  {
-                    "text": "Current DC shelter list",
-                    "href": "https://dhs.dc.gov/release/mayor-bowser-marks-start-hypothermia-season-urges-residents-call-shelter-hotline-connect"
-                  }
-                ]
-              ]
-            }
-          ]
+          "address": "Address: 400 50th Street SE, Washington, DC",
+          "phone": "+12025605457",
+          "website": "https://kbecgroup.com/living-life-alternatives/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "virginia-williams-family-resource-center-families",
-          "name": "Virginia Williams Family Resource Center - families",
+          "title": "Virginia Williams Family Resource Center - families",
+          "description": "Phone: 202-526-0017\nCentral assessment and referral point for families with children seeking emergency shelter and housing help. Family shelter placements are made through intake; family shelter buildings are not walk-in sites. Call before going and bring household documents if you have them. After hours, call the Shelter Hotline.\nOfficial family shelter information",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 64 New York Avenue NE, 1st Floor, Washington, DC"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "202-526-0017",
-                  "href": "tel:+12025260017"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Central assessment and referral point for families with children seeking emergency shelter and housing help. Family shelter placements are made through intake; family shelter buildings are not walk-in sites. Call before going and bring household documents if you have them. After hours, call the Shelter Hotline."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Official family shelter information",
-                  "href": "https://dhs.dc.gov/page/family-emergency-shelter"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 64 New York Avenue NE, 1st Floor, Washington, DC",
+          "phone": "+12025260017",
+          "website": "https://dhs.dc.gov/page/family-emergency-shelter",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "youth-emergency-shelter",
-          "name": "Youth emergency shelter",
+          "title": "Youth emergency shelter",
+          "description": "Ages 11-17: Sasha Bruce House, 202-547-7777, open 24 hours for emergency shelter and support.\nAges 18-24: Covenant House The Sanctuary, 511 Mellon Street SE, 202-560-5965.\nLGBTQ+ ages 18-24: Covenant House SHINE, entry line 202-506-2432.\nPregnant or parenting ages 16-21: Healthy Babies/Muriel's House, 202-396-2809.\nOfficial DC youth shelter list",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ages 11-17:",
-                  "strong": true
-                },
-                {
-                  "text": " Sasha Bruce House, "
-                },
-                {
-                  "text": "202-547-7777",
-                  "href": "tel:+12025477777"
-                },
-                {
-                  "text": ", open 24 hours for emergency shelter and support."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ages 18-24:",
-                  "strong": true
-                },
-                {
-                  "text": " Covenant House The Sanctuary, 511 Mellon Street SE, "
-                },
-                {
-                  "text": "202-560-5965",
-                  "href": "tel:+12025605965"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "LGBTQ+ ages 18-24:",
-                  "strong": true
-                },
-                {
-                  "text": " Covenant House SHINE, entry line "
-                },
-                {
-                  "text": "202-506-2432",
-                  "href": "tel:+12025062432"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Pregnant or parenting ages 16-21:",
-                  "strong": true
-                },
-                {
-                  "text": " Healthy Babies/Muriel's House, "
-                },
-                {
-                  "text": "202-396-2809",
-                  "href": "tel:+12023962809"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Official DC youth shelter list",
-                  "href": "https://dhs.dc.gov/page/youth-homeless-services"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+12025477777",
+          "website": "https://dhs.dc.gov/page/youth-homeless-services",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "central-union-mission-men-s-overnight-shelter",
-          "name": "Central Union Mission - men's overnight shelter",
+          "title": "Central Union Mission - men's overnight shelter",
+          "description": "Phone: 202-745-7118\nOfficial help information",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 65 Massachusetts Avenue NW, Washington, DC 20001"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "202-745-7118",
-                  "href": "tel:+12027457118"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Intake:",
-                  "strong": true
-                },
-                {
-                  "text": " daily at 3 p.m., first come, first served. Capacity is limited. The Mission also provides meals and longer-term programs."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Official help information",
-                  "href": "https://www.missiondc.org/get-help/"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 65 Massachusetts Avenue NW, Washington, DC 20001",
+          "phone": "+12027457118",
+          "website": "https://www.missiondc.org/get-help/",
+          "hours": "",
+          "how_to_access": "Intake: daily at 3 p.m., first come, first served. Capacity is limited. The Mission also provides meals and longer-term programs."
         },
         {
-          "type": "resource",
           "id": "cold-weather-and-extreme-weather-help",
-          "name": "Cold-weather and extreme-weather help",
+          "title": "Cold-weather and extreme-weather help",
+          "description": "From November 1 through March 31, the Shelter Hotline operates 24 hours. Additional hypothermia sites open as the system approaches capacity. During an Extreme Cold Alert, open sites may extend to 24-hour operation.\nDo not wait for symptoms of hypothermia. Call 202-399-7093 or 311 for transport.\nCurrent cold-weather information",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "From November 1 through March 31, the Shelter Hotline operates 24 hours. Additional hypothermia sites open as the system approaches capacity. During an Extreme Cold Alert, open sites may extend to 24-hour operation."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Do not wait for symptoms of hypothermia.",
-                  "strong": true
-                },
-                {
-                  "text": " Call "
-                },
-                {
-                  "text": "202-399-7093",
-                  "href": "tel:+12023997093"
-                },
-                {
-                  "text": " or "
-                },
-                {
-                  "text": "311",
-                  "href": "tel:311"
-                },
-                {
-                  "text": " for transport."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Current cold-weather information",
-                  "href": "https://dhs.dc.gov/release/mayor-bowser-marks-start-hypothermia-season-urges-residents-call-shelter-hotline-connect"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+12023997093",
+          "website": "https://dhs.dc.gov/release/mayor-bowser-marks-start-hypothermia-season-urges-residents-call-shelter-hotline-connect",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "coordinated-assessment-and-housing-placement",
+          "title": "Coordinated Assessment and Housing Placement",
+          "description": "DC uses a decentralized, no-wrong-door coordinated-entry system. A trained provider can assess housing needs and connect eligible people to available programs. An assessment is not a housing offer and does not guarantee placement.\nWhere to start: a day center, shelter, street-outreach team, Miriam's Kitchen, Friendship Place, SOME, or another participating provider.\nOfficial coordinated-entry information",
+          "last_verified": "2026-11-11",
+          "address": "",
+          "phone": "",
+          "website": "https://community-partnership.org/cahp-dc/coordinatedentry/",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "friendship-place-welcome-center",
+          "title": "Friendship Place Welcome Center",
+          "description": "Phone: 202-364-1419\nHousing assessment, case management, food, clothing, hygiene items, employment help, and health referrals. Hours differ by day and some services require appointments; call first.\nOfficial drop-in and clinic information",
+          "last_verified": "2026-11-11",
+          "address": "Address: 4713 Wisconsin Avenue NW, Washington, DC 20016",
+          "phone": "+12023641419",
+          "website": "https://friendshipplace.org/drop-in-and-clinic/",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "preventing-homelessness",
+          "title": "Preventing homelessness",
+          "description": "If you still have housing but face eviction, unpaid rent, or unsafe conditions, contact Legal Aid DC or the Washington Legal Clinic promptly. Emergency rental assistance and prevention programs often have funding limits, appointments, and documentation rules; apply before a court date or move-out when possible.\n- Legal Aid DC\n- Washington Legal Clinic for the Homeless — https://www.legalclinic.org/get-legal-help/",
+          "last_verified": "2026-11-11",
+          "address": "",
+          "phone": "",
+          "website": "https://www.legalaiddc.org/contactus",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
       "id": "food",
-      "title": "2. Free meals and groceries",
-      "items": [
+      "title": "Free meals and groceries",
+      "entries": [
         {
-          "type": "paragraph",
-          "content": [
-            {
-              "text": "Meal times and pantry stock can change, especially on holidays. Arrive early and call first when possible. Some meals require no identification, while grocery programs may ask for DC residency or household information."
-            }
-          ]
-        },
-        {
-          "type": "resource",
           "id": "some-daily-breakfast-and-lunch",
-          "name": "SOME - daily breakfast and lunch",
+          "title": "SOME - daily breakfast and lunch",
+          "description": "Meal times and pantry stock can change, especially on holidays. Arrive early and call first when possible. Some meals require no identification, while grocery programs may ask for DC residency or household information.\nPhone: 202-797-8806\nMeals: breakfast daily, 7:30 to 8:30 a.m.; lunch daily, 11:30 a.m. to 12:30 p.m.\nOfficial meal information",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 71 O Street NW, Washington, DC 20001"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "202-797-8806",
-                  "href": "tel:+12027978806"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Meals:",
-                  "strong": true
-                },
-                {
-                  "text": " breakfast daily, 7:30 to 8:30 a.m.; lunch daily, 11:30 a.m. to 12:30 p.m."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Official meal information",
-                  "href": "https://some.org/emergency-services-daily-meal-service/"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 71 O Street NW, Washington, DC 20001",
+          "phone": "+12027978806",
+          "website": "https://some.org/emergency-services-daily-meal-service/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "bread-for-the-city-monthly-groceries",
-          "name": "Bread for the City - monthly groceries",
+          "title": "Bread for the City - monthly groceries",
+          "description": "Southeast: 1700 Marion Barry Avenue SE\nPhone: 202-265-2400\nOfficial pantry rules and schedules",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Northwest:",
-                  "strong": true
-                },
-                {
-                  "text": " 1525 7th Street NW"
-                }
-              ]
-            },
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Southeast:",
-                  "strong": true
-                },
-                {
-                  "text": " 1700 Marion Barry Avenue SE"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "202-265-2400",
-                  "href": "tel:+12022652400"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Hours:",
-                  "strong": true
-                },
-                {
-                  "text": " Monday through Thursday, 9 a.m. to 3 p.m. Groceries are generally available once a month and are based on household size. Friday free farmers markets alternate by location."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Official pantry rules and schedules",
-                  "href": "https://breadforthecity.org/food/"
-                }
-              ]
-            }
-          ]
+          "address": "Northwest: 1525 7th Street NW",
+          "phone": "+12022652400",
+          "website": "https://breadforthecity.org/food/",
+          "hours": "Hours: Monday through Thursday, 9 a.m. to 3 p.m. Groceries are generally available once a month and are based on household size. Friday free farmers markets alternate by location.",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "st-maria-s-meals-wednesday-takeaway-meal",
-          "name": "St. Maria's Meals - Wednesday takeaway meal",
+          "title": "St. Maria's Meals - Wednesday takeaway meal",
+          "description": "Phone: 202-772-4300\nMeal: Wednesday, 5 to 6 p.m. No registration or application is required.\nOfficial program information",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " outside Catholic Charities, 924 G Street NW"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "202-772-4300",
-                  "href": "tel:+12027724300"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Meal:",
-                  "strong": true
-                },
-                {
-                  "text": " Wednesday, 5 to 6 p.m. No registration or application is required."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Official program information",
-                  "href": "https://www.catholiccharitiesdc.org/program/st-marias-meals/"
-                }
-              ]
-            }
-          ]
+          "address": "Address: outside Catholic Charities, 924 G Street NW",
+          "phone": "+12027724300",
+          "website": "https://www.catholiccharitiesdc.org/program/st-marias-meals/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "mckenna-s-wagon-free-evening-meals-every-day",
-          "name": "McKenna's Wagon - free evening meals every day",
+          "title": "McKenna's Wagon - free evening meals every day",
+          "description": "First stop: New Jersey Avenue and I Street NW, approximately 5:15 to 5:40 p.m.\nSecond stop: 19th and H Street NW, approximately 6 to 6:25 p.m.\nWarm meals, sandwiches, fruit, and drinks, 365 days a year at no cost. Times can shift with traffic.\nOfficial current stops",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "First stop:",
-                  "strong": true
-                },
-                {
-                  "text": " New Jersey Avenue and I Street NW, approximately 5:15 to 5:40 p.m."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Second stop:",
-                  "strong": true
-                },
-                {
-                  "text": " 19th and H Street NW, approximately 6 to 6:25 p.m."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Warm meals, sandwiches, fruit, and drinks, 365 days a year at no cost. Times can shift with traffic."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Official current stops",
-                  "href": "https://marthastable.org/mckennas/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://marthastable.org/mckennas/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "miriam-s-kitchen-weekday-meals",
-          "name": "Miriam's Kitchen - weekday meals",
+          "title": "Miriam's Kitchen - weekday meals",
+          "description": "Phone: 202-452-8926\nWeekday breakfast and morning guest services, plus an afternoon meal. The schedule has changed before; call or check the official site before traveling.\nOfficial website",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 2401 Virginia Avenue NW, Washington, DC 20037"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "202-452-8926",
-                  "href": "tel:+12024528926"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Weekday breakfast and morning guest services, plus an afternoon meal. The schedule has changed before; call or check the official site before traveling."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Official website",
-                  "href": "https://www.miriamskitchen.org/"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 2401 Virginia Avenue NW, Washington, DC 20037",
+          "phone": "+12024528926",
+          "website": "https://www.miriamskitchen.org/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "n-street-village-meals-for-women",
-          "name": "N Street Village - meals for women",
+          "title": "N Street Village - meals for women",
+          "description": "Phone: 202-939-2076\nMonday through Friday, 8 a.m. to 4 p.m. Breakfast is normally 8:45 to 9:45 a.m.; hot lunch is noon to 1 p.m. Serves adult women and people who identify as women.\nOfficial help information",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 1333 N Street NW, Washington, DC 20005"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "202-939-2076",
-                  "href": "tel:+12029392076"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Monday through Friday, 8 a.m. to 4 p.m. Breakfast is normally 8:45 to 9:45 a.m.; hot lunch is noon to 1 p.m. Serves adult women and people who identify as women."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Official help information",
-                  "href": "https://www.nstreetvillage.org/get-help/"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 1333 N Street NW, Washington, DC 20005",
+          "phone": "+12029392076",
+          "website": "https://www.nstreetvillage.org/get-help/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "central-union-mission-walk-in-meals",
-          "name": "Central Union Mission - walk-in meals",
+          "title": "Central Union Mission - walk-in meals",
+          "description": "Official help information",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 65 Massachusetts Avenue NW"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Lunch:",
-                  "strong": true
-                },
-                {
-                  "text": " approximately 12:30 p.m. "
-                },
-                {
-                  "text": "Dinner:",
-                  "strong": true
-                },
-                {
-                  "text": " approximately 5 p.m. Walk-ins are served; call first for holiday changes."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Official help information",
-                  "href": "https://www.missiondc.org/get-help/"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 65 Massachusetts Avenue NW",
+          "phone": "",
+          "website": "https://www.missiondc.org/get-help/",
+          "hours": "Lunch: approximately 12:30 p.m. Dinner: approximately 5 p.m. Walk-ins are served; call first for holiday changes.",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "charlie-s-place",
-          "name": "Charlie's Place",
+          "title": "Charlie's Place",
+          "description": "Phone: 202-929-0100\nOfficial programs and hours",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 1820 Connecticut Avenue NW, Washington, DC 20009"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "202-929-0100",
-                  "href": "tel:+12029290100"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Hours:",
-                  "strong": true
-                },
-                {
-                  "text": " Tuesday and Thursday, 6:30 to 9:30 a.m.; Saturday, 8 to 10 a.m. Food and basic supplies are provided while available."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Official programs and hours",
-                  "href": "https://www.charliesplacedc.org/our-programs"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 1820 Connecticut Avenue NW, Washington, DC 20009",
+          "phone": "+12029290100",
+          "website": "https://www.charliesplacedc.org/our-programs",
+          "hours": "Hours: Tuesday and Thursday, 6:30 to 9:30 a.m.; Saturday, 8 to 10 a.m. Food and basic supplies are provided while available.",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "find-a-pantry-near-you",
-          "name": "Find a pantry near you",
+          "title": "Find a pantry near you",
+          "description": "DC Hunger Solutions maintains a ward-by-ward list of emergency food programs, including schedules and stated identification rules.\nCurrent emergency food directory",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "DC Hunger Solutions maintains a ward-by-ward list of emergency food programs, including schedules and stated identification rules."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Current emergency food directory",
-                  "href": "https://www.dchunger.org/get-help-resources/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.dchunger.org/get-help-resources/",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
-      "id": "faith",
-      "title": "3. Churches and faith-based help",
-      "items": [
+      "id": "community",
+      "title": "Churches and faith-based help",
+      "entries": [
         {
-          "type": "paragraph",
-          "content": [
-            {
-              "text": "These organizations provide practical help. Their faith identity is included so you can make an informed choice. Ask about any optional religious activity before joining a residential program."
-            }
-          ]
-        },
-        {
-          "type": "resource",
           "id": "catholic-charities-dc",
-          "name": "Catholic Charities DC",
+          "title": "Catholic Charities DC",
+          "description": "These organizations provide practical help. Their faith identity is included so you can make an informed choice. Ask about any optional religious activity before joining a residential program.\nPractical help: St. Maria's Meals, low-barrier shelters, case management, immigration legal help, and other programs. The Wednesday meal states that no registration or application is required; shelter entry rules differ by program.\nOfficial help directory",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Practical help:",
-                  "strong": true
-                },
-                {
-                  "text": " St. Maria's Meals, low-barrier shelters, case management, immigration legal help, and other programs. The Wednesday meal states that no registration or application is required; shelter entry rules differ by program."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Official help directory",
-                  "href": "https://www.catholiccharitiesdc.org/get-help/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.catholiccharitiesdc.org/get-help/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "central-union-mission",
-          "name": "Central Union Mission",
+          "title": "Central Union Mission",
+          "description": "Tradition: Christian.\nPractical help: meals, men's emergency shelter, health care, clothing, employment and social-service connections. Longer residential programs are Christian; ask about expectations before enrolling.\nOfficial help information",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Tradition:",
-                  "strong": true
-                },
-                {
-                  "text": " Christian."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Practical help:",
-                  "strong": true
-                },
-                {
-                  "text": " meals, men's emergency shelter, health care, clothing, employment and social-service connections. Longer residential programs are Christian; ask about expectations before enrolling."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Official help information",
-                  "href": "https://www.missiondc.org/get-help/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.missiondc.org/get-help/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "charlie-s-place-at-st-margaret-s-episcopal-church",
-          "name": "Charlie's Place at St. Margaret's Episcopal Church",
+          "title": "Charlie's Place at St. Margaret's Episcopal Church",
+          "description": "Tradition: Episcopal.\nPractical help: food, clothing, hygiene items, case management, health referrals, and pantry support. The organization states that it serves people without evangelization.\nOfficial mission and access information",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Tradition:",
-                  "strong": true
-                },
-                {
-                  "text": " Episcopal."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Practical help:",
-                  "strong": true
-                },
-                {
-                  "text": " food, clothing, hygiene items, case management, health referrals, and pantry support. The organization states that it serves people without evangelization."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Official mission and access information",
-                  "href": "https://www.charliesplacedc.org/about-us"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.charliesplacedc.org/about-us",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "shrine-of-the-sacred-heart-dinner-program",
-          "name": "Shrine of the Sacred Heart dinner program",
+          "title": "Shrine of the Sacred Heart dinner program",
+          "description": "Phone: 202-234-8000\nThe current local homeless-services directory lists dinner Monday through Saturday, 4 to 5 p.m. Call the parish before traveling because meal schedules can change.\nCurrent DowntownDC resource listing",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 3211 Sacred Heart Way, Washington, DC 20010"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "202-234-8000",
-                  "href": "tel:+12022348000"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "The current local homeless-services directory lists dinner Monday through Saturday, 4 to 5 p.m. Call the parish before traveling because meal schedules can change."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Current DowntownDC resource listing",
-                  "href": "https://www.downtowndc.org/homeless-services-and-resource/"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 3211 Sacred Heart Way, Washington, DC 20010",
+          "phone": "+12022348000",
+          "website": "https://www.downtowndc.org/homeless-services-and-resource/",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
       "id": "hygiene",
-      "title": "4. Showers, laundry, and hygiene",
-      "items": [
+      "title": "Showers, laundry, and hygiene",
+      "entries": [
         {
-          "type": "resource",
           "id": "downtown-day-services-center",
-          "name": "Downtown Day Services Center",
+          "title": "Downtown Day Services Center",
+          "description": "Phone: 202-383-8810\nServices: toilets, showers, hygiene items, laundry, clothing, charging, computers, mail, health care, case management, benefits, employment, harm reduction, and identification help. Individual services may have separate sign-up times.\nOfficial DC day-center list",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 1313 New York Avenue NW, Washington, DC 20005"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "202-383-8810",
-                  "href": "tel:+12023838810"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Hours:",
-                  "strong": true
-                },
-                {
-                  "text": " Monday through Friday, 9 a.m. to 5 p.m.; Saturday, 10 a.m. to 3 p.m."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Services:",
-                  "strong": true
-                },
-                {
-                  "text": " toilets, showers, hygiene items, laundry, clothing, charging, computers, mail, health care, case management, benefits, employment, harm reduction, and identification help. Individual services may have separate sign-up times."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Official DC day-center list",
-                  "href": "https://dhs.dc.gov/page/day-services-centers"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 1313 New York Avenue NW, Washington, DC 20005",
+          "phone": "+12023838810",
+          "website": "https://dhs.dc.gov/page/day-services-centers",
+          "hours": "Hours: Monday through Friday, 9 a.m. to 5 p.m.; Saturday, 10 a.m. to 3 p.m.",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "adams-place-day-center",
-          "name": "Adams Place Day Center",
+          "title": "Adams Place Day Center",
+          "description": "Phone: 202-374-6846\nServices: toilets, showers, laundry, lunch, clothing, computers, case management, benefits, jobs, housing help, and limited storage. Ask at reception for same-day availability.\nOfficial DC day-center list",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 2210 Adams Place NE, Washington, DC 20018"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "202-374-6846",
-                  "href": "tel:+12023746846"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Hours:",
-                  "strong": true
-                },
-                {
-                  "text": " Monday through Friday, 9 a.m. to 5 p.m."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Services:",
-                  "strong": true
-                },
-                {
-                  "text": " toilets, showers, laundry, lunch, clothing, computers, case management, benefits, jobs, housing help, and limited storage. Ask at reception for same-day availability."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Official DC day-center list",
-                  "href": "https://dhs.dc.gov/page/day-services-centers"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 2210 Adams Place NE, Washington, DC 20018",
+          "phone": "+12023746846",
+          "website": "https://dhs.dc.gov/page/day-services-centers",
+          "hours": "Hours: Monday through Friday, 9 a.m. to 5 p.m.",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "801-east-day-center",
-          "name": "801 East Day Center",
+          "title": "801 East Day Center",
+          "description": "Phone: 202-561-4014\nServices: toilets, showers, hygiene, laundry, clothing, charging, computers, housing and benefits help, and health connections. Ask staff which services require a sign-up.\nOfficial DC day-center list",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 2722 Martin Luther King Jr. Avenue SE, Washington, DC 20032"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "202-561-4014",
-                  "href": "tel:+12025614014"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Hours:",
-                  "strong": true
-                },
-                {
-                  "text": " Monday through Friday, 9 a.m. to 5 p.m."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Services:",
-                  "strong": true
-                },
-                {
-                  "text": " toilets, showers, hygiene, laundry, clothing, charging, computers, housing and benefits help, and health connections. Ask staff which services require a sign-up."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Official DC day-center list",
-                  "href": "https://dhs.dc.gov/page/day-services-centers"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 2722 Martin Luther King Jr. Avenue SE, Washington, DC 20032",
+          "phone": "+12025614014",
+          "website": "https://dhs.dc.gov/page/day-services-centers",
+          "hours": "Hours: Monday through Friday, 9 a.m. to 5 p.m.",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "some-shower-and-hygiene-services",
-          "name": "SOME shower and hygiene services",
+          "title": "SOME shower and hygiene services",
+          "description": "Showers: daily, 6 to 11 a.m. Hygiene kits: normally distributed from 7:30 a.m., with program limits and identification required for collection.\nOfficial emergency services",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 71 O Street NW; check in for supplies at 61 O Street NW"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Showers:",
-                  "strong": true
-                },
-                {
-                  "text": " daily, 6 to 11 a.m. "
-                },
-                {
-                  "text": "Hygiene kits:",
-                  "strong": true
-                },
-                {
-                  "text": " normally distributed from 7:30 a.m., with program limits and identification required for collection."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Official emergency services",
-                  "href": "https://some.org/get-help/"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 71 O Street NW; check in for supplies at 61 O Street NW",
+          "phone": "",
+          "website": "https://some.org/get-help/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "bethany-women-s-day-center-at-n-street-village",
-          "name": "Bethany Women's Day Center at N Street Village",
+          "title": "Bethany Women's Day Center at N Street Village",
+          "description": "Services: showers, laundry, toiletries, meals, wellness, and case management for adult women and people who identify as women. Sign-up is required for showers and laundry.\nOfficial help information",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 1333 N Street NW"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Hours:",
-                  "strong": true
-                },
-                {
-                  "text": " Monday through Friday, 8 a.m. to 4 p.m."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Services:",
-                  "strong": true
-                },
-                {
-                  "text": " showers, laundry, toiletries, meals, wellness, and case management for adult women and people who identify as women. Sign-up is required for showers and laundry."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Official help information",
-                  "href": "https://www.nstreetvillage.org/get-help/"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 1333 N Street NW",
+          "phone": "",
+          "website": "https://www.nstreetvillage.org/get-help/",
+          "hours": "Hours: Monday through Friday, 8 a.m. to 4 p.m.",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "sasha-bruce-youth-drop-in-center",
-          "name": "Sasha Bruce Youth Drop-In Center",
+          "title": "Sasha Bruce Youth Drop-In Center",
+          "description": "Phone: 202-675-9340\nServices: meals, showers, laundry, toiletries, clothing, lockers, mail, computers, health testing, case management, education, jobs, legal support, and documents for young people facing housing instability.\nOfficial center information",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 741 8th Street SE, Washington, DC 20003"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "202-675-9340",
-                  "href": "tel:+12026759340"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Services:",
-                  "strong": true
-                },
-                {
-                  "text": " meals, showers, laundry, toiletries, clothing, lockers, mail, computers, health testing, case management, education, jobs, legal support, and documents for young people facing housing instability."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Hours:",
-                  "strong": true
-                },
-                {
-                  "text": " Monday, Tuesday, and Thursday, 8 a.m. to 6 p.m.; Wednesday by appointment; Friday, 8 a.m. to 4 p.m."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Official center information",
-                  "href": "https://www.sashabruce.org/drop-in-center/"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 741 8th Street SE, Washington, DC 20003",
+          "phone": "+12026759340",
+          "website": "https://www.sashabruce.org/drop-in-center/",
+          "hours": "Hours: Monday, Tuesday, and Thursday, 8 a.m. to 6 p.m.; Wednesday by appointment; Friday, 8 a.m. to 4 p.m.",
+          "how_to_access": ""
         }
       ]
     },
     {
       "id": "clothing",
-      "title": "5. Free clothing",
-      "items": [
+      "title": "Free clothing",
+      "entries": [
         {
-          "type": "resource",
           "id": "some-clothing-room",
-          "name": "SOME clothing room",
+          "title": "SOME clothing room",
+          "description": "Adult clothing while stock lasts. SOME says adults do not need identification for clothing. Sizes and supplies vary.\nOfficial emergency services",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 61 O Street NW, Washington, DC 20001"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Hours:",
-                  "strong": true
-                },
-                {
-                  "text": " Tuesday and Thursday, 9 a.m. to noon."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Adult clothing while stock lasts. SOME says adults do not need identification for clothing. Sizes and supplies vary."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Official emergency services",
-                  "href": "https://some.org/get-help/"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 61 O Street NW, Washington, DC 20001",
+          "phone": "",
+          "website": "https://some.org/get-help/",
+          "hours": "Hours: Tuesday and Thursday, 9 a.m. to noon.",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "dc-day-centers",
-          "name": "DC day centers",
+          "title": "DC day centers",
+          "description": "Downtown Day Services Center, Adams Place, and 801 East all list emergency clothing among their services. Ask at reception about current stock and distribution times.\nAddresses, phones, and official hours",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Downtown Day Services Center, Adams Place, and 801 East all list emergency clothing among their services. Ask at reception about current stock and distribution times."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Addresses, phones, and official hours",
-                  "href": "https://dhs.dc.gov/page/day-services-centers"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://dhs.dc.gov/page/day-services-centers",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "charlie-s-place-clothing-and-essentials",
-          "name": "Charlie's Place clothing and essentials",
+          "title": "Charlie's Place clothing and essentials",
+          "description": "Clothing sign-up is normally Tuesday and Thursday from 6:30 to 7 a.m. The center also distributes toiletries and other essentials while supplies last.\nOfficial programs",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 1820 Connecticut Avenue NW"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Clothing sign-up is normally Tuesday and Thursday from 6:30 to 7 a.m. The center also distributes toiletries and other essentials while supplies last."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Official programs",
-                  "href": "https://www.charliesplacedc.org/our-programs"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 1820 Connecticut Avenue NW",
+          "phone": "",
+          "website": "https://www.charliesplacedc.org/our-programs",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "youth-and-women-specific-clothing",
-          "name": "Youth and women-specific clothing",
+          "title": "Youth and women-specific clothing",
+          "description": "Sasha Bruce Youth Drop-In Center provides clothing to young people. N Street Village's Bethany Day Center provides clothing and basic needs for women. Availability changes; ask before traveling solely for clothing.\n- Sasha Bruce\n- N Street Village — https://www.nstreetvillage.org/housing-community/",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Sasha Bruce Youth Drop-In Center provides clothing to young people. N Street Village's Bethany Day Center provides clothing and basic needs for women. Availability changes; ask before traveling solely for clothing."
-                }
-              ]
-            },
-            {
-              "type": "list",
-              "items": [
-                [
-                  {
-                    "text": "Sasha Bruce",
-                    "href": "https://www.sashabruce.org/drop-in-center/"
-                  }
-                ],
-                [
-                  {
-                    "text": "N Street Village",
-                    "href": "https://www.nstreetvillage.org/housing-community/"
-                  }
-                ]
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.sashabruce.org/drop-in-center/",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
       "id": "health",
-      "title": "6. Medical, mental health, and recovery care",
-      "items": [
+      "title": "Medical, mental health, and recovery care",
+      "entries": [
         {
-          "type": "paragraph",
-          "content": [
-            {
-              "text": "Call 911 for a medical emergency. Call or text 988 for a mental health, substance use, or suicide crisis. The services below are not emergency departments."
-            }
-          ]
-        },
-        {
-          "type": "resource",
           "id": "unity-health-care-for-people-experiencing-homelessness",
-          "name": "Unity Health Care for people experiencing homelessness",
+          "title": "Unity Health Care for people experiencing homelessness",
+          "description": "Call 911 for a medical emergency. Call or text 988 for a mental health, substance use, or suicide crisis. The services below are not emergency departments.\nMain phone: 202-508-0500\nPrimary care, case management, and other health services at shelters and day centers. Unity accepts patients regardless of ability to pay; free or discounted fees may be available based on income. Walk-in sites include Downtown Day Services Center, Federal City/CCNV, Central Union Mission, Friendship Place, New York Avenue Shelter, N Street Village, and Pathways to Housing. Clinic schedules differ, so call first.\nOfficial homeless health program",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Main phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "202-508-0500",
-                  "href": "tel:+12025080500"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Primary care, case management, and other health services at shelters and day centers. Unity accepts patients regardless of ability to pay; free or discounted fees may be available based on income. Walk-in sites include Downtown Day Services Center, Federal City/CCNV, Central Union Mission, Friendship Place, New York Avenue Shelter, N Street Village, and Pathways to Housing. Clinic schedules differ, so call first."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Official homeless health program",
-                  "href": "https://www.unityhealthcare.org/services/healthcare-for-the-homeless"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+12025080500",
+          "website": "https://www.unityhealthcare.org/services/healthcare-for-the-homeless",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "unity-at-downtown-day-services-center",
-          "name": "Unity at Downtown Day Services Center",
+          "title": "Unity at Downtown Day Services Center",
+          "description": "Phone: 202-508-0500\nTypical clinic hours: Monday through Friday, 9 a.m. to noon. Walk-in. Confirm before traveling.\nOfficial Unity locations",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 1313 New York Avenue NW, basement suite 1"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "202-508-0500",
-                  "href": "tel:+12025080500"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Typical clinic hours:",
-                  "strong": true
-                },
-                {
-                  "text": " Monday through Friday, 9 a.m. to noon. Walk-in. Confirm before traveling."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Official Unity locations",
-                  "href": "https://www.unityhealthcare.org/locations"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 1313 New York Avenue NW, basement suite 1",
+          "phone": "+12025080500",
+          "website": "https://www.unityhealthcare.org/locations",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "unity-at-federal-city-ccnv",
-          "name": "Unity at Federal City/CCNV",
+          "title": "Unity at Federal City/CCNV",
+          "description": "Phone: 202-508-0500\nTypical hours: Monday through Friday, 8 a.m. to 4 p.m. Walk-in. This is one of Unity's most comprehensive homeless health sites.\nOfficial Unity locations",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 425 2nd Street NW, Washington, DC 20001"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "202-508-0500",
-                  "href": "tel:+12025080500"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Typical hours:",
-                  "strong": true
-                },
-                {
-                  "text": " Monday through Friday, 8 a.m. to 4 p.m. Walk-in. This is one of Unity's most comprehensive homeless health sites."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Official Unity locations",
-                  "href": "https://www.unityhealthcare.org/locations"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 425 2nd Street NW, Washington, DC 20001",
+          "phone": "+12025080500",
+          "website": "https://www.unityhealthcare.org/locations",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "bread-for-the-city-medical-clinic",
-          "name": "Bread for the City medical clinic",
+          "title": "Bread for the City medical clinic",
+          "description": "New-patient phone: 202-386-7020\nPrimary care for adults and children, examinations, medications, labs, referrals, harm reduction, and coordinated behavioral, dental, and vision care. Care is provided regardless of ability to pay; dental and behavioral programs generally serve established primary-care patients.\nOfficial clinic information and call times",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "New-patient phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "202-386-7020",
-                  "href": "tel:+12023867020"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Primary care for adults and children, examinations, medications, labs, referrals, harm reduction, and coordinated behavioral, dental, and vision care. Care is provided regardless of ability to pay; dental and behavioral programs generally serve established primary-care patients."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Official clinic information and call times",
-                  "href": "https://breadforthecity.org/health-care/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+12023867020",
+          "website": "https://breadforthecity.org/health-care/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "some-medical-and-dental-clinic",
-          "name": "SOME medical and dental clinic",
+          "title": "SOME medical and dental clinic",
+          "description": "Phone: 202-797-8806\nOfficial services",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 60 O Street NW, Washington, DC 20001"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "202-797-8806",
-                  "href": "tel:+12027978806"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Hours:",
-                  "strong": true
-                },
-                {
-                  "text": " Monday through Friday, 8 a.m. to 4:30 p.m.; walk-in registration is normally 8 to 11 a.m. Serves adult DC residents and also connects people to mental health and recovery services."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Official services",
-                  "href": "https://some.org/get-help/"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 60 O Street NW, Washington, DC 20001",
+          "phone": "+12027978806",
+          "website": "https://some.org/get-help/",
+          "hours": "Hours: Monday through Friday, 8 a.m. to 4:30 p.m.; walk-in registration is normally 8 to 11 a.m. Serves adult DC residents and also connects people to mental health and recovery services.",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "dbh-access-helpline",
-          "name": "DBH Access Helpline",
+          "title": "DBH Access Helpline",
+          "description": "Phone: 888-793-4357, TTY 711\nOfficial helpline information",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "888-793-4357",
-                  "href": "tel:+18887934357"
-                },
-                {
-                  "text": ", TTY 711"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Hours:",
-                  "strong": true
-                },
-                {
-                  "text": " 24 hours, 7 days a week. Crisis support, referral to ongoing mental health or substance use care, and activation of mobile crisis teams for people unable or unwilling to travel."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Official helpline information",
-                  "href": "https://dbh.dc.gov/service/access-helpline"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+18887934357",
+          "website": "https://dbh.dc.gov/service/access-helpline",
+          "hours": "Hours: 24 hours, 7 days a week. Crisis support, referral to ongoing mental health or substance use care, and activation of mobile crisis teams for people unable or unwilling to travel.",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "community-response-team-crisis-response-on-the-street",
-          "name": "Community Response Team - crisis response on the street",
+          "title": "Community Response Team - crisis response on the street",
+          "description": "Phone: 202-673-6495\nOfficial team information",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "202-673-6495",
-                  "href": "tel:+12026736495"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Hours:",
-                  "strong": true
-                },
-                {
-                  "text": " 24 hours, 7 days a week. On-the-spot assessment, short-term support, referral, harm-reduction options, and outreach by clinicians and peers."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Official team information",
-                  "href": "https://dbh.dc.gov/service/community-response-team"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+12026736495",
+          "website": "https://dbh.dc.gov/service/community-response-team",
+          "hours": "Hours: 24 hours, 7 days a week. On-the-spot assessment, short-term support, referral, harm-reduction options, and outreach by clinicians and peers.",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "dc-stabilization-center-substance-use-crisis",
-          "name": "DC Stabilization Center - substance use crisis",
+          "title": "DC Stabilization Center - substance use crisis",
+          "description": "Eligibility and cost: free and voluntary for adults 18 or older; no insurance or DC residency required. Services include medical screening and stabilization, peer support, food, clothing, showers, laundry, and connection to longer-term treatment.\nOfficial center information",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 35 K Street NE, Washington, DC 20002"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Hours:",
-                  "strong": true
-                },
-                {
-                  "text": " 24 hours a day, every day; walk-ins welcome."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Eligibility and cost:",
-                  "strong": true
-                },
-                {
-                  "text": " free and voluntary for adults 18 or older; no insurance or DC residency required. Services include medical screening and stabilization, peer support, food, clothing, showers, laundry, and connection to longer-term treatment."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Official center information",
-                  "href": "https://dbh.dc.gov/service/dc-stabilization-center"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 35 K Street NE, Washington, DC 20002",
+          "phone": "",
+          "website": "https://dbh.dc.gov/service/dc-stabilization-center",
+          "hours": "Hours: 24 hours a day, every day; walk-ins welcome.",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "assessment-and-referral-center-treatment-enrollment",
-          "name": "Assessment and Referral Center - treatment enrollment",
+          "title": "Assessment and Referral Center - treatment enrollment",
+          "description": "Phone: 202-727-8473\nOfficial access information",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 75 P Street NE, Washington, DC"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "202-727-8473",
-                  "href": "tel:+12027278473"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Hours:",
-                  "strong": true
-                },
-                {
-                  "text": " Monday through Friday, 7 a.m. to 6 p.m. Call for an appointment or walk in for assessment and referral to detoxification, outpatient, residential, medication-assisted, and recovery services."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Official access information",
-                  "href": "https://dbh.dc.gov/page/where-get-help"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 75 P Street NE, Washington, DC",
+          "phone": "+12027278473",
+          "website": "https://dbh.dc.gov/page/where-get-help",
+          "hours": "Hours: Monday through Friday, 7 a.m. to 6 p.m. Call for an appointment or walk in for assessment and referral to detoxification, outpatient, residential, medication-assisted, and recovery services.",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "whitman-walker-health",
-          "name": "Whitman-Walker Health",
+          "title": "Whitman-Walker Health",
+          "description": "Affirming primary care, HIV and sexual health care, behavioral health, insurance navigation, and legal services, with particular expertise serving LGBTQ+ people and people living with HIV.\nOfficial health services and locations",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Affirming primary care, HIV and sexual health care, behavioral health, insurance navigation, and legal services, with particular expertise serving LGBTQ+ people and people living with HIV."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Official health services and locations",
-                  "href": "https://www.whitman-walker.org/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.whitman-walker.org/",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
-      "id": "toilets",
-      "title": "7. Toilets and daytime indoor spaces",
-      "items": [
+      "id": "mental-health",
+      "title": "Mental health and addiction",
+      "entries": []
+    },
+    {
+      "id": "public-facilities",
+      "title": "Toilets and daytime indoor spaces",
+      "entries": [
         {
-          "type": "resource",
           "id": "dc-day-centers",
-          "name": "DC day centers",
+          "title": "DC day centers",
+          "description": "Downtown Day Services Center, Adams Place, and 801 East provide toilets during open hours. They also offer indoor space and other survival services. Ask staff before leaving belongings unattended.\nOfficial locations and hours",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Downtown Day Services Center, Adams Place, and 801 East provide toilets during open hours. They also offer indoor space and other survival services. Ask staff before leaving belongings unattended."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Official locations and hours",
-                  "href": "https://dhs.dc.gov/page/day-services-centers"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://dhs.dc.gov/page/day-services-centers",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "dc-public-library",
-          "name": "DC Public Library",
+          "title": "DC Public Library",
+          "description": "DC Public Library has 26 locations. The central Martin Luther King Jr. Memorial Library is at 901 G Street NW. Libraries provide indoor public space, toilets during open hours, computers, Wi-Fi, printing, and scanning. Rules and holiday hours apply.\nFind the nearest open library",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "DC Public Library has 26 locations. The central Martin Luther King Jr. Memorial Library is at 901 G Street NW. Libraries provide indoor public space, toilets during open hours, computers, Wi-Fi, printing, and scanning. Rules and holiday hours apply."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Find the nearest open library",
-                  "href": "https://www.dclibrary.org/plan-visit"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.dclibrary.org/plan-visit",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
-      "id": "internet",
-      "title": "8. Phones, charging, computers, and internet",
-      "items": [
+      "id": "phone-internet",
+      "title": "Phones, charging, computers, and internet",
+      "entries": [
         {
-          "type": "resource",
           "id": "day-center-computers-and-charging",
-          "name": "Day-center computers and charging",
+          "title": "Day-center computers and charging",
+          "description": "Downtown Day Services Center, Adams Place, and 801 East list phone charging and computer access. Availability may be limited; bring your own cable and stay with your device.\nOfficial day-center list",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Downtown Day Services Center, Adams Place, and 801 East list phone charging and computer access. Availability may be limited; bring your own cable and stay with your device."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Official day-center list",
-                  "href": "https://dhs.dc.gov/page/day-services-centers"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://dhs.dc.gov/page/day-services-centers",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "free-library-computers-wi-fi-printing-and-scanning",
-          "name": "Free library computers, Wi-Fi, printing, and scanning",
+          "title": "Free library computers, Wi-Fi, printing, and scanning",
+          "description": "All DC Public Library locations offer public computers and Wi-Fi. Computer use is first come, first served. The library currently offers up to 20 pages a day of free printing, copying, or scanning.\n- Computer and printing rules\n- Library locations — https://www.dclibrary.org/plan-visit",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "All DC Public Library locations offer public computers and Wi-Fi. Computer use is first come, first served. The library currently offers up to 20 pages a day of free printing, copying, or scanning."
-                }
-              ]
-            },
-            {
-              "type": "list",
-              "items": [
-                [
-                  {
-                    "text": "Computer and printing rules",
-                    "href": "https://www.dclibrary.org/using-the-library/public-computers-printing"
-                  }
-                ],
-                [
-                  {
-                    "text": "Library locations",
-                    "href": "https://www.dclibrary.org/plan-visit"
-                  }
-                ]
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.dclibrary.org/using-the-library/public-computers-printing",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "digital-navigators",
-          "name": "Digital Navigators",
+          "title": "Digital Navigators",
+          "description": "Library Digital Navigators provide one-to-one help with phones, computers, email, online forms, PDFs, printing, and online privacy at selected branches. Drop-in availability varies; call the branch first.\nCurrent Digital Navigator locations",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Library Digital Navigators provide one-to-one help with phones, computers, email, online forms, PDFs, printing, and online privacy at selected branches. Drop-in availability varies; call the branch first."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Current Digital Navigator locations",
-                  "href": "https://www.dclibrary.org/using-the-library/digital-navigators"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.dclibrary.org/using-the-library/digital-navigators",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
       "id": "transport",
-      "title": "9. Free or reduced transportation",
-      "items": [
+      "title": "Free or reduced transportation",
+      "entries": [
         {
-          "type": "resource",
           "id": "free-transport-to-shelter-or-warming-sites",
-          "name": "Free transport to shelter or warming sites",
+          "title": "Free transport to shelter or warming sites",
+          "description": "Call the DC Shelter Hotline at 202-399-7093 or 311. The hotline can arrange free, accessible transport to an available shelter or extreme-weather site. Transport does not reserve a bed.\nOfficial transport information",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Call the DC Shelter Hotline at "
-                },
-                {
-                  "text": "202-399-7093",
-                  "href": "tel:+12023997093"
-                },
-                {
-                  "text": " or "
-                },
-                {
-                  "text": "311",
-                  "href": "tel:311"
-                },
-                {
-                  "text": ". The hotline can arrange free, accessible transport to an available shelter or extreme-weather site. Transport does not reserve a bed."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Official transport information",
-                  "href": "https://dhs.dc.gov/page/services-individuals-experiencing-homelessness"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+12023997093",
+          "website": "https://dhs.dc.gov/page/services-individuals-experiencing-homelessness",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "metro-lift-50-discount-for-snap-recipients",
-          "name": "Metro Lift - 50% discount for SNAP recipients",
+          "title": "Metro Lift - 50% discount for SNAP recipients",
+          "description": "People currently receiving SNAP in DC, Maryland, or Virginia can apply for 50% off Metrobus and Metrorail fares. Enrollment requires an active EBT card, a SmarTrip card, current government photo identification, and a phone number.\nIn-person enrollment: Transit Accessibility Center, 655 Virginia Avenue SW, Monday through Friday, 8 a.m. to 4 p.m. Walk-ins are welcome.\nOfficial eligibility and enrollment",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "People currently receiving SNAP in DC, Maryland, or Virginia can apply for 50% off Metrobus and Metrorail fares. Enrollment requires an active EBT card, a SmarTrip card, current government photo identification, and a phone number."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "In-person enrollment:",
-                  "strong": true
-                },
-                {
-                  "text": " Transit Accessibility Center, 655 Virginia Avenue SW, Monday through Friday, 8 a.m. to 4 p.m. Walk-ins are welcome."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Official eligibility and enrollment",
-                  "href": "https://www.wmata.com/pay/fare-programs/metrolift.html"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.wmata.com/pay/fare-programs/metrolift.html",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "senior-and-disability-reduced-fares",
-          "name": "Senior and disability reduced fares",
+          "title": "Senior and disability reduced fares",
+          "description": "Metro offers 50% reduced fares for riders age 65 or older and for riders under 65 with qualifying disabilities. The disability program requires an application and Reduced Fare Photo ID.\n- Official fare programs\n- Transit Accessibility Center — https://www.wmata.com/ride/accessibility/transit-accessibility.html",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Metro offers 50% reduced fares for riders age 65 or older and for riders under 65 with qualifying disabilities. The disability program requires an application and Reduced Fare Photo ID."
-                }
-              ]
-            },
-            {
-              "type": "list",
-              "items": [
-                [
-                  {
-                    "text": "Official fare programs",
-                    "href": "https://www.wmata.com/pay/fare-programs.html"
-                  }
-                ],
-                [
-                  {
-                    "text": "Transit Accessibility Center",
-                    "href": "https://www.wmata.com/ride/accessibility/transit-accessibility.html"
-                  }
-                ]
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.wmata.com/pay/fare-programs.html",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "ronald-reagan-washington-national-airport-dca",
+          "title": "Ronald Reagan Washington National Airport (DCA)",
+          "description": "Airports are not shelters. If you are stranded without a safe place to sleep, call the Shelter Hotline before leaving a staffed public area. Metro service does not run all night.\nThe airport has its own Metrorail station on the Blue and Yellow lines. Use the WMATA trip planner for current service, elevator status, and fare. Metro Lift discounts apply to eligible cards.\nWMATA trip planner",
+          "last_verified": "2026-11-11",
+          "address": "",
+          "phone": "",
+          "website": "https://www.wmata.com/schedules/trip-planner/",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "washington-dulles-international-airport-iad",
+          "title": "Washington Dulles International Airport (IAD)",
+          "description": "The Silver Line serves Dulles Airport. The station connects to the terminal through an indoor pedestrian walkway of roughly five minutes. Train hours and final departures differ by day; check before traveling late at night.\n- Official Dulles Silver Line guide\n- WMATA trip planner — https://www.wmata.com/schedules/trip-planner/",
+          "last_verified": "2026-11-11",
+          "address": "",
+          "phone": "",
+          "website": "https://www.flydulles.com/parking-transportation/silver-line-metrorail/silver-line-faqs",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
       "id": "benefits",
-      "title": "10. Government benefits",
-      "items": [
+      "title": "Government benefits",
+      "entries": [
         {
-          "type": "resource",
           "id": "district-direct-snap-medicaid-and-cash-assistance",
-          "name": "District Direct - SNAP, Medicaid, and cash assistance",
+          "title": "District Direct - SNAP, Medicaid, and cash assistance",
+          "description": "Phone: 202-727-5355, TTY 711\nCall-center hours: Monday through Friday, 7:30 a.m. to 4:45 p.m.\nApply online through District Direct, by paper application, fax, mail, or at a DHS Service Center. Programs include SNAP, Medicaid, TANF, and other cash or medical assistance. Applying does not guarantee eligibility.\n- District Direct — https://districtdirect.dc.gov/\n- Official application instructions",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "202-727-5355",
-                  "href": "tel:+12027275355"
-                },
-                {
-                  "text": ", TTY 711"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Call-center hours:",
-                  "strong": true
-                },
-                {
-                  "text": " Monday through Friday, 7:30 a.m. to 4:45 p.m."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Apply online through District Direct, by paper application, fax, mail, or at a DHS Service Center. Programs include SNAP, Medicaid, TANF, and other cash or medical assistance. Applying does not guarantee eligibility."
-                }
-              ]
-            },
-            {
-              "type": "list",
-              "items": [
-                [
-                  {
-                    "text": "District Direct",
-                    "href": "https://districtdirect.dc.gov/"
-                  }
-                ],
-                [
-                  {
-                    "text": "Official application instructions",
-                    "href": "https://dhs.dc.gov/page/public-benefits"
-                  }
-                ]
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+12027275355",
+          "website": "https://dhs.dc.gov/page/public-benefits",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "dhs-service-centers-in-person-benefits-help",
-          "name": "DHS Service Centers - in-person benefits help",
+          "title": "DHS Service Centers - in-person benefits help",
+          "description": "Locations: Anacostia, Fort Davis, Congress Heights, H Street, and Taylor Street. Any center can help; DC uses a no-wrong-door policy. Check the official page for same-day closures before traveling.\nCurrent addresses and operating status",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Hours:",
-                  "strong": true
-                },
-                {
-                  "text": " Monday through Friday, 7:30 a.m. to 4:45 p.m., except holidays."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Locations:",
-                  "strong": true
-                },
-                {
-                  "text": " Anacostia, Fort Davis, Congress Heights, H Street, and Taylor Street. Any center can help; DC uses a no-wrong-door policy. Check the official page for same-day closures before traveling."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Current addresses and operating status",
-                  "href": "https://dhs.dc.gov/service/find-service-center-near-you"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://dhs.dc.gov/service/find-service-center-near-you",
+          "hours": "Hours: Monday through Friday, 7:30 a.m. to 4:45 p.m., except holidays.",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "benefits-help-without-navigating-alone",
-          "name": "Benefits help without navigating alone",
+          "title": "Benefits help without navigating alone",
+          "description": "Downtown Day Services Center, Adams Place, 801 East, Sasha Bruce Youth Drop-In Center, SOME, and Bread for the City can help people understand or apply for benefits. Ask for a benefits navigator or case manager; assistance and eligibility vary.\nStart with a DC day center",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Downtown Day Services Center, Adams Place, 801 East, Sasha Bruce Youth Drop-In Center, SOME, and Bread for the City can help people understand or apply for benefits. Ask for a benefits navigator or case manager; assistance and eligibility vary."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Start with a DC day center",
-                  "href": "https://dhs.dc.gov/page/day-services-centers"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://dhs.dc.gov/page/day-services-centers",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
-      "id": "jobs",
-      "title": "11. Employment and training",
-      "items": [
+      "id": "employment",
+      "title": "Employment and training",
+      "entries": [
         {
-          "type": "resource",
           "id": "dc-american-job-centers",
-          "name": "DC American Job Centers",
+          "title": "DC American Job Centers",
+          "description": "Phone: 202-724-7000\nCareer counseling, resumes, job search and placement, training, labor-market information, and unemployment assistance. Current in-person services may require an appointment.\n- Official job-seeker services\n- Locations and appointments — https://does.dc.gov/service/american-job-center",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "202-724-7000",
-                  "href": "tel:+12027247000"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Career counseling, resumes, job search and placement, training, labor-market information, and unemployment assistance. Current in-person services may require an appointment."
-                }
-              ]
-            },
-            {
-              "type": "list",
-              "items": [
-                [
-                  {
-                    "text": "Official job-seeker services",
-                    "href": "https://does.dc.gov/page/job-seekers"
-                  }
-                ],
-                [
-                  {
-                    "text": "Locations and appointments",
-                    "href": "https://does.dc.gov/service/american-job-center"
-                  }
-                ]
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+12027247000",
+          "website": "https://does.dc.gov/page/job-seekers",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "dcnetworks",
-          "name": "DCNetworks",
+          "title": "DCNetworks",
+          "description": "DCNetworks is the District's job-search system. You can search openings, post a resume, and apply online. Library computers and Digital Navigators can help if you do not have a device.\nSearch jobs on DCNetworks",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "DCNetworks is the District's job-search system. You can search openings, post a resume, and apply online. Library computers and Digital Navigators can help if you do not have a device."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Search jobs on DCNetworks",
-                  "href": "https://www.dcnetworks.org/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.dcnetworks.org/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "some-center-for-employment-training",
-          "name": "SOME Center for Employment Training",
+          "title": "SOME Center for Employment Training",
+          "description": "Phone: 202-797-8806\nOccupational training and employment support. Programs have intake requirements and scheduled start dates; call before going.\nOfficial SOME help directory",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 4430 Benning Road NE, Washington, DC"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "202-797-8806",
-                  "href": "tel:+12027978806"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Occupational training and employment support. Programs have intake requirements and scheduled start dates; call before going."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Official SOME help directory",
-                  "href": "https://some.org/get-help/"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 4430 Benning Road NE, Washington, DC",
+          "phone": "+12027978806",
+          "website": "https://some.org/get-help/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "job-search-at-day-and-youth-centers",
-          "name": "Job search at day and youth centers",
+          "title": "Job search at day and youth centers",
+          "description": "Downtown Day Services Center and Adams Place offer employment assistance and computers. Sasha Bruce provides job search and readiness help for young people. N Street Village connects women to training and employment opportunities.\n- DC day centers\n- Sasha Bruce — https://www.sashabruce.org/drop-in-center/\n- N Street Village — https://www.nstreetvillage.org/housing-community/",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Downtown Day Services Center and Adams Place offer employment assistance and computers. Sasha Bruce provides job search and readiness help for young people. N Street Village connects women to training and employment opportunities."
-                }
-              ]
-            },
-            {
-              "type": "list",
-              "items": [
-                [
-                  {
-                    "text": "DC day centers",
-                    "href": "https://dhs.dc.gov/page/day-services-centers"
-                  }
-                ],
-                [
-                  {
-                    "text": "Sasha Bruce",
-                    "href": "https://www.sashabruce.org/drop-in-center/"
-                  }
-                ],
-                [
-                  {
-                    "text": "N Street Village",
-                    "href": "https://www.nstreetvillage.org/housing-community/"
-                  }
-                ]
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://dhs.dc.gov/page/day-services-centers",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
       "id": "legal",
-      "title": "12. Free legal help",
-      "items": [
+      "title": "Free legal help",
+      "entries": [
         {
-          "type": "resource",
           "id": "washington-legal-clinic-for-the-homeless",
-          "name": "Washington Legal Clinic for the Homeless",
+          "title": "Washington Legal Clinic for the Homeless",
+          "description": "Phone: 202-328-5500\nFree legal help with shelter denials, street rights, housing programs, public benefits, identification, discrimination, record sealing, and other civil issues affecting people experiencing homelessness. If you are denied safe, accessible shelter, call this number.\nOfficial intake information",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 1200 U Street NW, Washington, DC 20009"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "202-328-5500",
-                  "href": "tel:+12023285500"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Hours:",
-                  "strong": true
-                },
-                {
-                  "text": " Monday through Friday, 9 a.m. to 5 p.m."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Free legal help with shelter denials, street rights, housing programs, public benefits, identification, discrimination, record sealing, and other civil issues affecting people experiencing homelessness. If you are denied safe, accessible shelter, call this number."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Official intake information",
-                  "href": "https://www.legalclinic.org/get-legal-help/"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 1200 U Street NW, Washington, DC 20009",
+          "phone": "+12023285500",
+          "website": "https://www.legalclinic.org/get-legal-help/",
+          "hours": "Hours: Monday through Friday, 9 a.m. to 5 p.m.",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "legal-aid-dc",
-          "name": "Legal Aid DC",
+          "title": "Legal Aid DC",
+          "description": "Phone: 202-628-1161\nNorthwest: 1331 H Street NW, Suite 350; walk-in Tuesday and Thursday, 12:30 to 4 p.m.\nSoutheast: 1911 Martin Luther King Jr. Avenue SE; walk-in Monday and Thursday, 12:30 to 4 p.m.\nFree civil legal services for eligible low-income DC residents. Capacity and case acceptance vary.\nOfficial contact and intake information",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "202-628-1161",
-                  "href": "tel:+12026281161"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Northwest:",
-                  "strong": true
-                },
-                {
-                  "text": " 1331 H Street NW, Suite 350; walk-in Tuesday and Thursday, 12:30 to 4 p.m."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Southeast:",
-                  "strong": true
-                },
-                {
-                  "text": " 1911 Martin Luther King Jr. Avenue SE; walk-in Monday and Thursday, 12:30 to 4 p.m."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Free civil legal services for eligible low-income DC residents. Capacity and case acceptance vary."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Official contact and intake information",
-                  "href": "https://www.legalaiddc.org/contactus"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+12026281161",
+          "website": "https://www.legalaiddc.org/contactus",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "dc-bar-advice-and-referral-clinic",
-          "name": "DC Bar Advice and Referral Clinic",
+          "title": "DC Bar Advice and Referral Clinic",
+          "description": "Free Saturday civil legal advice from volunteer attorneys; no appointment. Intake is normally 10 a.m. to noon and capacity is limited. The clinic operates on selected dates, not every Saturday.\nCheck upcoming clinic dates",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 901 4th Street NW, Washington, DC 20001"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Free Saturday civil legal advice from volunteer attorneys; no appointment. Intake is normally 10 a.m. to noon and capacity is limited. The clinic operates on selected dates, not every Saturday."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Check upcoming clinic dates",
-                  "href": "https://www.dcbar.org/pro-bono/free-legal-help/help-for-individuals/advice-referral-clinic"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 901 4th Street NW, Washington, DC 20001",
+          "phone": "",
+          "website": "https://www.dcbar.org/pro-bono/free-legal-help/help-for-individuals/advice-referral-clinic",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "whitman-walker-free-legal-services",
-          "name": "Whitman-Walker free legal services",
+          "title": "Whitman-Walker free legal services",
+          "description": "Phone: 202-939-7630\nHelp with health insurance and public-benefit appeals, disability, discrimination, immigration, medical privacy, and name or gender-marker changes. An intake is required; acceptance is not guaranteed. Interpretation, including ASL, is available.\nOfficial legal services",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "202-939-7630",
-                  "href": "tel:+12029397630"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Help with health insurance and public-benefit appeals, disability, discrimination, immigration, medical privacy, and name or gender-marker changes. An intake is required; acceptance is not guaranteed. Interpretation, including ASL, is available."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Official legal services",
-                  "href": "https://www.whitman-walker.org/health-services/legal-services/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+12029397630",
+          "website": "https://www.whitman-walker.org/health-services/legal-services/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "ayuda-immigrants",
-          "name": "Ayuda - immigrants",
+          "title": "Ayuda - immigrants",
+          "description": "Ayuda provides legal, social, and language services for low-income immigrants in DC, Maryland, and Virginia. Contact the organization for current intake availability; do not pay an unverified person for immigration advice.\nOfficial Ayuda website",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ayuda provides legal, social, and language services for low-income immigrants in DC, Maryland, and Virginia. Contact the organization for current intake availability; do not pay an unverified person for immigration advice."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Official Ayuda website",
-                  "href": "https://ayuda.com/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://ayuda.com/",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
       "id": "documents",
-      "title": "13. Identification and vital documents",
-      "items": [
+      "title": "Identification and vital documents",
+      "entries": [
         {
-          "type": "resource",
           "id": "no-fee-dc-birth-certificate-and-non-driver-id",
-          "name": "No-fee DC birth certificate and non-driver ID",
+          "title": "No-fee DC birth certificate and non-driver ID",
+          "description": "Eligible DC residents experiencing homelessness may obtain a no-fee DC birth certificate or non-driver identification card through a DHS-designated access point. A provider must verify eligibility and participation in homeless services; this is not a walk-in fee waiver at every government office.\nCurrent access points include: Downtown Day Services Center, Adams Place, 801 East, Community Connections, Zoe's Doors, Shirley's Place, Latin American Youth Center, SAMU, and Sasha Bruce.\nImportant: current DC rules require recent HMIS history and documented service engagements. Ask an access-point worker to check eligibility before going to Vital Records or DMV.\nOfficial requirements and access-point list",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Eligible DC residents experiencing homelessness may obtain a no-fee DC birth certificate or non-driver identification card through a DHS-designated access point. A provider must verify eligibility and participation in homeless services; this is not a walk-in fee waiver at every government office."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Current access points include:",
-                  "strong": true
-                },
-                {
-                  "text": " Downtown Day Services Center, Adams Place, 801 East, Community Connections, Zoe's Doors, Shirley's Place, Latin American Youth Center, SAMU, and Sasha Bruce."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Important:",
-                  "strong": true
-                },
-                {
-                  "text": " current DC rules require recent HMIS history and documented service engagements. Ask an access-point worker to check eligibility before going to Vital Records or DMV."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Official requirements and access-point list",
-                  "href": "https://dhs.dc.gov/service/vital-documents-identification-cards"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://dhs.dc.gov/service/vital-documents-identification-cards",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "downtown-day-services-center-document-help",
-          "name": "Downtown Day Services Center document help",
+          "title": "Downtown Day Services Center document help",
+          "description": "Staff can help with vital records and DMV identification vouchers. DMV services are scheduled on site on certain days. Call 202-383-8810 before going specifically for documents.\nOfficial center information",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 1313 New York Avenue NW"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Staff can help with vital records and DMV identification vouchers. DMV services are scheduled on site on certain days. Call "
-                },
-                {
-                  "text": "202-383-8810",
-                  "href": "tel:+12023838810"
-                },
-                {
-                  "text": " before going specifically for documents."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Official center information",
-                  "href": "https://dhs.dc.gov/page/day-services-centers"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 1313 New York Avenue NW",
+          "phone": "+12023838810",
+          "website": "https://dhs.dc.gov/page/day-services-centers",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "youth-document-help",
-          "name": "Youth document help",
+          "title": "Youth document help",
+          "description": "Sasha Bruce Youth Drop-In Center helps young people obtain identification and vital records. Zoe's Doors and Latin American Youth Center are also designated ID access points.\n- Sasha Bruce services\n- DC youth centers — https://dhs.dc.gov/page/youth-homeless-services",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Sasha Bruce Youth Drop-In Center helps young people obtain identification and vital records. Zoe's Doors and Latin American Youth Center are also designated ID access points."
-                }
-              ]
-            },
-            {
-              "type": "list",
-              "items": [
-                [
-                  {
-                    "text": "Sasha Bruce services",
-                    "href": "https://www.sashabruce.org/drop-in-center/"
-                  }
-                ],
-                [
-                  {
-                    "text": "DC youth centers",
-                    "href": "https://dhs.dc.gov/page/youth-homeless-services"
-                  }
-                ]
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.sashabruce.org/drop-in-center/",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
       "id": "mail",
-      "title": "14. Mailing address",
-      "items": [
+      "title": "Mailing address",
+      "entries": [
         {
-          "type": "resource",
           "id": "some-mail-service",
-          "name": "SOME mail service",
+          "title": "SOME mail service",
+          "description": "Phone: 202-797-8806\nClients can use SOME's 71 O Street address and receive a text or email when mail arrives. Identification is required to collect mail. Register before directing important mail there.\nOfficial mail-service information",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Service location:",
-                  "strong": true
-                },
-                {
-                  "text": " 61 O Street NW, Washington, DC 20001"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "202-797-8806",
-                  "href": "tel:+12027978806"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Hours:",
-                  "strong": true
-                },
-                {
-                  "text": " Monday through Friday, 8 a.m. to 1 p.m."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Clients can use SOME's 71 O Street address and receive a text or email when mail arrives. Identification is required to collect mail. Register before directing important mail there."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Official mail-service information",
-                  "href": "https://some.org/get-help/"
-                }
-              ]
-            }
-          ]
+          "address": "Service location: 61 O Street NW, Washington, DC 20001",
+          "phone": "+12027978806",
+          "website": "https://some.org/get-help/",
+          "hours": "Hours: Monday through Friday, 8 a.m. to 1 p.m.",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "youth-mail-service",
-          "name": "Youth mail service",
+          "title": "Youth mail service",
+          "description": "Sasha Bruce Youth Drop-In Center at 741 8th Street SE lists mailing services for young people experiencing homelessness or housing instability. Register with staff before using the address.\nOfficial services",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Sasha Bruce Youth Drop-In Center at 741 8th Street SE lists mailing services for young people experiencing homelessness or housing instability. Register with staff before using the address."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Official services",
-                  "href": "https://www.sashabruce.org/drop-in-center/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.sashabruce.org/drop-in-center/",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
       "id": "storage",
-      "title": "15. Storage",
-      "items": [
+      "title": "Storage",
+      "entries": [
         {
-          "type": "paragraph",
-          "content": [
-            {
-              "text": "Washington has very limited public storage for people experiencing homelessness. Do not assume that a shelter will store belongings or accept large bags."
-            }
-          ]
-        },
-        {
-          "type": "resource",
           "id": "adams-place-day-center-limited-storage",
-          "name": "Adams Place Day Center - limited storage",
+          "title": "Adams Place Day Center - limited storage",
+          "description": "Washington has very limited public storage for people experiencing homelessness. Do not assume that a shelter will store belongings or accept large bags.\nThe official day-center flyer lists limited storage. Space, duration, and item rules can change. Ask staff in person or call 202-374-6846; availability is not guaranteed.\nOfficial Adams Place flyer",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 2210 Adams Place NE"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "The official day-center flyer lists limited storage. Space, duration, and item rules can change. Ask staff in person or call "
-                },
-                {
-                  "text": "202-374-6846",
-                  "href": "tel:+12023746846"
-                },
-                {
-                  "text": "; availability is not guaranteed."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Official Adams Place flyer",
-                  "href": "https://dhs.dc.gov/sites/default/files/dc/sites/dhs/page_content/attachments/Adams%20Place%20Service%20Center%20Flyer_1_0.pdf"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 2210 Adams Place NE",
+          "phone": "+12023746846",
+          "website": "https://dhs.dc.gov/sites/default/files/dc/sites/dhs/page_content/attachments/Adams%20Place%20Service%20Center%20Flyer_1_0.pdf",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "sasha-bruce-youth-lockers",
-          "name": "Sasha Bruce youth lockers",
+          "title": "Sasha Bruce youth lockers",
+          "description": "The youth drop-in center lists lockers among its services. Ask about availability, permitted items, and collection deadlines before leaving anything.\nOfficial center information",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 741 8th Street SE"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "The youth drop-in center lists lockers among its services. Ask about availability, permitted items, and collection deadlines before leaving anything."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Official center information",
-                  "href": "https://www.sashabruce.org/drop-in-center/"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 741 8th Street SE",
+          "phone": "",
+          "website": "https://www.sashabruce.org/drop-in-center/",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
-      "id": "specialized",
-      "title": "16. Specialized support",
-      "items": [
+      "id": "safety",
+      "title": "Safety and domestic violence",
+      "entries": []
+    },
+    {
+      "id": "specialist-support",
+      "title": "Specialized support",
+      "entries": [
         {
-          "type": "resource",
           "id": "dc-victim-hotline-domestic-violence-and-crime",
-          "name": "DC Victim Hotline - domestic violence and crime",
+          "title": "DC Victim Hotline - domestic violence and crime",
+          "description": "Call or text: 844-443-5732\nConfidential crisis support and connection to emergency safety, shelter, legal, financial, medical, and emotional resources for victims of crime. If making a call could put you in danger, use a safe device or ask a trusted service provider to help.\nOfficial hotline information",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Call or text:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "844-443-5732",
-                  "href": "tel:+18444435732"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Hours:",
-                  "strong": true
-                },
-                {
-                  "text": " 24 hours, 7 days a week."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Confidential crisis support and connection to emergency safety, shelter, legal, financial, medical, and emotional resources for victims of crime. If making a call could put you in danger, use a safe device or ask a trusted service provider to help."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Official hotline information",
-                  "href": "https://ovsjg.dc.gov/service/dc-victim-hotline"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+18444435732",
+          "website": "https://ovsjg.dc.gov/service/dc-victim-hotline",
+          "hours": "Hours: 24 hours, 7 days a week.",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "n-street-village-women",
-          "name": "N Street Village - women",
+          "title": "N Street Village - women",
+          "description": "Phone: 202-939-2076\nMeals, showers, laundry, toiletries, clothing, wellness, case management, housing assessment, health connections, and employment help for adult women and people who identify as women.\nOfficial help information",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 1333 N Street NW"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "202-939-2076",
-                  "href": "tel:+12029392076"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Meals, showers, laundry, toiletries, clothing, wellness, case management, housing assessment, health connections, and employment help for adult women and people who identify as women."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Official help information",
-                  "href": "https://www.nstreetvillage.org/get-help/"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 1333 N Street NW",
+          "phone": "+12029392076",
+          "website": "https://www.nstreetvillage.org/get-help/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "dc-youth-drop-in-centers-up-to-age-24",
-          "name": "DC youth drop-in centers - up to age 24",
+          "title": "DC youth drop-in centers - up to age 24",
+          "description": "Latin American Youth Center: 3045 15th Street NW, 202-713-0475.\nSAMU First Response: 650 Pennsylvania Avenue SE, 202-560-4535.\nSasha Bruce: 741 8th Street SE, 202-675-9340.\nZoe's Doors: 900 Rhode Island Avenue NE, 202-248-2098.\nServices vary but may include food, clothing, showers, laundry, case management, health, education, employment, documents, and housing referrals.\nOfficial hours, eligibility, and shelter list",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Latin American Youth Center:",
-                  "strong": true
-                },
-                {
-                  "text": " 3045 15th Street NW, "
-                },
-                {
-                  "text": "202-713-0475",
-                  "href": "tel:+12027130475"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "SAMU First Response:",
-                  "strong": true
-                },
-                {
-                  "text": " 650 Pennsylvania Avenue SE, "
-                },
-                {
-                  "text": "202-560-4535",
-                  "href": "tel:+12025604535"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Sasha Bruce:",
-                  "strong": true
-                },
-                {
-                  "text": " 741 8th Street SE, "
-                },
-                {
-                  "text": "202-675-9340",
-                  "href": "tel:+12026759340"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Zoe's Doors:",
-                  "strong": true
-                },
-                {
-                  "text": " 900 Rhode Island Avenue NE, "
-                },
-                {
-                  "text": "202-248-2098",
-                  "href": "tel:+12022482098"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Services vary but may include food, clothing, showers, laundry, case management, health, education, employment, documents, and housing referrals."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Official hours, eligibility, and shelter list",
-                  "href": "https://dhs.dc.gov/page/youth-homeless-services"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+12027130475",
+          "website": "https://dhs.dc.gov/page/youth-homeless-services",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "lgbtq-shelter-and-affirming-services",
-          "name": "LGBTQ+ shelter and affirming services",
+          "title": "LGBTQ+ shelter and affirming services",
+          "description": "Adults: Living Life Alternatives, 400 50th Street SE, 202-560-5457.\nAges 18-24: Covenant House SHINE, entry line 202-506-2432.\nHealth and legal: Whitman-Walker provides affirming care, insurance navigation, and free legal intake.\n- DC youth services\n- Whitman-Walker — https://www.whitman-walker.org/",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Adults:",
-                  "strong": true
-                },
-                {
-                  "text": " Living Life Alternatives, 400 50th Street SE, "
-                },
-                {
-                  "text": "202-560-5457",
-                  "href": "tel:+12025605457"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ages 18-24:",
-                  "strong": true
-                },
-                {
-                  "text": " Covenant House SHINE, entry line "
-                },
-                {
-                  "text": "202-506-2432",
-                  "href": "tel:+12025062432"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Health and legal:",
-                  "strong": true
-                },
-                {
-                  "text": " Whitman-Walker provides affirming care, insurance navigation, and free legal intake."
-                }
-              ]
-            },
-            {
-              "type": "list",
-              "items": [
-                [
-                  {
-                    "text": "DC youth services",
-                    "href": "https://dhs.dc.gov/page/youth-homeless-services"
-                  }
-                ],
-                [
-                  {
-                    "text": "Whitman-Walker",
-                    "href": "https://www.whitman-walker.org/"
-                  }
-                ]
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+12025605457",
+          "website": "https://dhs.dc.gov/page/youth-homeless-services",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "ayuda-immigrant-legal-social-and-language-services",
-          "name": "Ayuda - immigrant legal, social, and language services",
+          "title": "Ayuda - immigrant legal, social, and language services",
+          "description": "Ayuda supports low-income immigrants in the DC region. Contact the organization directly for current intake. Immigration status can affect eligibility for some benefits, but emergency services may have different rules; ask a qualified provider rather than assuming you cannot apply.\nOfficial Ayuda website",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ayuda supports low-income immigrants in the DC region. Contact the organization directly for current intake. Immigration status can affect eligibility for some benefits, but emergency services may have different rules; ask a qualified provider rather than assuming you cannot apply."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Official Ayuda website",
-                  "href": "https://ayuda.com/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://ayuda.com/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "va-community-resource-and-referral-center-veterans",
-          "name": "VA Community Resource and Referral Center - veterans",
+          "title": "VA Community Resource and Referral Center - veterans",
+          "description": "Phone: 202-745-3012, option 8\nShelter and housing connections, food, health and mental health care, recovery, benefits, employment, and re-entry support for veterans who are homeless or at risk.\nOfficial VA information",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 1500 Franklin Street NE, Washington, DC 20018"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "202-745-3012",
-                  "href": "tel:+12027453012"
-                },
-                {
-                  "text": ", option 8"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Hours:",
-                  "strong": true
-                },
-                {
-                  "text": " Monday through Friday, 8 a.m. to 4 p.m.; last walk-in normally accepted at 3:45 p.m."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Shelter and housing connections, food, health and mental health care, recovery, benefits, employment, and re-entry support for veterans who are homeless or at risk."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Official VA information",
-                  "href": "https://www.va.gov/washington-dc-health-care/health-services/homeless-veteran-care/"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 1500 Franklin Street NE, Washington, DC 20018",
+          "phone": "+12027453012",
+          "website": "https://www.va.gov/washington-dc-health-care/health-services/homeless-veteran-care/",
+          "hours": "Hours: Monday through Friday, 8 a.m. to 4 p.m.; last walk-in normally accepted at 3:45 p.m.",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "national-call-center-for-homeless-veterans",
-          "name": "National Call Center for Homeless Veterans",
+          "title": "National Call Center for Homeless Veterans",
+          "description": "Phone: 877-424-3838\nOfficial national hotline",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "877-424-3838",
-                  "href": "tel:+18774243838"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Hours:",
-                  "strong": true
-                },
-                {
-                  "text": " 24 hours, 7 days a week. Free and confidential for veterans who are homeless or at imminent risk, and for family members or supporters calling on their behalf."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Official national hotline",
-                  "href": "https://department.va.gov/homeless/nationalcallcenter/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+18774243838",
+          "website": "https://department.va.gov/homeless/nationalcallcenter/",
+          "hours": "Hours: 24 hours, 7 days a week. Free and confidential for veterans who are homeless or at imminent risk, and for family members or supporters calling on their behalf.",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "department-of-aging-and-community-living",
-          "name": "Department of Aging and Community Living",
+          "title": "Department of Aging and Community Living",
+          "description": "The Information and Referral unit helps older adults, adults with disabilities, and caregivers find social services, health programs, public benefits, long-term supports, and other assistance.\nOfficial information and referral service",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "The Information and Referral unit helps older adults, adults with disabilities, and caregivers find social services, health programs, public benefits, long-term supports, and other assistance."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Official information and referral service",
-                  "href": "https://dacl.dc.gov/service/information-referralassistance"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://dacl.dc.gov/service/information-referralassistance",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "disability-access-and-accommodation",
-          "name": "Disability access and accommodation",
+          "title": "Disability access and accommodation",
+          "description": "Tell the Shelter Hotline or a shelter worker if you need an accessible vehicle, mobility accommodation, sign-language access, a service-animal accommodation, or another disability-related change. If safe, describe the specific barrier and keep a record of requests.\nIf you are denied safe, accessible shelter, call the Washington Legal Clinic for the Homeless at 202-328-5500.\nDC disability-service information",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Tell the Shelter Hotline or a shelter worker if you need an accessible vehicle, mobility accommodation, sign-language access, a service-animal accommodation, or another disability-related change. If safe, describe the specific barrier and keep a record of requests."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "If you are denied safe, accessible shelter, call the Washington Legal Clinic for the Homeless at "
-                },
-                {
-                  "text": "202-328-5500",
-                  "href": "tel:+12023285500"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "DC disability-service information",
-                  "href": "https://odr.dc.gov/page/department-disability-services"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+12023285500",
+          "website": "https://odr.dc.gov/page/department-disability-services",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
+    },
+    {
+      "id": "veterans",
+      "title": "Veterans support",
+      "entries": []
     },
     {
       "id": "pets",
-      "title": "17. Help for people with pets",
-      "items": [
+      "title": "Help for people with pets",
+      "entries": [
         {
-          "type": "paragraph",
-          "content": [
-            {
-              "text": "Ask the Shelter Hotline about current pet and service-animal rules before traveling. A service animal is not the same as a pet; explain any disability-related accommodation you need."
-            }
-          ]
-        },
-        {
-          "type": "resource",
           "id": "humane-rescue-alliance-pet-help-center",
-          "name": "Humane Rescue Alliance Pet Help Center",
+          "title": "Humane Rescue Alliance Pet Help Center",
+          "description": "Ask the Shelter Hotline about current pet and service-animal rules before traveling. A service animal is not the same as a pet; explain any disability-related accommodation you need.\nFree pet food and supplies at partner locations, affordable veterinary-care information, behavior support, and crisis resources intended to help people keep their animals. Programs and stock change, so contact the center before traveling.\nOfficial Pet Help Center",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Free pet food and supplies at partner locations, affordable veterinary-care information, behavior support, and crisis resources intended to help people keep their animals. Programs and stock change, so contact the center before traveling."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Official Pet Help Center",
-                  "href": "https://www.humanerescuealliance.org/pet-help-center"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.humanerescuealliance.org/pet-help-center",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "dc-animal-care-and-control",
-          "name": "DC Animal Care and Control",
+          "title": "DC Animal Care and Control",
+          "description": "Phone: 202-888-7387\nLost or found animals, animal emergencies, and information about the current DC animal shelter operator. Call rather than leaving an animal unattended at a facility.\nOfficial animal-control information",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "202-888-7387",
-                  "href": "tel:+12028887387"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Lost or found animals, animal emergencies, and information about the current DC animal shelter operator. Call rather than leaving an animal unattended at a facility."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Official animal-control information",
-                  "href": "https://dchealth.dc.gov/service/animal-care-and-control"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+12028887387",
+          "website": "https://dchealth.dc.gov/service/animal-care-and-control",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
-      "id": "airports",
-      "title": "18. Airport transportation",
-      "items": [
+      "id": "other",
+      "title": "Current directories and next steps",
+      "entries": [
         {
-          "type": "paragraph",
-          "content": [
-            {
-              "text": "Airports are not shelters. If you are stranded without a safe place to sleep, call the Shelter Hotline before leaving a staffed public area. Metro service does not run all night."
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "ronald-reagan-washington-national-airport-dca",
-          "name": "Ronald Reagan Washington National Airport (DCA)",
-          "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "The airport has its own Metrorail station on the Blue and Yellow lines. Use the WMATA trip planner for current service, elevator status, and fare. Metro Lift discounts apply to eligible cards."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "WMATA trip planner",
-                  "href": "https://www.wmata.com/schedules/trip-planner/"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "washington-dulles-international-airport-iad",
-          "name": "Washington Dulles International Airport (IAD)",
-          "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "The Silver Line serves Dulles Airport. The station connects to the terminal through an indoor pedestrian walkway of roughly five minutes. Train hours and final departures differ by day; check before traveling late at night."
-                }
-              ]
-            },
-            {
-              "type": "list",
-              "items": [
-                [
-                  {
-                    "text": "Official Dulles Silver Line guide",
-                    "href": "https://www.flydulles.com/parking-transportation/silver-line-metrorail/silver-line-faqs"
-                  }
-                ],
-                [
-                  {
-                    "text": "WMATA trip planner",
-                    "href": "https://www.wmata.com/schedules/trip-planner/"
-                  }
-                ]
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "housing",
-      "title": "19. Housing assessment and prevention",
-      "items": [
-        {
-          "type": "resource",
-          "id": "coordinated-assessment-and-housing-placement",
-          "name": "Coordinated Assessment and Housing Placement",
-          "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "DC uses a decentralized, no-wrong-door coordinated-entry system. A trained provider can assess housing needs and connect eligible people to available programs. An assessment is not a housing offer and does not guarantee placement."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Where to start:",
-                  "strong": true
-                },
-                {
-                  "text": " a day center, shelter, street-outreach team, Miriam's Kitchen, Friendship Place, SOME, or another participating provider."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Official coordinated-entry information",
-                  "href": "https://community-partnership.org/cahp-dc/coordinatedentry/"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "friendship-place-welcome-center",
-          "name": "Friendship Place Welcome Center",
-          "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 4713 Wisconsin Avenue NW, Washington, DC 20016"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "202-364-1419",
-                  "href": "tel:+12023641419"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Housing assessment, case management, food, clothing, hygiene items, employment help, and health referrals. Hours differ by day and some services require appointments; call first."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Official drop-in and clinic information",
-                  "href": "https://friendshipplace.org/drop-in-and-clinic/"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "preventing-homelessness",
-          "name": "Preventing homelessness",
-          "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "If you still have housing but face eviction, unpaid rent, or unsafe conditions, contact Legal Aid DC or the Washington Legal Clinic promptly. Emergency rental assistance and prevention programs often have funding limits, appointments, and documentation rules; apply before a court date or move-out when possible."
-                }
-              ]
-            },
-            {
-              "type": "list",
-              "items": [
-                [
-                  {
-                    "text": "Legal Aid DC",
-                    "href": "https://www.legalaiddc.org/contactus"
-                  }
-                ],
-                [
-                  {
-                    "text": "Washington Legal Clinic for the Homeless",
-                    "href": "https://www.legalclinic.org/get-legal-help/"
-                  }
-                ]
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "directories",
-      "title": "20. Current directories and next steps",
-      "items": [
-        {
-          "type": "resource",
           "id": "if-you-do-not-know-where-to-start",
-          "name": "If you do not know where to start",
+          "title": "If you do not know where to start",
+          "description": "1. Call 202-399-7093 or 311 if you need shelter or street outreach.\n2. Go to the nearest open day center for toilets, hygiene, charging, case management, and multiple services in one place. — #hygiene\n3. Ask for a coordinated housing assessment, benefits screening, and document help.\n4. Write down the name, date, and next step after every referral. Return or call again if a program tells you to check back.",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "ordered-list",
-              "items": [
-                [
-                  {
-                    "text": "Call "
-                  },
-                  {
-                    "text": "202-399-7093",
-                    "href": "tel:+12023997093"
-                  },
-                  {
-                    "text": " or "
-                  },
-                  {
-                    "text": "311",
-                    "href": "tel:311"
-                  },
-                  {
-                    "text": " if you need shelter or street outreach."
-                  }
-                ],
-                [
-                  {
-                    "text": "Go to the nearest open "
-                  },
-                  {
-                    "text": "day center",
-                    "href": "#hygiene"
-                  },
-                  {
-                    "text": " for toilets, hygiene, charging, case management, and multiple services in one place."
-                  }
-                ],
-                [
-                  {
-                    "text": "Ask for a coordinated housing assessment, benefits screening, and document help."
-                  }
-                ],
-                [
-                  {
-                    "text": "Write down the name, date, and next step after every referral. Return or call again if a program tells you to check back."
-                  }
-                ]
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+12023997093",
+          "website": "",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "official-and-specialist-directories",
-          "name": "Official and specialist directories",
+          "title": "Official and specialist directories",
+          "description": "- DC Front Door shelter guidance — https://www.frontdoor.dc.gov/place-to-stay\n- DC Department of Human Services homeless services\n- Washington Legal Clinic local resource list — https://www.legalclinic.org/resourcetype/other/\n- DowntownDC homeless-services list — https://www.downtowndc.org/homeless-services-and-resource/\n- DC Hunger Solutions food directory — https://www.dchunger.org/get-help-resources/\n- DC Public Library locations — https://www.dclibrary.org/plan-visit",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "list",
-              "items": [
-                [
-                  {
-                    "text": "DC Front Door shelter guidance",
-                    "href": "https://www.frontdoor.dc.gov/place-to-stay"
-                  }
-                ],
-                [
-                  {
-                    "text": "DC Department of Human Services homeless services",
-                    "href": "https://dhs.dc.gov/page/homeless-services-housing"
-                  }
-                ],
-                [
-                  {
-                    "text": "Washington Legal Clinic local resource list",
-                    "href": "https://www.legalclinic.org/resourcetype/other/"
-                  }
-                ],
-                [
-                  {
-                    "text": "DowntownDC homeless-services list",
-                    "href": "https://www.downtowndc.org/homeless-services-and-resource/"
-                  }
-                ],
-                [
-                  {
-                    "text": "DC Hunger Solutions food directory",
-                    "href": "https://www.dchunger.org/get-help-resources/"
-                  }
-                ],
-                [
-                  {
-                    "text": "DC Public Library locations",
-                    "href": "https://www.dclibrary.org/plan-visit"
-                  }
-                ]
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://dhs.dc.gov/page/homeless-services-housing",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     }

@@ -1,6 +1,7 @@
 {
   "$schema": "https://nohomehelp.com/schemas/city.schema.json",
-  "schema_version": 1,
+  "documentation": "https://github.com/carlosbranco/no-home-help/blob/main/EDIT_CITY_JSON.md",
+  "schema_version": 2,
   "status": "published",
   "locale": {
     "language": "en",
@@ -26,4239 +27,1087 @@
   "page": {
     "heading": "Toronto — help for people experiencing homelessness",
     "last_verified": "2026-11-11",
-    "urgent": [
-      {
-        "type": "paragraph",
-        "content": [
-          {
-            "text": "Life-threatening emergency:",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "911",
-            "href": "tel:911"
-          },
-          {
-            "break": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "Shelter or 24-hour respite referral:",
-            "strong": true
-          },
-          {
-            "text": " Central Intake, "
-          },
-          {
-            "text": "416-338-4766",
-            "href": "tel:4163384766"
-          },
-          {
-            "text": " or "
-          },
-          {
-            "text": "1-877-338-3398",
-            "href": "tel:18773383398"
-          },
-          {
-            "text": ", 24 hours"
-          },
-          {
-            "break": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "Someone outside who needs outreach:",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "311",
-            "href": "tel:311"
-          },
-          {
-            "break": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "Mental-health crisis:",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "211",
-            "href": "tel:211"
-          },
-          {
-            "text": " for the Toronto Community Crisis Service; call or text "
-          },
-          {
-            "text": "988",
-            "href": "tel:988"
-          },
-          {
-            "text": " for suicide crisis"
-          },
-          {
-            "break": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "Violence against a woman:",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "416-863-0511",
-            "href": "tel:4168630511"
-          },
-          {
-            "text": "; immediate danger, 911"
-          }
-        ]
-      }
-    ],
-    "notice": [
-      {
-        "text": "Hours, eligibility and available spaces can change.",
-        "strong": true
-      },
-      {
-        "text": " Call before travelling when possible. No listing guarantees a bed, meal, payment, appointment, document or job. During severe weather, check the City page or call 311 for activated sites."
-      }
-    ],
-    "intro": [
-      {
-        "type": "paragraph",
-        "content": [
-          {
-            "text": "When asking for help, say where you are, your age, any urgent health or accessibility needs, whether children or a pet are with you, and whether you have a safe place tonight. Central Intake is the main route into the City shelter system; most shelter addresses are not direct walk-in access."
-          }
-        ]
-      }
-    ],
-    "footer": [
-      {
-        "type": "paragraph",
-        "content": [
-          {
-            "text": "No Home Help is not part of the City or any service provider. Verify information before travelling."
-          }
-        ]
-      }
-    ]
+    "urgent": "Life-threatening emergency: 911 Shelter or 24-hour respite referral: Central Intake, 416-338-4766 or 1-877-338-3398, 24 hours Someone outside who needs outreach: 311 Mental-health crisis: 211 for the Toronto Community Crisis Service; call or text 988 for suicide crisis Violence against a woman: 416-863-0511; immediate danger, 911",
+    "notice": "Hours, eligibility and available spaces can change. Call before travelling when possible. No listing guarantees a bed, meal, payment, appointment, document or job. During severe weather, check the City page or call 311 for activated sites.",
+    "intro": "When asking for help, say where you are, your age, any urgent health or accessibility needs, whether children or a pet are with you, and whether you have a safe place tonight. Central Intake is the main route into the City shelter system; most shelter addresses are not direct walk-in access.",
+    "footer": "No Home Help is not part of the City or any service provider. Verify information before travelling."
   },
   "categories": [
     {
       "id": "emergency",
-      "title": "1. Emergency and first contact",
-      "items": [
+      "title": "Emergency and first contact",
+      "entries": [
         {
-          "type": "resource",
           "id": "911-emergencies",
-          "name": "911 — emergencies",
+          "title": "911 — emergencies",
+          "description": "Phone: 911. Call for immediate danger, a serious medical emergency, fire or a crime in progress.\nGive the exact location or nearest intersection, what is happening and how many people need help. If it is safe, stay on the line and follow the operator's instructions.\nMake the right call — City of Toronto",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "911",
-                  "href": "tel:911"
-                },
-                {
-                  "text": ". Call for immediate danger, a serious medical emergency, fire or a crime in progress."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Give the exact location or nearest intersection, what is happening and how many people need help. If it is safe, stay on the line and follow the operator's instructions."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Make the right call — City of Toronto",
-                  "href": "https://www.toronto.ca/home/311-toronto-at-your-service/make-the-right-call/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "911",
+          "website": "https://www.toronto.ca/home/311-toronto-at-your-service/make-the-right-call/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "central-intake-shelter-and-respite-access",
-          "name": "Central Intake — shelter and respite access",
+          "title": "Central Intake — shelter and respite access",
+          "description": "Toronto: 416-338-4766. Toll-free: 1-877-338-3398. Available 24 hours, every day; you can also call 311.\nCentral Intake matches people with available emergency shelter or 24-hour respite spaces. Say if you are a family, youth, woman, Indigenous person, couple, have accessibility needs or have a pet. A call does not guarantee an immediate space; ask what to do if nothing is available and keep the callback number active if you can.\nCentral Intake — City of Toronto",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Toronto:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "416-338-4766",
-                  "href": "tel:4163384766"
-                },
-                {
-                  "text": ". "
-                },
-                {
-                  "text": "Toll-free:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "1-877-338-3398",
-                  "href": "tel:18773383398"
-                },
-                {
-                  "text": ". Available 24 hours, every day; you can also call 311."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Central Intake matches people with available emergency shelter or 24-hour respite spaces. Say if you are a family, youth, woman, Indigenous person, couple, have accessibility needs or have a pet. A call does not guarantee an immediate space; ask what to do if nothing is available and keep the callback number active if you can."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Central Intake — City of Toronto",
-                  "href": "https://www.toronto.ca/community-people/housing-shelter/homeless-help/central-intake/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "4163384766",
+          "website": "https://www.toronto.ca/community-people/housing-shelter/homeless-help/central-intake/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "311-toronto",
-          "name": "311 Toronto",
+          "title": "311 Toronto",
+          "description": "Inside Toronto: 311. Outside the city: 416-392-2489. TTY: 711. Available 24 hours.\nAsk for street outreach, an activated warming centre, City services or help reaching Central Intake. For a person outside, give a precise location, description and any immediate risks. 311 is not emergency dispatch.\n311 Toronto — City of Toronto",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Inside Toronto:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "311",
-                  "href": "tel:311"
-                },
-                {
-                  "text": ". "
-                },
-                {
-                  "text": "Outside the city:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "416-392-2489",
-                  "href": "tel:4163922489"
-                },
-                {
-                  "text": ". "
-                },
-                {
-                  "text": "TTY:",
-                  "strong": true
-                },
-                {
-                  "text": " 711. Available 24 hours."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ask for street outreach, an activated warming centre, City services or help reaching Central Intake. For a person outside, give a precise location, description and any immediate risks. 311 is not emergency dispatch."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "311 Toronto — City of Toronto",
-                  "href": "https://www.toronto.ca/home/311-toronto-at-your-service/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "311",
+          "website": "https://www.toronto.ca/home/311-toronto-at-your-service/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "211-ontario-community-and-social-services",
-          "name": "211 Ontario — community and social services",
+          "title": "211 Ontario — community and social services",
+          "description": "Call: 211, 24 hours, in many languages. The service is free and confidential.\nAsk for nearby food, clothing, housing help, health services, financial assistance or a crisis team. The navigator can explain eligibility and access, but cannot promise a place or service.\n211 Ontario",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Call:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "211",
-                  "href": "tel:211"
-                },
-                {
-                  "text": ", 24 hours, in many languages. The service is free and confidential."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ask for nearby food, clothing, housing help, health services, financial assistance or a crisis team. The navigator can explain eligibility and access, but cannot promise a place or service."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "211 Ontario",
-                  "href": "https://211ontario.ca/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "211",
+          "website": "https://211ontario.ca/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "streets-to-homes-outreach",
-          "name": "Streets to Homes — outreach",
+          "title": "Streets to Homes — outreach",
+          "description": "Request outreach: call 311. Outreach teams engage people sleeping outside and can work on shelter, identification, income and housing options.\nGive the nearest address or intersection and describe the person's location. Outreach is voluntary and response is based on urgency and team availability; call 911 for an immediate threat to life.\nHomeless Help — City of Toronto",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Request outreach:",
-                  "strong": true
-                },
-                {
-                  "text": " call "
-                },
-                {
-                  "text": "311",
-                  "href": "tel:311"
-                },
-                {
-                  "text": ". Outreach teams engage people sleeping outside and can work on shelter, identification, income and housing options."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Give the nearest address or intersection and describe the person's location. Outreach is voluntary and response is based on urgency and team availability; call 911 for an immediate threat to life."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Homeless Help — City of Toronto",
-                  "href": "https://www.toronto.ca/community-people/housing-shelter/homeless-help/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "311",
+          "website": "https://www.toronto.ca/community-people/housing-shelter/homeless-help/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "encampment-outreach-and-stored-belongings",
-          "name": "Encampment outreach and stored belongings",
+          "title": "Encampment outreach and stored belongings",
+          "description": "Outreach or City information: 311. Questions about belongings stored after an encampment move: 416-338-1876.\nCity outreach staff offer shelter and housing connections before and during encampment responses. Ask staff for written information about storage, retrieval deadlines and where items are taken. For immediate danger, call 911.\nEncampment outreach response — City of Toronto",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Outreach or City information:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "311",
-                  "href": "tel:311"
-                },
-                {
-                  "text": ". "
-                },
-                {
-                  "text": "Questions about belongings stored after an encampment move:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "416-338-1876",
-                  "href": "tel:4163381876"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "City outreach staff offer shelter and housing connections before and during encampment responses. Ask staff for written information about storage, retrieval deadlines and where items are taken. For immediate danger, call 911."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Encampment outreach response — City of Toronto",
-                  "href": "https://www.toronto.ca/community-people/housing-shelter/homeless-help/encampment-outreach-response/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "311",
+          "website": "https://www.toronto.ca/community-people/housing-shelter/homeless-help/encampment-outreach-response/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "police-non-emergency-line",
-          "name": "Police non-emergency line",
+          "title": "Police non-emergency line",
+          "description": "Phone: 416-808-2222. Use it for a non-urgent police matter. For danger or a crime in progress, call 911.\nIf the problem is primarily homelessness, welfare or mental health and no one is in immediate danger, 311, 211 or the Toronto Community Crisis Service may be more appropriate.\nPolice non-emergency — Toronto Police Service",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "416-808-2222",
-                  "href": "tel:4168082222"
-                },
-                {
-                  "text": ". Use it for a non-urgent police matter. For danger or a crime in progress, call 911."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "If the problem is primarily homelessness, welfare or mental health and no one is in immediate danger, 311, 211 or the Toronto Community Crisis Service may be more appropriate."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Police non-emergency — Toronto Police Service",
-                  "href": "https://www.tps.ca/contact/416-808-2222-police-non-emergency/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "4168082222",
+          "website": "https://www.tps.ca/contact/416-808-2222-police-non-emergency/",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
       "id": "shelter",
-      "title": "2. Shelter, respite and street outreach",
-      "items": [
+      "title": "Shelter, respite and street outreach",
+      "entries": [
         {
-          "type": "resource",
           "id": "city-shelter-system",
-          "name": "City shelter system",
+          "title": "City shelter system",
+          "description": "Toronto shelters operate 24 hours and may provide meals, laundry, case management, health or harm-reduction support. Sites serve different groups and some addresses are confidential.\nShelters — City of Toronto",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Toronto shelters operate 24 hours and may provide meals, laundry, case management, health or harm-reduction support. Sites serve different groups and some addresses are confidential."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Access:",
-                  "strong": true
-                },
-                {
-                  "text": " call Central Intake at "
-                },
-                {
-                  "text": "416-338-4766",
-                  "href": "tel:4163384766"
-                },
-                {
-                  "text": " or "
-                },
-                {
-                  "text": "1-877-338-3398",
-                  "href": "tel:18773383398"
-                },
-                {
-                  "text": ". Do not travel to a listed shelter expecting admission unless Central Intake or the shelter tells you to go."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Shelters — City of Toronto",
-                  "href": "https://www.toronto.ca/community-people/housing-shelter/homeless-help/shelters/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "4163384766",
+          "website": "https://www.toronto.ca/community-people/housing-shelter/homeless-help/shelters/",
+          "hours": "",
+          "how_to_access": "Access: call Central Intake at 416-338-4766 or 1-877-338-3398. Do not travel to a listed shelter expecting admission unless Central Intake or the shelter tells you to go."
         },
         {
-          "type": "resource",
           "id": "24-hour-respite-sites",
-          "name": "24-hour respite sites",
+          "title": "24-hour respite sites",
+          "description": "Respite sites provide an indoor place to rest, meals and referrals. Toronto states that its 24-hour respite sites are pet-friendly; capacity and rules still vary.\n24-hour respite sites — City of Toronto",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Respite sites provide an indoor place to rest, meals and referrals. Toronto states that its 24-hour respite sites are pet-friendly; capacity and rules still vary."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Access:",
-                  "strong": true
-                },
-                {
-                  "text": " Central Intake, "
-                },
-                {
-                  "text": "416-338-4766",
-                  "href": "tel:4163384766"
-                },
-                {
-                  "text": ". Seasonal winter respite sites may accept walk-ins from November 15 to April 15; confirm the current site and access route before travelling."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "24-hour respite sites — City of Toronto",
-                  "href": "https://www.toronto.ca/community-people/housing-shelter/homeless-help/24-hour-respite-sites/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "4163384766",
+          "website": "https://www.toronto.ca/community-people/housing-shelter/homeless-help/24-hour-respite-sites/",
+          "hours": "",
+          "how_to_access": "Access: Central Intake, 416-338-4766. Seasonal winter respite sites may accept walk-ins from November 15 to April 15; confirm the current site and access route before travelling."
         },
         {
-          "type": "resource",
           "id": "warming-centres",
-          "name": "Warming centres",
+          "title": "Warming centres",
+          "description": "Warming centres are temporary, walk-in sites activated during cold weather. They offer a warm indoor space, washrooms and meals, and are pet-friendly. Central Intake referral is not required.\nToronto warming centres — City of Toronto",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Warming centres are temporary, walk-in sites activated during cold weather. They offer a warm indoor space, washrooms and meals, and are pet-friendly. Central Intake referral is not required."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Before travelling:",
-                  "strong": true
-                },
-                {
-                  "text": " call "
-                },
-                {
-                  "text": "311",
-                  "href": "tel:311"
-                },
-                {
-                  "text": " or check the City page to confirm that centres are activated and which addresses are open. Activation can change with the forecast."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Toronto warming centres — City of Toronto",
-                  "href": "https://www.toronto.ca/community-people/housing-shelter/homeless-help/toronto-warming-centres/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "311",
+          "website": "https://www.toronto.ca/community-people/housing-shelter/homeless-help/toronto-warming-centres/",
+          "hours": "",
+          "how_to_access": "Before travelling: call 311 or check the City page to confirm that centres are activated and which addresses are open. Activation can change with the forecast."
         },
         {
-          "type": "resource",
           "id": "published-2026-2027-warming-centre-locations",
-          "name": "Published 2026–2027 warming-centre locations",
+          "title": "Published 2026–2027 warming-centre locations",
+          "description": "The City's current list includes 81 Elizabeth Street, 349 George Street, 885 Scarborough Golf Club Road, 12 Holmes Avenue and 136 Spadina Road. Accessibility and showers differ by site.\nThese sites only operate when activated. Confirm through 311 immediately before going; do not rely on this list during a different winter season.\nCurrent locations and accessibility — City of Toronto",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "The City's current list includes 81 Elizabeth Street, 349 George Street, 885 Scarborough Golf Club Road, 12 Holmes Avenue and 136 Spadina Road. Accessibility and showers differ by site."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "These sites only operate when activated. Confirm through 311 immediately before going; do not rely on this list during a different winter season."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Current locations and accessibility — City of Toronto",
-                  "href": "https://www.toronto.ca/community-people/housing-shelter/homeless-help/toronto-warming-centres/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.toronto.ca/community-people/housing-shelter/homeless-help/toronto-warming-centres/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "robertson-house-families-and-pregnant-women",
-          "name": "Robertson House — families and pregnant women",
+          "title": "Robertson House — families and pregnant women",
+          "description": "City-operated shelter for families, women with children and high-risk pregnant women. Access is through Central Intake, not guaranteed by arriving at the address.\nCity shelter directory",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 291 Sherbourne Street"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "City-operated shelter for families, women with children and high-risk pregnant women. "
-                },
-                {
-                  "text": "Access is through Central Intake",
-                  "strong": true
-                },
-                {
-                  "text": ", not guaranteed by arriving at the address."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "City shelter directory",
-                  "href": "https://www.toronto.ca/community-people/housing-shelter/homeless-help/shelters/"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 291 Sherbourne Street",
+          "phone": "",
+          "website": "https://www.toronto.ca/community-people/housing-shelter/homeless-help/shelters/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "mary-s-home-women",
-          "name": "Mary's Home — women",
+          "title": "Mary's Home — women",
+          "description": "Shelter for women operated by the Society of Saint Vincent de Paul. Access: Central Intake at 416-338-4766; admission depends on eligibility and space.\nCity shelter directory",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 70 Gerrard Street East"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Shelter for women operated by the Society of Saint Vincent de Paul. "
-                },
-                {
-                  "text": "Access:",
-                  "strong": true
-                },
-                {
-                  "text": " Central Intake at "
-                },
-                {
-                  "text": "416-338-4766",
-                  "href": "tel:4163384766"
-                },
-                {
-                  "text": "; admission depends on eligibility and space."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "City shelter directory",
-                  "href": "https://www.toronto.ca/community-people/housing-shelter/homeless-help/shelters/"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 70 Gerrard Street East",
+          "phone": "4163384766",
+          "website": "https://www.toronto.ca/community-people/housing-shelter/homeless-help/shelters/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "ywca-davenport-women-and-youth",
-          "name": "YWCA Davenport — women and youth",
+          "title": "YWCA Davenport — women and youth",
+          "description": "YWCA shelter serving women and youth. Access: call Central Intake first. Tell the intake worker about mobility, health, safety or identity-related needs.\nCity shelter directory",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 348 Davenport Road"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "YWCA shelter serving women and youth. "
-                },
-                {
-                  "text": "Access:",
-                  "strong": true
-                },
-                {
-                  "text": " call Central Intake first. Tell the intake worker about mobility, health, safety or identity-related needs."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "City shelter directory",
-                  "href": "https://www.toronto.ca/community-people/housing-shelter/homeless-help/shelters/"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 348 Davenport Road",
+          "phone": "",
+          "website": "https://www.toronto.ca/community-people/housing-shelter/homeless-help/shelters/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "kennedy-house-youth-services",
-          "name": "Kennedy House Youth Services",
+          "title": "Kennedy House Youth Services",
+          "description": "Emergency shelter for youth. Access: Central Intake; ask the intake worker which youth shelter is appropriate and has space.\nCity shelter directory",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 1076 Pape Avenue"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Emergency shelter for youth. "
-                },
-                {
-                  "text": "Access:",
-                  "strong": true
-                },
-                {
-                  "text": " Central Intake; ask the intake worker which youth shelter is appropriate and has space."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "City shelter directory",
-                  "href": "https://www.toronto.ca/community-people/housing-shelter/homeless-help/shelters/"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 1076 Pape Avenue",
+          "phone": "",
+          "website": "https://www.toronto.ca/community-people/housing-shelter/homeless-help/shelters/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "turning-point-youth-services",
-          "name": "Turning Point Youth Services",
+          "title": "Turning Point Youth Services",
+          "description": "Youth shelter and support service. Access: Central Intake. A published address does not mean a bed is available for walk-in admission.\nCity shelter directory",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 95 Wellesley Street East"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Youth shelter and support service. "
-                },
-                {
-                  "text": "Access:",
-                  "strong": true
-                },
-                {
-                  "text": " Central Intake. A published address does not mean a bed is available for walk-in admission."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "City shelter directory",
-                  "href": "https://www.toronto.ca/community-people/housing-shelter/homeless-help/shelters/"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 95 Wellesley Street East",
+          "phone": "",
+          "website": "https://www.toronto.ca/community-people/housing-shelter/homeless-help/shelters/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "covenant-house-toronto-ages-16-to-24",
-          "name": "Covenant House Toronto — ages 16 to 24",
+          "title": "Covenant House Toronto — ages 16 to 24",
+          "description": "Provides shelter and services for young people aged 16 to 24. For an emergency bed: use Central Intake. Other daytime or youth services may have their own intake.\nGet help — Covenant House Toronto",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 20 Gerrard Street East"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Provides shelter and services for young people aged 16 to 24. "
-                },
-                {
-                  "text": "For an emergency bed:",
-                  "strong": true
-                },
-                {
-                  "text": " use Central Intake. Other daytime or youth services may have their own intake."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Get help — Covenant House Toronto",
-                  "href": "https://covenanthousetoronto.ca/get-help/"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 20 Gerrard Street East",
+          "phone": "",
+          "website": "https://covenanthousetoronto.ca/get-help/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "na-me-res-indigenous-men",
-          "name": "Na-Me-Res — Indigenous men",
+          "title": "Na-Me-Res — Indigenous men",
+          "description": "Na-Me-Res operates a 24-hour shelter for Indigenous men with meals, laundry, cultural support and housing work. Bed access: Central Intake; programs have separate eligibility and referral rules.\nShelter — Na-Me-Res",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 14 Vaughan Road"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Na-Me-Res operates a 24-hour shelter for Indigenous men with meals, laundry, cultural support and housing work. "
-                },
-                {
-                  "text": "Bed access:",
-                  "strong": true
-                },
-                {
-                  "text": " Central Intake; programs have separate eligibility and referral rules."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Shelter — Na-Me-Res",
-                  "href": "https://www.nameres.org/shelter/"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 14 Vaughan Road",
+          "phone": "",
+          "website": "https://www.nameres.org/shelter/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "good-shepherd-centre-men",
-          "name": "Good Shepherd Centre — men",
+          "title": "Good Shepherd Centre — men",
+          "description": "Faith-based shelter and community service for men. For a shelter bed: call Central Intake. The daytime drop-in and meal program has separate direct-service hours.\nGood Shepherd Ministries",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 412 Queen Street East"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Faith-based shelter and community service for men. "
-                },
-                {
-                  "text": "For a shelter bed:",
-                  "strong": true
-                },
-                {
-                  "text": " call Central Intake. The daytime drop-in and meal program has separate direct-service hours."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Good Shepherd Ministries",
-                  "href": "https://goodshepherd.ca/"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 412 Queen Street East",
+          "phone": "",
+          "website": "https://goodshepherd.ca/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "fred-victor-24-hour-women-s-drop-in",
-          "name": "Fred Victor — 24-hour women's drop-in",
+          "title": "Fred Victor — 24-hour women's drop-in",
+          "description": "Low-barrier, women-only service operating 24 hours, with food, hygiene, laundry, clothing, case management and harm-reduction support. It is a drop-in, not a guaranteed shelter bed.\nCheck the current location and any temporary service notice on the provider's page before travelling, or ask 211.\nDrop-ins and community programs — Fred Victor",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Low-barrier, women-only service operating 24 hours, with food, hygiene, laundry, clothing, case management and harm-reduction support. It is a drop-in, not a guaranteed shelter bed."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Check the current location and any temporary service notice on the provider's page before travelling, or ask 211."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Drop-ins and community programs — Fred Victor",
-                  "href": "https://www.fredvictor.org/what-we-do/health-services/drop-ins-community-programs/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.fredvictor.org/what-we-do/health-services/drop-ins-community-programs/",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
       "id": "food",
-      "title": "3. Food and drop-ins",
-      "items": [
+      "title": "Food and drop-ins",
+      "entries": [
         {
-          "type": "resource",
           "id": "city-drop-in-directory",
-          "name": "City drop-in directory",
+          "title": "City drop-in directory",
+          "description": "Toronto's directory lists free drop-ins with meals and combinations of showers, laundry, clothing, harm-reduction supplies, housing help and other services.\nHours and programs change. Use the filters, then call the listed provider before making a long trip. A meal or service can run out before closing time.\nDrop-ins — City of Toronto",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Toronto's directory lists free drop-ins with meals and combinations of showers, laundry, clothing, harm-reduction supplies, housing help and other services."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Hours and programs change. Use the filters, then call the listed provider before making a long trip. A meal or service can run out before closing time."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Drop-ins — City of Toronto",
-                  "href": "https://www.toronto.ca/community-people/housing-shelter/homeless-help/drop-ins-homeless-help/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.toronto.ca/community-people/housing-shelter/homeless-help/drop-ins-homeless-help/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "daily-bread-find-a-food-bank",
-          "name": "Daily Bread — find a food bank",
+          "title": "Daily Bread — find a food bank",
+          "description": "Search by address for a nearby food bank and see its current appointment, drop-in and closure information. If online registration is difficult, call 416-203-0050 ext. 1.\nRequirements vary by location. Check the individual program before going and bring identification only if the listing says it is needed.\nFind a food bank — Daily Bread",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Search by address for a nearby food bank and see its current appointment, drop-in and closure information. If online registration is difficult, call "
-                },
-                {
-                  "text": "416-203-0050 ext. 1",
-                  "href": "tel:4162030050"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Requirements vary by location. Check the individual program before going and bring identification only if the listing says it is needed."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Find a food bank — Daily Bread",
-                  "href": "https://www.dailybread.ca/need-food/programs-by-location/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "4162030050",
+          "website": "https://www.dailybread.ca/need-food/programs-by-location/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "new-toronto-street-food-bank",
-          "name": "New Toronto Street Food Bank",
+          "title": "New Toronto Street Food Bank",
+          "description": "The Daily Bread site offers food-bank access and information and referral services. Some periods are drop-in and others require an appointment; closures can change.\nBefore going: use the current listing or call 416-203-0050 ext. 1.\nNew Toronto Street Food Bank — Daily Bread",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 191 New Toronto Street, Gate 1"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "The Daily Bread site offers food-bank access and information and referral services. Some periods are drop-in and others require an appointment; closures can change."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Before going:",
-                  "strong": true
-                },
-                {
-                  "text": " use the current listing or call "
-                },
-                {
-                  "text": "416-203-0050 ext. 1",
-                  "href": "tel:4162030050"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "New Toronto Street Food Bank — Daily Bread",
-                  "href": "https://www.dailybread.ca/about/who-we-are/new-toronto-street-food-bank/"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 191 New Toronto Street, Gate 1",
+          "phone": "4162030050",
+          "website": "https://www.dailybread.ca/about/who-we-are/new-toronto-street-food-bank/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "scott-mission-welcome-centre",
-          "name": "Scott Mission Welcome Centre",
+          "title": "Scott Mission Welcome Centre",
+          "description": "Phone: 416-923-8872. The faith-based centre publishes weekday breakfast and lunch, showers, laundry, clothing and food-bank services.\nService blocks and meal times differ by day. Check the current Toronto Drop-In Network listing or call before going; practical assistance is subject to daily capacity.\nScott Mission service listing — Toronto Drop-In Network",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 502 Spadina Avenue"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "416-923-8872",
-                  "href": "tel:4169238872"
-                },
-                {
-                  "text": ". The faith-based centre publishes weekday breakfast and lunch, showers, laundry, clothing and food-bank services."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Service blocks and meal times differ by day. Check the current Toronto Drop-In Network listing or call before going; practical assistance is subject to daily capacity."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Scott Mission service listing — Toronto Drop-In Network",
-                  "href": "https://www.tdin.ca/drop-in?id=39"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 502 Spadina Avenue",
+          "phone": "4169238872",
+          "website": "https://www.tdin.ca/drop-in?id=39",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "good-shepherd-community-meal-and-drop-in",
-          "name": "Good Shepherd community meal and drop-in",
+          "title": "Good Shepherd community meal and drop-in",
+          "description": "Phone: 416-869-3619. The faith-based drop-in offers meals and may provide showers, laundry, storage, a food bank and help for veterans.\nThe City directory currently lists a daily afternoon drop-in. Call before going because the schedule and capacity may change.\nCommunity meals — Good Shepherd Ministries",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 412 Queen Street East"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "416-869-3619",
-                  "href": "tel:4168693619"
-                },
-                {
-                  "text": ". The faith-based drop-in offers meals and may provide showers, laundry, storage, a food bank and help for veterans."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "The City directory currently lists a daily afternoon drop-in. Call before going because the schedule and capacity may change."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Community meals — Good Shepherd Ministries",
-                  "href": "https://goodshepherd.ca/community-meals/"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 412 Queen Street East",
+          "phone": "4168693619",
+          "website": "https://goodshepherd.ca/community-meals/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "sanctuary-toronto",
-          "name": "Sanctuary Toronto",
+          "title": "Sanctuary Toronto",
+          "description": "Faith-based community offering meals, basic medical care, showers, personal-care items, clothing, computers, phones, Wi-Fi and pastoral care.\nCheck the current community schedule and location before going. Services are offered in a community setting and are subject to staffing and supplies.\nWhat we do — Sanctuary Toronto",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Faith-based community offering meals, basic medical care, showers, personal-care items, clothing, computers, phones, Wi-Fi and pastoral care."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Check the current community schedule and location before going. Services are offered in a community setting and are subject to staffing and supplies."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "What we do — Sanctuary Toronto",
-                  "href": "https://www.sanctuarytoronto.org/what-we-do"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.sanctuarytoronto.org/what-we-do",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "the-common-table-church-of-the-redeemer",
-          "name": "The Common Table — Church of the Redeemer",
+          "title": "The Common Table — Church of the Redeemer",
+          "description": "Phone: 416-922-4948. The Anglican church's weekday drop-in publishes breakfast and lunch, toiletries, basic health care, housing referrals and outdoor meal service.\nCurrent times differ between indoor and outdoor service. Confirm on the church page before travelling.\nThe Common Table — Church of the Redeemer",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 162 Bloor Street West"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "416-922-4948",
-                  "href": "tel:4169224948"
-                },
-                {
-                  "text": ". The Anglican church's weekday drop-in publishes breakfast and lunch, toiletries, basic health care, housing referrals and outdoor meal service."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Current times differ between indoor and outdoor service. Confirm on the church page before travelling."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "The Common Table — Church of the Redeemer",
-                  "href": "https://theredeemer.ca/alt/get-involved-alternative/drop-in/"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 162 Bloor Street West",
+          "phone": "4169224948",
+          "website": "https://theredeemer.ca/alt/get-involved-alternative/drop-in/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "fred-victor-40-oak-drop-in",
-          "name": "Fred Victor — 40 Oak drop-in",
+          "title": "Fred Victor — 40 Oak drop-in",
+          "description": "Phone: 416-363-4234. The City directory lists weekday meals, showers, laundry and harm-reduction support. The site is accessible and pet-friendly.\nWednesday hours differ from other weekdays. Check the current City listing before going.\nCurrent drop-in details — City of Toronto",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 40 Oak Street"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "416-363-4234",
-                  "href": "tel:4163634234"
-                },
-                {
-                  "text": ". The City directory lists weekday meals, showers, laundry and harm-reduction support. The site is accessible and pet-friendly."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Wednesday hours differ from other weekdays. Check the current City listing before going."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Current drop-in details — City of Toronto",
-                  "href": "https://www.toronto.ca/community-people/housing-shelter/homeless-help/drop-ins-homeless-help/"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 40 Oak Street",
+          "phone": "4163634234",
+          "website": "https://www.toronto.ca/community-people/housing-shelter/homeless-help/drop-ins-homeless-help/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "haven-toronto-men-aged-50-and-older",
-          "name": "Haven Toronto — men aged 50 and older",
+          "title": "Haven Toronto — men aged 50 and older",
+          "description": "Phone: 416-366-5377. Offers meals, showers, laundry, lockers and harm-reduction support for older men. The City lists the site as accessible and pet-friendly.\nWeekend and weekday hours differ. Call or use the City directory before travelling.\nCurrent drop-in details — City of Toronto",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 170 Jarvis Street"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "416-366-5377",
-                  "href": "tel:4163665377"
-                },
-                {
-                  "text": ". Offers meals, showers, laundry, lockers and harm-reduction support for older men. The City lists the site as accessible and pet-friendly."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Weekend and weekday hours differ. Call or use the City directory before travelling."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Current drop-in details — City of Toronto",
-                  "href": "https://www.toronto.ca/community-people/housing-shelter/homeless-help/drop-ins-homeless-help/"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 170 Jarvis Street",
+          "phone": "4163665377",
+          "website": "https://www.toronto.ca/community-people/housing-shelter/homeless-help/drop-ins-homeless-help/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "the-stop-community-food-centre",
-          "name": "The Stop Community Food Centre",
+          "title": "The Stop Community Food Centre",
+          "description": "Phone: 416-652-7868. The City directory lists weekday meals, a food bank and harm-reduction support.\nPrograms may have different registration and service times. Call first or check the current directory.\nCurrent drop-in details — City of Toronto",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 729 St. Clair Avenue West"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "416-652-7868",
-                  "href": "tel:4166527868"
-                },
-                {
-                  "text": ". The City directory lists weekday meals, a food bank and harm-reduction support."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Programs may have different registration and service times. Call first or check the current directory."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Current drop-in details — City of Toronto",
-                  "href": "https://www.toronto.ca/community-people/housing-shelter/homeless-help/drop-ins-homeless-help/"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 729 St. Clair Avenue West",
+          "phone": "4166527868",
+          "website": "https://www.toronto.ca/community-people/housing-shelter/homeless-help/drop-ins-homeless-help/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "st-john-the-compassionate-mission",
-          "name": "St. John the Compassionate Mission",
+          "title": "St. John the Compassionate Mission",
+          "description": "Phone: 416-466-1357. Faith-based drop-in listed by the City with community meals on selected days.\nMeal times are not identical every day. Check the current City directory or call before going.\nCurrent drop-in details — City of Toronto",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 155 Broadview Avenue"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "416-466-1357",
-                  "href": "tel:4164661357"
-                },
-                {
-                  "text": ". Faith-based drop-in listed by the City with community meals on selected days."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Meal times are not identical every day. Check the current City directory or call before going."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Current drop-in details — City of Toronto",
-                  "href": "https://www.toronto.ca/community-people/housing-shelter/homeless-help/drop-ins-homeless-help/"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 155 Broadview Avenue",
+          "phone": "4164661357",
+          "website": "https://www.toronto.ca/community-people/housing-shelter/homeless-help/drop-ins-homeless-help/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "the-corner-drop-in",
-          "name": "The Corner drop-in",
+          "title": "The Corner drop-in",
+          "description": "Phone: 416-925-2103 ext. 2240. Offers meals, showers, laundry and harm-reduction services on listed weekday mornings and Sundays.\nCall first because service hours and availability can change.\nCurrent drop-in details — City of Toronto",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 260 Augusta Avenue"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "416-925-2103 ext. 2240",
-                  "href": "tel:4169252103"
-                },
-                {
-                  "text": ". Offers meals, showers, laundry and harm-reduction services on listed weekday mornings and Sundays."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Call first because service hours and availability can change."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Current drop-in details — City of Toronto",
-                  "href": "https://www.toronto.ca/community-people/housing-shelter/homeless-help/drop-ins-homeless-help/"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 260 Augusta Avenue",
+          "phone": "4169252103",
+          "website": "https://www.toronto.ca/community-people/housing-shelter/homeless-help/drop-ins-homeless-help/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "christie-ossington-neighbourhood-centre",
-          "name": "Christie Ossington Neighbourhood Centre",
+          "title": "Christie Ossington Neighbourhood Centre",
+          "description": "Phone: 416-792-8941. The weekday drop-in offers meals, showers, laundry, a food bank and harm-reduction support; the City lists it as accessible and pet-friendly.\nConfirm hours before going, especially around holidays.\nCurrent drop-in details — City of Toronto",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 850–854 Bloor Street West"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "416-792-8941",
-                  "href": "tel:4167928941"
-                },
-                {
-                  "text": ". The weekday drop-in offers meals, showers, laundry, a food bank and harm-reduction support; the City lists it as accessible and pet-friendly."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Confirm hours before going, especially around holidays."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Current drop-in details — City of Toronto",
-                  "href": "https://www.toronto.ca/community-people/housing-shelter/homeless-help/drop-ins-homeless-help/"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 850–854 Bloor Street West",
+          "phone": "4167928941",
+          "website": "https://www.toronto.ca/community-people/housing-shelter/homeless-help/drop-ins-homeless-help/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "yonge-street-mission-youth-drop-in",
-          "name": "Yonge Street Mission — youth drop-in",
+          "title": "Yonge Street Mission — youth drop-in",
+          "description": "Phone: 416-929-9614 ext. 2200. For youth aged 16 to 24, with meals, showers, laundry, clothing, identification and other support.\nThe published schedule is weekday afternoons and closes earlier on Friday. Confirm before going.\nYouth drop-in — Yonge Street Mission",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 365 Spadina Avenue"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "416-929-9614 ext. 2200",
-                  "href": "tel:4169299614"
-                },
-                {
-                  "text": ". For youth aged 16 to 24, with meals, showers, laundry, clothing, identification and other support."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "The published schedule is weekday afternoons and closes earlier on Friday. Confirm before going."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Youth drop-in — Yonge Street Mission",
-                  "href": "https://www.ysm.ca/get-help/youth-drop-in/"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 365 Spadina Avenue",
+          "phone": "4169299614",
+          "website": "https://www.ysm.ca/get-help/youth-drop-in/",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
+    },
+    {
+      "id": "community",
+      "title": "Community and religious help",
+      "entries": []
     },
     {
       "id": "hygiene",
-      "title": "4. Showers, laundry, washrooms and internet",
-      "items": [
+      "title": "Showers, laundry, washrooms and internet",
+      "entries": [
         {
-          "type": "resource",
           "id": "find-showers-and-laundry",
-          "name": "Find showers and laundry",
+          "title": "Find showers and laundry",
+          "description": "Use the City drop-in directory and select services such as showers, laundry or clothing. Fred Victor 40 Oak, Haven Toronto, Good Shepherd, The Corner and Christie Ossington are among the current listings.\nCall first. Machines, towels, clothing sizes and the number of service slots are limited and may run out.\nDrop-ins and services — City of Toronto",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Use the City drop-in directory and select services such as showers, laundry or clothing. Fred Victor 40 Oak, Haven Toronto, Good Shepherd, The Corner and Christie Ossington are among the current listings."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Call first. Machines, towels, clothing sizes and the number of service slots are limited and may run out."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Drop-ins and services — City of Toronto",
-                  "href": "https://www.toronto.ca/community-people/housing-shelter/homeless-help/drop-ins-homeless-help/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.toronto.ca/community-people/housing-shelter/homeless-help/drop-ins-homeless-help/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "public-washrooms-and-drinking-water",
-          "name": "Public washrooms and drinking water",
+          "title": "Public washrooms and drinking water",
+          "description": "The City map shows public washrooms, portable toilets and drinking-water locations, with opening dates, hours and accessibility where available.\nFacilities can close for maintenance or winter. Check the entry before walking there; call 311 if the information appears wrong.\nWashrooms and drinking-water map — City of Toronto",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "The City map shows public washrooms, portable toilets and drinking-water locations, with opening dates, hours and accessibility where available."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Facilities can close for maintenance or winter. Check the entry before walking there; call 311 if the information appears wrong."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Washrooms and drinking-water map — City of Toronto",
-                  "href": "https://www.toronto.ca/services-payments/venues-facilities-bookings/booking-city-facilities/washrooms-drinking-water-map/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.toronto.ca/services-payments/venues-facilities-bookings/booking-city-facilities/washrooms-drinking-water-map/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "toronto-public-library-internet-and-computers",
-          "name": "Toronto Public Library — internet and computers",
+          "title": "Toronto Public Library — internet and computers",
+          "description": "All Toronto Public Library branches offer free Wi-Fi. Library computers can normally be booked for up to 120 minutes per day, subject to availability.\nIf you do not have a library card, ask staff about a computer guest pass. Branch hours and computer availability differ.\nComputer services — Toronto Public Library",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "All Toronto Public Library branches offer free Wi-Fi. Library computers can normally be booked for up to 120 minutes per day, subject to availability."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "If you do not have a library card, ask staff about a computer guest pass. Branch hours and computer availability differ."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Computer services — Toronto Public Library",
-                  "href": "https://tpl.ca/using-the-library/computer-services/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://tpl.ca/using-the-library/computer-services/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "toronto-public-library-access-card",
-          "name": "Toronto Public Library — Access card",
+          "title": "Toronto Public Library — Access card",
+          "description": "Toronto Public Library states that Access cards are intended for people without a permanent address and are renewed annually.\nAsk at a branch what identification or proof is accepted. An Access card may have different borrowing conditions from a standard card.\nLibrary card information — Toronto Public Library",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Toronto Public Library states that Access cards are intended for people without a permanent address and are renewed annually."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ask at a branch what identification or proof is accepted. An Access card may have different borrowing conditions from a standard card."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Library card information — Toronto Public Library",
-                  "href": "https://tpl.ca/help/online-card-renewal-faq/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://tpl.ca/help/online-card-renewal-faq/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "connectto-free-public-wi-fi",
-          "name": "ConnectTO free public Wi-Fi",
+          "title": "ConnectTO free public Wi-Fi",
+          "description": "The City publishes free Wi-Fi locations at selected civic and community sites. The map includes the network name and address.\nPublic Wi-Fi is not private. Avoid sending banking, identity or benefit passwords unless the website is secure and you can log out fully.\nConnectTO locations — City of Toronto",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "The City publishes free Wi-Fi locations at selected civic and community sites. The map includes the network name and address."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Public Wi-Fi is not private. Avoid sending banking, identity or benefit passwords unless the website is secure and you can log out fully."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "ConnectTO locations — City of Toronto",
-                  "href": "https://www.toronto.ca/city-government/accountability-operations-customer-service/long-term-vision-plans-and-strategies/connected-community/internet-connectivity-connectto/connectto-free-public-wifi-locations/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.toronto.ca/city-government/accountability-operations-customer-service/long-term-vision-plans-and-strategies/connected-community/internet-connectivity-connectto/connectto-free-public-wifi-locations/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "clothing-and-personal-care-items",
-          "name": "Clothing and personal-care items",
+          "title": "Clothing and personal-care items",
+          "description": "Scott Mission, Sanctuary Toronto, Friends of Ruby and several City-listed drop-ins provide clothing or hygiene supplies when available.\nCall before going and say the item and size needed. Donations vary daily; no site can guarantee stock.\nSearch drop-in services — City of Toronto",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Scott Mission, Sanctuary Toronto, Friends of Ruby and several City-listed drop-ins provide clothing or hygiene supplies when available."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Call before going and say the item and size needed. Donations vary daily; no site can guarantee stock."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Search drop-in services — City of Toronto",
-                  "href": "https://www.toronto.ca/community-people/housing-shelter/homeless-help/drop-ins-homeless-help/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.toronto.ca/community-people/housing-shelter/homeless-help/drop-ins-homeless-help/",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
+    },
+    {
+      "id": "clothing",
+      "title": "Clothing",
+      "entries": []
     },
     {
       "id": "health",
-      "title": "5. Health, mental health and substance use",
-      "items": [
+      "title": "Health, mental health and substance use",
+      "entries": [
         {
-          "type": "resource",
           "id": "health811-nurse-advice",
-          "name": "Health811 — nurse advice",
+          "title": "Health811 — nurse advice",
+          "description": "Phone: 811, free and confidential, 24 hours. A registered nurse can help decide whether to use emergency care, a clinic or self-care.\nHealth811 is not an ambulance and cannot diagnose every problem. Call 911 for chest pain, severe breathing trouble, unconsciousness, major bleeding, overdose or another immediate threat to life.\nHealth811 Ontario",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "811",
-                  "href": "tel:811"
-                },
-                {
-                  "text": ", free and confidential, 24 hours. A registered nurse can help decide whether to use emergency care, a clinic or self-care."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Health811 is not an ambulance and cannot diagnose every problem. Call 911 for chest pain, severe breathing trouble, unconsciousness, major bleeding, overdose or another immediate threat to life."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Health811 Ontario",
-                  "href": "https://health811.ontario.ca/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "811",
+          "website": "https://health811.ontario.ca/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "toronto-community-crisis-service",
-          "name": "Toronto Community Crisis Service",
+          "title": "Toronto Community Crisis Service",
+          "description": "Use it for a mental-health crisis when no one is in immediate danger. The 211 navigator assesses the call and may dispatch a community crisis team; response depends on safety and availability.\nToronto Community Crisis Service — City of Toronto",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Access:",
-                  "strong": true
-                },
-                {
-                  "text": " call "
-                },
-                {
-                  "text": "211",
-                  "href": "tel:211"
-                },
-                {
-                  "text": ", 24 hours. Free, city-wide, non-police mobile crisis support for people aged 16 and older."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Use it for a mental-health crisis when no one is in immediate danger. The 211 navigator assesses the call and may dispatch a community crisis team; response depends on safety and availability."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Toronto Community Crisis Service — City of Toronto",
-                  "href": "https://www.toronto.ca/community-people/public-safety-alerts/community-safety-wellbeing-programs/toronto-community-crisis-service/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "211",
+          "website": "https://www.toronto.ca/community-people/public-safety-alerts/community-safety-wellbeing-programs/toronto-community-crisis-service/",
+          "hours": "",
+          "how_to_access": "Access: call 211, 24 hours. Free, city-wide, non-police mobile crisis support for people aged 16 and older."
         },
         {
-          "type": "resource",
           "id": "988-suicide-crisis",
-          "name": "988 — suicide crisis",
+          "title": "988 — suicide crisis",
+          "description": "Call or text: 988, 24 hours. Use it if you are thinking about suicide or worried about someone else.\nFor an attempt in progress, immediate physical danger or a medical emergency, call 911. You can contact 988 even if you are not sure how serious the situation is.\n988 Canada",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Call or text:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "988",
-                  "href": "tel:988"
-                },
-                {
-                  "text": ", 24 hours. Use it if you are thinking about suicide or worried about someone else."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "For an attempt in progress, immediate physical danger or a medical emergency, call 911. You can contact 988 even if you are not sure how serious the situation is."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "988 Canada",
-                  "href": "https://988.ca/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "988",
+          "website": "https://988.ca/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "gerstein-crisis-centre",
-          "name": "Gerstein Crisis Centre",
+          "title": "Gerstein Crisis Centre",
+          "description": "24-hour crisis line: 416-929-5200. Offers telephone support, mobile crisis intervention and short-term crisis beds for eligible adults.\nA bed or in-person response is not guaranteed. Call 911 for immediate danger or a life-threatening medical emergency.\nGerstein Crisis Centre",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "24-hour crisis line:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "416-929-5200",
-                  "href": "tel:4169295200"
-                },
-                {
-                  "text": ". Offers telephone support, mobile crisis intervention and short-term crisis beds for eligible adults."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "A bed or in-person response is not guaranteed. Call 911 for immediate danger or a life-threatening medical emergency."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Gerstein Crisis Centre",
-                  "href": "https://gersteincentre.org/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "4169295200",
+          "website": "https://gersteincentre.org/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "connexontario-mental-health-gambling-and-substance-use",
-          "name": "ConnexOntario — mental health, gambling and substance use",
+          "title": "ConnexOntario — mental health, gambling and substance use",
+          "description": "Phone: 1-866-531-2600. Text: CONNEX to 247247. Free, confidential information and referral, 24 hours.\nA navigator can identify treatment, withdrawal-management and community options. It does not guarantee immediate admission; call 911 for a medical emergency or suspected overdose.\nConnexOntario",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "1-866-531-2600",
-                  "href": "tel:18665312600"
-                },
-                {
-                  "text": ". "
-                },
-                {
-                  "text": "Text:",
-                  "strong": true
-                },
-                {
-                  "text": " CONNEX to 247247. Free, confidential information and referral, 24 hours."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "A navigator can identify treatment, withdrawal-management and community options. It does not guarantee immediate admission; call 911 for a medical emergency or suspected overdose."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "ConnexOntario",
-                  "href": "https://www.connexontario.ca/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "18665312600",
+          "website": "https://www.connexontario.ca/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "camh-psychiatric-emergency-department",
-          "name": "CAMH Psychiatric Emergency Department",
+          "title": "CAMH Psychiatric Emergency Department",
+          "description": "Open 24 hours for adults aged 16 and older experiencing a psychiatric emergency; no referral is required. Patients are triaged, so waiting time varies.\nCall 911 if travel is unsafe or there is immediate danger. This emergency department is not a general shelter or drop-in.\nPsychiatric Emergency Department — CAMH",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 1051 Queen Street West"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Open 24 hours for adults aged 16 and older experiencing a psychiatric emergency; no referral is required. Patients are triaged, so waiting time varies."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Call 911 if travel is unsafe or there is immediate danger. This emergency department is not a general shelter or drop-in."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Psychiatric Emergency Department — CAMH",
-                  "href": "https://www.camh.ca/en/patients-and-families/programs-and-services/emergency-department"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 1051 Queen Street West",
+          "phone": "",
+          "website": "https://www.camh.ca/en/patients-and-families/programs-and-services/emergency-department",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "street-health",
-          "name": "Street Health",
+          "title": "Street Health",
+          "description": "Phone: 416-921-8668. Provides low-barrier health and social services. Current published opening days are Monday to Friday, with a later Tuesday start; nursing drop-in is offered on selected days.\nPrograms have separate hours and may reach capacity. Check the current-hours page before going.\nCurrent hours — Street Health",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 338 Dundas Street East"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "416-921-8668",
-                  "href": "tel:4169218668"
-                },
-                {
-                  "text": ". Provides low-barrier health and social services. Current published opening days are Monday to Friday, with a later Tuesday start; nursing drop-in is offered on selected days."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Programs have separate hours and may reach capacity. Check the current-hours page before going."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Current hours — Street Health",
-                  "href": "https://streethealth.ca/services/street-health-current-hours/"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 338 Dundas Street East",
+          "phone": "4169218668",
+          "website": "https://streethealth.ca/services/street-health-current-hours/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "street-health-overdose-prevention-site",
-          "name": "Street Health overdose-prevention site",
+          "title": "Street Health overdose-prevention site",
+          "description": "Provides a supervised space and harm-reduction support. Hours can differ from the main Street Health schedule.\nFor a suspected overdose, call 911, give naloxone if available and follow emergency instructions. Do not wait for a site to open.\nOverdose-prevention site — Street Health",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 338 Dundas Street East"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Provides a supervised space and harm-reduction support. Hours can differ from the main Street Health schedule."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "For a suspected overdose, call 911, give naloxone if available and follow emergency instructions. Do not wait for a site to open."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Overdose-prevention site — Street Health",
-                  "href": "https://streethealth.ca/services/overdose-prevention-site-ops/"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 338 Dundas Street East",
+          "phone": "",
+          "website": "https://streethealth.ca/services/overdose-prevention-site-ops/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "free-dental-care-for-eligible-residents",
-          "name": "Free dental care for eligible residents",
+          "title": "Free dental care for eligible residents",
+          "description": "Toronto Public Health: 416-338-7600. The City operates dental clinics for eligible Toronto residents who do not have dental insurance and cannot afford treatment.\nEligibility, clinic location and available treatment must be confirmed before going. Emergency dental care may still require an assessment or appointment.\nDental and oral health services — City of Toronto",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Toronto Public Health:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "416-338-7600",
-                  "href": "tel:4163387600"
-                },
-                {
-                  "text": ". The City operates dental clinics for eligible Toronto residents who do not have dental insurance and cannot afford treatment."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Eligibility, clinic location and available treatment must be confirmed before going. Emergency dental care may still require an assessment or appointment."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Dental and oral health services — City of Toronto",
-                  "href": "https://www.toronto.ca/community-people/health-wellness-care/health-programs-advice/dental-and-oral-health-services/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "4163387600",
+          "website": "https://www.toronto.ca/community-people/health-wellness-care/health-programs-advice/dental-and-oral-health-services/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "hardship-fund-health-related-costs",
-          "name": "Hardship Fund — health-related costs",
+          "title": "Hardship Fund — health-related costs",
+          "description": "Phone: 416-338-8888, option 3. For eligible low-income Toronto residents who are not receiving Ontario Works, Emergency Assistance or ODSP, the fund may help with approved health items such as dental care or eyeglasses.\nApply and obtain approval before paying. Eligibility and covered costs are assessed; reimbursement or approval is not guaranteed.\nHealth support and Hardship Fund — City of Toronto",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "416-338-8888, option 3",
-                  "href": "tel:4163388888"
-                },
-                {
-                  "text": ". For eligible low-income Toronto residents who are not receiving Ontario Works, Emergency Assistance or ODSP, the fund may help with approved health items such as dental care or eyeglasses."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Apply and obtain approval before paying. Eligibility and covered costs are assessed; reimbursement or approval is not guaranteed."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Health support and Hardship Fund — City of Toronto",
-                  "href": "https://www.toronto.ca/community-people/employment-social-support/health-support/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "4163388888",
+          "website": "https://www.toronto.ca/community-people/employment-social-support/health-support/",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
-      "id": "government",
-      "title": "6. Income, housing and transit support",
-      "items": [
+      "id": "mental-health",
+      "title": "Mental health and addiction",
+      "entries": []
+    },
+    {
+      "id": "public-facilities",
+      "title": "Public toilets and day facilities",
+      "entries": []
+    },
+    {
+      "id": "phone-internet",
+      "title": "Phone charging and internet",
+      "entries": []
+    },
+    {
+      "id": "transport",
+      "title": "Transport",
+      "entries": []
+    },
+    {
+      "id": "benefits",
+      "title": "Income, housing and transit support",
+      "entries": [
         {
-          "type": "resource",
           "id": "ontario-works-and-emergency-assistance",
-          "name": "Ontario Works and Emergency Assistance",
+          "title": "Ontario Works and Emergency Assistance",
+          "description": "Apply by phone: 1-888-999-1142, Monday to Friday during business hours; online applications are available at any time.\nOntario Works may provide income and employment support if eligible. Emergency Assistance may apply in an urgent crisis such as having no shelter, food or essential medication. If you have no fixed address, Toronto says you may use the nearest Employment and Social Services office address. Approval is not automatic.\nOntario Works — City of Toronto",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Apply by phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "1-888-999-1142",
-                  "href": "tel:18889991142"
-                },
-                {
-                  "text": ", Monday to Friday during business hours; online applications are available at any time."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ontario Works may provide income and employment support if eligible. Emergency Assistance may apply in an urgent crisis such as having no shelter, food or essential medication. If you have no fixed address, Toronto says you may use the nearest Employment and Social Services office address. Approval is not automatic."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ontario Works — City of Toronto",
-                  "href": "https://www.toronto.ca/community-people/employment-social-support/support-for-people-in-financial-need/assistance-through-ontario-works/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "18889991142",
+          "website": "https://www.toronto.ca/community-people/employment-social-support/support-for-people-in-financial-need/assistance-through-ontario-works/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "ontario-disability-support-program",
-          "name": "Ontario Disability Support Program",
+          "title": "Ontario Disability Support Program",
+          "description": "Application support: 1-888-999-1142. ODSP provides income and employment support to eligible people with disabilities.\nThe application requires medical and financial information and can take time. Ask Ontario Works or a community legal clinic about interim help if you have no income while waiting.\nODSP — Government of Ontario",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Application support:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "1-888-999-1142",
-                  "href": "tel:18889991142"
-                },
-                {
-                  "text": ". ODSP provides income and employment support to eligible people with disabilities."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "The application requires medical and financial information and can take time. Ask Ontario Works or a community legal clinic about interim help if you have no income while waiting."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "ODSP — Government of Ontario",
-                  "href": "https://www.ontario.ca/page/ontario-disability-support-program"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "18889991142",
+          "website": "https://www.ontario.ca/page/ontario-disability-support-program",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "toronto-employment-and-social-services-offices",
-          "name": "Toronto Employment and Social Services offices",
+          "title": "Toronto Employment and Social Services offices",
+          "description": "Use the City list to find the office serving your postal code or nearest location. Offices can help with Ontario Works, documents, employment services and referrals.\nCheck whether an appointment is required and what to bring. If you have no address, explain this when contacting the office.\nOffice locations — City of Toronto",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Use the City list to find the office serving your postal code or nearest location. Offices can help with Ontario Works, documents, employment services and referrals."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Check whether an appointment is required and what to bring. If you have no address, explain this when contacting the office."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Office locations — City of Toronto",
-                  "href": "https://www.toronto.ca/community-people/employment-social-support/employment-support/toronto-employment-and-social-services-locations/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.toronto.ca/community-people/employment-social-support/employment-support/toronto-employment-and-social-services-locations/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "housing-stabilization-fund",
-          "name": "Housing Stabilization Fund",
+          "title": "Housing Stabilization Fund",
+          "description": "Eligible Ontario Works or ODSP recipients may receive help for approved housing costs such as moving, rent, energy arrears or establishing a home.\nBefore paying: contact your caseworker. Funding is based on rules, documents and maximum amounts; it is not guaranteed.\nHousing Stabilization Fund — City of Toronto",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Eligible Ontario Works or ODSP recipients may receive help for approved housing costs such as moving, rent, energy arrears or establishing a home."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Before paying:",
-                  "strong": true
-                },
-                {
-                  "text": " contact your caseworker. Funding is based on rules, documents and maximum amounts; it is not guaranteed."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Housing Stabilization Fund — City of Toronto",
-                  "href": "https://www.toronto.ca/community-people/housing-shelter/financial-support-for-housing/financial-support-for-renters/housing-stabilization-fund/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.toronto.ca/community-people/housing-shelter/financial-support-for-housing/financial-support-for-renters/housing-stabilization-fund/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "toronto-rent-bank",
-          "name": "Toronto Rent Bank",
+          "title": "Toronto Rent Bank",
+          "description": "Phone: 416-397-7368, weekdays during published business hours. The program offers grants for eligible low-income tenants facing rent arrears or needing a rental deposit.\nCall before an eviction date if possible. Income, tenancy and other conditions apply; the Rent Bank cannot guarantee payment or stop an eviction by itself.\nToronto Rent Bank — City of Toronto",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "416-397-7368",
-                  "href": "tel:4163977368"
-                },
-                {
-                  "text": ", weekdays during published business hours. The program offers grants for eligible low-income tenants facing rent arrears or needing a rental deposit."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Call before an eviction date if possible. Income, tenancy and other conditions apply; the Rent Bank cannot guarantee payment or stop an eviction by itself."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Toronto Rent Bank — City of Toronto",
-                  "href": "https://www.toronto.ca/community-people/housing-shelter/financial-support-for-housing/financial-support-for-renters/toronto-rent-bank/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "4163977368",
+          "website": "https://www.toronto.ca/community-people/housing-shelter/financial-support-for-housing/financial-support-for-renters/toronto-rent-bank/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "housing-help-centres",
-          "name": "Housing Help Centres",
+          "title": "Housing Help Centres",
+          "description": "Housing Help Centre: 416-285-8070. Toronto's map lists housing-help agencies, eviction prevention, legal help and services for specific groups.\nAgencies can help with searches, applications and landlord issues, but cannot guarantee an affordable unit. Ask which office covers your area and whether an appointment is needed.\nHousing help and support services — City of Toronto",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Housing Help Centre:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "416-285-8070",
-                  "href": "tel:4162858070"
-                },
-                {
-                  "text": ". Toronto's map lists housing-help agencies, eviction prevention, legal help and services for specific groups."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Agencies can help with searches, applications and landlord issues, but cannot guarantee an affordable unit. Ask which office covers your area and whether an appointment is needed."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Housing help and support services — City of Toronto",
-                  "href": "https://www.toronto.ca/community-people/housing-shelter/housing-help-support-services/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "4162858070",
+          "website": "https://www.toronto.ca/community-people/housing-shelter/housing-help-support-services/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "coordinated-access-to-housing-supports",
-          "name": "Coordinated Access to housing supports",
+          "title": "Coordinated Access to housing supports",
+          "description": "People cannot apply directly to Coordinated Access. A participating housing or homelessness worker completes an assessment and may connect an eligible person to supportive housing opportunities.\nGeneral housing help: 416-285-8070. Indigenous housing support: 416-900-1082. Assessment does not guarantee housing or set a move-in date.\nCoordinated Access — City of Toronto",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "People cannot apply directly to Coordinated Access. A participating housing or homelessness worker completes an assessment and may connect an eligible person to supportive housing opportunities."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "General housing help:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "416-285-8070",
-                  "href": "tel:4162858070"
-                },
-                {
-                  "text": ". "
-                },
-                {
-                  "text": "Indigenous housing support:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "416-900-1082",
-                  "href": "tel:4169001082"
-                },
-                {
-                  "text": ". Assessment does not guarantee housing or set a move-in date."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Coordinated Access — City of Toronto",
-                  "href": "https://www.toronto.ca/community-people/housing-shelter/building-affordable-homes/housing-initiatives/coordinated-access-to-housing-supports/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "4162858070",
+          "website": "https://www.toronto.ca/community-people/housing-shelter/building-affordable-homes/housing-initiatives/coordinated-access-to-housing-supports/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "fair-pass-transit-discount-program",
-          "name": "Fair Pass Transit Discount Program",
+          "title": "Fair Pass Transit Discount Program",
+          "description": "Eligible Toronto residents aged 20 to 64 can receive a discount on adult TTC fares loaded to a PRESTO card. Income and residency conditions apply.\nUse the City eligibility checker or ask a social-services worker. The discount is not immediate until the application is approved and linked to the card.\nFair Pass Transit Discount — City of Toronto",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Eligible Toronto residents aged 20 to 64 can receive a discount on adult TTC fares loaded to a PRESTO card. Income and residency conditions apply."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Use the City eligibility checker or ask a social-services worker. The discount is not immediate until the application is approved and linked to the card."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Fair Pass Transit Discount — City of Toronto",
-                  "href": "https://www.toronto.ca/community-people/employment-social-support/support-for-people-in-financial-need/assistance-through-ontario-works/transit-discount/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.toronto.ca/community-people/employment-social-support/support-for-people-in-financial-need/assistance-through-ontario-works/transit-discount/",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
-      "id": "work",
-      "title": "7. Work and training",
-      "items": [
+      "id": "employment",
+      "title": "Work and training",
+      "entries": [
         {
-          "type": "resource",
           "id": "toronto-employment-and-social-services-employment-centres",
-          "name": "Toronto Employment and Social Services — employment centres",
+          "title": "Toronto Employment and Social Services — employment centres",
+          "description": "City employment centres provide free access to job-search support and equipment such as computers and printers. Services are available to Toronto residents, not only Ontario Works recipients.\nAsk about an intake appointment, résumé help, training referrals and interview preparation. A referral does not guarantee training funding or a job.\nEmployment services — City of Toronto",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "City employment centres provide free access to job-search support and equipment such as computers and printers. Services are available to Toronto residents, not only Ontario Works recipients."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ask about an intake appointment, résumé help, training referrals and interview preparation. A referral does not guarantee training funding or a job."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Employment services — City of Toronto",
-                  "href": "https://secure.toronto.ca/ECPortal/page.jsp?fid=b00845c6-c189-4bcd-ad65-2fe0d815d9c3"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://secure.toronto.ca/ECPortal/page.jsp?fid=b00845c6-c189-4bcd-ad65-2fe0d815d9c3",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "employment-ontario",
-          "name": "Employment Ontario",
+          "title": "Employment Ontario",
+          "description": "Toronto: 416-326-5656. Toll-free: 1-800-387-5656. Employment Ontario offers free job-search, résumé, interview, training and career-planning support.\nAsk for the nearest service provider and whether an appointment is required. Training and financial supports have separate eligibility rules.\nEmployment Ontario offices — Government of Ontario",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Toronto:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "416-326-5656",
-                  "href": "tel:4163265656"
-                },
-                {
-                  "text": ". "
-                },
-                {
-                  "text": "Toll-free:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "1-800-387-5656",
-                  "href": "tel:18003875656"
-                },
-                {
-                  "text": ". Employment Ontario offers free job-search, résumé, interview, training and career-planning support."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ask for the nearest service provider and whether an appointment is required. Training and financial supports have separate eligibility rules."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Employment Ontario offices — Government of Ontario",
-                  "href": "https://www.ontario.ca/page/ministry-run-employment-ontario-offices"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "4163265656",
+          "website": "https://www.ontario.ca/page/ministry-run-employment-ontario-offices",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "fred-victor-employment-and-training",
-          "name": "Fred Victor employment and training",
+          "title": "Fred Victor employment and training",
+          "description": "Phone: 416-364-8986. Free employment help may include job planning, training and assistance with some interview or work-start costs when eligible.\nAsk what program fits your situation and what documents are needed. Transit, clothing, equipment, certificates or phone help are assessed and not guaranteed.\nEmployment and training — Fred Victor",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "416-364-8986",
-                  "href": "tel:4163648986"
-                },
-                {
-                  "text": ". Free employment help may include job planning, training and assistance with some interview or work-start costs when eligible."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ask what program fits your situation and what documents are needed. Transit, clothing, equipment, certificates or phone help are assessed and not guaranteed."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Employment and training — Fred Victor",
-                  "href": "https://www.fredvictor.org/what-we-do/employment-programs/employment-and-training/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "4163648986",
+          "website": "https://www.fredvictor.org/what-we-do/employment-programs/employment-and-training/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "yonge-street-mission-employment-support",
-          "name": "Yonge Street Mission — employment support",
+          "title": "Yonge Street Mission — employment support",
+          "description": "Main phone: 416-929-9614; ask for adult extension 4275 or youth extension 2278. Services include one-to-one employment planning and job-search support.\nThe program requires legal entitlement to work in Canada and may request original identification and a Social Insurance Number. Call before going.\nEmployment support — Yonge Street Mission",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Adults:",
-                  "strong": true
-                },
-                {
-                  "text": " 270 Gerrard Street East. "
-                },
-                {
-                  "text": "Youth:",
-                  "strong": true
-                },
-                {
-                  "text": " 365 Spadina Avenue."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Main phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "416-929-9614",
-                  "href": "tel:4169299614"
-                },
-                {
-                  "text": "; ask for adult extension 4275 or youth extension 2278. Services include one-to-one employment planning and job-search support."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "The program requires legal entitlement to work in Canada and may request original identification and a Social Insurance Number. Call before going."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Employment support — Yonge Street Mission",
-                  "href": "https://www.ysm.ca/get-help/personalized-employment-support/"
-                }
-              ]
-            }
-          ]
+          "address": "Adults: 270 Gerrard Street East. Youth: 365 Spadina Avenue.",
+          "phone": "4169299614",
+          "website": "https://www.ysm.ca/get-help/personalized-employment-support/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "job-bank-canada",
-          "name": "Job Bank Canada",
+          "title": "Job Bank Canada",
+          "description": "Government job-search service with listings, job-market information and résumé tools. Search by Toronto and filter for language, schedule and employment type.\nNever pay a recruiter to release wages or send banking passwords by email. Confirm the employer independently before sharing identity documents.\nJob Bank — Government of Canada",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Government job-search service with listings, job-market information and résumé tools. Search by Toronto and filter for language, schedule and employment type."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Never pay a recruiter to release wages or send banking passwords by email. Confirm the employer independently before sharing identity documents."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Job Bank — Government of Canada",
-                  "href": "https://www.jobbank.gc.ca/"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "documents",
-      "title": "8. Identification, mail and taxes",
-      "items": [
-        {
-          "type": "resource",
-          "id": "street-health-identification-service",
-          "name": "Street Health identification service",
-          "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 338 Dundas Street East"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Street Health can help eligible clients replace or obtain documents including birth certificates, health cards and some status documents. It does not process passports, driver's licences, permanent-resident cards or citizenship cards."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "ID clinic hours are limited and can reach capacity. Check the current schedule before going and bring any document or photocopy you still have."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Identification services — Street Health",
-                  "href": "https://streethealth.ca/services/identification-id/"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "id-safe-document-storage-and-mailing-address",
-          "name": "ID Safe — document storage and mailing address",
-          "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Street Health's ID Safe offers secure storage for identification and may provide a mailing address for people who are homeless or vulnerably housed."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ask how mail pickup, authorization and replacement work before leaving originals. Capacity and eligibility apply."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "ID Safe — Street Health",
-                  "href": "https://streethealth.ca/services/identification-id/"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "social-insurance-number",
-          "name": "Social Insurance Number",
-          "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Service Canada:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "1-866-274-6627",
-                  "href": "tel:18662746627"
-                },
-                {
-                  "text": ". Apply online, by mail or in person for a SIN if eligible; Canada no longer issues plastic SIN cards."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Use only the official Government of Canada service. Do not carry a written SIN unless necessary and do not give it to a landlord or food bank."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Apply for a SIN — Government of Canada",
-                  "href": "https://www.canada.ca/en/employment-social-development/services/sin/apply.html"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "taxes-and-benefits-without-stable-housing",
-          "name": "Taxes and benefits without stable housing",
-          "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "You can file a tax return even with no income and may use a shelter or temporary address where you can safely receive mail. Filing may unlock benefits and credits."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Free volunteer tax clinics assist eligible people with simple returns. Check the clinic's appointment, income and document rules."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Tax information for people experiencing housing insecurity — Canada Revenue Agency",
-                  "href": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/segments/housing-insecurity.html"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Find a free tax clinic — Canada Revenue Agency",
-                  "href": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/community-volunteer-income-tax-program/need-a-hand-complete-your-tax-return.html"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.jobbank.gc.ca/",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
       "id": "legal",
-      "title": "9. Legal, tenancy and newcomer help",
-      "items": [
+      "title": "Legal, tenancy and newcomer help",
+      "entries": [
         {
-          "type": "resource",
           "id": "legal-aid-ontario",
-          "name": "Legal Aid Ontario",
+          "title": "Legal Aid Ontario",
+          "description": "Toronto: 416-979-1446. Toll-free: 1-800-668-8258. Weekday telephone help is available in many languages.\nLegal Aid can explain services and financial eligibility for criminal, family, immigration and some other legal matters. Calling does not guarantee a certificate or lawyer.\nContact Legal Aid Ontario",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Toronto:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "416-979-1446",
-                  "href": "tel:4169791446"
-                },
-                {
-                  "text": ". "
-                },
-                {
-                  "text": "Toll-free:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "1-800-668-8258",
-                  "href": "tel:18006688258"
-                },
-                {
-                  "text": ". Weekday telephone help is available in many languages."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Legal Aid can explain services and financial eligibility for criminal, family, immigration and some other legal matters. Calling does not guarantee a certificate or lawyer."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Contact Legal Aid Ontario",
-                  "href": "https://www.legalaid.on.ca/more/corporate/contact-legal-aid-ontario/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "4169791446",
+          "website": "https://www.legalaid.on.ca/more/corporate/contact-legal-aid-ontario/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "downtown-legal-services",
-          "name": "Downtown Legal Services",
+          "title": "Downtown Legal Services",
+          "description": "Phone: 416-978-6447. Community legal clinic operated with the University of Toronto, providing free help in selected areas to eligible clients.\nCall before going. The clinic cannot accept every case and may refer you elsewhere.\nDowntown Legal Services",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 655 Spadina Avenue"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "416-978-6447",
-                  "href": "tel:4169786447"
-                },
-                {
-                  "text": ". Community legal clinic operated with the University of Toronto, providing free help in selected areas to eligible clients."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Call before going. The clinic cannot accept every case and may refer you elsewhere."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Downtown Legal Services",
-                  "href": "https://downtownlegalservices.ca/"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 655 Spadina Avenue",
+          "phone": "4169786447",
+          "website": "https://downtownlegalservices.ca/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "neighbourhood-legal-services",
-          "name": "Neighbourhood Legal Services",
+          "title": "Neighbourhood Legal Services",
+          "description": "Phone: 416-861-0677. Helps eligible residents with matters including housing, income security, immigration and employment.\nService is generally by appointment and catchment or eligibility rules apply. Call first.\nNeighbourhood Legal Services — Legal Aid Ontario",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 163 Queen Street East, Unit 101"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "416-861-0677",
-                  "href": "tel:4168610677"
-                },
-                {
-                  "text": ". Helps eligible residents with matters including housing, income security, immigration and employment."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Service is generally by appointment and catchment or eligibility rules apply. Call first."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Neighbourhood Legal Services — Legal Aid Ontario",
-                  "href": "https://www.legalaid.on.ca/legal-clinics/neighbourhood-legal-services/"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 163 Queen Street East, Unit 101",
+          "phone": "4168610677",
+          "website": "https://www.legalaid.on.ca/legal-clinics/neighbourhood-legal-services/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "tenant-duty-counsel",
-          "name": "Tenant Duty Counsel",
+          "title": "Tenant Duty Counsel",
+          "description": "Phone: 1-866-245-4182. Free legal information and limited assistance for eligible tenants dealing with a Landlord and Tenant Board matter.\nContact the program as early as possible and keep every notice, lease, rent receipt and hearing document. Assistance does not guarantee representation or a result.\nTenant Duty Counsel — Advocacy Centre for Tenants Ontario",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "1-866-245-4182",
-                  "href": "tel:18662454182"
-                },
-                {
-                  "text": ". Free legal information and limited assistance for eligible tenants dealing with a Landlord and Tenant Board matter."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Contact the program as early as possible and keep every notice, lease, rent receipt and hearing document. Assistance does not guarantee representation or a result."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Tenant Duty Counsel — Advocacy Centre for Tenants Ontario",
-                  "href": "https://www.acto.ca/our-work/tenant-duty-counsel/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "18662454182",
+          "website": "https://www.acto.ca/our-work/tenant-duty-counsel/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "if-you-receive-an-eviction-notice",
-          "name": "If you receive an eviction notice",
+          "title": "If you receive an eviction notice",
+          "description": "An eviction notice does not by itself mean that you must leave immediately. Only the Landlord and Tenant Board can issue an eviction order, and enforcement follows a legal process.\nDo not ignore deadlines. Contact a community legal clinic, Tenant Duty Counsel or a housing-help centre and keep a copy or photo of every notice.\nUnderstand and prevent evictions — City of Toronto",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "An eviction notice does not by itself mean that you must leave immediately. Only the Landlord and Tenant Board can issue an eviction order, and enforcement follows a legal process."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Do not ignore deadlines. Contact a community legal clinic, Tenant Duty Counsel or a housing-help centre and keep a copy or photo of every notice."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Understand and prevent evictions — City of Toronto",
-                  "href": "https://www.toronto.ca/community-people/housing-shelter/rental-housing-rights-information/understand-prevent-evictions/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.toronto.ca/community-people/housing-shelter/rental-housing-rights-information/understand-prevent-evictions/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "fcj-refugee-centre",
-          "name": "FCJ Refugee Centre",
+          "title": "FCJ Refugee Centre",
+          "description": "Phone: 416-469-9754. WhatsApp: 437-217-3786. Provides information and support to refugees, claimants and people with uncertain immigration status.\nThe centre publishes a Monday first-visit walk-in process, except holidays. Waiting is possible; check current instructions before going.\nContact FCJ Refugee Centre",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 208 Oakwood Avenue"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "416-469-9754",
-                  "href": "tel:4164699754"
-                },
-                {
-                  "text": ". "
-                },
-                {
-                  "text": "WhatsApp:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "437-217-3786",
-                  "href": "tel:4372173786"
-                },
-                {
-                  "text": ". Provides information and support to refugees, claimants and people with uncertain immigration status."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "The centre publishes a Monday first-visit walk-in process, except holidays. Waiting is possible; check current instructions before going."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Contact FCJ Refugee Centre",
-                  "href": "https://www.fcjrefugeecentre.org/contactar/"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 208 Oakwood Avenue",
+          "phone": "4164699754",
+          "website": "https://www.fcjrefugeecentre.org/contactar/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "legal-aid-ontario-refugee-law-office",
-          "name": "Legal Aid Ontario Refugee Law Office",
+          "title": "Legal Aid Ontario Refugee Law Office",
+          "description": "Phone: 416-977-8111. Provides legal services in refugee and immigration matters subject to mandate and eligibility.\nCall before going and say if there is a hearing, removal date or filing deadline. Bring all immigration documents, even if expired.\nLegal Aid Ontario locations and contact",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 20 Dundas Street West, Suite 730"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "416-977-8111",
-                  "href": "tel:4169778111"
-                },
-                {
-                  "text": ". Provides legal services in refugee and immigration matters subject to mandate and eligibility."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Call before going and say if there is a hearing, removal date or filing deadline. Bring all immigration documents, even if expired."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Legal Aid Ontario locations and contact",
-                  "href": "https://www.legalaid.on.ca/more/corporate/contact-legal-aid-ontario/"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 20 Dundas Street West, Suite 730",
+          "phone": "4169778111",
+          "website": "https://www.legalaid.on.ca/more/corporate/contact-legal-aid-ontario/",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
+    },
+    {
+      "id": "documents",
+      "title": "Identification, mail and taxes",
+      "entries": [
+        {
+          "id": "street-health-identification-service",
+          "title": "Street Health identification service",
+          "description": "Street Health can help eligible clients replace or obtain documents including birth certificates, health cards and some status documents. It does not process passports, driver's licences, permanent-resident cards or citizenship cards.\nID clinic hours are limited and can reach capacity. Check the current schedule before going and bring any document or photocopy you still have.\nIdentification services — Street Health",
+          "last_verified": "2026-11-11",
+          "address": "Address: 338 Dundas Street East",
+          "phone": "",
+          "website": "https://streethealth.ca/services/identification-id/",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "id-safe-document-storage-and-mailing-address",
+          "title": "ID Safe — document storage and mailing address",
+          "description": "Street Health's ID Safe offers secure storage for identification and may provide a mailing address for people who are homeless or vulnerably housed.\nAsk how mail pickup, authorization and replacement work before leaving originals. Capacity and eligibility apply.\nID Safe — Street Health",
+          "last_verified": "2026-11-11",
+          "address": "",
+          "phone": "",
+          "website": "https://streethealth.ca/services/identification-id/",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "social-insurance-number",
+          "title": "Social Insurance Number",
+          "description": "Service Canada: 1-866-274-6627. Apply online, by mail or in person for a SIN if eligible; Canada no longer issues plastic SIN cards.\nUse only the official Government of Canada service. Do not carry a written SIN unless necessary and do not give it to a landlord or food bank.\nApply for a SIN — Government of Canada",
+          "last_verified": "2026-11-11",
+          "address": "",
+          "phone": "18662746627",
+          "website": "https://www.canada.ca/en/employment-social-development/services/sin/apply.html",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "taxes-and-benefits-without-stable-housing",
+          "title": "Taxes and benefits without stable housing",
+          "description": "You can file a tax return even with no income and may use a shelter or temporary address where you can safely receive mail. Filing may unlock benefits and credits.\nFree volunteer tax clinics assist eligible people with simple returns. Check the clinic's appointment, income and document rules.\nTax information for people experiencing housing insecurity — Canada Revenue Agency\nFind a free tax clinic — Canada Revenue Agency — https://www.canada.ca/en/revenue-agency/services/tax/individuals/community-volunteer-income-tax-program/need-a-hand-complete-your-tax-return.html",
+          "last_verified": "2026-11-11",
+          "address": "",
+          "phone": "",
+          "website": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/segments/housing-insecurity.html",
+          "hours": "",
+          "how_to_access": ""
+        }
+      ]
+    },
+    {
+      "id": "mail",
+      "title": "Mailing address",
+      "entries": []
+    },
+    {
+      "id": "storage",
+      "title": "Storage",
+      "entries": []
     },
     {
       "id": "safety",
-      "title": "10. Women, youth, 2SLGBTQIA+, Indigenous people, veterans and pets",
-      "items": [
+      "title": "Women, youth, 2SLGBTQIA+, Indigenous people, veterans and pets",
+      "entries": [
         {
-          "type": "resource",
           "id": "assaulted-women-s-helpline",
-          "name": "Assaulted Women's Helpline",
+          "title": "Assaulted Women's Helpline",
+          "description": "GTA: 416-863-0511. Toll-free: 1-866-863-0511. Selected mobile phones: #SAFE (#7233). Available 24 hours in more than 200 languages.\nAnonymous, confidential safety planning and referral to shelters. Shelter addresses are confidential and space is not guaranteed. In immediate danger call 911.\nServices — Assaulted Women's Helpline",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "GTA:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "416-863-0511",
-                  "href": "tel:4168630511"
-                },
-                {
-                  "text": ". "
-                },
-                {
-                  "text": "Toll-free:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "1-866-863-0511",
-                  "href": "tel:18668630511"
-                },
-                {
-                  "text": ". "
-                },
-                {
-                  "text": "Selected mobile phones:",
-                  "strong": true
-                },
-                {
-                  "text": " #SAFE (#7233). Available 24 hours in more than 200 languages."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Anonymous, confidential safety planning and referral to shelters. Shelter addresses are confidential and space is not guaranteed. In immediate danger call 911."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Services — Assaulted Women's Helpline",
-                  "href": "https://www.awhl.org/our-services"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "4168630511",
+          "website": "https://www.awhl.org/our-services",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "toronto-rape-crisis-centre-multicultural-women-against-rape",
-          "name": "Toronto Rape Crisis Centre / Multicultural Women Against Rape",
+          "title": "Toronto Rape Crisis Centre / Multicultural Women Against Rape",
+          "description": "24-hour crisis line: 416-597-8808. Anonymous and confidential support after sexual violence.\nThe line offers emotional support and information, not emergency dispatch. If you are in immediate danger or need urgent medical care, call 911.\nCrisis line — TRCC/MWAR",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "24-hour crisis line:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "416-597-8808",
-                  "href": "tel:4165978808"
-                },
-                {
-                  "text": ". Anonymous and confidential support after sexual violence."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "The line offers emotional support and information, not emergency dispatch. If you are in immediate danger or need urgent medical care, call 911."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Crisis line — TRCC/MWAR",
-                  "href": "https://trccmwar.ca/crisis-line/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "4165978808",
+          "website": "https://trccmwar.ca/crisis-line/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "kids-help-phone",
-          "name": "Kids Help Phone",
+          "title": "Kids Help Phone",
+          "description": "Call: 1-800-668-6868. Text: CONNECT to 686868. Free, confidential support for young people, 24 hours.\nUse 911 for immediate danger. For a youth shelter bed in Toronto, call Central Intake and state the young person's age.\nUrgent help — Kids Help Phone",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Call:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "1-800-668-6868",
-                  "href": "tel:18006686868"
-                },
-                {
-                  "text": ". "
-                },
-                {
-                  "text": "Text:",
-                  "strong": true
-                },
-                {
-                  "text": " CONNECT to 686868. Free, confidential support for young people, 24 hours."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Use 911 for immediate danger. For a youth shelter bed in Toronto, call Central Intake and state the young person's age."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Urgent help — Kids Help Phone",
-                  "href": "https://kidshelpphone.ca/urgent-help/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "18006686868",
+          "website": "https://kidshelpphone.ca/urgent-help/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "friends-of-ruby-2slgbtqia-youth",
-          "name": "Friends of Ruby — 2SLGBTQIA+ youth",
+          "title": "Friends of Ruby — 2SLGBTQIA+ youth",
+          "description": "Phone: 416-359-0237. Free drop-in for 2SLGBTQIA+ youth aged 16 to 29, with groceries, Wi-Fi, computers, clothing, laundry, hygiene and harm-reduction supplies, case management and mental-health support.\nWeekday hours differ by day. Check the current weekly schedule. Transitional housing has a separate application, eligibility rules and no guaranteed vacancy.\nPrograms and services — Friends of Ruby",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Drop-in:",
-                  "strong": true
-                },
-                {
-                  "text": " 70 Richmond Street East, Suite 400"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "416-359-0237",
-                  "href": "tel:4163590237"
-                },
-                {
-                  "text": ". Free drop-in for 2SLGBTQIA+ youth aged 16 to 29, with groceries, Wi-Fi, computers, clothing, laundry, hygiene and harm-reduction supplies, case management and mental-health support."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Weekday hours differ by day. Check the current weekly schedule. Transitional housing has a separate application, eligibility rules and no guaranteed vacancy."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Programs and services — Friends of Ruby",
-                  "href": "https://www.friendsofruby.ca/programs-and-services/"
-                }
-              ]
-            }
-          ]
+          "address": "Drop-in: 70 Richmond Street East, Suite 400",
+          "phone": "4163590237",
+          "website": "https://www.friendsofruby.ca/programs-and-services/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "the-519",
-          "name": "The 519",
+          "title": "The 519",
+          "description": "Phone: 416-392-6874. Offers programs and selected drop-ins for 2SLGBTQ+ communities, including meals, food access and referrals. The City lists relevant drop-ins as pet-friendly.\nPrograms serve different groups and run on different days. Check the current schedule before going.\nPrograms — The 519",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 519 Church Street"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "416-392-6874",
-                  "href": "tel:4163926874"
-                },
-                {
-                  "text": ". Offers programs and selected drop-ins for 2SLGBTQ+ communities, including meals, food access and referrals. The City lists relevant drop-ins as pet-friendly."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Programs serve different groups and run on different days. Check the current schedule before going."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Programs — The 519",
-                  "href": "https://www.the519.org/programs/"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 519 Church Street",
+          "phone": "4163926874",
+          "website": "https://www.the519.org/programs/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "supporting-our-youth-sherbourne-health",
-          "name": "Supporting Our Youth — Sherbourne Health",
+          "title": "Supporting Our Youth — Sherbourne Health",
+          "description": "Phone: 416-324-5077. Services for 2SLGBTQ youth may include meals, showers, a food bank and harm-reduction support.\nDrop-in days and hours vary. Confirm through the City drop-in directory or Sherbourne Health before travelling.\nCurrent drop-in details — City of Toronto",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 333 Sherbourne Street, second floor"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "416-324-5077",
-                  "href": "tel:4163245077"
-                },
-                {
-                  "text": ". Services for 2SLGBTQ youth may include meals, showers, a food bank and harm-reduction support."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Drop-in days and hours vary. Confirm through the City drop-in directory or Sherbourne Health before travelling."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Current drop-in details — City of Toronto",
-                  "href": "https://www.toronto.ca/community-people/housing-shelter/homeless-help/drop-ins-homeless-help/"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 333 Sherbourne Street, second floor",
+          "phone": "4163245077",
+          "website": "https://www.toronto.ca/community-people/housing-shelter/homeless-help/drop-ins-homeless-help/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "native-women-s-resource-centre-of-toronto",
-          "name": "Native Women's Resource Centre of Toronto",
+          "title": "Native Women's Resource Centre of Toronto",
+          "description": "Phone: 416-963-9963. Indigenous-led support for women and families, including drop-in, housing, family, trauma and practical programs.\nPublished weekday hours include a midday closure. Call before going and ask which program is available that day.\nProgram directory — Native Women's Resource Centre of Toronto",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 191 Gerrard Street East"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "416-963-9963",
-                  "href": "tel:4169639963"
-                },
-                {
-                  "text": ". Indigenous-led support for women and families, including drop-in, housing, family, trauma and practical programs."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Published weekday hours include a midday closure. Call before going and ask which program is available that day."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Program directory — Native Women's Resource Centre of Toronto",
-                  "href": "https://nwrct.ca/nwrct-homepage/nwrct-directory/"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 191 Gerrard Street East",
+          "phone": "4169639963",
+          "website": "https://nwrct.ca/nwrct-homepage/nwrct-directory/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "indigenous-housing-support",
-          "name": "Indigenous housing support",
+          "title": "Indigenous housing support",
+          "description": "Aboriginal Housing Support Centre: 416-900-1082. Ask for Indigenous-specific housing navigation and connection to Coordinated Access.\nAn assessment or referral does not guarantee housing. For an emergency shelter bed, still call Central Intake and identify yourself as Indigenous if you are comfortable doing so.\nIndigenous access information — City of Toronto",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Aboriginal Housing Support Centre:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "416-900-1082",
-                  "href": "tel:4169001082"
-                },
-                {
-                  "text": ". Ask for Indigenous-specific housing navigation and connection to Coordinated Access."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "An assessment or referral does not guarantee housing. For an emergency shelter bed, still call Central Intake and identify yourself as Indigenous if you are comfortable doing so."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Indigenous access information — City of Toronto",
-                  "href": "https://www.toronto.ca/community-people/housing-shelter/building-affordable-homes/housing-initiatives/coordinated-access-to-housing-supports/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "4169001082",
+          "website": "https://www.toronto.ca/community-people/housing-shelter/building-affordable-homes/housing-initiatives/coordinated-access-to-housing-supports/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "veterans-at-risk-of-homelessness",
-          "name": "Veterans at risk of homelessness",
+          "title": "Veterans at risk of homelessness",
+          "description": "Veterans Affairs Canada: 1-866-522-2122. Staff can connect an eligible veteran or family member with case management, benefits and community services.\nGood Shepherd's drop-in also lists veterans navigation. Say that you served when contacting Central Intake or a drop-in so staff can identify specialist support.\nVeteran homelessness support — Veterans Affairs Canada",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Veterans Affairs Canada:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "1-866-522-2122",
-                  "href": "tel:18665222122"
-                },
-                {
-                  "text": ". Staff can connect an eligible veteran or family member with case management, benefits and community services."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Good Shepherd's drop-in also lists veterans navigation. Say that you served when contacting Central Intake or a drop-in so staff can identify specialist support."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Veteran homelessness support — Veterans Affairs Canada",
-                  "href": "https://veterans.gc.ca/en/housing-and-home-life/risk-housing-situation/understanding-veteran-homelessness"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "18665222122",
+          "website": "https://veterans.gc.ca/en/housing-and-home-life/risk-housing-situation/understanding-veteran-homelessness",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "veterans-emergency-fund",
-          "name": "Veterans Emergency Fund",
+          "title": "Veterans Emergency Fund",
+          "description": "Eligible veterans and certain family members facing a financial emergency may apply for help with essentials such as food, clothing, uninsured health costs or shelter.\nApply or ask for help: 1-866-522-2122. The program verifies service, identity, residence and need; payment is assessed case by case and is not guaranteed.\nVeterans Emergency Fund — Veterans Affairs Canada",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Eligible veterans and certain family members facing a financial emergency may apply for help with essentials such as food, clothing, uninsured health costs or shelter."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Apply or ask for help:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "1-866-522-2122",
-                  "href": "tel:18665222122"
-                },
-                {
-                  "text": ". The program verifies service, identity, residence and need; payment is assessed case by case and is not guaranteed."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Veterans Emergency Fund — Veterans Affairs Canada",
-                  "href": "https://veterans.gc.ca/en/financial-programs-and-services/emergency-funds/veterans-emergency-fund"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "18665222122",
+          "website": "https://veterans.gc.ca/en/financial-programs-and-services/emergency-funds/veterans-emergency-fund",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "if-you-have-a-pet",
-          "name": "If you have a pet",
+          "title": "If you have a pet",
+          "description": "Tell Central Intake about the animal before accepting a referral. Toronto states that 24-hour respite sites and activated warming centres are pet-friendly, but not every shelter can accommodate every animal.\nAsk what supplies or documentation are needed and whether the pet can stay with you. Do not abandon or hide an animal to enter a site.\nPet services in homeless shelters — City of Toronto",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Tell Central Intake about the animal before accepting a referral. Toronto states that 24-hour respite sites and activated warming centres are pet-friendly, but not every shelter can accommodate every animal."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ask what supplies or documentation are needed and whether the pet can stay with you. Do not abandon or hide an animal to enter a site."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Pet services in homeless shelters — City of Toronto",
-                  "href": "https://www.toronto.ca/community-people/housing-shelter/homeless-help/pet-services-in-homeless-shelters/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.toronto.ca/community-people/housing-shelter/homeless-help/pet-services-in-homeless-shelters/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "helpingpawsto",
-          "name": "HelpingPawsTO",
+          "title": "HelpingPawsTO",
+          "description": "For clients of participating shelters and 24-hour homelessness services, HelpingPawsTO may provide free veterinary care such as an exam, vaccination, spay or neuter, microchip and parasite treatment.\nAccess is by staff referral, not direct walk-in. Supplies and appointments depend on availability. Ask your shelter or service worker.\nHelpingPawsTO — City of Toronto",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "For clients of participating shelters and 24-hour homelessness services, HelpingPawsTO may provide free veterinary care such as an exam, vaccination, spay or neuter, microchip and parasite treatment."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Access is by staff referral",
-                  "strong": true
-                },
-                {
-                  "text": ", not direct walk-in. Supplies and appointments depend on availability. Ask your shelter or service worker."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "HelpingPawsTO — City of Toronto",
-                  "href": "https://www.toronto.ca/community-people/housing-shelter/homeless-help/pet-services-in-homeless-shelters/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.toronto.ca/community-people/housing-shelter/homeless-help/pet-services-in-homeless-shelters/",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
-      "id": "sources",
+      "id": "specialist-support",
+      "title": "Specialist support",
+      "entries": []
+    },
+    {
+      "id": "veterans",
+      "title": "Veterans support",
+      "entries": []
+    },
+    {
+      "id": "pets",
+      "title": "Help for people with pets",
+      "entries": []
+    },
+    {
+      "id": "other",
       "title": "Sources and corrections",
-      "items": [
+      "entries": [
         {
-          "type": "paragraph",
-          "content": [
-            {
-              "text": "This page prioritizes current government pages and the providers' own websites. Toronto's directories can change without notice; confirm before travelling and report a broken link or incorrect detail."
-            }
-          ]
-        },
-        {
-          "type": "list",
-          "items": [
-            [
-              {
-                "text": "Homeless Help — City of Toronto",
-                "href": "https://www.toronto.ca/community-people/housing-shelter/homeless-help/"
-              }
-            ],
-            [
-              {
-                "text": "Drop-in directory — City of Toronto",
-                "href": "https://www.toronto.ca/community-people/housing-shelter/homeless-help/drop-ins-homeless-help/"
-              }
-            ],
-            [
-              {
-                "text": "Toronto Drop-In Network",
-                "href": "https://www.tdin.ca/"
-              }
-            ],
-            [
-              {
-                "text": "Submit a correction or add a resource",
-                "href": "../../CONTRIBUTING.md"
-              }
-            ]
-          ]
+          "id": "sources-information",
+          "title": "Sources and corrections",
+          "description": "This page prioritizes current government pages and the providers' own websites. Toronto's directories can change without notice; confirm before travelling and report a broken link or incorrect detail.\n- Homeless Help — City of Toronto\n- Drop-in directory — City of Torontodrop-ins-homeless-help/\n- Toronto Drop-In Network — https://www.tdin.ca/\n- Submit a correction or add a resource — ../../CONTRIBUTING.md",
+          "last_verified": "2026-11-11",
+          "address": "",
+          "phone": "",
+          "website": "https://www.toronto.ca/community-people/housing-shelter/homeless-help/",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     }

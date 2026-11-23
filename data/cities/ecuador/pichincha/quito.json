@@ -1,6 +1,7 @@
 {
   "$schema": "https://nohomehelp.com/schemas/city.schema.json",
-  "schema_version": 1,
+  "documentation": "https://github.com/carlosbranco/no-home-help/blob/main/EDIT_CITY_JSON.md",
+  "schema_version": 2,
   "status": "published",
   "locale": {
     "language": "es",
@@ -26,3550 +27,992 @@
   "page": {
     "heading": "Quito — ayuda para personas sin vivienda",
     "last_verified": "2026-11-11",
-    "urgent": [
-      {
-        "type": "paragraph",
-        "content": [
-          {
-            "text": "Emergencia médica, violencia, incendio o rescate:",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "911",
-            "href": "tel:911"
-          },
-          {
-            "break": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "Albergue y servicios sociales municipales:",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "1800 288 523",
-            "href": "tel:1800288523"
-          },
-          {
-            "break": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "Violencia basada en género — A Tu Lado:",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "1800 288 523",
-            "href": "tel:1800288523"
-          },
-          {
-            "text": ", las 24 horas"
-          },
-          {
-            "break": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "Citas de salud pública:",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "171",
-            "href": "tel:171"
-          },
-          {
-            "break": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "Salud mental municipal:",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "101",
-            "href": "tel:101"
-          },
-          {
-            "text": ", opción 9"
-          }
-        ]
-      }
-    ],
-    "notice": [
-      {
-        "text": "Las plazas, horarios, direcciones y requisitos pueden cambiar.",
-        "strong": true
-      },
-      {
-        "text": " Confirma antes de trasladarte. Ningún servicio garantiza cama, comida, dinero, tratamiento, beneficio o empleo el mismo día. Ante peligro inmediato llama al 911."
-      }
-    ],
-    "intro": [
-      {
-        "type": "paragraph",
-        "content": [
-          {
-            "text": "Si hoy no tienes dónde dormir, llama primero al "
-          },
-          {
-            "text": "1800 288 523",
-            "href": "tel:1800288523"
-          },
-          {
-            "text": " y pide el "
-          },
-          {
-            "text": "Hogar Comunidad de Calle",
-            "strong": true
-          },
-          {
-            "text": " u otra derivación. Explica tu ubicación, edad, estado de salud, si has comido, si tienes documentos y si viajas con niños, una persona dependiente o un animal. El número municipal y la línea A Tu Lado usan los mismos dígitos; di claramente qué ayuda necesitas."
-          }
-        ]
-      },
-      {
-        "type": "paragraph",
-        "content": [
-          {
-            "text": "Quito tiene una ruta municipal que permite activar protección aun cuando una persona no tenga documentos, mediante validación biométrica. La participación en los servicios es voluntaria. Si una organización religiosa aparece en esta guía, se identifica como tal; ninguna fuente consultada dice que sea obligatorio participar en culto para recibir la atención descrita."
-          }
-        ]
-      }
-    ],
-    "footer": [
-      {
-        "type": "paragraph",
-        "content": [
-          {
-            "text": "No Home Help no es un servicio de emergencia y no garantiza la disponibilidad de recursos."
-          }
-        ]
-      }
-    ]
+    "urgent": "Emergencia médica, violencia, incendio o rescate: 911 Albergue y servicios sociales municipales: 1800 288 523 Violencia basada en género — A Tu Lado: 1800 288 523, las 24 horas Citas de salud pública: 171 Salud mental municipal: 101, opción 9",
+    "notice": "Las plazas, horarios, direcciones y requisitos pueden cambiar. Confirma antes de trasladarte. Ningún servicio garantiza cama, comida, dinero, tratamiento, beneficio o empleo el mismo día. Ante peligro inmediato llama al 911.",
+    "intro": "Si hoy no tienes dónde dormir, llama primero al 1800 288 523 y pide el Hogar Comunidad de Calle u otra derivación. Explica tu ubicación, edad, estado de salud, si has comido, si tienes documentos y si viajas con niños, una persona dependiente o un animal. El número municipal y la línea A Tu Lado usan los mismos dígitos; di claramente qué ayuda necesitas.\nQuito tiene una ruta municipal que permite activar protección aun cuando una persona no tenga documentos, mediante validación biométrica. La participación en los servicios es voluntaria. Si una organización religiosa aparece en esta guía, se identifica como tal; ninguna fuente consultada dice que sea obligatorio participar en culto para recibir la atención descrita.",
+    "footer": "No Home Help no es un servicio de emergencia y no garantiza la disponibilidad de recursos."
   },
   "categories": [
     {
-      "id": "urgent-help",
-      "title": "1. Emergencias y orientación inmediata",
-      "items": [
+      "id": "emergency",
+      "title": "Emergencias y orientación inmediata",
+      "entries": [
         {
-          "type": "resource",
           "id": "ecu-911-numero-unico-de-emergencias",
-          "name": "ECU 911 — número único de emergencias",
+          "title": "ECU 911 — número único de emergencias",
+          "description": "Teléfono gratuito: 911, las 24 horas.\nLlama por pérdida de conciencia, dificultad para respirar, herida grave, sobredosis, violencia en curso, incendio, rescate o riesgo inmediato. Di primero la ubicación exacta y un punto de referencia. El ECU 911 coordina ambulancia, Policía, Bomberos y otros equipos.\nGestión de emergencias — ECU 911",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Teléfono gratuito:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "911",
-                  "href": "tel:911"
-                },
-                {
-                  "text": ", las 24 horas."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Llama por pérdida de conciencia, dificultad para respirar, herida grave, sobredosis, violencia en curso, incendio, rescate o riesgo inmediato. Di primero la ubicación exacta y un punto de referencia. El ECU 911 coordina ambulancia, Policía, Bomberos y otros equipos."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Gestión de emergencias — ECU 911",
-                  "href": "https://www.ecu911.gob.ec/gestion-de-la-atencion-de-emergencias/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "911",
+          "website": "https://www.ecu911.gob.ec/gestion-de-la-atencion-de-emergencias/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "patronato-san-jose-orientacion-social",
-          "name": "Patronato San José — orientación social",
+          "title": "Patronato San José — orientación social",
+          "description": "Línea gratuita: 1800 288 523. PBX: (02) 228-3915.\nPide orientación sobre alojamiento, abordaje en calle, comedores, personas mayores, discapacidad y otros servicios municipales. Indica de inmediato cualquier urgencia, niño, embarazo, violencia, limitación de movilidad o animal de compañía.\nUnidad Patronato Municipal San José",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Línea gratuita:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "1800 288 523",
-                  "href": "tel:1800288523"
-                },
-                {
-                  "text": ". "
-                },
-                {
-                  "text": "PBX:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(02) 228-3915",
-                  "href": "tel:+59322283915"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Oficina central:",
-                  "strong": true
-                },
-                {
-                  "text": " Chile Oe6-48 y Benalcázar, Centro Histórico"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Pide orientación sobre alojamiento, abordaje en calle, comedores, personas mayores, discapacidad y otros servicios municipales. Indica de inmediato cualquier urgencia, niño, embarazo, violencia, limitación de movilidad o animal de compañía."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Unidad Patronato Municipal San José",
-                  "href": "https://patronato.quito.gob.ec/"
-                }
-              ]
-            }
-          ]
+          "address": "Oficina central: Chile Oe6-48 y Benalcázar, Centro Histórico",
+          "phone": "1800288523",
+          "website": "https://patronato.quito.gob.ec/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "equipos-municipales-de-abordaje-en-calle",
-          "name": "Equipos municipales de abordaje en calle",
+          "title": "Equipos municipales de abordaje en calle",
+          "description": "Los equipos diurnos y nocturnos localizan a personas en la calle, evalúan necesidades de salud y ofrecen vinculación voluntaria con el Hogar de Vida, el Hogar Comunidad de Calle y organizaciones colaboradoras.\nPara pedir una visita llama al 1800 288 523, describe el lugar con precisión y, si es posible, pregunta antes a la persona si desea ayuda. Ante peligro médico o violencia usa el 911.\nAcompañamiento en calle — Quito Informa, 2026",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Los equipos diurnos y nocturnos localizan a personas en la calle, evalúan necesidades de salud y ofrecen vinculación voluntaria con el Hogar de Vida, el Hogar Comunidad de Calle y organizaciones colaboradoras."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Para pedir una visita llama al 1800 288 523, describe el lugar con precisión y, si es posible, pregunta antes a la persona si desea ayuda. Ante peligro médico o violencia usa el 911."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Acompañamiento en calle — Quito Informa, 2026",
-                  "href": "https://quitoinforma.quito.gob.ec/2026/08/19/el-patronato-san-jose-acompana-a-personas-en-situacion-de-calle-y-abre-camino-hacia-nuevas-oportunidades/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://quitoinforma.quito.gob.ec/2026/08/19/el-patronato-san-jose-acompana-a-personas-en-situacion-de-calle-y-abre-camino-hacia-nuevas-oportunidades/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "ruta-de-proteccion-aun-sin-documentos",
-          "name": "Ruta de protección aun sin documentos",
+          "title": "Ruta de protección aun sin documentos",
+          "description": "La ruta municipal de 2026 establece acceso a protección sin excluir a quien no tenga cédula. Puede usarse validación biométrica de identidad y existen mecanismos para presentar una queja si se niega indebidamente la atención.\nMenciona esta ruta al Patronato o al servicio que te atiende. La falta de documentos no debe retrasar una emergencia: para peligro inmediato llama al 911.\nRuta de protección para habitantes de calle — Consejo de Protección de Derechos",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "La ruta municipal de 2026 establece acceso a protección sin excluir a quien no tenga cédula. Puede usarse validación biométrica de identidad y existen mecanismos para presentar una queja si se niega indebidamente la atención."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Menciona esta ruta al Patronato o al servicio que te atiende. La falta de documentos no debe retrasar una emergencia: para peligro inmediato llama al 911."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ruta de protección para habitantes de calle — Consejo de Protección de Derechos",
-                  "href": "https://proteccionderechosquito.gob.ec/quito-lanza-primera-ruta-de-proteccion-para-personas-habitantes-de-calle-en-ecuador-con-protocolo-inedito-para-acceso-a-derechos-sin-documentos/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://proteccionderechosquito.gob.ec/quito-lanza-primera-ruta-de-proteccion-para-personas-habitantes-de-calle-en-ecuador-con-protocolo-inedito-para-acceso-a-derechos-sin-documentos/",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
       "id": "shelter",
-      "title": "2. Alojamiento y apoyo en la calle",
-      "items": [
+      "title": "Alojamiento y apoyo en la calle",
+      "entries": [
         {
-          "type": "resource",
           "id": "hogar-comunidad-de-calle-alojamiento-municipal-para-personas-adultas",
-          "name": "Hogar Comunidad de Calle — alojamiento municipal para personas adultas",
+          "title": "Hogar Comunidad de Calle — alojamiento municipal para personas adultas",
+          "description": "Orientación: 1800 288 523. La información municipal describe atención todos los días y alojamiento nocturno voluntario para personas adultas de 18 años o más que puedan valerse por sí mismas.\nOfrece cama temporal, alimentación, higiene y acompañamiento social según valoración y capacidad. La admisión no está garantizada; confirma antes de ir. Las reglas publicadas han incluido no presentarse bajo efectos de alcohol u otras sustancias en el momento del ingreso.\nServicios municipales para personas en calle — Quito Informa",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Dirección publicada:",
-                  "strong": true
-                },
-                {
-                  "text": " Chimborazo S1-95 y avenida 24 de Mayo"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Orientación:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "1800 288 523",
-                  "href": "tel:1800288523"
-                },
-                {
-                  "text": ". La información municipal describe atención todos los días y alojamiento nocturno voluntario para personas adultas de 18 años o más que puedan valerse por sí mismas."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ofrece cama temporal, alimentación, higiene y acompañamiento social según valoración y capacidad. La admisión no está garantizada; confirma antes de ir. Las reglas publicadas han incluido no presentarse bajo efectos de alcohol u otras sustancias en el momento del ingreso."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Servicios municipales para personas en calle — Quito Informa",
-                  "href": "https://quitoinforma.quito.gob.ec/2024/08/19/el-patronato-municipal-san-jose-trabaja-para-dignificar-la-vida-de-personas-en-situacion-de-calle/"
-                }
-              ]
-            }
-          ]
+          "address": "Dirección publicada: Chimborazo S1-95 y avenida 24 de Mayo",
+          "phone": "1800288523",
+          "website": "https://quitoinforma.quito.gob.ec/2024/08/19/el-patronato-municipal-san-jose-trabaja-para-dignificar-la-vida-de-personas-en-situacion-de-calle/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "hogar-de-vida-proceso-de-inclusion-social",
-          "name": "Hogar de Vida — proceso de inclusión social",
+          "title": "Hogar de Vida — proceso de inclusión social",
+          "description": "Servicio municipal especializado para personas en situación de calle que aceptan iniciar un proceso voluntario de recuperación de autonomía e inclusión. Los equipos de abordaje y el Hogar Comunidad de Calle pueden valorar la derivación.\nNo es una entrada directa ni una cama garantizada. Pide evaluación al 1800 288 523 y pregunta por las condiciones actuales.\nRed municipal especializada — Quito Informa, 2026",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Servicio municipal especializado para personas en situación de calle que aceptan iniciar un proceso voluntario de recuperación de autonomía e inclusión. Los equipos de abordaje y el Hogar Comunidad de Calle pueden valorar la derivación."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "No es una entrada directa ni una cama garantizada. Pide evaluación al 1800 288 523 y pregunta por las condiciones actuales."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Red municipal especializada — Quito Informa, 2026",
-                  "href": "https://quitoinforma.quito.gob.ec/2026/09/01/tres-nuevas-funciones-de-la-puerta-de-los-suenos-el-arte-que-transforma-historias-de-personas-en-situacion-de-calle/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://quitoinforma.quito.gob.ec/2026/09/01/tres-nuevas-funciones-de-la-puerta-de-los-suenos-el-arte-que-transforma-historias-de-personas-en-situacion-de-calle/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "casa-del-hermano-familias-en-movilidad-humana",
-          "name": "Casa del Hermano — familias en movilidad humana",
+          "title": "Casa del Hermano — familias en movilidad humana",
+          "description": "Orientación: 1800 288 523. El directorio humanitario la describe como alojamiento municipal, sin cita previa, para familias en movilidad humana y vulnerabilidad.\nLa composición familiar, capacidad y reglas se evalúan al llegar. Llama antes, especialmente si viajas con niños, una persona dependiente o un animal.\nInforme oficial del Patronato — Casa del Hermano",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Dirección publicada:",
-                  "strong": true
-                },
-                {
-                  "text": " avenida 24 de Mayo Oe6-41, sector Loja y Barahona"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Orientación:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "1800 288 523",
-                  "href": "tel:1800288523"
-                },
-                {
-                  "text": ". El directorio humanitario la describe como alojamiento municipal, sin cita previa, para familias en movilidad humana y vulnerabilidad."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "La composición familiar, capacidad y reglas se evalúan al llegar. Llama antes, especialmente si viajas con niños, una persona dependiente o un animal."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Informe oficial del Patronato — Casa del Hermano",
-                  "href": "https://patronato.quito.gob.ec/wp-content/uploads/biblioteca-virtual-upmsj/direccion-planificacion/2024/rdc_2023/2infrdc_2022_upmsj/2.3_informe_narrativo_2023_upmsj.pdf"
-                }
-              ]
-            }
-          ]
+          "address": "Dirección publicada: avenida 24 de Mayo Oe6-41, sector Loja y Barahona",
+          "phone": "1800288523",
+          "website": "https://patronato.quito.gob.ec/wp-content/uploads/biblioteca-virtual-upmsj/direccion-planificacion/2024/rdc_2023/2infrdc_2022_upmsj/2.3_informe_narrativo_2023_upmsj.pdf",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "albergue-san-juan-de-dios-alojamiento-temporal",
-          "name": "Albergue San Juan de Dios — alojamiento temporal",
+          "title": "Albergue San Juan de Dios — alojamiento temporal",
+          "description": "WhatsApp y teléfono publicado: 099 543 3233. Otro contacto publicado en el directorio humanitario es 096 963 2311.\nOrganización católica sin fines de lucro. Recibe hombres, mujeres y familias, tras valoración, para alojamiento temporal con cena, desayuno, higiene y ropa según necesidad. Su web indica una permanencia máxima de un mes; llama antes porque la plaza y duración dependen del caso.\nAlbergue nocturno — San Juan de Dios",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Dirección:",
-                  "strong": true
-                },
-                {
-                  "text": " Túmbez Oe6-98 y Bahía de Caráquez"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "WhatsApp y teléfono publicado:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "099 543 3233",
-                  "href": "tel:+593995433233"
-                },
-                {
-                  "text": ". Otro contacto publicado en el directorio humanitario es "
-                },
-                {
-                  "text": "096 963 2311",
-                  "href": "tel:+593969632311"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Organización católica sin fines de lucro. Recibe hombres, mujeres y familias, tras valoración, para alojamiento temporal con cena, desayuno, higiene y ropa según necesidad. Su web indica una permanencia máxima de un mes; llama antes porque la plaza y duración dependen del caso."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Albergue nocturno — San Juan de Dios",
-                  "href": "https://alberguesanjuandedios.com/portfolio-item/alberguenocturno/"
-                }
-              ]
-            }
-          ]
+          "address": "Dirección: Túmbez Oe6-98 y Bahía de Caráquez",
+          "phone": "+593995433233",
+          "website": "https://alberguesanjuandedios.com/portfolio-item/alberguenocturno/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "si-no-hay-plaza-esta-noche",
-          "name": "Si no hay plaza esta noche",
+          "title": "Si no hay plaza esta noche",
+          "description": "Pide al servicio una alternativa concreta, el nombre de la persona o unidad que recibió el caso y cuándo debes volver a llamar. Explica si hay niños, embarazo, edad avanzada, discapacidad, enfermedad, violencia o movilidad humana, porque puede cambiar la derivación.\nNo pagues a un particular por una supuesta plaza municipal. Si la exposición al frío o lluvia provoca confusión, dificultad para respirar, pérdida de conciencia u otro peligro, llama al 911.\nPuertas de entrada municipales",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Pide al servicio una alternativa concreta, el nombre de la persona o unidad que recibió el caso y cuándo debes volver a llamar. Explica si hay niños, embarazo, edad avanzada, discapacidad, enfermedad, violencia o movilidad humana, porque puede cambiar la derivación."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "No pagues a un particular por una supuesta plaza municipal. Si la exposición al frío o lluvia provoca confusión, dificultad para respirar, pérdida de conciencia u otro peligro, llama al 911."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Puertas de entrada municipales",
-                  "href": "https://quitoinforma.quito.gob.ec/2024/08/19/el-patronato-municipal-san-jose-trabaja-para-dignificar-la-vida-de-personas-en-situacion-de-calle/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://quitoinforma.quito.gob.ec/2024/08/19/el-patronato-municipal-san-jose-trabaja-para-dignificar-la-vida-de-personas-en-situacion-de-calle/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "acercamiento-voluntario-y-trato-digno",
-          "name": "Acercamiento voluntario y trato digno",
+          "title": "Acercamiento voluntario y trato digno",
+          "description": "Los servicios municipales se presentan como gratuitos y voluntarios. Una persona puede aceptar valoración sin comprometerse a permanecer en un programa; pregunta qué datos registrarán y qué opciones existen.\nSi acompañas a otra persona, no la traslades por fuerza salvo intervención legal de emergencia. Para una queja de derechos consulta la sección de ayuda legal.\nPrincipios de la ruta de protección",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Los servicios municipales se presentan como gratuitos y voluntarios. Una persona puede aceptar valoración sin comprometerse a permanecer en un programa; pregunta qué datos registrarán y qué opciones existen."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Si acompañas a otra persona, no la traslades por fuerza salvo intervención legal de emergencia. Para una queja de derechos consulta la sección de ayuda legal."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Principios de la ruta de protección",
-                  "href": "https://proteccionderechosquito.gob.ec/quito-lanza-primera-ruta-de-proteccion-para-personas-habitantes-de-calle-en-ecuador-con-protocolo-inedito-para-acceso-a-derechos-sin-documentos/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://proteccionderechosquito.gob.ec/quito-lanza-primera-ruta-de-proteccion-para-personas-habitantes-de-calle-en-ecuador-con-protocolo-inedito-para-acceso-a-derechos-sin-documentos/",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
       "id": "food",
-      "title": "3. Comida y ayuda comunitaria o religiosa",
-      "items": [
+      "title": "Comida y ayuda comunitaria o religiosa",
+      "entries": [
         {
-          "type": "resource",
           "id": "comedor-comunitario-de-calderon",
-          "name": "Comedor comunitario de Calderón",
+          "title": "Comedor comunitario de Calderón",
+          "description": "Forma parte de los tres comedores municipales para personas en calle, movilidad humana, bajos recursos y adultos mayores vulnerables. La programación publicada en 2026 es de lunes a viernes, incluidos feriados, de 8:00 a 16:30.\nLlama al 1800 288 523 antes de ir y pregunta por hora de comida, registro y cupo. El horario del centro no significa que haya comida disponible durante toda la jornada.\nComedores comunitarios — Quito Informa, 2026",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Dirección publicada:",
-                  "strong": true
-                },
-                {
-                  "text": " Casa Bienestar y Vida, Manuel Enríquez E9-12 y José María de la Torre, Bellavista de Calderón"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Forma parte de los tres comedores municipales para personas en calle, movilidad humana, bajos recursos y adultos mayores vulnerables. La programación publicada en 2026 es de lunes a viernes, incluidos feriados, de 8:00 a 16:30."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Llama al 1800 288 523 antes de ir y pregunta por hora de comida, registro y cupo. El horario del centro no significa que haya comida disponible durante toda la jornada."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Comedores comunitarios — Quito Informa, 2026",
-                  "href": "https://quitoinforma.quito.gob.ec/2026/01/28/comedores-comunitarios-un-espacio-donde-la-alimentacion-y-el-apoyo-emocional-van-de-la-mano/"
-                }
-              ]
-            }
-          ]
+          "address": "Dirección publicada: Casa Bienestar y Vida, Manuel Enríquez E9-12 y José María de la Torre, Bellavista de Calderón",
+          "phone": "",
+          "website": "https://quitoinforma.quito.gob.ec/2026/01/28/comedores-comunitarios-un-espacio-donde-la-alimentacion-y-el-apoyo-emocional-van-de-la-mano/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "comedor-comunitario-de-conocoto",
-          "name": "Comedor comunitario de Conocoto",
+          "title": "Comedor comunitario de Conocoto",
+          "description": "Servicio municipal con alimentación y acompañamiento nutricional, psicológico y social. La programación general publicada es de lunes a viernes, incluidos feriados, de 8:00 a 16:30.\nConfirma por el 1800 288 523 la entrada, hora de entrega y disponibilidad del día.\nRed municipal de comedores",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Dirección publicada:",
-                  "strong": true
-                },
-                {
-                  "text": " Coliseo de Conocoto, José de Ascázubi N3-139"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Servicio municipal con alimentación y acompañamiento nutricional, psicológico y social. La programación general publicada es de lunes a viernes, incluidos feriados, de 8:00 a 16:30."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Confirma por el 1800 288 523 la entrada, hora de entrega y disponibilidad del día."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Red municipal de comedores",
-                  "href": "https://quitoinforma.quito.gob.ec/2026/01/28/comedores-comunitarios-un-espacio-donde-la-alimentacion-y-el-apoyo-emocional-van-de-la-mano/"
-                }
-              ]
-            }
-          ]
+          "address": "Dirección publicada: Coliseo de Conocoto, José de Ascázubi N3-139",
+          "phone": "",
+          "website": "https://quitoinforma.quito.gob.ec/2026/01/28/comedores-comunitarios-un-espacio-donde-la-alimentacion-y-el-apoyo-emocional-van-de-la-mano/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "comedor-comunitario-de-san-bartolo",
-          "name": "Comedor comunitario de San Bartolo",
+          "title": "Comedor comunitario de San Bartolo",
+          "description": "Atiende a población vulnerable dentro de la red municipal. La red anunció en 2026 servicio de lunes a viernes, incluidos feriados, de 8:00 a 16:30, pero los cupos y la hora de la comida pueden variar.\nLlama al 1800 288 523 antes de desplazarte.\nUbicación del comedor de San Bartolo — Quito Informa",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Dirección publicada:",
-                  "strong": true
-                },
-                {
-                  "text": " avenida Ajaví y Huigra, sector San Bartolo"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Atiende a población vulnerable dentro de la red municipal. La red anunció en 2026 servicio de lunes a viernes, incluidos feriados, de 8:00 a 16:30, pero los cupos y la hora de la comida pueden variar."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Llama al 1800 288 523 antes de desplazarte."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ubicación del comedor de San Bartolo — Quito Informa",
-                  "href": "https://quitoinforma.quito.gob.ec/2025/03/24/quito-solidario-donaciones-se-enviaron-para-familias-de-esmeraldas/"
-                }
-              ]
-            }
-          ]
+          "address": "Dirección publicada: avenida Ajaví y Huigra, sector San Bartolo",
+          "phone": "",
+          "website": "https://quitoinforma.quito.gob.ec/2025/03/24/quito-solidario-donaciones-se-enviaron-para-familias-de-esmeraldas/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "alimentacion-en-el-hogar-comunidad-de-calle",
-          "name": "Alimentación en el Hogar Comunidad de Calle",
+          "title": "Alimentación en el Hogar Comunidad de Calle",
+          "description": "El servicio municipal incluye comida para las personas atendidas y ha publicado también atención alimentaria diaria. Pregunta si se puede recibir comida sin alojamiento y cuál es la hora de ingreso; no asumas que basta con presentarse.\nDirección: Chimborazo S1-95 y avenida 24 de Mayo. Orientación: 1800 288 523.\nHogar Comunidad de Calle — servicios publicados",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "El servicio municipal incluye comida para las personas atendidas y ha publicado también atención alimentaria diaria. Pregunta si se puede recibir comida sin alojamiento y cuál es la hora de ingreso; no asumas que basta con presentarse."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Dirección:",
-                  "strong": true
-                },
-                {
-                  "text": " Chimborazo S1-95 y avenida 24 de Mayo. "
-                },
-                {
-                  "text": "Orientación:",
-                  "strong": true
-                },
-                {
-                  "text": " 1800 288 523."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Hogar Comunidad de Calle — servicios publicados",
-                  "href": "https://quitoinforma.quito.gob.ec/2023/08/18/los-habitantes-de-calle-cuentan-con-el-apoyo-del-patronato-san-jose/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://quitoinforma.quito.gob.ec/2023/08/18/los-habitantes-de-calle-cuentan-con-el-apoyo-del-patronato-san-jose/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "toca-de-asis-hermanos-alimentos-y-apoyo-social",
-          "name": "Toca de Asís Hermanos — alimentos y apoyo social",
+          "title": "Toca de Asís Hermanos — alimentos y apoyo social",
+          "description": "Teléfono: 098 039 1726. Obra católica de los Hijos de la Pobreza del Santísimo Sacramento que atiende a personas en calle.\nEl directorio municipal de 2023 publicó atención martes y miércoles, de 9:00 a 11:30. Es un horario antiguo: llama antes de viajar y pregunta qué servicio sigue activo. No se ha encontrado una regla que exija participar en culto.\nDirectorio de inclusión social — Municipio de Quito",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Dirección publicada:",
-                  "strong": true
-                },
-                {
-                  "text": " El Retiro N5-51 y Rojas, entre la iglesia y el cementerio"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Teléfono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "098 039 1726",
-                  "href": "tel:+593980391726"
-                },
-                {
-                  "text": ". Obra católica de los Hijos de la Pobreza del Santísimo Sacramento que atiende a personas en calle."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "El directorio municipal de 2023 publicó atención martes y miércoles, de 9:00 a 11:30. Es un horario antiguo: llama antes de viajar y pregunta qué servicio sigue activo. No se ha encontrado una regla que exija participar en culto."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Directorio de inclusión social — Municipio de Quito",
-                  "href": "https://www.quito.gob.ec/documents/Inclusion/SIS_directorioDMQ_2023.pdf"
-                }
-              ]
-            }
-          ]
+          "address": "Dirección publicada: El Retiro N5-51 y Rojas, entre la iglesia y el cementerio",
+          "phone": "+593980391726",
+          "website": "https://www.quito.gob.ec/documents/Inclusion/SIS_directorioDMQ_2023.pdf",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "san-juan-de-dios-comidas-vinculadas-al-albergue",
-          "name": "San Juan de Dios — comidas vinculadas al albergue",
+          "title": "San Juan de Dios — comidas vinculadas al albergue",
+          "description": "El albergue católico sirve cena y desayuno a quienes ingresan. Un directorio humanitario también publicó un comedor solidario en días laborables cerca del mediodía, pero ese dato puede haber cambiado.\nLlama al 099 543 3233 o 096 963 2311 y pregunta si existe comida sin alojamiento, horario, documentos y cupo. No se ha encontrado una regla que exija participar en culto.\nContacto actual — San Juan de Dios",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Dirección:",
-                  "strong": true
-                },
-                {
-                  "text": " Túmbez Oe6-98 y Bahía de Caráquez"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "El albergue católico sirve cena y desayuno a quienes ingresan. Un directorio humanitario también publicó un comedor solidario en días laborables cerca del mediodía, pero ese dato puede haber cambiado."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Llama al 099 543 3233 o 096 963 2311 y pregunta si existe comida sin alojamiento, horario, documentos y cupo. No se ha encontrado una regla que exija participar en culto."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Contacto actual — San Juan de Dios",
-                  "href": "https://alberguesanjuandedios.com/contacto/"
-                }
-              ]
-            }
-          ]
+          "address": "Dirección: Túmbez Oe6-98 y Bahía de Caráquez",
+          "phone": "",
+          "website": "https://alberguesanjuandedios.com/contacto/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "caritas-ecuador-orientacion-hacia-ayuda-parroquial",
-          "name": "Cáritas Ecuador — orientación hacia ayuda parroquial",
+          "title": "Cáritas Ecuador — orientación hacia ayuda parroquial",
+          "description": "Teléfono: (02) 255-6727. WhatsApp: 099 793 6075. Horario publicado: lunes a viernes, desde las 9:00; llama antes.\nEs una oficina católica de coordinación, no un comedor de acceso garantizado. Pide el contacto de la parroquia o Cáritas local más cercana con alimento, ropa u orientación. No se ha encontrado una regla general que exija participar en culto.\nContacto — Cáritas Ecuador",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Dirección:",
-                  "strong": true
-                },
-                {
-                  "text": " Antonio de Ulloa N24-109 y Cristóbal Colón"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Teléfono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(02) 255-6727",
-                  "href": "tel:+59322556727"
-                },
-                {
-                  "text": ". "
-                },
-                {
-                  "text": "WhatsApp:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "099 793 6075",
-                  "href": "tel:+593997936075"
-                },
-                {
-                  "text": ". "
-                },
-                {
-                  "text": "Horario publicado:",
-                  "strong": true
-                },
-                {
-                  "text": " lunes a viernes, desde las 9:00; llama antes."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Es una oficina católica de coordinación, no un comedor de acceso garantizado. Pide el contacto de la parroquia o Cáritas local más cercana con alimento, ropa u orientación. No se ha encontrado una regla general que exija participar en culto."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Contacto — Cáritas Ecuador",
-                  "href": "https://caritasecuador.org/contacto/"
-                }
-              ]
-            }
-          ]
+          "address": "Dirección: Antonio de Ulloa N24-109 y Cristóbal Colón",
+          "phone": "+59322556727",
+          "website": "https://caritasecuador.org/contacto/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "pan-de-la-fraternidad-comedores-parroquiales",
-          "name": "Pan de la Fraternidad — comedores parroquiales",
+          "title": "Pan de la Fraternidad — comedores parroquiales",
+          "description": "La Arquidiócesis de Quito informó de una red de 30 comunidades parroquiales con comedores para población vulnerable, incluidas personas en calle, mayores, migrantes, personas con discapacidad y familias.\nLa gestión es local y no hay una lista pública que garantice comida diaria. Llama a la Arquidiócesis al (02) 228-4429 o (02) 295-2653, o busca la parroquia más cercana y confirma. No se ha encontrado una regla general de participación religiosa obligatoria.\nPan de la Fraternidad — Arquidiócesis de Quito",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "La Arquidiócesis de Quito informó de una red de 30 comunidades parroquiales con comedores para población vulnerable, incluidas personas en calle, mayores, migrantes, personas con discapacidad y familias."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "La gestión es local y no hay una lista pública que garantice comida diaria. Llama a la Arquidiócesis al "
-                },
-                {
-                  "text": "(02) 228-4429",
-                  "href": "tel:+59322284429"
-                },
-                {
-                  "text": " o "
-                },
-                {
-                  "text": "(02) 295-2653",
-                  "href": "tel:+59322952653"
-                },
-                {
-                  "text": ", o busca la parroquia más cercana y confirma. No se ha encontrado una regla general de participación religiosa obligatoria."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Pan de la Fraternidad — Arquidiócesis de Quito",
-                  "href": "https://www.arquidiocesisdequito.com.ec/comunicacion/noticias/item/treinta-parroquias-reciben-equipos-para-comedores-en-el-marco-del-proyecto-arquidiocesano-pan-de-la-fraternidad-2.html"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+59322284429",
+          "website": "https://www.arquidiocesisdequito.com.ec/comunicacion/noticias/item/treinta-parroquias-reciben-equipos-para-comedores-en-el-marco-del-proyecto-arquidiocesano-pan-de-la-fraternidad-2.html",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
-      "id": "basic-needs",
-      "title": "4. Aseo, ropa, baños, internet y pertenencias",
-      "items": [
+      "id": "community",
+      "title": "Community and religious help",
+      "entries": []
+    },
+    {
+      "id": "hygiene",
+      "title": "Aseo, ropa, baños, internet y pertenencias",
+      "entries": [
         {
-          "type": "resource",
           "id": "ducha-higiene-y-ropa-en-el-hogar-comunidad-de-calle",
-          "name": "Ducha, higiene y ropa en el Hogar Comunidad de Calle",
+          "title": "Ducha, higiene y ropa en el Hogar Comunidad de Calle",
+          "description": "La atención municipal incluye higiene, ropa y alimentación según valoración y disponibilidad. Pregunta por el servicio diurno si no quieres o no puedes ingresar a dormir.\nConfirma por el 1800 288 523; llevar una bolsa para mantener seca la ropa y los documentos puede ayudar.\nAtención integral del Patronato",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "La atención municipal incluye higiene, ropa y alimentación según valoración y disponibilidad. Pregunta por el servicio diurno si no quieres o no puedes ingresar a dormir."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Confirma por el 1800 288 523; llevar una bolsa para mantener seca la ropa y los documentos puede ayudar."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Atención integral del Patronato",
-                  "href": "https://quitoinforma.quito.gob.ec/2024/08/19/el-patronato-municipal-san-jose-trabaja-para-dignificar-la-vida-de-personas-en-situacion-de-calle/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://quitoinforma.quito.gob.ec/2024/08/19/el-patronato-municipal-san-jose-trabaja-para-dignificar-la-vida-de-personas-en-situacion-de-calle/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "higiene-y-vestimenta-en-san-juan-de-dios",
-          "name": "Higiene y vestimenta en San Juan de Dios",
+          "title": "Higiene y vestimenta en San Juan de Dios",
+          "description": "Las personas admitidas en el albergue pueden recibir artículos de aseo y ropa según necesidad. Llama antes al 099 543 3233; el servicio está ligado a la valoración y no garantiza ducha o ropa a quien llegue sin plaza.\nServicios del albergue nocturno",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Las personas admitidas en el albergue pueden recibir artículos de aseo y ropa según necesidad. Llama antes al 099 543 3233; el servicio está ligado a la valoración y no garantiza ducha o ropa a quien llegue sin plaza."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Servicios del albergue nocturno",
-                  "href": "https://alberguesanjuandedios.com/portfolio-item/alberguenocturno/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://alberguesanjuandedios.com/portfolio-item/alberguenocturno/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "banos-publicos-cerca-de-estaciones",
-          "name": "Baños públicos cerca de estaciones",
+          "title": "Baños públicos cerca de estaciones",
+          "description": "El Metro no tiene baños dentro de las estaciones subterráneas. La orientación municipal publicada identifica baterías sanitarias en superficie en los intercambiadores de Quitumbe, La Magdalena, El Recreo y El Labrador, y cerca de La Carolina, El Ejido y La Alameda.\nLa fuente original es de 2018; pregunta al personal antes de salir de la estación y confirma acceso, horario y posible tarifa.\nBaños y Metro — información municipal",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "El Metro no tiene baños dentro de las estaciones subterráneas. La orientación municipal publicada identifica baterías sanitarias en superficie en los intercambiadores de Quitumbe, La Magdalena, El Recreo y El Labrador, y cerca de La Carolina, El Ejido y La Alameda."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "La fuente original es de 2018; pregunta al personal antes de salir de la estación y confirma acceso, horario y posible tarifa."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Baños y Metro — información municipal",
-                  "href": "https://metrodequito.gob.ec/baterias-sanitarias-y-metro/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://metrodequito.gob.ec/baterias-sanitarias-y-metro/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "wi-fi-municipal-gratuito",
-          "name": "Wi-Fi municipal gratuito",
+          "title": "Wi-Fi municipal gratuito",
+          "description": "Busca la red Internet público Municipio de Quito en paradas del Trole y Ecovía, balcones de servicio, Casas Somos, mercados, parques y otros espacios. El Municipio publica hasta dos horas diarias después de completar un registro.\nNo introduzcas claves bancarias en una red pública. Cierra las sesiones y borra archivos descargados en un equipo compartido.\nPuntos de Wi-Fi municipal",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Busca la red "
-                },
-                {
-                  "text": "Internet público Municipio de Quito",
-                  "strong": true
-                },
-                {
-                  "text": " en paradas del Trole y Ecovía, balcones de servicio, Casas Somos, mercados, parques y otros espacios. El Municipio publica hasta dos horas diarias después de completar un registro."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "No introduzcas claves bancarias en una red pública. Cierra las sesiones y borra archivos descargados en un equipo compartido."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Puntos de Wi-Fi municipal",
-                  "href": "https://quitoinforma.quito.gob.ec/2025/02/17/sabia-que-el-municipio-de-quito-tiene-1-500-puntos-de-wi-fi-gratuitos/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://quitoinforma.quito.gob.ec/2025/02/17/sabia-que-el-municipio-de-quito-tiene-1-500-puntos-de-wi-fi-gratuitos/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "wi-fi-en-las-estaciones-del-metro",
-          "name": "Wi-Fi en las estaciones del Metro",
+          "title": "Wi-Fi en las estaciones del Metro",
+          "description": "Las 15 estaciones publican la red WIFI_PUBLICA_METRO_QUITO. El acceso gratuito requiere un registro inicial y se anunció por periodos de 15 minutos.\nEl Metro no garantiza enchufes públicos. Para cargar un teléfono pide permiso en el albergue, comedor, Casa Somos u oficina que te atienda.\nWi-Fi gratuito en el Metro",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Las 15 estaciones publican la red "
-                },
-                {
-                  "text": "WIFI_PUBLICA_METRO_QUITO",
-                  "strong": true
-                },
-                {
-                  "text": ". El acceso gratuito requiere un registro inicial y se anunció por periodos de 15 minutos."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "El Metro no garantiza enchufes públicos. Para cargar un teléfono pide permiso en el albergue, comedor, Casa Somos u oficina que te atienda."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Wi-Fi gratuito en el Metro",
-                  "href": "https://quitoinforma.quito.gob.ec/2024/04/04/las-15-estaciones-del-metro-de-quito-cuentan-con-servicio-gratuito-de-wifi/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://quitoinforma.quito.gob.ec/2024/04/04/las-15-estaciones-del-metro-de-quito-cuentan-con-servicio-gratuito-de-wifi/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "guardar-pertenencias-medicinas-y-correo",
-          "name": "Guardar pertenencias, medicinas y correo",
+          "title": "Guardar pertenencias, medicinas y correo",
+          "description": "No se encontró un servicio municipal universal de consigna o lavandería para cualquier persona. Pregunta al albergue o trabajador social qué puede guardarse, durante cuánto tiempo y cómo se recupera.\nMantén contigo originales, medicinas, dinero y teléfono siempre que sea seguro. No uses la dirección de un albergue, iglesia u organización para recibir correo sin permiso escrito.\nSolicitar orientación individual — Patronato San José",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "No se encontró un servicio municipal universal de consigna o lavandería para cualquier persona. Pregunta al albergue o trabajador social qué puede guardarse, durante cuánto tiempo y cómo se recupera."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Mantén contigo originales, medicinas, dinero y teléfono siempre que sea seguro. No uses la dirección de un albergue, iglesia u organización para recibir correo sin permiso escrito."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Solicitar orientación individual — Patronato San José",
-                  "href": "https://patronato.quito.gob.ec/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://patronato.quito.gob.ec/",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
+    },
+    {
+      "id": "clothing",
+      "title": "Clothing",
+      "entries": []
     },
     {
       "id": "health",
-      "title": "5. Salud y medicamentos",
-      "items": [
+      "title": "Salud y medicamentos",
+      "entries": [
         {
-          "type": "resource",
           "id": "linea-171-citas-del-ministerio-de-salud-publica",
-          "name": "Línea 171 — citas del Ministerio de Salud Pública",
+          "title": "Línea 171 — citas del Ministerio de Salud Pública",
+          "description": "Teléfono gratuito: 171. Permite solicitar citas de medicina general, odontología, obstetricia y psicología en el centro de salud asignado.\nLa atención pública está abierta a residentes con o sin seguro. La cédula facilita la cita, pero el Ministerio indica que también debe orientarse a quien no la tenga. Para una emergencia no esperes cita: llama al 911.\nAgendamiento de citas — Ministerio de Salud",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Teléfono gratuito:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "171",
-                  "href": "tel:171"
-                },
-                {
-                  "text": ". Permite solicitar citas de medicina general, odontología, obstetricia y psicología en el centro de salud asignado."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "La atención pública está abierta a residentes con o sin seguro. La cédula facilita la cita, pero el Ministerio indica que también debe orientarse a quien no la tenga. Para una emergencia no esperes cita: llama al 911."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Agendamiento de citas — Ministerio de Salud",
-                  "href": "https://www.salud.gob.ec/agendamiento-de-citas-medicas/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "171",
+          "website": "https://www.salud.gob.ec/agendamiento-de-citas-medicas/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "citas-de-salud-por-whatsapp",
-          "name": "Citas de salud por WhatsApp",
+          "title": "Citas de salud por WhatsApp",
+          "description": "WhatsApp publicado: 096 117 1171. El canal automatizado permite agendar atención en centros de salud y funciona las 24 horas para solicitudes.\nSi no tienes saldo, datos o teléfono, pide ayuda en el albergue, comedor o punto municipal con internet. La hora de la cita depende de la disponibilidad.\nCanales para citas — Ministerio de Salud",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "WhatsApp publicado:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "096 117 1171",
-                  "href": "tel:+593961171171"
-                },
-                {
-                  "text": ". El canal automatizado permite agendar atención en centros de salud y funciona las 24 horas para solicitudes."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Si no tienes saldo, datos o teléfono, pide ayuda en el albergue, comedor o punto municipal con internet. La hora de la cita depende de la disponibilidad."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Canales para citas — Ministerio de Salud",
-                  "href": "https://www.salud.gob.ec/linea-telefonica-del-msp-facilita-el-agendamiento-de-citas-medicas-en-centros-de-salud/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+593961171171",
+          "website": "https://www.salud.gob.ec/linea-telefonica-del-msp-facilita-el-agendamiento-de-citas-medicas-en-centros-de-salud/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "atencion-sin-cedula",
-          "name": "Atención sin cédula",
+          "title": "Atención sin cédula",
+          "description": "Explica en el centro de salud que no tienes documento y pide que registren o verifiquen tu identidad. La ruta de Quito permite validación biométrica en la protección de personas habitantes de calle.\nNo pagues a un intermediario por conseguir una cita pública. Si te rechazan, pide el nombre del establecimiento, fecha y motivo para solicitar revisión.\nAcceso a derechos sin documentos",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Explica en el centro de salud que no tienes documento y pide que registren o verifiquen tu identidad. La ruta de Quito permite validación biométrica en la protección de personas habitantes de calle."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "No pagues a un intermediario por conseguir una cita pública. Si te rechazan, pide el nombre del establecimiento, fecha y motivo para solicitar revisión."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Acceso a derechos sin documentos",
-                  "href": "https://proteccionderechosquito.gob.ec/quito-lanza-primera-ruta-de-proteccion-para-personas-habitantes-de-calle-en-ecuador-con-protocolo-inedito-para-acceso-a-derechos-sin-documentos/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://proteccionderechosquito.gob.ec/quito-lanza-primera-ruta-de-proteccion-para-personas-habitantes-de-calle-en-ecuador-con-protocolo-inedito-para-acceso-a-derechos-sin-documentos/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "medicamentos-y-tratamientos-en-curso",
-          "name": "Medicamentos y tratamientos en curso",
+          "title": "Medicamentos y tratamientos en curso",
+          "description": "Lleva envases, recetas o una foto legible del tratamiento si los conservas. Informa de alergias, embarazo, tuberculosis, VIH, diabetes, epilepsia u otra condición que no pueda interrumpirse.\nUn centro de salud debe valorar la receta y disponibilidad; la consulta no garantiza que todos los medicamentos estén en existencia. No compartas ni suspendas medicación sin orientación profesional.\nAcceso a atención primaria — Ministerio de Salud",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Lleva envases, recetas o una foto legible del tratamiento si los conservas. Informa de alergias, embarazo, tuberculosis, VIH, diabetes, epilepsia u otra condición que no pueda interrumpirse."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Un centro de salud debe valorar la receta y disponibilidad; la consulta no garantiza que todos los medicamentos estén en existencia. No compartas ni suspendas medicación sin orientación profesional."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Acceso a atención primaria — Ministerio de Salud",
-                  "href": "https://www.salud.gob.ec/agendamiento-de-citas-medicas/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.salud.gob.ec/agendamiento-de-citas-medicas/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "caravanas-salud-mujer",
-          "name": "Caravanas Salud Mujer",
+          "title": "Caravanas Salud Mujer",
+          "description": "Las unidades municipales recorren barrios con servicios gratuitos de prevención, Papanicolaou, pruebas de VIH, consejería y otras atenciones. La ubicación cambia cada semana.\nConsulta la programación vigente en Quito Informa o por el 1800 288 523. No viajes a la dirección de una jornada pasada.\nCaravanas Salud Mujer — programación municipal",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Las unidades municipales recorren barrios con servicios gratuitos de prevención, Papanicolaou, pruebas de VIH, consejería y otras atenciones. La ubicación cambia cada semana."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Consulta la programación vigente en Quito Informa o por el 1800 288 523. No viajes a la dirección de una jornada pasada."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Caravanas Salud Mujer — programación municipal",
-                  "href": "https://quitoinforma.quito.gob.ec/2026/10/27/las-caravanas-salud-mujer-llegan-a-los-barrios-de-quito-con-servicios-de-prevencion-y-cuidado-integral/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://quitoinforma.quito.gob.ec/2026/10/27/las-caravanas-salud-mujer-llegan-a-los-barrios-de-quito-con-servicios-de-prevencion-y-cuidado-integral/",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
       "id": "mental-health",
-      "title": "6. Salud mental y adicciones",
-      "items": [
+      "title": "Salud mental y adicciones",
+      "entries": [
         {
-          "type": "resource",
           "id": "teleconsulta-municipal-de-salud-mental",
-          "name": "Teleconsulta municipal de salud mental",
+          "title": "Teleconsulta municipal de salud mental",
+          "description": "Teléfono: 101, opción 9. Permite orientación y teleconsulta dentro de la red municipal.\nPara intento de suicidio, pérdida de conciencia, violencia, sobredosis o peligro inmediato llama al 911, que dispone de coordinación psicológica de emergencia las 24 horas.\nRed municipal de salud mental — Quito Informa, 2026",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Teléfono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "101",
-                  "href": "tel:101"
-                },
-                {
-                  "text": ", opción 9. Permite orientación y teleconsulta dentro de la red municipal."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Para intento de suicidio, pérdida de conciencia, violencia, sobredosis o peligro inmediato llama al 911, que dispone de coordinación psicológica de emergencia las 24 horas."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Red municipal de salud mental — Quito Informa, 2026",
-                  "href": "https://quitoinforma.quito.gob.ec/2026/09/10/municipio-de-quito-cuenta-con-una-red-de-servicios-para-el-cuidado-de-la-salud-mental/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "101",
+          "website": "https://quitoinforma.quito.gob.ec/2026/09/10/municipio-de-quito-cuenta-con-una-red-de-servicios-para-el-cuidado-de-la-salud-mental/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "caasm-la-ronda-salud-mental-y-consumo-de-sustancias",
-          "name": "CAASM La Ronda — salud mental y consumo de sustancias",
+          "title": "CAASM La Ronda — salud mental y consumo de sustancias",
+          "description": "Contacto publicado: 099 521 2657. Otros teléfonos publicados: (02) 312-0964, (02) 312-1035 y (02) 312-0920.\nAtiende salud mental y problemas relacionados con alcohol, tabaco y otras drogas. Llama para confirmar horario, requisitos y si necesitas derivación.\nCAASM La Ronda — información municipal",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Dirección publicada:",
-                  "strong": true
-                },
-                {
-                  "text": " Guayaquil S1-83 y Morales, sector La Ronda"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Contacto publicado:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "099 521 2657",
-                  "href": "tel:+593995212657"
-                },
-                {
-                  "text": ". Otros teléfonos publicados: "
-                },
-                {
-                  "text": "(02) 312-0964",
-                  "href": "tel:+59323120964"
-                },
-                {
-                  "text": ", "
-                },
-                {
-                  "text": "(02) 312-1035",
-                  "href": "tel:+59323121035"
-                },
-                {
-                  "text": " y "
-                },
-                {
-                  "text": "(02) 312-0920",
-                  "href": "tel:+59323120920"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Atiende salud mental y problemas relacionados con alcohol, tabaco y otras drogas. Llama para confirmar horario, requisitos y si necesitas derivación."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "CAASM La Ronda — información municipal",
-                  "href": "https://quitoinforma.quito.gob.ec/2023/05/09/caasm-la-ronda-en-dos-meses-mas-de-1300-personas-fueron-atendidas/"
-                }
-              ]
-            }
-          ]
+          "address": "Dirección publicada: Guayaquil S1-83 y Morales, sector La Ronda",
+          "phone": "+593995212657",
+          "website": "https://quitoinforma.quito.gob.ec/2023/05/09/caasm-la-ronda-en-dos-meses-mas-de-1300-personas-fueron-atendidas/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "alcoholicos-anonimos-area-3-pichincha",
-          "name": "Alcohólicos Anónimos — Área 3 Pichincha",
+          "title": "Alcohólicos Anónimos — Área 3 Pichincha",
+          "description": "Teléfonos: (02) 228-2016 y 099 980 9752.\nPregunta por el grupo y reunión más cercanos. AA es una comunidad de apoyo mutuo, no sustituye la desintoxicación médica ni una emergencia.\nDirectorio de AA — Pichincha",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Oficina publicada:",
-                  "strong": true
-                },
-                {
-                  "text": " pasaje Carlos Ibarra Oe1-54 y avenida 10 de Agosto, oficinas 113 y 114"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Teléfonos:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(02) 228-2016",
-                  "href": "tel:+59322282016"
-                },
-                {
-                  "text": " y "
-                },
-                {
-                  "text": "099 980 9752",
-                  "href": "tel:+593999809752"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Pregunta por el grupo y reunión más cercanos. AA es una comunidad de apoyo mutuo, no sustituye la desintoxicación médica ni una emergencia."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Directorio de AA — Pichincha",
-                  "href": "https://alcoholicosanonimos.org.ec/pdf/PAQUETE%20IP/PICHINCHA/ROTAFOLIO%20AREA%203%20PICHINCHA.pdf"
-                }
-              ]
-            }
-          ]
+          "address": "Oficina publicada: pasaje Carlos Ibarra Oe1-54 y avenida 10 de Agosto, oficinas 113 y 114",
+          "phone": "+59322282016",
+          "website": "https://alcoholicosanonimos.org.ec/pdf/PAQUETE%20IP/PICHINCHA/ROTAFOLIO%20AREA%203%20PICHINCHA.pdf",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "narcoticos-anonimos-grupo-doce-doce",
-          "name": "Narcóticos Anónimos — Grupo Doce Doce",
+          "title": "Narcóticos Anónimos — Grupo Doce Doce",
+          "description": "Teléfono: 096 297 3298. Publica reuniones frecuentes, sin cita, inscripción ni cuota obligatoria.\nConsulta en su web qué reuniones son abiertas o cerradas. El local informa que no permite animales ni niños mayores de tres años; llama si esto afecta tu asistencia.\nReuniones — Grupo Doce Doce",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Dirección:",
-                  "strong": true
-                },
-                {
-                  "text": " José Vivanco N44-132 e Isla Rábida"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Teléfono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "096 297 3298",
-                  "href": "tel:+593962973298"
-                },
-                {
-                  "text": ". Publica reuniones frecuentes, sin cita, inscripción ni cuota obligatoria."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Consulta en su web qué reuniones son abiertas o cerradas. El local informa que no permite animales ni niños mayores de tres años; llama si esto afecta tu asistencia."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Reuniones — Grupo Doce Doce",
-                  "href": "https://grupo1212.org/reuniones"
-                }
-              ]
-            }
-          ]
+          "address": "Dirección: José Vivanco N44-132 e Isla Rábida",
+          "phone": "+593962973298",
+          "website": "https://grupo1212.org/reuniones",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "al-anon-apoyo-para-familiares-y-amistades",
-          "name": "Al-Anon — apoyo para familiares y amistades",
+          "title": "Al-Anon — apoyo para familiares y amistades",
+          "description": "Teléfonos: 099 581 6824 y (02) 290-6566. Horario publicado: lunes a viernes, 9:00–13:00.\nOfrece grupos para personas afectadas por el consumo de alcohol de alguien cercano. No requiere cita ni pago; las contribuciones son voluntarias. Confirma la reunión antes de ir.\nPreguntas frecuentes — Al-Anon Ecuador",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Oficina:",
-                  "strong": true
-                },
-                {
-                  "text": " avenida 12 de Octubre y Roca, edificio Mariana de Jesús, tercer piso, oficina 305"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Teléfonos:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "099 581 6824",
-                  "href": "tel:+593995816824"
-                },
-                {
-                  "text": " y "
-                },
-                {
-                  "text": "(02) 290-6566",
-                  "href": "tel:+59322906566"
-                },
-                {
-                  "text": ". "
-                },
-                {
-                  "text": "Horario publicado:",
-                  "strong": true
-                },
-                {
-                  "text": " lunes a viernes, 9:00–13:00."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ofrece grupos para personas afectadas por el consumo de alcohol de alguien cercano. No requiere cita ni pago; las contribuciones son voluntarias. Confirma la reunión antes de ir."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Preguntas frecuentes — Al-Anon Ecuador",
-                  "href": "https://alanonecuador.com/preguntas-frecuentes/"
-                }
-              ]
-            }
-          ]
+          "address": "Oficina: avenida 12 de Octubre y Roca, edificio Mariana de Jesús, tercer piso, oficina 305",
+          "phone": "+593995816824",
+          "website": "https://alanonecuador.com/preguntas-frecuentes/",
+          "hours": "",
+          "how_to_access": ""
+        }
+      ]
+    },
+    {
+      "id": "public-facilities",
+      "title": "Public toilets and day facilities",
+      "entries": []
+    },
+    {
+      "id": "phone-internet",
+      "title": "Phone charging and internet",
+      "entries": []
+    },
+    {
+      "id": "transport",
+      "title": "Transporte y aeropuerto",
+      "entries": [
+        {
+          "id": "metro-de-quito-horario-y-estaciones",
+          "title": "Metro de Quito — horario y estaciones",
+          "description": "El horario publicado es lunes a viernes de 5:30 a 23:00, con 15 estaciones entre Quitumbe y Labrador. Consulta la web para sábados, domingos y cambios temporales.\nEl Metro no llega directamente al aeropuerto. Conserva saldo para conexiones y pregunta al personal por la ruta accesible si tienes movilidad reducida.\nEstaciones y horario — Metro de Quito",
+          "last_verified": "2026-11-11",
+          "address": "",
+          "phone": "",
+          "website": "https://metrodequito.gob.ec/estaciones/",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "tarifas-del-transporte-municipal",
+          "title": "Tarifas del transporte municipal",
+          "description": "La tarifa estándar publicada es de 0,35 dólares. La tarifa reducida es 0,17 dólares para personas de 6 a 18 años y mayores de 65, y 0,10 dólares para personas con discapacidad.\nPregunta por integración, documento y forma de pago; no se encontró un programa general de viajes gratuitos para personas sin vivienda.\nTarifas oficiales — Sistema de Pasajeros",
+          "last_verified": "2026-11-11",
+          "address": "",
+          "phone": "",
+          "website": "https://pasajeros.quito.gob.ec/?page_id=13299",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "tarjeta-ciudad",
+          "title": "Tarjeta Ciudad",
+          "description": "La tarjeta no tiene costo de emisión, pero requiere Cuenta Ciudad, correo e identificación. Los puntos autorizados pueden ayudar con el proceso.\nLa tarjeta gratuita no significa viajes gratuitos: debes cargar saldo. Si no tienes correo o documento, pregunta por otra forma de pago antes de abordar.\nCómo obtener la Tarjeta Ciudad",
+          "last_verified": "2026-11-11",
+          "address": "",
+          "phone": "",
+          "website": "https://quitoinforma.quito.gob.ec/2026/03/10/conozca-paso-a-paso-como-obtener-la-tarjeta-ciudad/",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "aeropuerto-conexion-con-el-labrador-y-rio-coca",
+          "title": "Aeropuerto — conexión con El Labrador y Río Coca",
+          "description": "La ruta de bus del aeropuerto se amplió hacia la estación El Labrador y conecta con Río Coca. El horario publicado es lunes a viernes 4:45–22:00, sábados 5:00–23:00 y domingos o feriados 6:00–20:00.\nTambién existen rutas hacia Quitumbe y Carcelén. Confirma tarifa, parada exacta y último servicio antes de viajar; los horarios pueden cambiar.\nConexiones de transporte con el aeropuerto",
+          "last_verified": "2026-11-11",
+          "address": "",
+          "phone": "",
+          "website": "https://quitoinforma.quito.gob.ec/2025/10/27/del-aeropuerto-al-metro-ecovia-y-trolebus-nueva-ruta-facilita-la-movilidad-de-vecinos-turistas-y-trabajadores/",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "terminales-terrestres-quitumbe-y-carcelen",
+          "title": "Terminales terrestres Quitumbe y Carcelén",
+          "description": "Quitumbe sirve principalmente rutas hacia el sur y Carcelén rutas hacia el norte, además de conexiones urbanas. Confirma empresa, destino, precio y hora en taquilla oficial.\nNo entregues equipaje o documentos a vendedores informales. Si necesitas localizar un servicio social al llegar, llama al 1800 288 523.\nTerminales terrestres — EPMMOP",
+          "last_verified": "2026-11-11",
+          "address": "",
+          "phone": "",
+          "website": "https://www.epmmop.gob.ec/terminales-terrestres-y-estacionamientos/",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
       "id": "benefits",
-      "title": "7. Bonos y asistencia social",
-      "items": [
+      "title": "Bonos y asistencia social",
+      "entries": [
         {
-          "type": "resource",
           "id": "bonos-y-pensiones-del-ministerio-de-desarrollo-humano",
-          "name": "Bonos y pensiones del Ministerio de Desarrollo Humano",
+          "title": "Bonos y pensiones del Ministerio de Desarrollo Humano",
+          "description": "Call center gratuito: 1800 002 002. PBX: (02) 398-3100.\nConsulta Bono de Desarrollo Humano y pensiones para adultos mayores o personas con discapacidad. No existe inscripción directa: la asignación usa el Registro Social y criterios vigentes.\nPreguntas oficiales sobre bonos y pensiones",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Call center gratuito:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "1800 002 002",
-                  "href": "tel:1800002002"
-                },
-                {
-                  "text": ". "
-                },
-                {
-                  "text": "PBX:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(02) 398-3100",
-                  "href": "tel:+59323983100"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Planta central:",
-                  "strong": true
-                },
-                {
-                  "text": " avenida Amaru Ñan, Quito 170146, piso 5"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Consulta Bono de Desarrollo Humano y pensiones para adultos mayores o personas con discapacidad. No existe inscripción directa: la asignación usa el Registro Social y criterios vigentes."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Preguntas oficiales sobre bonos y pensiones",
-                  "href": "https://www.desarrollohumano.gob.ec/preguntas-frecuentes-sobre-bonos-y-pensiones-del-mdh/"
-                }
-              ]
-            }
-          ]
+          "address": "Planta central: avenida Amaru Ñan, Quito 170146, piso 5",
+          "phone": "1800002002",
+          "website": "https://www.desarrollohumano.gob.ec/preguntas-frecuentes-sobre-bonos-y-pensiones-del-mdh/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "registro-social-y-actualizacion-de-datos",
-          "name": "Registro Social y actualización de datos",
+          "title": "Registro Social y actualización de datos",
+          "description": "Pide al 1800 002 002 que confirme si tu hogar tiene registro y qué canal oficial corresponde para actualizarlo. Un trabajador social del Patronato puede ayudarte a entender el proceso si no tienes domicilio estable, teléfono o documentos.\nLa actualización no garantiza un bono ni tiene un plazo fijo de aprobación.\nCriterios y consultas del Ministerio",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Pide al 1800 002 002 que confirme si tu hogar tiene registro y qué canal oficial corresponde para actualizarlo. Un trabajador social del Patronato puede ayudarte a entender el proceso si no tienes domicilio estable, teléfono o documentos."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "La actualización no garantiza un bono ni tiene un plazo fijo de aprobación."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Criterios y consultas del Ministerio",
-                  "href": "https://www.desarrollohumano.gob.ec/preguntas-frecuentes-sobre-bonos-y-pensiones-del-mdh/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.desarrollohumano.gob.ec/preguntas-frecuentes-sobre-bonos-y-pensiones-del-mdh/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "evita-estafas-con-ayudas-economicas",
-          "name": "Evita estafas con ayudas económicas",
+          "title": "Evita estafas con ayudas económicas",
+          "description": "Todos los trámites oficiales de bonos y pensiones son gratuitos. No pagues, no entregues claves y no compartas el código dactilar o fotos de la cédula con quien prometa inscribirte o acelerar un beneficio.\nVerifica por el 1800 002 002 o en una oficina oficial. Guarda capturas y comprobantes si alguien intenta cobrarte.\nAsignación oficial de bonos y pensiones",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Todos los trámites oficiales de bonos y pensiones son gratuitos. No pagues, no entregues claves y no compartas el código dactilar o fotos de la cédula con quien prometa inscribirte o acelerar un beneficio."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Verifica por el 1800 002 002 o en una oficina oficial. Guarda capturas y comprobantes si alguien intenta cobrarte."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Asignación oficial de bonos y pensiones",
-                  "href": "https://www.desarrollohumano.gob.ec/como-se-solicita-un-bono-o-pension-del-mies/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.desarrollohumano.gob.ec/como-se-solicita-un-bono-o-pension-del-mies/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "valoracion-social-del-patronato",
-          "name": "Valoración social del Patronato",
+          "title": "Valoración social del Patronato",
+          "description": "El Patronato puede orientar hacia comedores, alojamiento, servicios para mayores, discapacidad y otras respuestas municipales. Llama al 1800 288 523 y pide una valoración social, no solo el nombre de un programa.\nUna valoración o derivación no garantiza dinero, plaza o entrega material.\nServicios del Patronato San José",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "El Patronato puede orientar hacia comedores, alojamiento, servicios para mayores, discapacidad y otras respuestas municipales. Llama al 1800 288 523 y pide una valoración social, no solo el nombre de un programa."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Una valoración o derivación no garantiza dinero, plaza o entrega material."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Servicios del Patronato San José",
-                  "href": "https://patronato.quito.gob.ec/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://patronato.quito.gob.ec/",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
-      "id": "jobs",
-      "title": "8. Trabajo y capacitación",
-      "items": [
+      "id": "employment",
+      "title": "Trabajo y capacitación",
+      "entries": [
         {
-          "type": "resource",
           "id": "conquito-orientacion-laboral-gratuita",
-          "name": "ConQuito — orientación laboral gratuita",
+          "title": "ConQuito — orientación laboral gratuita",
+          "description": "Teléfono: (02) 605-5550, extensiones 1013 o 2102. WhatsApp: 096 228 4327. Correo: infoempleo@conquito.org.ec. — mailto:infoempleo@conquito.org.ec\nEl taller gratuito de orientación publica atención los martes no feriados, 9:00–12:00, con inscripción presencial desde las 8:00 y cupo limitado. Confirma antes porque la programación puede cambiar.\nServicios de orientación laboral — ConQuito",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Dirección:",
-                  "strong": true
-                },
-                {
-                  "text": " avenida Maldonado Oe1-172 y Jaime del Castillo"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Teléfono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(02) 605-5550",
-                  "href": "tel:+59326055550"
-                },
-                {
-                  "text": ", extensiones 1013 o 2102. "
-                },
-                {
-                  "text": "WhatsApp:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "096 228 4327",
-                  "href": "tel:+593962284327"
-                },
-                {
-                  "text": ". "
-                },
-                {
-                  "text": "Correo:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "infoempleo@conquito.org.ec",
-                  "href": "mailto:infoempleo@conquito.org.ec"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "El taller gratuito de orientación publica atención los martes no feriados, 9:00–12:00, con inscripción presencial desde las 8:00 y cupo limitado. Confirma antes porque la programación puede cambiar."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Servicios de orientación laboral — ConQuito",
-                  "href": "https://www.conquito.org.ec/capacitacion-medios-de-vida/servicios-de-orientacion-laboral/"
-                }
-              ]
-            }
-          ]
+          "address": "Dirección: avenida Maldonado Oe1-172 y Jaime del Castillo",
+          "phone": "+59326055550",
+          "website": "https://www.conquito.org.ec/capacitacion-medios-de-vida/servicios-de-orientacion-laboral/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "bolsa-metropolitana-de-empleo",
-          "name": "Bolsa Metropolitana de Empleo",
+          "title": "Bolsa Metropolitana de Empleo",
+          "description": "ConQuito permite crear gratuitamente un perfil, consultar vacantes y preparar una hoja de vida estructurada. Una vacante publicada no garantiza entrevista o contratación.\nSi no tienes correo, teléfono, dirección estable o documentos, pide primero orientación presencial para acordar un medio de contacto seguro y autorizado.\nBolsa de empleo — ConQuito",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "ConQuito permite crear gratuitamente un perfil, consultar vacantes y preparar una hoja de vida estructurada. Una vacante publicada no garantiza entrevista o contratación."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Si no tienes correo, teléfono, dirección estable o documentos, pide primero orientación presencial para acordar un medio de contacto seguro y autorizado."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Bolsa de empleo — ConQuito",
-                  "href": "https://www.conquito.org.ec/capacitacion-medios-de-vida/bolsa-de-empleo/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.conquito.org.ec/capacitacion-medios-de-vida/bolsa-de-empleo/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "encuentra-empleo-portal-nacional",
-          "name": "Encuentra Empleo — portal nacional",
+          "title": "Encuentra Empleo — portal nacional",
+          "description": "Servicio público del Ministerio del Trabajo para registrar hoja de vida, buscar ofertas y participar en procesos. El registro y postulación son gratuitos.\nNo pagues por una entrevista, uniforme, examen o supuesto cupo sin verificar la empresa. Una oferta real debe explicar contrato, salario, horario y lugar.\nEncuentra Empleo — Ministerio del Trabajo",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Servicio público del Ministerio del Trabajo para registrar hoja de vida, buscar ofertas y participar en procesos. El registro y postulación son gratuitos."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "No pagues por una entrevista, uniforme, examen o supuesto cupo sin verificar la empresa. Una oferta real debe explicar contrato, salario, horario y lugar."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Encuentra Empleo — Ministerio del Trabajo",
-                  "href": "https://encuentraempleo.trabajo.gob.ec/socioEmpleo-war/paginas/index.jsf"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://encuentraempleo.trabajo.gob.ec/socioEmpleo-war/paginas/index.jsf",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "preparar-una-hoja-de-vida-cuando-faltan-datos",
-          "name": "Preparar una hoja de vida cuando faltan datos",
+          "title": "Preparar una hoja de vida cuando faltan datos",
+          "description": "Pide a ConQuito, al Patronato o a una organización de migración que te ayude con una hoja de vida breve. Incluye oficios, experiencia informal, disponibilidad y un contacto que hayas autorizado.\nNo inventes una dirección ni uses la de un albergue o iglesia sin permiso escrito. Nunca publiques número de documento, claves o información médica en el currículum.\nApoyo para búsqueda de empleo",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Pide a ConQuito, al Patronato o a una organización de migración que te ayude con una hoja de vida breve. Incluye oficios, experiencia informal, disponibilidad y un contacto que hayas autorizado."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "No inventes una dirección ni uses la de un albergue o iglesia sin permiso escrito. Nunca publiques número de documento, claves o información médica en el currículum."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Apoyo para búsqueda de empleo",
-                  "href": "https://www.conquito.org.ec/capacitacion-medios-de-vida/servicios-de-orientacion-laboral/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.conquito.org.ec/capacitacion-medios-de-vida/servicios-de-orientacion-laboral/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "evita-explotacion-y-fraude-laboral",
-          "name": "Evita explotación y fraude laboral",
+          "title": "Evita explotación y fraude laboral",
+          "description": "Antes de aceptar pregunta quién contrata, cuánto y cuándo paga, horario, transporte, alojamiento y tareas. Conserva mensajes y ubicación. No entregues el original de tu cédula o pasaporte al empleador.\nSi retienen tus documentos, te amenazan, no te dejan salir o existe violencia, llama al 911 y pide ayuda legal gratuita.\nMinisterio del Trabajo",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Antes de aceptar pregunta quién contrata, cuánto y cuándo paga, horario, transporte, alojamiento y tareas. Conserva mensajes y ubicación. No entregues el original de tu cédula o pasaporte al empleador."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Si retienen tus documentos, te amenazan, no te dejan salir o existe violencia, llama al 911 y pide ayuda legal gratuita."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ministerio del Trabajo",
-                  "href": "https://www.trabajo.gob.ec/"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "documents",
-      "title": "9. Documentos e identidad",
-      "items": [
-        {
-          "type": "resource",
-          "id": "validacion-de-identidad-antes-de-pagar-un-duplicado",
-          "name": "Validación de identidad antes de pagar un duplicado",
-          "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "La ruta de Quito permite activar protección sin documentos y usar validación biométrica. Pide primero apoyo al Patronato o trabajador social, especialmente si solo necesitas demostrar identidad para alojamiento, salud o comida."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Esto puede evitar viajes o pagos innecesarios, pero no sustituye una cédula para todos los trámites."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Protocolo de acceso sin documentos",
-                  "href": "https://proteccionderechosquito.gob.ec/quito-lanza-primera-ruta-de-proteccion-para-personas-habitantes-de-calle-en-ecuador-con-protocolo-inedito-para-acceso-a-derechos-sin-documentos/"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "duplicado-de-cedula-en-linea",
-          "name": "Duplicado de cédula en línea",
-          "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "El Registro Civil ofrece duplicado para personas ecuatorianas adultas con cédula electrónica vigente y sin cambios de datos. Solo la persona titular puede retirarlo."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "La tarifa publicada es de 16 dólares. Confirma el pago, agencia de entrega y requisitos antes de iniciar; no pagues a intermediarios."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Solicitud de duplicado — Registro Civil",
-                  "href": "https://apps.registrocivil.gob.ec/portalCiudadano/cedulaexpress/datosDuplicado.jsf"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "tarifas-y-exoneracion-por-discapacidad",
-          "name": "Tarifas y exoneración por discapacidad",
-          "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "El tarifario nacional publica 5 dólares para primera cédula y 16 dólares para renovación o duplicado. Las personas con discapacidad igual o superior al 30 % tienen exoneración según la información oficial."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Pide al Registro Civil que confirme la tarifa actual y cómo acreditar la exoneración. La situación de calle por sí sola no aparece como exoneración automática."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Tarifario — Registro Civil",
-                  "href": "https://www.registrocivil.gob.ec/wp-content/uploads/downloads/2024/01/tarifario.pdf"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "proteger-copias-y-datos-personales",
-          "name": "Proteger copias y datos personales",
-          "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Si puedes, guarda una copia segura o foto legible en una cuenta propia y anota números importantes en papel. No envíes documentos completos a desconocidos por ofertas de trabajo o ayudas."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Denuncia pérdida o robo cuando sea necesario y pide ayuda legal si alguien retiene tus documentos."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Canales oficiales — Registro Civil",
-                  "href": "https://www.registrocivil.gob.ec/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.trabajo.gob.ec/",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
       "id": "legal",
-      "title": "10. Ayuda legal y derechos",
-      "items": [
+      "title": "Ayuda legal y derechos",
+      "entries": [
         {
-          "type": "resource",
           "id": "defensoria-publica-asistencia-legal-gratuita",
-          "name": "Defensoría Pública — asistencia legal gratuita",
+          "title": "Defensoría Pública — asistencia legal gratuita",
+          "description": "Brinda asesoría y representación a personas que no pueden pagar abogado, según la materia y evaluación. Puede orientar sobre retención de documentos, violencia, procesos penales, familia, movilidad humana y otros derechos.\nConsulta el punto y horario vigente antes de ir; también existe atención virtual.\nPuntos de atención — Defensoría Pública",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Brinda asesoría y representación a personas que no pueden pagar abogado, según la materia y evaluación. Puede orientar sobre retención de documentos, violencia, procesos penales, familia, movilidad humana y otros derechos."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Consulta el punto y horario vigente antes de ir; también existe atención virtual."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Puntos de atención — Defensoría Pública",
-                  "href": "https://www.defensoria.gob.ec/?page_id=22777"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.defensoria.gob.ec/?page_id=22777",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "punto-de-la-defensoria-publica-avenida-de-los-shyris",
-          "name": "Punto de la Defensoría Pública — avenida de los Shyris",
+          "title": "Punto de la Defensoría Pública — avenida de los Shyris",
+          "description": "Teléfono: (02) 381-5270, extensión 21014. Confirma la especialidad atendida y el horario.\nSi no puedes llegar al norte, la lista oficial incluye otros puntos en el centro y sur de Quito.\nDirectorio oficial de oficinas",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Dirección publicada:",
-                  "strong": true
-                },
-                {
-                  "text": " avenida de los Shyris, entre El Universo y Gaspar de Villarroel"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Teléfono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(02) 381-5270",
-                  "href": "tel:+59323815270"
-                },
-                {
-                  "text": ", extensión 21014. Confirma la especialidad atendida y el horario."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Si no puedes llegar al norte, la lista oficial incluye otros puntos en el centro y sur de Quito."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Directorio oficial de oficinas",
-                  "href": "https://www.defensoria.gob.ec/?page_id=22777"
-                }
-              ]
-            }
-          ]
+          "address": "Dirección publicada: avenida de los Shyris, entre El Universo y Gaspar de Villarroel",
+          "phone": "+59323815270",
+          "website": "https://www.defensoria.gob.ec/?page_id=22777",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "defensoria-publica-unidad-de-flagrancia",
-          "name": "Defensoría Pública — Unidad de Flagrancia",
+          "title": "Defensoría Pública — Unidad de Flagrancia",
+          "description": "Teléfono: (02) 381-5270, extensión 2331. Este punto atiende materias vinculadas a flagrancia; no reemplaza el 911 ante peligro.\nPuntos de atención en Pichincha",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Dirección publicada:",
-                  "strong": true
-                },
-                {
-                  "text": " avenida Patria y 9 de Octubre, pisos 2 y 5"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Teléfono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(02) 381-5270",
-                  "href": "tel:+59323815270"
-                },
-                {
-                  "text": ", extensión 2331. Este punto atiende materias vinculadas a flagrancia; no reemplaza el 911 ante peligro."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Puntos de atención en Pichincha",
-                  "href": "https://www.defensoria.gob.ec/?page_id=22777"
-                }
-              ]
-            }
-          ]
+          "address": "Dirección publicada: avenida Patria y 9 de Octubre, pisos 2 y 5",
+          "phone": "+59323815270",
+          "website": "https://www.defensoria.gob.ec/?page_id=22777",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "atencion-virtual-de-la-defensoria-publica",
-          "name": "Atención virtual de la Defensoría Pública",
+          "title": "Atención virtual de la Defensoría Pública",
+          "description": "Si tienes internet, revisa los canales virtuales antes de pagar transporte. Prepara una explicación breve, fechas, nombres, fotos o documentos y un contacto seguro.\nLa consulta no garantiza que la institución pueda asumir cualquier caso, pero debe orientarte sobre la ruta correcta.\nServicios en línea — Defensoría Pública",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Si tienes internet, revisa los canales virtuales antes de pagar transporte. Prepara una explicación breve, fechas, nombres, fotos o documentos y un contacto seguro."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "La consulta no garantiza que la institución pueda asumir cualquier caso, pero debe orientarte sobre la ruta correcta."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Servicios en línea — Defensoría Pública",
-                  "href": "https://www.defensoria.gob.ec/?page_id=22794"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.defensoria.gob.ec/?page_id=22794",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "queja-por-negacion-de-proteccion",
-          "name": "Queja por negación de protección",
+          "title": "Queja por negación de protección",
+          "description": "Si un servicio rechaza a una persona únicamente porque no tiene documentos, anota fecha, lugar, nombre de la unidad y motivo. Menciona la ruta municipal de protección y pide revisión por el Patronato o el Consejo de Protección de Derechos.\nUna queja no reemplaza una respuesta urgente: si existe peligro llama primero al 911.\nMecanismos de exigibilidad de derechos",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Si un servicio rechaza a una persona únicamente porque no tiene documentos, anota fecha, lugar, nombre de la unidad y motivo. Menciona la ruta municipal de protección y pide revisión por el Patronato o el Consejo de Protección de Derechos."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Una queja no reemplaza una respuesta urgente: si existe peligro llama primero al 911."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Mecanismos de exigibilidad de derechos",
-                  "href": "https://proteccionderechosquito.gob.ec/quito-lanza-primera-ruta-de-proteccion-para-personas-habitantes-de-calle-en-ecuador-con-protocolo-inedito-para-acceso-a-derechos-sin-documentos/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://proteccionderechosquito.gob.ec/quito-lanza-primera-ruta-de-proteccion-para-personas-habitantes-de-calle-en-ecuador-con-protocolo-inedito-para-acceso-a-derechos-sin-documentos/",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
-      "id": "migration",
-      "title": "11. Migración y refugio",
-      "items": [
+      "id": "documents",
+      "title": "Documentos e identidad",
+      "entries": [
         {
-          "type": "resource",
-          "id": "acnur-ecuador-orientacion",
-          "name": "ACNUR Ecuador — orientación",
+          "id": "validacion-de-identidad-antes-de-pagar-un-duplicado",
+          "title": "Validación de identidad antes de pagar un duplicado",
+          "description": "La ruta de Quito permite activar protección sin documentos y usar validación biométrica. Pide primero apoyo al Patronato o trabajador social, especialmente si solo necesitas demostrar identidad para alojamiento, salud o comida.\nEsto puede evitar viajes o pagos innecesarios, pero no sustituye una cédula para todos los trámites.\nProtocolo de acceso sin documentos",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "WhatsApp:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(02) 342-0120",
-                  "href": "tel:+59323420120"
-                },
-                {
-                  "text": ". Pide orientación sobre refugio, protección y organizaciones asociadas en Quito."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "ACNUR no cobra por sus servicios y no garantiza alojamiento o dinero. Desconfía de quien pida pago para acelerar un caso."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Dónde encontrar ayuda — ACNUR Ecuador",
-                  "href": "https://help.unhcr.org/ecuador/donde-encontrar-ayuda/oficinas-acnur/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://proteccionderechosquito.gob.ec/quito-lanza-primera-ruta-de-proteccion-para-personas-habitantes-de-calle-en-ecuador-con-protocolo-inedito-para-acceso-a-derechos-sin-documentos/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
-          "id": "solicitar-la-condicion-de-persona-refugiada",
-          "name": "Solicitar la condición de persona refugiada",
+          "id": "duplicado-de-cedula-en-linea",
+          "title": "Duplicado de cédula en línea",
+          "description": "El Registro Civil ofrece duplicado para personas ecuatorianas adultas con cédula electrónica vigente y sin cambios de datos. Solo la persona titular puede retirarlo.\nLa tarifa publicada es de 16 dólares. Confirma el pago, agencia de entrega y requisitos antes de iniciar; no pagues a intermediarios.\nSolicitud de duplicado — Registro Civil",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "La solicitud en Ecuador es gratuita y puede iniciarse aun sin documentos de identidad. Debes explicar por qué no puedes regresar a tu país y seguir el canal oficial físico o digital."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "No entregues dinero a gestores. Guarda prueba de la solicitud y pide ayuda si no tienes correo, teléfono o dirección estable."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Cómo solicitar refugio — ACNUR Ecuador",
-                  "href": "https://help.unhcr.org/ecuador/acceso-a-la-condicion-de-personas-refugiada-asilo-y-tramites-migratorios/solicitud-refugiado/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://apps.registrocivil.gob.ec/portalCiudadano/cedulaexpress/datosDuplicado.jsf",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
-          "id": "servicio-jesuita-a-refugiados-jrs-ecuador",
-          "name": "Servicio Jesuita a Refugiados — JRS Ecuador",
+          "id": "tarifas-y-exoneracion-por-discapacidad",
+          "title": "Tarifas y exoneración por discapacidad",
+          "description": "El tarifario nacional publica 5 dólares para primera cédula y 16 dólares para renovación o duplicado. Las personas con discapacidad igual o superior al 30 % tienen exoneración según la información oficial.\nPide al Registro Civil que confirme la tarifa actual y cómo acreditar la exoneración. La situación de calle por sí sola no aparece como exoneración automática.\nTarifario — Registro Civil",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Dirección:",
-                  "strong": true
-                },
-                {
-                  "text": " Eustorgio Salgado N19-83 y avenida Universitaria"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Teléfonos:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(02) 255-9876",
-                  "href": "tel:+59322559876"
-                },
-                {
-                  "text": " y "
-                },
-                {
-                  "text": "(02) 254-3985",
-                  "href": "tel:+59322543985"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Organización católica jesuita que acompaña a personas refugiadas y migrantes con orientación y protección. Llama para saber qué servicios atiende y si requiere cita. No se ha encontrado una regla que exija participar en culto."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Oficina de Quito — JRS Ecuador",
-                  "href": "https://ecu.jrs.net/es/donde-trabajamos/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.registrocivil.gob.ec/wp-content/uploads/downloads/2024/01/tarifario.pdf",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
-          "id": "hias-quito-apoyo-a-poblacion-refugiada-y-migrante",
-          "name": "HIAS Quito — apoyo a población refugiada y migrante",
+          "id": "proteger-copias-y-datos-personales",
+          "title": "Proteger copias y datos personales",
+          "description": "Si puedes, guarda una copia segura o foto legible en una cuenta propia y anota números importantes en papel. No envíes documentos completos a desconocidos por ofertas de trabajo o ayudas.\nDenuncia pérdida o robo cuando sea necesario y pide ayuda legal si alguien retiene tus documentos.\nCanales oficiales — Registro Civil",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Contactos publicados:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "096 316 1400",
-                  "href": "tel:+593963161400"
-                },
-                {
-                  "text": ", "
-                },
-                {
-                  "text": "(02) 382-5770",
-                  "href": "tel:+59323825770"
-                },
-                {
-                  "text": ", "
-                },
-                {
-                  "text": "099 246 2019",
-                  "href": "tel:+593992462019"
-                },
-                {
-                  "text": " y "
-                },
-                {
-                  "text": "099 246 2020",
-                  "href": "tel:+593992462020"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Un directorio humanitario de 2024 publicó oficinas en avenida La Prensa N50-41 y Manuel Valdivieso, y en Caranqui y Latacunga, La Magdalena, con atención por cita. Confirma dirección y servicio antes de ir."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Directorio humanitario de Quito — R4V",
-                  "href": "https://www.r4v.info/sites/g/files/tmzbdl2426/files/2024-09/DIRECTORIO%20GTRM%20QUITO29022024_2.pdf"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "casa-del-hermano-alojamiento-familiar",
-          "name": "Casa del Hermano — alojamiento familiar",
-          "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "El servicio municipal atiende a familias en movilidad humana y vulnerabilidad, según evaluación y capacidad. Está en avenida 24 de Mayo Oe6-41, sector Loja y Barahona."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Llama al 1800 288 523 y explica la composición familiar, documentos, salud, embarazo y edad de los niños. No viajes sin confirmar una plaza."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Casa del Hermano — informe institucional",
-                  "href": "https://patronato.quito.gob.ec/wp-content/uploads/biblioteca-virtual-upmsj/direccion-planificacion/2024/rdc_2023/2infrdc_2022_upmsj/2.3_informe_narrativo_2023_upmsj.pdf"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.registrocivil.gob.ec/",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
-      "id": "protection",
-      "title": "12. Mujeres, niñez y personas LGBTIQ+",
-      "items": [
+      "id": "mail",
+      "title": "Mailing address",
+      "entries": []
+    },
+    {
+      "id": "storage",
+      "title": "Storage",
+      "entries": []
+    },
+    {
+      "id": "safety",
+      "title": "Mujeres, niñez y personas LGBTIQ+",
+      "entries": [
         {
-          "type": "resource",
           "id": "a-tu-lado-violencia-basada-en-genero",
-          "name": "A Tu Lado — violencia basada en género",
+          "title": "A Tu Lado — violencia basada en género",
+          "description": "Línea gratuita: 1800 288 523, las 24 horas. Ofrece contención emocional, evaluación de riesgo y coordinación legal, médica o de protección.\nDi que llamas a A Tu Lado, porque el mismo número se usa para otros servicios del Patronato. Ante agresión en curso o peligro inmediato llama al 911.\nLínea A Tu Lado — Quito Informa, 2026",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Línea gratuita:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "1800 288 523",
-                  "href": "tel:1800288523"
-                },
-                {
-                  "text": ", las 24 horas. Ofrece contención emocional, evaluación de riesgo y coordinación legal, médica o de protección."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Di que llamas a "
-                },
-                {
-                  "text": "A Tu Lado",
-                  "strong": true
-                },
-                {
-                  "text": ", porque el mismo número se usa para otros servicios del Patronato. Ante agresión en curso o peligro inmediato llama al 911."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Línea A Tu Lado — Quito Informa, 2026",
-                  "href": "https://quitoinforma.quito.gob.ec/2026/11/10/la-linea-1800-a-tu-lado-servicio-disponible-las-24-horas-para-quienes-viven-violencia-basada-en-genero/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "1800288523",
+          "website": "https://quitoinforma.quito.gob.ec/2026/11/10/la-linea-1800-a-tu-lado-servicio-disponible-las-24-horas-para-quienes-viven-violencia-basada-en-genero/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "centro-de-atencion-integral-tres-manuelas",
-          "name": "Centro de Atención Integral Tres Manuelas",
+          "title": "Centro de Atención Integral Tres Manuelas",
+          "description": "Brinda atención especializada frente a violencia basada en género. La línea A Tu Lado puede valorar el riesgo y coordinar el servicio adecuado.\nNo vayas a enfrentar a la persona agresora. Si tu teléfono es vigilado, usa un equipo seguro y borra el historial solo si hacerlo no aumenta el riesgo.\nRuta municipal de atención",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Dirección:",
-                  "strong": true
-                },
-                {
-                  "text": " Loja y Guayaquil, Centro Histórico"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Brinda atención especializada frente a violencia basada en género. La línea A Tu Lado puede valorar el riesgo y coordinar el servicio adecuado."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "No vayas a enfrentar a la persona agresora. Si tu teléfono es vigilado, usa un equipo seguro y borra el historial solo si hacerlo no aumenta el riesgo."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ruta municipal de atención",
-                  "href": "https://quitoinforma.quito.gob.ec/2026/11/10/la-linea-1800-a-tu-lado-servicio-disponible-las-24-horas-para-quienes-viven-violencia-basada-en-genero/"
-                }
-              ]
-            }
-          ]
+          "address": "Dirección: Loja y Guayaquil, Centro Histórico",
+          "phone": "",
+          "website": "https://quitoinforma.quito.gob.ec/2026/11/10/la-linea-1800-a-tu-lado-servicio-disponible-las-24-horas-para-quienes-viven-violencia-basada-en-genero/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "casa-de-la-mujer-alojamiento-protegido",
-          "name": "Casa de la Mujer — alojamiento protegido",
+          "title": "Casa de la Mujer — alojamiento protegido",
+          "description": "Casa confidencial para mujeres de 18 a 64 años, ecuatorianas o en movilidad humana, solas o con hijos y dependientes de hasta 12 años, tras evaluación voluntaria de riesgo.\nPor seguridad no se publica la dirección. Llama al 1800 288 523 y pide A Tu Lado; el equipo puede coordinar transporte seguro. La plaza no está garantizada.\nCómo funciona la protección municipal",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Casa confidencial para mujeres de 18 a 64 años, ecuatorianas o en movilidad humana, solas o con hijos y dependientes de hasta 12 años, tras evaluación voluntaria de riesgo."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Por seguridad no se publica la dirección. Llama al 1800 288 523 y pide A Tu Lado; el equipo puede coordinar transporte seguro. La plaza no está garantizada."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Cómo funciona la protección municipal",
-                  "href": "https://quitoinforma.quito.gob.ec/2026/04/10/quito-tiene-una-linea-activa-las-24-horas-para-mujeres-que-viven-violencia-asi-funciona/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://quitoinforma.quito.gob.ec/2026/04/10/quito-tiene-una-linea-activa-las-24-horas-para-mujeres-que-viven-violencia-asi-funciona/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "ninas-ninos-o-adolescentes-sin-una-persona-adulta-segura",
-          "name": "Niñas, niños o adolescentes sin una persona adulta segura",
+          "title": "Niñas, niños o adolescentes sin una persona adulta segura",
+          "description": "Ante abandono, violencia, explotación, desaparición o peligro llama al 911 y explica que se trata de una persona menor de edad. También puedes pedir al Patronato, por el 1800 288 523, que active protección especializada.\nNo envíes a un niño solo a un albergue de adultos y no publiques su nombre, foto o ubicación en redes.\nConsejo de Protección de Derechos del Distrito Metropolitano de Quito",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ante abandono, violencia, explotación, desaparición o peligro llama al 911 y explica que se trata de una persona menor de edad. También puedes pedir al Patronato, por el 1800 288 523, que active protección especializada."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "No envíes a un niño solo a un albergue de adultos y no publiques su nombre, foto o ubicación en redes."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Consejo de Protección de Derechos del Distrito Metropolitano de Quito",
-                  "href": "https://proteccionderechosquito.gob.ec/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://proteccionderechosquito.gob.ec/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "casa-de-las-diversidades",
-          "name": "Casa de las Diversidades",
+          "title": "Casa de las Diversidades",
+          "description": "Espacio municipal para personas LGBTIQ+ con orientación psicosocial y de derechos. Pide información sobre atención vigente y derivaciones; la noticia municipal de apertura no garantiza alojamiento inmediato.\nCasa de las Diversidades — Quito Informa",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Dirección publicada:",
-                  "strong": true
-                },
-                {
-                  "text": " Galápagos y Cuenca"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Espacio municipal para personas LGBTIQ+ con orientación psicosocial y de derechos. Pide información sobre atención vigente y derivaciones; la noticia municipal de apertura no garantiza alojamiento inmediato."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Casa de las Diversidades — Quito Informa",
-                  "href": "https://quitoinforma.quito.gob.ec/2023/04/28/primera-casa-de-acogida-municipal-para-la-comunidad-lgtbiq-se-abre-en-quito/"
-                }
-              ]
-            }
-          ]
+          "address": "Dirección publicada: Galápagos y Cuenca",
+          "phone": "",
+          "website": "https://quitoinforma.quito.gob.ec/2023/04/28/primera-casa-de-acogida-municipal-para-la-comunidad-lgtbiq-se-abre-en-quito/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "proteccion-lgbtiq-para-personas-refugiadas-o-migrantes",
-          "name": "Protección LGBTIQ+ para personas refugiadas o migrantes",
+          "title": "Protección LGBTIQ+ para personas refugiadas o migrantes",
+          "description": "ACNUR WhatsApp: (02) 342-0120. La página de ayuda también indica el 911 para emergencias y el 151 como canal de la Defensoría Pública.\nExplica si existe persecución, violencia, expulsión del hogar o riesgo por orientación sexual, identidad o expresión de género.\nApoyo LGBTIQ+ — ACNUR Ecuador",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "ACNUR WhatsApp:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(02) 342-0120",
-                  "href": "tel:+59323420120"
-                },
-                {
-                  "text": ". La página de ayuda también indica el 911 para emergencias y el 151 como canal de la Defensoría Pública."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Explica si existe persecución, violencia, expulsión del hogar o riesgo por orientación sexual, identidad o expresión de género."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Apoyo LGBTIQ+ — ACNUR Ecuador",
-                  "href": "https://help.unhcr.org/ecuador/apoyo-lgbti/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+59323420120",
+          "website": "https://help.unhcr.org/ecuador/apoyo-lgbti/",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
-      "id": "older-disabled",
-      "title": "13. Adultos mayores y discapacidad",
-      "items": [
+      "id": "specialist-support",
+      "title": "Migración y refugio",
+      "entries": [
         {
-          "type": "resource",
+          "id": "acnur-ecuador-orientacion",
+          "title": "ACNUR Ecuador — orientación",
+          "description": "WhatsApp: (02) 342-0120. Pide orientación sobre refugio, protección y organizaciones asociadas en Quito.\nACNUR no cobra por sus servicios y no garantiza alojamiento o dinero. Desconfía de quien pida pago para acelerar un caso.\nDónde encontrar ayuda — ACNUR Ecuador",
+          "last_verified": "2026-11-11",
+          "address": "",
+          "phone": "+59323420120",
+          "website": "https://help.unhcr.org/ecuador/donde-encontrar-ayuda/oficinas-acnur/",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "solicitar-la-condicion-de-persona-refugiada",
+          "title": "Solicitar la condición de persona refugiada",
+          "description": "La solicitud en Ecuador es gratuita y puede iniciarse aun sin documentos de identidad. Debes explicar por qué no puedes regresar a tu país y seguir el canal oficial físico o digital.\nNo entregues dinero a gestores. Guarda prueba de la solicitud y pide ayuda si no tienes correo, teléfono o dirección estable.\nCómo solicitar refugio — ACNUR Ecuador",
+          "last_verified": "2026-11-11",
+          "address": "",
+          "phone": "",
+          "website": "https://help.unhcr.org/ecuador/acceso-a-la-condicion-de-personas-refugiada-asilo-y-tramites-migratorios/solicitud-refugiado/",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "servicio-jesuita-a-refugiados-jrs-ecuador",
+          "title": "Servicio Jesuita a Refugiados — JRS Ecuador",
+          "description": "Teléfonos: (02) 255-9876 y (02) 254-3985.\nOrganización católica jesuita que acompaña a personas refugiadas y migrantes con orientación y protección. Llama para saber qué servicios atiende y si requiere cita. No se ha encontrado una regla que exija participar en culto.\nOficina de Quito — JRS Ecuador",
+          "last_verified": "2026-11-11",
+          "address": "Dirección: Eustorgio Salgado N19-83 y avenida Universitaria",
+          "phone": "+59322559876",
+          "website": "https://ecu.jrs.net/es/donde-trabajamos/",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "hias-quito-apoyo-a-poblacion-refugiada-y-migrante",
+          "title": "HIAS Quito — apoyo a población refugiada y migrante",
+          "description": "Contactos publicados: 096 316 1400, (02) 382-5770, 099 246 2019 y 099 246 2020.\nUn directorio humanitario de 2024 publicó oficinas en avenida La Prensa N50-41 y Manuel Valdivieso, y en Caranqui y Latacunga, La Magdalena, con atención por cita. Confirma dirección y servicio antes de ir.\nDirectorio humanitario de Quito — R4V",
+          "last_verified": "2026-11-11",
+          "address": "",
+          "phone": "+593963161400",
+          "website": "https://www.r4v.info/sites/g/files/tmzbdl2426/files/2024-09/DIRECTORIO%20GTRM%20QUITO29022024_2.pdf",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "casa-del-hermano-alojamiento-familiar",
+          "title": "Casa del Hermano — alojamiento familiar",
+          "description": "El servicio municipal atiende a familias en movilidad humana y vulnerabilidad, según evaluación y capacidad. Está en avenida 24 de Mayo Oe6-41, sector Loja y Barahona.\nLlama al 1800 288 523 y explica la composición familiar, documentos, salud, embarazo y edad de los niños. No viajes sin confirmar una plaza.\nCasa del Hermano — informe institucional",
+          "last_verified": "2026-11-11",
+          "address": "",
+          "phone": "",
+          "website": "https://patronato.quito.gob.ec/wp-content/uploads/biblioteca-virtual-upmsj/direccion-planificacion/2024/rdc_2023/2infrdc_2022_upmsj/2.3_informe_narrativo_2023_upmsj.pdf",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
           "id": "patronato-valoracion-para-personas-adultas-mayores",
-          "name": "Patronato — valoración para personas adultas mayores",
+          "title": "Patronato — valoración para personas adultas mayores",
+          "description": "Línea: 1800 288 523. El Municipio mantiene centros de experiencia para adultos mayores, grupos comunitarios, visitas a personas en indigencia o mendicidad y residencias de atención continua.\nPide una valoración según movilidad, salud, red familiar y lugar donde duerme. Una llamada no garantiza plaza residencial.\nServicios municipales para adultos mayores — 2026",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Línea:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "1800 288 523",
-                  "href": "tel:1800288523"
-                },
-                {
-                  "text": ". El Municipio mantiene centros de experiencia para adultos mayores, grupos comunitarios, visitas a personas en indigencia o mendicidad y residencias de atención continua."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Pide una valoración según movilidad, salud, red familiar y lugar donde duerme. Una llamada no garantiza plaza residencial."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Servicios municipales para adultos mayores — 2026",
-                  "href": "https://quitoinforma.quito.gob.ec/2026/10/15/envejecer-en-quito-como-acompana-el-municipio-a-los-adultos-mayores/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "1800288523",
+          "website": "https://quitoinforma.quito.gob.ec/2026/10/15/envejecer-en-quito-como-acompana-el-municipio-a-los-adultos-mayores/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "pensiones-y-servicios-por-edad-o-discapacidad",
-          "name": "Pensiones y servicios por edad o discapacidad",
+          "title": "Pensiones y servicios por edad o discapacidad",
+          "description": "Ministerio de Desarrollo Humano: 1800 002 002. Consulta pensiones, Registro Social y servicios disponibles.\nLa asignación no es inmediata ni automática por encontrarse sin vivienda. Pide ayuda a un trabajador social para reunir información sin entregar dinero a intermediarios.\nBonos y pensiones — información oficial",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ministerio de Desarrollo Humano:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "1800 002 002",
-                  "href": "tel:1800002002"
-                },
-                {
-                  "text": ". Consulta pensiones, Registro Social y servicios disponibles."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "La asignación no es inmediata ni automática por encontrarse sin vivienda. Pide ayuda a un trabajador social para reunir información sin entregar dinero a intermediarios."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Bonos y pensiones — información oficial",
-                  "href": "https://www.desarrollohumano.gob.ec/preguntas-frecuentes-sobre-bonos-y-pensiones-del-mdh/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "1800002002",
+          "website": "https://www.desarrollohumano.gob.ec/preguntas-frecuentes-sobre-bonos-y-pensiones-del-mdh/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "tarifa-preferencial-en-transporte",
-          "name": "Tarifa preferencial en transporte",
+          "title": "Tarifa preferencial en transporte",
+          "description": "La tarifa publicada del transporte municipal es de 0,17 dólares para personas mayores de 65 años y de 0,10 dólares para personas con discapacidad. Pregunta qué documento o registro se exige antes de abordar.\nLa tarifa preferencial no significa transporte gratuito y puede requerir una tarjeta o validación.\nTarifas del transporte municipal",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "La tarifa publicada del transporte municipal es de 0,17 dólares para personas mayores de 65 años y de 0,10 dólares para personas con discapacidad. Pregunta qué documento o registro se exige antes de abordar."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "La tarifa preferencial no significa transporte gratuito y puede requerir una tarjeta o validación."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Tarifas del transporte municipal",
-                  "href": "https://pasajeros.quito.gob.ec/?page_id=13299"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://pasajeros.quito.gob.ec/?page_id=13299",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
+    },
+    {
+      "id": "veterans",
+      "title": "Veterans support",
+      "entries": []
     },
     {
       "id": "pets",
-      "title": "14. Animales de compañía",
-      "items": [
+      "title": "Animales de compañía",
+      "entries": [
         {
-          "type": "resource",
           "id": "unidad-de-bienestar-animal-orientacion",
-          "name": "Unidad de Bienestar Animal — orientación",
+          "title": "Unidad de Bienestar Animal — orientación",
+          "description": "Teléfono: 1800 510 510, opción 7. Pregunta por esterilización, atención veterinaria, maltrato o la unidad más cercana.\nExplica si la persona responsable vive en la calle y si el animal tiene una urgencia. Para peligro inmediato que afecte a personas llama al 911.\nServicios de bienestar animal — Quito Informa, 2026",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Teléfono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "1800 510 510",
-                  "href": "tel:1800510510"
-                },
-                {
-                  "text": ", opción 7. Pregunta por esterilización, atención veterinaria, maltrato o la unidad más cercana."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Explica si la persona responsable vive en la calle y si el animal tiene una urgencia. Para peligro inmediato que afecte a personas llama al 911."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Servicios de bienestar animal — Quito Informa, 2026",
-                  "href": "https://quitoinforma.quito.gob.ec/2026/11/09/mas-de-198-mil-esterilizaciones-quito-amplia-su-cobertura-de-bienestar-animal-con-nuevas-unidades-quirurgicas/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "1800510510",
+          "website": "https://quitoinforma.quito.gob.ec/2026/11/09/mas-de-198-mil-esterilizaciones-quito-amplia-su-cobertura-de-bienestar-animal-con-nuevas-unidades-quirurgicas/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "centros-de-atencion-veterinaria-rescate-y-acogida-temporal",
-          "name": "Centros de Atención Veterinaria, Rescate y Acogida Temporal",
+          "title": "Centros de Atención Veterinaria, Rescate y Acogida Temporal",
+          "description": "Quito Sur: Francisco Fuentes y Gaspar Cujías. Los Chillos: Eucaliptos e Intervalles. Calderón: calle de las Semillas y pasaje 49.\nEl horario general publicado es todos los días, 8:00–16:30, pero el tipo de atención y cupo cambia. Llama al 1800 510 510, opción 7, antes de llevar al animal.\nRed de centros veterinarios municipales",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Quito Sur:",
-                  "strong": true
-                },
-                {
-                  "text": " Francisco Fuentes y Gaspar Cujías. "
-                },
-                {
-                  "text": "Los Chillos:",
-                  "strong": true
-                },
-                {
-                  "text": " Eucaliptos e Intervalles. "
-                },
-                {
-                  "text": "Calderón:",
-                  "strong": true
-                },
-                {
-                  "text": " calle de las Semillas y pasaje 49."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "El horario general publicado es todos los días, 8:00–16:30, pero el tipo de atención y cupo cambia. Llama al 1800 510 510, opción 7, antes de llevar al animal."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Red de centros veterinarios municipales",
-                  "href": "https://quitoinforma.quito.gob.ec/2025/01/16/un-centro-de-atencion-veterinaria-de-primera-en-el-sur-de-quito/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://quitoinforma.quito.gob.ec/2025/01/16/un-centro-de-atencion-veterinaria-de-primera-en-el-sur-de-quito/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "esterilizacion-gratuita",
-          "name": "Esterilización gratuita",
+          "title": "Esterilización gratuita",
+          "description": "Las campañas municipales priorizan animales en condiciones de vulnerabilidad. La solicitud se gestiona por el formulario oficial y las fechas se asignan según capacidad.\nPregunta por requisitos de ayuno, edad, salud y transporte. El registro no garantiza cita inmediata.\nFormulario de Bienestar Animal — Municipio de Quito",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Las campañas municipales priorizan animales en condiciones de vulnerabilidad. La solicitud se gestiona por el formulario oficial y las fechas se asignan según capacidad."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Pregunta por requisitos de ayuno, edad, salud y transporte. El registro no garantiza cita inmediata."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Formulario de Bienestar Animal — Municipio de Quito",
-                  "href": "https://bienestaranimal.quito.gob.ec/form/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://bienestaranimal.quito.gob.ec/form/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "si-necesitas-albergue-y-estas-con-un-animal",
-          "name": "Si necesitas albergue y estás con un animal",
+          "title": "Si necesitas albergue y estás con un animal",
+          "description": "No se confirmó que los albergues de esta página admitan animales. Dilo en la primera llamada antes de viajar y pide coordinación con Bienestar Animal; los equipos municipales han realizado abordajes conjuntos con personas en calle y sus animales.\nNo abandones al animal ni lo dejes atado fuera de un centro. Pregunta por una solución temporal y por las condiciones para recuperarlo.\nAbordaje de animales de personas en calle",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "No se confirmó que los albergues de esta página admitan animales. Dilo en la primera llamada antes de viajar y pide coordinación con Bienestar Animal; los equipos municipales han realizado abordajes conjuntos con personas en calle y sus animales."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "No abandones al animal ni lo dejes atado fuera de un centro. Pregunta por una solución temporal y por las condiciones para recuperarlo."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Abordaje de animales de personas en calle",
-                  "href": "https://quitoinforma.quito.gob.ec/2023/05/07/uba-realiza-abordajes-en-calle-para-atender-a-animales-de-compania/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://quitoinforma.quito.gob.ec/2023/05/07/uba-realiza-abordajes-en-calle-para-atender-a-animales-de-compania/",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
-      "id": "transport",
-      "title": "15. Transporte y aeropuerto",
-      "items": [
+      "id": "other",
+      "title": "Cómo confirmar la información",
+      "entries": [
         {
-          "type": "resource",
-          "id": "metro-de-quito-horario-y-estaciones",
-          "name": "Metro de Quito — horario y estaciones",
-          "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "El horario publicado es lunes a viernes de 5:30 a 23:00, con 15 estaciones entre Quitumbe y Labrador. Consulta la web para sábados, domingos y cambios temporales."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "El Metro no llega directamente al aeropuerto. Conserva saldo para conexiones y pregunta al personal por la ruta accesible si tienes movilidad reducida."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Estaciones y horario — Metro de Quito",
-                  "href": "https://metrodequito.gob.ec/estaciones/"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "tarifas-del-transporte-municipal",
-          "name": "Tarifas del transporte municipal",
-          "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "La tarifa estándar publicada es de 0,35 dólares. La tarifa reducida es 0,17 dólares para personas de 6 a 18 años y mayores de 65, y 0,10 dólares para personas con discapacidad."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Pregunta por integración, documento y forma de pago; no se encontró un programa general de viajes gratuitos para personas sin vivienda."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Tarifas oficiales — Sistema de Pasajeros",
-                  "href": "https://pasajeros.quito.gob.ec/?page_id=13299"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "tarjeta-ciudad",
-          "name": "Tarjeta Ciudad",
-          "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "La tarjeta no tiene costo de emisión, pero requiere Cuenta Ciudad, correo e identificación. Los puntos autorizados pueden ayudar con el proceso."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "La tarjeta gratuita no significa viajes gratuitos: debes cargar saldo. Si no tienes correo o documento, pregunta por otra forma de pago antes de abordar."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Cómo obtener la Tarjeta Ciudad",
-                  "href": "https://quitoinforma.quito.gob.ec/2026/03/10/conozca-paso-a-paso-como-obtener-la-tarjeta-ciudad/"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "aeropuerto-conexion-con-el-labrador-y-rio-coca",
-          "name": "Aeropuerto — conexión con El Labrador y Río Coca",
-          "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "La ruta de bus del aeropuerto se amplió hacia la estación El Labrador y conecta con Río Coca. El horario publicado es lunes a viernes 4:45–22:00, sábados 5:00–23:00 y domingos o feriados 6:00–20:00."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "También existen rutas hacia Quitumbe y Carcelén. Confirma tarifa, parada exacta y último servicio antes de viajar; los horarios pueden cambiar."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Conexiones de transporte con el aeropuerto",
-                  "href": "https://quitoinforma.quito.gob.ec/2025/10/27/del-aeropuerto-al-metro-ecovia-y-trolebus-nueva-ruta-facilita-la-movilidad-de-vecinos-turistas-y-trabajadores/"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "terminales-terrestres-quitumbe-y-carcelen",
-          "name": "Terminales terrestres Quitumbe y Carcelén",
-          "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Quitumbe sirve principalmente rutas hacia el sur y Carcelén rutas hacia el norte, además de conexiones urbanas. Confirma empresa, destino, precio y hora en taquilla oficial."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "No entregues equipaje o documentos a vendedores informales. Si necesitas localizar un servicio social al llegar, llama al 1800 288 523."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Terminales terrestres — EPMMOP",
-                  "href": "https://www.epmmop.gob.ec/terminales-terrestres-y-estacionamientos/"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "verify",
-      "title": "16. Cómo confirmar la información",
-      "items": [
-        {
-          "type": "resource",
           "id": "antes-de-desplazarte",
-          "name": "Antes de desplazarte",
+          "title": "Antes de desplazarte",
+          "description": "Pregunta: nombre exacto del servicio, dirección, hora de ingreso, edad y documentos admitidos, si aceptan familias o animales, qué debes llevar y si existe cupo hoy. Anota quién confirmó y a qué hora.\nUna dirección correcta no garantiza que el programa siga abierto o tenga plazas.\nConfirmación municipal — Patronato San José",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Pregunta: nombre exacto del servicio, dirección, hora de ingreso, edad y documentos admitidos, si aceptan familias o animales, qué debes llevar y si existe cupo hoy. Anota quién confirmó y a qué hora."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Una dirección correcta no garantiza que el programa siga abierto o tenga plazas."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Confirmación municipal — Patronato San José",
-                  "href": "https://patronato.quito.gob.ec/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://patronato.quito.gob.ec/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "fuentes-y-fecha",
-          "name": "Fuentes y fecha",
+          "title": "Fuentes y fecha",
+          "description": "Esta página fue contrastada el 11 de noviembre de 2026 con fuentes municipales, nacionales y de cada organización. Algunos directorios conservan horarios anteriores; están señalados para que se confirmen por teléfono.\nSi encuentras un cambio, aporta el enlace de la fuente y la fecha en GitHub para que otras personas no hagan un viaje inútil.\nNo Home Help en GitHub",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Esta página fue contrastada el 11 de noviembre de 2026 con fuentes municipales, nacionales y de cada organización. Algunos directorios conservan horarios anteriores; están señalados para que se confirmen por teléfono."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Si encuentras un cambio, aporta el enlace de la fuente y la fecha en GitHub para que otras personas no hagan un viaje inútil."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "No Home Help en GitHub",
-                  "href": "https://github.com/carlosbranco/no-home-help"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://github.com/carlosbranco/no-home-help",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "privacidad-y-seguridad",
-          "name": "Privacidad y seguridad",
+          "title": "Privacidad y seguridad",
+          "description": "No publiques la ubicación de una casa protegida, la identidad de un niño o datos médicos. Comparte documentos solo con un canal oficial y conserva los originales.\nNo Home Help es un directorio independiente: no controla admisiones, cupos, donaciones ni decisiones de ninguna organización.\nCómo corregir o añadir información — ../../CONTRIBUTING.md",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "No publiques la ubicación de una casa protegida, la identidad de un niño o datos médicos. Comparte documentos solo con un canal oficial y conserva los originales."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "No Home Help es un directorio independiente: no controla admisiones, cupos, donaciones ni decisiones de ninguna organización."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Cómo corregir o añadir información",
-                  "href": "../../CONTRIBUTING.md"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     }

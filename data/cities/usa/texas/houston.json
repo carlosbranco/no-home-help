@@ -1,6 +1,7 @@
 {
   "$schema": "https://nohomehelp.com/schemas/city.schema.json",
-  "schema_version": 1,
+  "documentation": "https://github.com/carlosbranco/no-home-help/blob/main/EDIT_CITY_JSON.md",
+  "schema_version": 2,
   "status": "published",
   "locale": {
     "language": "en-US",
@@ -26,4500 +27,911 @@
   "page": {
     "heading": "Houston homeless and housing-crisis help",
     "last_verified": "2026-11-11",
-    "urgent": [
-      {
-        "type": "paragraph",
-        "content": [
-          {
-            "text": "Immediate danger, fire, police, or ambulance:",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "911",
-            "href": "tel:911"
-          },
-          {
-            "break": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "Shelter, food, benefits, and local referrals:",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "211",
-            "href": "tel:211"
-          },
-          {
-            "text": " or "
-          },
-          {
-            "text": "877-541-7905",
-            "href": "tel:+18775417905"
-          },
-          {
-            "break": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "Mental-health crisis:",
-            "strong": true
-          },
-          {
-            "text": " call or text "
-          },
-          {
-            "text": "988",
-            "href": "tel:988"
-          },
-          {
-            "text": "; Harris Center "
-          },
-          {
-            "text": "713-970-7000",
-            "href": "tel:+17139707000"
-          },
-          {
-            "break": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "Domestic violence:",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "713-528-2121",
-            "href": "tel:+17135282121"
-          }
-        ]
-      }
-    ],
-    "notice": [
-      {
-        "text": "Beds, schedules, routes, costs, and eligibility can change.",
-        "strong": true
-      },
-      {
-        "text": " Call before traveling when possible. No listing guarantees a bed, meal, treatment, benefit, money, or job the same day. Call 911 for immediate danger or a medical emergency."
-      }
-    ],
-    "intro": [
-      {
-        "type": "paragraph",
-        "content": [
-          {
-            "text": "If you are newly homeless, call 211 first. For housing programs, complete a Coordinated Entry assessment through a participating provider such as The Beacon, SEARCH, Healthcare for the Homeless, Star of Hope, or another Coalition partner. An assessment is not a promise of immediate housing. Tell the worker where you are, whether you are safe tonight, medical needs, age, children, pregnancy, disability, veteran status, pets, and whether you have identification."
-          }
-        ]
-      }
-    ],
-    "footer": []
+    "urgent": "Immediate danger, fire, police, or ambulance: 911 Shelter, food, benefits, and local referrals: 211 or 877-541-7905 Mental-health crisis: call or text 988; Harris Center 713-970-7000 Domestic violence: 713-528-2121",
+    "notice": "Beds, schedules, routes, costs, and eligibility can change. Call before traveling when possible. No listing guarantees a bed, meal, treatment, benefit, money, or job the same day. Call 911 for immediate danger or a medical emergency.",
+    "intro": "If you are newly homeless, call 211 first. For housing programs, complete a Coordinated Entry assessment through a participating provider such as The Beacon, SEARCH, Healthcare for the Homeless, Star of Hope, or another Coalition partner. An assessment is not a promise of immediate housing. Tell the worker where you are, whether you are safe tonight, medical needs, age, children, pregnancy, disability, veteran status, pets, and whether you have identification.",
+    "footer": ""
   },
   "categories": [
     {
       "id": "emergency",
-      "title": "1. Urgent help and outreach",
-      "items": [
+      "title": "Urgent help and outreach",
+      "entries": [
         {
-          "type": "resource",
           "id": "emergency-services-911",
-          "name": "Emergency services — 911",
+          "title": "Emergency services — 911",
+          "description": "Phone: 911.\nCall for: immediate violence, serious injury, trouble breathing, unconsciousness, overdose, fire, or another life-threatening emergency. Give the exact location and describe the danger first.\nCity of Houston service guidance",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "911",
-                  "href": "tel:911"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Call for:",
-                  "strong": true
-                },
-                {
-                  "text": " immediate violence, serious injury, trouble breathing, unconsciousness, overdose, fire, or another life-threatening emergency. Give the exact location and describe the danger first."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "City of Houston service guidance",
-                  "href": "https://www.houstontx.gov/311/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "911",
+          "website": "https://www.houstontx.gov/311/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "211-texas-united-way-helpline",
-          "name": "211 Texas / United Way HELPLINE",
+          "title": "211 Texas / United Way HELPLINE",
+          "description": "Phone: 211 or 877-541-7905, free and available 24 hours; text: your ZIP code to 898211.\nUse it for: current shelter, meals, food pantries, benefits, health care, domestic-violence help, rent or utility assistance, and other local referrals. Interpretation is available.\nAsk the operator to verify: eligibility, intake time, documents, transportation, and whether a bed or appointment is actually available.\n211 Texas / United Way HELPLINE",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "211",
-                  "href": "tel:211"
-                },
-                {
-                  "text": " or "
-                },
-                {
-                  "text": "877-541-7905",
-                  "href": "tel:+18775417905"
-                },
-                {
-                  "text": ", free and available 24 hours; "
-                },
-                {
-                  "text": "text:",
-                  "strong": true
-                },
-                {
-                  "text": " your ZIP code to 898211."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Use it for:",
-                  "strong": true
-                },
-                {
-                  "text": " current shelter, meals, food pantries, benefits, health care, domestic-violence help, rent or utility assistance, and other local referrals. Interpretation is available."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ask the operator to verify:",
-                  "strong": true
-                },
-                {
-                  "text": " eligibility, intake time, documents, transportation, and whether a bed or appointment is actually available."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "211 Texas / United Way HELPLINE",
-                  "href": "https://unitedwayhouston.org/what-we-do/211-texas-united-way-helpline/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "211",
+          "website": "https://unitedwayhouston.org/what-we-do/211-texas-united-way-helpline/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "988-suicide-and-crisis-lifeline",
-          "name": "988 Suicide & Crisis Lifeline",
+          "title": "988 Suicide & Crisis Lifeline",
+          "description": "Call or text: 988, 24 hours.\nUse it for: suicidal thoughts, emotional crisis, or concern about someone else. Ask for interpretation if needed. Call 911 when there is immediate physical danger or a medical emergency.\nHarris Center crisis guidance",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Call or text:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "988",
-                  "href": "tel:988"
-                },
-                {
-                  "text": ", 24 hours."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Use it for:",
-                  "strong": true
-                },
-                {
-                  "text": " suicidal thoughts, emotional crisis, or concern about someone else. Ask for interpretation if needed. Call 911 when there is immediate physical danger or a medical emergency."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Harris Center crisis guidance",
-                  "href": "https://www.theharriscenter.org/contact"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "988",
+          "website": "https://www.theharriscenter.org/contact",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "the-harris-center-24-7-crisis-and-access-line",
-          "name": "The Harris Center 24/7 Crisis and Access Line",
+          "title": "The Harris Center 24/7 Crisis and Access Line",
+          "description": "Phone: 713-970-7000 or 866-970-7000.\nService: mental-health crisis support, assessment, service access, and possible Mobile Crisis Outreach Team response for Harris County residents who can voluntarily accept help.\nImmediate danger: 911.\nThe Harris Center — contact and crisis care",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "713-970-7000",
-                  "href": "tel:+17139707000"
-                },
-                {
-                  "text": " or "
-                },
-                {
-                  "text": "866-970-7000",
-                  "href": "tel:+18669707000"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Service:",
-                  "strong": true
-                },
-                {
-                  "text": " mental-health crisis support, assessment, service access, and possible Mobile Crisis Outreach Team response for Harris County residents who can voluntarily accept help."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Immediate danger:",
-                  "strong": true
-                },
-                {
-                  "text": " 911."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "The Harris Center — contact and crisis care",
-                  "href": "https://www.theharriscenter.org/contact"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+17139707000",
+          "website": "https://www.theharriscenter.org/contact",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "houston-311",
-          "name": "Houston 311",
+          "title": "Houston 311",
+          "description": "Phone: 311 or 713-837-0311.\nUse it for: city information, non-emergency service requests, municipal court information, and questions about a city department. For shelter and social-service placement, call 211.\nHouston 311",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "311",
-                  "href": "tel:311"
-                },
-                {
-                  "text": " or "
-                },
-                {
-                  "text": "713-837-0311",
-                  "href": "tel:+17138370311"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Use it for:",
-                  "strong": true
-                },
-                {
-                  "text": " city information, non-emergency service requests, municipal court information, and questions about a city department. For shelter and social-service placement, call 211."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Houston 311",
-                  "href": "https://www.houstontx.gov/311/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "311",
+          "website": "https://www.houstontx.gov/311/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "street-outreach",
-          "name": "Street outreach",
+          "title": "Street outreach",
+          "description": "SEARCH Homeless Outreach: 281-994-9613; emergency: 911.\nService: outreach teams engage people living outside and may connect them with Coordinated Entry, health care, identification, benefits, shelter, or housing services.\nImportant: outreach is not an emergency response and does not guarantee transport or a bed. Give a precise location, description, and urgent health concerns.\nHouston outreach contacts",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "SEARCH Homeless Outreach:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "281-994-9613",
-                  "href": "tel:+12819949613"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "emergency:",
-                  "strong": true
-                },
-                {
-                  "text": " 911."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Service:",
-                  "strong": true
-                },
-                {
-                  "text": " outreach teams engage people living outside and may connect them with Coordinated Entry, health care, identification, benefits, shelter, or housing services."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Important:",
-                  "strong": true
-                },
-                {
-                  "text": " outreach is not an emergency response and does not guarantee transport or a bed. Give a precise location, description, and urgent health concerns."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Houston outreach contacts",
-                  "href": "https://mhihouston.org/public-safety/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+12819949613",
+          "website": "https://mhihouston.org/public-safety/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "project-access-free-service-transportation",
-          "name": "Project Access — free service transportation",
+          "title": "Project Access — free service transportation",
+          "description": "Service: scheduled, no-cost transportation between participating homeless-service agencies and health centers. Tickets are distributed through partner sites.\nAsk at: The Beacon, Lord of the Streets, Healthcare for the Homeless, or another participating provider for the current map, ticket, and boarding rules.\nProject Access map and homeless-service directory",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Service:",
-                  "strong": true
-                },
-                {
-                  "text": " scheduled, no-cost transportation between participating homeless-service agencies and health centers. Tickets are distributed through partner sites."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ask at:",
-                  "strong": true
-                },
-                {
-                  "text": " The Beacon, Lord of the Streets, Healthcare for the Homeless, or another participating provider for the current map, ticket, and boarding rules."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Project Access map and homeless-service directory",
-                  "href": "https://www.cfthhouston.org/gethelp"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.cfthhouston.org/gethelp",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
       "id": "shelter",
-      "title": "2. Shelter and housing access",
-      "items": [
+      "title": "Shelter and housing access",
+      "entries": [
         {
-          "type": "resource",
           "id": "coordinated-entry-the-way-home",
-          "name": "Coordinated Entry — The Way Home",
+          "title": "Coordinated Entry — The Way Home",
+          "description": "First step: call 211 or visit a participating access point. The Coalition itself does not provide walk-in services.\nService: a standardized assessment for possible referral to housing and supportive-service programs across Harris, Fort Bend, and Montgomery Counties.\nImportant: completing an assessment does not guarantee immediate shelter, rental assistance, or permanent housing. Keep your contact information current with the provider.\nCoordinated Entry — Coalition for the Homeless",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "First step:",
-                  "strong": true
-                },
-                {
-                  "text": " call "
-                },
-                {
-                  "text": "211",
-                  "href": "tel:211"
-                },
-                {
-                  "text": " or visit a participating access point. The Coalition itself does not provide walk-in services."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Service:",
-                  "strong": true
-                },
-                {
-                  "text": " a standardized assessment for possible referral to housing and supportive-service programs across Harris, Fort Bend, and Montgomery Counties."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Important:",
-                  "strong": true
-                },
-                {
-                  "text": " completing an assessment does not guarantee immediate shelter, rental assistance, or permanent housing. Keep your contact information current with the provider."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Coordinated Entry — Coalition for the Homeless",
-                  "href": "https://www.cfthhouston.org/coordinated-entry"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "211",
+          "website": "https://www.cfthhouston.org/coordinated-entry",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "the-beacon-coordinated-entry-access",
-          "name": "The Beacon — Coordinated Entry access",
+          "title": "The Beacon — Coordinated Entry access",
+          "description": "Phone: 713-220-9737.\nPublished intake: Tuesday–Friday; sign up at day-center intake at 7 a.m.; first 25 people. Capacity is limited and service is not guaranteed.\nThe Beacon — get help",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 1212 Prairie Street, Houston, TX 77002"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "713-220-9737",
-                  "href": "tel:+17132209737"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Published intake:",
-                  "strong": true
-                },
-                {
-                  "text": " Tuesday–Friday; sign up at day-center intake at 7 a.m.; first 25 people. Capacity is limited and service is not guaranteed."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "The Beacon — get help",
-                  "href": "https://www.beaconhomeless.org/gethelp"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 1212 Prairie Street, Houston, TX 77002",
+          "phone": "+17132209737",
+          "website": "https://www.beaconhomeless.org/gethelp",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "star-of-hope-men-s-development-center",
-          "name": "Star of Hope — Men's Development Center",
+          "title": "Star of Hope — Men's Development Center",
+          "description": "Phone: 713-227-8900.\nService: emergency shelter and recovery, education, employment, and case-management programs for men. Call first for current intake, identification, health, sobriety, and bag rules.\nCurrent Houston shelter directory",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 1811 Ruiz Street, Houston, TX 77002"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "713-227-8900",
-                  "href": "tel:+17132278900"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Service:",
-                  "strong": true
-                },
-                {
-                  "text": " emergency shelter and recovery, education, employment, and case-management programs for men. Call first for current intake, identification, health, sobriety, and bag rules."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Current Houston shelter directory",
-                  "href": "https://www.cfthhouston.org/gethelp"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 1811 Ruiz Street, Houston, TX 77002",
+          "phone": "+17132278900",
+          "website": "https://www.cfthhouston.org/gethelp",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "star-of-hope-women-and-single-parent-families",
-          "name": "Star of Hope — women and single-parent families",
+          "title": "Star of Hope — women and single-parent families",
+          "description": "Phone: 713-222-2220.\nPublished intake: Monday–Friday, 8 a.m.–3:30 p.m., based on availability and first come, first served. Serves single women and single mothers or fathers with children.\nBring if available: ID, Social Security card, and one bag per person. Call even if documents are missing and ask what alternatives are accepted.\nStar of Hope — women and families",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 2575 Reed Road, Houston, TX 77051"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "713-222-2220",
-                  "href": "tel:+17132222220"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Published intake:",
-                  "strong": true
-                },
-                {
-                  "text": " Monday–Friday, 8 a.m.–3:30 p.m., based on availability and first come, first served. Serves single women and single mothers or fathers with children."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Bring if available:",
-                  "strong": true
-                },
-                {
-                  "text": " ID, Social Security card, and one bag per person. Call even if documents are missing and ask what alternatives are accepted."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Star of Hope — women and families",
-                  "href": "https://www.sohmission.org/how-we-help/for-women-and-single-families/"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 2575 Reed Road, Houston, TX 77051",
+          "phone": "+17132222220",
+          "website": "https://www.sohmission.org/how-we-help/for-women-and-single-families/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "salvation-army-center-of-hope",
-          "name": "Salvation Army Center of Hope",
+          "title": "Salvation Army Center of Hope",
+          "description": "Phone: 713-752-0677.\nService: supportive navigation shelter for single men and veterans, with case management and help addressing health, work, addiction, and housing barriers.\nBefore traveling: call for intake, bed availability, eligibility, and documents.\nSalvation Army supportive navigation shelters",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 1500 Austin Street, Houston, TX 77002"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "713-752-0677",
-                  "href": "tel:+17137520677"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Service:",
-                  "strong": true
-                },
-                {
-                  "text": " supportive navigation shelter for single men and veterans, with case management and help addressing health, work, addiction, and housing barriers."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Before traveling:",
-                  "strong": true
-                },
-                {
-                  "text": " call for intake, bed availability, eligibility, and documents."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Salvation Army supportive navigation shelters",
-                  "href": "https://salvationarmyhouston.org/houston/sns"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 1500 Austin Street, Houston, TX 77002",
+          "phone": "+17137520677",
+          "website": "https://salvationarmyhouston.org/houston/sns",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "salvation-army-jones-family-residence",
-          "name": "Salvation Army Jones Family Residence",
+          "title": "Salvation Army Jones Family Residence",
+          "description": "Phone: 713-650-6530.\nService: housing-navigation program for women and families, including case management, childcare, job skills, counseling, and referrals.\nCall first: this is a program-based residence, not a guaranteed same-day walk-in bed.\nJones Family Residence",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 1603 McGowen Street, Houston, TX 77004"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "713-650-6530",
-                  "href": "tel:+17136506530"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Service:",
-                  "strong": true
-                },
-                {
-                  "text": " housing-navigation program for women and families, including case management, childcare, job skills, counseling, and referrals."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Call first:",
-                  "strong": true
-                },
-                {
-                  "text": " this is a program-based residence, not a guaranteed same-day walk-in bed."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Jones Family Residence",
-                  "href": "https://salvationarmyhouston.org/houston/sns"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 1603 McGowen Street, Houston, TX 77004",
+          "phone": "+17136506530",
+          "website": "https://salvationarmyhouston.org/houston/sns",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "magnificat-houses-emergency-shelter",
-          "name": "Magnificat Houses emergency shelter",
+          "title": "Magnificat Houses emergency shelter",
+          "description": "Phone: 713-529-4231, extension 1.\nPublished intake: appointment-based Monday–Friday; limited walk-in availability; beds are limited. Emergency stays are generally 14–30 days, with possible application for longer-term shelter.\nOther help at intake may include: food, water, clothing, health-screening dates, ID partners, computer skills, and employment training.\nMagnificat Houses — need assistance",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Intake location:",
-                  "strong": true
-                },
-                {
-                  "text": " 1410 Elgin Street, Houston, TX 77004"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "713-529-4231",
-                  "href": "tel:+17135294231"
-                },
-                {
-                  "text": ", extension 1."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Published intake:",
-                  "strong": true
-                },
-                {
-                  "text": " appointment-based Monday–Friday; limited walk-in availability; beds are limited. Emergency stays are generally 14–30 days, with possible application for longer-term shelter."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Other help at intake may include:",
-                  "strong": true
-                },
-                {
-                  "text": " food, water, clothing, health-screening dates, ID partners, computer skills, and employment training."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Magnificat Houses — need assistance",
-                  "href": "https://mhihouston.org/need-assistance/"
-                }
-              ]
-            }
-          ]
+          "address": "Intake location: 1410 Elgin Street, Houston, TX 77004",
+          "phone": "+17135294231",
+          "website": "https://mhihouston.org/need-assistance/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "mission-of-yahweh-women-and-children",
-          "name": "Mission of Yahweh — women and children",
+          "title": "Mission of Yahweh — women and children",
+          "description": "Phone: 713-466-4785, extension 100.\nService: faith-based emergency and transitional shelter for women and children, with case management, counseling, classes, and help toward independence.\nNo walk-in guarantee: call for screening, interview, child-age rules, documents, and space.\nMission of Yahweh",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 10247 Algiers Road, Houston, TX 77041"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "713-466-4785",
-                  "href": "tel:+17134664785"
-                },
-                {
-                  "text": ", extension 100."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Service:",
-                  "strong": true
-                },
-                {
-                  "text": " faith-based emergency and transitional shelter for women and children, with case management, counseling, classes, and help toward independence."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "No walk-in guarantee:",
-                  "strong": true
-                },
-                {
-                  "text": " call for screening, interview, child-age rules, documents, and space."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Mission of Yahweh",
-                  "href": "https://missionofyahweh.org/"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 10247 Algiers Road, Houston, TX 77041",
+          "phone": "+17134664785",
+          "website": "https://missionofyahweh.org/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "open-door-houston-residential-recovery-housing",
-          "name": "Open Door Houston — residential recovery housing",
+          "title": "Open Door Houston — residential recovery housing",
+          "description": "Phone: 713-921-7520.\nImportant: walk-in emergency shelter is not currently available. Doorway Recovery offers structured, program-based housing for men ready to enter recovery.\nCall before going: ask about admission, fees, program rules, health requirements, and wait time.\nOpen Door Houston — current emergency services",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 5803 Harrisburg Boulevard, Houston, TX 77011"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "713-921-7520",
-                  "href": "tel:+17139217520"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Important:",
-                  "strong": true
-                },
-                {
-                  "text": " walk-in emergency shelter is not currently available. Doorway Recovery offers structured, program-based housing for men ready to enter recovery."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Call before going:",
-                  "strong": true
-                },
-                {
-                  "text": " ask about admission, fees, program rules, health requirements, and wait time."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Open Door Houston — current emergency services",
-                  "href": "https://www.opendoorhouston.org/emergency-services/"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 5803 Harrisburg Boulevard, Houston, TX 77011",
+          "phone": "+17139217520",
+          "website": "https://www.opendoorhouston.org/emergency-services/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "covenant-house-texas-ages-18-24",
-          "name": "Covenant House Texas — ages 18–24",
+          "title": "Covenant House Texas — ages 18–24",
+          "description": "Phone: 713-523-2231; campus support is open 24 hours.\nService: free walk-in emergency shelter, drop-in help, parenting programs, and resources for young adults, including LGBTQ+ youth, pregnant youth, and young parents with children up to age 5.\nCovenant House Texas",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 1111 Lovett Boulevard, Houston, TX 77006"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "713-523-2231",
-                  "href": "tel:+17135232231"
-                },
-                {
-                  "text": "; campus support is open 24 hours."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Service:",
-                  "strong": true
-                },
-                {
-                  "text": " free walk-in emergency shelter, drop-in help, parenting programs, and resources for young adults, including LGBTQ+ youth, pregnant youth, and young parents with children up to age 5."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Covenant House Texas",
-                  "href": "https://www.covenanthouse.org/homeless-shelters/houston-texas"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 1111 Lovett Boulevard, Houston, TX 77006",
+          "phone": "+17135232231",
+          "website": "https://www.covenanthouse.org/homeless-shelters/houston-texas",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "houston-area-women-s-center-confidential-shelter",
-          "name": "Houston Area Women's Center — confidential shelter",
+          "title": "Houston Area Women's Center — confidential shelter",
+          "description": "Domestic-violence hotline: 713-528-2121 or 800-256-0551, 24 hours.\nService: safety planning and access to confidential emergency shelter for survivors of domestic violence. The public office address is not the shelter location.\nImmediate danger: 911. Use a safe phone if your device may be monitored.\nHouston Area Women's Center — contact",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Domestic-violence hotline:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "713-528-2121",
-                  "href": "tel:+17135282121"
-                },
-                {
-                  "text": " or "
-                },
-                {
-                  "text": "800-256-0551",
-                  "href": "tel:+18002560551"
-                },
-                {
-                  "text": ", 24 hours."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Service:",
-                  "strong": true
-                },
-                {
-                  "text": " safety planning and access to confidential emergency shelter for survivors of domestic violence. The public office address is not the shelter location."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Immediate danger:",
-                  "strong": true
-                },
-                {
-                  "text": " 911. Use a safe phone if your device may be monitored."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Houston Area Women's Center — contact",
-                  "href": "https://hawc.org/contact/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+17135282121",
+          "website": "https://hawc.org/contact/",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
       "id": "food",
-      "title": "3. Meals and food",
-      "items": [
+      "title": "Meals and food",
+      "entries": [
         {
-          "type": "resource",
           "id": "the-beacon-breakfast-and-lunch",
-          "name": "The Beacon — breakfast and lunch",
+          "title": "The Beacon — breakfast and lunch",
+          "description": "Phone: 713-220-9737.\nPublished schedule: Tuesday–Saturday; breakfast 7–9:30 a.m. and lunch 11 a.m.–noon. All services are first come, first served and can reach capacity.\nThe Beacon — current schedule",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 1212 Prairie Street, Houston, TX 77002"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "713-220-9737",
-                  "href": "tel:+17132209737"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Published schedule:",
-                  "strong": true
-                },
-                {
-                  "text": " Tuesday–Saturday; breakfast 7–9:30 a.m. and lunch 11 a.m.–noon. All services are first come, first served and can reach capacity."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "The Beacon — current schedule",
-                  "href": "https://www.beaconhomeless.org/gethelp"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 1212 Prairie Street, Houston, TX 77002",
+          "phone": "+17132209737",
+          "website": "https://www.beaconhomeless.org/gethelp",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "search-resource-center-hot-lunch",
-          "name": "SEARCH Resource Center — hot lunch",
+          "title": "SEARCH Resource Center — hot lunch",
+          "description": "Published intake: Monday–Friday at 8 a.m. and Monday–Thursday at 1 p.m.\nServices: hot lunch, showers, laundry, hygiene supplies, referrals, case management, employment, health clinics, and adult education. Call 211 or check the current resource card before a long trip.\nSEARCH current resource card",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 2505 Fannin Street, Houston, TX 77002"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Published intake:",
-                  "strong": true
-                },
-                {
-                  "text": " Monday–Friday at 8 a.m. and Monday–Thursday at 1 p.m."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Services:",
-                  "strong": true
-                },
-                {
-                  "text": " hot lunch, showers, laundry, hygiene supplies, referrals, case management, employment, health clinics, and adult education. Call 211 or check the current resource card before a long trip."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "SEARCH current resource card",
-                  "href": "https://www.searchhomeless.org/pdfs/search-resource-card.pdf"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 2505 Fannin Street, Houston, TX 77002",
+          "phone": "",
+          "website": "https://www.searchhomeless.org/pdfs/search-resource-card.pdf",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "lord-of-the-streets-weekday-meals",
-          "name": "Lord of the Streets — weekday meals",
+          "title": "Lord of the Streets — weekday meals",
+          "description": "Phone: 713-526-0311; hours: Monday–Friday, 8 a.m.–noon.\nService: meals plus clothing, hygiene supplies, mail, phone, notary, health care, and referrals. Sunday worship and breakfast are at Trinity Episcopal Church, 1015 Holman Street.\nLord of the Streets — contact and hours",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 3401 Fannin Street, Houston, TX 77004"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "713-526-0311",
-                  "href": "tel:+17135260311"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "hours:",
-                  "strong": true
-                },
-                {
-                  "text": " Monday–Friday, 8 a.m.–noon."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Service:",
-                  "strong": true
-                },
-                {
-                  "text": " meals plus clothing, hygiene supplies, mail, phone, notary, health care, and referrals. Sunday worship and breakfast are at Trinity Episcopal Church, 1015 Holman Street."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Lord of the Streets — contact and hours",
-                  "href": "https://www.lotshouston.org/contact-us.html"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 3401 Fannin Street, Houston, TX 77004",
+          "phone": "+17135260311",
+          "website": "https://www.lotshouston.org/contact-us.html",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "open-door-houston-community-food-distribution",
-          "name": "Open Door Houston — community food distribution",
+          "title": "Open Door Houston — community food distribution",
+          "description": "Phone: 713-921-7520.\nPublished schedule: Monday–Saturday, 1–2 p.m. The organization states that meals for men are provided without paperwork; confirm before traveling.\nOpen Door Houston — meals and clothing",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 5803 Harrisburg Boulevard, Houston, TX 77011"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "713-921-7520",
-                  "href": "tel:+17139217520"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Published schedule:",
-                  "strong": true
-                },
-                {
-                  "text": " Monday–Saturday, 1–2 p.m. The organization states that meals for men are provided without paperwork; confirm before traveling."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Open Door Houston — meals and clothing",
-                  "href": "https://www.opendoorhouston.org/emergency-services/"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 5803 Harrisburg Boulevard, Houston, TX 77011",
+          "phone": "+17139217520",
+          "website": "https://www.opendoorhouston.org/emergency-services/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "houston-food-bank-find-nearby-food",
-          "name": "Houston Food Bank — find nearby food",
+          "title": "Houston Food Bank — find nearby food",
+          "description": "Food-help phone: 832-369-9390.\nService: current pantry, meal-program, and distribution locations by ZIP code. Call the pantry before visiting to confirm hours, identification, address rules, and supply.\nDo not assume the Food Bank warehouse is a walk-in pantry. Use the map or helpline for the correct distribution partner.\nHouston Food Bank — Find Food Map",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Food-help phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "832-369-9390",
-                  "href": "tel:+18323699390"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Service:",
-                  "strong": true
-                },
-                {
-                  "text": " current pantry, meal-program, and distribution locations by ZIP code. Call the pantry before visiting to confirm hours, identification, address rules, and supply."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Do not assume the Food Bank warehouse is a walk-in pantry.",
-                  "strong": true
-                },
-                {
-                  "text": " Use the map or helpline for the correct distribution partner."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Houston Food Bank — Find Food Map",
-                  "href": "https://www.houstonfoodbank.org/find-help/find-food-map/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+18323699390",
+          "website": "https://www.houstonfoodbank.org/find-help/find-food-map/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "211-food-referrals",
-          "name": "211 food referrals",
+          "title": "211 food referrals",
+          "description": "Phone: 211; text: your ZIP to 898211.\nAsk for: an open meal today, pantry without proof of address, food delivery if you cannot travel, or benefits help. Give nearest cross streets if you have no ZIP code.\nUnited Way 211",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "211",
-                  "href": "tel:211"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "text:",
-                  "strong": true
-                },
-                {
-                  "text": " your ZIP to 898211."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ask for:",
-                  "strong": true
-                },
-                {
-                  "text": " an open meal today, pantry without proof of address, food delivery if you cannot travel, or benefits help. Give nearest cross streets if you have no ZIP code."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "United Way 211",
-                  "href": "https://unitedwayhouston.org/what-we-do/211-texas-united-way-helpline/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "211",
+          "website": "https://unitedwayhouston.org/what-we-do/211-texas-united-way-helpline/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "magnificat-houses-meal-program-transition",
-          "name": "Magnificat Houses meal-program transition",
+          "title": "Magnificat Houses meal-program transition",
+          "description": "Phone: 713-529-4231.\nImportant: the former downtown Loaves & Fishes soup-kitchen location is temporarily closed while relocating. Meal service continues through Magnificat programs, but there is no confirmed public walk-in site or schedule online.\nCall first: ask where a non-resident can receive a meal that day.\nMagnificat Houses — current meal information",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "713-529-4231",
-                  "href": "tel:+17135294231"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Important:",
-                  "strong": true
-                },
-                {
-                  "text": " the former downtown Loaves & Fishes soup-kitchen location is temporarily closed while relocating. Meal service continues through Magnificat programs, but there is no confirmed public walk-in site or schedule online."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Call first:",
-                  "strong": true
-                },
-                {
-                  "text": " ask where a non-resident can receive a meal that day."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Magnificat Houses — current meal information",
-                  "href": "https://mhihouston.org/what-we-do/meals/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+17135294231",
+          "website": "https://mhihouston.org/what-we-do/meals/",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
-      "id": "basic",
-      "title": "4. Showers, laundry, mail, phones, and internet",
-      "items": [
+      "id": "community",
+      "title": "Community and religious help",
+      "entries": []
+    },
+    {
+      "id": "hygiene",
+      "title": "Showers, laundry, mail, phones, and internet",
+      "entries": [
         {
-          "type": "resource",
           "id": "the-beacon-showers-laundry-mail-charging-and-wi-fi",
-          "name": "The Beacon — showers, laundry, mail, charging, and Wi-Fi",
+          "title": "The Beacon — showers, laundry, mail, charging, and Wi-Fi",
+          "description": "Phone: 713-220-9737.\nPublished schedule: Tuesday–Saturday. Private showers and full-service laundry are first come, first served. Pathways staff can also offer mailbox privileges, device charging, Wi-Fi, benefits connections, and referrals.\nThe Beacon essential services",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 1212 Prairie Street, Houston, TX 77002"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "713-220-9737",
-                  "href": "tel:+17132209737"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Published schedule:",
-                  "strong": true
-                },
-                {
-                  "text": " Tuesday–Saturday. Private showers and full-service laundry are first come, first served. Pathways staff can also offer mailbox privileges, device charging, Wi-Fi, benefits connections, and referrals."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "The Beacon essential services",
-                  "href": "https://www.beaconhomeless.org/essentialservices"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 1212 Prairie Street, Houston, TX 77002",
+          "phone": "+17132209737",
+          "website": "https://www.beaconhomeless.org/essentialservices",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "search-resource-center-showers-and-laundry",
-          "name": "SEARCH Resource Center — showers and laundry",
+          "title": "SEARCH Resource Center — showers and laundry",
+          "description": "Services: showers, laundry, hygiene supplies, lunch, information, referrals, and case management. Intake times are published on the current resource card.\nAsk before using SEARCH as a mailing address: confirm enrollment and pickup rules with staff.\nSEARCH Resource Center card",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 2505 Fannin Street, Houston, TX 77002"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Services:",
-                  "strong": true
-                },
-                {
-                  "text": " showers, laundry, hygiene supplies, lunch, information, referrals, and case management. Intake times are published on the current resource card."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ask before using SEARCH as a mailing address:",
-                  "strong": true
-                },
-                {
-                  "text": " confirm enrollment and pickup rules with staff."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "SEARCH Resource Center card",
-                  "href": "https://www.searchhomeless.org/pdfs/search-resource-card.pdf"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 2505 Fannin Street, Houston, TX 77002",
+          "phone": "",
+          "website": "https://www.searchhomeless.org/pdfs/search-resource-card.pdf",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "lord-of-the-streets-mail-phone-clothing-and-notary",
-          "name": "Lord of the Streets — mail, phone, clothing, and notary",
+          "title": "Lord of the Streets — mail, phone, clothing, and notary",
+          "description": "Phone: 713-526-0311; Monday–Friday, 8 a.m.–noon.\nServices published: mailing address, mail pickup, local phone calls, clothing and hygiene kits, free notary, homeless letter, ID and birth-certificate referrals, bus help, and health-benefit screening.\nMail pickup requires valid ID. Enroll before sending mail there.\nLord of the Streets",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 3401 Fannin Street, Houston, TX 77004"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "713-526-0311",
-                  "href": "tel:+17135260311"
-                },
-                {
-                  "text": "; Monday–Friday, 8 a.m.–noon."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Services published:",
-                  "strong": true
-                },
-                {
-                  "text": " mailing address, mail pickup, local phone calls, clothing and hygiene kits, free notary, homeless letter, ID and birth-certificate referrals, bus help, and health-benefit screening."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Mail pickup requires valid ID.",
-                  "strong": true
-                },
-                {
-                  "text": " Enroll before sending mail there."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Lord of the Streets",
-                  "href": "https://www.lotshouston.org/contact-us.html"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 3401 Fannin Street, Houston, TX 77004",
+          "phone": "+17135260311",
+          "website": "https://www.lotshouston.org/contact-us.html",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "salvation-army-young-adult-resource-center-ages-18-25",
-          "name": "Salvation Army Young Adult Resource Center — ages 18–25",
+          "title": "Salvation Army Young Adult Resource Center — ages 18–25",
+          "description": "Phone: 713-752-0677.\nServices: showers, lockers, laundry, hygiene supplies, clothing, phone, computer internet, mailing address, meals, shelter referrals, and ID assistance for young adults.\nYoung Adult Resource Center",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 1621 McGowen Street, Houston, TX 77004"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "713-752-0677",
-                  "href": "tel:+17137520677"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Services:",
-                  "strong": true
-                },
-                {
-                  "text": " showers, lockers, laundry, hygiene supplies, clothing, phone, computer internet, mailing address, meals, shelter referrals, and ID assistance for young adults."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Young Adult Resource Center",
-                  "href": "https://salvationarmyhouston.org/houston/yarc"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 1621 McGowen Street, Houston, TX 77004",
+          "phone": "+17137520677",
+          "website": "https://salvationarmyhouston.org/houston/yarc",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "va-community-resource-and-referral-center-veterans",
-          "name": "VA Community Resource and Referral Center — veterans",
+          "title": "VA Community Resource and Referral Center — veterans",
+          "description": "Homeless-veteran hotline: 877-424-3838.\nPublished hygiene hours: showers Monday–Friday, 8–11:30 a.m.; laundry Monday–Friday, 8–11 a.m. The center also connects veterans with housing, health, benefits, and work services.\nHouston VA CRRC",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 1700 Webster Street, Houston, TX 77003"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Homeless-veteran hotline:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "877-424-3838",
-                  "href": "tel:+18774243838"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Published hygiene hours:",
-                  "strong": true
-                },
-                {
-                  "text": " showers Monday–Friday, 8–11:30 a.m.; laundry Monday–Friday, 8–11 a.m. The center also connects veterans with housing, health, benefits, and work services."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Houston VA CRRC",
-                  "href": "https://www.va.gov/houston-health-care/locations/houston-webster-va-clinic/"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 1700 Webster Street, Houston, TX 77003",
+          "phone": "+18774243838",
+          "website": "https://www.va.gov/houston-health-care/locations/houston-webster-va-clinic/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "houston-public-library-computer-and-internet-access",
-          "name": "Houston Public Library — computer and internet access",
+          "title": "Houston Public Library — computer and internet access",
+          "description": "Service: public computers use one-hour sessions and can be accessed with a library card or a Computer Use Only Card supplied by the library. Printing and downloading are available at sites, subject to local equipment and cost.\nAsk staff: how to get computer access without permanent housing or photo ID and which branch is open. Do not leave personal accounts signed in.\nHouston Public Library internet-use policy",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Service:",
-                  "strong": true
-                },
-                {
-                  "text": " public computers use one-hour sessions and can be accessed with a library card or a Computer Use Only Card supplied by the library. Printing and downloading are available at sites, subject to local equipment and cost."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ask staff:",
-                  "strong": true
-                },
-                {
-                  "text": " how to get computer access without permanent housing or photo ID and which branch is open. Do not leave personal accounts signed in."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Houston Public Library internet-use policy",
-                  "href": "https://houstonlibrary.org/policies-internet-use"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://houstonlibrary.org/policies-internet-use",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
+    },
+    {
+      "id": "clothing",
+      "title": "Clothing",
+      "entries": []
     },
     {
       "id": "health",
-      "title": "5. Health, mental health, and recovery",
-      "items": [
+      "title": "Health, mental health, and recovery",
+      "entries": [
         {
-          "type": "resource",
           "id": "medical-emergency-911",
-          "name": "Medical emergency — 911",
+          "title": "Medical emergency — 911",
+          "description": "Phone: 911.\nCall now for: overdose, unconsciousness, chest pain, severe breathing trouble, heavy bleeding, seizure, heat illness, or another life-threatening condition. Do not delay because of insurance or identification.\nHealthcare for the Homeless emergency guidance",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "911",
-                  "href": "tel:911"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Call now for:",
-                  "strong": true
-                },
-                {
-                  "text": " overdose, unconsciousness, chest pain, severe breathing trouble, heavy bleeding, seizure, heat illness, or another life-threatening condition. Do not delay because of insurance or identification."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Healthcare for the Homeless emergency guidance",
-                  "href": "https://www.homeless-healthcare.org/contact-us"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "911",
+          "website": "https://www.homeless-healthcare.org/contact-us",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "healthcare-for-the-homeless-caroline-street-clinic",
-          "name": "Healthcare for the Homeless — Caroline Street Clinic",
+          "title": "Healthcare for the Homeless — Caroline Street Clinic",
+          "description": "Phone: 713-286-6000.\nPublished hours: Monday–Thursday, 8 a.m.–4:30 p.m.; Friday, 8 a.m.–noon; no appointments from noon–1 p.m.\nServices are free: medical, mental health, behavioral health, addiction counseling, pharmacy, dental, vision, well-woman care, HIV prevention, and care coordination. No insurance, ID, or proof of homelessness is required.\nHealthcare for the Homeless locations",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 1934 Caroline Street, Houston, TX 77002"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "713-286-6000",
-                  "href": "tel:+17132866000"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Published hours:",
-                  "strong": true
-                },
-                {
-                  "text": " Monday–Thursday, 8 a.m.–4:30 p.m.; Friday, 8 a.m.–noon; no appointments from noon–1 p.m."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Services are free:",
-                  "strong": true
-                },
-                {
-                  "text": " medical, mental health, behavioral health, addiction counseling, pharmacy, dental, vision, well-woman care, HIV prevention, and care coordination. No insurance, ID, or proof of homelessness is required."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Healthcare for the Homeless locations",
-                  "href": "https://www.homeless-healthcare.org/care-locations"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 1934 Caroline Street, Houston, TX 77002",
+          "phone": "+17132866000",
+          "website": "https://www.homeless-healthcare.org/care-locations",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "cathedral-clinic-at-the-beacon",
-          "name": "Cathedral Clinic at The Beacon",
+          "title": "Cathedral Clinic at The Beacon",
+          "description": "Phone: 713-220-9730.\nPublished hours: Monday–Friday, 7:30 a.m.–noon; Saturday HOMES Clinic, 8 a.m.–noon. The clinic closes every afternoon.\nCall before going: walk-in availability can change; Caroline Street Clinic also accepts walk-ins.\nCathedral Clinic information",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 1212 Prairie Street, Houston, TX 77002"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "713-220-9730",
-                  "href": "tel:+17132209730"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Published hours:",
-                  "strong": true
-                },
-                {
-                  "text": " Monday–Friday, 7:30 a.m.–noon; Saturday HOMES Clinic, 8 a.m.–noon. The clinic closes every afternoon."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Call before going:",
-                  "strong": true
-                },
-                {
-                  "text": " walk-in availability can change; Caroline Street Clinic also accepts walk-ins."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Cathedral Clinic information",
-                  "href": "https://www.homeless-healthcare.org/care-locations"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 1212 Prairie Street, Houston, TX 77002",
+          "phone": "+17132209730",
+          "website": "https://www.homeless-healthcare.org/care-locations",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "reed-family-clinic",
-          "name": "Reed Family Clinic",
+          "title": "Reed Family Clinic",
+          "description": "Phone: 713-532-9901.\nPublished hours: Monday–Thursday, 8 a.m.–4:30 p.m.; closed noon–1 p.m. and Friday.\nServices: medical care for adults, women, children, and young people affected by homelessness or housing instability. No copay is charged.\nReed Family Clinic",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 2605 Reed Road, Houston, TX 77051"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "713-532-9901",
-                  "href": "tel:+17135329901"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Published hours:",
-                  "strong": true
-                },
-                {
-                  "text": " Monday–Thursday, 8 a.m.–4:30 p.m.; closed noon–1 p.m. and Friday."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Services:",
-                  "strong": true
-                },
-                {
-                  "text": " medical care for adults, women, children, and young people affected by homelessness or housing instability. No copay is charged."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Reed Family Clinic",
-                  "href": "https://www.homeless-healthcare.org/care-locations"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 2605 Reed Road, Houston, TX 77051",
+          "phone": "+17135329901",
+          "website": "https://www.homeless-healthcare.org/care-locations",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "harris-health-open-access-homeless-clinics",
-          "name": "Harris Health open-access homeless clinics",
+          "title": "Harris Health open-access homeless clinics",
+          "description": "Main homeless-health line: 346-426-0500; eligibility: 346-426-0702.\nCall to choose the correct site: shelter-resident clinics have separate eligibility.\nHarris Health Healthcare for the Homeless",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Main homeless-health line:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "346-426-0500",
-                  "href": "tel:+13464260500"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "eligibility:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "346-426-0702",
-                  "href": "tel:+13464260702"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Open-access sites include:",
-                  "strong": true
-                },
-                {
-                  "text": " Harmony House, Lord of the Streets, Navigation Center, and Open Door Mission. Services are open to people experiencing homelessness regardless of shelter status, by appointment and then first come, first served."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Call to choose the correct site:",
-                  "strong": true
-                },
-                {
-                  "text": " shelter-resident clinics have separate eligibility."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Harris Health Healthcare for the Homeless",
-                  "href": "https://www.harrishealth.org/services-hh/outreach/Pages/healthcare-homeless.aspx"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+13464260500",
+          "website": "https://www.harrishealth.org/services-hh/outreach/Pages/healthcare-homeless.aspx",
+          "hours": "Open-access sites include: Harmony House, Lord of the Streets, Navigation Center, and Open Door Mission. Services are open to people experiencing homelessness regardless of shelter status, by appointment and then first come, first served.",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "mobile-medical-and-dental-units",
-          "name": "Mobile medical and dental units",
+          "title": "Mobile medical and dental units",
+          "description": "Medical van location: 832-547-4381; mobile dental: 832-986-0358.\nService: Harris Health mobile care for people experiencing homelessness. Routes change, so call for the current day, place, appointment, and eligibility.\nHarris Health outreach services",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Medical van location:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "832-547-4381",
-                  "href": "tel:+18325474381"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "mobile dental:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "832-986-0358",
-                  "href": "tel:+18329860358"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Service:",
-                  "strong": true
-                },
-                {
-                  "text": " Harris Health mobile care for people experiencing homelessness. Routes change, so call for the current day, place, appointment, and eligibility."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Harris Health outreach services",
-                  "href": "https://www.harrishealth.org/services-hh/outreach/Pages/healthcare-homeless.aspx"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+18325474381",
+          "website": "https://www.harrishealth.org/services-hh/outreach/Pages/healthcare-homeless.aspx",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "houston-recovery-center-sobering-center",
-          "name": "Houston Recovery Center — Sobering Center",
+          "title": "Houston Recovery Center — Sobering Center",
+          "description": "Phone: 713-236-7830; open 24 hours.\nService: free, confidential, voluntary short-term monitoring for adults impaired by alcohol or other drugs who are ambulatory, non-combative, and medically stable, plus peer recovery referral.\nCall 911 instead for: unconsciousness, breathing trouble, seizure, serious injury, severe agitation, or suspected overdose needing emergency care.\nHouston Recovery Center — admissions criteria",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 150 North Chenevert Street, Suite 100, Houston, TX 77002"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "713-236-7830",
-                  "href": "tel:+17132367830"
-                },
-                {
-                  "text": "; open 24 hours."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Service:",
-                  "strong": true
-                },
-                {
-                  "text": " free, confidential, voluntary short-term monitoring for adults impaired by alcohol or other drugs who are ambulatory, non-combative, and medically stable, plus peer recovery referral."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Call 911 instead for:",
-                  "strong": true
-                },
-                {
-                  "text": " unconsciousness, breathing trouble, seizure, serious injury, severe agitation, or suspected overdose needing emergency care."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Houston Recovery Center — admissions criteria",
-                  "href": "https://houstonrecoverycenter.org/sobering-center/"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 150 North Chenevert Street, Suite 100, Houston, TX 77002",
+          "phone": "+17132367830",
+          "website": "https://houstonrecoverycenter.org/sobering-center/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "st-joseph-clubhouse-ongoing-mental-health-recovery",
-          "name": "St. Joseph Clubhouse — ongoing mental-health recovery",
+          "title": "St. Joseph Clubhouse — ongoing mental-health recovery",
+          "description": "Phone: 713-523-5958.\nWho: adults with a current mental-health diagnosis who are under professional care. Membership is free and lifelong.\nServices: peer support, structured work activities, meals, job readiness, wellness planning, and access to housing referrals and social services. Call to arrange intake or a tour.\nSt. Joseph Clubhouse",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "713-523-5958",
-                  "href": "tel:+17135235958"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Who:",
-                  "strong": true
-                },
-                {
-                  "text": " adults with a current mental-health diagnosis who are under professional care. Membership is free and lifelong."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Services:",
-                  "strong": true
-                },
-                {
-                  "text": " peer support, structured work activities, meals, job readiness, wellness planning, and access to housing referrals and social services. Call to arrange intake or a tour."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "St. Joseph Clubhouse",
-                  "href": "https://mhihouston.org/what-we-do/clubhouse/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+17135235958",
+          "website": "https://mhihouston.org/what-we-do/clubhouse/",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
+    },
+    {
+      "id": "mental-health",
+      "title": "Mental health and addiction",
+      "entries": []
+    },
+    {
+      "id": "public-facilities",
+      "title": "Public toilets and day facilities",
+      "entries": []
+    },
+    {
+      "id": "phone-internet",
+      "title": "Phone charging and internet",
+      "entries": []
+    },
+    {
+      "id": "transport",
+      "title": "Transport",
+      "entries": []
     },
     {
       "id": "benefits",
-      "title": "6. Public benefits and income support",
-      "items": [
+      "title": "Public benefits and income support",
+      "entries": [
         {
-          "type": "resource",
           "id": "texas-benefits-help-by-phone",
-          "name": "Texas benefits help by phone",
+          "title": "Texas benefits help by phone",
+          "description": "Phone: 211 or 877-541-7905; choose language, then option 2.\nHelp with: SNAP food benefits, Medicaid, CHIP, TANF cash assistance, Medicare savings, and case questions. Ask what can be used as proof when you have no fixed address or lost documents.\nTexas Health and Human Services — benefits contacts",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "211",
-                  "href": "tel:211"
-                },
-                {
-                  "text": " or "
-                },
-                {
-                  "text": "877-541-7905",
-                  "href": "tel:+18775417905"
-                },
-                {
-                  "text": "; choose language, then option 2."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Help with:",
-                  "strong": true
-                },
-                {
-                  "text": " SNAP food benefits, Medicaid, CHIP, TANF cash assistance, Medicare savings, and case questions. Ask what can be used as proof when you have no fixed address or lost documents."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Texas Health and Human Services — benefits contacts",
-                  "href": "https://www.hhs.texas.gov/contact"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "211",
+          "website": "https://www.hhs.texas.gov/contact",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "your-texas-benefits",
-          "name": "Your Texas Benefits",
+          "title": "Your Texas Benefits",
+          "description": "Online service: apply for SNAP, Medicaid, TANF, Medicare savings, and other programs; upload documents; check interview dates and application status.\nNo device or internet: use a library, The Beacon, YARC, or Workforce Solutions computer. Sign out fully and do not save your password on a public device.\nYour Texas Benefits",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Online service:",
-                  "strong": true
-                },
-                {
-                  "text": " apply for SNAP, Medicaid, TANF, Medicare savings, and other programs; upload documents; check interview dates and application status."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "No device or internet:",
-                  "strong": true
-                },
-                {
-                  "text": " use a library, The Beacon, YARC, or Workforce Solutions computer. Sign out fully and do not save your password on a public device."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Your Texas Benefits",
-                  "href": "https://www.yourtexasbenefits.com/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.yourtexasbenefits.com/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "houston-food-bank-community-assistance-program",
-          "name": "Houston Food Bank Community Assistance Program",
+          "title": "Houston Food Bank Community Assistance Program",
+          "description": "Helpline: 832-369-9390.\nNavigators can help with: SNAP, TANF, Children's Medicaid, CHIP, women's health coverage, Medicare savings, and related state programs. English, Spanish, and interpreter support are available.\nAppointment capacity can close temporarily: call for the current location or walk-in option.\nHouston Food Bank benefits assistance",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Helpline:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "832-369-9390",
-                  "href": "tel:+18323699390"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Navigators can help with:",
-                  "strong": true
-                },
-                {
-                  "text": " SNAP, TANF, Children's Medicaid, CHIP, women's health coverage, Medicare savings, and related state programs. English, Spanish, and interpreter support are available."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Appointment capacity can close temporarily:",
-                  "strong": true
-                },
-                {
-                  "text": " call for the current location or walk-in option."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Houston Food Bank benefits assistance",
-                  "href": "https://www.houstonfoodbank.org/find-help/cap/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+18323699390",
+          "website": "https://www.houstonfoodbank.org/find-help/cap/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "benefits-and-income-support-at-the-beacon",
-          "name": "Benefits and income support at The Beacon",
+          "title": "Benefits and income support at The Beacon",
+          "description": "Phone: 713-220-9737.\nService: Pathways staff can connect day-center guests with benefits, income supports, Coordinated Entry, mail, Wi-Fi, and partner programs. Arrive early because daily capacity is limited.\nThe Beacon Pathways services",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 1212 Prairie Street, Houston, TX 77002"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "713-220-9737",
-                  "href": "tel:+17132209737"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Service:",
-                  "strong": true
-                },
-                {
-                  "text": " Pathways staff can connect day-center guests with benefits, income supports, Coordinated Entry, mail, Wi-Fi, and partner programs. Arrive early because daily capacity is limited."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "The Beacon Pathways services",
-                  "href": "https://www.beaconhomeless.org/essentialservices"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 1212 Prairie Street, Houston, TX 77002",
+          "phone": "+17132209737",
+          "website": "https://www.beaconhomeless.org/essentialservices",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "lost-lone-star-or-medicaid-card",
-          "name": "Lost Lone Star or Medicaid card",
+          "title": "Lost Lone Star or Medicaid card",
+          "description": "Lost or stolen Lone Star Card: 800-777-7328; Medicaid card: 800-252-8263.\nProtect your PIN: never trade benefits for cash or let another person keep your card. Update your mailing address through Your Texas Benefits or 211.\nTexas benefits card help",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Lost or stolen Lone Star Card:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "800-777-7328",
-                  "href": "tel:+18007777328"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "Medicaid card:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "800-252-8263",
-                  "href": "tel:+18002528263"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Protect your PIN:",
-                  "strong": true
-                },
-                {
-                  "text": " never trade benefits for cash or let another person keep your card. Update your mailing address through Your Texas Benefits or 211."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Texas benefits card help",
-                  "href": "https://www.hhs.texas.gov/services/questions-about-your-benefits"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+18007777328",
+          "website": "https://www.hhs.texas.gov/services/questions-about-your-benefits",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
-      "id": "work",
-      "title": "7. Jobs, training, and education",
-      "items": [
+      "id": "employment",
+      "title": "Jobs, training, and education",
+      "entries": [
         {
-          "type": "resource",
           "id": "search-employment-services",
-          "name": "SEARCH Employment Services",
+          "title": "SEARCH Employment Services",
+          "description": "Services: job counseling, search, placement, training, veteran support, case management, GED preparation, and adult basic education.\nAsk at Resource Center intake: what identification is needed and whether employment appointments are available that day.\nSEARCH services",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 2505 Fannin Street, Houston, TX 77002"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Services:",
-                  "strong": true
-                },
-                {
-                  "text": " job counseling, search, placement, training, veteran support, case management, GED preparation, and adult basic education."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ask at Resource Center intake:",
-                  "strong": true
-                },
-                {
-                  "text": " what identification is needed and whether employment appointments are available that day."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "SEARCH services",
-                  "href": "https://www.searchhomeless.org/pdfs/search-resource-card.pdf"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 2505 Fannin Street, Houston, TX 77002",
+          "phone": "",
+          "website": "https://www.searchhomeless.org/pdfs/search-resource-card.pdf",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "workforce-solutions-east-end-career-office",
-          "name": "Workforce Solutions — East End Career Office",
+          "title": "Workforce Solutions — East End Career Office",
+          "description": "Phone: 713-228-8848; hours: Monday–Friday, 8 a.m.–5 p.m.\nFree services: computers, Wi-Fi, printers, fax, resume and interview help, WorkInTexas search, accessibility technology, and possible training or childcare scholarships.\nWorkforce Solutions career offices",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 4450 Harrisburg Boulevard, Suite 100, Houston, TX 77011"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "713-228-8848",
-                  "href": "tel:+17132288848"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "hours:",
-                  "strong": true
-                },
-                {
-                  "text": " Monday–Friday, 8 a.m.–5 p.m."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Free services:",
-                  "strong": true
-                },
-                {
-                  "text": " computers, Wi-Fi, printers, fax, resume and interview help, WorkInTexas search, accessibility technology, and possible training or childcare scholarships."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Workforce Solutions career offices",
-                  "href": "https://wrksolutions.com/find-a-career-office"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 4450 Harrisburg Boulevard, Suite 100, Houston, TX 77011",
+          "phone": "+17132288848",
+          "website": "https://wrksolutions.com/find-a-career-office",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "workforce-solutions-find-the-nearest-office",
-          "name": "Workforce Solutions — find the nearest office",
+          "title": "Workforce Solutions — find the nearest office",
+          "description": "Regional phone: 888-469-5627.\nHouston offices include: Acres Homes, Cypress Station, East End, Northeast, Northline, Southeast, Southwest, and Willowbrook. Use the directory to confirm the current address and phone.\nFind a Workforce Solutions office",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Regional phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "888-469-5627",
-                  "href": "tel:+18884695627"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Houston offices include:",
-                  "strong": true
-                },
-                {
-                  "text": " Acres Homes, Cypress Station, East End, Northeast, Northline, Southeast, Southwest, and Willowbrook. Use the directory to confirm the current address and phone."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Find a Workforce Solutions office",
-                  "href": "https://wrksolutions.com/find-a-career-office"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+18884695627",
+          "website": "https://wrksolutions.com/find-a-career-office",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "magnificat-guest-advancement-center",
-          "name": "Magnificat Guest Advancement Center",
+          "title": "Magnificat Guest Advancement Center",
+          "description": "Phone: 713-529-4231.\nServices: computers and internet for job searches, resume and interview support, digital skills, workforce readiness, benefits connections, and other stability resources.\nCall for access: services may be tied to intake, shelter, or Clubhouse participation.\nGuest Advancement Center",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 1410 Elgin Street, Houston, TX 77004"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "713-529-4231",
-                  "href": "tel:+17135294231"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Services:",
-                  "strong": true
-                },
-                {
-                  "text": " computers and internet for job searches, resume and interview support, digital skills, workforce readiness, benefits connections, and other stability resources."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Call for access:",
-                  "strong": true
-                },
-                {
-                  "text": " services may be tied to intake, shelter, or Clubhouse participation."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Guest Advancement Center",
-                  "href": "https://mhihouston.org/2025/08/magnificat-houses-inc-opens-new-guest-advancement-center-to-support-houstonians-transitioning-from-homelessness/page/15/"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 1410 Elgin Street, Houston, TX 77004",
+          "phone": "+17135294231",
+          "website": "https://mhihouston.org/2025/08/magnificat-houses-inc-opens-new-guest-advancement-center-to-support-houstonians-transitioning-from-homelessness/page/15/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "star-of-hope-career-and-education-programs",
-          "name": "Star of Hope career and education programs",
+          "title": "Star of Hope career and education programs",
+          "description": "Women and families: 713-222-2220; men: 713-227-8900.\nServices for residents: GED, resume building, job readiness, financial planning, life skills, and employment support. Ask whether any service is open to non-residents.\nStar of Hope career and education support",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Women and families:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "713-222-2220",
-                  "href": "tel:+17132222220"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "men:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "713-227-8900",
-                  "href": "tel:+17132278900"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Services for residents:",
-                  "strong": true
-                },
-                {
-                  "text": " GED, resume building, job readiness, financial planning, life skills, and employment support. Ask whether any service is open to non-residents."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Star of Hope career and education support",
-                  "href": "https://www.sohmission.org/how-we-help/for-women-and-single-families/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+17132222220",
+          "website": "https://www.sohmission.org/how-we-help/for-women-and-single-families/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "workintexas",
-          "name": "WorkInTexas",
+          "title": "WorkInTexas",
+          "description": "Service: official Texas job-search and workforce portal. Workforce Solutions staff can help create an account, search jobs, and prepare applications.\nJob-scam warning: do not pay for an interview, check, gift cards, equipment, or a promised position. Verify the employer and written pay terms.\nWorkInTexas",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Service:",
-                  "strong": true
-                },
-                {
-                  "text": " official Texas job-search and workforce portal. Workforce Solutions staff can help create an account, search jobs, and prepare applications."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Job-scam warning:",
-                  "strong": true
-                },
-                {
-                  "text": " do not pay for an interview, check, gift cards, equipment, or a promised position. Verify the employer and written pay terms."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "WorkInTexas",
-                  "href": "https://www.workintexas.com/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.workintexas.com/",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
+    },
+    {
+      "id": "legal",
+      "title": "Legal aid",
+      "entries": []
     },
     {
       "id": "documents",
-      "title": "8. Identification, legal help, and court",
-      "items": [
+      "title": "Identification, legal help, and court",
+      "entries": [
         {
-          "type": "resource",
           "id": "operation-id-referral-based-document-help",
-          "name": "Operation ID — referral-based document help",
+          "title": "Operation ID — referral-based document help",
+          "description": "Phone: 281-833-3500.\nService: helps gather supporting documents, complete forms, and cover costs for Texas ID and birth certificates from any U.S. state, territory, or military birth abroad.\nReferral required: no walk-ins or self-referrals. Ask your case manager at a partner agency such as The Beacon, SEARCH, or a shelter to submit a referral.\nOperation ID — eligibility and process",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Organization:",
-                  "strong": true
-                },
-                {
-                  "text": " Main Street Ministries, 5100 Travis Street, Houston, TX 77002"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "281-833-3500",
-                  "href": "tel:+12818333500"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Service:",
-                  "strong": true
-                },
-                {
-                  "text": " helps gather supporting documents, complete forms, and cover costs for Texas ID and birth certificates from any U.S. state, territory, or military birth abroad."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Referral required:",
-                  "strong": true
-                },
-                {
-                  "text": " no walk-ins or self-referrals. Ask your case manager at a partner agency such as The Beacon, SEARCH, or a shelter to submit a referral."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Operation ID — eligibility and process",
-                  "href": "https://msmhouston.org/operation-id/"
-                }
-              ]
-            }
-          ]
+          "address": "Organization: Main Street Ministries, 5100 Travis Street, Houston, TX 77002",
+          "phone": "+12818333500",
+          "website": "https://msmhouston.org/operation-id/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "beacon-law-legal-help-for-people-experiencing-homelessness",
-          "name": "Beacon Law — legal help for people experiencing homelessness",
+          "title": "Beacon Law — legal help for people experiencing homelessness",
+          "description": "Published intake: Friday; sign up when doors open at 7 a.m.; first 25 people. A partner case manager can also submit an application.\nCases may include: ID restoration, driver's-license holds, immigration-document replacement, name changes for ID, record clearing, Social Security appeals, and limited eviction help.\nBeacon Law",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Sign-up:",
-                  "strong": true
-                },
-                {
-                  "text": " The Beacon, 1212 Prairie Street"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Published intake:",
-                  "strong": true
-                },
-                {
-                  "text": " Friday; sign up when doors open at 7 a.m.; first 25 people. A partner case manager can also submit an application."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Cases may include:",
-                  "strong": true
-                },
-                {
-                  "text": " ID restoration, driver's-license holds, immigration-document replacement, name changes for ID, record clearing, Social Security appeals, and limited eviction help."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Beacon Law",
-                  "href": "https://www.beaconhomeless.org/beaconlaw"
-                }
-              ]
-            }
-          ]
+          "address": "Sign-up: The Beacon, 1212 Prairie Street",
+          "phone": "",
+          "website": "https://www.beaconhomeless.org/beaconlaw",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "city-of-houston-birth-certificates",
-          "name": "City of Houston birth certificates",
+          "title": "City of Houston birth certificates",
+          "description": "Phone: 832-393-4220.\nPublished walk-in hours: Monday–Thursday, 8 a.m.–4 p.m.; arrive by 3 p.m. Capacity may close the line early. Fees and qualified-applicant rules apply.\nIf you lack money or supporting ID: ask a case manager for Operation ID or Beacon Law referral before paying an intermediary.\nHouston Vital Statistics",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " Bureau of Vital Statistics, 8000 North Stadium Drive, Houston, TX 77054"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "832-393-4220",
-                  "href": "tel:+18323934220"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Published walk-in hours:",
-                  "strong": true
-                },
-                {
-                  "text": " Monday–Thursday, 8 a.m.–4 p.m.; arrive by 3 p.m. Capacity may close the line early. Fees and qualified-applicant rules apply."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "If you lack money or supporting ID:",
-                  "strong": true
-                },
-                {
-                  "text": " ask a case manager for Operation ID or Beacon Law referral before paying an intermediary."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Houston Vital Statistics",
-                  "href": "https://www.houstontx.gov/health/BirthCert/index.html"
-                }
-              ]
-            }
-          ]
+          "address": "Address: Bureau of Vital Statistics, 8000 North Stadium Drive, Houston, TX 77054",
+          "phone": "+18323934220",
+          "website": "https://www.houstontx.gov/health/BirthCert/index.html",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "texas-state-id-or-driver-s-license",
-          "name": "Texas state ID or driver's license",
+          "title": "Texas state ID or driver's license",
+          "description": "Service: Texas Department of Public Safety offices issue identification. Requirements depend on citizenship or lawful presence, identity, Social Security number, and Texas residency.\nBefore going: use Operation ID, Beacon Law, Lord of the Streets, SEARCH, or YARC to determine which documents and address letter are accepted. Operation ID funding does not replace the required DPS visit.\nTexas DPS — apply for an ID card",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Service:",
-                  "strong": true
-                },
-                {
-                  "text": " Texas Department of Public Safety offices issue identification. Requirements depend on citizenship or lawful presence, identity, Social Security number, and Texas residency."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Before going:",
-                  "strong": true
-                },
-                {
-                  "text": " use Operation ID, Beacon Law, Lord of the Streets, SEARCH, or YARC to determine which documents and address letter are accepted. Operation ID funding does not replace the required DPS visit."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Texas DPS — apply for an ID card",
-                  "href": "https://www.dps.texas.gov/section/driver-license/how-apply-texas-identification-card"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.dps.texas.gov/section/driver-license/how-apply-texas-identification-card",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "lone-star-legal-aid",
-          "name": "Lone Star Legal Aid",
+          "title": "Lone Star Legal Aid",
+          "description": "Phone: 713-652-0077 or 800-733-8394.\nService: civil legal help for eligible low-income clients. It does not handle criminal defense. Call or apply online and describe deadlines, notices, eviction dates, benefits, family safety, or disaster issues.\nLone Star Legal Aid — get help",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Houston office:",
-                  "strong": true
-                },
-                {
-                  "text": " 1415 Fannin Street, Houston, TX 77002"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "713-652-0077",
-                  "href": "tel:+17136520077"
-                },
-                {
-                  "text": " or "
-                },
-                {
-                  "text": "800-733-8394",
-                  "href": "tel:+18007338394"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Service:",
-                  "strong": true
-                },
-                {
-                  "text": " civil legal help for eligible low-income clients. It does not handle criminal defense. Call or apply online and describe deadlines, notices, eviction dates, benefits, family safety, or disaster issues."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Lone Star Legal Aid — get help",
-                  "href": "https://www.lonestarlegal.org/get-help/"
-                }
-              ]
-            }
-          ]
+          "address": "Houston office: 1415 Fannin Street, Houston, TX 77002",
+          "phone": "+17136520077",
+          "website": "https://www.lonestarlegal.org/get-help/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "houston-homeless-court",
-          "name": "Houston Homeless Court",
+          "title": "Houston Homeless Court",
+          "description": "How to enter: ask a participating homeless-service provider to sign you up; individuals do not enroll directly at a regular payment window.\nService: resolves eligible City of Houston misdemeanor offenses and warrants through alternatives to payment, including service-program activities, recovery meetings, computer classes, or job training.\nCourt information: 713-837-0311.\nCity of Houston Homeless Court",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "How to enter:",
-                  "strong": true
-                },
-                {
-                  "text": " ask a participating homeless-service provider to sign you up; individuals do not enroll directly at a regular payment window."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Service:",
-                  "strong": true
-                },
-                {
-                  "text": " resolves eligible City of Houston misdemeanor offenses and warrants through alternatives to payment, including service-program activities, recovery meetings, computer classes, or job training."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Court information:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "713-837-0311",
-                  "href": "tel:+17138370311"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "City of Houston Homeless Court",
-                  "href": "https://www.houstontx.gov/courts/homeless-court.html"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+17138370311",
+          "website": "https://www.houstontx.gov/courts/homeless-court.html",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "mailing-address-and-homeless-letter",
-          "name": "Mailing address and homeless letter",
+          "title": "Mailing address and homeless letter",
+          "description": "Phone: 713-526-0311.\nServices: mailing address, mail pickup with valid ID, homeless letter, free notary, ID or birth-certificate referral, and local phone use.\nEnroll before using the address. Ask exactly how your name must appear and when mail can be collected.\nLord of the Streets social services",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Lord of the Streets:",
-                  "strong": true
-                },
-                {
-                  "text": " 3401 Fannin Street, Houston, TX 77004"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "713-526-0311",
-                  "href": "tel:+17135260311"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Services:",
-                  "strong": true
-                },
-                {
-                  "text": " mailing address, mail pickup with valid ID, homeless letter, free notary, ID or birth-certificate referral, and local phone use."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Enroll before using the address.",
-                  "strong": true
-                },
-                {
-                  "text": " Ask exactly how your name must appear and when mail can be collected."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Lord of the Streets social services",
-                  "href": "https://www.lotshouston.org/contact-us.html"
-                }
-              ]
-            }
-          ]
+          "address": "Lord of the Streets: 3401 Fannin Street, Houston, TX 77004",
+          "phone": "+17135260311",
+          "website": "https://www.lotshouston.org/contact-us.html",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
+    },
+    {
+      "id": "mail",
+      "title": "Mailing address",
+      "entries": []
+    },
+    {
+      "id": "storage",
+      "title": "Storage",
+      "entries": []
     },
     {
       "id": "safety",
-      "title": "9. Women, families, youth, LGBTQ+, immigrants, and veterans",
-      "items": [
+      "title": "Women, families, youth, LGBTQ+, immigrants, and veterans",
+      "entries": [
         {
-          "type": "resource",
           "id": "houston-area-women-s-center",
-          "name": "Houston Area Women's Center",
+          "title": "Houston Area Women's Center",
+          "description": "Domestic-violence hotline: 713-528-2121 or 800-256-0551; sexual-assault hotline: 713-528-7273 or 800-256-0661.\nAvailable 24 hours: confidential safety planning, crisis support, and information about emergency shelter. Services are for survivors; call 911 for immediate danger.\nHAWC crisis contacts",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Domestic-violence hotline:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "713-528-2121",
-                  "href": "tel:+17135282121"
-                },
-                {
-                  "text": " or "
-                },
-                {
-                  "text": "800-256-0551",
-                  "href": "tel:+18002560551"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "sexual-assault hotline:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "713-528-7273",
-                  "href": "tel:+17135287273"
-                },
-                {
-                  "text": " or "
-                },
-                {
-                  "text": "800-256-0661",
-                  "href": "tel:+18002560661"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Available 24 hours:",
-                  "strong": true
-                },
-                {
-                  "text": " confidential safety planning, crisis support, and information about emergency shelter. Services are for survivors; call 911 for immediate danger."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "HAWC crisis contacts",
-                  "href": "https://hawc.org/contact/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+17135282121",
+          "website": "https://hawc.org/contact/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "mission-of-yahweh-women-and-children",
-          "name": "Mission of Yahweh — women and children",
+          "title": "Mission of Yahweh — women and children",
+          "description": "Phone: 713-466-4785, extension 100.\nService: emergency and transitional housing for women and children. Call for interview, capacity, child-age rules, and required documents; do not arrive expecting a guaranteed walk-in bed.\nMission of Yahweh",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 10247 Algiers Road, Houston, TX 77041"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "713-466-4785",
-                  "href": "tel:+17134664785"
-                },
-                {
-                  "text": ", extension 100."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Service:",
-                  "strong": true
-                },
-                {
-                  "text": " emergency and transitional housing for women and children. Call for interview, capacity, child-age rules, and required documents; do not arrive expecting a guaranteed walk-in bed."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Mission of Yahweh",
-                  "href": "https://missionofyahweh.org/"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 10247 Algiers Road, Houston, TX 77041",
+          "phone": "+17134664785",
+          "website": "https://missionofyahweh.org/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "covenant-house-texas-ages-18-24",
-          "name": "Covenant House Texas — ages 18–24",
+          "title": "Covenant House Texas — ages 18–24",
+          "description": "Phone: 713-523-2231; open 24 hours.\nService: free walk-in emergency shelter and drop-in support. The campus is LGBTQ+-affirming and has programs for pregnant young people and young parents with small children.\nCovenant House Texas",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 1111 Lovett Boulevard, Houston, TX 77006"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "713-523-2231",
-                  "href": "tel:+17135232231"
-                },
-                {
-                  "text": "; open 24 hours."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Service:",
-                  "strong": true
-                },
-                {
-                  "text": " free walk-in emergency shelter and drop-in support. The campus is LGBTQ+-affirming and has programs for pregnant young people and young parents with small children."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Covenant House Texas",
-                  "href": "https://www.covenanthouse.org/homeless-shelters/houston-texas"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 1111 Lovett Boulevard, Houston, TX 77006",
+          "phone": "+17135232231",
+          "website": "https://www.covenanthouse.org/homeless-shelters/houston-texas",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "asia-s-house-emergency-shelter-for-ages-15-17",
-          "name": "Asia's House — emergency shelter for ages 15–17",
+          "title": "Asia's House — emergency shelter for ages 15–17",
+          "description": "24-hour phone: 713-485-5520.\nService: voluntary, temporary emergency shelter for runaway or homeless youth ages 15–17 of all sexualities and gender identities, with case management and mental-health support. The shelter location is confidential.\nNo adult referral or signature is required to ask for entry. Call the 24-hour line or connect at a Grace Place Youth Night.\nAsia's House — Grace Place",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "24-hour phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "713-485-5520",
-                  "href": "tel:+17134855520"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Service:",
-                  "strong": true
-                },
-                {
-                  "text": " voluntary, temporary emergency shelter for runaway or homeless youth ages 15–17 of all sexualities and gender identities, with case management and mental-health support. The shelter location is confidential."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "No adult referral or signature is required to ask for entry.",
-                  "strong": true
-                },
-                {
-                  "text": " Call the 24-hour line or connect at a Grace Place Youth Night."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Asia's House — Grace Place",
-                  "href": "https://www.montrosegraceplace.org/asias-house.html"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+17134855520",
+          "website": "https://www.montrosegraceplace.org/asias-house.html",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "grace-place-youth-nights-ages-13-24",
-          "name": "Grace Place Youth Nights — ages 13–24",
+          "title": "Grace Place Youth Nights — ages 13–24",
+          "description": "Call or text: 832-239-0824.\nPublished time: Monday, Wednesday, and Thursday at 6 p.m. No appointment is needed for food, hygiene items, and support for youth experiencing homelessness or housing instability.\nGrace Place — get help",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Location:",
-                  "strong": true
-                },
-                {
-                  "text": " Living Mosaic Church, 2515 Waugh Drive, Houston, TX 77006"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Call or text:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "832-239-0824",
-                  "href": "tel:+18322390824"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Published time:",
-                  "strong": true
-                },
-                {
-                  "text": " Monday, Wednesday, and Thursday at 6 p.m. No appointment is needed for food, hygiene items, and support for youth experiencing homelessness or housing instability."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Grace Place — get help",
-                  "href": "https://www.montrosegraceplace.org/get-help.html"
-                }
-              ]
-            }
-          ]
+          "address": "Location: Living Mosaic Church, 2515 Waugh Drive, Houston, TX 77006",
+          "phone": "+18322390824",
+          "website": "https://www.montrosegraceplace.org/get-help.html",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "tony-s-place-lgbtq-young-people-under-25",
-          "name": "Tony's Place — LGBTQ+ young people under 25",
+          "title": "Tony's Place — LGBTQ+ young people under 25",
+          "description": "Call or text: 713-678-0733; email: info@tonysplace.org. — mailto:info@tonysplace.org\nServices: case management, basic needs, support, groups, and a safe drop-in environment. The public street address is not posted; contact staff for location and current entry instructions.\nPublished drop-in: Monday–Friday, noon–2 p.m.; case management by appointment.\nTony's Place — get help",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Call or text:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "713-678-0733",
-                  "href": "tel:+17136780733"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "email:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "info@tonysplace.org",
-                  "href": "mailto:info@tonysplace.org"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Services:",
-                  "strong": true
-                },
-                {
-                  "text": " case management, basic needs, support, groups, and a safe drop-in environment. The public street address is not posted; contact staff for location and current entry instructions."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Published drop-in:",
-                  "strong": true
-                },
-                {
-                  "text": " Monday–Friday, noon–2 p.m.; case management by appointment."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Tony's Place — get help",
-                  "href": "https://tonysplace.org/get-help"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+17136780733",
+          "website": "https://tonysplace.org/get-help",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "the-montrose-center",
-          "name": "The Montrose Center",
+          "title": "The Montrose Center",
+          "description": "Main phone: 713-529-0037; 24-hour sexual-assault helpline: 713-529-3211.\nServices: LGBTQ+-affirming counseling, case management, anti-violence help, HIV testing, recovery support, gender services, youth programs, and community referrals.\nMontrose Center services",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 401 Branard Street, Houston, TX 77006"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Main phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "713-529-0037",
-                  "href": "tel:+17135290037"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "24-hour sexual-assault helpline:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "713-529-3211",
-                  "href": "tel:+17135293211"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Services:",
-                  "strong": true
-                },
-                {
-                  "text": " LGBTQ+-affirming counseling, case management, anti-violence help, HIV testing, recovery support, gender services, youth programs, and community referrals."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Montrose Center services",
-                  "href": "https://montrosecenter.org/bh/"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 401 Branard Street, Houston, TX 77006",
+          "phone": "+17135290037",
+          "website": "https://montrosecenter.org/bh/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "st-frances-cabrini-center-immigration-legal-help",
-          "name": "St. Frances Cabrini Center — immigration legal help",
+          "title": "St. Frances Cabrini Center — immigration legal help",
+          "description": "Phone: 713-595-4100; immigrant-rights hotline: 833-468-4664.\nService: free or low-cost immigration assessment, representation, citizenship help, services for crime victims, asylum seekers, immigrants, and refugees.\nFraud warning: do not pay a notario for legal representation. Confirm the provider is an attorney or DOJ-accredited representative.\nCabrini Center",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 5599 San Felipe Street, Suite 300, Houston, TX 77056"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "713-595-4100",
-                  "href": "tel:+17135954100"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "immigrant-rights hotline:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "833-468-4664",
-                  "href": "tel:+18334684664"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Service:",
-                  "strong": true
-                },
-                {
-                  "text": " free or low-cost immigration assessment, representation, citizenship help, services for crime victims, asylum seekers, immigrants, and refugees."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Fraud warning:",
-                  "strong": true
-                },
-                {
-                  "text": " do not pay a notario for legal representation. Confirm the provider is an attorney or DOJ-accredited representative."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Cabrini Center",
-                  "href": "https://catholiccharities.org/cabrini/"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 5599 San Felipe Street, Suite 300, Houston, TX 77056",
+          "phone": "+17135954100",
+          "website": "https://catholiccharities.org/cabrini/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "catholic-charities-food-housing-refugee-and-family-referrals",
-          "name": "Catholic Charities — food, housing, refugee, and family referrals",
+          "title": "Catholic Charities — food, housing, refugee, and family referrals",
+          "description": "Main phone: 713-526-4611; Monday–Friday, 8 a.m.–5 p.m.\nPrograms include: food, housing or utility assistance, counseling, pregnancy and parenting, refugee services, employment, immigration legal help, and veteran services. Many services require phone or email appointment.\nCatholic Charities — program contacts",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 2900 Louisiana Street, Houston, TX 77006"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Main phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "713-526-4611",
-                  "href": "tel:+17135264611"
-                },
-                {
-                  "text": "; Monday–Friday, 8 a.m.–5 p.m."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Programs include:",
-                  "strong": true
-                },
-                {
-                  "text": " food, housing or utility assistance, counseling, pregnancy and parenting, refugee services, employment, immigration legal help, and veteran services. Many services require phone or email appointment."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Catholic Charities — program contacts",
-                  "href": "https://catholiccharities.org/contact-us/"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 2900 Louisiana Street, Houston, TX 77006",
+          "phone": "+17135264611",
+          "website": "https://catholiccharities.org/contact-us/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "va-houston-homeless-veterans",
-          "name": "VA Houston — homeless veterans",
+          "title": "VA Houston — homeless veterans",
+          "description": "National hotline: 877-424-3838, 24 hours.\nServices: assessment, emergency or transitional housing referral, HUD-VASH screening, health and mental-health care, substance-use treatment, benefits, employment, and case management.\nBring any military information you have, but call even if documents are lost.\nVA Houston homeless-veteran care",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "CRRC:",
-                  "strong": true
-                },
-                {
-                  "text": " 1700 Webster Street, Houston, TX 77003"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "National hotline:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "877-424-3838",
-                  "href": "tel:+18774243838"
-                },
-                {
-                  "text": ", 24 hours."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Services:",
-                  "strong": true
-                },
-                {
-                  "text": " assessment, emergency or transitional housing referral, HUD-VASH screening, health and mental-health care, substance-use treatment, benefits, employment, and case management."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Bring any military information you have, but call even if documents are lost.",
-                  "strong": true
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "VA Houston homeless-veteran care",
-                  "href": "https://www.va.gov/houston-health-care/health-services/homeless-veteran-care/"
-                }
-              ]
-            }
-          ]
+          "address": "CRRC: 1700 Webster Street, Houston, TX 77003",
+          "phone": "+18774243838",
+          "website": "https://www.va.gov/houston-health-care/health-services/homeless-veteran-care/",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
+    },
+    {
+      "id": "specialist-support",
+      "title": "Specialist support",
+      "entries": []
+    },
+    {
+      "id": "veterans",
+      "title": "Veterans support",
+      "entries": []
     },
     {
       "id": "pets",
-      "title": "10. Help with animals",
-      "items": [
+      "title": "Help with animals",
+      "entries": [
         {
-          "type": "resource",
           "id": "barc-low-cost-wellness-center",
-          "name": "BARC Low-Cost Wellness Center",
+          "title": "BARC Low-Cost Wellness Center",
+          "description": "Phone: 832-395-9084; appointments are required.\nServices: low-cost microchips, core vaccines, heartworm testing, flea and tick prevention, and wellness packages. It is not a full-service clinic and cannot treat an owned sick or injured pet.\nBARC Wellness Center",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 3200 Carr Street, Houston, TX 77026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "832-395-9084",
-                  "href": "tel:+18323959084"
-                },
-                {
-                  "text": "; appointments are required."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Services:",
-                  "strong": true
-                },
-                {
-                  "text": " low-cost microchips, core vaccines, heartworm testing, flea and tick prevention, and wellness packages. It is not a full-service clinic and cannot treat an owned sick or injured pet."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "BARC Wellness Center",
-                  "href": "https://www.houstontx.gov/barc/wellnesscenter.html"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 3200 Carr Street, Houston, TX 77026",
+          "phone": "+18323959084",
+          "website": "https://www.houstontx.gov/barc/wellnesscenter.html",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "barc-surrender-and-low-cost-referrals",
-          "name": "BARC surrender and low-cost referrals",
+          "title": "BARC surrender and low-cost referrals",
+          "description": "Service: pet surrender is appointment-based. BARC also lists low-cost spay and neuter partners; free assistance may be available through partner campaigns.\nBefore surrendering: ask 211, the shelter, and BARC about temporary foster, pet food, veterinary assistance, or a pet-safe placement. Capacity changes daily.\nBARC frequently asked questions",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Service:",
-                  "strong": true
-                },
-                {
-                  "text": " pet surrender is appointment-based. BARC also lists low-cost spay and neuter partners; free assistance may be available through partner campaigns."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Before surrendering:",
-                  "strong": true
-                },
-                {
-                  "text": " ask 211, the shelter, and BARC about temporary foster, pet food, veterinary assistance, or a pet-safe placement. Capacity changes daily."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "BARC frequently asked questions",
-                  "href": "https://www.houstontx.gov/barc/BARC_FAQ.html"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.houstontx.gov/barc/BARC_FAQ.html",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "pet-and-shelter-intake",
-          "name": "Pet and shelter intake",
+          "title": "Pet and shelter intake",
+          "description": "Tell the worker before accepting placement: species, size, temperament, vaccination status, carrier or leash, and medical needs.\nImportant: the Houston shelter directory does not guarantee that general shelters accept animals. Ask about a pet-friendly option or temporary care before traveling; do not abandon an animal to enter shelter.\nCoalition shelter and service directory",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Tell the worker before accepting placement:",
-                  "strong": true
-                },
-                {
-                  "text": " species, size, temperament, vaccination status, carrier or leash, and medical needs."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Important:",
-                  "strong": true
-                },
-                {
-                  "text": " the Houston shelter directory does not guarantee that general shelters accept animals. Ask about a pet-friendly option or temporary care before traveling; do not abandon an animal to enter shelter."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Coalition shelter and service directory",
-                  "href": "https://www.cfthhouston.org/gethelp"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.cfthhouston.org/gethelp",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
-      "id": "verification-and-corrections",
+      "id": "other",
       "title": "Verification and corrections",
-      "items": [
+      "entries": [
         {
-          "type": "paragraph",
-          "content": [
-            {
-              "text": "This page was verified on November 11, 2026 using the Coalition for the Homeless of Houston/Harris County, City of Houston, Harris Health, Texas Health and Human Services, U.S. Department of Veterans Affairs, and direct provider pages. Call first because daily capacity and intake rules change. If a service has closed or a detail is wrong, see "
-            },
-            {
-              "text": "how to submit a correction",
-              "href": "../../CONTRIBUTING.md"
-            },
-            {
-              "text": "."
-            }
-          ]
+          "id": "verification-and-corrections-information",
+          "title": "Verification and corrections",
+          "description": "This page was verified on November 11, 2026 using the Coalition for the Homeless of Houston/Harris County, City of Houston, Harris Health, Texas Health and Human Services, U.S. Department of Veterans Affairs, and direct provider pages. Call first because daily capacity and intake rules change. If a service has closed or a detail is wrong, see how to submit a correction. — ../../CONTRIBUTING.md",
+          "last_verified": "2026-11-11",
+          "address": "",
+          "phone": "",
+          "website": "",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     }

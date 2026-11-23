@@ -1,7 +1,4 @@
-import path from "node:path";
 import {
-  ROOT,
-  inlineText,
   loadCityData,
   readLocations,
 } from "./lib/city-data.mjs";
@@ -10,27 +7,15 @@ const checkExternal = process.argv.includes("--external-links");
 const records = await loadCityData();
 const locations = await readLocations();
 const failures = [];
-const warnings = [];
 const urls = new Set();
 let resources = 0;
 let categories = 0;
 let telephoneLinks = 0;
 
-function visitInline(inline, context) {
-  if (typeof inline === "string") return;
-  for (const segment of inline ?? []) {
-    if (!segment.href) continue;
-    if (/^https?:\/\//i.test(segment.href)) urls.add(segment.href);
-    if (/^tel:/i.test(segment.href)) {
-      telephoneLinks += 1;
-      if (!/^tel:(?:%23|[+*#0-9])[0-9*#%(). -]*$/i.test(segment.href)) failures.push(`${context}: invalid telephone link ${segment.href}`);
-    }
+function collectUrls(value = "") {
+  for (const match of value.matchAll(/https?:\/\/[^\s]+/gi)) {
+    urls.add(match[0].replace(/[),.;]+$/, ""));
   }
-}
-
-function visitBlock(block, context) {
-  if (block.content) visitInline(block.content, context);
-  for (const item of block.items ?? []) visitInline(item, context);
 }
 
 const published = records.filter((record) => record.data.status === "published");
@@ -46,25 +31,25 @@ for (const record of published) {
     if (primaryCityPaths.has(cityPath)) failures.push(`${record.relativeFile}: another primary language file exists at ${primaryCityPaths.get(cityPath)}`);
     primaryCityPaths.set(cityPath, record.relativeFile);
   }
-  const categoryIds = new Set();
-  for (const block of city.page.urgent) visitBlock(block, `${record.relativeFile}: urgent`);
-  visitInline(city.page.notice, `${record.relativeFile}: notice`);
-  for (const block of city.page.intro) visitBlock(block, `${record.relativeFile}: intro`);
+
+  collectUrls(city.page.urgent);
+  collectUrls(city.page.notice);
+  collectUrls(city.page.intro);
+  collectUrls(city.page.footer);
   for (const category of city.categories) {
+    if (!category.entries.length) continue;
     categories += 1;
-    if (categoryIds.has(category.id)) failures.push(`${record.relativeFile}: duplicate category ${category.id}`);
-    categoryIds.add(category.id);
-    const resourceIds = new Set();
-    for (const item of category.items) {
-      if (item.type === "resource") {
-        resources += 1;
-        if (resourceIds.has(item.id)) failures.push(`${record.relativeFile}: duplicate resource ${item.id}`);
-        resourceIds.add(item.id);
-        if (!item.blocks.length) warnings.push(`${record.relativeFile}: ${item.id} has no detail blocks`);
-        for (const block of item.blocks) visitBlock(block, `${record.relativeFile}: ${item.id}`);
-      } else {
-        visitBlock(item, `${record.relativeFile}: ${category.id}`);
-      }
+    const entryIds = new Set();
+    for (const entry of category.entries) {
+      resources += 1;
+      if (entryIds.has(entry.id)) failures.push(`${record.relativeFile}: duplicate entry ${category.id}/${entry.id}`);
+      entryIds.add(entry.id);
+      if (entry.phone) telephoneLinks += 1;
+      if (entry.website) urls.add(entry.website);
+      collectUrls(entry.description);
+      collectUrls(entry.address);
+      collectUrls(entry.hours);
+      collectUrls(entry.how_to_access);
     }
   }
 }
@@ -104,7 +89,6 @@ if (checkExternal) {
   await Promise.all(workers);
 }
 
-if (warnings.length) process.stderr.write(`Warnings:\n${warnings.join("\n")}\n`);
 if (failures.length) {
   process.stderr.write(`Failures:\n${failures.join("\n")}\n`);
   process.exit(1);
@@ -120,4 +104,3 @@ process.stdout.write(`${JSON.stringify({
   csvVerifiedCities: csvVerified.size,
   externalLinksChecked: checkExternal ? urls.size : 0,
 }, null, 2)}\n`);
-    const resourceIds = new Set();

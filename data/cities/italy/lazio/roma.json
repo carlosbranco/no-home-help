@@ -1,6 +1,7 @@
 {
   "$schema": "https://nohomehelp.com/schemas/city.schema.json",
-  "schema_version": 1,
+  "documentation": "https://github.com/carlosbranco/no-home-help/blob/main/EDIT_CITY_JSON.md",
+  "schema_version": 2,
   "status": "published",
   "locale": {
     "language": "it",
@@ -26,3937 +27,1069 @@
   "page": {
     "heading": "Roma — aiuto per persone senza dimora",
     "last_verified": "2026-11-12",
-    "urgent": [
-      {
-        "type": "paragraph",
-        "content": [
-          {
-            "text": "Emergenza immediata:",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "112",
-            "href": "tel:112"
-          },
-          {
-            "break": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "Accoglienza e persona in strada:",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "800 440 022",
-            "href": "tel:800440022"
-          },
-          {
-            "text": ", gratuito, 24 ore su 24"
-          },
-          {
-            "break": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "Cure non urgenti:",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "116117",
-            "href": "tel:116117"
-          },
-          {
-            "break": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "Violenza e stalking:",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "1522",
-            "href": "tel:1522"
-          },
-          {
-            "text": "; "
-          },
-          {
-            "text": "minore in pericolo:",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "114",
-            "href": "tel:114"
-          }
-        ]
-      }
-    ],
-    "notice": [
-      {
-        "text": "Posti, orari, documenti e criteri possono cambiare.",
-        "strong": true
-      },
-      {
-        "text": " Telefona prima di spostarti, quando possibile. Nessuna voce garantisce un letto, un pasto, una visita, un contributo o un lavoro nella stessa giornata."
-      }
-    ],
-    "intro": [
-      {
-        "type": "paragraph",
-        "content": [
-          {
-            "text": "Se non hai un posto sicuro per stanotte, chiama prima la Sala Operativa Sociale. Comunica posizione, età, condizioni di salute e se ci sono minori, gravidanza, disabilità, violenza o animali. L'operatore può inviare un'unità di strada o verificare la rete di accoglienza; presentarsi direttamente a un dormitorio non garantisce l'ingresso."
-          }
-        ]
-      }
-    ],
-    "footer": [
-      {
-        "type": "paragraph",
-        "content": [
-          {
-            "text": "No Home Help",
-            "strong": true
-          },
-          {
-            "text": " — informazioni pratiche, gratuite e senza tracciamento."
-          }
-        ]
-      }
-    ]
+    "urgent": "Emergenza immediata: 112 Accoglienza e persona in strada: 800 440 022, gratuito, 24 ore su 24 Cure non urgenti: 116117 Violenza e stalking: 1522; minore in pericolo: 114",
+    "notice": "Posti, orari, documenti e criteri possono cambiare. Telefona prima di spostarti, quando possibile. Nessuna voce garantisce un letto, un pasto, una visita, un contributo o un lavoro nella stessa giornata.",
+    "intro": "Se non hai un posto sicuro per stanotte, chiama prima la Sala Operativa Sociale. Comunica posizione, età, condizioni di salute e se ci sono minori, gravidanza, disabilità, violenza o animali. L'operatore può inviare un'unità di strada o verificare la rete di accoglienza; presentarsi direttamente a un dormitorio non garantisce l'ingresso.",
+    "footer": "No Home Help — informazioni pratiche, gratuite e senza tracciamento."
   },
   "categories": [
     {
-      "id": "emergenze",
-      "title": "1. Emergenze e primo accesso",
-      "items": [
+      "id": "emergency",
+      "title": "Emergenze e primo accesso",
+      "entries": [
         {
-          "type": "resource",
           "id": "112-emergenza-immediata",
-          "name": "112 — emergenza immediata",
+          "title": "112 — emergenza immediata",
+          "description": "Numero gratuito: 112, 24 ore su 24.\nChiama per pericolo di vita, violenza in corso, grave malore, overdose, incendio o persona incosciente. Indica subito la posizione esatta e segui le istruzioni dell'operatore.\nMinistero dell'Interno — numeri di emergenza",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Numero gratuito:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "112",
-                  "href": "tel:112"
-                },
-                {
-                  "text": ", 24 ore su 24."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Chiama per pericolo di vita, violenza in corso, grave malore, overdose, incendio o persona incosciente. Indica subito la posizione esatta e segui le istruzioni dell'operatore."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ministero dell'Interno — numeri di emergenza",
-                  "href": "https://www.interno.gov.it/it/numeri-utili"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "112",
+          "website": "https://www.interno.gov.it/it/numeri-utili",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "sala-operativa-sociale-sos",
-          "name": "Sala Operativa Sociale — SOS",
+          "title": "Sala Operativa Sociale — SOS",
+          "description": "Numero verde gratuito: 800 440 022, tutti i giorni, 24 ore su 24.\nÈ la porta comunale per emergenze sociali, persone in strada e accesso alla rete di accoglienza. Non richiede requisiti formali. Può attivare unità mobili con educatori, psicologi e assistenti sociali, ma la chiamata non garantisce un posto letto.\nComunica via e civico o un punto riconoscibile, condizioni della persona e bisogni urgenti. Il servizio è accessibile alle persone sorde anche tramite l'app Pedius.\nRoma Capitale — Sala Operativa Sociale · come accedere — https://www.comune.roma.it/web/it/scheda-servizi.page?contentId=INF38628&pagina=4",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Numero verde gratuito:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "800 440 022",
-                  "href": "tel:800440022"
-                },
-                {
-                  "text": ", tutti i giorni, 24 ore su 24."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "È la porta comunale per emergenze sociali, persone in strada e accesso alla rete di accoglienza. Non richiede requisiti formali. Può attivare unità mobili con educatori, psicologi e assistenti sociali, ma la chiamata non garantisce un posto letto."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Comunica via e civico o un punto riconoscibile, condizioni della persona e bisogni urgenti. Il servizio è accessibile alle persone sorde anche tramite l'app Pedius."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Roma Capitale — Sala Operativa Sociale",
-                  "href": "https://www.comune.roma.it/web/it/scheda-servizi.page?contentId=INF38628&stem=pover_dis_adulti_sen_dimora"
-                },
-                {
-                  "text": " · "
-                },
-                {
-                  "text": "come accedere",
-                  "href": "https://www.comune.roma.it/web/it/scheda-servizi.page?contentId=INF38628&pagina=4"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "800440022",
+          "website": "https://www.comune.roma.it/web/it/scheda-servizi.page?contentId=INF38628&stem=pover_dis_adulti_sen_dimora",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "116117-cure-non-urgenti",
-          "name": "116117 — cure non urgenti",
+          "title": "116117 — cure non urgenti",
+          "description": "Numero: 116117.\nPer orientamento sanitario e continuità assistenziale quando non serve un'ambulanza. L'operatore indica il servizio disponibile nella zona e nell'orario della chiamata. In pericolo immediato usa 112.\nSalute Lazio — 116117",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Numero:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "116117",
-                  "href": "tel:116117"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Per orientamento sanitario e continuità assistenziale quando non serve un'ambulanza. L'operatore indica il servizio disponibile nella zona e nell'orario della chiamata. In pericolo immediato usa 112."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Salute Lazio — 116117",
-                  "href": "https://salutelazio.it/it/servizi/116117-numero-unico-europeo-per-cure-non-urgenti"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "116117",
+          "website": "https://salutelazio.it/it/servizi/116117-numero-unico-europeo-per-cure-non-urgenti",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "060606-informazioni-di-roma-capitale",
-          "name": "060606 — informazioni di Roma Capitale",
+          "title": "060606 — informazioni di Roma Capitale",
+          "description": "Telefono: 06 06 06. — tel:+39060606\nChiedi il Municipio competente, anagrafe, Punto Unico di Accesso, servizi sociali, bagni pubblici o uffici. Non sostituisce il 112 o la Sala Operativa Sociale.\nRoma Capitale — Chiama Roma 060606",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "06 06 06",
-                  "href": "tel:+39060606"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Chiedi il Municipio competente, anagrafe, Punto Unico di Accesso, servizi sociali, bagni pubblici o uffici. Non sostituisce il 112 o la Sala Operativa Sociale."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Roma Capitale — Chiama Roma 060606",
-                  "href": "https://www.comune.roma.it/web/it/chiama-roma-060606.page"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+39060606",
+          "website": "https://www.comune.roma.it/web/it/chiama-roma-060606.page",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "freddo-o-caldo-estremo",
-          "name": "Freddo o caldo estremo",
+          "title": "Freddo o caldo estremo",
+          "description": "I posti e i servizi stagionali cambiano. Chiama 800 440 022 per sapere cosa è attivo quella notte e chiedere un'unità di strada. Non andare a una tensostruttura o a un centro stagionale senza confermare accesso e disponibilità.\nPer una persona confusa, incosciente, con difficoltà respiratoria o sintomi gravi chiama 112.\nRoma Capitale — assistenza sociale di emergenza",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "I posti e i servizi stagionali cambiano. Chiama "
-                },
-                {
-                  "text": "800 440 022",
-                  "href": "tel:800440022"
-                },
-                {
-                  "text": " per sapere cosa è attivo quella notte e chiedere un'unità di strada. Non andare a una tensostruttura o a un centro stagionale senza confermare accesso e disponibilità."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Per una persona confusa, incosciente, con difficoltà respiratoria o sintomi gravi chiama 112."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Roma Capitale — assistenza sociale di emergenza",
-                  "href": "https://www.comune.roma.it/web/it/scheda-servizi.page?contentId=INF38628&stem=pover_dis_adulti_sen_dimora"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "800440022",
+          "website": "https://www.comune.roma.it/web/it/scheda-servizi.page?contentId=INF38628&stem=pover_dis_adulti_sen_dimora",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
-      "id": "accoglienza",
-      "title": "2. Accoglienza e aiuto in strada",
-      "items": [
+      "id": "shelter",
+      "title": "Accoglienza e aiuto in strada",
+      "entries": [
         {
-          "type": "resource",
           "id": "ostello-don-luigi-di-liegro-caritas",
-          "name": "Ostello Don Luigi Di Liegro — Caritas",
+          "title": "Ostello Don Luigi Di Liegro — Caritas",
+          "description": "Telefono: 06 8881 5200 o 06 8881 5201; email: ostello@caritasroma.it. — mailto:ostello@caritasroma.it\nAccoglienza per uomini adulti con accompagnamento sociale. Chiedi prima alla Sala Operativa Sociale o alla Caritas come ottenere l'invio; l'indirizzo non equivale ad accesso libero e i posti sono limitati.\nCaritas Roma — strutture di accoglienza",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Indirizzo:",
-                  "strong": true
-                },
-                {
-                  "text": " via Marsala 109, Roma"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "06 8881 5200",
-                  "href": "tel:+390688815200"
-                },
-                {
-                  "text": " o "
-                },
-                {
-                  "text": "06 8881 5201",
-                  "href": "tel:+390688815201"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "email:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "ostello@caritasroma.it",
-                  "href": "mailto:ostello@caritasroma.it"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Accoglienza per uomini adulti con accompagnamento sociale. Chiedi prima alla Sala Operativa Sociale o alla Caritas come ottenere l'invio; l'indirizzo non equivale ad accesso libero e i posti sono limitati."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Caritas Roma — strutture di accoglienza",
-                  "href": "https://www.caritasroma.it/cosa-facciamo/accoglienza/"
-                }
-              ]
-            }
-          ]
+          "address": "Indirizzo: via Marsala 109, Roma",
+          "phone": "+390688815200",
+          "website": "https://www.caritasroma.it/cosa-facciamo/accoglienza/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "casa-santa-giacinta-caritas",
-          "name": "Casa Santa Giacinta — Caritas",
+          "title": "Casa Santa Giacinta — Caritas",
+          "description": "Telefono: 06 8881 5220.\nStruttura Caritas per donne adulte in difficoltà. L'ammissione dipende da valutazione, percorso e disponibilità: chiama prima o chiedi l'invio alla Sala Operativa Sociale.\nCaritas Roma — accoglienza",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Indirizzo:",
-                  "strong": true
-                },
-                {
-                  "text": " via Casilina Vecchia 19, Roma"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "06 8881 5220",
-                  "href": "tel:+390688815220"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Struttura Caritas per donne adulte in difficoltà. L'ammissione dipende da valutazione, percorso e disponibilità: chiama prima o chiedi l'invio alla Sala Operativa Sociale."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Caritas Roma — accoglienza",
-                  "href": "https://www.caritasroma.it/cosa-facciamo/accoglienza/"
-                }
-              ]
-            }
-          ]
+          "address": "Indirizzo: via Casilina Vecchia 19, Roma",
+          "phone": "+390688815220",
+          "website": "https://www.caritasroma.it/cosa-facciamo/accoglienza/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "centro-gabriele-castiglion-ostia",
-          "name": "Centro Gabriele Castiglion — Ostia",
+          "title": "Centro Gabriele Castiglion — Ostia",
+          "description": "Telefono: 06 5690 999.\nCentro Caritas sul litorale con accoglienza e accompagnamento. Telefona per destinatari, invio e posti; se sei in strada usa anche il numero SOS 800 440 022.\nCaritas Roma — Centro Gabriele Castiglion",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Indirizzo:",
-                  "strong": true
-                },
-                {
-                  "text": " lungomare Paolo Toscanelli 176, Ostia"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "06 5690 999",
-                  "href": "tel:+39065690999"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Centro Caritas sul litorale con accoglienza e accompagnamento. Telefona per destinatari, invio e posti; se sei in strada usa anche il numero SOS "
-                },
-                {
-                  "text": "800 440 022",
-                  "href": "tel:800440022"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Caritas Roma — Centro Gabriele Castiglion",
-                  "href": "https://www.caritasroma.it/cosa-facciamo/accoglienza/"
-                }
-              ]
-            }
-          ]
+          "address": "Indirizzo: lungomare Paolo Toscanelli 176, Ostia",
+          "phone": "+39065690999",
+          "website": "https://www.caritasroma.it/cosa-facciamo/accoglienza/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "binario-95-centro-diurno-e-accoglienza",
-          "name": "Binario 95 — centro diurno e accoglienza",
+          "title": "Binario 95 — centro diurno e accoglienza",
+          "description": "Telefono: 06 9480 9595.\nIl centro diurno offre ascolto, doccia, cambio abiti, lavanderia e accompagnamento alle persone prese in carico. I 12 posti notturni sono assegnati tramite Sala Operativa Sociale o Help Center: non sono ad accesso diretto.\nBinario 95 — servizi e modalità di invio",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Indirizzo:",
-                  "strong": true
-                },
-                {
-                  "text": " via Marsala 95, Roma, vicino a Termini"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "06 9480 9595",
-                  "href": "tel:+390694809595"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Il centro diurno offre ascolto, doccia, cambio abiti, lavanderia e accompagnamento alle persone prese in carico. I 12 posti notturni sono assegnati tramite Sala Operativa Sociale o Help Center: non sono ad accesso diretto."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Binario 95 — servizi e modalità di invio",
-                  "href": "https://www.binario95.it/binario-95-docce-accoglienza-supporto-psicologico/"
-                }
-              ]
-            }
-          ]
+          "address": "Indirizzo: via Marsala 95, Roma, vicino a Termini",
+          "phone": "+390694809595",
+          "website": "https://www.binario95.it/binario-95-docce-accoglienza-supporto-psicologico/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "asilo-notturno-del-circolo-san-pietro",
-          "name": "Asilo notturno del Circolo San Pietro",
+          "title": "Asilo notturno del Circolo San Pietro",
+          "description": "Telefono: 06 5818 992.\nAccoglienza notturna aperta tutti i giorni, con orari stagionali pubblicati dall'organizzazione. Telefona prima per procedura e disponibilità; la presenza dell'indirizzo non garantisce un letto.\nCircolo San Pietro — asilo notturno",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Indirizzo:",
-                  "strong": true
-                },
-                {
-                  "text": " vicolo di Santa Maria in Cappella 6, Roma"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "06 5818 992",
-                  "href": "tel:+39065818992"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Accoglienza notturna aperta tutti i giorni, con orari stagionali pubblicati dall'organizzazione. Telefona prima per procedura e disponibilità; la presenza dell'indirizzo non garantisce un letto."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Circolo San Pietro — asilo notturno",
-                  "href": "https://www.circolosanpietro.org/opere"
-                }
-              ]
-            }
-          ]
+          "address": "Indirizzo: vicolo di Santa Maria in Cappella 6, Roma",
+          "phone": "+39065818992",
+          "website": "https://www.circolosanpietro.org/opere",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "casa-di-cristian-mamme-con-figli",
-          "name": "Casa di Cristian — mamme con figli",
+          "title": "Casa di Cristian — mamme con figli",
+          "description": "Telefono: 06 8881 5240.\nCasa Caritas per madri con bambini in situazione di difficoltà. Contatta la Sala Operativa Sociale, il servizio sociale municipale o Caritas per la valutazione; non recarti aspettando un ingresso immediato.\nCaritas Roma — accoglienza per mamme e minori",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Indirizzo:",
-                  "strong": true
-                },
-                {
-                  "text": " via Anicio Paolino 64, Roma"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "06 8881 5240",
-                  "href": "tel:+390688815240"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Casa Caritas per madri con bambini in situazione di difficoltà. Contatta la Sala Operativa Sociale, il servizio sociale municipale o Caritas per la valutazione; non recarti aspettando un ingresso immediato."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Caritas Roma — accoglienza per mamme e minori",
-                  "href": "https://www.caritasroma.it/cosa-facciamo/accoglienza/"
-                }
-              ]
-            }
-          ]
+          "address": "Indirizzo: via Anicio Paolino 64, Roma",
+          "phone": "+390688815240",
+          "website": "https://www.caritasroma.it/cosa-facciamo/accoglienza/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "stazioni-di-posta-comunali",
-          "name": "Stazioni di posta comunali",
+          "title": "Stazioni di posta comunali",
+          "description": "Le Stazioni di posta riuniscono servizi come accoglienza diurna, docce, lavanderia, pasti, segretariato sociale e percorsi di inclusione. Tra le sedi comunali pubblicate ci sono via Pier delle Vigne 8 nel Municipio XIII e via Giovanni Comisso 23 nel Municipio IX.\nServizi e accesso variano: chiama la Sala Operativa Sociale o il Municipio prima di partire. Non tutte le sedi offrono pernottamento e nessuna pagina garantisce un posto immediato.\nStazione di posta Municipio XIII · Municipio IX — https://www.comune.roma.it/web/it/notizia/mun09-inaugurata-nuova-stazione-posta.page",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Le Stazioni di posta riuniscono servizi come accoglienza diurna, docce, lavanderia, pasti, segretariato sociale e percorsi di inclusione. Tra le sedi comunali pubblicate ci sono via Pier delle Vigne 8 nel Municipio XIII e via Giovanni Comisso 23 nel Municipio IX."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Servizi e accesso variano: chiama la Sala Operativa Sociale o il Municipio prima di partire. Non tutte le sedi offrono pernottamento e nessuna pagina garantisce un posto immediato."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Stazione di posta Municipio XIII",
-                  "href": "https://www.comune.roma.it/web/it/notizia/mun13-inaugurata-nuova-stazione-posta.page"
-                },
-                {
-                  "text": " · "
-                },
-                {
-                  "text": "Municipio IX",
-                  "href": "https://www.comune.roma.it/web/it/notizia/mun09-inaugurata-nuova-stazione-posta.page"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.comune.roma.it/web/it/notizia/mun13-inaugurata-nuova-stazione-posta.page",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "se-non-c-e-posto",
-          "name": "Se non c'è posto",
+          "title": "Se non c'è posto",
+          "description": "Richiama 800 440 022 e chiedi un'alternativa concreta, un centro diurno o il passaggio di un'unità di strada. Ripeti se ci sono minori, gravidanza, malattia, disabilità, dimissione ospedaliera, violenza o animale.\nNon pagare intermediari per un letto. Tieni con te documenti, farmaci e numeri importanti.\nBinario 95 — sito ufficiale e servizi",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Richiama "
-                },
-                {
-                  "text": "800 440 022",
-                  "href": "tel:800440022"
-                },
-                {
-                  "text": " e chiedi un'alternativa concreta, un centro diurno o il passaggio di un'unità di strada. Ripeti se ci sono minori, gravidanza, malattia, disabilità, dimissione ospedaliera, violenza o animale."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Non pagare intermediari per un letto. Tieni con te documenti, farmaci e numeri importanti."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Binario 95 — sito ufficiale e servizi",
-                  "href": "https://www.binario95.it/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "800440022",
+          "website": "https://www.binario95.it/",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
-      "id": "cibo",
-      "title": "3. Cibo e aiuto religioso",
-      "items": [
+      "id": "food",
+      "title": "Cibo e aiuto religioso",
+      "entries": [
         {
-          "type": "resource",
           "id": "mensa-giovanni-paolo-ii-caritas",
-          "name": "Mensa Giovanni Paolo II — Caritas",
+          "title": "Mensa Giovanni Paolo II — Caritas",
+          "description": "Telefono: 06 8881 5230.\nMensa diurna Caritas. Telefona per l'orario del giorno e per la procedura di primo accesso; pasti e turni possono cambiare nei festivi.\nCaritas Roma — mense",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Indirizzo:",
-                  "strong": true
-                },
-                {
-                  "text": " via delle Sette Sale 30, Roma"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "06 8881 5230",
-                  "href": "tel:+390688815230"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Mensa diurna Caritas. Telefona per l'orario del giorno e per la procedura di primo accesso; pasti e turni possono cambiare nei festivi."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Caritas Roma — mense",
-                  "href": "https://www.caritasroma.it/cosa-facciamo/mense/"
-                }
-              ]
-            }
-          ]
+          "address": "Indirizzo: via delle Sette Sale 30, Roma",
+          "phone": "+390688815230",
+          "website": "https://www.caritasroma.it/cosa-facciamo/mense/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "mensa-don-luigi-di-liegro-caritas",
-          "name": "Mensa Don Luigi Di Liegro — Caritas",
+          "title": "Mensa Don Luigi Di Liegro — Caritas",
+          "description": "Telefono: 06 8881 5200 o 06 8881 5201.\nMensa serale della Caritas. È distinta dall'accesso all'ostello: un pasto non comporta automaticamente un posto letto. Conferma orario e registrazione.\nCaritas Roma — Mensa Don Luigi Di Liegro",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Indirizzo:",
-                  "strong": true
-                },
-                {
-                  "text": " via Marsala 113, Roma, vicino a Termini"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "06 8881 5200",
-                  "href": "tel:+390688815200"
-                },
-                {
-                  "text": " o "
-                },
-                {
-                  "text": "06 8881 5201",
-                  "href": "tel:+390688815201"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Mensa serale della Caritas. È distinta dall'accesso all'ostello: un pasto non comporta automaticamente un posto letto. Conferma orario e registrazione."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Caritas Roma — Mensa Don Luigi Di Liegro",
-                  "href": "https://www.caritasroma.it/cosa-facciamo/mense/"
-                }
-              ]
-            }
-          ]
+          "address": "Indirizzo: via Marsala 113, Roma, vicino a Termini",
+          "phone": "+390688815200",
+          "website": "https://www.caritasroma.it/cosa-facciamo/mense/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "mensa-gabriele-castiglion-ostia",
-          "name": "Mensa Gabriele Castiglion — Ostia",
+          "title": "Mensa Gabriele Castiglion — Ostia",
+          "description": "Telefono: 06 8881 5270.\nMensa Caritas per il territorio di Ostia. Chiama prima per giorni, orari e accesso.\nCaritas Roma — mense",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Indirizzo:",
-                  "strong": true
-                },
-                {
-                  "text": " via Cardinale Domenico Ginnasi 21, Ostia"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "06 8881 5270",
-                  "href": "tel:+390688815270"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Mensa Caritas per il territorio di Ostia. Chiama prima per giorni, orari e accesso."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Caritas Roma — mense",
-                  "href": "https://www.caritasroma.it/cosa-facciamo/mense/"
-                }
-              ]
-            }
-          ]
+          "address": "Indirizzo: via Cardinale Domenico Ginnasi 21, Ostia",
+          "phone": "+390688815270",
+          "website": "https://www.caritasroma.it/cosa-facciamo/mense/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "sant-egidio-mensa-di-via-dandolo",
-          "name": "Sant'Egidio — mensa di via Dandolo",
+          "title": "Sant'Egidio — mensa di via Dandolo",
+          "description": "Orario pubblicato: mercoledì, venerdì e sabato, 16:30–19:00.\nPasto servito da volontari. La pagina ufficiale non indica la partecipazione religiosa come condizione. Conferma festività o cambi prima di attraversare la città.\nSant'Egidio — mensa di Roma",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Indirizzo:",
-                  "strong": true
-                },
-                {
-                  "text": " via Dandolo 10, Trastevere"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Orario pubblicato:",
-                  "strong": true
-                },
-                {
-                  "text": " mercoledì, venerdì e sabato, 16:30–19:00."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Pasto servito da volontari. La pagina ufficiale non indica la partecipazione religiosa come condizione. Conferma festività o cambi prima di attraversare la città."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Sant'Egidio — mensa di Roma",
-                  "href": "https://www.santegidio.org/pageID/30476/langID/it/MENSA-PER-I-POVERI-DI-ROMA--VIA-DANDOLO.html"
-                }
-              ]
-            }
-          ]
+          "address": "Indirizzo: via Dandolo 10, Trastevere",
+          "phone": "",
+          "website": "https://www.santegidio.org/pageID/30476/langID/it/MENSA-PER-I-POVERI-DI-ROMA--VIA-DANDOLO.html",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "circolo-san-pietro-via-della-lungaretta",
-          "name": "Circolo San Pietro — via della Lungaretta",
+          "title": "Circolo San Pietro — via della Lungaretta",
+          "description": "Telefono: 06 6936 4162; orario pubblicato: lunedì–sabato 12:30–13:30.\nLa cucina economica distribuisce pasti completi. Il buono è normalmente dato gratuitamente da parrocchie o istituti religiosi; il Circolo dichiara che chi arriva senza buono riceve comunque un pasto. Telefona per cambi.\nCircolo San Pietro — cucine economiche",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Indirizzo:",
-                  "strong": true
-                },
-                {
-                  "text": " via della Lungaretta 91/b, Trastevere"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "06 6936 4162",
-                  "href": "tel:+390669364162"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "orario pubblicato:",
-                  "strong": true
-                },
-                {
-                  "text": " lunedì–sabato 12:30–13:30."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "La cucina economica distribuisce pasti completi. Il buono è normalmente dato gratuitamente da parrocchie o istituti religiosi; il Circolo dichiara che chi arriva senza buono riceve comunque un pasto. Telefona per cambi."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Circolo San Pietro — cucine economiche",
-                  "href": "https://www.circolosanpietro.org/cucine-economiche"
-                }
-              ]
-            }
-          ]
+          "address": "Indirizzo: via della Lungaretta 91/b, Trastevere",
+          "phone": "+390669364162",
+          "website": "https://www.circolosanpietro.org/cucine-economiche",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "circolo-san-pietro-testaccio",
-          "name": "Circolo San Pietro — Testaccio",
+          "title": "Circolo San Pietro — Testaccio",
+          "description": "Telefono: 335 818 9610; orario pubblicato: lunedì–sabato 12:30–13:30.\nPasto completo gratuito. Chiedi sul posto o a una parrocchia per il buono; l'organizzazione afferma di servire anche chi si presenta senza buono.\nCircolo San Pietro — indirizzi e orari",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Indirizzo:",
-                  "strong": true
-                },
-                {
-                  "text": " via Mastro Giorgio 37, Roma"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "335 818 9610",
-                  "href": "tel:+393358189610"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "orario pubblicato:",
-                  "strong": true
-                },
-                {
-                  "text": " lunedì–sabato 12:30–13:30."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Pasto completo gratuito. Chiedi sul posto o a una parrocchia per il buono; l'organizzazione afferma di servire anche chi si presenta senza buono."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Circolo San Pietro — indirizzi e orari",
-                  "href": "https://www.circolosanpietro.org/opere"
-                }
-              ]
-            }
-          ]
+          "address": "Indirizzo: via Mastro Giorgio 37, Roma",
+          "phone": "+393358189610",
+          "website": "https://www.circolosanpietro.org/opere",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "circolo-san-pietro-via-adige",
-          "name": "Circolo San Pietro — via Adige",
+          "title": "Circolo San Pietro — via Adige",
+          "description": "Orario pubblicato: tutti i giorni, compresi domeniche e festivi, 12:00–13:00.\nLa cucina economica distribuisce pasti gratuiti. Conferma l'apertura prima di un lungo viaggio, soprattutto durante festività o lavori.\nCircolo San Pietro — cucine economiche",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Indirizzo:",
-                  "strong": true
-                },
-                {
-                  "text": " via Adige 11, Roma"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Orario pubblicato:",
-                  "strong": true
-                },
-                {
-                  "text": " tutti i giorni, compresi domeniche e festivi, 12:00–13:00."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "La cucina economica distribuisce pasti gratuiti. Conferma l'apertura prima di un lungo viaggio, soprattutto durante festività o lavori."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Circolo San Pietro — cucine economiche",
-                  "href": "https://www.circolosanpietro.org/opere"
-                }
-              ]
-            }
-          ]
+          "address": "Indirizzo: via Adige 11, Roma",
+          "phone": "",
+          "website": "https://www.circolosanpietro.org/opere",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "centro-astalli-colazione-e-pasto-caldo",
-          "name": "Centro Astalli — colazione e pasto caldo",
+          "title": "Centro Astalli — colazione e pasto caldo",
+          "description": "Telefono generale: 06 6970 0306.\nPer richiedenti asilo e rifugiati: colazione al mattino e pasto caldo nel primo pomeriggio. Il primo accesso passa dall'accettazione e dalla tessera del Centro; chiedi l'orario aggiornato.\nCentro Astalli — mensa · accettazione — https://www.centroastalli.it/servizi/accettazione/",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Indirizzo:",
-                  "strong": true
-                },
-                {
-                  "text": " via degli Astalli 14/a, Roma"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefono generale:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "06 6970 0306",
-                  "href": "tel:+390669700306"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Per richiedenti asilo e rifugiati: colazione al mattino e pasto caldo nel primo pomeriggio. Il primo accesso passa dall'accettazione e dalla tessera del Centro; chiedi l'orario aggiornato."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Centro Astalli — mensa",
-                  "href": "https://www.centroastalli.it/servizi/mensa/"
-                },
-                {
-                  "text": " · "
-                },
-                {
-                  "text": "accettazione",
-                  "href": "https://www.centroastalli.it/servizi/accettazione/"
-                }
-              ]
-            }
-          ]
+          "address": "Indirizzo: via degli Astalli 14/a, Roma",
+          "phone": "+390669700306",
+          "website": "https://www.centroastalli.it/servizi/mensa/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "guida-dove-2026-altre-mense-e-distribuzioni",
-          "name": "Guida DOVE 2026 — altre mense e distribuzioni",
+          "title": "Guida DOVE 2026 — altre mense e distribuzioni",
+          "description": "La guida di Sant'Egidio raccoglie pasti, servizi in strada, docce, salute e accoglienza a Roma. Usa l'edizione 2026 e conferma sempre il singolo servizio, perché turni e accessi possono cambiare.\nScarica la guida DOVE Roma 2026 · pagina delle guide — https://www.santegidio.org/pageID/30144/langID/it/Le-guide-DOVE.html",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "La guida di Sant'Egidio raccoglie pasti, servizi in strada, docce, salute e accoglienza a Roma. Usa l'edizione 2026 e conferma sempre il singolo servizio, perché turni e accessi possono cambiare."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Scarica la guida DOVE Roma 2026",
-                  "href": "https://www.santegidio.org/downloads/GUIDA-2026-DOVE-DORMIRE-MANGIARE-LAVARSI-SANTEGIDIO.pdf"
-                },
-                {
-                  "text": " · "
-                },
-                {
-                  "text": "pagina delle guide",
-                  "href": "https://www.santegidio.org/pageID/30144/langID/it/Le-guide-DOVE.html"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.santegidio.org/downloads/GUIDA-2026-DOVE-DORMIRE-MANGIARE-LAVARSI-SANTEGIDIO.pdf",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
-      "id": "igiene",
-      "title": "4. Docce, vestiti, lavanderia e bagagli",
-      "items": [
+      "id": "community",
+      "title": "Community and religious help",
+      "entries": []
+    },
+    {
+      "id": "hygiene",
+      "title": "Docce, vestiti, lavanderia e bagagli",
+      "entries": [
         {
-          "type": "resource",
           "id": "docce-caritas-via-alessandro-farnese",
-          "name": "Docce Caritas — via Alessandro Farnese",
+          "title": "Docce Caritas — via Alessandro Farnese",
+          "description": "Servizio docce Caritas. Orari, prenotazione e disponibilità del cambio abiti non sono stabili online: chiama la centrale Caritas al 06 8881 5400 prima di partire.\nCaritas Roma — servizi",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Indirizzo:",
-                  "strong": true
-                },
-                {
-                  "text": " via Alessandro Farnese 17, Roma"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Servizio docce Caritas. Orari, prenotazione e disponibilità del cambio abiti non sono stabili online: chiama la centrale Caritas al "
-                },
-                {
-                  "text": "06 8881 5400",
-                  "href": "tel:+390688815400"
-                },
-                {
-                  "text": " prima di partire."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Caritas Roma — servizi",
-                  "href": "https://www.caritasroma.it/cosa-facciamo/accoglienza/"
-                }
-              ]
-            }
-          ]
+          "address": "Indirizzo: via Alessandro Farnese 17, Roma",
+          "phone": "+390688815400",
+          "website": "https://www.caritasroma.it/cosa-facciamo/accoglienza/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "binario-95-doccia-vestiti-e-lavanderia",
-          "name": "Binario 95 — doccia, vestiti e lavanderia",
+          "title": "Binario 95 — doccia, vestiti e lavanderia",
+          "description": "Telefono: 06 9480 9595.\nI servizi diurni a bassa soglia comprendono doccia, cambio abiti e lavanderia, oltre all'ascolto. I numeri giornalieri sono limitati: chiedi come registrarti e a che ora presentarti.\nBinario 95 — servizi diurni",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Indirizzo:",
-                  "strong": true
-                },
-                {
-                  "text": " via Marsala 95, Roma"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "06 9480 9595",
-                  "href": "tel:+390694809595"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "I servizi diurni a bassa soglia comprendono doccia, cambio abiti e lavanderia, oltre all'ascolto. I numeri giornalieri sono limitati: chiedi come registrarti e a che ora presentarti."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Binario 95 — servizi diurni",
-                  "href": "https://www.binario95.it/binario-95-docce-accoglienza-supporto-psicologico/"
-                }
-              ]
-            }
-          ]
+          "address": "Indirizzo: via Marsala 95, Roma",
+          "phone": "+390694809595",
+          "website": "https://www.binario95.it/binario-95-docce-accoglienza-supporto-psicologico/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "centro-astalli-doccia-vestiti-coperte-e-posta",
-          "name": "Centro Astalli — doccia, vestiti, coperte e posta",
+          "title": "Centro Astalli — doccia, vestiti, coperte e posta",
+          "description": "Servizio per richiedenti asilo e rifugiati. All'accettazione si può richiedere la tessera per doccia, vestiti, coperte, prodotti per l'igiene e recapito della posta. Chiedi turni e limiti.\nCentro Astalli — accettazione",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Indirizzo:",
-                  "strong": true
-                },
-                {
-                  "text": " via degli Astalli 14/a, Roma"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Servizio per richiedenti asilo e rifugiati. All'accettazione si può richiedere la tessera per doccia, vestiti, coperte, prodotti per l'igiene e recapito della posta. Chiedi turni e limiti."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Centro Astalli — accettazione",
-                  "href": "https://www.centroastalli.it/servizi/accettazione/"
-                }
-              ]
-            }
-          ]
+          "address": "Indirizzo: via degli Astalli 14/a, Roma",
+          "phone": "",
+          "website": "https://www.centroastalli.it/servizi/accettazione/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "stazioni-di-posta-lavanderia-e-docce",
-          "name": "Stazioni di posta — lavanderia e docce",
+          "title": "Stazioni di posta — lavanderia e docce",
+          "description": "Alcune Stazioni di posta comunali offrono lavanderia, docce e altri servizi diurni. L'accesso dipende dalla sede e dal percorso sociale.\nChiama 800 440 022 o 06 06 06 per la sede adatta e le modalità del giorno. — tel:+39060606\nRoma Capitale — esempio di Stazione di posta",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Alcune Stazioni di posta comunali offrono lavanderia, docce e altri servizi diurni. L'accesso dipende dalla sede e dal percorso sociale."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Chiama "
-                },
-                {
-                  "text": "800 440 022",
-                  "href": "tel:800440022"
-                },
-                {
-                  "text": " o "
-                },
-                {
-                  "text": "06 06 06",
-                  "href": "tel:+39060606"
-                },
-                {
-                  "text": " per la sede adatta e le modalità del giorno."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Roma Capitale — esempio di Stazione di posta",
-                  "href": "https://www.comune.roma.it/web/it/notizia/mun13-inaugurata-nuova-stazione-posta.page"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "800440022",
+          "website": "https://www.comune.roma.it/web/it/notizia/mun13-inaugurata-nuova-stazione-posta.page",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "bagagli-e-oggetti-importanti",
-          "name": "Bagagli e oggetti importanti",
+          "title": "Bagagli e oggetti importanti",
+          "description": "Chiedi a Binario 95 o alla Stazione di posta se esiste un deposito disponibile, per quanto tempo e se rilasciano una ricevuta. Non lasciare documenti originali, farmaci indispensabili, telefono o denaro in un deposito non ufficiale.\nBinario 95 — sito ufficiale e servizi",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Chiedi a Binario 95 o alla Stazione di posta se esiste un deposito disponibile, per quanto tempo e se rilasciano una ricevuta. Non lasciare documenti originali, farmaci indispensabili, telefono o denaro in un deposito non ufficiale."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Binario 95 — sito ufficiale e servizi",
-                  "href": "https://www.binario95.it/"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "spazi",
-      "title": "5. Bagni, internet, ricarica e spazi diurni",
-      "items": [
+          "address": "",
+          "phone": "",
+          "website": "https://www.binario95.it/",
+          "hours": "",
+          "how_to_access": ""
+        },
         {
-          "type": "resource",
           "id": "p-stop-bagno-accessibile-e-ricarica",
-          "name": "P.Stop — bagno accessibile e ricarica",
+          "title": "P.Stop — bagno accessibile e ricarica",
+          "description": "Orario pubblicato: tutti i giorni 08:30–20:30.\nStruttura con bagno accessibile, area per bambini e ricarica di dispositivi. La gratuità indicata dal Comune è collegata alla Roma Pass: chiedi il prezzo ordinario prima di usare il servizio.\n060608 — P.Stop via Zanardelli",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Indirizzo:",
-                  "strong": true
-                },
-                {
-                  "text": " via Giuseppe Zanardelli, vicino a piazza Navona"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Orario pubblicato:",
-                  "strong": true
-                },
-                {
-                  "text": " tutti i giorni 08:30–20:30."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Struttura con bagno accessibile, area per bambini e ricarica di dispositivi. La gratuità indicata dal Comune è collegata alla Roma Pass: chiedi il prezzo ordinario prima di usare il servizio."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "060608 — P.Stop via Zanardelli",
-                  "href": "https://060608.comune.roma.it/utilita/bagni-pubblici/pstop-via-zanardelli-piazza-navona-1555"
-                }
-              ]
-            }
-          ]
+          "address": "Indirizzo: via Giuseppe Zanardelli, vicino a piazza Navona",
+          "phone": "",
+          "website": "https://060608.comune.roma.it/utilita/bagni-pubblici/pstop-via-zanardelli-piazza-navona-1555",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "bagni-pubblici-comunali",
-          "name": "Bagni pubblici comunali",
+          "title": "Bagni pubblici comunali",
+          "description": "Roma ha bagni in parchi e punti turistici, ma aperture e costi variano. Telefona al 06 06 08 o al 06 06 06 e chiedi il bagno aperto più vicino, accessibilità e costo. — tel:+39060608 — tel:+39060606\nRoma Capitale — P.Stop e servizi",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Roma ha bagni in parchi e punti turistici, ma aperture e costi variano. Telefona al "
-                },
-                {
-                  "text": "06 06 08",
-                  "href": "tel:+39060608"
-                },
-                {
-                  "text": " o al "
-                },
-                {
-                  "text": "06 06 06",
-                  "href": "tel:+39060606"
-                },
-                {
-                  "text": " e chiedi il bagno aperto più vicino, accessibilità e costo."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Roma Capitale — P.Stop e servizi",
-                  "href": "https://www.comune.roma.it/web/it/scheda-servizi.page?contentId=INF1577195&stem=info_per_turisti"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+39060608",
+          "website": "https://www.comune.roma.it/web/it/scheda-servizi.page?contentId=INF1577195&stem=info_per_turisti",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "biblioteche-di-roma-wi-fi-e-spazio-diurno",
-          "name": "Biblioteche di Roma — Wi-Fi e spazio diurno",
+          "title": "Biblioteche di Roma — Wi-Fi e spazio diurno",
+          "description": "Il Wi-Fi è gratuito e senza limiti per gli utenti iscritti. La registrazione online richiede un indirizzo email per la password temporanea; alcune sedi prestano tablet Hublet agli adulti per due ore.\nLe biblioteche non sono dormitori. Rispetta regole, orari e personale e chiedi prima di ricaricare il telefono.\nBiblioteche di Roma — Wi-Fi · catalogo e sedi — https://www.bibliotechediroma.it/opac/.do",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Il Wi-Fi è gratuito e senza limiti per gli utenti iscritti. La registrazione online richiede un indirizzo email per la password temporanea; alcune sedi prestano tablet Hublet agli adulti per due ore."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Le biblioteche non sono dormitori. Rispetta regole, orari e personale e chiedi prima di ricaricare il telefono."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Biblioteche di Roma — Wi-Fi",
-                  "href": "https://www.bibliotechediroma.it/opac/article/wifi-in-biblioteca/wifi"
-                },
-                {
-                  "text": " · "
-                },
-                {
-                  "text": "catalogo e sedi",
-                  "href": "https://www.bibliotechediroma.it/opac/.do"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.bibliotechediroma.it/opac/article/wifi-in-biblioteca/wifi",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "centro-diurno-piu-vicino",
-          "name": "Centro diurno più vicino",
+          "title": "Centro diurno più vicino",
+          "description": "Binario 95, Stazioni di posta e altri centri possono offrire uno spazio protetto, informazioni e talvolta ricarica. Chiedi sempre se il servizio è aperto e se serve una presa in carico.\nBinario 95 — sito ufficiale e servizi",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Binario 95, Stazioni di posta e altri centri possono offrire uno spazio protetto, informazioni e talvolta ricarica. Chiedi sempre se il servizio è aperto e se serve una presa in carico."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Binario 95 — sito ufficiale e servizi",
-                  "href": "https://www.binario95.it/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.binario95.it/",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
-      "id": "salute",
-      "title": "6. Salute e odontoiatria",
-      "items": [
+      "id": "clothing",
+      "title": "Clothing",
+      "entries": []
+    },
+    {
+      "id": "health",
+      "title": "Salute e odontoiatria",
+      "entries": [
         {
-          "type": "resource",
           "id": "poliambulatorio-e-farmacia-caritas",
-          "name": "Poliambulatorio e farmacia Caritas",
+          "title": "Poliambulatorio e farmacia Caritas",
+          "description": "Telefono: 06 8881 5400.\nAssistenza sanitaria di base, orientamento e farmacia per persone in difficoltà. L'orario indicativo pubblicato è lunedì–venerdì 16:00–19:00, con apertura anche mercoledì 09:30–12:00; la farmacia ha turni propri. Chiama prima.\nCaritas Roma — sanità",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Indirizzo:",
-                  "strong": true
-                },
-                {
-                  "text": " via Marsala 97, Roma"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "06 8881 5400",
-                  "href": "tel:+390688815400"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Assistenza sanitaria di base, orientamento e farmacia per persone in difficoltà. L'orario indicativo pubblicato è lunedì–venerdì 16:00–19:00, con apertura anche mercoledì 09:30–12:00; la farmacia ha turni propri. Chiama prima."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Caritas Roma — sanità",
-                  "href": "https://www.caritasroma.it/cosa-facciamo/sanita/"
-                }
-              ]
-            }
-          ]
+          "address": "Indirizzo: via Marsala 97, Roma",
+          "phone": "+390688815400",
+          "website": "https://www.caritasroma.it/cosa-facciamo/sanita/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "odontoiatria-caritas",
-          "name": "Odontoiatria Caritas",
+          "title": "Odontoiatria Caritas",
+          "description": "Telefono: 06 8881 5720.\nServizio odontoiatrico sociale. Telefona per destinatari, documenti e appuntamento; non è un pronto soccorso dentistico.\nCaritas Roma — odontoiatria",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Indirizzo:",
-                  "strong": true
-                },
-                {
-                  "text": " via Casilina Vecchia 19, Roma"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "06 8881 5720",
-                  "href": "tel:+390688815720"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Servizio odontoiatrico sociale. Telefona per destinatari, documenti e appuntamento; non è un pronto soccorso dentistico."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Caritas Roma — odontoiatria",
-                  "href": "https://www.caritasroma.it/cosa-facciamo/sanita/"
-                }
-              ]
-            }
-          ]
+          "address": "Indirizzo: via Casilina Vecchia 19, Roma",
+          "phone": "+390688815720",
+          "website": "https://www.caritasroma.it/cosa-facciamo/sanita/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "ambulatorio-madre-di-misericordia-vaticano",
-          "name": "Ambulatorio Madre di Misericordia — Vaticano",
+          "title": "Ambulatorio Madre di Misericordia — Vaticano",
+          "description": "Telefono: 06 6988 5124; email: ambulatorio@elemosineria.va. — mailto:ambulatorio@elemosineria.va\nAccesso libero senza appuntamento per persone in povertà o emarginazione. Offre gratuitamente medicina generale e specialistica, odontoiatria, esami, radiologia, fisioterapia, farmaci e alcuni ausili, secondo valutazione e disponibilità.\nOrari pubblicati: lunedì, giovedì, venerdì e sabato 08:30–12:30; martedì 08:30–17:00; mercoledì 14:00–17:00. Controlla il calendario specialistico e le variazioni.\nElemosineria Apostolica — ambulatorio",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Luogo:",
-                  "strong": true
-                },
-                {
-                  "text": " piazza San Pietro, sotto il colonnato di destra"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "06 6988 5124",
-                  "href": "tel:+390669885124"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "email:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "ambulatorio@elemosineria.va",
-                  "href": "mailto:ambulatorio@elemosineria.va"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Accesso libero senza appuntamento per persone in povertà o emarginazione. Offre gratuitamente medicina generale e specialistica, odontoiatria, esami, radiologia, fisioterapia, farmaci e alcuni ausili, secondo valutazione e disponibilità."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Orari pubblicati:",
-                  "strong": true
-                },
-                {
-                  "text": " lunedì, giovedì, venerdì e sabato 08:30–12:30; martedì 08:30–17:00; mercoledì 14:00–17:00. Controlla il calendario specialistico e le variazioni."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Elemosineria Apostolica — ambulatorio",
-                  "href": "https://www.elemosineria.va/madre-di-misericordia-clinic/?lang=it"
-                }
-              ]
-            }
-          ]
+          "address": "Luogo: piazza San Pietro, sotto il colonnato di destra",
+          "phone": "+390669885124",
+          "website": "https://www.elemosineria.va/madre-di-misericordia-clinic/?lang=it",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "inmp-salute-per-migranti-e-persone-vulnerabili",
-          "name": "INMP — salute per migranti e persone vulnerabili",
+          "title": "INMP — salute per migranti e persone vulnerabili",
+          "description": "Informazioni e prenotazioni: 06 5855 8503.\nOffre assistenza di base, infermieristica e specialistica con attenzione alle barriere linguistiche e sociali. Chiama per prenotazione, orari e documenti; alcune prestazioni di medicina generale e STP/ENI hanno accesso specifico.\nINMP — assistenza sanitaria",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Ingresso ambulatori:",
-                  "strong": true
-                },
-                {
-                  "text": " via delle Fratte di Trastevere 52, Roma"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Informazioni e prenotazioni:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "06 5855 8503",
-                  "href": "tel:+390658558503"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Offre assistenza di base, infermieristica e specialistica con attenzione alle barriere linguistiche e sociali. Chiama per prenotazione, orari e documenti; alcune prestazioni di medicina generale e STP/ENI hanno accesso specifico."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "INMP — assistenza sanitaria",
-                  "href": "https://www.inmp.it/ita/layout/set/print/Assistenza-sanitaria"
-                }
-              ]
-            }
-          ]
+          "address": "Ingresso ambulatori: via delle Fratte di Trastevere 52, Roma",
+          "phone": "+390658558503",
+          "website": "https://www.inmp.it/ita/layout/set/print/Assistenza-sanitaria",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "stp-ed-eni-cure-anche-senza-iscrizione-ordinaria",
-          "name": "STP ed ENI — cure anche senza iscrizione ordinaria",
+          "title": "STP ed ENI — cure anche senza iscrizione ordinaria",
+          "description": "Una persona straniera non regolarmente soggiornante può chiedere il codice STP; un cittadino dell'Unione europea senza altra copertura può verificare il codice ENI. L'ASL Roma 1 pubblica gli sportelli e le condizioni; l'STP dura sei mesi ed è rinnovabile con dichiarazione di indigenza.\nVia Catone non è più la sede: la pagina ASL indica via Luigi Luzzatti 8. Orari di rilascio e visite sono diversi, quindi conferma al servizio prima di partire.\nASL Roma 1 — assistenza a cittadini stranieri · ambulatori STP/ENI — https://www.aslroma1.it/ambulatori-stp-eni",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Una persona straniera non regolarmente soggiornante può chiedere il codice STP; un cittadino dell'Unione europea senza altra copertura può verificare il codice ENI. L'ASL Roma 1 pubblica gli sportelli e le condizioni; l'STP dura sei mesi ed è rinnovabile con dichiarazione di indigenza."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Via Catone non è più la sede: la pagina ASL indica via Luigi Luzzatti 8. Orari di rilascio e visite sono diversi, quindi conferma al servizio prima di partire."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "ASL Roma 1 — assistenza a cittadini stranieri",
-                  "href": "https://www.aslroma1.it/assistenza-sanitaria-ai-cittadini-extracomunitari"
-                },
-                {
-                  "text": " · "
-                },
-                {
-                  "text": "ambulatori STP/ENI",
-                  "href": "https://www.aslroma1.it/ambulatori-stp-eni"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.aslroma1.it/assistenza-sanitaria-ai-cittadini-extracomunitari",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "ambulatorio-centro-astalli",
-          "name": "Ambulatorio Centro Astalli",
+          "title": "Ambulatorio Centro Astalli",
+          "description": "Presidio per richiedenti asilo e rifugiati non ancora iscritti al Servizio sanitario o senza medico utilizzabile a Roma. Offre visite, farmaci e orientamento al sistema pubblico negli stessi locali e orari della mensa.\nCentro Astalli — ambulatorio",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Indirizzo:",
-                  "strong": true
-                },
-                {
-                  "text": " via degli Astalli 14/a, Roma"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Presidio per richiedenti asilo e rifugiati non ancora iscritti al Servizio sanitario o senza medico utilizzabile a Roma. Offre visite, farmaci e orientamento al sistema pubblico negli stessi locali e orari della mensa."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Centro Astalli — ambulatorio",
-                  "href": "https://www.centroastalli.it/servizi/ambulatorio/"
-                }
-              ]
-            }
-          ]
+          "address": "Indirizzo: via degli Astalli 14/a, Roma",
+          "phone": "",
+          "website": "https://www.centroastalli.it/servizi/ambulatorio/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "farmaci-ricette-e-dimissione-dall-ospedale",
-          "name": "Farmaci, ricette e dimissione dall'ospedale",
+          "title": "Farmaci, ricette e dimissione dall'ospedale",
+          "description": "Non interrompere un farmaco essenziale senza parere sanitario. Porta confezione, ricetta, tessera o codice STP se disponibili. Se stai per essere dimesso senza un posto sicuro, chiedi all'ospedale di coinvolgere il servizio sociale prima dell'uscita e di coordinarsi con la Sala Operativa Sociale.\nCaritas Roma — farmacia e assistenza sanitaria",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Non interrompere un farmaco essenziale senza parere sanitario. Porta confezione, ricetta, tessera o codice STP se disponibili. Se stai per essere dimesso senza un posto sicuro, chiedi all'ospedale di coinvolgere il servizio sociale prima dell'uscita e di coordinarsi con la Sala Operativa Sociale."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Caritas Roma — farmacia e assistenza sanitaria",
-                  "href": "https://www.caritasroma.it/cosa-facciamo/sanita/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.caritasroma.it/cosa-facciamo/sanita/",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
-      "id": "mentale",
-      "title": "7. Salute mentale e dipendenze",
-      "items": [
+      "id": "mental-health",
+      "title": "Salute mentale e dipendenze",
+      "entries": [
         {
-          "type": "resource",
           "id": "centro-di-salute-mentale-asl-competente",
-          "name": "Centro di Salute Mentale — ASL competente",
+          "title": "Centro di Salute Mentale — ASL competente",
+          "description": "I Centri di Salute Mentale offrono valutazione e cura territoriale secondo la zona di domicilio o presenza. Per individuare la sede chiama 116117 o consulta l'ASL. Notti e festivi, una crisi urgente va valutata in pronto soccorso; per pericolo immediato chiama 112.\nASL Roma 1 — salute mentale",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "I Centri di Salute Mentale offrono valutazione e cura territoriale secondo la zona di domicilio o presenza. Per individuare la sede chiama "
-                },
-                {
-                  "text": "116117",
-                  "href": "tel:116117"
-                },
-                {
-                  "text": " o consulta l'ASL. Notti e festivi, una crisi urgente va valutata in pronto soccorso; per pericolo immediato chiama 112."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "ASL Roma 1 — salute mentale",
-                  "href": "https://www.aslroma1.it/salute-mentale"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "116117",
+          "website": "https://www.aslroma1.it/salute-mentale",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "ascolto-e-orientamento-caritas",
-          "name": "Ascolto e orientamento Caritas",
+          "title": "Ascolto e orientamento Caritas",
+          "description": "Telefono: 06 8881 5400; giorno indicato: mercoledì mattina.\nAscolto e orientamento per problemi di salute mentale. Non sostituisce il 112 o una visita urgente; chiama per confermare il turno.\nCaritas Roma — ascolto e salute mentale",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Indirizzo:",
-                  "strong": true
-                },
-                {
-                  "text": " via Marsala 97, Roma"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "06 8881 5400",
-                  "href": "tel:+390688815400"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "giorno indicato:",
-                  "strong": true
-                },
-                {
-                  "text": " mercoledì mattina."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ascolto e orientamento per problemi di salute mentale. Non sostituisce il 112 o una visita urgente; chiama per confermare il turno."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Caritas Roma — ascolto e salute mentale",
-                  "href": "https://www.caritasroma.it/cosa-facciamo/ascolto/"
-                }
-              ]
-            }
-          ]
+          "address": "Indirizzo: via Marsala 97, Roma",
+          "phone": "+390688815400",
+          "website": "https://www.caritasroma.it/cosa-facciamo/ascolto/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "ferite-invisibili-sopravvissuti-a-tortura",
-          "name": "Ferite Invisibili — sopravvissuti a tortura",
+          "title": "Ferite Invisibili — sopravvissuti a tortura",
+          "description": "Telefono: 06 6832 171.\nSupporto psicologico e psicoterapeutico Caritas per migranti sopravvissuti a tortura e violenza intenzionale. Telefona per invio e appuntamento.\nCaritas Roma — Ferite Invisibili",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Indirizzo:",
-                  "strong": true
-                },
-                {
-                  "text": " via del Corso 499, Roma"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "06 6832 171",
-                  "href": "tel:+39066832171"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Supporto psicologico e psicoterapeutico Caritas per migranti sopravvissuti a tortura e violenza intenzionale. Telefona per invio e appuntamento."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Caritas Roma — Ferite Invisibili",
-                  "href": "https://www.caritasroma.it/cosa-facciamo/sanita/"
-                }
-              ]
-            }
-          ]
+          "address": "Indirizzo: via del Corso 499, Roma",
+          "phone": "+39066832171",
+          "website": "https://www.caritasroma.it/cosa-facciamo/sanita/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "serd-dipendenze",
-          "name": "SerD — dipendenze",
+          "title": "SerD — dipendenze",
+          "description": "I Servizi per le Dipendenze delle ASL offrono valutazione, cura e riduzione del danno per alcol, sostanze e altre dipendenze. Chiama 116117 per la sede della zona o consulta l'elenco regionale. In caso di overdose, respirazione lenta o incoscienza chiama 112.\nASL Roma 1 — SerD e dipendenze",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "I Servizi per le Dipendenze delle ASL offrono valutazione, cura e riduzione del danno per alcol, sostanze e altre dipendenze. Chiama 116117 per la sede della zona o consulta l'elenco regionale. In caso di overdose, respirazione lenta o incoscienza chiama 112."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "ASL Roma 1 — SerD e dipendenze",
-                  "href": "https://www.aslroma1.it/droga-alcol-fumo-e-gioco-d-azzardo"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.aslroma1.it/droga-alcol-fumo-e-gioco-d-azzardo",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "telefono-amico-italia-ascolto",
-          "name": "Telefono Amico Italia — ascolto",
+          "title": "Telefono Amico Italia — ascolto",
+          "description": "Telefono: 02 2327 2327.\nAscolto anonimo per solitudine, angoscia o bisogno di parlare. Non sostituisce i servizi sanitari né il 112 in pericolo immediato.\nTelefono Amico Italia — canali e orari aggiornati",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "02 2327 2327",
-                  "href": "tel:+390223272327"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ascolto anonimo per solitudine, angoscia o bisogno di parlare. Non sostituisce i servizi sanitari né il 112 in pericolo immediato."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefono Amico Italia — canali e orari aggiornati",
-                  "href": "https://www.telefonoamico.it/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+390223272327",
+          "website": "https://www.telefonoamico.it/",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
-      "id": "welfare",
-      "title": "8. Welfare, contributi e casa",
-      "items": [
-        {
-          "type": "resource",
-          "id": "punto-unico-di-accesso-e-segretariato-sociale",
-          "name": "Punto Unico di Accesso e Segretariato Sociale",
-          "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Il PUA e il Segretariato Sociale del Municipio sono la porta per una valutazione sociale, assistenza domiciliare, disabilità, anziani, minori, emergenza abitativa e collegamento con la ASL."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Chiama "
-                },
-                {
-                  "text": "06 06 06",
-                  "href": "tel:+39060606"
-                },
-                {
-                  "text": " e chiedi il PUA del Municipio in cui ti trovi. Porta documento, codice fiscale, ISEE e certificazioni se li hai; la mancanza va spiegata, non nascosta."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Roma Capitale — esempio di Punto Unico di Accesso",
-                  "href": "https://www.comune.roma.it/web/it/dettaglio.page?contentId=UFF27762"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "assegno-di-inclusione-adi",
-          "name": "Assegno di Inclusione — ADI",
-          "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Misura INPS per nuclei che rispettano requisiti economici, di residenza e di composizione, inclusa la presenza di minori, persone con disabilità, persone di almeno 60 anni o condizioni di svantaggio riconosciute."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Domanda tramite INPS o patronato. Non pagare intermediari non autorizzati e non considerare l'accoglimento automatico."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "INPS — Assegno di Inclusione",
-                  "href": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.assegno-di-inclusione-adi.html"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "supporto-per-la-formazione-e-il-lavoro-sfl",
-          "name": "Supporto per la Formazione e il Lavoro — SFL",
-          "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Misura nazionale collegata alla partecipazione a percorsi di attivazione lavorativa o formazione per persone che rispettano età, reddito e altri requisiti. Chiedi a un patronato o al Centro per l'Impiego; l'iscrizione da sola non garantisce il sostegno."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "INPS — Supporto per la Formazione e il Lavoro",
-                  "href": "https://www.inps.it/it/it/inps-comunica/dossier/decreto-lavoro--cosa-cambia/supporto-per-la-formazione-e-il-lavoro.html"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "contributi-e-sostegno-abitativo",
-          "name": "Contributi e sostegno abitativo",
-          "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Roma Capitale pubblica bandi e servizi per casa, morosità e contributi. Le finestre di domanda cambiano: verifica che un avviso sia aperto e leggine requisiti, data e Municipio."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Roma Capitale — contributi e sostegno abitativo",
-                  "href": "https://www.comune.roma.it/web/it/servizi.page?stem=contintervsostabit&tem=casa"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "centro-astalli-supporto-all-abitare",
-          "name": "Centro Astalli — supporto all'abitare",
-          "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefono per appuntamento:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "333 207 9209",
-                  "href": "tel:+393332079209"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Sportello per persone straniere con titolo di soggiorno valido: ricerca abitativa, orientamento e prevenzione di truffe. Gli orari pubblicati sono mercoledì 14:00–17:00 in via del Collegio Romano 1 e giovedì 09:00–13:00 e 14:00–18:00 in via degli Astalli 13; conferma prima."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Centro Astalli — supporto all'abitare",
-                  "href": "https://www.centroastalli.it/punto-di-informazione-e-supporto-allabitare/"
-                }
-              ]
-            }
-          ]
-        }
-      ]
+      "id": "public-facilities",
+      "title": "Public toilets and day facilities",
+      "entries": []
     },
     {
-      "id": "lavoro",
-      "title": "9. Lavoro e formazione",
-      "items": [
-        {
-          "type": "resource",
-          "id": "centri-per-l-impiego-del-lazio",
-          "name": "Centri per l'Impiego del Lazio",
-          "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Call center:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "06 9977 4201",
-                  "href": "tel:+390699774201"
-                },
-                {
-                  "text": ", lunedì–venerdì 08:30–17:00; "
-                },
-                {
-                  "text": "email:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "callcenterimpiego@regione.lazio.it",
-                  "href": "mailto:callcenterimpiego@regione.lazio.it"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Iscrizione, dichiarazione di disponibilità, orientamento, offerte e programmi di formazione. Chiedi quale sede serve per il tuo domicilio e se occorre appuntamento."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Regione Lazio — Centri per l'Impiego",
-                  "href": "https://regione.lazio.it/cittadini/lavoro/centri-impiego"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "cpi-roma-testaccio-porta-futuro",
-          "name": "CPI Roma Testaccio — Porta Futuro",
-          "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Indirizzo:",
-                  "strong": true
-                },
-                {
-                  "text": " via Galvani 108, Roma"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "La tabella regionale 2026 indica apertura lunedì, mercoledì e venerdì 09:00–12:30; martedì e giovedì anche 14:45–16:45, con appuntamento per il pomeriggio. Conferma prima."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Regione Lazio — sedi e orari 2026",
-                  "href": "https://www.regione.lazio.it/sites/default/files/2026-01/Lazio-centro-orari-con-tabelle-23-01-2026.pdf"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "cpi-roma-cinecitta",
-          "name": "CPI Roma Cinecittà",
-          "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Indirizzo:",
-                  "strong": true
-                },
-                {
-                  "text": " viale Rolando Vignali 14, Roma"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "La tabella regionale 2026 indica apertura mattutina dal lunedì al venerdì e pomeriggio martedì e giovedì. Chiama il call center per appuntamento e documenti."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Regione Lazio — elenco Centri per l'Impiego",
-                  "href": "https://www.regione.lazio.it/cittadini/lavoro/centri-per-impiego"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "programma-gol-e-offerte-regionali",
-          "name": "Programma GOL e offerte regionali",
-          "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "GOL può offrire orientamento, aggiornamento o riqualificazione dopo valutazione al Centro per l'Impiego. Le offerte ufficiali regionali sono gratuite: nessun datore serio deve chiedere denaro per candidarsi."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Regione Lazio — programma GOL",
-                  "href": "https://www.regione.lazio.it/cittadini/lavoro/Gol-Garanzia-Occupabilita-Lavoratori"
-                },
-                {
-                  "text": " · "
-                },
-                {
-                  "text": "offerte e avvisi",
-                  "href": "https://www.regione.lazio.it/cittadini/lavoro/offerte-di-lavoro-bandi-avvisi"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "centro-caritas-migranti-lavoro-e-italiano",
-          "name": "Centro Caritas Migranti — lavoro e italiano",
-          "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Indirizzo:",
-                  "strong": true
-                },
-                {
-                  "text": " via delle Zoccolette 19, Roma"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "06 8881 5300",
-                  "href": "tel:+390688815300"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Orientamento al lavoro, scuola di italiano, assistenza sociale e legale per migranti e rifugiati. Telefona per primo colloquio e calendario."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Caritas Roma — Centro di ascolto migranti",
-                  "href": "https://www.caritasroma.it/cosa-facciamo/ascolto/"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "evitare-sfruttamento-e-truffe",
-          "name": "Evitare sfruttamento e truffe",
-          "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Non pagare per ottenere un contratto. Non consegnare il passaporto originale a un datore o intermediario. Chiedi copia scritta di contratto, orari, paga e alloggio. Se ci sono minacce, lavoro forzato o controllo dei documenti, usa il numero antitratta "
-                },
-                {
-                  "text": "800 290 290",
-                  "href": "tel:800290290"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Dipartimento Pari Opportunità — numero antitratta",
-                  "href": "https://www.pariopportunita.gov.it/it/politiche-e-attivita/tratta-degli-esseri-umani-e-grave-sfruttamento/numero-verde-antitratta/"
-                }
-              ]
-            }
-          ]
-        }
-      ]
+      "id": "phone-internet",
+      "title": "Phone charging and internet",
+      "entries": []
     },
     {
-      "id": "documenti",
-      "title": "10. Documenti, residenza e posta",
-      "items": [
+      "id": "transport",
+      "title": "Trasporti e aeroporti",
+      "entries": [
         {
-          "type": "resource",
-          "id": "residenza-per-persone-senza-dimora-via-modesta-valenti",
-          "name": "Residenza per persone senza dimora — via Modesta Valenti",
-          "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Chi vive stabilmente a Roma senza un alloggio può chiedere l'iscrizione anagrafica all'indirizzo convenzionale via Modesta Valenti presso il Municipio competente. Dal 2024 la domanda si presenta direttamente all'anagrafe municipale, dichiarando domicilio e modalità per essere rintracciati."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Porta un documento valido e i moduli richiesti; se non li hai, chiama "
-                },
-                {
-                  "text": "06 06 06",
-                  "href": "tel:+39060606"
-                },
-                {
-                  "text": " o chiedi supporto legale prima di presentarti."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Roma Capitale — nuova procedura via Modesta Valenti",
-                  "href": "https://www.comune.roma.it/web/it/notizia.page?contentId=NWS1181001"
-                },
-                {
-                  "text": " · "
-                },
-                {
-                  "text": "procedimento e documenti",
-                  "href": "https://www.comune.roma.it/web/it/amministrazione-trasparente-procedimenti-amministrativi-municipi.page?contentId=PRC276197"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "posta-nei-municipi",
-          "name": "Posta nei Municipi",
-          "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Roma Capitale ha esteso ai 15 Municipi il recapito della corrispondenza per iscritti in via Modesta Valenti. La posta può essere conservata per un periodo massimo pubblicato di due anni."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Chiedi al Municipio indirizzo, giorni di ritiro e documento necessario. Controlla regolarmente: scadenze di INPS, tribunale, immigrazione o sanità possono essere brevi."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Roma Capitale — residenza e servizio posta",
-                  "href": "https://www.comune.roma.it/web/it/notizia.page?contentId=NWS1181001"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "carta-d-identita-elettronica-senza-documento-precedente",
-          "name": "Carta d'identità elettronica senza documento precedente",
-          "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Per chiedere la CIE, l'anagrafe indica procedure anche in caso di furto, smarrimento o mancanza di altro documento; possono servire denuncia e due testimoni. Telefona al 060606 per la situazione esatta e la sede."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Roma Capitale — CIE, documenti e casi particolari",
-                  "href": "https://www.comune.roma.it/web/it/scheda-servizi.page?contentId=INF36126&pagina=3"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "centro-astalli-recapito-della-posta",
-          "name": "Centro Astalli — recapito della posta",
-          "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Indirizzo:",
-                  "strong": true
-                },
-                {
-                  "text": " via degli Astalli 14/a, Roma"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Richiedenti asilo e rifugiati registrati possono chiedere di ricevere posta al Centro, oltre a orientamento per permesso di soggiorno e servizi. Non usare l'indirizzo senza accordo con l'accettazione."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Centro Astalli — posta e accettazione",
-                  "href": "https://www.centroastalli.it/servizi/accettazione/"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "legale",
-      "title": "11. Aiuto legale e migrazione",
-      "items": [
-        {
-          "type": "resource",
-          "id": "avvocato-di-strada-roma",
-          "name": "Avvocato di strada — Roma",
-          "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Sportello:",
-                  "strong": true
-                },
-                {
-                  "text": " INMP, via delle Fratte di Trastevere 52, Roma"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Orario pubblicato:",
-                  "strong": true
-                },
-                {
-                  "text": " martedì e giovedì 15:00–17:00, senza appuntamento; "
-                },
-                {
-                  "text": "email:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "roma@avvocatodistrada.it",
-                  "href": "mailto:roma@avvocatodistrada.it"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Assistenza legale gratuita per persone senza dimora. Porta lettere, denunce, verbali, scadenze e documenti disponibili. Conferma il turno prima di partire."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Avvocato di strada — sede di Roma",
-                  "href": "https://www.avvocatodistrada.it/sedi-locali/roma/"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "suam-sportello-unico-per-l-accoglienza-migranti",
-          "name": "SUAM — Sportello Unico per l'Accoglienza Migranti",
-          "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Indirizzo:",
-                  "strong": true
-                },
-                {
-                  "text": " via Giovanni Mario Crescimbeni 25, Roma"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Numero verde:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "800 938 873",
-                  "href": "tel:800938873"
-                },
-                {
-                  "text": ", lunedì–venerdì 09:00–17:00; "
-                },
-                {
-                  "text": "email:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "sportellounico@immigrazione.roma.it",
-                  "href": "mailto:sportellounico@immigrazione.roma.it"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Orientamento sociale e accesso ai servizi per cittadini migranti. Telefona per sapere se serve appuntamento e quali documenti portare."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Roma Capitale — SUAM",
-                  "href": "https://www.comune.roma.it/web/it/scheda-servizi.page?contentId=INF38617&pagina=6"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "centro-astalli-orientamento-socio-legale",
-          "name": "Centro Astalli — orientamento socio-legale",
-          "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Indirizzo:",
-                  "strong": true
-                },
-                {
-                  "text": " via del Collegio Romano 1, Roma"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "06 6992 5099",
-                  "href": "tel:+390669925099"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Consulenza per richiedenti asilo e titolari di protezione, compresi procedura, documenti e ricorsi. Telefona per accesso e appuntamento."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Centro Astalli — orientamento socio-legale",
-                  "href": "https://www.centroastalli.it/servizi/centro-di-ascolto-e-orientamento-socio-legale/dove-siamo/"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "nucleo-assistenza-legale-caritas",
-          "name": "Nucleo Assistenza Legale Caritas",
-          "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Indirizzo:",
-                  "strong": true
-                },
-                {
-                  "text": " via Casilina Vecchia 19, Roma"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "06 8881 5766",
-                  "href": "tel:+390688815766"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "email:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "nalc@caritasroma.it",
-                  "href": "mailto:nalc@caritasroma.it"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Orientamento legale Caritas. Chiama per materie trattate e appuntamento."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Caritas Roma — assistenza legale",
-                  "href": "https://www.caritasroma.it/cosa-facciamo/ascolto/"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "patrocinio-a-spese-dello-stato",
-          "name": "Patrocinio a spese dello Stato",
-          "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Chi ha reddito sotto la soglia vigente può chiedere che le spese di un avvocato siano coperte dallo Stato nei procedimenti ammessi. La soglia e i documenti cambiano: verifica con un avvocato, l'Ordine o uno sportello legale."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ministero della Giustizia — patrocinio a spese dello Stato",
-                  "href": "https://www.giustizia.it/giustizia/page/it/patrocinio_a_spese_dello_stato_nei_giudizi_civili_e_amministrativi?tab=d"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "protezione",
-      "title": "12. Donne, minori, persone LGBTQIA+ e tratta",
-      "items": [
-        {
-          "type": "resource",
-          "id": "1522-violenza-e-stalking",
-          "name": "1522 — violenza e stalking",
-          "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Numero gratuito:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "1522",
-                  "href": "tel:1522"
-                },
-                {
-                  "text": ", 24 ore su 24; sono disponibili chat, app e più lingue."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Orientamento riservato ai centri antiviolenza e alle case rifugio. I centri pubblicati da Roma Capitale sono gratuiti e non richiedono residenza. Gli indirizzi protetti non vengono divulgati. In aggressione in corso chiama 112."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Roma Capitale — centri antiviolenza",
-                  "href": "https://www.comune.roma.it/web/it/centri-antiviolenza.page"
-                },
-                {
-                  "text": " · "
-                },
-                {
-                  "text": "Governo — 1522",
-                  "href": "https://www.pariopportunita.gov.it/it/news-e-media/media-e-campagne/campagna-di-comunicazione-contro-la-violenza-sulle-donne-1522-non-sei-sola/"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "114-emergenza-infanzia",
-          "name": "114 — emergenza infanzia",
-          "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Numero gratuito:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "114",
-                  "href": "tel:114"
-                },
-                {
-                  "text": ", 24 ore su 24; "
-                },
-                {
-                  "text": "WhatsApp:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "348 798 7845",
-                  "href": "tel:+393487987845"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Per minori abbandonati, maltrattati, sfruttati, scomparsi o in pericolo. È multilingue e può essere usato anche da un adulto che segnala. In pericolo immediato chiama anche 112."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Dipartimento Famiglia — 114",
-                  "href": "https://www.famiglia.governo.it/it/politiche-e-attivita/infanzia-e-adolescenza/114-emergenza-infanzia/"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "numero-verde-antitratta",
-          "name": "Numero Verde Antitratta",
-          "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Numero gratuito:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "800 290 290",
-                  "href": "tel:800290290"
-                },
-                {
-                  "text": ", 24 ore su 24, anonimo e multilingue."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Per sfruttamento sessuale, lavoro forzato, minacce, documenti trattenuti o controllo da parte di terzi. Può attivare protezione e servizi specializzati. Se il pericolo è immediato chiama 112."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Dipartimento Pari Opportunità — numero antitratta",
-                  "href": "https://www.pariopportunita.gov.it/it/politiche-e-attivita/tratta-degli-esseri-umani-e-grave-sfruttamento/numero-verde-antitratta/"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "gay-help-line-e-refuge-lgbt",
-          "name": "Gay Help Line e Refuge LGBT",
-          "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Numero verde:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "800 713 713",
-                  "href": "tel:800713713"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ascolto, consulenza e orientamento per persone LGBTQIA+ vittime di violenza, discriminazione o rifiuto familiare. Refuge offre percorsi di protezione e accoglienza per persone dai 16 anni, dopo valutazione; l'indirizzo protetto non è pubblicato."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Il telefono è indicato lunedì–sabato 16:00–20:00; controlla anche la chat. Un contatto non garantisce una stanza immediata."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Gay Help Line — Refuge LGBT",
-                  "href": "https://gayhelpline.it/refuge/"
-                },
-                {
-                  "text": " · "
-                },
-                {
-                  "text": "servizi e orari",
-                  "href": "https://gayhelpline.it/informazioni-internazionali-sui-servizi/"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "caritas-supporto-per-persone-transgender",
-          "name": "Caritas — supporto per persone transgender",
-          "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Riferimento:",
-                  "strong": true
-                },
-                {
-                  "text": " via delle Zoccolette 19, Roma"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Caritas Roma ha attivato orientamento e accompagnamento per persone transgender in condizioni di vulnerabilità. Contatta il Centro Migranti al "
-                },
-                {
-                  "text": "06 8881 5300",
-                  "href": "tel:+390688815300"
-                },
-                {
-                  "text": " per sapere come accedere."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Caritas Roma — progetto di inclusione",
-                  "href": "https://www.caritasroma.it/2025/05/un-progetto-per-linclusione-al-fianco-delle-persone-transgender/"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "mamma-con-figli-o-minore-solo",
-          "name": "Mamma con figli o minore solo",
-          "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Chiama la Sala Operativa Sociale al "
-                },
-                {
-                  "text": "800 440 022",
-                  "href": "tel:800440022"
-                },
-                {
-                  "text": " e specifica subito età dei minori, dove vi trovate e ogni rischio. Per un minore non accompagnato o in pericolo usa anche 114; per violenza usa 1522 o 112."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Roma Capitale — guida ai servizi sociosanitari",
-                  "href": "https://www.comune.roma.it/web-resources/cms/documents/Guida_facile_ai_servizi_socio_sanitari.pdf"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "fragilita",
-      "title": "13. Disabilità, anziani ed ex detenuti",
-      "items": [
-        {
-          "type": "resource",
-          "id": "disabilita-o-mobilita-ridotta",
-          "name": "Disabilità o mobilità ridotta",
-          "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Dillo subito alla Sala Operativa Sociale e chiedi una struttura accessibile, non solo un posto generico. Per valutazione sociosanitaria, assistenza e certificazioni contatta il PUA del Municipio tramite 060606."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Sala Operativa Sociale",
-                  "href": "https://www.comune.roma.it/web/it/scheda-servizi.page?contentId=INF38628&stem=pover_dis_adulti_sen_dimora"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "anziani-soli-e-assistenza-domiciliare",
-          "name": "Anziani soli e assistenza domiciliare",
-          "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "La Sala Operativa Sociale interviene anche in situazioni di solitudine e grave fragilità. Per una presa in carico continuativa chiedi il Segretariato Sociale o PUA del Municipio; per malore chiama 112."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Roma Capitale — guida facile ai servizi",
-                  "href": "https://www.comune.roma.it/web-resources/cms/documents/Guida_facile_ai_servizi_socio_sanitari.pdf"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "persone-in-uscita-dal-carcere",
-          "name": "Persone in uscita dal carcere",
-          "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Alloggio Caritas:",
-                  "strong": true
-                },
-                {
-                  "text": " via Monte Velino 30, Roma"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "06 4062 508",
-                  "href": "tel:+39064062508"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Caritas gestisce servizi per detenuti ed ex detenuti e una struttura dedicata. Il percorso richiede invio e valutazione; chiedi al servizio sociale del carcere di organizzare documenti, salute e alloggio prima dell'uscita."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Caritas Roma — accoglienza",
-                  "href": "https://www.caritasroma.it/cosa-facciamo/accoglienza/"
-                },
-                {
-                  "text": " · "
-                },
-                {
-                  "text": "servizi per detenuti ed ex detenuti",
-                  "href": "https://www.caritasroma.it/cosa-facciamo/ascolto/"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "dimissione-dall-ospedale-o-da-una-struttura",
-          "name": "Dimissione dall'ospedale o da una struttura",
-          "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Prima dell'uscita chiedi un colloquio con il servizio sociale e un piano scritto: farmaci, controlli, documenti, trasporto e luogo sicuro. L'ospedale può coordinarsi con Municipio e Sala Operativa Sociale; non aspettare l'ultima ora."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Roma Capitale — rete di emergenza sociale",
-                  "href": "https://www.comune.roma.it/web/it/scheda-servizi.page?contentId=INF38628&stem=pover_dis_adulti_sen_dimora"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "animali",
-      "title": "14. Aiuto con animali",
-      "items": [
-        {
-          "type": "resource",
-          "id": "quando-chiedi-un-posto-letto",
-          "name": "Quando chiedi un posto letto",
-          "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Dichiara subito specie, taglia, trasportino o guinzaglio e bisogni veterinari. Non lasciare l'animale legato fuori da una struttura e non presumere che un dormitorio lo accetti. Chiedi alla SOS un'opzione compatibile o un'alternativa sicura."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Sala Operativa Sociale",
-                  "href": "https://www.comune.roma.it/web/it/scheda-servizi.page?contentId=INF38628&stem=pover_dis_adulti_sen_dimora"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "ambulatorio-veterinario-sociale-lav",
-          "name": "Ambulatorio veterinario sociale LAV",
-          "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "L'ambulatorio LAV offre cure veterinarie sociali, ma non è ad accesso libero: i beneficiari vengono segnalati attraverso il programma di sostegno con Sant'Egidio. Chiedi a Sant'Egidio o a un servizio sociale se puoi essere inserito."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "LAV — ambulatorio veterinario sociale",
-                  "href": "https://www.lav.it/scopri-cosa-facciamo/veterinaria-sociale/ambulatorio-veterinario-lav"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "presidio-veterinario-mobile",
-          "name": "Presidio veterinario mobile",
-          "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "LAV e Sant'Egidio organizzano a Roma giornate con unità mobile veterinaria per animali di persone in difficoltà. Le visite sono programmate, non un pronto soccorso continuo: consulta calendario e modalità."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "LAV — presidio mobile a Roma",
-                  "href": "https://www.lav.it/news/secondo-presidio-mobile-veterinario-a-roma"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "vetincentro-municipio-i",
-          "name": "VETinCentro — Municipio I",
-          "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Progetto per persone fragili residenti nel Municipio I, tramite servizi sociali, con voucher per prestazioni veterinarie di base. Non è aperto automaticamente a tutta Roma; chiedi al PUA o al Segretariato Sociale."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Roma Capitale — VETinCentro",
-                  "href": "https://www.comune.roma.it/web/it/notizia/municipio01-progetto-pilota-vetincentro.page"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "trasporti",
-      "title": "15. Trasporti e aeroporti",
-      "items": [
-        {
-          "type": "resource",
           "id": "agevolazione-atac-per-disoccupati",
-          "name": "Agevolazione ATAC per disoccupati",
+          "title": "Agevolazione ATAC per disoccupati",
+          "description": "ATAC pubblica un abbonamento mensile agevolato per residenti a Roma che rispettano requisiti di disoccupazione, dichiarazione di disponibilità e ISEE. Requisiti e prezzo possono cambiare: consulta la pagina prima di presentare la domanda.\nATAC — abbonamento agevolato disoccupati",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "ATAC pubblica un abbonamento mensile agevolato per residenti a Roma che rispettano requisiti di disoccupazione, dichiarazione di disponibilità e ISEE. Requisiti e prezzo possono cambiare: consulta la pagina prima di presentare la domanda."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "ATAC — abbonamento agevolato disoccupati",
-                  "href": "https://www.atac.roma.it/biglietti-e-abbonamenti/agevolato-disoccupati"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.atac.roma.it/biglietti-e-abbonamenti/agevolato-disoccupati",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "spostarsi-verso-un-servizio",
-          "name": "Spostarsi verso un servizio",
+          "title": "Spostarsi verso un servizio",
+          "description": "Prima di comprare un biglietto, telefona al servizio e conferma indirizzo, orario e accesso. Chiedi al PUA, centro diurno o associazione se esistono titoli agevolati o un aiuto per una visita essenziale; non è garantito.\nATAC — biglietti e abbonamenti",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Prima di comprare un biglietto, telefona al servizio e conferma indirizzo, orario e accesso. Chiedi al PUA, centro diurno o associazione se esistono titoli agevolati o un aiuto per una visita essenziale; non è garantito."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "ATAC — biglietti e abbonamenti",
-                  "href": "https://www.atac.roma.it/biglietti-e-abbonamenti"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.atac.roma.it/biglietti-e-abbonamenti",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "aeroporto-di-ciampino-bus-520-e-720",
-          "name": "Aeroporto di Ciampino — bus 520 e 720",
+          "title": "Aeroporto di Ciampino — bus 520 e 720",
+          "description": "Le linee ATAC 520 e 720 collegano l'aeroporto rispettivamente con metro A Subaugusta e metro B Laurentina. I titoli Metrebus Roma zona A sono validi, secondo ATAC. Verifica deviazioni e ultimo servizio.\nATAC — titoli validi per Ciampino · rete e collegamenti — https://www.atac.roma.it/tempo-reale/la-rete-del-trasporto-pubblico-di-roma---gestori-e-tariffazione",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Le linee ATAC 520 e 720 collegano l'aeroporto rispettivamente con metro A Subaugusta e metro B Laurentina. I titoli Metrebus Roma zona A sono validi, secondo ATAC. Verifica deviazioni e ultimo servizio."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "ATAC — titoli validi per Ciampino",
-                  "href": "https://www.atac.roma.it/frequently-asked-questions/posso-utilizzare-il-bit--i-biglietti-turistici-o-l-abbonamento-annuale-metrebus-roma-per-viaggiare-tra-roma-e-l-aeroporto-di-ciampino"
-                },
-                {
-                  "text": " · "
-                },
-                {
-                  "text": "rete e collegamenti",
-                  "href": "https://www.atac.roma.it/tempo-reale/la-rete-del-trasporto-pubblico-di-roma---gestori-e-tariffazione"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.atac.roma.it/frequently-asked-questions/posso-utilizzare-il-bit--i-biglietti-turistici-o-l-abbonamento-annuale-metrebus-roma-per-viaggiare-tra-roma-e-l-aeroporto-di-ciampino",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "aeroporto-di-fiumicino-confrontare-le-opzioni",
-          "name": "Aeroporto di Fiumicino — confrontare le opzioni",
+          "title": "Aeroporto di Fiumicino — confrontare le opzioni",
+          "description": "Leonardo Express collega Termini e Fiumicino senza fermate; FL1 e bus Cotral possono essere più adatti o economici a seconda della zona. Controlla sempre prezzo, fermata e orario ufficiali prima dell'acquisto.\nTrenitalia — Leonardo Express · Cotral — rete e servizi 2026 — https://cotralspa.it/wp-content/uploads/2026/03/COTRAL_CARTA-DEI-SERVIZI_26.pdf",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Leonardo Express collega Termini e Fiumicino senza fermate; FL1 e bus Cotral possono essere più adatti o economici a seconda della zona. Controlla sempre prezzo, fermata e orario ufficiali prima dell'acquisto."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Trenitalia — Leonardo Express",
-                  "href": "https://www.trenitalia.com/it/regionale/collegamenti-regionale/leonardo-express.html"
-                },
-                {
-                  "text": " · "
-                },
-                {
-                  "text": "Cotral — rete e servizi 2026",
-                  "href": "https://cotralspa.it/wp-content/uploads/2026/03/COTRAL_CARTA-DEI-SERVIZI_26.pdf"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.trenitalia.com/it/regionale/collegamenti-regionale/leonardo-express.html",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "se-sei-bloccato-di-notte",
-          "name": "Se sei bloccato di notte",
+          "title": "Se sei bloccato di notte",
+          "description": "Una stazione o un aeroporto non sono posti sicuri né garantiti per dormire. Chiama la Sala Operativa Sociale al 800 440 022; in pericolo immediato usa 112. Non accettare passaggi o alloggi in cambio di documenti, lavoro o prestazioni.\nRoma Capitale — assistenza sociale 24 ore",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Una stazione o un aeroporto non sono posti sicuri né garantiti per dormire. Chiama la Sala Operativa Sociale al "
-                },
-                {
-                  "text": "800 440 022",
-                  "href": "tel:800440022"
-                },
-                {
-                  "text": "; in pericolo immediato usa 112. Non accettare passaggi o alloggi in cambio di documenti, lavoro o prestazioni."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Roma Capitale — assistenza sociale 24 ore",
-                  "href": "https://www.comune.roma.it/web/it/scheda-servizi.page?contentId=INF38628&stem=pover_dis_adulti_sen_dimora"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "800440022",
+          "website": "https://www.comune.roma.it/web/it/scheda-servizi.page?contentId=INF38628&stem=pover_dis_adulti_sen_dimora",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
-      "id": "verifica",
-      "title": "16. Verifica, sicurezza e correzioni",
-      "items": [
+      "id": "benefits",
+      "title": "Welfare, contributi e casa",
+      "entries": [
         {
-          "type": "resource",
+          "id": "punto-unico-di-accesso-e-segretariato-sociale",
+          "title": "Punto Unico di Accesso e Segretariato Sociale",
+          "description": "Il PUA e il Segretariato Sociale del Municipio sono la porta per una valutazione sociale, assistenza domiciliare, disabilità, anziani, minori, emergenza abitativa e collegamento con la ASL.\nChiama 06 06 06 e chiedi il PUA del Municipio in cui ti trovi. Porta documento, codice fiscale, ISEE e certificazioni se li hai; la mancanza va spiegata, non nascosta. — tel:+39060606\nRoma Capitale — esempio di Punto Unico di Accesso",
+          "last_verified": "2026-11-12",
+          "address": "",
+          "phone": "+39060606",
+          "website": "https://www.comune.roma.it/web/it/dettaglio.page?contentId=UFF27762",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "assegno-di-inclusione-adi",
+          "title": "Assegno di Inclusione — ADI",
+          "description": "Misura INPS per nuclei che rispettano requisiti economici, di residenza e di composizione, inclusa la presenza di minori, persone con disabilità, persone di almeno 60 anni o condizioni di svantaggio riconosciute.\nDomanda tramite INPS o patronato. Non pagare intermediari non autorizzati e non considerare l'accoglimento automatico.\nINPS — Assegno di Inclusione",
+          "last_verified": "2026-11-12",
+          "address": "",
+          "phone": "",
+          "website": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.assegno-di-inclusione-adi.html",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "supporto-per-la-formazione-e-il-lavoro-sfl",
+          "title": "Supporto per la Formazione e il Lavoro — SFL",
+          "description": "Misura nazionale collegata alla partecipazione a percorsi di attivazione lavorativa o formazione per persone che rispettano età, reddito e altri requisiti. Chiedi a un patronato o al Centro per l'Impiego; l'iscrizione da sola non garantisce il sostegno.\nINPS — Supporto per la Formazione e il Lavoro",
+          "last_verified": "2026-11-12",
+          "address": "",
+          "phone": "",
+          "website": "https://www.inps.it/it/it/inps-comunica/dossier/decreto-lavoro--cosa-cambia/supporto-per-la-formazione-e-il-lavoro.html",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "contributi-e-sostegno-abitativo",
+          "title": "Contributi e sostegno abitativo",
+          "description": "Roma Capitale pubblica bandi e servizi per casa, morosità e contributi. Le finestre di domanda cambiano: verifica che un avviso sia aperto e leggine requisiti, data e Municipio.\nRoma Capitale — contributi e sostegno abitativo",
+          "last_verified": "2026-11-12",
+          "address": "",
+          "phone": "",
+          "website": "https://www.comune.roma.it/web/it/servizi.page?stem=contintervsostabit&tem=casa",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "centro-astalli-supporto-all-abitare",
+          "title": "Centro Astalli — supporto all'abitare",
+          "description": "Telefono per appuntamento: 333 207 9209.\nSportello per persone straniere con titolo di soggiorno valido: ricerca abitativa, orientamento e prevenzione di truffe. Gli orari pubblicati sono mercoledì 14:00–17:00 in via del Collegio Romano 1 e giovedì 09:00–13:00 e 14:00–18:00 in via degli Astalli 13; conferma prima.\nCentro Astalli — supporto all'abitare",
+          "last_verified": "2026-11-12",
+          "address": "",
+          "phone": "+393332079209",
+          "website": "https://www.centroastalli.it/punto-di-informazione-e-supporto-allabitare/",
+          "hours": "",
+          "how_to_access": ""
+        }
+      ]
+    },
+    {
+      "id": "employment",
+      "title": "Lavoro e formazione",
+      "entries": [
+        {
+          "id": "centri-per-l-impiego-del-lazio",
+          "title": "Centri per l'Impiego del Lazio",
+          "description": "Call center: 06 9977 4201, lunedì–venerdì 08:30–17:00; email: callcenterimpiego@regione.lazio.it. — mailto:callcenterimpiego@regione.lazio.it\nIscrizione, dichiarazione di disponibilità, orientamento, offerte e programmi di formazione. Chiedi quale sede serve per il tuo domicilio e se occorre appuntamento.\nRegione Lazio — Centri per l'Impiego",
+          "last_verified": "2026-11-12",
+          "address": "",
+          "phone": "+390699774201",
+          "website": "https://regione.lazio.it/cittadini/lavoro/centri-impiego",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "cpi-roma-testaccio-porta-futuro",
+          "title": "CPI Roma Testaccio — Porta Futuro",
+          "description": "La tabella regionale 2026 indica apertura lunedì, mercoledì e venerdì 09:00–12:30; martedì e giovedì anche 14:45–16:45, con appuntamento per il pomeriggio. Conferma prima.\nRegione Lazio — sedi e orari 2026",
+          "last_verified": "2026-11-12",
+          "address": "Indirizzo: via Galvani 108, Roma",
+          "phone": "",
+          "website": "https://www.regione.lazio.it/sites/default/files/2026-01/Lazio-centro-orari-con-tabelle-23-01-2026.pdf",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "cpi-roma-cinecitta",
+          "title": "CPI Roma Cinecittà",
+          "description": "La tabella regionale 2026 indica apertura mattutina dal lunedì al venerdì e pomeriggio martedì e giovedì. Chiama il call center per appuntamento e documenti.\nRegione Lazio — elenco Centri per l'Impiego",
+          "last_verified": "2026-11-12",
+          "address": "Indirizzo: viale Rolando Vignali 14, Roma",
+          "phone": "",
+          "website": "https://www.regione.lazio.it/cittadini/lavoro/centri-per-impiego",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "programma-gol-e-offerte-regionali",
+          "title": "Programma GOL e offerte regionali",
+          "description": "GOL può offrire orientamento, aggiornamento o riqualificazione dopo valutazione al Centro per l'Impiego. Le offerte ufficiali regionali sono gratuite: nessun datore serio deve chiedere denaro per candidarsi.\nRegione Lazio — programma GOL · offerte e avvisi — https://www.regione.lazio.it/cittadini/lavoro/offerte-di-lavoro-bandi-avvisi",
+          "last_verified": "2026-11-12",
+          "address": "",
+          "phone": "",
+          "website": "https://www.regione.lazio.it/cittadini/lavoro/Gol-Garanzia-Occupabilita-Lavoratori",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "centro-caritas-migranti-lavoro-e-italiano",
+          "title": "Centro Caritas Migranti — lavoro e italiano",
+          "description": "Telefono: 06 8881 5300.\nOrientamento al lavoro, scuola di italiano, assistenza sociale e legale per migranti e rifugiati. Telefona per primo colloquio e calendario.\nCaritas Roma — Centro di ascolto migranti",
+          "last_verified": "2026-11-12",
+          "address": "Indirizzo: via delle Zoccolette 19, Roma",
+          "phone": "+390688815300",
+          "website": "https://www.caritasroma.it/cosa-facciamo/ascolto/",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "evitare-sfruttamento-e-truffe",
+          "title": "Evitare sfruttamento e truffe",
+          "description": "Non pagare per ottenere un contratto. Non consegnare il passaporto originale a un datore o intermediario. Chiedi copia scritta di contratto, orari, paga e alloggio. Se ci sono minacce, lavoro forzato o controllo dei documenti, usa il numero antitratta 800 290 290.\nDipartimento Pari Opportunità — numero antitratta",
+          "last_verified": "2026-11-12",
+          "address": "",
+          "phone": "800290290",
+          "website": "https://www.pariopportunita.gov.it/it/politiche-e-attivita/tratta-degli-esseri-umani-e-grave-sfruttamento/numero-verde-antitratta/",
+          "hours": "",
+          "how_to_access": ""
+        }
+      ]
+    },
+    {
+      "id": "legal",
+      "title": "Aiuto legale e migrazione",
+      "entries": [
+        {
+          "id": "avvocato-di-strada-roma",
+          "title": "Avvocato di strada — Roma",
+          "description": "Orario pubblicato: martedì e giovedì 15:00–17:00, senza appuntamento; email: roma@avvocatodistrada.it. — mailto:roma@avvocatodistrada.it\nAssistenza legale gratuita per persone senza dimora. Porta lettere, denunce, verbali, scadenze e documenti disponibili. Conferma il turno prima di partire.\nAvvocato di strada — sede di Roma",
+          "last_verified": "2026-11-12",
+          "address": "Sportello: INMP, via delle Fratte di Trastevere 52, Roma",
+          "phone": "",
+          "website": "https://www.avvocatodistrada.it/sedi-locali/roma/",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "suam-sportello-unico-per-l-accoglienza-migranti",
+          "title": "SUAM — Sportello Unico per l'Accoglienza Migranti",
+          "description": "Numero verde: 800 938 873, lunedì–venerdì 09:00–17:00; email: sportellounico@immigrazione.roma.it. — mailto:sportellounico@immigrazione.roma.it\nOrientamento sociale e accesso ai servizi per cittadini migranti. Telefona per sapere se serve appuntamento e quali documenti portare.\nRoma Capitale — SUAM",
+          "last_verified": "2026-11-12",
+          "address": "Indirizzo: via Giovanni Mario Crescimbeni 25, Roma",
+          "phone": "800938873",
+          "website": "https://www.comune.roma.it/web/it/scheda-servizi.page?contentId=INF38617&pagina=6",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "centro-astalli-orientamento-socio-legale",
+          "title": "Centro Astalli — orientamento socio-legale",
+          "description": "Telefono: 06 6992 5099.\nConsulenza per richiedenti asilo e titolari di protezione, compresi procedura, documenti e ricorsi. Telefona per accesso e appuntamento.\nCentro Astalli — orientamento socio-legale",
+          "last_verified": "2026-11-12",
+          "address": "Indirizzo: via del Collegio Romano 1, Roma",
+          "phone": "+390669925099",
+          "website": "https://www.centroastalli.it/servizi/centro-di-ascolto-e-orientamento-socio-legale/dove-siamo/",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "nucleo-assistenza-legale-caritas",
+          "title": "Nucleo Assistenza Legale Caritas",
+          "description": "Telefono: 06 8881 5766; email: nalc@caritasroma.it. — mailto:nalc@caritasroma.it\nOrientamento legale Caritas. Chiama per materie trattate e appuntamento.\nCaritas Roma — assistenza legale",
+          "last_verified": "2026-11-12",
+          "address": "Indirizzo: via Casilina Vecchia 19, Roma",
+          "phone": "+390688815766",
+          "website": "https://www.caritasroma.it/cosa-facciamo/ascolto/",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "patrocinio-a-spese-dello-stato",
+          "title": "Patrocinio a spese dello Stato",
+          "description": "Chi ha reddito sotto la soglia vigente può chiedere che le spese di un avvocato siano coperte dallo Stato nei procedimenti ammessi. La soglia e i documenti cambiano: verifica con un avvocato, l'Ordine o uno sportello legale.\nMinistero della Giustizia — patrocinio a spese dello Stato",
+          "last_verified": "2026-11-12",
+          "address": "",
+          "phone": "",
+          "website": "https://www.giustizia.it/giustizia/page/it/patrocinio_a_spese_dello_stato_nei_giudizi_civili_e_amministrativi?tab=d",
+          "hours": "",
+          "how_to_access": ""
+        }
+      ]
+    },
+    {
+      "id": "documents",
+      "title": "Documenti, residenza e posta",
+      "entries": [
+        {
+          "id": "residenza-per-persone-senza-dimora-via-modesta-valenti",
+          "title": "Residenza per persone senza dimora — via Modesta Valenti",
+          "description": "Chi vive stabilmente a Roma senza un alloggio può chiedere l'iscrizione anagrafica all'indirizzo convenzionale via Modesta Valenti presso il Municipio competente. Dal 2024 la domanda si presenta direttamente all'anagrafe municipale, dichiarando domicilio e modalità per essere rintracciati.\nPorta un documento valido e i moduli richiesti; se non li hai, chiama 06 06 06 o chiedi supporto legale prima di presentarti. — tel:+39060606\nRoma Capitale — nuova procedura via Modesta Valenti · procedimento e documenti — https://www.comune.roma.it/web/it/notizia.page?contentId=NWS1181001",
+          "last_verified": "2026-11-12",
+          "address": "",
+          "phone": "+39060606",
+          "website": "https://www.comune.roma.it/web/it/amministrazione-trasparente-procedimenti-amministrativi-municipi.page?contentId=PRC276197",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "posta-nei-municipi",
+          "title": "Posta nei Municipi",
+          "description": "Roma Capitale ha esteso ai 15 Municipi il recapito della corrispondenza per iscritti in via Modesta Valenti. La posta può essere conservata per un periodo massimo pubblicato di due anni.\nChiedi al Municipio indirizzo, giorni di ritiro e documento necessario. Controlla regolarmente: scadenze di INPS, tribunale, immigrazione o sanità possono essere brevi.\nRoma Capitale — residenza e servizio posta",
+          "last_verified": "2026-11-12",
+          "address": "",
+          "phone": "",
+          "website": "https://www.comune.roma.it/web/it/notizia.page?contentId=NWS1181001",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "carta-d-identita-elettronica-senza-documento-precedente",
+          "title": "Carta d'identità elettronica senza documento precedente",
+          "description": "Per chiedere la CIE, l'anagrafe indica procedure anche in caso di furto, smarrimento o mancanza di altro documento; possono servire denuncia e due testimoni. Telefona al 060606 per la situazione esatta e la sede.\nRoma Capitale — CIE, documenti e casi particolari",
+          "last_verified": "2026-11-12",
+          "address": "",
+          "phone": "",
+          "website": "https://www.comune.roma.it/web/it/scheda-servizi.page?contentId=INF36126&pagina=3",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "centro-astalli-recapito-della-posta",
+          "title": "Centro Astalli — recapito della posta",
+          "description": "Richiedenti asilo e rifugiati registrati possono chiedere di ricevere posta al Centro, oltre a orientamento per permesso di soggiorno e servizi. Non usare l'indirizzo senza accordo con l'accettazione.\nCentro Astalli — posta e accettazione",
+          "last_verified": "2026-11-12",
+          "address": "Indirizzo: via degli Astalli 14/a, Roma",
+          "phone": "",
+          "website": "https://www.centroastalli.it/servizi/accettazione/",
+          "hours": "",
+          "how_to_access": ""
+        }
+      ]
+    },
+    {
+      "id": "mail",
+      "title": "Mailing address",
+      "entries": []
+    },
+    {
+      "id": "storage",
+      "title": "Storage",
+      "entries": []
+    },
+    {
+      "id": "safety",
+      "title": "Donne, minori, persone LGBTQIA+ e tratta",
+      "entries": [
+        {
+          "id": "1522-violenza-e-stalking",
+          "title": "1522 — violenza e stalking",
+          "description": "Numero gratuito: 1522, 24 ore su 24; sono disponibili chat, app e più lingue.\nOrientamento riservato ai centri antiviolenza e alle case rifugio. I centri pubblicati da Roma Capitale sono gratuiti e non richiedono residenza. Gli indirizzi protetti non vengono divulgati. In aggressione in corso chiama 112.\nRoma Capitale — centri antiviolenza · Governo — 1522 — https://www.comune.roma.it/web/it/centri-antiviolenza.page",
+          "last_verified": "2026-11-12",
+          "address": "",
+          "phone": "1522",
+          "website": "https://www.pariopportunita.gov.it/it/news-e-media/media-e-campagne/campagna-di-comunicazione-contro-la-violenza-sulle-donne-1522-non-sei-sola/",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "114-emergenza-infanzia",
+          "title": "114 — emergenza infanzia",
+          "description": "Numero gratuito: 114, 24 ore su 24; WhatsApp: 348 798 7845.\nPer minori abbandonati, maltrattati, sfruttati, scomparsi o in pericolo. È multilingue e può essere usato anche da un adulto che segnala. In pericolo immediato chiama anche 112.\nDipartimento Famiglia — 114",
+          "last_verified": "2026-11-12",
+          "address": "",
+          "phone": "114",
+          "website": "https://www.famiglia.governo.it/it/politiche-e-attivita/infanzia-e-adolescenza/114-emergenza-infanzia/",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "numero-verde-antitratta",
+          "title": "Numero Verde Antitratta",
+          "description": "Numero gratuito: 800 290 290, 24 ore su 24, anonimo e multilingue.\nPer sfruttamento sessuale, lavoro forzato, minacce, documenti trattenuti o controllo da parte di terzi. Può attivare protezione e servizi specializzati. Se il pericolo è immediato chiama 112.\nDipartimento Pari Opportunità — numero antitratta",
+          "last_verified": "2026-11-12",
+          "address": "",
+          "phone": "800290290",
+          "website": "https://www.pariopportunita.gov.it/it/politiche-e-attivita/tratta-degli-esseri-umani-e-grave-sfruttamento/numero-verde-antitratta/",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "gay-help-line-e-refuge-lgbt",
+          "title": "Gay Help Line e Refuge LGBT",
+          "description": "Numero verde: 800 713 713.\nAscolto, consulenza e orientamento per persone LGBTQIA+ vittime di violenza, discriminazione o rifiuto familiare. Refuge offre percorsi di protezione e accoglienza per persone dai 16 anni, dopo valutazione; l'indirizzo protetto non è pubblicato.\nIl telefono è indicato lunedì–sabato 16:00–20:00; controlla anche la chat. Un contatto non garantisce una stanza immediata.\nGay Help Line — Refuge LGBT · servizi e orari — https://gayhelpline.it/informazioni-internazionali-sui-servizi/",
+          "last_verified": "2026-11-12",
+          "address": "",
+          "phone": "800713713",
+          "website": "https://gayhelpline.it/refuge/",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "caritas-supporto-per-persone-transgender",
+          "title": "Caritas — supporto per persone transgender",
+          "description": "Caritas Roma ha attivato orientamento e accompagnamento per persone transgender in condizioni di vulnerabilità. Contatta il Centro Migranti al 06 8881 5300 per sapere come accedere.\nCaritas Roma — progetto di inclusione",
+          "last_verified": "2026-11-12",
+          "address": "Riferimento: via delle Zoccolette 19, Roma",
+          "phone": "+390688815300",
+          "website": "https://www.caritasroma.it/2025/05/un-progetto-per-linclusione-al-fianco-delle-persone-transgender/",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "mamma-con-figli-o-minore-solo",
+          "title": "Mamma con figli o minore solo",
+          "description": "Chiama la Sala Operativa Sociale al 800 440 022 e specifica subito età dei minori, dove vi trovate e ogni rischio. Per un minore non accompagnato o in pericolo usa anche 114; per violenza usa 1522 o 112.\nRoma Capitale — guida ai servizi sociosanitari",
+          "last_verified": "2026-11-12",
+          "address": "",
+          "phone": "800440022",
+          "website": "https://www.comune.roma.it/web-resources/cms/documents/Guida_facile_ai_servizi_socio_sanitari.pdf",
+          "hours": "",
+          "how_to_access": ""
+        }
+      ]
+    },
+    {
+      "id": "specialist-support",
+      "title": "Disabilità, anziani ed ex detenuti",
+      "entries": [
+        {
+          "id": "disabilita-o-mobilita-ridotta",
+          "title": "Disabilità o mobilità ridotta",
+          "description": "Dillo subito alla Sala Operativa Sociale e chiedi una struttura accessibile, non solo un posto generico. Per valutazione sociosanitaria, assistenza e certificazioni contatta il PUA del Municipio tramite 060606.\nSala Operativa Sociale",
+          "last_verified": "2026-11-12",
+          "address": "",
+          "phone": "",
+          "website": "https://www.comune.roma.it/web/it/scheda-servizi.page?contentId=INF38628&stem=pover_dis_adulti_sen_dimora",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "anziani-soli-e-assistenza-domiciliare",
+          "title": "Anziani soli e assistenza domiciliare",
+          "description": "La Sala Operativa Sociale interviene anche in situazioni di solitudine e grave fragilità. Per una presa in carico continuativa chiedi il Segretariato Sociale o PUA del Municipio; per malore chiama 112.\nRoma Capitale — guida facile ai servizi",
+          "last_verified": "2026-11-12",
+          "address": "",
+          "phone": "",
+          "website": "https://www.comune.roma.it/web-resources/cms/documents/Guida_facile_ai_servizi_socio_sanitari.pdf",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "persone-in-uscita-dal-carcere",
+          "title": "Persone in uscita dal carcere",
+          "description": "Telefono: 06 4062 508.\nCaritas gestisce servizi per detenuti ed ex detenuti e una struttura dedicata. Il percorso richiede invio e valutazione; chiedi al servizio sociale del carcere di organizzare documenti, salute e alloggio prima dell'uscita.\nCaritas Roma — accoglienza · servizi per detenuti ed ex detenuti — https://www.caritasroma.it/cosa-facciamo/ascolto/",
+          "last_verified": "2026-11-12",
+          "address": "Alloggio Caritas: via Monte Velino 30, Roma",
+          "phone": "+39064062508",
+          "website": "https://www.caritasroma.it/cosa-facciamo/accoglienza/",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "dimissione-dall-ospedale-o-da-una-struttura",
+          "title": "Dimissione dall'ospedale o da una struttura",
+          "description": "Prima dell'uscita chiedi un colloquio con il servizio sociale e un piano scritto: farmaci, controlli, documenti, trasporto e luogo sicuro. L'ospedale può coordinarsi con Municipio e Sala Operativa Sociale; non aspettare l'ultima ora.\nRoma Capitale — rete di emergenza sociale",
+          "last_verified": "2026-11-12",
+          "address": "",
+          "phone": "",
+          "website": "https://www.comune.roma.it/web/it/scheda-servizi.page?contentId=INF38628&stem=pover_dis_adulti_sen_dimora",
+          "hours": "",
+          "how_to_access": ""
+        }
+      ]
+    },
+    {
+      "id": "veterans",
+      "title": "Veterans support",
+      "entries": []
+    },
+    {
+      "id": "pets",
+      "title": "Aiuto con animali",
+      "entries": [
+        {
+          "id": "quando-chiedi-un-posto-letto",
+          "title": "Quando chiedi un posto letto",
+          "description": "Dichiara subito specie, taglia, trasportino o guinzaglio e bisogni veterinari. Non lasciare l'animale legato fuori da una struttura e non presumere che un dormitorio lo accetti. Chiedi alla SOS un'opzione compatibile o un'alternativa sicura.\nSala Operativa Sociale",
+          "last_verified": "2026-11-12",
+          "address": "",
+          "phone": "",
+          "website": "https://www.comune.roma.it/web/it/scheda-servizi.page?contentId=INF38628&stem=pover_dis_adulti_sen_dimora",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "ambulatorio-veterinario-sociale-lav",
+          "title": "Ambulatorio veterinario sociale LAV",
+          "description": "L'ambulatorio LAV offre cure veterinarie sociali, ma non è ad accesso libero: i beneficiari vengono segnalati attraverso il programma di sostegno con Sant'Egidio. Chiedi a Sant'Egidio o a un servizio sociale se puoi essere inserito.\nLAV — ambulatorio veterinario sociale",
+          "last_verified": "2026-11-12",
+          "address": "",
+          "phone": "",
+          "website": "https://www.lav.it/scopri-cosa-facciamo/veterinaria-sociale/ambulatorio-veterinario-lav",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "presidio-veterinario-mobile",
+          "title": "Presidio veterinario mobile",
+          "description": "LAV e Sant'Egidio organizzano a Roma giornate con unità mobile veterinaria per animali di persone in difficoltà. Le visite sono programmate, non un pronto soccorso continuo: consulta calendario e modalità.\nLAV — presidio mobile a Roma",
+          "last_verified": "2026-11-12",
+          "address": "",
+          "phone": "",
+          "website": "https://www.lav.it/news/secondo-presidio-mobile-veterinario-a-roma",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "vetincentro-municipio-i",
+          "title": "VETinCentro — Municipio I",
+          "description": "Progetto per persone fragili residenti nel Municipio I, tramite servizi sociali, con voucher per prestazioni veterinarie di base. Non è aperto automaticamente a tutta Roma; chiedi al PUA o al Segretariato Sociale.\nRoma Capitale — VETinCentro",
+          "last_verified": "2026-11-12",
+          "address": "",
+          "phone": "",
+          "website": "https://www.comune.roma.it/web/it/notizia/municipio01-progetto-pilota-vetincentro.page",
+          "hours": "",
+          "how_to_access": ""
+        }
+      ]
+    },
+    {
+      "id": "other",
+      "title": "Verifica, sicurezza e correzioni",
+      "entries": [
+        {
           "id": "prima-di-partire",
-          "name": "Prima di partire",
+          "title": "Prima di partire",
+          "description": "- Telefona e chiedi: siete aperti oggi, posso entrare, serve invio, tessera o documento?\n- Chiedi l'indirizzo completo e come arrivare; annota nome dell'operatore e ora della chiamata.\n- Non pagare per un posto in un servizio pubblico o gratuito e non consegnare documenti originali a sconosciuti.\n- Se una persona è in pericolo, non aspettare l'orario di un'associazione: chiama 112.",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "list",
-              "items": [
-                [
-                  {
-                    "text": "Telefona e chiedi: siete aperti oggi, posso entrare, serve invio, tessera o documento?"
-                  }
-                ],
-                [
-                  {
-                    "text": "Chiedi l'indirizzo completo e come arrivare; annota nome dell'operatore e ora della chiamata."
-                  }
-                ],
-                [
-                  {
-                    "text": "Non pagare per un posto in un servizio pubblico o gratuito e non consegnare documenti originali a sconosciuti."
-                  }
-                ],
-                [
-                  {
-                    "text": "Se una persona è in pericolo, non aspettare l'orario di un'associazione: chiama 112."
-                  }
-                ]
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "altri-servizi-verificati",
-          "name": "Altri servizi verificati",
+          "title": "Altri servizi verificati",
+          "description": "Le mappe di Binario 95 e la guida DOVE di Sant'Egidio raccolgono più risorse di quante possano stare in questa pagina. Usa l'edizione più recente e verifica il singolo servizio.\nBinario 95 · Guide DOVE — https://www.binario95.it/",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Le mappe di Binario 95 e la guida DOVE di Sant'Egidio raccolgono più risorse di quante possano stare in questa pagina. Usa l'edizione più recente e verifica il singolo servizio."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Binario 95",
-                  "href": "https://www.binario95.it/"
-                },
-                {
-                  "text": " · "
-                },
-                {
-                  "text": "Guide DOVE",
-                  "href": "https://www.santegidio.org/pageID/30144/langID/it/Le-guide-DOVE.html"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.santegidio.org/pageID/30144/langID/it/Le-guide-DOVE.html",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "segnala-una-correzione",
-          "name": "Segnala una correzione",
+          "title": "Segnala una correzione",
+          "description": "Se un numero, indirizzo, orario o criterio non è più corretto, invia la fonte aggiornata. Non pubblicare nomi, fotografie o dati personali di persone che chiedono aiuto.\nApri una segnalazione su GitHub · come contribuire — ../../CONTRIBUTING.md",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Se un numero, indirizzo, orario o criterio non è più corretto, invia la fonte aggiornata. Non pubblicare nomi, fotografie o dati personali di persone che chiedono aiuto."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Apri una segnalazione su GitHub",
-                  "href": "https://github.com/carlosbranco/no-home-help/issues"
-                },
-                {
-                  "text": " · "
-                },
-                {
-                  "text": "come contribuire",
-                  "href": "../../CONTRIBUTING.md"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://github.com/carlosbranco/no-home-help/issues",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     }

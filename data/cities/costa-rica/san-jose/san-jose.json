@@ -1,6 +1,7 @@
 {
   "$schema": "https://nohomehelp.com/schemas/city.schema.json",
-  "schema_version": 1,
+  "documentation": "https://github.com/carlosbranco/no-home-help/blob/main/EDIT_CITY_JSON.md",
+  "schema_version": 2,
   "status": "published",
   "locale": {
     "language": "es",
@@ -26,3240 +27,779 @@
   "page": {
     "heading": "Ayuda para personas en situación de calle en San José",
     "last_verified": "2026-11-12",
-    "urgent": [
-      {
-        "type": "paragraph",
-        "content": [
-          {
-            "text": "Emergencias médicas, policía, bomberos o peligro inmediato:",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "9-1-1",
-            "href": "tel:911"
-          },
-          {
-            "break": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "Dormitorio Municipal:",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "2248-3654",
-            "href": "tel:+50622483654"
-          },
-          {
-            "break": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "IMAS:",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "800-000-4627",
-            "href": "tel:8000004627"
-          },
-          {
-            "break": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "Crisis emocional, Aquí Estoy:",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "800-273-7869",
-            "href": "tel:8002737869"
-          },
-          {
-            "break": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "Violencia contra una mujer:",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "9-1-1",
-            "href": "tel:911"
-          },
-          {
-            "text": "; "
-          },
-          {
-            "text": "derechos de las mujeres:",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "1125",
-            "href": "tel:1125"
-          },
-          {
-            "break": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "Protección de menores:",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "1147",
-            "href": "tel:1147"
-          },
-          {
-            "text": " o "
-          },
-          {
-            "text": "9-1-1",
-            "href": "tel:911"
-          }
-        ]
-      }
-    ],
-    "notice": [
-      {
-        "text": "Information can change. Call ahead when possible."
-      }
-    ],
-    "intro": [],
-    "footer": [
-      {
-        "type": "paragraph",
-        "content": [
-          {
-            "text": "No Home Help no es un servicio de emergencias y no garantiza la disponibilidad de recursos externos."
-          }
-        ]
-      }
-    ]
+    "urgent": "Emergencias médicas, policía, bomberos o peligro inmediato: 9-1-1 Dormitorio Municipal: 2248-3654 IMAS: 800-000-4627 Crisis emocional, Aquí Estoy: 800-273-7869 Violencia contra una mujer: 9-1-1; derechos de las mujeres: 1125 Protección de menores: 1147 o 9-1-1",
+    "notice": "Information can change. Call ahead when possible.",
+    "intro": "",
+    "footer": "No Home Help no es un servicio de emergencias y no garantiza la disponibilidad de recursos externos."
   },
   "categories": [
     {
-      "id": "que-hacer-hoy",
+      "id": "emergency",
       "title": "Qué hacer hoy",
-      "items": [
+      "entries": [
         {
-          "type": "ordered-list",
-          "items": [
-            [
-              {
-                "text": "Peligro o urgencia médica:",
-                "strong": true
-              },
-              {
-                "text": " llame al "
-              },
-              {
-                "text": "9-1-1",
-                "href": "tel:911"
-              },
-              {
-                "text": " y diga primero la ubicación exacta."
-              }
-            ],
-            [
-              {
-                "text": "Necesita dormir esta noche:",
-                "strong": true
-              },
-              {
-                "text": " llame al Dormitorio Municipal al "
-              },
-              {
-                "text": "2248-3654",
-                "href": "tel:+50622483654"
-              },
-              {
-                "text": ". Funciona de 18:00 a 06:00, pero la llamada no reserva una cama."
-              }
-            ],
-            [
-              {
-                "text": "Necesita comida, baño o ropa:",
-                "strong": true
-              },
-              {
-                "text": " pregunte en el Dormitorio Municipal, Caminando en Fe, Obra Social La Puerta Abierta o Fundación Magis. Confirme horario y capacidad antes de caminar hasta el lugar."
-              }
-            ],
-            [
-              {
-                "text": "Necesita ayuda económica o una ruta social:",
-                "strong": true
-              },
-              {
-                "text": " llame al IMAS al "
-              },
-              {
-                "text": "800-000-4627",
-                "href": "tel:8000004627"
-              },
-              {
-                "text": ". La ayuda depende de valoración, requisitos y presupuesto."
-              }
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "id": "urgent",
-      "title": "1. Ayuda urgente y orientación",
-      "items": [
+          "id": "que-hacer-hoy-information",
+          "title": "Qué hacer hoy",
+          "description": "1. Peligro o urgencia médica: llame al 9-1-1 y diga primero la ubicación exacta.\n2. Necesita dormir esta noche: llame al Dormitorio Municipal al 2248-3654. Funciona de 18:00 a 06:00, pero la llamada no reserva una cama.\n3. Necesita comida, baño o ropa: pregunte en el Dormitorio Municipal, Caminando en Fe, Obra Social La Puerta Abierta o Fundación Magis. Confirme horario y capacidad antes de caminar hasta el lugar.\n4. Necesita ayuda económica o una ruta social: llame al IMAS al 800-000-4627. La ayuda depende de valoración, requisitos y presupuesto.",
+          "last_verified": "2026-11-12",
+          "address": "",
+          "phone": "911",
+          "website": "",
+          "hours": "",
+          "how_to_access": ""
+        },
         {
-          "type": "resource",
           "id": "9-1-1-numero-unico-de-emergencias",
-          "name": "9-1-1 — número único de emergencias",
+          "title": "9-1-1 — número único de emergencias",
+          "description": "Teléfono: 9-1-1, las 24 horas.\nÚselo para una emergencia médica, violencia, incendio, delito en curso, sobredosis, pérdida de conciencia o peligro inmediato. Diga primero dónde está y qué ocurre. El 9-1-1 coordina la respuesta adecuada; no llame a los números administrativos esperando una ambulancia.\nCruz Roja Costarricense — emergencias",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Teléfono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "9-1-1",
-                  "href": "tel:911"
-                },
-                {
-                  "text": ", las 24 horas."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Úselo para una emergencia médica, violencia, incendio, delito en curso, sobredosis, pérdida de conciencia o peligro inmediato. Diga primero dónde está y qué ocurre. El 9-1-1 coordina la respuesta adecuada; no llame a los números administrativos esperando una ambulancia."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Cruz Roja Costarricense — emergencias",
-                  "href": "https://cruzroja.or.cr/es/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "911",
+          "website": "https://cruzroja.or.cr/es/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "municipalidad-de-san-jose-orientacion-general",
-          "name": "Municipalidad de San José — orientación general",
+          "title": "Municipalidad de San José — orientación general",
+          "description": "Central: 2547-6000. Horario publicado: lunes a jueves 07:30–16:00 y viernes 07:30–15:30.\nPida Servicios Sociales si necesita confirmar el Dormitorio Municipal, ayudas temporales, trabajo social, atención por violencia, empleo o una referencia. La central no reserva cupos ni aprueba beneficios.\nContacto municipal · Servicios Sociales — https://www.msj.go.cr/servciud/servsoci/Paginas/default.aspx",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Dirección:",
-                  "strong": true
-                },
-                {
-                  "text": " Avenida 10, Edificio José Figueres Ferrer, Los Silos, distrito Hospital"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Central:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "2547-6000",
-                  "href": "tel:+50625476000"
-                },
-                {
-                  "text": ". Horario publicado: lunes a jueves 07:30–16:00 y viernes 07:30–15:30."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Pida Servicios Sociales si necesita confirmar el Dormitorio Municipal, ayudas temporales, trabajo social, atención por violencia, empleo o una referencia. La central no reserva cupos ni aprueba beneficios."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Contacto municipal",
-                  "href": "https://msj.go.cr/cont/Paginas/default.aspx"
-                },
-                {
-                  "text": " · "
-                },
-                {
-                  "text": "Servicios Sociales",
-                  "href": "https://www.msj.go.cr/servciud/servsoci/Paginas/default.aspx"
-                }
-              ]
-            }
-          ]
+          "address": "Dirección: Avenida 10, Edificio José Figueres Ferrer, Los Silos, distrito Hospital",
+          "phone": "+50625476000",
+          "website": "https://msj.go.cr/cont/Paginas/default.aspx",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "linea-aqui-estoy-crisis-emocional",
-          "name": "Línea Aquí Estoy — crisis emocional",
+          "title": "Línea Aquí Estoy — crisis emocional",
+          "description": "Teléfono gratuito: 800-AQESTOY, 800-273-7869.\nAtención confidencial por profesionales en psicología. Horario habitual publicado: lunes a viernes 14:00–22:00 y sábados 09:00–16:00. Si existe riesgo inmediato de suicidio, una tentativa, violencia o una urgencia médica, llame al 9-1-1.\nColegio de Profesionales en Psicología — Línea Aquí Estoy",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Teléfono gratuito:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "800-AQESTOY, 800-273-7869",
-                  "href": "tel:8002737869"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Atención confidencial por profesionales en psicología. Horario habitual publicado: lunes a viernes 14:00–22:00 y sábados 09:00–16:00. Si existe riesgo inmediato de suicidio, una tentativa, violencia o una urgencia médica, llame al 9-1-1."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Colegio de Profesionales en Psicología — Línea Aquí Estoy",
-                  "href": "https://psicologiacr.com/actualiza-tu-agenda-aqui-estoy-ahora-es-800-aqestoy-800-273-7869/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "8002737869",
+          "website": "https://psicologiacr.com/actualiza-tu-agenda-aqui-estoy-ahora-es-800-aqestoy-800-273-7869/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "violencia-contra-una-mujer",
-          "name": "Violencia contra una mujer",
+          "title": "Violencia contra una mujer",
+          "description": "Emergencia: 9-1-1, las 24 horas. Información sobre derechos: 1125, lunes a viernes 08:00–16:00.\nEl 9-1-1 puede activar la respuesta del INAMU y valorar protección. La línea 1125 orienta sobre derechos, familia y rutas institucionales; no sustituye una llamada de emergencia.\nINAMU — líneas y horarios",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Emergencia:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "9-1-1",
-                  "href": "tel:911"
-                },
-                {
-                  "text": ", las 24 horas. "
-                },
-                {
-                  "text": "Información sobre derechos:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "1125",
-                  "href": "tel:1125"
-                },
-                {
-                  "text": ", lunes a viernes 08:00–16:00."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "El 9-1-1 puede activar la respuesta del INAMU y valorar protección. La línea 1125 orienta sobre derechos, familia y rutas institucionales; no sustituye una llamada de emergencia."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "INAMU — líneas y horarios",
-                  "href": "https://www.inamu.go.cr/contacto"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "911",
+          "website": "https://www.inamu.go.cr/contacto",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "ninos-ninas-y-adolescentes-en-riesgo",
-          "name": "Niños, niñas y adolescentes en riesgo",
+          "title": "Niños, niñas y adolescentes en riesgo",
+          "description": "PANI: 1147. WhatsApp: 8989-1147. Emergencias: 9-1-1.\nNo envíe a una persona menor sola a un dormitorio de adultos. Informe si está abandonada, vive en la calle, sufre violencia o explotación, o corre peligro. La autoridad decide la medida de protección después de valorar el caso.\nPANI — canales de atención — https://pani.go.cr/atencion/",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "PANI:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "1147",
-                  "href": "tel:1147"
-                },
-                {
-                  "text": ". "
-                },
-                {
-                  "text": "WhatsApp:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "8989-1147",
-                  "href": "https://wa.me/50689891147"
-                },
-                {
-                  "text": ". "
-                },
-                {
-                  "text": "Emergencias:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "9-1-1",
-                  "href": "tel:911"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "No envíe a una persona menor sola a un dormitorio de adultos. Informe si está abandonada, vive en la calle, sufre violencia o explotación, o corre peligro. La autoridad decide la medida de protección después de valorar el caso."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "PANI — canales de atención",
-                  "href": "https://pani.go.cr/atencion/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "1147",
+          "website": "https://wa.me/50689891147",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "antes-de-trasladarse",
-          "name": "Antes de trasladarse",
+          "title": "Antes de trasladarse",
+          "description": "Anote el nombre de la persona que atendió, la hora, la dirección exacta, los documentos solicitados y si necesita referencia. Pregunte qué alternativa existe si el lugar está lleno.\nDiga al principio si no tiene identificación, teléfono, dinero para transporte, seguro de la CCSS o una dirección fija. No pague a intermediarios por un cupo, beneficio o cita pública.",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Anote el nombre de la persona que atendió, la hora, la dirección exacta, los documentos solicitados y si necesita referencia. Pregunte qué alternativa existe si el lugar está lleno."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Diga al principio si no tiene identificación, teléfono, dinero para transporte, seguro de la CCSS o una dirección fija. No pague a intermediarios por un cupo, beneficio o cita pública."
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "pronostico-y-avisos-del-imn",
+          "title": "Pronóstico y avisos del IMN",
+          "description": "Teléfono: 2222-5616.\nConsulte avisos por lluvia intensa, tormentas, inundaciones o descenso de temperatura. No duerma cerca de un río, alcantarilla, talud inestable o paso de agua cuando hay alerta.\nInstituto Meteorológico Nacional",
+          "last_verified": "2026-11-12",
+          "address": "",
+          "phone": "+50622225616",
+          "website": "https://www.imn.ac.cr/web/imn/inicio",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "inundacion-deslizamiento-o-evacuacion",
+          "title": "Inundación, deslizamiento o evacuación",
+          "description": "Para peligro inmediato llame al 9-1-1. Los albergues de emergencia se activan según el evento y la coordinación pública; no existe garantía de un punto permanente.\nSiga la indicación de Bomberos, Cruz Roja, Policía o la Comisión Nacional de Emergencias. Pregunte la ubicación exacta antes de trasladarse.\nComisión Nacional de Emergencias",
+          "last_verified": "2026-11-12",
+          "address": "",
+          "phone": "911",
+          "website": "https://www.cne.go.cr/",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "esta-tarde",
+          "title": "Esta tarde",
+          "description": "1. Llame al Dormitorio Municipal y pregunte por ingreso y capacidad.\n2. Si necesita comida o baño, confirme Caminando en Fe, La Puerta Abierta o Magis.\n3. Guarde cédula, medicinas, teléfono y papeles importantes en una bolsa seca.\n4. Anote dos alternativas por si la primera está llena.",
+          "last_verified": "2026-11-12",
+          "address": "",
+          "phone": "",
+          "website": "",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "manana-por-la-manana",
+          "title": "Mañana por la mañana",
+          "description": "1. Hable con Trabajo Social del Dormitorio Municipal o llame al IMAS.\n2. Empiece un solo trámite prioritario: documento, salud, beneficio o empleo.\n3. Llame a ANE o INA si busca trabajo; pida ayuda para currículo y contacto.\n4. Guarde nombres, números de gestión, citas y documentos pedidos.",
+          "last_verified": "2026-11-12",
+          "address": "",
+          "phone": "",
+          "website": "",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "si-la-primera-opcion-falla",
+          "title": "Si la primera opción falla",
+          "description": "No se quede solo con “no hay cupo”. Pregunte: “¿Dónde puedo ir hoy?”, “¿Necesito una referencia?”, “¿A qué hora debo llamar otra vez?” y “¿Qué documento puedo usar si no tengo cédula?”.\nSi su salud o seguridad empeora, deje los trámites y llame al 9-1-1.",
+          "last_verified": "2026-11-12",
+          "address": "",
+          "phone": "",
+          "website": "",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
       "id": "shelter",
-      "title": "2. Dormir, albergue y atención en calle",
-      "items": [
+      "title": "Dormir, albergue y atención en calle",
+      "entries": [
         {
-          "type": "resource",
           "id": "centro-dormitorio-municipal-para-habitantes-de-calle",
-          "name": "Centro Dormitorio Municipal para Habitantes de Calle",
+          "title": "Centro Dormitorio Municipal para Habitantes de Calle",
+          "description": "Teléfono: 2248-3654. Horario nocturno: 18:00–06:00, todos los días. Administración y Trabajo Social: 08:00–17:00.\nPara hombres y mujeres mayores de 18 años en situación de calle en San José. Publica cama y ropa limpia, alimentación, higiene y trabajo social. Tiene reglas de ingreso y capacidad aproximada para 100 personas; no existe garantía de cama.\nMunicipalidad — Dormitorio Municipal",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Dirección:",
-                  "strong": true
-                },
-                {
-                  "text": " avenidas 3 y 5, calle 12; 350 metros de la iglesia La Merced, altos del Comercial Panamá"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Teléfono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "2248-3654",
-                  "href": "tel:+50622483654"
-                },
-                {
-                  "text": ". "
-                },
-                {
-                  "text": "Horario nocturno:",
-                  "strong": true
-                },
-                {
-                  "text": " 18:00–06:00, todos los días. "
-                },
-                {
-                  "text": "Administración y Trabajo Social:",
-                  "strong": true
-                },
-                {
-                  "text": " 08:00–17:00."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Para hombres y mujeres mayores de 18 años en situación de calle en San José. Publica cama y ropa limpia, alimentación, higiene y trabajo social. Tiene reglas de ingreso y capacidad aproximada para 100 personas; no existe garantía de cama."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Municipalidad — Dormitorio Municipal",
-                  "href": "https://www.msj.go.cr/servciud/servsoci/Paginas/centro_dormitorio_municipal.aspx"
-                }
-              ]
-            }
-          ]
+          "address": "Dirección: avenidas 3 y 5, calle 12; 350 metros de la iglesia La Merced, altos del Comercial Panamá",
+          "phone": "+50622483654",
+          "website": "https://www.msj.go.cr/servciud/servsoci/Paginas/centro_dormitorio_municipal.aspx",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "fundacion-magis-dormitorio-solidario",
-          "name": "Fundación Magis — Dormitorio Solidario",
+          "title": "Fundación Magis — Dormitorio Solidario",
+          "description": "Teléfono y WhatsApp: 8592-0001.\nLa fundación publica alojamiento temporal, alimentación para personas admitidas, higiene, ropa y orientación social, jurídica o migratoria. La capacidad es limitada. Llame antes para conocer horario, criterios y disponibilidad.\nFundación Magis — servicios",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Dirección:",
-                  "strong": true
-                },
-                {
-                  "text": " calle 20, 200 metros al norte del Hospital Nacional de Niños, junto a la Delegación Policial La Merced"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Teléfono y WhatsApp:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "8592-0001",
-                  "href": "tel:+50685920001"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "La fundación publica alojamiento temporal, alimentación para personas admitidas, higiene, ropa y orientación social, jurídica o migratoria. La capacidad es limitada. Llame antes para conocer horario, criterios y disponibilidad."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Fundación Magis — servicios",
-                  "href": "https://fundacionmagiscr.org/servicios/"
-                }
-              ]
-            }
-          ]
+          "address": "Dirección: calle 20, 200 metros al norte del Hospital Nacional de Niños, junto a la Delegación Policial La Merced",
+          "phone": "+50685920001",
+          "website": "https://fundacionmagiscr.org/servicios/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "fundacion-llovera-comida-albergue-temporal",
-          "name": "Fundación Lloverá Comida — albergue temporal",
+          "title": "Fundación Lloverá Comida — albergue temporal",
+          "description": "Teléfonos: 8835-4659 o 2203-5856.\nEl directorio del IAFA lo registra como albergue temporal de empoderamiento e inclusión sociolaboral para personas adultas con historial de situación de calle. Llame para valoración, ingreso y cupos; la autorización del programa no significa que haya espacio hoy.\nIAFA — centros autorizados",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Dirección publicada:",
-                  "strong": true
-                },
-                {
-                  "text": " distrito Hospital, 25 metros al este de Soda Tapia"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Teléfonos:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "8835-4659",
-                  "href": "tel:+50688354659"
-                },
-                {
-                  "text": " o "
-                },
-                {
-                  "text": "2203-5856",
-                  "href": "tel:+50622035856"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "El directorio del IAFA lo registra como albergue temporal de empoderamiento e inclusión sociolaboral para personas adultas con historial de situación de calle. Llame para valoración, ingreso y cupos; la autorización del programa no significa que haya espacio hoy."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "IAFA — centros autorizados",
-                  "href": "https://iafa.go.cr/servicios-programas/centros-autorizados-ong/"
-                }
-              ]
-            }
-          ]
+          "address": "Dirección publicada: distrito Hospital, 25 metros al este de Soda Tapia",
+          "phone": "+50688354659",
+          "website": "https://iafa.go.cr/servicios-programas/centros-autorizados-ong/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "dormitorio-any-y-william",
-          "name": "Dormitorio Any y William",
+          "title": "Dormitorio Any y William",
+          "description": "Teléfonos: 8382-4894 o 2221-5382.\nEl IAFA lo registra como recurso comunitario y centro dormitorio para hombres y mujeres adultos. Confirme por teléfono si sigue recibiendo, el horario, las reglas y si requiere referencia.\nDirectorio autorizado del IAFA",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Dirección publicada:",
-                  "strong": true
-                },
-                {
-                  "text": " detrás del Liceo del Sur, Cristo Rey, calle 16 entre avenidas 20B y 22"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Teléfonos:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "8382-4894",
-                  "href": "tel:+50683824894"
-                },
-                {
-                  "text": " o "
-                },
-                {
-                  "text": "2221-5382",
-                  "href": "tel:+50622215382"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "El IAFA lo registra como recurso comunitario y centro dormitorio para hombres y mujeres adultos. Confirme por teléfono si sigue recibiendo, el horario, las reglas y si requiere referencia."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Directorio autorizado del IAFA",
-                  "href": "https://iafa.go.cr/servicios-programas/centros-autorizados-ong/"
-                }
-              ]
-            }
-          ]
+          "address": "Dirección publicada: detrás del Liceo del Sur, Cristo Rey, calle 16 entre avenidas 20B y 22",
+          "phone": "+50683824894",
+          "website": "https://iafa.go.cr/servicios-programas/centros-autorizados-ong/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "casa-hogar-san-jose-tratamiento-residencial",
-          "name": "Casa Hogar San José — tratamiento residencial",
+          "title": "Casa Hogar San José — tratamiento residencial",
+          "description": "Teléfono: 2232-1115. Horario publicado: lunes a viernes 08:00–17:00.\nPrograma residencial católico para hombres adultos con consumo problemático, no un dormitorio general de llegada libre. Pregunte por valoración, condiciones, duración y cupo.\nCáritas — Casa Hogar San José",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Dirección:",
-                  "strong": true
-                },
-                {
-                  "text": " Sabana Sur, calle Morenos, 25 metros al norte de la iglesia Nuestra Señora del Perpetuo Socorro"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Teléfono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "2232-1115",
-                  "href": "tel:+50622321115"
-                },
-                {
-                  "text": ". Horario publicado: lunes a viernes 08:00–17:00."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Programa residencial católico para hombres adultos con consumo problemático, no un dormitorio general de llegada libre. Pregunte por valoración, condiciones, duración y cupo."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Cáritas — Casa Hogar San José",
-                  "href": "https://www.pscaritasarquisj.org/asociaci%C3%B3n-casa-hogar-san-jos%C3%A9"
-                }
-              ]
-            }
-          ]
+          "address": "Dirección: Sabana Sur, calle Morenos, 25 metros al norte de la iglesia Nuestra Señora del Perpetuo Socorro",
+          "phone": "+50622321115",
+          "website": "https://www.pscaritasarquisj.org/asociaci%C3%B3n-casa-hogar-san-jos%C3%A9",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "si-no-hay-cupo",
-          "name": "Si no hay cupo",
+          "title": "Si no hay cupo",
+          "description": "Pida el nombre y teléfono de otra opción. Vuelva a llamar al Dormitorio Municipal durante el horario de Trabajo Social y contacte al IMAS. Explique enfermedad, embarazo, discapacidad, edad, violencia o falta total de red de apoyo.\nNo entregue dinero ni documentos originales a alguien que prometa una cama. En peligro inmediato use el 9-1-1.",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Pida el nombre y teléfono de otra opción. Vuelva a llamar al Dormitorio Municipal durante el horario de Trabajo Social y contacte al IMAS. Explique enfermedad, embarazo, discapacidad, edad, violencia o falta total de red de apoyo."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "No entregue dinero ni documentos originales a alguien que prometa una cama. En peligro inmediato use el 9-1-1."
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
       "id": "food",
-      "title": "3. Comida, baño, ropa y apoyo comunitario",
-      "items": [
+      "title": "Comida, baño, ropa y apoyo comunitario",
+      "entries": [
         {
-          "type": "resource",
           "id": "comida-e-higiene-en-el-dormitorio-municipal",
-          "name": "Comida e higiene en el Dormitorio Municipal",
+          "title": "Comida e higiene en el Dormitorio Municipal",
+          "description": "El servicio municipal publica alimentación, cama, ropa limpia y artículos de aseo para las personas admitidas. No es un comedor abierto durante todo el día.\nLlame al 2248-3654 y pregunte por la hora de ingreso, documentos, equipaje y capacidad.\nServicios del Dormitorio Municipal",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "El servicio municipal publica alimentación, cama, ropa limpia y artículos de aseo para las personas admitidas. No es un comedor abierto durante todo el día."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Llame al "
-                },
-                {
-                  "text": "2248-3654",
-                  "href": "tel:+50622483654"
-                },
-                {
-                  "text": " y pregunte por la hora de ingreso, documentos, equipaje y capacidad."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Servicios del Dormitorio Municipal",
-                  "href": "https://www.msj.go.cr/servciud/servsoci/Paginas/centro_dormitorio_municipal.aspx"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+50622483654",
+          "website": "https://www.msj.go.cr/servciud/servsoci/Paginas/centro_dormitorio_municipal.aspx",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "caminando-en-fe-restaurando-vidas",
-          "name": "Caminando en Fe Restaurando Vidas",
+          "title": "Caminando en Fe Restaurando Vidas",
+          "description": "Teléfono: 2100-4708.\nEl IAFA registra alimentación, ropa, baño, escucha, actividades grupales y referencias para hombres y mujeres adultos en situación de calle con consumo de sustancias. Confirme el horario y la atención del día.\nIAFA — descripción del programa",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Dirección:",
-                  "strong": true
-                },
-                {
-                  "text": " Barrio México, calle 12 y avenida 9, diagonal a la terminal MEPE, edificio esquinero rojo y blanco"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Teléfono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "2100-4708",
-                  "href": "tel:+50621004708"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "El IAFA registra alimentación, ropa, baño, escucha, actividades grupales y referencias para hombres y mujeres adultos en situación de calle con consumo de sustancias. Confirme el horario y la atención del día."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "IAFA — descripción del programa",
-                  "href": "https://iafa.go.cr/servicios-programas/centros-autorizados-ong/"
-                }
-              ]
-            }
-          ]
+          "address": "Dirección: Barrio México, calle 12 y avenida 9, diagonal a la terminal MEPE, edificio esquinero rojo y blanco",
+          "phone": "+50621004708",
+          "website": "https://iafa.go.cr/servicios-programas/centros-autorizados-ong/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "obra-social-la-puerta-abierta",
-          "name": "Obra Social La Puerta Abierta",
+          "title": "Obra Social La Puerta Abierta",
+          "description": "Teléfonos: 2257-7910 o 2221-9639.\nRecurso comunitario que publica baño, cambio de ropa, alimentación y charlas socioeducativas. Llame antes; no se publica una hora fija de comida ni se garantiza una porción.\nIAFA — Obra Social La Puerta Abierta",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Dirección:",
-                  "strong": true
-                },
-                {
-                  "text": " calle 7 entre avenidas 16 y 18, 25 metros al norte de las antiguas Licencias del MOPT"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Teléfonos:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "2257-7910",
-                  "href": "tel:+50622577910"
-                },
-                {
-                  "text": " o "
-                },
-                {
-                  "text": "2221-9639",
-                  "href": "tel:+50622219639"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Recurso comunitario que publica baño, cambio de ropa, alimentación y charlas socioeducativas. Llame antes; no se publica una hora fija de comida ni se garantiza una porción."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "IAFA — Obra Social La Puerta Abierta",
-                  "href": "https://iafa.go.cr/servicios-programas/centros-autorizados-ong/"
-                }
-              ]
-            }
-          ]
+          "address": "Dirección: calle 7 entre avenidas 16 y 18, 25 metros al norte de las antiguas Licencias del MOPT",
+          "phone": "+50622577910",
+          "website": "https://iafa.go.cr/servicios-programas/centros-autorizados-ong/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "fundacion-magis-alimentacion-e-higiene",
-          "name": "Fundación Magis — alimentación e higiene",
+          "title": "Fundación Magis — alimentación e higiene",
+          "description": "Teléfono y WhatsApp: 8592-0001.\nPublica alimentación, ropa e higiene dentro de su atención. Pregunte si puede acudir sin estar alojado, el horario y qué está disponible.\nFundación Magis — servicios",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Dirección:",
-                  "strong": true
-                },
-                {
-                  "text": " calle 20, 200 metros al norte del Hospital Nacional de Niños"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Teléfono y WhatsApp:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "8592-0001",
-                  "href": "tel:+50685920001"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Publica alimentación, ropa e higiene dentro de su atención. Pregunte si puede acudir sin estar alojado, el horario y qué está disponible."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Fundación Magis — servicios",
-                  "href": "https://fundacionmagiscr.org/servicios/"
-                }
-              ]
-            }
-          ]
+          "address": "Dirección: calle 20, 200 metros al norte del Hospital Nacional de Niños",
+          "phone": "+50685920001",
+          "website": "https://fundacionmagiscr.org/servicios/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "chepe-se-bana-servicio-movil",
-          "name": "Chepe se Baña — servicio móvil",
+          "title": "Chepe se Baña — servicio móvil",
+          "description": "Contacto: 8708-8911.\nProyecto móvil de higiene, escucha y apoyo básico para personas en situación de calle. Los puntos y horarios cambian y el servicio ha tenido interrupciones temporales. Llame para conocer la próxima jornada; no vaya a una dirección antigua sin confirmar.\nDirectorio IAFA con Chepe se Baña",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Contacto:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "8708-8911",
-                  "href": "tel:+50687088911"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Proyecto móvil de higiene, escucha y apoyo básico para personas en situación de calle. Los puntos y horarios cambian y el servicio ha tenido interrupciones temporales. Llame para conocer la próxima jornada; no vaya a una dirección antigua sin confirmar."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Directorio IAFA con Chepe se Baña",
-                  "href": "https://iafa.go.cr/wp-content/uploads/2026/01/02.DIRECTORIO-FEBRERO-2026.pdf"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+50687088911",
+          "website": "https://iafa.go.cr/wp-content/uploads/2026/01/02.DIRECTORIO-FEBRERO-2026.pdf",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "fundacion-genesis-trabajo-en-calle",
-          "name": "Fundación Génesis — trabajo en calle",
+          "title": "Fundación Génesis — trabajo en calle",
+          "description": "Teléfono: 8882-2583.\nRealiza acompañamiento en calle, entrega puntual de alimentos o ropa y referencias para tratamiento. No es un comedor con horario fijo; contacte antes.\nFundación Génesis Calle",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Oficina publicada:",
-                  "strong": true
-                },
-                {
-                  "text": " Alajuelita, San Josecito, 250 metros al oeste del Supermercado Acapulco"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Teléfono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "8882-2583",
-                  "href": "tel:+50688822583"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Realiza acompañamiento en calle, entrega puntual de alimentos o ropa y referencias para tratamiento. No es un comedor con horario fijo; contacte antes."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Fundación Génesis Calle",
-                  "href": "https://www.fundaciongenesiscr.org/genesis-calle"
-                }
-              ]
-            }
-          ]
+          "address": "Oficina publicada: Alajuelita, San Josecito, 250 metros al oeste del Supermercado Acapulco",
+          "phone": "+50688822583",
+          "website": "https://www.fundaciongenesiscr.org/genesis-calle",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "caritas-de-la-arquidiocesis-de-san-jose",
-          "name": "Cáritas de la Arquidiócesis de San José",
+          "title": "Cáritas de la Arquidiócesis de San José",
+          "description": "Teléfono: 4020-5400, extensión 6. Horario publicado: lunes a viernes 08:00–16:00.\nPida orientación sobre la ayuda pastoral o parroquial disponible. Cáritas no promete comida, dinero o alojamiento inmediato; confirme qué servicio recibe personas directamente.\nCáritas — contacto",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Dirección:",
-                  "strong": true
-                },
-                {
-                  "text": " Sabana Sur, calle Morenos, cerca de la iglesia Nuestra Señora del Perpetuo Socorro"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Teléfono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "4020-5400",
-                  "href": "tel:+50640205400"
-                },
-                {
-                  "text": ", extensión 6. Horario publicado: lunes a viernes 08:00–16:00."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Pida orientación sobre la ayuda pastoral o parroquial disponible. Cáritas no promete comida, dinero o alojamiento inmediato; confirme qué servicio recibe personas directamente."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Cáritas — contacto",
-                  "href": "https://www.pscaritasarquisj.org/contacto"
-                }
-              ]
-            }
-          ]
+          "address": "Dirección: Sabana Sur, calle Morenos, cerca de la iglesia Nuestra Señora del Perpetuo Socorro",
+          "phone": "+50640205400",
+          "website": "https://www.pscaritasarquisj.org/contacto",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
+    },
+    {
+      "id": "community",
+      "title": "Community and religious help",
+      "entries": []
+    },
+    {
+      "id": "hygiene",
+      "title": "Showers, laundry and hygiene",
+      "entries": []
+    },
+    {
+      "id": "clothing",
+      "title": "Clothing",
+      "entries": []
     },
     {
       "id": "health",
-      "title": "4. Salud física, mental, VIH y adicciones",
-      "items": [
+      "title": "Salud física, mental, VIH y adicciones",
+      "entries": [
         {
-          "type": "resource",
           "id": "hospital-san-juan-de-dios",
-          "name": "Hospital San Juan de Dios",
+          "title": "Hospital San Juan de Dios",
+          "description": "Central: 2547-8000.\nHospital público de referencia. Para una urgencia grave llame al 9-1-1. No retrase una emergencia por falta de seguro o documento; explique su situación y pida orientación de Validación de Derechos o Trabajo Social. Pueden existir cobros según la condición de aseguramiento y el tipo de atención.\nDirectorio del Hospital San Juan de Dios",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Dirección:",
-                  "strong": true
-                },
-                {
-                  "text": " avenida cero, Paseo Colón, junto al Hospital Nacional de Niños"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Central:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "2547-8000",
-                  "href": "tel:+50625478000"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Hospital público de referencia. Para una urgencia grave llame al 9-1-1. No retrase una emergencia por falta de seguro o documento; explique su situación y pida orientación de Validación de Derechos o Trabajo Social. Pueden existir cobros según la condición de aseguramiento y el tipo de atención."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Directorio del Hospital San Juan de Dios",
-                  "href": "https://ach.sa.cr/directorio/listado/hospital-san-juan-de-dios"
-                }
-              ]
-            }
-          ]
+          "address": "Dirección: avenida cero, Paseo Colón, junto al Hospital Nacional de Niños",
+          "phone": "+50625478000",
+          "website": "https://ach.sa.cr/directorio/listado/hospital-san-juan-de-dios",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "iafa-primera-valoracion-por-consumo-de-alcohol-u-otras-drogas",
-          "name": "IAFA — primera valoración por consumo de alcohol u otras drogas",
+          "title": "IAFA — primera valoración por consumo de alcohol u otras drogas",
+          "description": "Línea gratuita: 800-4232-800. Central: 2224-6122.\nLos CAID ofrecen tratamiento sin costo y no exigen seguro de la CCSS. Para la valoración inicial se publica que debe llevarse identificación; si no la tiene, llame antes para pedir una ruta. Cada centro puede manejar citas y capacidad distintas.\nIAFA — Centros de Atención Integral en Drogas",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Dirección:",
-                  "strong": true
-                },
-                {
-                  "text": " San Pedro de Montes de Oca, barrio La Granja; de la Escuela Franklin Roosevelt 300 metros al este y 100 metros al sur"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Línea gratuita:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "800-4232-800",
-                  "href": "tel:8004232800"
-                },
-                {
-                  "text": ". "
-                },
-                {
-                  "text": "Central:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "2224-6122",
-                  "href": "tel:+50622246122"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Los CAID ofrecen tratamiento sin costo y no exigen seguro de la CCSS. Para la valoración inicial se publica que debe llevarse identificación; si no la tiene, llame antes para pedir una ruta. Cada centro puede manejar citas y capacidad distintas."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "IAFA — Centros de Atención Integral en Drogas",
-                  "href": "https://iafa.go.cr/obtener-ayuda/centros-de-atencion-integral-en-drogas/"
-                }
-              ]
-            }
-          ]
+          "address": "Dirección: San Pedro de Montes de Oca, barrio La Granja; de la Escuela Franklin Roosevelt 300 metros al este y 100 metros al sur",
+          "phone": "8004232800",
+          "website": "https://iafa.go.cr/obtener-ayuda/centros-de-atencion-integral-en-drogas/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "casa-de-acogida-ciudad-de-paz",
-          "name": "Casa de Acogida Ciudad de Paz",
+          "title": "Casa de Acogida Ciudad de Paz",
+          "description": "Teléfono: 6333-7365.\nCentro de escucha autorizado por el IAFA. Puede ofrecer escucha, acompañamiento y referencia. No es una promesa de cama ni tratamiento residencial; confirme la atención disponible.\nIAFA — centros autorizados",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Dirección:",
-                  "strong": true
-                },
-                {
-                  "text": " Zona Roja, 200 metros al sur del Museo de los Niños, distrito Merced"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Teléfono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "6333-7365",
-                  "href": "tel:+50663337365"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Centro de escucha autorizado por el IAFA. Puede ofrecer escucha, acompañamiento y referencia. No es una promesa de cama ni tratamiento residencial; confirme la atención disponible."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "IAFA — centros autorizados",
-                  "href": "https://iafa.go.cr/servicios-programas/centros-autorizados-ong/"
-                }
-              ]
-            }
-          ]
+          "address": "Dirección: Zona Roja, 200 metros al sur del Museo de los Niños, distrito Merced",
+          "phone": "+50663337365",
+          "website": "https://iafa.go.cr/servicios-programas/centros-autorizados-ong/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "hogar-salvando-al-alcoholico-roberto-soto-gatgens",
-          "name": "Hogar Salvando al Alcohólico Roberto Soto Gatgens",
+          "title": "Hogar Salvando al Alcohólico Roberto Soto Gatgens",
+          "description": "Teléfono: 2227-4065.\nEl IAFA lo registra para atención residencial inmediata y breve de personas adultas. Llame para saber población admitida, valoración, costo si existe y cupos.\nDirectorio de programas autorizados",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Dirección:",
-                  "strong": true
-                },
-                {
-                  "text": " San Cayetano, 200 metros al este y 200 metros al sur de la iglesia católica"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Teléfono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "2227-4065",
-                  "href": "tel:+50622274065"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "El IAFA lo registra para atención residencial inmediata y breve de personas adultas. Llame para saber población admitida, valoración, costo si existe y cupos."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Directorio de programas autorizados",
-                  "href": "https://iafa.go.cr/servicios-programas/centros-autorizados-ong/"
-                }
-              ]
-            }
-          ]
+          "address": "Dirección: San Cayetano, 200 metros al este y 200 metros al sur de la iglesia católica",
+          "phone": "+50622274065",
+          "website": "https://iafa.go.cr/servicios-programas/centros-autorizados-ong/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "albergue-camino-a-la-libertad",
-          "name": "Albergue Camino a la Libertad",
+          "title": "Albergue Camino a la Libertad",
+          "description": "Teléfono: 2286-2394.\nPrograma residencial breve para hombres adultos registrado por el IAFA. No es un refugio general. Pregunte por valoración, reglas, duración y cupo.\nIAFA — información del programa",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Dirección:",
-                  "strong": true
-                },
-                {
-                  "text": " barrio Naciones Unidas, avenida 34 bis–36, calle 17; 100 metros al oeste y 100 metros al norte de la Bomba Shell"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Teléfono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "2286-2394",
-                  "href": "tel:+50622862394"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Programa residencial breve para hombres adultos registrado por el IAFA. No es un refugio general. Pregunte por valoración, reglas, duración y cupo."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "IAFA — información del programa",
-                  "href": "https://iafa.go.cr/servicios-programas/centros-autorizados-ong/"
-                }
-              ]
-            }
-          ]
+          "address": "Dirección: barrio Naciones Unidas, avenida 34 bis–36, calle 17; 100 metros al oeste y 100 metros al norte de la Bomba Shell",
+          "phone": "+50622862394",
+          "website": "https://iafa.go.cr/servicios-programas/centros-autorizados-ong/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "autoprueba-de-vih-organizaciones-en-san-jose",
-          "name": "Autoprueba de VIH — organizaciones en San José",
+          "title": "Autoprueba de VIH — organizaciones en San José",
+          "description": "Fundación VIHDA, San Sebastián: WhatsApp 8438-0305. IRCA Casabierta, Los Yoses: WhatsApp 8448-7128. Transvida, San José centro: 6022-2524. CIPAC, San Pedro: 8443-5252. — https://wa.me/50684487128\nEl Ministerio de Salud publica estos contactos para agendar autopruebas. Confirme cita y existencias; una prueba reactiva necesita confirmación y seguimiento en salud.\nCONASIDA — autopruebas y contactos — https://conasida.ministeriodesalud.go.cr/index.php/autoprueba",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Fundación VIHDA, San Sebastián:",
-                  "strong": true
-                },
-                {
-                  "text": " WhatsApp "
-                },
-                {
-                  "text": "8438-0305",
-                  "href": "https://wa.me/50684380305"
-                },
-                {
-                  "text": "."
-                },
-                {
-                  "break": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "IRCA Casabierta, Los Yoses:",
-                  "strong": true
-                },
-                {
-                  "text": " WhatsApp "
-                },
-                {
-                  "text": "8448-7128",
-                  "href": "https://wa.me/50684487128"
-                },
-                {
-                  "text": "."
-                },
-                {
-                  "break": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "Transvida, San José centro:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "6022-2524",
-                  "href": "tel:+50660222524"
-                },
-                {
-                  "text": "."
-                },
-                {
-                  "break": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "CIPAC, San Pedro:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "8443-5252",
-                  "href": "tel:+50684435252"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "El Ministerio de Salud publica estos contactos para agendar autopruebas. Confirme cita y existencias; una prueba reactiva necesita confirmación y seguimiento en salud."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "CONASIDA — autopruebas y contactos",
-                  "href": "https://conasida.ministeriodesalud.go.cr/index.php/autoprueba"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+50660222524",
+          "website": "https://wa.me/50684380305",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "salud-mental-fuera-del-horario-de-aqui-estoy",
-          "name": "Salud mental fuera del horario de Aquí Estoy",
+          "title": "Salud mental fuera del horario de Aquí Estoy",
+          "description": "Si no hay peligro inmediato, puede llamar al Dormitorio Municipal o al IMAS y pedir referencia de salud. Si hay riesgo de suicidio, desorientación grave, violencia, psicosis, sobredosis o incapacidad para mantenerse a salvo, use el 9-1-1.\nNo deje sola a una persona en riesgo inmediato. Retire objetos peligrosos solo si puede hacerlo sin ponerse en peligro.",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Si no hay peligro inmediato, puede llamar al Dormitorio Municipal o al IMAS y pedir referencia de salud. Si hay riesgo de suicidio, desorientación grave, violencia, psicosis, sobredosis o incapacidad para mantenerse a salvo, use el 9-1-1."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "No deje sola a una persona en riesgo inmediato. Retire objetos peligrosos solo si puede hacerlo sin ponerse en peligro."
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
+    },
+    {
+      "id": "mental-health",
+      "title": "Mental health and addiction",
+      "entries": []
+    },
+    {
+      "id": "public-facilities",
+      "title": "Public toilets and day facilities",
+      "entries": []
+    },
+    {
+      "id": "phone-internet",
+      "title": "Internet, teléfono y trámites digitales",
+      "entries": [
+        {
+          "id": "biblioteca-municipal-dr-rafael-angel-calderon-guardia",
+          "title": "Biblioteca Municipal Dr. Rafael Ángel Calderón Guardia",
+          "description": "Teléfonos: 2547-6647, 2256-5944 o 8874-6602. Horario publicado: 08:00–16:00.\nLa red municipal publica acceso a información y tecnología. Pregunte si hay computadora, internet, impresión o carga de teléfono y si se necesita identificación. La disponibilidad no está garantizada.\nMunicipalidad — bibliotecas",
+          "last_verified": "2026-11-12",
+          "address": "Dirección: Barrio México, costado oeste del parque, frente a la iglesia católica",
+          "phone": "+50625476647",
+          "website": "https://www.msj.go.cr/servciud/cult/Paginas/bibliotecas.aspx",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "si-no-tiene-telefono-o-correo-electronico",
+          "title": "Si no tiene teléfono o correo electrónico",
+          "description": "Pida a Trabajo Social del Dormitorio Municipal, IMAS, biblioteca o una organización que le ayude a crear un medio de contacto seguro. No use la dirección de una institución para recibir correo sin permiso explícito.\nNo entregue el PIN, contraseña o códigos recibidos por mensaje. Anote números de gestión en papel y cierre sesión en computadoras públicas.",
+          "last_verified": "2026-11-12",
+          "address": "",
+          "phone": "",
+          "website": "",
+          "hours": "",
+          "how_to_access": ""
+        }
+      ]
+    },
+    {
+      "id": "transport",
+      "title": "Transport",
+      "entries": []
     },
     {
       "id": "benefits",
-      "title": "5. IMAS, ayudas y vivienda",
-      "items": [
+      "title": "IMAS, ayudas y vivienda",
+      "entries": [
         {
-          "type": "resource",
           "id": "imas-atencion-a-personas-habitantes-de-calle",
-          "name": "IMAS — atención a personas habitantes de calle",
+          "title": "IMAS — atención a personas habitantes de calle",
+          "description": "Línea gratuita: 800-000-4627.\nEl IMAS publica un beneficio económico específico para personas habitantes de calle en pobreza o pobreza extrema. No es dinero automático: requiere identificación del caso, valoración social, cumplimiento de criterios y disponibilidad presupuestaria.\nIMAS — Bienestar Social",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Línea gratuita:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "800-000-4627",
-                  "href": "tel:8000004627"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "El IMAS publica un beneficio económico específico para personas habitantes de calle en pobreza o pobreza extrema. No es dinero automático: requiere identificación del caso, valoración social, cumplimiento de criterios y disponibilidad presupuestaria."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "IMAS — Bienestar Social",
-                  "href": "https://www.imas.go.cr/es/general/bienestar-social"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "8000004627",
+          "website": "https://www.imas.go.cr/es/general/bienestar-social",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "otros-beneficios-del-imas",
-          "name": "Otros beneficios del IMAS",
+          "title": "Otros beneficios del IMAS",
+          "description": "Una valoración puede revisar Atención a Familias, emergencias, cuidado, formación u otras ayudas según la situación. Pregunte qué documentos sirven si perdió la cédula o no tiene dirección fija.\nAnote número de gestión y próxima cita. Una solicitud no garantiza aprobación, monto ni fecha de pago.\nIMAS — beneficios y requisitos",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Una valoración puede revisar Atención a Familias, emergencias, cuidado, formación u otras ayudas según la situación. Pregunte qué documentos sirven si perdió la cédula o no tiene dirección fija."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Anote número de gestión y próxima cita. Una solicitud no garantiza aprobación, monto ni fecha de pago."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "IMAS — beneficios y requisitos",
-                  "href": "https://www.imas.go.cr/beneficios"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.imas.go.cr/beneficios",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "servicios-sociales-de-la-municipalidad",
-          "name": "Servicios Sociales de la Municipalidad",
+          "title": "Servicios Sociales de la Municipalidad",
+          "description": "Central: 2547-6000.\nEl municipio publica trabajo social, ayudas económicas temporales, atención familiar, empleo y programas para personas mayores. Pida una valoración; cada ayuda tiene criterios y presupuesto.\nMunicipalidad — Servicios Sociales",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Central:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "2547-6000",
-                  "href": "tel:+50625476000"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "El municipio publica trabajo social, ayudas económicas temporales, atención familiar, empleo y programas para personas mayores. Pida una valoración; cada ayuda tiene criterios y presupuesto."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Municipalidad — Servicios Sociales",
-                  "href": "https://www.msj.go.cr/servciud/servsoci/Paginas/default.aspx"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+50625476000",
+          "website": "https://www.msj.go.cr/servciud/servsoci/Paginas/default.aspx",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "estrategia-nacional-para-personas-en-situacion-de-calle",
-          "name": "Estrategia nacional para personas en situación de calle",
+          "title": "Estrategia nacional para personas en situación de calle",
+          "description": "En agosto de 2026 el Gobierno anunció una primera etapa prioritaria en el distrito Merced de San José, con coordinación de salud, tratamiento y protección social.\nEl anuncio no crea una cama ni un subsidio de acceso directo. Pregunte al IMAS, al Dormitorio Municipal o a Trabajo Social qué ruta concreta está disponible para su caso.\nIMAS — estrategia de 2026",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "En agosto de 2026 el Gobierno anunció una primera etapa prioritaria en el distrito Merced de San José, con coordinación de salud, tratamiento y protección social."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "El anuncio no crea una cama ni un subsidio de acceso directo. Pregunte al IMAS, al Dormitorio Municipal o a Trabajo Social qué ruta concreta está disponible para su caso."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "IMAS — estrategia de 2026",
-                  "href": "https://www.imas.go.cr/es/comunicado/gobierno-lanza-estrategia-para-atender-poblacion-en-situacion-de-calle"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.imas.go.cr/es/comunicado/gobierno-lanza-estrategia-para-atender-poblacion-en-situacion-de-calle",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "desalojo-o-perdida-reciente-de-vivienda",
-          "name": "Desalojo o pérdida reciente de vivienda",
+          "title": "Desalojo o pérdida reciente de vivienda",
+          "description": "Guarde contrato, avisos, recibos, fotografías y cualquier resolución. Contacte al IMAS y pida orientación jurídica antes de firmar una salida o entregar documentos originales.\nSi una institución pública niega atención de forma irregular, puede consultar gratis a la Defensoría de los Habitantes. Ante violencia o peligro use el 9-1-1.",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Guarde contrato, avisos, recibos, fotografías y cualquier resolución. Contacte al IMAS y pida orientación jurídica antes de firmar una salida o entregar documentos originales."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Si una institución pública niega atención de forma irregular, puede consultar gratis a la Defensoría de los Habitantes. Ante violencia o peligro use el 9-1-1."
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
-      "id": "jobs",
-      "title": "6. Trabajo, formación e ingresos",
-      "items": [
+      "id": "employment",
+      "title": "Trabajo, formación e ingresos",
+      "entries": [
         {
-          "type": "resource",
           "id": "agencia-nacional-de-empleo",
-          "name": "Agencia Nacional de Empleo",
+          "title": "Agencia Nacional de Empleo",
+          "description": "Teléfonos: 2210-6060 o 2210-6000. Atención virtual publicada: lunes a domingo 07:00–22:00.\nServicio público y gratuito para registro, orientación, currículo, formación y vinculación con vacantes. Explique si no tiene correo, teléfono, dirección o documento. Nunca entregue claves bancarias ni pague por una oferta.\nANE — contacto",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Teléfonos:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "2210-6060",
-                  "href": "tel:+50622106060"
-                },
-                {
-                  "text": " o "
-                },
-                {
-                  "text": "2210-6000",
-                  "href": "tel:+50622106000"
-                },
-                {
-                  "text": ". Atención virtual publicada: lunes a domingo 07:00–22:00."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Servicio público y gratuito para registro, orientación, currículo, formación y vinculación con vacantes. Explique si no tiene correo, teléfono, dirección o documento. Nunca entregue claves bancarias ni pague por una oferta."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "ANE — contacto",
-                  "href": "https://www.ane.cr/Home/Contacto?BottonCalendario=True"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+50622106060",
+          "website": "https://www.ane.cr/Home/Contacto?BottonCalendario=True",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "ina-intermediacion-de-empleo-en-paseo-colon",
-          "name": "INA — intermediación de empleo en Paseo Colón",
+          "title": "INA — intermediación de empleo en Paseo Colón",
+          "description": "Teléfono: 2547-5313. Atención presencial publicada: lunes a viernes 07:00–15:00.\nApoyo para búsqueda de empleo y registro de currículo. Confirme el número antes de ir, porque el INA también publica contactos actualizados por unidad.\nINA — Intermediación de Empleo",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Dirección:",
-                  "strong": true
-                },
-                {
-                  "text": " Paseo Colón, 250 metros al sur de Pizza Hut, junto a la iglesia Don Bosco"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Teléfono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "2547-5313",
-                  "href": "tel:+50625475313"
-                },
-                {
-                  "text": ". Atención presencial publicada: lunes a viernes 07:00–15:00."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Apoyo para búsqueda de empleo y registro de currículo. Confirme el número antes de ir, porque el INA también publica contactos actualizados por unidad."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "INA — Intermediación de Empleo",
-                  "href": "https://www.ina.ac.cr/SitePages/Intermediaci%C3%B3n%20de%20Empleo%20del%20INA.aspx"
-                }
-              ]
-            }
-          ]
+          "address": "Dirección: Paseo Colón, 250 metros al sur de Pizza Hut, junto a la iglesia Don Bosco",
+          "phone": "+50625475313",
+          "website": "https://www.ina.ac.cr/SitePages/Intermediaci%C3%B3n%20de%20Empleo%20del%20INA.aspx",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "ina-cursos-y-becas",
-          "name": "INA — cursos y becas",
+          "title": "INA — cursos y becas",
+          "description": "Los cursos del INA son gratuitos. Algunas personas matriculadas pueden solicitar apoyo para transporte, alimentación o alojamiento, sujeto a evaluación y reglas del programa.\nNo viaje pensando que una beca está aprobada. Pregunte primero por inscripción, documentos, fecha de inicio y valoración de ayuda económica.\nINA — preguntas frecuentes",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Los cursos del INA son gratuitos. Algunas personas matriculadas pueden solicitar apoyo para transporte, alimentación o alojamiento, sujeto a evaluación y reglas del programa."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "No viaje pensando que una beca está aprobada. Pregunte primero por inscripción, documentos, fecha de inicio y valoración de ayuda económica."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "INA — preguntas frecuentes",
-                  "href": "https://www.ina.ac.cr/SitePages/Faq.aspx"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.ina.ac.cr/SitePages/Faq.aspx",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "ministerio-de-trabajo-asesoria-laboral",
-          "name": "Ministerio de Trabajo — asesoría laboral",
+          "title": "Ministerio de Trabajo — asesoría laboral",
+          "description": "Inspección laboral: 2542-0014. Asesoría, cálculo y conciliación: 2256-2798.\nPara salario no pagado, despido, explotación o dudas sobre contrato. Lleve mensajes, horarios, nombre del empleador, comprobantes y cualquier documento. Confirme el horario antes de ir.\nMTSS — oficinas y teléfonos",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Dirección:",
-                  "strong": true
-                },
-                {
-                  "text": " Edificio Benjamín Núñez, 50 metros al este de ULACIT, barrio Tournón"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Inspección laboral:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "2542-0014",
-                  "href": "tel:+50625420014"
-                },
-                {
-                  "text": ". "
-                },
-                {
-                  "text": "Asesoría, cálculo y conciliación:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "2256-2798",
-                  "href": "tel:+50622562798"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Para salario no pagado, despido, explotación o dudas sobre contrato. Lleve mensajes, horarios, nombre del empleador, comprobantes y cualquier documento. Confirme el horario antes de ir."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "MTSS — oficinas y teléfonos",
-                  "href": "https://www.mtss.go.cr/contactenos/mapa-oficinas.html"
-                }
-              ]
-            }
-          ]
+          "address": "Dirección: Edificio Benjamín Núñez, 50 metros al este de ULACIT, barrio Tournón",
+          "phone": "+50625420014",
+          "website": "https://www.mtss.go.cr/contactenos/mapa-oficinas.html",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "ferias-y-orientacion-laboral-municipal",
-          "name": "Ferias y orientación laboral municipal",
+          "title": "Ferias y orientación laboral municipal",
+          "description": "Servicios Sociales publica ferias de empleo, economía social solidaria y orientación sobre formación. Llame al 2547-6000 para saber si existe una actividad abierta.\nUna feria no garantiza entrevista ni contratación. Lleve copias del currículo si puede y no entregue documentos originales.\nMunicipalidad — servicios laborales",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Servicios Sociales publica ferias de empleo, economía social solidaria y orientación sobre formación. Llame al "
-                },
-                {
-                  "text": "2547-6000",
-                  "href": "tel:+50625476000"
-                },
-                {
-                  "text": " para saber si existe una actividad abierta."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Una feria no garantiza entrevista ni contratación. Lleve copias del currículo si puede y no entregue documentos originales."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Municipalidad — servicios laborales",
-                  "href": "https://www.msj.go.cr/servciud/servsoci/Paginas/default.aspx"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+50625476000",
+          "website": "https://www.msj.go.cr/servciud/servsoci/Paginas/default.aspx",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
+    },
+    {
+      "id": "legal",
+      "title": "Legal aid",
+      "entries": []
     },
     {
       "id": "documents",
-      "title": "7. Documentos, migración y derechos",
-      "items": [
+      "title": "Documentos, migración y derechos",
+      "entries": [
         {
-          "type": "resource",
           "id": "tse-cedula-de-identidad",
-          "name": "TSE — cédula de identidad",
+          "title": "TSE — cédula de identidad",
+          "description": "Horario publicado: lunes a viernes 07:00–15:00.\nLa primera reposición del año suele ser gratuita. Solicitudes posteriores pueden tener costo; existen exenciones y situaciones excepcionales por imposibilidad de pago. Pregunte al TSE antes de pagar y diga si no puede cubrir el importe.\nTSE — reposición y excepciones de cobro",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Sede central:",
-                  "strong": true
-                },
-                {
-                  "text": " costado oeste del Parque Nacional, San José"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Horario publicado:",
-                  "strong": true
-                },
-                {
-                  "text": " lunes a viernes 07:00–15:00."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "La primera reposición del año suele ser gratuita. Solicitudes posteriores pueden tener costo; existen exenciones y situaciones excepcionales por imposibilidad de pago. Pregunte al TSE antes de pagar y diga si no puede cubrir el importe."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "TSE — reposición y excepciones de cobro",
-                  "href": "https://www.tse.go.cr/comunicado1162.html"
-                }
-              ]
-            }
-          ]
+          "address": "Sede central: costado oeste del Parque Nacional, San José",
+          "phone": "",
+          "website": "https://www.tse.go.cr/comunicado1162.html",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "defensa-publica-de-san-jose",
-          "name": "Defensa Pública de San José",
+          "title": "Defensa Pública de San José",
+          "description": "Teléfono: 2211-9800.\nPuede orientar o representar en materias asignadas a la Defensa Pública, como penal, pensiones alimentarias y algunos asuntos laborales, según el caso y la elegibilidad. Llame para saber dónde debe acudir.\nDefensa Pública — San José",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Dirección:",
-                  "strong": true
-                },
-                {
-                  "text": " Edificio Central, avenida segunda, 225 metros al este de la CCSS, frente a Caja de ANDE"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Teléfono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "2211-9800",
-                  "href": "tel:+50622119800"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Puede orientar o representar en materias asignadas a la Defensa Pública, como penal, pensiones alimentarias y algunos asuntos laborales, según el caso y la elegibilidad. Llame para saber dónde debe acudir."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Defensa Pública — San José",
-                  "href": "https://defensapublica.poder-judicial.go.cr/index.php/ubiquenos/1%3Adefensa-publica-san-jose"
-                }
-              ]
-            }
-          ]
+          "address": "Dirección: Edificio Central, avenida segunda, 225 metros al este de la CCSS, frente a Caja de ANDE",
+          "phone": "+50622119800",
+          "website": "https://defensapublica.poder-judicial.go.cr/index.php/ubiquenos/1%3Adefensa-publica-san-jose",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "defensoria-de-los-habitantes",
-          "name": "Defensoría de los Habitantes",
+          "title": "Defensoría de los Habitantes",
+          "description": "Línea gratuita: 800-258-7474. Central: 4000-8500. Horario: lunes a viernes 08:00–16:00.\nCualquier persona puede presentar gratis una queja sobre una institución pública, de forma verbal o escrita y sin formalidades especiales. Explique los hechos, lo que solicita y las gestiones previas; no es una oficina de albergue.\nDefensoría — cómo presentar una denuncia",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Dirección:",
-                  "strong": true
-                },
-                {
-                  "text": " calle 22 y avenida 7, Barrio México"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Línea gratuita:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "800-258-7474",
-                  "href": "tel:8002587474"
-                },
-                {
-                  "text": ". "
-                },
-                {
-                  "text": "Central:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "4000-8500",
-                  "href": "tel:+50640008500"
-                },
-                {
-                  "text": ". Horario: lunes a viernes 08:00–16:00."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Cualquier persona puede presentar gratis una queja sobre una institución pública, de forma verbal o escrita y sin formalidades especiales. Explique los hechos, lo que solicita y las gestiones previas; no es una oficina de albergue."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Defensoría — cómo presentar una denuncia",
-                  "href": "https://www.dhr.go.cr/servicios/servicios_dhr.aspx"
-                }
-              ]
-            }
-          ]
+          "address": "Dirección: calle 22 y avenida 7, Barrio México",
+          "phone": "8002587474",
+          "website": "https://www.dhr.go.cr/servicios/servicios_dhr.aspx",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "migracion-y-extranjeria",
-          "name": "Migración y Extranjería",
+          "title": "Migración y Extranjería",
+          "description": "Call center: 1311, lunes a viernes 07:00–18:00 y sábados 09:00–14:00. Refugio: refugio@migracion.go.cr. — mailto:refugio@migracion.go.cr\nLa mayoría de trámites requiere cita. Para refugio en San José, la unidad de La Uruca atiende con cita asignada. No entregue dinero a intermediarios que prometan acelerar el proceso.\nMigración — contacto y horarios · información de refugio — https://migracion.go.cr/refugio-2/",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Call center:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "1311",
-                  "href": "tel:1311"
-                },
-                {
-                  "text": ", lunes a viernes 07:00–18:00 y sábados 09:00–14:00. "
-                },
-                {
-                  "text": "Refugio:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "refugio@migracion.go.cr",
-                  "href": "mailto:refugio@migracion.go.cr"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "La mayoría de trámites requiere cita. Para refugio en San José, la unidad de La Uruca atiende con cita asignada. No entregue dinero a intermediarios que prometan acelerar el proceso."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Migración — contacto y horarios",
-                  "href": "https://migracion.go.cr/contactenos/"
-                },
-                {
-                  "text": " · "
-                },
-                {
-                  "text": "información de refugio",
-                  "href": "https://migracion.go.cr/refugio-2/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "1311",
+          "website": "https://migracion.go.cr/contactenos/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "acnur-costa-rica",
-          "name": "ACNUR Costa Rica",
+          "title": "ACNUR Costa Rica",
+          "description": "Línea gratuita: 800-REFUGIO, 800-7338446. Oficina San José: 2242-0700.\nOrientación para personas refugiadas o solicitantes de refugio. ACNUR no garantiza alojamiento, dinero ni aprobación de una solicitud; pida la ruta oficial y evite gestores.\nACNUR — Costa Rica",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Línea gratuita:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "800-REFUGIO, 800-7338446",
-                  "href": "tel:8007338446"
-                },
-                {
-                  "text": ". "
-                },
-                {
-                  "text": "Oficina San José:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "2242-0700",
-                  "href": "tel:+50622420700"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Orientación para personas refugiadas o solicitantes de refugio. ACNUR no garantiza alojamiento, dinero ni aprobación de una solicitud; pida la ruta oficial y evite gestores."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "ACNUR — Costa Rica",
-                  "href": "https://www.acnur.org/es-es/donde-trabajamos/pais/costa-rica"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "8007338446",
+          "website": "https://www.acnur.org/es-es/donde-trabajamos/pais/costa-rica",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "hias-apoyo-a-personas-refugiadas-y-migrantes",
-          "name": "HIAS — apoyo a personas refugiadas y migrantes",
+          "title": "HIAS — apoyo a personas refugiadas y migrantes",
+          "description": "Teléfonos: 4000-4427 o 800-442-7271.\nPuede ofrecer orientación y acompañamiento según perfil y programa. Llame para cita y servicios actuales; no suponga que hay alojamiento inmediato.\nMTSS — directorio de servicios para migrantes",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Dirección publicada:",
-                  "strong": true
-                },
-                {
-                  "text": " Paseo Colón, Edificio Centro Colón, piso 9, oficina 9-2"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Teléfonos:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "4000-4427",
-                  "href": "tel:+50640004427"
-                },
-                {
-                  "text": " o "
-                },
-                {
-                  "text": "800-442-7271",
-                  "href": "tel:8004427271"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Puede ofrecer orientación y acompañamiento según perfil y programa. Llame para cita y servicios actuales; no suponga que hay alojamiento inmediato."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "MTSS — directorio de servicios para migrantes",
-                  "href": "https://www.mtss.go.cr/dml/servicios/"
-                }
-              ]
-            }
-          ]
+          "address": "Dirección publicada: Paseo Colón, Edificio Centro Colón, piso 9, oficina 9-2",
+          "phone": "+50640004427",
+          "website": "https://www.mtss.go.cr/dml/servicios/",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
+    },
+    {
+      "id": "mail",
+      "title": "Mailing address",
+      "entries": []
+    },
+    {
+      "id": "storage",
+      "title": "Storage",
+      "entries": []
     },
     {
       "id": "safety",
-      "title": "8. Mujeres, menores, personas mayores, discapacidad y población LGBTIQ+",
-      "items": [
+      "title": "Mujeres, menores, personas mayores, discapacidad y población LGBTIQ+",
+      "entries": [
         {
-          "type": "resource",
           "id": "delegacion-de-la-mujer-inamu",
-          "name": "Delegación de la Mujer — INAMU",
+          "title": "Delegación de la Mujer — INAMU",
+          "description": "Horario publicado: lunes a viernes 08:00–16:00. Para peligro inmediato llame al 9-1-1.\nAtención legal, social y psicológica para mujeres que viven violencia. Un refugio confidencial se activa después de valorar el riesgo; no se publica su dirección ni se garantiza ingreso.\nINAMU — Delegación de la Mujer",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Dirección:",
-                  "strong": true
-                },
-                {
-                  "text": " 50 metros al norte de los Tribunales de Justicia del Primer Circuito, sobre el bulevar"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Horario publicado:",
-                  "strong": true
-                },
-                {
-                  "text": " lunes a viernes 08:00–16:00. Para peligro inmediato llame al "
-                },
-                {
-                  "text": "9-1-1",
-                  "href": "tel:911"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Atención legal, social y psicológica para mujeres que viven violencia. Un refugio confidencial se activa después de valorar el riesgo; no se publica su dirección ni se garantiza ingreso."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "INAMU — Delegación de la Mujer",
-                  "href": "https://www.inamu.go.cr/consulta-sobre-violencia-contra-las-mujeres-delegacion-de-la-mujer"
-                }
-              ]
-            }
-          ]
+          "address": "Dirección: 50 metros al norte de los Tribunales de Justicia del Primer Circuito, sobre el bulevar",
+          "phone": "911",
+          "website": "https://www.inamu.go.cr/consulta-sobre-violencia-contra-las-mujeres-delegacion-de-la-mujer",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "casa-mint-centro-de-escucha-para-mujeres",
-          "name": "Casa MINT — centro de escucha para mujeres",
+          "title": "Casa MINT — centro de escucha para mujeres",
+          "description": "Teléfonos: 8308-1729 o 8307-8850.\nCentro para mujeres adultas con acompañamiento individual o grupal y referencias. No es necesariamente un dormitorio. Llame para horario y tipo de atención.\nIAFA — Casa MINT",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Dirección:",
-                  "strong": true
-                },
-                {
-                  "text": " barrio Pitahaya, 200 metros al sur del Colegio José Fidel Tristán, edificio esquinero Dr. José Prada"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Teléfonos:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "8308-1729",
-                  "href": "tel:+50683081729"
-                },
-                {
-                  "text": " o "
-                },
-                {
-                  "text": "8307-8850",
-                  "href": "tel:+50683078850"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Centro para mujeres adultas con acompañamiento individual o grupal y referencias. No es necesariamente un dormitorio. Llame para horario y tipo de atención."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "IAFA — Casa MINT",
-                  "href": "https://iafa.go.cr/servicios-programas/centros-autorizados-ong/"
-                }
-              ]
-            }
-          ]
+          "address": "Dirección: barrio Pitahaya, 200 metros al sur del Colegio José Fidel Tristán, edificio esquinero Dr. José Prada",
+          "phone": "+50683081729",
+          "website": "https://iafa.go.cr/servicios-programas/centros-autorizados-ong/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "pani-respuesta-inmediata-en-san-jose",
-          "name": "PANI — respuesta inmediata en San José",
+          "title": "PANI — respuesta inmediata en San José",
+          "description": "DARI San José Central: costado norte de la Corte Suprema, 2222-8905. DARI San José Sur: cerca del Parque de la Paz, 2226-0763.\nAtienden situaciones graves que comprometen la integridad o la vida de menores, las 24 horas. En emergencia llame primero al 9-1-1.\nPANI — atención 24/7",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "DARI San José Central:",
-                  "strong": true
-                },
-                {
-                  "text": " costado norte de la Corte Suprema, "
-                },
-                {
-                  "text": "2222-8905",
-                  "href": "tel:+50622228905"
-                },
-                {
-                  "text": "."
-                },
-                {
-                  "break": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "DARI San José Sur:",
-                  "strong": true
-                },
-                {
-                  "text": " cerca del Parque de la Paz, "
-                },
-                {
-                  "text": "2226-0763",
-                  "href": "tel:+50622260763"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Atienden situaciones graves que comprometen la integridad o la vida de menores, las 24 horas. En emergencia llame primero al 9-1-1."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "PANI — atención 24/7",
-                  "href": "https://pani.go.cr/pani-garantiza-atencion-de-emergencias-24-7-en-las-10-direcciones-regionales/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+50622228905",
+          "website": "https://pani.go.cr/pani-garantiza-atencion-de-emergencias-24-7-en-las-10-direcciones-regionales/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "conapam-linea-dorada-para-personas-adultas-mayores",
-          "name": "CONAPAM — Línea Dorada para personas adultas mayores",
+          "title": "CONAPAM — Línea Dorada para personas adultas mayores",
+          "description": "Línea Dorada: 1165, las 24 horas. Oficina: 2223-8283.\nPara abandono, maltrato, riesgo social, indigencia o situación de calle. Puede orientar y coordinar una intervención, pero no garantiza una plaza inmediata. Ante peligro use el 9-1-1.\nCONAPAM — Línea Dorada",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Línea Dorada:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "1165",
-                  "href": "tel:1165"
-                },
-                {
-                  "text": ", las 24 horas. "
-                },
-                {
-                  "text": "Oficina:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "2223-8283",
-                  "href": "tel:+50622238283"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Dirección:",
-                  "strong": true
-                },
-                {
-                  "text": " 350 metros al oeste de Casa Presidencial, Edificio Mira, primer piso, Yoses Sur"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Para abandono, maltrato, riesgo social, indigencia o situación de calle. Puede orientar y coordinar una intervención, pero no garantiza una plaza inmediata. Ante peligro use el 9-1-1."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "CONAPAM — Línea Dorada",
-                  "href": "https://conapam.go.cr/servicios/linea-dorada/"
-                }
-              ]
-            }
-          ]
+          "address": "Dirección: 350 metros al oeste de Casa Presidencial, Edificio Mira, primer piso, Yoses Sur",
+          "phone": "1165",
+          "website": "https://conapam.go.cr/servicios/linea-dorada/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "conapdis-derechos-y-discapacidad",
-          "name": "CONAPDIS — derechos y discapacidad",
+          "title": "CONAPDIS — derechos y discapacidad",
+          "description": "Teléfono: 4036-1300. Horario publicado: lunes a viernes 08:00–16:00.\nOrienta sobre derechos, certificación y protección de personas con discapacidad. Diga si necesita alojamiento accesible, apoyo para movilizarse, comunicación accesible o continuidad de medicamentos. No es un albergue.\nCONAPDIS — contacto",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Teléfono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "4036-1300",
-                  "href": "tel:+50640361300"
-                },
-                {
-                  "text": ". Horario publicado: lunes a viernes 08:00–16:00."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Orienta sobre derechos, certificación y protección de personas con discapacidad. Diga si necesita alojamiento accesible, apoyo para movilizarse, comunicación accesible o continuidad de medicamentos. No es un albergue."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "CONAPDIS — contacto",
-                  "href": "https://conapdis.go.cr/contactenos/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+50640361300",
+          "website": "https://conapdis.go.cr/contactenos/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "atencion-segura-para-poblacion-lgbtiq",
-          "name": "Atención segura para población LGBTIQ+",
+          "title": "Atención segura para población LGBTIQ+",
+          "description": "Transvida, San José centro: 6022-2524. CIPAC, San Pedro: 8443-5252.\nEstos contactos aparecen en la ruta oficial de autoprueba de VIH y pueden orientar sobre acceso seguro a salud. Para discriminación por una institución pública, consulte a la Defensoría; ante violencia inmediata, 9-1-1.\nCONASIDA — organizaciones de San José",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Transvida, San José centro:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "6022-2524",
-                  "href": "tel:+50660222524"
-                },
-                {
-                  "text": ". "
-                },
-                {
-                  "text": "CIPAC, San Pedro:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "8443-5252",
-                  "href": "tel:+50684435252"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Estos contactos aparecen en la ruta oficial de autoprueba de VIH y pueden orientar sobre acceso seguro a salud. Para discriminación por una institución pública, consulte a la Defensoría; ante violencia inmediata, 9-1-1."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "CONASIDA — organizaciones de San José",
-                  "href": "https://conasida.ministeriodesalud.go.cr/index.php/autoprueba"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+50660222524",
+          "website": "https://conasida.ministeriodesalud.go.cr/index.php/autoprueba",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
-      "id": "internet",
-      "title": "9. Internet, teléfono y trámites digitales",
-      "items": [
-        {
-          "type": "resource",
-          "id": "biblioteca-municipal-dr-rafael-angel-calderon-guardia",
-          "name": "Biblioteca Municipal Dr. Rafael Ángel Calderón Guardia",
-          "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Dirección:",
-                  "strong": true
-                },
-                {
-                  "text": " Barrio México, costado oeste del parque, frente a la iglesia católica"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Teléfonos:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "2547-6647",
-                  "href": "tel:+50625476647"
-                },
-                {
-                  "text": ", "
-                },
-                {
-                  "text": "2256-5944",
-                  "href": "tel:+50622565944"
-                },
-                {
-                  "text": " o "
-                },
-                {
-                  "text": "8874-6602",
-                  "href": "tel:+50688746602"
-                },
-                {
-                  "text": ". Horario publicado: 08:00–16:00."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "La red municipal publica acceso a información y tecnología. Pregunte si hay computadora, internet, impresión o carga de teléfono y si se necesita identificación. La disponibilidad no está garantizada."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Municipalidad — bibliotecas",
-                  "href": "https://www.msj.go.cr/servciud/cult/Paginas/bibliotecas.aspx"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "si-no-tiene-telefono-o-correo-electronico",
-          "name": "Si no tiene teléfono o correo electrónico",
-          "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Pida a Trabajo Social del Dormitorio Municipal, IMAS, biblioteca o una organización que le ayude a crear un medio de contacto seguro. No use la dirección de una institución para recibir correo sin permiso explícito."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "No entregue el PIN, contraseña o códigos recibidos por mensaje. Anote números de gestión en papel y cierre sesión en computadoras públicas."
-                }
-              ]
-            }
-          ]
-        }
-      ]
+      "id": "specialist-support",
+      "title": "Specialist support",
+      "entries": []
     },
     {
-      "id": "weather",
-      "title": "10. Lluvia, frío y emergencias",
-      "items": [
-        {
-          "type": "resource",
-          "id": "pronostico-y-avisos-del-imn",
-          "name": "Pronóstico y avisos del IMN",
-          "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Teléfono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "2222-5616",
-                  "href": "tel:+50622225616"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Consulte avisos por lluvia intensa, tormentas, inundaciones o descenso de temperatura. No duerma cerca de un río, alcantarilla, talud inestable o paso de agua cuando hay alerta."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Instituto Meteorológico Nacional",
-                  "href": "https://www.imn.ac.cr/web/imn/inicio"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "inundacion-deslizamiento-o-evacuacion",
-          "name": "Inundación, deslizamiento o evacuación",
-          "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Para peligro inmediato llame al "
-                },
-                {
-                  "text": "9-1-1",
-                  "href": "tel:911"
-                },
-                {
-                  "text": ". Los albergues de emergencia se activan según el evento y la coordinación pública; no existe garantía de un punto permanente."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Siga la indicación de Bomberos, Cruz Roja, Policía o la Comisión Nacional de Emergencias. Pregunte la ubicación exacta antes de trasladarse."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Comisión Nacional de Emergencias",
-                  "href": "https://www.cne.go.cr/"
-                }
-              ]
-            }
-          ]
-        }
-      ]
+      "id": "veterans",
+      "title": "Veterans support",
+      "entries": []
     },
     {
       "id": "pets",
-      "title": "11. Ayuda con animales",
-      "items": [
+      "title": "Ayuda con animales",
+      "entries": [
         {
-          "type": "resource",
           "id": "senasa-orientacion-y-bienestar-animal",
-          "name": "SENASA — orientación y bienestar animal",
+          "title": "SENASA — orientación y bienestar animal",
+          "description": "Central: 2587-1600.\nSENASA puede orientar sobre bienestar, maltrato o la autoridad competente. No es una clínica veterinaria gratuita ni garantiza alojamiento para una mascota.\nSENASA — contacto",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Central:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "2587-1600",
-                  "href": "tel:+50625871600"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "SENASA puede orientar sobre bienestar, maltrato o la autoridad competente. No es una clínica veterinaria gratuita ni garantiza alojamiento para una mascota."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "SENASA — contacto",
-                  "href": "https://www.senasa.go.cr/senasa/sitio/index.php/paginas/view/175"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+50625871600",
+          "website": "https://www.senasa.go.cr/senasa/sitio/index.php/paginas/view/175",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "pregunte-por-el-animal-antes-de-aceptar-un-cupo",
-          "name": "Pregunte por el animal antes de aceptar un cupo",
+          "title": "Pregunte por el animal antes de aceptar un cupo",
+          "description": "Diga que tiene un animal antes de desplazarse al dormitorio o albergue. Pregunte si puede entrar, si existe una alternativa temporal segura y qué documentos o transportadora se necesitan.\nNo abandone ni ate al animal fuera de una institución por una promesa verbal. Ante una emergencia que también ponga personas en peligro, llame al 9-1-1.",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Diga que tiene un animal antes de desplazarse al dormitorio o albergue. Pregunte si puede entrar, si existe una alternativa temporal segura y qué documentos o transportadora se necesitan."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "No abandone ni ate al animal fuera de una institución por una promesa verbal. Ante una emergencia que también ponga personas en peligro, llame al 9-1-1."
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
-      "id": "plan",
-      "title": "12. Plan práctico de 24 horas",
-      "items": [
-        {
-          "type": "resource",
-          "id": "esta-tarde",
-          "name": "Esta tarde",
-          "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "ordered-list",
-              "items": [
-                [
-                  {
-                    "text": "Llame al Dormitorio Municipal y pregunte por ingreso y capacidad."
-                  }
-                ],
-                [
-                  {
-                    "text": "Si necesita comida o baño, confirme Caminando en Fe, La Puerta Abierta o Magis."
-                  }
-                ],
-                [
-                  {
-                    "text": "Guarde cédula, medicinas, teléfono y papeles importantes en una bolsa seca."
-                  }
-                ],
-                [
-                  {
-                    "text": "Anote dos alternativas por si la primera está llena."
-                  }
-                ]
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "manana-por-la-manana",
-          "name": "Mañana por la mañana",
-          "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "ordered-list",
-              "items": [
-                [
-                  {
-                    "text": "Hable con Trabajo Social del Dormitorio Municipal o llame al IMAS."
-                  }
-                ],
-                [
-                  {
-                    "text": "Empiece un solo trámite prioritario: documento, salud, beneficio o empleo."
-                  }
-                ],
-                [
-                  {
-                    "text": "Llame a ANE o INA si busca trabajo; pida ayuda para currículo y contacto."
-                  }
-                ],
-                [
-                  {
-                    "text": "Guarde nombres, números de gestión, citas y documentos pedidos."
-                  }
-                ]
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "si-la-primera-opcion-falla",
-          "name": "Si la primera opción falla",
-          "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "No se quede solo con “no hay cupo”. Pregunte: “¿Dónde puedo ir hoy?”, “¿Necesito una referencia?”, “¿A qué hora debo llamar otra vez?” y “¿Qué documento puedo usar si no tengo cédula?”."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Si su salud o seguridad empeora, deje los trámites y llame al 9-1-1."
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "ayude-a-mantener-esta-pagina-correcta",
+      "id": "other",
       "title": "Ayude a mantener esta página correcta",
-      "items": [
+      "entries": [
         {
-          "type": "paragraph",
-          "content": [
-            {
-              "text": "La página prioriza fuentes oficiales y páginas propias de las organizaciones. Una autorización, directorio o anuncio no garantiza que hoy exista cupo, alimento, personal o presupuesto."
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "content": [
-            {
-              "text": "Si un teléfono, dirección, horario o requisito cambió, envíe una corrección con una fuente actual. No publique nombres, historias clínicas, números de documento ni otros datos personales."
-            }
-          ]
-        },
-        {
-          "type": "list",
-          "items": [
-            [
-              {
-                "text": "Lista de verificación de ciudades",
-                "href": "../../CITY_RESEARCH_CHECKLIST.md"
-              }
-            ],
-            [
-              {
-                "text": "Plantilla de ciudad",
-                "href": "../../templates/city.html"
-              }
-            ],
-            [
-              {
-                "text": "Cómo contribuir",
-                "href": "../../CONTRIBUTING.md"
-              }
-            ]
-          ]
+          "id": "ayude-a-mantener-esta-pagina-correcta-information",
+          "title": "Ayude a mantener esta página correcta",
+          "description": "La página prioriza fuentes oficiales y páginas propias de las organizaciones. Una autorización, directorio o anuncio no garantiza que hoy exista cupo, alimento, personal o presupuesto.\nSi un teléfono, dirección, horario o requisito cambió, envíe una corrección con una fuente actual. No publique nombres, historias clínicas, números de documento ni otros datos personales.\n- Lista de verificación de ciudades — ../../CITY_RESEARCH_CHECKLIST.md\n- Plantilla de ciudad — ../../templates/city.html\n- Cómo contribuir — ../../CONTRIBUTING.md",
+          "last_verified": "2026-11-12",
+          "address": "",
+          "phone": "",
+          "website": "",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     }

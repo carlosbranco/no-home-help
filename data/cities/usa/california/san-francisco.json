@@ -1,6 +1,7 @@
 {
   "$schema": "https://nohomehelp.com/schemas/city.schema.json",
-  "schema_version": 1,
+  "documentation": "https://github.com/carlosbranco/no-home-help/blob/main/EDIT_CITY_JSON.md",
+  "schema_version": 2,
   "status": "published",
   "locale": {
     "language": "en",
@@ -26,3487 +27,868 @@
   "page": {
     "heading": "San Francisco homeless help",
     "last_verified": "2026-11-11",
-    "urgent": [
-      {
-        "type": "paragraph",
-        "content": [
-          {
-            "text": "Immediate danger, fire, overdose or medical emergency:",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "911",
-            "href": "tel:911"
-          },
-          {
-            "break": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "City information and non-emergency street outreach:",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "311",
-            "href": "tel:311"
-          },
-          {
-            "text": "; outside San Francisco call "
-          },
-          {
-            "text": "415-701-2311",
-            "href": "tel:+14157012311"
-          },
-          {
-            "break": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "SF Homeless Outreach Team and adult shelter line:",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "628-652-8000",
-            "href": "tel:+16286528000"
-          },
-          {
-            "break": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "Mental health or substance-use crisis:",
-            "strong": true
-          },
-          {
-            "text": " call or text "
-          },
-          {
-            "text": "988",
-            "href": "tel:988"
-          },
-          {
-            "break": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "Behavioral Health Access Line:",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "888-246-3333",
-            "href": "tel:+18882463333"
-          },
-          {
-            "text": ", 24 hours"
-          }
-        ]
-      }
-    ],
-    "notice": [
-      {
-        "text": "Information and capacity can change without notice.",
-        "strong": true
-      },
-      {
-        "text": " Call ahead when possible. A listing does not guarantee a bed, meal, appointment, benefit, job, storage space or housing. Shelter and housing assessments are not promises of placement."
-      }
-    ],
-    "intro": [],
-    "footer": [
-      {
-        "type": "paragraph",
-        "content": [
-          {
-            "text": "See something wrong?",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "Report incorrect information on GitHub",
-            "href": "https://github.com/carlosbranco/no-home-help/issues/new?template=incorrect-information.md"
-          },
-          {
-            "text": "."
-          }
-        ]
-      }
-    ]
+    "urgent": "Immediate danger, fire, overdose or medical emergency: 911 City information and non-emergency street outreach: 311; outside San Francisco call 415-701-2311 SF Homeless Outreach Team and adult shelter line: 628-652-8000 Mental health or substance-use crisis: call or text 988 Behavioral Health Access Line: 888-246-3333, 24 hours",
+    "notice": "Information and capacity can change without notice. Call ahead when possible. A listing does not guarantee a bed, meal, appointment, benefit, job, storage space or housing. Shelter and housing assessments are not promises of placement.",
+    "intro": "",
+    "footer": "See something wrong? Report incorrect information on GitHub. — https://github.com/carlosbranco/no-home-help/issues/new?template=incorrect-information.md"
   },
   "categories": [
     {
-      "id": "urgent-help",
-      "title": "1. Urgent help and street outreach",
-      "items": [
+      "id": "emergency",
+      "title": "Urgent help and street outreach",
+      "entries": [
         {
-          "type": "resource",
           "id": "emergency-services-911",
-          "name": "Emergency services — 911",
+          "title": "Emergency services — 911",
+          "description": "Call 911 for immediate danger, serious injury, trouble breathing, unconsciousness, fire, suspected overdose or another life-threatening emergency. Give the exact location first. If naloxone is available during a suspected opioid overdose, use it and still call 911 because its effect can wear off.\nSan Francisco coordinated street-response guidance",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Call "
-                },
-                {
-                  "text": "911",
-                  "href": "tel:911"
-                },
-                {
-                  "text": " for immediate danger, serious injury, trouble breathing, unconsciousness, fire, suspected overdose or another life-threatening emergency. Give the exact location first. If naloxone is available during a suspected opioid overdose, use it and still call 911 because its effect can wear off."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "San Francisco coordinated street-response guidance",
-                  "href": "https://www.sf.gov/coordinated-street-response-program-1"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "911",
+          "website": "https://www.sf.gov/coordinated-street-response-program-1",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "311-city-services",
-          "name": "311 city services",
+          "title": "311 city services",
+          "description": "Inside San Francisco: 311. Outside the city: 415-701-2311. TTY: 711.\nAvailable 24 hours a day in more than 160 languages. Use 311 for non-emergency information, service referrals and a request for outreach to a person living outside. Use 911 when someone is in immediate danger.\nOfficial 311 information",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Inside San Francisco:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "311",
-                  "href": "tel:311"
-                },
-                {
-                  "text": ". "
-                },
-                {
-                  "text": "Outside the city:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "415-701-2311",
-                  "href": "tel:+14157012311"
-                },
-                {
-                  "text": ". "
-                },
-                {
-                  "text": "TTY:",
-                  "strong": true
-                },
-                {
-                  "text": " 711."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Available 24 hours a day in more than 160 languages. Use 311 for non-emergency information, service referrals and a request for outreach to a person living outside. Use 911 when someone is in immediate danger."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Official 311 information",
-                  "href": "https://www.sf.gov/get-information-311"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "311",
+          "website": "https://www.sf.gov/get-information-311",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "sf-homeless-outreach-team-and-adult-shelter-access-line",
-          "name": "SF Homeless Outreach Team and Adult Shelter Access Line",
+          "title": "SF Homeless Outreach Team and Adult Shelter Access Line",
+          "description": "Phone: 628-652-8000\nRequest street outreach, ask about adult shelter access, or register for the adult shelter reservation waitlist. An outreach request or waitlist registration does not reserve a bed. For the waitlist, use either the phone or the online form, not both.\nOfficial 2026 shelter-access guidance",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "628-652-8000",
-                  "href": "tel:+16286528000"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Request street outreach, ask about adult shelter access, or register for the adult shelter reservation waitlist. An outreach request or waitlist registration does not reserve a bed. For the waitlist, use either the phone or the online form, not both."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Official 2026 shelter-access guidance",
-                  "href": "https://media.api.sf.gov/documents/HRC_Community_Guidance_2026.pdf"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+16286528000",
+          "website": "https://media.api.sf.gov/documents/HRC_Community_Guidance_2026.pdf",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "988-and-behavioral-health-access-line",
-          "name": "988 and Behavioral Health Access Line",
+          "title": "988 and Behavioral Health Access Line",
+          "description": "Call or text 988 for suicide, mental-health or substance-use crisis support. For public behavioral-health assessment and treatment navigation, call 888-246-3333, select a language and extension 2. The access line operates 24 hours.\nSan Francisco treatment navigation guide",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Call or text "
-                },
-                {
-                  "text": "988",
-                  "href": "tel:988"
-                },
-                {
-                  "text": " for suicide, mental-health or substance-use crisis support. For public behavioral-health assessment and treatment navigation, call "
-                },
-                {
-                  "text": "888-246-3333",
-                  "href": "tel:+18882463333"
-                },
-                {
-                  "text": ", select a language and extension 2. The access line operates 24 hours."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "San Francisco treatment navigation guide",
-                  "href": "https://media.api.sf.gov/documents/Treatment_Navigation_Guide.pdf"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "988",
+          "website": "https://media.api.sf.gov/documents/Treatment_Navigation_Guide.pdf",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
       "id": "shelter",
-      "title": "2. Shelter and housing entry",
-      "items": [
+      "title": "Shelter and housing entry",
+      "entries": [
         {
-          "type": "paragraph",
-          "content": [
-            {
-              "text": "Know the difference:",
-              "strong": true
-            },
-            {
-              "text": " a shelter waitlist is for a temporary bed. Coordinated Entry assesses possible housing and problem-solving resources. Neither process guarantees placement."
-            }
-          ]
-        },
-        {
-          "type": "resource",
           "id": "adult-shelter-reservation-waitlist",
-          "name": "Adult shelter reservation waitlist",
+          "title": "Adult shelter reservation waitlist",
+          "description": "Know the difference: a shelter waitlist is for a temporary bed. Coordinated Entry assesses possible housing and problem-solving resources. Neither process guarantees placement.\nPhone: 628-652-8000\nFor self-sufficient adults age 18 or older without minor children seeking a bed at Next Door, MSC South or Sanctuary. Register once by phone or through the official form. Keep the waitlist identifier and check the list regularly. Registration is not a same-day bed guarantee.\nOfficial 2026 instructions and form link",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "628-652-8000",
-                  "href": "tel:+16286528000"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "For self-sufficient adults age 18 or older without minor children seeking a bed at Next Door, MSC South or Sanctuary. Register once by phone or through the official form. Keep the waitlist identifier and check the list regularly. Registration is not a same-day bed guarantee."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Official 2026 instructions and form link",
-                  "href": "https://media.api.sf.gov/documents/HRC_Community_Guidance_2026.pdf"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+16286528000",
+          "website": "https://media.api.sf.gov/documents/HRC_Community_Guidance_2026.pdf",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "dolores-shelter-program-walk-up-overnight-shelter",
-          "name": "Dolores Shelter Program — walk-up overnight shelter",
+          "title": "Dolores Shelter Program — walk-up overnight shelter",
+          "description": "Published hours: overnight, 6 p.m.–8 a.m.; the first-come line may begin at 5:30 p.m.\nWalk-up option for adults without minor children. Capacity is limited and lining up does not guarantee entry. Confirm the current intake process before making a long trip.\nOfficial shelter-access guidance",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 1050 South Van Ness Avenue, San Francisco, CA 94110"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Published hours:",
-                  "strong": true
-                },
-                {
-                  "text": " overnight, 6 p.m.–8 a.m.; the first-come line may begin at 5:30 p.m."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Walk-up option for adults without minor children. Capacity is limited and lining up does not guarantee entry. Confirm the current intake process before making a long trip."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Official shelter-access guidance",
-                  "href": "https://media.api.sf.gov/documents/HRC_Community_Guidance_2026.pdf"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 1050 South Van Ness Avenue, San Francisco, CA 94110",
+          "phone": "",
+          "website": "https://media.api.sf.gov/documents/HRC_Community_Guidance_2026.pdf",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "msc-south",
-          "name": "MSC South",
+          "title": "MSC South",
+          "description": "Phone: 415-597-7960\nAdult shelter with meals, showers, case management and support. Access is through the adult shelter reservation system, 311 or SFHOT; it is not a guaranteed walk-in bed.\nSt. Vincent de Paul official program page",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 525 Fifth Street, San Francisco, CA 94107"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "415-597-7960",
-                  "href": "tel:+14155977960"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Adult shelter with meals, showers, case management and support. Access is through the adult shelter reservation system, 311 or SFHOT; it is not a guaranteed walk-in bed."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "St. Vincent de Paul official program page",
-                  "href": "https://svdp-sf.org/programs-and-services/homeless-services/msc-south/"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 525 Fifth Street, San Francisco, CA 94107",
+          "phone": "+14155977960",
+          "website": "https://svdp-sf.org/programs-and-services/homeless-services/msc-south/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "adult-coordinated-entry-ecs-access-point",
-          "name": "Adult Coordinated Entry — ECS Access Point",
+          "title": "Adult Coordinated Entry — ECS Access Point",
+          "description": "Phone: 628-626-1386. Drop-in: Monday, Tuesday, Thursday and Friday, 9 a.m.–noon and 12:30–3:45 p.m.; Wednesday, 9 a.m.–noon and 2–3:45 p.m.\nFor adults age 18 or older without minor children. Offers housing assessment and problem-solving. Assessment may not lead to a housing referral.\nOfficial 2026 access-point table",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 123 10th Street, San Francisco, CA 94103"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "628-626-1386",
-                  "href": "tel:+16286261386"
-                },
-                {
-                  "text": ". "
-                },
-                {
-                  "text": "Drop-in:",
-                  "strong": true
-                },
-                {
-                  "text": " Monday, Tuesday, Thursday and Friday, 9 a.m.–noon and 12:30–3:45 p.m.; Wednesday, 9 a.m.–noon and 2–3:45 p.m."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "For adults age 18 or older without minor children. Offers housing assessment and problem-solving. Assessment may not lead to a housing referral."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Official 2026 access-point table",
-                  "href": "https://media.api.sf.gov/documents/Treatment_Navigation_Guide.pdf"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 123 10th Street, San Francisco, CA 94103",
+          "phone": "+16286261386",
+          "website": "https://media.api.sf.gov/documents/Treatment_Navigation_Guide.pdf",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "adult-coordinated-entry-mission-action",
-          "name": "Adult Coordinated Entry — Mission Action",
+          "title": "Adult Coordinated Entry — Mission Action",
+          "description": "Phone: 415-857-7762. Drop-in: Monday–Friday, 9 a.m.–3:15 p.m.\nFor adults age 18 or older without minor children. Ask for a housing assessment and problem-solving conversation. Bring documents if available, but call or visit even if papers are missing.\nOfficial 2026 access-point table",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 2645 Mission Street, San Francisco, CA 94110"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "415-857-7762",
-                  "href": "tel:+14158577762"
-                },
-                {
-                  "text": ". "
-                },
-                {
-                  "text": "Drop-in:",
-                  "strong": true
-                },
-                {
-                  "text": " Monday–Friday, 9 a.m.–3:15 p.m."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "For adults age 18 or older without minor children. Ask for a housing assessment and problem-solving conversation. Bring documents if available, but call or visit even if papers are missing."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Official 2026 access-point table",
-                  "href": "https://media.api.sf.gov/documents/Treatment_Navigation_Guide.pdf"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 2645 Mission Street, San Francisco, CA 94110",
+          "phone": "+14158577762",
+          "website": "https://media.api.sf.gov/documents/Treatment_Navigation_Guide.pdf",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "adult-coordinated-entry-justice-involved-adults",
-          "name": "Adult Coordinated Entry — justice-involved adults",
+          "title": "Adult Coordinated Entry — justice-involved adults",
+          "description": "Phone: 415-522-7592. Drop-in: Monday–Friday, 9 a.m.–3:45 p.m.\nHousing access point for justice-involved adults age 18 or older without minor children. An assessment identifies possible next steps but does not guarantee housing.\nOfficial 2026 access-point table",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Pretrial Diversion Project:",
-                  "strong": true
-                },
-                {
-                  "text": " 1200 Folsom Street, San Francisco, CA 94103"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "415-522-7592",
-                  "href": "tel:+14155227592"
-                },
-                {
-                  "text": ". "
-                },
-                {
-                  "text": "Drop-in:",
-                  "strong": true
-                },
-                {
-                  "text": " Monday–Friday, 9 a.m.–3:45 p.m."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Housing access point for justice-involved adults age 18 or older without minor children. An assessment identifies possible next steps but does not guarantee housing."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Official 2026 access-point table",
-                  "href": "https://media.api.sf.gov/documents/Treatment_Navigation_Guide.pdf"
-                }
-              ]
-            }
-          ]
+          "address": "Pretrial Diversion Project: 1200 Folsom Street, San Francisco, CA 94103",
+          "phone": "+14155227592",
+          "website": "https://media.api.sf.gov/documents/Treatment_Navigation_Guide.pdf",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "family-coordinated-entry-three-access-points",
-          "name": "Family Coordinated Entry — three access points",
+          "title": "Family Coordinated Entry — three access points",
+          "description": "For households with a minor child and for pregnant people. Call first to confirm hours:\n- Central City, Compass: 37 Grove Street; 415-644-0151.\n- Mission, Catholic Charities: 2871 Mission Street; 415-972-1281.\n- Bayview, Catholic Charities: 1641 La Salle Avenue; 415-430-6320.\nAccess points provide problem-solving, assessment and navigation. They do not guarantee immediate shelter or permanent housing.\nSFUSD family and youth housing resources",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "For households with a minor child and for pregnant people. Call first to confirm hours:"
-                }
-              ]
-            },
-            {
-              "type": "list",
-              "items": [
-                [
-                  {
-                    "text": "Central City, Compass:",
-                    "strong": true
-                  },
-                  {
-                    "text": " 37 Grove Street; "
-                  },
-                  {
-                    "text": "415-644-0151",
-                    "href": "tel:+14156440151"
-                  },
-                  {
-                    "text": "."
-                  }
-                ],
-                [
-                  {
-                    "text": "Mission, Catholic Charities:",
-                    "strong": true
-                  },
-                  {
-                    "text": " 2871 Mission Street; "
-                  },
-                  {
-                    "text": "415-972-1281",
-                    "href": "tel:+14159721281"
-                  },
-                  {
-                    "text": "."
-                  }
-                ],
-                [
-                  {
-                    "text": "Bayview, Catholic Charities:",
-                    "strong": true
-                  },
-                  {
-                    "text": " 1641 La Salle Avenue; "
-                  },
-                  {
-                    "text": "415-430-6320",
-                    "href": "tel:+14154306320"
-                  },
-                  {
-                    "text": "."
-                  }
-                ]
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Access points provide problem-solving, assessment and navigation. They do not guarantee immediate shelter or permanent housing."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "SFUSD family and youth housing resources",
-                  "href": "https://www.sfusd.edu/safeh/housing-other-resources"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+14156440151",
+          "website": "https://www.sfusd.edu/safeh/housing-other-resources",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "immediate-family-shelter-contacts",
-          "name": "Immediate family-shelter contacts",
+          "title": "Immediate family-shelter contacts",
+          "description": "- Stay Over Program: 415-879-9095, 9 a.m.–5 p.m.; 415-879-4316, 5:30 p.m.–7:30 a.m.\n- Compass urgent accommodation: 415-340-0572.\n- Oasis Family Shelter: 415-875-9124.\n- Queen of Peace Shelter: 415-550-2465.\nCall before traveling. Eligibility, intake and spaces change, and a call does not reserve a room.\nCurrent SFUSD family-resource page",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "list",
-              "items": [
-                [
-                  {
-                    "text": "Stay Over Program:",
-                    "strong": true
-                  },
-                  {
-                    "text": " "
-                  },
-                  {
-                    "text": "415-879-9095",
-                    "href": "tel:+14158799095"
-                  },
-                  {
-                    "text": ", 9 a.m.–5 p.m.; "
-                  },
-                  {
-                    "text": "415-879-4316",
-                    "href": "tel:+14158794316"
-                  },
-                  {
-                    "text": ", 5:30 p.m.–7:30 a.m."
-                  }
-                ],
-                [
-                  {
-                    "text": "Compass urgent accommodation:",
-                    "strong": true
-                  },
-                  {
-                    "text": " "
-                  },
-                  {
-                    "text": "415-340-0572",
-                    "href": "tel:+14153400572"
-                  },
-                  {
-                    "text": "."
-                  }
-                ],
-                [
-                  {
-                    "text": "Oasis Family Shelter:",
-                    "strong": true
-                  },
-                  {
-                    "text": " "
-                  },
-                  {
-                    "text": "415-875-9124",
-                    "href": "tel:+14158759124"
-                  },
-                  {
-                    "text": "."
-                  }
-                ],
-                [
-                  {
-                    "text": "Queen of Peace Shelter:",
-                    "strong": true
-                  },
-                  {
-                    "text": " "
-                  },
-                  {
-                    "text": "415-550-2465",
-                    "href": "tel:+14155502465"
-                  },
-                  {
-                    "text": "."
-                  }
-                ]
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Call before traveling. Eligibility, intake and spaces change, and a call does not reserve a room."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Current SFUSD family-resource page",
-                  "href": "https://www.sfusd.edu/safeh/housing-other-resources"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+14158799095",
+          "website": "https://www.sfusd.edu/safeh/housing-other-resources",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "lark-inn-shelter-for-ages-18-24",
-          "name": "Lark-Inn — shelter for ages 18–24",
+          "title": "Lark-Inn — shelter for ages 18–24",
+          "description": "Phone: 800-447-8223. Open 24 hours; walk-ins are listed as available.\nNightly bed availability is limited. Young people should arrive by 9:45 p.m. The shelter provides meals, showers, laundry, lockers and a pet kennel. A listing does not guarantee a bed.\nLark-Inn official page",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 869 Ellis Street, San Francisco, CA 94109"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "800-447-8223",
-                  "href": "tel:+18004478223"
-                },
-                {
-                  "text": ". Open 24 hours; walk-ins are listed as available."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Nightly bed availability is limited. Young people should arrive by 9:45 p.m. The shelter provides meals, showers, laundry, lockers and a pet kennel. A listing does not guarantee a bed."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Lark-Inn official page",
-                  "href": "https://larkinstreetyouth.org/resources/lark-inn-for-youth/"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 869 Ellis Street, San Francisco, CA 94109",
+          "phone": "+18004478223",
+          "website": "https://larkinstreetyouth.org/resources/lark-inn-for-youth/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "taimon-booton-navigation-center",
-          "name": "Taimon Booton Navigation Center",
+          "title": "Taimon Booton Navigation Center",
+          "description": "Shelter and services for transgender, gender-nonconforming and intersex people, and cisgender women. The site is not open to public walk-ins and its address is not published.\nFor assessment and referral, go to Adult Coordinated Entry at 123 10th Street. Referral and capacity are not guaranteed.\nOfficial program and access instructions",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Shelter and services for transgender, gender-nonconforming and intersex people, and cisgender women. The site is not open to public walk-ins and its address is not published."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "For assessment and referral, go to Adult Coordinated Entry at 123 10th Street. Referral and capacity are not guaranteed."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Official program and access instructions",
-                  "href": "https://www.sfcommunityhealth.org/taimon-booton"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.sfcommunityhealth.org/taimon-booton",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "urgent-accommodation-for-survivors-of-violence",
-          "name": "Urgent accommodation for survivors of violence",
+          "title": "Urgent accommodation for survivors of violence",
+          "description": "St. Vincent de Paul: 415-940-2864 or 415-940-2866.\nAsk about short-term urgent accommodation for an adult fleeing intimate-partner violence, sexual assault or human trafficking while homeless. Eligibility and room availability must be confirmed.\nOfficial 2026 community guidance",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "St. Vincent de Paul:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "415-940-2864",
-                  "href": "tel:+14159402864"
-                },
-                {
-                  "text": " or "
-                },
-                {
-                  "text": "415-940-2866",
-                  "href": "tel:+14159402866"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ask about short-term urgent accommodation for an adult fleeing intimate-partner violence, sexual assault or human trafficking while homeless. Eligibility and room availability must be confirmed."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Official 2026 community guidance",
-                  "href": "https://media.api.sf.gov/documents/HRC_Community_Guidance_2026.pdf"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+14159402864",
+          "website": "https://media.api.sf.gov/documents/HRC_Community_Guidance_2026.pdf",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "veterans-coordinated-entry-swords-to-plowshares",
-          "name": "Veterans Coordinated Entry — Swords to Plowshares",
+          "title": "Veterans Coordinated Entry — Swords to Plowshares",
+          "description": "Housing line: 415-727-8387. Drop-in: Monday, 9 a.m.–3:45 p.m.; Tuesday–Friday, 8 a.m.–3:45 p.m.\nFor veterans age 18 or older without minor children. Staff can assess housing needs and help obtain service documents. Off-site housing does not accept direct walk-ins.\nOfficial 2026 access-point table",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 1060 Howard Street, San Francisco, CA 94103"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Housing line:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "415-727-8387",
-                  "href": "tel:+14157278387"
-                },
-                {
-                  "text": ". "
-                },
-                {
-                  "text": "Drop-in:",
-                  "strong": true
-                },
-                {
-                  "text": " Monday, 9 a.m.–3:45 p.m.; Tuesday–Friday, 8 a.m.–3:45 p.m."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "For veterans age 18 or older without minor children. Staff can assess housing needs and help obtain service documents. Off-site housing does not accept direct walk-ins."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Official 2026 access-point table",
-                  "href": "https://media.api.sf.gov/documents/Treatment_Navigation_Guide.pdf"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 1060 Howard Street, San Francisco, CA 94103",
+          "phone": "+14157278387",
+          "website": "https://media.api.sf.gov/documents/Treatment_Navigation_Guide.pdf",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
       "id": "food",
-      "title": "3. Free meals, groceries and faith-based help",
-      "items": [
+      "title": "Free meals, groceries and faith-based help",
+      "entries": [
         {
-          "type": "resource",
           "id": "glide-daily-free-meals",
-          "name": "GLIDE Daily Free Meals",
+          "title": "GLIDE Daily Free Meals",
+          "description": "Meals: breakfast daily 7:30–9 a.m.; lunch 11:30 a.m.–1 p.m.; dinner 3:30–5 p.m. The first half-hour of breakfast is reserved for seniors, families and adults with disabilities.\nNo eligibility screening or intake is required. GLIDE is rooted in a church community; worship is not listed as a meal requirement.\nGLIDE official meal schedule",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 330 Ellis Street, San Francisco, CA 94102"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Meals:",
-                  "strong": true
-                },
-                {
-                  "text": " breakfast daily 7:30–9 a.m.; lunch 11:30 a.m.–1 p.m.; dinner 3:30–5 p.m. The first half-hour of breakfast is reserved for seniors, families and adults with disabilities."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "No eligibility screening or intake is required. GLIDE is rooted in a church community; worship is not listed as a meal requirement."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "GLIDE official meal schedule",
-                  "href": "https://www.glide.org/programs/daily-free-meals/"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 330 Ellis Street, San Francisco, CA 94102",
+          "phone": "",
+          "website": "https://www.glide.org/programs/daily-free-meals/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "st-anthony-s-dining-room",
-          "name": "St. Anthony's Dining Room",
+          "title": "St. Anthony's Dining Room",
+          "description": "Open seven days: breakfast begins at 7 a.m.; lunch is 10 a.m.–1:30 p.m.; a weekday hot meal to go begins at 2 p.m.\nFranciscan Catholic organization serving the public. Worship is not listed as a requirement.\nOfficial dining-room page",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 121 Golden Gate Avenue, first floor, San Francisco, CA 94102"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Open seven days:",
-                  "strong": true
-                },
-                {
-                  "text": " breakfast begins at 7 a.m.; lunch is 10 a.m.–1:30 p.m.; a weekday hot meal to go begins at 2 p.m."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Franciscan Catholic organization serving the public. Worship is not listed as a requirement."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Official dining-room page",
-                  "href": "https://www.stanthonysf.org/services/dining-room/"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 121 Golden Gate Avenue, first floor, San Francisco, CA 94102",
+          "phone": "",
+          "website": "https://www.stanthonysf.org/services/dining-room/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "martin-de-porres-house-of-hospitality",
-          "name": "Martin de Porres House of Hospitality",
+          "title": "Martin de Porres House of Hospitality",
+          "description": "Phone: 415-552-0240. Free lunch: Monday–Saturday, noon–2 p.m.\nVolunteer-run Catholic Worker community. All are welcome and help is offered without conditions. Meals are often vegetarian and frequently vegan.\nOfficial hours and services",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 225 Potrero Avenue, San Francisco, CA 94103"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "415-552-0240",
-                  "href": "tel:+14155520240"
-                },
-                {
-                  "text": ". "
-                },
-                {
-                  "text": "Free lunch:",
-                  "strong": true
-                },
-                {
-                  "text": " Monday–Saturday, noon–2 p.m."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Volunteer-run Catholic Worker community. All are welcome and help is offered without conditions. Meals are often vegetarian and frequently vegan."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Official hours and services",
-                  "href": "https://martindeporres.org/"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 225 Potrero Avenue, San Francisco, CA 94103",
+          "phone": "+14155520240",
+          "website": "https://martindeporres.org/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "bayview-drop-in-center-and-mother-brown-s-kitchen",
-          "name": "Bayview Drop-In Center and Mother Brown's Kitchen",
+          "title": "Bayview Drop-In Center and Mother Brown's Kitchen",
+          "description": "Phone: 415-671-1100. Breakfast: daily 7–9 a.m. Dinner: weekdays 5–7 p.m.; weekends 4–6 p.m.\nNo proof of income or outside referral is required, but a general program intake is used. Meals are to go.\nFelton Institute official page",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 2111 Jennings Street, San Francisco, CA 94124"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "415-671-1100",
-                  "href": "tel:+14156711100"
-                },
-                {
-                  "text": ". "
-                },
-                {
-                  "text": "Breakfast:",
-                  "strong": true
-                },
-                {
-                  "text": " daily 7–9 a.m. "
-                },
-                {
-                  "text": "Dinner:",
-                  "strong": true
-                },
-                {
-                  "text": " weekdays 5–7 p.m.; weekends 4–6 p.m."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "No proof of income or outside referral is required, but a general program intake is used. Meals are to go."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Felton Institute official page",
-                  "href": "https://felton.org/social-services/adult/bayview-drop-in-center/"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 2111 Jennings Street, San Francisco, CA 94124",
+          "phone": "+14156711100",
+          "website": "https://felton.org/social-services/adult/bayview-drop-in-center/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "san-francisco-marin-food-bank-pantry-locator",
-          "name": "San Francisco-Marin Food Bank pantry locator",
+          "title": "San Francisco-Marin Food Bank pantry locator",
+          "description": "Use the live locator or call 211 to find free weekly groceries, emergency food and older-adult food boxes. The Food Bank does not distribute directly to the public at its warehouses.\nSites have different registration and pickup rules. Call before traveling and bring bags if possible.\nOfficial pantry network and locator",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Use the live locator or call 211 to find free weekly groceries, emergency food and older-adult food boxes. The Food Bank does not distribute directly to the public at its warehouses."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Sites have different registration and pickup rules. Call before traveling and bring bags if possible."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Official pantry network and locator",
-                  "href": "https://www.sfmfoodbank.org/find-food/pantry-network/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.sfmfoodbank.org/find-food/pantry-network/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "sfhsa-free-food-directory",
-          "name": "SFHSA free-food directory",
+          "title": "SFHSA free-food directory",
+          "description": "The Human Services Agency publishes meal and grocery partners across the city and advises calling each site to confirm hours and availability.\nOfficial San Francisco free-food directory",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "The Human Services Agency publishes meal and grocery partners across the city and advises calling each site to confirm hours and availability."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Official San Francisco free-food directory",
-                  "href": "https://www.sfhsa.org/services/food/free-food-locations"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.sfhsa.org/services/food/free-food-locations",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
-      "id": "daily-needs",
-      "title": "4. Showers, laundry, clothing, toilets, mail and internet",
-      "items": [
+      "id": "community",
+      "title": "Community and religious help",
+      "entries": []
+    },
+    {
+      "id": "hygiene",
+      "title": "Showers, laundry, clothing, toilets, mail and internet",
+      "entries": [
         {
-          "type": "resource",
           "id": "st-anthony-s-hygiene-hub",
-          "name": "St. Anthony's Hygiene Hub",
+          "title": "St. Anthony's Hygiene Hub",
+          "description": "Free showers, toilets, laundry, hygiene supplies and basic-needs help. Sign-up begins at 6 a.m. and demand can exceed daily capacity. Check the official page or call 415-241-2600 for the current schedule.\nOfficial Hygiene Hub page",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 150 Golden Gate Avenue, San Francisco, CA 94102"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Free showers, toilets, laundry, hygiene supplies and basic-needs help. Sign-up begins at 6 a.m. and demand can exceed daily capacity. Check the official page or call "
-                },
-                {
-                  "text": "415-241-2600",
-                  "href": "tel:+14152412600"
-                },
-                {
-                  "text": " for the current schedule."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Official Hygiene Hub page",
-                  "href": "https://www.stanthonysf.org/services/hygiene-hub/"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 150 Golden Gate Avenue, San Francisco, CA 94102",
+          "phone": "+14152412600",
+          "website": "https://www.stanthonysf.org/services/hygiene-hub/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "bayview-drop-in-center-24-hour-facility",
-          "name": "Bayview Drop-In Center — 24-hour facility",
+          "title": "Bayview Drop-In Center — 24-hour facility",
+          "description": "Phone: 415-671-1100. Showers and laundry are published daily 8 a.m.–midnight, with last shower at 11:30 p.m. and last wash at 11 p.m. Lockers, rest space and weekday mail service are also available.\nA general intake is required. Cleaning closures and availability can affect access.\nCurrent official service hours",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 2111 Jennings Street, San Francisco, CA 94124"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "415-671-1100",
-                  "href": "tel:+14156711100"
-                },
-                {
-                  "text": ". Showers and laundry are published daily 8 a.m.–midnight, with last shower at 11:30 p.m. and last wash at 11 p.m. Lockers, rest space and weekday mail service are also available."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "A general intake is required. Cleaning closures and availability can affect access."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Current official service hours",
-                  "href": "https://felton.org/social-services/adult/bayview-drop-in-center/"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 2111 Jennings Street, San Francisco, CA 94124",
+          "phone": "+14156711100",
+          "website": "https://felton.org/social-services/adult/bayview-drop-in-center/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "mission-neighborhood-resource-center",
-          "name": "Mission Neighborhood Resource Center",
+          "title": "Mission Neighborhood Resource Center",
+          "description": "Phone: 415-869-7977. Drop-in space, showers, laundry, lockers, restrooms, charging, case management and a clinic. Service windows and women-only periods vary; call before traveling.\nCurrent SF Service Guide listing",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 165 Capp Street, San Francisco, CA 94110"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "415-869-7977",
-                  "href": "tel:+14158697977"
-                },
-                {
-                  "text": ". Drop-in space, showers, laundry, lockers, restrooms, charging, case management and a clinic. Service windows and women-only periods vary; call before traveling."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Current SF Service Guide listing",
-                  "href": "https://www.sfserviceguide.org/services/5836"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 165 Capp Street, San Francisco, CA 94110",
+          "phone": "+14158697977",
+          "website": "https://www.sfserviceguide.org/services/5836",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "martin-de-porres-showers-and-clothing",
-          "name": "Martin de Porres showers and clothing",
+          "title": "Martin de Porres showers and clothing",
+          "description": "Showers: Monday–Friday, 10 a.m.–1 p.m., first come. Clothing: Thursdays. Phone: 415-552-0240.\nOfficial current service schedule",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 225 Potrero Avenue, San Francisco, CA 94103"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Showers:",
-                  "strong": true
-                },
-                {
-                  "text": " Monday–Friday, 10 a.m.–1 p.m., first come. "
-                },
-                {
-                  "text": "Clothing:",
-                  "strong": true
-                },
-                {
-                  "text": " Thursdays. "
-                },
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "415-552-0240",
-                  "href": "tel:+14155520240"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Official current service schedule",
-                  "href": "https://martindeporres.org/"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 225 Potrero Avenue, San Francisco, CA 94103",
+          "phone": "+14155520240",
+          "website": "https://martindeporres.org/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "st-anthony-s-free-clothing-program",
-          "name": "St. Anthony's Free Clothing Program",
+          "title": "St. Anthony's Free Clothing Program",
+          "description": "Adults and families with self-determined need may use the program, but an appointment is required. New or returning-after-one-year guests register in person on the first floor. No appointments are made by phone or email.\nOfficial registration and hours",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 121 Golden Gate Avenue, second floor, San Francisco, CA 94102"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Adults and families with self-determined need may use the program, but an appointment is required. New or returning-after-one-year guests register in person on the first floor. No appointments are made by phone or email."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Official registration and hours",
-                  "href": "https://www.stanthonysf.org/services/clothing/shop-for-clothes/"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 121 Golden Gate Avenue, second floor, San Francisco, CA 94102",
+          "phone": "",
+          "website": "https://www.stanthonysf.org/services/clothing/shop-for-clothes/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "st-anthony-s-tenderloin-tech-lab",
-          "name": "St. Anthony's Tenderloin Tech Lab",
+          "title": "St. Anthony's Tenderloin Tech Lab",
+          "description": "Phone: 415-592-2766. Free computers, internet, printing, scanning, faxing, secure charging, classes and tutoring for adults 18 or older.\nNo ID is required, but a short annual orientation is. Check the program page for current hours.\nOfficial Tech Lab page",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 150 Golden Gate Avenue, third floor, San Francisco, CA 94102"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "415-592-2766",
-                  "href": "tel:+14155922766"
-                },
-                {
-                  "text": ". Free computers, internet, printing, scanning, faxing, secure charging, classes and tutoring for adults 18 or older."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "No ID is required, but a short annual orientation is. Check the program page for current hours."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Official Tech Lab page",
-                  "href": "https://www.stanthonysf.org/services/tech-lab/"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 150 Golden Gate Avenue, third floor, San Francisco, CA 94102",
+          "phone": "+14155922766",
+          "website": "https://www.stanthonysf.org/services/tech-lab/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "san-francisco-public-library",
-          "name": "San Francisco Public Library",
+          "title": "San Francisco Public Library",
+          "description": "Phone: 415-557-4400. Libraries provide indoor public space, restrooms, internet and computer access under library rules. Check the live directory for hours, closures and a closer branch.\nOfficial library locations and hours",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Main Library:",
-                  "strong": true
-                },
-                {
-                  "text": " 100 Larkin Street, San Francisco, CA 94102"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "415-557-4400",
-                  "href": "tel:+14155574400"
-                },
-                {
-                  "text": ". Libraries provide indoor public space, restrooms, internet and computer access under library rules. Check the live directory for hours, closures and a closer branch."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Official library locations and hours",
-                  "href": "https://sfpl.org/locations"
-                }
-              ]
-            }
-          ]
+          "address": "Main Library: 100 Larkin Street, San Francisco, CA 94102",
+          "phone": "+14155574400",
+          "website": "https://sfpl.org/locations",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "public-bathrooms-and-drinking-water-map",
-          "name": "Public bathrooms and drinking-water map",
+          "title": "Public bathrooms and drinking-water map",
+          "description": "The City publishes a live map of public bathrooms and water fountains. Hours, closures and accessibility vary by location.\nOfficial DataSF map",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "The City publishes a live map of public bathrooms and water fountains. Hours, closures and accessibility vary by location."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Official DataSF map",
-                  "href": "https://data.sf.gov/City-Infrastructure/Map-of-Public-Bathrooms-and-Water-Fountains/qijh-gf5k"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://data.sf.gov/City-Infrastructure/Map-of-Public-Bathrooms-and-Water-Fountains/qijh-gf5k",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "project-homeless-connect-mail-and-practical-support",
-          "name": "Project Homeless Connect — mail and practical support",
+          "title": "Project Homeless Connect — mail and practical support",
+          "description": "Resource line: 855-588-7968. Published on-site hours: Tuesday, 9:30 a.m.–12:30 p.m.; check the calendar for more days.\nOffers mail service, referrals, identification help, some health connections and donated items. Appointments, eligibility and stock vary.\nEvery Day Connect official page",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 1031 Franklin Street, second floor, entrance at Franklin and O'Farrell, San Francisco, CA 94109"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Resource line:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "855-588-7968",
-                  "href": "tel:+18555887968"
-                },
-                {
-                  "text": ". "
-                },
-                {
-                  "text": "Published on-site hours:",
-                  "strong": true
-                },
-                {
-                  "text": " Tuesday, 9:30 a.m.–12:30 p.m.; check the calendar for more days."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Offers mail service, referrals, identification help, some health connections and donated items. Appointments, eligibility and stock vary."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Every Day Connect official page",
-                  "href": "https://www.projecthomelessconnect.org/programs/edc/"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 1031 Franklin Street, second floor, entrance at Franklin and O'Farrell, San Francisco, CA 94109",
+          "phone": "+18555887968",
+          "website": "https://www.projecthomelessconnect.org/programs/edc/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "sixth-street-storage-and-other-lockers",
-          "name": "Sixth Street Storage and other lockers",
+          "title": "Sixth Street Storage and other lockers",
+          "description": "The City-funded program remains contracted through 2029, but enrollment, hours and available bins can change. Call 311 or ask an access point before taking belongings there. Bayview Drop-In and Mission Neighborhood Resource Center also list lockers, subject to intake and capacity.\nOfficial storage-program contract",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Sixth Street Storage:",
-                  "strong": true
-                },
-                {
-                  "text": " 74 Sixth Street, San Francisco, CA 94103"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "The City-funded program remains contracted through 2029, but enrollment, hours and available bins can change. Call 311 or ask an access point before taking belongings there. Bayview Drop-In and Mission Neighborhood Resource Center also list lockers, subject to intake and capacity."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Official storage-program contract",
-                  "href": "https://hsh.archive.sf.gov/wp-content/uploads/2024/07/Agenda-Item-11.1-ECS-Homeless-Storage.pdf"
-                }
-              ]
-            }
-          ]
+          "address": "Sixth Street Storage: 74 Sixth Street, San Francisco, CA 94103",
+          "phone": "",
+          "website": "https://hsh.archive.sf.gov/wp-content/uploads/2024/07/Agenda-Item-11.1-ECS-Homeless-Storage.pdf",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
+    },
+    {
+      "id": "clothing",
+      "title": "Clothing",
+      "entries": []
     },
     {
       "id": "health",
-      "title": "5. Medical, mental health and substance-use care",
-      "items": [
+      "title": "Medical, mental health and substance-use care",
+      "entries": [
         {
-          "type": "resource",
           "id": "tom-waddell-urban-health-clinic",
-          "name": "Tom Waddell Urban Health Clinic",
+          "title": "Tom Waddell Urban Health Clinic",
+          "description": "Phone: 415-355-7500. Focuses on adults experiencing homelessness, supportive-housing residents and Tenderloin residents; walk-ins are welcome.\nOfficial clinic flyer",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 230 Golden Gate Avenue, San Francisco, CA 94102"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "415-355-7500",
-                  "href": "tel:+14153557500"
-                },
-                {
-                  "text": ". Focuses on adults experiencing homelessness, supportive-housing residents and Tenderloin residents; walk-ins are welcome."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Hours:",
-                  "strong": true
-                },
-                {
-                  "text": " Monday–Wednesday and Friday, 8 a.m.–noon and 1–5 p.m.; Thursday, 1–5 p.m.; closed weekends and City holidays."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Official clinic flyer",
-                  "href": "https://media.api.sf.gov/documents/Tom_Waddell_Urban_Health_Clinic_Flyer_2025-01.pdf"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 230 Golden Gate Avenue, San Francisco, CA 94102",
+          "phone": "+14153557500",
+          "website": "https://media.api.sf.gov/documents/Tom_Waddell_Urban_Health_Clinic_Flyer_2025-01.pdf",
+          "hours": "Hours: Monday–Wednesday and Friday, 8 a.m.–noon and 1–5 p.m.; Thursday, 1–5 p.m.; closed weekends and City holidays.",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "street-outreach-services-medical-van",
-          "name": "Street Outreach Services medical van",
+          "title": "Street Outreach Services medical van",
+          "description": "Dispatch: 415-355-2250\nFree urgent and preventive care for unhoused San Franciscans, with connections to primary care. The schedule includes roving sites and can change. Call for the exact location.\nOfficial mobile-clinic schedule",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Dispatch:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "415-355-2250",
-                  "href": "tel:+14153552250"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Free urgent and preventive care for unhoused San Franciscans, with connections to primary care. The schedule includes roving sites and can change. Call for the exact location."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Official mobile-clinic schedule",
-                  "href": "https://www.sfccc.org/sos-clinic-schedule"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+14153552250",
+          "website": "https://www.sfccc.org/sos-clinic-schedule",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "shelter-health",
-          "name": "Shelter Health",
+          "title": "Shelter Health",
+          "description": "City shelter guests can ask staff for on-site health care, including urgent and wound care, vaccines, medication support, testing and connections to mental-health or substance-use care. This program serves guests at participating shelters; it is not a public walk-in clinic.\nOfficial Shelter Health information",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "City shelter guests can ask staff for on-site health care, including urgent and wound care, vaccines, medication support, testing and connections to mental-health or substance-use care. This program serves guests at participating shelters; it is not a public walk-in clinic."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Official Shelter Health information",
-                  "href": "https://www.sf.gov/shelter-health"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.sf.gov/shelter-health",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "behavioral-health-access-center",
-          "name": "Behavioral Health Access Center",
+          "title": "Behavioral Health Access Center",
+          "description": "Phone: 628-754-9100. Drop-in: weekdays 8 a.m.–7 p.m.; weekends 9 a.m.–4 p.m.\nMental-health assessment and referral for San Francisco residents eligible for Medi-Cal. For 24-hour navigation, call 888-246-3333.\nOfficial 2026 treatment guide",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 1380 Howard Street, first floor, San Francisco, CA 94103"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "628-754-9100",
-                  "href": "tel:+16287549100"
-                },
-                {
-                  "text": ". "
-                },
-                {
-                  "text": "Drop-in:",
-                  "strong": true
-                },
-                {
-                  "text": " weekdays 8 a.m.–7 p.m.; weekends 9 a.m.–4 p.m."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Mental-health assessment and referral for San Francisco residents eligible for Medi-Cal. For 24-hour navigation, call "
-                },
-                {
-                  "text": "888-246-3333",
-                  "href": "tel:+18882463333"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Official 2026 treatment guide",
-                  "href": "https://media.api.sf.gov/documents/Treatment_Navigation_Guide.pdf"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 1380 Howard Street, first floor, San Francisco, CA 94103",
+          "phone": "+16287549100",
+          "website": "https://media.api.sf.gov/documents/Treatment_Navigation_Guide.pdf",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "hospitality-house-community-building-program",
-          "name": "Hospitality House Community Building Program",
+          "title": "Hospitality House Community Building Program",
+          "description": "Phone: 415-329-2005. Drop-in mental-health stabilization and short-term counseling. The City guide lists Monday 2–10 p.m. and Tuesday–Friday 9 a.m.–10 p.m.\nOfficial 2026 treatment guide",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 169 Sixth Street, San Francisco, CA 94103"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "415-329-2005",
-                  "href": "tel:+14153292005"
-                },
-                {
-                  "text": ". Drop-in mental-health stabilization and short-term counseling. The City guide lists Monday 2–10 p.m. and Tuesday–Friday 9 a.m.–10 p.m."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Official 2026 treatment guide",
-                  "href": "https://media.api.sf.gov/documents/Treatment_Navigation_Guide.pdf"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 169 Sixth Street, San Francisco, CA 94103",
+          "phone": "+14153292005",
+          "website": "https://media.api.sf.gov/documents/Treatment_Navigation_Guide.pdf",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "harm-reduction-center",
-          "name": "Harm Reduction Center",
+          "title": "Harm Reduction Center",
+          "description": "Safer-use supplies, naloxone, syringe disposal, overdose-prevention support, drug checking on selected days, testing and links to care. The latest City schedule found lists Tuesday–Friday 11 a.m.–7 p.m.; confirm before traveling.\nCall 911 for a suspected overdose, even after giving naloxone.\nOfficial harm-reduction schedule",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 117 Sixth Street, San Francisco, CA 94103"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Safer-use supplies, naloxone, syringe disposal, overdose-prevention support, drug checking on selected days, testing and links to care. The latest City schedule found lists Tuesday–Friday 11 a.m.–7 p.m.; confirm before traveling."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Call 911 for a suspected overdose, even after giving naloxone."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Official harm-reduction schedule",
-                  "href": "https://www.sf.gov/sites/default/files/2024-01/SYRINGE%20ACCESS%20SCHEDULE%202024.pdf"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 117 Sixth Street, San Francisco, CA 94103",
+          "phone": "",
+          "website": "https://www.sf.gov/sites/default/files/2024-01/SYRINGE%20ACCESS%20SCHEDULE%202024.pdf",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
+    },
+    {
+      "id": "mental-health",
+      "title": "Mental health and addiction",
+      "entries": []
+    },
+    {
+      "id": "public-facilities",
+      "title": "Public toilets and day facilities",
+      "entries": []
+    },
+    {
+      "id": "phone-internet",
+      "title": "Phone charging and internet",
+      "entries": []
+    },
+    {
+      "id": "transport",
+      "title": "Transport",
+      "entries": []
     },
     {
       "id": "benefits",
-      "title": "6. Benefits, cash aid and transport",
-      "items": [
+      "title": "Benefits, cash aid and transport",
+      "entries": [
         {
-          "type": "resource",
           "id": "calfresh-food-benefits",
-          "name": "CalFresh food benefits",
+          "title": "CalFresh food benefits",
+          "description": "Phone: 855-355-5757. Apply online, by phone or at an SFHSA center. A person experiencing homelessness does not need a household address to start.\nIf income and money are very low, ask for Expedited Services, which may provide eligible applicants benefits within three business days. People without stable mail or phone may ask about EBT-card pickup.\nOfficial CalFresh application instructions",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "855-355-5757",
-                  "href": "tel:+18553555757"
-                },
-                {
-                  "text": ". Apply online, by phone or at an SFHSA center. A person experiencing homelessness does not need a household address to start."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "If income and money are very low, ask for "
-                },
-                {
-                  "text": "Expedited Services",
-                  "strong": true
-                },
-                {
-                  "text": ", which may provide eligible applicants benefits within three business days. People without stable mail or phone may ask about EBT-card pickup."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Official CalFresh application instructions",
-                  "href": "https://www.sfhsa.org/services/food/calfresh/apply-calfresh"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+18553555757",
+          "website": "https://www.sfhsa.org/services/food/calfresh/apply-calfresh",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "county-adult-assistance-programs-caap",
-          "name": "County Adult Assistance Programs — CAAP",
+          "title": "County Adult Assistance Programs — CAAP",
+          "description": "Phone: 833-879-1365. Apply through BenefitsCal or in person at 1460 Mission Street.\nCounty cash-assistance programs for eligible low-income adults without dependent children. Ask about shelter connected to the application process; neither cash aid nor shelter is automatic.\nOfficial CAAP page",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "833-879-1365",
-                  "href": "tel:+18338791365"
-                },
-                {
-                  "text": ". Apply through BenefitsCal or in person at 1460 Mission Street."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "County cash-assistance programs for eligible low-income adults without dependent children. Ask about shelter connected to the application process; neither cash aid nor shelter is automatic."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Official CAAP page",
-                  "href": "https://www.sfhsa.org/services/financial-assistance/county-adult-assistance-programs-caap/apply-caap"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+18338791365",
+          "website": "https://www.sfhsa.org/services/financial-assistance/county-adult-assistance-programs-caap/apply-caap",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "calworks-for-families-with-children",
-          "name": "CalWORKs for families with children",
+          "title": "CalWORKs for families with children",
+          "description": "Phone: 855-557-5100. Apply online or visit 170 Otis Street or 3120 Mission Street.\nTell the worker immediately if the family urgently needs housing, food, clothing, rent, utilities or medical help; emergency help depends on eligibility.\nOfficial 2026 application steps",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "855-557-5100",
-                  "href": "tel:+18555575100"
-                },
-                {
-                  "text": ". Apply online or visit 170 Otis Street or 3120 Mission Street."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Tell the worker immediately if the family urgently needs housing, food, clothing, rent, utilities or medical help; emergency help depends on eligibility."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Official 2026 application steps",
-                  "href": "https://www.sfhsa.org/sites/default/files/media/document/2026-01/flyer_calworks_steps_to_apply_english_1.21.26.pdf"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+18555575100",
+          "website": "https://www.sfhsa.org/sites/default/files/media/document/2026-01/flyer_calworks_steps_to_apply_english_1.21.26.pdf",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "medi-cal-health-coverage",
-          "name": "Medi-Cal health coverage",
+          "title": "Medi-Cal health coverage",
+          "description": "Phone: 855-355-5757. Apply through BenefitsCal, by phone or at an SFHSA center. Low-income California residents may qualify regardless of age or immigration status, but eligibility review is required.\nOfficial Medi-Cal information",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "855-355-5757",
-                  "href": "tel:+18553555757"
-                },
-                {
-                  "text": ". Apply through BenefitsCal, by phone or at an SFHSA center. Low-income California residents may qualify regardless of age or immigration status, but eligibility review is required."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Official Medi-Cal information",
-                  "href": "https://www.sfhsa.org/services/health/medi-cal/use-medi-cal"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+18553555757",
+          "website": "https://www.sfhsa.org/services/health/medi-cal/use-medi-cal",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "sfhsa-service-centers-and-mobile-service",
-          "name": "SFHSA service centers and mobile service",
+          "title": "SFHSA service centers and mobile service",
+          "description": "In-person benefits help is available at 1460 Mission Street, 1440 Harrison Street, 3120 Mission Street, 170 Otis Street and 2 Gough Street for older adults and people with disabilities. Confirm hours before traveling.\nImportant: 1235 Mission Street is permanently closed. The Mobile Benefits Center calendar offers additional temporary locations and can issue EBT cards when appropriate.\n- Official relocation notice\n- Mobile Benefits Center calendar — https://www.sfhsa.org/services/mobile-benefits-center",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "In-person benefits help is available at 1460 Mission Street, 1440 Harrison Street, 3120 Mission Street, 170 Otis Street and 2 Gough Street for older adults and people with disabilities. Confirm hours before traveling."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Important:",
-                  "strong": true
-                },
-                {
-                  "text": " 1235 Mission Street is permanently closed. The Mobile Benefits Center calendar offers additional temporary locations and can issue EBT cards when appropriate."
-                }
-              ]
-            },
-            {
-              "type": "list",
-              "items": [
-                [
-                  {
-                    "text": "Official relocation notice",
-                    "href": "https://www.sfhsa.org/1235-mission-st-service-center-relocation"
-                  }
-                ],
-                [
-                  {
-                    "text": "Mobile Benefits Center calendar",
-                    "href": "https://www.sfhsa.org/services/mobile-benefits-center"
-                  }
-                ]
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.sfhsa.org/1235-mission-st-service-center-relocation",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "free-muni-access-pass",
-          "name": "Free Muni Access Pass",
+          "title": "Free Muni Access Pass",
+          "description": "A 12-month Muni-only pass for eligible people experiencing homelessness in San Francisco. Applicants must have contacted a Coordinated Entry Access Point within the previous six months. It does not cover BART.\nApply online, by mail, or at the SFMTA Customer Service Center, 11 South Van Ness Avenue, weekdays 8 a.m.–5 p.m.\nOfficial SFMTA discounts and Access Pass",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "A 12-month Muni-only pass for eligible people experiencing homelessness in San Francisco. Applicants must have contacted a Coordinated Entry Access Point within the previous six months. It does not cover BART."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Apply online, by mail, or at the SFMTA Customer Service Center, 11 South Van Ness Avenue, weekdays 8 a.m.–5 p.m."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Official SFMTA discounts and Access Pass",
-                  "href": "https://www.sfmta.com/discounts-low-income-individuals-and-people-experiencing-homelessness"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.sfmta.com/discounts-low-income-individuals-and-people-experiencing-homelessness",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
-      "id": "jobs",
-      "title": "7. Jobs, training and applications",
-      "items": [
+      "id": "employment",
+      "title": "Jobs, training and applications",
+      "entries": [
         {
-          "type": "resource",
           "id": "centralized-job-center-of-san-francisco",
-          "name": "Centralized Job Center of San Francisco",
+          "title": "Centralized Job Center of San Francisco",
+          "description": "Free Goodwill career services may include planning, training, hiring events, job boards, and use of computers, phones and fax. Enrollment requirements vary by program.\nOfficial Goodwill career-center page",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 750 Post Street, San Francisco, CA 94109"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Hours:",
-                  "strong": true
-                },
-                {
-                  "text": " Monday–Friday, 10 a.m.–4 p.m., walk-in or appointment; orientations Tuesday and Thursday at 11 a.m."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Free Goodwill career services may include planning, training, hiring events, job boards, and use of computers, phones and fax. Enrollment requirements vary by program."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Official Goodwill career-center page",
-                  "href": "https://sfgoodwill.org/programs/career-services/"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 750 Post Street, San Francisco, CA 94109",
+          "phone": "",
+          "website": "https://sfgoodwill.org/programs/career-services/",
+          "hours": "Hours: Monday–Friday, 10 a.m.–4 p.m., walk-in or appointment; orientations Tuesday and Thursday at 11 a.m.",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "specialized-job-center-for-justice-involved-adults",
-          "name": "Specialized Job Center for justice-involved adults",
+          "title": "Specialized Job Center for justice-involved adults",
+          "description": "Phone: 415-489-7300. Hours: Monday–Friday, 9 a.m.–4 p.m., walk-in or appointment.\nCareer services and training within the Community Assessment and Services Center for people facing re-entry barriers.\nOfficial career-services page",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 564 Sixth Street, San Francisco, CA 94103"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "415-489-7300",
-                  "href": "tel:+14154897300"
-                },
-                {
-                  "text": ". "
-                },
-                {
-                  "text": "Hours:",
-                  "strong": true
-                },
-                {
-                  "text": " Monday–Friday, 9 a.m.–4 p.m., walk-in or appointment."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Career services and training within the Community Assessment and Services Center for people facing re-entry barriers."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Official career-services page",
-                  "href": "https://sfgoodwill.org/programs/career-services/"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 564 Sixth Street, San Francisco, CA 94103",
+          "phone": "+14154897300",
+          "website": "https://sfgoodwill.org/programs/career-services/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "jobsnow",
-          "name": "JobsNOW!",
+          "title": "JobsNOW!",
+          "description": "Phone: 877-562-1669\nFree SFHSA job matching, paid opportunities, training, résumé, application and interview help. Eligibility generally requires authorization to work and current SFHSA benefits such as CalWORKs, CalFresh or CAAP.\nOfficial JobsNOW! page",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "877-562-1669",
-                  "href": "tel:+18775621669"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Free SFHSA job matching, paid opportunities, training, résumé, application and interview help. Eligibility generally requires authorization to work and current SFHSA benefits such as CalWORKs, CalFresh or CAAP."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Official JobsNOW! page",
-                  "href": "https://www.sfhsa.org/services/jobs/jobsnow/jobsnow-job-seekers"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+18775621669",
+          "website": "https://www.sfhsa.org/services/jobs/jobsnow/jobsnow-job-seekers",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "3120-mission-street-employment-information-center",
-          "name": "3120 Mission Street Employment Information Center",
+          "title": "3120 Mission Street Employment Information Center",
+          "description": "Official service-center page",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 3120 Mission Street, San Francisco, CA 94110"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Hours:",
-                  "strong": true
-                },
-                {
-                  "text": " Monday–Friday, 8 a.m.–5 p.m. Benefits service center with JobsNOW! connections plus computers, printing, copying and fax for job search."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Official service-center page",
-                  "href": "https://www.sfhsa.org/contact-us/locations/3120-mission-street-service-center"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 3120 Mission Street, San Francisco, CA 94110",
+          "phone": "",
+          "website": "https://www.sfhsa.org/contact-us/locations/3120-mission-street-service-center",
+          "hours": "Hours: Monday–Friday, 8 a.m.–5 p.m. Benefits service center with JobsNOW! connections plus computers, printing, copying and fax for job search.",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "larkin-street-employment-and-education-ages-18-24",
-          "name": "Larkin Street employment and education — ages 18–24",
+          "title": "Larkin Street employment and education — ages 18–24",
+          "description": "Phone: 415-673-0911. Youth support includes employment, education, GED, college, computers and case management. Walk-in navigation is Monday–Friday, 10 a.m.–noon; appointments 1–4 p.m.\nOfficial youth drop-in services",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 134 Golden Gate Avenue, San Francisco, CA 94102"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "415-673-0911",
-                  "href": "tel:+14156730911"
-                },
-                {
-                  "text": ". Youth support includes employment, education, GED, college, computers and case management. Walk-in navigation is Monday–Friday, 10 a.m.–noon; appointments 1–4 p.m."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Official youth drop-in services",
-                  "href": "https://larkinstreetyouth.org/drop-in/"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 134 Golden Gate Avenue, San Francisco, CA 94102",
+          "phone": "+14156730911",
+          "website": "https://larkinstreetyouth.org/drop-in/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "applying-without-a-home-address",
-          "name": "Applying without a home address",
+          "title": "Applying without a home address",
+          "description": "Use an authorized mail program rather than an address that has not agreed to receive mail. Project Homeless Connect offers mail service, and Bayview Drop-In lists weekday mail service. The St. Anthony Tech Lab provides free computers, printing, scanning, fax and charging.\nNever pay someone who promises a job or asks for money for an application.",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Use an authorized mail program rather than an address that has not agreed to receive mail. Project Homeless Connect offers mail service, and Bayview Drop-In lists weekday mail service. The St. Anthony Tech Lab provides free computers, printing, scanning, fax and charging."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Never pay someone who promises a job or asks for money for an application."
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
+    },
+    {
+      "id": "legal",
+      "title": "Legal aid",
+      "entries": []
     },
     {
       "id": "documents",
-      "title": "8. Identification, legal help and immigration",
-      "items": [
+      "title": "Identification, legal help and immigration",
+      "entries": [
         {
-          "type": "resource",
           "id": "project-homeless-connect-identification-help",
-          "name": "Project Homeless Connect — identification help",
+          "title": "Project Homeless Connect — identification help",
+          "description": "Resource line: 855-588-7968. Eligible participants may receive a no-fee California ID voucher and help seeking birth certificates or passports. Help depends on eligibility, appointments and funds.\nOfficial identification and mail services",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 1031 Franklin Street, second floor, San Francisco, CA 94109"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Resource line:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "855-588-7968",
-                  "href": "tel:+18555887968"
-                },
-                {
-                  "text": ". Eligible participants may receive a no-fee California ID voucher and help seeking birth certificates or passports. Help depends on eligibility, appointments and funds."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Official identification and mail services",
-                  "href": "https://www.projecthomelessconnect.org/programs/edc/"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 1031 Franklin Street, second floor, San Francisco, CA 94109",
+          "phone": "+18555887968",
+          "website": "https://www.projecthomelessconnect.org/programs/edc/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "california-homeless-birth-certificate-fee-waiver",
-          "name": "California homeless birth-certificate fee waiver",
+          "title": "California homeless birth-certificate fee waiver",
+          "description": "A person experiencing homelessness may request a certified California birth record without the normal fee. A qualifying homeless-services provider must complete the affidavit; identity and record requirements still apply.\nCalifornia Vital Records and fee-waiver forms",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "A person experiencing homelessness may request a certified California birth record without the normal fee. A qualifying homeless-services provider must complete the affidavit; identity and record requirements still apply."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "California Vital Records and fee-waiver forms",
-                  "href": "https://www.cdph.ca.gov/Programs/CHSI/pages/Vital-Records.aspx"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.cdph.ca.gov/Programs/CHSI/pages/Vital-Records.aspx",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "homeless-advocacy-project",
-          "name": "Homeless Advocacy Project",
+          "title": "Homeless Advocacy Project",
+          "description": "Phone: 415-575-3130; toll-free 800-405-4427.\nFree legal and social-service help for people experiencing or at imminent risk of homelessness, including disability benefits, eviction, SSI and immigration documentation. New-client drop-in is Tuesday–Friday, 1–3 p.m.; closed Mondays.\nOfficial Homeless Advocacy Project page",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 125 Hyde Street, San Francisco, CA 94102"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "415-575-3130",
-                  "href": "tel:+14155753130"
-                },
-                {
-                  "text": "; toll-free "
-                },
-                {
-                  "text": "800-405-4427",
-                  "href": "tel:+18004054427"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Free legal and social-service help for people experiencing or at imminent risk of homelessness, including disability benefits, eviction, SSI and immigration documentation. New-client drop-in is Tuesday–Friday, 1–3 p.m.; closed Mondays."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Official Homeless Advocacy Project page",
-                  "href": "https://www.sfbar.org/jdc/jdc-legal-services-programs/hap/"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 125 Hyde Street, San Francisco, CA 94102",
+          "phone": "+14155753130",
+          "website": "https://www.sfbar.org/jdc/jdc-legal-services-programs/hap/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "legal-advice-and-referral-clinic-at-glide",
-          "name": "Legal Advice and Referral Clinic at GLIDE",
+          "title": "Legal Advice and Referral Clinic at GLIDE",
+          "description": "2026 schedule: third Wednesday monthly, 10 a.m.–noon, walk-in. Low-income people receive priority. Volunteer lawyers provide brief civil advice and referrals; representation is not guaranteed.\nOfficial clinic schedule",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " GLIDE Sanctuary, second floor, 330 Ellis Street, San Francisco, CA 94102"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "2026 schedule:",
-                  "strong": true
-                },
-                {
-                  "text": " third Wednesday monthly, 10 a.m.–noon, walk-in. Low-income people receive priority. Volunteer lawyers provide brief civil advice and referrals; representation is not guaranteed."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Official clinic schedule",
-                  "href": "https://www.sfbar.org/jdc/jdc-legal-services-programs/legal-advice-and-referral-clinic-tenderloin/"
-                }
-              ]
-            }
-          ]
+          "address": "Address: GLIDE Sanctuary, second floor, 330 Ellis Street, San Francisco, CA 94102",
+          "phone": "",
+          "website": "https://www.sfbar.org/jdc/jdc-legal-services-programs/legal-advice-and-referral-clinic-tenderloin/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "immigration-legal-help-directory",
-          "name": "Immigration legal-help directory",
+          "title": "Immigration legal-help directory",
+          "description": "The City lists nonprofit legal providers by language and type of case. Call before visiting; eligibility and case capacity differ. Do not pay a notario or unlicensed adviser for legal representation.\nOfficial San Francisco immigration legal resources",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "The City lists nonprofit legal providers by language and type of case. Call before visiting; eligibility and case capacity differ. Do not pay a notario or unlicensed adviser for legal representation."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Official San Francisco immigration legal resources",
-                  "href": "https://immigrants.sf.gov/help/legal-resources"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://immigrants.sf.gov/help/legal-resources",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
-      "id": "specialized",
-      "title": "9. Families, young people, survivors, LGBTQ+ people and veterans",
-      "items": [
+      "id": "mail",
+      "title": "Mailing address",
+      "entries": []
+    },
+    {
+      "id": "storage",
+      "title": "Storage",
+      "entries": []
+    },
+    {
+      "id": "safety",
+      "title": "Safety and domestic violence",
+      "entries": []
+    },
+    {
+      "id": "specialist-support",
+      "title": "Families, young people, survivors, LGBTQ+ people and veterans",
+      "entries": [
         {
-          "type": "resource",
           "id": "domestic-violence-immediate-safety",
-          "name": "Domestic violence — immediate safety",
+          "title": "Domestic violence — immediate safety",
+          "description": "Call 911 for immediate danger. For confidential support, call La Casa de las Madres at 877-503-1850 or WOMAN, Inc. at 877-384-3578, both 24 hours.\nConfidential shelter addresses are not published. If an abusive person may monitor the device, use a safe telephone if possible.\nOfficial survivor resources",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Call 911 for immediate danger. For confidential support, call "
-                },
-                {
-                  "text": "La Casa de las Madres",
-                  "strong": true
-                },
-                {
-                  "text": " at "
-                },
-                {
-                  "text": "877-503-1850",
-                  "href": "tel:+18775031850"
-                },
-                {
-                  "text": " or "
-                },
-                {
-                  "text": "WOMAN, Inc.",
-                  "strong": true
-                },
-                {
-                  "text": " at "
-                },
-                {
-                  "text": "877-384-3578",
-                  "href": "tel:+18773843578"
-                },
-                {
-                  "text": ", both 24 hours."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Confidential shelter addresses are not published. If an abusive person may monitor the device, use a safe telephone if possible."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Official survivor resources",
-                  "href": "https://www.sanfranciscopolice.org/stay-safe/crime-prevention/domestic-violence-and-elder-abuse"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+18775031850",
+          "website": "https://www.sanfranciscopolice.org/stay-safe/crime-prevention/domestic-violence-and-elder-abuse",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "riley-center-and-brennan-house",
-          "name": "Riley Center and Brennan House",
+          "title": "Riley Center and Brennan House",
+          "description": "24-hour support line: 415-255-0165. St. Vincent de Paul provides confidential survivor support, emergency shelter, transitional housing, case management and advocacy.\nBrennan House accepts all genders, including male survivors, and children. Availability requires assessment.\nOfficial domestic-violence services",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "24-hour support line:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "415-255-0165",
-                  "href": "tel:+14152550165"
-                },
-                {
-                  "text": ". St. Vincent de Paul provides confidential survivor support, emergency shelter, transitional housing, case management and advocacy."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Brennan House accepts all genders, including male survivors, and children. Availability requires assessment."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Official domestic-violence services",
-                  "href": "https://svdp-sf.org/programs-and-services/domestic-violence-services/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+14152550165",
+          "website": "https://svdp-sf.org/programs-and-services/domestic-violence-services/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "safehouse-hope-center",
-          "name": "SafeHouse Hope Center",
+          "title": "SafeHouse Hope Center",
+          "description": "Phone: 415-643-7861. Hours: Monday–Friday, 1–9 p.m.\nDrop-in help for women experiencing homelessness and sexual exploitation: food, bathrooms, hygiene, computers and connections to housing, legal and health services. It is not a guaranteed overnight bed.\nOfficial Hope Center page",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 1089 Mission Street, San Francisco, CA 94103"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "415-643-7861",
-                  "href": "tel:+14156437861"
-                },
-                {
-                  "text": ". "
-                },
-                {
-                  "text": "Hours:",
-                  "strong": true
-                },
-                {
-                  "text": " Monday–Friday, 1–9 p.m."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Drop-in help for women experiencing homelessness and sexual exploitation: food, bathrooms, hygiene, computers and connections to housing, legal and health services. It is not a guaranteed overnight bed."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Official Hope Center page",
-                  "href": "https://www.sfsafehouse.org/en/hope-center"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 1089 Mission Street, San Francisco, CA 94103",
+          "phone": "+14156437861",
+          "website": "https://www.sfsafehouse.org/en/hope-center",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "larkin-street-youth-services-ages-18-24",
-          "name": "Larkin Street Youth Services — ages 18–24",
+          "title": "Larkin Street Youth Services — ages 18–24",
+          "description": "24-hour help line: 800-669-6196. Drop-in support includes breakfast, lunch, showers, laundry, rest pods, computers, Wi-Fi, clinic care, counseling, education and employment.\nOfficial drop-in center page",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 134 Golden Gate Avenue, San Francisco, CA 94102"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "24-hour help line:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "800-669-6196",
-                  "href": "tel:+18006696196"
-                },
-                {
-                  "text": ". Drop-in support includes breakfast, lunch, showers, laundry, rest pods, computers, Wi-Fi, clinic care, counseling, education and employment."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Official drop-in center page",
-                  "href": "https://larkinstreetyouth.org/drop-in/"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 134 Golden Gate Avenue, San Francisco, CA 94102",
+          "phone": "+18006696196",
+          "website": "https://larkinstreetyouth.org/drop-in/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "sf-lgbt-center-youth-services",
-          "name": "SF LGBT Center youth services",
+          "title": "SF LGBT Center youth services",
+          "description": "The Center serves LGBTQ+ young people with drop-in support and acts as a Youth Coordinated Entry access point. Ask about current housing navigation, employment and community services.\nOfficial youth-services page",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 1800 Market Street, San Francisco, CA 94102"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "The Center serves LGBTQ+ young people with drop-in support and acts as a Youth Coordinated Entry access point. Ask about current housing navigation, employment and community services."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Official youth-services page",
-                  "href": "https://www.sfcenter.org/program/youth-services/"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 1800 Market Street, San Francisco, CA 94102",
+          "phone": "",
+          "website": "https://www.sfcenter.org/program/youth-services/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "swords-to-plowshares-veterans-center",
-          "name": "Swords to Plowshares Veterans Center",
+          "title": "Swords to Plowshares Veterans Center",
+          "description": "Main phone: 415-252-4788. No-fee case management, benefits and discharge assistance, legal help, employment, counseling and housing navigation. Staff can help obtain ID and DD-214 records.\nDrop-ins are accepted for services, but off-site housing is referral-only.\nOfficial veterans-center contact page",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 1060 Howard Street, San Francisco, CA 94103"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Main phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "415-252-4788",
-                  "href": "tel:+14152524788"
-                },
-                {
-                  "text": ". No-fee case management, benefits and discharge assistance, legal help, employment, counseling and housing navigation. Staff can help obtain ID and DD-214 records."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Drop-ins are accepted for services, but off-site housing is referral-only."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Official veterans-center contact page",
-                  "href": "https://www.swords-to-plowshares.org/contact"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 1060 Howard Street, San Francisco, CA 94103",
+          "phone": "+14152524788",
+          "website": "https://www.swords-to-plowshares.org/contact",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "san-francisco-va-downtown-clinic",
-          "name": "San Francisco VA Downtown Clinic",
+          "title": "San Francisco VA Downtown Clinic",
+          "description": "New-patient hotline: 415-750-2281. Walk-in medical and social-work services Monday–Friday, 8 a.m.–4:30 p.m.\nHomeless-veteran line: 877-424-3838. Crisis: call 988, then press 1.\nOfficial VA San Francisco resources",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 401 Third Street, San Francisco, CA 94107"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "New-patient hotline:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "415-750-2281",
-                  "href": "tel:+14157502281"
-                },
-                {
-                  "text": ". Walk-in medical and social-work services Monday–Friday, 8 a.m.–4:30 p.m."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Homeless-veteran line:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "877-424-3838",
-                  "href": "tel:+18774243838"
-                },
-                {
-                  "text": ". "
-                },
-                {
-                  "text": "Crisis:",
-                  "strong": true
-                },
-                {
-                  "text": " call 988, then press 1."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Official VA San Francisco resources",
-                  "href": "https://www.va.gov/san-francisco-health-care/programs/resources-for-veterans/"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 401 Third Street, San Francisco, CA 94107",
+          "phone": "+14157502281",
+          "website": "https://www.va.gov/san-francisco-health-care/programs/resources-for-veterans/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "help-in-other-languages-and-for-immigrants",
-          "name": "Help in other languages and for immigrants",
+          "title": "Help in other languages and for immigrants",
+          "description": "311 provides free language assistance. SFHSA lists benefit-application partners serving Spanish, Cantonese, Mandarin and other language communities. Immigration status affects some benefits but not every service; ask a qualified worker.\nOfficial immigrant-service organizations",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "311 provides free language assistance. SFHSA lists benefit-application partners serving Spanish, Cantonese, Mandarin and other language communities. Immigration status affects some benefits but not every service; ask a qualified worker."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Official immigrant-service organizations",
-                  "href": "https://www.sfhsa.org/services/immigrants/immigrant-services-organizations"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.sfhsa.org/services/immigrants/immigrant-services-organizations",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
+    },
+    {
+      "id": "veterans",
+      "title": "Veterans support",
+      "entries": []
     },
     {
       "id": "pets",
-      "title": "10. Help for people with pets",
-      "items": [
+      "title": "Help for people with pets",
+      "entries": [
         {
-          "type": "paragraph",
-          "content": [
-            {
-              "text": "Tell every shelter or access point about an animal before accepting placement. A pet, service animal and emotional-support animal may be treated differently. Do not surrender an animal before asking about a kennel, temporary care, food or veterinary support."
-            }
-          ]
-        },
-        {
-          "type": "resource",
           "id": "veterinary-street-outreach-services-vet-sos",
-          "name": "Veterinary Street Outreach Services — Vet SOS",
+          "title": "Veterinary Street Outreach Services — Vet SOS",
+          "description": "Tell every shelter or access point about an animal before accepting placement. A pet, service animal and emotional-support animal may be treated differently. Do not surrender an animal before asking about a kennel, temporary care, food or veterinary support.\nPhone: 415-355-2248. Free twice-monthly pop-up veterinary clinics for unhoused San Francisco pet owners and some recently housed clients.\nWellness exams, vaccines, testing, supplies and referrals for free spay or neuter care. Appointment and eligibility confirmation are required; this is not emergency care.\nOfficial eligibility and appointment instructions",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "415-355-2248",
-                  "href": "tel:+14153552248"
-                },
-                {
-                  "text": ". Free twice-monthly pop-up veterinary clinics for unhoused San Francisco pet owners and some recently housed clients."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Wellness exams, vaccines, testing, supplies and referrals for free spay or neuter care. Appointment and eligibility confirmation are required; this is not emergency care."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Official eligibility and appointment instructions",
-                  "href": "https://www.sfccc.org/eligibility-vetsos"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+14153552248",
+          "website": "https://www.sfccc.org/eligibility-vetsos",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "full-belly-bus",
-          "name": "Full Belly Bus",
+          "title": "Full Belly Bus",
+          "description": "Phone: 415-635-1007. Free pet food, veterinary wellness help, grooming and supplies to unhoused people with dogs and cats through mobile events.\nThe Food 4 Paws page lists recurring distributions. Dates change; call or check before traveling.\nCurrent pet-food locations and resources",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "415-635-1007",
-                  "href": "tel:+14156351007"
-                },
-                {
-                  "text": ". Free pet food, veterinary wellness help, grooming and supplies to unhoused people with dogs and cats through mobile events."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "The Food 4 Paws page lists recurring distributions. Dates change; call or check before traveling."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Current pet-food locations and resources",
-                  "href": "https://fullbellybus.org/low-cost-resources"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+14156351007",
+          "website": "https://fullbellybus.org/low-cost-resources",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "sf-spca-community-veterinary-clinic",
-          "name": "SF SPCA Community Veterinary Clinic",
+          "title": "SF SPCA Community Veterinary Clinic",
+          "description": "Text: 415-554-3084. Hours: Wednesday–Saturday, 8 a.m.–6 p.m. — sms:+14155543084\nAffordable preventive care and treatment for selected minor conditions. It does not provide emergencies, X-rays, laboratory diagnostics, adoption or health certificates.\nOfficial clinic services and booking",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 4527 Mission Street, San Francisco, CA 94112"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Text:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "415-554-3084",
-                  "href": "sms:+14155543084"
-                },
-                {
-                  "text": ". "
-                },
-                {
-                  "text": "Hours:",
-                  "strong": true
-                },
-                {
-                  "text": " Wednesday–Saturday, 8 a.m.–6 p.m."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Affordable preventive care and treatment for selected minor conditions. It does not provide emergencies, X-rays, laboratory diagnostics, adoption or health certificates."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Official clinic services and booking",
-                  "href": "https://www.sfspca.org/veterinary-care/community-clinic/"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 4527 Mission Street, San Francisco, CA 94112",
+          "phone": "",
+          "website": "https://www.sfspca.org/veterinary-care/community-clinic/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "pet-aware-shelter-options",
-          "name": "Pet-aware shelter options",
+          "title": "Pet-aware shelter options",
+          "description": "Lark-Inn publishes a pet kennel for youth ages 18–24. Other shelter rules differ. When calling 628-652-8000 or an access point, state the animal type, size and whether it is a trained service animal.\nA kennel or animal-friendly policy does not guarantee a human shelter bed or space for the animal.\nLark-Inn services",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Lark-Inn publishes a pet kennel for youth ages 18–24. Other shelter rules differ. When calling "
-                },
-                {
-                  "text": "628-652-8000",
-                  "href": "tel:+16286528000"
-                },
-                {
-                  "text": " or an access point, state the animal type, size and whether it is a trained service animal."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "A kennel or animal-friendly policy does not guarantee a human shelter bed or space for the animal."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Lark-Inn services",
-                  "href": "https://larkinstreetyouth.org/resources/lark-inn-for-youth/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+16286528000",
+          "website": "https://larkinstreetyouth.org/resources/lark-inn-for-youth/",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
+    },
+    {
+      "id": "other",
+      "title": "Other useful resources",
+      "entries": []
     }
   ]
 }

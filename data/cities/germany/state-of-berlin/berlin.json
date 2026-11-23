@@ -1,6 +1,7 @@
 {
   "$schema": "https://nohomehelp.com/schemas/city.schema.json",
-  "schema_version": 1,
+  "documentation": "https://github.com/carlosbranco/no-home-help/blob/main/EDIT_CITY_JSON.md",
+  "schema_version": 2,
   "status": "published",
   "locale": {
     "language": "de",
@@ -26,3923 +27,1000 @@
   "page": {
     "heading": "Hilfe bei Obdachlosigkeit und Wohnungsnot in Berlin",
     "last_verified": "2026-11-12",
-    "urgent": [
-      {
-        "type": "paragraph",
-        "content": [
-          {
-            "text": "Lebensgefahr, Feuer oder Rettungsdienst:",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "112",
-            "href": "tel:112"
-          },
-          {
-            "break": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "Polizei bei akuter Gefahr:",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "110",
-            "href": "tel:110"
-          },
-          {
-            "break": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "Kältebus, November bis März, 20–2 Uhr:",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "030 690 333 690",
-            "href": "tel:+4930690333690"
-          },
-          {
-            "break": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "Wärmebus, November bis März, 18–24 Uhr:",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "030 600 300 1010",
-            "href": "tel:+49306003001010"
-          },
-          {
-            "break": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "Kältehilfetelefon, täglich 19–23 Uhr:",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "030 343 971 40",
-            "href": "tel:+493034397140"
-          },
-          {
-            "break": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "Ärztlicher Bereitschaftsdienst:",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "116 117",
-            "href": "tel:116117"
-          }
-        ]
-      }
-    ],
-    "notice": [
-      {
-        "text": "Information can change. Call ahead when possible."
-      }
-    ],
-    "intro": [],
-    "footer": [
-      {
-        "type": "paragraph",
-        "content": [
-          {
-            "text": "Ein Angebot fehlt oder stimmt nicht mehr? "
-          },
-          {
-            "text": "Mitwirken",
-            "href": "../../CONTRIBUTING.md"
-          },
-          {
-            "text": " oder "
-          },
-          {
-            "text": "auf GitHub melden",
-            "href": "https://github.com/carlosbranco/no-home-help"
-          },
-          {
-            "text": "."
-          }
-        ]
-      },
-      {
-        "type": "paragraph",
-        "content": [
-          {
-            "text": "No Home Help vermittelt keine Plätze und ersetzt keinen Notdienst. Bitte prüfen Sie Kapazität, Regeln und Zeiten direkt bei der jeweiligen Stelle."
-          }
-        ]
-      }
-    ]
+    "urgent": "Lebensgefahr, Feuer oder Rettungsdienst: 112 Polizei bei akuter Gefahr: 110 Kältebus, November bis März, 20–2 Uhr: 030 690 333 690 Wärmebus, November bis März, 18–24 Uhr: 030 600 300 1010 Kältehilfetelefon, täglich 19–23 Uhr: 030 343 971 40 Ärztlicher Bereitschaftsdienst: 116 117",
+    "notice": "Information can change. Call ahead when possible.",
+    "intro": "",
+    "footer": "Ein Angebot fehlt oder stimmt nicht mehr? Mitwirken oder auf GitHub melden. — ../../CONTRIBUTING.md — https://github.com/carlosbranco/no-home-help\nNo Home Help vermittelt keine Plätze und ersetzt keinen Notdienst. Bitte prüfen Sie Kapazität, Regeln und Zeiten direkt bei der jeweiligen Stelle."
   },
   "categories": [
     {
-      "id": "urgent",
-      "title": "1. Akute Hilfe und Kältebusse",
-      "items": [
+      "id": "emergency",
+      "title": "Akute Hilfe und Kältebusse",
+      "entries": [
         {
-          "type": "resource",
           "id": "notruf-112-und-110",
-          "name": "Notruf — 112 und 110",
+          "title": "Notruf — 112 und 110",
+          "description": "Rettungsdienst und Feuerwehr: 112. Polizei: 110.\nWählen Sie 112 bei Bewusstlosigkeit, Atemnot, schwerer Verletzung, Überdosierung, Unterkühlung, Feuer oder einer anderen Lebensgefahr. Bei akuter Gewalt oder Bedrohung wählen Sie 110. Nennen Sie zuerst den genauen Ort.\nNotrufinformationen des Landes Berlin",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Rettungsdienst und Feuerwehr:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "112",
-                  "href": "tel:112"
-                },
-                {
-                  "text": ". "
-                },
-                {
-                  "text": "Polizei:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "110",
-                  "href": "tel:110"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Wählen Sie 112 bei Bewusstlosigkeit, Atemnot, schwerer Verletzung, Überdosierung, Unterkühlung, Feuer oder einer anderen Lebensgefahr. Bei akuter Gewalt oder Bedrohung wählen Sie 110. Nennen Sie zuerst den genauen Ort."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Notrufinformationen des Landes Berlin",
-                  "href": "https://www.berlin.de/polizei/service/so-erreichen-sie-uns/notruf/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "112",
+          "website": "https://www.berlin.de/polizei/service/so-erreichen-sie-uns/notruf/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "kaltebus-der-berliner-stadtmission",
-          "name": "Kältebus der Berliner Stadtmission",
+          "title": "Kältebus der Berliner Stadtmission",
+          "description": "Telefon: 030 690 333 690, vom 1. November bis 31. März täglich 20–2 Uhr.\nSprechen Sie die betroffene Person zuerst an und fragen Sie, ob Hilfe gewünscht ist. Der Kältebus kann warme Getränke, Schlafsäcke und auf Wunsch eine Fahrt zu einer Notübernachtung anbieten. Bei akuter Lebensgefahr nicht auf den Bus warten, sondern 112 anrufen.\nKältehilfe der Berliner Stadtmission",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefon:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "030 690 333 690",
-                  "href": "tel:+4930690333690"
-                },
-                {
-                  "text": ", vom 1. November bis 31. März täglich 20–2 Uhr."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Sprechen Sie die betroffene Person zuerst an und fragen Sie, ob Hilfe gewünscht ist. Der Kältebus kann warme Getränke, Schlafsäcke und auf Wunsch eine Fahrt zu einer Notübernachtung anbieten. Bei akuter Lebensgefahr nicht auf den Bus warten, sondern 112 anrufen."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Kältehilfe der Berliner Stadtmission",
-                  "href": "https://www.berliner-stadtmission.de/kaeltehilfe"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+4930690333690",
+          "website": "https://www.berliner-stadtmission.de/kaeltehilfe",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "drk-warmebus",
-          "name": "DRK-Wärmebus",
+          "title": "DRK-Wärmebus",
+          "description": "Telefon: 030 600 300 1010, vom 1. November bis 31. März täglich 18–24 Uhr.\nDer Wärmebus versorgt Menschen auf der Straße mit heißen Getränken, warmer Kleidung, Schlafsäcken und Isomatten. Wenn die Person einverstanden ist, kann das Team einen Notübernachtungsplatz suchen und die Fahrt dorthin übernehmen.\nDRK-Wärmebus Berlin",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefon:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "030 600 300 1010",
-                  "href": "tel:+49306003001010"
-                },
-                {
-                  "text": ", vom 1. November bis 31. März täglich 18–24 Uhr."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Der Wärmebus versorgt Menschen auf der Straße mit heißen Getränken, warmer Kleidung, Schlafsäcken und Isomatten. Wenn die Person einverstanden ist, kann das Team einen Notübernachtungsplatz suchen und die Fahrt dorthin übernehmen."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "DRK-Wärmebus Berlin",
-                  "href": "https://www.drk-berlin.de/start/ehrenamt/waermebus"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+49306003001010",
+          "website": "https://www.drk-berlin.de/start/ehrenamt/waermebus",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "kaltehilfetelefon-der-gebewo-pro",
-          "name": "Kältehilfetelefon der GEBEWO pro",
+          "title": "Kältehilfetelefon der GEBEWO pro",
+          "description": "Telefon: 030 343 971 40, laut aktuellem Kältehilfe-Portal täglich 19–23 Uhr.\nFragen Sie nach freien oder noch aufnehmenden Notübernachtungen, Nachtcafés und besonderen Bedingungen. Die Belegung ändert sich im Laufe des Abends; ein Telefonhinweis reserviert kein Bett.\nBerliner Kältehilfe 2026/27",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefon:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "030 343 971 40",
-                  "href": "tel:+493034397140"
-                },
-                {
-                  "text": ", laut aktuellem Kältehilfe-Portal täglich 19–23 Uhr."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Fragen Sie nach freien oder noch aufnehmenden Notübernachtungen, Nachtcafés und besonderen Bedingungen. Die Belegung ändert sich im Laufe des Abends; ein Telefonhinweis reserviert kein Bett."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Berliner Kältehilfe 2026/27",
-                  "href": "https://kaeltehilfe-berlin.de/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+493034397140",
+          "website": "https://kaeltehilfe-berlin.de/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "obdachbus-im-berliner-sudwesten",
-          "name": "Obdachbus im Berliner Südwesten",
+          "title": "Obdachbus im Berliner Südwesten",
+          "description": "Telefon: 0157 580 949 52, laut Kältehilfe-Portal täglich 11–22 Uhr.\nDer DRK-Obdachbus arbeitet insbesondere in Steglitz-Zehlendorf, unterstützt akut und vermittelt zu weiterführender Beratung. Nennen Sie den sichtbaren Standort und fragen Sie die Person vorher nach ihrem Einverständnis.\nAktuelle Berliner Straßenteams",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefon:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "0157 580 949 52",
-                  "href": "tel:+4915758094952"
-                },
-                {
-                  "text": ", laut Kältehilfe-Portal täglich 11–22 Uhr."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Der DRK-Obdachbus arbeitet insbesondere in Steglitz-Zehlendorf, unterstützt akut und vermittelt zu weiterführender Beratung. Nennen Sie den sichtbaren Standort und fragen Sie die Person vorher nach ihrem Einverständnis."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Aktuelle Berliner Straßenteams",
-                  "href": "https://kaeltehilfe-berlin.de/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+4915758094952",
+          "website": "https://kaeltehilfe-berlin.de/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "karuna-hilfehotline-und-sub",
-          "name": "KARUNA-Hilfehotline und SUB",
+          "title": "KARUNA-Hilfehotline und SUB",
+          "description": "Telefon: 0157 805 978 70, Montag bis Freitag 9–16 Uhr laut Kältehilfe-Portal.\nFür wohnungslose Menschen, die Hilfe, Orientierung oder Kontakt zu einem Straßenteam benötigen. Außerhalb der Zeiten nutzen Sie Kältehilfe, Wärmebus oder bei Gefahr 112.\nNotruf- und Hilfenummern der Kältehilfe",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefon:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "0157 805 978 70",
-                  "href": "tel:+4915780597870"
-                },
-                {
-                  "text": ", Montag bis Freitag 9–16 Uhr laut Kältehilfe-Portal."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Für wohnungslose Menschen, die Hilfe, Orientierung oder Kontakt zu einem Straßenteam benötigen. Außerhalb der Zeiten nutzen Sie Kältehilfe, Wärmebus oder bei Gefahr 112."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Notruf- und Hilfenummern der Kältehilfe",
-                  "href": "https://kaeltehilfe-berlin.de/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+4915780597870",
+          "website": "https://kaeltehilfe-berlin.de/",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
       "id": "shelter",
-      "title": "2. Notübernachtung und sichere Unterkunft",
-      "items": [
+      "title": "Notübernachtung und sichere Unterkunft",
+      "entries": [
         {
-          "type": "resource",
           "id": "aktuelle-kaltehilfe-liste-zuerst-prufen",
-          "name": "Aktuelle Kältehilfe-Liste — zuerst prüfen",
+          "title": "Aktuelle Kältehilfe-Liste — zuerst prüfen",
+          "description": "Die zentrale Liste zeigt saisonale und ganzjährige Notübernachtungen, Nachtcafés, Tagesaufenthalte und Essensausgaben. Prüfen Sie Datum, Zielgruppe, Einlasszeit, Barrierefreiheit und ob Tiere erlaubt sind.\nDie Kältehilfe läuft 2026/27 seit 1. Oktober. Einrichtungen können voll sein oder ihre Zeiten kurzfristig ändern. Rufen Sie bei Unsicherheit das Kältehilfetelefon an.\nAktuelle Angebote der Berliner Kältehilfe",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Die zentrale Liste zeigt saisonale und ganzjährige Notübernachtungen, Nachtcafés, Tagesaufenthalte und Essensausgaben. Prüfen Sie Datum, Zielgruppe, Einlasszeit, Barrierefreiheit und ob Tiere erlaubt sind."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Die Kältehilfe läuft 2026/27 seit 1. Oktober. Einrichtungen können voll sein oder ihre Zeiten kurzfristig ändern. Rufen Sie bei Unsicherheit das Kältehilfetelefon an."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Aktuelle Angebote der Berliner Kältehilfe",
-                  "href": "https://kaeltehilfe-berlin.de/angebote-start"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://kaeltehilfe-berlin.de/angebote-start",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "fachstellen-soziale-wohnhilfe-unterbringung-und-wohnungserhalt",
-          "name": "Fachstellen Soziale Wohnhilfe — Unterbringung und Wohnungserhalt",
+          "title": "Fachstellen Soziale Wohnhilfe — Unterbringung und Wohnungserhalt",
+          "description": "Jeder Berliner Bezirk hat eine Fachstelle. Sie hilft bei akuter Wohnungslosigkeit, Mietschulden, drohender Räumung und der Vermittlung in weiterführende Hilfen oder eine ordnungsrechtliche Unterkunft.\nWenden Sie sich an den Bezirk, in dem Sie zuletzt gemeldet waren oder sich gewöhnlich aufhalten. Nehmen Sie vorhandene Ausweise, Kündigungen, Räumungsschreiben und Leistungsbescheide mit; fehlende Papiere dürfen Sie trotzdem sofort ansprechen.\nAlle Fachstellen Soziale Wohnhilfe",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Jeder Berliner Bezirk hat eine Fachstelle. Sie hilft bei akuter Wohnungslosigkeit, Mietschulden, drohender Räumung und der Vermittlung in weiterführende Hilfen oder eine ordnungsrechtliche Unterkunft."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Wenden Sie sich an den Bezirk, in dem Sie zuletzt gemeldet waren oder sich gewöhnlich aufhalten. Nehmen Sie vorhandene Ausweise, Kündigungen, Räumungsschreiben und Leistungsbescheide mit; fehlende Papiere dürfen Sie trotzdem sofort ansprechen."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Alle Fachstellen Soziale Wohnhilfe",
-                  "href": "https://www.berlin.de/sen/soziales/besondere-lebenssituationen/wohnungslose/praevention/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.berlin.de/sen/soziales/besondere-lebenssituationen/wohnungslose/praevention/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "notubernachtung-franklinstra-e",
-          "name": "Notübernachtung Franklinstraße",
+          "title": "Notübernachtung Franklinstraße",
+          "description": "Telefon: 030 391 27 22. Ganzjährige Notübernachtung für wohnungslose Menschen; die aktuelle Landesliste führt den Standort weiterhin.\nRufen Sie vor dem Weg los an und fragen Sie nach Zielgruppe, Einlass, freien Plätzen, Gepäck und Barrierefreiheit. Eine frühere Öffnungsangabe von 18–8 Uhr kann sich ändern.\nLandesliste der Notübernachtungen",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Adresse:",
-                  "strong": true
-                },
-                {
-                  "text": " Franklinstraße 27a, 10587 Berlin"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefon:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "030 391 27 22",
-                  "href": "tel:+49303912722"
-                },
-                {
-                  "text": ". Ganzjährige Notübernachtung für wohnungslose Menschen; die aktuelle Landesliste führt den Standort weiterhin."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Rufen Sie vor dem Weg los an und fragen Sie nach Zielgruppe, Einlass, freien Plätzen, Gepäck und Barrierefreiheit. Eine frühere Öffnungsangabe von 18–8 Uhr kann sich ändern."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Landesliste der Notübernachtungen",
-                  "href": "https://www.berlin.de/sen/soziales/besondere-lebenssituationen/wohnungslose/notversorgung/isp-angebote/?angebot%5B%5D=Not%C3%BCbernachtung"
-                }
-              ]
-            }
-          ]
+          "address": "Adresse: Franklinstraße 27a, 10587 Berlin",
+          "phone": "+49303912722",
+          "website": "https://www.berlin.de/sen/soziales/besondere-lebenssituationen/wohnungslose/notversorgung/isp-angebote/?angebot%5B%5D=Not%C3%BCbernachtung",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "notubernachtung-am-containerbahnhof",
-          "name": "Notübernachtung am Containerbahnhof",
+          "title": "Notübernachtung am Containerbahnhof",
+          "description": "Die Berliner Stadtmission betreibt diesen Standort in der Kältehilfe. Saison, Einlasszeiten, Zielgruppe und Platzanzahl müssen am selben Tag über die Kältehilfe-Liste geprüft werden.\nDie Einrichtung bietet im Winter einfache Notversorgung; ein Platz ist nicht reservierbar. Bei medizinischem Bedarf fragen Sie nach der nächtlichen Akutsprechstunde.\nOffizielle Berliner Angebotsliste",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Adresse:",
-                  "strong": true
-                },
-                {
-                  "text": " Am Containerbahnhof 1, 10367 Berlin"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Die Berliner Stadtmission betreibt diesen Standort in der Kältehilfe. Saison, Einlasszeiten, Zielgruppe und Platzanzahl müssen am selben Tag über die Kältehilfe-Liste geprüft werden."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Die Einrichtung bietet im Winter einfache Notversorgung; ein Platz ist nicht reservierbar. Bei medizinischem Bedarf fragen Sie nach der nächtlichen Akutsprechstunde."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Offizielle Berliner Angebotsliste",
-                  "href": "https://www.berlin.de/sen/soziales/besondere-lebenssituationen/wohnungslose/notversorgung/isp-angebote/?angebot%5B%5D=Not%C3%BCbernachtung"
-                }
-              ]
-            }
-          ]
+          "address": "Adresse: Am Containerbahnhof 1, 10367 Berlin",
+          "phone": "",
+          "website": "https://www.berlin.de/sen/soziales/besondere-lebenssituationen/wohnungslose/notversorgung/isp-angebote/?angebot%5B%5D=Not%C3%BCbernachtung",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "notubernachtung-des-strassenfeger",
-          "name": "Notübernachtung des Strassenfeger",
+          "title": "Notübernachtung des Strassenfeger",
+          "description": "Die Einrichtung wird in der aktuellen ISP-Liste des Landes als Notübernachtung für obdachlose und wohnungslose Menschen geführt. Fragen Sie vor Anfahrt nach Aufnahmezeit, Kapazität und erforderlichen Unterlagen.\nÄltere Wegweiser nennen teilweise eine andere Hausnummer; verwenden Sie die aktuelle Landesliste und bestätigen Sie die Adresse telefonisch über den Träger.\nISP-Angebote für wohnungslose Menschen",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Adresse:",
-                  "strong": true
-                },
-                {
-                  "text": " Storkower Straße 101A, 10407 Berlin"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Die Einrichtung wird in der aktuellen ISP-Liste des Landes als Notübernachtung für obdachlose und wohnungslose Menschen geführt. Fragen Sie vor Anfahrt nach Aufnahmezeit, Kapazität und erforderlichen Unterlagen."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ältere Wegweiser nennen teilweise eine andere Hausnummer; verwenden Sie die aktuelle Landesliste und bestätigen Sie die Adresse telefonisch über den Träger."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "ISP-Angebote für wohnungslose Menschen",
-                  "href": "https://www.berlin.de/sen/soziales/besondere-lebenssituationen/wohnungslose/notversorgung/isp-angebote/?angebot%5B%5D=Not%C3%BCbernachtung"
-                }
-              ]
-            }
-          ]
+          "address": "Adresse: Storkower Straße 101A, 10407 Berlin",
+          "phone": "",
+          "website": "https://www.berlin.de/sen/soziales/besondere-lebenssituationen/wohnungslose/notversorgung/isp-angebote/?angebot%5B%5D=Not%C3%BCbernachtung",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "neukollner-kaltehilfe-2026-27-teupitzer-stra-e",
-          "name": "Neuköllner Kältehilfe 2026/27 — Teupitzer Straße",
+          "title": "Neuköllner Kältehilfe 2026/27 — Teupitzer Straße",
+          "description": "Vom 1. Oktober 2026 bis 30. April 2027 ist laut Bezirksamt täglich 19–7 Uhr eine saisonale Notübernachtung für Männer angekündigt; letzter Einlass 22 Uhr. Abendessen, Frühstück, Dusche und Waschmaschine werden genannt.\nDie Unterkunft ist nicht barrierefrei; Alkohol, Drogen und Haustiere sind nicht erlaubt. Vor Anfahrt die tagesaktuelle Kältehilfe-Liste prüfen.\nNeuköllner Kältehilfe 2026/27",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Adresse:",
-                  "strong": true
-                },
-                {
-                  "text": " Teupitzer Straße 39, 12059 Berlin"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Vom 1. Oktober 2026 bis 30. April 2027 ist laut Bezirksamt täglich 19–7 Uhr eine saisonale Notübernachtung für Männer angekündigt; letzter Einlass 22 Uhr. Abendessen, Frühstück, Dusche und Waschmaschine werden genannt."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Die Unterkunft ist nicht barrierefrei; Alkohol, Drogen und Haustiere sind nicht erlaubt. Vor Anfahrt die tagesaktuelle Kältehilfe-Liste prüfen."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Neuköllner Kältehilfe 2026/27",
-                  "href": "https://www.berlin.de/ba-neukoelln/aktuelles/bezirksticker/angebote-der-neukoellner-kaeltehilfe-im-winter-2026-2027-1727539.php"
-                }
-              ]
-            }
-          ]
+          "address": "Adresse: Teupitzer Straße 39, 12059 Berlin",
+          "phone": "",
+          "website": "https://www.berlin.de/ba-neukoelln/aktuelles/bezirksticker/angebote-der-neukoellner-kaeltehilfe-im-winter-2026-2027-1727539.php",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "24-7-unterkunfte-langer-zur-ruhe-kommen",
-          "name": "24/7-Unterkünfte — länger zur Ruhe kommen",
+          "title": "24/7-Unterkünfte — länger zur Ruhe kommen",
+          "description": "Berlin finanziert Unterkünfte, in denen obdachlose Menschen rund um die Uhr bleiben und Beratung erhalten können. Sie sind nicht mit einer frei zugänglichen Notübernachtung gleichzusetzen; Aufnahme, freie Plätze und Zuweisung müssen geklärt werden.\nFragen Sie die Fachstelle Soziale Wohnhilfe oder eine Beratungsstelle ausdrücklich nach 24/7-Unterkunft, wenn eine tägliche Räumung am Morgen gesundheitlich oder sozial nicht tragbar ist.\n24/7-Unterkünfte des Landes Berlin",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Berlin finanziert Unterkünfte, in denen obdachlose Menschen rund um die Uhr bleiben und Beratung erhalten können. Sie sind nicht mit einer frei zugänglichen Notübernachtung gleichzusetzen; Aufnahme, freie Plätze und Zuweisung müssen geklärt werden."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Fragen Sie die Fachstelle Soziale Wohnhilfe oder eine Beratungsstelle ausdrücklich nach 24/7-Unterkunft, wenn eine tägliche Räumung am Morgen gesundheitlich oder sozial nicht tragbar ist."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "24/7-Unterkünfte des Landes Berlin",
-                  "href": "https://www.berlin.de/sen/soziales/besondere-lebenssituationen/wohnungslose/unterbringung/24-7-unterkuenfte-1294615.php"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.berlin.de/sen/soziales/besondere-lebenssituationen/wohnungslose/unterbringung/24-7-unterkuenfte-1294615.php",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "wenn-der-erste-platz-voll-ist",
-          "name": "Wenn der erste Platz voll ist",
+          "title": "Wenn der erste Platz voll ist",
+          "description": "Fragen Sie nach einer konkreten Alternative und notieren Sie Name, Uhrzeit und Aussage. Öffnen Sie die Kältehilfe-Liste erneut, weil sich Kapazitäten während des Abends ändern können.\nWeisen Sie auf Mobilitätseinschränkungen, Medikamente, Pflegebedarf, Schwangerschaft, Schutz vor Gewalt oder ein Tier hin. Bei Unterkühlung, Bewusstseinsstörung oder anderer Lebensgefahr wählen Sie 112.\nTagesaktuelle Schlafangebote",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Fragen Sie nach einer konkreten Alternative und notieren Sie Name, Uhrzeit und Aussage. Öffnen Sie die Kältehilfe-Liste erneut, weil sich Kapazitäten während des Abends ändern können."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Weisen Sie auf Mobilitätseinschränkungen, Medikamente, Pflegebedarf, Schwangerschaft, Schutz vor Gewalt oder ein Tier hin. Bei Unterkühlung, Bewusstseinsstörung oder anderer Lebensgefahr wählen Sie 112."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Tagesaktuelle Schlafangebote",
-                  "href": "https://kaeltehilfe-berlin.de/angebote-start"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://kaeltehilfe-berlin.de/angebote-start",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
       "id": "food",
-      "title": "3. Essen und Lebensmittel",
-      "items": [
+      "title": "Essen und Lebensmittel",
+      "entries": [
         {
-          "type": "resource",
           "id": "bahnhofsmission-zoologischer-garten",
-          "name": "Bahnhofsmission Zoologischer Garten",
+          "title": "Bahnhofsmission Zoologischer Garten",
+          "description": "Telefon: 030 313 80 88. Täglich 8–21 Uhr; veröffentlicht sind Frühstücksausgabe 8–9 Uhr, Gastraum 12–14 Uhr und 14:30–16:30 Uhr sowie Abendausgabe 19:30–21 Uhr.\nEs gibt Essen und Getränke, Sozialberatung, Notkleidung und eine Postadresse. Letzter Einlass und Ausgabe können sich kurzfristig ändern.\nBahnhofsmission und Wohnungslosenhilfe",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Adresse:",
-                  "strong": true
-                },
-                {
-                  "text": " Jebensstraße 5, 10623 Berlin"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefon:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "030 313 80 88",
-                  "href": "tel:+49303138088"
-                },
-                {
-                  "text": ". Täglich 8–21 Uhr; veröffentlicht sind Frühstücksausgabe 8–9 Uhr, Gastraum 12–14 Uhr und 14:30–16:30 Uhr sowie Abendausgabe 19:30–21 Uhr."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Es gibt Essen und Getränke, Sozialberatung, Notkleidung und eine Postadresse. Letzter Einlass und Ausgabe können sich kurzfristig ändern."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Bahnhofsmission und Wohnungslosenhilfe",
-                  "href": "https://www.berliner-stadtmission.de/angebote/armut-und-wohnungslosigkeit"
-                }
-              ]
-            }
-          ]
+          "address": "Adresse: Jebensstraße 5, 10623 Berlin",
+          "phone": "+49303138088",
+          "website": "https://www.berliner-stadtmission.de/angebote/armut-und-wohnungslosigkeit",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "suppenkuche-im-franziskanerkloster-pankow",
-          "name": "Suppenküche im Franziskanerkloster Pankow",
+          "title": "Suppenküche im Franziskanerkloster Pankow",
+          "description": "Telefon: 030 488 396 60. Die Suppenküche arbeitet Dienstag bis Sonntag; Montag ist Ruhetag.\nNeben einer Mahlzeit gibt es nach aktueller Selbstauskunft Hygiene- und Kleiderangebote. Fragen Sie telefonisch nach Ausgabezeit und möglichen Änderungen an Feiertagen.\nSuppenküche der Franziskaner",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Adresse:",
-                  "strong": true
-                },
-                {
-                  "text": " Wollankstraße 18, 13187 Berlin"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefon:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "030 488 396 60",
-                  "href": "tel:+493048839660"
-                },
-                {
-                  "text": ". Die Suppenküche arbeitet Dienstag bis Sonntag; Montag ist Ruhetag."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Neben einer Mahlzeit gibt es nach aktueller Selbstauskunft Hygiene- und Kleiderangebote. Fragen Sie telefonisch nach Ausgabezeit und möglichen Änderungen an Feiertagen."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Suppenküche der Franziskaner",
-                  "href": "https://suppe.franziskaner.de/anfahrt-und-kontakt/"
-                }
-              ]
-            }
-          ]
+          "address": "Adresse: Wollankstraße 18, 13187 Berlin",
+          "phone": "+493048839660",
+          "website": "https://suppe.franziskaner.de/anfahrt-und-kontakt/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "seeling-treff",
-          "name": "Seeling Treff",
+          "title": "Seeling Treff",
+          "description": "Telefon: 030 308 394 40. Kostenloses Frühstück an allen Öffnungstagen; warmes Mittagessen dienstags, mittwochs und freitags.\nGeöffnet Montag, Dienstag, Mittwoch und Freitag 9–14 Uhr, Donnerstag 9–12 Uhr. Außerdem Dusche, Wäsche, Postadresse, Schließfächer, PC, Kleidung und Sozialberatung.\nGEBEWO Seeling Treff",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Adresse:",
-                  "strong": true
-                },
-                {
-                  "text": " Seelingstraße 9, 14059 Berlin"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefon:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "030 308 394 40",
-                  "href": "tel:+493030839440"
-                },
-                {
-                  "text": ". Kostenloses Frühstück an allen Öffnungstagen; warmes Mittagessen dienstags, mittwochs und freitags."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Geöffnet Montag, Dienstag, Mittwoch und Freitag 9–14 Uhr, Donnerstag 9–12 Uhr. Außerdem Dusche, Wäsche, Postadresse, Schließfächer, PC, Kleidung und Sozialberatung."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "GEBEWO Seeling Treff",
-                  "href": "https://gebewo.berlin/seeling-treff"
-                }
-              ]
-            }
-          ]
+          "address": "Adresse: Seelingstraße 9, 14059 Berlin",
+          "phone": "+493030839440",
+          "website": "https://gebewo.berlin/seeling-treff",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "tagesstatte-am-wassertor",
-          "name": "Tagesstätte Am Wassertor",
+          "title": "Tagesstätte Am Wassertor",
+          "description": "Telefon: 030 615 63 24. Essen, Getränke, Dusche, Hygieneartikel, Kleidung und Beratung für wohnungslose oder von Wohnungsverlust bedrohte Menschen.\nRegulär Montag, Mittwoch und Freitag 9–14 Uhr; Dienstag nur Beratung. Die Seite nennt zusätzlich jedes dritte Wochenende. Tiere sind als erlaubt ausgewiesen; trotzdem vorher nachfragen.\nTagesstätte Am Wassertor",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Adresse:",
-                  "strong": true
-                },
-                {
-                  "text": " Segitzdamm 46, 10969 Berlin"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefon:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "030 615 63 24",
-                  "href": "tel:+49306156324"
-                },
-                {
-                  "text": ". Essen, Getränke, Dusche, Hygieneartikel, Kleidung und Beratung für wohnungslose oder von Wohnungsverlust bedrohte Menschen."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Regulär Montag, Mittwoch und Freitag 9–14 Uhr; Dienstag nur Beratung. Die Seite nennt zusätzlich jedes dritte Wochenende. Tiere sind als erlaubt ausgewiesen; trotzdem vorher nachfragen."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Tagesstätte Am Wassertor",
-                  "href": "https://netzwerkderwaerme.de/einrichtungen/tagesstaette-am-wassertor/"
-                }
-              ]
-            }
-          ]
+          "address": "Adresse: Segitzdamm 46, 10969 Berlin",
+          "phone": "+49306156324",
+          "website": "https://netzwerkderwaerme.de/einrichtungen/tagesstaette-am-wassertor/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "zentrum-gitschiner-15",
-          "name": "Zentrum Gitschiner 15",
+          "title": "Zentrum Gitschiner 15",
+          "description": "Telefon: 030 695 366 14. Kostenlose Suppe, Dusche, Kleidung, mehrsprachige Sozial- und Gesundheitsberatung sowie offene Angebote.\nVeröffentlicht sind Montag bis Mittwoch 10–16 Uhr, Donnerstag 12–16 Uhr und Freitag 9–15 Uhr. Vor Feiertagen oder längeren Wegen anrufen.\nZentrum Gitschiner 15",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Adresse:",
-                  "strong": true
-                },
-                {
-                  "text": " Gitschiner Straße 15, 10969 Berlin"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefon:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "030 695 366 14",
-                  "href": "tel:+493069536614"
-                },
-                {
-                  "text": ". Kostenlose Suppe, Dusche, Kleidung, mehrsprachige Sozial- und Gesundheitsberatung sowie offene Angebote."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Veröffentlicht sind Montag bis Mittwoch 10–16 Uhr, Donnerstag 12–16 Uhr und Freitag 9–15 Uhr. Vor Feiertagen oder längeren Wegen anrufen."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Zentrum Gitschiner 15",
-                  "href": "https://www.berlin.de/ba-friedrichshain-kreuzberg/aktuelles/bezirksticker/2025/wiedereroeffnung-nach-umgestaltungsmassnahmen-im-zentrum-gitschiner-15-1588741.php"
-                }
-              ]
-            }
-          ]
+          "address": "Adresse: Gitschiner Straße 15, 10969 Berlin",
+          "phone": "+493069536614",
+          "website": "https://www.berlin.de/ba-friedrichshain-kreuzberg/aktuelles/bezirksticker/2025/wiedereroeffnung-nach-umgestaltungsmassnahmen-im-zentrum-gitschiner-15-1588741.php",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "city-station",
-          "name": "City-Station",
+          "title": "City-Station",
+          "description": "Telefon: 030 891 30 00. Montag bis Freitag 14–18:30 Uhr. Die Kältehilfe-Seite nennt warmes Essen für 0,50 Euro sowie Dusche, Wäsche und Beratung.\nDas Angebot kann anonym genutzt werden; Haustiere sind als erlaubt ausgewiesen. Geld, Öffnung und Kapazität vorher bestätigen.\nCity-Station in der Kältehilfe",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Adresse:",
-                  "strong": true
-                },
-                {
-                  "text": " Joachim-Friedrich-Straße 46, 10711 Berlin"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefon:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "030 891 30 00",
-                  "href": "tel:+49308913000"
-                },
-                {
-                  "text": ". Montag bis Freitag 14–18:30 Uhr. Die Kältehilfe-Seite nennt warmes Essen für 0,50 Euro sowie Dusche, Wäsche und Beratung."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Das Angebot kann anonym genutzt werden; Haustiere sind als erlaubt ausgewiesen. Geld, Öffnung und Kapazität vorher bestätigen."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "City-Station in der Kältehilfe",
-                  "href": "https://kaeltehilfe-berlin.de/kaeltehilfe-angebote/city-station"
-                }
-              ]
-            }
-          ]
+          "address": "Adresse: Joachim-Friedrich-Straße 46, 10711 Berlin",
+          "phone": "+49308913000",
+          "website": "https://kaeltehilfe-berlin.de/kaeltehilfe-angebote/city-station",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "berliner-tafel-laib-und-seele",
-          "name": "Berliner Tafel — LAIB und SEELE",
+          "title": "Berliner Tafel — LAIB und SEELE",
+          "description": "Lebensmittelausgaben gibt es in vielen Bezirken, meist nach Postleitzahl und mit Anmeldung oder Bedürftigkeitsnachweis. Manche Stellen haben zeitweise einen Aufnahmestopp.\nWählen Sie auf der offiziellen Liste Ihren Bezirk und lesen Sie Zuständigkeit, Neuanmeldung und Ausgabezeit. Eine Tafel-Ausgabe ist keine garantierte tägliche Mahlzeit.\nAlle LAIB-und-SEELE-Ausgabestellen",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Lebensmittelausgaben gibt es in vielen Bezirken, meist nach Postleitzahl und mit Anmeldung oder Bedürftigkeitsnachweis. Manche Stellen haben zeitweise einen Aufnahmestopp."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Wählen Sie auf der offiziellen Liste Ihren Bezirk und lesen Sie Zuständigkeit, Neuanmeldung und Ausgabezeit. Eine Tafel-Ausgabe ist keine garantierte tägliche Mahlzeit."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Alle LAIB-und-SEELE-Ausgabestellen",
-                  "href": "https://www.berliner-tafel.de/laib-und-seele/die-praxis/kunden/ausgabestellen"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.berliner-tafel.de/laib-und-seele/die-praxis/kunden/ausgabestellen",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
-      "id": "basic",
-      "title": "4. Dusche, Wäsche, Kleidung, Toilette, Post und Internet",
-      "items": [
+      "id": "community",
+      "title": "Community and religious help",
+      "entries": []
+    },
+    {
+      "id": "hygiene",
+      "title": "Dusche, Wäsche, Kleidung, Toilette, Post und Internet",
+      "entries": [
         {
-          "type": "resource",
           "id": "hygienecenter-am-bahnhof-zoo",
-          "name": "Hygienecenter am Bahnhof Zoo",
+          "title": "Hygienecenter am Bahnhof Zoo",
+          "description": "Das Zentrum bietet wohnungslosen Menschen kostenlose Dusche, Toiletten und Hygieneartikel; veröffentlicht sind täglich 8:30–16:45 Uhr. Handtuch, Unterwäsche, Socken und einfache Pflegeartikel können zur Dusche ausgegeben werden.\nBei großem Andrang können Wartelisten oder frühere Annahmeschlüsse gelten. Vor Ort nach Waschmaschine, Fußpflege und Kleidung fragen.\nAktuelle Information zum Hygienecenter",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Zugang:",
-                  "strong": true
-                },
-                {
-                  "text": " bei der Bahnhofsmission, Jebensstraße 5, 10623 Berlin"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Das Zentrum bietet wohnungslosen Menschen kostenlose Dusche, Toiletten und Hygieneartikel; veröffentlicht sind täglich 8:30–16:45 Uhr. Handtuch, Unterwäsche, Socken und einfache Pflegeartikel können zur Dusche ausgegeben werden."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Bei großem Andrang können Wartelisten oder frühere Annahmeschlüsse gelten. Vor Ort nach Waschmaschine, Fußpflege und Kleidung fragen."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Aktuelle Information zum Hygienecenter",
-                  "href": "https://www.berlin.de/aktuelles/10417843-958090-hygienecenter-fuer-obdachlose-menschen-f.html"
-                }
-              ]
-            }
-          ]
+          "address": "Zugang: bei der Bahnhofsmission, Jebensstraße 5, 10623 Berlin",
+          "phone": "",
+          "website": "https://www.berlin.de/aktuelles/10417843-958090-hygienecenter-fuer-obdachlose-menschen-f.html",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "seeling-treff-dusche-wasche-und-schlie-fach",
-          "name": "Seeling Treff — Dusche, Wäsche und Schließfach",
+          "title": "Seeling Treff — Dusche, Wäsche und Schließfach",
+          "description": "Duschen, Wäsche waschen, Kleiderkammer, Postadresse, Schließfächer und PC-Nutzung gehören zum veröffentlichten Angebot. Telefon: 030 308 394 40.\nFragen Sie vorab nach Termin, Anzahl der Wäschestücke, freien Fächern und Voraussetzungen für eine Postadresse.\nLeistungen und Öffnungszeiten",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Adresse:",
-                  "strong": true
-                },
-                {
-                  "text": " Seelingstraße 9, 14059 Berlin"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Duschen, Wäsche waschen, Kleiderkammer, Postadresse, Schließfächer und PC-Nutzung gehören zum veröffentlichten Angebot. "
-                },
-                {
-                  "text": "Telefon:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "030 308 394 40",
-                  "href": "tel:+493030839440"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Fragen Sie vorab nach Termin, Anzahl der Wäschestücke, freien Fächern und Voraussetzungen für eine Postadresse."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Leistungen und Öffnungszeiten",
-                  "href": "https://gebewo.berlin/seeling-treff"
-                }
-              ]
-            }
-          ]
+          "address": "Adresse: Seelingstraße 9, 14059 Berlin",
+          "phone": "+493030839440",
+          "website": "https://gebewo.berlin/seeling-treff",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "am-wassertor-dusche-und-hygieneartikel",
-          "name": "Am Wassertor — Dusche und Hygieneartikel",
+          "title": "Am Wassertor — Dusche und Hygieneartikel",
+          "description": "Duschen, Hygieneartikel, Essen, Kleidung und Beratung. Telefon: 030 615 63 24.\nDas Angebot ist alkoholfrei. Erkundigen Sie sich nach Ausgabegrenzen und barrierefreiem Zugang, wenn dies für Sie wichtig ist.\nAngebot Am Wassertor",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Adresse:",
-                  "strong": true
-                },
-                {
-                  "text": " Segitzdamm 46, 10969 Berlin"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Duschen, Hygieneartikel, Essen, Kleidung und Beratung. "
-                },
-                {
-                  "text": "Telefon:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "030 615 63 24",
-                  "href": "tel:+49306156324"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Das Angebot ist alkoholfrei. Erkundigen Sie sich nach Ausgabegrenzen und barrierefreiem Zugang, wenn dies für Sie wichtig ist."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Angebot Am Wassertor",
-                  "href": "https://netzwerkderwaerme.de/einrichtungen/tagesstaette-am-wassertor/"
-                }
-              ]
-            }
-          ]
+          "address": "Adresse: Segitzdamm 46, 10969 Berlin",
+          "phone": "+49306156324",
+          "website": "https://netzwerkderwaerme.de/einrichtungen/tagesstaette-am-wassertor/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "city-station-dusche-und-wasche",
-          "name": "City-Station — Dusche und Wäsche",
+          "title": "City-Station — Dusche und Wäsche",
+          "description": "Dusche, Sozialberatung und Wäsche. In der aktuellen Kältehilfe-Liste stehen 1 Euro für Waschen und 1,50 Euro für Trocknen; Preise können sich ändern.\nGeöffnet Montag bis Freitag 14–18:30 Uhr. Telefon: 030 891 30 00.\nAktuelle Angaben zur City-Station",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Adresse:",
-                  "strong": true
-                },
-                {
-                  "text": " Joachim-Friedrich-Straße 46, 10711 Berlin"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Dusche, Sozialberatung und Wäsche. In der aktuellen Kältehilfe-Liste stehen 1 Euro für Waschen und 1,50 Euro für Trocknen; Preise können sich ändern."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Geöffnet Montag bis Freitag 14–18:30 Uhr. "
-                },
-                {
-                  "text": "Telefon:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "030 891 30 00",
-                  "href": "tel:+49308913000"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Aktuelle Angaben zur City-Station",
-                  "href": "https://kaeltehilfe-berlin.de/kaeltehilfe-angebote/city-station"
-                }
-              ]
-            }
-          ]
+          "address": "Adresse: Joachim-Friedrich-Straße 46, 10711 Berlin",
+          "phone": "+49308913000",
+          "website": "https://kaeltehilfe-berlin.de/kaeltehilfe-angebote/city-station",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "wascherei-fur-obdachlose-menschen-wom",
-          "name": "Wäscherei für obdachlose Menschen — WoM",
+          "title": "Wäscherei für obdachlose Menschen — WoM",
+          "description": "Telefon: 0157 536 838 25. Die Stadtmission nennt Mittwoch bis Freitag 9–14 Uhr, Wäscheannahme bis 10:30 Uhr, nur für obdachlose Gäste.\nVeröffentlicht sind 2 Euro für Waschen und Trocknen zusammen. Vor dem Weg los Preis, Annahme und Stückzahl bestätigen.\nWoM-Wäscherei und weitere Angebote",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Adresse:",
-                  "strong": true
-                },
-                {
-                  "text": " Lehrter Straße 68, 10557 Berlin"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefon:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "0157 536 838 25",
-                  "href": "tel:+4915753683825"
-                },
-                {
-                  "text": ". Die Stadtmission nennt Mittwoch bis Freitag 9–14 Uhr, Wäscheannahme bis 10:30 Uhr, nur für obdachlose Gäste."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Veröffentlicht sind 2 Euro für Waschen und Trocknen zusammen. Vor dem Weg los Preis, Annahme und Stückzahl bestätigen."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "WoM-Wäscherei und weitere Angebote",
-                  "href": "https://www.berliner-stadtmission.de/angebote/armut-und-wohnungslosigkeit"
-                }
-              ]
-            }
-          ]
+          "address": "Adresse: Lehrter Straße 68, 10557 Berlin",
+          "phone": "+4915753683825",
+          "website": "https://www.berliner-stadtmission.de/angebote/armut-und-wohnungslosigkeit",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "bahnhofsmission-zoo-postadresse-und-notkleidung",
-          "name": "Bahnhofsmission Zoo — Postadresse und Notkleidung",
+          "title": "Bahnhofsmission Zoo — Postadresse und Notkleidung",
+          "description": "Die Bahnhofsmission kann eine Postadresse einrichten und bietet Sozialberatung sowie eine Notkleiderkammer. Fragen Sie, welche Briefe angenommen werden, wie oft Sie abholen müssen und wie lange die Adresse nutzbar ist.\nTelefon: 030 313 80 88. Eine Postadresse ist nicht automatisch eine melderechtliche Anmeldung.\nBahnhofsmission Zoologischer Garten",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Adresse:",
-                  "strong": true
-                },
-                {
-                  "text": " Jebensstraße 5, 10623 Berlin"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Die Bahnhofsmission kann eine Postadresse einrichten und bietet Sozialberatung sowie eine Notkleiderkammer. Fragen Sie, welche Briefe angenommen werden, wie oft Sie abholen müssen und wie lange die Adresse nutzbar ist."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefon:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "030 313 80 88",
-                  "href": "tel:+49303138088"
-                },
-                {
-                  "text": ". Eine Postadresse ist nicht automatisch eine melderechtliche Anmeldung."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Bahnhofsmission Zoologischer Garten",
-                  "href": "https://www.berliner-stadtmission.de/angebote/armut-und-wohnungslosigkeit"
-                }
-              ]
-            }
-          ]
+          "address": "Adresse: Jebensstraße 5, 10623 Berlin",
+          "phone": "+49303138088",
+          "website": "https://www.berliner-stadtmission.de/angebote/armut-und-wohnungslosigkeit",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "offentliche-toiletten-und-barrierefreie-anlagen",
-          "name": "Öffentliche Toiletten und barrierefreie Anlagen",
+          "title": "Öffentliche Toiletten und barrierefreie Anlagen",
+          "description": "Berlin listet öffentliche Toiletten im Stadtplan. Öffnungszeiten und Gebühren sind je Standort verschieden; barrierefreie Anlagen lassen sich filtern.\nWenn Sie kein Geld haben, fragen Sie in Tagesstätten, Bahnhofsmissionen oder Notübernachtungen nach kostenfreier Nutzung.\nÖffentliche Toiletten in Berlin",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Berlin listet öffentliche Toiletten im Stadtplan. Öffnungszeiten und Gebühren sind je Standort verschieden; barrierefreie Anlagen lassen sich filtern."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Wenn Sie kein Geld haben, fragen Sie in Tagesstätten, Bahnhofsmissionen oder Notübernachtungen nach kostenfreier Nutzung."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Öffentliche Toiletten in Berlin",
-                  "href": "https://www.berlin.de/sen/uvk/mobilitaet-und-verkehr/infrastruktur/oeffentliche-toiletten/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.berlin.de/sen/uvk/mobilitaet-und-verkehr/infrastruktur/oeffentliche-toiletten/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "computer-drucken-und-telefon",
-          "name": "Computer, Drucken und Telefon",
+          "title": "Computer, Drucken und Telefon",
+          "description": "Der Seeling Treff veröffentlicht PC-Nutzung; die drei JOB POINTs bieten Computer, Kopier- und Druckmöglichkeiten für Bewerbungen. In der Bahnhofsmission und Beratungsstellen kann ein dringender Anruf ermöglicht werden.\nFragen Sie vor Ort nach Zeitlimit, Papierkosten und Hilfe beim Erstellen einer E-Mail-Adresse. Speichern Sie vertrauliche Dokumente nicht dauerhaft auf einem öffentlichen Computer.\nJOB POINT Berlin",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Der Seeling Treff veröffentlicht PC-Nutzung; die drei JOB POINTs bieten Computer, Kopier- und Druckmöglichkeiten für Bewerbungen. In der Bahnhofsmission und Beratungsstellen kann ein dringender Anruf ermöglicht werden."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Fragen Sie vor Ort nach Zeitlimit, Papierkosten und Hilfe beim Erstellen einer E-Mail-Adresse. Speichern Sie vertrauliche Dokumente nicht dauerhaft auf einem öffentlichen Computer."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "JOB POINT Berlin",
-                  "href": "https://www.berlin.de/sen/arbeit/beschaeftigung/beratung/job-point/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.berlin.de/sen/arbeit/beschaeftigung/beratung/job-point/",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
+    },
+    {
+      "id": "clothing",
+      "title": "Clothing",
+      "entries": []
     },
     {
       "id": "health",
-      "title": "5. Medizin, psychische Krise und Sucht",
-      "items": [
+      "title": "Medizin, psychische Krise und Sucht",
+      "entries": [
         {
-          "type": "resource",
           "id": "arztlicher-bereitschaftsdienst-116-117",
-          "name": "Ärztlicher Bereitschaftsdienst — 116 117",
+          "title": "Ärztlicher Bereitschaftsdienst — 116 117",
+          "description": "Telefon: 116 117 bei dringenden Beschwerden, die nicht lebensbedrohlich sind und nicht bis zur nächsten regulären Sprechstunde warten können.\nBei Atemnot, Bewusstlosigkeit, schwerer Blutung, Brustschmerz, Überdosierung oder anderer Lebensgefahr wählen Sie 112.\n116 117 Bereitschaftsdienst",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefon:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "116 117",
-                  "href": "tel:116117"
-                },
-                {
-                  "text": " bei dringenden Beschwerden, die nicht lebensbedrohlich sind und nicht bis zur nächsten regulären Sprechstunde warten können."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Bei Atemnot, Bewusstlosigkeit, schwerer Blutung, Brustschmerz, Überdosierung oder anderer Lebensgefahr wählen Sie 112."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "116 117 Bereitschaftsdienst",
-                  "href": "https://www.116117.de/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "116117",
+          "website": "https://www.116117.de/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "caritas-ambulanz-am-bahnhof-zoo",
-          "name": "Caritas-Ambulanz am Bahnhof Zoo",
+          "title": "Caritas-Ambulanz am Bahnhof Zoo",
+          "description": "Telefon: 030 318 08 785 oder 0152 346 440 36. Medizinische Grundversorgung und Sozialberatung für wohnungslose Menschen und Menschen ohne Krankenversicherung.\nBehandlungszeiten und angebotene Fachbereiche vorher telefonisch prüfen.\nCaritas-Medizin für Wohnungslose",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Adresse:",
-                  "strong": true
-                },
-                {
-                  "text": " Jebensstraße 3, 10623 Berlin"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefon:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "030 318 08 785",
-                  "href": "tel:+493031808785"
-                },
-                {
-                  "text": " oder "
-                },
-                {
-                  "text": "0152 346 440 36",
-                  "href": "tel:+4915234644036"
-                },
-                {
-                  "text": ". Medizinische Grundversorgung und Sozialberatung für wohnungslose Menschen und Menschen ohne Krankenversicherung."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Behandlungszeiten und angebotene Fachbereiche vorher telefonisch prüfen."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Caritas-Medizin für Wohnungslose",
-                  "href": "https://www.caritas-berlin.de/beratungundhilfe/berlin/wohnungsnot/medizinische-versorgung"
-                }
-              ]
-            }
-          ]
+          "address": "Adresse: Jebensstraße 3, 10623 Berlin",
+          "phone": "+493031808785",
+          "website": "https://www.caritas-berlin.de/beratungundhilfe/berlin/wohnungsnot/medizinische-versorgung",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "caritas-arztmobil",
-          "name": "Caritas-Arztmobil",
+          "title": "Caritas-Arztmobil",
+          "description": "Telefon: 030 666 331 641 oder 0172 307 39 85.\nDas Arztmobil bietet kostenfreie medizinische Grundversorgung, Wundpflege und Sozialberatung an wechselnden Standorten. Der Tourenplan kann sich durch Verkehr, Personal oder Feiertage ändern.\nAktueller Tourenplan des Arztmobils",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefon:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "030 666 331 641",
-                  "href": "tel:+4930666331641"
-                },
-                {
-                  "text": " oder "
-                },
-                {
-                  "text": "0172 307 39 85",
-                  "href": "tel:+491723073985"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Das Arztmobil bietet kostenfreie medizinische Grundversorgung, Wundpflege und Sozialberatung an wechselnden Standorten. Der Tourenplan kann sich durch Verkehr, Personal oder Feiertage ändern."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Aktueller Tourenplan des Arztmobils",
-                  "href": "https://www.caritas-berlin.de/beratungundhilfe/berlin/wohnungsnot/medizinische-versorgung"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+4930666331641",
+          "website": "https://www.caritas-berlin.de/beratungundhilfe/berlin/wohnungsnot/medizinische-versorgung",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "arztpraxis-fur-obdachlose-und-bedurftige-menschen",
-          "name": "Arztpraxis für obdachlose und bedürftige Menschen",
+          "title": "Arztpraxis für obdachlose und bedürftige Menschen",
+          "description": "Telefon: 030 296 685 36. Niedrigschwellige, anonyme medizinische Hilfe auch ohne bestehende Krankenversicherung.\nRufen Sie wegen Sprechzeiten, Zahnmedizin, Medikamenten und möglicher Wartezeit an.\nGEBEWO-Arztpraxis",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Adresse:",
-                  "strong": true
-                },
-                {
-                  "text": " Stralauer Platz 32, 10243 Berlin"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefon:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "030 296 685 36",
-                  "href": "tel:+493029668536"
-                },
-                {
-                  "text": ". Niedrigschwellige, anonyme medizinische Hilfe auch ohne bestehende Krankenversicherung."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Rufen Sie wegen Sprechzeiten, Zahnmedizin, Medikamenten und möglicher Wartezeit an."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "GEBEWO-Arztpraxis",
-                  "href": "https://gebewo-pro.de/arztpraxis"
-                }
-              ]
-            }
-          ]
+          "address": "Adresse: Stralauer Platz 32, 10243 Berlin",
+          "phone": "+493029668536",
+          "website": "https://gebewo-pro.de/arztpraxis",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "medizin-im-tagestreff-weitlingstra-e",
-          "name": "Medizin im TagesTreff Weitlingstraße",
+          "title": "Medizin im TagesTreff Weitlingstraße",
+          "description": "Telefon: 030 526 956 38. Medizinische Behandlung für wohnungslose und bedürftige Menschen; die Landesverwaltung führt das Angebot als anonym und ohne bestehende Krankenversicherung zugänglich.\nTermine und Fachangebote vorab bestätigen.\nMedizinische Angebote des Landes",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Adresse:",
-                  "strong": true
-                },
-                {
-                  "text": " Weitlingstraße 12, 10317 Berlin"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefon:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "030 526 956 38",
-                  "href": "tel:+493052695638"
-                },
-                {
-                  "text": ". Medizinische Behandlung für wohnungslose und bedürftige Menschen; die Landesverwaltung führt das Angebot als anonym und ohne bestehende Krankenversicherung zugänglich."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Termine und Fachangebote vorab bestätigen."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Medizinische Angebote des Landes",
-                  "href": "https://www.berlin.de/sen/soziales/besondere-lebenssituationen/wohnungslose/angebote/unionsbuerger-1402426.php"
-                }
-              ]
-            }
-          ]
+          "address": "Adresse: Weitlingstraße 12, 10317 Berlin",
+          "phone": "+493052695638",
+          "website": "https://www.berlin.de/sen/soziales/besondere-lebenssituationen/wohnungslose/angebote/unionsbuerger-1402426.php",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "gesundheitszentrum-fur-obdachlose-jenny-de-la-torre",
-          "name": "Gesundheitszentrum für Obdachlose — Jenny De la Torre",
+          "title": "Gesundheitszentrum für Obdachlose — Jenny De la Torre",
+          "description": "Telefon: 030 288 845 980. Medizinische, zahnmedizinische und soziale Hilfe für obdachlose Menschen.\nFragen Sie telefonisch nach aktueller Sprechstunde, Fachbereich und ob Sie nüchtern kommen oder Unterlagen mitbringen sollen.\nJenny De la Torre Stiftung",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Adresse:",
-                  "strong": true
-                },
-                {
-                  "text": " Pflugstraße 12, 10115 Berlin"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefon:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "030 288 845 980",
-                  "href": "tel:+4930288845980"
-                },
-                {
-                  "text": ". Medizinische, zahnmedizinische und soziale Hilfe für obdachlose Menschen."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Fragen Sie telefonisch nach aktueller Sprechstunde, Fachbereich und ob Sie nüchtern kommen oder Unterlagen mitbringen sollen."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Jenny De la Torre Stiftung",
-                  "href": "https://www.delatorre-stiftung.de/"
-                }
-              ]
-            }
-          ]
+          "address": "Adresse: Pflugstraße 12, 10115 Berlin",
+          "phone": "+4930288845980",
+          "website": "https://www.delatorre-stiftung.de/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "ambulanz-der-berliner-stadtmission",
-          "name": "Ambulanz der Berliner Stadtmission",
+          "title": "Ambulanz der Berliner Stadtmission",
+          "description": "Telefon: 030 690 335 72. Aktuell veröffentlicht: Dienstag 16–20 Uhr mit Wundsprechstunde 14–16 Uhr sowie Freitag 11–15 Uhr.\nMedizinische Akut- und Grundversorgung; Zeiten können sich ändern. Bei Lebensgefahr 112.\nAmbulanz und Straßenambulanz",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Adresse:",
-                  "strong": true
-                },
-                {
-                  "text": " Lehrter Straße 68, 10557 Berlin"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefon:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "030 690 335 72",
-                  "href": "tel:+493069033572"
-                },
-                {
-                  "text": ". Aktuell veröffentlicht: Dienstag 16–20 Uhr mit Wundsprechstunde 14–16 Uhr sowie Freitag 11–15 Uhr."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Medizinische Akut- und Grundversorgung; Zeiten können sich ändern. Bei Lebensgefahr 112."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ambulanz und Straßenambulanz",
-                  "href": "https://www.berliner-stadtmission.de/angebote/armut-und-wohnungslosigkeit"
-                }
-              ]
-            }
-          ]
+          "address": "Adresse: Lehrter Straße 68, 10557 Berlin",
+          "phone": "+493069033572",
+          "website": "https://www.berliner-stadtmission.de/angebote/armut-und-wohnungslosigkeit",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "clearingstelle-fur-menschen-ohne-krankenversicherung",
-          "name": "Clearingstelle für Menschen ohne Krankenversicherung",
+          "title": "Clearingstelle für Menschen ohne Krankenversicherung",
+          "description": "Telefon: 030 690 335 972. Die Clearingstelle klärt, ob und wie eine Aufnahme in eine Krankenversicherung möglich ist.\nDas ist keine Notaufnahme. Für Behandlung am selben Tag nutzen Sie eine Wohnungslosenambulanz; bei Lebensgefahr 112.\nClearingstelle Krankenversicherung",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Adresse:",
-                  "strong": true
-                },
-                {
-                  "text": " Zinzendorfstraße 18, 10555 Berlin"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefon:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "030 690 335 972",
-                  "href": "tel:+4930690335972"
-                },
-                {
-                  "text": ". Die Clearingstelle klärt, ob und wie eine Aufnahme in eine Krankenversicherung möglich ist."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Das ist keine Notaufnahme. Für Behandlung am selben Tag nutzen Sie eine Wohnungslosenambulanz; bei Lebensgefahr 112."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Clearingstelle Krankenversicherung",
-                  "href": "https://www.berliner-stadtmission.de/clearingstelle"
-                }
-              ]
-            }
-          ]
+          "address": "Adresse: Zinzendorfstraße 18, 10555 Berlin",
+          "phone": "+4930690335972",
+          "website": "https://www.berliner-stadtmission.de/clearingstelle",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "berliner-krisendienst",
-          "name": "Berliner Krisendienst",
+          "title": "Berliner Krisendienst",
+          "description": "Zentrale Nummer: 030 390 63 00. Regionale Stellen beraten täglich 16–24 Uhr; der überregionale Bereitschaftsdienst ist nachts 0–8 Uhr erreichbar, werktags 8–16 Uhr gibt es Information und Weitervermittlung.\nKostenlose, auf Wunsch anonyme Hilfe in seelischen Krisen. Bei unmittelbarer Selbst- oder Fremdgefährdung und medizinischer Lebensgefahr 112.\nRegionen und Telefonnummern des Krisendienstes",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Zentrale Nummer:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "030 390 63 00",
-                  "href": "tel:+49303906300"
-                },
-                {
-                  "text": ". Regionale Stellen beraten täglich 16–24 Uhr; der überregionale Bereitschaftsdienst ist nachts 0–8 Uhr erreichbar, werktags 8–16 Uhr gibt es Information und Weitervermittlung."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Kostenlose, auf Wunsch anonyme Hilfe in seelischen Krisen. Bei unmittelbarer Selbst- oder Fremdgefährdung und medizinischer Lebensgefahr 112."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Regionen und Telefonnummern des Krisendienstes",
-                  "href": "https://www.berlin.de/polizei/service/so-erreichen-sie-uns/artikel.532798.php"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+49303906300",
+          "website": "https://www.berlin.de/polizei/service/so-erreichen-sie-uns/artikel.532798.php",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "drogennotdienst-berlin",
-          "name": "Drogennotdienst Berlin",
+          "title": "Drogennotdienst Berlin",
+          "description": "Soforthilfe: 030 192 37. Beratung für konsumierende Jugendliche und Erwachsene sowie Angehörige; Vermittlung in Behandlung, Substitution, Wohnen und weitere Hilfen.\nBei Überdosierung, Bewusstlosigkeit oder Atemproblemen sofort 112.\nDrogennotdienst",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Adresse:",
-                  "strong": true
-                },
-                {
-                  "text": " Genthiner Straße 48, 10785 Berlin"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Soforthilfe:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "030 192 37",
-                  "href": "tel:+493019237"
-                },
-                {
-                  "text": ". Beratung für konsumierende Jugendliche und Erwachsene sowie Angehörige; Vermittlung in Behandlung, Substitution, Wohnen und weitere Hilfen."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Bei Überdosierung, Bewusstlosigkeit oder Atemproblemen sofort 112."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Drogennotdienst",
-                  "href": "https://drogennotdienst.de/"
-                }
-              ]
-            }
-          ]
+          "address": "Adresse: Genthiner Straße 48, 10785 Berlin",
+          "phone": "+493019237",
+          "website": "https://drogennotdienst.de/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "krisenwohnung-fur-obdachlose-suchterkrankte",
-          "name": "Krisenwohnung für obdachlose Suchterkrankte",
+          "title": "Krisenwohnung für obdachlose Suchterkrankte",
+          "description": "Telefon: 030 233 240 200 oder 030 233 240 201. Schlafplätze, Essen, Dusche, Wäsche und Beratung für obdachlose drogenabhängige Frauen und Männer.\nDie Aufnahme wird über den Drogennotdienst vermittelt; in der Einrichtung sind Alkohol und Drogen nicht erlaubt.\nBerliner Krisenwohnung",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Adresse:",
-                  "strong": true
-                },
-                {
-                  "text": " Rathenower Straße 16, 10559 Berlin"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefon:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "030 233 240 200",
-                  "href": "tel:+4930233240200"
-                },
-                {
-                  "text": " oder "
-                },
-                {
-                  "text": "030 233 240 201",
-                  "href": "tel:+4930233240201"
-                },
-                {
-                  "text": ". Schlafplätze, Essen, Dusche, Wäsche und Beratung für obdachlose drogenabhängige Frauen und Männer."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Die Aufnahme wird über den Drogennotdienst vermittelt; in der Einrichtung sind Alkohol und Drogen nicht erlaubt."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Berliner Krisenwohnung",
-                  "href": "https://drogennotdienst.de/wohnen-notuebernachtung/krisenwohnung/"
-                }
-              ]
-            }
-          ]
+          "address": "Adresse: Rathenower Straße 16, 10559 Berlin",
+          "phone": "+4930233240200",
+          "website": "https://drogennotdienst.de/wohnen-notuebernachtung/krisenwohnung/",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
+    },
+    {
+      "id": "mental-health",
+      "title": "Mental health and addiction",
+      "entries": []
+    },
+    {
+      "id": "public-facilities",
+      "title": "Public toilets and day facilities",
+      "entries": []
+    },
+    {
+      "id": "phone-internet",
+      "title": "Phone charging and internet",
+      "entries": []
+    },
+    {
+      "id": "transport",
+      "title": "Transport",
+      "entries": []
     },
     {
       "id": "benefits",
-      "title": "6. Sozialleistungen und Wohnung sichern",
-      "items": [
+      "title": "Sozialleistungen und Wohnung sichern",
+      "entries": [
         {
-          "type": "resource",
           "id": "zentrale-beratungsstelle-fur-menschen-in-wohnungsnot",
-          "name": "Zentrale Beratungsstelle für Menschen in Wohnungsnot",
+          "title": "Zentrale Beratungsstelle für Menschen in Wohnungsnot",
+          "description": "Telefon: 030 390 47 40. Kostenlose, vertrauliche Beratung ohne Termin Montag, Dienstag und Donnerstag 9–12 Uhr; weitere Termine nach Vereinbarung.\nHilfe bei Wohnungslosigkeit, drohendem Wohnungsverlust, Behörden und Sozialleistungen. Die Stelle vermittelt keine Wohnung und garantiert keinen Schlafplatz.\nZentrale Beratungsstelle",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Adresse:",
-                  "strong": true
-                },
-                {
-                  "text": " Levetzowstraße 12a, 10555 Berlin"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefon:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "030 390 47 40",
-                  "href": "tel:+49303904740"
-                },
-                {
-                  "text": ". Kostenlose, vertrauliche Beratung ohne Termin Montag, Dienstag und Donnerstag 9–12 Uhr; weitere Termine nach Vereinbarung."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Hilfe bei Wohnungslosigkeit, drohendem Wohnungsverlust, Behörden und Sozialleistungen. Die Stelle vermittelt keine Wohnung und garantiert keinen Schlafplatz."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Zentrale Beratungsstelle",
-                  "href": "https://www.wohnungslos-berlin.de/"
-                }
-              ]
-            }
-          ]
+          "address": "Adresse: Levetzowstraße 12a, 10555 Berlin",
+          "phone": "+49303904740",
+          "website": "https://www.wohnungslos-berlin.de/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "fachstelle-soziale-wohnhilfe-nicht-bis-zur-raumung-warten",
-          "name": "Fachstelle Soziale Wohnhilfe — nicht bis zur Räumung warten",
+          "title": "Fachstelle Soziale Wohnhilfe — nicht bis zur Räumung warten",
+          "description": "Bei Mietrückstand, Kündigung, Räumungsklage oder bereits eingetretener Wohnungslosigkeit sofort die Fachstelle des Bezirks kontaktieren. Sie kann finanzielle und soziale Hilfen zum Wohnungserhalt prüfen und Unterbringung veranlassen.\nNehmen Sie alle Schreiben von Vermieter, Gericht, Jobcenter oder Sozialamt mit. Auch wenn eine Frist schon abgelaufen ist, weiter Hilfe suchen.\nKontakte aller zwölf Bezirke",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Bei Mietrückstand, Kündigung, Räumungsklage oder bereits eingetretener Wohnungslosigkeit sofort die Fachstelle des Bezirks kontaktieren. Sie kann finanzielle und soziale Hilfen zum Wohnungserhalt prüfen und Unterbringung veranlassen."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Nehmen Sie alle Schreiben von Vermieter, Gericht, Jobcenter oder Sozialamt mit. Auch wenn eine Frist schon abgelaufen ist, weiter Hilfe suchen."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Kontakte aller zwölf Bezirke",
-                  "href": "https://www.berlin.de/sen/soziales/besondere-lebenssituationen/wohnungslose/praevention/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.berlin.de/sen/soziales/besondere-lebenssituationen/wohnungslose/praevention/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "allgemeine-unabhangige-sozialberatung",
-          "name": "Allgemeine Unabhängige Sozialberatung",
+          "title": "Allgemeine Unabhängige Sozialberatung",
+          "description": "Kostenlose, vertrauliche und unabhängige Beratung in allen Bezirken zu Leistungen, Behörden, Familie, Arbeit, Gesundheit und Alltag.\nWählen Sie auf der Landesliste einen nahen Standort. Fragen Sie nach Sprache, offener Sprechstunde und Barrierefreiheit.\nAllgemeine Unabhängige Sozialberatung",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Kostenlose, vertrauliche und unabhängige Beratung in allen Bezirken zu Leistungen, Behörden, Familie, Arbeit, Gesundheit und Alltag."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Wählen Sie auf der Landesliste einen nahen Standort. Fragen Sie nach Sprache, offener Sprechstunde und Barrierefreiheit."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Allgemeine Unabhängige Sozialberatung",
-                  "href": "https://www.berlin.de/sen/soziales/besondere-lebenssituationen/uebergreifende-angebote/allgemeine-unabhaengige-sozialberatung/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.berlin.de/sen/soziales/besondere-lebenssituationen/uebergreifende-angebote/allgemeine-unabhaengige-sozialberatung/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "sozialamt-und-leistungen-nach-sgb-xii",
-          "name": "Sozialamt und Leistungen nach SGB XII",
+          "title": "Sozialamt und Leistungen nach SGB XII",
+          "description": "Für Sozialhilfe ist grundsätzlich das Bezirksamt zuständig. Bei Menschen ohne feste Wohnung richtet sich die Zuständigkeit unter anderem nach dem letzten Berliner Wohnsitz oder dem gewöhnlichen Aufenthalt.\nWenn Sie zwischen Ämtern weitergeschickt werden, bitten Sie um eine schriftliche Auskunft und holen Sie Unterstützung bei der Zentralen Beratungsstelle oder Sozialen Wohnhilfe.\nZuständige Berliner Sozialämter",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Für Sozialhilfe ist grundsätzlich das Bezirksamt zuständig. Bei Menschen ohne feste Wohnung richtet sich die Zuständigkeit unter anderem nach dem letzten Berliner Wohnsitz oder dem gewöhnlichen Aufenthalt."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Wenn Sie zwischen Ämtern weitergeschickt werden, bitten Sie um eine schriftliche Auskunft und holen Sie Unterstützung bei der Zentralen Beratungsstelle oder Sozialen Wohnhilfe."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Zuständige Berliner Sozialämter",
-                  "href": "https://www.berlin.de/sen/soziales/soziale-sicherung/sozialhilfe/zustaendige-aemter/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.berlin.de/sen/soziales/soziale-sicherung/sozialhilfe/zustaendige-aemter/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "burgergeld-und-jobcenter",
-          "name": "Bürgergeld und Jobcenter",
+          "title": "Bürgergeld und Jobcenter",
+          "description": "Erwerbsfähige Menschen können je nach Aufenthaltsstatus und anderen Voraussetzungen Bürgergeld beantragen. Menschen ohne eigene Wohnung sollten ihre Erreichbarkeit und eine verlässliche Postadresse sofort mit dem Jobcenter klären.\nLassen Sie sich bei Unklarheit nicht nur mündlich abweisen. Eine Sozialberatungsstelle kann beim Antrag, bei fehlenden Dokumenten und bei der Zuständigkeitsklärung helfen.\nAlle Berliner Jobcenter",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Erwerbsfähige Menschen können je nach Aufenthaltsstatus und anderen Voraussetzungen Bürgergeld beantragen. Menschen ohne eigene Wohnung sollten ihre Erreichbarkeit und eine verlässliche Postadresse sofort mit dem Jobcenter klären."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Lassen Sie sich bei Unklarheit nicht nur mündlich abweisen. Eine Sozialberatungsstelle kann beim Antrag, bei fehlenden Dokumenten und bei der Zuständigkeitsklärung helfen."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Alle Berliner Jobcenter",
-                  "href": "https://service.berlin.de/jobcenter/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://service.berlin.de/jobcenter/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "wohnberechtigungsschein-und-geschutzter-wohnungsmarkt",
-          "name": "Wohnberechtigungsschein und Geschützter Wohnungsmarkt",
+          "title": "Wohnberechtigungsschein und Geschützter Wohnungsmarkt",
+          "description": "Ein WBS erlaubt die Bewerbung auf bestimmte Sozialwohnungen; er ist keine Wohnungsgarantie. In Unterkünften lebende Menschen oder Haushalte mit besonderem Bedarf können unter Voraussetzungen einen WBS mit besonderem Wohnbedarf erhalten.\nDer Geschützte Wohnungsmarkt kann für bereits wohnungslose oder unmittelbar bedrohte Menschen infrage kommen. Der erste Weg führt zur Fachstelle Soziale Wohnhilfe.\nGeschützter Wohnungsmarkt: Voraussetzungen",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ein WBS erlaubt die Bewerbung auf bestimmte Sozialwohnungen; er ist keine Wohnungsgarantie. In Unterkünften lebende Menschen oder Haushalte mit besonderem Bedarf können unter Voraussetzungen einen WBS mit besonderem Wohnbedarf erhalten."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Der Geschützte Wohnungsmarkt kann für bereits wohnungslose oder unmittelbar bedrohte Menschen infrage kommen. Der erste Weg führt zur Fachstelle Soziale Wohnhilfe."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Geschützter Wohnungsmarkt: Voraussetzungen",
-                  "href": "https://www.berlin.de/lageso/soziales/geschuetzter-wohnungsmarkt/informationen-fuer-betroffene/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.berlin.de/lageso/soziales/geschuetzter-wohnungsmarkt/informationen-fuer-betroffene/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "kostenlose-schuldner-und-insolvenzberatung",
-          "name": "Kostenlose Schuldner- und Insolvenzberatung",
+          "title": "Kostenlose Schuldner- und Insolvenzberatung",
+          "description": "In jedem Bezirk gibt es mindestens eine staatlich anerkannte, kostenlose Beratungsstelle. Sie hilft bei Mahnungen, Pfändung, Miet- und Energieschulden sowie Verbraucherinsolvenz.\nMeiden Sie Anbieter mit Vorkosten oder sicheren Versprechen. Nehmen Sie Briefe, Forderungslisten, Kontoauszüge und Leistungsbescheide mit, soweit vorhanden.\nAnerkannte Schuldnerberatungen",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "In jedem Bezirk gibt es mindestens eine staatlich anerkannte, kostenlose Beratungsstelle. Sie hilft bei Mahnungen, Pfändung, Miet- und Energieschulden sowie Verbraucherinsolvenz."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Meiden Sie Anbieter mit Vorkosten oder sicheren Versprechen. Nehmen Sie Briefe, Forderungslisten, Kontoauszüge und Leistungsbescheide mit, soweit vorhanden."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Anerkannte Schuldnerberatungen",
-                  "href": "https://www.berlin.de/sen/soziales/besondere-lebenssituationen/schuldner/anerkannte-beratungsstellen/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.berlin.de/sen/soziales/besondere-lebenssituationen/schuldner/anerkannte-beratungsstellen/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "wohnungskosten-oder-mietschulden",
-          "name": "Wohnungskosten oder Mietschulden",
+          "title": "Wohnungskosten oder Mietschulden",
+          "description": "Jobcenter oder Sozialamt können unter bestimmten Voraussetzungen Unterkunftskosten und in Ausnahmefällen Mietschulden übernehmen. Unterschreiben Sie keinen neuen Mietvertrag, bevor die zuständige Stelle die Kosten schriftlich geprüft hat.\nBei Kündigung oder Räumungsklage zusätzlich sofort die Fachstelle Soziale Wohnhilfe kontaktieren.\nFragen und Antworten zu Unterkunftskosten",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Jobcenter oder Sozialamt können unter bestimmten Voraussetzungen Unterkunftskosten und in Ausnahmefällen Mietschulden übernehmen. Unterschreiben Sie keinen neuen Mietvertrag, bevor die zuständige Stelle die Kosten schriftlich geprüft hat."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Bei Kündigung oder Räumungsklage zusätzlich sofort die Fachstelle Soziale Wohnhilfe kontaktieren."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Fragen und Antworten zu Unterkunftskosten",
-                  "href": "https://www.berlin.de/sen/soziales/soziale-sicherung/grundsicherung-fuer-arbeitssuchende-hartz-iv/kosten-der-unterkunft/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.berlin.de/sen/soziales/soziale-sicherung/grundsicherung-fuer-arbeitssuchende-hartz-iv/kosten-der-unterkunft/",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
-      "id": "jobs",
-      "title": "7. Arbeit, Bewerbung und Einkommen",
-      "items": [
+      "id": "employment",
+      "title": "Arbeit, Bewerbung und Einkommen",
+      "entries": [
         {
-          "type": "resource",
           "id": "agentur-fur-arbeit",
-          "name": "Agentur für Arbeit",
+          "title": "Agentur für Arbeit",
+          "description": "Kostenlose Servicenummer: 0800 4 5555 00. Arbeitsuchendmeldung, Arbeitslosmeldung, Arbeitslosengeld, Beratung und Vermittlung.\nEine Arbeitsuchendmeldung und eine Arbeitslosmeldung sind nicht dasselbe. Fragen Sie, welcher Schritt für Sie nötig ist und wie Sie ohne dauerhafte Online-Verbindung erreichbar bleiben.\nArbeitsuchend melden",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Kostenlose Servicenummer:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "0800 4 5555 00",
-                  "href": "tel:08004555500"
-                },
-                {
-                  "text": ". Arbeitsuchendmeldung, Arbeitslosmeldung, Arbeitslosengeld, Beratung und Vermittlung."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Eine Arbeitsuchendmeldung und eine Arbeitslosmeldung sind nicht dasselbe. Fragen Sie, welcher Schritt für Sie nötig ist und wie Sie ohne dauerhafte Online-Verbindung erreichbar bleiben."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Arbeitsuchend melden",
-                  "href": "https://www.arbeitsagentur.de/arbeitslos-arbeit-finden/arbeitslosengeld/ihre-schritte-wenn-sie-arbeitslos-werden/wie-sie-sich-arbeitsuchend-melden"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "08004555500",
+          "website": "https://www.arbeitsagentur.de/arbeitslos-arbeit-finden/arbeitslosengeld/ihre-schritte-wenn-sie-arbeitslos-werden/wie-sie-sich-arbeitsuchend-melden",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "job-point-berlin-charlottenburg",
-          "name": "JOB POINT Berlin-Charlottenburg",
+          "title": "JOB POINT Berlin-Charlottenburg",
+          "description": "Telefon: 030 310 077 20. Montag bis Freitag 9–18 Uhr.\nKostenlose Jobsuche, Bewerbungshilfe, Computer, Drucker, Stellenbörse und Workshops. Kein Leistungsbescheid nötig; Angebot und Termin vorab bestätigen.\nJOB POINT Berlin",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Adresse:",
-                  "strong": true
-                },
-                {
-                  "text": " Pestalozzistraße 80, 10627 Berlin"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefon:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "030 310 077 20",
-                  "href": "tel:+493031007720"
-                },
-                {
-                  "text": ". Montag bis Freitag 9–18 Uhr."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Kostenlose Jobsuche, Bewerbungshilfe, Computer, Drucker, Stellenbörse und Workshops. Kein Leistungsbescheid nötig; Angebot und Termin vorab bestätigen."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "JOB POINT Berlin",
-                  "href": "https://www.berlin.de/sen/arbeit/beschaeftigung/beratung/job-point/"
-                }
-              ]
-            }
-          ]
+          "address": "Adresse: Pestalozzistraße 80, 10627 Berlin",
+          "phone": "+493031007720",
+          "website": "https://www.berlin.de/sen/arbeit/beschaeftigung/beratung/job-point/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "job-point-berlin-mitte",
-          "name": "JOB POINT Berlin-Mitte",
+          "title": "JOB POINT Berlin-Mitte",
+          "description": "Telefon: 030 398 059 90. Montag bis Freitag 9–18 Uhr.\nKostenlose Beratung, Bewerbungsunterlagen, Druck- und Computerarbeitsplätze sowie direkter Zugang zu Stellenangeboten.\nStandorte und Angebote",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Adresse:",
-                  "strong": true
-                },
-                {
-                  "text": " Alt-Moabit 84, 10555 Berlin"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefon:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "030 398 059 90",
-                  "href": "tel:+493039805990"
-                },
-                {
-                  "text": ". Montag bis Freitag 9–18 Uhr."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Kostenlose Beratung, Bewerbungsunterlagen, Druck- und Computerarbeitsplätze sowie direkter Zugang zu Stellenangeboten."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Standorte und Angebote",
-                  "href": "https://www.berlin.de/sen/arbeit/beschaeftigung/beratung/job-point/"
-                }
-              ]
-            }
-          ]
+          "address": "Adresse: Alt-Moabit 84, 10555 Berlin",
+          "phone": "+493039805990",
+          "website": "https://www.berlin.de/sen/arbeit/beschaeftigung/beratung/job-point/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "job-point-berlin-neukolln",
-          "name": "JOB POINT Berlin-Neukölln",
+          "title": "JOB POINT Berlin-Neukölln",
+          "description": "Montag bis Freitag 9–18 Uhr. Kostenlose Unterstützung bei Jobsuche, Bewerbung und Vorstellungsgespräch; Computer und Druckmöglichkeiten vor Ort.\nÖffnung und mögliche Beratungszeiten vor längerer Anfahrt auf der JOB-POINT-Seite prüfen.\nJOB POINT Berlin-Neukölln",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Adresse:",
-                  "strong": true
-                },
-                {
-                  "text": " Karl-Marx-Straße 131–133, 12043 Berlin"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Montag bis Freitag 9–18 Uhr. Kostenlose Unterstützung bei Jobsuche, Bewerbung und Vorstellungsgespräch; Computer und Druckmöglichkeiten vor Ort."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Öffnung und mögliche Beratungszeiten vor längerer Anfahrt auf der JOB-POINT-Seite prüfen."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "JOB POINT Berlin-Neukölln",
-                  "href": "https://www.jobpoint-berlin.de/"
-                }
-              ]
-            }
-          ]
+          "address": "Adresse: Karl-Marx-Straße 131–133, 12043 Berlin",
+          "phone": "",
+          "website": "https://www.jobpoint-berlin.de/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "berliner-arbeitslosenzentrum-balz",
-          "name": "Berliner Arbeitslosenzentrum — BALZ",
+          "title": "Berliner Arbeitslosenzentrum — BALZ",
+          "description": "Kostenlose, vertrauliche und auf Wunsch anonyme Beratung zu Arbeitslosengeld, Bürgergeld, Stellensuche und den Folgen von Arbeitslosigkeit.\nFragen Sie nach persönlicher oder Online-Beratung und nehmen Sie Bescheide sowie Fristschreiben mit.\nArbeitslosenberatung in Berlin",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Kostenlose, vertrauliche und auf Wunsch anonyme Beratung zu Arbeitslosengeld, Bürgergeld, Stellensuche und den Folgen von Arbeitslosigkeit."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Fragen Sie nach persönlicher oder Online-Beratung und nehmen Sie Bescheide sowie Fristschreiben mit."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Arbeitslosenberatung in Berlin",
-                  "href": "https://familienportal.berlin.de/artikel/beratung-und-unterstuetzung-bei-arbeitslosigkeit"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://familienportal.berlin.de/artikel/beratung-und-unterstuetzung-bei-arbeitslosigkeit",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "bema-migration-und-gute-arbeit",
-          "name": "BEMA — Migration und Gute Arbeit",
+          "title": "BEMA — Migration und Gute Arbeit",
+          "description": "Telefon: 030 513 019 269. Mehrsprachige, kostenlose Beratung für zugewanderte Beschäftigte zu unbezahltem Lohn, Kündigung, Arbeitsvertrag, Scheinselbstständigkeit und Ausbeutung.\nSichern Sie Lohnabrechnungen, Chatverläufe, Arbeitszeiten und Namen. Unterschreiben Sie keine Erklärung, die Sie nicht verstehen.\nBEMA Arbeitsrechtsberatung",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Adresse:",
-                  "strong": true
-                },
-                {
-                  "text": " Lorenzweg 5, 12099 Berlin"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefon:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "030 513 019 269",
-                  "href": "tel:+4930513019269"
-                },
-                {
-                  "text": ". Mehrsprachige, kostenlose Beratung für zugewanderte Beschäftigte zu unbezahltem Lohn, Kündigung, Arbeitsvertrag, Scheinselbstständigkeit und Ausbeutung."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Sichern Sie Lohnabrechnungen, Chatverläufe, Arbeitszeiten und Namen. Unterschreiben Sie keine Erklärung, die Sie nicht verstehen."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "BEMA Arbeitsrechtsberatung",
-                  "href": "https://bema.berlin/beratung-arbeitsrecht/"
-                }
-              ]
-            }
-          ]
+          "address": "Adresse: Lorenzweg 5, 12099 Berlin",
+          "phone": "+4930513019269",
+          "website": "https://bema.berlin/beratung-arbeitsrecht/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "willkommenszentrum-arbeit-und-bildung",
-          "name": "Willkommenszentrum — Arbeit und Bildung",
+          "title": "Willkommenszentrum — Arbeit und Bildung",
+          "description": "Telefonische Terminvereinbarung: 030 9017 23172, Montag und Freitag 11–13 Uhr. Offene Beratung zu Arbeit und Bildung dienstags 8:30–13 Uhr und 13:30–17 Uhr.\nKostenlose Hilfe für Menschen ohne deutschen Pass oder mit Migrationsgeschichte. Wartenummern können früh ausgehen.\nBeratung im Willkommenszentrum",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Adresse:",
-                  "strong": true
-                },
-                {
-                  "text": " Potsdamer Straße 61, 10785 Berlin"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefonische Terminvereinbarung:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "030 9017 23172",
-                  "href": "tel:+4930901723172"
-                },
-                {
-                  "text": ", Montag und Freitag 11–13 Uhr. Offene Beratung zu Arbeit und Bildung dienstags 8:30–13 Uhr und 13:30–17 Uhr."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Kostenlose Hilfe für Menschen ohne deutschen Pass oder mit Migrationsgeschichte. Wartenummern können früh ausgehen."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Beratung im Willkommenszentrum",
-                  "href": "https://willkommenszentrum.berlin.de/beratung-im-willkommenszentrum"
-                }
-              ]
-            }
-          ]
+          "address": "Adresse: Potsdamer Straße 61, 10785 Berlin",
+          "phone": "+4930901723172",
+          "website": "https://willkommenszentrum.berlin.de/beratung-im-willkommenszentrum",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "vorsicht-bei-jobs-gegen-bargeld",
-          "name": "Vorsicht bei Jobs gegen Bargeld",
+          "title": "Vorsicht bei Jobs gegen Bargeld",
+          "description": "Notieren Sie Arbeitgeber, Einsatzort, Arbeitszeit und vereinbarten Lohn. Geben Sie niemandem den Originalausweis als „Pfand“ und zahlen Sie nicht für ein versprochenes Arbeitsverhältnis.\nBei ausbleibendem Lohn oder Drohungen wenden Sie sich an BEMA oder eine Arbeitsrechtsberatung. Bei Menschenhandel, Freiheitsentzug oder unmittelbarer Gefahr 110.\nBeratungsangebote zu Arbeit",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Notieren Sie Arbeitgeber, Einsatzort, Arbeitszeit und vereinbarten Lohn. Geben Sie niemandem den Originalausweis als „Pfand“ und zahlen Sie nicht für ein versprochenes Arbeitsverhältnis."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Bei ausbleibendem Lohn oder Drohungen wenden Sie sich an BEMA oder eine Arbeitsrechtsberatung. Bei Menschenhandel, Freiheitsentzug oder unmittelbarer Gefahr 110."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Beratungsangebote zu Arbeit",
-                  "href": "https://www.berlin.de/sen/arbeit/beschaeftigung/beratung/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.berlin.de/sen/arbeit/beschaeftigung/beratung/",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
+    },
+    {
+      "id": "legal",
+      "title": "Legal aid",
+      "entries": []
     },
     {
       "id": "documents",
-      "title": "8. Ausweis, Recht und wichtige Unterlagen",
-      "items": [
+      "title": "Ausweis, Recht und wichtige Unterlagen",
+      "entries": [
         {
-          "type": "resource",
           "id": "vorlaufiger-personalausweis-ohne-feste-wohnung",
-          "name": "Vorläufiger Personalausweis ohne feste Wohnung",
+          "title": "Vorläufiger Personalausweis ohne feste Wohnung",
+          "description": "Bürgertelefon: 115. Deutsche Staatsangehörige ohne feste Wohnung können beim LABO für einen konkreten Anlass einen vorläufigen Personalausweis beantragen.\nPersönliche Vorsprache ist nötig. Die offizielle Seite nennt 10 Euro Gebühr für Wohnungslose, biometrisches Foto und die Abmeldebestätigung des letzten deutschen Wohnsitzes. Vorher Termin und vollständige Unterlagen klären.\nVorläufiger Personalausweis für Wohnungslose",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Stelle:",
-                  "strong": true
-                },
-                {
-                  "text": " LABO, Friedrichstraße 219, 10969 Berlin"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Bürgertelefon:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "115",
-                  "href": "tel:115"
-                },
-                {
-                  "text": ". Deutsche Staatsangehörige ohne feste Wohnung können beim LABO für einen konkreten Anlass einen vorläufigen Personalausweis beantragen."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Persönliche Vorsprache ist nötig. Die offizielle Seite nennt 10 Euro Gebühr für Wohnungslose, biometrisches Foto und die Abmeldebestätigung des letzten deutschen Wohnsitzes. Vorher Termin und vollständige Unterlagen klären."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Vorläufiger Personalausweis für Wohnungslose",
-                  "href": "https://service.berlin.de/dienstleistung/306684/"
-                }
-              ]
-            }
-          ]
+          "address": "Stelle: LABO, Friedrichstraße 219, 10969 Berlin",
+          "phone": "115",
+          "website": "https://service.berlin.de/dienstleistung/306684/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "burgertelefon-115",
-          "name": "Bürgertelefon 115",
+          "title": "Bürgertelefon 115",
+          "description": "Telefon: 115. Auskunft zu Bürgeramt, LABO, Sozialamt, Fachstelle Soziale Wohnhilfe und anderen Behörden.\nSagen Sie sofort, dass Sie keine feste Wohnung oder keine Online-Verbindung haben. Fragen Sie nach barrierefreiem Zugang, Termin und den tatsächlich erforderlichen Unterlagen.\nBerliner Serviceportal",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefon:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "115",
-                  "href": "tel:115"
-                },
-                {
-                  "text": ". Auskunft zu Bürgeramt, LABO, Sozialamt, Fachstelle Soziale Wohnhilfe und anderen Behörden."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Sagen Sie sofort, dass Sie keine feste Wohnung oder keine Online-Verbindung haben. Fragen Sie nach barrierefreiem Zugang, Termin und den tatsächlich erforderlichen Unterlagen."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Berliner Serviceportal",
-                  "href": "https://service.berlin.de/terminvereinbarung/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "115",
+          "website": "https://service.berlin.de/terminvereinbarung/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "postadresse-einrichten",
-          "name": "Postadresse einrichten",
+          "title": "Postadresse einrichten",
+          "description": "Bahnhofsmission Zoo und Seeling Treff veröffentlichen die Möglichkeit einer Postadresse. Eine Beratungsstelle kann erklären, welche Adresse Jobcenter, Sozialamt oder Krankenkasse akzeptieren.\nFragen Sie nach Abholrhythmus, Aufbewahrungsdauer und was passiert, wenn Sie längere Zeit nicht kommen. Eine Postadresse ersetzt nicht automatisch die Anmeldung einer Wohnung.\nPostadresse im Seeling Treff",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Bahnhofsmission Zoo und Seeling Treff veröffentlichen die Möglichkeit einer Postadresse. Eine Beratungsstelle kann erklären, welche Adresse Jobcenter, Sozialamt oder Krankenkasse akzeptieren."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Fragen Sie nach Abholrhythmus, Aufbewahrungsdauer und was passiert, wenn Sie längere Zeit nicht kommen. Eine Postadresse ersetzt nicht automatisch die Anmeldung einer Wohnung."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Postadresse im Seeling Treff",
-                  "href": "https://gebewo.berlin/seeling-treff"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://gebewo.berlin/seeling-treff",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "beratungshilfe-fur-menschen-mit-wenig-geld",
-          "name": "Beratungshilfe für Menschen mit wenig Geld",
+          "title": "Beratungshilfe für Menschen mit wenig Geld",
+          "description": "Wer eine anwaltliche Beratung nicht bezahlen kann, kann unter Voraussetzungen Beratungshilfe erhalten. Der Antrag wird grundsätzlich beim für den Wohnort zuständigen Amtsgericht gestellt.\nFragen Sie bei fehlender Wohnung zuerst eine Sozial- oder Rechtsberatung, welches Amtsgericht zuständig ist. Nehmen Sie Einkommensnachweise, Bescheide und Unterlagen zum Rechtsproblem mit.\nBeratungshilfe in Berlin",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Wer eine anwaltliche Beratung nicht bezahlen kann, kann unter Voraussetzungen Beratungshilfe erhalten. Der Antrag wird grundsätzlich beim für den Wohnort zuständigen Amtsgericht gestellt."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Fragen Sie bei fehlender Wohnung zuerst eine Sozial- oder Rechtsberatung, welches Amtsgericht zuständig ist. Nehmen Sie Einkommensnachweise, Bescheide und Unterlagen zum Rechtsproblem mit."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Beratungshilfe in Berlin",
-                  "href": "https://www.berlin.de/gerichte/was-moechten-sie-erledigen/artikel.1348368.php"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.berlin.de/gerichte/was-moechten-sie-erledigen/artikel.1348368.php",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "kostenlose-rechtsberatung-fur-gefluchtete-und-migrantinnen-und-migranten",
-          "name": "Kostenlose Rechtsberatung für Geflüchtete und Migrantinnen und Migranten",
+          "title": "Kostenlose Rechtsberatung für Geflüchtete und Migrantinnen und Migranten",
+          "description": "Die Refugee Law Clinic Berlin berät kostenlos und vertraulich zu Asyl- und Aufenthaltsrecht, Familiennachzug und dem Umgang mit BAMF, LEA, Jobcenter und anderen Behörden.\nBeratung findet an mehreren Orten statt; Sprachmittlung kann nach vorherigem Kontakt organisiert werden. Prüfen Sie den aktuellen Wochenplan.\nRLC Berlin Beratung",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Die Refugee Law Clinic Berlin berät kostenlos und vertraulich zu Asyl- und Aufenthaltsrecht, Familiennachzug und dem Umgang mit BAMF, LEA, Jobcenter und anderen Behörden."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Beratung findet an mehreren Orten statt; Sprachmittlung kann nach vorherigem Kontakt organisiert werden. Prüfen Sie den aktuellen Wochenplan."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "RLC Berlin Beratung",
-                  "href": "https://www.rlc-berlin.org/beratung"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.rlc-berlin.org/beratung",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "verlorene-unterlagen-und-diebstahl",
-          "name": "Verlorene Unterlagen und Diebstahl",
+          "title": "Verlorene Unterlagen und Diebstahl",
+          "description": "Bei Diebstahl oder Missbrauchsgefahr wenden Sie sich an die Polizei; in akuter Gefahr 110. Bei verlorenem Ausweis informieren Sie die Ausweisbehörde und lassen gegebenenfalls die Online-Funktion sperren.\nBewahren Sie Aktenzeichen und Verlustanzeige auf. Sozialberatungen können bei Ersatzbeschaffung und Gebührenfragen helfen.\nFundbüro und Verlusthinweise",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Bei Diebstahl oder Missbrauchsgefahr wenden Sie sich an die Polizei; in akuter Gefahr 110. Bei verlorenem Ausweis informieren Sie die Ausweisbehörde und lassen gegebenenfalls die Online-Funktion sperren."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Bewahren Sie Aktenzeichen und Verlustanzeige auf. Sozialberatungen können bei Ersatzbeschaffung und Gebührenfragen helfen."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Fundbüro und Verlusthinweise",
-                  "href": "https://service.berlin.de/dienstleistung/324328/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://service.berlin.de/dienstleistung/324328/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "digitale-kopien-sicher-aufbewahren",
-          "name": "Digitale Kopien sicher aufbewahren",
+          "title": "Digitale Kopien sicher aufbewahren",
+          "description": "Fotografieren Sie Ausweis, Bescheide, Kündigungen, Rezepte und wichtige Telefonnummern, wenn dies sicher möglich ist. Senden Sie Kopien an ein eigenes geschütztes E-Mail-Konto.\nOriginale nicht bei Arbeitgebern, Vermittlern oder fremden Personen hinterlegen. Auf öffentlichen Computern immer abmelden und heruntergeladene Dateien löschen.\nSicherheitshinweise des BSI",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Fotografieren Sie Ausweis, Bescheide, Kündigungen, Rezepte und wichtige Telefonnummern, wenn dies sicher möglich ist. Senden Sie Kopien an ein eigenes geschütztes E-Mail-Konto."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Originale nicht bei Arbeitgebern, Vermittlern oder fremden Personen hinterlegen. Auf öffentlichen Computern immer abmelden und heruntergeladene Dateien löschen."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Sicherheitshinweise des BSI",
-                  "href": "https://www.bsi.bund.de/DE/Themen/Verbraucherinnen-und-Verbraucher/Informationen-und-Empfehlungen/informationen-und-empfehlungen_node.html"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.bsi.bund.de/DE/Themen/Verbraucherinnen-und-Verbraucher/Informationen-und-Empfehlungen/informationen-und-empfehlungen_node.html",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
+    },
+    {
+      "id": "mail",
+      "title": "Mailing address",
+      "entries": []
+    },
+    {
+      "id": "storage",
+      "title": "Storage",
+      "entries": []
     },
     {
       "id": "safety",
-      "title": "9. Frauen, junge Menschen, queere Personen und Zugewanderte",
-      "items": [
+      "title": "Frauen, junge Menschen, queere Personen und Zugewanderte",
+      "entries": [
         {
-          "type": "resource",
           "id": "gewalt-gegen-frauen-116-016-und-big-hotline",
-          "name": "Gewalt gegen Frauen — 116 016 und BIG Hotline",
+          "title": "Gewalt gegen Frauen — 116 016 und BIG Hotline",
+          "description": "Bundesweites Hilfetelefon: 116 016, kostenlos und rund um die Uhr. BIG Hotline Berlin: 030 611 03 00, rund um die Uhr.\nAnonyme, mehrsprachige Beratung, Sicherheitsplanung und Vermittlung in Schutzunterkünfte. In akuter Gefahr 110, bei medizinischer Lebensgefahr 112.\nSchutz vor Gewalt in Berlin",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Bundesweites Hilfetelefon:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "116 016",
-                  "href": "tel:116016"
-                },
-                {
-                  "text": ", kostenlos und rund um die Uhr. "
-                },
-                {
-                  "text": "BIG Hotline Berlin:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "030 611 03 00",
-                  "href": "tel:+49306110300"
-                },
-                {
-                  "text": ", rund um die Uhr."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Anonyme, mehrsprachige Beratung, Sicherheitsplanung und Vermittlung in Schutzunterkünfte. In akuter Gefahr 110, bei medizinischer Lebensgefahr 112."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Schutz vor Gewalt in Berlin",
-                  "href": "https://willkommenszentrum.berlin.de/nothilfe-sicherheit/schutz-gegen-gewalt"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "116016",
+          "website": "https://willkommenszentrum.berlin.de/nothilfe-sicherheit/schutz-gegen-gewalt",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "evas-obdach-ganzjahrig-fur-frauen-und-flinta",
-          "name": "Evas Obdach — ganzjährig für Frauen und FLINTA",
+          "title": "Evas Obdach — ganzjährig für Frauen und FLINTA",
+          "description": "Telefon: 030 477 532 670 oder 0151 146 487 58. Ganzjährige Notübernachtung mit Schlafplatz, Essen, Dusche, Waschmaschine und Beratung.\nVeröffentlicht ist täglich 19–9 Uhr, letzter Einlass 21 Uhr. Vorher telefonisch klären, ob das Angebot passt und Platz vorhanden ist.\nAktuelle Neuköllner Angaben",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Adresse:",
-                  "strong": true
-                },
-                {
-                  "text": " Fuldastraße 9, 12043 Berlin"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefon:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "030 477 532 670",
-                  "href": "tel:+4930477532670"
-                },
-                {
-                  "text": " oder "
-                },
-                {
-                  "text": "0151 146 487 58",
-                  "href": "tel:+4915114648758"
-                },
-                {
-                  "text": ". Ganzjährige Notübernachtung mit Schlafplatz, Essen, Dusche, Waschmaschine und Beratung."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Veröffentlicht ist täglich 19–9 Uhr, letzter Einlass 21 Uhr. Vorher telefonisch klären, ob das Angebot passt und Platz vorhanden ist."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Aktuelle Neuköllner Angaben",
-                  "href": "https://www.berlin.de/ba-neukoelln/aktuelles/bezirksticker/angebote-der-neukoellner-kaeltehilfe-im-winter-2026-2027-1727539.php"
-                }
-              ]
-            }
-          ]
+          "address": "Adresse: Fuldastraße 9, 12043 Berlin",
+          "phone": "+4930477532670",
+          "website": "https://www.berlin.de/ba-neukoelln/aktuelles/bezirksticker/angebote-der-neukoellner-kaeltehilfe-im-winter-2026-2027-1727539.php",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "notubernachtung-fur-frauen-tieckstra-e",
-          "name": "Notübernachtung für Frauen — Tieckstraße",
+          "title": "Notübernachtung für Frauen — Tieckstraße",
+          "description": "Telefon GEBEWO: 030 283 29 39. Ganzjährige Notübernachtung für Frauen.\nIm selben Haus betreibt die Koepjohann’sche Stiftung die Notübernachtung Marie unter 030 400 062 09. Rufen Sie wegen Zielgruppe, Aufnahmezeit und Platz vor der Anfahrt an.\nOffizielle Liste für wohnungslose Frauen",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Adresse:",
-                  "strong": true
-                },
-                {
-                  "text": " Tieckstraße 17, 10115 Berlin"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefon GEBEWO:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "030 283 29 39",
-                  "href": "tel:+49302832939"
-                },
-                {
-                  "text": ". Ganzjährige Notübernachtung für Frauen."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Im selben Haus betreibt die Koepjohann’sche Stiftung die Notübernachtung Marie unter "
-                },
-                {
-                  "text": "030 400 062 09",
-                  "href": "tel:+493040006209"
-                },
-                {
-                  "text": ". Rufen Sie wegen Zielgruppe, Aufnahmezeit und Platz vor der Anfahrt an."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Offizielle Liste für wohnungslose Frauen",
-                  "href": "https://www.berlin.de/sen/soziales/besondere-lebenssituationen/wohnungslose/angebote/frauen-1388265.php"
-                }
-              ]
-            }
-          ]
+          "address": "Adresse: Tieckstraße 17, 10115 Berlin",
+          "phone": "+49302832939",
+          "website": "https://www.berlin.de/sen/soziales/besondere-lebenssituationen/wohnungslose/angebote/frauen-1388265.php",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "notubernachtung-mitten-im-kiez",
-          "name": "Notübernachtung „Mitten im Kiez“",
+          "title": "Notübernachtung „Mitten im Kiez“",
+          "description": "Telefon: 030 293 505 57. Ganzjährige Notübernachtung für wohnungslose Frauen.\nNur wenige Plätze; Aufnahme und Einlass unbedingt vorher klären. Bei Gewalt kann BIG zusätzlich einen geschützten Platz suchen.\nFrauenangebote des Landes Berlin",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Adresse:",
-                  "strong": true
-                },
-                {
-                  "text": " Petersburger Straße 92, 10247 Berlin"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefon:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "030 293 505 57",
-                  "href": "tel:+493029350557"
-                },
-                {
-                  "text": ". Ganzjährige Notübernachtung für wohnungslose Frauen."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Nur wenige Plätze; Aufnahme und Einlass unbedingt vorher klären. Bei Gewalt kann BIG zusätzlich einen geschützten Platz suchen."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Frauenangebote des Landes Berlin",
-                  "href": "https://www.berlin.de/sen/soziales/besondere-lebenssituationen/wohnungslose/angebote/frauen-1388265.php"
-                }
-              ]
-            }
-          ]
+          "address": "Adresse: Petersburger Straße 92, 10247 Berlin",
+          "phone": "+493029350557",
+          "website": "https://www.berlin.de/sen/soziales/besondere-lebenssituationen/wohnungslose/angebote/frauen-1388265.php",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "duschmobil-fur-obdachlose-frauen",
-          "name": "Duschmobil für obdachlose Frauen",
+          "title": "Duschmobil für obdachlose Frauen",
+          "description": "Telefon: 0151 146 487 56, 0151 148 664 32 oder 030 462 32 79.\nMobiles Hygiene- und Beratungsangebot an wechselnden Standorten. Den aktuellen Wochenplan, Wartezeit und Barrierefreiheit vorab prüfen.\nDuschmobil und weitere Frauenangebote",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefon:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "0151 146 487 56",
-                  "href": "tel:+4915114648756"
-                },
-                {
-                  "text": ", "
-                },
-                {
-                  "text": "0151 148 664 32",
-                  "href": "tel:+4915114866432"
-                },
-                {
-                  "text": " oder "
-                },
-                {
-                  "text": "030 462 32 79",
-                  "href": "tel:+49304623279"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Mobiles Hygiene- und Beratungsangebot an wechselnden Standorten. Den aktuellen Wochenplan, Wartezeit und Barrierefreiheit vorab prüfen."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Duschmobil und weitere Frauenangebote",
-                  "href": "https://www.berlin.de/sen/soziales/besondere-lebenssituationen/wohnungslose/angebote/frauen-1388265.php"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+4915114648756",
+          "website": "https://www.berlin.de/sen/soziales/besondere-lebenssituationen/wohnungslose/angebote/frauen-1388265.php",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "jugendnotdienst-rund-um-die-uhr",
-          "name": "Jugendnotdienst — rund um die Uhr",
+          "title": "Jugendnotdienst — rund um die Uhr",
+          "description": "Telefon: 030 6100 62. Anonyme Beratung, Krisenintervention und Schutz für Jugendliche; auch persönliche Hilfe außerhalb der Jugendamtszeiten.\nKindernotdienst bis 13 Jahre: 030 6100 61. Mädchennotdienst: 030 6100 63. Bei unmittelbarer Gefahr 110 oder 112.\nJugendnotdienst Berlin",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefon:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "030 6100 62",
-                  "href": "tel:+4930610062"
-                },
-                {
-                  "text": ". Anonyme Beratung, Krisenintervention und Schutz für Jugendliche; auch persönliche Hilfe außerhalb der Jugendamtszeiten."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Kindernotdienst bis 13 Jahre:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "030 6100 61",
-                  "href": "tel:+4930610061"
-                },
-                {
-                  "text": ". "
-                },
-                {
-                  "text": "Mädchennotdienst:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "030 6100 63",
-                  "href": "tel:+4930610063"
-                },
-                {
-                  "text": ". Bei unmittelbarer Gefahr 110 oder 112."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Jugendnotdienst Berlin",
-                  "href": "https://www.berlin.de/notdienst-kinderschutz/jugendnotdienst/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+4930610062",
+          "website": "https://www.berlin.de/notdienst-kinderschutz/jugendnotdienst/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "queerhome-wohnraumberatung-fur-lsbtiq",
-          "name": "QUEERHOME — Wohnraumberatung für LSBTIQ+",
+          "title": "QUEERHOME — Wohnraumberatung für LSBTIQ+",
+          "description": "Telefon: 030 658 678 61. Beratung bei drohendem Wohnungsverlust, Obdachlosigkeit, unzumutbaren Wohnverhältnissen und Wohnungssuche.\nDas Angebot richtet sich unabhängig von Nationalität, sozialem Status und gesundheitlicher Situation an queere Personen. Termin und Zugänglichkeit vorher klären.\nQUEERHOME",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Adresse:",
-                  "strong": true
-                },
-                {
-                  "text": " Geusenstraße 2, 10317 Berlin"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefon:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "030 658 678 61",
-                  "href": "tel:+493065867861"
-                },
-                {
-                  "text": ". Beratung bei drohendem Wohnungsverlust, Obdachlosigkeit, unzumutbaren Wohnverhältnissen und Wohnungssuche."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Das Angebot richtet sich unabhängig von Nationalität, sozialem Status und gesundheitlicher Situation an queere Personen. Termin und Zugänglichkeit vorher klären."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "QUEERHOME",
-                  "href": "https://queerhome.de/"
-                }
-              ]
-            }
-          ]
+          "address": "Adresse: Geusenstraße 2, 10317 Berlin",
+          "phone": "+493065867861",
+          "website": "https://queerhome.de/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "lsbti-krisenwohnung-bei-gewalt",
-          "name": "LSBTI-Krisenwohnung bei Gewalt",
+          "title": "LSBTI-Krisenwohnung bei Gewalt",
+          "description": "Telefon: 030 555 022 18. Schutz und Beratung für lesbische, schwule, bisexuelle, trans- und intergeschlechtliche Personen, die wegen ihrer sexuellen oder geschlechtlichen Identität Gewalt erleben oder befürchten.\nAdresse der Schutzwohnung nicht selbst suchen oder weitergeben. Bei akuter Gewalt 110.\nBerliner LSBTI-Hilfsangebote",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefon:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "030 555 022 18",
-                  "href": "tel:+493055502218"
-                },
-                {
-                  "text": ". Schutz und Beratung für lesbische, schwule, bisexuelle, trans- und intergeschlechtliche Personen, die wegen ihrer sexuellen oder geschlechtlichen Identität Gewalt erleben oder befürchten."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Adresse der Schutzwohnung nicht selbst suchen oder weitergeben. Bei akuter Gewalt 110."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Berliner LSBTI-Hilfsangebote",
-                  "href": "https://www.berlin.de/ba-marzahn-hellersdorf/politik-und-verwaltung/beauftragte/partnerschaften/artikel.1261633.php"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+493055502218",
+          "website": "https://www.berlin.de/ba-marzahn-hellersdorf/politik-und-verwaltung/beauftragte/partnerschaften/artikel.1261633.php",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "willkommenszentrum-berlin",
-          "name": "Willkommenszentrum Berlin",
+          "title": "Willkommenszentrum Berlin",
+          "description": "Kostenlose Beratung für Menschen ohne deutschen Pass oder mit Migrationsgeschichte zu Aufenthalt, Sozialleistungen, Arbeit, Bildung und Alltag.\nOffene Sprechstunden haben begrenzte Wartenummern. Termintelefon: 030 9017 23172, Montag und Freitag 11–13 Uhr.\nZeiten und Beratungsthemen",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Adresse:",
-                  "strong": true
-                },
-                {
-                  "text": " Potsdamer Straße 61, 10785 Berlin"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Kostenlose Beratung für Menschen ohne deutschen Pass oder mit Migrationsgeschichte zu Aufenthalt, Sozialleistungen, Arbeit, Bildung und Alltag."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Offene Sprechstunden haben begrenzte Wartenummern. "
-                },
-                {
-                  "text": "Termintelefon:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "030 9017 23172",
-                  "href": "tel:+4930901723172"
-                },
-                {
-                  "text": ", Montag und Freitag 11–13 Uhr."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Zeiten und Beratungsthemen",
-                  "href": "https://willkommenszentrum.berlin.de/beratung-im-willkommenszentrum"
-                }
-              ]
-            }
-          ]
+          "address": "Adresse: Potsdamer Straße 61, 10785 Berlin",
+          "phone": "+4930901723172",
+          "website": "https://willkommenszentrum.berlin.de/beratung-im-willkommenszentrum",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "tria-und-klik-wohnungslose-eu-burgerinnen-und-eu-burger",
-          "name": "TRIA und Klik — wohnungslose EU-Bürgerinnen und EU-Bürger",
+          "title": "TRIA und Klik — wohnungslose EU-Bürgerinnen und EU-Bürger",
+          "description": "TRIA: Levetzowstraße 12a, 10555 Berlin, tria@caritas-berlin.de. Aufsuchende mehrsprachige Beratung. — mailto:tria@caritas-berlin.de\nKlik: Torstraße 210, 10115 Berlin, 030 235 979 70. Beratung auf Deutsch, Englisch, Polnisch, Rumänisch und Bulgarisch. Angebote klären Ansprüche, ersetzen aber keine Rechtsgarantie.\nAngebote für wohnungslose EU-Bürger",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "TRIA:",
-                  "strong": true
-                },
-                {
-                  "text": " Levetzowstraße 12a, 10555 Berlin, "
-                },
-                {
-                  "text": "tria@caritas-berlin.de",
-                  "href": "mailto:tria@caritas-berlin.de"
-                },
-                {
-                  "text": ". Aufsuchende mehrsprachige Beratung."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Klik:",
-                  "strong": true
-                },
-                {
-                  "text": " Torstraße 210, 10115 Berlin, "
-                },
-                {
-                  "text": "030 235 979 70",
-                  "href": "tel:+493023597970"
-                },
-                {
-                  "text": ". Beratung auf Deutsch, Englisch, Polnisch, Rumänisch und Bulgarisch. Angebote klären Ansprüche, ersetzen aber keine Rechtsgarantie."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Angebote für wohnungslose EU-Bürger",
-                  "href": "https://www.berlin.de/sen/soziales/besondere-lebenssituationen/wohnungslose/angebote/unionsbuerger-1402426.php"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+493023597970",
+          "website": "https://www.berlin.de/sen/soziales/besondere-lebenssituationen/wohnungslose/angebote/unionsbuerger-1402426.php",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "nostel-familien-mit-minderjahrigen-kindern",
-          "name": "Nostel — Familien mit minderjährigen Kindern",
+          "title": "Nostel — Familien mit minderjährigen Kindern",
+          "description": "Telefon: 030 2095 1709. Vorübergehende Unterkunft und intensive Begleitung für wohnungslose EU-Bürger-Familien mit minderjährigen Kindern, die noch keine Leistungen nach SGB II oder XII beziehen.\nAufnahme nur nach Prüfung und Kapazität. Bei einem akut ungeschützten Kind zusätzlich Jugendnotdienst oder 110/112 kontaktieren.\nOffizielle Beschreibung von Nostel",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Adresse:",
-                  "strong": true
-                },
-                {
-                  "text": " Harzer Straße 65, 12059 Berlin"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefon:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "030 2095 1709",
-                  "href": "tel:+493020951709"
-                },
-                {
-                  "text": ". Vorübergehende Unterkunft und intensive Begleitung für wohnungslose EU-Bürger-Familien mit minderjährigen Kindern, die noch keine Leistungen nach SGB II oder XII beziehen."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Aufnahme nur nach Prüfung und Kapazität. Bei einem akut ungeschützten Kind zusätzlich Jugendnotdienst oder 110/112 kontaktieren."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Offizielle Beschreibung von Nostel",
-                  "href": "https://www.berlin.de/sen/soziales/besondere-lebenssituationen/wohnungslose/angebote/unionsbuerger-1402426.php"
-                }
-              ]
-            }
-          ]
+          "address": "Adresse: Harzer Straße 65, 12059 Berlin",
+          "phone": "+493020951709",
+          "website": "https://www.berlin.de/sen/soziales/besondere-lebenssituationen/wohnungslose/angebote/unionsbuerger-1402426.php",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "barrierefreiheit-und-pflegebedarf",
-          "name": "Barrierefreiheit und Pflegebedarf",
+          "title": "Barrierefreiheit und Pflegebedarf",
+          "description": "In der Kältehilfe-Liste lassen sich barrierearme Angebote erkennen. Sagen Sie am Telefon deutlich, ob Rollstuhl, Rollator, Assistenz, Pflege, Sauerstoff, Kühlung von Medikamenten oder ein barrierefreies Bad nötig sind.\nEin als barrierearm bezeichnetes Haus ist nicht automatisch für jeden Pflegebedarf geeignet. Die Fachstelle Soziale Wohnhilfe muss individuelle Bedarfe bei der Unterbringung berücksichtigen, soweit passende Kapazität vorhanden ist.\nBarrierearme Kältehilfe-Angebote",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "In der Kältehilfe-Liste lassen sich barrierearme Angebote erkennen. Sagen Sie am Telefon deutlich, ob Rollstuhl, Rollator, Assistenz, Pflege, Sauerstoff, Kühlung von Medikamenten oder ein barrierefreies Bad nötig sind."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ein als barrierearm bezeichnetes Haus ist nicht automatisch für jeden Pflegebedarf geeignet. Die Fachstelle Soziale Wohnhilfe muss individuelle Bedarfe bei der Unterbringung berücksichtigen, soweit passende Kapazität vorhanden ist."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Barrierearme Kältehilfe-Angebote",
-                  "href": "https://www.berlin.de/sen/soziales/besondere-lebenssituationen/wohnungslose/notversorgung/kaeltehilfe-1293250.php"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.berlin.de/sen/soziales/besondere-lebenssituationen/wohnungslose/notversorgung/kaeltehilfe-1293250.php",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
+      "id": "specialist-support",
+      "title": "Specialist support",
+      "entries": []
+    },
+    {
+      "id": "veterans",
+      "title": "Veterans support",
+      "entries": []
+    },
+    {
       "id": "pets",
-      "title": "10. Hilfe mit Tieren",
-      "items": [
+      "title": "Hilfe mit Tieren",
+      "entries": [
         {
-          "type": "resource",
           "id": "notubernachtung-mit-tier-suchen",
-          "name": "Notübernachtung mit Tier suchen",
+          "title": "Notübernachtung mit Tier suchen",
+          "description": "Nur ein Teil der Notübernachtungen nimmt Tiere auf. Öffnen Sie die aktuelle Kältehilfe-Liste und prüfen Sie den Hinweis „Haustierfreundlich“; rufen Sie trotzdem vor Anfahrt an.\nNennen Sie Tierart, Anzahl, Größe, Leine oder Transportbox und ob das Tier medizinische Hilfe braucht. Trennen Sie sich nicht aufgrund einer unbestätigten Auskunft von Ihrem Tier.\nKältehilfe-Angebote mit Bedingungen",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Nur ein Teil der Notübernachtungen nimmt Tiere auf. Öffnen Sie die aktuelle Kältehilfe-Liste und prüfen Sie den Hinweis „Haustierfreundlich“; rufen Sie trotzdem vor Anfahrt an."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Nennen Sie Tierart, Anzahl, Größe, Leine oder Transportbox und ob das Tier medizinische Hilfe braucht. Trennen Sie sich nicht aufgrund einer unbestätigten Auskunft von Ihrem Tier."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Kältehilfe-Angebote mit Bedingungen",
-                  "href": "https://kaeltehilfe-berlin.de/angebote-start"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://kaeltehilfe-berlin.de/angebote-start",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "berliner-tiertafel",
-          "name": "Berliner Tiertafel",
+          "title": "Berliner Tiertafel",
+          "description": "Telefon, SMS oder WhatsApp: 0157 7366 1285. Futter und Zubehör für Tierhaltende in finanzieller Not; Nachweise und Aufnahmebedingungen gelten.\nBringen Sie zum Erstgespräch vorhandenen Leistungsbescheid, Ausweis und Tierunterlagen mit. Ausgabeort und Termine ändern sich; immer die aktuelle Terminseite prüfen.\nHilfe der Berliner Tiertafel",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefon, SMS oder WhatsApp:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "0157 7366 1285",
-                  "href": "tel:+4915773661285"
-                },
-                {
-                  "text": ". Futter und Zubehör für Tierhaltende in finanzieller Not; Nachweise und Aufnahmebedingungen gelten."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Bringen Sie zum Erstgespräch vorhandenen Leistungsbescheid, Ausweis und Tierunterlagen mit. Ausgabeort und Termine ändern sich; immer die aktuelle Terminseite prüfen."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Hilfe der Berliner Tiertafel",
-                  "href": "https://tiertafel.org/hilfe-bekommen/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+4915773661285",
+          "website": "https://tiertafel.org/hilfe-bekommen/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "tierarztliche-sprechstunde-fur-bedurftige-und-wohnungslose",
-          "name": "Tierärztliche Sprechstunde für Bedürftige und Wohnungslose",
+          "title": "Tierärztliche Sprechstunde für Bedürftige und Wohnungslose",
+          "description": "Der Verein randf(a)elle Berlin bietet laut Berliner Tiertafel einmal monatlich eine Sprechstunde für bedürftige Tierhaltende und für obdachlose Menschen mit Tieren.\nTermin, Ort, Aufnahmebedingungen und mögliche Kosten vorher über die Tiertafel bestätigen. Bei einem lebensbedrohlichen Tiernotfall nach Kosten fragen; private Notdienste sind häufig gebührenpflichtig.\nTierarztangebot über die Tiertafel",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Der Verein randf(a)elle Berlin bietet laut Berliner Tiertafel einmal monatlich eine Sprechstunde für bedürftige Tierhaltende und für obdachlose Menschen mit Tieren."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Termin, Ort, Aufnahmebedingungen und mögliche Kosten vorher über die Tiertafel bestätigen. Bei einem lebensbedrohlichen Tiernotfall nach Kosten fragen; private Notdienste sind häufig gebührenpflichtig."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Tierarztangebot über die Tiertafel",
-                  "href": "https://tiertafel.org/hilfe-bekommen/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://tiertafel.org/hilfe-bekommen/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "verletztes-oder-gefahrdetes-tier",
-          "name": "Verletztes oder gefährdetes Tier",
+          "title": "Verletztes oder gefährdetes Tier",
+          "description": "Bei akuter Gefahr für Menschen oder im Straßenverkehr 112 oder 110. Für Tierschutzverstöße sind die Veterinärämter der zwölf Bezirke zuständig.\nPrivate Tiernotärzte berechnen Gebühren. Klären Sie Kosten und mögliche Unterstützung, bevor Sie einen Transport beauftragen, sofern kein sofortiger Notfall besteht.\nTierheim Berlin: Kontakte und Notfallhinweise",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Bei akuter Gefahr für Menschen oder im Straßenverkehr 112 oder 110. Für Tierschutzverstöße sind die Veterinärämter der zwölf Bezirke zuständig."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Private Tiernotärzte berechnen Gebühren. Klären Sie Kosten und mögliche Unterstützung, bevor Sie einen Transport beauftragen, sofern kein sofortiger Notfall besteht."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Tierheim Berlin: Kontakte und Notfallhinweise",
-                  "href": "https://tierschutz-berlin.de/kontakt/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://tierschutz-berlin.de/kontakt/",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
+    },
+    {
+      "id": "other",
+      "title": "Other useful resources",
+      "entries": []
     }
   ]
 }

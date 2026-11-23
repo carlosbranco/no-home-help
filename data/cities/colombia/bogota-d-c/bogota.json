@@ -1,6 +1,7 @@
 {
   "$schema": "https://nohomehelp.com/schemas/city.schema.json",
-  "schema_version": 1,
+  "documentation": "https://github.com/carlosbranco/no-home-help/blob/main/EDIT_CITY_JSON.md",
+  "schema_version": 2,
   "status": "published",
   "locale": {
     "language": "es",
@@ -26,2185 +27,615 @@
   "page": {
     "heading": "Bogotá — ayuda ante la habitabilidad en calle",
     "last_verified": "2026-11-10",
-    "urgent": [
-      {
-        "type": "paragraph",
-        "content": [
-          {
-            "text": "Emergencias, Policía y ambulancia:",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "123",
-            "href": "tel:123"
-          },
-          {
-            "break": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "Equipo distrital para habitantes de calle:",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "(601) 320-6594",
-            "href": "tel:+576013206594"
-          },
-          {
-            "break": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "Salud mental:",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "106",
-            "href": "tel:106"
-          },
-          {
-            "break": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "Violencias contra las mujeres:",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "01 8000 112 137",
-            "href": "tel:018000112137"
-          },
-          {
-            "text": "; "
-          },
-          {
-            "text": "niñez:",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "141",
-            "href": "tel:141"
-          }
-        ]
-      }
-    ],
-    "notice": [
-      {
-        "text": "Los cupos, horarios, direcciones y requisitos pueden cambiar.",
-        "strong": true
-      },
-      {
-        "text": " Llama antes de desplazarte siempre que sea posible. Ningún recurso garantiza alojamiento, comida, dinero, tratamiento o trabajo el mismo día. En peligro inmediato llama al 123."
-      }
-    ],
-    "intro": [
-      {
-        "type": "paragraph",
-        "content": [
-          {
-            "text": "Al pedir ayuda indica la ubicación exacta, si tienes dónde dormir esta noche, cuándo comiste por última vez, edad, lesiones o enfermedades, discapacidad, embarazo, niñas o niños, animal de compañía y si conservas documentos. La oferta distrital aplica enfoques diferenciados para mujeres, personas mayores, discapacidad, población LGBTI, carreteros y personas con animales."
-          }
-        ]
-      },
-      {
-        "type": "paragraph",
-        "content": [
-          {
-            "text": "Primer paso recomendado:",
-            "strong": true
-          },
-          {
-            "text": " llama al (601) 320-6594 para activar las duplas de Integración Social o acércate a uno de los centros de autocuidado. Para una emergencia médica o de seguridad usa el 123."
-          }
-        ]
-      }
-    ],
-    "footer": [
-      {
-        "type": "paragraph",
-        "content": [
-          {
-            "text": "¿Encontraste información incorrecta o desactualizada?",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "Propón una corrección",
-            "href": "../../CONTRIBUTING.md"
-          },
-          {
-            "text": ". No publiques datos personales o sensibles."
-          }
-        ]
-      }
-    ]
+    "urgent": "Emergencias, Policía y ambulancia: 123 Equipo distrital para habitantes de calle: (601) 320-6594 Salud mental: 106 Violencias contra las mujeres: 01 8000 112 137; niñez: 141",
+    "notice": "Los cupos, horarios, direcciones y requisitos pueden cambiar. Llama antes de desplazarte siempre que sea posible. Ningún recurso garantiza alojamiento, comida, dinero, tratamiento o trabajo el mismo día. En peligro inmediato llama al 123.",
+    "intro": "Al pedir ayuda indica la ubicación exacta, si tienes dónde dormir esta noche, cuándo comiste por última vez, edad, lesiones o enfermedades, discapacidad, embarazo, niñas o niños, animal de compañía y si conservas documentos. La oferta distrital aplica enfoques diferenciados para mujeres, personas mayores, discapacidad, población LGBTI, carreteros y personas con animales.\nPrimer paso recomendado: llama al (601) 320-6594 para activar las duplas de Integración Social o acércate a uno de los centros de autocuidado. Para una emergencia médica o de seguridad usa el 123.",
+    "footer": "¿Encontraste información incorrecta o desactualizada? Propón una corrección. No publiques datos personales o sensibles. — ../../CONTRIBUTING.md"
   },
   "categories": [
     {
       "id": "emergency",
-      "title": "1. Ayuda urgente",
-      "items": [
+      "title": "Ayuda urgente",
+      "entries": [
         {
-          "type": "resource",
           "id": "linea-de-emergencias-123",
-          "name": "Línea de Emergencias — 123",
+          "title": "Línea de Emergencias — 123",
+          "description": "Teléfono: 123.\nCuándo llamar: agresión, peligro inmediato, incendio, pérdida de conciencia, lesión grave, sobredosis, dificultad para respirar o necesidad urgente de Policía o ambulancia. Da una ubicación precisa.\nBogotá — líneas de atención urgente",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Teléfono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "123",
-                  "href": "tel:123"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Cuándo llamar:",
-                  "strong": true
-                },
-                {
-                  "text": " agresión, peligro inmediato, incendio, pérdida de conciencia, lesión grave, sobredosis, dificultad para respirar o necesidad urgente de Policía o ambulancia. Da una ubicación precisa."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Bogotá — líneas de atención urgente",
-                  "href": "https://bogota.gov.co/mi-ciudad/seguridad/como-solicitar-patrulla-purpura-y-comunicarse-las-lineas-de-atencion"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "123",
+          "website": "https://bogota.gov.co/mi-ciudad/seguridad/como-solicitar-patrulla-purpura-y-comunicarse-las-lineas-de-atencion",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "linea-para-habitantes-de-calle",
-          "name": "Línea para habitantes de calle",
+          "title": "Línea para habitantes de calle",
+          "description": "Teléfono: (601) 320-6594.\nServicio: activa equipos territoriales y duplas de Integración Social para acercar voluntariamente la oferta de autocuidado, alojamiento, salud y proceso de inclusión. Describe ubicación y necesidades.\nIntegración Social — canal de atención 2026",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Teléfono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(601) 320-6594",
-                  "href": "tel:+576013206594"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Servicio:",
-                  "strong": true
-                },
-                {
-                  "text": " activa equipos territoriales y duplas de Integración Social para acercar voluntariamente la oferta de autocuidado, alojamiento, salud y proceso de inclusión. Describe ubicación y necesidades."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Integración Social — canal de atención 2026",
-                  "href": "https://www.integracionsocial.gov.co/index.php/component/content/article?id=7833%3Abogota-refuerza-presencia-institucional-para-atender-a-habitantes-de-calle-en-transmilenio"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+576013206594",
+          "website": "https://www.integracionsocial.gov.co/index.php/component/content/article?id=7833%3Abogota-refuerza-presencia-institucional-para-atender-a-habitantes-de-calle-en-transmilenio",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "linea-106-salud-mental",
-          "name": "Línea 106 — salud mental",
+          "title": "Línea 106 — salud mental",
+          "description": "Teléfono: 106.\nServicio: escucha, orientación y activación de rutas de salud mental en Bogotá. Si hay pérdida de conciencia, violencia o riesgo físico inmediato, llama al 123.\nDirectorio oficial de líneas distritales",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Teléfono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "106",
-                  "href": "tel:106"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Servicio:",
-                  "strong": true
-                },
-                {
-                  "text": " escucha, orientación y activación de rutas de salud mental en Bogotá. Si hay pérdida de conciencia, violencia o riesgo físico inmediato, llama al 123."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Directorio oficial de líneas distritales",
-                  "href": "https://bogota.gov.co/mi-ciudad/seguridad/como-solicitar-patrulla-purpura-y-comunicarse-las-lineas-de-atencion"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "106",
+          "website": "https://bogota.gov.co/mi-ciudad/seguridad/como-solicitar-patrulla-purpura-y-comunicarse-las-lineas-de-atencion",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "proteccion-de-ninas-ninos-y-adolescentes-141",
-          "name": "Protección de niñas, niños y adolescentes — 141",
+          "title": "Protección de niñas, niños y adolescentes — 141",
+          "description": "Teléfono: 141, ICBF.\nCuándo llamar: menor solo, viviendo en calle, sin alimento, expuesto a explotación, maltrato o abandono. Ante peligro inmediato llama también al 123.\nDirectorio distrital de protección",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Teléfono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "141",
-                  "href": "tel:141"
-                },
-                {
-                  "text": ", ICBF."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Cuándo llamar:",
-                  "strong": true
-                },
-                {
-                  "text": " menor solo, viviendo en calle, sin alimento, expuesto a explotación, maltrato o abandono. Ante peligro inmediato llama también al 123."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Directorio distrital de protección",
-                  "href": "https://bogota.gov.co/sites/default/files/inline-files/protocolo_atencion_diversidad2.pdf"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "141",
+          "website": "https://bogota.gov.co/sites/default/files/inline-files/protocolo_atencion_diversidad2.pdf",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
       "id": "shelter",
-      "title": "2. Alojamiento y centros de acogida",
-      "items": [
+      "title": "Alojamiento y centros de acogida",
+      "entries": [
         {
-          "type": "resource",
           "id": "red-distrital-para-habitantes-de-calle",
-          "name": "Red distrital para habitantes de calle",
+          "title": "Red distrital para habitantes de calle",
+          "description": "Orientación: (601) 320-6594.\nServicio: en 2026 Bogotá informó 23 centros especializados con gestión de caso, reducción de daños, inclusión social y recuperación de capacidades. El ingreso depende de perfil, voluntad, valoración y cupo.\nEstrategia distrital de inclusión 2026",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Orientación:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(601) 320-6594",
-                  "href": "tel:+576013206594"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Servicio:",
-                  "strong": true
-                },
-                {
-                  "text": " en 2026 Bogotá informó 23 centros especializados con gestión de caso, reducción de daños, inclusión social y recuperación de capacidades. El ingreso depende de perfil, voluntad, valoración y cupo."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Estrategia distrital de inclusión 2026",
-                  "href": "https://bogota.gov.co/mi-ciudad/integracion-social/bogota-y-el-trabajo-de-inclusion-hacia-los-habitantes-de-calle"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+576013206594",
+          "website": "https://bogota.gov.co/mi-ciudad/integracion-social/bogota-y-el-trabajo-de-inclusion-hacia-los-habitantes-de-calle",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "hogar-de-paso-bakata-dia-y-noche",
-          "name": "Hogar de paso Bakatá — día y noche",
+          "title": "Hogar de paso Bakatá — día y noche",
+          "description": "Servicio: alojamiento, higiene, cuidado menstrual, cinco tiempos de alimentación y atención las 24 horas. Confirma acceso y cupo en la línea para habitantes de calle.\nDirectorio oficial de unidades operativas",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Dirección:",
-                  "strong": true
-                },
-                {
-                  "text": " calle 10 # 17-15"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Servicio:",
-                  "strong": true
-                },
-                {
-                  "text": " alojamiento, higiene, cuidado menstrual, cinco tiempos de alimentación y atención las 24 horas. Confirma acceso y cupo en la línea para habitantes de calle."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Directorio oficial de unidades operativas",
-                  "href": "https://bogota.gov.co/mi-ciudad/integracion-social/como-atiende-el-distrito-los-habitantes-de-calle-fotografia"
-                }
-              ]
-            }
-          ]
+          "address": "Dirección: calle 10 # 17-15",
+          "phone": "",
+          "website": "https://bogota.gov.co/mi-ciudad/integracion-social/como-atiende-el-distrito-los-habitantes-de-calle-fotografia",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "hogar-de-paso-los-martires",
-          "name": "Hogar de paso Los Mártires",
+          "title": "Hogar de paso Los Mártires",
+          "description": "Servicio: hogar de día y noche con alojamiento, elementos de aseo, cuidado menstrual y cinco tiempos de alimentación. La atención publicada es 24/7; confirma cupo.\nBogotá — hogares de paso",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Dirección:",
-                  "strong": true
-                },
-                {
-                  "text": " carrera 18B # 23A-41"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Servicio:",
-                  "strong": true
-                },
-                {
-                  "text": " hogar de día y noche con alojamiento, elementos de aseo, cuidado menstrual y cinco tiempos de alimentación. La atención publicada es 24/7; confirma cupo."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Bogotá — hogares de paso",
-                  "href": "https://bogota.gov.co/mi-ciudad/integracion-social/como-atiende-el-distrito-los-habitantes-de-calle-fotografia"
-                }
-              ]
-            }
-          ]
+          "address": "Dirección: carrera 18B # 23A-41",
+          "phone": "",
+          "website": "https://bogota.gov.co/mi-ciudad/integracion-social/como-atiende-el-distrito-los-habitantes-de-calle-fotografia",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "hogar-de-paso-la-sabana",
-          "name": "Hogar de paso La Sabana",
+          "title": "Hogar de paso La Sabana",
+          "description": "Servicio: alojamiento, autocuidado, cinco tiempos de comida y atención día y noche. Acércate voluntariamente o solicita orientación territorial; la disponibilidad cambia.\nFuente oficial de servicios",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Dirección:",
-                  "strong": true
-                },
-                {
-                  "text": " calle 18 # 14-56"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Servicio:",
-                  "strong": true
-                },
-                {
-                  "text": " alojamiento, autocuidado, cinco tiempos de comida y atención día y noche. Acércate voluntariamente o solicita orientación territorial; la disponibilidad cambia."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Fuente oficial de servicios",
-                  "href": "https://bogota.gov.co/mi-ciudad/integracion-social/como-atiende-el-distrito-los-habitantes-de-calle-fotografia"
-                }
-              ]
-            }
-          ]
+          "address": "Dirección: calle 18 # 14-56",
+          "phone": "",
+          "website": "https://bogota.gov.co/mi-ciudad/integracion-social/como-atiende-el-distrito-los-habitantes-de-calle-fotografia",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "centro-de-inclusion-liberia",
-          "name": "Centro de Inclusión Liberia",
+          "title": "Centro de Inclusión Liberia",
+          "description": "Servicio: centro inaugurado en mayo de 2026 para procesos de inclusión social, participación y construcción de proyecto de vida. Pregunta a Integración Social por admisión y actividades vigentes.\nIntegración Social — apertura de Liberia",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Dirección:",
-                  "strong": true
-                },
-                {
-                  "text": " carrera 16 # 10-28"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Servicio:",
-                  "strong": true
-                },
-                {
-                  "text": " centro inaugurado en mayo de 2026 para procesos de inclusión social, participación y construcción de proyecto de vida. Pregunta a Integración Social por admisión y actividades vigentes."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Integración Social — apertura de Liberia",
-                  "href": "https://www.integracionsocial.gov.co/index.php/noticias/116-otras-noticias/7891-bogota-inaugura-el-centro-de-inclusion-liberia-para-ciudadanos-habitantes-de-calle"
-                }
-              ]
-            }
-          ]
+          "address": "Dirección: carrera 16 # 10-28",
+          "phone": "",
+          "website": "https://www.integracionsocial.gov.co/index.php/noticias/116-otras-noticias/7891-bogota-inaugura-el-centro-de-inclusion-liberia-para-ciudadanos-habitantes-de-calle",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "centro-para-mujeres-habitantes-de-calle",
-          "name": "Centro para mujeres habitantes de calle",
+          "title": "Centro para mujeres habitantes de calle",
+          "description": "Servicio: alojamiento 24/7, cinco comidas, higiene, vestuario, cuidado menstrual y proceso de desarrollo personal, con énfasis en prevención de violencias y discriminación.\nDirectorio distrital — atención a mujeres",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Dirección:",
-                  "strong": true
-                },
-                {
-                  "text": " calle 8A Sur # 5-25"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Servicio:",
-                  "strong": true
-                },
-                {
-                  "text": " alojamiento 24/7, cinco comidas, higiene, vestuario, cuidado menstrual y proceso de desarrollo personal, con énfasis en prevención de violencias y discriminación."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Directorio distrital — atención a mujeres",
-                  "href": "https://bogota.gov.co/mi-ciudad/integracion-social/como-atiende-el-distrito-los-habitantes-de-calle-fotografia"
-                }
-              ]
-            }
-          ]
+          "address": "Dirección: calle 8A Sur # 5-25",
+          "phone": "",
+          "website": "https://bogota.gov.co/mi-ciudad/integracion-social/como-atiende-el-distrito-los-habitantes-de-calle-fotografia",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "centro-sociosanitario-balcanes",
-          "name": "Centro Sociosanitario Balcanes",
+          "title": "Centro Sociosanitario Balcanes",
+          "description": "Quiénes: habitantes de calle con comorbilidades que requieren atención antes o después de hospitalización. Ofrece alojamiento, alimentación, higiene y articulación con salud; requiere valoración.\nServicio sociosanitario oficial",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Dirección:",
-                  "strong": true
-                },
-                {
-                  "text": " calle 11 Sur # 1B-10 Este"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Quiénes:",
-                  "strong": true
-                },
-                {
-                  "text": " habitantes de calle con comorbilidades que requieren atención antes o después de hospitalización. Ofrece alojamiento, alimentación, higiene y articulación con salud; requiere valoración."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Servicio sociosanitario oficial",
-                  "href": "https://bogota.gov.co/mi-ciudad/integracion-social/como-atiende-el-distrito-los-habitantes-de-calle-fotografia"
-                }
-              ]
-            }
-          ]
+          "address": "Dirección: calle 11 Sur # 1B-10 Este",
+          "phone": "",
+          "website": "https://bogota.gov.co/mi-ciudad/integracion-social/como-atiende-el-distrito-los-habitantes-de-calle-fotografia",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "comunidad-de-vida-el-camino",
-          "name": "Comunidad de Vida El Camino",
+          "title": "Comunidad de Vida El Camino",
+          "description": "Servicio: proceso para superar la vida en calle, fortalecer redes, recibir alojamiento, vestuario, higiene, cinco comidas y acompañamiento psicosocial 24/7. El ingreso no es una cama de emergencia automática.\nComunidades de vida",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Dirección:",
-                  "strong": true
-                },
-                {
-                  "text": " carrera 69 # 47-87"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Servicio:",
-                  "strong": true
-                },
-                {
-                  "text": " proceso para superar la vida en calle, fortalecer redes, recibir alojamiento, vestuario, higiene, cinco comidas y acompañamiento psicosocial 24/7. El ingreso no es una cama de emergencia automática."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Comunidades de vida",
-                  "href": "https://bogota.gov.co/mi-ciudad/integracion-social/como-atiende-el-distrito-los-habitantes-de-calle-fotografia"
-                }
-              ]
-            }
-          ]
+          "address": "Dirección: carrera 69 # 47-87",
+          "phone": "",
+          "website": "https://bogota.gov.co/mi-ciudad/integracion-social/como-atiende-el-distrito-los-habitantes-de-calle-fotografia",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "nuevos-centros-de-acogida-2026",
-          "name": "Nuevos Centros de Acogida 2026",
+          "title": "Nuevos Centros de Acogida 2026",
+          "description": "Localidades anunciadas: Santa Fe, Kennedy, Suba, San Cristóbal y Tunjuelito.\nAnuncio oficial de los cinco centros",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Localidades anunciadas:",
-                  "strong": true
-                },
-                {
-                  "text": " Santa Fe, Kennedy, Suba, San Cristóbal y Tunjuelito."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Acceso:",
-                  "strong": true
-                },
-                {
-                  "text": " como fueron anunciados en octubre de 2026, confirma qué sedes ya están operativas, dirección y cupo en la línea (601) 320-6594 antes de desplazarte."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Anuncio oficial de los cinco centros",
-                  "href": "https://bogota.gov.co/mi-ciudad/integracion-social/bogota-tendra-5-nuevos-centros-de-acogipara-habitantes-de-calle-2026"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://bogota.gov.co/mi-ciudad/integracion-social/bogota-tendra-5-nuevos-centros-de-acogipara-habitantes-de-calle-2026",
+          "hours": "",
+          "how_to_access": "Acceso: como fueron anunciados en octubre de 2026, confirma qué sedes ya están operativas, dirección y cupo en la línea (601) 320-6594 antes de desplazarte."
         }
       ]
     },
     {
       "id": "food",
-      "title": "3. Alimentación, duchas y autocuidado",
-      "items": [
+      "title": "Alimentación, duchas y autocuidado",
+      "entries": [
         {
-          "type": "resource",
           "id": "autocuidado-voto-nacional",
-          "name": "Autocuidado Voto Nacional",
+          "title": "Autocuidado Voto Nacional",
+          "description": "Horario publicado: lunes a domingo, 7:00 a. m.–3:00 p. m.\nServicio: desayuno y almuerzo calientes, duchas, higiene, kits de aseo, actividades y activación de rutas de salud y derechos. La atención es voluntaria y diurna.\nBogotá — Voto Nacional",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Dirección:",
-                  "strong": true
-                },
-                {
-                  "text": " calle 12 # 16-73, Los Mártires"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Horario publicado:",
-                  "strong": true
-                },
-                {
-                  "text": " lunes a domingo, 7:00 a. m.–3:00 p. m."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Servicio:",
-                  "strong": true
-                },
-                {
-                  "text": " desayuno y almuerzo calientes, duchas, higiene, kits de aseo, actividades y activación de rutas de salud y derechos. La atención es voluntaria y diurna."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Bogotá — Voto Nacional",
-                  "href": "https://bogota.gov.co/mi-ciudad/integracion-social/ampliacion-comedor-voto-nacional-beneficia-habitantes-de-calle"
-                }
-              ]
-            }
-          ]
+          "address": "Dirección: calle 12 # 16-73, Los Mártires",
+          "phone": "",
+          "website": "https://bogota.gov.co/mi-ciudad/integracion-social/ampliacion-comedor-voto-nacional-beneficia-habitantes-de-calle",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "centro-de-autocuidado-puente-aranda",
-          "name": "Centro de Autocuidado Puente Aranda",
+          "title": "Centro de Autocuidado Puente Aranda",
+          "description": "Servicio: cuidado personal, escucha profesional, elementos de aseo, refrigerio y cuidado menstrual, en atención diurna. Confirma horario actual con Integración Social.\nDirectorio de centros de autocuidado",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Dirección:",
-                  "strong": true
-                },
-                {
-                  "text": " carrera 35 # 10-35"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Servicio:",
-                  "strong": true
-                },
-                {
-                  "text": " cuidado personal, escucha profesional, elementos de aseo, refrigerio y cuidado menstrual, en atención diurna. Confirma horario actual con Integración Social."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Directorio de centros de autocuidado",
-                  "href": "https://bogota.gov.co/mi-ciudad/integracion-social/como-atiende-el-distrito-los-habitantes-de-calle-fotografia"
-                }
-              ]
-            }
-          ]
+          "address": "Dirección: carrera 35 # 10-35",
+          "phone": "",
+          "website": "https://bogota.gov.co/mi-ciudad/integracion-social/como-atiende-el-distrito-los-habitantes-de-calle-fotografia",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "autocuidado-tercer-milenio",
-          "name": "Autocuidado Tercer Milenio",
+          "title": "Autocuidado Tercer Milenio",
+          "description": "Ubicación: sector Tercer Milenio, junto a San Bernardo; confirma el punto exacto por la línea de habitantes de calle.\nServicio: baño, refrigerio, actividades, cuidado de animales de compañía y atención básica en salud. En 2026 el Distrito informó atención diaria de gran volumen.\nIntegración Social — Tercer Milenio",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ubicación:",
-                  "strong": true
-                },
-                {
-                  "text": " sector Tercer Milenio, junto a San Bernardo; confirma el punto exacto por la línea de habitantes de calle."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Servicio:",
-                  "strong": true
-                },
-                {
-                  "text": " baño, refrigerio, actividades, cuidado de animales de compañía y atención básica en salud. En 2026 el Distrito informó atención diaria de gran volumen."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Integración Social — Tercer Milenio",
-                  "href": "https://www.integracionsocial.gov.co/index.php/noticias/98-noticias-adultez/8072-tercer-milenio-fortalece-su-atencion-como-puerta-de-inclusion-para-habitantes-de-calle"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.integracionsocial.gov.co/index.php/noticias/98-noticias-adultez/8072-tercer-milenio-fortalece-su-atencion-como-puerta-de-inclusion-para-habitantes-de-calle",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "alimentacion-en-hogares-de-paso",
-          "name": "Alimentación en hogares de paso",
+          "title": "Alimentación en hogares de paso",
+          "description": "Centros: Bakatá, Los Mártires y La Sabana.\nServicio: el modelo publicado incluye cinco tiempos de alimentación para participantes, además de alojamiento e higiene. Informa alergias, diabetes u otra dieta médica al ingresar.\nServicios incluidos en hogares de paso",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Centros:",
-                  "strong": true
-                },
-                {
-                  "text": " Bakatá, Los Mártires y La Sabana."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Servicio:",
-                  "strong": true
-                },
-                {
-                  "text": " el modelo publicado incluye cinco tiempos de alimentación para participantes, además de alojamiento e higiene. Informa alergias, diabetes u otra dieta médica al ingresar."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Servicios incluidos en hogares de paso",
-                  "href": "https://bogota.gov.co/mi-ciudad/integracion-social/como-atiende-el-distrito-los-habitantes-de-calle-fotografia"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://bogota.gov.co/mi-ciudad/integracion-social/como-atiende-el-distrito-los-habitantes-de-calle-fotografia",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "parroquia-santo-tomas-apoyo-alimentario",
-          "name": "Parroquia Santo Tomás — apoyo alimentario",
+          "title": "Parroquia Santo Tomás — apoyo alimentario",
+          "description": "Servicio: el Apostolado para Habitantes de Calle de la Arquidiócesis coordina donación y entrega de alimentos. Contacta primero a la parroquia o a la red «Amigos de Calle» para confirmar jornada y punto.\nArquidiócesis de Bogotá — apostolado",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Servicio:",
-                  "strong": true
-                },
-                {
-                  "text": " el Apostolado para Habitantes de Calle de la Arquidiócesis coordina donación y entrega de alimentos. Contacta primero a la parroquia o a la red «Amigos de Calle» para confirmar jornada y punto."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Arquidiócesis de Bogotá — apostolado",
-                  "href": "https://centroaffd.arquibogota.org.co/centro-de-informacion/noticias/apostolado-habitantes-de-calle"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://centroaffd.arquibogota.org.co/centro-de-informacion/noticias/apostolado-habitantes-de-calle",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
       "id": "community",
-      "title": "4. Organizaciones e iglesias",
-      "items": [
+      "title": "Organizaciones e iglesias",
+      "entries": [
         {
-          "type": "resource",
           "id": "red-eclesial-amigos-de-calle",
-          "name": "Red Eclesial Amigos de Calle",
+          "title": "Red Eclesial Amigos de Calle",
+          "description": "Servicio: red de la Arquidiócesis que articula acompañamiento pastoral y comunitario a personas en calle. Consulta el punto parroquial, jornada de alimentación y ayuda disponible antes de ir.\nCELAM — Amigos de Calle 2026",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Servicio:",
-                  "strong": true
-                },
-                {
-                  "text": " red de la Arquidiócesis que articula acompañamiento pastoral y comunitario a personas en calle. Consulta el punto parroquial, jornada de alimentación y ayuda disponible antes de ir."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "CELAM — Amigos de Calle 2026",
-                  "href": "https://adn.celam.org/blog/portada-50/amigos-de-calle-iglesia-en-bogota-transforma-la-ayuda-en-acompanamiento-dignidad-y-nuevas-oportunidades-9710"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://adn.celam.org/blog/portada-50/amigos-de-calle-iglesia-en-bogota-transforma-la-ayuda-en-acompanamiento-dignidad-y-nuevas-oportunidades-9710",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "fundacion-un-mismo-corazon",
-          "name": "Fundación Un Mismo Corazón",
+          "title": "Fundación Un Mismo Corazón",
+          "description": "Servicio: voluntariado que entrega comida y prendas de vestir a personas desplazadas, vulnerables y habitantes de calle en Bogotá. Revisa el calendario de jornada; no funciona como refugio permanente.\nFundación Un Mismo Corazón",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Servicio:",
-                  "strong": true
-                },
-                {
-                  "text": " voluntariado que entrega comida y prendas de vestir a personas desplazadas, vulnerables y habitantes de calle en Bogotá. Revisa el calendario de jornada; no funciona como refugio permanente."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Fundación Un Mismo Corazón",
-                  "href": "https://www.funcorazon.org/un-dia-para-repartir/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.funcorazon.org/un-dia-para-repartir/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "fundacion-arquidiocesana-para-la-atencion-al-migrante",
-          "name": "Fundación Arquidiocesana para la Atención al Migrante",
+          "title": "Fundación Arquidiocesana para la Atención al Migrante",
+          "description": "Servicio: acogida, ayuda humanitaria y acompañamiento espiritual y emocional a personas migrantes vulnerables. La red arquidiocesana menciona un punto junto a la parroquia que sirve a población Emberá y migrante; confirma ubicación y horario.\nArquidiócesis — atención comunitaria y migrante",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Servicio:",
-                  "strong": true
-                },
-                {
-                  "text": " acogida, ayuda humanitaria y acompañamiento espiritual y emocional a personas migrantes vulnerables. La red arquidiocesana menciona un punto junto a la parroquia que sirve a población Emberá y migrante; confirma ubicación y horario."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Arquidiócesis — atención comunitaria y migrante",
-                  "href": "https://arquibogota.org.co/sites/default/files/2025-04/35_fraternidad_cont_web_0.pdf"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://arquibogota.org.co/sites/default/files/2025-04/35_fraternidad_cont_web_0.pdf",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "equipos-territoriales-de-integracion-social",
-          "name": "Equipos territoriales de Integración Social",
+          "title": "Equipos territoriales de Integración Social",
+          "description": "Contacto: (601) 320-6594.\nServicio: abordaje en calle, escucha, reducción de riesgos y conexión con centros adecuados. La aceptación de servicios es voluntaria salvo una emergencia legal o médica.\nCómo funciona el abordaje distrital",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Contacto:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(601) 320-6594",
-                  "href": "tel:+576013206594"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Servicio:",
-                  "strong": true
-                },
-                {
-                  "text": " abordaje en calle, escucha, reducción de riesgos y conexión con centros adecuados. La aceptación de servicios es voluntaria salvo una emergencia legal o médica."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Cómo funciona el abordaje distrital",
-                  "href": "https://bogota.gov.co/mi-ciudad/integracion-social/como-atiende-el-distrito-los-habitantes-de-calle-fotografia"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+576013206594",
+          "website": "https://bogota.gov.co/mi-ciudad/integracion-social/como-atiende-el-distrito-los-habitantes-de-calle-fotografia",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
+    },
+    {
+      "id": "hygiene",
+      "title": "Showers, laundry and hygiene",
+      "entries": []
+    },
+    {
+      "id": "clothing",
+      "title": "Clothing",
+      "entries": []
     },
     {
       "id": "health",
-      "title": "5. Salud y consumos problemáticos",
-      "items": [
+      "title": "Salud y consumos problemáticos",
+      "entries": [
         {
-          "type": "resource",
           "id": "emergencia-medica-123",
-          "name": "Emergencia médica — 123",
+          "title": "Emergencia médica — 123",
+          "description": "Teléfono: 123.\nUso: lesión grave, pérdida de conciencia, sobredosis, dificultad respiratoria, sangrado o riesgo vital. No retrases la llamada por falta de cédula o afiliación.\nLíneas de emergencia de Bogotá",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Teléfono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "123",
-                  "href": "tel:123"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Uso:",
-                  "strong": true
-                },
-                {
-                  "text": " lesión grave, pérdida de conciencia, sobredosis, dificultad respiratoria, sangrado o riesgo vital. No retrases la llamada por falta de cédula o afiliación."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Líneas de emergencia de Bogotá",
-                  "href": "https://bogota.gov.co/mi-ciudad/seguridad/como-solicitar-patrulla-purpura-y-comunicarse-las-lineas-de-atencion"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "123",
+          "website": "https://bogota.gov.co/mi-ciudad/seguridad/como-solicitar-patrulla-purpura-y-comunicarse-las-lineas-de-atencion",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "red-publica-de-salud-para-habitantes-de-calle",
-          "name": "Red pública de salud para habitantes de calle",
+          "title": "Red pública de salud para habitantes de calle",
+          "description": "Servicio: la Secretaría de Salud indica que los hospitales públicos prestan a habitantes de calle los servicios disponibles para la población, y que existen equipos territoriales para canalización.\nOrientación: pide al centro de autocuidado que active la ruta o llama a Salud para Todos.\nSecretaría Distrital de Salud — habitante de calle",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Servicio:",
-                  "strong": true
-                },
-                {
-                  "text": " la Secretaría de Salud indica que los hospitales públicos prestan a habitantes de calle los servicios disponibles para la población, y que existen equipos territoriales para canalización."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Orientación:",
-                  "strong": true
-                },
-                {
-                  "text": " pide al centro de autocuidado que active la ruta o llama a Salud para Todos."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Secretaría Distrital de Salud — habitante de calle",
-                  "href": "https://www.saludcapital.gov.co/DSP/paginas/habitante_calle.aspx"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.saludcapital.gov.co/DSP/paginas/habitante_calle.aspx",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "salud-para-todos-afiliacion-subsidiada",
-          "name": "Salud para Todos — afiliación subsidiada",
+          "title": "Salud para Todos — afiliación subsidiada",
+          "description": "Teléfono: (601) 364-9666.\nServicio: orientación sobre afiliación al régimen subsidiado. La Secretaría identifica a los habitantes de calle como grupo especial que puede acceder; pregunta el procedimiento cuando no tienes dirección o cédula.\nRégimen subsidiado de salud",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Teléfono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(601) 364-9666",
-                  "href": "tel:+576013649666"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Servicio:",
-                  "strong": true
-                },
-                {
-                  "text": " orientación sobre afiliación al régimen subsidiado. La Secretaría identifica a los habitantes de calle como grupo especial que puede acceder; pregunta el procedimiento cuando no tienes dirección o cédula."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Régimen subsidiado de salud",
-                  "href": "https://www.saludcapital.gov.co/DASEG/Paginas/RegimenSubsidiado.aspx"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+576013649666",
+          "website": "https://www.saludcapital.gov.co/DASEG/Paginas/RegimenSubsidiado.aspx",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "atencion-basica-en-centros-de-autocuidado",
-          "name": "Atención básica en centros de autocuidado",
+          "title": "Atención básica en centros de autocuidado",
+          "description": "Tercer Milenio: atención básica en salud además de baño, refrigerio y cuidado de animales. Balcanes: seguimiento sociosanitario pre y poshospitalario para comorbilidades.\nServicios de Tercer Milenio",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Tercer Milenio:",
-                  "strong": true
-                },
-                {
-                  "text": " atención básica en salud además de baño, refrigerio y cuidado de animales. "
-                },
-                {
-                  "text": "Balcanes:",
-                  "strong": true
-                },
-                {
-                  "text": " seguimiento sociosanitario pre y poshospitalario para comorbilidades."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Acceso:",
-                  "strong": true
-                },
-                {
-                  "text": " solicita valoración al (601) 320-6594; ante urgencia usa 123."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Servicios de Tercer Milenio",
-                  "href": "https://www.integracionsocial.gov.co/index.php/noticias/98-noticias-adultez/8072-tercer-milenio-fortalece-su-atencion-como-puerta-de-inclusion-para-habitantes-de-calle"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.integracionsocial.gov.co/index.php/noticias/98-noticias-adultez/8072-tercer-milenio-fortalece-su-atencion-como-puerta-de-inclusion-para-habitantes-de-calle",
+          "hours": "",
+          "how_to_access": "Acceso: solicita valoración al (601) 320-6594; ante urgencia usa 123."
         },
         {
-          "type": "resource",
           "id": "apoyo-por-consumo-de-sustancias",
-          "name": "Apoyo por consumo de sustancias",
+          "title": "Apoyo por consumo de sustancias",
+          "description": "Orientación: línea 106 para salud mental o (601) 320-6594 para la ruta social.\nServicio: la red distrital incluye reducción de daños, atención social, salud y comunidades de vida. Pregunta por una valoración voluntaria y el dispositivo adecuado; no todos son de ingreso inmediato.\nModelo de atención e inclusión",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Orientación:",
-                  "strong": true
-                },
-                {
-                  "text": " línea 106 para salud mental o (601) 320-6594 para la ruta social."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Servicio:",
-                  "strong": true
-                },
-                {
-                  "text": " la red distrital incluye reducción de daños, atención social, salud y comunidades de vida. Pregunta por una valoración voluntaria y el dispositivo adecuado; no todos son de ingreso inmediato."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Modelo de atención e inclusión",
-                  "href": "https://bogota.gov.co/mi-ciudad/integracion-social/bogota-y-el-trabajo-de-inclusion-hacia-los-habitantes-de-calle"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://bogota.gov.co/mi-ciudad/integracion-social/bogota-y-el-trabajo-de-inclusion-hacia-los-habitantes-de-calle",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
-      "id": "government",
-      "title": "6. Ayuda pública y transporte",
-      "items": [
+      "id": "mental-health",
+      "title": "Mental health and addiction",
+      "entries": []
+    },
+    {
+      "id": "public-facilities",
+      "title": "Public toilets and day facilities",
+      "entries": []
+    },
+    {
+      "id": "phone-internet",
+      "title": "Phone charging and internet",
+      "entries": []
+    },
+    {
+      "id": "transport",
+      "title": "Transport",
+      "entries": []
+    },
+    {
+      "id": "benefits",
+      "title": "Ayuda pública y transporte",
+      "entries": [
         {
-          "type": "resource",
           "id": "secretaria-distrital-de-integracion-social",
-          "name": "Secretaría Distrital de Integración Social",
+          "title": "Secretaría Distrital de Integración Social",
+          "description": "Habitantes de calle: (601) 320-6594; información distrital: 195.\nServicio: autocuidado, hogares de paso, salud, centros diferenciales, mujeres, comunidades de vida e inclusión. Explica tu perfil para evitar una derivación inadecuada.\nOferta distrital 2026",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Habitantes de calle:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(601) 320-6594",
-                  "href": "tel:+576013206594"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "información distrital:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "195",
-                  "href": "tel:195"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Servicio:",
-                  "strong": true
-                },
-                {
-                  "text": " autocuidado, hogares de paso, salud, centros diferenciales, mujeres, comunidades de vida e inclusión. Explica tu perfil para evitar una derivación inadecuada."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Oferta distrital 2026",
-                  "href": "https://bogota.gov.co/mi-ciudad/integracion-social/bogota-y-el-trabajo-de-inclusion-hacia-los-habitantes-de-calle"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+576013206594",
+          "website": "https://bogota.gov.co/mi-ciudad/integracion-social/bogota-y-el-trabajo-de-inclusion-hacia-los-habitantes-de-calle",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "linea-195-informacion-de-bogota",
-          "name": "Línea 195 — información de Bogotá",
+          "title": "Línea 195 — información de Bogotá",
+          "description": "Teléfono: 195.\nServicio: información sobre servicios, oficinas y trámites distritales. Para intervención específica de habitabilidad en calle usa directamente (601) 320-6594.\nContacto distrital oficial",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Teléfono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "195",
-                  "href": "tel:195"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Servicio:",
-                  "strong": true
-                },
-                {
-                  "text": " información sobre servicios, oficinas y trámites distritales. Para intervención específica de habitabilidad en calle usa directamente (601) 320-6594."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Contacto distrital oficial",
-                  "href": "https://bogota.gov.co/servicios/oportunidades-y-apoyos/con-la-agencia-distrital-de-empleo-conectate-con-nuevos-talentos-para-tu-empresa"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "195",
+          "website": "https://bogota.gov.co/servicios/oportunidades-y-apoyos/con-la-agencia-distrital-de-empleo-conectate-con-nuevos-talentos-para-tu-empresa",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "pasajes-gratis-para-participantes-de-hospedaje-social",
-          "name": "Pasajes gratis para participantes de Hospedaje Social",
+          "title": "Pasajes gratis para participantes de Hospedaje Social",
+          "description": "Beneficio: desde febrero de 2026, exhabitantes de calle vinculados a Hospedaje Social pueden recibir 22 pasajes mensuales en tarjeta TuLlave personalizada, según focalización.\nConsulta: pregunta a tu equipo de Integración Social; no es un beneficio automático para toda persona en calle.\nReglas de Pasajes Gratis 2026",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Beneficio:",
-                  "strong": true
-                },
-                {
-                  "text": " desde febrero de 2026, exhabitantes de calle vinculados a Hospedaje Social pueden recibir 22 pasajes mensuales en tarjeta TuLlave personalizada, según focalización."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Consulta:",
-                  "strong": true
-                },
-                {
-                  "text": " pregunta a tu equipo de Integración Social; no es un beneficio automático para toda persona en calle."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Reglas de Pasajes Gratis 2026",
-                  "href": "https://bogota.gov.co/mi-ciudad/integracion-social/quienes-tienen-beneficio-de-pasajes-gratis-de-transmilenio-en-bogota"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://bogota.gov.co/mi-ciudad/integracion-social/quienes-tienen-beneficio-de-pasajes-gratis-de-transmilenio-en-bogota",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
-      "id": "work",
-      "title": "7. Empleo e inclusión",
-      "items": [
+      "id": "employment",
+      "title": "Empleo e inclusión",
+      "entries": [
         {
-          "type": "resource",
           "id": "agencia-distrital-de-empleo",
-          "name": "Agencia Distrital de Empleo",
+          "title": "Agencia Distrital de Empleo",
+          "description": "Teléfono: (601) 369-3777, extensión 100; línea: 195.\nHorario publicado: lunes a viernes, 8:00 a. m.–4:00 p. m. Ayuda a registrar hoja de vida, orientar el perfil, formar habilidades y conectar con vacantes.\nAgencia Distrital de Empleo",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Dirección:",
-                  "strong": true
-                },
-                {
-                  "text": " carrera 13 # 27-84"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Teléfono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(601) 369-3777",
-                  "href": "tel:+576013693777"
-                },
-                {
-                  "text": ", extensión 100; "
-                },
-                {
-                  "text": "línea:",
-                  "strong": true
-                },
-                {
-                  "text": " 195."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Horario publicado:",
-                  "strong": true
-                },
-                {
-                  "text": " lunes a viernes, 8:00 a. m.–4:00 p. m. Ayuda a registrar hoja de vida, orientar el perfil, formar habilidades y conectar con vacantes."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Agencia Distrital de Empleo",
-                  "href": "https://bogota.gov.co/servicios/oportunidades-y-apoyos/con-la-agencia-distrital-de-empleo-conectate-con-nuevos-talentos-para-tu-empresa"
-                }
-              ]
-            }
-          ]
+          "address": "Dirección: carrera 13 # 27-84",
+          "phone": "+576013693777",
+          "website": "https://bogota.gov.co/servicios/oportunidades-y-apoyos/con-la-agencia-distrital-de-empleo-conectate-con-nuevos-talentos-para-tu-empresa",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "talento-capital",
-          "name": "Talento Capital",
+          "title": "Talento Capital",
+          "description": "Servicio: convocatorias de empleo de la Agencia Distrital, incluyendo algunas vacantes sin nivel educativo específico. Las campañas tienen fechas de cierre; consulta las oportunidades vigentes y no pagues por postularte.\nEjemplo y punto de orientación de Talento Capital 2026",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Servicio:",
-                  "strong": true
-                },
-                {
-                  "text": " convocatorias de empleo de la Agencia Distrital, incluyendo algunas vacantes sin nivel educativo específico. Las campañas tienen fechas de cierre; consulta las oportunidades vigentes y no pagues por postularte."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ejemplo y punto de orientación de Talento Capital 2026",
-                  "href": "https://bogota.gov.co/servicios/oportunidades-y-apoyos/postulate-de-manera-virtual-las-1394-vacantes-que-trae-talento-capital"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://bogota.gov.co/servicios/oportunidades-y-apoyos/postulate-de-manera-virtual-las-1394-vacantes-que-trae-talento-capital",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "inclusion-laboral-desde-la-red-social",
-          "name": "Inclusión laboral desde la red social",
+          "title": "Inclusión laboral desde la red social",
+          "description": "Centros: Liberia, El Camino y otros servicios de inclusión.\nAyuda: recuperación de hábitos, habilidades, documentos, redes y proyecto de vida antes o durante la búsqueda de trabajo. Pide al profesional un plan concreto y derivación a la Agencia de Empleo.\nCentro de Inclusión Liberia",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Centros:",
-                  "strong": true
-                },
-                {
-                  "text": " Liberia, El Camino y otros servicios de inclusión."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ayuda:",
-                  "strong": true
-                },
-                {
-                  "text": " recuperación de hábitos, habilidades, documentos, redes y proyecto de vida antes o durante la búsqueda de trabajo. Pide al profesional un plan concreto y derivación a la Agencia de Empleo."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Centro de Inclusión Liberia",
-                  "href": "https://www.integracionsocial.gov.co/index.php/noticias/116-otras-noticias/7891-bogota-inaugura-el-centro-de-inclusion-liberia-para-ciudadanos-habitantes-de-calle"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "documents",
-      "title": "8. Cédula y documentos",
-      "items": [
-        {
-          "type": "resource",
-          "id": "acompanamiento-desde-integracion-social",
-          "name": "Acompañamiento desde Integración Social",
-          "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Contacto:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(601) 320-6594",
-                  "href": "tel:+576013206594"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ayuda:",
-                  "strong": true
-                },
-                {
-                  "text": " los hogares y procesos de inclusión articulan restablecimiento de derechos y documentación. Lleva cualquier copia, foto, contraseña o dato de registro civil que conserves."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Oferta distrital de atención integral",
-                  "href": "https://bogota.gov.co/mi-ciudad/integracion-social/como-atiende-el-distrito-los-habitantes-de-calle-fotografia"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "jornadas-de-identificacion-para-habitantes-de-calle",
-          "name": "Jornadas de identificación para habitantes de calle",
-          "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Servicio:",
-                  "strong": true
-                },
-                {
-                  "text": " la Registraduría documentó jornadas en SuperCADE dirigidas a habitantes de calle, tanto en hogares de paso como en calle. Pregunta al equipo social o a la línea 195 por la próxima jornada y requisitos."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Registraduría — ruta de identificación",
-                  "href": "https://www.registraduria.gov.co/IMG/pdf/ruta-de-la-identificacion_septiembre-2025.pdf"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "orientacion-en-supercade",
-          "name": "Orientación en SuperCADE",
-          "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Información:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "195",
-                  "href": "tel:195"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Qué preguntar:",
-                  "strong": true
-                },
-                {
-                  "text": " sede de Registraduría activa, duplicado o primera cédula, costo o exención, registro civil y forma de entrega si no tienes domicilio. Confirma antes de desplazarte."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ruta oficial de atención documental",
-                  "href": "https://www.registraduria.gov.co/IMG/pdf/ruta-de-la-identificacion_septiembre-2025.pdf"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.integracionsocial.gov.co/index.php/noticias/116-otras-noticias/7891-bogota-inaugura-el-centro-de-inclusion-liberia-para-ciudadanos-habitantes-de-calle",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
       "id": "legal",
-      "title": "9. Ayuda jurídica",
-      "items": [
+      "title": "Ayuda jurídica",
+      "entries": [
         {
-          "type": "resource",
           "id": "casas-de-justicia-asesoria-gratuita",
-          "name": "Casas de Justicia — asesoría gratuita",
+          "title": "Casas de Justicia — asesoría gratuita",
+          "description": "Teléfono: (601) 377-9595; WhatsApp: 302 362-9201.\nServicio: 16 puntos gratuitos para arriendos, conflictos familiares, hurtos, lesiones, estafas, tutelas, derechos de petición, asuntos laborales, mediación y denuncias.\nCasas de Justicia — servicios 2026",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Teléfono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(601) 377-9595",
-                  "href": "tel:+576013779595"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "WhatsApp:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "302 362-9201",
-                  "href": "tel:+573023629201"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Servicio:",
-                  "strong": true
-                },
-                {
-                  "text": " 16 puntos gratuitos para arriendos, conflictos familiares, hurtos, lesiones, estafas, tutelas, derechos de petición, asuntos laborales, mediación y denuncias."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Casas de Justicia — servicios 2026",
-                  "href": "https://bogota.gov.co/mi-ciudad/seguridad/bogota-ofrece-atencion-juridica-gratis-en-las-casas-de-justicia-2026"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+576013779595",
+          "website": "https://bogota.gov.co/mi-ciudad/seguridad/bogota-ofrece-atencion-juridica-gratis-en-las-casas-de-justicia-2026",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "casa-de-justicia-los-martires",
-          "name": "Casa de Justicia Los Mártires",
+          "title": "Casa de Justicia Los Mártires",
+          "description": "Horario publicado: lunes a viernes, 7:30 a. m.–4:00 p. m.; teléfono: (601) 377-9595.\nServicio: orientación jurídica gratuita cerca del centro. Confirma si necesitas cita o documento y explica si no cuentas con cédula o domicilio.\nDirectorio 2025 de Casas de Justicia",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Dirección:",
-                  "strong": true
-                },
-                {
-                  "text": " carrera 21 # 14-75"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Horario publicado:",
-                  "strong": true
-                },
-                {
-                  "text": " lunes a viernes, 7:30 a. m.–4:00 p. m.; "
-                },
-                {
-                  "text": "teléfono:",
-                  "strong": true
-                },
-                {
-                  "text": " (601) 377-9595."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Servicio:",
-                  "strong": true
-                },
-                {
-                  "text": " orientación jurídica gratuita cerca del centro. Confirma si necesitas cita o documento y explica si no cuentas con cédula o domicilio."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Directorio 2025 de Casas de Justicia",
-                  "href": "https://bogota.gov.co/mi-ciudad/seguridad/conoce-los-servicios-y-ubicacion-de-las-casas-de-justicia-en-bogota"
-                }
-              ]
-            }
-          ]
+          "address": "Dirección: carrera 21 # 14-75",
+          "phone": "",
+          "website": "https://bogota.gov.co/mi-ciudad/seguridad/conoce-los-servicios-y-ubicacion-de-las-casas-de-justicia-en-bogota",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "personeria-de-bogota",
-          "name": "Personería de Bogotá",
+          "title": "Personería de Bogotá",
+          "description": "Sede y teléfono: carrera 7 # 21-24; (601) 382-0450.\nServicio: defensa de derechos humanos, asesoría y elaboración de acciones constitucionales cuando un derecho fundamental está vulnerado o amenazado.\nGuía distrital de derechos fundamentales",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Centro de Atención a la Comunidad:",
-                  "strong": true
-                },
-                {
-                  "text": " calle 16 # 9-15"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Sede y teléfono:",
-                  "strong": true
-                },
-                {
-                  "text": " carrera 7 # 21-24; "
-                },
-                {
-                  "text": "(601) 382-0450",
-                  "href": "tel:+576013820450"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Servicio:",
-                  "strong": true
-                },
-                {
-                  "text": " defensa de derechos humanos, asesoría y elaboración de acciones constitucionales cuando un derecho fundamental está vulnerado o amenazado."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Guía distrital de derechos fundamentales",
-                  "href": "https://bogota.gov.co/sites/default/files/inline-files/abece-derechos-fundamentales_0.pdf"
-                }
-              ]
-            }
-          ]
+          "address": "Centro de Atención a la Comunidad: calle 16 # 9-15",
+          "phone": "+576013820450",
+          "website": "https://bogota.gov.co/sites/default/files/inline-files/abece-derechos-fundamentales_0.pdf",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "ruta-juridica-para-mujeres",
-          "name": "Ruta jurídica para mujeres",
+          "title": "Ruta jurídica para mujeres",
+          "description": "Línea Púrpura: 01 8000 112 137; WhatsApp: 300 755-1846.\nServicio: abogadas, psicólogas, trabajadoras sociales y enfermeras orientan sobre violencia, denuncia, protección y Casas de Justicia. No es línea de emergencia: en peligro inmediato usa 123.\nRuta Mujer en Casas de Justicia",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Línea Púrpura:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "01 8000 112 137",
-                  "href": "tel:018000112137"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "WhatsApp:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "300 755-1846",
-                  "href": "tel:+573007551846"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Servicio:",
-                  "strong": true
-                },
-                {
-                  "text": " abogadas, psicólogas, trabajadoras sociales y enfermeras orientan sobre violencia, denuncia, protección y Casas de Justicia. No es línea de emergencia: en peligro inmediato usa 123."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ruta Mujer en Casas de Justicia",
-                  "href": "https://bogota.gov.co/mi-ciudad/seguridad/te-explicamos-como-funciona-la-ruta-mujer-en-las-casas-de-justicia"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "018000112137",
+          "website": "https://bogota.gov.co/mi-ciudad/seguridad/te-explicamos-como-funciona-la-ruta-mujer-en-las-casas-de-justicia",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
-      "id": "safety",
-      "title": "10. Mujeres, niñez y seguridad",
-      "items": [
+      "id": "documents",
+      "title": "Cédula y documentos",
+      "entries": [
         {
-          "type": "resource",
-          "id": "linea-purpura-distrital",
-          "name": "Línea Púrpura Distrital",
+          "id": "acompanamiento-desde-integracion-social",
+          "title": "Acompañamiento desde Integración Social",
+          "description": "Contacto: (601) 320-6594.\nAyuda: los hogares y procesos de inclusión articulan restablecimiento de derechos y documentación. Lleva cualquier copia, foto, contraseña o dato de registro civil que conserves.\nOferta distrital de atención integral",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Teléfono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "01 8000 112 137",
-                  "href": "tel:018000112137"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "WhatsApp:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "300 755-1846",
-                  "href": "tel:+573007551846"
-                },
-                {
-                  "text": ", las 24 horas."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Servicio:",
-                  "strong": true
-                },
-                {
-                  "text": " apoyo psicosocial, jurídico y de salud para mujeres ante violencias. Si tu vida corre peligro llama al 123."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Canales oficiales de apoyo a mujeres",
-                  "href": "https://bogota.gov.co/mi-ciudad/mujer/lineas-de-atencion-psicosocial-y-juridica-para-mujeres-en-bogota"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+576013206594",
+          "website": "https://bogota.gov.co/mi-ciudad/integracion-social/como-atiende-el-distrito-los-habitantes-de-calle-fotografia",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
-          "id": "casas-refugio",
-          "name": "Casas Refugio",
+          "id": "jornadas-de-identificacion-para-habitantes-de-calle",
+          "title": "Jornadas de identificación para habitantes de calle",
+          "description": "Servicio: la Registraduría documentó jornadas en SuperCADE dirigidas a habitantes de calle, tanto en hogares de paso como en calle. Pregunta al equipo social o a la línea 195 por la próxima jornada y requisitos.\nRegistraduría — ruta de identificación",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Acceso:",
-                  "strong": true
-                },
-                {
-                  "text": " solicita orientación por la Línea Púrpura o una entidad de protección."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Servicio:",
-                  "strong": true
-                },
-                {
-                  "text": " ubicación confidencial, alojamiento y alimentación gratuitos, vestido, transporte y acompañamiento legal, psicosocial, pedagógico y ocupacional para mujeres y su núcleo familiar."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Bogotá — Casas Refugio",
-                  "href": "https://bogota.gov.co/mi-ciudad/mujer/casas-refugio-para-mujeres-en-bogota"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.registraduria.gov.co/IMG/pdf/ruta-de-la-identificacion_septiembre-2025.pdf",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
-          "id": "centro-para-mujeres-habitantes-de-calle",
-          "name": "Centro para mujeres habitantes de calle",
+          "id": "orientacion-en-supercade",
+          "title": "Orientación en SuperCADE",
+          "description": "Información: 195.\nQué preguntar: sede de Registraduría activa, duplicado o primera cédula, costo o exención, registro civil y forma de entrega si no tienes domicilio. Confirma antes de desplazarte.\nRuta oficial de atención documental",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Dirección:",
-                  "strong": true
-                },
-                {
-                  "text": " calle 8A Sur # 5-25"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Servicio:",
-                  "strong": true
-                },
-                {
-                  "text": " alojamiento y proceso integral específico para mujeres en sus diversidades, con atención a violencias, discriminación, autocuidado y proyecto de vida."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Directorio de servicios para mujeres",
-                  "href": "https://bogota.gov.co/mi-ciudad/integracion-social/como-atiende-el-distrito-los-habitantes-de-calle-fotografia"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "icbf-linea-141",
-          "name": "ICBF — Línea 141",
-          "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Teléfono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "141",
-                  "href": "tel:141"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Servicio:",
-                  "strong": true
-                },
-                {
-                  "text": " protección de niñas, niños y adolescentes ante abandono, vida en calle, maltrato o explotación. Da ubicación, edad aproximada y riesgo; ante emergencia llama también al 123."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Directorio de rutas de protección",
-                  "href": "https://bogota.gov.co/sites/default/files/inline-files/protocolo_atencion_diversidad2.pdf"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "195",
+          "website": "https://www.registraduria.gov.co/IMG/pdf/ruta-de-la-identificacion_septiembre-2025.pdf",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
+    },
+    {
+      "id": "mail",
+      "title": "Mailing address",
+      "entries": []
+    },
+    {
+      "id": "storage",
+      "title": "Storage",
+      "entries": []
+    },
+    {
+      "id": "safety",
+      "title": "Mujeres, niñez y seguridad",
+      "entries": [
+        {
+          "id": "linea-purpura-distrital",
+          "title": "Línea Púrpura Distrital",
+          "description": "Teléfono: 01 8000 112 137; WhatsApp: 300 755-1846, las 24 horas.\nServicio: apoyo psicosocial, jurídico y de salud para mujeres ante violencias. Si tu vida corre peligro llama al 123.\nCanales oficiales de apoyo a mujeres",
+          "last_verified": "2026-11-10",
+          "address": "",
+          "phone": "018000112137",
+          "website": "https://bogota.gov.co/mi-ciudad/mujer/lineas-de-atencion-psicosocial-y-juridica-para-mujeres-en-bogota",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "casas-refugio",
+          "title": "Casas Refugio",
+          "description": "Servicio: ubicación confidencial, alojamiento y alimentación gratuitos, vestido, transporte y acompañamiento legal, psicosocial, pedagógico y ocupacional para mujeres y su núcleo familiar.\nBogotá — Casas Refugio",
+          "last_verified": "2026-11-10",
+          "address": "",
+          "phone": "",
+          "website": "https://bogota.gov.co/mi-ciudad/mujer/casas-refugio-para-mujeres-en-bogota",
+          "hours": "",
+          "how_to_access": "Acceso: solicita orientación por la Línea Púrpura o una entidad de protección."
+        },
+        {
+          "id": "centro-para-mujeres-habitantes-de-calle",
+          "title": "Centro para mujeres habitantes de calle",
+          "description": "Servicio: alojamiento y proceso integral específico para mujeres en sus diversidades, con atención a violencias, discriminación, autocuidado y proyecto de vida.\nDirectorio de servicios para mujeres",
+          "last_verified": "2026-11-10",
+          "address": "Dirección: calle 8A Sur # 5-25",
+          "phone": "",
+          "website": "https://bogota.gov.co/mi-ciudad/integracion-social/como-atiende-el-distrito-los-habitantes-de-calle-fotografia",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "icbf-linea-141",
+          "title": "ICBF — Línea 141",
+          "description": "Teléfono: 141.\nServicio: protección de niñas, niños y adolescentes ante abandono, vida en calle, maltrato o explotación. Da ubicación, edad aproximada y riesgo; ante emergencia llama también al 123.\nDirectorio de rutas de protección",
+          "last_verified": "2026-11-10",
+          "address": "",
+          "phone": "141",
+          "website": "https://bogota.gov.co/sites/default/files/inline-files/protocolo_atencion_diversidad2.pdf",
+          "hours": "",
+          "how_to_access": ""
+        }
+      ]
+    },
+    {
+      "id": "specialist-support",
+      "title": "Specialist support",
+      "entries": []
+    },
+    {
+      "id": "veterans",
+      "title": "Veterans support",
+      "entries": []
+    },
+    {
+      "id": "pets",
+      "title": "Help for people with pets",
+      "entries": []
+    },
+    {
+      "id": "other",
+      "title": "Other useful resources",
+      "entries": []
     }
   ]
 }

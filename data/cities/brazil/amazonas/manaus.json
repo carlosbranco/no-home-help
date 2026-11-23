@@ -1,6 +1,7 @@
 {
   "$schema": "https://nohomehelp.com/schemas/city.schema.json",
-  "schema_version": 1,
+  "documentation": "https://github.com/carlosbranco/no-home-help/blob/main/EDIT_CITY_JSON.md",
+  "schema_version": 2,
   "status": "published",
   "locale": {
     "language": "pt-BR",
@@ -26,2969 +27,538 @@
   "page": {
     "heading": "Manaus — ajuda para pessoas sem moradia",
     "last_verified": "2026-11-12",
-    "urgent": [
-      {
-        "type": "paragraph",
-        "content": [
-          {
-            "text": "Emergência médica — SAMU:",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "192",
-            "href": "tel:192"
-          },
-          {
-            "break": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "Polícia Militar:",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "190",
-            "href": "tel:190"
-          },
-          {
-            "text": "; "
-          },
-          {
-            "text": "Bombeiros:",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "193",
-            "href": "tel:193"
-          },
-          {
-            "break": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "Abordagem social:",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "0800 092 6644",
-            "href": "tel:08000926644"
-          },
-          {
-            "text": " ou "
-          },
-          {
-            "text": "0800 092 1407",
-            "href": "tel:08000921407"
-          },
-          {
-            "break": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "Violência contra a mulher:",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "180",
-            "href": "tel:180"
-          },
-          {
-            "text": "; "
-          },
-          {
-            "text": "violações de direitos:",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "100",
-            "href": "tel:100"
-          }
-        ]
-      }
-    ],
-    "notice": [
-      {
-        "text": "Vagas, refeições, horários e critérios podem mudar.",
-        "strong": true
-      },
-      {
-        "text": " Ligue ou peça confirmação antes de atravessar a cidade. Nenhum serviço garante vaga, refeição, benefício, tratamento ou emprego no mesmo dia. Em risco imediato, ligue 190, 192 ou 193."
-      }
-    ],
-    "intro": [
-      {
-        "type": "paragraph",
-        "content": [
-          {
-            "text": "Se precisar de várias coisas ao mesmo tempo, comece pelo "
-          },
-          {
-            "text": "Complexo Pop",
-            "href": "#shelter--complexo-pop-principal-porta-de-entrada"
-          },
-          {
-            "text": ". Diga onde dormiu, quando comeu pela última vez, se precisa de atendimento de saúde, se está com crianças ou animais, se corre risco de violência e quais documentos possui. O primeiro atendimento do Centro Pop é gratuito e não exige documento."
-          }
-        ]
-      }
-    ],
-    "footer": []
+    "urgent": "Emergência médica — SAMU: 192 Polícia Militar: 190; Bombeiros: 193 Abordagem social: 0800 092 6644 ou 0800 092 1407 Violência contra a mulher: 180; violações de direitos: 100",
+    "notice": "Vagas, refeições, horários e critérios podem mudar. Ligue ou peça confirmação antes de atravessar a cidade. Nenhum serviço garante vaga, refeição, benefício, tratamento ou emprego no mesmo dia. Em risco imediato, ligue 190, 192 ou 193.",
+    "intro": "Se precisar de várias coisas ao mesmo tempo, comece pelo Complexo Pop. Diga onde dormiu, quando comeu pela última vez, se precisa de atendimento de saúde, se está com crianças ou animais, se corre risco de violência e quais documentos possui. O primeiro atendimento do Centro Pop é gratuito e não exige documento. — #shelter--complexo-pop-principal-porta-de-entrada",
+    "footer": ""
   },
   "categories": [
     {
       "id": "emergency",
-      "title": "1. Emergência e abordagem social",
-      "items": [
+      "title": "Emergência e abordagem social",
+      "entries": [
         {
-          "type": "resource",
           "id": "samu-policia-militar-e-bombeiros",
-          "name": "SAMU, Polícia Militar e Bombeiros",
+          "title": "SAMU, Polícia Militar e Bombeiros",
+          "description": "SAMU: 192; Polícia Militar: 190; Bombeiros: 193.\nUse para: doença ou ferimento grave, violência em andamento, ameaça imediata, incêndio, desabamento ou outro perigo. Informe o local exato e um ponto de referência.\nÚltima verificação: 12 de novembro de 2026\nSAMU Manaus",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "SAMU:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "192",
-                  "href": "tel:192"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "Polícia Militar:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "190",
-                  "href": "tel:190"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "Bombeiros:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "193",
-                  "href": "tel:193"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Use para:",
-                  "strong": true
-                },
-                {
-                  "text": " doença ou ferimento grave, violência em andamento, ameaça imediata, incêndio, desabamento ou outro perigo. Informe o local exato e um ponto de referência."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificação:",
-                  "strong": true
-                },
-                {
-                  "text": " 12 de novembro de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "SAMU Manaus",
-                  "href": "https://www.manaus.am.gov.br/semsa/unidades/samu/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "192",
+          "website": "https://www.manaus.am.gov.br/semsa/unidades/samu/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "servico-especializado-de-abordagem-social",
-          "name": "Serviço Especializado de Abordagem Social",
+          "title": "Serviço Especializado de Abordagem Social",
+          "description": "Telefones gratuitos: 0800 092 6644 ou 0800 092 1407.\nHorário divulgado: segunda a sexta, 7h–0h; fins de semana e feriados, 7h–17h.\nPeça: uma equipe para escuta, orientação e encaminhamento à rede. Diga o local, um ponto de referência, as necessidades urgentes e se há crianças, pessoas doentes ou animais. A equipe avalia cada situação; o contato não garante vaga.\nÚltima verificação: 12 de novembro de 2026\nAbordagem social — Prefeitura de Manaus",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefones gratuitos:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "0800 092 6644",
-                  "href": "tel:08000926644"
-                },
-                {
-                  "text": " ou "
-                },
-                {
-                  "text": "0800 092 1407",
-                  "href": "tel:08000921407"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Horário divulgado:",
-                  "strong": true
-                },
-                {
-                  "text": " segunda a sexta, 7h–0h; fins de semana e feriados, 7h–17h."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Peça:",
-                  "strong": true
-                },
-                {
-                  "text": " uma equipe para escuta, orientação e encaminhamento à rede. Diga o local, um ponto de referência, as necessidades urgentes e se há crianças, pessoas doentes ou animais. A equipe avalia cada situação; o contato não garante vaga."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificação:",
-                  "strong": true
-                },
-                {
-                  "text": " 12 de novembro de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Abordagem social — Prefeitura de Manaus",
-                  "href": "https://www.manaus.am.gov.br/semcom/prefeitura-semasc-acolhimentopessoasnasruas/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "08000926644",
+          "website": "https://www.manaus.am.gov.br/semcom/prefeitura-semasc-acolhimentopessoasnasruas/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "apoio-emocional-cvv",
-          "name": "Apoio emocional — CVV",
+          "title": "Apoio emocional — CVV",
+          "description": "Telefone: 188, gratuito, 24 horas.\nServiço: conversa confidencial para quem está em sofrimento emocional. Se houver risco médico imediato ou tentativa em andamento, ligue 192.\nÚltima verificação: 12 de novembro de 2026\nCentro de Valorização da Vida",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "188",
-                  "href": "tel:188"
-                },
-                {
-                  "text": ", gratuito, 24 horas."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Serviço:",
-                  "strong": true
-                },
-                {
-                  "text": " conversa confidencial para quem está em sofrimento emocional. Se houver risco médico imediato ou tentativa em andamento, ligue 192."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificação:",
-                  "strong": true
-                },
-                {
-                  "text": " 12 de novembro de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Centro de Valorização da Vida",
-                  "href": "https://cvv.org.br/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "188",
+          "website": "https://cvv.org.br/",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "plano-pratico-para-hoje-information",
+          "title": "Plano prático para hoje",
+          "description": "1. Se houver perigo, ligue 190, 192 ou 193.\n2. Se estiver longe do Centro, acione a abordagem social pelos números 0800 092 6644 ou 0800 092 1407.\n3. Durante a semana, vá cedo ao Complexo Pop, Avenida Joaquim Nabuco, 144.\n4. Peça uma avaliação completa: lugar seguro para dormir, refeição, banho, saúde, documentos, Cadastro Único e trabalho.\n5. Se não houver vaga, peça o nome do serviço procurado, nova data de tentativa e alternativa segura para aquela noite.",
+          "last_verified": "2026-11-12",
+          "address": "",
+          "phone": "",
+          "website": "",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
       "id": "shelter",
-      "title": "2. Acolhimento e apoio durante o dia",
-      "items": [
+      "title": "Acolhimento e apoio durante o dia",
+      "entries": [
         {
-          "type": "resource",
           "id": "complexo-pop-principal-porta-de-entrada",
-          "name": "Complexo Pop — principal porta de entrada",
+          "title": "Complexo Pop — principal porta de entrada",
+          "description": "Centro Pop: segunda a sexta, 8h–17h. Oferece alimentação, banho, higiene, guarda de pertences, escuta multiprofissional e encaminhamentos.\nNo mesmo local: o Centro de Atendimento e Desenvolvimento Social (Cads) apoia documentação, capacitação e acesso a oportunidades de trabalho; a Casa de Passagem Padre Orlando Barbosa presta acolhimento temporário e assistência 24 horas.\nÚltima verificação: 12 de novembro de 2026\nComplexo Pop — Prefeitura de Manaus",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Endereço:",
-                  "strong": true
-                },
-                {
-                  "text": " Avenida Joaquim Nabuco, 144, Centro Histórico, Manaus"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Centro Pop:",
-                  "strong": true
-                },
-                {
-                  "text": " segunda a sexta, 8h–17h. Oferece alimentação, banho, higiene, guarda de pertences, escuta multiprofissional e encaminhamentos."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "No mesmo local:",
-                  "strong": true
-                },
-                {
-                  "text": " o Centro de Atendimento e Desenvolvimento Social (Cads) apoia documentação, capacitação e acesso a oportunidades de trabalho; a Casa de Passagem Padre Orlando Barbosa presta acolhimento temporário e assistência 24 horas."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Acesso:",
-                  "strong": true
-                },
-                {
-                  "text": " procure diretamente o Centro Pop durante o horário de atendimento. Não é necessário documento para o primeiro atendimento. A entrada na Casa de Passagem depende de avaliação e vaga."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificação:",
-                  "strong": true
-                },
-                {
-                  "text": " 12 de novembro de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Complexo Pop — Prefeitura de Manaus",
-                  "href": "https://www.manaus.am.gov.br/semcom/mais-de-180-mil-atendimentos/"
-                }
-              ]
-            }
-          ]
+          "address": "Endereço: Avenida Joaquim Nabuco, 144, Centro Histórico, Manaus",
+          "phone": "",
+          "website": "https://www.manaus.am.gov.br/semcom/mais-de-180-mil-atendimentos/",
+          "hours": "",
+          "how_to_access": "Acesso: procure diretamente o Centro Pop durante o horário de atendimento. Não é necessário documento para o primeiro atendimento. A entrada na Casa de Passagem depende de avaliação e vaga."
         },
         {
-          "type": "resource",
           "id": "casa-de-passagem-padre-orlando-barbosa",
-          "name": "Casa de Passagem Padre Orlando Barbosa",
+          "title": "Casa de Passagem Padre Orlando Barbosa",
+          "description": "Serviços: acolhimento temporário 24 horas, refeições, banho, lavanderia, guarda de pertences e acompanhamento psicossocial para homens, mulheres e famílias.\nImportante: o acolhimento é voluntário e depende de avaliação e vaga. A Prefeitura informa permanência inicial de 15 a 90 dias, com possível extensão conforme o plano de atendimento; isso não é moradia permanente.\nÚltima verificação: 12 de novembro de 2026\nAcolhimento humanizado — Prefeitura de Manaus",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Endereço:",
-                  "strong": true
-                },
-                {
-                  "text": " Complexo Pop, Avenida Joaquim Nabuco, 144, Centro Histórico"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Serviços:",
-                  "strong": true
-                },
-                {
-                  "text": " acolhimento temporário 24 horas, refeições, banho, lavanderia, guarda de pertences e acompanhamento psicossocial para homens, mulheres e famílias."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Importante:",
-                  "strong": true
-                },
-                {
-                  "text": " o acolhimento é voluntário e depende de avaliação e vaga. A Prefeitura informa permanência inicial de 15 a 90 dias, com possível extensão conforme o plano de atendimento; isso não é moradia permanente."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificação:",
-                  "strong": true
-                },
-                {
-                  "text": " 12 de novembro de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Acolhimento humanizado — Prefeitura de Manaus",
-                  "href": "https://www.manaus.am.gov.br/noticia/assistencia-social/politicas-humanizada/"
-                }
-              ]
-            }
-          ]
+          "address": "Endereço: Complexo Pop, Avenida Joaquim Nabuco, 144, Centro Histórico",
+          "phone": "",
+          "website": "https://www.manaus.am.gov.br/noticia/assistencia-social/politicas-humanizada/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "centro-pop-o-que-pode-pedir",
-          "name": "Centro Pop — o que pode pedir",
+          "title": "Centro Pop — o que pode pedir",
+          "description": "Peça ajuda para: higiene, refeição, lavagem de roupas, guarda de pertences, documentos, Cadastro Único, saúde, acolhimento, emprego e contato com outros serviços.\nDireito importante: a falta de documento não impede o atendimento. O endereço do Centro Pop pode ser usado como referência para documentos e Cadastro Único, conforme orientação da equipe.\nÚltima verificação: 12 de novembro de 2026\nServiço nacional do Centro Pop",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Peça ajuda para:",
-                  "strong": true
-                },
-                {
-                  "text": " higiene, refeição, lavagem de roupas, guarda de pertences, documentos, Cadastro Único, saúde, acolhimento, emprego e contato com outros serviços."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Direito importante:",
-                  "strong": true
-                },
-                {
-                  "text": " a falta de documento não impede o atendimento. O endereço do Centro Pop pode ser usado como referência para documentos e Cadastro Único, conforme orientação da equipe."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificação:",
-                  "strong": true
-                },
-                {
-                  "text": " 12 de novembro de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Serviço nacional do Centro Pop",
-                  "href": "https://www.gov.br/pt-br/servicos/acessar-centro-pop-centro-de-referencia-especializado-para-populacao-em-situacao-de-rua"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.gov.br/pt-br/servicos/acessar-centro-pop-centro-de-referencia-especializado-para-populacao-em-situacao-de-rua",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
       "id": "food",
-      "title": "3. Alimentação",
-      "items": [
+      "title": "Alimentação",
+      "entries": [
         {
-          "type": "resource",
           "id": "refeicoes-no-centro-pop",
-          "name": "Refeições no Centro Pop",
+          "title": "Refeições no Centro Pop",
+          "description": "Serviço: alimentação durante o atendimento de segunda a sexta, 8h–17h. A fonte oficial não publica o horário exato de cada refeição.\nÚltima verificação: 12 de novembro de 2026\nServiços do Complexo Pop",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Endereço:",
-                  "strong": true
-                },
-                {
-                  "text": " Avenida Joaquim Nabuco, 144, Centro Histórico"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Serviço:",
-                  "strong": true
-                },
-                {
-                  "text": " alimentação durante o atendimento de segunda a sexta, 8h–17h. A fonte oficial não publica o horário exato de cada refeição."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Antes de ir:",
-                  "strong": true
-                },
-                {
-                  "text": " chegue cedo e confirme na recepção o horário e a quantidade disponível no dia."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificação:",
-                  "strong": true
-                },
-                {
-                  "text": " 12 de novembro de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Serviços do Complexo Pop",
-                  "href": "https://www.manaus.am.gov.br/semcom/mais-de-180-mil-atendimentos/"
-                }
-              ]
-            }
-          ]
+          "address": "Endereço: Avenida Joaquim Nabuco, 144, Centro Histórico",
+          "phone": "",
+          "website": "https://www.manaus.am.gov.br/semcom/mais-de-180-mil-atendimentos/",
+          "hours": "",
+          "how_to_access": "Antes de ir: chegue cedo e confirme na recepção o horário e a quantidade disponível no dia."
         },
         {
-          "type": "resource",
           "id": "prato-cheio-restaurantes-populares",
-          "name": "Prato Cheio — restaurantes populares",
+          "title": "Prato Cheio — restaurantes populares",
+          "description": "Serviço divulgado: refeição por R$ 1, de segunda a sexta, 8h–13h, até acabar a quantidade do dia.\nCentro: Rua Joaquim Nabuco, 847, no antigo prédio do Sine.\nCompensa: Rua Izaurina Braga, 611.\nJorge Teixeira: Rua Cássia Baiana, 340.\nAlvorada II: Avenida Dom Pedro I, 15.\nPetrópolis: Rua Gaivota, 8.\nConfirme: endereço, abertura e forma de pagamento antes de percorrer uma longa distância.\nÚltima verificação: 12 de novembro de 2026\nPrograma Prato Cheio — Governo do Amazonas",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Serviço divulgado:",
-                  "strong": true
-                },
-                {
-                  "text": " refeição por R$ 1, de segunda a sexta, 8h–13h, até acabar a quantidade do dia."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Centro:",
-                  "strong": true
-                },
-                {
-                  "text": " Rua Joaquim Nabuco, 847, no antigo prédio do Sine."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Compensa:",
-                  "strong": true
-                },
-                {
-                  "text": " Rua Izaurina Braga, 611."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Jorge Teixeira:",
-                  "strong": true
-                },
-                {
-                  "text": " Rua Cássia Baiana, 340."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Alvorada II:",
-                  "strong": true
-                },
-                {
-                  "text": " Avenida Dom Pedro I, 15."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Petrópolis:",
-                  "strong": true
-                },
-                {
-                  "text": " Rua Gaivota, 8."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Confirme:",
-                  "strong": true
-                },
-                {
-                  "text": " endereço, abertura e forma de pagamento antes de percorrer uma longa distância."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificação:",
-                  "strong": true
-                },
-                {
-                  "text": " 12 de novembro de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Programa Prato Cheio — Governo do Amazonas",
-                  "href": "https://www.seas.am.gov.br/prato-cheio/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.seas.am.gov.br/prato-cheio/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "prato-cheio-cozinhas-populares-gratuitas",
-          "name": "Prato Cheio — cozinhas populares gratuitas",
+          "title": "Prato Cheio — cozinhas populares gratuitas",
+          "description": "Serviço divulgado: 1 litro de sopa por pessoa, gratuitamente, de segunda a sábado, 8h–13h, até terminar a quantidade disponível.\nAleixo: Rua Severiano Nunes, 213.\nBairro da União: Rua Nazareth Mesquita, 1-B, Parque Dez.\nImportante: leve um recipiente se a unidade solicitar. Confirme no dia; horário e distribuição podem mudar.\nÚltima verificação: 12 de novembro de 2026\nHorários e lista oficial do Prato Cheio",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Serviço divulgado:",
-                  "strong": true
-                },
-                {
-                  "text": " 1 litro de sopa por pessoa, gratuitamente, de segunda a sábado, 8h–13h, até terminar a quantidade disponível."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Aleixo:",
-                  "strong": true
-                },
-                {
-                  "text": " Rua Severiano Nunes, 213."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Bairro da União:",
-                  "strong": true
-                },
-                {
-                  "text": " Rua Nazareth Mesquita, 1-B, Parque Dez."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Importante:",
-                  "strong": true
-                },
-                {
-                  "text": " leve um recipiente se a unidade solicitar. Confirme no dia; horário e distribuição podem mudar."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificação:",
-                  "strong": true
-                },
-                {
-                  "text": " 12 de novembro de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Horários e lista oficial do Prato Cheio",
-                  "href": "https://www.seas.am.gov.br/prato-cheio/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.seas.am.gov.br/prato-cheio/",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
       "id": "community",
-      "title": "4. Organizações comunitárias e religiosas",
-      "items": [
+      "title": "Organizações comunitárias e religiosas",
+      "entries": [
         {
-          "type": "resource",
           "id": "casa-restaura-me-alianca-de-misericordia",
-          "name": "Casa Restaura-me — Aliança de Misericórdia",
+          "title": "Casa Restaura-me — Aliança de Misericórdia",
+          "description": "Telefones: (92) 99181-9878; triagem: (92) 99390-4468.\nServiços informados: alimentação, higiene e atendimentos social, jurídico, psicológico e médico para pessoas em situação de rua.\nÚltima verificação: 12 de novembro de 2026\nCasa Restaura-me — Aliança de Misericórdia",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Endereço:",
-                  "strong": true
-                },
-                {
-                  "text": " Avenida Sete de Setembro, 2175, Centro, Manaus 69020-125"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefones:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(92) 99181-9878",
-                  "href": "tel:+5592991819878"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "triagem:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(92) 99390-4468",
-                  "href": "tel:+5592993904468"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Serviços informados:",
-                  "strong": true
-                },
-                {
-                  "text": " alimentação, higiene e atendimentos social, jurídico, psicológico e médico para pessoas em situação de rua."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Antes de ir:",
-                  "strong": true
-                },
-                {
-                  "text": " telefone para confirmar dias, horários, critérios e oferta atual. É uma organização católica; pergunte se qualquer atividade religiosa é opcional."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificação:",
-                  "strong": true
-                },
-                {
-                  "text": " 12 de novembro de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Casa Restaura-me — Aliança de Misericórdia",
-                  "href": "https://misericordia.com.br/social/casa-restaura-me/"
-                }
-              ]
-            }
-          ]
+          "address": "Endereço: Avenida Sete de Setembro, 2175, Centro, Manaus 69020-125",
+          "phone": "+5592991819878",
+          "website": "https://misericordia.com.br/social/casa-restaura-me/",
+          "hours": "",
+          "how_to_access": "Antes de ir: telefone para confirmar dias, horários, critérios e oferta atual. É uma organização católica; pergunte se qualquer atividade religiosa é opcional."
         },
         {
-          "type": "resource",
           "id": "caritas-arquidiocesana-de-manaus",
-          "name": "Cáritas Arquidiocesana de Manaus",
+          "title": "Cáritas Arquidiocesana de Manaus",
+          "description": "Telefones: (92) 99143-1257 / (92) 3202-3444.\nComo pode ajudar: orientação sobre projetos sociais, apoio solidário existente e encaminhamento para Cáritas paroquiais ou outros serviços.\nImportante: a Cáritas não divulga refeição ou acolhimento diário neste endereço. Ligue primeiro e descreva a necessidade concreta.\nÚltima verificação: 12 de novembro de 2026\nCáritas Arquidiocesana de Manaus",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Endereço:",
-                  "strong": true
-                },
-                {
-                  "text": " Avenida Joaquim Nabuco, 1023, Centro, Manaus"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefones:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(92) 99143-1257",
-                  "href": "tel:+5592991431257"
-                },
-                {
-                  "text": " / "
-                },
-                {
-                  "text": "(92) 3202-3444",
-                  "href": "tel:+559232023444"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Como pode ajudar:",
-                  "strong": true
-                },
-                {
-                  "text": " orientação sobre projetos sociais, apoio solidário existente e encaminhamento para Cáritas paroquiais ou outros serviços."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Importante:",
-                  "strong": true
-                },
-                {
-                  "text": " a Cáritas não divulga refeição ou acolhimento diário neste endereço. Ligue primeiro e descreva a necessidade concreta."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificação:",
-                  "strong": true
-                },
-                {
-                  "text": " 12 de novembro de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Cáritas Arquidiocesana de Manaus",
-                  "href": "https://caritasarquimanaus.org.br/"
-                }
-              ]
-            }
-          ]
+          "address": "Endereço: Avenida Joaquim Nabuco, 1023, Centro, Manaus",
+          "phone": "+5592991431257",
+          "website": "https://caritasarquimanaus.org.br/",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
+    },
+    {
+      "id": "hygiene",
+      "title": "Showers, laundry and hygiene",
+      "entries": []
+    },
+    {
+      "id": "clothing",
+      "title": "Clothing",
+      "entries": []
     },
     {
       "id": "health",
-      "title": "5. Saúde, saúde mental e dependência",
-      "items": [
+      "title": "Saúde, saúde mental e dependência",
+      "entries": [
         {
-          "type": "resource",
           "id": "consultorio-na-rua",
-          "name": "Consultório na Rua",
+          "title": "Consultório na Rua",
+          "description": "Serviços: atendimento médico, psicológico e social, vacinação, curativos, testes de HIV, sífilis e hepatites e encaminhamento para a rede do SUS.\nOuvidoria Municipal do SUS: (92) 98842-6835 ou 0800 092 1603.\nÚltima verificação: 12 de novembro de 2026\nContatos da Secretaria Municipal de Saúde",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Serviços:",
-                  "strong": true
-                },
-                {
-                  "text": " atendimento médico, psicológico e social, vacinação, curativos, testes de HIV, sífilis e hepatites e encaminhamento para a rede do SUS."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Como encontrar:",
-                  "strong": true
-                },
-                {
-                  "text": " as equipes são móveis e não há agenda pública fixa. Pergunte no Centro Pop ou à abordagem social onde a equipe atenderá. A falta de endereço fixo não pode impedir atendimento no SUS."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ouvidoria Municipal do SUS:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(92) 98842-6835",
-                  "href": "tel:+5592988426835"
-                },
-                {
-                  "text": " ou "
-                },
-                {
-                  "text": "0800 092 1603",
-                  "href": "tel:08000921603"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificação:",
-                  "strong": true
-                },
-                {
-                  "text": " 12 de novembro de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Contatos da Secretaria Municipal de Saúde",
-                  "href": "https://www.manaus.am.gov.br/semsa/principal/contatos/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+5592988426835",
+          "website": "https://www.manaus.am.gov.br/semsa/principal/contatos/",
+          "hours": "",
+          "how_to_access": "Como encontrar: as equipes são móveis e não há agenda pública fixa. Pergunte no Centro Pop ou à abordagem social onde a equipe atenderá. A falta de endereço fixo não pode impedir atendimento no SUS."
         },
         {
-          "type": "resource",
           "id": "caps-iii-benjamin-matias-fernandes-adultos",
-          "name": "CAPS III Benjamin Matias Fernandes — adultos",
+          "title": "CAPS III Benjamin Matias Fernandes — adultos",
+          "description": "Atendimento inicial: segunda a sexta, 7h–17h, sem agendamento ou encaminhamento, para sofrimento psíquico grave e persistente.\nImportante: em emergência médica ou risco imediato, ligue 192.\nÚltima verificação: 12 de novembro de 2026\nCAPS em Manaus — SEMSA",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Endereço:",
-                  "strong": true
-                },
-                {
-                  "text": " Avenida Maneca Marques, 1916, Parque 10 de Novembro"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Atendimento inicial:",
-                  "strong": true
-                },
-                {
-                  "text": " segunda a sexta, 7h–17h, sem agendamento ou encaminhamento, para sofrimento psíquico grave e persistente."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Importante:",
-                  "strong": true
-                },
-                {
-                  "text": " em emergência médica ou risco imediato, ligue 192."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificação:",
-                  "strong": true
-                },
-                {
-                  "text": " 12 de novembro de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "CAPS em Manaus — SEMSA",
-                  "href": "https://www.manaus.am.gov.br/semsa/unidades/centro-de-atencao-psicossocial-caps/"
-                }
-              ]
-            }
-          ]
+          "address": "Endereço: Avenida Maneca Marques, 1916, Parque 10 de Novembro",
+          "phone": "",
+          "website": "https://www.manaus.am.gov.br/semsa/unidades/centro-de-atencao-psicossocial-caps/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "caps-iii-ad-dr-afranio-soares-alcool-e-outras-drogas",
-          "name": "CAPS III AD Dr. Afrânio Soares — álcool e outras drogas",
+          "title": "CAPS III AD Dr. Afrânio Soares — álcool e outras drogas",
+          "description": "Atendimento inicial: segunda a sexta, 7h–17h, sem agendamento ou encaminhamento, para adultos com necessidades relacionadas ao uso de álcool e outras drogas.\nServiço: acolhimento e plano de cuidado multiprofissional. Não é abrigo nem garante internação.\nÚltima verificação: 12 de novembro de 2026\nLista oficial de CAPS",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Endereço:",
-                  "strong": true
-                },
-                {
-                  "text": " Alameda Espanha, 5, Jardim Espanha, Aleixo"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Atendimento inicial:",
-                  "strong": true
-                },
-                {
-                  "text": " segunda a sexta, 7h–17h, sem agendamento ou encaminhamento, para adultos com necessidades relacionadas ao uso de álcool e outras drogas."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Serviço:",
-                  "strong": true
-                },
-                {
-                  "text": " acolhimento e plano de cuidado multiprofissional. Não é abrigo nem garante internação."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificação:",
-                  "strong": true
-                },
-                {
-                  "text": " 12 de novembro de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Lista oficial de CAPS",
-                  "href": "https://www.manaus.am.gov.br/semsa/unidades/centro-de-atencao-psicossocial-caps/"
-                }
-              ]
-            }
-          ]
+          "address": "Endereço: Alameda Espanha, 5, Jardim Espanha, Aleixo",
+          "phone": "",
+          "website": "https://www.manaus.am.gov.br/semsa/unidades/centro-de-atencao-psicossocial-caps/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "caps-ii-ad-dra-eliana-vitorino-schramm",
-          "name": "CAPS II AD Dra. Eliana Vitorino Schramm",
+          "title": "CAPS II AD Dra. Eliana Vitorino Schramm",
+          "description": "Atendimento inicial: segunda a sexta, 7h–17h, sem agendamento ou encaminhamento, para necessidades relacionadas ao uso de álcool e outras drogas.\nÚltima verificação: 12 de novembro de 2026\nEndereços e acesso aos CAPS",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Endereço:",
-                  "strong": true
-                },
-                {
-                  "text": " Alameda Alphaville, sem número, Tancredo Neves"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Atendimento inicial:",
-                  "strong": true
-                },
-                {
-                  "text": " segunda a sexta, 7h–17h, sem agendamento ou encaminhamento, para necessidades relacionadas ao uso de álcool e outras drogas."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Antes de ir:",
-                  "strong": true
-                },
-                {
-                  "text": " confirme no link oficial se a unidade é a mais adequada para a sua região e necessidade."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificação:",
-                  "strong": true
-                },
-                {
-                  "text": " 12 de novembro de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Endereços e acesso aos CAPS",
-                  "href": "https://www.manaus.am.gov.br/semsa/unidades/centro-de-atencao-psicossocial-caps/"
-                }
-              ]
-            }
-          ]
+          "address": "Endereço: Alameda Alphaville, sem número, Tancredo Neves",
+          "phone": "",
+          "website": "https://www.manaus.am.gov.br/semsa/unidades/centro-de-atencao-psicossocial-caps/",
+          "hours": "",
+          "how_to_access": "Antes de ir: confirme no link oficial se a unidade é a mais adequada para a sua região e necessidade."
         },
         {
-          "type": "resource",
           "id": "servicos-de-pronto-atendimento-spa",
-          "name": "Serviços de Pronto Atendimento — SPA",
+          "title": "Serviços de Pronto Atendimento — SPA",
+          "description": "Zona Sul: Rua Bento José Lima, 33, Colônia Oliveira Machado; (92) 3214-3615 / 3214-3616.\nSão Raimundo: Praça Ismael Benigno, 155; (92) 3625-6500.\nCoroado: Avenida Beira Mar, 156; (92) 3639-4973.\nUse para: urgências que precisam de avaliação presencial. Em risco de vida, chame 192. Confirme por telefone o serviço disponível.\nÚltima verificação: 12 de novembro de 2026\nUnidades de saúde — SEMSA",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Zona Sul:",
-                  "strong": true
-                },
-                {
-                  "text": " Rua Bento José Lima, 33, Colônia Oliveira Machado; "
-                },
-                {
-                  "text": "(92) 3214-3615",
-                  "href": "tel:+559232143615"
-                },
-                {
-                  "text": " / "
-                },
-                {
-                  "text": "3214-3616",
-                  "href": "tel:+559232143616"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "São Raimundo:",
-                  "strong": true
-                },
-                {
-                  "text": " Praça Ismael Benigno, 155; "
-                },
-                {
-                  "text": "(92) 3625-6500",
-                  "href": "tel:+559236256500"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Coroado:",
-                  "strong": true
-                },
-                {
-                  "text": " Avenida Beira Mar, 156; "
-                },
-                {
-                  "text": "(92) 3639-4973",
-                  "href": "tel:+559236394973"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Use para:",
-                  "strong": true
-                },
-                {
-                  "text": " urgências que precisam de avaliação presencial. Em risco de vida, chame 192. Confirme por telefone o serviço disponível."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificação:",
-                  "strong": true
-                },
-                {
-                  "text": " 12 de novembro de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Unidades de saúde — SEMSA",
-                  "href": "https://www.manaus.am.gov.br/semsa/programas-e-servicos/saude-do-turista/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+559232143615",
+          "website": "https://www.manaus.am.gov.br/semsa/programas-e-servicos/saude-do-turista/",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
-      "id": "government",
-      "title": "6. Benefícios e assistência pública",
-      "items": [
+      "id": "mental-health",
+      "title": "Mental health and addiction",
+      "entries": []
+    },
+    {
+      "id": "public-facilities",
+      "title": "Public toilets and day facilities",
+      "entries": []
+    },
+    {
+      "id": "phone-internet",
+      "title": "Phone charging and internet",
+      "entries": []
+    },
+    {
+      "id": "transport",
+      "title": "Transport",
+      "entries": []
+    },
+    {
+      "id": "benefits",
+      "title": "Benefícios e assistência pública",
+      "entries": [
         {
-          "type": "resource",
           "id": "centro-pop-e-cads-primeira-avaliacao",
-          "name": "Centro Pop e Cads — primeira avaliação",
+          "title": "Centro Pop e Cads — primeira avaliação",
+          "description": "Peça uma avaliação para: Cadastro Único, benefícios, documentos, acolhimento, saúde, trabalho e encaminhamento a CRAS ou CREAS. Explique se não tem documentos ou endereço.\nImportante: o atendimento não significa aprovação automática de benefício.\nÚltima verificação: 12 de novembro de 2026\nAtendimento e acesso a direitos no Complexo Pop",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Endereço:",
-                  "strong": true
-                },
-                {
-                  "text": " Avenida Joaquim Nabuco, 144, Centro Histórico"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Peça uma avaliação para:",
-                  "strong": true
-                },
-                {
-                  "text": " Cadastro Único, benefícios, documentos, acolhimento, saúde, trabalho e encaminhamento a CRAS ou CREAS. Explique se não tem documentos ou endereço."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Importante:",
-                  "strong": true
-                },
-                {
-                  "text": " o atendimento não significa aprovação automática de benefício."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificação:",
-                  "strong": true
-                },
-                {
-                  "text": " 12 de novembro de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Atendimento e acesso a direitos no Complexo Pop",
-                  "href": "https://www.manaus.am.gov.br/semcom/mais-de-180-mil-atendimentos/"
-                }
-              ]
-            }
-          ]
+          "address": "Endereço: Avenida Joaquim Nabuco, 144, Centro Histórico",
+          "phone": "",
+          "website": "https://www.manaus.am.gov.br/semcom/mais-de-180-mil-atendimentos/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "cadastro-unico",
-          "name": "Cadastro Único",
+          "title": "Cadastro Único",
+          "description": "Primeiro passo para quem está na rua: procure o Centro Pop. A equipe pode orientar o cadastro sem endereço convencional e o uso do endereço da unidade como referência.\nCentral do Cadastro Único: Avenida Ayrão, esquina com Rua Ferreira Pena, sem número, Centro.\nPAC Galeria Espírito Santo: Rua 24 de Maio, esquina com Rua Joaquim Sarmento, 119, Centro.\nImportante: confirme se é necessário agendamento e quais documentos consegue apresentar.\nÚltima verificação: 12 de novembro de 2026\nCadastro Único — Governo Federal",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Primeiro passo para quem está na rua:",
-                  "strong": true
-                },
-                {
-                  "text": " procure o Centro Pop. A equipe pode orientar o cadastro sem endereço convencional e o uso do endereço da unidade como referência."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Central do Cadastro Único:",
-                  "strong": true
-                },
-                {
-                  "text": " Avenida Ayrão, esquina com Rua Ferreira Pena, sem número, Centro."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "PAC Galeria Espírito Santo:",
-                  "strong": true
-                },
-                {
-                  "text": " Rua 24 de Maio, esquina com Rua Joaquim Sarmento, 119, Centro."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Importante:",
-                  "strong": true
-                },
-                {
-                  "text": " confirme se é necessário agendamento e quais documentos consegue apresentar."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificação:",
-                  "strong": true
-                },
-                {
-                  "text": " 12 de novembro de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Cadastro Único — Governo Federal",
-                  "href": "https://www.gov.br/pt-br/servicos/inscrever-se-no-cadastro-unico-para-programas-sociais-do-governo-federal"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.gov.br/pt-br/servicos/inscrever-se-no-cadastro-unico-para-programas-sociais-do-governo-federal",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "cras-assistencia-social-por-territorio",
-          "name": "CRAS — assistência social por território",
+          "title": "CRAS — assistência social por território",
+          "description": "Cachoeirinha: Avenida Carvalho Leal, sem número; (92) 98855-1329.\nCompensa I: Rua da Indústria, 20; (92) 98842-1024.\nSão Raimundo: Rua São Francisco, 76; (92) 98855-1465.\nAlvorada I: Rua 4, sem número; (92) 98842-2565.\nServiços: orientação sobre benefícios, Cadastro Único, vínculos familiares e encaminhamentos. Ligue para confirmar o CRAS correto para o território.\nÚltima verificação: 12 de novembro de 2026\nContatos da rede de assistência de Manaus",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Cachoeirinha:",
-                  "strong": true
-                },
-                {
-                  "text": " Avenida Carvalho Leal, sem número; "
-                },
-                {
-                  "text": "(92) 98855-1329",
-                  "href": "tel:+5592988551329"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Compensa I:",
-                  "strong": true
-                },
-                {
-                  "text": " Rua da Indústria, 20; "
-                },
-                {
-                  "text": "(92) 98842-1024",
-                  "href": "tel:+5592988421024"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "São Raimundo:",
-                  "strong": true
-                },
-                {
-                  "text": " Rua São Francisco, 76; "
-                },
-                {
-                  "text": "(92) 98855-1465",
-                  "href": "tel:+5592988551465"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Alvorada I:",
-                  "strong": true
-                },
-                {
-                  "text": " Rua 4, sem número; "
-                },
-                {
-                  "text": "(92) 98842-2565",
-                  "href": "tel:+5592988422565"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Serviços:",
-                  "strong": true
-                },
-                {
-                  "text": " orientação sobre benefícios, Cadastro Único, vínculos familiares e encaminhamentos. Ligue para confirmar o CRAS correto para o território."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificação:",
-                  "strong": true
-                },
-                {
-                  "text": " 12 de novembro de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Contatos da rede de assistência de Manaus",
-                  "href": "https://www.manaus.am.gov.br/proteger-vidas-e-um-dever-de-todos/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+5592988551329",
+          "website": "https://www.manaus.am.gov.br/proteger-vidas-e-um-dever-de-todos/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "bolsa-familia-e-beneficio-de-prestacao-continuada",
-          "name": "Bolsa Família e Benefício de Prestação Continuada",
+          "title": "Bolsa Família e Benefício de Prestação Continuada",
+          "description": "Bolsa Família: depende de Cadastro Único atualizado, renda e regras do programa.\nBPC: pode atender pessoa idosa a partir de 65 anos ou pessoa com deficiência de baixa renda, após avaliação e cumprimento dos critérios.\nÚltima verificação: 12 de novembro de 2026\nBolsa Família | BPC — INSS — https://www.gov.br/inss/pt-br/direitos-e-deveres/beneficios-assistenciais/beneficio-assistencial-a-pessoa-com-deficiencia-bpc-loas",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Bolsa Família:",
-                  "strong": true
-                },
-                {
-                  "text": " depende de Cadastro Único atualizado, renda e regras do programa."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "BPC:",
-                  "strong": true
-                },
-                {
-                  "text": " pode atender pessoa idosa a partir de 65 anos ou pessoa com deficiência de baixa renda, após avaliação e cumprimento dos critérios."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Como começar:",
-                  "strong": true
-                },
-                {
-                  "text": " peça triagem no Centro Pop ou CRAS. Nenhum intermediário pode cobrar para “garantir” aprovação."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificação:",
-                  "strong": true
-                },
-                {
-                  "text": " 12 de novembro de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Bolsa Família",
-                  "href": "https://www.gov.br/mds/pt-br/acoes-e-programas/bolsa-familia"
-                },
-                {
-                  "text": " | "
-                },
-                {
-                  "text": "BPC — INSS",
-                  "href": "https://www.gov.br/inss/pt-br/direitos-e-deveres/beneficios-assistenciais/beneficio-assistencial-a-pessoa-com-deficiencia-bpc-loas"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.gov.br/mds/pt-br/acoes-e-programas/bolsa-familia",
+          "hours": "",
+          "how_to_access": "Como começar: peça triagem no Centro Pop ou CRAS. Nenhum intermediário pode cobrar para “garantir” aprovação."
         }
       ]
     },
     {
-      "id": "work",
-      "title": "7. Trabalho, formação e renda",
-      "items": [
+      "id": "employment",
+      "title": "Trabalho, formação e renda",
+      "entries": [
         {
-          "type": "resource",
           "id": "cads-no-complexo-pop",
-          "name": "Cads no Complexo Pop",
+          "title": "Cads no Complexo Pop",
+          "description": "Serviços: apoio para documentos, capacitação e inclusão produtiva, em ligação com o Sine Manaus e outras instituições.\nPor que começar aqui: a equipe pode ajudar a resolver barreiras de documento, currículo, higiene, roupa e encaminhamento antes de procurar uma vaga.\nImportante: participar não garante curso ou emprego.\nÚltima verificação: 12 de novembro de 2026\nCads — capacitação e inserção produtiva",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Endereço:",
-                  "strong": true
-                },
-                {
-                  "text": " Avenida Joaquim Nabuco, 144, Centro Histórico"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Serviços:",
-                  "strong": true
-                },
-                {
-                  "text": " apoio para documentos, capacitação e inclusão produtiva, em ligação com o Sine Manaus e outras instituições."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Por que começar aqui:",
-                  "strong": true
-                },
-                {
-                  "text": " a equipe pode ajudar a resolver barreiras de documento, currículo, higiene, roupa e encaminhamento antes de procurar uma vaga."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Importante:",
-                  "strong": true
-                },
-                {
-                  "text": " participar não garante curso ou emprego."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificação:",
-                  "strong": true
-                },
-                {
-                  "text": " 12 de novembro de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Cads — capacitação e inserção produtiva",
-                  "href": "https://www.manaus.am.gov.br/semcom/mais-de-180-mil-atendimentos/"
-                }
-              ]
-            }
-          ]
+          "address": "Endereço: Avenida Joaquim Nabuco, 144, Centro Histórico",
+          "phone": "",
+          "website": "https://www.manaus.am.gov.br/semcom/mais-de-180-mil-atendimentos/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "sine-manaus-sao-geraldo",
-          "name": "Sine Manaus — São Geraldo",
+          "title": "Sine Manaus — São Geraldo",
+          "description": "Horário divulgado: segunda a sexta, 8h–14h.\nServiços: cadastro e encaminhamento para vagas, orientação sobre Carteira de Trabalho Digital e seguro-desemprego.\nLeve se tiver: documento, CPF, currículo, comprovante de escolaridade, certificados e comprovante de residência. Se não tiver documentos ou roupa adequada às regras de entrada, peça primeiro apoio no Cads.\nÚltima verificação: 12 de novembro de 2026\nAcesso e endereço do Sine Manaus",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Endereço:",
-                  "strong": true
-                },
-                {
-                  "text": " Avenida Constantino Nery, 1272, São Geraldo"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Horário divulgado:",
-                  "strong": true
-                },
-                {
-                  "text": " segunda a sexta, 8h–14h."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Serviços:",
-                  "strong": true
-                },
-                {
-                  "text": " cadastro e encaminhamento para vagas, orientação sobre Carteira de Trabalho Digital e seguro-desemprego."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Leve se tiver:",
-                  "strong": true
-                },
-                {
-                  "text": " documento, CPF, currículo, comprovante de escolaridade, certificados e comprovante de residência. Se não tiver documentos ou roupa adequada às regras de entrada, peça primeiro apoio no Cads."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificação:",
-                  "strong": true
-                },
-                {
-                  "text": " 12 de novembro de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Acesso e endereço do Sine Manaus",
-                  "href": "https://www.manaus.am.gov.br/noticia/oportunidade/sine-manaus-oferta-880-vagas-de-emprego-nesta-terca-feira-8-9/"
-                }
-              ]
-            }
-          ]
+          "address": "Endereço: Avenida Constantino Nery, 1272, São Geraldo",
+          "phone": "",
+          "website": "https://www.manaus.am.gov.br/noticia/oportunidade/sine-manaus-oferta-880-vagas-de-emprego-nesta-terca-feira-8-9/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "sine-manaus-shopping-phelippe-daou",
-          "name": "Sine Manaus — Shopping Phelippe Daou",
+          "title": "Sine Manaus — Shopping Phelippe Daou",
+          "description": "Horário divulgado: segunda a sexta, 8h–14h.\nWhatsApp de orientação: (92) 99140-0671.\nImportante: vagas e requisitos mudam diariamente. O encaminhamento não garante contratação e o serviço não deve cobrar por vaga.\nÚltima verificação: 12 de novembro de 2026\nVagas e orientações do Sine Manaus",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Endereço:",
-                  "strong": true
-                },
-                {
-                  "text": " Avenida Camapuã, 2939, Cidade de Deus"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Horário divulgado:",
-                  "strong": true
-                },
-                {
-                  "text": " segunda a sexta, 8h–14h."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "WhatsApp de orientação:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(92) 99140-0671",
-                  "href": "tel:+5592991400671"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Importante:",
-                  "strong": true
-                },
-                {
-                  "text": " vagas e requisitos mudam diariamente. O encaminhamento não garante contratação e o serviço não deve cobrar por vaga."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificação:",
-                  "strong": true
-                },
-                {
-                  "text": " 12 de novembro de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Vagas e orientações do Sine Manaus",
-                  "href": "https://www.manaus.am.gov.br/noticia/oportunidade/sine-manaus-oferta-880-vagas-de-emprego-nesta-terca-feira-8-9/"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "documents",
-      "title": "8. Documentos, correspondência e internet",
-      "items": [
-        {
-          "type": "resource",
-          "id": "documentos-pelo-centro-pop-e-cads",
-          "name": "Documentos pelo Centro Pop e Cads",
-          "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Endereço:",
-                  "strong": true
-                },
-                {
-                  "text": " Avenida Joaquim Nabuco, 144, Centro Histórico"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Peça ajuda para:",
-                  "strong": true
-                },
-                {
-                  "text": " identificar quais documentos faltam, obter encaminhamento e resolver exigências de endereço. O primeiro atendimento não exige documento."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Leve se tiver:",
-                  "strong": true
-                },
-                {
-                  "text": " foto ou cópia antiga de certidão, RG, CPF, carteira de trabalho, cartão SUS ou qualquer papel com nome completo, filiação, data e cidade de nascimento."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificação:",
-                  "strong": true
-                },
-                {
-                  "text": " 12 de novembro de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Direitos e serviços do Centro Pop",
-                  "href": "https://www.gov.br/pt-br/servicos/acessar-centro-pop-centro-de-referencia-especializado-para-populacao-em-situacao-de-rua"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "endereco-de-referencia-e-correspondencia",
-          "name": "Endereço de referência e correspondência",
-          "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Endereço de referência:",
-                  "strong": true
-                },
-                {
-                  "text": " a norma nacional permite usar o endereço do Centro Pop para documentos e Cadastro Único. Confirme com a equipe como preencher cada cadastro."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Correspondência:",
-                  "strong": true
-                },
-                {
-                  "text": " não presuma que a unidade recebe ou guarda cartas. Peça autorização e combine nome, prazo e retirada antes de usar o endereço para correspondência, banco ou empregador."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificação:",
-                  "strong": true
-                },
-                {
-                  "text": " 12 de novembro de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Centro Pop — Ministério do Desenvolvimento Social",
-                  "href": "https://www.gov.br/mds/pt-br/acoes-e-programas/SUAS/original/unidades-de-atendimento/centro-de-referencia-especializado-para-pessoas-em-situacao-de-rua-centro-pop"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "acesso-digital",
-          "name": "Acesso digital",
-          "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Para GOV.BR, currículo ou Carteira de Trabalho Digital:",
-                  "strong": true
-                },
-                {
-                  "text": " pergunte ao Cads ou Sine se há computador, orientação ou recuperação de conta disponível."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Segurança:",
-                  "strong": true
-                },
-                {
-                  "text": " não entregue senha, código de SMS ou acesso bancário a desconhecidos. Saia da conta depois de usar computador compartilhado."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificação:",
-                  "strong": true
-                },
-                {
-                  "text": " 12 de novembro de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Carteira de Trabalho Digital",
-                  "href": "https://www.gov.br/trabalho-e-emprego/pt-br/servicos/trabalhador/carteira-de-trabalho"
-                }
-              ]
-            }
-          ]
+          "address": "Endereço: Avenida Camapuã, 2939, Cidade de Deus",
+          "phone": "+5592991400671",
+          "website": "https://www.manaus.am.gov.br/noticia/oportunidade/sine-manaus-oferta-880-vagas-de-emprego-nesta-terca-feira-8-9/",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
       "id": "legal",
-      "title": "9. Ajuda jurídica e direitos",
-      "items": [
+      "title": "Ajuda jurídica e direitos",
+      "entries": [
         {
-          "type": "resource",
           "id": "defensoria-publica-do-estado-do-amazonas",
-          "name": "Defensoria Pública do Estado do Amazonas",
+          "title": "Defensoria Pública do Estado do Amazonas",
+          "description": "Direito de atendimento: pessoas em situação de rua têm prioridade em todas as unidades, sem agendamento prévio. Falta de documento, comprovante de residência, roupa adequada ou higiene não pode impedir o atendimento.\nAjuda possível: documentação, benefícios, família, moradia, violência, discriminação e outras questões jurídicas para quem não pode pagar advogado, conforme critérios.\nAnimais e pertences: a política da Defensoria prevê permanência segura próxima durante o atendimento; avise a equipe ao chegar.\nÚltima verificação: 12 de novembro de 2026\nAtendimento prioritário — Defensoria do Amazonas",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Direito de atendimento:",
-                  "strong": true
-                },
-                {
-                  "text": " pessoas em situação de rua têm prioridade em todas as unidades, sem agendamento prévio. Falta de documento, comprovante de residência, roupa adequada ou higiene não pode impedir o atendimento."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ajuda possível:",
-                  "strong": true
-                },
-                {
-                  "text": " documentação, benefícios, família, moradia, violência, discriminação e outras questões jurídicas para quem não pode pagar advogado, conforme critérios."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Animais e pertences:",
-                  "strong": true
-                },
-                {
-                  "text": " a política da Defensoria prevê permanência segura próxima durante o atendimento; avise a equipe ao chegar."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Antes de ir:",
-                  "strong": true
-                },
-                {
-                  "text": " consulte a unidade atual no link ou peça encaminhamento no Centro Pop."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificação:",
-                  "strong": true
-                },
-                {
-                  "text": " 12 de novembro de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Atendimento prioritário — Defensoria do Amazonas",
-                  "href": "https://defensoria.am.def.br/2026/08/19/no-dia-nacional-de-luta-da-populacao-em-situacao-de-rua-defensoria-do-amazonas-reforca-atendimento-prioritario/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://defensoria.am.def.br/2026/08/19/no-dia-nacional-de-luta-da-populacao-em-situacao-de-rua-defensoria-do-amazonas-reforca-atendimento-prioritario/",
+          "hours": "",
+          "how_to_access": "Antes de ir: consulte a unidade atual no link ou peça encaminhamento no Centro Pop."
         },
         {
-          "type": "resource",
           "id": "popruajud-acoes-periodicas",
-          "name": "PopRuaJud — ações periódicas",
+          "title": "PopRuaJud — ações periódicas",
+          "description": "Serviço: mutirões reúnem Justiça, Defensoria e outros órgãos para documentos, processos, benefícios e orientações.\nImportante: não é atendimento diário. Pergunte no Centro Pop quando será a próxima ação e quais documentos levar.\nÚltima verificação: 12 de novembro de 2026\nPopRuaJud — Tribunal de Justiça do Amazonas",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Serviço:",
-                  "strong": true
-                },
-                {
-                  "text": " mutirões reúnem Justiça, Defensoria e outros órgãos para documentos, processos, benefícios e orientações."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Importante:",
-                  "strong": true
-                },
-                {
-                  "text": " não é atendimento diário. Pergunte no Centro Pop quando será a próxima ação e quais documentos levar."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificação:",
-                  "strong": true
-                },
-                {
-                  "text": " 12 de novembro de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "PopRuaJud — Tribunal de Justiça do Amazonas",
-                  "href": "https://www.tjam.jus.br/index.php/menu/sala-de-imprensa/16866-tjam-e-orgaos-parceiros-promovem-nova-acao-do-popruajud-nesta-terca-feira-com-previsao-de-atender-mais-de-300-pessoas-em-situacao-de-vulnerabilidade-social"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.tjam.jus.br/index.php/menu/sala-de-imprensa/16866-tjam-e-orgaos-parceiros-promovem-nova-acao-do-popruajud-nesta-terca-feira-com-previsao-de-atender-mais-de-300-pessoas-em-situacao-de-vulnerabilidade-social",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "disque-100-direitos-humanos",
-          "name": "Disque 100 — direitos humanos",
+          "title": "Disque 100 — direitos humanos",
+          "description": "Telefone: 100, gratuito, 24 horas.\nUse para: denunciar violência, discriminação, abuso, exploração ou recusa de direito contra pessoa em situação de rua, criança, adolescente, idoso, pessoa com deficiência ou população LGBTQIA+. Em perigo imediato, ligue 190.\nÚltima verificação: 12 de novembro de 2026\nOuvidoria Nacional de Direitos Humanos",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "100",
-                  "href": "tel:100"
-                },
-                {
-                  "text": ", gratuito, 24 horas."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Use para:",
-                  "strong": true
-                },
-                {
-                  "text": " denunciar violência, discriminação, abuso, exploração ou recusa de direito contra pessoa em situação de rua, criança, adolescente, idoso, pessoa com deficiência ou população LGBTQIA+. Em perigo imediato, ligue 190."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificação:",
-                  "strong": true
-                },
-                {
-                  "text": " 12 de novembro de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ouvidoria Nacional de Direitos Humanos",
-                  "href": "https://www.gov.br/mdh/pt-br/ondh/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "100",
+          "website": "https://www.gov.br/mdh/pt-br/ondh/",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
+    },
+    {
+      "id": "documents",
+      "title": "Documentos, correspondência e internet",
+      "entries": [
+        {
+          "id": "documentos-pelo-centro-pop-e-cads",
+          "title": "Documentos pelo Centro Pop e Cads",
+          "description": "Peça ajuda para: identificar quais documentos faltam, obter encaminhamento e resolver exigências de endereço. O primeiro atendimento não exige documento.\nLeve se tiver: foto ou cópia antiga de certidão, RG, CPF, carteira de trabalho, cartão SUS ou qualquer papel com nome completo, filiação, data e cidade de nascimento.\nÚltima verificação: 12 de novembro de 2026\nDireitos e serviços do Centro Pop",
+          "last_verified": "2026-11-12",
+          "address": "Endereço: Avenida Joaquim Nabuco, 144, Centro Histórico",
+          "phone": "",
+          "website": "https://www.gov.br/pt-br/servicos/acessar-centro-pop-centro-de-referencia-especializado-para-populacao-em-situacao-de-rua",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "endereco-de-referencia-e-correspondencia",
+          "title": "Endereço de referência e correspondência",
+          "description": "Endereço de referência: a norma nacional permite usar o endereço do Centro Pop para documentos e Cadastro Único. Confirme com a equipe como preencher cada cadastro.\nCorrespondência: não presuma que a unidade recebe ou guarda cartas. Peça autorização e combine nome, prazo e retirada antes de usar o endereço para correspondência, banco ou empregador.\nÚltima verificação: 12 de novembro de 2026\nCentro Pop — Ministério do Desenvolvimento Social",
+          "last_verified": "2026-11-12",
+          "address": "",
+          "phone": "",
+          "website": "https://www.gov.br/mds/pt-br/acoes-e-programas/SUAS/original/unidades-de-atendimento/centro-de-referencia-especializado-para-pessoas-em-situacao-de-rua-centro-pop",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "acesso-digital",
+          "title": "Acesso digital",
+          "description": "Para GOV.BR, currículo ou Carteira de Trabalho Digital: pergunte ao Cads ou Sine se há computador, orientação ou recuperação de conta disponível.\nSegurança: não entregue senha, código de SMS ou acesso bancário a desconhecidos. Saia da conta depois de usar computador compartilhado.\nÚltima verificação: 12 de novembro de 2026\nCarteira de Trabalho Digital",
+          "last_verified": "2026-11-12",
+          "address": "",
+          "phone": "",
+          "website": "https://www.gov.br/trabalho-e-emprego/pt-br/servicos/trabalhador/carteira-de-trabalho",
+          "hours": "",
+          "how_to_access": ""
+        }
+      ]
+    },
+    {
+      "id": "mail",
+      "title": "Mailing address",
+      "entries": []
+    },
+    {
+      "id": "storage",
+      "title": "Storage",
+      "entries": []
     },
     {
       "id": "safety",
-      "title": "10. Mulheres, crianças e pessoas em risco",
-      "items": [
+      "title": "Mulheres, crianças e pessoas em risco",
+      "entries": [
         {
-          "type": "resource",
           "id": "violencia-contra-a-mulher",
-          "name": "Violência contra a mulher",
+          "title": "Violência contra a mulher",
+          "description": "Central da Mulher: 180, gratuito, 24 horas; WhatsApp: (61) 9610-0180.\nPerigo imediato: 190.\nDelegacias Especializadas: (92) 3236-7012 ou (92) 3214-3653, com unidades no Parque Dez e na Colônia Oliveira Machado.\nAbrigo protegido: a Casa Ycamiabas atende mulheres e filhos em risco, por encaminhamento, com endereço sigiloso. Peça acesso pelo 180, Polícia, CREAS ou Centro Pop; a vaga depende de avaliação.\nÚltima verificação: 12 de novembro de 2026\nRede de proteção de Manaus",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Central da Mulher:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "180",
-                  "href": "tel:180"
-                },
-                {
-                  "text": ", gratuito, 24 horas; "
-                },
-                {
-                  "text": "WhatsApp:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(61) 9610-0180",
-                  "href": "tel:+556196100180"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Perigo imediato:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "190",
-                  "href": "tel:190"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Delegacias Especializadas:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(92) 3236-7012",
-                  "href": "tel:+559232367012"
-                },
-                {
-                  "text": " ou "
-                },
-                {
-                  "text": "(92) 3214-3653",
-                  "href": "tel:+559232143653"
-                },
-                {
-                  "text": ", com unidades no Parque Dez e na Colônia Oliveira Machado."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Abrigo protegido:",
-                  "strong": true
-                },
-                {
-                  "text": " a Casa Ycamiabas atende mulheres e filhos em risco, por encaminhamento, com endereço sigiloso. Peça acesso pelo 180, Polícia, CREAS ou Centro Pop; a vaga depende de avaliação."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificação:",
-                  "strong": true
-                },
-                {
-                  "text": " 12 de novembro de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Rede de proteção de Manaus",
-                  "href": "https://www.manaus.am.gov.br/proteger-vidas-e-um-dever-de-todos/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "180",
+          "website": "https://www.manaus.am.gov.br/proteger-vidas-e-um-dever-de-todos/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "criancas-e-adolescentes",
-          "name": "Crianças e adolescentes",
+          "title": "Crianças e adolescentes",
+          "description": "Direitos humanos: 100; perigo imediato: 190.\nDelegacia Especializada: (92) 3214-2288 / 3214-2289.\nSe estiver com filhos: informe isso no primeiro contato com a abordagem social e no Complexo Pop para procurar solução adequada à família. Não separe a família por conta própria sem orientação segura.\nÚltima verificação: 12 de novembro de 2026\nContatos de proteção",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Direitos humanos:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "100",
-                  "href": "tel:100"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "perigo imediato:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "190",
-                  "href": "tel:190"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Delegacia Especializada:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(92) 3214-2288",
-                  "href": "tel:+559232142288"
-                },
-                {
-                  "text": " / "
-                },
-                {
-                  "text": "3214-2289",
-                  "href": "tel:+559232142289"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Se estiver com filhos:",
-                  "strong": true
-                },
-                {
-                  "text": " informe isso no primeiro contato com a abordagem social e no Complexo Pop para procurar solução adequada à família. Não separe a família por conta própria sem orientação segura."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificação:",
-                  "strong": true
-                },
-                {
-                  "text": " 12 de novembro de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Contatos de proteção",
-                  "href": "https://www.manaus.am.gov.br/proteger-vidas-e-um-dever-de-todos/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "100",
+          "website": "https://www.manaus.am.gov.br/proteger-vidas-e-um-dever-de-todos/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "pessoas-idosas-e-pessoas-com-deficiencia",
-          "name": "Pessoas idosas e pessoas com deficiência",
+          "title": "Pessoas idosas e pessoas com deficiência",
+          "description": "Violência contra pessoa idosa — DECCI: (92) 98214-5800 / 3214-5800.\nDireitos da pessoa com deficiência — SEPcD: WhatsApp (92) 98424-6253; Rua Marquês de Quixeramobim, 210, Parque das Laranjeiras.\nDireitos humanos e PcD — Sejusc: (92) 98454-8684; Rua Bento Maciel, 2, Conjunto Celetramazon, Adrianópolis.\nÚltima verificação: 12 de novembro de 2026\nServiços especializados de proteção",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Violência contra pessoa idosa — DECCI:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(92) 98214-5800",
-                  "href": "tel:+5592982145800"
-                },
-                {
-                  "text": " / "
-                },
-                {
-                  "text": "3214-5800",
-                  "href": "tel:+559232145800"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Direitos da pessoa com deficiência — SEPcD:",
-                  "strong": true
-                },
-                {
-                  "text": " WhatsApp "
-                },
-                {
-                  "text": "(92) 98424-6253",
-                  "href": "tel:+5592984246253"
-                },
-                {
-                  "text": "; Rua Marquês de Quixeramobim, 210, Parque das Laranjeiras."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Direitos humanos e PcD — Sejusc:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(92) 98454-8684",
-                  "href": "tel:+5592984548684"
-                },
-                {
-                  "text": "; Rua Bento Maciel, 2, Conjunto Celetramazon, Adrianópolis."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificação:",
-                  "strong": true
-                },
-                {
-                  "text": " 12 de novembro de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Serviços especializados de proteção",
-                  "href": "https://www.manaus.am.gov.br/proteger-vidas-e-um-dever-de-todos/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+5592982145800",
+          "website": "https://www.manaus.am.gov.br/proteger-vidas-e-um-dever-de-todos/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "pessoas-migrantes-indigenas-e-lgbtqia",
-          "name": "Pessoas migrantes, indígenas e LGBTQIA+",
+          "title": "Pessoas migrantes, indígenas e LGBTQIA+",
+          "description": "Primeiro atendimento: procure o Centro Pop e diga se precisa de intérprete, regularização, proteção contra discriminação ou contato com rede especializada.\nAjuda jurídica: a política da Defensoria inclui atendimento desburocratizado e considera necessidades de migrantes, população LGBTQIA+, pessoas indígenas e outros grupos.\nDenúncia: 100; perigo imediato, 190.\nÚltima verificação: 12 de novembro de 2026\nPolítica de atendimento da Defensoria",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Primeiro atendimento:",
-                  "strong": true
-                },
-                {
-                  "text": " procure o Centro Pop e diga se precisa de intérprete, regularização, proteção contra discriminação ou contato com rede especializada."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ajuda jurídica:",
-                  "strong": true
-                },
-                {
-                  "text": " a política da Defensoria inclui atendimento desburocratizado e considera necessidades de migrantes, população LGBTQIA+, pessoas indígenas e outros grupos."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Denúncia:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "100",
-                  "href": "tel:100"
-                },
-                {
-                  "text": "; perigo imediato, "
-                },
-                {
-                  "text": "190",
-                  "href": "tel:190"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificação:",
-                  "strong": true
-                },
-                {
-                  "text": " 12 de novembro de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Política de atendimento da Defensoria",
-                  "href": "https://defensoria.am.def.br/2026/08/19/no-dia-nacional-de-luta-da-populacao-em-situacao-de-rua-defensoria-do-amazonas-reforca-atendimento-prioritario/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "100",
+          "website": "https://defensoria.am.def.br/2026/08/19/no-dia-nacional-de-luta-da-populacao-em-situacao-de-rua-defensoria-do-amazonas-reforca-atendimento-prioritario/",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
+    },
+    {
+      "id": "specialist-support",
+      "title": "Specialist support",
+      "entries": []
+    },
+    {
+      "id": "veterans",
+      "title": "Veterans support",
+      "entries": []
     },
     {
       "id": "pets",
-      "title": "11. Animais de estimação",
-      "items": [
+      "title": "Animais de estimação",
+      "entries": [
         {
-          "type": "resource",
           "id": "antes-de-pedir-acolhimento",
-          "name": "Antes de pedir acolhimento",
+          "title": "Antes de pedir acolhimento",
+          "description": "Avise logo no primeiro contato: diga espécie, tamanho, comportamento, vacinação e se tem guia ou caixa. Não há política pública confirmada que garanta entrada de animais na Casa de Passagem; peça à abordagem social ou ao Centro Pop uma solução que evite separação ou abandono.\nAjuda jurídica: a Defensoria informa que permite manter animal e pertences em local seguro e próximo durante o atendimento.\nÚltima verificação: 12 de novembro de 2026\nAtendimento com animais — Defensoria do Amazonas",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Avise logo no primeiro contato:",
-                  "strong": true
-                },
-                {
-                  "text": " diga espécie, tamanho, comportamento, vacinação e se tem guia ou caixa. Não há política pública confirmada que garanta entrada de animais na Casa de Passagem; peça à abordagem social ou ao Centro Pop uma solução que evite separação ou abandono."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ajuda jurídica:",
-                  "strong": true
-                },
-                {
-                  "text": " a Defensoria informa que permite manter animal e pertences em local seguro e próximo durante o atendimento."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificação:",
-                  "strong": true
-                },
-                {
-                  "text": " 12 de novembro de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Atendimento com animais — Defensoria do Amazonas",
-                  "href": "https://defensoria.am.def.br/2026/08/19/no-dia-nacional-de-luta-da-populacao-em-situacao-de-rua-defensoria-do-amazonas-reforca-atendimento-prioritario/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://defensoria.am.def.br/2026/08/19/no-dia-nacional-de-luta-da-populacao-em-situacao-de-rua-defensoria-do-amazonas-reforca-atendimento-prioritario/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "centro-de-controle-de-zoonoses-dr-carlos-durand",
-          "name": "Centro de Controle de Zoonoses Dr. Carlos Durand",
+          "title": "Centro de Controle de Zoonoses Dr. Carlos Durand",
+          "description": "WhatsApp: (92) 98842-8359; horário divulgado: segunda a sexta, 8h–16h.\nServiço: vacinação antirrábica gratuita na sede, sem agendamento. Castração exige cadastro e tem critérios próprios; peça ajuda ao Centro Pop se documentos ou endereço forem uma barreira.\nImportante: o CCZ não é abrigo para animais. Confirme o atendimento antes de ir.\nÚltima verificação: 12 de novembro de 2026\nVigilância de Zoonoses — SEMSA",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Endereço:",
-                  "strong": true
-                },
-                {
-                  "text": " Avenida Brasil, sem número, Compensa, ao lado do Caic"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "WhatsApp:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(92) 98842-8359",
-                  "href": "tel:+5592988428359"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "horário divulgado:",
-                  "strong": true
-                },
-                {
-                  "text": " segunda a sexta, 8h–16h."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Serviço:",
-                  "strong": true
-                },
-                {
-                  "text": " vacinação antirrábica gratuita na sede, sem agendamento. Castração exige cadastro e tem critérios próprios; peça ajuda ao Centro Pop se documentos ou endereço forem uma barreira."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Importante:",
-                  "strong": true
-                },
-                {
-                  "text": " o CCZ não é abrigo para animais. Confirme o atendimento antes de ir."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificação:",
-                  "strong": true
-                },
-                {
-                  "text": " 12 de novembro de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Vigilância de Zoonoses — SEMSA",
-                  "href": "https://www.manaus.am.gov.br/noticia/servico/vigilancia-de-zoonoses/"
-                }
-              ]
-            }
-          ]
+          "address": "Endereço: Avenida Brasil, sem número, Compensa, ao lado do Caic",
+          "phone": "+5592988428359",
+          "website": "https://www.manaus.am.gov.br/noticia/servico/vigilancia-de-zoonoses/",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
-      "id": "plano-pratico-para-hoje",
-      "title": "Plano prático para hoje",
-      "items": [
-        {
-          "type": "ordered-list",
-          "items": [
-            [
-              {
-                "text": "Se houver perigo, ligue 190, 192 ou 193."
-              }
-            ],
-            [
-              {
-                "text": "Se estiver longe do Centro, acione a abordagem social pelos números 0800 092 6644 ou 0800 092 1407."
-              }
-            ],
-            [
-              {
-                "text": "Durante a semana, vá cedo ao Complexo Pop, Avenida Joaquim Nabuco, 144."
-              }
-            ],
-            [
-              {
-                "text": "Peça uma avaliação completa: lugar seguro para dormir, refeição, banho, saúde, documentos, Cadastro Único e trabalho."
-              }
-            ],
-            [
-              {
-                "text": "Se não houver vaga, peça o nome do serviço procurado, nova data de tentativa e alternativa segura para aquela noite."
-              }
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "id": "verificacao-e-correcoes",
+      "id": "other",
       "title": "Verificação e correções",
-      "items": [
+      "entries": [
         {
-          "type": "paragraph",
-          "content": [
-            {
-              "text": "Esta página foi verificada em 12 de novembro de 2026 com fontes da Prefeitura de Manaus, Governo do Amazonas, Governo Federal, Defensoria Pública, Tribunal de Justiça e organizações responsáveis pelos serviços. Se encontrar endereço, telefone, horário ou condição diferente, veja "
-            },
-            {
-              "text": "como enviar uma correção",
-              "href": "../../CONTRIBUTING.md"
-            },
-            {
-              "text": "."
-            }
-          ]
+          "id": "verificacao-e-correcoes-information",
+          "title": "Verificação e correções",
+          "description": "Esta página foi verificada em 12 de novembro de 2026 com fontes da Prefeitura de Manaus, Governo do Amazonas, Governo Federal, Defensoria Pública, Tribunal de Justiça e organizações responsáveis pelos serviços. Se encontrar endereço, telefone, horário ou condição diferente, veja como enviar uma correção. — ../../CONTRIBUTING.md",
+          "last_verified": "2026-11-12",
+          "address": "",
+          "phone": "",
+          "website": "",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     }

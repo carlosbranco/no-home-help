@@ -1,6 +1,7 @@
 {
   "$schema": "https://nohomehelp.com/schemas/city.schema.json",
-  "schema_version": 1,
+  "documentation": "https://github.com/carlosbranco/no-home-help/blob/main/EDIT_CITY_JSON.md",
+  "schema_version": 2,
   "status": "published",
   "locale": {
     "language": "pt-BR",
@@ -26,2466 +27,692 @@
   "page": {
     "heading": "Fortaleza — ajuda para pessoas sem moradia",
     "last_verified": "2026-11-11",
-    "urgent": [
-      {
-        "type": "paragraph",
-        "content": [
-          {
-            "text": "Emergência médica — SAMU:",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "192",
-            "href": "tel:192"
-          },
-          {
-            "break": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "Polícia Militar:",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "190",
-            "href": "tel:190"
-          },
-          {
-            "text": "; "
-          },
-          {
-            "text": "Bombeiros:",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "193",
-            "href": "tel:193"
-          },
-          {
-            "break": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "Assistência e serviços municipais:",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "156",
-            "href": "tel:156"
-          },
-          {
-            "break": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "Direitos humanos:",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "100",
-            "href": "tel:100"
-          },
-          {
-            "text": "; "
-          },
-          {
-            "text": "violência contra a mulher:",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "180",
-            "href": "tel:180"
-          }
-        ]
-      }
-    ],
-    "notice": [
-      {
-        "text": "Vagas, horários, endereços e critérios podem mudar.",
-        "strong": true
-      },
-      {
-        "text": " Confirme antes de se deslocar. Nenhum serviço garante vaga, refeição, dinheiro, tratamento, benefício ou emprego no mesmo dia. Em risco imediato, ligue 190, 192 ou 193."
-      }
-    ],
-    "intro": [
-      {
-        "type": "paragraph",
-        "content": [
-          {
-            "text": "Ao pedir ajuda, diga onde você está, um ponto de referência, se tem um lugar seguro para esta noite, quando comeu pela última vez, se precisa de cuidados de saúde, se está com crianças ou animais e quais documentos possui. A falta de documentos não deve impedir a primeira orientação no Centro Pop. Para acolhimento, comece pelo Centro Pop ou pelo 156; a vaga depende da avaliação e da capacidade da rede."
-          }
-        ]
-      }
-    ],
-    "footer": [
-      {
-        "type": "paragraph",
-        "content": [
-          {
-            "text": "Verificado em 11 de novembro de 2026.",
-            "strong": true
-          },
-          {
-            "text": " Encontrou informação errada ou um serviço novo? "
-          },
-          {
-            "text": "Veja como contribuir",
-            "href": "../../CONTRIBUTING.md"
-          },
-          {
-            "text": " ou "
-          },
-          {
-            "text": "abra uma contribuição no GitHub",
-            "href": "https://github.com/carlosbranco/no-home-help"
-          },
-          {
-            "text": "."
-          }
-        ]
-      }
-    ]
+    "urgent": "Emergência médica — SAMU: 192 Polícia Militar: 190; Bombeiros: 193 Assistência e serviços municipais: 156 Direitos humanos: 100; violência contra a mulher: 180",
+    "notice": "Vagas, horários, endereços e critérios podem mudar. Confirme antes de se deslocar. Nenhum serviço garante vaga, refeição, dinheiro, tratamento, benefício ou emprego no mesmo dia. Em risco imediato, ligue 190, 192 ou 193.",
+    "intro": "Ao pedir ajuda, diga onde você está, um ponto de referência, se tem um lugar seguro para esta noite, quando comeu pela última vez, se precisa de cuidados de saúde, se está com crianças ou animais e quais documentos possui. A falta de documentos não deve impedir a primeira orientação no Centro Pop. Para acolhimento, comece pelo Centro Pop ou pelo 156; a vaga depende da avaliação e da capacidade da rede.",
+    "footer": "Verificado em 11 de novembro de 2026. Encontrou informação errada ou um serviço novo? Veja como contribuir ou abra uma contribuição no GitHub. — ../../CONTRIBUTING.md — https://github.com/carlosbranco/no-home-help"
   },
   "categories": [
     {
       "id": "emergency",
-      "title": "1. Emergência e orientação imediata",
-      "items": [
+      "title": "Emergência e orientação imediata",
+      "entries": [
         {
-          "type": "resource",
           "id": "samu-emergencia-medica",
-          "name": "SAMU — emergência médica",
+          "title": "SAMU — emergência médica",
+          "description": "Telefone gratuito: 192, 24 horas.\nLigue em caso de inconsciência, falta de ar, dor forte no peito, convulsão, sangramento grave, overdose, acidente ou outra urgência médica. Informe primeiro o local exato e um ponto de referência.\nSAMU 192 — Prefeitura de Fortaleza",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefone gratuito:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "192",
-                  "href": "tel:192"
-                },
-                {
-                  "text": ", 24 horas."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ligue em caso de inconsciência, falta de ar, dor forte no peito, convulsão, sangramento grave, overdose, acidente ou outra urgência médica. Informe primeiro o local exato e um ponto de referência."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "SAMU 192 — Prefeitura de Fortaleza",
-                  "href": "https://mapas.fortaleza.ce.gov.br/mapa/321/bases-do-samu"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "192",
+          "website": "https://mapas.fortaleza.ce.gov.br/mapa/321/bases-do-samu",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "policia-militar-e-corpo-de-bombeiros",
-          "name": "Polícia Militar e Corpo de Bombeiros",
+          "title": "Polícia Militar e Corpo de Bombeiros",
+          "description": "Polícia: 190; Bombeiros: 193.\nUse o 190 para violência, ameaça ou crime em andamento. Use o 193 para incêndio, resgate, afogamento, desabamento ou outro perigo grave. Para assistência social sem risco imediato, ligue 156.\nNúmeros nacionais de emergência",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Polícia:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "190",
-                  "href": "tel:190"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "Bombeiros:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "193",
-                  "href": "tel:193"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Use o 190 para violência, ameaça ou crime em andamento. Use o 193 para incêndio, resgate, afogamento, desabamento ou outro perigo grave. Para assistência social sem risco imediato, ligue 156."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Números nacionais de emergência",
-                  "href": "https://www.gov.br/mcom/pt-br/noticias/2026/setembro/emergencia-voce-sabe-para-quem-ligar-quando-precisa-de-ajuda"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "190",
+          "website": "https://www.gov.br/mcom/pt-br/noticias/2026/setembro/emergencia-voce-sabe-para-quem-ligar-quando-precisa-de-ajuda",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "central-156-servicos-e-assistencia-municipal",
-          "name": "Central 156 — serviços e assistência municipal",
+          "title": "Central 156 — serviços e assistência municipal",
+          "description": "Telefone: 156.\nPeça o endereço atualizado do Centro Pop, do espaço de higiene ou do serviço de acolhimento indicado para o seu perfil. Informe crianças, gravidez, deficiência, doença, risco de violência e animais antes de aceitar um encaminhamento.\nCatálogo de Serviços da Prefeitura",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "156",
-                  "href": "tel:156"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Peça o endereço atualizado do Centro Pop, do espaço de higiene ou do serviço de acolhimento indicado para o seu perfil. Informe crianças, gravidez, deficiência, doença, risco de violência e animais antes de aceitar um encaminhamento."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Catálogo de Serviços da Prefeitura",
-                  "href": "https://catalogodeservicos.fortaleza.ce.gov.br/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "156",
+          "website": "https://catalogodeservicos.fortaleza.ce.gov.br/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "disque-100-e-ligue-180",
-          "name": "Disque 100 e Ligue 180",
+          "title": "Disque 100 e Ligue 180",
+          "description": "Direitos humanos: 100; violência contra a mulher: 180.\nUse o Disque 100 para denunciar violência, discriminação, exploração ou violação de direitos contra pessoas em situação de rua, crianças, idosos, pessoas com deficiência ou pessoas LGBTQIA+. O 180 orienta mulheres em situação de violência. Em perigo agora, ligue 190.\nOuvidoria Nacional de Direitos Humanos",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Direitos humanos:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "100",
-                  "href": "tel:100"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "violência contra a mulher:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "180",
-                  "href": "tel:180"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Use o Disque 100 para denunciar violência, discriminação, exploração ou violação de direitos contra pessoas em situação de rua, crianças, idosos, pessoas com deficiência ou pessoas LGBTQIA+. O 180 orienta mulheres em situação de violência. Em perigo agora, ligue 190."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ouvidoria Nacional de Direitos Humanos",
-                  "href": "https://www.gov.br/mdh/pt-br/ondh/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "100",
+          "website": "https://www.gov.br/mdh/pt-br/ondh/",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
       "id": "shelter",
-      "title": "2. Acolhimento e apoio na rua",
-      "items": [
+      "title": "Acolhimento e apoio na rua",
+      "entries": [
         {
-          "type": "resource",
           "id": "centro-pop-benfica",
-          "name": "Centro Pop Benfica",
+          "title": "Centro Pop Benfica",
+          "description": "Horário publicado: segunda a sexta, 8h–17h.\nAtendimento gratuito para adultos em situação de rua, com escuta, acompanhamento social e psicológico, orientação jurídica e encaminhamentos para documentos, CadÚnico, BPC, saúde e acolhimento. A unidade não garante uma cama no mesmo dia.\nCentro Pop Benfica — Prefeitura, 2026",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Endereço:",
-                  "strong": true
-                },
-                {
-                  "text": " Avenida João Pessoa, 4180, Benfica/Damas"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Horário publicado:",
-                  "strong": true
-                },
-                {
-                  "text": " segunda a sexta, 8h–17h."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Atendimento gratuito para adultos em situação de rua, com escuta, acompanhamento social e psicológico, orientação jurídica e encaminhamentos para documentos, CadÚnico, BPC, saúde e acolhimento. A unidade não garante uma cama no mesmo dia."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Centro Pop Benfica — Prefeitura, 2026",
-                  "href": "https://www.fortaleza.ce.gov.br/noticias/com-capacidade-para-110-mil-atendimentos-prefeitura-entrega-requalificacao-do-centro-pop-benfica-nesta-sexta-feira-22-5"
-                }
-              ]
-            }
-          ]
+          "address": "Endereço: Avenida João Pessoa, 4180, Benfica/Damas",
+          "phone": "",
+          "website": "https://www.fortaleza.ce.gov.br/noticias/com-capacidade-para-110-mil-atendimentos-prefeitura-entrega-requalificacao-do-centro-pop-benfica-nesta-sexta-feira-22-5",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "centro-pop-centro-sede-provisoria",
-          "name": "Centro Pop Centro — sede provisória",
+          "title": "Centro Pop Centro — sede provisória",
+          "description": "Oferece atendimento especializado, higiene, lavanderia, alimentação, documentos, benefícios e encaminhamento para a rede. A sede definitiva prevista é na Rua Antônio Pompeu, 941, mas a mudança ainda não estava concluída nesta verificação.\nMudança do Centro Pop Centro — MPCE",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Endereço provisório informado:",
-                  "strong": true
-                },
-                {
-                  "text": " Rua Major Facundo, 1395, Centro"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Antes de ir:",
-                  "strong": true
-                },
-                {
-                  "text": " confirme o endereço e o horário pelo "
-                },
-                {
-                  "text": "156",
-                  "href": "tel:156"
-                },
-                {
-                  "text": ". A unidade saiu da Rua Jaime Benévolo, 1059, em julho de 2026; não use o endereço antigo."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Oferece atendimento especializado, higiene, lavanderia, alimentação, documentos, benefícios e encaminhamento para a rede. A sede definitiva prevista é na Rua Antônio Pompeu, 941, mas a mudança ainda não estava concluída nesta verificação."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Mudança do Centro Pop Centro — MPCE",
-                  "href": "https://mpce.mp.br/mp-aciona-justica-para-que-prefeitura-garanta-funcionamento-de-unidade-de-atendimento-a-pessoas-em-situacao-de-rua-no-centro-de-fortaleza/"
-                }
-              ]
-            }
-          ]
+          "address": "Endereço provisório informado: Rua Major Facundo, 1395, Centro",
+          "phone": "156",
+          "website": "https://mpce.mp.br/mp-aciona-justica-para-que-prefeitura-garanta-funcionamento-de-unidade-de-atendimento-a-pessoas-em-situacao-de-rua-no-centro-de-fortaleza/",
+          "hours": "",
+          "how_to_access": "Antes de ir: confirme o endereço e o horário pelo 156. A unidade saiu da Rua Jaime Benévolo, 1059, em julho de 2026; não use o endereço antigo."
         },
         {
-          "type": "resource",
           "id": "abrigos-casa-de-passagem-e-pousadas-sociais",
-          "name": "Abrigos, Casa de Passagem e Pousadas Sociais",
+          "title": "Abrigos, Casa de Passagem e Pousadas Sociais",
+          "description": "A rede municipal possui modalidades diferentes para homens, mulheres, famílias e pessoas em trânsito. Abrigos e Casa de Passagem funcionam por avaliação e regulação de vagas. Horários, capacidade e perfil podem mudar; não viaje diretamente para uma unidade sem confirmar o encaminhamento.\nRede de acolhimento — Prefeitura",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Acesso:",
-                  "strong": true
-                },
-                {
-                  "text": " procure um Centro Pop, o Centro de Convivência ou ligue "
-                },
-                {
-                  "text": "156",
-                  "href": "tel:156"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "A rede municipal possui modalidades diferentes para homens, mulheres, famílias e pessoas em trânsito. Abrigos e Casa de Passagem funcionam por avaliação e regulação de vagas. Horários, capacidade e perfil podem mudar; não viaje diretamente para uma unidade sem confirmar o encaminhamento."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Rede de acolhimento — Prefeitura",
-                  "href": "https://www.fortaleza.ce.gov.br/noticias/prefeito-anuncia-pacote-de-acoes-emergenciais-para-a-populacao-em-situacao-de-rua-da-capital"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "156",
+          "website": "https://www.fortaleza.ce.gov.br/noticias/prefeito-anuncia-pacote-de-acoes-emergenciais-para-a-populacao-em-situacao-de-rua-da-capital",
+          "hours": "",
+          "how_to_access": "Acesso: procure um Centro Pop, o Centro de Convivência ou ligue 156."
         },
         {
-          "type": "resource",
           "id": "pousada-social-pernoite",
-          "name": "Pousada Social — pernoite",
+          "title": "Pousada Social — pernoite",
+          "description": "As Pousadas Sociais foram criadas para pernoite, higiene, guarda de pertences, ceia e orientação social. A Prefeitura publicou funcionamento noturno e procura espontânea, mas a informação detalhada disponível é antiga.\nFaça assim: pergunte ao Centro Pop ou ao 156 qual pousada está funcionando hoje, o horário de entrada e se há vaga. Uma indicação não reserva cama.\nComo funciona a Pousada Social — Prefeitura",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "As Pousadas Sociais foram criadas para pernoite, higiene, guarda de pertences, ceia e orientação social. A Prefeitura publicou funcionamento noturno e procura espontânea, mas a informação detalhada disponível é antiga."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Faça assim:",
-                  "strong": true
-                },
-                {
-                  "text": " pergunte ao Centro Pop ou ao 156 qual pousada está funcionando hoje, o horário de entrada e se há vaga. Uma indicação não reserva cama."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Como funciona a Pousada Social — Prefeitura",
-                  "href": "https://www.fortaleza.ce.gov.br/noticias/prefeito-roberto-claudio-inaugura-nova-pousada-social-para-populacao-em-situacao-de-rua"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.fortaleza.ce.gov.br/noticias/prefeito-roberto-claudio-inaugura-nova-pousada-social-para-populacao-em-situacao-de-rua",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "centro-de-convivencia-para-populacao-em-situacao-de-rua",
-          "name": "Centro de Convivência para População em Situação de Rua",
+          "title": "Centro de Convivência para População em Situação de Rua",
+          "description": "Telefone publicado: (85) 98880-3061. Confirme endereço e horário pelo 156 antes de ir.\nEspaço de convivência com alimentação, banho, lavanderia, atividades, encaminhamentos e cursos de qualificação. A última grade municipal encontrada indicava atendimento durante a semana e parte do fim de semana, mas pode ter mudado.\nCentro de Convivência — Prefeitura",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Último endereço municipal publicado:",
-                  "strong": true
-                },
-                {
-                  "text": " Avenida Dom Manuel, 720, Centro"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefone publicado:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(85) 98880-3061",
-                  "href": "tel:+5585988803061"
-                },
-                {
-                  "text": ". Confirme endereço e horário pelo 156 antes de ir."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Espaço de convivência com alimentação, banho, lavanderia, atividades, encaminhamentos e cursos de qualificação. A última grade municipal encontrada indicava atendimento durante a semana e parte do fim de semana, mas pode ter mudado."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Centro de Convivência — Prefeitura",
-                  "href": "https://www.fortaleza.ce.gov.br/noticias/centro-de-convivencia-para-pessoas-em-situacao-de-rua-realiza-cursos-de-qualificacao-profissional"
-                }
-              ]
-            }
-          ]
+          "address": "Último endereço municipal publicado: Avenida Dom Manuel, 720, Centro",
+          "phone": "+5585988803061",
+          "website": "https://www.fortaleza.ce.gov.br/noticias/centro-de-convivencia-para-pessoas-em-situacao-de-rua-realiza-cursos-de-qualificacao-profissional",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "quando-nao-houver-vaga",
-          "name": "Quando não houver vaga",
+          "title": "Quando não houver vaga",
+          "description": "Peça ao profissional uma alternativa concreta, o nome do serviço e como chegar. Explique qualquer risco por doença, gravidez, deficiência, violência, idade, crianças ou animal. Anote horário, local e orientação recebida.\nSe a situação se tornar uma emergência médica, incêndio ou ameaça imediata, use 192, 193 ou 190. Para registrar falha ou falta de atendimento, use o 156 ou o Disque 100.\nSuperação da Situação de Rua — Fortaleza Inclusiva",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Peça ao profissional uma alternativa concreta, o nome do serviço e como chegar. Explique qualquer risco por doença, gravidez, deficiência, violência, idade, crianças ou animal. Anote horário, local e orientação recebida."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Se a situação se tornar uma emergência médica, incêndio ou ameaça imediata, use 192, 193 ou 190. Para registrar falha ou falta de atendimento, use o 156 ou o Disque 100."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Superação da Situação de Rua — Fortaleza Inclusiva",
-                  "href": "https://fortalezainclusiva.fortaleza.ce.gov.br/situacaoderua.php"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://fortalezainclusiva.fortaleza.ce.gov.br/situacaoderua.php",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
       "id": "food",
-      "title": "3. Alimentação e organizações religiosas",
-      "items": [
+      "title": "Alimentação e organizações religiosas",
+      "entries": [
         {
-          "type": "resource",
           "id": "refeitorio-social",
-          "name": "Refeitório Social",
+          "title": "Refeitório Social",
+          "description": "Horários publicados: almoço às 11h e sopa às 16h. Chegue antes e confirme pelo 156, porque a distribuição é limitada.\nO serviço atende pessoas em situação de rua; a Prefeitura informa que o cadastro e o acompanhamento pelos Centros Pop fazem parte do fluxo.\nRefeitório Social — Prefeitura",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Endereço:",
-                  "strong": true
-                },
-                {
-                  "text": " Rua Padre Mororó, 686, Centro"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Horários publicados:",
-                  "strong": true
-                },
-                {
-                  "text": " almoço às 11h e sopa às 16h. Chegue antes e confirme pelo 156, porque a distribuição é limitada."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "O serviço atende pessoas em situação de rua; a Prefeitura informa que o cadastro e o acompanhamento pelos Centros Pop fazem parte do fluxo."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Refeitório Social — Prefeitura",
-                  "href": "https://fortaleza.ce.gov.br/noticias/refeitorio-social-para-pessoas-em-situacao-de-rua-reinicia-sistema-de-bandejao"
-                }
-              ]
-            }
-          ]
+          "address": "Endereço: Rua Padre Mororó, 686, Centro",
+          "phone": "",
+          "website": "https://fortaleza.ce.gov.br/noticias/refeitorio-social-para-pessoas-em-situacao-de-rua-reinicia-sistema-de-bandejao",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "fortaleza-sem-fome",
-          "name": "Fortaleza Sem Fome",
+          "title": "Fortaleza Sem Fome",
+          "description": "Programa municipal de distribuição de sopa para pessoas em vulnerabilidade, incluindo pessoas em situação de rua e famílias acompanhadas pela assistência social.\nComo encontrar o ponto atual: pergunte no Centro Pop, CRAS ou pelo 156. Os locais e dias de distribuição podem mudar; não há refeição garantida depois que a cota termina.\nFortaleza Sem Fome — Prefeitura",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Programa municipal de distribuição de sopa para pessoas em vulnerabilidade, incluindo pessoas em situação de rua e famílias acompanhadas pela assistência social."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Como encontrar o ponto atual:",
-                  "strong": true
-                },
-                {
-                  "text": " pergunte no Centro Pop, CRAS ou pelo 156. Os locais e dias de distribuição podem mudar; não há refeição garantida depois que a cota termina."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Fortaleza Sem Fome — Prefeitura",
-                  "href": "https://fortalezainclusiva.fortaleza.ce.gov.br/fortalezasemfome"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://fortalezainclusiva.fortaleza.ce.gov.br/fortalezasemfome",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "restaurante-popular",
-          "name": "Restaurante Popular",
+          "title": "Restaurante Popular",
+          "description": "A Prefeitura informou a entrega de um novo Restaurante Popular em dezembro de 2025, com refeições de baixo custo. O resultado da pesquisa não apresentou endereço e horário atuais suficientemente claros.\nRede alimentar e Centro Pop — Prefeitura",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "A Prefeitura informou a entrega de um novo Restaurante Popular em dezembro de 2025, com refeições de baixo custo. O resultado da pesquisa não apresentou endereço e horário atuais suficientemente claros."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Antes de ir:",
-                  "strong": true
-                },
-                {
-                  "text": " ligue 156 e peça endereço, preço, horário e documentos necessários. Não confunda com listas antigas de restaurantes desativados ou transferidos."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Rede alimentar e Centro Pop — Prefeitura",
-                  "href": "https://fortaleza.ce.gov.br/noticias/prefeitura-de-fortaleza-entrega-requalificacao-do-centro-pop-benfica"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://fortaleza.ce.gov.br/noticias/prefeitura-de-fortaleza-entrega-requalificacao-do-centro-pop-benfica",
+          "hours": "",
+          "how_to_access": "Antes de ir: ligue 156 e peça endereço, preço, horário e documentos necessários. Não confunda com listas antigas de restaurantes desativados ou transferidos."
         },
         {
-          "type": "resource",
           "id": "casa-da-sopa-grupo-espirita-casa-da-sopa",
-          "name": "Casa da Sopa — Grupo Espírita Casa da Sopa",
+          "title": "Casa da Sopa — Grupo Espírita Casa da Sopa",
+          "description": "Telefone: (85) 98704-4879.\nOrganização espírita que atende pessoas em situação de rua com alimentação, água, higiene, roupa e ações de cidadania. Ligue antes para confirmar o dia e o horário da entrega. O cadastro estadual informa respeito a diferentes espiritualidades, gêneros e orientações.\nCasa da Sopa — Mapa de Políticas Públicas do Ceará",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Endereço:",
-                  "strong": true
-                },
-                {
-                  "text": " Rua da Assunção, 431, Centro"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(85) 98704-4879",
-                  "href": "tel:+5585987044879"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Organização espírita que atende pessoas em situação de rua com alimentação, água, higiene, roupa e ações de cidadania. Ligue antes para confirmar o dia e o horário da entrega. O cadastro estadual informa respeito a diferentes espiritualidades, gêneros e orientações."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Casa da Sopa — Mapa de Políticas Públicas do Ceará",
-                  "href": "https://politicaspublicas.casacivil.ce.gov.br/agente/108862/"
-                }
-              ]
-            }
-          ]
+          "address": "Endereço: Rua da Assunção, 431, Centro",
+          "phone": "+5585987044879",
+          "website": "https://politicaspublicas.casacivil.ce.gov.br/agente/108862/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "pastoral-do-povo-da-rua-casa-dom-luciano",
-          "name": "Pastoral do Povo da Rua — Casa Dom Luciano",
+          "title": "Pastoral do Povo da Rua — Casa Dom Luciano",
+          "description": "Telefone: (85) 3388-8706.\nA pastoral católica publicou atendimento e apoio a pessoas em situação de rua. O endereço e o horário disponíveis são antigos; telefone antes para saber se o serviço continua no local e o que está sendo oferecido no dia.\nPastoral do Povo da Rua — Arquidiocese",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Endereço publicado:",
-                  "strong": true
-                },
-                {
-                  "text": " Rua Coronel Ferraz, 222, Centro"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(85) 3388-8706",
-                  "href": "tel:+558533888706"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "A pastoral católica publicou atendimento e apoio a pessoas em situação de rua. O endereço e o horário disponíveis são antigos; telefone antes para saber se o serviço continua no local e o que está sendo oferecido no dia."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Pastoral do Povo da Rua — Arquidiocese",
-                  "href": "https://www.arquidiocesedefortaleza.org.br/pastoral-do-povo-da-rua-da-arquidiocese-de-fortaleza-reinicia-atendimentos/"
-                }
-              ]
-            }
-          ]
+          "address": "Endereço publicado: Rua Coronel Ferraz, 222, Centro",
+          "phone": "+558533888706",
+          "website": "https://www.arquidiocesedefortaleza.org.br/pastoral-do-povo-da-rua-da-arquidiocese-de-fortaleza-reinicia-atendimentos/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "centro-pop-e-centro-de-convivencia-alimentacao",
-          "name": "Centro Pop e Centro de Convivência — alimentação",
+          "title": "Centro Pop e Centro de Convivência — alimentação",
+          "description": "Os equipamentos municipais publicam oferta de alimentação junto com atendimento social, higiene e encaminhamentos. A quantidade e o horário dependem da unidade.\nChegue cedo, pergunte qual refeição será servida e peça outra opção próxima se a distribuição já tiver terminado.\nRede municipal de refeições — Prefeitura",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Os equipamentos municipais publicam oferta de alimentação junto com atendimento social, higiene e encaminhamentos. A quantidade e o horário dependem da unidade."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Chegue cedo, pergunte qual refeição será servida e peça outra opção próxima se a distribuição já tiver terminado."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Rede municipal de refeições — Prefeitura",
-                  "href": "https://www.fortaleza.ce.gov.br/noticias/prefeitura-fornece-cerca-de-145-mil-refeicoes-por-mes-para-a-populacao-em-situacao-de-vulnerabilidade-social"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.fortaleza.ce.gov.br/noticias/prefeitura-fornece-cerca-de-145-mil-refeicoes-por-mes-para-a-populacao-em-situacao-de-vulnerabilidade-social",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
-      "id": "basic",
-      "title": "4. Banho, roupa, banheiro e internet",
-      "items": [
+      "id": "community",
+      "title": "Community and religious help",
+      "entries": []
+    },
+    {
+      "id": "hygiene",
+      "title": "Banho, roupa, banheiro e internet",
+      "entries": [
         {
-          "type": "resource",
           "id": "espaco-de-higiene-cidada-dom-manuel",
-          "name": "Espaço de Higiene Cidadã — Dom Manuel",
+          "title": "Espaço de Higiene Cidadã — Dom Manuel",
+          "description": "Banho, higiene bucal, lavagem de roupa, água e alimentação. Uma publicação municipal indicava atendimento durante a semana e horário ampliado em fins de semana, mas confirme o funcionamento atual pelo 156.\nEspaços de Higiene Cidadã — Prefeitura",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Endereço publicado:",
-                  "strong": true
-                },
-                {
-                  "text": " Avenida Dom Manuel, 1250, Centro"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Banho, higiene bucal, lavagem de roupa, água e alimentação. Uma publicação municipal indicava atendimento durante a semana e horário ampliado em fins de semana, mas confirme o funcionamento atual pelo 156."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Espaços de Higiene Cidadã — Prefeitura",
-                  "href": "https://fortaleza.ce.gov.br/noticias/espacos-de-higiene-cidada-atendem-cerca-de-400-pessoas-por-dia"
-                }
-              ]
-            }
-          ]
+          "address": "Endereço publicado: Avenida Dom Manuel, 1250, Centro",
+          "phone": "",
+          "website": "https://fortaleza.ce.gov.br/noticias/espacos-de-higiene-cidada-atendem-cerca-de-400-pessoas-por-dia",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "espaco-de-higiene-cidada-parangaba",
-          "name": "Espaço de Higiene Cidadã — Parangaba",
+          "title": "Espaço de Higiene Cidadã — Parangaba",
+          "description": "Atenção: publicações municipais apresentam endereços diferentes para a unidade de Parangaba. Um edital mais recente cita Rua do Giro, 60; uma notícia anterior cita Rua Pedro II, 100.\nNão se desloque sem ligar 156 e confirmar o endereço que está funcionando. Pergunte também pelo horário de banho, lavanderia e refeição.\nEndereços em edital municipal",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Atenção:",
-                  "strong": true
-                },
-                {
-                  "text": " publicações municipais apresentam endereços diferentes para a unidade de Parangaba. Um edital mais recente cita Rua do Giro, 60; uma notícia anterior cita Rua Pedro II, 100."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Não se desloque sem ligar "
-                },
-                {
-                  "text": "156",
-                  "href": "tel:156"
-                },
-                {
-                  "text": " e confirmar o endereço que está funcionando. Pergunte também pelo horário de banho, lavanderia e refeição."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Endereços em edital municipal",
-                  "href": "https://desenvolvimentosocial.fortaleza.ce.gov.br/images/51944_-_CH.P_CPL_009_2023_-_ED._9378_-_DEFINITIVO_2_3_compressed_1.pdf"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "156",
+          "website": "https://desenvolvimentosocial.fortaleza.ce.gov.br/images/51944_-_CH.P_CPL_009_2023_-_ED._9378_-_DEFINITIVO_2_3_compressed_1.pdf",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "banho-e-lavanderia-nos-centros-pop",
-          "name": "Banho e lavanderia nos Centros Pop",
+          "title": "Banho e lavanderia nos Centros Pop",
+          "description": "Os Centros Pop publicam oferta de banho, kits de higiene, lavagem de roupa e apoio social. Compareça durante o horário de atendimento e pergunte pelas regras de uso e pela disponibilidade no dia.\nSe precisar guardar documentos ou pertences, pergunte diretamente; não deixe nada sem receber comprovante e entender por quanto tempo será guardado.\nServiços dos Centros Pop — Prefeitura",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Os Centros Pop publicam oferta de banho, kits de higiene, lavagem de roupa e apoio social. Compareça durante o horário de atendimento e pergunte pelas regras de uso e pela disponibilidade no dia."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Se precisar guardar documentos ou pertences, pergunte diretamente; não deixe nada sem receber comprovante e entender por quanto tempo será guardado."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Serviços dos Centros Pop — Prefeitura",
-                  "href": "https://www.fortaleza.ce.gov.br/noticias/centro-pop-realiza-atendimento-socioassistencial-para-pessoas-em-situacao-de-rua"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.fortaleza.ce.gov.br/noticias/centro-pop-realiza-atendimento-socioassistencial-para-pessoas-em-situacao-de-rua",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "banho-roupa-e-lavanderia-no-centro-de-convivencia",
-          "name": "Banho, roupa e lavanderia no Centro de Convivência",
+          "title": "Banho, roupa e lavanderia no Centro de Convivência",
+          "description": "O Centro de Convivência publicou atendimento com banho, lavanderia, roupa, alimentação e atividades. Confirme endereço e horário pelo 156 ou pelo telefone (85) 98880-3061.\nSe uma máquina ou serviço estiver indisponível, peça indicação do Espaço de Higiene Cidadã mais próximo.\nCentro de Convivência — entidade operadora",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "O Centro de Convivência publicou atendimento com banho, lavanderia, roupa, alimentação e atividades. Confirme endereço e horário pelo 156 ou pelo telefone "
-                },
-                {
-                  "text": "(85) 98880-3061",
-                  "href": "tel:+5585988803061"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Se uma máquina ou serviço estiver indisponível, peça indicação do Espaço de Higiene Cidadã mais próximo."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Centro de Convivência — entidade operadora",
-                  "href": "https://www.institutomariadahora.org.br/centro-de-conviv%C3%AAncia-para-popula%C3%A7%C3%A3o-de-rua"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+5585988803061",
+          "website": "https://www.institutomariadahora.org.br/centro-de-conviv%C3%AAncia-para-popula%C3%A7%C3%A3o-de-rua",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "wi-fi-publico-gratuito",
-          "name": "Wi-Fi público gratuito",
+          "title": "Wi-Fi público gratuito",
+          "description": "A rede municipal oferece Wi-Fi em praças, terminais e outros espaços públicos. Pontos historicamente publicados no Centro incluem Praça do Ferreira, Praça José de Alencar e Praça da Estação.\nA conexão pode exigir cadastro com e-mail; existe também acesso curto e restrito sem autenticação para tarefas básicas. Não envie documentos pessoais por uma rede pública sem necessidade.\nWi-Fi público de Fortaleza",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "A rede municipal oferece Wi-Fi em praças, terminais e outros espaços públicos. Pontos historicamente publicados no Centro incluem Praça do Ferreira, Praça José de Alencar e Praça da Estação."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "A conexão pode exigir cadastro com e-mail; existe também acesso curto e restrito sem autenticação para tarefas básicas. Não envie documentos pessoais por uma rede pública sem necessidade."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Wi-Fi público de Fortaleza",
-                  "href": "https://wifi.fortaleza.ce.gov.br/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://wifi.fortaleza.ce.gov.br/",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
+    },
+    {
+      "id": "clothing",
+      "title": "Clothing",
+      "entries": []
     },
     {
       "id": "health",
-      "title": "5. Saúde, saúde mental e drogas",
-      "items": [
+      "title": "Saúde, saúde mental e drogas",
+      "entries": [
         {
-          "type": "resource",
           "id": "consultorio-na-rua",
-          "name": "Consultório na Rua",
+          "title": "Consultório na Rua",
+          "description": "Equipes móveis do SUS oferecem atendimento médico e de enfermagem, psicologia, serviço social, vacinação, testes rápidos, curativos, medicamentos e encaminhamentos.\nConsultório na Rua — Prefeitura",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Equipes móveis do SUS oferecem atendimento médico e de enfermagem, psicologia, serviço social, vacinação, testes rápidos, curativos, medicamentos e encaminhamentos."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Como encontrar:",
-                  "strong": true
-                },
-                {
-                  "text": " o calendário semanal é divulgado em Centros Pop, Centro de Convivência, Pousadas Sociais, restaurantes populares e Espaços de Higiene Cidadã. Pergunte no equipamento mais próximo ou pelo 156."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Consultório na Rua — Prefeitura",
-                  "href": "https://fortaleza.ce.gov.br/noticias/apos-ampliacao-consultorio-na-rua-realizou-mais-de-200-mil-atendimentos-com-equipe-multidisciplinar-em-fortaleza"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://fortaleza.ce.gov.br/noticias/apos-ampliacao-consultorio-na-rua-realizou-mais-de-200-mil-atendimentos-com-equipe-multidisciplinar-em-fortaleza",
+          "hours": "",
+          "how_to_access": "Como encontrar: o calendário semanal é divulgado em Centros Pop, Centro de Convivência, Pousadas Sociais, restaurantes populares e Espaços de Higiene Cidadã. Pergunte no equipamento mais próximo ou pelo 156."
         },
         {
-          "type": "resource",
           "id": "unidades-de-atencao-primaria-a-saude-postos-de-saude",
-          "name": "Unidades de Atenção Primária à Saúde — postos de saúde",
+          "title": "Unidades de Atenção Primária à Saúde — postos de saúde",
+          "description": "Use o mapa municipal atualizado para encontrar a UAPS mais próxima. Procure atendimento para feridas, infecções, medicação contínua, vacinação, testes e encaminhamento.\nEm falta de ar, inconsciência, dor forte no peito, overdose ou sangramento grave, não espere pelo posto: ligue 192.\nMapa atualizado das UAPS",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Use o mapa municipal atualizado para encontrar a UAPS mais próxima. Procure atendimento para feridas, infecções, medicação contínua, vacinação, testes e encaminhamento."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Em falta de ar, inconsciência, dor forte no peito, overdose ou sangramento grave, não espere pelo posto: ligue 192."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Mapa atualizado das UAPS",
-                  "href": "https://mapas.fortaleza.ce.gov.br/mapa/824/unidades-de-atencao-primaria-a-saude-uaps"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://mapas.fortaleza.ce.gov.br/mapa/824/unidades-de-atencao-primaria-a-saude-uaps",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "caps-crise-de-saude-mental",
-          "name": "CAPS — crise de saúde mental",
+          "title": "CAPS — crise de saúde mental",
+          "description": "Os Centros de Atenção Psicossocial atendem sofrimento mental intenso. Fortaleza possui unidades gerais, para álcool e outras drogas e para crianças e adolescentes.\nAbra o mapa para escolher a unidade pelo tipo e território. Em risco imediato de morte, tentativa de suicídio, inconsciência ou overdose, ligue 192.\nMapa atualizado dos CAPS",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Os Centros de Atenção Psicossocial atendem sofrimento mental intenso. Fortaleza possui unidades gerais, para álcool e outras drogas e para crianças e adolescentes."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Abra o mapa para escolher a unidade pelo tipo e território. Em risco imediato de morte, tentativa de suicídio, inconsciência ou overdose, ligue 192."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Mapa atualizado dos CAPS",
-                  "href": "https://mapas.fortaleza.ce.gov.br/mapa/11/caps-centros-de-assistencia-psicossocial"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://mapas.fortaleza.ce.gov.br/mapa/11/caps-centros-de-assistencia-psicossocial",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "orientacao-sobre-alcool-e-outras-drogas",
-          "name": "Orientação sobre álcool e outras drogas",
+          "title": "Orientação sobre álcool e outras drogas",
+          "description": "Central publicada: 0800 032 1472, gratuita e confidencial.\nA Prefeitura publicou funcionamento 24 horas para orientação e busca de tratamento. A notícia é anterior a 2026; se a chamada não completar, procure um CAPS AD pelo mapa municipal ou peça ajuda ao Consultório na Rua.\nCentral sobre drogas — Prefeitura",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Central publicada:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "0800 032 1472",
-                  "href": "tel:08000321472"
-                },
-                {
-                  "text": ", gratuita e confidencial."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "A Prefeitura publicou funcionamento 24 horas para orientação e busca de tratamento. A notícia é anterior a 2026; se a chamada não completar, procure um CAPS AD pelo mapa municipal ou peça ajuda ao Consultório na Rua."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Central sobre drogas — Prefeitura",
-                  "href": "https://www.fortaleza.ce.gov.br/noticias/cpdrogas-disponibiliza-central-telefonica-para-o-atendimento-de-usuarios-em-busca-de-tratamento"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "08000321472",
+          "website": "https://www.fortaleza.ce.gov.br/noticias/cpdrogas-disponibiliza-central-telefonica-para-o-atendimento-de-usuarios-em-busca-de-tratamento",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "saude-bucal-na-rua",
-          "name": "Saúde bucal na rua",
+          "title": "Saúde bucal na rua",
+          "description": "A Prefeitura realiza atendimento odontológico ligado às equipes do Consultório na Rua, com avaliação, procedimentos básicos e encaminhamento.\nPergunte no Centro Pop ou à equipe de rua pelo próximo local e dia. A programação é móvel e não deve ser tratada como consultório permanente.\nAtendimento odontológico — Prefeitura",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "A Prefeitura realiza atendimento odontológico ligado às equipes do Consultório na Rua, com avaliação, procedimentos básicos e encaminhamento."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Pergunte no Centro Pop ou à equipe de rua pelo próximo local e dia. A programação é móvel e não deve ser tratada como consultório permanente."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Atendimento odontológico — Prefeitura",
-                  "href": "https://fortaleza.ce.gov.br/noticias/prefeitura-de-fortaleza-oferece-atendimento-odontologico-a-pessoas-em-situacao-de-rua"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://fortaleza.ce.gov.br/noticias/prefeitura-de-fortaleza-oferece-atendimento-odontologico-a-pessoas-em-situacao-de-rua",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
+    },
+    {
+      "id": "mental-health",
+      "title": "Mental health and addiction",
+      "entries": []
+    },
+    {
+      "id": "public-facilities",
+      "title": "Public toilets and day facilities",
+      "entries": []
+    },
+    {
+      "id": "phone-internet",
+      "title": "Phone charging and internet",
+      "entries": []
+    },
+    {
+      "id": "transport",
+      "title": "Transport",
+      "entries": []
     },
     {
       "id": "benefits",
-      "title": "6. Benefícios e moradia",
-      "items": [
+      "title": "Benefícios e moradia",
+      "entries": [
         {
-          "type": "resource",
           "id": "cadastro-unico-no-centro-pop-ou-cras",
-          "name": "Cadastro Único no Centro Pop ou CRAS",
+          "title": "Cadastro Único no Centro Pop ou CRAS",
+          "description": "Pessoas em situação de rua podem entrar ou atualizar o Cadastro Único por procedimento próprio. Comece pelo Centro Pop; se indicado, use o CRAS ou posto de cadastramento.\nLeve CPF e outros documentos se tiver. Se não tiver CPF, peça orientação para regularizá-lo. Estar no cadastro não garante aprovação automática em nenhum benefício.\nCadastro Único — Governo Federal",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Pessoas em situação de rua podem entrar ou atualizar o Cadastro Único por procedimento próprio. Comece pelo Centro Pop; se indicado, use o CRAS ou posto de cadastramento."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Leve CPF e outros documentos se tiver. Se não tiver CPF, peça orientação para regularizá-lo. Estar no cadastro não garante aprovação automática em nenhum benefício."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Cadastro Único — Governo Federal",
-                  "href": "https://www.gov.br/mds/pt-br/acoes-e-programas/cadastro-unico/Cadastro-Unico"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.gov.br/mds/pt-br/acoes-e-programas/cadastro-unico/Cadastro-Unico",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "bolsa-familia",
-          "name": "Bolsa Família",
+          "title": "Bolsa Família",
+          "description": "O Cadastro Único é necessário, mas a entrada depende das regras e da seleção do programa. Não pague intermediários e não aceite promessas de aprovação.\nPeça ao Centro Pop ou CRAS para consultar o cadastro, corrigir dados e explicar como acompanhar. Pessoas em situação de rua têm exceção às regras gerais de visita domiciliar para família unipessoal.\nBolsa Família — serviço oficial",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "O Cadastro Único é necessário, mas a entrada depende das regras e da seleção do programa. Não pague intermediários e não aceite promessas de aprovação."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Peça ao Centro Pop ou CRAS para consultar o cadastro, corrigir dados e explicar como acompanhar. Pessoas em situação de rua têm exceção às regras gerais de visita domiciliar para família unipessoal."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Bolsa Família — serviço oficial",
-                  "href": "https://www.gov.br/pt-br/servicos/receber-o-bolsa-familia"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.gov.br/pt-br/servicos/receber-o-bolsa-familia",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "bpc-pessoa-idosa-ou-com-deficiencia",
-          "name": "BPC — pessoa idosa ou com deficiência",
+          "title": "BPC — pessoa idosa ou com deficiência",
+          "description": "O Benefício de Prestação Continuada pode ser solicitado por pessoa idosa ou com deficiência que cumpra os critérios. É necessário Cadastro Único atualizado e CPF; não é preciso pagar atravessador.\nPeça ajuda ao Centro Pop ou CRAS para o cadastro e à Defensoria se houver negativa ou dificuldade. A análise e concessão são do INSS, não do Centro Pop.\nBPC no Cadastro Único",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "O Benefício de Prestação Continuada pode ser solicitado por pessoa idosa ou com deficiência que cumpra os critérios. É necessário Cadastro Único atualizado e CPF; não é preciso pagar atravessador."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Peça ajuda ao Centro Pop ou CRAS para o cadastro e à Defensoria se houver negativa ou dificuldade. A análise e concessão são do INSS, não do Centro Pop."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "BPC no Cadastro Único",
-                  "href": "https://www.gov.br/mds/pt-br/acoes-e-programas/SUAS/beneficios-assistenciais/bpc-no-cadastro-unico"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.gov.br/mds/pt-br/acoes-e-programas/SUAS/beneficios-assistenciais/bpc-no-cadastro-unico",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "minha-casa-minha-vida-reserva-para-pessoas-em-situacao-de-rua",
-          "name": "Minha Casa, Minha Vida — reserva para pessoas em situação de rua",
+          "title": "Minha Casa, Minha Vida — reserva para pessoas em situação de rua",
+          "description": "Fortaleza anunciou reserva de 5% das unidades municipais do programa para pessoas em situação ou trajetória de rua, com critérios e prioridades definidos pela política local.\nImportante: isso não significa entrega imediata. Mantenha CadÚnico e acompanhamento socioassistencial atualizados e peça ao Centro Pop informação sobre inscrição, seleção e documentos.\nReserva habitacional — Prefeitura",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Fortaleza anunciou reserva de 5% das unidades municipais do programa para pessoas em situação ou trajetória de rua, com critérios e prioridades definidos pela política local."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Importante:",
-                  "strong": true
-                },
-                {
-                  "text": " isso não significa entrega imediata. Mantenha CadÚnico e acompanhamento socioassistencial atualizados e peça ao Centro Pop informação sobre inscrição, seleção e documentos."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Reserva habitacional — Prefeitura",
-                  "href": "https://www.fortaleza.ce.gov.br/noticias/prefeito-evandro-leitao-assina-mensagem-que-destina-5-das-unidades-habitacionais-do-programa-minha-casa-minha-vida-para-pessoas-em-situacao-de-rua"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.fortaleza.ce.gov.br/noticias/prefeito-evandro-leitao-assina-mensagem-que-destina-5-das-unidades-habitacionais-do-programa-minha-casa-minha-vida-para-pessoas-em-situacao-de-rua",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "cras-e-outros-servicos-de-assistencia",
-          "name": "CRAS e outros serviços de assistência",
+          "title": "CRAS e outros serviços de assistência",
+          "description": "O CRAS orienta famílias sobre Cadastro Único, benefícios e acompanhamento do território. Para atendimento especializado de quem vive na rua, o Centro Pop costuma ser a primeira porta.\nLigue 156 para saber qual unidade atende o local onde você permanece. Leve documentos e comprovantes se tiver, mas explique logo se não possui endereço fixo.\nCatálogo municipal de serviços",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "O CRAS orienta famílias sobre Cadastro Único, benefícios e acompanhamento do território. Para atendimento especializado de quem vive na rua, o Centro Pop costuma ser a primeira porta."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ligue 156 para saber qual unidade atende o local onde você permanece. Leve documentos e comprovantes se tiver, mas explique logo se não possui endereço fixo."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Catálogo municipal de serviços",
-                  "href": "https://catalogodeservicos.fortaleza.ce.gov.br/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://catalogodeservicos.fortaleza.ce.gov.br/",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
-      "id": "jobs",
-      "title": "7. Trabalho e renda",
-      "items": [
+      "id": "employment",
+      "title": "Trabalho e renda",
+      "entries": [
         {
-          "type": "resource",
           "id": "sine-municipal-orientacao-e-vagas",
-          "name": "Sine Municipal — orientação e vagas",
+          "title": "Sine Municipal — orientação e vagas",
+          "description": "Telefone: (85) 3771-6644; WhatsApp: (85) 99248-2066.\nHorário publicado: segunda a sexta, 8h–12h e 13h–17h. O Sine oferece cadastro, intermediação de vagas e seleções. Vaga anunciada não é emprego garantido.\nSine Municipal — Prefeitura, novembro de 2026",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(85) 3771-6644",
-                  "href": "tel:+558537716644"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "WhatsApp:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(85) 99248-2066",
-                  "href": "tel:+5585992482066"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Horário publicado:",
-                  "strong": true
-                },
-                {
-                  "text": " segunda a sexta, 8h–12h e 13h–17h. O Sine oferece cadastro, intermediação de vagas e seleções. Vaga anunciada não é emprego garantido."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Sine Municipal — Prefeitura, novembro de 2026",
-                  "href": "https://fortaleza.ce.gov.br/noticias/prefeitura-de-fortaleza-disponibiliza-2-816-oportunidades-de-trabalho-com-selecoes-presenciais-pelo-sine-municipal"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+558537716644",
+          "website": "https://fortaleza.ce.gov.br/noticias/prefeitura-de-fortaleza-disponibiliza-2-816-oportunidades-de-trabalho-com-selecoes-presenciais-pelo-sine-municipal",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "sine-parquelandia-e-siqueira",
-          "name": "Sine Parquelândia e Siqueira",
+          "title": "Sine Parquelândia e Siqueira",
+          "description": "Siqueira: Avenida Augusto dos Anjos, 2466\nProcure atendimento para cadastro e vagas. Algumas seleções pedem RG, CPF, Carteira de Trabalho e currículo impresso; se faltarem documentos, comece no Centro Pop antes de gastar com deslocamento.\nEndereços atuais do Sine",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Parquelândia:",
-                  "strong": true
-                },
-                {
-                  "text": " Rua Dom Lino, 546"
-                }
-              ]
-            },
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Siqueira:",
-                  "strong": true
-                },
-                {
-                  "text": " Avenida Augusto dos Anjos, 2466"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Procure atendimento para cadastro e vagas. Algumas seleções pedem RG, CPF, Carteira de Trabalho e currículo impresso; se faltarem documentos, comece no Centro Pop antes de gastar com deslocamento."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Endereços atuais do Sine",
-                  "href": "https://fortaleza.ce.gov.br/noticias/prefeitura-de-fortaleza-disponibiliza-2-816-oportunidades-de-trabalho-com-selecoes-presenciais-pelo-sine-municipal"
-                }
-              ]
-            }
-          ]
+          "address": "Parquelândia: Rua Dom Lino, 546",
+          "phone": "",
+          "website": "https://fortaleza.ce.gov.br/noticias/prefeitura-de-fortaleza-disponibiliza-2-816-oportunidades-de-trabalho-com-selecoes-presenciais-pelo-sine-municipal",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "sine-aldeota-messejana-e-maraponga",
-          "name": "Sine Aldeota, Messejana e Maraponga",
+          "title": "Sine Aldeota, Messejana e Maraponga",
+          "description": "Messejana: Rua Santa Clara de Assis, 580\nMaraponga: Rua Francisco Glicério, 290\nConfirme pelo telefone antes de ir e pergunte quais documentos a vaga exige. Nunca pague por promessa de contratação, exame, uniforme ou acesso a uma vaga.\nSeleções e unidades do Sine",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Aldeota:",
-                  "strong": true
-                },
-                {
-                  "text": " Avenida Santos Dumont, 2500, sala 17"
-                }
-              ]
-            },
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Messejana:",
-                  "strong": true
-                },
-                {
-                  "text": " Rua Santa Clara de Assis, 580"
-                }
-              ]
-            },
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Maraponga:",
-                  "strong": true
-                },
-                {
-                  "text": " Rua Francisco Glicério, 290"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Confirme pelo telefone antes de ir e pergunte quais documentos a vaga exige. Nunca pague por promessa de contratação, exame, uniforme ou acesso a uma vaga."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Seleções e unidades do Sine",
-                  "href": "https://fortaleza.ce.gov.br/noticias/prefeitura-de-fortaleza-disponibiliza-2-816-oportunidades-de-trabalho-com-selecoes-presenciais-pelo-sine-municipal"
-                }
-              ]
-            }
-          ]
+          "address": "Aldeota: Avenida Santos Dumont, 2500, sala 17",
+          "phone": "",
+          "website": "https://fortaleza.ce.gov.br/noticias/prefeitura-de-fortaleza-disponibiliza-2-816-oportunidades-de-trabalho-com-selecoes-presenciais-pelo-sine-municipal",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "cursos-e-encaminhamento-pelo-centro-de-convivencia",
-          "name": "Cursos e encaminhamento pelo Centro de Convivência",
+          "title": "Cursos e encaminhamento pelo Centro de Convivência",
+          "description": "O Centro de Convivência já ofereceu cursos profissionalizantes e encaminhamento para oportunidades. Pergunte pela programação atual e por ajuda para montar currículo.\nSe não houver curso aberto, peça encaminhamento ao Sine e orientação para recuperar documentos. Participar de curso não garante trabalho.\nQualificação no Centro de Convivência",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "O Centro de Convivência já ofereceu cursos profissionalizantes e encaminhamento para oportunidades. Pergunte pela programação atual e por ajuda para montar currículo."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Se não houver curso aberto, peça encaminhamento ao Sine e orientação para recuperar documentos. Participar de curso não garante trabalho."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Qualificação no Centro de Convivência",
-                  "href": "https://www.fortaleza.ce.gov.br/noticias/centro-de-convivencia-para-pessoas-em-situacao-de-rua-realiza-cursos-de-qualificacao-profissional"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.fortaleza.ce.gov.br/noticias/centro-de-convivencia-para-pessoas-em-situacao-de-rua-realiza-cursos-de-qualificacao-profissional",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "curriculo-e-acesso-a-internet",
-          "name": "Currículo e acesso à internet",
+          "title": "Currículo e acesso à internet",
+          "description": "Peça no Centro Pop ou Centro de Convivência ajuda para criar e imprimir currículo e consultar a Carteira de Trabalho Digital. Use o Wi-Fi público para candidaturas, mas termine a sessão e não salve senhas em aparelhos compartilhados.\nInforme ao Sine se não possui telefone fixo ou endereço residencial; pergunte se o Centro Pop pode ser usado como referência de contato.\nServiços de trabalho do Governo Federal",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Peça no Centro Pop ou Centro de Convivência ajuda para criar e imprimir currículo e consultar a Carteira de Trabalho Digital. Use o Wi-Fi público para candidaturas, mas termine a sessão e não salve senhas em aparelhos compartilhados."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Informe ao Sine se não possui telefone fixo ou endereço residencial; pergunte se o Centro Pop pode ser usado como referência de contato."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Serviços de trabalho do Governo Federal",
-                  "href": "https://www.gov.br/pt-br/temas/trabalho-emprego-e-previdencia"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.gov.br/pt-br/temas/trabalho-emprego-e-previdencia",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
+    },
+    {
+      "id": "legal",
+      "title": "Legal aid",
+      "entries": []
     },
     {
       "id": "documents",
-      "title": "8. Documentos, ajuda jurídica e migrantes",
-      "items": [
+      "title": "Documentos, ajuda jurídica e migrantes",
+      "entries": [
         {
-          "type": "resource",
           "id": "documentos-pelo-centro-pop",
-          "name": "Documentos pelo Centro Pop",
+          "title": "Documentos pelo Centro Pop",
+          "description": "Os Centros Pop ajudam a obter segunda via de certidão, CPF e documento de identidade, além de encaminhar para cartórios, Vapt Vupt, Receita Federal e Defensoria.\nSe nasceu em outro município, informe isso no primeiro atendimento. Não pague a terceiros sem receber explicação oficial sobre eventual taxa e isenção.\nDocumentação nos Centros Pop — Prefeitura",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Os Centros Pop ajudam a obter segunda via de certidão, CPF e documento de identidade, além de encaminhar para cartórios, Vapt Vupt, Receita Federal e Defensoria."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Se nasceu em outro município, informe isso no primeiro atendimento. Não pague a terceiros sem receber explicação oficial sobre eventual taxa e isenção."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Documentação nos Centros Pop — Prefeitura",
-                  "href": "https://www.fortaleza.ce.gov.br/noticias/centros-pop-de-fortaleza-facilitam-a-emissao-de-mais-de-2-mil-documentos-para-pessoas-em-situacao-de-rua"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.fortaleza.ce.gov.br/noticias/centros-pop-de-fortaleza-facilitam-a-emissao-de-mais-de-2-mil-documentos-para-pessoas-em-situacao-de-rua",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "defensoria-publica-atendimento-a-populacao-em-situacao-de-rua",
-          "name": "Defensoria Pública — atendimento à população em situação de rua",
+          "title": "Defensoria Pública — atendimento à população em situação de rua",
+          "description": "Horário publicado: segunda a sexta, 8h–17h.\nAtendimento jurídico e psicossocial para documentos, benefícios, processos, saúde, moradia, família e outras violações de direitos. Leve qualquer papel do caso, mas procure orientação mesmo se não tiver documentos.\nNúcleo da Defensoria para população de rua",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Endereço:",
-                  "strong": true
-                },
-                {
-                  "text": " Rua Jaime Benévolo, 21, Centro, próximo à Praça Coração de Jesus"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Horário publicado:",
-                  "strong": true
-                },
-                {
-                  "text": " segunda a sexta, 8h–17h."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Atendimento jurídico e psicossocial para documentos, benefícios, processos, saúde, moradia, família e outras violações de direitos. Leve qualquer papel do caso, mas procure orientação mesmo se não tiver documentos."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Núcleo da Defensoria para população de rua",
-                  "href": "https://www.defensoria.ce.def.br/noticia/defensoria-intensifica-atendimento-a-populacao-em-situacao-de-rua-com-acoes-juridicas-e-psicossociais/"
-                }
-              ]
-            }
-          ]
+          "address": "Endereço: Rua Jaime Benévolo, 21, Centro, próximo à Praça Coração de Jesus",
+          "phone": "",
+          "website": "https://www.defensoria.ce.def.br/noticia/defensoria-intensifica-atendimento-a-populacao-em-situacao-de-rua-com-acoes-juridicas-e-psicossociais/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "vapt-vupt-atendimento-documental",
-          "name": "Vapt Vupt — atendimento documental",
+          "title": "Vapt Vupt — atendimento documental",
+          "description": "Centro: Shopping Central, Rua Senador Pompeu, 856; (85) 3401-2990.\nHá também unidades em Antônio Bezerra, Messejana, Papicu e Parangaba. Antes de ir, confirme o serviço, agendamento, documentos e possível gratuidade. Para conseguir isenção ou documentos que faltam, peça ajuda ao Centro Pop ou à Defensoria.\nUnidades Vapt Vupt — Governo do Ceará",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Centro:",
-                  "strong": true
-                },
-                {
-                  "text": " Shopping Central, Rua Senador Pompeu, 856; "
-                },
-                {
-                  "text": "(85) 3401-2990",
-                  "href": "tel:+558534012990"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Há também unidades em Antônio Bezerra, Messejana, Papicu e Parangaba. Antes de ir, confirme o serviço, agendamento, documentos e possível gratuidade. Para conseguir isenção ou documentos que faltam, peça ajuda ao Centro Pop ou à Defensoria."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Unidades Vapt Vupt — Governo do Ceará",
-                  "href": "https://www.ce.gov.br/sps/unidades/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+558534012990",
+          "website": "https://www.ce.gov.br/sps/unidades/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "paahm-migrantes-refugiados-e-vitimas-de-trafico",
-          "name": "PAAHM — migrantes, refugiados e vítimas de tráfico",
+          "title": "PAAHM — migrantes, refugiados e vítimas de tráfico",
+          "description": "Contatos estaduais: (85) 98644-9482 e (85) 98439-3462.\nO Posto Avançado de Atendimento Humanizado ao Migrante tem unidades no Aeroporto Pinto Martins e na Rodoviária João Thomé. Oferece orientação, apoio multidisciplinar, regularização documental e encaminhamento à rede.\nAtendimento a migrantes — Governo do Ceará",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Contatos estaduais:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(85) 98644-9482",
-                  "href": "tel:+5585986449482"
-                },
-                {
-                  "text": " e "
-                },
-                {
-                  "text": "(85) 98439-3462",
-                  "href": "tel:+5585984393462"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "O Posto Avançado de Atendimento Humanizado ao Migrante tem unidades no Aeroporto Pinto Martins e na Rodoviária João Thomé. Oferece orientação, apoio multidisciplinar, regularização documental e encaminhamento à rede."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Atendimento a migrantes — Governo do Ceará",
-                  "href": "https://www.ce.gov.br/direitoshumanos/migrante-refugiado-enfrentamento-ao-trafico-de-pessoas/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+5585986449482",
+          "website": "https://www.ce.gov.br/direitoshumanos/migrante-refugiado-enfrentamento-ao-trafico-de-pessoas/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "paahm-na-rodoviaria-de-fortaleza",
-          "name": "PAAHM na Rodoviária de Fortaleza",
+          "title": "PAAHM na Rodoviária de Fortaleza",
+          "description": "Atende migrantes e refugiados com orientação inicial, documentação e encaminhamentos, além de possíveis vítimas de tráfico de pessoas. Confirme o horário pelos contatos estaduais antes de ir.\nPAAHM da Rodoviária — Governo do Ceará",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Endereço:",
-                  "strong": true
-                },
-                {
-                  "text": " Avenida Borges de Melo, 1630, Bairro de Fátima, 1º andar"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Atende migrantes e refugiados com orientação inicial, documentação e encaminhamentos, além de possíveis vítimas de tráfico de pessoas. Confirme o horário pelos contatos estaduais antes de ir."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "PAAHM da Rodoviária — Governo do Ceará",
-                  "href": "https://www.ce.gov.br/direitoshumanos/2024/08/30/governo-do-ceara-inaugura-posto-avancado-de-atendimento-humanizado-ao-migrante-na-rodoviaria-de-fortaleza/"
-                }
-              ]
-            }
-          ]
+          "address": "Endereço: Avenida Borges de Melo, 1630, Bairro de Fátima, 1º andar",
+          "phone": "",
+          "website": "https://www.ce.gov.br/direitoshumanos/2024/08/30/governo-do-ceara-inaugura-posto-avancado-de-atendimento-humanizado-ao-migrante-na-rodoviaria-de-fortaleza/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "pastoral-dos-migrantes",
-          "name": "Pastoral dos Migrantes",
+          "title": "Pastoral dos Migrantes",
+          "description": "Telefones: (85) 3388-8702 / (85) 99299-6621. Atendimento publicado: terças e quintas, 9h–12h.\nServiço católico de proteção e orientação para migrantes e refugiados, independentemente da situação migratória. Ligue antes para confirmar o horário e o tipo de ajuda disponível.\nPastoral dos Migrantes — Arquidiocese",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Endereço:",
-                  "strong": true
-                },
-                {
-                  "text": " Avenida Dom Manuel, 339, Centro; entrada pela Rua Rodrigues Júnior, 300"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefones:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(85) 3388-8702",
-                  "href": "tel:+558533888702"
-                },
-                {
-                  "text": " / "
-                },
-                {
-                  "text": "(85) 99299-6621",
-                  "href": "tel:+5585992996621"
-                },
-                {
-                  "text": ". "
-                },
-                {
-                  "text": "Atendimento publicado:",
-                  "strong": true
-                },
-                {
-                  "text": " terças e quintas, 9h–12h."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Serviço católico de proteção e orientação para migrantes e refugiados, independentemente da situação migratória. Ligue antes para confirmar o horário e o tipo de ajuda disponível."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Pastoral dos Migrantes — Arquidiocese",
-                  "href": "https://www.arquidiocesedefortaleza.org.br/pastoral/pastorais-e-organismos/pastorais-sociais/pastoral-do-migrante-de-fortaleza/"
-                }
-              ]
-            }
-          ]
+          "address": "Endereço: Avenida Dom Manuel, 339, Centro; entrada pela Rua Rodrigues Júnior, 300",
+          "phone": "+558533888702",
+          "website": "https://www.arquidiocesedefortaleza.org.br/pastoral/pastorais-e-organismos/pastorais-sociais/pastoral-do-migrante-de-fortaleza/",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
-      "id": "specialized",
-      "title": "9. Mulheres, famílias, pessoas LGBTQIA+ e outros grupos",
-      "items": [
+      "id": "mail",
+      "title": "Mailing address",
+      "entries": []
+    },
+    {
+      "id": "storage",
+      "title": "Storage",
+      "entries": []
+    },
+    {
+      "id": "safety",
+      "title": "Safety and domestic violence",
+      "entries": []
+    },
+    {
+      "id": "specialist-support",
+      "title": "Mulheres, famílias, pessoas LGBTQIA+ e outros grupos",
+      "entries": [
         {
-          "type": "resource",
           "id": "casa-da-mulher-brasileira-do-ceara",
-          "name": "Casa da Mulher Brasileira do Ceará",
+          "title": "Casa da Mulher Brasileira do Ceará",
+          "description": "Telefone: (85) 3108-2999; funcionamento publicado: 24 horas, todos os dias.\nAtendimento integrado para mulheres em situação de violência, com delegacia, Defensoria, Ministério Público, Juizado, apoio psicossocial e encaminhamento protegido. Em perigo agora, ligue 190.\nCasa da Mulher Brasileira — mapa municipal",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Endereço:",
-                  "strong": true
-                },
-                {
-                  "text": " Rua Tabuleiro do Norte com Rua Teles de Sousa, sem número, Couto Fernandes"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(85) 3108-2999",
-                  "href": "tel:+558531082999"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "funcionamento publicado:",
-                  "strong": true
-                },
-                {
-                  "text": " 24 horas, todos os dias."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Atendimento integrado para mulheres em situação de violência, com delegacia, Defensoria, Ministério Público, Juizado, apoio psicossocial e encaminhamento protegido. Em perigo agora, ligue 190."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Casa da Mulher Brasileira — mapa municipal",
-                  "href": "https://mapas.fortaleza.ce.gov.br/mapa/799/casa-da-mulher-brasileira-do-ceara"
-                }
-              ]
-            }
-          ]
+          "address": "Endereço: Rua Tabuleiro do Norte com Rua Teles de Sousa, sem número, Couto Fernandes",
+          "phone": "+558531082999",
+          "website": "https://mapas.fortaleza.ce.gov.br/mapa/799/casa-da-mulher-brasileira-do-ceara",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "acolhimento-para-mulheres-familias-e-travestis",
-          "name": "Acolhimento para mulheres, famílias e travestis",
+          "title": "Acolhimento para mulheres, famílias e travestis",
+          "description": "A rede municipal prevê acolhimento temporário específico para mulheres, famílias e travestis femininas em situação de rua e risco social.\nPlano municipal de acolhimento",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "A rede municipal prevê acolhimento temporário específico para mulheres, famílias e travestis femininas em situação de rua e risco social."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Acesso:",
-                  "strong": true
-                },
-                {
-                  "text": " peça avaliação no Centro Pop ou pelo 156. Se houver perseguição ou violência, informe isso sem revelar um endereço seguro a terceiros. A localização de abrigos protegidos pode ser sigilosa."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Plano municipal de acolhimento",
-                  "href": "https://desenvolvimentosocial.fortaleza.ce.gov.br/images/PLANO_MUNICIPAL_COIAS_Parte_1_compressed.pdf"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://desenvolvimentosocial.fortaleza.ce.gov.br/images/PLANO_MUNICIPAL_COIAS_Parte_1_compressed.pdf",
+          "hours": "",
+          "how_to_access": "Acesso: peça avaliação no Centro Pop ou pelo 156. Se houver perseguição ou violência, informe isso sem revelar um endereço seguro a terceiros. A localização de abrigos protegidos pode ser sigilosa."
         },
         {
-          "type": "resource",
           "id": "centro-lgbtqia-janaina-dutra",
-          "name": "Centro LGBTQIA+ Janaína Dutra",
+          "title": "Centro LGBTQIA+ Janaína Dutra",
+          "description": "WhatsApp: (85) 99435-9630.\nAtendimento social, psicológico, jurídico e de promoção de direitos para pessoas LGBTQIA+, incluindo orientação diante de discriminação e violência. Confirme o horário antes de ir.\nCentro Janaína Dutra — Prefeitura, 2026",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Endereço atual publicado:",
-                  "strong": true
-                },
-                {
-                  "text": " Rua Jaime Benévolo, 21, 2º andar, Centro"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "WhatsApp:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(85) 99435-9630",
-                  "href": "tel:+5585994359630"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Atendimento social, psicológico, jurídico e de promoção de direitos para pessoas LGBTQIA+, incluindo orientação diante de discriminação e violência. Confirme o horário antes de ir."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Centro Janaína Dutra — Prefeitura, 2026",
-                  "href": "https://fortaleza.ce.gov.br/noticias/centro-janaina-dutra-lanca-grupos-terapeuticos-em-mes-de-combate-a-lgbtfobia"
-                }
-              ]
-            }
-          ]
+          "address": "Endereço atual publicado: Rua Jaime Benévolo, 21, 2º andar, Centro",
+          "phone": "+5585994359630",
+          "website": "https://fortaleza.ce.gov.br/noticias/centro-janaina-dutra-lanca-grupos-terapeuticos-em-mes-de-combate-a-lgbtfobia",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "centro-estadual-lgbt-thina-rodrigues",
-          "name": "Centro Estadual LGBT+ Thina Rodrigues",
+          "title": "Centro Estadual LGBT+ Thina Rodrigues",
+          "description": "Telefone: (85) 98993-3884.\nOrientação e proteção de direitos para pessoas LGBT+, incluindo encaminhamento em casos de discriminação e violência. Ligue antes para confirmar o atendimento.\nRede de proteção — Governo do Ceará",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Endereço:",
-                  "strong": true
-                },
-                {
-                  "text": " Rua Valdetário Mota, 970, Papicu"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(85) 98993-3884",
-                  "href": "tel:+5585989933884"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Orientação e proteção de direitos para pessoas LGBT+, incluindo encaminhamento em casos de discriminação e violência. Ligue antes para confirmar o atendimento."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Rede de proteção — Governo do Ceará",
-                  "href": "https://www.ce.gov.br/sps/onde-denunciar/"
-                }
-              ]
-            }
-          ]
+          "address": "Endereço: Rua Valdetário Mota, 970, Papicu",
+          "phone": "+5585989933884",
+          "website": "https://www.ce.gov.br/sps/onde-denunciar/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "criancas-e-adolescentes",
-          "name": "Crianças e adolescentes",
+          "title": "Crianças e adolescentes",
+          "description": "Criança ou adolescente desacompanhado e dormindo na rua precisa de proteção especializada. Ligue 100 para orientação ou denúncia; em perigo imediato, ligue 190.\nNão publique foto, nome ou localização nas redes sociais. Informe o local com precisão somente à rede de proteção.\nDisque 100 — direitos humanos",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Criança ou adolescente desacompanhado e dormindo na rua precisa de proteção especializada. Ligue "
-                },
-                {
-                  "text": "100",
-                  "href": "tel:100"
-                },
-                {
-                  "text": " para orientação ou denúncia; em perigo imediato, ligue "
-                },
-                {
-                  "text": "190",
-                  "href": "tel:190"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Não publique foto, nome ou localização nas redes sociais. Informe o local com precisão somente à rede de proteção."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Disque 100 — direitos humanos",
-                  "href": "https://www.gov.br/mdh/pt-br/ondh/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "100",
+          "website": "https://www.gov.br/mdh/pt-br/ondh/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "pessoas-idosas-em-risco",
-          "name": "Pessoas idosas em risco",
+          "title": "Pessoas idosas em risco",
+          "description": "Alô Idoso publicado: 0800 285 0880. Também é possível usar o Disque 100.\nInforme abandono, violência, retenção de documentos ou dinheiro, necessidade de saúde e falta de lugar seguro. Em urgência médica use 192; em ameaça imediata use 190.\nRede local de proteção publicada pelo Município",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Alô Idoso publicado:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "0800 285 0880",
-                  "href": "tel:08002850880"
-                },
-                {
-                  "text": ". Também é possível usar o Disque "
-                },
-                {
-                  "text": "100",
-                  "href": "tel:100"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Informe abandono, violência, retenção de documentos ou dinheiro, necessidade de saúde e falta de lugar seguro. Em urgência médica use 192; em ameaça imediata use 190."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Rede local de proteção publicada pelo Município",
-                  "href": "https://samu.fortaleza.ce.gov.br/index.php/repositorio-institucional/send/2-normas-de-conduta-tecnica-e-gestora/11-protocolos-de-regulacao-samufor"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "08002850880",
+          "website": "https://samu.fortaleza.ce.gov.br/index.php/repositorio-institucional/send/2-normas-de-conduta-tecnica-e-gestora/11-protocolos-de-regulacao-samufor",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
+    },
+    {
+      "id": "veterans",
+      "title": "Veterans support",
+      "entries": []
     },
     {
       "id": "pets",
-      "title": "10. Ajuda com animais",
-      "items": [
+      "title": "Ajuda com animais",
+      "entries": [
         {
-          "type": "resource",
           "id": "clinica-veterinaria-jaco",
-          "name": "Clínica Veterinária Jacó",
+          "title": "Clínica Veterinária Jacó",
+          "description": "Horário publicado: segunda a sexta, 8h–17h. Atendimento gratuito para cães e gatos, com consultas, urgências, exames, cirurgia e outros procedimentos conforme triagem e capacidade.\nO serviço normalmente pede identificação e comprovante de residência em Fortaleza. Se você não possui comprovante, ligue 156 ou peça ao Centro Pop orientação antes de se deslocar.\nClínica Jacó — mapa municipal",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Endereço:",
-                  "strong": true
-                },
-                {
-                  "text": " Avenida dos Paroaras, 60, esquina com Avenida da Saudade, Passaré"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Horário publicado:",
-                  "strong": true
-                },
-                {
-                  "text": " segunda a sexta, 8h–17h. Atendimento gratuito para cães e gatos, com consultas, urgências, exames, cirurgia e outros procedimentos conforme triagem e capacidade."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "O serviço normalmente pede identificação e comprovante de residência em Fortaleza. Se você não possui comprovante, ligue 156 ou peça ao Centro Pop orientação antes de se deslocar."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Clínica Jacó — mapa municipal",
-                  "href": "https://mapas.fortaleza.ce.gov.br/mapa/36/clinica-veterinaria-popular"
-                }
-              ]
-            }
-          ]
+          "address": "Endereço: Avenida dos Paroaras, 60, esquina com Avenida da Saudade, Passaré",
+          "phone": "",
+          "website": "https://mapas.fortaleza.ce.gov.br/mapa/36/clinica-veterinaria-popular",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "vetmovel",
-          "name": "VetMóvel",
+          "title": "VetMóvel",
+          "description": "Unidades itinerantes oferecem consultas, vacinação antirrábica e castração de cães e gatos. Os bairros mudam; não use um endereço de notícia antiga.\nPara castração: cadastro pelo 156, opção 6. WhatsApp de acompanhamento publicado: (85) 99224-7488 e (85) 99165-7839. Pergunte o local atual, documentos e regras de transporte.\nComo funciona o VetMóvel — Prefeitura, 2026",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Unidades itinerantes oferecem consultas, vacinação antirrábica e castração de cães e gatos. Os bairros mudam; não use um endereço de notícia antiga."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Para castração:",
-                  "strong": true
-                },
-                {
-                  "text": " cadastro pelo 156, opção 6. "
-                },
-                {
-                  "text": "WhatsApp de acompanhamento publicado:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(85) 99224-7488",
-                  "href": "tel:+5585992247488"
-                },
-                {
-                  "text": " e "
-                },
-                {
-                  "text": "(85) 99165-7839",
-                  "href": "tel:+5585991657839"
-                },
-                {
-                  "text": ". Pergunte o local atual, documentos e regras de transporte."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Como funciona o VetMóvel — Prefeitura, 2026",
-                  "href": "https://www.fortaleza.ce.gov.br/noticias/atendimento-veterinario-gratuito-vetmovel-inicia-atividades-no-pirambu-e-na-parangaba"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+5585992247488",
+          "website": "https://www.fortaleza.ce.gov.br/noticias/atendimento-veterinario-gratuito-vetmovel-inicia-atividades-no-pirambu-e-na-parangaba",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "antes-de-aceitar-acolhimento-com-um-animal",
-          "name": "Antes de aceitar acolhimento com um animal",
+          "title": "Antes de aceitar acolhimento com um animal",
+          "description": "Avise ao Centro Pop ou ao 156 que está com um animal antes do encaminhamento. Pergunte se a unidade aceita o animal, se exige guia, caixa de transporte ou carteira de vacinação e se existe alternativa segura quando não aceita.\nNão abandone o animal na porta de um abrigo. A pesquisa não confirmou uma unidade municipal de acolhimento humano que garanta entrada com animais.\nCentral de serviços de Fortaleza",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Avise ao Centro Pop ou ao 156 que está com um animal antes do encaminhamento. Pergunte se a unidade aceita o animal, se exige guia, caixa de transporte ou carteira de vacinação e se existe alternativa segura quando não aceita."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Não abandone o animal na porta de um abrigo. A pesquisa não confirmou uma unidade municipal de acolhimento humano que garanta entrada com animais."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Central de serviços de Fortaleza",
-                  "href": "https://catalogodeservicos.fortaleza.ce.gov.br/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://catalogodeservicos.fortaleza.ce.gov.br/",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
+    },
+    {
+      "id": "other",
+      "title": "Other useful resources",
+      "entries": []
     }
   ]
 }

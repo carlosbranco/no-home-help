@@ -1,6 +1,7 @@
 {
   "$schema": "https://nohomehelp.com/schemas/city.schema.json",
-  "schema_version": 1,
+  "documentation": "https://github.com/carlosbranco/no-home-help/blob/main/EDIT_CITY_JSON.md",
+  "schema_version": 2,
   "status": "published",
   "locale": {
     "language": "en-GB",
@@ -26,2637 +27,701 @@
   "page": {
     "heading": "London homeless and housing-crisis help",
     "last_verified": "2026-11-11",
-    "urgent": [
-      {
-        "type": "paragraph",
-        "content": [
-          {
-            "text": "Immediate danger, serious illness, police, fire or ambulance:",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "999",
-            "href": "tel:999"
-          },
-          {
-            "text": " or "
-          },
-          {
-            "text": "112",
-            "href": "tel:112"
-          },
-          {
-            "break": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "Sleeping rough tonight:",
-            "strong": true
-          },
-          {
-            "text": " StreetLink "
-          },
-          {
-            "text": "0300 500 0914",
-            "href": "tel:+443005000914"
-          },
-          {
-            "break": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "Nowhere safe to stay or losing your home:",
-            "strong": true
-          },
-          {
-            "text": " Shelter "
-          },
-          {
-            "text": "0808 800 4444",
-            "href": "tel:+448088004444"
-          },
-          {
-            "break": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "Urgent but not life-threatening medical help:",
-            "strong": true
-          },
-          {
-            "text": " NHS "
-          },
-          {
-            "text": "111",
-            "href": "tel:111"
-          }
-        ]
-      }
-    ],
-    "notice": [
-      {
-        "text": "Beds, opening times and eligibility can change.",
-        "strong": true
-      },
-      {
-        "text": " Call before travelling when possible. An outreach alert, assessment or referral does not guarantee a bed. Never pay someone who claims they can secure a council or charity place."
-      }
-    ],
-    "intro": [
-      {
-        "type": "paragraph",
-        "content": [
-          {
-            "text": "London services are often organised by borough. Tell the worker where you are sleeping, which borough you last lived in, whether you have children, pregnancy, disability, health needs or a pet, and whether violence makes your current place unsafe. Ask what to do tonight if no place is immediately available."
-          }
-        ]
-      },
-      {
-        "type": "paragraph",
-        "content": [
-          {
-            "text": "Start here:",
-            "strong": true
-          },
-          {
-            "text": " contact the housing or homelessness team at your London borough as soon as you are homeless or may lose your home within 8 weeks. If you are already sleeping outside, make a StreetLink alert as well. StreetLink sends the details to an outreach team; it is not an emergency line."
-          }
-        ]
-      }
-    ],
-    "footer": [
-      {
-        "type": "paragraph",
-        "content": [
-          {
-            "text": "Is something wrong or outdated?",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "Submit a correction",
-            "href": "../../CONTRIBUTING.md"
-          },
-          {
-            "text": ". Never post personal or sensitive information publicly."
-          }
-        ]
-      }
-    ]
+    "urgent": "Immediate danger, serious illness, police, fire or ambulance: 999 or 112 Sleeping rough tonight: StreetLink 0300 500 0914 Nowhere safe to stay or losing your home: Shelter 0808 800 4444 Urgent but not life-threatening medical help: NHS 111",
+    "notice": "Beds, opening times and eligibility can change. Call before travelling when possible. An outreach alert, assessment or referral does not guarantee a bed. Never pay someone who claims they can secure a council or charity place.",
+    "intro": "London services are often organised by borough. Tell the worker where you are sleeping, which borough you last lived in, whether you have children, pregnancy, disability, health needs or a pet, and whether violence makes your current place unsafe. Ask what to do tonight if no place is immediately available.\nStart here: contact the housing or homelessness team at your London borough as soon as you are homeless or may lose your home within 8 weeks. If you are already sleeping outside, make a StreetLink alert as well. StreetLink sends the details to an outreach team; it is not an emergency line.",
+    "footer": "Is something wrong or outdated? Submit a correction. Never post personal or sensitive information publicly. — ../../CONTRIBUTING.md"
   },
   "categories": [
     {
-      "id": "urgent-help",
-      "title": "1. Urgent help",
-      "items": [
+      "id": "emergency",
+      "title": "Urgent help",
+      "entries": [
         {
-          "type": "resource",
           "id": "emergency-services",
-          "name": "Emergency services",
+          "title": "Emergency services",
+          "description": "Phone: 999 or 112.\nCall for: immediate violence, serious injury, overdose, trouble breathing, loss of consciousness, fire or another life-threatening emergency. Give the exact location or nearest landmark first.\nNHS guidance on calling 999",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "999",
-                  "href": "tel:999"
-                },
-                {
-                  "text": " or "
-                },
-                {
-                  "text": "112",
-                  "href": "tel:112"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Call for:",
-                  "strong": true
-                },
-                {
-                  "text": " immediate violence, serious injury, overdose, trouble breathing, loss of consciousness, fire or another life-threatening emergency. Give the exact location or nearest landmark first."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "NHS guidance on calling 999",
-                  "href": "https://www.nhs.uk/nhs-services/urgent-and-emergency-care-services/when-to-call-999/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "999",
+          "website": "https://www.nhs.uk/nhs-services/urgent-and-emergency-care-services/when-to-call-999/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "streetlink-rough-sleeping-outreach",
-          "name": "StreetLink — rough-sleeping outreach",
+          "title": "StreetLink — rough-sleeping outreach",
+          "description": "Phone: 0300 500 0914.\nUse it for: yourself or someone sleeping rough. Give a precise public location, the time the person is usually there and a description. The alert goes to the local outreach team, which will try to find and assess the person. StreetLink does not itself provide accommodation.\nMake a StreetLink alert",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "0300 500 0914",
-                  "href": "tel:+443005000914"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Use it for:",
-                  "strong": true
-                },
-                {
-                  "text": " yourself or someone sleeping rough. Give a precise public location, the time the person is usually there and a description. The alert goes to the local outreach team, which will try to find and assess the person. StreetLink does not itself provide accommodation."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Make a StreetLink alert",
-                  "href": "https://thestreetlink.org.uk/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+443005000914",
+          "website": "https://thestreetlink.org.uk/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "your-london-borough-homelessness-team",
-          "name": "Your London borough homelessness team",
+          "title": "Your London borough homelessness team",
+          "description": "When to contact: if you are homeless now or likely to become homeless within 8 weeks. In England, councils must assess eligible applicants and may provide prevention help, emergency housing or longer-term support depending on the circumstances.\nOut of hours: search the borough website for its emergency homelessness number. Say clearly if children, pregnancy, domestic abuse, disability or another vulnerability is involved.\nFind the correct council and apply for help",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "When to contact:",
-                  "strong": true
-                },
-                {
-                  "text": " if you are homeless now or likely to become homeless within 8 weeks. In England, councils must assess eligible applicants and may provide prevention help, emergency housing or longer-term support depending on the circumstances."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Out of hours:",
-                  "strong": true
-                },
-                {
-                  "text": " search the borough website for its emergency homelessness number. Say clearly if children, pregnancy, domestic abuse, disability or another vulnerability is involved."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Find the correct council and apply for help",
-                  "href": "https://www.gov.uk/homelessness-help-from-council"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.gov.uk/homelessness-help-from-council",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "shelter-emergency-housing-helpline",
-          "name": "Shelter emergency housing helpline",
+          "title": "Shelter emergency housing helpline",
+          "description": "Phone: 0808 800 4444, Monday to Friday 8am–5pm; closed bank holidays.\nUse it for: urgent housing advice if you are homeless, have nowhere to sleep, face abuse or harm at home, or may lose your home. Shelter gives advice but does not allocate beds.\nShelter London services and current hours",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "0808 800 4444",
-                  "href": "tel:+448088004444"
-                },
-                {
-                  "text": ", Monday to Friday 8am–5pm; closed bank holidays."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Use it for:",
-                  "strong": true
-                },
-                {
-                  "text": " urgent housing advice if you are homeless, have nowhere to sleep, face abuse or harm at home, or may lose your home. Shelter gives advice but does not allocate beds."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Shelter London services and current hours",
-                  "href": "https://england.shelter.org.uk/get_help/local_services/london"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+448088004444",
+          "website": "https://england.shelter.org.uk/get_help/local_services/london",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "severe-weather-emergency-provision",
-          "name": "Severe Weather Emergency Provision",
+          "title": "Severe Weather Emergency Provision",
+          "description": "What it is: short-term emergency accommodation during severe weather. London guidance says winter provision is activated when temperatures are forecast to reach 0°C or below; boroughs arrange local access and may also respond to extreme heat.\nLondon City Hall rough-sleeping services and SWEP",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "What it is:",
-                  "strong": true
-                },
-                {
-                  "text": " short-term emergency accommodation during severe weather. London guidance says winter provision is activated when temperatures are forecast to reach 0°C or below; boroughs arrange local access and may also respond to extreme heat."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Access:",
-                  "strong": true
-                },
-                {
-                  "text": " make a StreetLink alert and contact the borough's rough-sleeping or out-of-hours team. Ask whether SWEP is active that day. Provision is temporary and availability can change."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "London City Hall rough-sleeping services and SWEP",
-                  "href": "https://www.london.gov.uk/programmes-strategies/housing-and-land/mayors-priorities-londons-housing-and-land/homelessness/services-people-experiencing-homelessness-including-sleeping-rough"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.london.gov.uk/programmes-strategies/housing-and-land/mayors-priorities-londons-housing-and-land/homelessness/services-people-experiencing-homelessness-including-sleeping-rough",
+          "hours": "",
+          "how_to_access": "Access: make a StreetLink alert and contact the borough's rough-sleeping or out-of-hours team. Ask whether SWEP is active that day. Provision is temporary and availability can change."
         }
       ]
     },
     {
       "id": "shelter",
-      "title": "2. Shelter, outreach and day centres",
-      "items": [
+      "title": "Shelter, outreach and day centres",
+      "entries": [
         {
-          "type": "resource",
           "id": "the-passage-resource-centre",
-          "name": "The Passage Resource Centre",
+          "title": "The Passage Resource Centre",
+          "description": "Drop-in: Monday–Friday, 9am–12pm and 1pm–3:30pm.\nService: one-to-one homelessness assessment, housing and welfare help, breakfast and lunch, showers, toilets, laundry and clothing. It is a resource centre, not a walk-in night shelter.\nThe Passage — get help",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " St Vincent's Centre, Carlisle Place, London SW1P 1NL"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Drop-in:",
-                  "strong": true
-                },
-                {
-                  "text": " Monday–Friday, 9am–12pm and 1pm–3:30pm."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Service:",
-                  "strong": true
-                },
-                {
-                  "text": " one-to-one homelessness assessment, housing and welfare help, breakfast and lunch, showers, toilets, laundry and clothing. It is a resource centre, not a walk-in night shelter."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "The Passage — get help",
-                  "href": "https://passage.org.uk/get-help/"
-                }
-              ]
-            }
-          ]
+          "address": "Address: St Vincent's Centre, Carlisle Place, London SW1P 1NL",
+          "phone": "",
+          "website": "https://passage.org.uk/get-help/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "the-connection-at-st-martin-s",
-          "name": "The Connection at St Martin's",
+          "title": "The Connection at St Martin's",
+          "description": "General drop-in: Monday, Tuesday, Thursday and Friday, 9am–1:30pm. Wednesday morning is a women-only space; appointments and clinics operate at other times.\nService: food, showers, laundry, health support and help with housing and employment for people sleeping rough. Email services@cstm.org.uk if you cannot visit. — mailto:services@cstm.org.uk\nThe Connection — current access information",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 12 Adelaide Street, London WC2N 4HW"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "General drop-in:",
-                  "strong": true
-                },
-                {
-                  "text": " Monday, Tuesday, Thursday and Friday, 9am–1:30pm. Wednesday morning is a women-only space; appointments and clinics operate at other times."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Service:",
-                  "strong": true
-                },
-                {
-                  "text": " food, showers, laundry, health support and help with housing and employment for people sleeping rough. Email "
-                },
-                {
-                  "text": "services@cstm.org.uk",
-                  "href": "mailto:services@cstm.org.uk"
-                },
-                {
-                  "text": " if you cannot visit."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "The Connection — current access information",
-                  "href": "https://www.connection-at-stmartins.org.uk/get-help-homelessness/"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 12 Adelaide Street, London WC2N 4HW",
+          "phone": "",
+          "website": "https://www.connection-at-stmartins.org.uk/get-help-homelessness/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "whitechapel-mission-day-centre",
-          "name": "Whitechapel Mission Day Centre",
+          "title": "Whitechapel Mission Day Centre",
+          "description": "Phone: 03000 111 400. The weekday day centre opens at 6am; breakfast is served from 8am and advice workers are available from 8am. Confirm current closing and shower times before travelling.\nService: food, showers, clothing, medical access, computers, housing and benefits advice, ID help, mail collection for authorised users and job skills. Open to adults regardless of background or religion.\nWhitechapel Mission Day Centre",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 212 Whitechapel Road, entrance in Maples Place, London E1 1BJ"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "03000 111 400",
-                  "href": "tel:+443000111400"
-                },
-                {
-                  "text": ". The weekday day centre opens at 6am; breakfast is served from 8am and advice workers are available from 8am. Confirm current closing and shower times before travelling."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Service:",
-                  "strong": true
-                },
-                {
-                  "text": " food, showers, clothing, medical access, computers, housing and benefits advice, ID help, mail collection for authorised users and job skills. Open to adults regardless of background or religion."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Whitechapel Mission Day Centre",
-                  "href": "https://whitechapel.org.uk/services/daycentre"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 212 Whitechapel Road, entrance in Maples Place, London E1 1BJ",
+          "phone": "+443000111400",
+          "website": "https://whitechapel.org.uk/services/daycentre",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "manna-day-centre",
-          "name": "Manna Day Centre",
+          "title": "Manna Day Centre",
+          "description": "Service: hot meals, showers, clothing, computers, phone charging, nursing and chiropody, housing and welfare advice, employment help and referrals for immigration and substance-use support.\nManna Society — current service information",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 6–8 Webber Street, London SE1 8QA"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Open:",
-                  "strong": true
-                },
-                {
-                  "text": " every day, 8:30am–1:30pm. The centre states that all services are free and operates an open-door policy."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Service:",
-                  "strong": true
-                },
-                {
-                  "text": " hot meals, showers, clothing, computers, phone charging, nursing and chiropody, housing and welfare advice, employment help and referrals for immigration and substance-use support."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Manna Society — current service information",
-                  "href": "https://mannasociety.org.uk/"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 6–8 Webber Street, London SE1 8QA",
+          "phone": "",
+          "website": "https://mannasociety.org.uk/",
+          "hours": "Open: every day, 8:30am–1:30pm. The centre states that all services are free and operates an open-door policy.",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "999-club-the-gateway",
-          "name": "999 Club — The Gateway",
+          "title": "999 Club — The Gateway",
+          "description": "Phone: 020 8694 5797, phone line Monday–Friday 9am–11am. Drop-in Monday–Friday 9am–3pm; closed the first Tuesday of each month and bank holidays.\nWho: people homeless or at risk in Lewisham or Greenwich. Hot food, showers, laundry, phone, computer, internet, post, housing, benefits, employment and mental-health support are available.\n999 Club contact and current hours",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 21 Deptford Broadway, London SE8 4PA"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "020 8694 5797",
-                  "href": "tel:+442086945797"
-                },
-                {
-                  "text": ", phone line Monday–Friday 9am–11am. Drop-in Monday–Friday 9am–3pm; closed the first Tuesday of each month and bank holidays."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Who:",
-                  "strong": true
-                },
-                {
-                  "text": " people homeless or at risk in Lewisham or Greenwich. Hot food, showers, laundry, phone, computer, internet, post, housing, benefits, employment and mental-health support are available."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "999 Club contact and current hours",
-                  "href": "https://999club.org/about-us/contact/"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 21 Deptford Broadway, London SE8 4PA",
+          "phone": "+442086945797",
+          "website": "https://999club.org/about-us/contact/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "crisis-skylight-london",
-          "name": "Crisis Skylight London",
+          "title": "Crisis Skylight London",
+          "description": "Phone: 0300 636 1967; email: london@crisis.org.uk. Open Monday–Friday 9:30am–4:30pm. — mailto:london@crisis.org.uk\nWho: people aged 16 or over who are homeless or immediately at risk. Staff assess needs and may offer housing, employment, health and coaching support or refer to another service. Crisis is not an emergency shelter.\nCrisis Skylight London",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 50–52 Commercial Street, London E1 6LT"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "0300 636 1967",
-                  "href": "tel:+443006361967"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "email:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "london@crisis.org.uk",
-                  "href": "mailto:london@crisis.org.uk"
-                },
-                {
-                  "text": ". Open Monday–Friday 9:30am–4:30pm."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Who:",
-                  "strong": true
-                },
-                {
-                  "text": " people aged 16 or over who are homeless or immediately at risk. Staff assess needs and may offer housing, employment, health and coaching support or refer to another service. Crisis is not an emergency shelter."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Crisis Skylight London",
-                  "href": "https://www.crisis.org.uk/get-help/london/"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 50–52 Commercial Street, London E1 6LT",
+          "phone": "+443006361967",
+          "website": "https://www.crisis.org.uk/get-help/london/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "glass-door-homeless-charity",
-          "name": "Glass Door Homeless Charity",
+          "title": "Glass Door Homeless Charity",
+          "description": "Phone: 020 7351 4948.\nService: caseworkers at partner day centres help with housing, benefits and immigration. Glass Door also operates seasonal winter night-shelter circuits in west and south-west London; call or check the website for current opening dates, referral and availability.\nGlass Door — get help and current winter status",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "020 7351 4948",
-                  "href": "tel:+442073514948"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Service:",
-                  "strong": true
-                },
-                {
-                  "text": " caseworkers at partner day centres help with housing, benefits and immigration. Glass Door also operates seasonal winter night-shelter circuits in west and south-west London; call or check the website for current opening dates, referral and availability."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Glass Door — get help and current winter status",
-                  "href": "https://www.glassdoor.org.uk/listing/category/get-help"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+442073514948",
+          "website": "https://www.glassdoor.org.uk/listing/category/get-help",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "ace-of-clubs",
-          "name": "Ace of Clubs",
+          "title": "Ace of Clubs",
+          "description": "Phone: 020 7720 2811.\nService: day-centre support, lunch, clothing, showers by advance booking, low-cost laundry, computers, housing and welfare advice, an NHS nurse and a mobile dentist. No referral is needed for the centre; some services require booking or have a small charge.\nAce of Clubs services and timetable",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " St Alphonsus Road, London SW4 7AS"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "020 7720 2811",
-                  "href": "tel:+442077202811"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Service:",
-                  "strong": true
-                },
-                {
-                  "text": " day-centre support, lunch, clothing, showers by advance booking, low-cost laundry, computers, housing and welfare advice, an NHS nurse and a mobile dentist. No referral is needed for the centre; some services require booking or have a small charge."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ace of Clubs services and timetable",
-                  "href": "https://aceofclubs.org.uk/"
-                }
-              ]
-            }
-          ]
+          "address": "Address: St Alphonsus Road, London SW4 7AS",
+          "phone": "+442077202811",
+          "website": "https://aceofclubs.org.uk/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "homeless-england-service-directory",
-          "name": "Homeless England service directory",
+          "title": "Homeless England service directory",
+          "description": "Use it for: finding accommodation, day centres, outreach and specialist services by area and eligibility. Confirm every listing with the provider before travelling because vacancies and access rules change.\nSearch Homeless England",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Use it for:",
-                  "strong": true
-                },
-                {
-                  "text": " finding accommodation, day centres, outreach and specialist services by area and eligibility. Confirm every listing with the provider before travelling because vacancies and access rules change."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Search Homeless England",
-                  "href": "https://homeless.org.uk/homeless-england/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://homeless.org.uk/homeless-england/",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
       "id": "food",
-      "title": "3. Meals, showers, laundry and clothing",
-      "items": [
+      "title": "Meals, showers, laundry and clothing",
+      "entries": [
         {
-          "type": "resource",
           "id": "the-soup-kitchen-at-the-american-international-church",
-          "name": "The Soup Kitchen at the American International Church",
+          "title": "The Soup Kitchen at the American International Church",
+          "description": "Meals: Monday–Saturday, 10am–12 noon. Free soup and a main course; clothing and toiletries are also distributed when available.\nIdentity: the Soup Kitchen is an independent secular charity located in a church. Religious participation is not stated as a condition of receiving food.\nAmerican International Church — Soup Kitchen",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 79a Tottenham Court Road; guest entrance opposite 55 Whitfield Street, London W1T 4TD"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Meals:",
-                  "strong": true
-                },
-                {
-                  "text": " Monday–Saturday, 10am–12 noon. Free soup and a main course; clothing and toiletries are also distributed when available."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Identity:",
-                  "strong": true
-                },
-                {
-                  "text": " the Soup Kitchen is an independent secular charity located in a church. Religious participation is not stated as a condition of receiving food."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "American International Church — Soup Kitchen",
-                  "href": "https://amchurch.co.uk/serve/the-soup-kitchen/"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 79a Tottenham Court Road; guest entrance opposite 55 Whitfield Street, London W1T 4TD",
+          "phone": "",
+          "website": "https://amchurch.co.uk/serve/the-soup-kitchen/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "salvation-army-no-10-day-centre",
-          "name": "Salvation Army No. 10 Day Centre",
+          "title": "Salvation Army No. 10 Day Centre",
+          "description": "Phone: 020 7629 5424.\nWho: adults who are homeless, vulnerably housed or need practical help; direct access, no local connection or recourse to public funds required. Food, emergency clothing, sleeping bags, toilets, charging, laptops, internet, post, support work and a warm space are provided.\nIdentity: Christian church and charity offering pastoral care and chaplaincy as well as practical services. It does not provide accommodation.\nNo. 10 Day Centre hours and services",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 10 Princes Street, London W1B 2LH"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "020 7629 5424",
-                  "href": "tel:+442076295424"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Who:",
-                  "strong": true
-                },
-                {
-                  "text": " adults who are homeless, vulnerably housed or need practical help; direct access, no local connection or recourse to public funds required. Food, emergency clothing, sleeping bags, toilets, charging, laptops, internet, post, support work and a warm space are provided."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Identity:",
-                  "strong": true
-                },
-                {
-                  "text": " Christian church and charity offering pastoral care and chaplaincy as well as practical services. It does not provide accommodation."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "No. 10 Day Centre hours and services",
-                  "href": "https://www.salvationarmy.org.uk/no-10-day-centre"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 10 Princes Street, London W1B 2LH",
+          "phone": "+442076295424",
+          "website": "https://www.salvationarmy.org.uk/no-10-day-centre",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "whitechapel-mission",
-          "name": "Whitechapel Mission",
+          "title": "Whitechapel Mission",
+          "description": "Food and hygiene: free breakfast from 8am, weekday showers, clean clothing, toiletries and haircuts. Advice and computer access are also available. Call 03000 111 400 to confirm the day's times.\nIdentity: Christian mission; its published policy says services are open to all regardless of religion or origin.\nWhitechapel Mission",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 212 Whitechapel Road, London E1 1BJ"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Food and hygiene:",
-                  "strong": true
-                },
-                {
-                  "text": " free breakfast from 8am, weekday showers, clean clothing, toiletries and haircuts. Advice and computer access are also available. Call "
-                },
-                {
-                  "text": "03000 111 400",
-                  "href": "tel:+443000111400"
-                },
-                {
-                  "text": " to confirm the day's times."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Identity:",
-                  "strong": true
-                },
-                {
-                  "text": " Christian mission; its published policy says services are open to all regardless of religion or origin."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Whitechapel Mission",
-                  "href": "https://whitechapel.org.uk/"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 212 Whitechapel Road, London E1 1BJ",
+          "phone": "+443000111400",
+          "website": "https://whitechapel.org.uk/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "the-passage",
-          "name": "The Passage",
+          "title": "The Passage",
+          "description": "Service: hot breakfast and lunch, showers, toilets, laundry, toiletries and clothing during resource-centre access. First-time visitors are offered a one-to-one consultation so staff can plan referrals.\nThe Passage immediate-welfare services",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " St Vincent's Centre, Carlisle Place, London SW1P 1NL"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Service:",
-                  "strong": true
-                },
-                {
-                  "text": " hot breakfast and lunch, showers, toilets, laundry, toiletries and clothing during resource-centre access. First-time visitors are offered a one-to-one consultation so staff can plan referrals."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "The Passage immediate-welfare services",
-                  "href": "https://passage.org.uk/get-informed/what-we-do/immediate-welfare/"
-                }
-              ]
-            }
-          ]
+          "address": "Address: St Vincent's Centre, Carlisle Place, London SW1P 1NL",
+          "phone": "",
+          "website": "https://passage.org.uk/get-informed/what-we-do/immediate-welfare/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "the-connection-at-st-martin-s",
-          "name": "The Connection at St Martin's",
+          "title": "The Connection at St Martin's",
+          "description": "Service: meals, showers, laundry and a safe place to rest during published drop-in hours, with longer-term housing, health and employment support. The charity works alongside St Martin-in-the-Fields; no religious participation is stated as an access condition.\nThe Connection contact and drop-in times",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 12 Adelaide Street, London WC2N 4HW"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Service:",
-                  "strong": true
-                },
-                {
-                  "text": " meals, showers, laundry and a safe place to rest during published drop-in hours, with longer-term housing, health and employment support. The charity works alongside St Martin-in-the-Fields; no religious participation is stated as an access condition."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "The Connection contact and drop-in times",
-                  "href": "https://www.connection-at-stmartins.org.uk/contact/"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 12 Adelaide Street, London WC2N 4HW",
+          "phone": "",
+          "website": "https://www.connection-at-stmartins.org.uk/contact/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "manna-day-centre",
-          "name": "Manna Day Centre",
+          "title": "Manna Day Centre",
+          "description": "Service: free hot meals, showers, clothes, computers, charging and advice, every day 8:30am–1:30pm. The Manna Society describes its work as Christian care and an open-door service for anyone in need; participation in worship is not stated as required.\nManna Society",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 6–8 Webber Street, London SE1 8QA"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Service:",
-                  "strong": true
-                },
-                {
-                  "text": " free hot meals, showers, clothes, computers, charging and advice, every day 8:30am–1:30pm. The Manna Society describes its work as Christian care and an open-door service for anyone in need; participation in worship is not stated as required."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Manna Society",
-                  "href": "https://mannasociety.org.uk/"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 6–8 Webber Street, London SE1 8QA",
+          "phone": "",
+          "website": "https://mannasociety.org.uk/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "999-club",
-          "name": "999 Club",
+          "title": "999 Club",
+          "description": "Service: hot food, shower, laundry, phone, computer, internet and post during the weekday Gateway drop-in. The service is aimed at people in Lewisham and Greenwich.\n999 Club homelessness services",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 21 Deptford Broadway, London SE8 4PA"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Service:",
-                  "strong": true
-                },
-                {
-                  "text": " hot food, shower, laundry, phone, computer, internet and post during the weekday Gateway drop-in. The service is aimed at people in Lewisham and Greenwich."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "999 Club homelessness services",
-                  "href": "https://999club.org/our-services/"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 21 Deptford Broadway, London SE8 4PA",
+          "phone": "",
+          "website": "https://999club.org/our-services/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "ace-of-clubs",
-          "name": "Ace of Clubs",
+          "title": "Ace of Clubs",
+          "description": "Ace of Clubs current services and costs",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " St Alphonsus Road, London SW4 7AS"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Lunch:",
-                  "strong": true
-                },
-                {
-                  "text": " Monday–Friday 12pm–2:15pm, published charge £1. Clothing is available when stock allows. Showers are Monday, Wednesday and Friday mornings by advance booking; laundry has a published £2 charge and a three-working-day turnaround."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ace of Clubs current services and costs",
-                  "href": "https://aceofclubs.org.uk/"
-                }
-              ]
-            }
-          ]
+          "address": "Address: St Alphonsus Road, London SW4 7AS",
+          "phone": "",
+          "website": "https://aceofclubs.org.uk/",
+          "hours": "Lunch: Monday–Friday 12pm–2:15pm, published charge £1. Clothing is available when stock allows. Showers are Monday, Wednesday and Friday mornings by advance booking; laundry has a published £2 charge and a three-working-day turnaround.",
+          "how_to_access": ""
         }
       ]
+    },
+    {
+      "id": "community",
+      "title": "Community and religious help",
+      "entries": []
+    },
+    {
+      "id": "hygiene",
+      "title": "Showers, laundry and hygiene",
+      "entries": []
+    },
+    {
+      "id": "clothing",
+      "title": "Clothing",
+      "entries": []
     },
     {
       "id": "health",
-      "title": "4. Health and dental care",
-      "items": [
+      "title": "Health and dental care",
+      "entries": [
         {
-          "type": "resource",
           "id": "nhs-urgent-care",
-          "name": "NHS urgent care",
+          "title": "NHS urgent care",
+          "description": "Emergency: 999. Urgent but not life-threatening: 111 or NHS 111 online.\nUse 111 for: urgent medical or mental-health help, advice about where to be seen and out-of-hours care. Tell the adviser if you have no fixed address, phone, transport or safe place to recover.\nNHS 111 online",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Emergency:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "999",
-                  "href": "tel:999"
-                },
-                {
-                  "text": ". "
-                },
-                {
-                  "text": "Urgent but not life-threatening:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "111",
-                  "href": "tel:111"
-                },
-                {
-                  "text": " or NHS 111 online."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Use 111 for:",
-                  "strong": true
-                },
-                {
-                  "text": " urgent medical or mental-health help, advice about where to be seen and out-of-hours care. Tell the adviser if you have no fixed address, phone, transport or safe place to recover."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "NHS 111 online",
-                  "href": "https://111.nhs.uk/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "999",
+          "website": "https://111.nhs.uk/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "registering-with-a-gp-without-id-or-an-address",
-          "name": "Registering with a GP without ID or an address",
+          "title": "Registering with a GP without ID or an address",
+          "description": "Right to register: NHS guidance says a GP practice must not refuse you solely because you are homeless or lack proof of address, identification, immigration status or an NHS number. A practice can still refuse for another permitted reason, such as a closed patient list.\nIf refused: ask for the reason in writing and take it to a day centre, Healthwatch or another GP practice.\nNHS leaflet for people without proof of address",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Right to register:",
-                  "strong": true
-                },
-                {
-                  "text": " NHS guidance says a GP practice must not refuse you solely because you are homeless or lack proof of address, identification, immigration status or an NHS number. A practice can still refuse for another permitted reason, such as a closed patient list."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "If refused:",
-                  "strong": true
-                },
-                {
-                  "text": " ask for the reason in writing and take it to a day centre, Healthwatch or another GP practice."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "NHS leaflet for people without proof of address",
-                  "href": "https://assets.nhs.uk/prod/documents/how-to-register-with-a-gp-homeless.pdf"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://assets.nhs.uk/prod/documents/how-to-register-with-a-gp-homeless.pdf",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "health-e1-homeless-medical-centre",
-          "name": "Health E1 Homeless Medical Centre",
+          "title": "Health E1 Homeless Medical Centre",
+          "description": "Phone: 020 7247 0090; open Monday–Friday 9am–5:30pm.\nWho: people who are street homeless, sofa surfing or living in hostel accommodation in Tower Hamlets. You can register without ID or an address. Services include primary care, mental health, sexual health, wound care, vaccinations and drug or alcohol support.\nEast London NHS — Health E1",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 9–11 Brick Lane, London E1 6PU"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "020 7247 0090",
-                  "href": "tel:+442072470090"
-                },
-                {
-                  "text": "; open Monday–Friday 9am–5:30pm."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Who:",
-                  "strong": true
-                },
-                {
-                  "text": " people who are street homeless, sofa surfing or living in hostel accommodation in Tower Hamlets. You can register without ID or an address. Services include primary care, mental health, sexual health, wound care, vaccinations and drug or alcohol support."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "East London NHS — Health E1",
-                  "href": "https://www.elft.nhs.uk/services/health-e1-homeless-medical-centre"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 9–11 Brick Lane, London E1 6PU",
+          "phone": "+442072470090",
+          "website": "https://www.elft.nhs.uk/services/health-e1-homeless-medical-centre",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "great-chapel-street-medical-centre",
-          "name": "Great Chapel Street Medical Centre",
+          "title": "Great Chapel Street Medical Centre",
+          "description": "Phone: 020 7437 9360; open Monday–Friday 9am–5pm.\nWho: a specialist GP practice for people experiencing homelessness in Westminster. Homeless-health nurses also provide open-access care in streets, hostels and day centres.\nGreat Chapel Street Medical Centre",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 4th floor, Soho Centre for Health, 1 Frith Street, London W1D 3HZ"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "020 7437 9360",
-                  "href": "tel:+442074379360"
-                },
-                {
-                  "text": "; open Monday–Friday 9am–5pm."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Who:",
-                  "strong": true
-                },
-                {
-                  "text": " a specialist GP practice for people experiencing homelessness in Westminster. Homeless-health nurses also provide open-access care in streets, hostels and day centres."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Great Chapel Street Medical Centre",
-                  "href": "https://greatchapelst.org.uk/"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 4th floor, Soho Centre for Health, 1 Frith Street, London W1D 3HZ",
+          "phone": "+442074379360",
+          "website": "https://greatchapelst.org.uk/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "the-greenhouse-practice",
-          "name": "The Greenhouse Practice",
+          "title": "The Greenhouse Practice",
+          "description": "Phone: check the current contact details on the NHS page before travelling; open Monday–Friday 8am–6:30pm.\nWho: rough sleepers and people living in hostels or supported accommodation in City and Hackney. It provides normal GP care and works with housing and other services where needed.\nEast London NHS — Greenhouse Practice",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " check the current contact details on the NHS page before travelling; open Monday–Friday 8am–6:30pm."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Who:",
-                  "strong": true
-                },
-                {
-                  "text": " rough sleepers and people living in hostels or supported accommodation in City and Hackney. It provides normal GP care and works with housing and other services where needed."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "East London NHS — Greenhouse Practice",
-                  "href": "https://www.elft.nhs.uk/services/greenhouse-practice"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.elft.nhs.uk/services/greenhouse-practice",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "ace-of-clubs-nurse-and-mobile-dentist",
-          "name": "Ace of Clubs nurse and mobile dentist",
+          "title": "Ace of Clubs nurse and mobile dentist",
+          "description": "Nurse: Monday and Thursday 12pm–2:30pm, first come, first served. Dentist: Wednesday 10am–2:30pm for eligible patients; call 020 7720 2811 to book.\nAce of Clubs health services",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " St Alphonsus Road, London SW4 7AS"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Nurse:",
-                  "strong": true
-                },
-                {
-                  "text": " Monday and Thursday 12pm–2:30pm, first come, first served. "
-                },
-                {
-                  "text": "Dentist:",
-                  "strong": true
-                },
-                {
-                  "text": " Wednesday 10am–2:30pm for eligible patients; call "
-                },
-                {
-                  "text": "020 7720 2811",
-                  "href": "tel:+442077202811"
-                },
-                {
-                  "text": " to book."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ace of Clubs health services",
-                  "href": "https://aceofclubs.org.uk/"
-                }
-              ]
-            }
-          ]
+          "address": "Address: St Alphonsus Road, London SW4 7AS",
+          "phone": "+442077202811",
+          "website": "https://aceofclubs.org.uk/",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
+    },
+    {
+      "id": "mental-health",
+      "title": "Mental health and addiction",
+      "entries": []
+    },
+    {
+      "id": "public-facilities",
+      "title": "Public toilets and day facilities",
+      "entries": []
+    },
+    {
+      "id": "phone-internet",
+      "title": "Phone charging and internet",
+      "entries": []
+    },
+    {
+      "id": "transport",
+      "title": "Transport",
+      "entries": []
     },
     {
       "id": "benefits",
-      "title": "5. Benefits, transport and public facilities",
-      "items": [
+      "title": "Benefits, transport and public facilities",
+      "entries": [
         {
-          "type": "resource",
           "id": "universal-credit-without-a-fixed-address",
-          "name": "Universal Credit without a fixed address",
+          "title": "Universal Credit without a fixed address",
+          "description": "If you lack ID, internet, email, bank account or a National Insurance number: tell the Jobcentre. Official guidance describes alternative identity checks, assisted claims and payment options.\nGOV.UK — Universal Credit if homeless",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Eligibility:",
-                  "strong": true
-                },
-                {
-                  "text": " people sleeping rough, sofa surfing or staying in a hostel can claim if they otherwise qualify. A trusted friend's, hostel's, day centre's or Jobcentre's address may be used with permission."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "If you lack ID, internet, email, bank account or a National Insurance number:",
-                  "strong": true
-                },
-                {
-                  "text": " tell the Jobcentre. Official guidance describes alternative identity checks, assisted claims and payment options."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "GOV.UK — Universal Credit if homeless",
-                  "href": "https://www.gov.uk/government/publications/universal-credit-and-homeless-people/applying-for-universal-credit-information-for-homeless-people"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.gov.uk/government/publications/universal-credit-and-homeless-people/applying-for-universal-credit-information-for-homeless-people",
+          "hours": "",
+          "how_to_access": "Eligibility: people sleeping rough, sofa surfing or staying in a hostel can claim if they otherwise qualify. A trusted friend's, hostel's, day centre's or Jobcentre's address may be used with permission."
         },
         {
-          "type": "resource",
           "id": "housing-benefit-for-hostel-or-supported-accommodation",
-          "name": "Housing Benefit for hostel or supported accommodation",
+          "title": "Housing Benefit for hostel or supported accommodation",
+          "description": "Important: Universal Credit normally covers housing costs, but people in many hostels, refuges or supported and temporary accommodation must claim Housing Benefit from the council instead. Ask the accommodation worker and borough benefits team which claim is correct.\nGOV.UK — Housing Benefit",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Important:",
-                  "strong": true
-                },
-                {
-                  "text": " Universal Credit normally covers housing costs, but people in many hostels, refuges or supported and temporary accommodation must claim Housing Benefit from the council instead. Ask the accommodation worker and borough benefits team which claim is correct."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "GOV.UK — Housing Benefit",
-                  "href": "https://www.gov.uk/housing-benefit"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.gov.uk/housing-benefit",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "jobcentre-plus-and-help-to-claim",
-          "name": "Jobcentre Plus and Help to Claim",
+          "title": "Jobcentre Plus and Help to Claim",
+          "description": "Service: Jobcentre staff can provide computer access, help establish a care-of address, arrange identity checks and adapt work-search commitments temporarily when homelessness makes them difficult. Citizens Advice Help to Claim can support a new Universal Credit claim through the first correct payment.\nFind or contact Jobcentre Plus",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Service:",
-                  "strong": true
-                },
-                {
-                  "text": " Jobcentre staff can provide computer access, help establish a care-of address, arrange identity checks and adapt work-search commitments temporarily when homelessness makes them difficult. Citizens Advice Help to Claim can support a new Universal Credit claim through the first correct payment."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Find or contact Jobcentre Plus",
-                  "href": "https://www.gov.uk/contact-jobcentre-plus"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.gov.uk/contact-jobcentre-plus",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "jobcentre-plus-travel-discount",
-          "name": "Jobcentre Plus Travel Discount",
+          "title": "Jobcentre Plus Travel Discount",
+          "description": "Benefit: eligible unemployed claimants receive 50% off many London pay-as-you-go fares and can buy child-rate season tickets. Eligibility depends on benefit, age and length of unemployment.\nTfL Jobcentre Plus Travel Discount",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Benefit:",
-                  "strong": true
-                },
-                {
-                  "text": " eligible unemployed claimants receive 50% off many London pay-as-you-go fares and can buy child-rate season tickets. Eligibility depends on benefit, age and length of unemployment."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Apply:",
-                  "strong": true
-                },
-                {
-                  "text": " ask your Jobcentre work coach. The discount requires both a Jobcentre Plus photocard and an Oyster card and is not automatic."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "TfL Jobcentre Plus Travel Discount",
-                  "href": "https://tfl.gov.uk/how-to-pay/discounts-and-photocards/jobcentre-plus-travel-discount"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://tfl.gov.uk/how-to-pay/discounts-and-photocards/jobcentre-plus-travel-discount",
+          "hours": "",
+          "how_to_access": "Apply: ask your Jobcentre work coach. The discount requires both a Jobcentre Plus photocard and an Oyster card and is not automatic."
         },
         {
-          "type": "resource",
           "id": "internet-charging-and-toilets",
-          "name": "Internet, charging and toilets",
+          "title": "Internet, charging and toilets",
+          "description": "Day centres: Whitechapel Mission, Manna, The Passage, The Connection, 999 Club and No. 10 publish some combination of toilets, charging, computers or internet during their opening hours.\nLibraries: most London borough libraries provide public computers and Wi-Fi; access, printing, charging and membership rules vary. Ask the borough for the nearest open branch. Do not leave belongings unattended.\nFind a local library",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Day centres:",
-                  "strong": true
-                },
-                {
-                  "text": " Whitechapel Mission, Manna, The Passage, The Connection, 999 Club and No. 10 publish some combination of toilets, charging, computers or internet during their opening hours."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Libraries:",
-                  "strong": true
-                },
-                {
-                  "text": " most London borough libraries provide public computers and Wi-Fi; access, printing, charging and membership rules vary. Ask the borough for the nearest open branch. Do not leave belongings unattended."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Find a local library",
-                  "href": "https://www.gov.uk/local-library-services"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.gov.uk/local-library-services",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
-      "id": "work-documents",
-      "title": "6. Work, documents, mail and storage",
-      "items": [
-        {
-          "type": "resource",
-          "id": "crisis-employment-and-housing-coaching",
-          "name": "Crisis employment and housing coaching",
-          "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 50–52 Commercial Street, London E1 6LT"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Service:",
-                  "strong": true
-                },
-                {
-                  "text": " job search, skills, housing and health support for Crisis members and people accepted after assessment. Email "
-                },
-                {
-                  "text": "london@crisis.org.uk",
-                  "href": "mailto:london@crisis.org.uk"
-                },
-                {
-                  "text": " or drop in Monday–Friday 9:30am–4:30pm."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Crisis Skylight London",
-                  "href": "https://www.crisis.org.uk/get-help/london/"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "whitechapel-mission-job-and-education-support",
-          "name": "Whitechapel Mission job and education support",
-          "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 212 Whitechapel Road, London E1 1BJ"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Service:",
-                  "strong": true
-                },
-                {
-                  "text": " computers, basic literacy and numeracy, word-processing practice, employment links, benefits and housing advice. Ask the advice team which services are available to a new visitor that day."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Whitechapel Mission Day Centre",
-                  "href": "https://whitechapel.org.uk/services/daycentre"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "999-club-employment-and-training",
-          "name": "999 Club employment and training",
-          "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 21 Deptford Broadway, London SE8 4PA"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Service:",
-                  "strong": true
-                },
-                {
-                  "text": " staff help with accommodation, benefits, employment and training; computers, phone and internet are available during the Gateway drop-in. The service is for people based in Lewisham or Greenwich."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "999 Club services",
-                  "href": "https://999club.org/our-services/"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "find-a-job-and-local-employment-programmes",
-          "name": "Find a job and local employment programmes",
-          "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Start with:",
-                  "strong": true
-                },
-                {
-                  "text": " the official Find a Job service and a Jobcentre work coach. Ask for help creating an email address, preparing a CV, obtaining interview clothes and explaining gaps caused by homelessness."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "GOV.UK Find a Job",
-                  "href": "https://www.gov.uk/find-a-job"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "national-insurance-number",
-          "name": "National Insurance number",
-          "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Important:",
-                  "strong": true
-                },
-                {
-                  "text": " you can start a Universal Credit claim without knowing your National Insurance number. Check a payslip, P60, personal tax account or HMRC app; ask Jobcentre staff for help if you cannot retrieve it."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Find a lost National Insurance number",
-                  "href": "https://www.gov.uk/lost-national-insurance-number"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "passport-applications-without-a-home-address",
-          "name": "Passport applications without a home address",
-          "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Help available:",
-                  "strong": true
-                },
-                {
-                  "text": " HM Passport Office guidance recognises homelessness and lack of documents as vulnerability factors. A third party may be able to confirm your situation and accept delivery, but contact the Passport Adviceline before applying and never use an address without permission."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "HM Passport Office Adviceline",
-                  "href": "https://www.gov.uk/passport-advice-line"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "mail-collection",
-          "name": "Mail collection",
-          "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Possible authorised addresses:",
-                  "strong": true
-                },
-                {
-                  "text": " Whitechapel Mission, 999 Club and Salvation Army No. 10 publish postal services for people using their centres. Universal Credit may also accept a hostel, trusted person, day centre or local Jobcentre as a care-of address."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ask first:",
-                  "strong": true
-                },
-                {
-                  "text": " do not put any service's address on an application until staff have agreed and explained collection rules."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Whitechapel Mission postal-address service",
-                  "href": "https://whitechapel.org.uk/services/daycentre"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "street-storage",
-          "name": "Street Storage",
-          "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Referral line:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "07932 830 440",
-                  "href": "tel:+447932830440"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "email:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "info@streetstorage.org",
-                  "href": "mailto:info@streetstorage.org"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Service:",
-                  "strong": true
-                },
-                {
-                  "text": " free, secure storage in London for people experiencing homelessness or unsafe housing, including clothes, tents, sleeping bags, work tools and documents. Self-referrals are accepted. Call for the correct location, opening time and item limits before travelling."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Street Storage",
-                  "href": "https://www.streetstorage.org/"
-                }
-              ]
-            }
-          ]
-        }
-      ]
+      "id": "employment",
+      "title": "Employment",
+      "entries": []
     },
     {
       "id": "legal",
-      "title": "7. Legal and immigration help",
-      "items": [
+      "title": "Legal and immigration help",
+      "entries": [
         {
-          "type": "resource",
           "id": "shelter-london-legal-aid",
-          "name": "Shelter London legal aid",
+          "title": "Shelter London legal aid",
+          "description": "New legal appointments: 0344 515 1212, Monday–Friday 10am–4:30pm.\nService: housing legal aid for eligible cases, including eviction, court action and challenges to council homelessness decisions. An appointment and financial eligibility assessment are required.\nShelter London legal service",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 88 Old Street, London EC1V 9HU"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "New legal appointments:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "0344 515 1212",
-                  "href": "tel:+443445151212"
-                },
-                {
-                  "text": ", Monday–Friday 10am–4:30pm."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Service:",
-                  "strong": true
-                },
-                {
-                  "text": " housing legal aid for eligible cases, including eviction, court action and challenges to council homelessness decisions. An appointment and financial eligibility assessment are required."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Shelter London legal service",
-                  "href": "https://england.shelter.org.uk/get_help/local_services/london"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 88 Old Street, London EC1V 9HU",
+          "phone": "+443445151212",
+          "website": "https://england.shelter.org.uk/get_help/local_services/london",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "civil-legal-advice",
-          "name": "Civil Legal Advice",
+          "title": "Civil Legal Advice",
+          "description": "Phone: 0345 345 4345, Monday–Friday 9am–8pm and Saturday 9am–12:30pm.\nService: free and confidential legal-aid advice for eligible housing, domestic-abuse, debt and discrimination matters. Ask for a callback if you cannot afford the call; interpreting is available.\nCivil Legal Advice eligibility and contact",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "0345 345 4345",
-                  "href": "tel:+443453454345"
-                },
-                {
-                  "text": ", Monday–Friday 9am–8pm and Saturday 9am–12:30pm."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Service:",
-                  "strong": true
-                },
-                {
-                  "text": " free and confidential legal-aid advice for eligible housing, domestic-abuse, debt and discrimination matters. Ask for a callback if you cannot afford the call; interpreting is available."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Civil Legal Advice eligibility and contact",
-                  "href": "https://www.gov.uk/civil-legal-advice"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+443453454345",
+          "website": "https://www.gov.uk/civil-legal-advice",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "law-centres",
-          "name": "Law Centres",
+          "title": "Law Centres",
+          "description": "Service: independent free legal help in some London boroughs on housing, benefits, employment, immigration and community-care matters. Each centre has its own catchment, appointments and capacity.\nFind a Law Centre",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Service:",
-                  "strong": true
-                },
-                {
-                  "text": " independent free legal help in some London boroughs on housing, benefits, employment, immigration and community-care matters. Each centre has its own catchment, appointments and capacity."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Find a Law Centre",
-                  "href": "https://www.lawcentres.org.uk/i-am-looking-for-advice"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.lawcentres.org.uk/i-am-looking-for-advice",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "praxis-immigration-advice",
-          "name": "Praxis immigration advice",
+          "title": "Praxis immigration advice",
+          "description": "Phone advice: 020 7749 7605, normally Wednesday 2pm–5pm except when a drop-in clinic is held.\nWho: people in London on very low income or experiencing destitution. Praxis prioritises human-rights applications and people facing homelessness; it cannot assist with every immigration category. Monthly drop-ins have very limited first-come appointments.\nPraxis current advice dates and eligibility",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone advice:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "020 7749 7605",
-                  "href": "tel:+442077497605"
-                },
-                {
-                  "text": ", normally Wednesday 2pm–5pm except when a drop-in clinic is held."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Who:",
-                  "strong": true
-                },
-                {
-                  "text": " people in London on very low income or experiencing destitution. Praxis prioritises human-rights applications and people facing homelessness; it cannot assist with every immigration category. Monthly drop-ins have very limited first-come appointments."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Praxis current advice dates and eligibility",
-                  "href": "https://www.praxis.org.uk/get-help"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+442077497605",
+          "website": "https://www.praxis.org.uk/get-help",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "migrant-help-asylum-helpline",
-          "name": "Migrant Help asylum helpline",
+          "title": "Migrant Help asylum helpline",
+          "description": "Phone: 0808 8010 503, free, 24 hours a day.\nWho: people who have claimed or intend to claim asylum. Advisers can explain asylum support and accommodation, report destitution or homelessness, help with accommodation problems and signpost to legal representation. The service does not itself provide legal representation.\nMigrant Help services",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "0808 8010 503",
-                  "href": "tel:+448088010503"
-                },
-                {
-                  "text": ", free, 24 hours a day."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Who:",
-                  "strong": true
-                },
-                {
-                  "text": " people who have claimed or intend to claim asylum. Advisers can explain asylum support and accommodation, report destitution or homelessness, help with accommodation problems and signpost to legal representation. The service does not itself provide legal representation."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Migrant Help services",
-                  "href": "https://www.migranthelpuk.org/how-we-can-help"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+448088010503",
+          "website": "https://www.migranthelpuk.org/how-we-can-help",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
-      "id": "safety",
-      "title": "8. Women, young people, veterans and pets",
-      "items": [
+      "id": "documents",
+      "title": "Work, documents, mail and storage",
+      "entries": [
         {
-          "type": "resource",
-          "id": "solace-women-s-aid",
-          "name": "Solace Women's Aid",
+          "id": "crisis-employment-and-housing-coaching",
+          "title": "Crisis employment and housing coaching",
+          "description": "Service: job search, skills, housing and health support for Crisis members and people accepted after assessment. Email london@crisis.org.uk or drop in Monday–Friday 9:30am–4:30pm. — mailto:london@crisis.org.uk\nCrisis Skylight London",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Advice line:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "0808 802 5565",
-                  "href": "tel:+448088025565"
-                },
-                {
-                  "text": ", Monday–Friday 10am–4pm and Tuesday 6pm–8pm; closed bank holidays."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Service:",
-                  "strong": true
-                },
-                {
-                  "text": " confidential safety planning, housing, legal-rights, financial, immigration and mental-health support for women in London affected by domestic or sexual abuse. Refuge addresses are confidential; referrals depend on availability."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Solace — get help",
-                  "href": "https://solacewomensaid.org/get-help/"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 50–52 Commercial Street, London E1 6LT",
+          "phone": "",
+          "website": "https://www.crisis.org.uk/get-help/london/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
-          "id": "centrepoint-helpline-ages-16-25",
-          "name": "Centrepoint Helpline — ages 16–25",
+          "id": "whitechapel-mission-job-and-education-support",
+          "title": "Whitechapel Mission job and education support",
+          "description": "Service: computers, basic literacy and numeracy, word-processing practice, employment links, benefits and housing advice. Ask the advice team which services are available to a new visitor that day.\nWhitechapel Mission Day Centre",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "0808 800 0661",
-                  "href": "tel:+448088000661"
-                },
-                {
-                  "text": ", Monday–Friday 9am–5pm."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Service:",
-                  "strong": true
-                },
-                {
-                  "text": " housing-rights advice and connection to appropriate services for young people in England who are homeless or at risk. London accommodation usually requires referral through a local authority and is not guaranteed by a helpline call."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Centrepoint contact for help",
-                  "href": "https://centrepoint.org.uk/contact-help"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 212 Whitechapel Road, London E1 1BJ",
+          "phone": "",
+          "website": "https://whitechapel.org.uk/services/daycentre",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
-          "id": "veterans-aid",
-          "name": "Veterans Aid",
+          "id": "999-club-employment-and-training",
+          "title": "999 Club employment and training",
+          "description": "Service: staff help with accommodation, benefits, employment and training; computers, phone and internet are available during the Gateway drop-in. The service is for people based in Lewisham or Greenwich.\n999 Club services",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 27 Victoria Square, London SW1W 0RB"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "0800 012 6867",
-                  "href": "tel:+448000126867"
-                },
-                {
-                  "text": " or "
-                },
-                {
-                  "text": "020 7828 2468",
-                  "href": "tel:+442078282468"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Who:",
-                  "strong": true
-                },
-                {
-                  "text": " former UK service personnel who are homeless, facing homelessness or in crisis. The charity can assess immediate needs including food, clothing, safe accommodation and longer-term support. Call before attending."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Veterans Aid — how help works",
-                  "href": "https://veterans-aid.net/how-we-operate/"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 21 Deptford Broadway, London SE8 4PA",
+          "phone": "",
+          "website": "https://999club.org/our-services/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
-          "id": "op-fortitude-veteran-housing-pathway",
-          "name": "Op FORTITUDE — veteran housing pathway",
+          "id": "find-a-job-and-local-employment-programmes",
+          "title": "Find a job and local employment programmes",
+          "description": "Start with: the official Find a Job service and a Jobcentre work coach. Ask for help creating an email address, preparing a CV, obtaining interview clothes and explaining gaps caused by homelessness.\nGOV.UK Find a Job",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "0800 952 0774",
-                  "href": "tel:+448009520774"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Service:",
-                  "strong": true
-                },
-                {
-                  "text": " government-sponsored referral pathway for veterans at risk of homelessness. It can give advice and, for those at highest risk who meet the criteria, seek suitable single-person accommodation. Self-referral is accepted."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "GOV.UK veteran homelessness support",
-                  "href": "https://www.gov.uk/guidance/getting-homelessness-support-as-a-veteran"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.gov.uk/find-a-job",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
-          "id": "streetvet",
-          "name": "StreetVet",
+          "id": "national-insurance-number",
+          "title": "National Insurance number",
+          "description": "Important: you can start a Universal Credit claim without knowing your National Insurance number. Check a payslip, P60, personal tax account or HMRC app; ask Jobcentre staff for help if you cannot retrieve it.\nFind a lost National Insurance number",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Service:",
-                  "strong": true
-                },
-                {
-                  "text": " free veterinary outreach for pets belonging to people experiencing homelessness. Outreach locations and times can change; use the official contact form or ask a day-centre or Street Storage worker for the current London session."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Emergency:",
-                  "strong": true
-                },
-                {
-                  "text": " StreetVet is not an emergency service for animals that are not already registered. In an animal emergency, contact the last vet, PDSA, Blue Cross, RSPCA or any veterinary practice for first aid."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "StreetVet contact and emergency guidance",
-                  "href": "https://www.streetvet.co.uk/contact-/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.gov.uk/lost-national-insurance-number",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
-          "id": "tell-services-about-a-pet-before-travelling",
-          "name": "Tell services about a pet before travelling",
+          "id": "passport-applications-without-a-home-address",
+          "title": "Passport applications without a home address",
+          "description": "Help available: HM Passport Office guidance recognises homelessness and lack of documents as vulnerability factors. A third party may be able to confirm your situation and accept delivery, but contact the Passport Adviceline before applying and never use an address without permission.\nHM Passport Office Adviceline",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Why:",
-                  "strong": true
-                },
-                {
-                  "text": " many hostels cannot accept animals, while some severe-weather and specialist placements can. Tell StreetLink, the borough, shelter or day centre the species, size and any veterinary or behavioural needs before accepting a route or placement."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Search services and check pet rules",
-                  "href": "https://homeless.org.uk/homeless-england/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.gov.uk/passport-advice-line",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "mail-collection",
+          "title": "Mail collection",
+          "description": "Possible authorised addresses: Whitechapel Mission, 999 Club and Salvation Army No. 10 publish postal services for people using their centres. Universal Credit may also accept a hostel, trusted person, day centre or local Jobcentre as a care-of address.\nAsk first: do not put any service's address on an application until staff have agreed and explained collection rules.\nWhitechapel Mission postal-address service",
+          "last_verified": "2026-11-11",
+          "address": "",
+          "phone": "",
+          "website": "https://whitechapel.org.uk/services/daycentre",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "street-storage",
+          "title": "Street Storage",
+          "description": "Referral line: 07932 830 440; email: info@streetstorage.org. — mailto:info@streetstorage.org\nService: free, secure storage in London for people experiencing homelessness or unsafe housing, including clothes, tents, sleeping bags, work tools and documents. Self-referrals are accepted. Call for the correct location, opening time and item limits before travelling.\nStreet Storage",
+          "last_verified": "2026-11-11",
+          "address": "",
+          "phone": "+447932830440",
+          "website": "https://www.streetstorage.org/",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
+    },
+    {
+      "id": "mail",
+      "title": "Mailing address",
+      "entries": []
+    },
+    {
+      "id": "storage",
+      "title": "Storage",
+      "entries": []
+    },
+    {
+      "id": "safety",
+      "title": "Women, young people, veterans and pets",
+      "entries": [
+        {
+          "id": "solace-women-s-aid",
+          "title": "Solace Women's Aid",
+          "description": "Advice line: 0808 802 5565, Monday–Friday 10am–4pm and Tuesday 6pm–8pm; closed bank holidays.\nService: confidential safety planning, housing, legal-rights, financial, immigration and mental-health support for women in London affected by domestic or sexual abuse. Refuge addresses are confidential; referrals depend on availability.\nSolace — get help",
+          "last_verified": "2026-11-11",
+          "address": "",
+          "phone": "+448088025565",
+          "website": "https://solacewomensaid.org/get-help/",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "centrepoint-helpline-ages-16-25",
+          "title": "Centrepoint Helpline — ages 16–25",
+          "description": "Phone: 0808 800 0661, Monday–Friday 9am–5pm.\nService: housing-rights advice and connection to appropriate services for young people in England who are homeless or at risk. London accommodation usually requires referral through a local authority and is not guaranteed by a helpline call.\nCentrepoint contact for help",
+          "last_verified": "2026-11-11",
+          "address": "",
+          "phone": "+448088000661",
+          "website": "https://centrepoint.org.uk/contact-help",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "veterans-aid",
+          "title": "Veterans Aid",
+          "description": "Phone: 0800 012 6867 or 020 7828 2468.\nWho: former UK service personnel who are homeless, facing homelessness or in crisis. The charity can assess immediate needs including food, clothing, safe accommodation and longer-term support. Call before attending.\nVeterans Aid — how help works",
+          "last_verified": "2026-11-11",
+          "address": "Address: 27 Victoria Square, London SW1W 0RB",
+          "phone": "+448000126867",
+          "website": "https://veterans-aid.net/how-we-operate/",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "op-fortitude-veteran-housing-pathway",
+          "title": "Op FORTITUDE — veteran housing pathway",
+          "description": "Phone: 0800 952 0774.\nService: government-sponsored referral pathway for veterans at risk of homelessness. It can give advice and, for those at highest risk who meet the criteria, seek suitable single-person accommodation. Self-referral is accepted.\nGOV.UK veteran homelessness support",
+          "last_verified": "2026-11-11",
+          "address": "",
+          "phone": "+448009520774",
+          "website": "https://www.gov.uk/guidance/getting-homelessness-support-as-a-veteran",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "streetvet",
+          "title": "StreetVet",
+          "description": "Service: free veterinary outreach for pets belonging to people experiencing homelessness. Outreach locations and times can change; use the official contact form or ask a day-centre or Street Storage worker for the current London session.\nEmergency: StreetVet is not an emergency service for animals that are not already registered. In an animal emergency, contact the last vet, PDSA, Blue Cross, RSPCA or any veterinary practice for first aid.\nStreetVet contact and emergency guidance",
+          "last_verified": "2026-11-11",
+          "address": "",
+          "phone": "",
+          "website": "https://www.streetvet.co.uk/contact-/",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "tell-services-about-a-pet-before-travelling",
+          "title": "Tell services about a pet before travelling",
+          "description": "Why: many hostels cannot accept animals, while some severe-weather and specialist placements can. Tell StreetLink, the borough, shelter or day centre the species, size and any veterinary or behavioural needs before accepting a route or placement.\nSearch services and check pet rules",
+          "last_verified": "2026-11-11",
+          "address": "",
+          "phone": "",
+          "website": "https://homeless.org.uk/homeless-england/",
+          "hours": "",
+          "how_to_access": ""
+        }
+      ]
+    },
+    {
+      "id": "specialist-support",
+      "title": "Specialist support",
+      "entries": []
+    },
+    {
+      "id": "veterans",
+      "title": "Veterans support",
+      "entries": []
+    },
+    {
+      "id": "pets",
+      "title": "Help for people with pets",
+      "entries": []
+    },
+    {
+      "id": "other",
+      "title": "Other useful resources",
+      "entries": []
     }
   ]
 }

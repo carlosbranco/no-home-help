@@ -1,6 +1,7 @@
 {
   "$schema": "https://nohomehelp.com/schemas/city.schema.json",
-  "schema_version": 1,
+  "documentation": "https://github.com/carlosbranco/no-home-help/blob/main/EDIT_CITY_JSON.md",
+  "schema_version": 2,
   "status": "published",
   "locale": {
     "language": "id",
@@ -26,2182 +27,428 @@
   "page": {
     "heading": "JAKARTA - BANTUAN TUNAWISMA DAN ORANG TERLANTAR",
     "last_verified": "2026-11-10",
-    "urgent": [
-      {
-        "type": "paragraph",
-        "content": [
-          {
-            "text": "Bahaya langsung, kebakaran, kekerasan, atau keadaan darurat medis:",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "112",
-            "href": "tel:112"
-          },
-          {
-            "text": " — gratis, 24 jam"
-          },
-          {
-            "break": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "Ambulans gawat darurat:",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "119",
-            "href": "tel:119"
-          },
-          {
-            "break": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "Tidak memiliki tempat aman malam ini:",
-            "strong": true
-          },
-          {
-            "text": " hubungi "
-          },
-          {
-            "text": "112",
-            "href": "tel:112"
-          },
-          {
-            "text": ", buat laporan sosial melalui JAKI, atau hubungi Dinas Sosial di "
-          },
-          {
-            "text": "(021) 426-5117",
-            "href": "tel:+62214265117"
-          },
-          {
-            "text": " pada jam kerja"
-          },
-          {
-            "break": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "Krisis psikologis atau pikiran untuk bunuh diri:",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "119",
-            "href": "tel:119"
-          },
-          {
-            "text": " ekstensi 8 atau "
-          },
-          {
-            "text": "Healing119.id",
-            "href": "https://www.healing119.id/"
-          }
-        ]
-      }
-    ],
-    "notice": [
-      {
-        "text": "Informasi dan ketersediaan dapat berubah.",
-        "strong": true
-      },
-      {
-        "text": " Hubungi layanan sebelum berangkat bila memungkinkan. Daftar ini tidak menjamin tempat tidur, makanan, pemeriksaan, pekerjaan, bantuan tunai, atau persetujuan. Panti sosial pemerintah di bawah ini terutama menerima orang melalui penjangkauan, asesmen, dan rujukan; jangan datang dengan anggapan bahwa penerimaan langsung pasti tersedia."
-      }
-    ],
-    "intro": [
-      {
-        "type": "paragraph",
-        "content": [
-          {
-            "text": "Dalam layanan pemerintah Jakarta, istilah "
-          },
-          {
-            "text": "PPKS",
-            "strong": true
-          },
-          {
-            "text": " berarti Pemerlu Pelayanan Kesejahteraan Sosial. Istilah ini dapat mencakup orang terlantar dan orang yang hidup di jalan. Jika Anda meminta bantuan, jelaskan lokasi, kondisi kesehatan, siapa yang bersama Anda, dan apakah ada anak, lansia, disabilitas, kekerasan, atau kebutuhan medis mendesak."
-          }
-        ]
-      }
-    ],
-    "footer": []
+    "urgent": "Bahaya langsung, kebakaran, kekerasan, atau keadaan darurat medis: 112 — gratis, 24 jam Ambulans gawat darurat: 119 Tidak memiliki tempat aman malam ini: hubungi 112, buat laporan sosial melalui JAKI, atau hubungi Dinas Sosial di (021) 426-5117 pada jam kerja Krisis psikologis atau pikiran untuk bunuh diri: 119 ekstensi 8 atau Healing119.id — https://www.healing119.id/",
+    "notice": "Informasi dan ketersediaan dapat berubah. Hubungi layanan sebelum berangkat bila memungkinkan. Daftar ini tidak menjamin tempat tidur, makanan, pemeriksaan, pekerjaan, bantuan tunai, atau persetujuan. Panti sosial pemerintah di bawah ini terutama menerima orang melalui penjangkauan, asesmen, dan rujukan; jangan datang dengan anggapan bahwa penerimaan langsung pasti tersedia.",
+    "intro": "Dalam layanan pemerintah Jakarta, istilah PPKS berarti Pemerlu Pelayanan Kesejahteraan Sosial. Istilah ini dapat mencakup orang terlantar dan orang yang hidup di jalan. Jika Anda meminta bantuan, jelaskan lokasi, kondisi kesehatan, siapa yang bersama Anda, dan apakah ada anak, lansia, disabilitas, kekerasan, atau kebutuhan medis mendesak.",
+    "footer": ""
   },
   "categories": [
     {
-      "id": "tempat-aman",
-      "title": "1. Tempat aman dan penjangkauan sosial",
-      "items": [
+      "id": "emergency",
+      "title": "Emergency help",
+      "entries": []
+    },
+    {
+      "id": "shelter",
+      "title": "Tempat aman dan penjangkauan sosial",
+      "entries": [
         {
-          "type": "paragraph",
-          "content": [
-            {
-              "text": "Jika Anda berada di jalan dan membutuhkan pertolongan sekarang, mulai dengan 112 atau laporan JAKI.",
-              "strong": true
-            },
-            {
-              "text": " Dinas Sosial menyatakan laporan PPKS melalui JAKI ditindaklanjuti oleh Satgas P3S ke lokasi. Tim melakukan asesmen dan dapat merujuk orang ke panti sosial sesuai kondisi dan wilayah. Proses ini bukan pemesanan tempat tidur dan ketersediaan tidak dijamin."
-            }
-          ]
-        },
-        {
-          "type": "resource",
           "id": "jakarta-siaga-112",
-          "name": "Jakarta Siaga 112",
+          "title": "Jakarta Siaga 112",
+          "description": "Jika Anda berada di jalan dan membutuhkan pertolongan sekarang, mulai dengan 112 atau laporan JAKI. Dinas Sosial menyatakan laporan PPKS melalui JAKI ditindaklanjuti oleh Satgas P3S ke lokasi. Tim melakukan asesmen dan dapat merujuk orang ke panti sosial sesuai kondisi dan wilayah. Proses ini bukan pemesanan tempat tidur dan ketersediaan tidak dijamin.\nTelepon: 112, gratis dan tersedia 24 jam\nGunakan untuk: keadaan yang mengancam keselamatan, kebakaran, kekerasan dalam rumah tangga, kejahatan, bencana, pertolongan medis kritis, atau keadaan sosial yang sangat mendesak. Layanan terhubung dengan BPBD, ambulans, kepolisian, pemadam, Satpol PP, dan Dinas Sosial.\nJangan gunakan untuk: pertanyaan administratif biasa atau permintaan yang tidak mendesak. Untuk masalah sosial yang tidak darurat, gunakan JAKI atau Dinas Sosial.\nInformasi resmi Jakarta Siaga 112",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telepon:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "112",
-                  "href": "tel:112"
-                },
-                {
-                  "text": ", gratis dan tersedia 24 jam"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Gunakan untuk:",
-                  "strong": true
-                },
-                {
-                  "text": " keadaan yang mengancam keselamatan, kebakaran, kekerasan dalam rumah tangga, kejahatan, bencana, pertolongan medis kritis, atau keadaan sosial yang sangat mendesak. Layanan terhubung dengan BPBD, ambulans, kepolisian, pemadam, Satpol PP, dan Dinas Sosial."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Jangan gunakan untuk:",
-                  "strong": true
-                },
-                {
-                  "text": " pertanyaan administratif biasa atau permintaan yang tidak mendesak. Untuk masalah sosial yang tidak darurat, gunakan JAKI atau Dinas Sosial."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Informasi resmi Jakarta Siaga 112",
-                  "href": "https://js112-bpbd.jakarta.go.id/web/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "112",
+          "website": "https://js112-bpbd.jakarta.go.id/web/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "dinas-sosial-dki-jakarta-dan-satgas-p3s",
-          "name": "Dinas Sosial DKI Jakarta dan Satgas P3S",
+          "title": "Dinas Sosial DKI Jakarta dan Satgas P3S",
+          "description": "Telepon: (021) 426-5117\nWhatsApp pengaduan Pemprov: 0811-1272-206\nJam kantor: Senin–Kamis 08.00–16.00; Jumat 08.00–16.30. Penjangkauan lapangan bekerja dengan sistem giliran, tetapi kantor biasa tidak buka 24 jam.\nLayanan: penjangkauan PPKS, asesmen, rujukan ke panti sosial, respons untuk keterlantaran berat, koordinasi dengan daerah asal, dan informasi pemulangan.\nCara meminta penjangkauan: buat laporan melalui aplikasi JAKI dengan lokasi yang jelas. Jika tidak mempunyai ponsel pintar, telepon kantor pada jam kerja, gunakan WhatsApp pengaduan, atau minta kantor kelurahan/kecamatan membantu membuat laporan.\n- Prosedur resmi penjangkauan PPKS — https://dinsos.jakarta.go.id/layanan/rehabilitasi-sosial/permohonan-penjangkauan-ppks\n- Kanal pengaduan resmi Jakarta — https://www.jakarta.go.id/kanal-pengaduan",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Alamat kantor:",
-                  "strong": true
-                },
-                {
-                  "text": " Jl. Gunung Sahari II No. 6, Gunung Sahari Selatan, Kemayoran, Jakarta Pusat 10610"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telepon:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(021) 426-5117",
-                  "href": "tel:+62214265117"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "WhatsApp pengaduan Pemprov:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "0811-1272-206",
-                  "href": "https://wa.me/628111272206"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Jam kantor:",
-                  "strong": true
-                },
-                {
-                  "text": " Senin–Kamis 08.00–16.00; Jumat 08.00–16.30. Penjangkauan lapangan bekerja dengan sistem giliran, tetapi kantor biasa tidak buka 24 jam."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Layanan:",
-                  "strong": true
-                },
-                {
-                  "text": " penjangkauan PPKS, asesmen, rujukan ke panti sosial, respons untuk keterlantaran berat, koordinasi dengan daerah asal, dan informasi pemulangan."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Cara meminta penjangkauan:",
-                  "strong": true
-                },
-                {
-                  "text": " buat laporan melalui aplikasi JAKI dengan lokasi yang jelas. Jika tidak mempunyai ponsel pintar, telepon kantor pada jam kerja, gunakan WhatsApp pengaduan, atau minta kantor kelurahan/kecamatan membantu membuat laporan."
-                }
-              ]
-            },
-            {
-              "type": "list",
-              "items": [
-                [
-                  {
-                    "text": "Prosedur resmi penjangkauan PPKS",
-                    "href": "https://dinsos.jakarta.go.id/layanan/rehabilitasi-sosial/permohonan-penjangkauan-ppks"
-                  }
-                ],
-                [
-                  {
-                    "text": "Kanal pengaduan resmi Jakarta",
-                    "href": "https://www.jakarta.go.id/kanal-pengaduan"
-                  }
-                ]
-              ]
-            }
-          ]
+          "address": "Alamat kantor: Jl. Gunung Sahari II No. 6, Gunung Sahari Selatan, Kemayoran, Jakarta Pusat 10610",
+          "phone": "+62214265117",
+          "website": "https://wa.me/628111272206",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "panti-sosial-bina-insan-bangun-daya-1",
-          "name": "Panti Sosial Bina Insan Bangun Daya 1",
+          "title": "Panti Sosial Bina Insan Bangun Daya 1",
+          "description": "Wilayah rujukan: Jakarta Barat, Jakarta Pusat, dan Jakarta Selatan.\nLayanan: penampungan sementara dan rehabilitasi sosial untuk PPKS hasil penjangkauan, termasuk asesmen, kebutuhan dasar, perawatan fisik, bimbingan, konseling, penelusuran keluarga, reunifikasi, dan rujukan lanjutan.\nAkses: terutama melalui Satgas P3S, penjangkauan sosial, atau rujukan resmi. Alamat ini bukan jaminan penerimaan langsung. Hubungi 112, JAKI, atau Dinas Sosial terlebih dahulu.\n- Rujukan wilayah oleh Dinas Sosial\n- Tugas resmi PSBI Bangun Daya — https://ppid.jakarta.go.id/assets/home/ppidNew/struktur-organisasi/2022/Dinas_Sosial.pdf",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Lokasi:",
-                  "strong": true
-                },
-                {
-                  "text": " Jl. Kembangan Raya No. 2, Kembangan, Jakarta Barat"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Wilayah rujukan:",
-                  "strong": true
-                },
-                {
-                  "text": " Jakarta Barat, Jakarta Pusat, dan Jakarta Selatan."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Layanan:",
-                  "strong": true
-                },
-                {
-                  "text": " penampungan sementara dan rehabilitasi sosial untuk PPKS hasil penjangkauan, termasuk asesmen, kebutuhan dasar, perawatan fisik, bimbingan, konseling, penelusuran keluarga, reunifikasi, dan rujukan lanjutan."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Akses:",
-                  "strong": true
-                },
-                {
-                  "text": " terutama melalui Satgas P3S, penjangkauan sosial, atau rujukan resmi. Alamat ini bukan jaminan penerimaan langsung. Hubungi 112, JAKI, atau Dinas Sosial terlebih dahulu."
-                }
-              ]
-            },
-            {
-              "type": "list",
-              "items": [
-                [
-                  {
-                    "text": "Rujukan wilayah oleh Dinas Sosial",
-                    "href": "https://dinsos.jakarta.go.id/layanan/rehabilitasi-sosial/permohonan-penjangkauan-ppks"
-                  }
-                ],
-                [
-                  {
-                    "text": "Tugas resmi PSBI Bangun Daya",
-                    "href": "https://ppid.jakarta.go.id/assets/home/ppidNew/struktur-organisasi/2022/Dinas_Sosial.pdf"
-                  }
-                ]
-              ]
-            }
-          ]
+          "address": "Lokasi: Jl. Kembangan Raya No. 2, Kembangan, Jakarta Barat",
+          "phone": "",
+          "website": "https://dinsos.jakarta.go.id/layanan/rehabilitasi-sosial/permohonan-penjangkauan-ppks",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "panti-sosial-bina-insan-bangun-daya-2-ceger",
-          "name": "Panti Sosial Bina Insan Bangun Daya 2 Ceger",
+          "title": "Panti Sosial Bina Insan Bangun Daya 2 Ceger",
+          "description": "Wilayah rujukan: Jakarta Timur dan Jakarta Utara.\nLayanan: penampungan sementara, makan, pakaian layak, pendampingan sosial, konseling psikologis, penelusuran keluarga, reunifikasi, dan koordinasi pemulangan bagi orang yang dirujuk.\nAkses: melalui penjangkauan atau rujukan; jangan mengandalkan penerimaan langsung. Mulai dengan 112, JAKI, atau Dinas Sosial.\n- Alamat resmi unit\n- Contoh layanan dan pemulangan oleh Dinas Sosial — https://dinsos.jakarta.go.id/berita/kondisi-kesehatan-sudah-stabil-psbi-bangun-daya-2-pulangkan-warga-binaan-asal-bandung",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Lokasi:",
-                  "strong": true
-                },
-                {
-                  "text": " Jl. Bina Marga No. 48, RT 002/RW 004, Ceger, Cipayung, Jakarta Timur"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Wilayah rujukan:",
-                  "strong": true
-                },
-                {
-                  "text": " Jakarta Timur dan Jakarta Utara."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Layanan:",
-                  "strong": true
-                },
-                {
-                  "text": " penampungan sementara, makan, pakaian layak, pendampingan sosial, konseling psikologis, penelusuran keluarga, reunifikasi, dan koordinasi pemulangan bagi orang yang dirujuk."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Akses:",
-                  "strong": true
-                },
-                {
-                  "text": " melalui penjangkauan atau rujukan; jangan mengandalkan penerimaan langsung. Mulai dengan 112, JAKI, atau Dinas Sosial."
-                }
-              ]
-            },
-            {
-              "type": "list",
-              "items": [
-                [
-                  {
-                    "text": "Alamat resmi unit",
-                    "href": "https://kip.jakarta.go.id/emonev-kidki/peserta"
-                  }
-                ],
-                [
-                  {
-                    "text": "Contoh layanan dan pemulangan oleh Dinas Sosial",
-                    "href": "https://dinsos.jakarta.go.id/berita/kondisi-kesehatan-sudah-stabil-psbi-bangun-daya-2-pulangkan-warga-binaan-asal-bandung"
-                  }
-                ]
-              ]
-            }
-          ]
+          "address": "Lokasi: Jl. Bina Marga No. 48, RT 002/RW 004, Ceger, Cipayung, Jakarta Timur",
+          "phone": "",
+          "website": "https://kip.jakarta.go.id/emonev-kidki/peserta",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
-      "id": "makanan",
-      "title": "2. Makanan gratis dan bantuan pangan",
-      "items": [
+      "id": "food",
+      "title": "Makanan gratis dan bantuan pangan",
+      "entries": [
         {
-          "type": "paragraph",
-          "content": [
-            {
-              "text": "Program makanan dapat berhenti, berubah waktu, atau kehabisan persediaan. Datang lebih awal dan telepon terlebih dahulu bila nomor tersedia. Bantuan dari BAZNAS, Dompet Dhuafa, atau lembaga lain memerlukan penilaian; bukan pembagian makanan tanpa syarat setiap saat."
-            }
-          ]
-        },
-        {
-          "type": "resource",
           "id": "makan-siang-gratis-uta-45-jakarta",
-          "name": "Makan siang gratis UTA'45 Jakarta",
+          "title": "Makan siang gratis UTA'45 Jakarta",
+          "description": "Program makanan dapat berhenti, berubah waktu, atau kehabisan persediaan. Datang lebih awal dan telepon terlebih dahulu bila nomor tersedia. Bantuan dari BAZNAS, Dompet Dhuafa, atau lembaga lain memerlukan penilaian; bukan pembagian makanan tanpa syarat setiap saat.\nTelepon kampus: (021) 6471-5666\nJadwal yang dipublikasikan: setiap Rabu mulai pukul 12.00 sampai makanan habis.\nAkses: terbuka untuk masyarakat umum. Kampus menyebut warga, pekerja, pengemudi ojek daring, dan musafir sebagai penerima. Tidak ada jaminan porsi masih tersedia; telepon kampus untuk memastikan program masih berjalan.\n- Informasi resmi program\n- Kontak resmi kampus — https://www.uta45jakarta.ac.id/contact/",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Lokasi:",
-                  "strong": true
-                },
-                {
-                  "text": " depan Kampus Universitas 17 Agustus 1945 Jakarta, Jl. Sunter Permai Raya, Jakarta Utara 14350"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telepon kampus:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(021) 6471-5666",
-                  "href": "tel:+622164715666"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Jadwal yang dipublikasikan:",
-                  "strong": true
-                },
-                {
-                  "text": " setiap Rabu mulai pukul 12.00 sampai makanan habis."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Akses:",
-                  "strong": true
-                },
-                {
-                  "text": " terbuka untuk masyarakat umum. Kampus menyebut warga, pekerja, pengemudi ojek daring, dan musafir sebagai penerima. Tidak ada jaminan porsi masih tersedia; telepon kampus untuk memastikan program masih berjalan."
-                }
-              ]
-            },
-            {
-              "type": "list",
-              "items": [
-                [
-                  {
-                    "text": "Informasi resmi program",
-                    "href": "https://utabicara.uta45jakarta.ac.id/makan-siang-gratis-uta45-jakarta-akper-husada-karya-jaya/"
-                  }
-                ],
-                [
-                  {
-                    "text": "Kontak resmi kampus",
-                    "href": "https://www.uta45jakarta.ac.id/contact/"
-                  }
-                ]
-              ]
-            }
-          ]
+          "address": "Lokasi: depan Kampus Universitas 17 Agustus 1945 Jakarta, Jl. Sunter Permai Raya, Jakarta Utara 14350",
+          "phone": "+622164715666",
+          "website": "https://utabicara.uta45jakarta.ac.id/makan-siang-gratis-uta45-jakarta-akper-husada-karya-jaya/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "jumat-berkah-masjid-istiqlal",
-          "name": "Jumat Berkah Masjid Istiqlal",
+          "title": "Jumat Berkah Masjid Istiqlal",
+          "description": "Jadwal yang dipublikasikan: pembagian makanan setelah salat Jumat, setiap Jumat.\nAkses: informasi resmi menyatakan jemaah laki-laki dan perempuan menerima makanan tanpa pendaftaran. Jumlah terbatas dan program dapat berubah; konfirmasi melalui kanal resmi Istiqlal sebelum bergantung pada layanan ini.\n- Informasi resmi Jumat Berkah\n- Profil dan alamat resmi Kementerian Agama — https://simas.kemenag.go.id/profil/masjid/01.0.11.03.02.000001",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Lokasi:",
-                  "strong": true
-                },
-                {
-                  "text": " Masjid Istiqlal, Jl. Taman Wijaya Kusuma, Pasar Baru, Sawah Besar, Jakarta Pusat"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Jadwal yang dipublikasikan:",
-                  "strong": true
-                },
-                {
-                  "text": " pembagian makanan setelah salat Jumat, setiap Jumat."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Akses:",
-                  "strong": true
-                },
-                {
-                  "text": " informasi resmi menyatakan jemaah laki-laki dan perempuan menerima makanan tanpa pendaftaran. Jumlah terbatas dan program dapat berubah; konfirmasi melalui kanal resmi Istiqlal sebelum bergantung pada layanan ini."
-                }
-              ]
-            },
-            {
-              "type": "list",
-              "items": [
-                [
-                  {
-                    "text": "Informasi resmi Jumat Berkah",
-                    "href": "https://www.istiqlal.or.id/artikel/detail/nikmati-program-jumat-berkah-ratusan-jamaah-ikuti-makan-bersama-di-istiqlal"
-                  }
-                ],
-                [
-                  {
-                    "text": "Profil dan alamat resmi Kementerian Agama",
-                    "href": "https://simas.kemenag.go.id/profil/masjid/01.0.11.03.02.000001"
-                  }
-                ]
-              ]
-            }
-          ]
+          "address": "Lokasi: Masjid Istiqlal, Jl. Taman Wijaya Kusuma, Pasar Baru, Sawah Besar, Jakarta Pusat",
+          "phone": "",
+          "website": "https://www.istiqlal.or.id/artikel/detail/nikmati-program-jumat-berkah-ratusan-jamaah-ikuti-makan-bersama-di-istiqlal",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "baznas-bazis-dki-jakarta-layanan-mustahik",
-          "name": "BAZNAS (BAZIS) DKI Jakarta — layanan mustahik",
+          "title": "BAZNAS (BAZIS) DKI Jakarta — layanan mustahik",
+          "description": "WhatsApp layanan mustahik: 0856-9407-5664\nTelepon kantor: (021) 390-1367\nBantuan: BAZNAS (BAZIS) DKI menjalankan program bantuan pangan, kesehatan, kebutuhan pokok, santunan, dan pemberdayaan ekonomi untuk warga yang memenuhi kriteria mustahik.\nAkses: hubungi layanan mustahik untuk meminta penjelasan syarat dan proses. Bantuan memerlukan verifikasi dan tidak dijamin pada hari yang sama.\nIdentitas: lembaga zakat Islam. Penerima harus memenuhi ketentuan penyaluran zakat dan hasil asesmen lembaga.\nKontak resmi layanan mustahik — https://ppid.baznasbazisdki.id/pengumuman_informasi.php",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Alamat:",
-                  "strong": true
-                },
-                {
-                  "text": " Graha Mental Spiritual, Jl. Awaludin II Lantai 5, Kebon Melati, Tanah Abang, Jakarta Pusat 10130"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "WhatsApp layanan mustahik:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "0856-9407-5664",
-                  "href": "https://wa.me/6285694075664"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telepon kantor:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(021) 390-1367",
-                  "href": "tel:+62213901367"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Bantuan:",
-                  "strong": true
-                },
-                {
-                  "text": " BAZNAS (BAZIS) DKI menjalankan program bantuan pangan, kesehatan, kebutuhan pokok, santunan, dan pemberdayaan ekonomi untuk warga yang memenuhi kriteria mustahik."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Akses:",
-                  "strong": true
-                },
-                {
-                  "text": " hubungi layanan mustahik untuk meminta penjelasan syarat dan proses. Bantuan memerlukan verifikasi dan tidak dijamin pada hari yang sama."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Identitas:",
-                  "strong": true
-                },
-                {
-                  "text": " lembaga zakat Islam. Penerima harus memenuhi ketentuan penyaluran zakat dan hasil asesmen lembaga."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Kontak resmi layanan mustahik",
-                  "href": "https://ppid.baznasbazisdki.id/pengumuman_informasi.php"
-                }
-              ]
-            }
-          ]
+          "address": "Alamat: Graha Mental Spiritual, Jl. Awaludin II Lantai 5, Kebon Melati, Tanah Abang, Jakarta Pusat 10130",
+          "phone": "+62213901367",
+          "website": "https://wa.me/6285694075664",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "dompet-dhuafa",
-          "name": "Dompet Dhuafa",
+          "title": "Dompet Dhuafa",
+          "description": "Call center: (021) 5086-6860\nWhatsApp: 0811-1544-488 — https://wa.me/628111544488\nLayanan: organisasi filantropi Islam dengan program sosial, kesehatan, ekonomi, pendidikan, dan bantuan untuk masyarakat dhuafa.\nAkses: alamat di atas adalah kantor, bukan dapur umum atau titik makan harian. Hubungi call center untuk meminta asesmen atau rujukan ke program yang sesuai.\nKontak resmi Dompet Dhuafa",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Alamat kantor:",
-                  "strong": true
-                },
-                {
-                  "text": " Philanthropy Building, Jl. Warung Jati Barat No. 14, Jakarta Selatan 12540"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Call center:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(021) 5086-6860",
-                  "href": "tel:+622150866860"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "WhatsApp:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "0811-1544-488",
-                  "href": "https://wa.me/628111544488"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Layanan:",
-                  "strong": true
-                },
-                {
-                  "text": " organisasi filantropi Islam dengan program sosial, kesehatan, ekonomi, pendidikan, dan bantuan untuk masyarakat dhuafa."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Akses:",
-                  "strong": true
-                },
-                {
-                  "text": " alamat di atas adalah kantor, bukan dapur umum atau titik makan harian. Hubungi call center untuk meminta asesmen atau rujukan ke program yang sesuai."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Kontak resmi Dompet Dhuafa",
-                  "href": "https://digital.dompetdhuafa.org/hubungi-kami"
-                }
-              ]
-            }
-          ]
+          "address": "Alamat kantor: Philanthropy Building, Jl. Warung Jati Barat No. 14, Jakarta Selatan 12540",
+          "phone": "+622150866860",
+          "website": "https://digital.dompetdhuafa.org/hubungi-kami",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
-      "id": "keagamaan",
-      "title": "3. Masjid, gereja, dan organisasi keagamaan",
-      "items": [
+      "id": "community",
+      "title": "Masjid, gereja, dan organisasi keagamaan",
+      "entries": [
         {
-          "type": "paragraph",
-          "content": [
-            {
-              "text": "Organisasi berikut memberikan atau mengoordinasikan bantuan praktis. Hubungi terlebih dahulu dan jelaskan kebutuhan Anda. Informasi yang diperiksa tidak menyatakan bahwa mengikuti ibadah merupakan syarat untuk meminta informasi awal, tetapi setiap program mempunyai kriteria sendiri."
-            }
-          ]
-        },
-        {
-          "type": "resource",
           "id": "komisi-pengembangan-sosial-ekonomi-keuskupan-agung-jakarta",
-          "name": "Komisi Pengembangan Sosial Ekonomi Keuskupan Agung Jakarta",
+          "title": "Komisi Pengembangan Sosial Ekonomi Keuskupan Agung Jakarta",
+          "description": "Organisasi berikut memberikan atau mengoordinasikan bantuan praktis. Hubungi terlebih dahulu dan jelaskan kebutuhan Anda. Informasi yang diperiksa tidak menyatakan bahwa mengikuti ibadah merupakan syarat untuk meminta informasi awal, tetapi setiap program mempunyai kriteria sendiri.\nMasjid Istiqlal, BAZNAS (BAZIS), dan Dompet Dhuafa juga tercantum pada bagian makanan dan bantuan pangan karena menyediakan bantuan praktis. — #makanan\nTelepon: (021) 345-4159, (021) 381-3307, atau (021) 344-0172 ekstensi 21, 22, atau 34\nIdentitas: pelayanan sosial ekonomi Katolik dari Keuskupan Agung Jakarta.\nLayanan: mengoordinasikan jejaring pelayanan sosial paroki untuk masyarakat miskin, rentan, terpinggirkan, dan penyandang disabilitas. Hubungi untuk mengetahui paroki atau lembaga sosial terdekat yang dapat menilai kebutuhan makanan, pakaian, kesehatan, atau bantuan sosial.\nAkses: kantor komisi bukan tempat menginap dan bukan pusat makan harian. Bantuan bergantung pada program dan asesmen jejaring.\nInformasi resmi Keuskupan Agung Jakarta",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Alamat:",
-                  "strong": true
-                },
-                {
-                  "text": " Gedung Karya Sosial, Jl. Katedral No. 5, Jakarta Pusat 10710"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telepon:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(021) 345-4159",
-                  "href": "tel:+62213454159"
-                },
-                {
-                  "text": ", "
-                },
-                {
-                  "text": "(021) 381-3307",
-                  "href": "tel:+62213813307"
-                },
-                {
-                  "text": ", atau "
-                },
-                {
-                  "text": "(021) 344-0172",
-                  "href": "tel:+62213440172"
-                },
-                {
-                  "text": " ekstensi 21, 22, atau 34"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Identitas:",
-                  "strong": true
-                },
-                {
-                  "text": " pelayanan sosial ekonomi Katolik dari Keuskupan Agung Jakarta."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Layanan:",
-                  "strong": true
-                },
-                {
-                  "text": " mengoordinasikan jejaring pelayanan sosial paroki untuk masyarakat miskin, rentan, terpinggirkan, dan penyandang disabilitas. Hubungi untuk mengetahui paroki atau lembaga sosial terdekat yang dapat menilai kebutuhan makanan, pakaian, kesehatan, atau bantuan sosial."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Akses:",
-                  "strong": true
-                },
-                {
-                  "text": " kantor komisi bukan tempat menginap dan bukan pusat makan harian. Bantuan bergantung pada program dan asesmen jejaring."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Informasi resmi Keuskupan Agung Jakarta",
-                  "href": "https://www.kaj.or.id/komisi-pengembangan-sosial-ekonomi-kom-pse"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "content": [
-            {
-              "text": "Masjid Istiqlal, BAZNAS (BAZIS), dan Dompet Dhuafa juga tercantum pada bagian "
-            },
-            {
-              "text": "makanan dan bantuan pangan",
-              "href": "#makanan"
-            },
-            {
-              "text": " karena menyediakan bantuan praktis."
-            }
-          ]
+          "address": "Alamat: Gedung Karya Sosial, Jl. Katedral No. 5, Jakarta Pusat 10710",
+          "phone": "+62213454159",
+          "website": "https://www.kaj.or.id/komisi-pengembangan-sosial-ekonomi-kom-pse",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
-      "id": "kesehatan",
-      "title": "4. Kesehatan dan dukungan krisis",
-      "items": [
+      "id": "hygiene",
+      "title": "Showers, laundry and hygiene",
+      "entries": []
+    },
+    {
+      "id": "clothing",
+      "title": "Clothing",
+      "entries": []
+    },
+    {
+      "id": "health",
+      "title": "Kesehatan dan dukungan krisis",
+      "entries": [
         {
-          "type": "paragraph",
-          "content": [
-            {
-              "text": "Untuk kondisi yang mengancam nyawa, hubungi 112 atau 119.",
-              "strong": true
-            },
-            {
-              "text": " Jangan menunda pertolongan karena tidak memiliki surat rujukan. Fasilitas kesehatan akan menilai keadaan darurat berdasarkan kondisi medis."
-            }
-          ]
-        },
-        {
-          "type": "resource",
           "id": "puskesmas-kecamatan-koja-ugd-24-jam",
-          "name": "Puskesmas Kecamatan Koja — UGD 24 jam",
+          "title": "Puskesmas Kecamatan Koja — UGD 24 jam",
+          "description": "Untuk kondisi yang mengancam nyawa, hubungi 112 atau 119. Jangan menunda pertolongan karena tidak memiliki surat rujukan. Fasilitas kesehatan akan menilai keadaan darurat berdasarkan kondisi medis.\nTelepon/WhatsApp: 0812-1007-6973\nLayanan 24 jam: unit gawat darurat, persalinan, laboratorium darurat, dan farmasi gawat darurat. Rawat jalan beroperasi Senin–Jumat 07.30–16.00.\nBiaya: layanan ditanggung bagi peserta BPJS/KIS/KJS aktif sesuai ketentuan. Warga luar DKI tanpa BPJS dapat dikenakan tarif resmi. Bawa KTP, KK, dan kartu BPJS jika ada, tetapi keadaan darurat medis tidak memerlukan surat rujukan.\nInformasi resmi Puskesmas Koja — https://puskesmaskoja.jakarta.go.id/faq.php",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Alamat:",
-                  "strong": true
-                },
-                {
-                  "text": " Jl. Mahoni No. 9, Tugu Utara, Koja, Jakarta Utara 14260"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telepon/WhatsApp:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "0812-1007-6973",
-                  "href": "https://wa.me/6281210076973"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Layanan 24 jam:",
-                  "strong": true
-                },
-                {
-                  "text": " unit gawat darurat, persalinan, laboratorium darurat, dan farmasi gawat darurat. Rawat jalan beroperasi Senin–Jumat 07.30–16.00."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Biaya:",
-                  "strong": true
-                },
-                {
-                  "text": " layanan ditanggung bagi peserta BPJS/KIS/KJS aktif sesuai ketentuan. Warga luar DKI tanpa BPJS dapat dikenakan tarif resmi. Bawa KTP, KK, dan kartu BPJS jika ada, tetapi keadaan darurat medis tidak memerlukan surat rujukan."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Informasi resmi Puskesmas Koja",
-                  "href": "https://puskesmaskoja.jakarta.go.id/faq.php"
-                }
-              ]
-            }
-          ]
+          "address": "Alamat: Jl. Mahoni No. 9, Tugu Utara, Koja, Jakarta Utara 14260",
+          "phone": "",
+          "website": "https://wa.me/6281210076973",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "puskesmas-dan-ambulans-dki-jakarta",
-          "name": "Puskesmas dan ambulans DKI Jakarta",
+          "title": "Puskesmas dan ambulans DKI Jakarta",
+          "description": "Ambulans gawat darurat: 119\nLayanan: Jakarta mempunyai puskesmas di berbagai kecamatan untuk pemeriksaan dasar, pengobatan, vaksinasi, kesehatan jiwa, dan rujukan. Gunakan daftar resmi untuk mencari puskesmas terdekat.\nBiaya: bergantung pada kepesertaan JKN/BPJS dan ketentuan layanan. Tanyakan kepada petugas bila Anda tidak mempunyai NIK, BPJS, atau alamat tetap; jangan menganggap semua pelayanan non-darurat gratis.\nDaftar layanan kesehatan resmi Jakarta",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ambulans gawat darurat:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "119",
-                  "href": "tel:119"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Layanan:",
-                  "strong": true
-                },
-                {
-                  "text": " Jakarta mempunyai puskesmas di berbagai kecamatan untuk pemeriksaan dasar, pengobatan, vaksinasi, kesehatan jiwa, dan rujukan. Gunakan daftar resmi untuk mencari puskesmas terdekat."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Biaya:",
-                  "strong": true
-                },
-                {
-                  "text": " bergantung pada kepesertaan JKN/BPJS dan ketentuan layanan. Tanyakan kepada petugas bila Anda tidak mempunyai NIK, BPJS, atau alamat tetap; jangan menganggap semua pelayanan non-darurat gratis."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Daftar layanan kesehatan resmi Jakarta",
-                  "href": "https://www.jakarta.go.id/services/kesehatan-kebugaran"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "119",
+          "website": "https://www.jakarta.go.id/services/kesehatan-kebugaran",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "healing119-id-dukungan-krisis-psikologis",
-          "name": "Healing119.id — dukungan krisis psikologis",
+          "title": "Healing119.id — dukungan krisis psikologis",
+          "description": "Telepon: 119 ekstensi 8\nLayanan: dukungan emosional, pertolongan pertama psikologis, konsultasi dasar, dan rujukan untuk orang yang mengalami tekanan, keputusasaan, atau pikiran untuk mengakhiri hidup.\nAkses lain: panggilan suara dan WhatsApp melalui situs Healing119.id. Layanan bukan terapi jangka panjang. Jika tidak tersambung, coba kembali atau gunakan pilihan WhatsApp. Untuk bahaya langsung, hubungi 112.\nInformasi resmi Kementerian Kesehatan",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telepon:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "119",
-                  "href": "tel:119"
-                },
-                {
-                  "text": " ekstensi 8"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Layanan:",
-                  "strong": true
-                },
-                {
-                  "text": " dukungan emosional, pertolongan pertama psikologis, konsultasi dasar, dan rujukan untuk orang yang mengalami tekanan, keputusasaan, atau pikiran untuk mengakhiri hidup."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Akses lain:",
-                  "strong": true
-                },
-                {
-                  "text": " panggilan suara dan WhatsApp melalui situs Healing119.id. Layanan bukan terapi jangka panjang. Jika tidak tersambung, coba kembali atau gunakan pilihan WhatsApp. Untuk bahaya langsung, hubungi 112."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Informasi resmi Kementerian Kesehatan",
-                  "href": "https://kesprimkom.kemkes.go.id/konten/158/151/0/cegah-bunuh-diri-dukung-kesehatan-jiwa-kenali-layanan-healing119-id"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "119",
+          "website": "https://kesprimkom.kemkes.go.id/konten/158/151/0/cegah-bunuh-diri-dukung-kesehatan-jiwa-kenali-layanan-healing119-id",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "bnn-informasi-dan-konsultasi-rehabilitasi-narkotika",
-          "name": "BNN — informasi dan konsultasi rehabilitasi narkotika",
+          "title": "BNN — informasi dan konsultasi rehabilitasi narkotika",
+          "description": "Call center: 184, bebas pulsa dan 24 jam\nWhatsApp: 0812-2167-5675\nLayanan: informasi, pengaduan, konsultasi, dan penjelasan tentang prosedur serta akses rehabilitasi bagi orang yang membutuhkan bantuan terkait penggunaan narkotika.\nInformasi resmi BNN — https://bnn.go.id/resmi-diluncurkan-layanan-bnn-call-center-184-siap-terima-laporan-dan-pengaduan/",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Call center:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "184",
-                  "href": "tel:184"
-                },
-                {
-                  "text": ", bebas pulsa dan 24 jam"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "WhatsApp:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "0812-2167-5675",
-                  "href": "https://wa.me/6281221675675"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Layanan:",
-                  "strong": true
-                },
-                {
-                  "text": " informasi, pengaduan, konsultasi, dan penjelasan tentang prosedur serta akses rehabilitasi bagi orang yang membutuhkan bantuan terkait penggunaan narkotika."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Informasi resmi BNN",
-                  "href": "https://bnn.go.id/resmi-diluncurkan-layanan-bnn-call-center-184-siap-terima-laporan-dan-pengaduan/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "184",
+          "website": "https://wa.me/6281221675675",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
-      "id": "pemerintah",
-      "title": "5. Bantuan pemerintah dan jaminan sosial",
-      "items": [
-        {
-          "type": "resource",
-          "id": "siladu-dan-pendataan-kesejahteraan-sosial",
-          "name": "SILADU dan pendataan kesejahteraan sosial",
-          "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Kantor Pusdatin Kesos:",
-                  "strong": true
-                },
-                {
-                  "text": " Jl. Bambu Kuning I, Pondok Bambu, Duren Sawit, Jakarta Timur 13430"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "WhatsApp informasi dan keluhan:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "0897-3838-586",
-                  "href": "https://wa.me/628973838586"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Jam pelayanan yang dipublikasikan:",
-                  "strong": true
-                },
-                {
-                  "text": " Senin–Kamis 08.00–15.00; Jumat 08.00–15.30."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Layanan:",
-                  "strong": true
-                },
-                {
-                  "text": " informasi pendataan keluarga prasejahtera dan data kesejahteraan sosial yang digunakan untuk menentukan akses ke sejumlah program bantuan."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Penting:",
-                  "strong": true
-                },
-                {
-                  "text": " pendataan tidak menjamin bantuan. Jika tidak mempunyai dokumen, alamat tetap, atau akses daring, minta bantuan kelurahan atau petugas sosial untuk mengetahui jalur yang sesuai."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Informasi resmi SILADU",
-                  "href": "https://siladu.jakarta.go.id/informasi"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "jkn-bpjs-untuk-warga-tidak-mampu",
-          "name": "JKN/BPJS untuk warga tidak mampu",
-          "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Program:",
-                  "strong": true
-                },
-                {
-                  "text": " PBI Jaminan Kesehatan membayar iuran JKN bagi orang yang ditetapkan tidak mampu. Jakarta juga mempunyai skema bantuan iuran pemerintah daerah dengan persyaratan NIK DKI, domisili, data sosial ekonomi, dan status kepesertaan tertentu."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Cara mulai:",
-                  "strong": true
-                },
-                {
-                  "text": " tanyakan di puskesmas, kelurahan, Dinas Sosial, atau BPJS Kesehatan. Bawa NIK/KTP, KK, dan kartu BPJS jika ada. Orang tanpa dokumen harus meminta bantuan Dukcapil dan petugas sosial terlebih dahulu."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Penting:",
-                  "strong": true
-                },
-                {
-                  "text": " aturan dan kelayakan berubah. Jangan menunda pertolongan darurat untuk menyelesaikan administrasi."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Penjelasan resmi kepesertaan JKN",
-                  "href": "https://sijaka.jakarta.go.id/berita/kenali-segmen-kepesertaan-jkn-agar-tidak-salah-paham-1789696234"
-                }
-              ]
-            }
-          ]
-        }
-      ]
+      "id": "mental-health",
+      "title": "Mental health and addiction",
+      "entries": []
     },
     {
-      "id": "pekerjaan",
-      "title": "6. Pekerjaan dan pelatihan",
-      "items": [
-        {
-          "type": "paragraph",
-          "content": [
-            {
-              "text": "Jangan membayar untuk mendapatkan lowongan. Gunakan layanan pemerintah dan pastikan perusahaan serta alamat wawancara dapat diverifikasi. KarirHub memerlukan verifikasi identitas; jika NIK atau KTP bermasalah, lihat bagian "
-            },
-            {
-              "text": "dokumen",
-              "href": "#dokumen"
-            },
-            {
-              "text": "."
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "karirhub-kementerian-ketenagakerjaan",
-          "name": "KarirHub Kementerian Ketenagakerjaan",
-          "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Layanan:",
-                  "strong": true
-                },
-                {
-                  "text": " portal gratis untuk lowongan dalam negeri, proyek lepas, pencocokan kerja, job fair, dan informasi karier. Kemnaker menyatakan perusahaan yang memasang lowongan terdaftar dalam sistem wajib lapor ketenagakerjaan."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Akses:",
-                  "strong": true
-                },
-                {
-                  "text": " pendaftaran membutuhkan akun SIAPkerja serta verifikasi identitas dan kontak. Gunakan komputer perpustakaan bila tidak memiliki perangkat."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "KarirHub resmi",
-                  "href": "https://karirhub.kemnaker.go.id/"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "pusat-pasar-kerja-indonesia",
-          "name": "Pusat Pasar Kerja Indonesia",
-          "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Alamat:",
-                  "strong": true
-                },
-                {
-                  "text": " Jl. Gatot Subroto No. 44, Jakarta Selatan 12710"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Layanan:",
-                  "strong": true
-                },
-                {
-                  "text": " agenda job fair, wawancara langsung, lowongan KarirHub, informasi pasar kerja, dan kegiatan pengembangan karier."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Akses:",
-                  "strong": true
-                },
-                {
-                  "text": " periksa agenda terbaru sebelum datang karena kegiatan mempunyai tanggal, jam, syarat, dan kuota sendiri."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Agenda dan layanan resmi Pasker ID",
-                  "href": "https://paskerid.kemnaker.go.id/virtual-karir"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "ppkd-jakarta-pusat-pelatihan-kerja-gratis",
-          "name": "PPKD Jakarta Pusat — pelatihan kerja gratis",
-          "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Alamat:",
-                  "strong": true
-                },
-                {
-                  "text": " Jl. Karet Pasar Baru Barat V No. 23, Karet Tengsin, Tanah Abang, Jakarta Pusat"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telepon:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "0856-9784-3994",
-                  "href": "tel:+6285697843994"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Layanan:",
-                  "strong": true
-                },
-                {
-                  "text": " pelatihan berbasis kompetensi seperti barista, tata boga, perhotelan, komputer, bahasa, desain, akuntansi, dan pemasaran digital. Informasi pemerintah menyebut pelatihan gratis, disertai makan, seragam, asuransi, dan sertifikasi pada program tertentu."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Syarat utama:",
-                  "strong": true
-                },
-                {
-                  "text": " WNI; KTP DKI diprioritaskan; ijazah terakhir atau surat keterangan lulus biasanya diminta. Pendaftaran, pilihan pelatihan, dan kuota berubah per gelombang."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Informasi resmi PPKD Jakarta Pusat",
-                  "href": "https://pusat.jakarta.go.id/berita/general/feature/ppkd-jakpus-siapkan-beragam-pelatihan-modern-bagi-warga-bersaing-di-dunia-kerja-dan-usaha"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "kartu-pencari-kerja-ak-i",
-          "name": "Kartu Pencari Kerja AK/I",
-          "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Layanan:",
-                  "strong": true
-                },
-                {
-                  "text": " kartu pencari kerja gratis melalui Pelayanan Terpadu Satu Pintu DKI Jakarta."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Dokumen yang dipublikasikan:",
-                  "strong": true
-                },
-                {
-                  "text": " identitas pemohon, ijazah terakhir, sertifikat keterampilan jika ada, daftar riwayat hidup, dan pasfoto berwarna 3×4."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Call center PTSP:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "1500164",
-                  "href": "tel:1500164"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Persyaratan dan permohonan resmi",
-                  "href": "https://pelayanan.jakarta.go.id/home/syarat-izin/KARTU%2BPENCARI%2BKERJA"
-                }
-              ]
-            }
-          ]
-        }
-      ]
+      "id": "public-facilities",
+      "title": "Public toilets and day facilities",
+      "entries": []
     },
     {
-      "id": "dokumen",
-      "title": "7. KTP dan dokumen kependudukan",
-      "items": [
+      "id": "phone-internet",
+      "title": "Internet, komputer, dan pengisian daya",
+      "entries": [
         {
-          "type": "resource",
-          "id": "dukcapil-dki-jakarta",
-          "name": "Dukcapil DKI Jakarta",
-          "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Layanan:",
-                  "strong": true
-                },
-                {
-                  "text": " KTP-el, Kartu Keluarga, akta kelahiran, dokumen hilang atau rusak, perpindahan penduduk, dan layanan jemput bola untuk kelompok rentan."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Tempat pelayanan:",
-                  "strong": true
-                },
-                {
-                  "text": " loket Dukcapil di kelurahan, kecamatan, atau Suku Dinas sesuai domisili. Seluruh layanan administrasi kependudukan resmi tidak dipungut biaya."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "KTP hilang:",
-                  "strong": true
-                },
-                {
-                  "text": " siapkan surat kehilangan dari kepolisian dan fotokopi KK. KTP rusak biasanya memerlukan KTP yang rusak dan fotokopi KK. Jika Anda tidak mempunyai KK atau alamat tetap, jelaskan keadaan kepada petugas sosial dan Dukcapil; prosesnya dapat berbeda."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Jakarta Pusat:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(021) 384-8834",
-                  "href": "tel:+62213848834"
-                },
-                {
-                  "text": " atau WhatsApp "
-                },
-                {
-                  "text": "0813-9888-3171",
-                  "href": "https://wa.me/6281398883171"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "list",
-              "items": [
-                [
-                  {
-                    "text": "Persyaratan resmi layanan Dukcapil",
-                    "href": "https://kependudukancapil.jakarta.go.id/pelayanan-suku-dinas-dukcapil-kota-kabupaten/"
-                  }
-                ],
-                [
-                  {
-                    "text": "Kontak dan bantuan Jakarta Pusat",
-                    "href": "https://kependudukancapil.jakarta.go.id/sudin-jp/"
-                  }
-                ]
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "internet",
-      "title": "8. Internet, komputer, dan pengisian daya",
-      "items": [
-        {
-          "type": "resource",
           "id": "perpustakaan-jakarta-cikini",
-          "name": "Perpustakaan Jakarta — Cikini",
+          "title": "Perpustakaan Jakarta — Cikini",
+          "description": "JakWifi juga menunjukkan titik Wi-Fi publik gratis. Ketersediaan dan kualitas koneksi tidak dijamin. — https://jaki.jakarta.go.id/id/help/jak-wifi/\nJam yang dipublikasikan: Senin–Minggu 09.00–22.00; check-in Jumat ditutup sementara 11.30–13.00. Jadwal dapat berubah pada hari libur.\nFasilitas: Wi-Fi gratis, komputer, internet, dan area pengisian daya. Peminjaman komputer memerlukan keanggotaan dan dibatasi dua jam; pendaftaran keanggotaan mempunyai persyaratan identitas.\nPenting: tanyakan kepada petugas apa yang dapat digunakan tanpa kartu anggota. Jangan meninggalkan barang tanpa pengawasan.\n- Lokasi dan jam resmi perpustakaan\n- Peraturan penggunaan komputer — https://perpustakaan.jakarta.go.id/supports/facility-regulations",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Alamat:",
-                  "strong": true
-                },
-                {
-                  "text": " Jl. Cikini Raya No. 73, Kompleks Taman Ismail Marzuki, Jakarta Pusat"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Jam yang dipublikasikan:",
-                  "strong": true
-                },
-                {
-                  "text": " Senin–Minggu 09.00–22.00; check-in Jumat ditutup sementara 11.30–13.00. Jadwal dapat berubah pada hari libur."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Fasilitas:",
-                  "strong": true
-                },
-                {
-                  "text": " Wi-Fi gratis, komputer, internet, dan area pengisian daya. Peminjaman komputer memerlukan keanggotaan dan dibatasi dua jam; pendaftaran keanggotaan mempunyai persyaratan identitas."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Penting:",
-                  "strong": true
-                },
-                {
-                  "text": " tanyakan kepada petugas apa yang dapat digunakan tanpa kartu anggota. Jangan meninggalkan barang tanpa pengawasan."
-                }
-              ]
-            },
-            {
-              "type": "list",
-              "items": [
-                [
-                  {
-                    "text": "Lokasi dan jam resmi perpustakaan",
-                    "href": "https://perpustakaan.jakarta.go.id/supports/about-us"
-                  }
-                ],
-                [
-                  {
-                    "text": "Peraturan penggunaan komputer",
-                    "href": "https://perpustakaan.jakarta.go.id/supports/facility-regulations"
-                  }
-                ]
-              ]
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "content": [
-            {
-              "text": "JakWifi",
-              "href": "https://jaki.jakarta.go.id/id/help/jak-wifi/"
-            },
-            {
-              "text": " juga menunjukkan titik Wi-Fi publik gratis. Ketersediaan dan kualitas koneksi tidak dijamin."
-            }
-          ]
+          "address": "Alamat: Jl. Cikini Raya No. 73, Kompleks Taman Ismail Marzuki, Jakarta Pusat",
+          "phone": "",
+          "website": "https://perpustakaan.jakarta.go.id/supports/about-us",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
-      "id": "hukum",
-      "title": "9. Bantuan hukum gratis",
-      "items": [
+      "id": "transport",
+      "title": "Transportasi gratis bagi kelompok tertentu",
+      "entries": [
         {
-          "type": "resource",
-          "id": "lbh-jakarta",
-          "name": "LBH Jakarta",
-          "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Alamat:",
-                  "strong": true
-                },
-                {
-                  "text": " Jl. Pangeran Diponegoro No. 74, Pegangsaan, Menteng, Jakarta Pusat 10320"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telepon:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(021) 314-5518",
-                  "href": "tel:+62213145518"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Layanan:",
-                  "strong": true
-                },
-                {
-                  "text": " bantuan hukum gratis bagi masyarakat miskin, tidak memahami hukum, dan tertindas. Hubungi untuk mengetahui jadwal konsultasi, bidang perkara yang diterima, dan dokumen yang harus dibawa."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Penting:",
-                  "strong": true
-                },
-                {
-                  "text": " penerimaan perkara bergantung pada asesmen, kapasitas, dan kriteria lembaga. Bawa dokumen perkara dan bukti kondisi ekonomi bila tersedia."
-                }
-              ]
-            },
-            {
-              "type": "list",
-              "items": [
-                [
-                  {
-                    "text": "Kontak resmi LBH Jakarta",
-                    "href": "https://bantuanhukum.or.id/kontak/"
-                  }
-                ],
-                [
-                  {
-                    "text": "Cari organisasi bantuan hukum terakreditasi",
-                    "href": "https://bantuanhukum.bphn.go.id/obh-terdekat"
-                  }
-                ]
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "kekerasan",
-      "title": "10. Kekerasan terhadap perempuan dan anak",
-      "items": [
-        {
-          "type": "paragraph",
-          "content": [
-            {
-              "text": "Jika ada bahaya sekarang, hubungi 112.",
-              "strong": true
-            },
-            {
-              "text": " Alamat rumah aman tidak dipublikasikan. Penempatan dilakukan setelah penilaian risiko dan rujukan."
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "upt-perlindungan-perempuan-dan-anak-dki-jakarta",
-          "name": "UPT Perlindungan Perempuan dan Anak DKI Jakarta",
-          "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Kantor layanan:",
-                  "strong": true
-                },
-                {
-                  "text": " Jl. Raya Bekasi Timur KM 18, Pulogadung, Jakarta Timur"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Hotline 24 jam:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "0813-1761-7622",
-                  "href": "tel:+6281317617622"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "WhatsApp:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "0852-1786-6445",
-                  "href": "https://wa.me/6285217866445"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Layanan:",
-                  "strong": true
-                },
-                {
-                  "text": " pengaduan, penjangkauan, pendampingan korban, bantuan psikologis dan hukum, rujukan kesehatan, penilaian risiko, pemulangan, reintegrasi sosial, dan rujukan rumah aman. Pemerintah Jakarta menyatakan layanan gratis."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Kontak resmi dan layanan 24 jam",
-                  "href": "https://www.jakarta.go.id/siaran-pers/6835-SP-HMS-07-2026"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "sapa-129",
-          "name": "SAPA 129",
-          "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telepon:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "129",
-                  "href": "tel:129"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "WhatsApp:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "08111-129-129",
-                  "href": "https://wa.me/628111129129"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Layanan:",
-                  "strong": true
-                },
-                {
-                  "text": " layanan nasional Kementerian Pemberdayaan Perempuan dan Perlindungan Anak untuk melaporkan kekerasan terhadap perempuan dan anak serta meminta koordinasi bantuan."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Informasi resmi Kementerian PPPA",
-                  "href": "https://www.kemenpppa.go.id/"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "lbh-apik-jakarta",
-          "name": "LBH APIK Jakarta",
-          "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Alamat:",
-                  "strong": true
-                },
-                {
-                  "text": " Jl. Raya Tengah No. 31, Kampung Tengah, Kramat Jati, Jakarta Timur 13540"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Hotline/WhatsApp:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "0813-8882-2669",
-                  "href": "https://wa.me/6281388822669"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Pelayanan langsung yang dipublikasikan:",
-                  "strong": true
-                },
-                {
-                  "text": " Senin–Kamis 09.00–15.00."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Layanan:",
-                  "strong": true
-                },
-                {
-                  "text": " bantuan hukum gratis untuk perempuan korban kekerasan berbasis gender dan kelompok perempuan rentan, termasuk perempuan jalanan dan pekerja rumah tangga."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Pengaduan resmi LBH APIK Jakarta",
-                  "href": "https://lbhapik.org/pengaduan"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "transportasi",
-      "title": "11. Transportasi gratis bagi kelompok tertentu",
-      "items": [
-        {
-          "type": "resource",
           "id": "kartu-layanan-gratis-transportasi-jakarta",
-          "name": "Kartu Layanan Gratis transportasi Jakarta",
+          "title": "Kartu Layanan Gratis transportasi Jakarta",
+          "description": "Layanan: perjalanan tanpa biaya pada layanan transportasi tertentu bagi kelompok yang ditetapkan pemerintah, seperti lansia, penyandang disabilitas, veteran, warga Kepulauan Seribu, penerima program tertentu, dan pemegang Kartu Pekerja Jakarta yang memenuhi persyaratan.\nPenting: menjadi tunawisma tidak otomatis memberi perjalanan gratis. Pendaftaran memerlukan KTP dan dokumen pendukung sesuai kategori. Jangan naik tanpa tiket atau kartu yang sah.\nSyarat resmi Kartu Layanan Gratis",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Layanan:",
-                  "strong": true
-                },
-                {
-                  "text": " perjalanan tanpa biaya pada layanan transportasi tertentu bagi kelompok yang ditetapkan pemerintah, seperti lansia, penyandang disabilitas, veteran, warga Kepulauan Seribu, penerima program tertentu, dan pemegang Kartu Pekerja Jakarta yang memenuhi persyaratan."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Penting:",
-                  "strong": true
-                },
-                {
-                  "text": " menjadi tunawisma tidak otomatis memberi perjalanan gratis. Pendaftaran memerlukan KTP dan dokumen pendukung sesuai kategori. Jangan naik tanpa tiket atau kartu yang sah."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Syarat resmi Kartu Layanan Gratis",
-                  "href": "https://dishub.jakarta.go.id/kartu-layanan-gratis/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://dishub.jakarta.go.id/kartu-layanan-gratis/",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
-      "id": "pulang",
-      "title": "12. Bantuan kembali ke daerah asal",
-      "items": [
+      "id": "benefits",
+      "title": "Bantuan pemerintah dan jaminan sosial",
+      "entries": [
         {
-          "type": "resource",
-          "id": "pemulangan-orang-terlantar-oleh-dinas-sosial",
-          "name": "Pemulangan orang terlantar oleh Dinas Sosial",
+          "id": "siladu-dan-pendataan-kesejahteraan-sosial",
+          "title": "SILADU dan pendataan kesejahteraan sosial",
+          "description": "WhatsApp informasi dan keluhan: 0897-3838-586\nJam pelayanan yang dipublikasikan: Senin–Kamis 08.00–15.00; Jumat 08.00–15.30.\nLayanan: informasi pendataan keluarga prasejahtera dan data kesejahteraan sosial yang digunakan untuk menentukan akses ke sejumlah program bantuan.\nPenting: pendataan tidak menjamin bantuan. Jika tidak mempunyai dokumen, alamat tetap, atau akses daring, minta bantuan kelurahan atau petugas sosial untuk mengetahui jalur yang sesuai.\nInformasi resmi SILADU — https://siladu.jakarta.go.id/informasi",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Tempat memulai:",
-                  "strong": true
-                },
-                {
-                  "text": " Dinas Sosial DKI Jakarta, Jl. Gunung Sahari II No. 6, Kemayoran, Jakarta Pusat 10610"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telepon:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(021) 426-5117",
-                  "href": "tel:+62214265117"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Proses:",
-                  "strong": true
-                },
-                {
-                  "text": " orang terlantar dapat datang untuk meminta pemulangan. Dinas Sosial menyatakan petugas akan meminta surat keterangan kepolisian, melakukan asesmen dan verifikasi identitas serta tujuan, lalu mengatur tiket DAMRI bila tersedia."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Penting:",
-                  "strong": true
-                },
-                {
-                  "text": " pemulangan tidak selalu dilakukan pada hari yang sama. Jika tiket tidak tersedia, sumber resmi menyatakan pemohon dapat diminta menunggu di luar kantor sampai jadwal berikutnya. Hubungi terlebih dahulu dan jangan meninggalkan tempat aman sebelum perjalanan dikonfirmasi."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Dokumen:",
-                  "strong": true
-                },
-                {
-                  "text": " KTP jika ada dan surat keterangan kepolisian. Jika dokumen hilang, jelaskan kepada petugas agar mendapat arahan."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Prosedur resmi pemulangan PPKS",
-                  "href": "https://dinsos.jakarta.go.id/layanan/rehabilitasi-sosial/permohonan-penjangkauan-ppks"
-                }
-              ]
-            }
-          ]
+          "address": "Kantor Pusdatin Kesos: Jl. Bambu Kuning I, Pondok Bambu, Duren Sawit, Jakarta Timur 13430",
+          "phone": "",
+          "website": "https://wa.me/628973838586",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "jkn-bpjs-untuk-warga-tidak-mampu",
+          "title": "JKN/BPJS untuk warga tidak mampu",
+          "description": "Cara mulai: tanyakan di puskesmas, kelurahan, Dinas Sosial, atau BPJS Kesehatan. Bawa NIK/KTP, KK, dan kartu BPJS jika ada. Orang tanpa dokumen harus meminta bantuan Dukcapil dan petugas sosial terlebih dahulu.\nPenting: aturan dan kelayakan berubah. Jangan menunda pertolongan darurat untuk menyelesaikan administrasi.\nPenjelasan resmi kepesertaan JKN",
+          "last_verified": "2026-11-10",
+          "address": "",
+          "phone": "",
+          "website": "https://sijaka.jakarta.go.id/berita/kenali-segmen-kepesertaan-jkn-agar-tidak-salah-paham-1789696234",
+          "hours": "Program: PBI Jaminan Kesehatan membayar iuran JKN bagi orang yang ditetapkan tidak mampu. Jakarta juga mempunyai skema bantuan iuran pemerintah daerah dengan persyaratan NIK DKI, domisili, data sosial ekonomi, dan status kepesertaan tertentu.",
+          "how_to_access": ""
+        }
+      ]
+    },
+    {
+      "id": "employment",
+      "title": "Pekerjaan dan pelatihan",
+      "entries": [
+        {
+          "id": "karirhub-kementerian-ketenagakerjaan",
+          "title": "KarirHub Kementerian Ketenagakerjaan",
+          "description": "Jangan membayar untuk mendapatkan lowongan. Gunakan layanan pemerintah dan pastikan perusahaan serta alamat wawancara dapat diverifikasi. KarirHub memerlukan verifikasi identitas; jika NIK atau KTP bermasalah, lihat bagian dokumen. — #dokumen\nLayanan: portal gratis untuk lowongan dalam negeri, proyek lepas, pencocokan kerja, job fair, dan informasi karier. Kemnaker menyatakan perusahaan yang memasang lowongan terdaftar dalam sistem wajib lapor ketenagakerjaan.\nAkses: pendaftaran membutuhkan akun SIAPkerja serta verifikasi identitas dan kontak. Gunakan komputer perpustakaan bila tidak memiliki perangkat.\nKarirHub resmi",
+          "last_verified": "2026-11-10",
+          "address": "",
+          "phone": "",
+          "website": "https://karirhub.kemnaker.go.id/",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "pusat-pasar-kerja-indonesia",
+          "title": "Pusat Pasar Kerja Indonesia",
+          "description": "Layanan: agenda job fair, wawancara langsung, lowongan KarirHub, informasi pasar kerja, dan kegiatan pengembangan karier.\nAkses: periksa agenda terbaru sebelum datang karena kegiatan mempunyai tanggal, jam, syarat, dan kuota sendiri.\nAgenda dan layanan resmi Pasker ID",
+          "last_verified": "2026-11-10",
+          "address": "Alamat: Jl. Gatot Subroto No. 44, Jakarta Selatan 12710",
+          "phone": "",
+          "website": "https://paskerid.kemnaker.go.id/virtual-karir",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "ppkd-jakarta-pusat-pelatihan-kerja-gratis",
+          "title": "PPKD Jakarta Pusat — pelatihan kerja gratis",
+          "description": "Telepon: 0856-9784-3994\nLayanan: pelatihan berbasis kompetensi seperti barista, tata boga, perhotelan, komputer, bahasa, desain, akuntansi, dan pemasaran digital. Informasi pemerintah menyebut pelatihan gratis, disertai makan, seragam, asuransi, dan sertifikasi pada program tertentu.\nSyarat utama: WNI; KTP DKI diprioritaskan; ijazah terakhir atau surat keterangan lulus biasanya diminta. Pendaftaran, pilihan pelatihan, dan kuota berubah per gelombang.\nInformasi resmi PPKD Jakarta Pusat",
+          "last_verified": "2026-11-10",
+          "address": "Alamat: Jl. Karet Pasar Baru Barat V No. 23, Karet Tengsin, Tanah Abang, Jakarta Pusat",
+          "phone": "+6285697843994",
+          "website": "https://pusat.jakarta.go.id/berita/general/feature/ppkd-jakpus-siapkan-beragam-pelatihan-modern-bagi-warga-bersaing-di-dunia-kerja-dan-usaha",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "kartu-pencari-kerja-ak-i",
+          "title": "Kartu Pencari Kerja AK/I",
+          "description": "Layanan: kartu pencari kerja gratis melalui Pelayanan Terpadu Satu Pintu DKI Jakarta.\nDokumen yang dipublikasikan: identitas pemohon, ijazah terakhir, sertifikat keterampilan jika ada, daftar riwayat hidup, dan pasfoto berwarna 3×4.\nCall center PTSP: 1500164\nPersyaratan dan permohonan resmi",
+          "last_verified": "2026-11-10",
+          "address": "",
+          "phone": "1500164",
+          "website": "https://pelayanan.jakarta.go.id/home/syarat-izin/KARTU%2BPENCARI%2BKERJA",
+          "hours": "",
+          "how_to_access": ""
+        }
+      ]
+    },
+    {
+      "id": "legal",
+      "title": "Bantuan hukum gratis",
+      "entries": [
+        {
+          "id": "lbh-jakarta",
+          "title": "LBH Jakarta",
+          "description": "Telepon: (021) 314-5518\nLayanan: bantuan hukum gratis bagi masyarakat miskin, tidak memahami hukum, dan tertindas. Hubungi untuk mengetahui jadwal konsultasi, bidang perkara yang diterima, dan dokumen yang harus dibawa.\nPenting: penerimaan perkara bergantung pada asesmen, kapasitas, dan kriteria lembaga. Bawa dokumen perkara dan bukti kondisi ekonomi bila tersedia.\n- Kontak resmi LBH Jakarta\n- Cari organisasi bantuan hukum terakreditasi — https://bantuanhukum.bphn.go.id/obh-terdekat",
+          "last_verified": "2026-11-10",
+          "address": "Alamat: Jl. Pangeran Diponegoro No. 74, Pegangsaan, Menteng, Jakarta Pusat 10320",
+          "phone": "+62213145518",
+          "website": "https://bantuanhukum.or.id/kontak/",
+          "hours": "",
+          "how_to_access": ""
+        }
+      ]
+    },
+    {
+      "id": "documents",
+      "title": "KTP dan dokumen kependudukan",
+      "entries": [
+        {
+          "id": "dukcapil-dki-jakarta",
+          "title": "Dukcapil DKI Jakarta",
+          "description": "Layanan: KTP-el, Kartu Keluarga, akta kelahiran, dokumen hilang atau rusak, perpindahan penduduk, dan layanan jemput bola untuk kelompok rentan.\nTempat pelayanan: loket Dukcapil di kelurahan, kecamatan, atau Suku Dinas sesuai domisili. Seluruh layanan administrasi kependudukan resmi tidak dipungut biaya.\nKTP hilang: siapkan surat kehilangan dari kepolisian dan fotokopi KK. KTP rusak biasanya memerlukan KTP yang rusak dan fotokopi KK. Jika Anda tidak mempunyai KK atau alamat tetap, jelaskan keadaan kepada petugas sosial dan Dukcapil; prosesnya dapat berbeda.\nJakarta Pusat: (021) 384-8834 atau WhatsApp 0813-9888-3171.\n- Persyaratan resmi layanan Dukcapil — https://kependudukancapil.jakarta.go.id/pelayanan-suku-dinas-dukcapil-kota-kabupaten/\n- Kontak dan bantuan Jakarta Pusat — https://kependudukancapil.jakarta.go.id/sudin-jp/",
+          "last_verified": "2026-11-10",
+          "address": "",
+          "phone": "+62213848834",
+          "website": "https://wa.me/6281398883171",
+          "hours": "",
+          "how_to_access": ""
+        }
+      ]
+    },
+    {
+      "id": "mail",
+      "title": "Mailing address",
+      "entries": []
+    },
+    {
+      "id": "storage",
+      "title": "Storage",
+      "entries": []
+    },
+    {
+      "id": "safety",
+      "title": "Kekerasan terhadap perempuan dan anak",
+      "entries": [
+        {
+          "id": "upt-perlindungan-perempuan-dan-anak-dki-jakarta",
+          "title": "UPT Perlindungan Perempuan dan Anak DKI Jakarta",
+          "description": "Jika ada bahaya sekarang, hubungi 112. Alamat rumah aman tidak dipublikasikan. Penempatan dilakukan setelah penilaian risiko dan rujukan.\nHotline 24 jam: 0813-1761-7622\nWhatsApp: 0852-1786-6445\nLayanan: pengaduan, penjangkauan, pendampingan korban, bantuan psikologis dan hukum, rujukan kesehatan, penilaian risiko, pemulangan, reintegrasi sosial, dan rujukan rumah aman. Pemerintah Jakarta menyatakan layanan gratis.\nKontak resmi dan layanan 24 jam — https://www.jakarta.go.id/siaran-pers/6835-SP-HMS-07-2026",
+          "last_verified": "2026-11-10",
+          "address": "Kantor layanan: Jl. Raya Bekasi Timur KM 18, Pulogadung, Jakarta Timur",
+          "phone": "+6281317617622",
+          "website": "https://wa.me/6285217866445",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "sapa-129",
+          "title": "SAPA 129",
+          "description": "Telepon: 129\nWhatsApp: 08111-129-129\nLayanan: layanan nasional Kementerian Pemberdayaan Perempuan dan Perlindungan Anak untuk melaporkan kekerasan terhadap perempuan dan anak serta meminta koordinasi bantuan.\nInformasi resmi Kementerian PPPA — https://www.kemenpppa.go.id/",
+          "last_verified": "2026-11-10",
+          "address": "",
+          "phone": "129",
+          "website": "https://wa.me/628111129129",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "lbh-apik-jakarta",
+          "title": "LBH APIK Jakarta",
+          "description": "Hotline/WhatsApp: 0813-8882-2669 — https://wa.me/6281388822669\nPelayanan langsung yang dipublikasikan: Senin–Kamis 09.00–15.00.\nLayanan: bantuan hukum gratis untuk perempuan korban kekerasan berbasis gender dan kelompok perempuan rentan, termasuk perempuan jalanan dan pekerja rumah tangga.\nPengaduan resmi LBH APIK Jakarta",
+          "last_verified": "2026-11-10",
+          "address": "Alamat: Jl. Raya Tengah No. 31, Kampung Tengah, Kramat Jati, Jakarta Timur 13540",
+          "phone": "",
+          "website": "https://lbhapik.org/pengaduan",
+          "hours": "",
+          "how_to_access": ""
+        }
+      ]
+    },
+    {
+      "id": "specialist-support",
+      "title": "Specialist support",
+      "entries": []
+    },
+    {
+      "id": "veterans",
+      "title": "Veterans support",
+      "entries": []
+    },
+    {
+      "id": "pets",
+      "title": "Help for people with pets",
+      "entries": []
+    },
+    {
+      "id": "other",
+      "title": "Bantuan kembali ke daerah asal",
+      "entries": [
+        {
+          "id": "pemulangan-orang-terlantar-oleh-dinas-sosial",
+          "title": "Pemulangan orang terlantar oleh Dinas Sosial",
+          "description": "Telepon: (021) 426-5117\nProses: orang terlantar dapat datang untuk meminta pemulangan. Dinas Sosial menyatakan petugas akan meminta surat keterangan kepolisian, melakukan asesmen dan verifikasi identitas serta tujuan, lalu mengatur tiket DAMRI bila tersedia.\nPenting: pemulangan tidak selalu dilakukan pada hari yang sama. Jika tiket tidak tersedia, sumber resmi menyatakan pemohon dapat diminta menunggu di luar kantor sampai jadwal berikutnya. Hubungi terlebih dahulu dan jangan meninggalkan tempat aman sebelum perjalanan dikonfirmasi.\nDokumen: KTP jika ada dan surat keterangan kepolisian. Jika dokumen hilang, jelaskan kepada petugas agar mendapat arahan.\nProsedur resmi pemulangan PPKS",
+          "last_verified": "2026-11-10",
+          "address": "Tempat memulai: Dinas Sosial DKI Jakarta, Jl. Gunung Sahari II No. 6, Kemayoran, Jakarta Pusat 10610",
+          "phone": "+62214265117",
+          "website": "https://dinsos.jakarta.go.id/layanan/rehabilitasi-sosial/permohonan-penjangkauan-ppks",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     }

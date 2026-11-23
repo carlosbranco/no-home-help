@@ -8,6 +8,8 @@ Thank you for helping keep urgent practical information accurate and accessible.
 
 ## Simple workflow
 
+New to JSON? Read the field-by-field [`EDIT_CITY_JSON.md`](EDIT_CITY_JSON.md) guide first. It explains how to edit an existing city directly on GitHub, what every section means, and how to write telephone, address, source, and verification fields.
+
 1. Fork the repository.
 2. Copy [`templates/city.json`](templates/city.json), or edit an existing file under `data/cities/`.
 3. Research and verify the information.
@@ -16,6 +18,16 @@ Thank you for helping keep urgent practical information accurate and accessible.
 6. Submit a Pull Request containing the JSON, generated HTML, and any necessary CSV change.
 
 Do not edit generated city HTML or generated indexes directly. The generator will replace those changes.
+
+## Correct a city without installing anything
+
+1. Open the city's `.json` file under [`data/cities/`](data/cities/).
+2. Use GitHub's **Edit this file** pencil button.
+3. Find the entry by its `name` or `id` and change only verified information.
+4. Update that entry's `last_verified` date.
+5. Commit the change and open a Pull Request. GitHub will run the project checks automatically.
+
+An accurate source and a clear explanation are more important than perfect JSON. A maintainer can help correct formatting in the Pull Request.
 
 ## Add a city
 
@@ -26,8 +38,8 @@ Do not edit generated city HTML or generated indexes directly. The generator wil
 5. Keep `"status": "draft"` while the guide is incomplete. Drafts do not appear on the site.
 6. Put emergency numbers and the first step for tonight at the beginning.
 7. Complete the [`CITY_RESEARCH_CHECKLIST.md`](CITY_RESEARCH_CHECKLIST.md).
-8. Add only categories with reliable local information.
-9. Give every resource a stable slug ID and `last_verified` date.
+8. Add entries only to the fixed categories that have reliable local information. Empty categories stay hidden.
+9. Give every entry a stable slug ID and `last_verified` date.
 10. Add or update the city in `data/locations.csv` and follow [`data/POPULATION_POLICY.md`](data/POPULATION_POLICY.md).
 11. Change both the JSON status to `published` and the CSV page status to `verified` when the guide is ready.
 
@@ -64,7 +76,7 @@ Build-time Node scripts are allowed for generation and validation. Do not add a 
 
 - Prefer official government and organization websites.
 - Include relevant official government support and benefits links.
-- Record `last_verified` as `YYYY-MM-DD` on every resource.
+- Record `last_verified` as `YYYY-MM-DD` on every entry.
 - Include source links in the entry itself.
 - Call or email the organization when official information is unclear, when practical.
 - Never promise a bed, appointment, benefit, treatment, job, or eligibility decision.
@@ -76,28 +88,23 @@ Build-time Node scripts are allowed for generation and validation. Do not add a 
 
 ## JSON guidance
 
-Use a plain string for ordinary text:
+Every service uses the same nine fields:
 
 ```json
 {
-  "type": "paragraph",
-  "content": "Call before travelling because hours can change."
+  "id": "service-name",
+  "title": "Official service name",
+  "description": "What it provides, who it helps, costs, documents, and restrictions.",
+  "last_verified": "2026-11-23",
+  "address": "Public address or service area",
+  "phone": "+351 000 000 000",
+  "website": "https://example.org/service",
+  "hours": "Published hours",
+  "how_to_access": "Call, walk in, book, or obtain a referral."
 }
 ```
 
-Use inline segments only when text needs a link, emphasis, bold text, or a line break:
-
-```json
-{
-  "type": "paragraph",
-  "content": [
-    { "text": "Phone: ", "strong": true },
-    { "text": "+351 000 000 000", "href": "tel:+351000000000" }
-  ]
-}
-```
-
-Resource IDs need only be unique inside their category. The full stable reference is `category-id/resource-id`. See [`data/cities/README.md`](data/cities/README.md) and [`schemas/city.schema.json`](schemas/city.schema.json).
+Only `id`, `title`, `description`, and `last_verified` need content. Keep the other fields as empty strings when the information is unavailable; the generator hides them. Entry IDs need only be unique inside their category. The full stable reference is `category-id/entry-id`. See [`EDIT_CITY_JSON.md`](EDIT_CITY_JSON.md), [`data/cities/README.md`](data/cities/README.md), and [`schemas/city.schema.json`](schemas/city.schema.json).
 
 ## Before opening a Pull Request
 

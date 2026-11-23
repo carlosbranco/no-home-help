@@ -1,6 +1,7 @@
 {
   "$schema": "https://nohomehelp.com/schemas/city.schema.json",
-  "schema_version": 1,
+  "documentation": "https://github.com/carlosbranco/no-home-help/blob/main/EDIT_CITY_JSON.md",
+  "schema_version": 2,
   "status": "published",
   "locale": {
     "language": "en-US",
@@ -26,2972 +27,768 @@
   "page": {
     "heading": "Boston — help for people experiencing homelessness",
     "last_verified": "2026-11-12",
-    "urgent": [
-      {
-        "type": "paragraph",
-        "content": [
-          {
-            "text": "Medical, fire, or immediate danger:",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "911",
-            "href": "tel:911"
-          },
-          {
-            "break": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "Shelter and city services:",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "311",
-            "href": "tel:311"
-          },
-          {
-            "text": " or "
-          },
-          {
-            "text": "617-635-4500",
-            "href": "tel:+16176354500"
-          },
-          {
-            "break": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "Adult shelter referral:",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "617-534-4440",
-            "href": "tel:+16175344440"
-          },
-          {
-            "break": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "Families with children or a pregnant household member:",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "866-584-0653",
-            "href": "tel:+18665840653"
-          }
-        ]
-      }
-    ],
-    "notice": [
-      {
-        "text": "Beds, hours, meals, addresses, and eligibility can change.",
-        "strong": true
-      },
-      {
-        "text": " Call before a long trip. No listing guarantees a bed, meal, payment, treatment, benefit, or job on the same day. Call 911 for immediate danger or a life-threatening medical problem."
-      }
-    ],
-    "intro": [
-      {
-        "type": "paragraph",
-        "content": [
-          {
-            "text": "If you need a safe place tonight, call the shelter before traveling or contact 311. Tell staff your age, gender identity, whether you are with children, whether anyone is pregnant, your accessibility or medical needs, and whether you have a pet. You may ask for help even if your identification is missing."
-          }
-        ]
-      }
-    ],
-    "footer": [
-      {
-        "type": "paragraph",
-        "content": [
-          {
-            "text": "No Home Help is not an emergency service and does not control beds. Always confirm before traveling."
-          }
-        ]
-      }
-    ]
+    "urgent": "Medical, fire, or immediate danger: 911 Shelter and city services: 311 or 617-635-4500 Adult shelter referral: 617-534-4440 Families with children or a pregnant household member: 866-584-0653",
+    "notice": "Beds, hours, meals, addresses, and eligibility can change. Call before a long trip. No listing guarantees a bed, meal, payment, treatment, benefit, or job on the same day. Call 911 for immediate danger or a life-threatening medical problem.",
+    "intro": "If you need a safe place tonight, call the shelter before traveling or contact 311. Tell staff your age, gender identity, whether you are with children, whether anyone is pregnant, your accessibility or medical needs, and whether you have a pet. You may ask for help even if your identification is missing.",
+    "footer": "No Home Help is not an emergency service and does not control beds. Always confirm before traveling."
   },
   "categories": [
     {
       "id": "emergency",
-      "title": "1. Emergency and street outreach",
-      "items": [
+      "title": "Emergency and street outreach",
+      "entries": [
         {
-          "type": "resource",
           "id": "911-immediate-danger-or-medical-emergency",
-          "name": "911 — immediate danger or medical emergency",
+          "title": "911 — immediate danger or medical emergency",
+          "description": "Call: 911.\nUse 911 for trouble breathing, severe chest pain, unconsciousness, seizure, serious bleeding, suspected overdose, fire, violence in progress, or another immediate threat. Give the exact location and a nearby landmark.\nWhen to call 911 — City of Boston",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Call:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "911",
-                  "href": "tel:911"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Use 911 for trouble breathing, severe chest pain, unconsciousness, seizure, serious bleeding, suspected overdose, fire, violence in progress, or another immediate threat. Give the exact location and a nearby landmark."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "When to call 911 — City of Boston",
-                  "href": "https://www.boston.gov/departments/boston-police/when-call-911"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "911",
+          "website": "https://www.boston.gov/departments/boston-police/when-call-911",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "bos-311-non-emergency-city-help",
-          "name": "BOS:311 — non-emergency city help",
+          "title": "BOS:311 — non-emergency city help",
+          "description": "Call: 311 inside Boston or 617-635-4500.\nAsk for the current shelter, warming or cooling location, city outreach, or another local service. Tell the operator if a person cannot travel safely, uses a wheelchair, has children, or has a pet.\nBoston 311",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Call:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "311",
-                  "href": "tel:311"
-                },
-                {
-                  "text": " inside Boston or "
-                },
-                {
-                  "text": "617-635-4500",
-                  "href": "tel:+16176354500"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ask for the current shelter, warming or cooling location, city outreach, or another local service. Tell the operator if a person cannot travel safely, uses a wheelchair, has children, or has a pet."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Boston 311",
-                  "href": "https://www.boston.gov/departments/boston-311"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "311",
+          "website": "https://www.boston.gov/departments/boston-311",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "pine-street-inn-street-outreach",
-          "name": "Pine Street Inn Street Outreach",
+          "title": "Pine Street Inn Street Outreach",
+          "description": "Outreach line published by the City: 866-633-0170.\nOutreach teams engage people sleeping outside and connect them with shelter, health care, and housing. If there is immediate medical danger, call 911 instead. For a routine request, give a precise location, description, and time last seen.\nPine Street Inn Street Outreach",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Outreach line published by the City:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "866-633-0170",
-                  "href": "tel:+18666330170"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Outreach teams engage people sleeping outside and connect them with shelter, health care, and housing. If there is immediate medical danger, call 911 instead. For a routine request, give a precise location, description, and time last seen."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Pine Street Inn Street Outreach",
-                  "href": "https://www.pinestreetinn.org/our-programs/emergency-services/street-outreach/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+18666330170",
+          "website": "https://www.pinestreetinn.org/our-programs/emergency-services/street-outreach/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "massachusetts-211-statewide-resource-referrals",
-          "name": "Massachusetts 211 — statewide resource referrals",
+          "title": "Massachusetts 211 — statewide resource referrals",
+          "description": "Call: 211, available 24 hours.\nAsk for a nearby meal, shelter, clothing, benefits, domestic-violence service, or other human service. Confirm the provider's hours and entry rules before traveling.\nMassachusetts 211",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Call:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "211",
-                  "href": "tel:211"
-                },
-                {
-                  "text": ", available 24 hours."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ask for a nearby meal, shelter, clothing, benefits, domestic-violence service, or other human service. Confirm the provider's hours and entry rules before traveling."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Massachusetts 211",
-                  "href": "https://mass211.org/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "211",
+          "website": "https://mass211.org/",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "warming-and-cooling-information",
+          "title": "Warming and cooling information",
+          "description": "Call: 311 or 617-635-4500.\nAsk for the current open warming or cooling location and its hours. Do not rely on an old address during a weather emergency. Tell 311 if a person cannot travel safely or needs an accessible option.\nBoston Emergency Management",
+          "last_verified": "2026-11-12",
+          "address": "",
+          "phone": "311",
+          "website": "https://www.boston.gov/departments/emergency-management",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "when-weather-becomes-a-medical-emergency",
+          "title": "When weather becomes a medical emergency",
+          "description": "Call 911 for confusion, fainting, severe weakness, very hot or cold skin, difficulty breathing, or inability to wake. During extreme heat, seek shade and water; during severe cold, keep clothing dry and cover exposed skin while arranging indoor help.\nCity emergency information",
+          "last_verified": "2026-11-12",
+          "address": "",
+          "phone": "",
+          "website": "https://www.boston.gov/departments/emergency-management",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
       "id": "shelter",
-      "title": "2. Shelter and housing access",
-      "items": [
+      "title": "Shelter and housing access",
+      "entries": [
         {
-          "type": "resource",
           "id": "southampton-street-shelter-men",
-          "name": "Southampton Street Shelter — men",
+          "title": "Southampton Street Shelter — men",
+          "description": "Phone: 617-534-4440.\nCity emergency shelter for adult men. The City lists direct access without an Office of Housing Stability referral. Call first for the current intake time and capacity, and tell staff about mobility, medical, language, or safety needs.\nBoston Homeless Services",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 112 Southampton Street, Boston, MA 02118"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "617-534-4440",
-                  "href": "tel:+16175344440"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "City emergency shelter for adult men. The City lists direct access without an Office of Housing Stability referral. Call first for the current intake time and capacity, and tell staff about mobility, medical, language, or safety needs."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Boston Homeless Services",
-                  "href": "https://www.boston.gov/government/cabinets/boston-public-health-commission/homeless-services"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 112 Southampton Street, Boston, MA 02118",
+          "phone": "+16175344440",
+          "website": "https://www.boston.gov/government/cabinets/boston-public-health-commission/homeless-services",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "woods-mullen-shelter-women",
-          "name": "Woods-Mullen Shelter — women",
+          "title": "Woods-Mullen Shelter — women",
+          "description": "Phone: 617-534-7100.\nCity emergency shelter for adult women. Direct walk-in access is listed, but beds remain limited. Call before traveling and explain any disability, medical, language, or safety need.\nCity shelter directory",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 794 Massachusetts Avenue, Boston, MA 02118"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "617-534-7100",
-                  "href": "tel:+16175347100"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "City emergency shelter for adult women. Direct walk-in access is listed, but beds remain limited. Call before traveling and explain any disability, medical, language, or safety need."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "City shelter directory",
-                  "href": "https://www.boston.gov/departments/housing/services-those-experiencing-homeless"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 794 Massachusetts Avenue, Boston, MA 02118",
+          "phone": "+16175347100",
+          "website": "https://www.boston.gov/departments/housing/services-those-experiencing-homeless",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "pine-street-inn-men-s-shelter",
-          "name": "Pine Street Inn — men's shelter",
+          "title": "Pine Street Inn — men's shelter",
+          "description": "Front-door triage: 617-892-9228. City directory: 617-892-9207.\nEmergency shelter and triage for adult men. Triage hours are published as 9:30 a.m.–6 p.m. daily. Call for intake instructions; arriving does not guarantee a bed.\nPine Street front-door triage",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 444 Harrison Avenue, Boston, MA 02118"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Front-door triage:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "617-892-9228",
-                  "href": "tel:+16178929228"
-                },
-                {
-                  "text": ". "
-                },
-                {
-                  "text": "City directory:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "617-892-9207",
-                  "href": "tel:+16178929207"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Emergency shelter and triage for adult men. Triage hours are published as 9:30 a.m.–6 p.m. daily. Call for intake instructions; arriving does not guarantee a bed."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Pine Street front-door triage",
-                  "href": "https://www.pinestreetinn.org/our-programs/emergency-services/front-door-triage/"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 444 Harrison Avenue, Boston, MA 02118",
+          "phone": "+16178929228",
+          "website": "https://www.pinestreetinn.org/our-programs/emergency-services/front-door-triage/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "pine-street-yawkey-house-women-s-shelter",
-          "name": "Pine Street Yawkey House — women's shelter",
+          "title": "Pine Street Yawkey House — women's shelter",
+          "description": "Phone: 617-892-9321.\nEmergency shelter for adult women. Call to confirm intake, accessibility, and current capacity before traveling.\nBoston shelter directory",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 363 Albany Street, Boston, MA 02118"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "617-892-9321",
-                  "href": "tel:+16178929321"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Emergency shelter for adult women. Call to confirm intake, accessibility, and current capacity before traveling."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Boston shelter directory",
-                  "href": "https://www.boston.gov/departments/housing/services-those-experiencing-homeless"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 363 Albany Street, Boston, MA 02118",
+          "phone": "+16178929321",
+          "website": "https://www.boston.gov/departments/housing/services-those-experiencing-homeless",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "pine-street-shattuck-shelter-men",
-          "name": "Pine Street Shattuck Shelter — men",
+          "title": "Pine Street Shattuck Shelter — men",
+          "description": "Phone: 617-892-7917.\nEmergency shelter for adult men. Call for the day's intake process and bed availability.\nCity shelter and day-service listings",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 170 Morton Street, Jamaica Plain, MA 02130"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "617-892-7917",
-                  "href": "tel:+16178927917"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Emergency shelter for adult men. Call for the day's intake process and bed availability."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "City shelter and day-service listings",
-                  "href": "https://www.boston.gov/departments/housing/services-those-experiencing-homeless"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 170 Morton Street, Jamaica Plain, MA 02130",
+          "phone": "+16178927917",
+          "website": "https://www.boston.gov/departments/housing/services-those-experiencing-homeless",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "boston-night-center-overnight-indoor-space",
-          "name": "Boston Night Center — overnight indoor space",
+          "title": "Boston Night Center — overnight indoor space",
+          "description": "Phone: 857-296-0332. Hours listed by the City: 8:30 p.m.–6:30 a.m.\nOvernight space for adults, but it does not provide beds. Call to confirm current access and capacity.\nBoston Night Center listing",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 31 Bowker Street, Boston, MA 02114"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "857-296-0332",
-                  "href": "tel:+18572960332"
-                },
-                {
-                  "text": ". "
-                },
-                {
-                  "text": "Hours listed by the City:",
-                  "strong": true
-                },
-                {
-                  "text": " 8:30 p.m.–6:30 a.m."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Overnight space for adults, but it does not provide beds. Call to confirm current access and capacity."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Boston Night Center listing",
-                  "href": "https://www.boston.gov/departments/housing/services-those-experiencing-homeless"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 31 Bowker Street, Boston, MA 02114",
+          "phone": "+18572960332",
+          "website": "https://www.boston.gov/departments/housing/services-those-experiencing-homeless",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "family-emergency-assistance-families-and-pregnancy",
-          "name": "Family Emergency Assistance — families and pregnancy",
+          "title": "Family Emergency Assistance — families and pregnancy",
+          "description": "Call: 866-584-0653.\nMassachusetts Emergency Assistance shelter is for eligible families with children and households that include a pregnant person. Call to speak with a Homeless Coordinator. Screening and documentation are required, and placement may not be in Boston.\nMassachusetts emergency housing help",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Call:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "866-584-0653",
-                  "href": "tel:+18665840653"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Massachusetts Emergency Assistance shelter is for eligible families with children and households that include a pregnant person. Call to speak with a Homeless Coordinator. Screening and documentation are required, and placement may not be in Boston."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Massachusetts emergency housing help",
-                  "href": "https://www.mass.gov/orgs/emergency-housing-help-programs"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+18665840653",
+          "website": "https://www.mass.gov/orgs/emergency-housing-help-programs",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "office-of-housing-stability-prevent-homelessness",
-          "name": "Office of Housing Stability — prevent homelessness",
+          "title": "Office of Housing Stability — prevent homelessness",
+          "description": "Phone: 617-635-4200. Hours: Monday–Friday, 9 a.m.–5 p.m.\nInformation and referrals for eviction prevention and housing stability. The office does not directly place individuals in emergency shelter. Outside office hours, call 311.\nOffice of Housing Stability",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 26 Court Street, Boston, MA 02108"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "617-635-4200",
-                  "href": "tel:+16176354200"
-                },
-                {
-                  "text": ". "
-                },
-                {
-                  "text": "Hours:",
-                  "strong": true
-                },
-                {
-                  "text": " Monday–Friday, 9 a.m.–5 p.m."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Information and referrals for eviction prevention and housing stability. The office does not directly place individuals in emergency shelter. Outside office hours, call 311."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Office of Housing Stability",
-                  "href": "https://www.boston.gov/departments/housing/services-those-experiencing-homeless"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 26 Court Street, Boston, MA 02108",
+          "phone": "+16176354200",
+          "website": "https://www.boston.gov/departments/housing/services-those-experiencing-homeless",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
       "id": "food",
-      "title": "3. Meals and food",
-      "items": [
+      "title": "Meals and food",
+      "entries": [
         {
-          "type": "resource",
           "id": "st-francis-house-breakfast-and-lunch",
-          "name": "St. Francis House — breakfast and lunch",
+          "title": "St. Francis House — breakfast and lunch",
+          "description": "Phone: 617-542-4211. Building hours: daily, 6:30 a.m.–3 p.m.; Wednesday closes at 2 p.m.\nBreakfast 7–9 a.m. and lunch 11:30 a.m.–1 p.m., plus showers, clothing, mail, computers, health care, recovery, and employment help. Services may reach capacity.\nSt. Francis House — get help",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 39 Boylston Street, Boston, MA 02116"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "617-542-4211",
-                  "href": "tel:+16175424211"
-                },
-                {
-                  "text": ". "
-                },
-                {
-                  "text": "Building hours:",
-                  "strong": true
-                },
-                {
-                  "text": " daily, 6:30 a.m.–3 p.m.; Wednesday closes at 2 p.m."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Breakfast 7–9 a.m. and lunch 11:30 a.m.–1 p.m., plus showers, clothing, mail, computers, health care, recovery, and employment help. Services may reach capacity."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "St. Francis House — get help",
-                  "href": "https://stfrancishouse.org/find-help/"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 39 Boylston Street, Boston, MA 02116",
+          "phone": "+16175424211",
+          "website": "https://stfrancishouse.org/find-help/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "women-s-lunch-place-meals-for-women",
-          "name": "Women's Lunch Place — meals for women",
+          "title": "Women's Lunch Place — meals for women",
+          "description": "Phone: 617-267-0200. Hours: Monday–Saturday, 7 a.m.–2 p.m.\nBreakfast 8–10:30 a.m., lunch noon–2 p.m., and a takeaway dinner, with showers, laundry, clothing, health care, computers, phones, mail, advocacy, legal help, and employment support.\nWomen's Lunch Place — current services",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 67 Newbury Street, Boston, MA 02116"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "617-267-0200",
-                  "href": "tel:+16172670200"
-                },
-                {
-                  "text": ". "
-                },
-                {
-                  "text": "Hours:",
-                  "strong": true
-                },
-                {
-                  "text": " Monday–Saturday, 7 a.m.–2 p.m."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Breakfast 8–10:30 a.m., lunch noon–2 p.m., and a takeaway dinner, with showers, laundry, clothing, health care, computers, phones, mail, advocacy, legal help, and employment support."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Women's Lunch Place — current services",
-                  "href": "https://womenslunchplace.org/help"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 67 Newbury Street, Boston, MA 02116",
+          "phone": "+16172670200",
+          "website": "https://womenslunchplace.org/help",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "rosie-s-place-meals-for-women",
-          "name": "Rosie's Place — meals for women",
+          "title": "Rosie's Place — meals for women",
+          "description": "Phone: 617-442-9322.\nWeekday breakfast 7:30–9 a.m., lunch 11:30 a.m.–1 p.m., dinner 4:30–6:45 p.m.; weekend brunch 10:30 a.m.–noon and dinner 3:30–4:30 p.m. The current guide also lists showers, laundry, computers, pantry, advocacy, and shelter intake. Confirm holiday changes.\nRosie's Place current service guide",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 889 Harrison Avenue, Boston, MA 02118"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "617-442-9322",
-                  "href": "tel:+16174429322"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Weekday breakfast 7:30–9 a.m., lunch 11:30 a.m.–1 p.m., dinner 4:30–6:45 p.m.; weekend brunch 10:30 a.m.–noon and dinner 3:30–4:30 p.m. The current guide also lists showers, laundry, computers, pantry, advocacy, and shelter intake. Confirm holiday changes."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Rosie's Place current service guide",
-                  "href": "https://www.rosiesplace.org/site/assets/Linked%20Docs/2026/FY26_Winter_DOPS_English_FINAL.pdf"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 889 Harrison Avenue, Boston, MA 02118",
+          "phone": "+16174429322",
+          "website": "https://www.rosiesplace.org/site/assets/Linked%20Docs/2026/FY26_Winter_DOPS_English_FINAL.pdf",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "boston-rescue-mission-meals-and-pantry",
-          "name": "Boston Rescue Mission — meals and pantry",
+          "title": "Boston Rescue Mission — meals and pantry",
+          "description": "Main phone: 617-338-9000; food questions: 617-446-3458.\nThe program publishes a food pantry Monday 2–3 p.m. and Saturday 2–3:30 p.m. Meal access may be connected to program or overnight guests; call before traveling.\nBoston Rescue Mission nutrition program",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 39 Kingston Street, Boston, MA 02111"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Main phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "617-338-9000",
-                  "href": "tel:+16173389000"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "food questions:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "617-446-3458",
-                  "href": "tel:+16174463458"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "The program publishes a food pantry Monday 2–3 p.m. and Saturday 2–3:30 p.m. Meal access may be connected to program or overnight guests; call before traveling."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Boston Rescue Mission nutrition program",
-                  "href": "https://www.brm.org/nutrition-and-meal-program"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 39 Kingston Street, Boston, MA 02111",
+          "phone": "+16173389000",
+          "website": "https://www.brm.org/nutrition-and-meal-program",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "haley-house-soup-kitchen-and-pantry",
-          "name": "Haley House — soup kitchen and pantry",
+          "title": "Haley House — soup kitchen and pantry",
+          "description": "Phone: 617-236-8132.\nThe organization lists morning meals and a Thursday food pantry, but its published schedule contains different meal times in different sections. Call for the current breakfast, pantry, clothing, and shower schedule before traveling.\nHaley House food and meal programs",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 23 Dartmouth Street, Boston, MA 02116"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "617-236-8132",
-                  "href": "tel:+16172368132"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "The organization lists morning meals and a Thursday food pantry, but its published schedule contains different meal times in different sections. Call for the current breakfast, pantry, clothing, and shower schedule before traveling."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Haley House food and meal programs",
-                  "href": "https://haleyhouse.org/food-meals-programs/"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 23 Dartmouth Street, Boston, MA 02116",
+          "phone": "+16172368132",
+          "website": "https://haleyhouse.org/food-meals-programs/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "project-bread-foodsource-hotline",
-          "name": "Project Bread FoodSource Hotline",
+          "title": "Project Bread FoodSource Hotline",
+          "description": "Call: 800-645-8333.\nFree help finding nearby food and applying for SNAP. Ask for a location open today and tell the counselor if you cannot cook or store food.\nProject Bread FoodSource Hotline",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Call:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "800-645-8333",
-                  "href": "tel:+18006458333"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Free help finding nearby food and applying for SNAP. Ask for a location open today and tell the counselor if you cannot cook or store food."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Project Bread FoodSource Hotline",
-                  "href": "https://www.projectbread.org/foodsource-hotline"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+18006458333",
+          "website": "https://www.projectbread.org/foodsource-hotline",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "greater-boston-food-bank-locator",
-          "name": "Greater Boston Food Bank locator",
+          "title": "Greater Boston Food Bank locator",
+          "description": "Search for food pantries and meal programs by ZIP code. Each partner has its own hours, geographic limits, and documents. Call the provider before traveling.\nSNAP help: 617-598-5022.\nFind food — Greater Boston Food Bank",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Search for food pantries and meal programs by ZIP code. Each partner has its own hours, geographic limits, and documents. Call the provider before traveling."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "SNAP help:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "617-598-5022",
-                  "href": "tel:+16175985022"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Find food — Greater Boston Food Bank",
-                  "href": "https://www.gbfb.org/need-food/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+16175985022",
+          "website": "https://www.gbfb.org/need-food/",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
-      "id": "basic",
-      "title": "4. Showers, laundry, clothing, mail, and internet",
-      "items": [
+      "id": "community",
+      "title": "Community and religious help",
+      "entries": []
+    },
+    {
+      "id": "hygiene",
+      "title": "Showers, laundry, clothing, mail, and internet",
+      "entries": [
         {
-          "type": "resource",
           "id": "st-francis-house-day-shelter",
-          "name": "St. Francis House day shelter",
+          "title": "St. Francis House day shelter",
+          "description": "Showers, toiletries, clothing, mail, identification help, computers, phones, meals, and case management. Open every day; arrive early and ask which services require a sign-up.\nSt. Francis House day services",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 39 Boylston Street, Boston, MA 02116"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Showers, toiletries, clothing, mail, identification help, computers, phones, meals, and case management. Open every day; arrive early and ask which services require a sign-up."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "St. Francis House day services",
-                  "href": "https://stfrancishouse.org/day-shelter/"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 39 Boylston Street, Boston, MA 02116",
+          "phone": "",
+          "website": "https://stfrancishouse.org/day-shelter/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "women-s-lunch-place",
-          "name": "Women's Lunch Place",
+          "title": "Women's Lunch Place",
+          "description": "Showers, laundry, clothing, toiletries, mail, computers, phones, meals, advocacy, and health services for women. Open Monday–Saturday, 7 a.m.–2 p.m.\nWomen's Lunch Place help",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 67 Newbury Street, Boston, MA 02116"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Showers, laundry, clothing, toiletries, mail, computers, phones, meals, advocacy, and health services for women. Open Monday–Saturday, 7 a.m.–2 p.m."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Women's Lunch Place help",
-                  "href": "https://womenslunchplace.org/help"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 67 Newbury Street, Boston, MA 02116",
+          "phone": "",
+          "website": "https://womenslunchplace.org/help",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "rosie-s-place-day-services",
-          "name": "Rosie's Place day services",
+          "title": "Rosie's Place day services",
+          "description": "Showers, laundry, computers, phones, advocacy, meals, and other support for women. The overnight shelter uses a weekday morning lottery; ask staff for the current process.\nRosie's Place service guide",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 889 Harrison Avenue, Boston, MA 02118"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Showers, laundry, computers, phones, advocacy, meals, and other support for women. The overnight shelter uses a weekday morning lottery; ask staff for the current process."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Rosie's Place service guide",
-                  "href": "https://www.rosiesplace.org/site/assets/Linked%20Docs/2026/FY26_Winter_DOPS_English_FINAL.pdf"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 889 Harrison Avenue, Boston, MA 02118",
+          "phone": "",
+          "website": "https://www.rosiesplace.org/site/assets/Linked%20Docs/2026/FY26_Winter_DOPS_English_FINAL.pdf",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "boston-public-library-computers-wi-fi-charging-and-information",
-          "name": "Boston Public Library — computers, Wi-Fi, charging, and information",
+          "title": "Boston Public Library — computers, Wi-Fi, charging, and information",
+          "description": "Libraries provide free Wi-Fi, public computers, charging, restrooms, and staff help finding information. Some computer use requires a library card or guest pass. Check the branch's current hours before traveling.\nBoston Public Library locations",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Libraries provide free Wi-Fi, public computers, charging, restrooms, and staff help finding information. Some computer use requires a library card or guest pass. Check the branch's current hours before traveling."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Boston Public Library locations",
-                  "href": "https://www.bpl.org/locations/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.bpl.org/locations/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "mail-and-document-safety",
-          "name": "Mail and document safety",
+          "title": "Mail and document safety",
+          "description": "St. Francis House and Women's Lunch Place publish mail support for eligible guests. Ask whether you may use the address for benefits or job applications, how long mail is held, and what is needed for collection. Keep photographs of important documents in a protected account when possible.\nSt. Francis House service details",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "St. Francis House and Women's Lunch Place publish mail support for eligible guests. Ask whether you may use the address for benefits or job applications, how long mail is held, and what is needed for collection. Keep photographs of important documents in a protected account when possible."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "St. Francis House service details",
-                  "href": "https://stfrancishouse.org/find-help/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://stfrancishouse.org/find-help/",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
+    },
+    {
+      "id": "clothing",
+      "title": "Clothing",
+      "entries": []
     },
     {
       "id": "health",
-      "title": "5. Health, mental health, and recovery",
-      "items": [
+      "title": "Health, mental health, and recovery",
+      "entries": [
         {
-          "type": "resource",
           "id": "boston-health-care-for-the-homeless-jean-yawkey-place",
-          "name": "Boston Health Care for the Homeless — Jean Yawkey Place",
+          "title": "Boston Health Care for the Homeless — Jean Yawkey Place",
+          "description": "Phone: 857-654-1605.\nPrimary and urgent health care for people experiencing homelessness. Published hours: Monday, Wednesday, and Friday 8 a.m.–5 p.m.; Tuesday 8 a.m.–noon and 4–8 p.m.; Thursday 8 a.m.–8 p.m. Call for walk-in rules and holiday changes.\nJean Yawkey Place clinic",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 780 Albany Street, first floor, Boston, MA 02118"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "857-654-1605",
-                  "href": "tel:+18576541605"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Primary and urgent health care for people experiencing homelessness. Published hours: Monday, Wednesday, and Friday 8 a.m.–5 p.m.; Tuesday 8 a.m.–noon and 4–8 p.m.; Thursday 8 a.m.–8 p.m. Call for walk-in rules and holiday changes."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Jean Yawkey Place clinic",
-                  "href": "https://www.bhchp.org/locations/jean-yawkey-place/"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 780 Albany Street, first floor, Boston, MA 02118",
+          "phone": "+18576541605",
+          "website": "https://www.bhchp.org/locations/jean-yawkey-place/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "bhchp-dental-care",
-          "name": "BHCHP dental care",
+          "title": "BHCHP dental care",
+          "description": "Phone: 857-654-1885.\nDental care for people experiencing homelessness. Urgent walk-in times are published on weekdays in the morning and at 12:30 p.m., with a Thursday late-afternoon session; call because capacity and hours can change.\nBHCHP dental services",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 780 Albany Street, Boston, MA 02118"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "857-654-1885",
-                  "href": "tel:+18576541885"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Dental care for people experiencing homelessness. Urgent walk-in times are published on weekdays in the morning and at 12:30 p.m., with a Thursday late-afternoon session; call because capacity and hours can change."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "BHCHP dental services",
-                  "href": "https://www.bhchp.org/services/dental-services/"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 780 Albany Street, Boston, MA 02118",
+          "phone": "+18576541885",
+          "website": "https://www.bhchp.org/services/dental-services/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "bhchp-shelter-clinics",
-          "name": "BHCHP shelter clinics",
+          "title": "BHCHP shelter clinics",
+          "description": "Boston Health Care for the Homeless also operates scheduled clinics in shelters and day programs. Use its current location list to find the nearest service and call before traveling.\nBHCHP locations and hours",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Boston Health Care for the Homeless also operates scheduled clinics in shelters and day programs. Use its current location list to find the nearest service and call before traveling."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "BHCHP locations and hours",
-                  "href": "https://www.bhchp.org/location-hours/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.bhchp.org/location-hours/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "behavioral-health-help-line",
-          "name": "Behavioral Health Help Line",
+          "title": "Behavioral Health Help Line",
+          "description": "Call or text: 833-773-2445, 24 hours.\nMassachusetts' free behavioral-health line connects people to mental-health and substance-use care in more than 200 languages. Insurance is not required. Call 911 for immediate physical danger or a life-threatening medical emergency.\nMassachusetts emergency and crisis services",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Call or text:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "833-773-2445",
-                  "href": "tel:+18337732445"
-                },
-                {
-                  "text": ", 24 hours."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Massachusetts' free behavioral-health line connects people to mental-health and substance-use care in more than 200 languages. Insurance is not required. Call 911 for immediate physical danger or a life-threatening medical emergency."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Massachusetts emergency and crisis services",
-                  "href": "https://www.mass.gov/emergencycrisis-services"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+18337732445",
+          "website": "https://www.mass.gov/emergencycrisis-services",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "paaths-access-to-recovery-services",
-          "name": "PAATHS — access to recovery services",
+          "title": "PAATHS — access to recovery services",
+          "description": "24-hour phone: 855-494-4057. Walk-in hours: Monday–Friday, 7 a.m.–5 p.m.\nAssessment, referrals, transportation, and help navigating insurance for substance-use treatment. PAATHS does not itself provide treatment or guarantee a bed.\nPAATHS — City of Boston",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 774 Albany Street, first floor, Boston, MA 02118"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "24-hour phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "855-494-4057",
-                  "href": "tel:+18554944057"
-                },
-                {
-                  "text": ". "
-                },
-                {
-                  "text": "Walk-in hours:",
-                  "strong": true
-                },
-                {
-                  "text": " Monday–Friday, 7 a.m.–5 p.m."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Assessment, referrals, transportation, and help navigating insurance for substance-use treatment. PAATHS does not itself provide treatment or guarantee a bed."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "PAATHS — City of Boston",
-                  "href": "https://www.boston.gov/departments/boston-public-health-commission/find-your-path-recovery"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 774 Albany Street, first floor, Boston, MA 02118",
+          "phone": "+18554944057",
+          "website": "https://www.boston.gov/departments/boston-public-health-commission/find-your-path-recovery",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "ahope-harm-reduction-and-testing",
-          "name": "AHOPE — harm reduction and testing",
+          "title": "AHOPE — harm reduction and testing",
+          "description": "Phone: 617-534-3974.\nHarm-reduction supplies, drug checking, HIV, STI, and hepatitis testing, and referrals. Call for current walk-in hours.\nBoston substance-use services guide",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 774 Albany Street, Boston, MA 02118"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "617-534-3974",
-                  "href": "tel:+16175343974"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Harm-reduction supplies, drug checking, HIV, STI, and hepatitis testing, and referrals. Call for current walk-in hours."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Boston substance-use services guide",
-                  "href": "https://www.boston.gov/sites/default/files/file/2026/04/Substance%20Use%20Services%20Flyer_4.9.26.pdf"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 774 Albany Street, Boston, MA 02118",
+          "phone": "+16175343974",
+          "website": "https://www.boston.gov/sites/default/files/file/2026/04/Substance%20Use%20Services%20Flyer_4.9.26.pdf",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "massachusetts-substance-use-helpline",
-          "name": "Massachusetts Substance Use Helpline",
+          "title": "Massachusetts Substance Use Helpline",
+          "description": "Call or text: 800-327-5050, 24 hours.\nFree and confidential connection to treatment and recovery services. Ask about detoxification, medication, residential or outpatient care, and transportation. Availability changes daily.\nMassachusetts treatment and recovery helplines",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Call or text:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "800-327-5050",
-                  "href": "tel:+18003275050"
-                },
-                {
-                  "text": ", 24 hours."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Free and confidential connection to treatment and recovery services. Ask about detoxification, medication, residential or outpatient care, and transportation. Availability changes daily."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Massachusetts treatment and recovery helplines",
-                  "href": "https://www.mass.gov/info-details/free-and-confidential-helplines-for-treatment-and-recovery-services"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+18003275050",
+          "website": "https://www.mass.gov/info-details/free-and-confidential-helplines-for-treatment-and-recovery-services",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
+    },
+    {
+      "id": "mental-health",
+      "title": "Mental health and addiction",
+      "entries": []
+    },
+    {
+      "id": "public-facilities",
+      "title": "Public toilets and day facilities",
+      "entries": []
+    },
+    {
+      "id": "phone-internet",
+      "title": "Phone charging and internet",
+      "entries": []
+    },
+    {
+      "id": "transport",
+      "title": "Transport",
+      "entries": []
     },
     {
       "id": "benefits",
-      "title": "6. Benefits and longer-term housing",
-      "items": [
+      "title": "Benefits and longer-term housing",
+      "entries": [
         {
-          "type": "resource",
           "id": "dta-snap-food-benefits-and-cash-assistance",
-          "name": "DTA — SNAP food benefits and cash assistance",
+          "title": "DTA — SNAP food benefits and cash assistance",
+          "description": "DTA Assistance Line: 877-382-2363. Workers are available Monday–Friday, 8:15 a.m.–4:45 p.m.; automated case information is available 24 hours.\nApply for SNAP or TAFDC/EAEDC cash assistance, replace an EBT card, upload documents, or request disability and language accommodations. Press 7 to apply for SNAP. Interpreters are available.\nHow to contact DTA",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "DTA Assistance Line:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "877-382-2363",
-                  "href": "tel:+18773822363"
-                },
-                {
-                  "text": ". Workers are available Monday–Friday, 8:15 a.m.–4:45 p.m.; automated case information is available 24 hours."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Apply for SNAP or TAFDC/EAEDC cash assistance, replace an EBT card, upload documents, or request disability and language accommodations. Press 7 to apply for SNAP. Interpreters are available."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "How to contact DTA",
-                  "href": "https://www.mass.gov/guides/how-to-contact-dta"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+18773822363",
+          "website": "https://www.mass.gov/guides/how-to-contact-dta",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "snap-when-you-do-not-have-housing-or-cooking-facilities",
-          "name": "SNAP when you do not have housing or cooking facilities",
+          "title": "SNAP when you do not have housing or cooking facilities",
+          "description": "Tell DTA that you are homeless and whether you cannot store or cook food. Some households that include an older, disabled, or homeless person may qualify to buy prepared meals from participating restaurants. Eligibility and expedited service require screening.\nApply for SNAP — Massachusetts",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Tell DTA that you are homeless and whether you cannot store or cook food. Some households that include an older, disabled, or homeless person may qualify to buy prepared meals from participating restaurants. Eligibility and expedited service require screening."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Apply for SNAP — Massachusetts",
-                  "href": "https://www.mass.gov/how-to/supplemental-nutrition-assistance-program-snap-formerly-known-as-food-stamps"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.mass.gov/how-to/supplemental-nutrition-assistance-program-snap-formerly-known-as-food-stamps",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "masshealth",
-          "name": "MassHealth",
+          "title": "MassHealth",
+          "description": "Customer service: 800-841-2900; TTY: 711. Staff are available Monday–Friday, 8 a.m.–5 p.m.; interpreters are available.\nApply for or manage state health coverage and ask for an enrollment assister. BHCHP can also help patients navigate coverage.\nMassHealth application help",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Customer service:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "800-841-2900",
-                  "href": "tel:+18008412900"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "TTY:",
-                  "strong": true
-                },
-                {
-                  "text": " 711. Staff are available Monday–Friday, 8 a.m.–5 p.m.; interpreters are available."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Apply for or manage state health coverage and ask for an enrollment assister. BHCHP can also help patients navigate coverage."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "MassHealth application help",
-                  "href": "https://www.mass.gov/how-to/find-help-applying-for-or-enrolling-in-masshealth-the-health-safety-net-or-the-childrens-medical-security-plan"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+18008412900",
+          "website": "https://www.mass.gov/how-to/find-help-applying-for-or-enrolling-in-masshealth-the-health-safety-net-or-the-childrens-medical-security-plan",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "boston-housing-authority-applications",
-          "name": "Boston Housing Authority applications",
+          "title": "Boston Housing Authority applications",
+          "description": "Status and application help: 617-988-3400, Monday–Friday, 9 a.m.–4:30 p.m.\nPublic, project-based, and other waiting lists use separate online portals. BHA warns that it has no immediate housing and waits can last years; the tenant-based Section 8 list is currently closed. Ask which lists are open and whether you can document a priority.\nApply for BHA housing",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "In-person help:",
-                  "strong": true
-                },
-                {
-                  "text": " 52 Chauncy Street, Boston, MA 02111"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Status and application help:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "617-988-3400",
-                  "href": "tel:+16179883400"
-                },
-                {
-                  "text": ", Monday–Friday, 9 a.m.–4:30 p.m."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Public, project-based, and other waiting lists use separate online portals. BHA warns that it has no immediate housing and waits can last years; the tenant-based Section 8 list is currently closed. Ask which lists are open and whether you can document a priority."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Apply for BHA housing",
-                  "href": "https://www.bostonhousing.org/en/Applications/Apply-for-Housing.aspx"
-                }
-              ]
-            }
-          ]
+          "address": "In-person help: 52 Chauncy Street, Boston, MA 02111",
+          "phone": "+16179883400",
+          "website": "https://www.bostonhousing.org/en/Applications/Apply-for-Housing.aspx",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "housing-search-and-coordinated-services",
-          "name": "Housing search and coordinated services",
+          "title": "Housing search and coordinated services",
+          "description": "Ask shelter or day-center case managers for a housing assessment, help collecting homelessness verification, and referrals to supportive or subsidized housing. An assessment is not an immediate housing offer. Keep phone and mailing information current with every program.\nBoston housing and shelter resources",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ask shelter or day-center case managers for a housing assessment, help collecting homelessness verification, and referrals to supportive or subsidized housing. An assessment is not an immediate housing offer. Keep phone and mailing information current with every program."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Boston housing and shelter resources",
-                  "href": "https://www.boston.gov/departments/housing/services-those-experiencing-homeless"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.boston.gov/departments/housing/services-those-experiencing-homeless",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
-      "id": "work",
-      "title": "7. Work and training",
-      "items": [
+      "id": "employment",
+      "title": "Work and training",
+      "entries": [
         {
-          "type": "resource",
           "id": "masshire-downtown-boston-career-center",
-          "name": "MassHire Downtown Boston Career Center",
+          "title": "MassHire Downtown Boston Career Center",
+          "description": "Phone: 617-399-3100. Hours: Monday–Friday, 9 a.m.–5 p.m.; resource center closes at 4 p.m.\nFree job-search resources, career counseling, workshops, training information, and computer access. Personalized help may require an appointment.\nMassHire Downtown Boston",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 75 Federal Street, third floor, Boston, MA 02110"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "617-399-3100",
-                  "href": "tel:+16173993100"
-                },
-                {
-                  "text": ". "
-                },
-                {
-                  "text": "Hours:",
-                  "strong": true
-                },
-                {
-                  "text": " Monday–Friday, 9 a.m.–5 p.m.; resource center closes at 4 p.m."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Free job-search resources, career counseling, workshops, training information, and computer access. Personalized help may require an appointment."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "MassHire Downtown Boston",
-                  "href": "https://www.mass.gov/locations/masshire-downtown-boston-career-center"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 75 Federal Street, third floor, Boston, MA 02110",
+          "phone": "+16173993100",
+          "website": "https://www.mass.gov/locations/masshire-downtown-boston-career-center",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "masshire-boston-abcd-career-center",
-          "name": "MassHire Boston ABCD Career Center",
+          "title": "MassHire Boston ABCD Career Center",
+          "description": "Phone: 617-442-2791. Hours: Monday–Thursday, 8:30 a.m.–4:30 p.m.; Friday, 8:30 a.m.–3 p.m.\nIn-person and virtual job-search support, workshops, and training referrals. Call to confirm an appointment and ask about neighborhood career-adviser sessions.\nMassHire Boston ABCD contact and hours",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 10 Malcolm X Boulevard, Roxbury, MA 02119"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "617-442-2791",
-                  "href": "tel:+16174422791"
-                },
-                {
-                  "text": ". "
-                },
-                {
-                  "text": "Hours:",
-                  "strong": true
-                },
-                {
-                  "text": " Monday–Thursday, 8:30 a.m.–4:30 p.m.; Friday, 8:30 a.m.–3 p.m."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "In-person and virtual job-search support, workshops, and training referrals. Call to confirm an appointment and ask about neighborhood career-adviser sessions."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "MassHire Boston ABCD contact and hours",
-                  "href": "https://masshirebostonabcd.com/contact/"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 10 Malcolm X Boulevard, Roxbury, MA 02119",
+          "phone": "+16174422791",
+          "website": "https://masshirebostonabcd.com/contact/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "project-place",
-          "name": "Project Place",
+          "title": "Project Place",
+          "description": "Phone: 617-542-3740.\nCase management, resource connections, employment training, and support for people rebuilding stability. Call for orientation, eligibility, and the current program schedule.\nProject Place in the City resource directory",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 1145 Washington Street, Boston, MA 02118"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "617-542-3740",
-                  "href": "tel:+16175423740"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Case management, resource connections, employment training, and support for people rebuilding stability. Call for orientation, eligibility, and the current program schedule."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Project Place in the City resource directory",
-                  "href": "https://www.boston.gov/departments/housing/services-those-experiencing-homeless"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 1145 Washington Street, Boston, MA 02118",
+          "phone": "+16175423740",
+          "website": "https://www.boston.gov/departments/housing/services-those-experiencing-homeless",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "serving-ourselves-shelter-workforce-program",
-          "name": "Serving Ourselves — shelter workforce program",
+          "title": "Serving Ourselves — shelter workforce program",
+          "description": "A paid six-month job-training program for people staying in Boston Public Health Commission shelters. Ask shelter staff about eligibility, enrollment, and the next cohort.\nServing Ourselves program — City of Boston",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Career center:",
-                  "strong": true
-                },
-                {
-                  "text": " 1010 Massachusetts Avenue, Boston, MA 02118"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "A paid six-month job-training program for people staying in Boston Public Health Commission shelters. Ask shelter staff about eligibility, enrollment, and the next cohort."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Serving Ourselves program — City of Boston",
-                  "href": "https://content.boston.gov/news/boston-celebrates-40-years-workforce-development-programs-supporting-residents-experiencing"
-                }
-              ]
-            }
-          ]
+          "address": "Career center: 1010 Massachusetts Avenue, Boston, MA 02118",
+          "phone": "",
+          "website": "https://content.boston.gov/news/boston-celebrates-40-years-workforce-development-programs-supporting-residents-experiencing",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "st-francis-house-employment-services",
-          "name": "St. Francis House employment services",
+          "title": "St. Francis House employment services",
+          "description": "Career support is available alongside meals, showers, mail, identification, and case management. Ask the day center about orientation, computer access, clothing for interviews, and training.\nSt. Francis House programs",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 39 Boylston Street, Boston, MA 02116"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Career support is available alongside meals, showers, mail, identification, and case management. Ask the day center about orientation, computer access, clothing for interviews, and training."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "St. Francis House programs",
-                  "href": "https://stfrancishouse.org/find-help/"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 39 Boylston Street, Boston, MA 02116",
+          "phone": "",
+          "website": "https://stfrancishouse.org/find-help/",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
+    },
+    {
+      "id": "legal",
+      "title": "Legal aid",
+      "entries": []
     },
     {
       "id": "documents",
-      "title": "8. Documents and legal help",
-      "items": [
+      "title": "Documents and legal help",
+      "entries": [
         {
-          "type": "resource",
           "id": "identification-birth-records-and-mailing-address",
-          "name": "Identification, birth records, and mailing address",
+          "title": "Identification, birth records, and mailing address",
+          "description": "Start with St. Francis House, Women's Lunch Place, Rosie's Place, or your shelter case manager. Ask for help obtaining a birth certificate or state ID, paying a required fee, making copies, and establishing a safe mailing address. Requirements differ by record and state.\nSt. Francis House document and mail help",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Start with St. Francis House, Women's Lunch Place, Rosie's Place, or your shelter case manager. Ask for help obtaining a birth certificate or state ID, paying a required fee, making copies, and establishing a safe mailing address. Requirements differ by record and state."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "St. Francis House document and mail help",
-                  "href": "https://stfrancishouse.org/day-shelter/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://stfrancishouse.org/day-shelter/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "greater-boston-legal-services",
-          "name": "Greater Boston Legal Services",
+          "title": "Greater Boston Legal Services",
+          "description": "Main: 617-371-1234; housing intake: 617-603-1807.\nFree civil legal help for eligible low-income people, including eviction, public or subsidized housing, benefits, health, family, and shelter denials or terminations. General telephone intake is Monday–Friday, 9:30 a.m.–12:30 p.m.; housing intake is by phone.\nGBLS hours and intake",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 197 Friend Street, Boston, MA 02114"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Main:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "617-371-1234",
-                  "href": "tel:+16173711234"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "housing intake:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "617-603-1807",
-                  "href": "tel:+16176031807"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Free civil legal help for eligible low-income people, including eviction, public or subsidized housing, benefits, health, family, and shelter denials or terminations. General telephone intake is Monday–Friday, 9:30 a.m.–12:30 p.m.; housing intake is by phone."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "GBLS hours and intake",
-                  "href": "https://www.gbls.org/about-us/locations-and-directions"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 197 Friend Street, Boston, MA 02114",
+          "phone": "+16173711234",
+          "website": "https://www.gbls.org/about-us/locations-and-directions",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "rosie-s-place-legal-program-women",
-          "name": "Rosie's Place Legal Program — women",
+          "title": "Rosie's Place Legal Program — women",
+          "description": "Legal helpline: 617-318-0271.\nLegal support and advocacy for women. Call to learn intake hours and whether the matter can be handled or referred.\nRosie's Place service guide",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Legal helpline:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "617-318-0271",
-                  "href": "tel:+16173180271"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Legal support and advocacy for women. Call to learn intake hours and whether the matter can be handled or referred."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Rosie's Place service guide",
-                  "href": "https://www.rosiesplace.org/site/assets/Linked%20Docs/2026/FY26_Winter_DOPS_English_FINAL.pdf"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+16173180271",
+          "website": "https://www.rosiesplace.org/site/assets/Linked%20Docs/2026/FY26_Winter_DOPS_English_FINAL.pdf",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "eviction-shelter-denial-or-benefits-problem",
-          "name": "Eviction, shelter denial, or benefits problem",
+          "title": "Eviction, shelter denial, or benefits problem",
+          "description": "Keep every notice and envelope, photograph it, and record the deadline. Call GBLS promptly. For an emergency family-shelter denial or termination, tell intake that it concerns Emergency Assistance shelter and give the date on the notice.\nGBLS housing legal help",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Keep every notice and envelope, photograph it, and record the deadline. Call GBLS promptly. For an emergency family-shelter denial or termination, tell intake that it concerns Emergency Assistance shelter and give the date on the notice."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "GBLS housing legal help",
-                  "href": "https://www.gbls.org/get-legal-help/our-services/housing"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.gbls.org/get-legal-help/our-services/housing",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
-      "id": "specialist",
-      "title": "9. Women, youth, veterans, LGBTQ+ people, and immigrants",
-      "items": [
+      "id": "mail",
+      "title": "Mailing address",
+      "entries": []
+    },
+    {
+      "id": "storage",
+      "title": "Storage",
+      "entries": []
+    },
+    {
+      "id": "safety",
+      "title": "Safety and domestic violence",
+      "entries": []
+    },
+    {
+      "id": "specialist-support",
+      "title": "Women, youth, veterans, LGBTQ+ people, and immigrants",
+      "entries": [
         {
-          "type": "resource",
           "id": "safelink-domestic-violence",
-          "name": "SafeLink — domestic violence",
+          "title": "SafeLink — domestic violence",
+          "description": "Call: 877-785-2020, 24 hours.\nConfidential safety planning and connections to domestic-violence shelter and services. In immediate danger, call 911. Do not disclose a safe location to the person causing harm.\nMassachusetts SafeLink resources",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Call:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "877-785-2020",
-                  "href": "tel:+18777852020"
-                },
-                {
-                  "text": ", 24 hours."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Confidential safety planning and connections to domestic-violence shelter and services. In immediate danger, call 911. Do not disclose a safe location to the person causing harm."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Massachusetts SafeLink resources",
-                  "href": "https://www.mass.gov/info-details/massachusetts-safelink-resources"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+18777852020",
+          "website": "https://www.mass.gov/info-details/massachusetts-safelink-resources",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "bridge-over-troubled-waters-ages-14-24",
-          "name": "Bridge Over Troubled Waters — ages 14–24",
+          "title": "Bridge Over Troubled Waters — ages 14–24",
+          "description": "Phone: 617-423-9575.\nOvernight shelter and daytime services for young people. Call for current intake, age rules, and capacity.\nBoston youth homelessness resources",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 47 West Street, Boston, MA 02111"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "617-423-9575",
-                  "href": "tel:+16174239575"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Overnight shelter and daytime services for young people. Call for current intake, age rules, and capacity."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Boston youth homelessness resources",
-                  "href": "https://www.boston.gov/departments/housing/ending-youth-and-young-adult-homelessness"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 47 West Street, Boston, MA 02111",
+          "phone": "+16174239575",
+          "website": "https://www.boston.gov/departments/housing/ending-youth-and-young-adult-homelessness",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "y2y-harvard-square-ages-18-24",
-          "name": "Y2Y Harvard Square — ages 18–24",
+          "title": "Y2Y Harvard Square — ages 18–24",
+          "description": "Phone: 617-864-0795.\nYouth shelter outside Boston but accessible by transit. Call for the current lottery or intake process, hours, and capacity.\nCity youth resource list",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 1 Church Street, middle entrance, Cambridge, MA 02138"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "617-864-0795",
-                  "href": "tel:+16178640795"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Youth shelter outside Boston but accessible by transit. Call for the current lottery or intake process, hours, and capacity."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "City youth resource list",
-                  "href": "https://www.boston.gov/departments/housing/ending-youth-and-young-adult-homelessness"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 1 Church Street, middle entrance, Cambridge, MA 02138",
+          "phone": "+16178640795",
+          "website": "https://www.boston.gov/departments/housing/ending-youth-and-young-adult-homelessness",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "bagly-lgbtq-youth",
-          "name": "BAGLY — LGBTQ+ youth",
+          "title": "BAGLY — LGBTQ+ youth",
+          "description": "Phone: 617-227-4313.\nCommunity, advocacy, and programs for LGBTQ+ youth. Call for the current drop-in schedule and ask for housing or health referrals when needed.\nBAGLY in Boston's youth resource list",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 28 Court Square, Boston, MA 02108"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "617-227-4313",
-                  "href": "tel:+16172274313"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Community, advocacy, and programs for LGBTQ+ youth. Call for the current drop-in schedule and ask for housing or health referrals when needed."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "BAGLY in Boston's youth resource list",
-                  "href": "https://www.boston.gov/departments/housing/ending-youth-and-young-adult-homelessness"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 28 Court Square, Boston, MA 02108",
+          "phone": "+16172274313",
+          "website": "https://www.boston.gov/departments/housing/ending-youth-and-young-adult-homelessness",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "new-england-center-and-home-for-veterans",
-          "name": "New England Center and Home for Veterans",
+          "title": "New England Center and Home for Veterans",
+          "description": "Phone: 617-371-1800.\nHousing and supportive services for veterans. Call for shelter or housing intake, eligibility, and documentation. Veterans may also call 211 for additional VA and community referrals.\nVeteran shelter listing — City of Boston",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 17 Court Street, Boston, MA 02108"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "617-371-1800",
-                  "href": "tel:+16173711800"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Housing and supportive services for veterans. Call for shelter or housing intake, eligibility, and documentation. Veterans may also call 211 for additional VA and community referrals."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Veteran shelter listing — City of Boston",
-                  "href": "https://www.boston.gov/departments/housing/services-those-experiencing-homeless"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 17 Court Street, Boston, MA 02108",
+          "phone": "+16173711800",
+          "website": "https://www.boston.gov/departments/housing/services-those-experiencing-homeless",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "mayor-s-office-for-immigrant-advancement",
-          "name": "Mayor's Office for Immigrant Advancement",
+          "title": "Mayor's Office for Immigrant Advancement",
+          "description": "Phone: 617-635-2980. Hours: Monday–Friday, 9 a.m.–5 p.m.\nResource navigation, interpretation and translation access, and referrals for immigrant residents. The office also publishes free brief immigration-law consultations; contact it for the current session and registration.\nResources for immigrant communities",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 1 City Hall Square, Room 806, Boston, MA 02201"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "617-635-2980",
-                  "href": "tel:+16176352980"
-                },
-                {
-                  "text": ". "
-                },
-                {
-                  "text": "Hours:",
-                  "strong": true
-                },
-                {
-                  "text": " Monday–Friday, 9 a.m.–5 p.m."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Resource navigation, interpretation and translation access, and referrals for immigrant residents. The office also publishes free brief immigration-law consultations; contact it for the current session and registration."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Resources for immigrant communities",
-                  "href": "https://www.boston.gov/departments/immigrant-advancement/resources-immigrant-communities"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 1 City Hall Square, Room 806, Boston, MA 02201",
+          "phone": "+16176352980",
+          "website": "https://www.boston.gov/departments/immigrant-advancement/resources-immigrant-communities",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "familyaid-families",
-          "name": "FamilyAid — families",
+          "title": "FamilyAid — families",
+          "description": "Phone: 617-542-7286.\nFamily homelessness prevention, case management, and resource connections. Call for eligibility and intake; it is not a guaranteed same-day emergency placement.\nFamily services in Boston's directory",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 3815 Washington Street, Boston, MA 02130"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "617-542-7286",
-                  "href": "tel:+16175427286"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Family homelessness prevention, case management, and resource connections. Call for eligibility and intake; it is not a guaranteed same-day emergency placement."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Family services in Boston's directory",
-                  "href": "https://www.boston.gov/departments/housing/services-those-experiencing-homeless"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 3815 Washington Street, Boston, MA 02130",
+          "phone": "+16175427286",
+          "website": "https://www.boston.gov/departments/housing/services-those-experiencing-homeless",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
+    },
+    {
+      "id": "veterans",
+      "title": "Veterans support",
+      "entries": []
     },
     {
       "id": "pets",
-      "title": "10. Help with pets",
-      "items": [
+      "title": "Help with pets",
+      "entries": [
         {
-          "type": "resource",
           "id": "boston-animal-care-and-control-pet-food-and-emergencies",
-          "name": "Boston Animal Care and Control — pet food and emergencies",
+          "title": "Boston Animal Care and Control — pet food and emergencies",
+          "description": "Information: 617-635-1800. After-hours animal emergency: 311 or 617-635-4500.\nThe City runs a year-round pet food pantry, low-cost rabies clinics, and an animal shelter. Call before traveling for pet-food availability, clinic dates, and eligibility.\nBoston Animal Care and Control",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Animal shelter:",
-                  "strong": true
-                },
-                {
-                  "text": " 26 Mahler Road, Roslindale, MA 02131"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Information:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "617-635-1800",
-                  "href": "tel:+16176351800"
-                },
-                {
-                  "text": ". "
-                },
-                {
-                  "text": "After-hours animal emergency:",
-                  "strong": true
-                },
-                {
-                  "text": " 311 or "
-                },
-                {
-                  "text": "617-635-4500",
-                  "href": "tel:+16176354500"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "The City runs a year-round pet food pantry, low-cost rabies clinics, and an animal shelter. Call before traveling for pet-food availability, clinic dates, and eligibility."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Boston Animal Care and Control",
-                  "href": "https://www.boston.gov/departments/animal-care-and-control"
-                }
-              ]
-            }
-          ]
+          "address": "Animal shelter: 26 Mahler Road, Roslindale, MA 02131",
+          "phone": "+16176351800",
+          "website": "https://www.boston.gov/departments/animal-care-and-control",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "low-cost-veterinary-options",
-          "name": "Low-cost veterinary options",
+          "title": "Low-cost veterinary options",
+          "description": "The City lists low-cost clinics, including Merwin Animal Clinic at 542 Cambridge Street, Brighton, 617-782-5420, and the Spay Waggin' at 877-590-7729. Call for prices, appointments, weight limits, and current services.\nBoston low-cost animal clinics",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "The City lists low-cost clinics, including Merwin Animal Clinic at 542 Cambridge Street, Brighton, "
-                },
-                {
-                  "text": "617-782-5420",
-                  "href": "tel:+16177825420"
-                },
-                {
-                  "text": ", and the Spay Waggin' at "
-                },
-                {
-                  "text": "877-590-7729",
-                  "href": "tel:+18775907729"
-                },
-                {
-                  "text": ". Call for prices, appointments, weight limits, and current services."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Boston low-cost animal clinics",
-                  "href": "https://www.boston.gov/departments/animal-care-and-control/keeping-your-pet-healthy-and-safe"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+16177825420",
+          "website": "https://www.boston.gov/departments/animal-care-and-control/keeping-your-pet-healthy-and-safe",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "before-accepting-a-shelter-placement",
-          "name": "Before accepting a shelter placement",
+          "title": "Before accepting a shelter placement",
+          "description": "Tell the shelter or 311 that you have a pet, including the species, size, vaccination status, and any medical need. Ask whether the assigned site can accommodate the animal or arrange a safe alternative. Do not assume every shelter accepts pets.\nBoston shelter contacts",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Tell the shelter or 311 that you have a pet, including the species, size, vaccination status, and any medical need. Ask whether the assigned site can accommodate the animal or arrange a safe alternative. Do not assume every shelter accepts pets."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Boston shelter contacts",
-                  "href": "https://www.boston.gov/departments/housing/services-those-experiencing-homeless"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.boston.gov/departments/housing/services-those-experiencing-homeless",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
-      "id": "weather",
-      "title": "11. Severe weather",
-      "items": [
-        {
-          "type": "resource",
-          "id": "warming-and-cooling-information",
-          "name": "Warming and cooling information",
-          "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Call:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "311",
-                  "href": "tel:311"
-                },
-                {
-                  "text": " or "
-                },
-                {
-                  "text": "617-635-4500",
-                  "href": "tel:+16176354500"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ask for the current open warming or cooling location and its hours. Do not rely on an old address during a weather emergency. Tell 311 if a person cannot travel safely or needs an accessible option."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Boston Emergency Management",
-                  "href": "https://www.boston.gov/departments/emergency-management"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "when-weather-becomes-a-medical-emergency",
-          "name": "When weather becomes a medical emergency",
-          "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Call 911 for confusion, fainting, severe weakness, very hot or cold skin, difficulty breathing, or inability to wake. During extreme heat, seek shade and water; during severe cold, keep clothing dry and cover exposed skin while arranging indoor help."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "City emergency information",
-                  "href": "https://www.boston.gov/departments/emergency-management"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "sources",
+      "id": "other",
       "title": "Sources and updates",
-      "items": [
+      "entries": [
         {
-          "type": "paragraph",
-          "content": [
-            {
-              "text": "This page prioritizes the City of Boston, Commonwealth of Massachusetts, and provider websites. It was reviewed on November 12, 2026. If a phone number is disconnected, an address is wrong, or a service has closed, please submit a correction through the project repository."
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "content": [
-            {
-              "text": "How to contribute",
-              "href": "../../CONTRIBUTING.md"
-            },
-            {
-              "text": " | "
-            },
-            {
-              "text": "Project repository",
-              "href": "https://github.com/carlosbranco/no-home-help"
-            }
-          ]
+          "id": "sources-information",
+          "title": "Sources and updates",
+          "description": "This page prioritizes the City of Boston, Commonwealth of Massachusetts, and provider websites. It was reviewed on November 12, 2026. If a phone number is disconnected, an address is wrong, or a service has closed, please submit a correction through the project repository.\nHow to contribute | Project repository — ../../CONTRIBUTING.md",
+          "last_verified": "2026-11-12",
+          "address": "",
+          "phone": "",
+          "website": "https://github.com/carlosbranco/no-home-help",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     }

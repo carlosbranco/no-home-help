@@ -1,6 +1,7 @@
 {
   "$schema": "https://nohomehelp.com/schemas/city.schema.json",
-  "schema_version": 1,
+  "documentation": "https://github.com/carlosbranco/no-home-help/blob/main/EDIT_CITY_JSON.md",
+  "schema_version": 2,
   "status": "published",
   "locale": {
     "language": "es",
@@ -26,3981 +27,1311 @@
   "page": {
     "heading": "Santa Cruz de la Sierra — ayuda para personas sin vivienda",
     "last_verified": "2026-11-12",
-    "urgent": [
-      {
-        "type": "paragraph",
-        "content": [
-          {
-            "text": "Policía:",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "110",
-            "href": "tel:110"
-          },
-          {
-            "break": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "Bomberos:",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "119",
-            "href": "tel:119"
-          },
-          {
-            "break": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "Ambulancia municipal SISME:",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "160",
-            "href": "tel:160"
-          },
-          {
-            "break": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "Emergencias municipales:",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "800 12 5050",
-            "href": "tel:800125050"
-          },
-          {
-            "break": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "Niñez y violencia:",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "156",
-            "href": "tel:156"
-          },
-          {
-            "break": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "Violencia contra las mujeres — FELCV:",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "800 14 0348",
-            "href": "tel:800140348"
-          }
-        ]
-      }
-    ],
-    "notice": [
-      {
-        "text": "Las plazas, horarios, teléfonos, requisitos y existencias pueden cambiar.",
-        "strong": true
-      },
-      {
-        "text": " Llama antes de trasladarte. Ningún servicio garantiza cama, comida, dinero, tratamiento, documento, beneficio, pasaje o empleo el mismo día. El albergue municipal de invierno es estacional y no debe suponerse abierto fuera de la época fría."
-      }
-    ],
-    "intro": [
-      {
-        "type": "paragraph",
-        "content": [
-          {
-            "text": "Al pedir ayuda, di primero dónde estás y un punto de referencia. Explica si dormirás en la calle esta noche, cuándo comiste, si existe una urgencia médica, embarazo, discapacidad, una persona menor o mayor, violencia, consumo problemático, falta de documentos o un animal de compañía. Pregunta siempre por cupo, coste, requisitos y población atendida."
-          }
-        ]
-      }
-    ],
-    "footer": []
+    "urgent": "Policía: 110 Bomberos: 119 Ambulancia municipal SISME: 160 Emergencias municipales: 800 12 5050 Niñez y violencia: 156 Violencia contra las mujeres — FELCV: 800 14 0348",
+    "notice": "Las plazas, horarios, teléfonos, requisitos y existencias pueden cambiar. Llama antes de trasladarte. Ningún servicio garantiza cama, comida, dinero, tratamiento, documento, beneficio, pasaje o empleo el mismo día. El albergue municipal de invierno es estacional y no debe suponerse abierto fuera de la época fría.",
+    "intro": "Al pedir ayuda, di primero dónde estás y un punto de referencia. Explica si dormirás en la calle esta noche, cuándo comiste, si existe una urgencia médica, embarazo, discapacidad, una persona menor o mayor, violencia, consumo problemático, falta de documentos o un animal de compañía. Pregunta siempre por cupo, coste, requisitos y población atendida.",
+    "footer": ""
   },
   "categories": [
     {
-      "id": "today",
-      "title": "1. Qué hacer hoy",
-      "items": [
+      "id": "emergency",
+      "title": "Qué hacer hoy",
+      "entries": [
         {
-          "type": "resource",
           "id": "si-hay-peligro-o-una-urgencia-medica",
-          "name": "Si hay peligro o una urgencia médica",
+          "title": "Si hay peligro o una urgencia médica",
+          "description": "Llama a la Policía al 110, a Bomberos al 119 o al Sistema Integrado de Servicios Médicos al 160. Di primero la ubicación y un punto de referencia; después explica qué ocurre.\nAgenda telefónica municipal",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Llama a la Policía al "
-                },
-                {
-                  "text": "110",
-                  "href": "tel:110"
-                },
-                {
-                  "text": ", a Bomberos al "
-                },
-                {
-                  "text": "119",
-                  "href": "tel:119"
-                },
-                {
-                  "text": " o al Sistema Integrado de Servicios Médicos al "
-                },
-                {
-                  "text": "160",
-                  "href": "tel:160"
-                },
-                {
-                  "text": ". Di primero la ubicación y un punto de referencia; después explica qué ocurre."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Agenda telefónica municipal",
-                  "href": "https://www.gmsantacruz.gob.bo/Agenda-Telefonica/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "110",
+          "website": "https://www.gmsantacruz.gob.bo/Agenda-Telefonica/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "si-dormiras-en-la-calle-esta-noche",
-          "name": "Si dormirás en la calle esta noche",
+          "title": "Si dormirás en la calle esta noche",
+          "description": "Llama a la Línea Abierta Vecinal y Centro de Operaciones de Emergencias Municipales al 800 12 5700. Pide que registren tu ubicación y solicita abordaje o una derivación social. La Alcaldía realizó operativos de atención a personas en situación de calle en 2026, pero la llamada no garantiza traslado ni cama.\nAtención municipal a personas en situación de calle | COEM — https://www.gmsantacruz.gob.bo/coem/",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Llama a la Línea Abierta Vecinal y Centro de Operaciones de Emergencias Municipales al "
-                },
-                {
-                  "text": "800 12 5700",
-                  "href": "tel:800125700"
-                },
-                {
-                  "text": ". Pide que registren tu ubicación y solicita abordaje o una derivación social. La Alcaldía realizó operativos de atención a personas en situación de calle en 2026, pero la llamada no garantiza traslado ni cama."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Atención municipal a personas en situación de calle",
-                  "href": "https://www.gmsantacruz.gob.bo/Noticias/Detalle/?id=987"
-                },
-                {
-                  "text": " | "
-                },
-                {
-                  "text": "COEM",
-                  "href": "https://www.gmsantacruz.gob.bo/coem/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "800125700",
+          "website": "https://www.gmsantacruz.gob.bo/Noticias/Detalle/?id=987",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "si-hace-frio-intenso",
-          "name": "Si hace frío intenso",
+          "title": "Si hace frío intenso",
+          "description": "Pregunta en el 800 12 5700 si está activado el albergue municipal de invierno de la exterminal. En 2026 abrió de forma temporal para hombres; el Centro Ana Medina recibió a mujeres. Es un servicio estacional, por lo que en noviembre no debe suponerse abierto.\nApertura publicada en junio de 2026",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Pregunta en el "
-                },
-                {
-                  "text": "800 12 5700",
-                  "href": "tel:800125700"
-                },
-                {
-                  "text": " si está activado el albergue municipal de invierno de la exterminal. En 2026 abrió de forma temporal para hombres; el Centro Ana Medina recibió a mujeres. Es un servicio estacional, por lo que en noviembre no debe suponerse abierto."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Apertura publicada en junio de 2026",
-                  "href": "https://eldeber.com.bo/santa-cruz/albergue-capital-crucena-tendra-espacio-100-personas-situacion-calle_1781878199"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "800125700",
+          "website": "https://eldeber.com.bo/santa-cruz/albergue-capital-crucena-tendra-espacio-100-personas-situacion-calle_1781878199",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "si-eres-migrante-refugiado-o-estas-varado",
-          "name": "Si eres migrante, refugiado o estás varado",
+          "title": "Si eres migrante, refugiado o estás varado",
+          "description": "Llama a la Casa de Acogida Cardenal Julio Terrazas al 3 3257468 o escribe por WhatsApp al 71655688. Publica alojamiento de corta estancia, alimentación y orientación social y legal para personas migrantes y refugiadas. Confirma criterios y cupo antes de ir.\nPastoral de Movilidad Humana",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Llama a la Casa de Acogida Cardenal Julio Terrazas al "
-                },
-                {
-                  "text": "3 3257468",
-                  "href": "tel:+59133257468"
-                },
-                {
-                  "text": " o escribe por WhatsApp al "
-                },
-                {
-                  "text": "71655688",
-                  "href": "tel:+59171655688"
-                },
-                {
-                  "text": ". Publica alojamiento de corta estancia, alimentación y orientación social y legal para personas migrantes y refugiadas. Confirma criterios y cupo antes de ir."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Pastoral de Movilidad Humana",
-                  "href": "https://pasoc.org/migrantes/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+59133257468",
+          "website": "https://pasoc.org/migrantes/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "si-hay-una-nina-nino-o-adolescente-en-riesgo",
-          "name": "Si hay una niña, niño o adolescente en riesgo",
+          "title": "Si hay una niña, niño o adolescente en riesgo",
+          "description": "Llama a la Defensoría de la Niñez y Adolescencia al 156. Para un menor que vive en la calle también puedes escribir a casaoikia@casaoikia.org; Casa Oikía es un centro especializado, pero el ingreso depende de evaluación y protección institucional. — mailto:casaoikia@casaoikia.org\nCasa Oikía",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Llama a la Defensoría de la Niñez y Adolescencia al "
-                },
-                {
-                  "text": "156",
-                  "href": "tel:156"
-                },
-                {
-                  "text": ". Para un menor que vive en la calle también puedes escribir a "
-                },
-                {
-                  "text": "casaoikia@casaoikia.org",
-                  "href": "mailto:casaoikia@casaoikia.org"
-                },
-                {
-                  "text": "; Casa Oikía es un centro especializado, pero el ingreso depende de evaluación y protección institucional."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Casa Oikía",
-                  "href": "https://www.casaoikia.org/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "156",
+          "website": "https://www.casaoikia.org/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "si-huyes-de-violencia",
-          "name": "Si huyes de violencia",
+          "title": "Si huyes de violencia",
+          "description": "En peligro inmediato llama al 110, al 156 o a la FELCV al 800 14 0348. Casa de la Mujer publica refugio abierto las 24 horas y un WhatsApp de orientación, 62001850. La dirección del refugio es confidencial; la oficina administrativa no es el refugio.\nContacto de Casa de la Mujer",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "En peligro inmediato llama al 110, al 156 o a la FELCV al "
-                },
-                {
-                  "text": "800 14 0348",
-                  "href": "tel:800140348"
-                },
-                {
-                  "text": ". Casa de la Mujer publica refugio abierto las 24 horas y un WhatsApp de orientación, "
-                },
-                {
-                  "text": "62001850",
-                  "href": "tel:+59162001850"
-                },
-                {
-                  "text": ". La dirección del refugio es confidencial; la oficina administrativa no es el refugio."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Contacto de Casa de la Mujer",
-                  "href": "https://casa-de-la-mujer--casa-de-la-mujer-bo.us-central1.hosted.app/contacto"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "800140348",
+          "website": "https://casa-de-la-mujer--casa-de-la-mujer-bo.us-central1.hosted.app/contacto",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "guarda-la-informacion-importante",
-          "name": "Guarda la información importante",
+          "title": "Guarda la información importante",
+          "description": "Escribe en papel teléfonos, número de cédula, enfermedades, medicamentos, alergias y un contacto de confianza. Guarda copias de documentos separadas de los originales. No entregues contraseñas, códigos bancarios ni documentos originales a un intermediario.",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Escribe en papel teléfonos, número de cédula, enfermedades, medicamentos, alergias y un contacto de confianza. Guarda copias de documentos separadas de los originales. No entregues contraseñas, códigos bancarios ni documentos originales a un intermediario."
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "urgent",
-      "title": "2. Emergencias y orientación local",
-      "items": [
+          "address": "",
+          "phone": "",
+          "website": "",
+          "hours": "",
+          "how_to_access": ""
+        },
         {
-          "type": "resource",
           "id": "policia-radio-patrullas",
-          "name": "Policía — Radio Patrullas",
+          "title": "Policía — Radio Patrullas",
+          "description": "Teléfono: 110. Para violencia en curso, delito o peligro inmediato. Di primero dónde estás y evita confrontar a una persona agresora si eso aumenta el riesgo.",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Teléfono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "110",
-                  "href": "tel:110"
-                },
-                {
-                  "text": ". Para violencia en curso, delito o peligro inmediato. Di primero dónde estás y evita confrontar a una persona agresora si eso aumenta el riesgo."
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "110",
+          "website": "",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "bomberos",
-          "name": "Bomberos",
+          "title": "Bomberos",
+          "description": "Teléfono: 119. Para incendios, humo, rescate, fuga de gas, derrumbe u otra situación que requiera intervención de bomberos.",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Teléfono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "119",
-                  "href": "tel:119"
-                },
-                {
-                  "text": ". Para incendios, humo, rescate, fuga de gas, derrumbe u otra situación que requiera intervención de bomberos."
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "119",
+          "website": "",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "sisme-ambulancia-municipal",
-          "name": "SISME — ambulancia municipal",
+          "title": "SISME — ambulancia municipal",
+          "description": "Teléfono: 160. Para pérdida de conciencia, dificultad para respirar, dolor fuerte en el pecho, sangrado grave, convulsiones, sobredosis, lesión grave o parto urgente.\nNúmero publicado por el municipio",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Teléfono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "160",
-                  "href": "tel:160"
-                },
-                {
-                  "text": ". Para pérdida de conciencia, dificultad para respirar, dolor fuerte en el pecho, sangrado grave, convulsiones, sobredosis, lesión grave o parto urgente."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Número publicado por el municipio",
-                  "href": "https://www.gmsantacruz.gob.bo/Agenda-Telefonica/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "160",
+          "website": "https://www.gmsantacruz.gob.bo/Agenda-Telefonica/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "departamento-de-emergencia-municipal",
-          "name": "Departamento de Emergencia Municipal",
+          "title": "Departamento de Emergencia Municipal",
+          "description": "Línea gratuita: 800 12 5050. Para inundación, caída de muro o árbol, riesgo estructural y otras emergencias municipales. Aléjate de cables, agua en movimiento y edificios dañados.",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Línea gratuita:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "800 12 5050",
-                  "href": "tel:800125050"
-                },
-                {
-                  "text": ". Para inundación, caída de muro o árbol, riesgo estructural y otras emergencias municipales. Aléjate de cables, agua en movimiento y edificios dañados."
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "800125050",
+          "website": "",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "coem-y-linea-abierta-vecinal",
-          "name": "COEM y Línea Abierta Vecinal",
+          "title": "COEM y Línea Abierta Vecinal",
+          "description": "Línea gratuita: 800 12 5700. Para orientación municipal, reporte de una persona vulnerable en la calle y coordinación con áreas sociales. Pide un número o constancia del reporte si lo ofrecen.\nCentro de Operaciones de Emergencias Municipales",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Línea gratuita:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "800 12 5700",
-                  "href": "tel:800125700"
-                },
-                {
-                  "text": ". Para orientación municipal, reporte de una persona vulnerable en la calle y coordinación con áreas sociales. Pide un número o constancia del reporte si lo ofrecen."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Centro de Operaciones de Emergencias Municipales",
-                  "href": "https://www.gmsantacruz.gob.bo/coem/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "800125700",
+          "website": "https://www.gmsantacruz.gob.bo/coem/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "alcaldia-atencion-general",
-          "name": "Alcaldía — atención general",
+          "title": "Alcaldía — atención general",
+          "description": "Horario publicado: lunes a viernes, 08:00–16:00. Pide la Secretaría Municipal de Desarrollo Humano cuando el problema sea calle, alimentos, abandono, discapacidad, vejez o protección familiar.\nGobierno Municipal",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Dirección:",
-                  "strong": true
-                },
-                {
-                  "text": " Plaza 24 de Septiembre, acera norte, calle 24 de Septiembre esquina Bolívar n.º 101"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Horario publicado:",
-                  "strong": true
-                },
-                {
-                  "text": " lunes a viernes, 08:00–16:00. Pide la Secretaría Municipal de Desarrollo Humano cuando el problema sea calle, alimentos, abandono, discapacidad, vejez o protección familiar."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Gobierno Municipal",
-                  "href": "https://www.gmsantacruz.gob.bo/"
-                }
-              ]
-            }
-          ]
+          "address": "Dirección: Plaza 24 de Septiembre, acera norte, calle 24 de Septiembre esquina Bolívar n.º 101",
+          "phone": "",
+          "website": "https://www.gmsantacruz.gob.bo/",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
       "id": "shelter",
-      "title": "3. Albergue y ayuda en la calle",
-      "items": [
+      "title": "Albergue y ayuda en la calle",
+      "entries": [
         {
-          "type": "resource",
           "id": "albergue-municipal-de-invierno-exterminal-de-buses",
-          "name": "Albergue municipal de invierno — exterminal de buses",
+          "title": "Albergue municipal de invierno — exterminal de buses",
+          "description": "Consulta y abordaje: 800 12 5700.\nEn junio de 2026 abrió de forma temporal para hombres y publicó ducha, baño, ropa de cama, cena, desayuno y valoración médica. Su operación se anunció por unas semanas durante el invierno. Confirma apertura, hora, cupo y requisitos el mismo día; no vayas suponiendo que está activo o que habrá cama.\nAcceso anunciado en 2026",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Referencia publicada:",
-                  "strong": true
-                },
-                {
-                  "text": " exterminal de buses, Santa Cruz de la Sierra"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Consulta y abordaje:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "800 12 5700",
-                  "href": "tel:800125700"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "En junio de 2026 abrió de forma temporal para hombres y publicó ducha, baño, ropa de cama, cena, desayuno y valoración médica. Su operación se anunció por unas semanas durante el invierno. Confirma apertura, hora, cupo y requisitos el mismo día; no vayas suponiendo que está activo o que habrá cama."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Acceso anunciado en 2026",
-                  "href": "https://unitel.bo/noticias/sociedad/el-albergue-de-invierno-en-santa-cruz-de-la-sierra-abrira-el-fin-de-semana-y-hay-dos-formas-de-acceder-OG21505946"
-                }
-              ]
-            }
-          ]
+          "address": "Referencia publicada: exterminal de buses, Santa Cruz de la Sierra",
+          "phone": "800125700",
+          "website": "https://unitel.bo/noticias/sociedad/el-albergue-de-invierno-en-santa-cruz-de-la-sierra-abrira-el-fin-de-semana-y-hay-dos-formas-de-acceder-OG21505946",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "centro-ana-medina-mujeres-durante-el-invierno",
-          "name": "Centro Ana Medina — mujeres durante el invierno",
+          "title": "Centro Ana Medina — mujeres durante el invierno",
+          "description": "Consulta: 800 12 5700.\nEl municipio lo utilizó para mujeres durante la campaña invernal de 2026 y también publica un área de rehabilitación. No se ha verificado como albergue general permanente ni de acceso directo. Pide derivación y confirma el servicio vigente.\nDocumento municipal sobre el Centro Ana Medina",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Ubicación publicada:",
-                  "strong": true
-                },
-                {
-                  "text": " avenida Virgen de Luján, entre 8.º y 9.º anillo"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Consulta:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "800 12 5700",
-                  "href": "tel:800125700"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "El municipio lo utilizó para mujeres durante la campaña invernal de 2026 y también publica un área de rehabilitación. No se ha verificado como albergue general permanente ni de acceso directo. Pide derivación y confirma el servicio vigente."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Documento municipal sobre el Centro Ana Medina",
-                  "href": "https://www.gmsantacruz.gob.bo/Publicaciones-Municipales/MBPA_MANTENIMIENTO_DE_ESPACIOS_PUBLICOS_%20UT_VF01.pdf"
-                }
-              ]
-            }
-          ]
+          "address": "Ubicación publicada: avenida Virgen de Luján, entre 8.º y 9.º anillo",
+          "phone": "800125700",
+          "website": "https://www.gmsantacruz.gob.bo/Publicaciones-Municipales/MBPA_MANTENIMIENTO_DE_ESPACIOS_PUBLICOS_%20UT_VF01.pdf",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "casa-de-acogida-cardenal-julio-terrazas",
-          "name": "Casa de Acogida Cardenal Julio Terrazas",
+          "title": "Casa de Acogida Cardenal Julio Terrazas",
+          "description": "Teléfono: 3 3257468. WhatsApp: 71655688.\nLa Pastoral de Movilidad Humana publica acogida de corta estancia, tres comidas al día, orientación legal y social para migrantes internacionales, refugiados y algunas personas que viajan por tratamiento oncológico. No es un albergue general; llama primero y explica tu situación.\nFicha actual de PASOC",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Dirección:",
-                  "strong": true
-                },
-                {
-                  "text": " calle Madrejón n.º 172, entre avenida Piraí y Roca y Coronado, barrio Santa Rosita"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Teléfono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "3 3257468",
-                  "href": "tel:+59133257468"
-                },
-                {
-                  "text": ". "
-                },
-                {
-                  "text": "WhatsApp:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "71655688",
-                  "href": "tel:+59171655688"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "La Pastoral de Movilidad Humana publica acogida de corta estancia, tres comidas al día, orientación legal y social para migrantes internacionales, refugiados y algunas personas que viajan por tratamiento oncológico. No es un albergue general; llama primero y explica tu situación."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ficha actual de PASOC",
-                  "href": "https://pasoc.org/migrantes/"
-                }
-              ]
-            }
-          ]
+          "address": "Dirección: calle Madrejón n.º 172, entre avenida Piraí y Roca y Coronado, barrio Santa Rosita",
+          "phone": "+59133257468",
+          "website": "https://pasoc.org/migrantes/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "casa-de-la-mujer-refugio-por-violencia",
-          "name": "Casa de la Mujer — refugio por violencia",
+          "title": "Casa de la Mujer — refugio por violencia",
+          "description": "WhatsApp: 62001850. La organización publica refugio abierto las 24 horas para mujeres, niñas, niños y adolescentes en situación de violencia. Escribe o llama desde un lugar seguro; no compartas la ubicación confidencial.\nCanales de atención",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "WhatsApp:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "62001850",
-                  "href": "tel:+59162001850"
-                },
-                {
-                  "text": ". La organización publica refugio abierto las 24 horas para mujeres, niñas, niños y adolescentes en situación de violencia. Escribe o llama desde un lugar seguro; no compartas la ubicación confidencial."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Canales de atención",
-                  "href": "https://casa-de-la-mujer--casa-de-la-mujer-bo.us-central1.hosted.app/contacto"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+59162001850",
+          "website": "https://casa-de-la-mujer--casa-de-la-mujer-bo.us-central1.hosted.app/contacto",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "casa-oikia-menores-en-situacion-de-calle",
-          "name": "Casa Oikía — menores en situación de calle",
+          "title": "Casa Oikía — menores en situación de calle",
+          "description": "Correo: casaoikia@casaoikia.org. — mailto:casaoikia@casaoikia.org\nCentro de acogida de la Iglesia católica para niñas, niños y adolescentes en situación de calle. Publica alojamiento nocturno, comida, aseo, atención médica y acompañamiento educativo. El ingreso no es automático; ante riesgo inmediato usa primero el 156.\nSitio oficial de Oikía",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Correo:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "casaoikia@casaoikia.org",
-                  "href": "mailto:casaoikia@casaoikia.org"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Centro de acogida de la Iglesia católica para niñas, niños y adolescentes en situación de calle. Publica alojamiento nocturno, comida, aseo, atención médica y acompañamiento educativo. El ingreso no es automático; ante riesgo inmediato usa primero el 156."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Sitio oficial de Oikía",
-                  "href": "https://www.casaoikia.org/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.casaoikia.org/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "abordaje-municipal-en-la-calle",
-          "name": "Abordaje municipal en la calle",
+          "title": "Abordaje municipal en la calle",
+          "description": "En julio de 2026 el municipio documentó un operativo cerca de la Plaza 24 de Septiembre y el parque El Arenal con evaluación médica, alimentos y derivación. Para solicitar una intervención llama al 800 12 5700. La persona adulta puede requerir evaluación y consentimiento; no se garantiza respuesta inmediata.\nOperativo municipal documentado",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "En julio de 2026 el municipio documentó un operativo cerca de la Plaza 24 de Septiembre y el parque El Arenal con evaluación médica, alimentos y derivación. Para solicitar una intervención llama al "
-                },
-                {
-                  "text": "800 12 5700",
-                  "href": "tel:800125700"
-                },
-                {
-                  "text": ". La persona adulta puede requerir evaluación y consentimiento; no se garantiza respuesta inmediata."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Operativo municipal documentado",
-                  "href": "https://www.gmsantacruz.gob.bo/Noticias/Detalle/?id=987"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "800125700",
+          "website": "https://www.gmsantacruz.gob.bo/Noticias/Detalle/?id=987",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "si-no-hay-plaza-esta-noche",
-          "name": "Si no hay plaza esta noche",
+          "title": "Si no hay plaza esta noche",
+          "description": "Pide que registren el caso y pregunta por otra institución concreta. Explica embarazo, niñez, edad avanzada, discapacidad, enfermedad, violencia, consumo problemático o riesgo por clima. Mantente en un lugar iluminado y transitado y usa el 110, 119 o 160 si existe peligro.",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Pide que registren el caso y pregunta por otra institución concreta. Explica embarazo, niñez, edad avanzada, discapacidad, enfermedad, violencia, consumo problemático o riesgo por clima. Mantente en un lugar iluminado y transitado y usa el 110, 119 o 160 si existe peligro."
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
       "id": "food",
-      "title": "4. Comida, Cáritas e iglesias",
-      "items": [
+      "title": "Comida, Cáritas e iglesias",
+      "entries": [
         {
-          "type": "resource",
           "id": "pasoc-pastoral-social-caritas",
-          "name": "PASOC — Pastoral Social Cáritas",
+          "title": "PASOC — Pastoral Social Cáritas",
+          "description": "Pide la Cáritas parroquial más cercana y pregunta por comida, despensa, ropa, salud o apoyo social. La oficina central coordina la red, pero no se anuncia como comedor diario; confirma antes de ir.\nContacto y ubicación de PASOC",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Oficina central:",
-                  "strong": true
-                },
-                {
-                  "text": " calle Seminario n.º 2005, barrio Petrolero Norte, 2.º anillo, entre avenidas Beni y Alemana"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Pide la Cáritas parroquial más cercana y pregunta por comida, despensa, ropa, salud o apoyo social. La oficina central coordina la red, pero no se anuncia como comedor diario; confirma antes de ir."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Contacto y ubicación de PASOC",
-                  "href": "https://pasoc.org/contacto/"
-                }
-              ]
-            }
-          ]
+          "address": "Oficina central: calle Seminario n.º 2005, barrio Petrolero Norte, 2.º anillo, entre avenidas Beni y Alemana",
+          "phone": "",
+          "website": "https://pasoc.org/contacto/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "red-de-caritas-parroquiales",
-          "name": "Red de Cáritas Parroquiales",
+          "title": "Red de Cáritas Parroquiales",
+          "description": "PASOC publica dos comedores para niñas, niños y personas mayores, además de despensas, roperos, bazares, panadería solidaria y ayuda legal, médica, psicológica y espiritual. Los nombres, días y cupos pueden variar. Usa el mapa de la red o pregunta en la oficina central por el punto activo que corresponda a tu edad y zona.\nCáritas Parroquial",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "PASOC publica dos comedores para niñas, niños y personas mayores, además de despensas, roperos, bazares, panadería solidaria y ayuda legal, médica, psicológica y espiritual. Los nombres, días y cupos pueden variar. Usa el mapa de la red o pregunta en la oficina central por el punto activo que corresponda a tu edad y zona."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Cáritas Parroquial",
-                  "href": "https://pasoc.org/caritas-parroquial/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://pasoc.org/caritas-parroquial/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "centro-comunitario-jose-de-paiva-netto-plan-3000",
-          "name": "Centro Comunitario José de Paiva Netto — Plan 3000",
+          "title": "Centro Comunitario José de Paiva Netto — Plan 3000",
+          "description": "Teléfono: 3 3123988. WhatsApp general: 77704247.\nLa Legión de la Buena Voluntad trabaja con niñas, niños y familias en vulnerabilidad y publica apoyo alimentario. No es un comedor abierto sin evaluación para toda persona adulta. Llama para saber si hay inscripción, raciones y criterios actuales.\nPreguntas frecuentes de LBV",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Dirección:",
-                  "strong": true
-                },
-                {
-                  "text": " calle Lagunillas n.º 27, barrio Cordillera, zona Plan 3000"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Teléfono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "3 3123988",
-                  "href": "tel:+59133123988"
-                },
-                {
-                  "text": ". "
-                },
-                {
-                  "text": "WhatsApp general:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "77704247",
-                  "href": "tel:+59177704247"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "La Legión de la Buena Voluntad trabaja con niñas, niños y familias en vulnerabilidad y publica apoyo alimentario. No es un comedor abierto sin evaluación para toda persona adulta. Llama para saber si hay inscripción, raciones y criterios actuales."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Preguntas frecuentes de LBV",
-                  "href": "https://lbv.org.bo/preguntas-frecuentes/"
-                }
-              ]
-            }
-          ]
+          "address": "Dirección: calle Lagunillas n.º 27, barrio Cordillera, zona Plan 3000",
+          "phone": "+59133123988",
+          "website": "https://lbv.org.bo/preguntas-frecuentes/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "comedores-municipales-para-personas-mayores",
-          "name": "Comedores municipales para personas mayores",
+          "title": "Comedores municipales para personas mayores",
+          "description": "El municipio presupuestó alimentación en centros municipales del adulto mayor para personas mayores de escasos recursos. Pide el centro de tu distrito al 800 12 1111 o acude al Centro Municipal del Adulto Mayor. Confirma edad, registro, día y número de raciones.\nCentro Municipal del Adulto Mayor",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "El municipio presupuestó alimentación en centros municipales del adulto mayor para personas mayores de escasos recursos. Pide el centro de tu distrito al "
-                },
-                {
-                  "text": "800 12 1111",
-                  "href": "tel:800121111"
-                },
-                {
-                  "text": " o acude al Centro Municipal del Adulto Mayor. Confirma edad, registro, día y número de raciones."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Centro Municipal del Adulto Mayor",
-                  "href": "https://www.gmsantacruz.gob.bo/Tramites-Municipales/Tramites-de-la-Secretaria-Municipal-de-Desarrollo-Humano/Tramite/?id=171"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "800121111",
+          "website": "https://www.gmsantacruz.gob.bo/Tramites-Municipales/Tramites-de-la-Secretaria-Municipal-de-Desarrollo-Humano/Tramite/?id=171",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "casa-cardenal-julio-terrazas-personas-admitidas",
-          "name": "Casa Cardenal Julio Terrazas — personas admitidas",
+          "title": "Casa Cardenal Julio Terrazas — personas admitidas",
+          "description": "Publica alimentación gratuita tres veces al día para las personas migrantes o pacientes acompañados que sean acogidos. Llama al 3 3257468; no se anuncia como comedor abierto al público general.",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Publica alimentación gratuita tres veces al día para las personas migrantes o pacientes acompañados que sean acogidos. Llama al "
-                },
-                {
-                  "text": "3 3257468",
-                  "href": "tel:+59133257468"
-                },
-                {
-                  "text": "; no se anuncia como comedor abierto al público general."
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+59133257468",
+          "website": "",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "albergue-de-invierno-cuando-esta-activo",
-          "name": "Albergue de invierno — cuando está activo",
+          "title": "Albergue de invierno — cuando está activo",
+          "description": "La campaña municipal de 2026 publicó cena y desayuno para personas admitidas. Es estacional y las raciones dependen del funcionamiento y el cupo. Confirma en el 800 12 5700.",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "La campaña municipal de 2026 publicó cena y desayuno para personas admitidas. Es estacional y las raciones dependen del funcionamiento y el cupo. Confirma en el "
-                },
-                {
-                  "text": "800 12 5700",
-                  "href": "tel:800125700"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "800125700",
+          "website": "",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "fundacion-gentil-orientacion-y-visitas-sociales",
-          "name": "Fundación Gentil — orientación y visitas sociales",
+          "title": "Fundación Gentil — orientación y visitas sociales",
+          "description": "Correo: bernardo@fundaciongentil.org. — mailto:bernardo@fundaciongentil.org\nPublica asistencia a personas y familias en pobreza, incluidas personas migrantes y en situación de calle. Escribe explicando ubicación y necesidad concreta. No publica comedor ni entrega diaria garantizada.\nFundación Gentil",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Correo:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "bernardo@fundaciongentil.org",
-                  "href": "mailto:bernardo@fundaciongentil.org"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Publica asistencia a personas y familias en pobreza, incluidas personas migrantes y en situación de calle. Escribe explicando ubicación y necesidad concreta. No publica comedor ni entrega diaria garantizada."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Fundación Gentil",
-                  "href": "https://www.fundaciongentil.org/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.fundaciongentil.org/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "antes-de-ir-a-un-comedor-o-iglesia",
-          "name": "Antes de ir a un comedor o iglesia",
+          "title": "Antes de ir a un comedor o iglesia",
+          "description": "Pregunta si entregan comida hoy, a qué hora, a qué población, si necesitas registro o cédula y cuántas raciones hay. No pagues para entrar en una lista y no entregues documentos originales. Una parroquia puede orientar aunque no tenga comida ese día.",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Pregunta si entregan comida hoy, a qué hora, a qué población, si necesitas registro o cédula y cuántas raciones hay. No pagues para entrar en una lista y no entregues documentos originales. Una parroquia puede orientar aunque no tenga comida ese día."
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
-      "id": "basic-needs",
-      "title": "5. Higiene, ropa, lavandería e internet",
-      "items": [
+      "id": "community",
+      "title": "Community and religious help",
+      "entries": []
+    },
+    {
+      "id": "hygiene",
+      "title": "Higiene, ropa, lavandería e internet",
+      "entries": [
         {
-          "type": "resource",
           "id": "ducha-y-bano-en-el-albergue-de-invierno",
-          "name": "Ducha y baño en el albergue de invierno",
+          "title": "Ducha y baño en el albergue de invierno",
+          "description": "El albergue municipal de la exterminal publicó duchas y baños para personas admitidas durante su operación de invierno de 2026. No es un servicio permanente. Confirma activación en el 800 12 5700 y pregunta si debes llevar jabón o ropa de cambio.",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "El albergue municipal de la exterminal publicó duchas y baños para personas admitidas durante su operación de invierno de 2026. No es un servicio permanente. Confirma activación en el "
-                },
-                {
-                  "text": "800 12 5700",
-                  "href": "tel:800125700"
-                },
-                {
-                  "text": " y pregunta si debes llevar jabón o ropa de cambio."
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "800125700",
+          "website": "",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "ropa-e-higiene-caritas-parroquial",
-          "name": "Ropa e higiene — Cáritas Parroquial",
+          "title": "Ropa e higiene — Cáritas Parroquial",
+          "description": "La red publica roperos, bazares solidarios, despensas y campañas. Pregunta en PASOC, calle Seminario n.º 2005, por la parroquia activa más cercana. Las tallas y existencias dependen de donaciones.\nServicios publicados por Cáritas",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "La red publica roperos, bazares solidarios, despensas y campañas. Pregunta en PASOC, calle Seminario n.º 2005, por la parroquia activa más cercana. Las tallas y existencias dependen de donaciones."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Servicios publicados por Cáritas",
-                  "href": "https://pasoc.org/caritas-parroquial/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://pasoc.org/caritas-parroquial/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "casa-cardenal-julio-terrazas-migrantes-admitidos",
-          "name": "Casa Cardenal Julio Terrazas — migrantes admitidos",
+          "title": "Casa Cardenal Julio Terrazas — migrantes admitidos",
+          "description": "La casa de acogida publica necesidades básicas, alimentación e internet para las personas migrantes atendidas. Llama al 3 3257468 y confirma si puedes ingresar o recibir orientación sin alojamiento.",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "La casa de acogida publica necesidades básicas, alimentación e internet para las personas migrantes atendidas. Llama al "
-                },
-                {
-                  "text": "3 3257468",
-                  "href": "tel:+59133257468"
-                },
-                {
-                  "text": " y confirma si puedes ingresar o recibir orientación sin alojamiento."
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+59133257468",
+          "website": "",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "casa-oikia-menores-admitidos",
-          "name": "Casa Oikía — menores admitidos",
+          "title": "Casa Oikía — menores admitidos",
+          "description": "Publica comida, aseo y atención primaria para niñas, niños y adolescentes acogidos. Para un menor en la calle llama primero al 156 o escribe a casaoikia@casaoikia.org. — mailto:casaoikia@casaoikia.org",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Publica comida, aseo y atención primaria para niñas, niños y adolescentes acogidos. Para un menor en la calle llama primero al 156 o escribe a "
-                },
-                {
-                  "text": "casaoikia@casaoikia.org",
-                  "href": "mailto:casaoikia@casaoikia.org"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "red-municipal-de-bibliotecas",
-          "name": "Red Municipal de Bibliotecas",
+          "title": "Red Municipal de Bibliotecas",
+          "description": "El municipio mantiene bibliotecas en varios distritos. La Biblioteca Villa Primero de Mayo 16 de Julio publica una sala de internet; otras sedes ofrecen lectura y consulta. Confirma horario, identificación, uso de equipos y posibilidad de cargar el teléfono. Son espacios de estudio, no centros de día ni lugares para dormir.\nDirectorio de bibliotecas municipales | Biblioteca Villa Primero de Mayo — https://culturayturismo.gmsantacruz.gob.bo/lugares/biblioteca-villa-primero-de-mayo-16-de-julio",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "El municipio mantiene bibliotecas en varios distritos. La Biblioteca Villa Primero de Mayo 16 de Julio publica una sala de internet; otras sedes ofrecen lectura y consulta. Confirma horario, identificación, uso de equipos y posibilidad de cargar el teléfono. Son espacios de estudio, no centros de día ni lugares para dormir."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Directorio de bibliotecas municipales",
-                  "href": "https://leamospuej.gmsantacruz.gob.bo/bibliotecas.php"
-                },
-                {
-                  "text": " | "
-                },
-                {
-                  "text": "Biblioteca Villa Primero de Mayo",
-                  "href": "https://culturayturismo.gmsantacruz.gob.bo/lugares/biblioteca-villa-primero-de-mayo-16-de-julio"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://leamospuej.gmsantacruz.gob.bo/bibliotecas.php",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "banos-publicos-carga-y-agua",
-          "name": "Baños públicos, carga y agua",
+          "title": "Baños públicos, carga y agua",
+          "description": "No se encontró una red municipal estable y verificada de duchas, baños públicos gratuitos o carga para personas sin vivienda. Pregunta con respeto en hospitales, bibliotecas, la Terminal Bimodal o una institución que esté atendiendo tu caso. No conectes el teléfono donde haya cables expuestos.",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "No se encontró una red municipal estable y verificada de duchas, baños públicos gratuitos o carga para personas sin vivienda. Pregunta con respeto en hospitales, bibliotecas, la Terminal Bimodal o una institución que esté atendiendo tu caso. No conectes el teléfono donde haya cables expuestos."
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "pertenencias-correo-y-almacenamiento",
-          "name": "Pertenencias, correo y almacenamiento",
+          "title": "Pertenencias, correo y almacenamiento",
+          "description": "No se encontró un servicio público permanente y verificado de casilleros o recepción de correo para personas sin vivienda. Pregunta al trabajador social si la institución puede ayudarte mientras tu caso esté activo. No uses una dirección sin autorización escrita.",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "No se encontró un servicio público permanente y verificado de casilleros o recepción de correo para personas sin vivienda. Pregunta al trabajador social si la institución puede ayudarte mientras tu caso esté activo. No uses una dirección sin autorización escrita."
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
+    },
+    {
+      "id": "clothing",
+      "title": "Clothing",
+      "entries": []
     },
     {
       "id": "health",
-      "title": "6. Salud y medicamentos",
-      "items": [
+      "title": "Salud y medicamentos",
+      "entries": [
         {
-          "type": "resource",
           "id": "en-una-urgencia",
-          "name": "En una urgencia",
+          "title": "En una urgencia",
+          "description": "Llama al SISME al 160 si hay dificultad para respirar, dolor fuerte en el pecho, pérdida de conciencia, sangrado grave, convulsiones, sobredosis, quemadura extensa, lesión grave o parto urgente. Di la ubicación antes de explicar el problema.",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Llama al SISME al "
-                },
-                {
-                  "text": "160",
-                  "href": "tel:160"
-                },
-                {
-                  "text": " si hay dificultad para respirar, dolor fuerte en el pecho, pérdida de conciencia, sangrado grave, convulsiones, sobredosis, quemadura extensa, lesión grave o parto urgente. Di la ubicación antes de explicar el problema."
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "160",
+          "website": "",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "sistema-unico-de-salud-sus",
-          "name": "Sistema Único de Salud — SUS",
+          "title": "Sistema Único de Salud — SUS",
+          "description": "Línea gratuita: 800 10 0070.\nEl SUS ofrece atención pública gratuita a las personas elegibles, normalmente desde el centro de salud de primer nivel más cercano. Pregunta qué identificación o registro necesitas. En una emergencia, la guía municipal indica atención pública también para personas extranjeras aunque su situación migratoria sea irregular.\nInformación oficial del SUS | Guía municipal para personas migrantes — https://minsalud.gob.bo/centro-de-prensa/enlaces-educativas/sistema-unico-de-salud",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Línea gratuita:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "800 10 0070",
-                  "href": "tel:800100070"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "El SUS ofrece atención pública gratuita a las personas elegibles, normalmente desde el centro de salud de primer nivel más cercano. Pregunta qué identificación o registro necesitas. En una emergencia, la guía municipal indica atención pública también para personas extranjeras aunque su situación migratoria sea irregular."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Información oficial del SUS",
-                  "href": "https://minsalud.gob.bo/centro-de-prensa/enlaces-educativas/sistema-unico-de-salud"
-                },
-                {
-                  "text": " | "
-                },
-                {
-                  "text": "Guía municipal para personas migrantes",
-                  "href": "https://www.gmsantacruz.gob.bo/Guia-Atencion-Migrante/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "800100070",
+          "website": "https://www.gmsantacruz.gob.bo/Guia-Atencion-Migrante/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "hospital-municipal-bajio-del-oriente",
-          "name": "Hospital Municipal Bajío del Oriente",
+          "title": "Hospital Municipal Bajío del Oriente",
+          "description": "Teléfono: 3 555008. Llama para confirmar servicio, referencia y horario. El hospital publica, entre otras especialidades, psicología y psiquiatría.\nHospital El Bajío",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Teléfono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "3 555008",
-                  "href": "tel:+59133555008"
-                },
-                {
-                  "text": ". Llama para confirmar servicio, referencia y horario. El hospital publica, entre otras especialidades, psicología y psiquiatría."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Hospital El Bajío",
-                  "href": "https://hospitalelbajio.gmsantacruz.gob.bo/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+59133555008",
+          "website": "https://hospitalelbajio.gmsantacruz.gob.bo/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "hospital-municipal-frances",
-          "name": "Hospital Municipal Francés",
+          "title": "Hospital Municipal Francés",
+          "description": "Teléfono municipal publicado: 3 555008. Confirma el número, servicio y admisión antes de trasladarte; la agenda municipal muestra el mismo número que El Bajío.",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Teléfono municipal publicado:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "3 555008",
-                  "href": "tel:+59133555008"
-                },
-                {
-                  "text": ". Confirma el número, servicio y admisión antes de trasladarte; la agenda municipal muestra el mismo número que El Bajío."
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+59133555008",
+          "website": "",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "hospital-municipal-pampa-de-la-isla",
-          "name": "Hospital Municipal Pampa de la Isla",
+          "title": "Hospital Municipal Pampa de la Isla",
+          "description": "Teléfono: 3 518973. Pregunta si debes acudir primero a un centro de salud y qué documentación llevar.",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Teléfono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "3 518973",
-                  "href": "tel:+59133518973"
-                },
-                {
-                  "text": ". Pregunta si debes acudir primero a un centro de salud y qué documentación llevar."
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+59133518973",
+          "website": "",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "hospital-municipal-plan-3000",
-          "name": "Hospital Municipal Plan 3000",
+          "title": "Hospital Municipal Plan 3000",
+          "description": "Teléfono: 3 494008. Publica psicología y atención de segundo nivel. Confirma cita, derivación y cobertura del SUS.\nPsicología en Hospital Plan 3000",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Teléfono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "3 494008",
-                  "href": "tel:+59133494008"
-                },
-                {
-                  "text": ". Publica psicología y atención de segundo nivel. Confirma cita, derivación y cobertura del SUS."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Psicología en Hospital Plan 3000",
-                  "href": "https://hospitalplan3000.gmsantacruz.gob.bo/Especialidades/Psicologia/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+59133494008",
+          "website": "https://hospitalplan3000.gmsantacruz.gob.bo/Especialidades/Psicologia/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "hospital-municipal-villa-1-o-de-mayo",
-          "name": "Hospital Municipal Villa 1.º de Mayo",
+          "title": "Hospital Municipal Villa 1.º de Mayo",
+          "description": "Teléfono: 3 621402. La unidad de cuidados intermedios publica servicio continuo, pero llama al 160 ante una emergencia que no permite esperar.",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Teléfono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "3 621402",
-                  "href": "tel:+59133621402"
-                },
-                {
-                  "text": ". La unidad de cuidados intermedios publica servicio continuo, pero llama al 160 ante una emergencia que no permite esperar."
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+59133621402",
+          "website": "",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "centros-de-salud-municipales-zona-central",
-          "name": "Centros de salud municipales — zona central",
+          "title": "Centros de salud municipales — zona central",
+          "description": "San Luis: 3 538270. Virgen de Fátima: 3 526720. Santa Rosita: 3 524833. Perpetuo Socorro: 3 526882.\nPara atención primaria, registro del SUS, curaciones, control de enfermedades y derivación. Confirma cuál corresponde a tu ubicación.",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "San Luis:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "3 538270",
-                  "href": "tel:+59133538270"
-                },
-                {
-                  "text": ". "
-                },
-                {
-                  "text": "Virgen de Fátima:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "3 526720",
-                  "href": "tel:+59133526720"
-                },
-                {
-                  "text": ". "
-                },
-                {
-                  "text": "Santa Rosita:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "3 524833",
-                  "href": "tel:+59133524833"
-                },
-                {
-                  "text": ". "
-                },
-                {
-                  "text": "Perpetuo Socorro:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "3 526882",
-                  "href": "tel:+59133526882"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Para atención primaria, registro del SUS, curaciones, control de enfermedades y derivación. Confirma cuál corresponde a tu ubicación."
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+59133538270",
+          "website": "",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "centros-de-salud-municipales-zona-este",
-          "name": "Centros de salud municipales — zona este",
+          "title": "Centros de salud municipales — zona este",
+          "description": "El Pajonal: 3 582246. Cañada El Carmen: 3 556492. 25 de Diciembre: 3 622308. 12 de Diciembre: 3 332555.\nDirectorio municipal completo",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "El Pajonal:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "3 582246",
-                  "href": "tel:+59133582246"
-                },
-                {
-                  "text": ". "
-                },
-                {
-                  "text": "Cañada El Carmen:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "3 556492",
-                  "href": "tel:+59133556492"
-                },
-                {
-                  "text": ". "
-                },
-                {
-                  "text": "25 de Diciembre:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "3 622308",
-                  "href": "tel:+59133622308"
-                },
-                {
-                  "text": ". "
-                },
-                {
-                  "text": "12 de Diciembre:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "3 332555",
-                  "href": "tel:+59133332555"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Directorio municipal completo",
-                  "href": "https://www.gmsantacruz.gob.bo/Agenda-Telefonica/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+59133582246",
+          "website": "https://www.gmsantacruz.gob.bo/Agenda-Telefonica/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "medicamentos",
-          "name": "Medicamentos",
+          "title": "Medicamentos",
+          "description": "Lleva receta, envase o una foto del medicamento y explica si ya interrumpiste una dosis. Pregunta en el centro de salud qué cubre el SUS y si trabajo social puede orientar. No compres antibióticos, sedantes o medicación psiquiátrica de origen desconocido.",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Lleva receta, envase o una foto del medicamento y explica si ya interrumpiste una dosis. Pregunta en el centro de salud qué cubre el SUS y si trabajo social puede orientar. No compres antibióticos, sedantes o medicación psiquiátrica de origen desconocido."
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
       "id": "mental-health",
-      "title": "7. Salud mental y adicciones",
-      "items": [
+      "title": "Salud mental y adicciones",
+      "entries": [
         {
-          "type": "resource",
           "id": "crisis-de-salud-mental",
-          "name": "Crisis de salud mental",
+          "title": "Crisis de salud mental",
+          "description": "Si hay peligro inmediato, pérdida de conciencia, sobredosis, agitación extrema o riesgo de lesión, llama al 110 o al 160. No dejes sola a la persona si puedes permanecer con seguridad. Retira armas, medicación suelta y otros medios peligrosos sin enfrentarte.",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Si hay peligro inmediato, pérdida de conciencia, sobredosis, agitación extrema o riesgo de lesión, llama al 110 o al 160. No dejes sola a la persona si puedes permanecer con seguridad. Retira armas, medicación suelta y otros medios peligrosos sin enfrentarte."
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "hospital-municipal-bajio-del-oriente-psiquiatria",
-          "name": "Hospital Municipal Bajío del Oriente — psiquiatría",
+          "title": "Hospital Municipal Bajío del Oriente — psiquiatría",
+          "description": "Teléfono: 3 555008. Publica evaluación, tratamiento psiquiátrico, psicoterapia, medicación y atención de crisis en horarios diferenciados. Llama para confirmar el horario del día, referencia y coste o cobertura.\nServicio de psiquiatría",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Teléfono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "3 555008",
-                  "href": "tel:+59133555008"
-                },
-                {
-                  "text": ". Publica evaluación, tratamiento psiquiátrico, psicoterapia, medicación y atención de crisis en horarios diferenciados. Llama para confirmar el horario del día, referencia y coste o cobertura."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Servicio de psiquiatría",
-                  "href": "https://hospitalelbajio.gmsantacruz.gob.bo/Especialidades/Psiquiatria/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+59133555008",
+          "website": "https://hospitalelbajio.gmsantacruz.gob.bo/Especialidades/Psiquiatria/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "psicologia-en-hospitales-municipales",
-          "name": "Psicología en hospitales municipales",
+          "title": "Psicología en hospitales municipales",
+          "description": "El Bajío publica psicología de lunes a viernes y Plan 3000 publica triaje y consultas. También puedes pedir derivación desde tu centro de salud del SUS. La primera consulta puede requerir registro y no garantiza cita el mismo día.\nPsicología en El Bajío | Psicología en Plan 3000 — https://hospitalplan3000.gmsantacruz.gob.bo/Especialidades/Psicologia/",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "El Bajío publica psicología de lunes a viernes y Plan 3000 publica triaje y consultas. También puedes pedir derivación desde tu centro de salud del SUS. La primera consulta puede requerir registro y no garantiza cita el mismo día."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Psicología en El Bajío",
-                  "href": "https://hospitalelbajio.gmsantacruz.gob.bo/Especialidades/Psicologia/"
-                },
-                {
-                  "text": " | "
-                },
-                {
-                  "text": "Psicología en Plan 3000",
-                  "href": "https://hospitalplan3000.gmsantacruz.gob.bo/Especialidades/Psicologia/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://hospitalelbajio.gmsantacruz.gob.bo/Especialidades/Psicologia/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "alcoholicos-anonimos-oficina-de-servicios-generales",
-          "name": "Alcohólicos Anónimos — Oficina de Servicios Generales",
+          "title": "Alcohólicos Anónimos — Oficina de Servicios Generales",
+          "description": "Teléfono: 3 3329720. Pregunta por una reunión cercana y confirma dirección y horario. AA es apoyo entre pares y no reemplaza desintoxicación médica.\nDirectorio de AA Bolivia",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Dirección:",
-                  "strong": true
-                },
-                {
-                  "text": " barrio Gualberto Villarroel, calle Las Petas n.º 2330, Edificio Olga, 1.er piso, departamento 5"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Teléfono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "3 3329720",
-                  "href": "tel:+59133329720"
-                },
-                {
-                  "text": ". Pregunta por una reunión cercana y confirma dirección y horario. AA es apoyo entre pares y no reemplaza desintoxicación médica."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Directorio de AA Bolivia",
-                  "href": "https://aabolivia.org.bo/"
-                }
-              ]
-            }
-          ]
+          "address": "Dirección: barrio Gualberto Villarroel, calle Las Petas n.º 2330, Edificio Olga, 1.er piso, departamento 5",
+          "phone": "+59133329720",
+          "website": "https://aabolivia.org.bo/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "narcoticos-anonimos-grupos-en-santa-cruz",
-          "name": "Narcóticos Anónimos — grupos en Santa Cruz",
+          "title": "Narcóticos Anónimos — grupos en Santa Cruz",
+          "description": "Vivir Limpios y consultas: 60806082. Valor para Cambiar: 77846469.\nEl directorio oficial publica reuniones presenciales gratuitas en la capilla Nuestra Señora del Rosario, Centro Eben Ezer y calle Charcas 170. Confirma la reunión del día. NA no es atención médica ni un centro residencial.\nReuniones y contactos de NA Bolivia",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Vivir Limpios y consultas:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "60806082",
-                  "href": "tel:+59160806082"
-                },
-                {
-                  "text": ". "
-                },
-                {
-                  "text": "Valor para Cambiar:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "77846469",
-                  "href": "tel:+59177846469"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "El directorio oficial publica reuniones presenciales gratuitas en la capilla Nuestra Señora del Rosario, Centro Eben Ezer y calle Charcas 170. Confirma la reunión del día. NA no es atención médica ni un centro residencial."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Reuniones y contactos de NA Bolivia",
-                  "href": "https://www.narcoticosanonimosbolivia.org/reuniones-y-contactos/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+59160806082",
+          "website": "https://www.narcoticosanonimosbolivia.org/reuniones-y-contactos/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "al-anon-familiares-y-amistades",
-          "name": "Al-Anon — familiares y amistades",
+          "title": "Al-Anon — familiares y amistades",
+          "description": "Distrito Santa Cruz: 79879794.\nPublica grupos para personas afectadas por el consumo de alcohol de alguien cercano, con reuniones en calle Abuná y Moxos, la parroquia Sagrada Familia y Villa 1.º de Mayo. Confirma dirección y hora antes de ir.\nGrupos oficiales de Al-Anon",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Distrito Santa Cruz:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "79879794",
-                  "href": "tel:+59179879794"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Publica grupos para personas afectadas por el consumo de alcohol de alguien cercano, con reuniones en calle Abuná y Moxos, la parroquia Sagrada Familia y Villa 1.º de Mayo. Confirma dirección y hora antes de ir."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Grupos oficiales de Al-Anon",
-                  "href": "https://alanon-bolivia.org/grupos-al-anon/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+59179879794",
+          "website": "https://alanon-bolivia.org/grupos-al-anon/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "centro-ana-medina-consulta-municipal",
-          "name": "Centro Ana Medina — consulta municipal",
+          "title": "Centro Ana Medina — consulta municipal",
+          "description": "El municipio documenta un área de rehabilitación en este centro. No se encontró una ficha pública actual con acceso, duración o coste. Llama al 800 12 5700 y pide evaluación o derivación; no acudas esperando internación inmediata.",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "El municipio documenta un área de rehabilitación en este centro. No se encontró una ficha pública actual con acceso, duración o coste. Llama al "
-                },
-                {
-                  "text": "800 12 5700",
-                  "href": "tel:800125700"
-                },
-                {
-                  "text": " y pide evaluación o derivación; no acudas esperando internación inmediata."
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "800125700",
+          "website": "",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "antes-de-aceptar-un-centro-residencial",
-          "name": "Antes de aceptar un centro residencial",
+          "title": "Antes de aceptar un centro residencial",
+          "description": "Pregunta quién lo autoriza, qué personal clínico trabaja allí, coste total, duración, reglas de salida, medicación y contacto familiar. No entregues documentos originales ni aceptes encierro, violencia, humillación o trabajo forzado como tratamiento.",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Pregunta quién lo autoriza, qué personal clínico trabaja allí, coste total, duración, reglas de salida, medicación y contacto familiar. No entregues documentos originales ni aceptes encierro, violencia, humillación o trabajo forzado como tratamiento."
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "",
+          "hours": "",
+          "how_to_access": ""
+        }
+      ]
+    },
+    {
+      "id": "public-facilities",
+      "title": "Public toilets and day facilities",
+      "entries": []
+    },
+    {
+      "id": "phone-internet",
+      "title": "Phone charging and internet",
+      "entries": []
+    },
+    {
+      "id": "transport",
+      "title": "Transporte y aeropuerto",
+      "entries": [
+        {
+          "id": "terminal-bimodal",
+          "title": "Terminal Bimodal",
+          "description": "Compra solo en ventanillas identificadas. Confirma destino, hora, empresa, andén, equipaje y precio completo. No entregues la cédula original como garantía y conserva el billete.",
+          "last_verified": "2026-11-12",
+          "address": "Dirección: avenida Intermodal s/n, entre avenida Tres Pasos al Frente y avenida Brasil",
+          "phone": "",
+          "website": "",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "reclamos-de-transporte-att",
+          "title": "Reclamos de transporte — ATT",
+          "description": "Línea gratuita: 800 10 6000. La ATT publica atención al usuario en la Terminal Bimodal y recibe consultas o reclamos sobre transporte regulado.\nAutoridad de Regulación y Fiscalización de Telecomunicaciones y Transportes",
+          "last_verified": "2026-11-12",
+          "address": "",
+          "phone": "800106000",
+          "website": "https://www.att.gob.bo/",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "aeropuerto-internacional-viru-viru-transporte-publico",
+          "title": "Aeropuerto Internacional Viru Viru — transporte público",
+          "description": "La ATT mantiene una herramienta oficial con rutas de transporte público desde y hacia Viru Viru. Consulta allí antes de viajar porque recorridos, paradas y tarifas pueden cambiar.\nRutas oficiales al aeropuerto",
+          "last_verified": "2026-11-12",
+          "address": "",
+          "phone": "",
+          "website": "https://mivuelo.att.gob.bo/rutas.php",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "migracion-en-viru-viru",
+          "title": "Migración en Viru Viru",
+          "description": "Teléfono publicado: 3 385000. Para problemas migratorios en el aeropuerto. Para trámites ordinarios usa la oficina de calle Quijarro y confirma antes de trasladarte.",
+          "last_verified": "2026-11-12",
+          "address": "",
+          "phone": "+59133385000",
+          "website": "",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "viajar-con-poco-dinero-y-seguridad",
+          "title": "Viajar con poco dinero y seguridad",
+          "description": "Pregunta el precio antes de subir y evita vehículos sin identificación. No aceptes trasladar paquetes ajenos. Si necesitas viajar por protección, salud o reunificación familiar, pide evaluación social; ninguna oficina garantiza pasaje gratuito.",
+          "last_verified": "2026-11-12",
+          "address": "",
+          "phone": "",
+          "website": "",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "si-estas-varado",
+          "title": "Si estás varado",
+          "description": "Si eres migrante llama a la Casa Cardenal Julio Terrazas al 3 3257468. Si existe peligro o un problema de salud, usa 110 o 160. Dormir en una terminal o aeropuerto no equivale a tener alojamiento seguro.",
+          "last_verified": "2026-11-12",
+          "address": "",
+          "phone": "+59133257468",
+          "website": "",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
       "id": "benefits",
-      "title": "8. Ayudas sociales y vivienda",
-      "items": [
+      "title": "Ayudas sociales y vivienda",
+      "entries": [
         {
-          "type": "resource",
           "id": "secretaria-municipal-de-desarrollo-humano",
-          "name": "Secretaría Municipal de Desarrollo Humano",
+          "title": "Secretaría Municipal de Desarrollo Humano",
+          "description": "Pide evaluación social y la oficina que corresponde a situación de calle, niñez, violencia, vejez o discapacidad. Explica vivienda, salud, documentos e ingresos. La entrevista no garantiza dinero, alimentos ni vivienda.\nAlcaldía de Santa Cruz de la Sierra",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Punto inicial:",
-                  "strong": true
-                },
-                {
-                  "text": " Alcaldía, Plaza 24 de Septiembre, acera norte, calle 24 de Septiembre esquina Bolívar n.º 101"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Pide evaluación social y la oficina que corresponde a situación de calle, niñez, violencia, vejez o discapacidad. Explica vivienda, salud, documentos e ingresos. La entrevista no garantiza dinero, alimentos ni vivienda."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Alcaldía de Santa Cruz de la Sierra",
-                  "href": "https://www.gmsantacruz.gob.bo/"
-                }
-              ]
-            }
-          ]
+          "address": "Punto inicial: Alcaldía, Plaza 24 de Septiembre, acera norte, calle 24 de Septiembre esquina Bolívar n.º 101",
+          "phone": "",
+          "website": "https://www.gmsantacruz.gob.bo/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "linea-municipal-para-personas-mayores-y-con-discapacidad",
-          "name": "Línea municipal para personas mayores y con discapacidad",
+          "title": "Línea municipal para personas mayores y con discapacidad",
+          "description": "Línea gratuita: 800 12 1111. La guía municipal publica atención, apoyo en emergencias de salud, restitución o búsqueda familiar y coordinación con la Casa del Migrante para personas extranjeras mayores o con discapacidad.\nGuía de atención municipal",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Línea gratuita:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "800 12 1111",
-                  "href": "tel:800121111"
-                },
-                {
-                  "text": ". La guía municipal publica atención, apoyo en emergencias de salud, restitución o búsqueda familiar y coordinación con la Casa del Migrante para personas extranjeras mayores o con discapacidad."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Guía de atención municipal",
-                  "href": "https://www.gmsantacruz.gob.bo/Guia-Atencion-Migrante/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "800121111",
+          "website": "https://www.gmsantacruz.gob.bo/Guia-Atencion-Migrante/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "centro-municipal-del-adulto-mayor",
-          "name": "Centro Municipal del Adulto Mayor",
+          "title": "Centro Municipal del Adulto Mayor",
+          "description": "El trámite municipal indica acceso sin requisito y programas para reducir violencia y abandono. Pregunta por comedor, protección, actividades y derivación social. Confirma el punto exacto antes de ir.\nFicha municipal",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Ubicación publicada:",
-                  "strong": true
-                },
-                {
-                  "text": " entre 3.er y 4.º anillo de las radiales 26 y 27, barrio Belén, calle Las Liras"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "El trámite municipal indica acceso sin requisito y programas para reducir violencia y abandono. Pregunta por comedor, protección, actividades y derivación social. Confirma el punto exacto antes de ir."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ficha municipal",
-                  "href": "https://www.gmsantacruz.gob.bo/Tramites-Municipales/Tramites-de-la-Secretaria-Municipal-de-Desarrollo-Humano/Tramite/?id=171"
-                }
-              ]
-            }
-          ]
+          "address": "Ubicación publicada: entre 3.er y 4.º anillo de las radiales 26 y 27, barrio Belén, calle Las Liras",
+          "phone": "",
+          "website": "https://www.gmsantacruz.gob.bo/Tramites-Municipales/Tramites-de-la-Secretaria-Municipal-de-Desarrollo-Humano/Tramite/?id=171",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "renta-dignidad",
-          "name": "Renta Dignidad",
+          "title": "Renta Dignidad",
+          "description": "Línea gratuita: 800 10 1610. WhatsApp: 67195524.\nBeneficio nacional para personas bolivianas de 60 años o más que cumplen los requisitos. En Santa Cruz hay puntos en el 2.º y 3.er anillo y en Plan 3000. Llama para confirmar registro, oficina, horario y documentos. No pagues a un gestor.\nRequisitos oficiales",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Línea gratuita:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "800 10 1610",
-                  "href": "tel:800101610"
-                },
-                {
-                  "text": ". "
-                },
-                {
-                  "text": "WhatsApp:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "67195524",
-                  "href": "tel:+59167195524"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Beneficio nacional para personas bolivianas de 60 años o más que cumplen los requisitos. En Santa Cruz hay puntos en el 2.º y 3.er anillo y en Plan 3000. Llama para confirmar registro, oficina, horario y documentos. No pagues a un gestor."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Requisitos oficiales",
-                  "href": "https://gestora.bo/rentadignidad/Requisitos"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "800101610",
+          "website": "https://gestora.bo/rentadignidad/Requisitos",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "vivienda-social",
-          "name": "Vivienda social",
+          "title": "Vivienda social",
+          "description": "No se encontró un programa que entregue vivienda inmediata a cualquier persona sin hogar. Pide evaluación municipal y pregunta por requisitos de programas públicos vigentes. Desconfía de quien cobre por asegurar un lote, alquiler, bono o vivienda.",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "No se encontró un programa que entregue vivienda inmediata a cualquier persona sin hogar. Pide evaluación municipal y pregunta por requisitos de programas públicos vigentes. Desconfía de quien cobre por asegurar un lote, alquiler, bono o vivienda."
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "prepara-una-carpeta-basica",
-          "name": "Prepara una carpeta básica",
+          "title": "Prepara una carpeta básica",
+          "description": "Si puedes, reúne copia de cédula, certificado de nacimiento, informes médicos, constancia de discapacidad, datos familiares y comprobantes de trámite. Si no tienes documentos, pide orientación en SERECÍ, SEGIP o Defensoría del Pueblo.",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Si puedes, reúne copia de cédula, certificado de nacimiento, informes médicos, constancia de discapacidad, datos familiares y comprobantes de trámite. Si no tienes documentos, pide orientación en SERECÍ, SEGIP o Defensoría del Pueblo."
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
-      "id": "jobs",
-      "title": "9. Trabajo y capacitación",
-      "items": [
+      "id": "employment",
+      "title": "Trabajo y capacitación",
+      "entries": [
         {
-          "type": "resource",
           "id": "ministerio-de-trabajo-jefatura-departamental-santa-cruz",
-          "name": "Ministerio de Trabajo — Jefatura Departamental Santa Cruz",
+          "title": "Ministerio de Trabajo — Jefatura Departamental Santa Cruz",
+          "description": "Teléfonos: 3 343199, 3 343906 y 3 390604.\nPregunta por orientación laboral, bolsa de trabajo, capacitación, denuncia de explotación y derechos laborales. Confirma horario y documentos. El registro no garantiza empleo.\nDirectorio oficial del Ministerio",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Dirección:",
-                  "strong": true
-                },
-                {
-                  "text": " calle Quijarro n.º 72, entre Bolívar y Sucre, al lado de Migración"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Teléfonos:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "3 343199",
-                  "href": "tel:+59133343199"
-                },
-                {
-                  "text": ", "
-                },
-                {
-                  "text": "3 343906",
-                  "href": "tel:+59133343906"
-                },
-                {
-                  "text": " y "
-                },
-                {
-                  "text": "3 390604",
-                  "href": "tel:+59133390604"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Pregunta por orientación laboral, bolsa de trabajo, capacitación, denuncia de explotación y derechos laborales. Confirma horario y documentos. El registro no garantiza empleo."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Directorio oficial del Ministerio",
-                  "href": "https://mintrabajo.gob.bo/index.php/lista-direcciones-page/"
-                }
-              ]
-            }
-          ]
+          "address": "Dirección: calle Quijarro n.º 72, entre Bolívar y Sucre, al lado de Migración",
+          "phone": "+59133343199",
+          "website": "https://mintrabajo.gob.bo/index.php/lista-direcciones-page/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "servicio-publico-de-empleo",
-          "name": "Servicio Público de Empleo",
+          "title": "Servicio Público de Empleo",
+          "description": "El Ministerio mantiene servicios de intermediación y orientación laboral. Pregunta en la Jefatura Departamental qué plataforma o programa está activo para personas que buscan trabajo y si existen cursos o apoyo para preparar el currículum.\nMinisterio de Trabajo",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "El Ministerio mantiene servicios de intermediación y orientación laboral. Pregunta en la Jefatura Departamental qué plataforma o programa está activo para personas que buscan trabajo y si existen cursos o apoyo para preparar el currículum."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ministerio de Trabajo",
-                  "href": "https://mintrabajo.gob.bo/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://mintrabajo.gob.bo/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "bibliotecas-municipales-curriculum-e-internet",
-          "name": "Bibliotecas municipales — currículum e internet",
+          "title": "Bibliotecas municipales — currículum e internet",
+          "description": "Consulta la sede más cercana y pregunta por computadora e internet. Incluye en el currículum nombre, teléfono, zona, experiencia y disponibilidad. No publiques número completo de cédula, lugar donde duermes, contraseñas ni datos bancarios.\nRed Municipal de Bibliotecas",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Consulta la sede más cercana y pregunta por computadora e internet. Incluye en el currículum nombre, teléfono, zona, experiencia y disponibilidad. No publiques número completo de cédula, lugar donde duermes, contraseñas ni datos bancarios."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Red Municipal de Bibliotecas",
-                  "href": "https://leamospuej.gmsantacruz.gob.bo/bibliotecas.php"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://leamospuej.gmsantacruz.gob.bo/bibliotecas.php",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "pastoral-de-movilidad-humana-formacion-para-migrantes",
-          "name": "Pastoral de Movilidad Humana — formación para migrantes",
+          "title": "Pastoral de Movilidad Humana — formación para migrantes",
+          "description": "PASOC publica talleres de formación y emprendimiento, además de orientación legal y social para personas migrantes y refugiadas. Escribe al pmh-santacruz@hotmail.com o llama al 3 3257468 para conocer convocatorias actuales. — mailto:pmh-santacruz@hotmail.com",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "PASOC publica talleres de formación y emprendimiento, además de orientación legal y social para personas migrantes y refugiadas. Escribe al "
-                },
-                {
-                  "text": "pmh-santacruz@hotmail.com",
-                  "href": "mailto:pmh-santacruz@hotmail.com"
-                },
-                {
-                  "text": " o llama al "
-                },
-                {
-                  "text": "3 3257468",
-                  "href": "tel:+59133257468"
-                },
-                {
-                  "text": " para conocer convocatorias actuales."
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+59133257468",
+          "website": "",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "portales-de-empleo",
-          "name": "Portales de empleo",
+          "title": "Portales de empleo",
+          "description": "Busca también en portales conocidos como Computrabajo Bolivia y Trabajópolis, filtrando por Santa Cruz de la Sierra. Comprueba la empresa en su web y dirección real. Un anuncio en internet no es garantía de legitimidad.\nComputrabajo Bolivia | Trabajópolis — https://www.trabajopolis.bo/",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Busca también en portales conocidos como Computrabajo Bolivia y Trabajópolis, filtrando por Santa Cruz de la Sierra. Comprueba la empresa en su web y dirección real. Un anuncio en internet no es garantía de legitimidad."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Computrabajo Bolivia",
-                  "href": "https://bo.computrabajo.com/"
-                },
-                {
-                  "text": " | "
-                },
-                {
-                  "text": "Trabajópolis",
-                  "href": "https://www.trabajopolis.bo/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://bo.computrabajo.com/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "trabajo-informal-y-pago-diario",
-          "name": "Trabajo informal y pago diario",
+          "title": "Trabajo informal y pago diario",
+          "description": "Antes de empezar, acuerda por escrito o mensaje tarea, lugar, horario, importe y momento de pago. Comparte la ubicación con alguien de confianza. No aceptes trasladar paquetes cerrados, cruzar fronteras para otra persona ni dejar tu cédula como garantía.",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Antes de empezar, acuerda por escrito o mensaje tarea, lugar, horario, importe y momento de pago. Comparte la ubicación con alguien de confianza. No aceptes trasladar paquetes cerrados, cruzar fronteras para otra persona ni dejar tu cédula como garantía."
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "evita-estafas-y-explotacion",
-          "name": "Evita estafas y explotación",
+          "title": "Evita estafas y explotación",
+          "description": "No pagues por una entrevista, uniforme, curso obligatorio o reserva de puesto sin contrato verificable. Confirma el empleador, el domicilio y quién pagará. Ante retención de documentos, amenazas o trabajo forzado, llama al 110 o pide apoyo legal.",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "No pagues por una entrevista, uniforme, curso obligatorio o reserva de puesto sin contrato verificable. Confirma el empleador, el domicilio y quién pagará. Ante retención de documentos, amenazas o trabajo forzado, llama al 110 o pide apoyo legal."
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "documents",
-      "title": "10. Documentos y teléfono",
-      "items": [
-        {
-          "type": "resource",
-          "id": "sereci-registro-civil",
-          "name": "SERECÍ — registro civil",
-          "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Oficina departamental publicada:",
-                  "strong": true
-                },
-                {
-                  "text": " 4.º anillo esquina Radial 27, zona norte"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Teléfono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "3 338600",
-                  "href": "tel:+59133338600"
-                },
-                {
-                  "text": ". "
-                },
-                {
-                  "text": "Correo:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "sereci.santacruz@oep.org.bo",
-                  "href": "mailto:sereci.santacruz@oep.org.bo"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Para certificados y trámites de nacimiento, matrimonio y defunción. Confirma la dirección actual, cita, horario, tasa y requisitos; el OEP también publica oficinas desconcentradas."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Servicios de registro civil",
-                  "href": "https://web.oep.org.bo/registro-civico/"
-                },
-                {
-                  "text": " | "
-                },
-                {
-                  "text": "Directorio de oficinas de Santa Cruz",
-                  "href": "https://www.oep.org.bo/wp-content/uploads/2023/09/Dir_Sereci-SANTACRUZ.pdf"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "segip-cedula-de-identidad",
-          "name": "SEGIP — cédula de identidad",
-          "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Oficina central publicada en 2025:",
-                  "strong": true
-                },
-                {
-                  "text": " Centro Comercial Ciudad Indana, 3.er anillo, entre avenida Piraí y Radial 19"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Línea nacional publicada:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "800 10 1102",
-                  "href": "tel:800101102"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Consulta la oficina, horario, tasa y requisitos actuales. También existe una oficina del Distrito 5 en avenida 2 de Agosto esquina Saint Exupéry. No pagues a un intermediario y exige recibo oficial."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "SEGIP",
-                  "href": "https://www.segip.gob.bo/"
-                },
-                {
-                  "text": " | "
-                },
-                {
-                  "text": "Ficha estatal",
-                  "href": "https://www.gob.bo/entidades/servicio-general-de-identificacion-personal"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "defensoria-del-pueblo-problemas-de-identidad-o-acceso",
-          "name": "Defensoría del Pueblo — problemas de identidad o acceso",
-          "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Dirección:",
-                  "strong": true
-                },
-                {
-                  "text": " calle Andrés Ibáñez n.º 241, entre 21 de Mayo y España"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Teléfonos:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "3 3111695",
-                  "href": "tel:+59133111695"
-                },
-                {
-                  "text": " y "
-                },
-                {
-                  "text": "70982840",
-                  "href": "tel:+59170982840"
-                },
-                {
-                  "text": ". "
-                },
-                {
-                  "text": "Línea nacional:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "800 10 8004",
-                  "href": "tel:800108004"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Pide orientación si una autoridad niega un trámite, careces de registro o existe discriminación. Cada caso requiere evaluación."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Oficina Santa Cruz",
-                  "href": "https://www.defensoria.gob.bo/oficinas?oficina_id=6"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "pastoral-de-movilidad-humana-documentacion-migratoria",
-          "name": "Pastoral de Movilidad Humana — documentación migratoria",
-          "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Publica orientación jurídica y social para migrantes y refugiados. Llama al "
-                },
-                {
-                  "text": "3 3257468",
-                  "href": "tel:+59133257468"
-                },
-                {
-                  "text": " o escribe al "
-                },
-                {
-                  "text": "pmh-santacruz@hotmail.com",
-                  "href": "mailto:pmh-santacruz@hotmail.com"
-                },
-                {
-                  "text": " y pregunta qué copias llevar."
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "copias-y-seguridad",
-          "name": "Copias y seguridad",
-          "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Fotografía ambos lados de cada documento y guarda una copia con una persona de confianza o en una cuenta recuperable. En una copia para un trámite, escribe la finalidad y fecha cuando sea aceptado. Nunca compartas códigos de verificación."
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "si-no-tienes-telefono",
-          "name": "Si no tienes teléfono",
-          "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Pide al trabajador social que anote un número institucional solo con autorización. Pregunta en biblioteca, parroquia u oficina pública si puedes hacer una llamada breve. No uses el teléfono de un desconocido para banca o cuentas sensibles."
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
       "id": "legal",
-      "title": "11. Ayuda legal, migración y refugio",
-      "items": [
+      "title": "Ayuda legal, migración y refugio",
+      "entries": [
         {
-          "type": "resource",
           "id": "defensoria-del-pueblo-delegacion-santa-cruz",
-          "name": "Defensoría del Pueblo — Delegación Santa Cruz",
+          "title": "Defensoría del Pueblo — Delegación Santa Cruz",
+          "description": "Teléfonos: 3 3111695, 70982840 y línea gratuita 800 10 8004.\nPara vulneración de derechos por una institución pública, discriminación, identidad o acceso a servicios. No reemplaza a la Policía en una emergencia.\nContactos oficiales",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Dirección:",
-                  "strong": true
-                },
-                {
-                  "text": " calle Andrés Ibáñez n.º 241, entre 21 de Mayo y España"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Teléfonos:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "3 3111695",
-                  "href": "tel:+59133111695"
-                },
-                {
-                  "text": ", "
-                },
-                {
-                  "text": "70982840",
-                  "href": "tel:+59170982840"
-                },
-                {
-                  "text": " y línea gratuita "
-                },
-                {
-                  "text": "800 10 8004",
-                  "href": "tel:800108004"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Para vulneración de derechos por una institución pública, discriminación, identidad o acceso a servicios. No reemplaza a la Policía en una emergencia."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Contactos oficiales",
-                  "href": "https://www.defensoria.gob.bo/contenido/preguntas-frecuentes"
-                }
-              ]
-            }
-          ]
+          "address": "Dirección: calle Andrés Ibáñez n.º 241, entre 21 de Mayo y España",
+          "phone": "+59133111695",
+          "website": "https://www.defensoria.gob.bo/contenido/preguntas-frecuentes",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "sepdep-defensa-penal-publica",
-          "name": "SEPDEP — defensa penal pública",
+          "title": "SEPDEP — defensa penal pública",
+          "description": "Teléfono: 3 3122444.\nDefensa penal gratuita para personas investigadas, imputadas o acusadas que no pueden pagar abogado, conforme a evaluación. Di si existe detención, audiencia o plazo próximo.\nDirectorio publicado por el Ministerio de Justicia",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Dirección publicada:",
-                  "strong": true
-                },
-                {
-                  "text": " calle Aroma n.º 740, entre Celso Castedo y avenida Uruguay, 1.er anillo"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Teléfono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "3 3122444",
-                  "href": "tel:+59133122444"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Defensa penal gratuita para personas investigadas, imputadas o acusadas que no pueden pagar abogado, conforme a evaluación. Di si existe detención, audiencia o plazo próximo."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Directorio publicado por el Ministerio de Justicia",
-                  "href": "https://www.justicia.gob.bo/cms/files/guiDirecciones2022.pdf"
-                }
-              ]
-            }
-          ]
+          "address": "Dirección publicada: calle Aroma n.º 740, entre Celso Castedo y avenida Uruguay, 1.er anillo",
+          "phone": "+59133122444",
+          "website": "https://www.justicia.gob.bo/cms/files/guiDirecciones2022.pdf",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "sepdavi-asistencia-a-victimas",
-          "name": "SEPDAVI — asistencia a víctimas",
+          "title": "SEPDAVI — asistencia a víctimas",
+          "description": "Teléfono: 61014566. Brinda asistencia jurídica y apoyo a víctimas de delitos según evaluación. Confirma oficina y horario antes de ir.",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Dirección publicada:",
-                  "strong": true
-                },
-                {
-                  "text": " calle Aroma n.º 740, entre Celso Castedo y avenida Uruguay, 1.er anillo"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Teléfono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "61014566",
-                  "href": "tel:+59161014566"
-                },
-                {
-                  "text": ". Brinda asistencia jurídica y apoyo a víctimas de delitos según evaluación. Confirma oficina y horario antes de ir."
-                }
-              ]
-            }
-          ]
+          "address": "Dirección publicada: calle Aroma n.º 740, entre Celso Castedo y avenida Uruguay, 1.er anillo",
+          "phone": "+59161014566",
+          "website": "",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "direccion-general-de-migracion-santa-cruz",
-          "name": "Dirección General de Migración — Santa Cruz",
+          "title": "Dirección General de Migración — Santa Cruz",
+          "description": "Teléfono publicado: 3 519579. Para regularización, permanencia, salida, pasaporte y otros trámites migratorios. Confirma requisitos y tasas en el sitio oficial; no uses gestores que prometan resultados.\nDirección General de Migración | Dirección estatal publicada — https://www.gob.bo/entidades/ministerio-de-gobierno",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Dirección:",
-                  "strong": true
-                },
-                {
-                  "text": " calle Quijarro n.º 10, entre Sucre y Bolívar, Edificio Guapay, pisos 1 y 3"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Teléfono publicado:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "3 519579",
-                  "href": "tel:+59133519579"
-                },
-                {
-                  "text": ". Para regularización, permanencia, salida, pasaporte y otros trámites migratorios. Confirma requisitos y tasas en el sitio oficial; no uses gestores que prometan resultados."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Dirección General de Migración",
-                  "href": "https://migracion.gob.bo/"
-                },
-                {
-                  "text": " | "
-                },
-                {
-                  "text": "Dirección estatal publicada",
-                  "href": "https://www.gob.bo/entidades/ministerio-de-gobierno"
-                }
-              ]
-            }
-          ]
+          "address": "Dirección: calle Quijarro n.º 10, entre Sucre y Bolívar, Edificio Guapay, pisos 1 y 3",
+          "phone": "+59133519579",
+          "website": "https://migracion.gob.bo/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "casa-cardenal-julio-terrazas-apoyo-legal-y-social",
-          "name": "Casa Cardenal Julio Terrazas — apoyo legal y social",
+          "title": "Casa Cardenal Julio Terrazas — apoyo legal y social",
+          "description": "Teléfono: 3 3257468. WhatsApp: 71655688.\nOrienta a personas migrantes, refugiadas y víctimas de trata, y puede acompañar trámites según el caso. Confirma cita, idioma y documentación.",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Teléfono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "3 3257468",
-                  "href": "tel:+59133257468"
-                },
-                {
-                  "text": ". "
-                },
-                {
-                  "text": "WhatsApp:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "71655688",
-                  "href": "tel:+59171655688"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Orienta a personas migrantes, refugiadas y víctimas de trata, y puede acompañar trámites según el caso. Confirma cita, idioma y documentación."
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+59133257468",
+          "website": "",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "solicitar-refugio-en-bolivia",
-          "name": "Solicitar refugio en Bolivia",
+          "title": "Solicitar refugio en Bolivia",
+          "description": "Fuera de La Paz, ACNUR indica que la solicitud puede presentarse en la oficina de Migración más cercana. El trámite es personal y gratuito; no necesitas gestor. Explica si no tienes documento y conserva copia de lo entregado.\nProceso oficial explicado por ACNUR",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Fuera de La Paz, ACNUR indica que la solicitud puede presentarse en la oficina de Migración más cercana. El trámite es personal y gratuito; no necesitas gestor. Explica si no tienes documento y conserva copia de lo entregado."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Proceso oficial explicado por ACNUR",
-                  "href": "https://help.unhcr.org/bolivia/como-solicitar-la-condicion-de-refugiado/proceso-de-solicitud/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://help.unhcr.org/bolivia/como-solicitar-la-condicion-de-refugiado/proceso-de-solicitud/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "si-temes-trata-explotacion-o-retencion-de-documentos",
-          "name": "Si temes trata, explotación o retención de documentos",
+          "title": "Si temes trata, explotación o retención de documentos",
+          "description": "En peligro inmediato llama al 110. No avises a la persona que te controla si eso aumenta el riesgo. Busca un lugar público y pide apoyo a Policía, Defensoría del Pueblo, Casa de la Mujer o Pastoral de Movilidad Humana.",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "En peligro inmediato llama al 110. No avises a la persona que te controla si eso aumenta el riesgo. Busca un lugar público y pide apoyo a Policía, Defensoría del Pueblo, Casa de la Mujer o Pastoral de Movilidad Humana."
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "antes-de-firmar-o-pagar",
-          "name": "Antes de firmar o pagar",
+          "title": "Antes de firmar o pagar",
+          "description": "Pide copia legible, nombre de la institución, coste total y recibo. No firmes hojas en blanco ni entregues pasaporte o cédula original como garantía. Un servicio de ACNUR o sus entidades asociadas no cobra por la ayuda.",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Pide copia legible, nombre de la institución, coste total y recibo. No firmes hojas en blanco ni entregues pasaporte o cédula original como garantía. Un servicio de ACNUR o sus entidades asociadas no cobra por la ayuda."
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
-      "id": "protection",
-      "title": "12. Mujeres, niñez y personas LGBTI+",
-      "items": [
+      "id": "documents",
+      "title": "Documentos y teléfono",
+      "entries": [
         {
-          "type": "resource",
+          "id": "sereci-registro-civil",
+          "title": "SERECÍ — registro civil",
+          "description": "Teléfono: 3 338600. Correo: sereci.santacruz@oep.org.bo. — mailto:sereci.santacruz@oep.org.bo\nPara certificados y trámites de nacimiento, matrimonio y defunción. Confirma la dirección actual, cita, horario, tasa y requisitos; el OEP también publica oficinas desconcentradas.\nServicios de registro civil | Directorio de oficinas de Santa Cruz — https://www.oep.org.bo/wp-content/uploads/2023/09/Dir_Sereci-SANTACRUZ.pdf",
+          "last_verified": "2026-11-12",
+          "address": "Oficina departamental publicada: 4.º anillo esquina Radial 27, zona norte",
+          "phone": "+59133338600",
+          "website": "https://web.oep.org.bo/registro-civico/",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "segip-cedula-de-identidad",
+          "title": "SEGIP — cédula de identidad",
+          "description": "Línea nacional publicada: 800 10 1102.\nConsulta la oficina, horario, tasa y requisitos actuales. También existe una oficina del Distrito 5 en avenida 2 de Agosto esquina Saint Exupéry. No pagues a un intermediario y exige recibo oficial.\nSEGIP | Ficha estatal — https://www.gob.bo/entidades/servicio-general-de-identificacion-personal",
+          "last_verified": "2026-11-12",
+          "address": "Oficina central publicada en 2025: Centro Comercial Ciudad Indana, 3.er anillo, entre avenida Piraí y Radial 19",
+          "phone": "800101102",
+          "website": "https://www.segip.gob.bo/",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "defensoria-del-pueblo-problemas-de-identidad-o-acceso",
+          "title": "Defensoría del Pueblo — problemas de identidad o acceso",
+          "description": "Teléfonos: 3 3111695 y 70982840. Línea nacional: 800 10 8004.\nPide orientación si una autoridad niega un trámite, careces de registro o existe discriminación. Cada caso requiere evaluación.\nOficina Santa Cruz",
+          "last_verified": "2026-11-12",
+          "address": "Dirección: calle Andrés Ibáñez n.º 241, entre 21 de Mayo y España",
+          "phone": "+59133111695",
+          "website": "https://www.defensoria.gob.bo/oficinas?oficina_id=6",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "pastoral-de-movilidad-humana-documentacion-migratoria",
+          "title": "Pastoral de Movilidad Humana — documentación migratoria",
+          "description": "Publica orientación jurídica y social para migrantes y refugiados. Llama al 3 3257468 o escribe al pmh-santacruz@hotmail.com y pregunta qué copias llevar. — mailto:pmh-santacruz@hotmail.com",
+          "last_verified": "2026-11-12",
+          "address": "",
+          "phone": "+59133257468",
+          "website": "",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "copias-y-seguridad",
+          "title": "Copias y seguridad",
+          "description": "Fotografía ambos lados de cada documento y guarda una copia con una persona de confianza o en una cuenta recuperable. En una copia para un trámite, escribe la finalidad y fecha cuando sea aceptado. Nunca compartas códigos de verificación.",
+          "last_verified": "2026-11-12",
+          "address": "",
+          "phone": "",
+          "website": "",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "si-no-tienes-telefono",
+          "title": "Si no tienes teléfono",
+          "description": "Pide al trabajador social que anote un número institucional solo con autorización. Pregunta en biblioteca, parroquia u oficina pública si puedes hacer una llamada breve. No uses el teléfono de un desconocido para banca o cuentas sensibles.",
+          "last_verified": "2026-11-12",
+          "address": "",
+          "phone": "",
+          "website": "",
+          "hours": "",
+          "how_to_access": ""
+        }
+      ]
+    },
+    {
+      "id": "mail",
+      "title": "Mailing address",
+      "entries": []
+    },
+    {
+      "id": "storage",
+      "title": "Storage",
+      "entries": []
+    },
+    {
+      "id": "safety",
+      "title": "Mujeres, niñez y personas LGBTI+",
+      "entries": [
+        {
           "id": "felcv-violencia-contra-las-mujeres",
-          "name": "FELCV — violencia contra las mujeres",
+          "title": "FELCV — violencia contra las mujeres",
+          "description": "Línea gratuita: 800 14 0348. Contacto Santa Cruz publicado por la Policía: 72042264.\nPara denunciar violencia y pedir intervención policial. Si llamar pone en riesgo a la persona, busca una farmacia, hospital, negocio u oficina y pide que contacten al 110.\nDirectorio oficial de la FELCV",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Línea gratuita:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "800 14 0348",
-                  "href": "tel:800140348"
-                },
-                {
-                  "text": ". "
-                },
-                {
-                  "text": "Contacto Santa Cruz publicado por la Policía:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "72042264",
-                  "href": "tel:+59172042264"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Para denunciar violencia y pedir intervención policial. Si llamar pone en riesgo a la persona, busca una farmacia, hospital, negocio u oficina y pide que contacten al 110."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Directorio oficial de la FELCV",
-                  "href": "https://www.policia.bo/wp-content/uploads/2023/12/PORTAFOLIO-DE-SERVICIOS-OFICIAL-APROBADO-2023-ELVIN-1.pdf"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "800140348",
+          "website": "https://www.policia.bo/wp-content/uploads/2023/12/PORTAFOLIO-DE-SERVICIOS-OFICIAL-APROBADO-2023-ELVIN-1.pdf",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "defensoria-de-la-ninez-y-adolescencia-y-slim",
-          "name": "Defensoría de la Niñez y Adolescencia y SLIM",
+          "title": "Defensoría de la Niñez y Adolescencia y SLIM",
+          "description": "Línea municipal: 156. Violencia sexual: 3 335770.\nPara abandono, violencia, explotación o riesgo de una persona menor, y para orientación municipal ante violencia familiar o sexual. Pide el punto de atención más cercano. En peligro inmediato usa también el 110.\nAgenda municipal",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Línea municipal:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "156",
-                  "href": "tel:156"
-                },
-                {
-                  "text": ". "
-                },
-                {
-                  "text": "Violencia sexual:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "3 335770",
-                  "href": "tel:+59133335770"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Para abandono, violencia, explotación o riesgo de una persona menor, y para orientación municipal ante violencia familiar o sexual. Pide el punto de atención más cercano. En peligro inmediato usa también el 110."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Agenda municipal",
-                  "href": "https://www.gmsantacruz.gob.bo/Agenda-Telefonica/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "156",
+          "website": "https://www.gmsantacruz.gob.bo/Agenda-Telefonica/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "casa-de-la-mujer-orientacion-y-refugio",
-          "name": "Casa de la Mujer — orientación y refugio",
+          "title": "Casa de la Mujer — orientación y refugio",
+          "description": "WhatsApp: 62001850. Correo: administracion@casadelamujer.org.bo. — mailto:administracion@casadelamujer.org.bo\nAtención integral para mujeres, niñas, niños y adolescentes en situación de violencia y refugio confidencial abierto las 24 horas. La oficina administrativa atiende en horario laboral y no es la dirección del refugio.\nContacto actual",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Oficina administrativa:",
-                  "strong": true
-                },
-                {
-                  "text": " 3.er anillo interno, avenida Hernando Sanabria, frente al mercado 4 de Noviembre"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "WhatsApp:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "62001850",
-                  "href": "tel:+59162001850"
-                },
-                {
-                  "text": ". "
-                },
-                {
-                  "text": "Correo:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "administracion@casadelamujer.org.bo",
-                  "href": "mailto:administracion@casadelamujer.org.bo"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Atención integral para mujeres, niñas, niños y adolescentes en situación de violencia y refugio confidencial abierto las 24 horas. La oficina administrativa atiende en horario laboral y no es la dirección del refugio."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Contacto actual",
-                  "href": "https://casa-de-la-mujer--casa-de-la-mujer-bo.us-central1.hosted.app/contacto"
-                }
-              ]
-            }
-          ]
+          "address": "Oficina administrativa: 3.er anillo interno, avenida Hernando Sanabria, frente al mercado 4 de Noviembre",
+          "phone": "+59162001850",
+          "website": "https://casa-de-la-mujer--casa-de-la-mujer-bo.us-central1.hosted.app/contacto",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "casa-oikia-ninez-en-situacion-de-calle",
-          "name": "Casa Oikía — niñez en situación de calle",
+          "title": "Casa Oikía — niñez en situación de calle",
+          "description": "Correo: casaoikia@casaoikia.org. Centro de acogida, salud, alimentación y acompañamiento educativo para menores. Ante un caso urgente usa el 156 para activar protección; no traslades a un menor con una persona desconocida. — mailto:casaoikia@casaoikia.org\nContacto oficial",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Correo:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "casaoikia@casaoikia.org",
-                  "href": "mailto:casaoikia@casaoikia.org"
-                },
-                {
-                  "text": ". Centro de acogida, salud, alimentación y acompañamiento educativo para menores. Ante un caso urgente usa el 156 para activar protección; no traslades a un menor con una persona desconocida."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Contacto oficial",
-                  "href": "https://www.casaoikia.org/contacta-con-nosotros"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.casaoikia.org/contacta-con-nosotros",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "fundacion-igualdad-lgbt",
-          "name": "Fundación Igualdad LGBT",
+          "title": "Fundación Igualdad LGBT",
+          "description": "Teléfono: 3 3344611. Línea Santa Cruz: 69960757. Correo: info@igualdadlgbt.org. — mailto:info@igualdadlgbt.org\nOrganización de derechos humanos y servicios integrales para población LGBT+. Pregunta por orientación legal, salud o derivación. No se anuncia como albergue de acceso inmediato.\nContacto de Igualdad LGBT",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Dirección:",
-                  "strong": true
-                },
-                {
-                  "text": " calle Charcas n.º 170, casi esquina Murillo, casco viejo"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Teléfono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "3 3344611",
-                  "href": "tel:+59133344611"
-                },
-                {
-                  "text": ". "
-                },
-                {
-                  "text": "Línea Santa Cruz:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "69960757",
-                  "href": "tel:+59169960757"
-                },
-                {
-                  "text": ". "
-                },
-                {
-                  "text": "Correo:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "info@igualdadlgbt.org",
-                  "href": "mailto:info@igualdadlgbt.org"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Organización de derechos humanos y servicios integrales para población LGBT+. Pregunta por orientación legal, salud o derivación. No se anuncia como albergue de acceso inmediato."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Contacto de Igualdad LGBT",
-                  "href": "https://igualdadlgbt.org/contacto/"
-                }
-              ]
-            }
-          ]
+          "address": "Dirección: calle Charcas n.º 170, casi esquina Murillo, casco viejo",
+          "phone": "+59133344611",
+          "website": "https://igualdadlgbt.org/contacto/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "d-power-red-nuevo-comienzo",
-          "name": "D'Power — Red Nuevo Comienzo",
+          "title": "D'Power — Red Nuevo Comienzo",
+          "description": "Teléfono: 62007803. Correo: thepowerlgtb@gmail.com. — mailto:thepowerlgtb@gmail.com\nPublica acompañamiento, orientación y derivación para jóvenes y adolescentes LGBTI+, sus familias y personas aliadas. Pregunta qué apoyo está disponible; no promete vivienda inmediata.\nD'Power LGTBI+",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Teléfono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "62007803",
-                  "href": "tel:+59162007803"
-                },
-                {
-                  "text": ". "
-                },
-                {
-                  "text": "Correo:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "thepowerlgtb@gmail.com",
-                  "href": "mailto:thepowerlgtb@gmail.com"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Publica acompañamiento, orientación y derivación para jóvenes y adolescentes LGBTI+, sus familias y personas aliadas. Pregunta qué apoyo está disponible; no promete vivienda inmediata."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "D'Power LGTBI+",
-                  "href": "https://www.dpowerlgbti.com/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+59162007803",
+          "website": "https://www.dpowerlgbti.com/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "plan-de-seguridad",
-          "name": "Plan de seguridad",
+          "title": "Plan de seguridad",
+          "description": "Guarda copias de documentos, medicación, llaves y un teléfono de confianza. Acordad una palabra de emergencia. No publiques la ubicación del refugio ni confrontes a la persona agresora si eso aumenta el riesgo.",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Guarda copias de documentos, medicación, llaves y un teléfono de confianza. Acordad una palabra de emergencia. No publiques la ubicación del refugio ni confrontes a la persona agresora si eso aumenta el riesgo."
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
-      "id": "older-disabled",
-      "title": "13. Personas mayores y con discapacidad",
-      "items": [
+      "id": "specialist-support",
+      "title": "Personas mayores y con discapacidad",
+      "entries": [
         {
-          "type": "resource",
           "id": "linea-municipal-de-atencion",
-          "name": "Línea municipal de atención",
+          "title": "Línea municipal de atención",
+          "description": "Línea gratuita: 800 12 1111. Para personas mayores o con discapacidad que necesitan orientación, apoyo de emergencia, búsqueda familiar o coordinación social. Di si la persona no puede trasladarse.\nServicios descritos por el municipio",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Línea gratuita:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "800 12 1111",
-                  "href": "tel:800121111"
-                },
-                {
-                  "text": ". Para personas mayores o con discapacidad que necesitan orientación, apoyo de emergencia, búsqueda familiar o coordinación social. Di si la persona no puede trasladarse."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Servicios descritos por el municipio",
-                  "href": "https://www.gmsantacruz.gob.bo/Guia-Atencion-Migrante/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "800121111",
+          "website": "https://www.gmsantacruz.gob.bo/Guia-Atencion-Migrante/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "centro-municipal-del-adulto-mayor",
-          "name": "Centro Municipal del Adulto Mayor",
+          "title": "Centro Municipal del Adulto Mayor",
+          "description": "Atención sin requisito según la ficha municipal, con programas de derechos y prevención de abandono. Pregunta por protección, comedor y derivación.\nCentro del Adulto Mayor",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Ubicación publicada:",
-                  "strong": true
-                },
-                {
-                  "text": " entre 3.er y 4.º anillo de las radiales 26 y 27, barrio Belén, calle Las Liras"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Atención sin requisito según la ficha municipal, con programas de derechos y prevención de abandono. Pregunta por protección, comedor y derivación."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Centro del Adulto Mayor",
-                  "href": "https://www.gmsantacruz.gob.bo/Tramites-Municipales/Tramites-de-la-Secretaria-Municipal-de-Desarrollo-Humano/Tramite/?id=171"
-                }
-              ]
-            }
-          ]
+          "address": "Ubicación publicada: entre 3.er y 4.º anillo de las radiales 26 y 27, barrio Belén, calle Las Liras",
+          "phone": "",
+          "website": "https://www.gmsantacruz.gob.bo/Tramites-Municipales/Tramites-de-la-Secretaria-Municipal-de-Desarrollo-Humano/Tramite/?id=171",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "unidad-municipal-para-personas-con-discapacidad",
-          "name": "Unidad Municipal para Personas con Discapacidad",
+          "title": "Unidad Municipal para Personas con Discapacidad",
+          "description": "La ficha municipal publica atención gratuita y permanente sin requisito. Pregunta por orientación, actividades, registro y el punto exacto de atención.\nUnidad Municipal de Discapacidad",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Ubicación publicada:",
-                  "strong": true
-                },
-                {
-                  "text": " entre 3.er y 4.º anillo de las radiales 26 y 27, barrio Belén, calle Las Liras"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "La ficha municipal publica atención gratuita y permanente sin requisito. Pregunta por orientación, actividades, registro y el punto exacto de atención."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Unidad Municipal de Discapacidad",
-                  "href": "https://www.gmsantacruz.gob.bo/Tramites-Municipales/Tramites-de-la-Secretaria-Municipal-de-Desarrollo-Humano/Tramite/?id=170"
-                }
-              ]
-            }
-          ]
+          "address": "Ubicación publicada: entre 3.er y 4.º anillo de las radiales 26 y 27, barrio Belén, calle Las Liras",
+          "phone": "",
+          "website": "https://www.gmsantacruz.gob.bo/Tramites-Municipales/Tramites-de-la-Secretaria-Municipal-de-Desarrollo-Humano/Tramite/?id=170",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "calificacion-de-discapacidad",
-          "name": "Calificación de discapacidad",
+          "title": "Calificación de discapacidad",
+          "description": "El municipio publica puntos de calificación en los hospitales Bajío, Francés y Villa 1.º de Mayo y en los centros Virgen de Fátima y Willie Lemaitre. Solicita presencia de la persona, cédula, copias e informe médico actualizado, con requisitos adicionales según el caso.\nRequisitos de calificación",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "El municipio publica puntos de calificación en los hospitales Bajío, Francés y Villa 1.º de Mayo y en los centros Virgen de Fátima y Willie Lemaitre. Solicita presencia de la persona, cédula, copias e informe médico actualizado, con requisitos adicionales según el caso."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Requisitos de calificación",
-                  "href": "https://www.gmsantacruz.gob.bo/Tramites-Municipales/Tr%C3%A1mites-de-la-Secretaria-Municipal-de-Salud/Secretaria-Municipal-Salud/Tramite/?id=329"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.gmsantacruz.gob.bo/Tramites-Municipales/Tr%C3%A1mites-de-la-Secretaria-Municipal-de-Salud/Secretaria-Municipal-Salud/Tramite/?id=329",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "renta-dignidad",
-          "name": "Renta Dignidad",
+          "title": "Renta Dignidad",
+          "description": "Para personas bolivianas de 60 años o más que cumplen requisitos. Llama al 800 10 1610 o escribe al 67195524. No pagues a un gestor.",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Para personas bolivianas de 60 años o más que cumplen requisitos. Llama al "
-                },
-                {
-                  "text": "800 10 1610",
-                  "href": "tel:800101610"
-                },
-                {
-                  "text": " o escribe al "
-                },
-                {
-                  "text": "67195524",
-                  "href": "tel:+59167195524"
-                },
-                {
-                  "text": ". No pagues a un gestor."
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "800101610",
+          "website": "",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "al-pedir-ayuda",
-          "name": "Al pedir ayuda",
+          "title": "Al pedir ayuda",
+          "description": "Explica la limitación funcional, diagnóstico si existe, talla del equipo, medicación, si la persona puede trasladarse y quién la acompaña. Para peligro, violencia o abandono urgente llama al 156, 110 o 160.",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Explica la limitación funcional, diagnóstico si existe, talla del equipo, medicación, si la persona puede trasladarse y quién la acompaña. Para peligro, violencia o abandono urgente llama al 156, 110 o 160."
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
+    },
+    {
+      "id": "veterans",
+      "title": "Veterans support",
+      "entries": []
     },
     {
       "id": "pets",
-      "title": "14. Animales de compañía",
-      "items": [
+      "title": "Animales de compañía",
+      "entries": [
         {
-          "type": "resource",
           "id": "cemzoocruz-centro-de-albergue-temporal-para-canes-y-felinos",
-          "name": "CEMZOOCRUZ — Centro de Albergue Temporal para Canes y Felinos",
+          "title": "CEMZOOCRUZ — Centro de Albergue Temporal para Canes y Felinos",
+          "description": "Teléfono: 3 475779. Publica atención veterinaria, control de zoonosis, rescate y adopción según el caso. Llama para confirmar horario, coste y si puede recibir al animal.\nUbicación y servicios publicados por el municipio",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Ubicación publicada:",
-                  "strong": true
-                },
-                {
-                  "text": " 8.º anillo sobre El Trillo, una cuadra hacia poniente, detrás de Plaxburg"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Teléfono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "3 475779",
-                  "href": "tel:+59133475779"
-                },
-                {
-                  "text": ". Publica atención veterinaria, control de zoonosis, rescate y adopción según el caso. Llama para confirmar horario, coste y si puede recibir al animal."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ubicación y servicios publicados por el municipio",
-                  "href": "https://www.gmsantacruz.gob.bo/Noticias/Detalle/?id=181"
-                }
-              ]
-            }
-          ]
+          "address": "Ubicación publicada: 8.º anillo sobre El Trillo, una cuadra hacia poniente, detrás de Plaxburg",
+          "phone": "+59133475779",
+          "website": "https://www.gmsantacruz.gob.bo/Noticias/Detalle/?id=181",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "vacunacion-antirrabica",
-          "name": "Vacunación antirrábica",
+          "title": "Vacunación antirrábica",
+          "description": "El municipio indica vacunación contra la rabia en centros municipales de salud. Llama al centro más cercano para confirmar existencia, día y requisitos. Lleva al animal con correa o en transportadora cuando sea posible.",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "El municipio indica vacunación contra la rabia en centros municipales de salud. Llama al centro más cercano para confirmar existencia, día y requisitos. Lleva al animal con correa o en transportadora cuando sea posible."
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "si-el-animal-mordio-o-fue-mordido",
-          "name": "Si el animal mordió o fue mordido",
+          "title": "Si el animal mordió o fue mordido",
+          "description": "Lava la herida con abundante agua y jabón, busca atención médica y llama a CEMZOOCRUZ. No abandones al animal ni ocultes una posible exposición a rabia. En una herida grave llama al 160.",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Lava la herida con abundante agua y jabón, busca atención médica y llama a CEMZOOCRUZ. No abandones al animal ni ocultes una posible exposición a rabia. En una herida grave llama al 160."
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "antes-de-aceptar-albergue",
-          "name": "Antes de aceptar albergue",
+          "title": "Antes de aceptar albergue",
+          "description": "Di desde la primera llamada qué animal tienes, tamaño, estado de salud y si cuentas con correa o transportadora. Los albergues para personas no publican una política general de admisión de mascotas; confirma antes de ir.",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Di desde la primera llamada qué animal tienes, tamaño, estado de salud y si cuentas con correa o transportadora. Los albergues para personas no publican una política general de admisión de mascotas; confirma antes de ir."
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "no-abandones-al-animal-en-una-institucion",
-          "name": "No abandones al animal en una institución",
+          "title": "No abandones al animal en una institución",
+          "description": "Pregunta por custodia temporal o una red de acogida y deja datos de contacto. CEMZOOCRUZ no garantiza albergue inmediato para cualquier animal sano.",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Pregunta por custodia temporal o una red de acogida y deja datos de contacto. CEMZOOCRUZ no garantiza albergue inmediato para cualquier animal sano."
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
-      "id": "transport",
-      "title": "15. Transporte y aeropuerto",
-      "items": [
+      "id": "other",
+      "title": "Verificación y correcciones",
+      "entries": [
         {
-          "type": "resource",
-          "id": "terminal-bimodal",
-          "name": "Terminal Bimodal",
-          "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Dirección:",
-                  "strong": true
-                },
-                {
-                  "text": " avenida Intermodal s/n, entre avenida Tres Pasos al Frente y avenida Brasil"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Compra solo en ventanillas identificadas. Confirma destino, hora, empresa, andén, equipaje y precio completo. No entregues la cédula original como garantía y conserva el billete."
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "reclamos-de-transporte-att",
-          "name": "Reclamos de transporte — ATT",
-          "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Línea gratuita:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "800 10 6000",
-                  "href": "tel:800106000"
-                },
-                {
-                  "text": ". La ATT publica atención al usuario en la Terminal Bimodal y recibe consultas o reclamos sobre transporte regulado."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Autoridad de Regulación y Fiscalización de Telecomunicaciones y Transportes",
-                  "href": "https://www.att.gob.bo/"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "aeropuerto-internacional-viru-viru-transporte-publico",
-          "name": "Aeropuerto Internacional Viru Viru — transporte público",
-          "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "La ATT mantiene una herramienta oficial con rutas de transporte público desde y hacia Viru Viru. Consulta allí antes de viajar porque recorridos, paradas y tarifas pueden cambiar."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Rutas oficiales al aeropuerto",
-                  "href": "https://mivuelo.att.gob.bo/rutas.php"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "migracion-en-viru-viru",
-          "name": "Migración en Viru Viru",
-          "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Teléfono publicado:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "3 385000",
-                  "href": "tel:+59133385000"
-                },
-                {
-                  "text": ". Para problemas migratorios en el aeropuerto. Para trámites ordinarios usa la oficina de calle Quijarro y confirma antes de trasladarte."
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "viajar-con-poco-dinero-y-seguridad",
-          "name": "Viajar con poco dinero y seguridad",
-          "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Pregunta el precio antes de subir y evita vehículos sin identificación. No aceptes trasladar paquetes ajenos. Si necesitas viajar por protección, salud o reunificación familiar, pide evaluación social; ninguna oficina garantiza pasaje gratuito."
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "si-estas-varado",
-          "name": "Si estás varado",
-          "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Si eres migrante llama a la Casa Cardenal Julio Terrazas al "
-                },
-                {
-                  "text": "3 3257468",
-                  "href": "tel:+59133257468"
-                },
-                {
-                  "text": ". Si existe peligro o un problema de salud, usa 110 o 160. Dormir en una terminal o aeropuerto no equivale a tener alojamiento seguro."
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "verify",
-      "title": "16. Verificación y correcciones",
-      "items": [
-        {
-          "type": "resource",
           "id": "como-se-verifico-esta-pagina",
-          "name": "Cómo se verificó esta página",
+          "title": "Cómo se verificó esta página",
+          "description": "La información fue contrastada el 12 de noviembre de 2026 con páginas del Gobierno Autónomo Municipal de Santa Cruz de la Sierra, Ministerio de Salud, Ministerio de Trabajo, Policía Boliviana, Defensoría del Pueblo, Órgano Electoral, Migración, SEGIP, Gestora Pública, PASOC-Cáritas, ACNUR y organizaciones que publican sus propios servicios. Los datos antiguos o estacionales se presentan con advertencia y siempre exigen confirmación.",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "La información fue contrastada el 12 de noviembre de 2026 con páginas del Gobierno Autónomo Municipal de Santa Cruz de la Sierra, Ministerio de Salud, Ministerio de Trabajo, Policía Boliviana, Defensoría del Pueblo, Órgano Electoral, Migración, SEGIP, Gestora Pública, PASOC-Cáritas, ACNUR y organizaciones que publican sus propios servicios. Los datos antiguos o estacionales se presentan con advertencia y siempre exigen confirmación."
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "antes-de-desplazarte",
-          "name": "Antes de desplazarte",
+          "title": "Antes de desplazarte",
+          "description": "Confirma nombre del programa, dirección, horario, coste, documentos, población atendida y cupo. Pregunta si quien responde es la sede administrativa o el punto donde se presta la ayuda.",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Confirma nombre del programa, dirección, horario, coste, documentos, población atendida y cupo. Pregunta si quien responde es la sede administrativa o el punto donde se presta la ayuda."
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "comunica-un-dato-incorrecto",
-          "name": "Comunica un dato incorrecto",
+          "title": "Comunica un dato incorrecto",
+          "description": "Indica el nombre del servicio, qué dato cambió, la fuente oficial y fecha de comprobación. No publiques nombres, diagnósticos, documentos ni ubicaciones confidenciales de personas usuarias.\nInformar de información incorrecta",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Indica el nombre del servicio, qué dato cambió, la fuente oficial y fecha de comprobación. No publiques nombres, diagnósticos, documentos ni ubicaciones confidenciales de personas usuarias."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Informar de información incorrecta",
-                  "href": "https://github.com/carlosbranco/no-home-help/issues/new?template=incorrect-information.md"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://github.com/carlosbranco/no-home-help/issues/new?template=incorrect-information.md",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     }

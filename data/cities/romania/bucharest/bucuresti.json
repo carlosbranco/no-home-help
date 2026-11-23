@@ -1,6 +1,7 @@
 {
   "$schema": "https://nohomehelp.com/schemas/city.schema.json",
-  "schema_version": 1,
+  "documentation": "https://github.com/carlosbranco/no-home-help/blob/main/EDIT_CITY_JSON.md",
+  "schema_version": 2,
   "status": "published",
   "locale": {
     "language": "ro",
@@ -26,3979 +27,957 @@
   "page": {
     "heading": "București — ajutor pentru persoane fără adăpost",
     "last_verified": "2026-11-12",
-    "urgent": [
-      {
-        "type": "paragraph",
-        "content": [
-          {
-            "text": "Pericol imediat sau urgență medicală:",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "112",
-            "href": "tel:112"
-          },
-          {
-            "break": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "Persoană fără adăpost pe stradă:",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "021 9524",
-            "href": "tel:+40219524"
-          },
-          {
-            "text": ", non-stop"
-          },
-          {
-            "break": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "Violență domestică și trafic de persoane:",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "0800 500 333",
-            "href": "tel:0800500333"
-          },
-          {
-            "text": ", gratuit, non-stop"
-          },
-          {
-            "break": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "Copil în pericol:",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "119",
-            "href": "tel:119"
-          }
-        ]
-      }
-    ],
-    "notice": [
-      {
-        "text": "Locurile, programul, actele și regulile se pot schimba.",
-        "strong": true
-      },
-      {
-        "text": " Sună înainte să pleci, când este posibil. Nicio listare nu garantează un pat, o masă, un consult, un beneficiu sau un loc de muncă în aceeași zi."
-      }
-    ],
-    "intro": [
-      {
-        "type": "paragraph",
-        "content": [
-          {
-            "text": "Dacă nu ai un loc sigur pentru această noapte, sună mai întâi la Serviciul Urgențe Sociale al DGASMB, la "
-          },
-          {
-            "text": "021 9524",
-            "href": "tel:+40219524"
-          },
-          {
-            "text": ". Spune locul exact, starea de sănătate, dacă există violență, sarcină, copil, dizabilitate, medicamente sau animal de companie și ce acte ai. Intervenția de urgență nu este condiționată de existența unui act de identitate."
-          }
-        ]
-      }
-    ],
-    "footer": [
-      {
-        "type": "paragraph",
-        "content": [
-          {
-            "text": "No Home Help — informații gratuite, statice și fără urmărire."
-          }
-        ]
-      }
-    ]
+    "urgent": "Pericol imediat sau urgență medicală: 112 Persoană fără adăpost pe stradă: 021 9524, non-stop Violență domestică și trafic de persoane: 0800 500 333, gratuit, non-stop Copil în pericol: 119",
+    "notice": "Locurile, programul, actele și regulile se pot schimba. Sună înainte să pleci, când este posibil. Nicio listare nu garantează un pat, o masă, un consult, un beneficiu sau un loc de muncă în aceeași zi.",
+    "intro": "Dacă nu ai un loc sigur pentru această noapte, sună mai întâi la Serviciul Urgențe Sociale al DGASMB, la 021 9524. Spune locul exact, starea de sănătate, dacă există violență, sarcină, copil, dizabilitate, medicamente sau animal de companie și ce acte ai. Intervenția de urgență nu este condiționată de existența unui act de identitate.",
+    "footer": "No Home Help — informații gratuite, statice și fără urmărire."
   },
   "categories": [
     {
-      "id": "ce-sa-faci-astazi",
-      "title": "Ce să faci astăzi",
-      "items": [
-        {
-          "type": "ordered-list",
-          "items": [
-            [
-              {
-                "text": "Pericol, boală gravă, accident sau violență acum:",
-                "strong": true
-              },
-              {
-                "text": " sună la "
-              },
-              {
-                "text": "112",
-                "href": "tel:112"
-              },
-              {
-                "text": "."
-              }
-            ],
-            [
-              {
-                "text": "Nu ai unde dormi:",
-                "strong": true
-              },
-              {
-                "text": " sună la "
-              },
-              {
-                "text": "021 9524",
-                "href": "tel:+40219524"
-              },
-              {
-                "text": ". Cere echipa mobilă, evaluare și transport către un centru potrivit. Apelul nu rezervă un pat."
-              }
-            ],
-            [
-              {
-                "text": "Ai nevoie de hrană, duș sau haine:",
-                "strong": true
-              },
-              {
-                "text": " întreabă despre Centrul de zi Pallady, Samusocial și cantinele DGASMB. Confirmă programul și condițiile înainte de deplasare."
-              }
-            ],
-            [
-              {
-                "text": "Nu ai acte:",
-                "strong": true
-              },
-              {
-                "text": " spune acest lucru echipei sociale. Serviciul de urgență te poate identifica împreună cu poliția și te poate orienta către evidența persoanelor."
-              }
-            ]
-          ]
-        }
-      ]
-    },
-    {
       "id": "emergency",
-      "title": "1. Urgențe și orientare",
-      "items": [
+      "title": "Ce să faci astăzi",
+      "entries": [
         {
-          "type": "resource",
+          "id": "ce-sa-faci-astazi-information",
+          "title": "Ce să faci astăzi",
+          "description": "1. Pericol, boală gravă, accident sau violență acum: sună la 112.\n2. Nu ai unde dormi: sună la 021 9524. Cere echipa mobilă, evaluare și transport către un centru potrivit. Apelul nu rezervă un pat.\n3. Ai nevoie de hrană, duș sau haine: întreabă despre Centrul de zi Pallady, Samusocial și cantinele DGASMB. Confirmă programul și condițiile înainte de deplasare.\n4. Nu ai acte: spune acest lucru echipei sociale. Serviciul de urgență te poate identifica împreună cu poliția și te poate orienta către evidența persoanelor.",
+          "last_verified": "2026-11-12",
+          "address": "",
+          "phone": "112",
+          "website": "",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
           "id": "112-numarul-unic-de-urgenta",
-          "name": "112 — numărul unic de urgență",
+          "title": "112 — numărul unic de urgență",
+          "description": "Gratuit, non-stop: 112.\nSună pentru pericol imediat, accident, incendiu, agresiune, dificultăți de respirație, durere puternică în piept, pierderea cunoștinței, supradoză sau expunere severă la frig ori căldură. Spune întâi locul exact.\nMinisterul Afacerilor Interne — informații oficiale despre 112",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Gratuit, non-stop:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "112",
-                  "href": "tel:112"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Sună pentru pericol imediat, accident, incendiu, agresiune, dificultăți de respirație, durere puternică în piept, pierderea cunoștinței, supradoză sau expunere severă la frig ori căldură. Spune întâi locul exact."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ministerul Afacerilor Interne — informații oficiale despre 112",
-                  "href": "https://www.mai.gov.ro/contact-center/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "112",
+          "website": "https://www.mai.gov.ro/contact-center/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "dgasmb-serviciul-urgente-sociale",
-          "name": "DGASMB — Serviciul Urgențe Sociale",
+          "title": "DGASMB — Serviciul Urgențe Sociale",
+          "description": "Număr unic, non-stop: 021 9524.\nEchipa intervine pe stradă, evaluează situația, oferă orientare socială și medicală și poate transporta persoana către un centru social sau poate solicita 112. Accesul la intervenția de urgență nu cere act de identitate.\nDGASMB — condiții și servicii",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Adresă:",
-                  "strong": true
-                },
-                {
-                  "text": " Str. Mitropolit Filaret 41–41A, Sector 4"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Număr unic, non-stop:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "021 9524",
-                  "href": "tel:+40219524"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Echipa intervine pe stradă, evaluează situația, oferă orientare socială și medicală și poate transporta persoana către un centru social sau poate solicita 112. Accesul la intervenția de urgență nu cere act de identitate."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "DGASMB — condiții și servicii",
-                  "href": "https://www.dgas.ro/project/serviciul-urgente-sociale/"
-                }
-              ]
-            }
-          ]
+          "address": "Adresă: Str. Mitropolit Filaret 41–41A, Sector 4",
+          "phone": "+40219524",
+          "website": "https://www.dgas.ro/project/serviciul-urgente-sociale/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "centrul-de-asistenta-comunitara-filaret",
-          "name": "Centrul de asistență comunitară Filaret",
+          "title": "Centrul de asistență comunitară Filaret",
+          "description": "Telefon: 021 314 2315; program publicat: non-stop.\nPunct DGASMB pentru evaluare, orientare și legătură cu servicii sociale. Sună înainte pentru a confirma unde trebuie să te prezinți și ce serviciu poate răspunde nevoii tale.\nDGASMB — directorul serviciilor și date de contact",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Adresă:",
-                  "strong": true
-                },
-                {
-                  "text": " Str. Mitropolit Filaret 41–41A, Sector 4"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefon:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "021 314 2315",
-                  "href": "tel:+40213142315"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "program publicat:",
-                  "strong": true
-                },
-                {
-                  "text": " non-stop."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Punct DGASMB pentru evaluare, orientare și legătură cu servicii sociale. Sună înainte pentru a confirma unde trebuie să te prezinți și ce serviciu poate răspunde nevoii tale."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "DGASMB — directorul serviciilor și date de contact",
-                  "href": "https://www.dgas.ro/"
-                }
-              ]
-            }
-          ]
+          "address": "Adresă: Str. Mitropolit Filaret 41–41A, Sector 4",
+          "phone": "+40213142315",
+          "website": "https://www.dgas.ro/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "0800-500-333-violenta-domestica-si-trafic-de-persoane",
-          "name": "0800 500 333 — violență domestică și trafic de persoane",
+          "title": "0800 500 333 — violență domestică și trafic de persoane",
+          "description": "Gratuit, non-stop: 0800 500 333.\nConsiliere și îndrumare pentru victime, rude, martori sau profesioniști. Pentru pericol care se întâmplă acum, sună și la 112.\nAgenția Națională pentru Egalitatea de Șanse — call center",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Gratuit, non-stop:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "0800 500 333",
-                  "href": "tel:0800500333"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Consiliere și îndrumare pentru victime, rude, martori sau profesioniști. Pentru pericol care se întâmplă acum, sună și la 112."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Agenția Națională pentru Egalitatea de Șanse — call center",
-                  "href": "https://anes.gov.ro/asistenta-pentru-victime/call-center/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "0800500333",
+          "website": "https://anes.gov.ro/asistenta-pentru-victime/call-center/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "119-copil-in-pericol",
-          "name": "119 — copil în pericol",
+          "title": "119 — copil în pericol",
+          "description": "Telefon: 119.\nSună dacă un copil este singur pe stradă, abuzat, neglijat, exploatat sau are nevoie de protecție. Pentru pericol imediat folosește și 112.\nPortalul oficial al serviciilor publice — informații despre 119",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefon:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "119",
-                  "href": "tel:119"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Sună dacă un copil este singur pe stradă, abuzat, neglijat, exploatat sau are nevoie de protecție. Pentru pericol imediat folosește și 112."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Portalul oficial al serviciilor publice — informații despre 119",
-                  "href": "https://serviciipublice.gov.ro/serviciu/numarul-unic-national-pentru-copii-119"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "119",
+          "website": "https://serviciipublice.gov.ro/serviciu/numarul-unic-national-pentru-copii-119",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "116-111-telefonul-copilului",
-          "name": "116 111 — Telefonul Copilului",
+          "title": "116 111 — Telefonul Copilului",
+          "description": "Telefon: 116 111; program publicat: luni–vineri 10:00–20:00.\nLinie confidențială pentru copii și adolescenți care au nevoie să vorbească despre abuz, violență, singurătate sau alte probleme. Apelul este gratuit din rețelele indicate de organizație.\nAsociația Telefonul Copilului — cum ajută",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefon:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "116 111",
-                  "href": "tel:116111"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "program publicat:",
-                  "strong": true
-                },
-                {
-                  "text": " luni–vineri 10:00–20:00."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Linie confidențială pentru copii și adolescenți care au nevoie să vorbească despre abuz, violență, singurătate sau alte probleme. Apelul este gratuit din rețelele indicate de organizație."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Asociația Telefonul Copilului — cum ajută",
-                  "href": "https://telefonulcopilului.ro/cum-ajutam/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "116111",
+          "website": "https://telefonulcopilului.ro/cum-ajutam/",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
       "id": "shelter",
-      "title": "2. Adăpost și ajutor pe stradă",
-      "items": [
+      "title": "Adăpost și ajutor pe stradă",
+      "entries": [
         {
-          "type": "resource",
           "id": "adapostul-de-noapte-pallady",
-          "name": "Adăpostul de noapte Pallady",
+          "title": "Adăpostul de noapte Pallady",
+          "description": "Telefon de orientare: 021 314 2315; program publicat: zilnic 19:00–07:00.\nAdăpost DGASMB pentru adulți fără locuință. Sună la 021 9524 pentru evaluare și transport. Întreabă despre locuri, acte, bagaje, medicamente, accesibilitate, cupluri și animale.\nDGASMB — directorul serviciilor",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Adresă:",
-                  "strong": true
-                },
-                {
-                  "text": " Bd. Theodor Pallady 64, Sector 3"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefon de orientare:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "021 314 2315",
-                  "href": "tel:+40213142315"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "program publicat:",
-                  "strong": true
-                },
-                {
-                  "text": " zilnic 19:00–07:00."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Adăpost DGASMB pentru adulți fără locuință. Sună la 021 9524 pentru evaluare și transport. Întreabă despre locuri, acte, bagaje, medicamente, accesibilitate, cupluri și animale."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "DGASMB — directorul serviciilor",
-                  "href": "https://www.dgas.ro/"
-                }
-              ]
-            }
-          ]
+          "address": "Adresă: Bd. Theodor Pallady 64, Sector 3",
+          "phone": "+40213142315",
+          "website": "https://www.dgas.ro/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "centrul-de-zi-pallady",
-          "name": "Centrul de zi Pallady",
+          "title": "Centrul de zi Pallady",
+          "description": "Telefon: 021 314 2315; program publicat pe pagina serviciului: zilnic 07:00–19:00.\nMese, igienă, asistență medicală de bază, sănătate mintală și sprijin pentru acte, muncă și locuire. Criteriul publicat include ultimul domiciliu stabil în București și admiterea după evaluare.\nDGASMB — Centrul de zi",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Adresă:",
-                  "strong": true
-                },
-                {
-                  "text": " Bd. Theodor Pallady 64, Sector 3"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefon:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "021 314 2315",
-                  "href": "tel:+40213142315"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "program publicat pe pagina serviciului:",
-                  "strong": true
-                },
-                {
-                  "text": " zilnic 07:00–19:00."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Mese, igienă, asistență medicală de bază, sănătate mintală și sprijin pentru acte, muncă și locuire. Criteriul publicat include ultimul domiciliu stabil în București și admiterea după evaluare."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "DGASMB — Centrul de zi",
-                  "href": "https://www.dgas.ro/project/centrul-de-zi-pentru-integrare-reintegrare-sociala/"
-                }
-              ]
-            }
-          ]
+          "address": "Adresă: Bd. Theodor Pallady 64, Sector 3",
+          "phone": "+40213142315",
+          "website": "https://www.dgas.ro/project/centrul-de-zi-pentru-integrare-reintegrare-sociala/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "sectorul-1-adapostul-de-noapte-odaii",
-          "name": "Sectorul 1 — Adăpostul de noapte Odăii",
+          "title": "Sectorul 1 — Adăpostul de noapte Odăii",
+          "description": "Telefon: 021 351 8895; program publicat: 17:00–09:00, sezonier octombrie–aprilie, cu posibilă prelungire în vreme extremă.\nSună înainte pentru criterii și locuri. Echipa mobilă Sector 1 poate fi contactată non-stop la 0734 454 543.\nDGASPC Sector 1 — Adăpost de noapte · echipa mobilă — https://www.dgaspc-sectorul1.ro/noi-servicii-sociale-disponibile-la-centrele-pentru-persoanele-fara-adapost/",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Adresă:",
-                  "strong": true
-                },
-                {
-                  "text": " Șos. Odăi 3–5, Sector 1"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefon:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "021 351 8895",
-                  "href": "tel:+40213518895"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "program publicat:",
-                  "strong": true
-                },
-                {
-                  "text": " 17:00–09:00, sezonier octombrie–aprilie, cu posibilă prelungire în vreme extremă."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Sună înainte pentru criterii și locuri. Echipa mobilă Sector 1 poate fi contactată non-stop la "
-                },
-                {
-                  "text": "0734 454 543",
-                  "href": "tel:+40734454543"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "DGASPC Sector 1 — Adăpost de noapte",
-                  "href": "https://www.dgaspc-sectorul1.ro/adapost-de-noapte/"
-                },
-                {
-                  "text": " · "
-                },
-                {
-                  "text": "echipa mobilă",
-                  "href": "https://www.dgaspc-sectorul1.ro/noi-servicii-sociale-disponibile-la-centrele-pentru-persoanele-fara-adapost/"
-                }
-              ]
-            }
-          ]
+          "address": "Adresă: Șos. Odăi 3–5, Sector 1",
+          "phone": "+40213518895",
+          "website": "https://www.dgaspc-sectorul1.ro/adapost-de-noapte/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "sectorul-2-adapost-social-de-urgenta-pentru-adulti",
-          "name": "Sectorul 2 — Adăpost social de urgență pentru adulți",
+          "title": "Sectorul 2 — Adăpost social de urgență pentru adulți",
+          "description": "Telefoane: 0727 300 454 sau 031 438 2033.\nOferă găzduire de urgență și temporară, hrană, igienă și sprijin social, medical, juridic, pentru acte și muncă. Sunt publicate criterii legate de domiciliul în Sectorul 2; sună pentru excepții și evaluare.\nDGASPC Sector 2 — adăpostul social",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Adresă:",
-                  "strong": true
-                },
-                {
-                  "text": " Str. Viitorului 54, Sector 2"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefoane:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "0727 300 454",
-                  "href": "tel:+40727300454"
-                },
-                {
-                  "text": " sau "
-                },
-                {
-                  "text": "031 438 2033",
-                  "href": "tel:+40314382033"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Oferă găzduire de urgență și temporară, hrană, igienă și sprijin social, medical, juridic, pentru acte și muncă. Sunt publicate criterii legate de domiciliul în Sectorul 2; sună pentru excepții și evaluare."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "DGASPC Sector 2 — adăpostul social",
-                  "href": "https://social2.ro/directia-asistenta-sociala/adapostul-social-de-urgente-pentru-persoane-adulte/"
-                }
-              ]
-            }
-          ]
+          "address": "Adresă: Str. Viitorului 54, Sector 2",
+          "phone": "+40727300454",
+          "website": "https://social2.ro/directia-asistenta-sociala/adapostul-social-de-urgente-pentru-persoane-adulte/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "sectorul-3-complex-de-servicii-pentru-persoane-fara-adapost",
-          "name": "Sectorul 3 — Complex de servicii pentru persoane fără adăpost",
+          "title": "Sectorul 3 — Complex de servicii pentru persoane fără adăpost",
+          "description": "Telefon: 021 341 2141.\nInclude centru rezidențial și adăpost de noapte. Criteriile publicate se raportează la domiciliul sau identificarea în Sectorul 3. Sună pentru evaluare, disponibilitate și orientare dacă nu îndeplinești criteriul.\nDGASPC Sector 3 — complexul de servicii",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Adresă:",
-                  "strong": true
-                },
-                {
-                  "text": " Bd. 1 Decembrie 1918 nr. 9J, Sector 3"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefon:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "021 341 2141",
-                  "href": "tel:+40213412141"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Include centru rezidențial și adăpost de noapte. Criteriile publicate se raportează la domiciliul sau identificarea în Sectorul 3. Sună pentru evaluare, disponibilitate și orientare dacă nu îndeplinești criteriul."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "DGASPC Sector 3 — complexul de servicii",
-                  "href": "https://dgaspc3.ro/centre-subordonate/protectia-sociala/alte-centre/complex-de-servicii-sociale-pentru-persoane-fara-adapost/"
-                }
-              ]
-            }
-          ]
+          "address": "Adresă: Bd. 1 Decembrie 1918 nr. 9J, Sector 3",
+          "phone": "+40213412141",
+          "website": "https://dgaspc3.ro/centre-subordonate/protectia-sociala/alte-centre/complex-de-servicii-sociale-pentru-persoane-fara-adapost/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "sectorul-5-locuinta-temporara-pentru-adulti-fara-adapost",
-          "name": "Sectorul 5 — locuință temporară pentru adulți fără adăpost",
+          "title": "Sectorul 5 — locuință temporară pentru adulți fără adăpost",
+          "description": "Telefoane non-stop: 0370 300 825 sau 0724 500 518.\nPentru persoane adulte fără adăpost din Sectorul 5, după evaluare și acte. Pagina serviciului menționează excepții pentru urgențe; sună înainte și cere orientare dacă nu ai documente.\nDGASPC Sector 5 — locuință temporară",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Adresă:",
-                  "strong": true
-                },
-                {
-                  "text": " Drumul Sântana 49, Sector 5"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefoane non-stop:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "0370 300 825",
-                  "href": "tel:+40370300825"
-                },
-                {
-                  "text": " sau "
-                },
-                {
-                  "text": "0724 500 518",
-                  "href": "tel:+40724500518"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Pentru persoane adulte fără adăpost din Sectorul 5, după evaluare și acte. Pagina serviciului menționează excepții pentru urgențe; sună înainte și cere orientare dacă nu ai documente."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "DGASPC Sector 5 — locuință temporară",
-                  "href": "https://dgaspc5.ro/ova_por/locuinta-temporara-pentru-persoanele-adulte-fara-adapost/"
-                }
-              ]
-            }
-          ]
+          "address": "Adresă: Drumul Sântana 49, Sector 5",
+          "phone": "+40370300825",
+          "website": "https://dgaspc5.ro/ova_por/locuinta-temporara-pentru-persoanele-adulte-fara-adapost/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "sectorul-6-adapost-de-noapte",
-          "name": "Sectorul 6 — Adăpost de noapte",
+          "title": "Sectorul 6 — Adăpost de noapte",
+          "description": "Telefon non-stop: 0731 624 849; cazare publicată: 20:00–08:00.\nAdăpostul publică hrană, igienă și haine. Sunt cerute identificare și evaluare medicală; sună pentru procedura zilei și pentru ajutor dacă nu ai acte.\nDGASPC Sector 6 — Adăpost de noapte",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Adresă:",
-                  "strong": true
-                },
-                {
-                  "text": " Drumul Mănăstirea Văratec 1–5, Sector 6"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefon non-stop:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "0731 624 849",
-                  "href": "tel:+40731624849"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "cazare publicată:",
-                  "strong": true
-                },
-                {
-                  "text": " 20:00–08:00."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Adăpostul publică hrană, igienă și haine. Sunt cerute identificare și evaluare medicală; sună pentru procedura zilei și pentru ajutor dacă nu ai acte."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "DGASPC Sector 6 — Adăpost de noapte",
-                  "href": "https://www.asistentasociala6.ro/dgaspc6/dpc/seiisr/adapost-de-noapte"
-                }
-              ]
-            }
-          ]
+          "address": "Adresă: Drumul Mănăstirea Văratec 1–5, Sector 6",
+          "phone": "+40731624849",
+          "website": "https://www.asistentasociala6.ro/dgaspc6/dpc/seiisr/adapost-de-noapte",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "samusocial-centru-de-zi-si-echipe-mobile",
-          "name": "Samusocial — centru de zi și echipe mobile",
+          "title": "Samusocial — centru de zi și echipe mobile",
+          "description": "Telefon: 021 410 5067; program pentru beneficiari: luni–vineri 09:00–17:00.\nAsistență socială, medicală și psihologică, orientare și intervenții de stradă. Programul echipelor mobile variază; sună pentru a semnala persoana și pentru acces la centru.\nSamusocial — contact și program · servicii — https://www.samusocial.ro/despre-noi/servicii/",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Centru de zi:",
-                  "strong": true
-                },
-                {
-                  "text": " Șos. Grozăvești 82Bis, Sector 6"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefon:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "021 410 5067",
-                  "href": "tel:+40214105067"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "program pentru beneficiari:",
-                  "strong": true
-                },
-                {
-                  "text": " luni–vineri 09:00–17:00."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Asistență socială, medicală și psihologică, orientare și intervenții de stradă. Programul echipelor mobile variază; sună pentru a semnala persoana și pentru acces la centru."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Samusocial — contact și program",
-                  "href": "https://www.samusocial.ro/contact/contact-samusocial/"
-                },
-                {
-                  "text": " · "
-                },
-                {
-                  "text": "servicii",
-                  "href": "https://www.samusocial.ro/despre-noi/servicii/"
-                }
-              ]
-            }
-          ]
+          "address": "Centru de zi: Șos. Grozăvești 82Bis, Sector 6",
+          "phone": "+40214105067",
+          "website": "https://www.samusocial.ro/contact/contact-samusocial/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "echipa-mobila-sector-5-persoane-in-situatii-de-risc",
-          "name": "Echipă mobilă Sector 5 — persoane în situații de risc",
+          "title": "Echipă mobilă Sector 5 — persoane în situații de risc",
+          "description": "Telefoane non-stop: *5755 sau 0736 500 524.\nIntervenție socială și medicală, inclusiv reducerea riscurilor pentru persoane fără adăpost și persoane care consumă droguri. Spune locația exactă și nevoia urgentă.\nDGASPC Sector 5 — echipa mobilă",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Punct de lucru:",
-                  "strong": true
-                },
-                {
-                  "text": " Calea Ferentari 72, Sector 5"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefoane non-stop:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "*5755",
-                  "href": "tel:*5755"
-                },
-                {
-                  "text": " sau "
-                },
-                {
-                  "text": "0736 500 524",
-                  "href": "tel:+40736500524"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Intervenție socială și medicală, inclusiv reducerea riscurilor pentru persoane fără adăpost și persoane care consumă droguri. Spune locația exactă și nevoia urgentă."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "DGASPC Sector 5 — echipa mobilă",
-                  "href": "https://dgaspc5.ro/2025/02/24/echipa-mobila-de-interventie-pentru-persoanele-aflate-in-situatii-de-risc/"
-                }
-              ]
-            }
-          ]
+          "address": "Punct de lucru: Calea Ferentari 72, Sector 5",
+          "phone": "*5755",
+          "website": "https://dgaspc5.ro/2025/02/24/echipa-mobila-de-interventie-pentru-persoanele-aflate-in-situatii-de-risc/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "daca-un-centru-este-plin",
-          "name": "Dacă un centru este plin",
+          "title": "Dacă un centru este plin",
+          "description": "Cere o alternativă concretă, adresa, numărul de telefon și modul de transport. Spune dacă ai copil, boală, dizabilitate, sarcină, risc de violență, medicamente sau animal. Pentru ajutor pe stradă folosește 021 9524; pentru pericol imediat, 112.\nDGASMB — lista serviciilor sociale licențiate din București",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Cere o alternativă concretă, adresa, numărul de telefon și modul de transport. Spune dacă ai copil, boală, dizabilitate, sarcină, risc de violență, medicamente sau animal. Pentru ajutor pe stradă folosește 021 9524; pentru pericol imediat, 112."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "DGASMB — lista serviciilor sociale licențiate din București",
-                  "href": "https://www.dgas.ro/servicii-sociale-licentiate-municipiul-bucuresti/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.dgas.ro/servicii-sociale-licentiate-municipiul-bucuresti/",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
       "id": "food",
-      "title": "3. Hrană",
-      "items": [
+      "title": "Hrană",
+      "entries": [
         {
-          "type": "resource",
           "id": "cantina-sociala-grivita",
-          "name": "Cantina Socială Grivița",
+          "title": "Cantina Socială Grivița",
+          "description": "Telefon gratuit: 0800 821 218; servirea hranei: luni–vineri 11:00–15:00; program cu publicul: 09:00–16:00.\nSună înainte pentru eligibilitate, înscriere, acte și felul în care se oferă masa. Programul nu garantează o porție fără evaluare sau înregistrare.\nDGASMB — Cantina Socială Grivița",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Adresă:",
-                  "strong": true
-                },
-                {
-                  "text": " Calea Griviței 216, Sector 1"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefon gratuit:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "0800 821 218",
-                  "href": "tel:0800821218"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "servirea hranei:",
-                  "strong": true
-                },
-                {
-                  "text": " luni–vineri 11:00–15:00; "
-                },
-                {
-                  "text": "program cu publicul:",
-                  "strong": true
-                },
-                {
-                  "text": " 09:00–16:00."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Sună înainte pentru eligibilitate, înscriere, acte și felul în care se oferă masa. Programul nu garantează o porție fără evaluare sau înregistrare."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "DGASMB — Cantina Socială Grivița",
-                  "href": "https://www.dgas.ro/"
-                }
-              ]
-            }
-          ]
+          "address": "Adresă: Calea Griviței 216, Sector 1",
+          "phone": "0800821218",
+          "website": "https://www.dgas.ro/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "cantina-sociala-ferentari",
-          "name": "Cantina Socială Ferentari",
+          "title": "Cantina Socială Ferentari",
+          "description": "Telefon gratuit: 0800 821 218; servirea hranei: luni–vineri 11:00–15:00; program cu publicul: 09:00–16:00.\nSună înainte pentru condițiile de acces și înscriere. Dacă ai nevoie de hrană astăzi și nu ești înscris, cere serviciului social o alternativă imediată.\nDGASMB — Cantina Socială Ferentari",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Adresă:",
-                  "strong": true
-                },
-                {
-                  "text": " Calea Ferentari 91, Sector 5"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefon gratuit:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "0800 821 218",
-                  "href": "tel:0800821218"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "servirea hranei:",
-                  "strong": true
-                },
-                {
-                  "text": " luni–vineri 11:00–15:00; "
-                },
-                {
-                  "text": "program cu publicul:",
-                  "strong": true
-                },
-                {
-                  "text": " 09:00–16:00."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Sună înainte pentru condițiile de acces și înscriere. Dacă ai nevoie de hrană astăzi și nu ești înscris, cere serviciului social o alternativă imediată."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "DGASMB — Cantina Socială Ferentari",
-                  "href": "https://www.dgas.ro/"
-                }
-              ]
-            }
-          ]
+          "address": "Adresă: Calea Ferentari 91, Sector 5",
+          "phone": "0800821218",
+          "website": "https://www.dgas.ro/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "cantina-ominis",
-          "name": "Cantina Ominis",
+          "title": "Cantina Ominis",
+          "description": "Telefon: 0787 559 865; program publicat: luni–vineri 08:30–16:30.\nContactează cantina pentru a afla cine poate primi hrană, cum se face admiterea și care este ora efectivă a mesei.\nDGASMB — Cantina Ominis",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Adresă:",
-                  "strong": true
-                },
-                {
-                  "text": " Str. Turnu Măgurele 17, Sector 4"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefon:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "0787 559 865",
-                  "href": "tel:+40787559865"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "program publicat:",
-                  "strong": true
-                },
-                {
-                  "text": " luni–vineri 08:30–16:30."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Contactează cantina pentru a afla cine poate primi hrană, cum se face admiterea și care este ora efectivă a mesei."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "DGASMB — Cantina Ominis",
-                  "href": "https://www.dgas.ro/"
-                }
-              ]
-            }
-          ]
+          "address": "Adresă: Str. Turnu Măgurele 17, Sector 4",
+          "phone": "+40787559865",
+          "website": "https://www.dgas.ro/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "asociatia-sansa-ta-masa-calda",
-          "name": "Asociația Șansa Ta — masă caldă",
+          "title": "Asociația Șansa Ta — masă caldă",
+          "description": "Organizația publică activități de distribuire a meselor calde și sprijin pentru persoane vulnerabile. Programul de acces direct nu este publicat clar; contactează organizația înainte să mergi.\nAsociația Șansa Ta",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Adresă publicată:",
-                  "strong": true
-                },
-                {
-                  "text": " Calea Griviței 355–357, Sector 1"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Organizația publică activități de distribuire a meselor calde și sprijin pentru persoane vulnerabile. Programul de acces direct nu este publicat clar; contactează organizația înainte să mergi."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Asociația Șansa Ta",
-                  "href": "https://www.asociatiasansata.ro/"
-                }
-              ]
-            }
-          ]
+          "address": "Adresă publicată: Calea Griviței 355–357, Sector 1",
+          "phone": "",
+          "website": "https://www.asociatiasansata.ro/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "caritas-bucuresti-cantina-sociala-si-masa-pe-roti",
-          "name": "Caritas București — cantină socială și Masa pe roți",
+          "title": "Caritas București — cantină socială și Masa pe roți",
+          "description": "Telefon: 0727 224 110.\nMese pentru persoane vulnerabile și, pentru unii beneficiari, livrare la domiciliu. Sună pentru criterii, acte, înscriere și programul mesei; nu presupune că este distribuție liberă fără evaluare.\nCaritas București — cantina socială · contact — https://caritasbucuresti.org/contact-caritas-bucuresti/",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Adresă:",
-                  "strong": true
-                },
-                {
-                  "text": " Str. Gheorghe Pripu 22–36, Sector 1"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefon:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "0727 224 110",
-                  "href": "tel:+40727224110"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Mese pentru persoane vulnerabile și, pentru unii beneficiari, livrare la domiciliu. Sună pentru criterii, acte, înscriere și programul mesei; nu presupune că este distribuție liberă fără evaluare."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Caritas București — cantina socială",
-                  "href": "https://caritasbucuresti.org/cantina-sociala/"
-                },
-                {
-                  "text": " · "
-                },
-                {
-                  "text": "contact",
-                  "href": "https://caritasbucuresti.org/contact-caritas-bucuresti/"
-                }
-              ]
-            }
-          ]
+          "address": "Adresă: Str. Gheorghe Pripu 22–36, Sector 1",
+          "phone": "+40727224110",
+          "website": "https://caritasbucuresti.org/cantina-sociala/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "cantina-multumesc",
-          "name": "Cantina „Mulțumesc”",
+          "title": "Cantina „Mulțumesc”",
+          "description": "Oferă prânz cald în zilele lucrătoare persoanelor și familiilor fără venit sau cu venit foarte mic. Este necesară o cerere și verificarea situației; folosește pagina de contact pentru program și acte.\nBucuria Darului — Cantina Mulțumesc",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Oferă prânz cald în zilele lucrătoare persoanelor și familiilor fără venit sau cu venit foarte mic. Este necesară o cerere și verificarea situației; folosește pagina de contact pentru program și acte."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Bucuria Darului — Cantina Mulțumesc",
-                  "href": "https://bucuriadarului.ro/info-cantina-multumesc/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://bucuriadarului.ro/info-cantina-multumesc/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "cantine-si-mese-ale-parohiilor",
-          "name": "Cantine și mese ale parohiilor",
+          "title": "Cantine și mese ale parohiilor",
+          "description": "Arhiepiscopia Bucureștilor publică o listă de cantine și așezăminte sociale. Sună direct la parohie înainte de deplasare, deoarece zilele, orele, numărul de porții și înscrierea diferă.\nArhiepiscopia Bucureștilor — cantine sociale",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Arhiepiscopia Bucureștilor publică o listă de cantine și așezăminte sociale. Sună direct la parohie înainte de deplasare, deoarece zilele, orele, numărul de porții și înscrierea diferă."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Arhiepiscopia Bucureștilor — cantine sociale",
-                  "href": "https://arhiepiscopiabucurestilor.ro/asezaminte-sociale/cantine-sociale"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://arhiepiscopiabucurestilor.ro/asezaminte-sociale/cantine-sociale",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "centrul-de-zi-pallady-si-samusocial",
-          "name": "Centrul de zi Pallady și Samusocial",
+          "title": "Centrul de zi Pallady și Samusocial",
+          "description": "Centrul de zi Pallady publică mese calde și gustări pentru beneficiarii admiși. Samusocial oferă sprijin de zi și intervenții pe stradă. Sună la Pallady, 021 314 2315, sau Samusocial, 021 410 5067, pentru acces în ziua respectivă.\nDGASMB — Centrul de zi Pallady · Samusocial — https://www.samusocial.ro/contact/contact-samusocial/",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Centrul de zi Pallady publică mese calde și gustări pentru beneficiarii admiși. Samusocial oferă sprijin de zi și intervenții pe stradă. Sună la Pallady, "
-                },
-                {
-                  "text": "021 314 2315",
-                  "href": "tel:+40213142315"
-                },
-                {
-                  "text": ", sau Samusocial, "
-                },
-                {
-                  "text": "021 410 5067",
-                  "href": "tel:+40214105067"
-                },
-                {
-                  "text": ", pentru acces în ziua respectivă."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "DGASMB — Centrul de zi Pallady",
-                  "href": "https://www.dgas.ro/project/centrul-de-zi-pentru-integrare-reintegrare-sociala/"
-                },
-                {
-                  "text": " · "
-                },
-                {
-                  "text": "Samusocial",
-                  "href": "https://www.samusocial.ro/contact/contact-samusocial/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+40213142315",
+          "website": "https://www.dgas.ro/project/centrul-de-zi-pentru-integrare-reintegrare-sociala/",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
-      "id": "basic",
-      "title": "4. Duș, spălătorie, haine și servicii de zi",
-      "items": [
+      "id": "community",
+      "title": "Community and religious help",
+      "entries": []
+    },
+    {
+      "id": "hygiene",
+      "title": "Duș, spălătorie, haine și servicii de zi",
+      "entries": [
         {
-          "type": "resource",
           "id": "spalatorii-sociale-dgasmb",
-          "name": "Spălătorii sociale DGASMB",
+          "title": "Spălătorii sociale DGASMB",
+          "description": "Telefon: 021 314 2315; program publicat: luni–vineri 09:00–15:00.\nSună înainte pentru a afla locația potrivită, eligibilitatea, înscrierea, cantitatea de rufe și dacă trebuie adus detergent.\nDGASMB — spălătorii sociale",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Locații publicate:",
-                  "strong": true
-                },
-                {
-                  "text": " Drumul Taberei 24; Str. Turnu Măgurele 17A; Str. Armeniș 2, bloc P3"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefon:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "021 314 2315",
-                  "href": "tel:+40213142315"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "program publicat:",
-                  "strong": true
-                },
-                {
-                  "text": " luni–vineri 09:00–15:00."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Sună înainte pentru a afla locația potrivită, eligibilitatea, înscrierea, cantitatea de rufe și dacă trebuie adus detergent."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "DGASMB — spălătorii sociale",
-                  "href": "https://www.dgas.ro/"
-                }
-              ]
-            }
-          ]
+          "address": "Locații publicate: Drumul Taberei 24; Str. Turnu Măgurele 17A; Str. Armeniș 2, bloc P3",
+          "phone": "+40213142315",
+          "website": "https://www.dgas.ro/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "centrul-de-zi-pallady-igiena-si-haine",
-          "name": "Centrul de zi Pallady — igienă și haine",
+          "title": "Centrul de zi Pallady — igienă și haine",
+          "description": "Telefon: 021 314 2315.\nServiciul publică igienă, îmbrăcăminte, hrană și sprijin social pentru persoanele admise. Confirmă programul, accesul la duș și disponibilitatea hainelor.\nDGASMB — Centrul de zi Pallady",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Adresă:",
-                  "strong": true
-                },
-                {
-                  "text": " Bd. Theodor Pallady 64, Sector 3"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefon:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "021 314 2315",
-                  "href": "tel:+40213142315"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Serviciul publică igienă, îmbrăcăminte, hrană și sprijin social pentru persoanele admise. Confirmă programul, accesul la duș și disponibilitatea hainelor."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "DGASMB — Centrul de zi Pallady",
-                  "href": "https://www.dgas.ro/project/centrul-de-zi-pentru-integrare-reintegrare-sociala/"
-                }
-              ]
-            }
-          ]
+          "address": "Adresă: Bd. Theodor Pallady 64, Sector 3",
+          "phone": "+40213142315",
+          "website": "https://www.dgas.ro/project/centrul-de-zi-pentru-integrare-reintegrare-sociala/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "samusocial-igiena-si-sprijin-medico-psiho-social",
-          "name": "Samusocial — igienă și sprijin medico-psiho-social",
+          "title": "Samusocial — igienă și sprijin medico-psiho-social",
+          "description": "Telefon: 021 410 5067; program beneficiari: luni–vineri 09:00–17:00.\nSună pentru duș, haine, produse de igienă, consultație și întâlnire cu un asistent social. Disponibilitatea fiecărui serviciu poate varia.\nSamusocial — centru de zi",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Adresă:",
-                  "strong": true
-                },
-                {
-                  "text": " Șos. Grozăvești 82Bis, Sector 6"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefon:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "021 410 5067",
-                  "href": "tel:+40214105067"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "program beneficiari:",
-                  "strong": true
-                },
-                {
-                  "text": " luni–vineri 09:00–17:00."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Sună pentru duș, haine, produse de igienă, consultație și întâlnire cu un asistent social. Disponibilitatea fiecărui serviciu poate varia."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Samusocial — centru de zi",
-                  "href": "https://www.samusocial.ro/contact/contact-samusocial/"
-                }
-              ]
-            }
-          ]
+          "address": "Adresă: Șos. Grozăvești 82Bis, Sector 6",
+          "phone": "+40214105067",
+          "website": "https://www.samusocial.ro/contact/contact-samusocial/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "armata-salvarii-consiliere-si-ajutor-material",
-          "name": "Armata Salvării — consiliere și ajutor material",
+          "title": "Armata Salvării — consiliere și ajutor material",
+          "description": "Telefon: 0727 116 466.\nConsiliere socială, orientare către muncă și sprijin pentru acte, drepturi și nevoi de bază. Sună pentru program și pentru a întreba ce ajutor material este disponibil.\nArmata Salvării — centre de consiliere",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Adresă:",
-                  "strong": true
-                },
-                {
-                  "text": " Str. Ing. Dumitru Zosima 16, Sector 1"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefon:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "0727 116 466",
-                  "href": "tel:+40727116466"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Consiliere socială, orientare către muncă și sprijin pentru acte, drepturi și nevoi de bază. Sună pentru program și pentru a întreba ce ajutor material este disponibil."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Armata Salvării — centre de consiliere",
-                  "href": "https://www.armatasalvarii.ro/centre-de-consiliere-si-informare"
-                }
-              ]
-            }
-          ]
+          "address": "Adresă: Str. Ing. Dumitru Zosima 16, Sector 1",
+          "phone": "+40727116466",
+          "website": "https://www.armatasalvarii.ro/centre-de-consiliere-si-informare",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "centrul-de-economie-circulara",
-          "name": "Centrul de Economie Circulară",
+          "title": "Centrul de Economie Circulară",
+          "description": "Telefon: 0774 602 188; program publicat: luni–vineri 09:00–17:00, sâmbătă 09:00–14:00.\nDGASMB colectează și redistribuie bunuri pentru persoane vulnerabile. Sună înainte și întreabă dacă poți primi articole, ce evaluare este necesară și ce există în stoc.\nDGASMB — Centrul de Economie Circulară",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Adresă:",
-                  "strong": true
-                },
-                {
-                  "text": " Calea Plevnei 98, Sector 1"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefon:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "0774 602 188",
-                  "href": "tel:+40774602188"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "program publicat:",
-                  "strong": true
-                },
-                {
-                  "text": " luni–vineri 09:00–17:00, sâmbătă 09:00–14:00."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "DGASMB colectează și redistribuie bunuri pentru persoane vulnerabile. Sună înainte și întreabă dacă poți primi articole, ce evaluare este necesară și ce există în stoc."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "DGASMB — Centrul de Economie Circulară",
-                  "href": "https://www.dgas.ro/"
-                }
-              ]
-            }
-          ]
+          "address": "Adresă: Calea Plevnei 98, Sector 1",
+          "phone": "+40774602188",
+          "website": "https://www.dgas.ro/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "haine-pentru-bebelusi-si-parinti",
-          "name": "Haine pentru bebeluși și părinți",
+          "title": "Haine pentru bebeluși și părinți",
+          "description": "Telefon: 0755 061 863; program publicat: luni–vineri 11:00–18:00.\nServiciul „Bebe de București are Hăinuțe” este pentru copii mici și părinți, nu un centru general de îmbrăcăminte. Sună pentru criterii și stoc.\nDGASMB — servicii pentru copii și familie",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Adresă:",
-                  "strong": true
-                },
-                {
-                  "text": " Bd. Regina Elisabeta 75, Sector 5"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefon:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "0755 061 863",
-                  "href": "tel:+40755061863"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "program publicat:",
-                  "strong": true
-                },
-                {
-                  "text": " luni–vineri 11:00–18:00."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Serviciul „Bebe de București are Hăinuțe” este pentru copii mici și părinți, nu un centru general de îmbrăcăminte. Sună pentru criterii și stoc."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "DGASMB — servicii pentru copii și familie",
-                  "href": "https://www.dgas.ro/"
-                }
-              ]
-            }
-          ]
+          "address": "Adresă: Bd. Regina Elisabeta 75, Sector 5",
+          "phone": "+40755061863",
+          "website": "https://www.dgas.ro/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "adresa-de-corespondenta-si-incarcarea-telefonului",
-          "name": "Adresă de corespondență și încărcarea telefonului",
+          "title": "Adresă de corespondență și încărcarea telefonului",
+          "description": "Nu folosi adresa unui centru, adăpost sau ONG în acte fără acord scris. Întreabă asistentul social dacă poate primi corespondență și cât timp o păstrează. Pentru încărcarea telefonului sau acces la internet, întreabă la Pallady, Samusocial ori Armata Salvării; listarea nu garantează o priză sau un calculator liber.\nSamusocial — contact",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Nu folosi adresa unui centru, adăpost sau ONG în acte fără acord scris. Întreabă asistentul social dacă poate primi corespondență și cât timp o păstrează. Pentru încărcarea telefonului sau acces la internet, întreabă la Pallady, Samusocial ori Armata Salvării; listarea nu garantează o priză sau un calculator liber."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Samusocial — contact",
-                  "href": "https://www.samusocial.ro/contact/contact-samusocial/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.samusocial.ro/contact/contact-samusocial/",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
+    },
+    {
+      "id": "clothing",
+      "title": "Clothing",
+      "entries": []
     },
     {
       "id": "health",
-      "title": "5. Sănătate, sănătate mintală și dependențe",
-      "items": [
+      "title": "Sănătate, sănătate mintală și dependențe",
+      "entries": [
         {
-          "type": "resource",
           "id": "policlinica-sociala",
-          "name": "Policlinica Socială",
+          "title": "Policlinica Socială",
+          "description": "Telefon: 021 322 3020; program publicat: luni–vineri 09:00–17:00.\nPentru persoane fără adăpost și persoane neasigurate: medicină internă, cardiologie, analize, ORL, stomatologie, dermatologie, oftalmologie și sprijin psihologic/social. Sună pentru programare și acte; pagina cere actul de identitate în original pentru verificarea în baze, deci cere soluție dacă nu îl ai.\nDGASMB — Policlinica Socială",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Adresă:",
-                  "strong": true
-                },
-                {
-                  "text": " Str. Dristorului 81–88, Sector 3"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefon:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "021 322 3020",
-                  "href": "tel:+40213223020"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "program publicat:",
-                  "strong": true
-                },
-                {
-                  "text": " luni–vineri 09:00–17:00."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Pentru persoane fără adăpost și persoane neasigurate: medicină internă, cardiologie, analize, ORL, stomatologie, dermatologie, oftalmologie și sprijin psihologic/social. Sună pentru programare și acte; pagina cere actul de identitate în original pentru verificarea în baze, deci cere soluție dacă nu îl ai."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "DGASMB — Policlinica Socială",
-                  "href": "https://www.dgas.ro/project/policlinica-sociala/"
-                }
-              ]
-            }
-          ]
+          "address": "Adresă: Str. Dristorului 81–88, Sector 3",
+          "phone": "+40213223020",
+          "website": "https://www.dgas.ro/project/policlinica-sociala/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "samusocial-cabinet-medico-psiho-social",
-          "name": "Samusocial — cabinet medico-psiho-social",
+          "title": "Samusocial — cabinet medico-psiho-social",
+          "description": "Telefon: 021 410 5067; program: luni–vineri 09:00–17:00.\nConsultații și sprijin social, psihologic și psihiatric pentru persoane fără adăpost, inclusiv prin echipe mobile. Sună pentru disponibilitatea specialistului.\nSamusocial — servicii",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Adresă:",
-                  "strong": true
-                },
-                {
-                  "text": " Șos. Grozăvești 82Bis, Sector 6"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefon:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "021 410 5067",
-                  "href": "tel:+40214105067"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "program:",
-                  "strong": true
-                },
-                {
-                  "text": " luni–vineri 09:00–17:00."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Consultații și sprijin social, psihologic și psihiatric pentru persoane fără adăpost, inclusiv prin echipe mobile. Sună pentru disponibilitatea specialistului."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Samusocial — servicii",
-                  "href": "https://www.samusocial.ro/despre-noi/servicii/"
-                }
-              ]
-            }
-          ]
+          "address": "Adresă: Șos. Grozăvești 82Bis, Sector 6",
+          "phone": "+40214105067",
+          "website": "https://www.samusocial.ro/despre-noi/servicii/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "spitalul-clinic-de-psihiatrie-prof-dr-alexandru-obregia",
-          "name": "Spitalul Clinic de Psihiatrie „Prof. Dr. Alexandru Obregia”",
+          "title": "Spitalul Clinic de Psihiatrie „Prof. Dr. Alexandru Obregia”",
+          "description": "Urgențe adulți: 021 334 4266, 0770 415 316 sau 0770 432 276.\nPentru criză psihiatrică. Dacă există pericol imediat pentru persoană sau altcineva, sună la 112.\nSpitalul Obregia — linii de gardă",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Adresă:",
-                  "strong": true
-                },
-                {
-                  "text": " Șos. Berceni 10, Sector 4"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Urgențe adulți:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "021 334 4266",
-                  "href": "tel:+40213344266"
-                },
-                {
-                  "text": ", "
-                },
-                {
-                  "text": "0770 415 316",
-                  "href": "tel:+40770415316"
-                },
-                {
-                  "text": " sau "
-                },
-                {
-                  "text": "0770 432 276",
-                  "href": "tel:+40770432276"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Pentru criză psihiatrică. Dacă există pericol imediat pentru persoană sau altcineva, sună la 112."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Spitalul Obregia — linii de gardă",
-                  "href": "https://spital-obregia.ro/informatii-pacienti/garzi"
-                }
-              ]
-            }
-          ]
+          "address": "Adresă: Șos. Berceni 10, Sector 4",
+          "phone": "+40213344266",
+          "website": "https://spital-obregia.ro/informatii-pacienti/garzi",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "aras-testare-hiv-si-hepatite",
-          "name": "ARAS — testare HIV și hepatite",
+          "title": "ARAS — testare HIV și hepatite",
+          "description": "Telefoane: 021 318 6198 sau 0742 133 369; unitate mobilă: 0740 085 980.\nTestare rapidă și consiliere pentru HIV și hepatite. Unele servicii pot avea cost; întreabă înainte ce este gratuit și dacă trebuie programare.\nARAS — testări rapide în București",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Centru Arena:",
-                  "strong": true
-                },
-                {
-                  "text": " Str. Dr. Grozovici 1, Sector 2"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefoane:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "021 318 6198",
-                  "href": "tel:+40213186198"
-                },
-                {
-                  "text": " sau "
-                },
-                {
-                  "text": "0742 133 369",
-                  "href": "tel:+40742133369"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "unitate mobilă:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "0740 085 980",
-                  "href": "tel:+40740085980"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Testare rapidă și consiliere pentru HIV și hepatite. Unele servicii pot avea cost; întreabă înainte ce este gratuit și dacă trebuie programare."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "ARAS — testări rapide în București",
-                  "href": "https://arasnet.ro/testari-rapide-in-bucuresti-si-cluj/"
-                }
-              ]
-            }
-          ]
+          "address": "Centru Arena: Str. Dr. Grozovici 1, Sector 2",
+          "phone": "+40213186198",
+          "website": "https://arasnet.ro/testari-rapide-in-bucuresti-si-cluj/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "romanian-harm-reduction-network",
-          "name": "Romanian Harm Reduction Network",
+          "title": "Romanian Harm Reduction Network",
+          "description": "Telefon: 0726 389 604.\nInformare, reducerea riscurilor și orientare pentru consum de droguri și dependențe. Sună pentru serviciul disponibil și program.\nRHRN — servicii",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Adresă:",
-                  "strong": true
-                },
-                {
-                  "text": " Str. Bucur 23, Sector 4"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefon:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "0726 389 604",
-                  "href": "tel:+40726389604"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Informare, reducerea riscurilor și orientare pentru consum de droguri și dependențe. Sună pentru serviciul disponibil și program."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "RHRN — servicii",
-                  "href": "https://rhrn.ro/ro/servicii/"
-                }
-              ]
-            }
-          ]
+          "address": "Adresă: Str. Bucur 23, Sector 4",
+          "phone": "+40726389604",
+          "website": "https://rhrn.ro/ro/servicii/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "echipa-mobila-sector-5-reducerea-riscurilor",
-          "name": "Echipa mobilă Sector 5 — reducerea riscurilor",
+          "title": "Echipa mobilă Sector 5 — reducerea riscurilor",
+          "description": "Non-stop: *5755 sau 0736 500 524.\nPentru persoane fără adăpost sau persoane care consumă droguri și au nevoie de intervenție socială, medicală ori trimitere. Pentru supradoză sau lipsa stării de conștiență, 112.\nDGASPC Sector 5 — echipa mobilă",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Non-stop:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "*5755",
-                  "href": "tel:*5755"
-                },
-                {
-                  "text": " sau "
-                },
-                {
-                  "text": "0736 500 524",
-                  "href": "tel:+40736500524"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Pentru persoane fără adăpost sau persoane care consumă droguri și au nevoie de intervenție socială, medicală ori trimitere. Pentru supradoză sau lipsa stării de conștiență, 112."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "DGASPC Sector 5 — echipa mobilă",
-                  "href": "https://dgaspc5.ro/2025/02/24/echipa-mobila-de-interventie-pentru-persoanele-aflate-in-situatii-de-risc/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "*5755",
+          "website": "https://dgaspc5.ro/2025/02/24/echipa-mobila-de-interventie-pentru-persoanele-aflate-in-situatii-de-risc/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "medicamente-si-tratament-continuu",
-          "name": "Medicamente și tratament continuu",
+          "title": "Medicamente și tratament continuu",
+          "description": "Spune asistentului social exact ce tratament iei, doza și câte pastile mai ai. Nu opri brusc tratamentul fără recomandare medicală. Policlinica Socială, Samusocial sau centrul de sector te pot orienta; pentru o urgență folosește 112.\nPoliclinica Socială — servicii",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Spune asistentului social exact ce tratament iei, doza și câte pastile mai ai. Nu opri brusc tratamentul fără recomandare medicală. Policlinica Socială, Samusocial sau centrul de sector te pot orienta; pentru o urgență folosește 112."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Policlinica Socială — servicii",
-                  "href": "https://www.dgas.ro/project/policlinica-sociala/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.dgas.ro/project/policlinica-sociala/",
+          "hours": "",
+          "how_to_access": ""
+        }
+      ]
+    },
+    {
+      "id": "mental-health",
+      "title": "Mental health and addiction",
+      "entries": []
+    },
+    {
+      "id": "public-facilities",
+      "title": "Public toilets and day facilities",
+      "entries": []
+    },
+    {
+      "id": "phone-internet",
+      "title": "Phone charging and internet",
+      "entries": []
+    },
+    {
+      "id": "transport",
+      "title": "Transport, telefon și internet",
+      "entries": [
+        {
+          "id": "tarife-si-gratuitati-stb",
+          "title": "Tarife și gratuități STB",
+          "description": "STB publică tarifele și categoriile cu gratuitate sau reducere. Persoanele cu handicap grav ori accentuat și însoțitorii eligibili folosesc legitimația eliberată de DGASPC. Lipsa adăpostului, singură, nu înseamnă automat transport gratuit.\nÎntreabă asistentul social ce document și ce card îți trebuie. Nu călători fără titlu valabil dacă nu ai confirmarea gratuității.\nSTB — tarife și categorii de gratuitate",
+          "last_verified": "2026-11-12",
+          "address": "",
+          "phone": "",
+          "website": "https://www.stb.ro/tarife.php",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "transport-catre-un-adapost",
+          "title": "Transport către un adăpost",
+          "description": "Serviciul Urgențe Sociale poate prelua și transporta persoane de pe stradă către centre sociale, după evaluare. Sună la 021 9524 și oferă punctul exact și descrierea persoanei.\nDGASMB — intervenție și transport",
+          "last_verified": "2026-11-12",
+          "address": "",
+          "phone": "+40219524",
+          "website": "https://www.dgas.ro/project/serviciul-urgente-sociale/",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "telefon-si-internet",
+          "title": "Telefon și internet",
+          "description": "Întreabă la Pallady, Samusocial, Armata Salvării sau biblioteca publică dacă poți încărca telefonul, folosi Wi-Fi ori un calculator. Nu există garanție de acces. Păstrează telefonul lângă tine și nu da PIN-ul sau parolele altcuiva.\nSamusocial — centru de zi",
+          "last_verified": "2026-11-12",
+          "address": "",
+          "phone": "",
+          "website": "https://www.samusocial.ro/contact/contact-samusocial/",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "tine-o-lista-pe-hartie",
+          "title": "Ține o listă pe hârtie",
+          "description": "Notează numerele 112, 021 9524, un contact de încredere, medicamentele și numărul dosarului social. Dacă telefonul se descarcă sau se pierde, această listă te ajută să continui demersurile.",
+          "last_verified": "2026-11-12",
+          "address": "",
+          "phone": "",
+          "website": "",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "gara-de-nord",
+          "title": "Gara de Nord",
+          "description": "Dacă ai rămas fără adăpost în gară, sună la 021 9524 și spune „Gara de Nord”, intrarea sau reperul exact. Pentru pericol, furt, agresiune ori urgență medicală, 112.\nNu accepta transport, cazare sau muncă de la necunoscuți care îți cer bani, acte originale ori telefonul.",
+          "last_verified": "2026-11-12",
+          "address": "",
+          "phone": "",
+          "website": "",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "autobuzul-100-catre-aeroportul-henri-coanda",
+          "title": "Autobuzul 100 către Aeroportul Henri Coandă",
+          "description": "Linia 100 leagă Piața Unirii de aeroport și circulă și noaptea. Începând din aprilie 2026, pe durata lucrărilor publicate, liniile 100 și 442 opresc la stația comună „Aeroport Henri Coandă”, în zona Plecări.\nVerifică traseul și titlul de călătorie în InfoTB sau pe site-ul STB înainte să pleci; lucrările și stațiile se pot schimba.\nSTB — modificarea stației aeroportului în 2026",
+          "last_verified": "2026-11-12",
+          "address": "",
+          "phone": "",
+          "website": "https://www.stb.ro/info?N=2577",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "nu-merge-la-aeroport-pentru-adapost",
+          "title": "Nu merge la aeroport pentru adăpost",
+          "description": "Aeroportul și gara nu sunt adăposturi sociale. Dacă nu ai bilet sau un plan sigur, sună mai întâi la 021 9524. Întreabă despre un centru potrivit și transport, mai ales noaptea sau pe vreme extremă.\nDGASMB — sprijin pentru persoane fără adăpost",
+          "last_verified": "2026-11-12",
+          "address": "",
+          "phone": "",
+          "website": "https://www.dgas.ro/sprijin-pentru-persoanele-fara-adapost-021-9524/",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
       "id": "benefits",
-      "title": "6. Beneficii și locuire",
-      "items": [
+      "title": "Beneficii și locuire",
+      "entries": [
         {
-          "type": "resource",
           "id": "venitul-minim-de-incluziune",
-          "name": "Venitul minim de incluziune",
+          "title": "Venitul minim de incluziune",
+          "description": "O persoană fără adăpost poate cere evaluare la serviciul public de asistență socială al sectorului în care locuiește efectiv. Sunt verificate veniturile, componența familiei, actele și celelalte condiții legale.\nCere asistentului social lista exactă de acte și număr de înregistrare. Cererea nu garantează aprobarea și plata nu este imediată.\nMinisterul Muncii — beneficii de asistență socială",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "O persoană fără adăpost poate cere evaluare la serviciul public de asistență socială al sectorului în care locuiește efectiv. Sunt verificate veniturile, componența familiei, actele și celelalte condiții legale."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Cere asistentului social lista exactă de acte și număr de înregistrare. Cererea nu garantează aprobarea și plata nu este imediată."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ministerul Muncii — beneficii de asistență socială",
-                  "href": "https://beneficiifamiliale.mmuncii.ro/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://beneficiifamiliale.mmuncii.ro/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "incepe-cu-serviciul-social-al-sectorului",
-          "name": "Începe cu serviciul social al sectorului",
+          "title": "Începe cu serviciul social al sectorului",
+          "description": "DGASMB, centrul de zi sau adăpostul te poate orienta către DGASPC-ul sectorului unde stai. Cere evaluare pentru venit minim, ajutor de urgență, cantină, dizabilitate, acte și locuire. Păstrează copii și numere de înregistrare.\nDGASMB — servicii licențiate pe sectoare",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "DGASMB, centrul de zi sau adăpostul te poate orienta către DGASPC-ul sectorului unde stai. Cere evaluare pentru venit minim, ajutor de urgență, cantină, dizabilitate, acte și locuire. Păstrează copii și numere de înregistrare."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "DGASMB — servicii licențiate pe sectoare",
-                  "href": "https://www.dgas.ro/servicii-sociale-licentiate-municipiul-bucuresti/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.dgas.ro/servicii-sociale-licentiate-municipiul-bucuresti/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "locuinte-sociale-ale-municipiului-bucuresti",
-          "name": "Locuințe sociale ale Municipiului București",
+          "title": "Locuințe sociale ale Municipiului București",
+          "description": "Locuința socială se acordă prin dosar, criterii și listă de priorități; nu este o soluție pentru noaptea curentă. Verifică atât Primăria Municipiului București, cât și sectorul de care aparții.\nNu plăti intermediar pentru „grăbirea” dosarului. Cere lista actuală de acte și dovada depunerii.\nPrimăria Municipiului București — spațiu locativ",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Locuința socială se acordă prin dosar, criterii și listă de priorități; nu este o soluție pentru noaptea curentă. Verifică atât Primăria Municipiului București, cât și sectorul de care aparții."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Nu plăti intermediar pentru „grăbirea” dosarului. Cere lista actuală de acte și dovada depunerii."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Primăria Municipiului București — spațiu locativ",
-                  "href": "https://www.pmb.ro/interes-public/menu-page/spatiu-locativ"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.pmb.ro/interes-public/menu-page/spatiu-locativ",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "sprijin-pentru-persoane-cu-dizabilitati",
-          "name": "Sprijin pentru persoane cu dizabilități",
+          "title": "Sprijin pentru persoane cu dizabilități",
+          "description": "Telefon gratuit DGASMB: 0800 821 218; email: adulticuhandicap@dgas.ro. — mailto:adulticuhandicap@dgas.ro\nÎntreabă despre evaluare, prestații, certificat, asistent personal și servicii. Spune dacă ai nevoie de adăpost accesibil, dispozitiv de mobilitate, medicamente sau însoțitor.\nDGASMB — servicii pentru adulți cu dizabilități",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefon gratuit DGASMB:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "0800 821 218",
-                  "href": "tel:0800821218"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "email:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "adulticuhandicap@dgas.ro",
-                  "href": "mailto:adulticuhandicap@dgas.ro"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Întreabă despre evaluare, prestații, certificat, asistent personal și servicii. Spune dacă ai nevoie de adăpost accesibil, dispozitiv de mobilitate, medicamente sau însoțitor."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "DGASMB — servicii pentru adulți cu dizabilități",
-                  "href": "https://www.dgas.ro/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "0800821218",
+          "website": "https://www.dgas.ro/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "centrul-perla-sprijin-pentru-persoane-varstnice",
-          "name": "Centrul Perla — sprijin pentru persoane vârstnice",
+          "title": "Centrul Perla — sprijin pentru persoane vârstnice",
+          "description": "Telefon: 0753 065 331; program publicat: luni–vineri 08:30–16:30.\nInformare, consiliere și orientare pentru vârstnici. Nu este adăpost de urgență; pentru noaptea curentă sună la 021 9524.\nDGASMB — servicii pentru vârstnici",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Adresă:",
-                  "strong": true
-                },
-                {
-                  "text": " Șos. Ștefan cel Mare 1–3, Sector 1"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefon:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "0753 065 331",
-                  "href": "tel:+40753065331"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "program publicat:",
-                  "strong": true
-                },
-                {
-                  "text": " luni–vineri 08:30–16:30."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Informare, consiliere și orientare pentru vârstnici. Nu este adăpost de urgență; pentru noaptea curentă sună la 021 9524."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "DGASMB — servicii pentru vârstnici",
-                  "href": "https://www.dgas.ro/"
-                }
-              ]
-            }
-          ]
+          "address": "Adresă: Șos. Ștefan cel Mare 1–3, Sector 1",
+          "phone": "+40753065331",
+          "website": "https://www.dgas.ro/",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
-      "id": "jobs",
-      "title": "7. Muncă și formare",
-      "items": [
+      "id": "employment",
+      "title": "Muncă și formare",
+      "entries": [
         {
-          "type": "resource",
           "id": "amofm-bucuresti",
-          "name": "AMOFM București",
+          "title": "AMOFM București",
+          "description": "Telefon: 0729 829 446; program: luni–joi 08:00–16:30, vineri 08:00–14:00.\nÎnregistrare, consiliere, mediere, locuri de muncă și cursuri. Pagina de contact include agențiile pentru toate cele șase sectoare. Sună pentru actele cerute și explică dacă nu ai adresă stabilă.\nAMOFM București — contact și agenții de sector · anunțuri și locuri de muncă — https://www.anofm.ro/bucuresti/",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Adresă:",
-                  "strong": true
-                },
-                {
-                  "text": " Str. Spătaru Preda 12, Sector 5"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefon:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "0729 829 446",
-                  "href": "tel:+40729829446"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "program:",
-                  "strong": true
-                },
-                {
-                  "text": " luni–joi 08:00–16:30, vineri 08:00–14:00."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Înregistrare, consiliere, mediere, locuri de muncă și cursuri. Pagina de contact include agențiile pentru toate cele șase sectoare. Sună pentru actele cerute și explică dacă nu ai adresă stabilă."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "AMOFM București — contact și agenții de sector",
-                  "href": "https://www.anofm.ro/bucuresti/contact/"
-                },
-                {
-                  "text": " · "
-                },
-                {
-                  "text": "anunțuri și locuri de muncă",
-                  "href": "https://www.anofm.ro/bucuresti/"
-                }
-              ]
-            }
-          ]
+          "address": "Adresă: Str. Spătaru Preda 12, Sector 5",
+          "phone": "+40729829446",
+          "website": "https://www.anofm.ro/bucuresti/contact/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "centrul-de-zi-pallady-reintegrare-profesionala",
-          "name": "Centrul de zi Pallady — reintegrare profesională",
+          "title": "Centrul de zi Pallady — reintegrare profesională",
+          "description": "Telefon: 021 314 2315.\nSprijin pentru găsirea unui loc de muncă, pregătirea interviului și legătura cu servicii de locuire, după admitere și evaluare.\nDGASMB — Centrul de zi",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Adresă:",
-                  "strong": true
-                },
-                {
-                  "text": " Bd. Theodor Pallady 64, Sector 3"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefon:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "021 314 2315",
-                  "href": "tel:+40213142315"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Sprijin pentru găsirea unui loc de muncă, pregătirea interviului și legătura cu servicii de locuire, după admitere și evaluare."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "DGASMB — Centrul de zi",
-                  "href": "https://www.dgas.ro/project/centrul-de-zi-pentru-integrare-reintegrare-sociala/"
-                }
-              ]
-            }
-          ]
+          "address": "Adresă: Bd. Theodor Pallady 64, Sector 3",
+          "phone": "+40213142315",
+          "website": "https://www.dgas.ro/project/centrul-de-zi-pentru-integrare-reintegrare-sociala/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "armata-salvarii-orientare-profesionala",
-          "name": "Armata Salvării — orientare profesională",
+          "title": "Armata Salvării — orientare profesională",
+          "description": "Telefon: 0727 116 466.\nConsiliere, orientare către muncă și ajutor pentru stabilirea pașilor necesari. Sună pentru program și întâlnire.\nArmata Salvării — centre de consiliere",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Adresă:",
-                  "strong": true
-                },
-                {
-                  "text": " Str. Ing. Dumitru Zosima 16, Sector 1"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefon:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "0727 116 466",
-                  "href": "tel:+40727116466"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Consiliere, orientare către muncă și ajutor pentru stabilirea pașilor necesari. Sună pentru program și întâlnire."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Armata Salvării — centre de consiliere",
-                  "href": "https://www.armatasalvarii.ro/centre-de-consiliere-si-informare"
-                }
-              ]
-            }
-          ]
+          "address": "Adresă: Str. Ing. Dumitru Zosima 16, Sector 1",
+          "phone": "+40727116466",
+          "website": "https://www.armatasalvarii.ro/centre-de-consiliere-si-informare",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "cauta-munca-in-siguranta",
-          "name": "Caută muncă în siguranță",
+          "title": "Caută muncă în siguranță",
+          "description": "Nu plăti pentru promisiunea unui loc de muncă, nu lăsa actul original angajatorului și nu da coduri bancare. Cere contractul și condițiile în scris. Un asistent social poate ajuta cu telefon, email, adresă de corespondență și acte.\nANOFM — cum găsești un loc de muncă",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Nu plăti pentru promisiunea unui loc de muncă, nu lăsa actul original angajatorului și nu da coduri bancare. Cere contractul și condițiile în scris. Un asistent social poate ajuta cu telefon, email, adresă de corespondență și acte."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "ANOFM — cum găsești un loc de muncă",
-                  "href": "https://www.anofm.ro/cum-gasesti-un-loc-de-munca-in-romania/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.anofm.ro/cum-gasesti-un-loc-de-munca-in-romania/",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
+    },
+    {
+      "id": "legal",
+      "title": "Legal aid",
+      "entries": []
     },
     {
       "id": "documents",
-      "title": "8. Acte și ajutor juridic",
-      "items": [
+      "title": "Acte și ajutor juridic",
+      "entries": [
         {
-          "type": "resource",
           "id": "fara-act-de-identitate",
-          "name": "Fără act de identitate",
+          "title": "Fără act de identitate",
+          "description": "Spune acest lucru la 021 9524, adăpost sau centru de zi. Serviciul de urgență poate cere sprijinul poliției pentru identificare. Un asistent social te poate ajuta să obții acte de stare civilă, dovada situației sociale și programare la evidența persoanelor.\nDGASMB — intervenție fără documente",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Spune acest lucru la 021 9524, adăpost sau centru de zi. Serviciul de urgență poate cere sprijinul poliției pentru identificare. Un asistent social te poate ajuta să obții acte de stare civilă, dovada situației sociale și programare la evidența persoanelor."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "DGASMB — intervenție fără documente",
-                  "href": "https://www.dgas.ro/project/serviciul-urgente-sociale/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.dgas.ro/project/serviciul-urgente-sociale/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "directia-generala-de-evidenta-a-persoanelor-bucuresti",
-          "name": "Direcția Generală de Evidență a Persoanelor București",
+          "title": "Direcția Generală de Evidență a Persoanelor București",
+          "description": "Serviciile locale de sector soluționează actele de identitate. Dacă lipsesc documente, întreabă despre cartea de identitate provizorie și lista actuală de dovezi. Nu merge la o adresă aleasă la întâmplare; verifică serviciul competent.\nDGEPMB — evidența persoanelor · întrebări frecvente — https://dgepmb.ro/intrebari-frecvente/",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Serviciile locale de sector soluționează actele de identitate. Dacă lipsesc documente, întreabă despre cartea de identitate provizorie și lista actuală de dovezi. Nu merge la o adresă aleasă la întâmplare; verifică serviciul competent."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "DGEPMB — evidența persoanelor",
-                  "href": "https://dgepmb.ro/evidenta-persoanelor/"
-                },
-                {
-                  "text": " · "
-                },
-                {
-                  "text": "întrebări frecvente",
-                  "href": "https://dgepmb.ro/intrebari-frecvente/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://dgepmb.ro/evidenta-persoanelor/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "baroul-bucuresti-ajutor-public-judiciar",
-          "name": "Baroul București — ajutor public judiciar",
+          "title": "Baroul București — ajutor public judiciar",
+          "description": "Telefon informații: 021 314 2023; email: saj@baroul-bucuresti.ro; program public civil publicat: marți și joi 12:00–14:00. — mailto:saj@baroul-bucuresti.ro\nPentru informații despre asistență judiciară și ajutor public judiciar în materie civilă. Eligibilitatea și desemnarea avocatului depind de procedura legală; sună înainte.\nBaroul București — Serviciul de Asistență Judiciară",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefon informații:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "021 314 2023",
-                  "href": "tel:+40213142023"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "email:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "saj@baroul-bucuresti.ro",
-                  "href": "mailto:saj@baroul-bucuresti.ro"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "program public civil publicat:",
-                  "strong": true
-                },
-                {
-                  "text": " marți și joi 12:00–14:00."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Pentru informații despre asistență judiciară și ajutor public judiciar în materie civilă. Eligibilitatea și desemnarea avocatului depind de procedura legală; sună înainte."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Baroul București — Serviciul de Asistență Judiciară",
-                  "href": "https://www.baroul-bucuresti.ro/serviciul-de-asistenta-juridica5"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+40213142023",
+          "website": "https://www.baroul-bucuresti.ro/serviciul-de-asistenta-juridica5",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "avocatul-poporului",
-          "name": "Avocatul Poporului",
+          "title": "Avocatul Poporului",
+          "description": "Telefon: 021 312 7134; email petiții: petitii@avp.ro; program: luni–joi 08:00–16:30, vineri 08:00–14:00. — mailto:petitii@avp.ro\nPentru probleme cu autorități publice și încălcarea drepturilor. Nu înlocuiește 112, avocatul într-un dosar și nici termenul de contestație.\nAvocatul Poporului — contact",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Adresă:",
-                  "strong": true
-                },
-                {
-                  "text": " Str. George Vraca 8, Sector 1"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefon:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "021 312 7134",
-                  "href": "tel:+40213127134"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "email petiții:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "petitii@avp.ro",
-                  "href": "mailto:petitii@avp.ro"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "program:",
-                  "strong": true
-                },
-                {
-                  "text": " luni–joi 08:00–16:30, vineri 08:00–14:00."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Pentru probleme cu autorități publice și încălcarea drepturilor. Nu înlocuiește 112, avocatul într-un dosar și nici termenul de contestație."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Avocatul Poporului — contact",
-                  "href": "https://avp.ro/index.php/contact/"
-                }
-              ]
-            }
-          ]
+          "address": "Adresă: Str. George Vraca 8, Sector 1",
+          "phone": "+40213127134",
+          "website": "https://avp.ro/index.php/contact/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "consiliul-national-pentru-combaterea-discriminarii",
-          "name": "Consiliul Național pentru Combaterea Discriminării",
+          "title": "Consiliul Național pentru Combaterea Discriminării",
+          "description": "Pentru discriminare pe criterii precum rasă, etnie, dizabilitate, sex, orientare sexuală, vârstă sau situație socială. Păstrează dovezi, date și nume; verifică termenul de depunere.\nCNCD — depune o petiție · contact — https://www.cncd.ro/contacte/",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Pentru discriminare pe criterii precum rasă, etnie, dizabilitate, sex, orientare sexuală, vârstă sau situație socială. Păstrează dovezi, date și nume; verifică termenul de depunere."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "CNCD — depune o petiție",
-                  "href": "https://www.cncd.ro/depune-o-petitie/"
-                },
-                {
-                  "text": " · "
-                },
-                {
-                  "text": "contact",
-                  "href": "https://www.cncd.ro/contacte/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.cncd.ro/depune-o-petitie/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "armata-salvarii-si-samusocial-acte-si-drepturi",
-          "name": "Armata Salvării și Samusocial — acte și drepturi",
+          "title": "Armata Salvării și Samusocial — acte și drepturi",
+          "description": "Ambele organizații pot ajuta cu orientarea socială, refacerea documentelor și accesul la servicii. Nu pot înlocui instituția emitentă, dar pot explica ordinea pașilor și pot face trimiteri.\nArmata Salvării · Samusocial — https://www.samusocial.ro/despre-noi/servicii/",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ambele organizații pot ajuta cu orientarea socială, refacerea documentelor și accesul la servicii. Nu pot înlocui instituția emitentă, dar pot explica ordinea pașilor și pot face trimiteri."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Armata Salvării",
-                  "href": "https://www.armatasalvarii.ro/centre-de-consiliere-si-informare"
-                },
-                {
-                  "text": " · "
-                },
-                {
-                  "text": "Samusocial",
-                  "href": "https://www.samusocial.ro/despre-noi/servicii/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.armatasalvarii.ro/centre-de-consiliere-si-informare",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
+    },
+    {
+      "id": "mail",
+      "title": "Mailing address",
+      "entries": []
+    },
+    {
+      "id": "storage",
+      "title": "Storage",
+      "entries": []
     },
     {
       "id": "safety",
-      "title": "9. Violență, copii și sprijin specializat",
-      "items": [
+      "title": "Violență, copii și sprijin specializat",
+      "entries": [
         {
-          "type": "resource",
           "id": "dgasmb-forte-si-femina-adapost-sigur",
-          "name": "DGASMB Forte și Femina — adăpost sigur",
+          "title": "DGASMB Forte și Femina — adăpost sigur",
+          "description": "Acces de urgență: 021 9524.\nAdăpost temporar și sprijin social, psihologic și medical pentru femei victime ale violenței și copiii lor. Adresele de siguranță nu se publică. Pentru pericol imediat, 112.\nDGASMB — Forte · Femina — https://www.dgas.ro/project/centrul-de-primire-in-regim-de-urgenta-pentru-victimele-violentei-domestice-femina/",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Acces de urgență:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "021 9524",
-                  "href": "tel:+40219524"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Adăpost temporar și sprijin social, psihologic și medical pentru femei victime ale violenței și copiii lor. Adresele de siguranță nu se publică. Pentru pericol imediat, 112."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "DGASMB — Forte",
-                  "href": "https://www.dgas.ro/project/centrul-de-primire-in-regim-de-urgenta-pentru-victimele-violentei-domestice-forte/"
-                },
-                {
-                  "text": " · "
-                },
-                {
-                  "text": "Femina",
-                  "href": "https://www.dgas.ro/project/centrul-de-primire-in-regim-de-urgenta-pentru-victimele-violentei-domestice-femina/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+40219524",
+          "website": "https://www.dgas.ro/project/centrul-de-primire-in-regim-de-urgenta-pentru-victimele-violentei-domestice-forte/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "casa-ioana-femei-copii-si-familii",
-          "name": "Casa Ioana — femei, copii și familii",
+          "title": "Casa Ioana — femei, copii și familii",
+          "description": "Telefon în orele de lucru: 021 332 6390; email: help@casaioana.org. — mailto:help@casaioana.org\nAjutor pentru femei și copii afectați de violență domestică sau lipsa locuinței în familie. Nu este obligatorie cetățenia română. Sună pentru evaluare; locația de cazare sigură nu trebuie presupusă din adresa de contact.\nCasa Ioana — servicii",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefon în orele de lucru:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "021 332 6390",
-                  "href": "tel:+40213326390"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "email:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "help@casaioana.org",
-                  "href": "mailto:help@casaioana.org"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ajutor pentru femei și copii afectați de violență domestică sau lipsa locuinței în familie. Nu este obligatorie cetățenia română. Sună pentru evaluare; locația de cazare sigură nu trebuie presupusă din adresa de contact."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Casa Ioana — servicii",
-                  "href": "https://casaioana.org/our-services/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+40213326390",
+          "website": "https://casaioana.org/our-services/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "trafic-de-persoane-anitp",
-          "name": "Trafic de persoane — ANITP",
+          "title": "Trafic de persoane — ANITP",
+          "description": "TelVerde: 0800 800 678; din străinătate: +40 21 313 3100.\nPentru muncă forțată, exploatare sexuală, reținerea actelor sau amenințări de la traficant. În afara programului poate răspunde mesageria; pentru pericol imediat, 112.\nANITP — contact",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "TelVerde:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "0800 800 678",
-                  "href": "tel:0800800678"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "din străinătate:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "+40 21 313 3100",
-                  "href": "tel:+40213133100"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Pentru muncă forțată, exploatare sexuală, reținerea actelor sau amenințări de la traficant. În afara programului poate răspunde mesageria; pentru pericol imediat, 112."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "ANITP — contact",
-                  "href": "https://anitp.mai.gov.ro/contact/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "0800800678",
+          "website": "https://anitp.mai.gov.ro/contact/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "accept-sprijin-pentru-persoane-lgbti",
-          "name": "ACCEPT — sprijin pentru persoane LGBTI",
+          "title": "ACCEPT — sprijin pentru persoane LGBTI",
+          "description": "Telefon: 0736 400 410; email: accept@acceptromania.ro. — mailto:accept@acceptromania.ro\nConsiliere juridică, psihologică și orientare pentru persoane LGBTI. Pentru violență care se întâmplă acum, 112.\nAsociația ACCEPT",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Adresă:",
-                  "strong": true
-                },
-                {
-                  "text": " Str. Lirei 10, Sector 2"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefon:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "0736 400 410",
-                  "href": "tel:+40736400410"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "email:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "accept@acceptromania.ro",
-                  "href": "mailto:accept@acceptromania.ro"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Consiliere juridică, psihologică și orientare pentru persoane LGBTI. Pentru violență care se întâmplă acum, 112."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Asociația ACCEPT",
-                  "href": "https://acceptromania.ro/"
-                }
-              ]
-            }
-          ]
+          "address": "Adresă: Str. Lirei 10, Sector 2",
+          "phone": "+40736400410",
+          "website": "https://acceptromania.ro/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "centrul-pentru-femei",
-          "name": "Centrul pentru femei",
+          "title": "Centrul pentru femei",
+          "description": "Telefon: 0758 047 398; program publicat: luni–vineri 08:00–16:00.\nServiciu DGASMB pentru consiliere și sprijin. Sună înainte și explică dacă ai nevoie de protecție, adăpost, acte, sănătate sau sprijin pentru copii.\nDGASMB — Centrul pentru femei",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Adresă:",
-                  "strong": true
-                },
-                {
-                  "text": " Str. Lucrețiu Pătrășcanu 17, Sector 3"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefon:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "0758 047 398",
-                  "href": "tel:+40758047398"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "program publicat:",
-                  "strong": true
-                },
-                {
-                  "text": " luni–vineri 08:00–16:00."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Serviciu DGASMB pentru consiliere și sprijin. Sună înainte și explică dacă ai nevoie de protecție, adăpost, acte, sănătate sau sprijin pentru copii."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "DGASMB — Centrul pentru femei",
-                  "href": "https://www.dgas.ro/"
-                }
-              ]
-            }
-          ]
+          "address": "Adresă: Str. Lucrețiu Pătrășcanu 17, Sector 3",
+          "phone": "+40758047398",
+          "website": "https://www.dgas.ro/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "centre-de-zi-pentru-parinti-si-copii",
-          "name": "Centre de zi pentru părinți și copii",
+          "title": "Centre de zi pentru părinți și copii",
+          "description": "DGASMB publică centrele „La Bunici”, „Maria” și „Iuliu Maniu”, cu sprijin pentru părinți și copii. Telefon central: 021 314 2315, tasta 4; program publicat: luni–vineri 08:30–16:30.\nPentru un copil în pericol sună la 119 sau 112; aceste centre nu înlocuiesc intervenția de urgență.\nDGASMB — servicii pentru copii și familie",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "DGASMB publică centrele „La Bunici”, „Maria” și „Iuliu Maniu”, cu sprijin pentru părinți și copii. "
-                },
-                {
-                  "text": "Telefon central:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "021 314 2315",
-                  "href": "tel:+40213142315"
-                },
-                {
-                  "text": ", tasta 4; "
-                },
-                {
-                  "text": "program publicat:",
-                  "strong": true
-                },
-                {
-                  "text": " luni–vineri 08:30–16:30."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Pentru un copil în pericol sună la 119 sau 112; aceste centre nu înlocuiesc intervenția de urgență."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "DGASMB — servicii pentru copii și familie",
-                  "href": "https://www.dgas.ro/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+40213142315",
+          "website": "https://www.dgas.ro/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "nevoi-de-accesibilitate",
-          "name": "Nevoi de accesibilitate",
+          "title": "Nevoi de accesibilitate",
+          "description": "Spune de la primul apel dacă folosești scaun rulant, ai nevoie de însoțitor, aparat auditiv, insulină, oxigen, medicamente refrigerate sau altă adaptare. Cere confirmare că spațiul și transportul sunt accesibile înainte de deplasare.\nDGASMB — servicii licențiate",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Spune de la primul apel dacă folosești scaun rulant, ai nevoie de însoțitor, aparat auditiv, insulină, oxigen, medicamente refrigerate sau altă adaptare. Cere confirmare că spațiul și transportul sunt accesibile înainte de deplasare."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "DGASMB — servicii licențiate",
-                  "href": "https://www.dgas.ro/servicii-sociale-licentiate-municipiul-bucuresti/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.dgas.ro/servicii-sociale-licentiate-municipiul-bucuresti/",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
-      "id": "migrants",
-      "title": "10. Migranți și refugiați",
-      "items": [
+      "id": "specialist-support",
+      "title": "Migranți și refugiați",
+      "entries": [
         {
-          "type": "resource",
           "id": "consiliul-national-roman-pentru-refugiati",
-          "name": "Consiliul Național Român pentru Refugiați",
+          "title": "Consiliul Național Român pentru Refugiați",
+          "description": "Centrală: 021 312 6210; solicitanți de azil: 0721 206 926; call center: 0730 073 170, luni–vineri 09:00–17:00.\nConsiliere juridică și socială pentru solicitanți de azil, refugiați și beneficiari de protecție. Sună pentru limbă, programare și eligibilitate.\nCNRR — contact și linii de asistență",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Adresă:",
-                  "strong": true
-                },
-                {
-                  "text": " Str. Viesparilor 19, etajul 2, Sector 2"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Centrală:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "021 312 6210",
-                  "href": "tel:+40213126210"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "solicitanți de azil:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "0721 206 926",
-                  "href": "tel:+40721206926"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "call center:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "0730 073 170",
-                  "href": "tel:+40730073170"
-                },
-                {
-                  "text": ", luni–vineri 09:00–17:00."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Consiliere juridică și socială pentru solicitanți de azil, refugiați și beneficiari de protecție. Sună pentru limbă, programare și eligibilitate."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "CNRR — contact și linii de asistență",
-                  "href": "https://cnrr.ro/en/contact-1"
-                }
-              ]
-            }
-          ]
+          "address": "Adresă: Str. Viesparilor 19, etajul 2, Sector 2",
+          "phone": "+40213126210",
+          "website": "https://cnrr.ro/en/contact-1",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "jrs-romania",
-          "name": "JRS România",
+          "title": "JRS România",
+          "description": "Română și engleză: 0732 129 238; ucraineană: 0731 831 624; program: luni–vineri 09:00–17:00.\nSprijin social, juridic, psihologic, educațional și orientare către locuire, muncă și servicii esențiale pentru refugiați și migranți.\nJRS România — echipa din București",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Adresă:",
-                  "strong": true
-                },
-                {
-                  "text": " Str. Maior Ilie Opriș 54, Sector 4"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Română și engleză:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "0732 129 238",
-                  "href": "tel:+40732129238"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "ucraineană:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "0731 831 624",
-                  "href": "tel:+40731831624"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "program:",
-                  "strong": true
-                },
-                {
-                  "text": " luni–vineri 09:00–17:00."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Sprijin social, juridic, psihologic, educațional și orientare către locuire, muncă și servicii esențiale pentru refugiați și migranți."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "JRS România — echipa din București",
-                  "href": "https://jrsromania.org/ro/unde-lucram/"
-                }
-              ]
-            }
-          ]
+          "address": "Adresă: Str. Maior Ilie Opriș 54, Sector 4",
+          "phone": "+40732129238",
+          "website": "https://jrsromania.org/ro/unde-lucram/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "aidrom-consiliere-pentru-persoane-in-risc",
-          "name": "AIDRom — consiliere pentru persoane în risc",
+          "title": "AIDRom — consiliere pentru persoane în risc",
+          "description": "Telefon: 021 212 4868; program: luni–vineri 09:00–17:00.\nConsiliere socială și juridică și orientare pentru migranți, refugiați și alte persoane vulnerabile. Sună pentru programare și limba disponibilă.\nAIDRom — centrul de consiliere București · contact — https://www.aidrom.ro/en/contact/",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Adresă:",
-                  "strong": true
-                },
-                {
-                  "text": " Str. Ilarie Chendi 14, Sector 2"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefon:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "021 212 4868",
-                  "href": "tel:+40212124868"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "program:",
-                  "strong": true
-                },
-                {
-                  "text": " luni–vineri 09:00–17:00."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Consiliere socială și juridică și orientare pentru migranți, refugiați și alte persoane vulnerabile. Sună pentru programare și limba disponibilă."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "AIDRom — centrul de consiliere București",
-                  "href": "https://www.aidrom.ro/en/project/multifunctional-counseling-centers-for-people-in-risk/"
-                },
-                {
-                  "text": " · "
-                },
-                {
-                  "text": "contact",
-                  "href": "https://www.aidrom.ro/en/contact/"
-                }
-              ]
-            }
-          ]
+          "address": "Adresă: Str. Ilarie Chendi 14, Sector 2",
+          "phone": "+40212124868",
+          "website": "https://www.aidrom.ro/en/project/multifunctional-counseling-centers-for-people-in-risk/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "daca-nu-vorbesti-romana",
-          "name": "Dacă nu vorbești română",
+          "title": "Dacă nu vorbești română",
+          "description": "Spune limba la începutul apelului și cere interpret. CNRR, JRS și AIDRom pot explica pașii pentru azil, protecție, acte, muncă și sănătate. Pentru pericol imediat sună la 112; operatorul poate conecta interpretariat.\nCNRR — contact multilingv",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Spune limba la începutul apelului și cere interpret. CNRR, JRS și AIDRom pot explica pașii pentru azil, protecție, acte, muncă și sănătate. Pentru pericol imediat sună la 112; operatorul poate conecta interpretariat."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "CNRR — contact multilingv",
-                  "href": "https://cnrr.ro/en/contact-1"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://cnrr.ro/en/contact-1",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
-      "id": "transport",
-      "title": "11. Transport, telefon și internet",
-      "items": [
-        {
-          "type": "resource",
-          "id": "tarife-si-gratuitati-stb",
-          "name": "Tarife și gratuități STB",
-          "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "STB publică tarifele și categoriile cu gratuitate sau reducere. Persoanele cu handicap grav ori accentuat și însoțitorii eligibili folosesc legitimația eliberată de DGASPC. Lipsa adăpostului, singură, nu înseamnă automat transport gratuit."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Întreabă asistentul social ce document și ce card îți trebuie. Nu călători fără titlu valabil dacă nu ai confirmarea gratuității."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "STB — tarife și categorii de gratuitate",
-                  "href": "https://www.stb.ro/tarife.php"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "transport-catre-un-adapost",
-          "name": "Transport către un adăpost",
-          "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Serviciul Urgențe Sociale poate prelua și transporta persoane de pe stradă către centre sociale, după evaluare. Sună la "
-                },
-                {
-                  "text": "021 9524",
-                  "href": "tel:+40219524"
-                },
-                {
-                  "text": " și oferă punctul exact și descrierea persoanei."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "DGASMB — intervenție și transport",
-                  "href": "https://www.dgas.ro/project/serviciul-urgente-sociale/"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "telefon-si-internet",
-          "name": "Telefon și internet",
-          "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Întreabă la Pallady, Samusocial, Armata Salvării sau biblioteca publică dacă poți încărca telefonul, folosi Wi-Fi ori un calculator. Nu există garanție de acces. Păstrează telefonul lângă tine și nu da PIN-ul sau parolele altcuiva."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Samusocial — centru de zi",
-                  "href": "https://www.samusocial.ro/contact/contact-samusocial/"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "tine-o-lista-pe-hartie",
-          "name": "Ține o listă pe hârtie",
-          "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Notează numerele 112, 021 9524, un contact de încredere, medicamentele și numărul dosarului social. Dacă telefonul se descarcă sau se pierde, această listă te ajută să continui demersurile."
-                }
-              ]
-            }
-          ]
-        }
-      ]
+      "id": "veterans",
+      "title": "Veterans support",
+      "entries": []
     },
     {
       "id": "pets",
-      "title": "12. Ajutor pentru animale",
-      "items": [
+      "title": "Ajutor pentru animale",
+      "entries": [
         {
-          "type": "resource",
           "id": "spune-de-la-inceput-ca-ai-un-animal",
-          "name": "Spune de la început că ai un animal",
+          "title": "Spune de la început că ai un animal",
+          "description": "Întreabă la 021 9524 sau la adăpost dacă animalul poate rămâne cu tine ori dacă există o soluție temporară sigură. Niciun adăpost de pe această pagină nu este prezentat ca acceptând automat animale.\nNu abandona animalul pe baza unei promisiuni verbale. Cere numele serviciului, adresa și confirmarea condițiilor.",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Întreabă la 021 9524 sau la adăpost dacă animalul poate rămâne cu tine ori dacă există o soluție temporară sigură. Niciun adăpost de pe această pagină nu este prezentat ca acceptând automat animale."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Nu abandona animalul pe baza unei promisiuni verbale. Cere numele serviciului, adresa și confirmarea condițiilor."
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "aspa-bucuresti-caini-fara-stapan-pe-domeniul-public",
-          "name": "ASPA București — câini fără stăpân pe domeniul public",
+          "title": "ASPA București — câini fără stăpân pe domeniul public",
+          "description": "Sesizări non-stop: 021 9844; sesizări luni–vineri 08:00–16:00: 021 312 9555.\nASPA intervine pentru câini fără stăpân aflați pe domeniul public al Bucureștiului. Nu este serviciu de cazare pentru animalul unei persoane fără adăpost; explică situația și întreabă ce soluții sau parteneri există.\nASPA — sesizări și programul echipajelor",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Sesizări non-stop:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "021 9844",
-                  "href": "tel:+40219844"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "sesizări luni–vineri 08:00–16:00:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "021 312 9555",
-                  "href": "tel:+40213129555"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "ASPA intervine pentru câini fără stăpân aflați pe domeniul public al Bucureștiului. Nu este serviciu de cazare pentru animalul unei persoane fără adăpost; explică situația și întreabă ce soluții sau parteneri există."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "ASPA — sesizări și programul echipajelor",
-                  "href": "https://aspa.ro/captura/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+40219844",
+          "website": "https://aspa.ro/captura/",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
-      "id": "travel",
-      "title": "13. Gară și aeroport",
-      "items": [
-        {
-          "type": "resource",
-          "id": "gara-de-nord",
-          "name": "Gara de Nord",
-          "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Dacă ai rămas fără adăpost în gară, sună la 021 9524 și spune „Gara de Nord”, intrarea sau reperul exact. Pentru pericol, furt, agresiune ori urgență medicală, 112."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Nu accepta transport, cazare sau muncă de la necunoscuți care îți cer bani, acte originale ori telefonul."
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "autobuzul-100-catre-aeroportul-henri-coanda",
-          "name": "Autobuzul 100 către Aeroportul Henri Coandă",
-          "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Linia 100 leagă Piața Unirii de aeroport și circulă și noaptea. Începând din aprilie 2026, pe durata lucrărilor publicate, liniile 100 și 442 opresc la stația comună „Aeroport Henri Coandă”, în zona Plecări."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Verifică traseul și titlul de călătorie în InfoTB sau pe site-ul STB înainte să pleci; lucrările și stațiile se pot schimba."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "STB — modificarea stației aeroportului în 2026",
-                  "href": "https://www.stb.ro/info?N=2577"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "nu-merge-la-aeroport-pentru-adapost",
-          "name": "Nu merge la aeroport pentru adăpost",
-          "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Aeroportul și gara nu sunt adăposturi sociale. Dacă nu ai bilet sau un plan sigur, sună mai întâi la 021 9524. Întreabă despre un centru potrivit și transport, mai ales noaptea sau pe vreme extremă."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "DGASMB — sprijin pentru persoane fără adăpost",
-                  "href": "https://www.dgas.ro/sprijin-pentru-persoanele-fara-adapost-021-9524/"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "verificare-si-corecturi",
+      "id": "other",
       "title": "Verificare și corecturi",
-      "items": [
+      "entries": [
         {
-          "type": "paragraph",
-          "content": [
-            {
-              "text": "Pagina folosește surse ale autorităților și paginile oficiale ale organizațiilor. Când accesul depinde de sector, domiciliu, evaluare sau înscriere, acest lucru este menționat. Sună înainte pentru situația din ziua respectivă."
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "content": [
-            {
-              "text": "Ai găsit un serviciu închis, un număr greșit sau o opțiune nouă? "
-            },
-            {
-              "text": "Vezi cum poți contribui",
-              "href": "../../CONTRIBUTING.md"
-            },
-            {
-              "text": " sau "
-            },
-            {
-              "text": "trimite o corectură pe GitHub",
-              "href": "https://github.com/carlosbranco/no-home-help"
-            },
-            {
-              "text": "."
-            }
-          ]
+          "id": "verificare-si-corecturi-information",
+          "title": "Verificare și corecturi",
+          "description": "Pagina folosește surse ale autorităților și paginile oficiale ale organizațiilor. Când accesul depinde de sector, domiciliu, evaluare sau înscriere, acest lucru este menționat. Sună înainte pentru situația din ziua respectivă.\nAi găsit un serviciu închis, un număr greșit sau o opțiune nouă? Vezi cum poți contribui sau trimite o corectură pe GitHub. — ../../CONTRIBUTING.md",
+          "last_verified": "2026-11-12",
+          "address": "",
+          "phone": "",
+          "website": "https://github.com/carlosbranco/no-home-help",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     }

@@ -1,6 +1,7 @@
 {
   "$schema": "https://nohomehelp.com/schemas/city.schema.json",
-  "schema_version": 1,
+  "documentation": "https://github.com/carlosbranco/no-home-help/blob/main/EDIT_CITY_JSON.md",
+  "schema_version": 2,
   "status": "published",
   "locale": {
     "language": "es",
@@ -26,3803 +27,1046 @@
   "page": {
     "heading": "Barranquilla — ayuda para personas sin vivienda",
     "last_verified": "2026-11-12",
-    "urgent": [
-      {
-        "type": "paragraph",
-        "content": [
-          {
-            "text": "Emergencia inmediata:",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "123",
-            "href": "tel:123"
-          },
-          {
-            "break": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "Información y servicios del Distrito:",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "195",
-            "href": "tel:195"
-          },
-          {
-            "text": " o "
-          },
-          {
-            "text": "(605) 4010205",
-            "href": "tel:+576054010205"
-          },
-          {
-            "break": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "Programa Habitantes de la Calle:",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "312 7138504",
-            "href": "tel:+573127138504"
-          },
-          {
-            "break": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "Salud mental, violencia o consumo:",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "(605) 3399999",
-            "href": "tel:+576053399999"
-          },
-          {
-            "break": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "Violencia contra las mujeres:",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "155",
-            "href": "tel:155"
-          },
-          {
-            "text": "; "
-          },
-          {
-            "text": "protección infantil:",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "141",
-            "href": "tel:141"
-          }
-        ]
-      }
-    ],
-    "notice": [
-      {
-        "text": "Los cupos, horarios, requisitos y lugares pueden cambiar.",
-        "strong": true
-      },
-      {
-        "text": " Llame antes de desplazarse cuando sea posible. Ninguna entrada garantiza cama, comida, dinero, subsidio, cita médica, tratamiento o empleo el mismo día."
-      }
-    ],
-    "intro": [
-      {
-        "type": "paragraph",
-        "content": [
-          {
-            "text": "Si no tiene un lugar seguro para esta noche, empiece por el Programa Habitantes de la Calle en el "
-          },
-          {
-            "text": "312 7138504",
-            "href": "tel:+573127138504"
-          },
-          {
-            "text": " o por la Línea 195. Diga dónde está, si necesita comer, si tiene una urgencia de salud, si hay violencia, embarazo, discapacidad, un menor o un animal, y qué documentos conserva. La llamada permite pedir orientación, pero no reserva un cupo."
-          }
-        ]
-      }
-    ],
-    "footer": [
-      {
-        "type": "paragraph",
-        "content": [
-          {
-            "text": "No Home Help — información gratuita y estática, sin seguimiento."
-          }
-        ]
-      }
-    ]
+    "urgent": "Emergencia inmediata: 123 Información y servicios del Distrito: 195 o (605) 4010205 Programa Habitantes de la Calle: 312 7138504 Salud mental, violencia o consumo: (605) 3399999 Violencia contra las mujeres: 155; protección infantil: 141",
+    "notice": "Los cupos, horarios, requisitos y lugares pueden cambiar. Llame antes de desplazarse cuando sea posible. Ninguna entrada garantiza cama, comida, dinero, subsidio, cita médica, tratamiento o empleo el mismo día.",
+    "intro": "Si no tiene un lugar seguro para esta noche, empiece por el Programa Habitantes de la Calle en el 312 7138504 o por la Línea 195. Diga dónde está, si necesita comer, si tiene una urgencia de salud, si hay violencia, embarazo, discapacidad, un menor o un animal, y qué documentos conserva. La llamada permite pedir orientación, pero no reserva un cupo.",
+    "footer": "No Home Help — información gratuita y estática, sin seguimiento."
   },
   "categories": [
     {
-      "id": "que-hacer-hoy",
-      "title": "Qué hacer hoy",
-      "items": [
-        {
-          "type": "ordered-list",
-          "items": [
-            [
-              {
-                "text": "Peligro, lesión grave, dificultad para respirar, sobredosis o violencia en curso:",
-                "strong": true
-              },
-              {
-                "text": " llame al "
-              },
-              {
-                "text": "123",
-                "href": "tel:123"
-              },
-              {
-                "text": " y diga primero su ubicación exacta."
-              }
-            ],
-            [
-              {
-                "text": "No tiene dónde dormir:",
-                "strong": true
-              },
-              {
-                "text": " llame al "
-              },
-              {
-                "text": "312 7138504",
-                "href": "tel:+573127138504"
-              },
-              {
-                "text": " y pregunte por el Centro de Acogida Noche o el Hogar de Paso. Si no responde, llame al "
-              },
-              {
-                "text": "195",
-                "href": "tel:195"
-              },
-              {
-                "text": " o al "
-              },
-              {
-                "text": "(605) 4010205",
-                "href": "tel:+576054010205"
-              },
-              {
-                "text": "."
-              }
-            ],
-            [
-              {
-                "text": "Necesita comida, baño o atención social:",
-                "strong": true
-              },
-              {
-                "text": " pregunte por el Centro de Acogida Día, calle 17 con carrera 38 esquina. Confirme antes de ir y pida una alternativa concreta si no hay atención."
-              }
-            ]
-          ]
-        }
-      ]
-    },
-    {
       "id": "emergency",
-      "title": "1. Emergencias y primera orientación",
-      "items": [
+      "title": "Qué hacer hoy",
+      "entries": [
         {
-          "type": "resource",
+          "id": "que-hacer-hoy-information",
+          "title": "Qué hacer hoy",
+          "description": "1. Peligro, lesión grave, dificultad para respirar, sobredosis o violencia en curso: llame al 123 y diga primero su ubicación exacta.\n2. No tiene dónde dormir: llame al 312 7138504 y pregunte por el Centro de Acogida Noche o el Hogar de Paso. Si no responde, llame al 195 o al (605) 4010205.\n3. Necesita comida, baño o atención social: pregunte por el Centro de Acogida Día, calle 17 con carrera 38 esquina. Confirme antes de ir y pida una alternativa concreta si no hay atención.",
+          "last_verified": "2026-11-12",
+          "address": "",
+          "phone": "123",
+          "website": "",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
           "id": "123-emergencias",
-          "name": "123 — emergencias",
+          "title": "123 — emergencias",
+          "description": "Teléfono: 123, las 24 horas.\nÚselo ante peligro inmediato, violencia en curso, una urgencia médica o una persona inconsciente. Diga primero la dirección, esquina, parque o punto de referencia y luego explique qué ocurre.\nDirectorio institucional de emergencias de Barranquilla",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Teléfono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "123",
-                  "href": "tel:123"
-                },
-                {
-                  "text": ", las 24 horas."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Úselo ante peligro inmediato, violencia en curso, una urgencia médica o una persona inconsciente. Diga primero la dirección, esquina, parque o punto de referencia y luego explique qué ocurre."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Directorio institucional de emergencias de Barranquilla",
-                  "href": "https://aotronivel.barranquilla.gov.co/institucional"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "123",
+          "website": "https://aotronivel.barranquilla.gov.co/institucional",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "bomberos-cruz-roja-y-defensa-civil",
-          "name": "Bomberos, Cruz Roja y Defensa Civil",
+          "title": "Bomberos, Cruz Roja y Defensa Civil",
+          "description": "Bomberos: 119; Cruz Roja y ambulancia: 132; Defensa Civil: 144.\nPara incendio, rescate, primeros auxilios o desastre. Si no sabe cuál corresponde o hay varias clases de peligro, use el 123.\nAlcaldía de Barranquilla — líneas de emergencia",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Bomberos:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "119",
-                  "href": "tel:119"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "Cruz Roja y ambulancia:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "132",
-                  "href": "tel:132"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "Defensa Civil:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "144",
-                  "href": "tel:144"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Para incendio, rescate, primeros auxilios o desastre. Si no sabe cuál corresponde o hay varias clases de peligro, use el 123."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Alcaldía de Barranquilla — líneas de emergencia",
-                  "href": "https://aotronivel.barranquilla.gov.co/institucional"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "119",
+          "website": "https://aotronivel.barranquilla.gov.co/institucional",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "linea-unica-195",
-          "name": "Línea Única 195",
+          "title": "Línea Única 195",
+          "description": "Desde Barranquilla: 195 o (605) 4010205. Desde fuera de la ciudad: (605) 3161400. Funciona las 24 horas.\nInforma sobre Sisbén, programas sociales, salud, servicios de la Alcaldía, direcciones y horarios. Puede orientar y agendar algunos trámites, pero no concede automáticamente un subsidio ni reserva una cama.\nAlcaldía de Barranquilla — Línea Única 195",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Desde Barranquilla:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "195",
-                  "href": "tel:195"
-                },
-                {
-                  "text": " o "
-                },
-                {
-                  "text": "(605) 4010205",
-                  "href": "tel:+576054010205"
-                },
-                {
-                  "text": ". "
-                },
-                {
-                  "text": "Desde fuera de la ciudad:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(605) 3161400",
-                  "href": "tel:+576053161400"
-                },
-                {
-                  "text": ". Funciona las 24 horas."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Informa sobre Sisbén, programas sociales, salud, servicios de la Alcaldía, direcciones y horarios. Puede orientar y agendar algunos trámites, pero no concede automáticamente un subsidio ni reserva una cama."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Alcaldía de Barranquilla — Línea Única 195",
-                  "href": "https://barranquilla.gov.co/linea-unica-195"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "195",
+          "website": "https://barranquilla.gov.co/linea-unica-195",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "linea-de-la-vida",
-          "name": "Línea de la Vida",
+          "title": "Línea de la Vida",
+          "description": "Teléfono: (605) 3399999, las 24 horas.\nAtendida por profesionales de psicología y trabajo social para crisis emocional, problemas de salud mental, violencia intrafamiliar o consumo de sustancias. Si existe peligro inmediato para la vida, llame también al 123.\nSecretaría Distrital de Salud — salud mental",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Teléfono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(605) 3399999",
-                  "href": "tel:+576053399999"
-                },
-                {
-                  "text": ", las 24 horas."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Atendida por profesionales de psicología y trabajo social para crisis emocional, problemas de salud mental, violencia intrafamiliar o consumo de sustancias. Si existe peligro inmediato para la vida, llame también al 123."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Secretaría Distrital de Salud — salud mental",
-                  "href": "https://barranquilla.gov.co/salud/salud-mental"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+576053399999",
+          "website": "https://barranquilla.gov.co/salud/salud-mental",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "oficina-de-la-mujer-y-patrulla-purpura",
-          "name": "Oficina de la Mujer y Patrulla Púrpura",
+          "title": "Oficina de la Mujer y Patrulla Púrpura",
+          "description": "Línea nacional: 155; Patrulla Púrpura: 317 3725692; Oficina de la Mujer: 315 6389391.\nOrientación para violencia basada en género y acceso a protección, salud y justicia. En una agresión que ocurre ahora, llame al 123.\nRuta distrital de atención por violencia de género",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Línea nacional:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "155",
-                  "href": "tel:155"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "Patrulla Púrpura:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "317 3725692",
-                  "href": "tel:+573173725692"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "Oficina de la Mujer:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "315 6389391",
-                  "href": "tel:+573156389391"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Orientación para violencia basada en género y acceso a protección, salud y justicia. En una agresión que ocurre ahora, llame al 123."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ruta distrital de atención por violencia de género",
-                  "href": "https://barranquilla.gov.co/equidad-y-genero/ruta-de-atencion-para-la-mujer"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "155",
+          "website": "https://barranquilla.gov.co/equidad-y-genero/ruta-de-atencion-para-la-mujer",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "icbf-proteccion-de-ninos-y-adolescentes",
-          "name": "ICBF — protección de niños y adolescentes",
+          "title": "ICBF — protección de niños y adolescentes",
+          "description": "Línea gratuita: 141, las 24 horas.\nPara un menor solo en la calle, abandono, abuso, explotación, violencia o necesidad urgente de protección. En peligro inmediato use también el 123.\nICBF — Centro Zonal Suroriente y Línea 141",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Línea gratuita:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "141",
-                  "href": "tel:141"
-                },
-                {
-                  "text": ", las 24 horas."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Para un menor solo en la calle, abandono, abuso, explotación, violencia o necesidad urgente de protección. En peligro inmediato use también el 123."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "ICBF — Centro Zonal Suroriente y Línea 141",
-                  "href": "https://www.icbf.gov.co/centro-zonal-suroriente"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "141",
+          "website": "https://www.icbf.gov.co/centro-zonal-suroriente",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "antes-de-desplazarse",
+          "title": "Antes de desplazarse",
+          "description": "- Confirme dirección, horario, requisito y si atienden hoy.\n- Diga si hay menor, embarazo, enfermedad, discapacidad, violencia o animal.\n- Lleve documento, medicamentos, recetas y números de radicado que conserve.\n- Pregunte cuánto equipaje permiten y qué ocurre si llega después de la hora.",
+          "last_verified": "2026-11-12",
+          "address": "",
+          "phone": "",
+          "website": "",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "si-le-niegan-atencion",
+          "title": "Si le niegan atención",
+          "description": "Pregunte la razón, el nombre de la entidad competente y una alternativa concreta. Pida constancia o número de radicado cuando corresponda.\nSi cree que vulneraron un derecho, contacte Personería, Defensoría o Casa de Justicia. Si el riesgo es inmediato, llame al 123.",
+          "last_verified": "2026-11-12",
+          "address": "",
+          "phone": "",
+          "website": "",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "proteja-dinero-datos-y-documentos",
+          "title": "Proteja dinero, datos y documentos",
+          "description": "No entregue contraseñas, códigos enviados al teléfono, tarjeta bancaria o documento original a un desconocido. No pague por cupo, subsidio, Sisbén o empleo público.\nUse teléfonos y enlaces oficiales. Si alguien cobra o amenaza, aléjese a un lugar con personas y pida ayuda.",
+          "last_verified": "2026-11-12",
+          "address": "",
+          "phone": "",
+          "website": "",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "correcciones-de-esta-pagina",
+          "title": "Correcciones de esta página",
+          "description": "La información se revisó con páginas oficiales de la Alcaldía, entidades públicas y proveedores citados. Los servicios cambian y una organización puede suspender una jornada sin actualizar su web.\nSi encuentra un número equivocado, un lugar cerrado o una nueva ayuda, consulte cómo contribuir o envíe una corrección en GitHub. — ../../CONTRIBUTING.md",
+          "last_verified": "2026-11-12",
+          "address": "",
+          "phone": "",
+          "website": "https://github.com/carlosbranco/no-home-help",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
       "id": "shelter",
-      "title": "2. Alojamiento temporal y atención en calle",
-      "items": [
+      "title": "Alojamiento temporal y atención en calle",
+      "entries": [
         {
-          "type": "resource",
           "id": "programa-habitantes-de-la-calle-primera-llamada",
-          "name": "Programa Habitantes de la Calle — primera llamada",
+          "title": "Programa Habitantes de la Calle — primera llamada",
+          "description": "Teléfono de información y coordinación: 312 7138504. También puede usar la Línea 195.\nEl Distrito publica tres puntos: Centro de Acogida Día, Centro de Acogida Noche y Hogar de Paso. Pida que le indiquen cuál corresponde a su situación y cómo llegar. La llamada no garantiza cupo.\nAlcaldía — puntos del Programa Habitantes de la Calle",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Teléfono de información y coordinación:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "312 7138504",
-                  "href": "tel:+573127138504"
-                },
-                {
-                  "text": ". También puede usar la Línea 195."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "El Distrito publica tres puntos: Centro de Acogida Día, Centro de Acogida Noche y Hogar de Paso. Pida que le indiquen cuál corresponde a su situación y cómo llegar. La llamada no garantiza cupo."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Alcaldía — puntos del Programa Habitantes de la Calle",
-                  "href": "https://barranquilla.gov.co/gestionsocial/dignificacion-y-transformacion-de-vidas-proposito-del-distrito-con-su-programa-habitantes-de-la-calle"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+573127138504",
+          "website": "https://barranquilla.gov.co/gestionsocial/dignificacion-y-transformacion-de-vidas-proposito-del-distrito-con-su-programa-habitantes-de-la-calle",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "centro-de-acogida-dia",
-          "name": "Centro de Acogida Día",
+          "title": "Centro de Acogida Día",
+          "description": "Atención diurna, alimentación, higiene, talleres y contacto con profesionales del programa. Llame al 312 7138504 para confirmar horario, ingreso y capacidad antes de ir.\nNo es un alojamiento nocturno y la presencia en el punto no garantiza ingreso a otra modalidad.\nInformación oficial del programa",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Dirección publicada:",
-                  "strong": true
-                },
-                {
-                  "text": " calle 17 con carrera 38 esquina"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Atención diurna, alimentación, higiene, talleres y contacto con profesionales del programa. Llame al "
-                },
-                {
-                  "text": "312 7138504",
-                  "href": "tel:+573127138504"
-                },
-                {
-                  "text": " para confirmar horario, ingreso y capacidad antes de ir."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "No es un alojamiento nocturno y la presencia en el punto no garantiza ingreso a otra modalidad."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Información oficial del programa",
-                  "href": "https://barranquilla.gov.co/gestionsocial/dignificacion-y-transformacion-de-vidas-proposito-del-distrito-con-su-programa-habitantes-de-la-calle"
-                }
-              ]
-            }
-          ]
+          "address": "Dirección publicada: calle 17 con carrera 38 esquina",
+          "phone": "+573127138504",
+          "website": "https://barranquilla.gov.co/gestionsocial/dignificacion-y-transformacion-de-vidas-proposito-del-distrito-con-su-programa-habitantes-de-la-calle",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "centro-de-acogida-noche",
-          "name": "Centro de Acogida Noche",
+          "title": "Centro de Acogida Noche",
+          "description": "Atención nocturna y acompañamiento psicosocial para personas habitantes de calle. Confirme en el 312 7138504 la hora de ingreso, los criterios, las pertenencias permitidas y si hay cupo.\nAlcaldía — servicios de los centros de acogida",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Dirección publicada:",
-                  "strong": true
-                },
-                {
-                  "text": " carrera 36 #32-10"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Atención nocturna y acompañamiento psicosocial para personas habitantes de calle. Confirme en el "
-                },
-                {
-                  "text": "312 7138504",
-                  "href": "tel:+573127138504"
-                },
-                {
-                  "text": " la hora de ingreso, los criterios, las pertenencias permitidas y si hay cupo."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Alcaldía — servicios de los centros de acogida",
-                  "href": "https://barranquilla.gov.co/gestionsocial/transformar-vidas-si-es-posible-el-exito-del-programa-habitantes-de-calle-en-barranquilla"
-                }
-              ]
-            }
-          ]
+          "address": "Dirección publicada: carrera 36 #32-10",
+          "phone": "+573127138504",
+          "website": "https://barranquilla.gov.co/gestionsocial/transformar-vidas-si-es-posible-el-exito-del-programa-habitantes-de-calle-en-barranquilla",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "hogar-de-paso",
-          "name": "Hogar de Paso",
+          "title": "Hogar de Paso",
+          "description": "Atención al público publicada: lunes a viernes, 8:00 a.m.–5:00 p.m. Las personas admitidas permanecen según la modalidad del programa.\nOfrece alojamiento temporal, alimentación, atención básica en salud, apoyo psicosocial, higiene, actividades y trabajo de vínculos familiares. Puede presentarse directamente o llegar por búsqueda activa o remisión. La admisión depende de evaluación y capacidad.\nAlcaldía — Hogar de Paso",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Dirección:",
-                  "strong": true
-                },
-                {
-                  "text": " carrera 38 #35-58, barrio Centro"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Atención al público publicada:",
-                  "strong": true
-                },
-                {
-                  "text": " lunes a viernes, 8:00 a.m.–5:00 p.m. Las personas admitidas permanecen según la modalidad del programa."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ofrece alojamiento temporal, alimentación, atención básica en salud, apoyo psicosocial, higiene, actividades y trabajo de vínculos familiares. Puede presentarse directamente o llegar por búsqueda activa o remisión. La admisión depende de evaluación y capacidad."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Alcaldía — Hogar de Paso",
-                  "href": "https://barranquilla.gov.co/gestionsocial/proyecto-de-recuperacion-e-inclusion-social-para-habitantes-de-la-calle-hogar-de-paso"
-                }
-              ]
-            }
-          ]
+          "address": "Dirección: carrera 38 #35-58, barrio Centro",
+          "phone": "",
+          "website": "https://barranquilla.gov.co/gestionsocial/proyecto-de-recuperacion-e-inclusion-social-para-habitantes-de-la-calle-hogar-de-paso",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "criterios-publicados-para-el-hogar-de-paso",
-          "name": "Criterios publicados para el Hogar de Paso",
+          "title": "Criterios publicados para el Hogar de Paso",
+          "description": "El Distrito publica como criterios estar en condición de calle por 15 días o más, no tener ingresos suficientes para las necesidades básicas y encontrarse en una condición física y mental compatible con la modalidad.\nLa página indica que no es la modalidad adecuada para personas mayores en etapa terminal, condiciones críticas de salud o necesidad de tratamiento especializado por consumo. En esos casos pida una ruta de salud; no interprete una exclusión del Hogar como pérdida del derecho a atención médica.\nRequisitos y alcance publicados",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "El Distrito publica como criterios estar en condición de calle por 15 días o más, no tener ingresos suficientes para las necesidades básicas y encontrarse en una condición física y mental compatible con la modalidad."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "La página indica que no es la modalidad adecuada para personas mayores en etapa terminal, condiciones críticas de salud o necesidad de tratamiento especializado por consumo. En esos casos pida una ruta de salud; no interprete una exclusión del Hogar como pérdida del derecho a atención médica."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Requisitos y alcance publicados",
-                  "href": "https://barranquilla.gov.co/gestionsocial/proyecto-de-recuperacion-e-inclusion-social-para-habitantes-de-la-calle-hogar-de-paso"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://barranquilla.gov.co/gestionsocial/proyecto-de-recuperacion-e-inclusion-social-para-habitantes-de-la-calle-hogar-de-paso",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "equipo-movil-y-busqueda-activa",
-          "name": "Equipo móvil y búsqueda activa",
+          "title": "Equipo móvil y búsqueda activa",
+          "description": "El programa realiza contacto en calle y puede facilitar el traslado voluntario a sus centros. Llame al 312 7138504 o al 195 y dé una ubicación precisa, descripción de la persona y riesgos de salud.\nNo prometa a otra persona que el equipo llegará de inmediato. Si está inconsciente, herida o en peligro, use el 123.\nAlcaldía — atención móvil del programa",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "El programa realiza contacto en calle y puede facilitar el traslado voluntario a sus centros. Llame al "
-                },
-                {
-                  "text": "312 7138504",
-                  "href": "tel:+573127138504"
-                },
-                {
-                  "text": " o al 195 y dé una ubicación precisa, descripción de la persona y riesgos de salud."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "No prometa a otra persona que el equipo llegará de inmediato. Si está inconsciente, herida o en peligro, use el 123."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Alcaldía — atención móvil del programa",
-                  "href": "https://barranquilla.gov.co/gestionsocial/dignificacion-y-transformacion-de-vidas-proposito-del-distrito-con-su-programa-habitantes-de-la-calle"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+573127138504",
+          "website": "https://barranquilla.gov.co/gestionsocial/dignificacion-y-transformacion-de-vidas-proposito-del-distrito-con-su-programa-habitantes-de-la-calle",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "si-no-hay-cupo-o-no-cumple-la-modalidad",
-          "name": "Si no hay cupo o no cumple la modalidad",
+          "title": "Si no hay cupo o no cumple la modalidad",
+          "description": "Pida el nombre y la dirección de una alternativa concreta. Explique si existe embarazo, discapacidad, enfermedad, violencia, un menor, una persona mayor o un animal. Pregunte cómo llegar y qué debe llevar.\nNo pague a intermediarios por una supuesta cama. En crisis social también puede llamar al 195; ante peligro médico o violencia, al 123.",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Pida el nombre y la dirección de una alternativa concreta. Explique si existe embarazo, discapacidad, enfermedad, violencia, un menor, una persona mayor o un animal. Pregunte cómo llegar y qué debe llevar."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "No pague a intermediarios por una supuesta cama. En crisis social también puede llamar al 195; ante peligro médico o violencia, al 123."
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
       "id": "food",
-      "title": "3. Comida, iglesias y fundaciones",
-      "items": [
+      "title": "Comida, iglesias y fundaciones",
+      "entries": [
         {
-          "type": "resource",
           "id": "comida-dentro-del-programa-habitantes-de-la-calle",
-          "name": "Comida dentro del Programa Habitantes de la Calle",
+          "title": "Comida dentro del Programa Habitantes de la Calle",
+          "description": "El Hogar de Paso y los centros de acogida incluyen alimentación dentro de sus modalidades. Llame al 312 7138504 para preguntar qué punto puede atenderle hoy.\nNo son restaurantes de acceso permanente. La comida depende del ingreso al programa, el horario y la capacidad.\nAlcaldía — servicios del programa",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "El Hogar de Paso y los centros de acogida incluyen alimentación dentro de sus modalidades. Llame al "
-                },
-                {
-                  "text": "312 7138504",
-                  "href": "tel:+573127138504"
-                },
-                {
-                  "text": " para preguntar qué punto puede atenderle hoy."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "No son restaurantes de acceso permanente. La comida depende del ingreso al programa, el horario y la capacidad."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Alcaldía — servicios del programa",
-                  "href": "https://barranquilla.gov.co/gestionsocial/transformar-vidas-si-es-posible-el-exito-del-programa-habitantes-de-calle-en-barranquilla"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+573127138504",
+          "website": "https://barranquilla.gov.co/gestionsocial/transformar-vidas-si-es-posible-el-exito-del-programa-habitantes-de-calle-en-barranquilla",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "desayunos-pa-ti-comedores-comunitarios",
-          "name": "Desayunos Pa’ Ti — comedores comunitarios",
+          "title": "Desayunos Pa’ Ti — comedores comunitarios",
+          "description": "Contacto: 316 8764463. El programa publica tres sedes:\n- Centro Comunitario Alma Flórez, carrera 3C #52B-64, barrio Las Américas.\n- Centro Comunitario Barlovento, calle 9A #46C-10.\n- Calle 35 #36-26, primer piso, barrio San Roque.\nEs un programa con inscripción, no un desayuno abierto sin condiciones. Se dirige a mayores de 18 años con documento válido, Sisbén IV en Barranquilla y otros criterios publicados. Confirme la sede, el horario y si puede inscribirse.\nAlcaldía — Desayunos Pa’ Ti",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Contacto:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "316 8764463",
-                  "href": "tel:+573168764463"
-                },
-                {
-                  "text": ". El programa publica tres sedes:"
-                }
-              ]
-            },
-            {
-              "type": "list",
-              "items": [
-                [
-                  {
-                    "text": "Centro Comunitario Alma Flórez, carrera 3C #52B-64, barrio Las Américas."
-                  }
-                ],
-                [
-                  {
-                    "text": "Centro Comunitario Barlovento, calle 9A #46C-10."
-                  }
-                ],
-                [
-                  {
-                    "text": "Calle 35 #36-26, primer piso, barrio San Roque."
-                  }
-                ]
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Es un programa con inscripción, no un desayuno abierto sin condiciones. Se dirige a mayores de 18 años con documento válido, Sisbén IV en Barranquilla y otros criterios publicados. Confirme la sede, el horario y si puede inscribirse."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Alcaldía — Desayunos Pa’ Ti",
-                  "href": "https://barranquilla.gov.co/gerencia-de-desarrollo-social/desayunos-pa-ti"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+573168764463",
+          "website": "https://barranquilla.gov.co/gerencia-de-desarrollo-social/desayunos-pa-ti",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "banco-arquidiocesano-de-alimentos",
-          "name": "Banco Arquidiocesano de Alimentos",
+          "title": "Banco Arquidiocesano de Alimentos",
+          "description": "Teléfono: (605) 3706585; coordinación: 317 4267402; dimensión social: 317 3633109.\nOrganización católica de la Pastoral Social que distribuye alimentos mediante parroquias, fundaciones y programas comunitarios. La oficina principal no debe suponerse como comedor abierto. Llame para saber qué programa, parroquia o proceso puede corresponder a su familia.\nBanco Arquidiocesano de Alimentos de Barranquilla",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Dirección:",
-                  "strong": true
-                },
-                {
-                  "text": " calle 53C #31-121, suroccidente de Barranquilla"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Teléfono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(605) 3706585",
-                  "href": "tel:+576053706585"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "coordinación:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "317 4267402",
-                  "href": "tel:+573174267402"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "dimensión social:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "317 3633109",
-                  "href": "tel:+573173633109"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Organización católica de la Pastoral Social que distribuye alimentos mediante parroquias, fundaciones y programas comunitarios. La oficina principal no debe suponerse como comedor abierto. Llame para saber qué programa, parroquia o proceso puede corresponder a su familia."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Banco Arquidiocesano de Alimentos de Barranquilla",
-                  "href": "https://bancodealimentos.pastoralsocialbaq.org/"
-                }
-              ]
-            }
-          ]
+          "address": "Dirección: calle 53C #31-121, suroccidente de Barranquilla",
+          "phone": "+576053706585",
+          "website": "https://bancodealimentos.pastoralsocialbaq.org/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "servicio-de-alimentacion-comunitaria-ninos",
-          "name": "Servicio de Alimentación Comunitaria — niños",
+          "title": "Servicio de Alimentación Comunitaria — niños",
+          "description": "El Banco de Alimentos publica comidas calientes para niños vulnerables en el barrio Lucero mediante la Parroquia Santa Isabel de Hungría, en El Ferry mediante el Centro de Integración Social La Milagrosa y en Isla La Loma.\nEs un programa infantil y comunitario, no un comedor abierto para cualquier adulto. Una familia debe llamar al Banco en el (605) 3706585 para preguntar por cobertura e ingreso.\nBanco de Alimentos — Servicio de Alimentación Comunitaria",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "El Banco de Alimentos publica comidas calientes para niños vulnerables en el barrio Lucero mediante la Parroquia Santa Isabel de Hungría, en El Ferry mediante el Centro de Integración Social La Milagrosa y en Isla La Loma."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Es un programa infantil y comunitario, no un comedor abierto para cualquier adulto. Una familia debe llamar al Banco en el "
-                },
-                {
-                  "text": "(605) 3706585",
-                  "href": "tel:+576053706585"
-                },
-                {
-                  "text": " para preguntar por cobertura e ingreso."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Banco de Alimentos — Servicio de Alimentación Comunitaria",
-                  "href": "https://bancodealimentos.pastoralsocialbaq.org/templates/SAC.html"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+576053706585",
+          "website": "https://bancodealimentos.pastoralsocialbaq.org/templates/SAC.html",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "cocina-solidaria-parroquia-rotativa",
-          "name": "Cocina Solidaria — parroquia rotativa",
+          "title": "Cocina Solidaria — parroquia rotativa",
+          "description": "Programa católico que organiza uno o, según disponibilidad, dos sábados al mes en una parroquia distinta. La comunidad parroquial selecciona previamente a unas 100 personas.\nNo hay un lugar fijo ni acceso garantizado el mismo día. Llame al Banco de Alimentos en el (605) 3706585 y pregunte cuál parroquia participa y cómo se seleccionan beneficiarios.\nBanco de Alimentos — Cocina Solidaria",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Programa católico que organiza uno o, según disponibilidad, dos sábados al mes en una parroquia distinta. La comunidad parroquial selecciona previamente a unas 100 personas."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "No hay un lugar fijo ni acceso garantizado el mismo día. Llame al Banco de Alimentos en el "
-                },
-                {
-                  "text": "(605) 3706585",
-                  "href": "tel:+576053706585"
-                },
-                {
-                  "text": " y pregunte cuál parroquia participa y cómo se seleccionan beneficiarios."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Banco de Alimentos — Cocina Solidaria",
-                  "href": "https://bancodealimentos.pastoralsocialbaq.org/templates/cocina_solidaria.html"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+576053706585",
+          "website": "https://bancodealimentos.pastoralsocialbaq.org/templates/cocina_solidaria.html",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "bienestar-comunitario-paquetes-mediante-parroquias",
-          "name": "Bienestar Comunitario — paquetes mediante parroquias",
+          "title": "Bienestar Comunitario — paquetes mediante parroquias",
+          "description": "El Banco Arquidiocesano entrega paquetes de alimentos esenciales a familias vulnerables mediante parroquias. Pregunte en el 317 3633109 cómo se realiza la valoración o remisión.\nNo es entrega libre diaria y la ayuda depende del programa, selección y existencias. La entidad tiene identidad católica; pregunte cualquier condición de participación antes de acudir.\nBanco de Alimentos — programas comunitarios",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "El Banco Arquidiocesano entrega paquetes de alimentos esenciales a familias vulnerables mediante parroquias. Pregunte en el "
-                },
-                {
-                  "text": "317 3633109",
-                  "href": "tel:+573173633109"
-                },
-                {
-                  "text": " cómo se realiza la valoración o remisión."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "No es entrega libre diaria y la ayuda depende del programa, selección y existencias. La entidad tiene identidad católica; pregunte cualquier condición de participación antes de acudir."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Banco de Alimentos — programas comunitarios",
-                  "href": "https://bancodealimentos.pastoralsocialbaq.org/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+573173633109",
+          "website": "https://bancodealimentos.pastoralsocialbaq.org/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "mercado-itinerante-alimentos-a-menor-precio",
-          "name": "Mercado Itinerante — alimentos a menor precio",
+          "title": "Mercado Itinerante — alimentos a menor precio",
+          "description": "El Banco de Alimentos realiza mercados por un día en parroquias rotativas con productos a precios inferiores a los comerciales. No es una entrega gratuita.\nLlame al (605) 3706585 para conocer la próxima parroquia y los precios antes de desplazarse.\nBanco de Alimentos — Mercado Itinerante",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "El Banco de Alimentos realiza mercados por un día en parroquias rotativas con productos a precios inferiores a los comerciales. No es una entrega gratuita."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Llame al "
-                },
-                {
-                  "text": "(605) 3706585",
-                  "href": "tel:+576053706585"
-                },
-                {
-                  "text": " para conocer la próxima parroquia y los precios antes de desplazarse."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Banco de Alimentos — Mercado Itinerante",
-                  "href": "https://bancodealimentos.pastoralsocialbaq.org/templates/mercado_itinerante.html"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+576053706585",
+          "website": "https://bancodealimentos.pastoralsocialbaq.org/templates/mercado_itinerante.html",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "fundacion-dreamseed-seeds-of-grace",
-          "name": "Fundación Dreamseed — Seeds of Grace",
+          "title": "Fundación Dreamseed — Seeds of Grace",
+          "description": "Teléfono: 324 5051116; correo: proyectos@fundaciondreamseed.org. — mailto:proyectos@fundaciondreamseed.org\nRealiza jornadas de alimentos y acompañamiento para personas en situación de calle. Tiene un componente humano y espiritual. No publica un comedor fijo ni un horario diario; contacte a la fundación para saber cuándo y dónde será la próxima jornada.\nFundación Dreamseed — Seeds of Grace",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Teléfono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "324 5051116",
-                  "href": "tel:+573245051116"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "correo:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "proyectos@fundaciondreamseed.org",
-                  "href": "mailto:proyectos@fundaciondreamseed.org"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Realiza jornadas de alimentos y acompañamiento para personas en situación de calle. Tiene un componente humano y espiritual. No publica un comedor fijo ni un horario diario; contacte a la fundación para saber cuándo y dónde será la próxima jornada."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Fundación Dreamseed — Seeds of Grace",
-                  "href": "https://fundaciondreamseed.org/calling-all-to-food-tables/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+573245051116",
+          "website": "https://fundaciondreamseed.org/calling-all-to-food-tables/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "fundacion-de-la-mano-de-jesus-y-maria",
-          "name": "Fundación de la Mano de Jesús y María",
+          "title": "Fundación de la Mano de Jesús y María",
+          "description": "Teléfonos: (605) 3030546 o 315 6831557.\nFundación de orientación cristiana para personas mayores y niños vulnerables. Publica una merienda cada 15 días, campañas básicas de salud y entrega ocasional de artículos de aseo. No es comedor diario ni refugio. Llame para la siguiente actividad y los criterios.\nFundación de la Mano de Jesús y María",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Dirección:",
-                  "strong": true
-                },
-                {
-                  "text": " carrera 1C2 #45H-35, Barranquilla"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Teléfonos:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(605) 3030546",
-                  "href": "tel:+576053030546"
-                },
-                {
-                  "text": " o "
-                },
-                {
-                  "text": "315 6831557",
-                  "href": "tel:+573156831557"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Fundación de orientación cristiana para personas mayores y niños vulnerables. Publica una merienda cada 15 días, campañas básicas de salud y entrega ocasional de artículos de aseo. No es comedor diario ni refugio. Llame para la siguiente actividad y los criterios."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Fundación de la Mano de Jesús y María",
-                  "href": "https://fundaciondelamanodejesus.org/"
-                }
-              ]
-            }
-          ]
+          "address": "Dirección: carrera 1C2 #45H-35, Barranquilla",
+          "phone": "+576053030546",
+          "website": "https://fundaciondelamanodejesus.org/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "si-necesita-comer-hoy",
-          "name": "Si necesita comer hoy",
+          "title": "Si necesita comer hoy",
+          "description": "Empiece por el Centro de Acogida Día o el Programa Habitantes de la Calle. Para Desayunos Pa’ Ti, bancos de alimentos, parroquias y fundaciones, confirme siempre si hay inscripción, selección previa o una jornada concreta.\nNo entregue dinero a alguien que prometa incluirle en un programa público. Sisbén y la intermediación del Centro de Oportunidades son gratuitos.",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Empiece por el Centro de Acogida Día o el Programa Habitantes de la Calle. Para Desayunos Pa’ Ti, bancos de alimentos, parroquias y fundaciones, confirme siempre si hay inscripción, selección previa o una jornada concreta."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "No entregue dinero a alguien que prometa incluirle en un programa público. Sisbén y la intermediación del Centro de Oportunidades son gratuitos."
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
-      "id": "basic",
-      "title": "4. Baño, ropa, pertenencias y necesidades básicas",
-      "items": [
+      "id": "community",
+      "title": "Community and religious help",
+      "entries": []
+    },
+    {
+      "id": "hygiene",
+      "title": "Baño, ropa, pertenencias y necesidades básicas",
+      "entries": [
         {
-          "type": "resource",
           "id": "higiene-en-el-centro-de-acogida-dia",
-          "name": "Higiene en el Centro de Acogida Día",
+          "title": "Higiene en el Centro de Acogida Día",
+          "description": "El programa municipal incluye autocuidado e higiene. Llame al 312 7138504 y pregunte por baño, artículos de aseo, ropa limpia, orden de llegada y pertenencias permitidas.\nAlcaldía — servicios del programa",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Dirección publicada:",
-                  "strong": true
-                },
-                {
-                  "text": " calle 17 con carrera 38 esquina"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "El programa municipal incluye autocuidado e higiene. Llame al "
-                },
-                {
-                  "text": "312 7138504",
-                  "href": "tel:+573127138504"
-                },
-                {
-                  "text": " y pregunte por baño, artículos de aseo, ropa limpia, orden de llegada y pertenencias permitidas."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Alcaldía — servicios del programa",
-                  "href": "https://barranquilla.gov.co/gestionsocial/transformar-vidas-si-es-posible-el-exito-del-programa-habitantes-de-calle-en-barranquilla"
-                }
-              ]
-            }
-          ]
+          "address": "Dirección publicada: calle 17 con carrera 38 esquina",
+          "phone": "+573127138504",
+          "website": "https://barranquilla.gov.co/gestionsocial/transformar-vidas-si-es-posible-el-exito-del-programa-habitantes-de-calle-en-barranquilla",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "kits-de-aseo-y-autocuidado-en-el-hogar-de-paso",
-          "name": "Kits de aseo y autocuidado en el Hogar de Paso",
+          "title": "Kits de aseo y autocuidado en el Hogar de Paso",
+          "description": "El Hogar de Paso publica jornadas de autocuidado y entrega de kits de aseo dentro de su atención integral. Depende del ingreso al programa y de existencias; no se garantiza un kit solo por presentarse.\nHogar de Paso — servicios publicados",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Dirección:",
-                  "strong": true
-                },
-                {
-                  "text": " carrera 38 #35-58"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "El Hogar de Paso publica jornadas de autocuidado y entrega de kits de aseo dentro de su atención integral. Depende del ingreso al programa y de existencias; no se garantiza un kit solo por presentarse."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Hogar de Paso — servicios publicados",
-                  "href": "https://barranquilla.gov.co/gestionsocial/proyecto-de-recuperacion-e-inclusion-social-para-habitantes-de-la-calle-hogar-de-paso"
-                }
-              ]
-            }
-          ]
+          "address": "Dirección: carrera 38 #35-58",
+          "phone": "",
+          "website": "https://barranquilla.gov.co/gestionsocial/proyecto-de-recuperacion-e-inclusion-social-para-habitantes-de-la-calle-hogar-de-paso",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "ropa-y-calzado",
-          "name": "Ropa y calzado",
+          "title": "Ropa y calzado",
+          "description": "El programa recibe donaciones de ropa y puede distribuir artículos dentro de sus puntos de atención. Pregunte en el 312 7138504 qué existe en su talla y dónde retirarlo.\nNo viaje suponiendo que hay una prenda concreta. La disponibilidad cambia y algunas entregas forman parte de una jornada o valoración.\nAlcaldía — coordinación de donaciones",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "El programa recibe donaciones de ropa y puede distribuir artículos dentro de sus puntos de atención. Pregunte en el "
-                },
-                {
-                  "text": "312 7138504",
-                  "href": "tel:+573127138504"
-                },
-                {
-                  "text": " qué existe en su talla y dónde retirarlo."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "No viaje suponiendo que hay una prenda concreta. La disponibilidad cambia y algunas entregas forman parte de una jornada o valoración."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Alcaldía — coordinación de donaciones",
-                  "href": "https://barranquilla.gov.co/gestionsocial/dignificacion-y-transformacion-de-vidas-proposito-del-distrito-con-su-programa-habitantes-de-la-calle"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+573127138504",
+          "website": "https://barranquilla.gov.co/gestionsocial/dignificacion-y-transformacion-de-vidas-proposito-del-distrito-con-su-programa-habitantes-de-la-calle",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "guardar-equipaje-y-documentos",
-          "name": "Guardar equipaje y documentos",
+          "title": "Guardar equipaje y documentos",
+          "description": "No se encontró un servicio público permanente de consignas para personas sin vivienda. Antes de dejar algo en un centro, pregunte si lo guardan, por cuánto tiempo, qué está prohibido y qué comprobante entregan.\nMantenga con usted el documento de identidad, medicinas, dinero, tarjeta y teléfono, salvo que un profesional le ofrezca un procedimiento seguro y documentado.",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "No se encontró un servicio público permanente de consignas para personas sin vivienda. Antes de dejar algo en un centro, pregunte si lo guardan, por cuánto tiempo, qué está prohibido y qué comprobante entregan."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Mantenga con usted el documento de identidad, medicinas, dinero, tarjeta y teléfono, salvo que un profesional le ofrezca un procedimiento seguro y documentado."
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "bano-publico-agua-y-carga-de-telefono",
-          "name": "Baño público, agua y carga de teléfono",
+          "title": "Baño público, agua y carga de teléfono",
+          "description": "No se encontró un directorio oficial estable de baños o cargadores gratuitos. Pregunte primero en el Centro de Acogida Día, el Hogar de Paso o una biblioteca pública si puede usar baño, agua o una toma eléctrica.\nNo deje el teléfono solo ni entregue el PIN. La mención de un lugar no promete acceso, agua, enchufe o cargador.",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "No se encontró un directorio oficial estable de baños o cargadores gratuitos. Pregunte primero en el Centro de Acogida Día, el Hogar de Paso o una biblioteca pública si puede usar baño, agua o una toma eléctrica."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "No deje el teléfono solo ni entregue el PIN. La mención de un lugar no promete acceso, agua, enchufe o cargador."
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
+    },
+    {
+      "id": "clothing",
+      "title": "Clothing",
+      "entries": []
     },
     {
       "id": "health",
-      "title": "5. Salud, salud mental y consumo de sustancias",
-      "items": [
+      "title": "Salud, salud mental y consumo de sustancias",
+      "entries": [
         {
-          "type": "resource",
           "id": "urgencia-medica",
-          "name": "Urgencia médica",
+          "title": "Urgencia médica",
+          "description": "Ante pérdida de conciencia, dificultad para respirar, dolor fuerte en el pecho, hemorragia, convulsiones, sobredosis o lesión grave, llame al 123. No espere una cita social.\nIndique ubicación exacta, edad aproximada, si respira y qué ocurrió. No dé comida o bebida a una persona inconsciente.",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ante pérdida de conciencia, dificultad para respirar, dolor fuerte en el pecho, hemorragia, convulsiones, sobredosis o lesión grave, llame al "
-                },
-                {
-                  "text": "123",
-                  "href": "tel:123"
-                },
-                {
-                  "text": ". No espere una cita social."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Indique ubicación exacta, edad aproximada, si respira y qué ocurrió. No dé comida o bebida a una persona inconsciente."
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "123",
+          "website": "",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "mired-barranquilla-ips",
-          "name": "MiRed Barranquilla IPS",
+          "title": "MiRed Barranquilla IPS",
+          "description": "La red pública distrital publica 31 PASO, 8 CAMINO y 2 hospitales. Los PASO ofrecen atención primaria; los CAMINO reúnen servicios de mayor complejidad y, según la sede, urgencias y hospitalización.\nLlame al 195 para preguntar cuál centro corresponde hoy. No suponga que todas las sedes ofrecen la misma especialidad o urgencias.\nAlcaldía — red MiRed IPS",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "La red pública distrital publica 31 PASO, 8 CAMINO y 2 hospitales. Los PASO ofrecen atención primaria; los CAMINO reúnen servicios de mayor complejidad y, según la sede, urgencias y hospitalización."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Llame al 195 para preguntar cuál centro corresponde hoy. No suponga que todas las sedes ofrecen la misma especialidad o urgencias."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Alcaldía — red MiRed IPS",
-                  "href": "https://barranquilla.gov.co/salud/mired-ips"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://barranquilla.gov.co/salud/mired-ips",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "paso-con-consulta-prioritaria-24-horas",
-          "name": "PASO con consulta prioritaria 24 horas",
+          "title": "PASO con consulta prioritaria 24 horas",
+          "description": "La Alcaldía publica atención prioritaria de 24 horas en PASO Juan Mina, PASO Las Flores, PASO La Playa y PASO Universal.\nConfirme en el 195 la dirección y disponibilidad actuales antes de viajar. Para una urgencia que amenaza la vida, llame al 123 en lugar de caminar hasta un PASO.\nMiRed IPS — servicios de los PASO",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "La Alcaldía publica atención prioritaria de 24 horas en PASO Juan Mina, PASO Las Flores, PASO La Playa y PASO Universal."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Confirme en el 195 la dirección y disponibilidad actuales antes de viajar. Para una urgencia que amenaza la vida, llame al 123 en lugar de caminar hasta un PASO."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "MiRed IPS — servicios de los PASO",
-                  "href": "https://barranquilla.gov.co/salud/mired-ips"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://barranquilla.gov.co/salud/mired-ips",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "salud-mental-y-crisis-emocional",
-          "name": "Salud mental y crisis emocional",
+          "title": "Salud mental y crisis emocional",
+          "description": "Línea de la Vida: (605) 3399999, las 24 horas.\nPuede llamar por angustia intensa, ideas de hacerse daño, crisis de salud mental, violencia o consumo. Si la persona tiene un plan inmediato, un arma, una intoxicación o está inconsciente, llame también al 123 y no la deje sola si hacerlo es seguro.\nAlcaldía — Línea de la Vida",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Línea de la Vida:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(605) 3399999",
-                  "href": "tel:+576053399999"
-                },
-                {
-                  "text": ", las 24 horas."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Puede llamar por angustia intensa, ideas de hacerse daño, crisis de salud mental, violencia o consumo. Si la persona tiene un plan inmediato, un arma, una intoxicación o está inconsciente, llame también al 123 y no la deje sola si hacerlo es seguro."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Alcaldía — Línea de la Vida",
-                  "href": "https://barranquilla.gov.co/salud/salud-mental"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+576053399999",
+          "website": "https://barranquilla.gov.co/salud/salud-mental",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "consumo-de-sustancias",
-          "name": "Consumo de sustancias",
+          "title": "Consumo de sustancias",
+          "description": "El Hogar de Paso no sustituye tratamiento especializado. Llame a la Línea de la Vida y pida una evaluación y una remisión de salud. El Programa Habitantes de la Calle puede ayudar a coordinar la ruta social.\nNo pague a un intermediario por una supuesta plaza de tratamiento. Pregunte por el prestador, modalidad, duración, medicamentos y coste antes de aceptar.\nAlcance del Hogar de Paso",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "El Hogar de Paso no sustituye tratamiento especializado. Llame a la Línea de la Vida y pida una evaluación y una remisión de salud. El Programa Habitantes de la Calle puede ayudar a coordinar la ruta social."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "No pague a un intermediario por una supuesta plaza de tratamiento. Pregunte por el prestador, modalidad, duración, medicamentos y coste antes de aceptar."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Alcance del Hogar de Paso",
-                  "href": "https://barranquilla.gov.co/gestionsocial/proyecto-de-recuperacion-e-inclusion-social-para-habitantes-de-la-calle-hogar-de-paso"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://barranquilla.gov.co/gestionsocial/proyecto-de-recuperacion-e-inclusion-social-para-habitantes-de-la-calle-hogar-de-paso",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "orientacion-sobre-afiliacion-y-barreras-de-salud",
-          "name": "Orientación sobre afiliación y barreras de salud",
+          "title": "Orientación sobre afiliación y barreras de salud",
+          "description": "Horario publicado: lunes a viernes, 8:00 a.m.–4:00 p.m.\nLa sede publica orientación sobre afiliación, movilidad, portabilidad y quejas de atención en salud. Llame al 195 para confirmar si necesita turno o documentos.\nAlcaldía — sedes y servicios de salud",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Punto distrital:",
-                  "strong": true
-                },
-                {
-                  "text": " Alcaldía Local Suroccidente, carrera 21B #63-06"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Horario publicado:",
-                  "strong": true
-                },
-                {
-                  "text": " lunes a viernes, 8:00 a.m.–4:00 p.m."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "La sede publica orientación sobre afiliación, movilidad, portabilidad y quejas de atención en salud. Llame al 195 para confirmar si necesita turno o documentos."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Alcaldía — sedes y servicios de salud",
-                  "href": "https://barranquilla.gov.co/nuestras-sedes"
-                }
-              ]
-            }
-          ]
+          "address": "Punto distrital: Alcaldía Local Suroccidente, carrera 21B #63-06",
+          "phone": "",
+          "website": "https://barranquilla.gov.co/nuestras-sedes",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
+    },
+    {
+      "id": "mental-health",
+      "title": "Mental health and addiction",
+      "entries": []
+    },
+    {
+      "id": "public-facilities",
+      "title": "Public toilets and day facilities",
+      "entries": []
+    },
+    {
+      "id": "phone-internet",
+      "title": "Internet, teléfono y transporte",
+      "entries": [
+        {
+          "id": "bibliotecas-publicas",
+          "title": "Bibliotecas públicas",
+          "description": "La Red Distrital de Bibliotecas publica varias sedes. Llame al 195 para pedir la biblioteca más cercana, horario actual y si permite usar computador, internet, baño o una toma eléctrica.\nNo todas las sedes tienen equipos disponibles y pueden exigir registro o limitar el tiempo.\nAlcaldía — Red Distrital de Bibliotecas",
+          "last_verified": "2026-11-12",
+          "address": "",
+          "phone": "",
+          "website": "https://barranquilla.gov.co/educacion/la-transformacion-social-de-barranquilla-tambien-se-construye-desde-la-red-distrital-de-bibliotecas-publicas",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "wi-fi-en-parques",
+          "title": "Wi-Fi en parques",
+          "description": "El Distrito ha publicado conexión en espacios como Parque Las Américas, calle 64 #49-10; Parque Luis Carlos Galán, carrera 44 entre calles 72 y 74; y Parque Las Nieves, carrera 18 #24-60.\nLa lista puede quedar desactualizada y la señal puede fallar. No use una red pública para banca si no puede verificarla y nunca comparta códigos de acceso.\nAlcaldía — espacios con conexión Wi-Fi",
+          "last_verified": "2026-11-12",
+          "address": "",
+          "phone": "",
+          "website": "https://barranquilla.gov.co/participa-2/parques/espacios-con-conexion-wifi",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "cargar-el-telefono",
+          "title": "Cargar el teléfono",
+          "description": "Pregunte en el Centro de Acogida Día, una biblioteca o sede de atención si permiten usar una toma. Lleve su propio cable, permanezca junto al aparato y no lo entregue desbloqueado.\nNo se encontró un directorio oficial de cargadores gratuitos. Una sede mencionada aquí no garantiza enchufe disponible.",
+          "last_verified": "2026-11-12",
+          "address": "",
+          "phone": "",
+          "website": "",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "transporte-hacia-los-centros",
+          "title": "Transporte hacia los centros",
+          "description": "El equipo móvil del Programa Habitantes de la Calle puede trasladar voluntariamente a algunas personas hacia sus centros, según la intervención. En procesos de reintegración también se han publicado apoyos de transporte en casos concretos.\nNo existe garantía de pasaje gratuito general. Pregunte al 312 7138504 qué puede hacer el programa en su caso antes de gastar el último dinero.\nPrograma Habitantes de la Calle — acompañamiento",
+          "last_verified": "2026-11-12",
+          "address": "",
+          "phone": "+573127138504",
+          "website": "https://barranquilla.gov.co/gestionsocial/transformar-vidas-si-es-posible-el-exito-del-programa-habitantes-de-calle-en-barranquilla",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "prepare-el-trayecto",
+          "title": "Prepare el trayecto",
+          "description": "Anote la dirección completa, teléfono, nombre de la persona que orientó y hora límite de ingreso. Pregunte por una ruta sencilla, coste del transporte y un punto de referencia.\nSi la atención termina antes de llegar, pida una alternativa y un lugar seguro de espera. No suba a un vehículo particular de alguien que exige dinero o documentos por una supuesta remisión.",
+          "last_verified": "2026-11-12",
+          "address": "",
+          "phone": "",
+          "website": "",
+          "hours": "",
+          "how_to_access": ""
+        }
+      ]
+    },
+    {
+      "id": "transport",
+      "title": "Transport",
+      "entries": []
     },
     {
       "id": "benefits",
-      "title": "6. Sisbén, apoyos y vivienda",
-      "items": [
+      "title": "Sisbén, apoyos y vivienda",
+      "entries": [
         {
-          "type": "resource",
           "id": "sisben-punto-principal",
-          "name": "Sisbén — punto principal",
+          "title": "Sisbén — punto principal",
+          "description": "Horario publicado: lunes a viernes, 8:00 a.m.–4:00 p.m.\nSolicitudes de nueva encuesta, actualización, inclusión o retiro de personas y otras consultas. El Sisbén es gratuito y no entrega dinero por sí mismo. Llame al 195 para confirmar turno y la regla vigente de pico y cédula.\nAlcaldía — sede Sisbén",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Dirección:",
-                  "strong": true
-                },
-                {
-                  "text": " calle 45 #44-77, Murillo"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Horario publicado:",
-                  "strong": true
-                },
-                {
-                  "text": " lunes a viernes, 8:00 a.m.–4:00 p.m."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Solicitudes de nueva encuesta, actualización, inclusión o retiro de personas y otras consultas. El Sisbén es gratuito y no entrega dinero por sí mismo. Llame al 195 para confirmar turno y la regla vigente de pico y cédula."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Alcaldía — sede Sisbén",
-                  "href": "https://barranquilla.gov.co/nuestras-sedes"
-                }
-              ]
-            }
-          ]
+          "address": "Dirección: calle 45 #44-77, Murillo",
+          "phone": "",
+          "website": "https://barranquilla.gov.co/nuestras-sedes",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "otros-puntos-de-sisben",
-          "name": "Otros puntos de Sisbén",
+          "title": "Otros puntos de Sisbén",
+          "description": "- Alcaldía Local Suroccidente, carrera 21B #63-06.\n- Alcaldía Local Metropolitana, calle 49 #8B Sur-15.\n- Sede principal, calle 34 #43-31.\n- CRAV, vía 11 #8A-25, Juan Mina.\nEl Distrito publica atención de 8:00 a.m.–4:00 p.m., sujeta a turnos y capacidad. Confirme la sede y el día asignado a su documento mediante el 195.\nAlcaldía — puntos de atención de Sisbén",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "list",
-              "items": [
-                [
-                  {
-                    "text": "Alcaldía Local Suroccidente, carrera 21B #63-06."
-                  }
-                ],
-                [
-                  {
-                    "text": "Alcaldía Local Metropolitana, calle 49 #8B Sur-15."
-                  }
-                ],
-                [
-                  {
-                    "text": "Sede principal, calle 34 #43-31."
-                  }
-                ],
-                [
-                  {
-                    "text": "CRAV, vía 11 #8A-25, Juan Mina."
-                  }
-                ]
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "El Distrito publica atención de 8:00 a.m.–4:00 p.m., sujeta a turnos y capacidad. Confirme la sede y el día asignado a su documento mediante el 195."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Alcaldía — puntos de atención de Sisbén",
-                  "href": "https://barranquilla.gov.co/puntos-de-atencion"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://barranquilla.gov.co/puntos-de-atencion",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "nueva-encuesta-sin-vivienda-estable",
-          "name": "Nueva encuesta sin vivienda estable",
+          "title": "Nueva encuesta sin vivienda estable",
+          "description": "La lista ordinaria incluye documentos de identidad del hogar y un recibo de servicio público del lugar de residencia. Si vive en calle o cambia de lugar, no invente una dirección ni pague a un tercero.\nPida primero al Programa Habitantes de la Calle, Personería o Gestión Social que le expliquen cómo documentar su situación y qué punto debe recibir la solicitud.\nSisbén Barranquilla — preguntas frecuentes",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "La lista ordinaria incluye documentos de identidad del hogar y un recibo de servicio público del lugar de residencia. Si vive en calle o cambia de lugar, no invente una dirección ni pague a un tercero."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Pida primero al Programa Habitantes de la Calle, Personería o Gestión Social que le expliquen cómo documentar su situación y qué punto debe recibir la solicitud."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Sisbén Barranquilla — preguntas frecuentes",
-                  "href": "https://barranquilla.gov.co/atencion-al-ciudadano/directorio-tramites-y-servicios/preguntas-frecuentes-4-2/oficina-de-sisben"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://barranquilla.gov.co/atencion-al-ciudadano/directorio-tramites-y-servicios/preguntas-frecuentes-4-2/oficina-de-sisben",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "clasificacion-y-programas-sociales",
-          "name": "Clasificación y programas sociales",
+          "title": "Clasificación y programas sociales",
+          "description": "La oficina local recoge y actualiza información; la clasificación la determina el sistema nacional. Un funcionario local no puede prometer cambiar el grupo a cambio de dinero.\nUse el 195 o la sede de Gestión Social en calle 34 #43-31 para preguntar por Colombia Mayor, Devolución de IVA, Renta Ciudadana, discapacidad u otros programas vigentes. Cada uno tiene criterios y no hay aprobación automática.\nAlcaldía — servicios sociales en sus sedes",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "La oficina local recoge y actualiza información; la clasificación la determina el sistema nacional. Un funcionario local no puede prometer cambiar el grupo a cambio de dinero."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Use el 195 o la sede de Gestión Social en calle 34 #43-31 para preguntar por Colombia Mayor, Devolución de IVA, Renta Ciudadana, discapacidad u otros programas vigentes. Cada uno tiene criterios y no hay aprobación automática."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Alcaldía — servicios sociales en sus sedes",
-                  "href": "https://barranquilla.gov.co/nuestras-sedes"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://barranquilla.gov.co/nuestras-sedes",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "vivienda-y-alojamiento-a-largo-plazo",
-          "name": "Vivienda y alojamiento a largo plazo",
+          "title": "Vivienda y alojamiento a largo plazo",
+          "description": "No se encontró un subsidio distrital que entregue vivienda inmediata a cualquier persona sin hogar. Empiece por la valoración del Programa Habitantes de la Calle y pida que registren su situación, documentos, ingresos, salud y red familiar.\nPregunte por rutas de inclusión, reunificación o programas de vivienda para los que pueda ser elegible. Una solicitud o encuesta no garantiza apartamento, arriendo o dinero.",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "No se encontró un subsidio distrital que entregue vivienda inmediata a cualquier persona sin hogar. Empiece por la valoración del Programa Habitantes de la Calle y pida que registren su situación, documentos, ingresos, salud y red familiar."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Pregunte por rutas de inclusión, reunificación o programas de vivienda para los que pueda ser elegible. Una solicitud o encuesta no garantiza apartamento, arriendo o dinero."
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "evite-estafas",
-          "name": "Evite estafas",
+          "title": "Evite estafas",
+          "description": "La encuesta y los trámites de Sisbén son gratuitos. No pague por una clasificación, turno, cupo de alojamiento, subsidio o vacante laboral. No entregue claves bancarias ni códigos recibidos por mensaje.\nPuede denunciar cobros o falsa intermediación mediante el 195, opción de atención o anticorrupción, y pedir un número de radicado.\nSisbén — trámites gratuitos",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "La encuesta y los trámites de Sisbén son gratuitos. No pague por una clasificación, turno, cupo de alojamiento, subsidio o vacante laboral. No entregue claves bancarias ni códigos recibidos por mensaje."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Puede denunciar cobros o falsa intermediación mediante el 195, opción de atención o anticorrupción, y pedir un número de radicado."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Sisbén — trámites gratuitos",
-                  "href": "https://barranquilla.gov.co/atencion-al-ciudadano/directorio-tramites-y-servicios/preguntas-frecuentes-4-2/oficina-de-sisben"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://barranquilla.gov.co/atencion-al-ciudadano/directorio-tramites-y-servicios/preguntas-frecuentes-4-2/oficina-de-sisben",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
-      "id": "jobs",
-      "title": "7. Empleo y formación",
-      "items": [
+      "id": "employment",
+      "title": "Empleo y formación",
+      "entries": [
         {
-          "type": "resource",
           "id": "centro-de-oportunidades",
-          "name": "Centro de Oportunidades",
+          "title": "Centro de Oportunidades",
+          "description": "Servicio gratuito de registro de hoja de vida, orientación laboral, preparación para entrevistas, remisión a vacantes, cursos cortos y emprendimiento. Lleve cédula o documento de extranjería, como PPT o visa. La inscripción no garantiza contratación.\nAlcaldía — Centro de Oportunidades",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Dirección:",
-                  "strong": true
-                },
-                {
-                  "text": " carrera 21B #39-59, barrio San José"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Horario:",
-                  "strong": true
-                },
-                {
-                  "text": " lunes a viernes, 8:00 a.m.–4:00 p.m.; "
-                },
-                {
-                  "text": "WhatsApp:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "318 3386973",
-                  "href": "tel:+573183386973"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Servicio gratuito de registro de hoja de vida, orientación laboral, preparación para entrevistas, remisión a vacantes, cursos cortos y emprendimiento. Lleve cédula o documento de extranjería, como PPT o visa. La inscripción no garantiza contratación."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Alcaldía — Centro de Oportunidades",
-                  "href": "https://barranquilla.gov.co/centro-de-oportunidades"
-                }
-              ]
-            }
-          ]
+          "address": "Dirección: carrera 21B #39-59, barrio San José",
+          "phone": "+573183386973",
+          "website": "https://barranquilla.gov.co/centro-de-oportunidades",
+          "hours": "Horario: lunes a viernes, 8:00 a.m.–4:00 p.m.; WhatsApp: 318 3386973.",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "agencia-publica-de-empleo-del-sena",
-          "name": "Agencia Pública de Empleo del SENA",
+          "title": "Agencia Pública de Empleo del SENA",
+          "description": "Plataforma pública y gratuita para registrar hoja de vida, buscar vacantes y recibir orientación. Use solo el sitio oficial y no pague por aplicar.\nSi necesita computador o ayuda para crear correo y hoja de vida, pregunte en el Centro de Oportunidades o una biblioteca pública.\nSENA — busque empleo",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Plataforma pública y gratuita para registrar hoja de vida, buscar vacantes y recibir orientación. Use solo el sitio oficial y no pague por aplicar."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Si necesita computador o ayuda para crear correo y hoja de vida, pregunte en el Centro de Oportunidades o una biblioteca pública."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "SENA — busque empleo",
-                  "href": "https://www.sena.edu.co/empleabilidad/busque-empleo"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.sena.edu.co/empleabilidad/busque-empleo",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "empleo-para-migrantes",
-          "name": "Empleo para migrantes",
+          "title": "Empleo para migrantes",
+          "description": "El Centro Intégrate publica orientación jurídica migratoria, empleo y emprendimiento. Su sede permanente está en mantenimiento; la atención temporal se realiza en carrera 43 #35-38, Centro Comercial Los Ángeles, segundo piso.\nConfirme la ubicación mediante el 195 antes de ir. La orientación no sustituye permiso de trabajo ni garantiza una vacante.\nAlcaldía — ubicación actual del Centro Intégrate",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "El Centro Intégrate publica orientación jurídica migratoria, empleo y emprendimiento. Su sede permanente está en mantenimiento; la atención temporal se realiza en carrera 43 #35-38, Centro Comercial Los Ángeles, segundo piso."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Confirme la ubicación mediante el 195 antes de ir. La orientación no sustituye permiso de trabajo ni garantiza una vacante."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Alcaldía — ubicación actual del Centro Intégrate",
-                  "href": "https://barranquilla.gov.co/nuestras-sedes"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://barranquilla.gov.co/nuestras-sedes",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "educacion-y-reintegracion-desde-el-programa-de-calle",
-          "name": "Educación y reintegración desde el programa de calle",
+          "title": "Educación y reintegración desde el programa de calle",
+          "description": "El Hogar de Paso publica apoyo para validar educación básica en algunos casos, actividades de resocialización y reconstrucción de vínculos. Pregunte al profesional responsable qué servicio está disponible para usted.\nNo abandone una fuente segura de ingreso por una promesa verbal. Pida por escrito las condiciones de cualquier curso, práctica o empleo.\nHogar de Paso — inclusión social",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "El Hogar de Paso publica apoyo para validar educación básica en algunos casos, actividades de resocialización y reconstrucción de vínculos. Pregunte al profesional responsable qué servicio está disponible para usted."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "No abandone una fuente segura de ingreso por una promesa verbal. Pida por escrito las condiciones de cualquier curso, práctica o empleo."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Hogar de Paso — inclusión social",
-                  "href": "https://barranquilla.gov.co/gestionsocial/proyecto-de-recuperacion-e-inclusion-social-para-habitantes-de-la-calle-hogar-de-paso"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://barranquilla.gov.co/gestionsocial/proyecto-de-recuperacion-e-inclusion-social-para-habitantes-de-la-calle-hogar-de-paso",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "seguridad-al-aceptar-trabajo",
-          "name": "Seguridad al aceptar trabajo",
+          "title": "Seguridad al aceptar trabajo",
+          "description": "No entregue su documento original, tarjeta bancaria, contraseña o dinero por una vacante. Desconfíe de ofertas que exijan viajar sin dirección verificable, trabajar para pagar una deuda o entregar el teléfono.\nSi retienen sus documentos, amenazan o fuerzan a trabajar, llame al 123 o pida ayuda a Personería, Defensoría o Casa de Justicia.",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "No entregue su documento original, tarjeta bancaria, contraseña o dinero por una vacante. Desconfíe de ofertas que exijan viajar sin dirección verificable, trabajar para pagar una deuda o entregar el teléfono."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Si retienen sus documentos, amenazan o fuerzan a trabajar, llame al 123 o pida ayuda a Personería, Defensoría o Casa de Justicia."
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
+    },
+    {
+      "id": "legal",
+      "title": "Legal aid",
+      "entries": []
     },
     {
       "id": "documents",
-      "title": "8. Documentos, derechos y ayuda jurídica",
-      "items": [
+      "title": "Documentos, derechos y ayuda jurídica",
+      "entries": [
         {
-          "type": "resource",
           "id": "personeria-distrital-poblacion-vulnerable",
-          "name": "Personería Distrital — población vulnerable",
+          "title": "Personería Distrital — población vulnerable",
+          "description": "Teléfono: (605) 3133730; horario: lunes a viernes, 8:30 a.m.–4:00 p.m.\nIdentifica y orienta a personas en condición de vulnerabilidad, incluidas personas habitantes de calle, mayores y población LGBTIQ+. Llame antes porque la propia página muestra más de una sede.\nPersonería — atención a población vulnerable",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Centro de Atención Ciudadana publicado:",
-                  "strong": true
-                },
-                {
-                  "text": " carrera 45 #38-01; "
-                },
-                {
-                  "text": "sede administrativa:",
-                  "strong": true
-                },
-                {
-                  "text": " carrera 58 #72-59"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Teléfono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(605) 3133730",
-                  "href": "tel:+576053133730"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "horario:",
-                  "strong": true
-                },
-                {
-                  "text": " lunes a viernes, 8:30 a.m.–4:00 p.m."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Identifica y orienta a personas en condición de vulnerabilidad, incluidas personas habitantes de calle, mayores y población LGBTIQ+. Llame antes porque la propia página muestra más de una sede."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Personería — atención a población vulnerable",
-                  "href": "https://personeriadebarranquilla.gov.co/atencion-al-ciudadano/servicios/atencion-poblacion-vulnerable/"
-                }
-              ]
-            }
-          ]
+          "address": "Centro de Atención Ciudadana publicado: carrera 45 #38-01; sede administrativa: carrera 58 #72-59",
+          "phone": "+576053133730",
+          "website": "https://personeriadebarranquilla.gov.co/atencion-al-ciudadano/servicios/atencion-poblacion-vulnerable/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "defensoria-del-pueblo-regional-atlantico",
-          "name": "Defensoría del Pueblo — Regional Atlántico",
+          "title": "Defensoría del Pueblo — Regional Atlántico",
+          "description": "Línea nacional: 01 8000 914 814; teléfonos locales publicados: (605) 3560320 y (605) 3560324; horario: lunes a viernes, 8:00 a.m.–4:00 p.m.\nOrientación y defensa de derechos frente a autoridades y servicios públicos. La atención o representación depende del caso.\nDefensoría del Pueblo — sedes regionales",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Dirección:",
-                  "strong": true
-                },
-                {
-                  "text": " calle 68B #50-119"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Línea nacional:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "01 8000 914 814",
-                  "href": "tel:018000914814"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "teléfonos locales publicados:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(605) 3560320",
-                  "href": "tel:+576053560320"
-                },
-                {
-                  "text": " y "
-                },
-                {
-                  "text": "(605) 3560324",
-                  "href": "tel:+576053560324"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "horario:",
-                  "strong": true
-                },
-                {
-                  "text": " lunes a viernes, 8:00 a.m.–4:00 p.m."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Orientación y defensa de derechos frente a autoridades y servicios públicos. La atención o representación depende del caso."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Defensoría del Pueblo — sedes regionales",
-                  "href": "https://www.defensoria.gov.co/-/tabla-ubicaci%C3%B3n-defensoria"
-                }
-              ]
-            }
-          ]
+          "address": "Dirección: calle 68B #50-119",
+          "phone": "018000914814",
+          "website": "https://www.defensoria.gov.co/-/tabla-ubicaci%C3%B3n-defensoria",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "casa-de-justicia-simon-bolivar",
-          "name": "Casa de Justicia Simón Bolívar",
+          "title": "Casa de Justicia Simón Bolívar",
+          "description": "Teléfonos: (605) 3265842 o (605) 3265518; horario: lunes a viernes, 8:00 a.m.–4:00 p.m.\nOrientación gratuita, conciliación y acceso a servicios como Inspección de Policía, Comisaría de Familia, Personería y otros aliados. La autoridad y el servicio disponibles dependen del asunto.\nAlcaldía — Casas de Justicia",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Dirección:",
-                  "strong": true
-                },
-                {
-                  "text": " calle 23 #5C-10, barrio Simón Bolívar"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Teléfonos:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(605) 3265842",
-                  "href": "tel:+576053265842"
-                },
-                {
-                  "text": " o "
-                },
-                {
-                  "text": "(605) 3265518",
-                  "href": "tel:+576053265518"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "horario:",
-                  "strong": true
-                },
-                {
-                  "text": " lunes a viernes, 8:00 a.m.–4:00 p.m."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Orientación gratuita, conciliación y acceso a servicios como Inspección de Policía, Comisaría de Familia, Personería y otros aliados. La autoridad y el servicio disponibles dependen del asunto."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Alcaldía — Casas de Justicia",
-                  "href": "https://barranquilla.gov.co/secgobierno/casas-de-justicia/sedes"
-                }
-              ]
-            }
-          ]
+          "address": "Dirección: calle 23 #5C-10, barrio Simón Bolívar",
+          "phone": "+576053265842",
+          "website": "https://barranquilla.gov.co/secgobierno/casas-de-justicia/sedes",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "casa-de-justicia-la-paz",
-          "name": "Casa de Justicia La Paz",
+          "title": "Casa de Justicia La Paz",
+          "description": "Teléfono: (605) 3808491; horario: lunes a viernes, 8:00 a.m.–4:00 p.m.\nOrientación gratuita sobre conflictos, violencia familiar, convivencia, derechos y rutas institucionales. Llame para confirmar qué entidad atiende su problema ese día.\nAlcaldía — Casa de Justicia La Paz",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Dirección:",
-                  "strong": true
-                },
-                {
-                  "text": " calle 100 #12F-57"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Teléfono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(605) 3808491",
-                  "href": "tel:+576053808491"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "horario:",
-                  "strong": true
-                },
-                {
-                  "text": " lunes a viernes, 8:00 a.m.–4:00 p.m."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Orientación gratuita sobre conflictos, violencia familiar, convivencia, derechos y rutas institucionales. Llame para confirmar qué entidad atiende su problema ese día."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Alcaldía — Casa de Justicia La Paz",
-                  "href": "https://barranquilla.gov.co/secgobierno/casas-de-justicia/sedes"
-                }
-              ]
-            }
-          ]
+          "address": "Dirección: calle 100 #12F-57",
+          "phone": "+576053808491",
+          "website": "https://barranquilla.gov.co/secgobierno/casas-de-justicia/sedes",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "consultorio-juridico-de-la-universidad-del-atlantico",
-          "name": "Consultorio Jurídico de la Universidad del Atlántico",
+          "title": "Consultorio Jurídico de la Universidad del Atlántico",
+          "description": "Horario publicado: lunes a viernes, 8:00 a.m.–12:00 m. y 2:00–5:00 p.m.\nOrientación jurídica para personas de bajos recursos y conciliación en asuntos admitidos por el consultorio. Confirme el área, cupo y documentos antes de ir; no todos los casos pueden ser representados.\nUniversidad del Atlántico — Consultorio Jurídico",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Sede Centro:",
-                  "strong": true
-                },
-                {
-                  "text": " carrera 43 #50-53"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Horario publicado:",
-                  "strong": true
-                },
-                {
-                  "text": " lunes a viernes, 8:00 a.m.–12:00 m. y 2:00–5:00 p.m."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Orientación jurídica para personas de bajos recursos y conciliación en asuntos admitidos por el consultorio. Confirme el área, cupo y documentos antes de ir; no todos los casos pueden ser representados."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Universidad del Atlántico — Consultorio Jurídico",
-                  "href": "https://www.uniatlantico.edu.co/consultorio-juridico-y-centro-de-conciliacion/"
-                }
-              ]
-            }
-          ]
+          "address": "Sede Centro: carrera 43 #50-53",
+          "phone": "",
+          "website": "https://www.uniatlantico.edu.co/consultorio-juridico-y-centro-de-conciliacion/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "recuperar-documentos-perdidos",
-          "name": "Recuperar documentos perdidos",
+          "title": "Recuperar documentos perdidos",
+          "description": "Si perdió todos sus documentos, empiece por el trabajador social del Programa Habitantes de la Calle. Pida una lista escrita: denuncia si hubo robo, registro civil, documento de identidad, afiliación en salud, Sisbén y datos tributarios o bancarios.\nPersonería o Casa de Justicia pueden ayudar a identificar la ruta actual de Registraduría. No pague a un tercero por una cédula “rápida”.",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Si perdió todos sus documentos, empiece por el trabajador social del Programa Habitantes de la Calle. Pida una lista escrita: denuncia si hubo robo, registro civil, documento de identidad, afiliación en salud, Sisbén y datos tributarios o bancarios."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Personería o Casa de Justicia pueden ayudar a identificar la ruta actual de Registraduría. No pague a un tercero por una cédula “rápida”."
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "guarde-constancia-de-cada-tramite",
-          "name": "Guarde constancia de cada trámite",
+          "title": "Guarde constancia de cada trámite",
+          "description": "Pida número de radicado, fecha, nombre de la entidad y lista de documentos faltantes. Tome una foto si tiene teléfono y guarde una copia con una persona de confianza.\nNo firme un documento que no entiende. Pida que se lo lean, una copia y, si la necesita, orientación jurídica o un intérprete.",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Pida número de radicado, fecha, nombre de la entidad y lista de documentos faltantes. Tome una foto si tiene teléfono y guarde una copia con una persona de confianza."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "No firme un documento que no entiende. Pida que se lo lean, una copia y, si la necesita, orientación jurídica o un intérprete."
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
-      "id": "violence",
-      "title": "9. Violencia, mujeres, niños y familias",
-      "items": [
+      "id": "mail",
+      "title": "Mailing address",
+      "entries": []
+    },
+    {
+      "id": "storage",
+      "title": "Storage",
+      "entries": []
+    },
+    {
+      "id": "safety",
+      "title": "Violencia, mujeres, niños y familias",
+      "entries": [
         {
-          "type": "resource",
           "id": "ruta-de-violencia-basada-en-genero",
-          "name": "Ruta de violencia basada en género",
+          "title": "Ruta de violencia basada en género",
+          "description": "Emergencia: 123; Línea nacional: 155; Patrulla Púrpura: 317 3725692; Fiscalía: 122.\nLa atención en salud, protección y justicia es gratuita. Si la persona agresora está cerca, priorice salir a un lugar seguro y llamar desde allí.\nAlcaldía — ruta de atención",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Emergencia:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "123",
-                  "href": "tel:123"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "Línea nacional:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "155",
-                  "href": "tel:155"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "Patrulla Púrpura:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "317 3725692",
-                  "href": "tel:+573173725692"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "Fiscalía:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "122",
-                  "href": "tel:122"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "La atención en salud, protección y justicia es gratuita. Si la persona agresora está cerca, priorice salir a un lugar seguro y llamar desde allí."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Alcaldía — ruta de atención",
-                  "href": "https://barranquilla.gov.co/equidad-y-genero/ruta-de-atencion-para-la-mujer"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "123",
+          "website": "https://barranquilla.gov.co/equidad-y-genero/ruta-de-atencion-para-la-mujer",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "oficina-de-la-mujer-equidad-y-genero",
-          "name": "Oficina de la Mujer, Equidad y Género",
+          "title": "Oficina de la Mujer, Equidad y Género",
+          "description": "Teléfono: 315 6389391; horario publicado: lunes a viernes, 8:00 a.m.–4:00 p.m.\nOrientación psicológica, jurídica y de acceso a derechos. La dirección de cualquier alojamiento protegido no se publica y el ingreso requiere valoración.\nOficina de la Mujer — ruta distrital",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Dirección:",
-                  "strong": true
-                },
-                {
-                  "text": " calle 34 #43-31, Alcaldía Distrital, segundo piso"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Teléfono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "315 6389391",
-                  "href": "tel:+573156389391"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "horario publicado:",
-                  "strong": true
-                },
-                {
-                  "text": " lunes a viernes, 8:00 a.m.–4:00 p.m."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Orientación psicológica, jurídica y de acceso a derechos. La dirección de cualquier alojamiento protegido no se publica y el ingreso requiere valoración."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Oficina de la Mujer — ruta distrital",
-                  "href": "https://barranquilla.gov.co/equidad-y-genero/ruta-de-atencion-para-la-mujer"
-                }
-              ]
-            }
-          ]
+          "address": "Dirección: calle 34 #43-31, Alcaldía Distrital, segundo piso",
+          "phone": "+573156389391",
+          "website": "https://barranquilla.gov.co/equidad-y-genero/ruta-de-atencion-para-la-mujer",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "comisaria-de-familia-permanente",
-          "name": "Comisaría de Familia Permanente",
+          "title": "Comisaría de Familia Permanente",
+          "description": "El Distrito publica comisarías con turnos diurnos de 6:00 a.m.–6:00 p.m. y nocturnos de 6:00 p.m.–6:00 a.m. para todo el Distrito.\nPara medidas de protección por violencia intrafamiliar y protección de menores. En peligro inmediato, llame primero al 123.\nAlcaldía — comisarías con jurisdicción distrital",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Dirección:",
-                  "strong": true
-                },
-                {
-                  "text": " calle 56 #11-102, Vía Cordialidad, UCJ"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "El Distrito publica comisarías con turnos diurnos de 6:00 a.m.–6:00 p.m. y nocturnos de 6:00 p.m.–6:00 a.m. para todo el Distrito."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Para medidas de protección por violencia intrafamiliar y protección de menores. En peligro inmediato, llame primero al 123."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Alcaldía — comisarías con jurisdicción distrital",
-                  "href": "https://barranquilla.gov.co/nuestras-sedes"
-                }
-              ]
-            }
-          ]
+          "address": "Dirección: calle 56 #11-102, Vía Cordialidad, UCJ",
+          "phone": "",
+          "website": "https://barranquilla.gov.co/nuestras-sedes",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "fiscalia-unidad-de-reaccion-inmediata",
-          "name": "Fiscalía — Unidad de Reacción Inmediata",
+          "title": "Fiscalía — Unidad de Reacción Inmediata",
+          "description": "Línea Fiscalía: 122.\nPara denunciar delitos y activar la ruta de justicia. Una denuncia no sustituye atención médica. Si hubo violencia sexual, lesión o riesgo de embarazo, vaya a urgencias o llame al 123 sin esperar a reunir pruebas.\nRuta distrital — Fiscalía y salud",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Dirección publicada:",
-                  "strong": true
-                },
-                {
-                  "text": " calle 41 #41-69, segundo piso"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Línea Fiscalía:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "122",
-                  "href": "tel:122"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Para denunciar delitos y activar la ruta de justicia. Una denuncia no sustituye atención médica. Si hubo violencia sexual, lesión o riesgo de embarazo, vaya a urgencias o llame al 123 sin esperar a reunir pruebas."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ruta distrital — Fiscalía y salud",
-                  "href": "https://barranquilla.gov.co/equidad-y-genero/ruta-de-atencion-para-la-mujer"
-                }
-              ]
-            }
-          ]
+          "address": "Dirección publicada: calle 41 #41-69, segundo piso",
+          "phone": "122",
+          "website": "https://barranquilla.gov.co/equidad-y-genero/ruta-de-atencion-para-la-mujer",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "icbf-centro-zonal-suroriente",
-          "name": "ICBF — Centro Zonal Suroriente",
+          "title": "ICBF — Centro Zonal Suroriente",
+          "description": "Línea 141: 141, las 24 horas; atención presencial publicada: lunes a viernes, 8:00 a.m.–5:00 p.m.\nProtección, emergencia y orientación para niños, adolescentes y familias. La atención no garantiza un tipo específico de alojamiento; explique todos los riesgos.\nICBF — Centro Zonal Suroriente",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Dirección:",
-                  "strong": true
-                },
-                {
-                  "text": " calle 45 #10C-17, barrio La Victoria"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Línea 141:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "141",
-                  "href": "tel:141"
-                },
-                {
-                  "text": ", las 24 horas; "
-                },
-                {
-                  "text": "atención presencial publicada:",
-                  "strong": true
-                },
-                {
-                  "text": " lunes a viernes, 8:00 a.m.–5:00 p.m."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Protección, emergencia y orientación para niños, adolescentes y familias. La atención no garantiza un tipo específico de alojamiento; explique todos los riesgos."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "ICBF — Centro Zonal Suroriente",
-                  "href": "https://www.icbf.gov.co/centro-zonal-suroriente"
-                }
-              ]
-            }
-          ]
+          "address": "Dirección: calle 45 #10C-17, barrio La Victoria",
+          "phone": "141",
+          "website": "https://www.icbf.gov.co/centro-zonal-suroriente",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "violencia-sexual",
-          "name": "Violencia sexual",
+          "title": "Violencia sexual",
+          "description": "Busque atención médica lo antes posible en una urgencia o mediante el 123. Puede recibir atención aunque todavía no haya decidido denunciar. No se bañe ni cambie de ropa si puede evitarlo y desea preservar evidencia, pero nunca retrase la atención necesaria por esta recomendación.\nPida acompañamiento de la Oficina de la Mujer, ICBF si es menor de edad, o una persona de confianza.",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Busque atención médica lo antes posible en una urgencia o mediante el 123. Puede recibir atención aunque todavía no haya decidido denunciar. No se bañe ni cambie de ropa si puede evitarlo y desea preservar evidencia, pero nunca retrase la atención necesaria por esta recomendación."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Pida acompañamiento de la Oficina de la Mujer, ICBF si es menor de edad, o una persona de confianza."
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "trabajo-forzado-explotacion-o-retencion-de-documentos",
-          "name": "Trabajo forzado, explotación o retención de documentos",
+          "title": "Trabajo forzado, explotación o retención de documentos",
+          "description": "Si alguien le obliga a trabajar, ejercer actividades sexuales, transportar paquetes o pagar una deuda mediante trabajo, o retiene sus documentos, puede tratarse de explotación.\nNo confronte solo a la persona que controla la situación. Llame al 123 o 122, o pida ayuda a Defensoría, Personería o Casa de Justicia.",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Si alguien le obliga a trabajar, ejercer actividades sexuales, transportar paquetes o pagar una deuda mediante trabajo, o retiene sus documentos, puede tratarse de explotación."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "No confronte solo a la persona que controla la situación. Llame al 123 o 122, o pida ayuda a Defensoría, Personería o Casa de Justicia."
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
-      "id": "specialized",
-      "title": "10. Migrantes, víctimas, discapacidad y población LGBTIQ+",
-      "items": [
+      "id": "specialist-support",
+      "title": "Migrantes, víctimas, discapacidad y población LGBTIQ+",
+      "entries": [
         {
-          "type": "resource",
           "id": "centro-integrate-atencion-temporal-para-migrantes",
-          "name": "Centro Intégrate — atención temporal para migrantes",
+          "title": "Centro Intégrate — atención temporal para migrantes",
+          "description": "Orientación jurídica migratoria, protección de derechos, bienestar emocional, participación, empleo, emprendimiento y trámites de Sisbén. Confirme en el 195 la ubicación antes de desplazarse.\nAlcaldía — Centro Intégrate",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Ubicación temporal publicada:",
-                  "strong": true
-                },
-                {
-                  "text": " carrera 43 #35-38, Centro Comercial Los Ángeles, segundo piso"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Horario:",
-                  "strong": true
-                },
-                {
-                  "text": " lunes a viernes, 8:00 a.m.–4:00 p.m. La sede permanente de calle 52 #55-75 está cerrada por mantenimiento."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Orientación jurídica migratoria, protección de derechos, bienestar emocional, participación, empleo, emprendimiento y trámites de Sisbén. Confirme en el 195 la ubicación antes de desplazarse."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Alcaldía — Centro Intégrate",
-                  "href": "https://barranquilla.gov.co/nuestras-sedes"
-                }
-              ]
-            }
-          ]
+          "address": "Ubicación temporal publicada: carrera 43 #35-38, Centro Comercial Los Ángeles, segundo piso",
+          "phone": "",
+          "website": "https://barranquilla.gov.co/nuestras-sedes",
+          "hours": "Horario: lunes a viernes, 8:00 a.m.–4:00 p.m. La sede permanente de calle 52 #55-75 está cerrada por mantenimiento.",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "centro-regional-de-atencion-a-victimas-crav",
-          "name": "Centro Regional de Atención a Víctimas — CRAV",
+          "title": "Centro Regional de Atención a Víctimas — CRAV",
+          "description": "Teléfono publicado: 317 3002805; horario: lunes a viernes, 7:00 a.m.–4:00 p.m.\nAtención y orientación para víctimas del conflicto armado, con articulación social, jurídica, de salud, educación y empleo. La atención no garantiza indemnización, subsidio o alojamiento inmediato.\nAlcaldía — atención integral a víctimas",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Dirección:",
-                  "strong": true
-                },
-                {
-                  "text": " vía 11 #8A-25, corregimiento de Juan Mina"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Teléfono publicado:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "317 3002805",
-                  "href": "tel:+573173002805"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "horario:",
-                  "strong": true
-                },
-                {
-                  "text": " lunes a viernes, 7:00 a.m.–4:00 p.m."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Atención y orientación para víctimas del conflicto armado, con articulación social, jurídica, de salud, educación y empleo. La atención no garantiza indemnización, subsidio o alojamiento inmediato."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Alcaldía — atención integral a víctimas",
-                  "href": "https://barranquilla.gov.co/gestionsocial/proyecto-asistencia-atencion-integral-a-las-victimas-del-conflicto-y-dinamizacion-de-la-politica-publica-en-el-distrito-de-barranquilla"
-                }
-              ]
-            }
-          ]
+          "address": "Dirección: vía 11 #8A-25, corregimiento de Juan Mina",
+          "phone": "+573173002805",
+          "website": "https://barranquilla.gov.co/gestionsocial/proyecto-asistencia-atencion-integral-a-las-victimas-del-conflicto-y-dinamizacion-de-la-politica-publica-en-el-distrito-de-barranquilla",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "centro-comunitario-inclusivo-llegate",
-          "name": "Centro Comunitario Inclusivo Llégate",
+          "title": "Centro Comunitario Inclusivo Llégate",
+          "description": "Horario publicado: lunes a viernes, 8:00 a.m.–4:00 p.m.\nApoyo, orientación y formación para personas con discapacidad y cuidadores. Pregunte por accesibilidad, certificado de discapacidad, transporte y documentos; la sede no es alojamiento.\nAlcaldía — Centro Inclusivo Llégate",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Dirección:",
-                  "strong": true
-                },
-                {
-                  "text": " calle 46 con avenida Circunvalar, esquina"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Horario publicado:",
-                  "strong": true
-                },
-                {
-                  "text": " lunes a viernes, 8:00 a.m.–4:00 p.m."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Apoyo, orientación y formación para personas con discapacidad y cuidadores. Pregunte por accesibilidad, certificado de discapacidad, transporte y documentos; la sede no es alojamiento."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Alcaldía — Centro Inclusivo Llégate",
-                  "href": "https://barranquilla.gov.co/nuestras-sedes"
-                }
-              ]
-            }
-          ]
+          "address": "Dirección: calle 46 con avenida Circunvalar, esquina",
+          "phone": "",
+          "website": "https://barranquilla.gov.co/nuestras-sedes",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "certificado-y-programas-de-discapacidad",
-          "name": "Certificado y programas de discapacidad",
+          "title": "Certificado y programas de discapacidad",
+          "description": "La Alcaldía orienta sobre certificado de discapacidad y apoyos sociales en sus sedes. Si no tiene historia clínica, recibo de servicio o dirección estable, llame primero al 195 y explique que vive en calle.\nNo viaje a varias oficinas sin una lista exacta de documentos. Pida que le indiquen el primer paso posible en su situación.\nAlcaldía — solicitud de certificado de discapacidad",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "La Alcaldía orienta sobre certificado de discapacidad y apoyos sociales en sus sedes. Si no tiene historia clínica, recibo de servicio o dirección estable, llame primero al 195 y explique que vive en calle."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "No viaje a varias oficinas sin una lista exacta de documentos. Pida que le indiquen el primer paso posible en su situación."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Alcaldía — solicitud de certificado de discapacidad",
-                  "href": "https://barranquilla.gov.co/salud/solicitud-certificado-de-discapacidad"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://barranquilla.gov.co/salud/solicitud-certificado-de-discapacidad",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "poblacion-lgbtiq-y-discriminacion",
-          "name": "Población LGBTIQ+ y discriminación",
+          "title": "Población LGBTIQ+ y discriminación",
+          "description": "La Personería incluye a población LGBTIQ+ dentro de su atención a personas vulnerables. Llame al (605) 3133730 para orientación por discriminación, violencia o barreras de acceso.\nEn una agresión o amenaza inmediata use el 123. Explique si teme volver a un lugar o si necesita una remisión segura.\nPersonería — población vulnerable",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "La Personería incluye a población LGBTIQ+ dentro de su atención a personas vulnerables. Llame al "
-                },
-                {
-                  "text": "(605) 3133730",
-                  "href": "tel:+576053133730"
-                },
-                {
-                  "text": " para orientación por discriminación, violencia o barreras de acceso."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "En una agresión o amenaza inmediata use el 123. Explique si teme volver a un lugar o si necesita una remisión segura."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Personería — población vulnerable",
-                  "href": "https://personeriadebarranquilla.gov.co/atencion-al-ciudadano/servicios/atencion-poblacion-vulnerable/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+576053133730",
+          "website": "https://personeriadebarranquilla.gov.co/atencion-al-ciudadano/servicios/atencion-poblacion-vulnerable/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "atencion-en-lengua-de-senas-colombiana",
-          "name": "Atención en lengua de señas colombiana",
+          "title": "Atención en lengua de señas colombiana",
+          "description": "La Línea 195 ofrece videollamada en LSC de lunes a viernes, 8:00 a.m.–12:00 m. y 1:00–5:00 p.m., y sábados 8:00 a.m.–12:00 m. Varias sedes también publican interpretación en LSC.\nLa plataforma funciona en computador o teléfono con cámara. Para una emergencia inmediata, busque a una persona que pueda llamar al 123 o use el canal accesible disponible.\nLínea 195 — atención en LSC",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "La Línea 195 ofrece videollamada en LSC de lunes a viernes, 8:00 a.m.–12:00 m. y 1:00–5:00 p.m., y sábados 8:00 a.m.–12:00 m. Varias sedes también publican interpretación en LSC."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "La plataforma funciona en computador o teléfono con cámara. Para una emergencia inmediata, busque a una persona que pueda llamar al 123 o use el canal accesible disponible."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Línea 195 — atención en LSC",
-                  "href": "https://barranquilla.gov.co/linea-unica-195"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "older",
-      "title": "11. Personas mayores y familias",
-      "items": [
+          "address": "",
+          "phone": "",
+          "website": "https://barranquilla.gov.co/linea-unica-195",
+          "hours": "",
+          "how_to_access": ""
+        },
         {
-          "type": "resource",
           "id": "centros-de-vida-personas-de-60-anos-o-mas",
-          "name": "Centros de Vida — personas de 60 años o más",
+          "title": "Centros de Vida — personas de 60 años o más",
+          "description": "El Distrito publica 26 centros con actividades de salud física y mental, nutrición, inclusión y desarrollo social, de lunes a viernes en jornadas de mañana y tarde.\nLa inscripción ordinaria pide 60 años o más, documento, Sisbén A, B o C y recibo de servicio. Si vive en calle y no tiene recibo, pida primero orientación a Gestión Social o al Programa Habitantes de la Calle.\nAlcaldía — Centros de Vida",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "El Distrito publica 26 centros con actividades de salud física y mental, nutrición, inclusión y desarrollo social, de lunes a viernes en jornadas de mañana y tarde."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "La inscripción ordinaria pide 60 años o más, documento, Sisbén A, B o C y recibo de servicio. Si vive en calle y no tiene recibo, pida primero orientación a Gestión Social o al Programa Habitantes de la Calle."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Alcaldía — Centros de Vida",
-                  "href": "https://barranquilla.gov.co/gestionsocial/centros-de-vida"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://barranquilla.gov.co/gestionsocial/centros-de-vida",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "centro-de-vida-centro",
-          "name": "Centro de Vida Centro",
+          "title": "Centro de Vida Centro",
+          "description": "Una de las sedes para mayores de 60 años. No es refugio nocturno. Confirme en el 195 la jornada, inscripción y si corresponde a su zona.\nListado oficial de Centros de Vida",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Dirección publicada:",
-                  "strong": true
-                },
-                {
-                  "text": " calle 35 #36-26"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Una de las sedes para mayores de 60 años. No es refugio nocturno. Confirme en el 195 la jornada, inscripción y si corresponde a su zona."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Listado oficial de Centros de Vida",
-                  "href": "https://barranquilla.gov.co/gestionsocial/centros-de-vida"
-                }
-              ]
-            }
-          ]
+          "address": "Dirección publicada: calle 35 #36-26",
+          "phone": "",
+          "website": "https://barranquilla.gov.co/gestionsocial/centros-de-vida",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "centros-de-vida-rebolo-y-san-roque",
-          "name": "Centros de Vida Rebolo y San Roque",
+          "title": "Centros de Vida Rebolo y San Roque",
+          "description": "Rebolo: calle 17 con carrera 38 esquina. San Roque: calle 28 #32-86.\nAtención diurna para personas mayores inscritas. Las direcciones y modalidades pueden cambiar; confirme mediante el 195 antes de ir.\nAlcaldía — sedes de Centros de Vida",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Rebolo:",
-                  "strong": true
-                },
-                {
-                  "text": " calle 17 con carrera 38 esquina. "
-                },
-                {
-                  "text": "San Roque:",
-                  "strong": true
-                },
-                {
-                  "text": " calle 28 #32-86."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Atención diurna para personas mayores inscritas. Las direcciones y modalidades pueden cambiar; confirme mediante el 195 antes de ir."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Alcaldía — sedes de Centros de Vida",
-                  "href": "https://barranquilla.gov.co/gestionsocial/centros-de-vida"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://barranquilla.gov.co/gestionsocial/centros-de-vida",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "colombia-mayor-y-otros-apoyos-para-personas-mayores",
-          "name": "Colombia Mayor y otros apoyos para personas mayores",
+          "title": "Colombia Mayor y otros apoyos para personas mayores",
+          "description": "Pregunte por inscripción, estado y criterios mediante el 195 o en Gestión Social, calle 34 #43-31. El subsidio depende de requisitos, priorización y cupos; no se entrega por presentarse una vez.\nNo comparta clave bancaria ni pague por entrar en una lista. Pida número de radicado para cualquier solicitud.\nAlcaldía — puntos de Gestión Social",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Pregunte por inscripción, estado y criterios mediante el 195 o en Gestión Social, calle 34 #43-31. El subsidio depende de requisitos, priorización y cupos; no se entrega por presentarse una vez."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "No comparta clave bancaria ni pague por entrar en una lista. Pida número de radicado para cualquier solicitud."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Alcaldía — puntos de Gestión Social",
-                  "href": "https://barranquilla.gov.co/nuestras-sedes"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://barranquilla.gov.co/nuestras-sedes",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "familias-con-ninos-sin-vivienda-segura",
-          "name": "Familias con niños sin vivienda segura",
+          "title": "Familias con niños sin vivienda segura",
+          "description": "Llame al ICBF en el 141 y al Programa Habitantes de la Calle en el 312 7138504. Diga cuántos menores hay, edades, salud, documentos y dónde durmieron.\nNo deje a un menor solo para buscar ayuda. En peligro, abuso o enfermedad grave, use el 123.",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Llame al ICBF en el 141 y al Programa Habitantes de la Calle en el "
-                },
-                {
-                  "text": "312 7138504",
-                  "href": "tel:+573127138504"
-                },
-                {
-                  "text": ". Diga cuántos menores hay, edades, salud, documentos y dónde durmieron."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "No deje a un menor solo para buscar ayuda. En peligro, abuso o enfermedad grave, use el 123."
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+573127138504",
+          "website": "",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
-      "id": "internet",
-      "title": "12. Internet, teléfono y transporte",
-      "items": [
-        {
-          "type": "resource",
-          "id": "bibliotecas-publicas",
-          "name": "Bibliotecas públicas",
-          "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "La Red Distrital de Bibliotecas publica varias sedes. Llame al 195 para pedir la biblioteca más cercana, horario actual y si permite usar computador, internet, baño o una toma eléctrica."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "No todas las sedes tienen equipos disponibles y pueden exigir registro o limitar el tiempo."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Alcaldía — Red Distrital de Bibliotecas",
-                  "href": "https://barranquilla.gov.co/educacion/la-transformacion-social-de-barranquilla-tambien-se-construye-desde-la-red-distrital-de-bibliotecas-publicas"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "wi-fi-en-parques",
-          "name": "Wi-Fi en parques",
-          "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "El Distrito ha publicado conexión en espacios como Parque Las Américas, calle 64 #49-10; Parque Luis Carlos Galán, carrera 44 entre calles 72 y 74; y Parque Las Nieves, carrera 18 #24-60."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "La lista puede quedar desactualizada y la señal puede fallar. No use una red pública para banca si no puede verificarla y nunca comparta códigos de acceso."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Alcaldía — espacios con conexión Wi-Fi",
-                  "href": "https://barranquilla.gov.co/participa-2/parques/espacios-con-conexion-wifi"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "cargar-el-telefono",
-          "name": "Cargar el teléfono",
-          "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Pregunte en el Centro de Acogida Día, una biblioteca o sede de atención si permiten usar una toma. Lleve su propio cable, permanezca junto al aparato y no lo entregue desbloqueado."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "No se encontró un directorio oficial de cargadores gratuitos. Una sede mencionada aquí no garantiza enchufe disponible."
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "transporte-hacia-los-centros",
-          "name": "Transporte hacia los centros",
-          "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "El equipo móvil del Programa Habitantes de la Calle puede trasladar voluntariamente a algunas personas hacia sus centros, según la intervención. En procesos de reintegración también se han publicado apoyos de transporte en casos concretos."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "No existe garantía de pasaje gratuito general. Pregunte al "
-                },
-                {
-                  "text": "312 7138504",
-                  "href": "tel:+573127138504"
-                },
-                {
-                  "text": " qué puede hacer el programa en su caso antes de gastar el último dinero."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Programa Habitantes de la Calle — acompañamiento",
-                  "href": "https://barranquilla.gov.co/gestionsocial/transformar-vidas-si-es-posible-el-exito-del-programa-habitantes-de-calle-en-barranquilla"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "prepare-el-trayecto",
-          "name": "Prepare el trayecto",
-          "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Anote la dirección completa, teléfono, nombre de la persona que orientó y hora límite de ingreso. Pregunte por una ruta sencilla, coste del transporte y un punto de referencia."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Si la atención termina antes de llegar, pida una alternativa y un lugar seguro de espera. No suba a un vehículo particular de alguien que exige dinero o documentos por una supuesta remisión."
-                }
-              ]
-            }
-          ]
-        }
-      ]
+      "id": "veterans",
+      "title": "Veterans support",
+      "entries": []
     },
     {
       "id": "pets",
-      "title": "13. Ayuda con animales",
-      "items": [
+      "title": "Ayuda con animales",
+      "entries": [
         {
-          "type": "resource",
           "id": "centro-de-bienestar-animal",
-          "name": "Centro de Bienestar Animal",
+          "title": "Centro de Bienestar Animal",
+          "description": "Emergencias veterinarias publicadas: lunes a domingo, 24 horas. Visitas: 8:00–11:00 a.m. y 2:00–4:00 p.m.\nAtiende urgencias de perros y gatos en calle o abandono, y animales de cuidadores de estratos 1, 2 y 3 que no pueden costear la atención. Para orientación llame al 195, opción 8, o al (605) 4010205.\nAlcaldía — Programa de Bienestar Animal",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Dirección:",
-                  "strong": true
-                },
-                {
-                  "text": " vía 11 #4-413, corregimiento de Juan Mina"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Emergencias veterinarias publicadas:",
-                  "strong": true
-                },
-                {
-                  "text": " lunes a domingo, 24 horas. "
-                },
-                {
-                  "text": "Visitas:",
-                  "strong": true
-                },
-                {
-                  "text": " 8:00–11:00 a.m. y 2:00–4:00 p.m."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Atiende urgencias de perros y gatos en calle o abandono, y animales de cuidadores de estratos 1, 2 y 3 que no pueden costear la atención. Para orientación llame al 195, opción 8, o al "
-                },
-                {
-                  "text": "(605) 4010205",
-                  "href": "tel:+576054010205"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Alcaldía — Programa de Bienestar Animal",
-                  "href": "https://barranquilla.gov.co/secgobierno/programa-de-bienestar-animal"
-                }
-              ]
-            }
-          ]
+          "address": "Dirección: vía 11 #4-413, corregimiento de Juan Mina",
+          "phone": "+576054010205",
+          "website": "https://barranquilla.gov.co/secgobierno/programa-de-bienestar-animal",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "animal-herido-o-en-peligro",
-          "name": "Animal herido o en peligro",
+          "title": "Animal herido o en peligro",
+          "description": "Llame al 195, opción 8, y diga ubicación exacta, especie, heridas, si se mueve y si representa riesgo para alguien. No intente sujetar un animal asustado si puede morder.\nLa patrulla y el centro priorizan urgencias. La llamada no garantiza recogida inmediata ni alojamiento permanente.\nAlcaldía — acceso a la Patrulla Animal",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Llame al 195, opción 8, y diga ubicación exacta, especie, heridas, si se mueve y si representa riesgo para alguien. No intente sujetar un animal asustado si puede morder."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "La patrulla y el centro priorizan urgencias. La llamada no garantiza recogida inmediata ni alojamiento permanente."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Alcaldía — acceso a la Patrulla Animal",
-                  "href": "https://barranquilla.gov.co/mi-barranquilla/alcalde-char-anuncia-articulacion-con-fundaciones-y-veterinarias-para-ampliar-servicios-del-cba"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://barranquilla.gov.co/mi-barranquilla/alcalde-char-anuncia-articulacion-con-fundaciones-y-veterinarias-para-ampliar-servicios-del-cba",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "antes-de-aceptar-alojamiento-con-un-animal",
-          "name": "Antes de aceptar alojamiento con un animal",
+          "title": "Antes de aceptar alojamiento con un animal",
+          "description": "Diga que tiene animal antes de aceptar una remisión. Pregunte si puede entrar, si se necesita correa o guacal y si existe una alternativa segura.\nNingún centro de alojamiento de esta página garantiza aceptar mascotas. No abandone al animal basándose en una promesa verbal.",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Diga que tiene animal antes de aceptar una remisión. Pregunte si puede entrar, si se necesita correa o guacal y si existe una alternativa segura."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ningún centro de alojamiento de esta página garantiza aceptar mascotas. No abandone al animal basándose en una promesa verbal."
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
-      "id": "plan",
-      "title": "14. Plan práctico y seguridad",
-      "items": [
-        {
-          "type": "resource",
-          "id": "antes-de-desplazarse",
-          "name": "Antes de desplazarse",
-          "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "list",
-              "items": [
-                [
-                  {
-                    "text": "Confirme dirección, horario, requisito y si atienden hoy."
-                  }
-                ],
-                [
-                  {
-                    "text": "Diga si hay menor, embarazo, enfermedad, discapacidad, violencia o animal."
-                  }
-                ],
-                [
-                  {
-                    "text": "Lleve documento, medicamentos, recetas y números de radicado que conserve."
-                  }
-                ],
-                [
-                  {
-                    "text": "Pregunte cuánto equipaje permiten y qué ocurre si llega después de la hora."
-                  }
-                ]
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "si-le-niegan-atencion",
-          "name": "Si le niegan atención",
-          "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Pregunte la razón, el nombre de la entidad competente y una alternativa concreta. Pida constancia o número de radicado cuando corresponda."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Si cree que vulneraron un derecho, contacte Personería, Defensoría o Casa de Justicia. Si el riesgo es inmediato, llame al 123."
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "proteja-dinero-datos-y-documentos",
-          "name": "Proteja dinero, datos y documentos",
-          "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "No entregue contraseñas, códigos enviados al teléfono, tarjeta bancaria o documento original a un desconocido. No pague por cupo, subsidio, Sisbén o empleo público."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Use teléfonos y enlaces oficiales. Si alguien cobra o amenaza, aléjese a un lugar con personas y pida ayuda."
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "correcciones-de-esta-pagina",
-          "name": "Correcciones de esta página",
-          "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "La información se revisó con páginas oficiales de la Alcaldía, entidades públicas y proveedores citados. Los servicios cambian y una organización puede suspender una jornada sin actualizar su web."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Si encuentra un número equivocado, un lugar cerrado o una nueva ayuda, "
-                },
-                {
-                  "text": "consulte cómo contribuir",
-                  "href": "../../CONTRIBUTING.md"
-                },
-                {
-                  "text": " o "
-                },
-                {
-                  "text": "envíe una corrección en GitHub",
-                  "href": "https://github.com/carlosbranco/no-home-help"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            }
-          ]
-        }
-      ]
+      "id": "other",
+      "title": "Other useful resources",
+      "entries": []
     }
   ]
 }

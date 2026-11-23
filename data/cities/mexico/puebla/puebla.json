@@ -1,6 +1,7 @@
 {
   "$schema": "https://nohomehelp.com/schemas/city.schema.json",
-  "schema_version": 1,
+  "documentation": "https://github.com/carlosbranco/no-home-help/blob/main/EDIT_CITY_JSON.md",
+  "schema_version": 2,
   "status": "published",
   "locale": {
     "language": "es-MX",
@@ -26,4773 +27,757 @@
   "page": {
     "heading": "Puebla — ayuda para personas sin hogar",
     "last_verified": "2026-11-12",
-    "urgent": [
-      {
-        "type": "paragraph",
-        "content": [
-          {
-            "text": "Emergencias:",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "911",
-            "href": "tel:911"
-          },
-          {
-            "break": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "Dormitorio Municipal:",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "222 214 0000",
-            "href": "tel:+522222140000"
-          },
-          {
-            "text": ", extensión 229; entrada publicada de 19:00 a 7:00"
-          },
-          {
-            "break": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "Crisis emocional y adicciones — Línea de la Vida:",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "800 911 2000",
-            "href": "tel:+528009112000"
-          },
-          {
-            "text": ", 24 horas"
-          }
-        ]
-      }
-    ],
-    "notice": [
-      {
-        "text": "Los cupos, horarios, costos, direcciones y requisitos pueden cambiar.",
-        "strong": true
-      },
-      {
-        "text": " Llama antes de trasladarte cuando sea posible. Ningún servicio garantiza cama, comida, dinero, tratamiento, beneficio o empleo el mismo día. En peligro inmediato, llama al 911."
-      }
-    ],
-    "intro": [
-      {
-        "type": "paragraph",
-        "content": [
-          {
-            "text": "Si necesitas un lugar para pasar la noche, empieza por el Dormitorio Municipal en avenida 16 Oriente 207, colonia Centro. Publica cama, regadera, cena y desayuno gratuitos. Llega antes del horario de entrada y llama para confirmar cupo. Si no tienes identificación, el propio servicio indica que puedes proporcionar tus datos para tramitar la CURP."
-          }
-        ]
-      }
-    ],
-    "footer": []
+    "urgent": "Emergencias: 911 Dormitorio Municipal: 222 214 0000, extensión 229; entrada publicada de 19:00 a 7:00 Crisis emocional y adicciones — Línea de la Vida: 800 911 2000, 24 horas",
+    "notice": "Los cupos, horarios, costos, direcciones y requisitos pueden cambiar. Llama antes de trasladarte cuando sea posible. Ningún servicio garantiza cama, comida, dinero, tratamiento, beneficio o empleo el mismo día. En peligro inmediato, llama al 911.",
+    "intro": "Si necesitas un lugar para pasar la noche, empieza por el Dormitorio Municipal en avenida 16 Oriente 207, colonia Centro. Publica cama, regadera, cena y desayuno gratuitos. Llega antes del horario de entrada y llama para confirmar cupo. Si no tienes identificación, el propio servicio indica que puedes proporcionar tus datos para tramitar la CURP.",
+    "footer": ""
   },
   "categories": [
     {
       "id": "emergency",
-      "title": "1. Emergencias y ayuda en la calle",
-      "items": [
+      "title": "Emergencias y ayuda en la calle",
+      "entries": [
         {
-          "type": "resource",
           "id": "911-emergencias",
-          "name": "911 — emergencias",
+          "title": "911 — emergencias",
+          "description": "Teléfono gratuito: 911, las 24 horas.\nLlama por: urgencia médica, violencia, incendio, accidente, persona inconsciente, dificultad para respirar o peligro inmediato. Da la ubicación exacta y un punto de referencia.\nÚltima verificación: 12 de noviembre de 2026\nNúmeros de emergencia — Secretaría de Salud de Puebla",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Teléfono gratuito:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "911",
-                  "href": "tel:911"
-                },
-                {
-                  "text": ", las 24 horas."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Llama por:",
-                  "strong": true
-                },
-                {
-                  "text": " urgencia médica, violencia, incendio, accidente, persona inconsciente, dificultad para respirar o peligro inmediato. Da la ubicación exacta y un punto de referencia."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificación:",
-                  "strong": true
-                },
-                {
-                  "text": " 12 de noviembre de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Números de emergencia — Secretaría de Salud de Puebla",
-                  "href": "https://ss.puebla.gob.mx/emergencias"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "911",
+          "website": "https://ss.puebla.gob.mx/emergencias",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "dif-puebla-capital-persona-expuesta-en-la-calle",
-          "name": "DIF Puebla Capital — persona expuesta en la calle",
+          "title": "DIF Puebla Capital — persona expuesta en la calle",
+          "description": "Teléfonos: Dormitorio Municipal, 222 214 0000, extensión 229; conmutador del DIF, 222 309 4300.\nServicio: el DIF realiza recorridos para invitar y canalizar a personas que duermen en la vía pública. Al llamar, describe calle, cruces, ropa, estado de salud y si hay menores, violencia o exposición al frío o la lluvia.\nImportante: una llamada no garantiza traslado ni cama y la atención debe respetar la decisión de la persona. En peligro inmediato, llama al 911.\nÚltima verificación: 12 de noviembre de 2026\nRecorridos nocturnos — DIF Puebla Capital",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Teléfonos:",
-                  "strong": true
-                },
-                {
-                  "text": " Dormitorio Municipal, "
-                },
-                {
-                  "text": "222 214 0000",
-                  "href": "tel:+522222140000"
-                },
-                {
-                  "text": ", extensión 229; conmutador del DIF, "
-                },
-                {
-                  "text": "222 309 4300",
-                  "href": "tel:+522223094300"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Servicio:",
-                  "strong": true
-                },
-                {
-                  "text": " el DIF realiza recorridos para invitar y canalizar a personas que duermen en la vía pública. Al llamar, describe calle, cruces, ropa, estado de salud y si hay menores, violencia o exposición al frío o la lluvia."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Importante:",
-                  "strong": true
-                },
-                {
-                  "text": " una llamada no garantiza traslado ni cama y la atención debe respetar la decisión de la persona. En peligro inmediato, llama al 911."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificación:",
-                  "strong": true
-                },
-                {
-                  "text": " 12 de noviembre de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Recorridos nocturnos — DIF Puebla Capital",
-                  "href": "https://dif.pueblacapital.gob.mx/noticias/pie-de-foto-070-realiza-dif-puebla-capital-recorrido-nocturno-para-canalizar-a-personas-al-dormitorio-municipal"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+522222140000",
+          "website": "https://dif.pueblacapital.gob.mx/noticias/pie-de-foto-070-realiza-dif-puebla-capital-recorrido-nocturno-para-canalizar-a-personas-al-dormitorio-municipal",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "suma-urgencias-medicas-y-ambulancia",
-          "name": "SUMA — urgencias médicas y ambulancia",
+          "title": "SUMA — urgencias médicas y ambulancia",
+          "description": "Teléfonos publicados: 222 232 8080, 222 232 8081 y 222 232 8082; también 911.\nUse para: una emergencia médica o para orientación sobre ambulancia. Explica síntomas, ubicación y si la persona respira y está consciente.\nÚltima verificación: 12 de noviembre de 2026\nServicio de Urgencias Médicas Avanzadas — Puebla",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Teléfonos publicados:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "222 232 8080",
-                  "href": "tel:+522222328080"
-                },
-                {
-                  "text": ", "
-                },
-                {
-                  "text": "222 232 8081",
-                  "href": "tel:+522222328081"
-                },
-                {
-                  "text": " y "
-                },
-                {
-                  "text": "222 232 8082",
-                  "href": "tel:+522222328082"
-                },
-                {
-                  "text": "; también 911."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Use para:",
-                  "strong": true
-                },
-                {
-                  "text": " una emergencia médica o para orientación sobre ambulancia. Explica síntomas, ubicación y si la persona respira y está consciente."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificación:",
-                  "strong": true
-                },
-                {
-                  "text": " 12 de noviembre de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Servicio de Urgencias Médicas Avanzadas — Puebla",
-                  "href": "https://ss.puebla.gob.mx/emergencias"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+522222328080",
+          "website": "https://ss.puebla.gob.mx/emergencias",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "cruz-roja-ciudad-de-puebla-socorros",
-          "name": "Cruz Roja Ciudad de Puebla — socorros",
+          "title": "Cruz Roja Ciudad de Puebla — socorros",
+          "description": "Emergencias: 222 234 0000; información: 222 213 7700.\nServicio: atención prehospitalaria y traslados. El hospital y algunos traslados pueden generar costo; pregunta antes cuando no sea una emergencia.\nÚltima verificación: 12 de noviembre de 2026\nSocorros — Cruz Roja Puebla",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Dirección:",
-                  "strong": true
-                },
-                {
-                  "text": " calle 20 Oriente 1002, barrio de San Francisco, Puebla"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Emergencias:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "222 234 0000",
-                  "href": "tel:+522222340000"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "información:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "222 213 7700",
-                  "href": "tel:+522222137700"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Servicio:",
-                  "strong": true
-                },
-                {
-                  "text": " atención prehospitalaria y traslados. El hospital y algunos traslados pueden generar costo; pregunta antes cuando no sea una emergencia."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificación:",
-                  "strong": true
-                },
-                {
-                  "text": " 12 de noviembre de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Socorros — Cruz Roja Puebla",
-                  "href": "https://cruzrojapuebla.org/socorros/"
-                }
-              ]
-            }
-          ]
+          "address": "Dirección: calle 20 Oriente 1002, barrio de San Francisco, Puebla",
+          "phone": "+522222340000",
+          "website": "https://cruzrojapuebla.org/socorros/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "072-informacion-y-reportes-municipales",
-          "name": "072 — información y reportes municipales",
+          "title": "072 — información y reportes municipales",
+          "description": "Teléfono: 072 desde el municipio de Puebla.\nUse para: pedir información municipal o que un reporte no urgente sea canalizado al área competente. No sustituye al DIF ni al 911 y no garantiza una brigada social.\nHorario publicado: lunes a viernes, 7:00–22:00. Para riesgo inmediato, llama al 911.\nÚltima verificación: 12 de noviembre de 2026\nAtención Ciudadana 072 — Municipio de Puebla",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Teléfono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "072",
-                  "href": "tel:072"
-                },
-                {
-                  "text": " desde el municipio de Puebla."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Use para:",
-                  "strong": true
-                },
-                {
-                  "text": " pedir información municipal o que un reporte no urgente sea canalizado al área competente. No sustituye al DIF ni al 911 y no garantiza una brigada social."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Horario publicado:",
-                  "strong": true
-                },
-                {
-                  "text": " lunes a viernes, 7:00–22:00. Para riesgo inmediato, llama al 911."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificación:",
-                  "strong": true
-                },
-                {
-                  "text": " 12 de noviembre de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Atención Ciudadana 072 — Municipio de Puebla",
-                  "href": "https://memorias.pueblacapital.gob.mx/transparencia/376-atencion-ciudadana"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "072",
+          "website": "https://memorias.pueblacapital.gob.mx/transparencia/376-atencion-ciudadana",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
       "id": "shelter",
-      "title": "2. Albergue y atención diurna",
-      "items": [
+      "title": "Albergue y atención diurna",
+      "entries": [
         {
-          "type": "resource",
           "id": "dormitorio-municipal",
-          "name": "Dormitorio Municipal",
+          "title": "Dormitorio Municipal",
+          "description": "Teléfono: 222 214 0000, extensión 229.\nHorario publicado: 19:00–7:00, todos los días. El servicio oficial publica dormitorios, baños y regaderas con agua caliente, cena y desayuno, sin costo.\nRequisitos publicados: identificación; si no tienes una, proporcionar datos personales para tramitar CURP. Menores deben ir con padre, madre o persona tutora. No se permite el ingreso bajo efectos de alcohol o sustancias y se firma el reglamento.\nÚltima verificación: 12 de noviembre de 2026\nDormitorio Municipal — DIF Puebla Capital",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Dirección:",
-                  "strong": true
-                },
-                {
-                  "text": " avenida 16 Oriente 207, colonia Centro, C.P. 72000, Puebla"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Teléfono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "222 214 0000",
-                  "href": "tel:+522222140000"
-                },
-                {
-                  "text": ", extensión 229."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Horario publicado:",
-                  "strong": true
-                },
-                {
-                  "text": " 19:00–7:00, todos los días. El servicio oficial publica dormitorios, baños y regaderas con agua caliente, cena y desayuno, sin costo."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Requisitos publicados:",
-                  "strong": true
-                },
-                {
-                  "text": " identificación; si no tienes una, proporcionar datos personales para tramitar CURP. Menores deben ir con padre, madre o persona tutora. No se permite el ingreso bajo efectos de alcohol o sustancias y se firma el reglamento."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Antes de ir:",
-                  "strong": true
-                },
-                {
-                  "text": " llama para confirmar cupo, hora límite, pertenencias permitidas, accesibilidad y situación de parejas o mascotas. El horario no garantiza cama."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificación:",
-                  "strong": true
-                },
-                {
-                  "text": " 12 de noviembre de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Dormitorio Municipal — DIF Puebla Capital",
-                  "href": "https://dif.pueblacapital.gob.mx/unidades-de-atencion/dormitorio-municipal"
-                }
-              ]
-            }
-          ]
+          "address": "Dirección: avenida 16 Oriente 207, colonia Centro, C.P. 72000, Puebla",
+          "phone": "+522222140000",
+          "website": "https://dif.pueblacapital.gob.mx/unidades-de-atencion/dormitorio-municipal",
+          "hours": "",
+          "how_to_access": "Antes de ir: llama para confirmar cupo, hora límite, pertenencias permitidas, accesibilidad y situación de parejas o mascotas. El horario no garantiza cama."
         },
         {
-          "type": "resource",
           "id": "ingreso-y-estancia-en-el-dormitorio-municipal",
-          "name": "Ingreso y estancia en el Dormitorio Municipal",
+          "title": "Ingreso y estancia en el Dormitorio Municipal",
+          "description": "Estancia publicada: hasta 30 días, sujeta a reglamento, valoración y disponibilidad.\nPuede recibir: personas en situación de calle, familiares de pacientes de hospitales y otras personas que temporalmente no tienen dónde dormir.\nAccesibilidad: el DIF informa que dispone de espacios en planta baja con baño para personas con discapacidad. Confirma que el espacio adecuado esté libre antes de trasladarte.\nÚltima verificación: 12 de noviembre de 2026\nCondiciones de atención — DIF Puebla Capital",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Estancia publicada:",
-                  "strong": true
-                },
-                {
-                  "text": " hasta 30 días, sujeta a reglamento, valoración y disponibilidad."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Puede recibir:",
-                  "strong": true
-                },
-                {
-                  "text": " personas en situación de calle, familiares de pacientes de hospitales y otras personas que temporalmente no tienen dónde dormir."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Accesibilidad:",
-                  "strong": true
-                },
-                {
-                  "text": " el DIF informa que dispone de espacios en planta baja con baño para personas con discapacidad. Confirma que el espacio adecuado esté libre antes de trasladarte."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificación:",
-                  "strong": true
-                },
-                {
-                  "text": " 12 de noviembre de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Condiciones de atención — DIF Puebla Capital",
-                  "href": "https://dif.pueblacapital.gob.mx/noticias/boletin-de-prensa-067-dormitorio-municipal-del-smdif-se-prepara-para-albergar-a-mas-personas-ante-el-descenso-de-temperatura-por-el-frente-frio-24"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://dif.pueblacapital.gob.mx/noticias/boletin-de-prensa-067-dormitorio-municipal-del-smdif-se-prepara-para-albergar-a-mas-personas-ante-el-descenso-de-temperatura-por-el-frente-frio-24",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "dif-puebla-capital-orientacion-y-trabajo-social",
-          "name": "DIF Puebla Capital — orientación y trabajo social",
+          "title": "DIF Puebla Capital — orientación y trabajo social",
+          "description": "Teléfono: 222 309 4300.\nPide: Dormitorio Municipal, trabajo social, apoyo alimentario, salud, documentos, protección familiar o la unidad más apropiada para tu situación.\nConsejo: explica dónde dormiste, si tienes identificación, medicamentos, movilidad reducida, menores contigo o riesgo de violencia. Los apoyos requieren valoración y no todos son inmediatos.\nÚltima verificación: 12 de noviembre de 2026\nDIF Puebla Capital",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Sede general publicada:",
-                  "strong": true
-                },
-                {
-                  "text": " privada 34 A Sur 3912, colonia Anzures, Puebla"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Teléfono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "222 309 4300",
-                  "href": "tel:+522223094300"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Pide:",
-                  "strong": true
-                },
-                {
-                  "text": " Dormitorio Municipal, trabajo social, apoyo alimentario, salud, documentos, protección familiar o la unidad más apropiada para tu situación."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Consejo:",
-                  "strong": true
-                },
-                {
-                  "text": " explica dónde dormiste, si tienes identificación, medicamentos, movilidad reducida, menores contigo o riesgo de violencia. Los apoyos requieren valoración y no todos son inmediatos."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificación:",
-                  "strong": true
-                },
-                {
-                  "text": " 12 de noviembre de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "DIF Puebla Capital",
-                  "href": "https://dif.pueblacapital.gob.mx/"
-                }
-              ]
-            }
-          ]
+          "address": "Sede general publicada: privada 34 A Sur 3912, colonia Anzures, Puebla",
+          "phone": "+522223094300",
+          "website": "https://dif.pueblacapital.gob.mx/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "caritas-puebla-albergue-de-cuidados-paliativos",
-          "name": "Cáritas Puebla — albergue de cuidados paliativos",
+          "title": "Cáritas Puebla — albergue de cuidados paliativos",
+          "description": "Teléfono: 222 211 7330.\nServicio: Cáritas publica un albergue de cuidados paliativos para personas con necesidades médicas específicas. No es un refugio general para dormir.\nÚltima verificación: 12 de noviembre de 2026\nServicios — Cáritas Puebla",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Dirección de contacto:",
-                  "strong": true
-                },
-                {
-                  "text": " 13 Sur 1701, barrio de Santiago, Puebla"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Teléfono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "222 211 7330",
-                  "href": "tel:+522222117330"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Servicio:",
-                  "strong": true
-                },
-                {
-                  "text": " Cáritas publica un albergue de cuidados paliativos para personas con necesidades médicas específicas. No es un refugio general para dormir."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Antes de ir:",
-                  "strong": true
-                },
-                {
-                  "text": " llama para preguntar por perfil clínico, referencia médica, documentos, costo y disponibilidad. No traslades a una persona enferma sin confirmar admisión."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificación:",
-                  "strong": true
-                },
-                {
-                  "text": " 12 de noviembre de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Servicios — Cáritas Puebla",
-                  "href": "https://www.caritaspuebla.org/servicios"
-                }
-              ]
-            }
-          ]
+          "address": "Dirección de contacto: 13 Sur 1701, barrio de Santiago, Puebla",
+          "phone": "+522222117330",
+          "website": "https://www.caritaspuebla.org/servicios",
+          "hours": "",
+          "how_to_access": "Antes de ir: llama para preguntar por perfil clínico, referencia médica, documentos, costo y disponibilidad. No traslades a una persona enferma sin confirmar admisión."
         }
       ]
     },
     {
       "id": "food",
-      "title": "3. Comida y despensas",
-      "items": [
+      "title": "Comida y despensas",
+      "entries": [
         {
-          "type": "paragraph",
-          "content": [
-            {
-              "text": "La red de comedores de Banco de Alimentos Cáritas Puebla publica siete sedes; seis están en la ciudad. Los voluntarios de cada parroquia deciden días y horarios. La mayoría pide una cooperación de 5 a 10 pesos, descrita como mínima y no obligatoria. Confirma antes de caminar hasta una sede."
-            }
-          ]
-        },
-        {
-          "type": "resource",
           "id": "cena-y-desayuno-dormitorio-municipal",
-          "name": "Cena y desayuno — Dormitorio Municipal",
+          "title": "Cena y desayuno — Dormitorio Municipal",
+          "description": "La red de comedores de Banco de Alimentos Cáritas Puebla publica siete sedes; seis están en la ciudad. Los voluntarios de cada parroquia deciden días y horarios. La mayoría pide una cooperación de 5 a 10 pesos, descrita como mínima y no obligatoria. Confirma antes de caminar hasta una sede.\nTeléfono: 222 214 0000, extensión 229.\nServicio: cena al ingresar y desayuno para las personas usuarias del dormitorio. La comida forma parte de la estancia nocturna y depende de admisión y cupo.\nÚltima verificación: 12 de noviembre de 2026\nServicios del Dormitorio Municipal",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Dirección:",
-                  "strong": true
-                },
-                {
-                  "text": " avenida 16 Oriente 207, colonia Centro"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Teléfono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "222 214 0000",
-                  "href": "tel:+522222140000"
-                },
-                {
-                  "text": ", extensión 229."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Servicio:",
-                  "strong": true
-                },
-                {
-                  "text": " cena al ingresar y desayuno para las personas usuarias del dormitorio. La comida forma parte de la estancia nocturna y depende de admisión y cupo."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificación:",
-                  "strong": true
-                },
-                {
-                  "text": " 12 de noviembre de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Servicios del Dormitorio Municipal",
-                  "href": "https://dif.pueblacapital.gob.mx/unidades-de-atencion/dormitorio-municipal"
-                }
-              ]
-            }
-          ]
+          "address": "Dirección: avenida 16 Oriente 207, colonia Centro",
+          "phone": "+522222140000",
+          "website": "https://dif.pueblacapital.gob.mx/unidades-de-atencion/dormitorio-municipal",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "casa-de-la-familia-comedor-de-la-red-caritas",
-          "name": "Casa de la Familia — comedor de la red Cáritas",
+          "title": "Casa de la Familia — comedor de la red Cáritas",
+          "description": "Servicio: comida caliente para personas en situación de calle y otras personas vulnerables, operada por voluntariado parroquial con alimentos del Banco de Alimentos.\nÚltima verificación: 12 de noviembre de 2026\nRed de Comedores — Banco de Alimentos Cáritas Puebla",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Dirección:",
-                  "strong": true
-                },
-                {
-                  "text": " 9 Oriente 5, colonia Centro, Puebla"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Servicio:",
-                  "strong": true
-                },
-                {
-                  "text": " comida caliente para personas en situación de calle y otras personas vulnerables, operada por voluntariado parroquial con alimentos del Banco de Alimentos."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Antes de ir:",
-                  "strong": true
-                },
-                {
-                  "text": " consulta el mapa de la red o llama al Banco de Alimentos al "
-                },
-                {
-                  "text": "222 288 6161",
-                  "href": "tel:+522222886161"
-                },
-                {
-                  "text": " para confirmar día, hora y existencia de raciones."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificación:",
-                  "strong": true
-                },
-                {
-                  "text": " 12 de noviembre de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Red de Comedores — Banco de Alimentos Cáritas Puebla",
-                  "href": "https://www.bapuebla.org.mx/comedores"
-                }
-              ]
-            }
-          ]
+          "address": "Dirección: 9 Oriente 5, colonia Centro, Puebla",
+          "phone": "+522222886161",
+          "website": "https://www.bapuebla.org.mx/comedores",
+          "hours": "",
+          "how_to_access": "Antes de ir: consulta el mapa de la red o llama al Banco de Alimentos al 222 288 6161 para confirmar día, hora y existencia de raciones."
         },
         {
-          "type": "resource",
           "id": "comedor-beato-juan-de-palafox-y-mendoza-analco",
-          "name": "Comedor Beato Juan de Palafox y Mendoza — Analco",
+          "title": "Comedor Beato Juan de Palafox y Mendoza — Analco",
+          "description": "Servicio: comedor de la red Cáritas para comida caliente, sujeto a los días elegidos por el voluntariado y a las existencias.\nÚltima verificación: 12 de noviembre de 2026\nUbicaciones oficiales de los comedores",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Referencia:",
-                  "strong": true
-                },
-                {
-                  "text": " parroquia del Santo Ángel Custodio, 7 Oriente 1202, barrio de Analco, Puebla"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Servicio:",
-                  "strong": true
-                },
-                {
-                  "text": " comedor de la red Cáritas para comida caliente, sujeto a los días elegidos por el voluntariado y a las existencias."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Antes de ir:",
-                  "strong": true
-                },
-                {
-                  "text": " confirma con la red en el "
-                },
-                {
-                  "text": "222 288 6161",
-                  "href": "tel:+522222886161"
-                },
-                {
-                  "text": ". No se publica un horario único permanente."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificación:",
-                  "strong": true
-                },
-                {
-                  "text": " 12 de noviembre de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ubicaciones oficiales de los comedores",
-                  "href": "https://www.bapuebla.org.mx/comedores"
-                }
-              ]
-            }
-          ]
+          "address": "Referencia: parroquia del Santo Ángel Custodio, 7 Oriente 1202, barrio de Analco, Puebla",
+          "phone": "+522222886161",
+          "website": "https://www.bapuebla.org.mx/comedores",
+          "hours": "",
+          "how_to_access": "Antes de ir: confirma con la red en el 222 288 6161. No se publica un horario único permanente."
         },
         {
-          "type": "resource",
           "id": "parroquia-de-nuestra-senora-del-rosario-la-margarita",
-          "name": "Parroquia de Nuestra Señora del Rosario — La Margarita",
+          "title": "Parroquia de Nuestra Señora del Rosario — La Margarita",
+          "description": "Servicio: comedor de la red Cáritas para personas en situación vulnerable. Puede pedir una cooperación mínima, no obligatoria.\nÚltima verificación: 12 de noviembre de 2026\nRed de Comedores Cáritas",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Dirección publicada en el mapa de la red:",
-                  "strong": true
-                },
-                {
-                  "text": " avenida 42 Sur 671, INFONAVIT La Margarita, Puebla"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Servicio:",
-                  "strong": true
-                },
-                {
-                  "text": " comedor de la red Cáritas para personas en situación vulnerable. Puede pedir una cooperación mínima, no obligatoria."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Antes de ir:",
-                  "strong": true
-                },
-                {
-                  "text": " confirma día, hora y raciones con el Banco de Alimentos, "
-                },
-                {
-                  "text": "222 288 6161",
-                  "href": "tel:+522222886161"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificación:",
-                  "strong": true
-                },
-                {
-                  "text": " 12 de noviembre de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Red de Comedores Cáritas",
-                  "href": "https://www.bapuebla.org.mx/comedores"
-                }
-              ]
-            }
-          ]
+          "address": "Dirección publicada en el mapa de la red: avenida 42 Sur 671, INFONAVIT La Margarita, Puebla",
+          "phone": "+522222886161",
+          "website": "https://www.bapuebla.org.mx/comedores",
+          "hours": "",
+          "how_to_access": "Antes de ir: confirma día, hora y raciones con el Banco de Alimentos, 222 288 6161."
         },
         {
-          "type": "resource",
           "id": "parroquia-de-la-santa-cruz-el-alto",
-          "name": "Parroquia de la Santa Cruz — El Alto",
+          "title": "Parroquia de la Santa Cruz — El Alto",
+          "description": "Servicio: comedor parroquial de la red Cáritas para personas en situación de calle, mayores y familias con necesidad alimentaria.\nÚltima verificación: 12 de noviembre de 2026\nRed de Comedores — información oficial",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Dirección:",
-                  "strong": true
-                },
-                {
-                  "text": " avenida 16 Oriente 1204, esquina con 12 Norte, barrio de El Alto, Puebla"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Servicio:",
-                  "strong": true
-                },
-                {
-                  "text": " comedor parroquial de la red Cáritas para personas en situación de calle, mayores y familias con necesidad alimentaria."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Antes de ir:",
-                  "strong": true
-                },
-                {
-                  "text": " los horarios los decide el voluntariado. Confirma con el Banco de Alimentos al "
-                },
-                {
-                  "text": "222 288 6161",
-                  "href": "tel:+522222886161"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificación:",
-                  "strong": true
-                },
-                {
-                  "text": " 12 de noviembre de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Red de Comedores — información oficial",
-                  "href": "https://www.bapuebla.org.mx/comedores"
-                }
-              ]
-            }
-          ]
+          "address": "Dirección: avenida 16 Oriente 1204, esquina con 12 Norte, barrio de El Alto, Puebla",
+          "phone": "+522222886161",
+          "website": "https://www.bapuebla.org.mx/comedores",
+          "hours": "",
+          "how_to_access": "Antes de ir: los horarios los decide el voluntariado. Confirma con el Banco de Alimentos al 222 288 6161."
         },
         {
-          "type": "resource",
           "id": "parroquia-de-nuestra-senora-de-san-juan-de-los-lagos",
-          "name": "Parroquia de Nuestra Señora de San Juan de los Lagos",
+          "title": "Parroquia de Nuestra Señora de San Juan de los Lagos",
+          "description": "Servicio: comedor de la red Cáritas, operado por voluntariado de la parroquia y sujeto a disponibilidad de alimentos.\nÚltima verificación: 12 de noviembre de 2026\nMapa de la Red de Comedores",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Dirección publicada en el mapa de la red:",
-                  "strong": true
-                },
-                {
-                  "text": " Guadalajara 73, colonia San Rafael Poniente, Puebla"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Servicio:",
-                  "strong": true
-                },
-                {
-                  "text": " comedor de la red Cáritas, operado por voluntariado de la parroquia y sujeto a disponibilidad de alimentos."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Antes de ir:",
-                  "strong": true
-                },
-                {
-                  "text": " llama al "
-                },
-                {
-                  "text": "222 288 6161",
-                  "href": "tel:+522222886161"
-                },
-                {
-                  "text": " para confirmar atención. No dependas de una comida sin verificar el horario del día."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificación:",
-                  "strong": true
-                },
-                {
-                  "text": " 12 de noviembre de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Mapa de la Red de Comedores",
-                  "href": "https://www.bapuebla.org.mx/comedores"
-                }
-              ]
-            }
-          ]
+          "address": "Dirección publicada en el mapa de la red: Guadalajara 73, colonia San Rafael Poniente, Puebla",
+          "phone": "+522222886161",
+          "website": "https://www.bapuebla.org.mx/comedores",
+          "hours": "",
+          "how_to_access": "Antes de ir: llama al 222 288 6161 para confirmar atención. No dependas de una comida sin verificar el horario del día."
         },
         {
-          "type": "resource",
           "id": "parroquia-de-nuestra-senora-de-los-desamparados",
-          "name": "Parroquia de Nuestra Señora de los Desamparados",
+          "title": "Parroquia de Nuestra Señora de los Desamparados",
+          "description": "Servicio: comedor de la red Cáritas. La parroquia también aparece en directorios de apoyo a personas migrantes; confirma exactamente qué ayuda está disponible.\nTeléfono parroquial publicado: 222 248 7621. Llama antes de ir.\nÚltima verificación: 12 de noviembre de 2026\nRed de Comedores — Banco de Alimentos",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Referencia:",
-                  "strong": true
-                },
-                {
-                  "text": " diagonal Cuauhtémoc y 26 Poniente, colonia Valle Dorado, Puebla"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Servicio:",
-                  "strong": true
-                },
-                {
-                  "text": " comedor de la red Cáritas. La parroquia también aparece en directorios de apoyo a personas migrantes; confirma exactamente qué ayuda está disponible."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Teléfono parroquial publicado:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "222 248 7621",
-                  "href": "tel:+522222487621"
-                },
-                {
-                  "text": ". Llama antes de ir."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificación:",
-                  "strong": true
-                },
-                {
-                  "text": " 12 de noviembre de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Red de Comedores — Banco de Alimentos",
-                  "href": "https://www.bapuebla.org.mx/comedores"
-                }
-              ]
-            }
-          ]
+          "address": "Referencia: diagonal Cuauhtémoc y 26 Poniente, colonia Valle Dorado, Puebla",
+          "phone": "+522222487621",
+          "website": "https://www.bapuebla.org.mx/comedores",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "caritas-puebla-despensas",
-          "name": "Cáritas Puebla — despensas",
+          "title": "Cáritas Puebla — despensas",
+          "description": "Teléfono: 222 211 7330.\nAtención publicada: tercer lunes de cada mes, 10:00–14:00. El programa entrega despensas a personas y familias en situación vulnerable, sujeto a valoración y existencias.\nÚltima verificación: 12 de noviembre de 2026\nDespensas — Cáritas Puebla",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Dirección:",
-                  "strong": true
-                },
-                {
-                  "text": " 13 Sur 1701, barrio de Santiago, Puebla"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Teléfono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "222 211 7330",
-                  "href": "tel:+522222117330"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Atención publicada:",
-                  "strong": true
-                },
-                {
-                  "text": " tercer lunes de cada mes, 10:00–14:00. El programa entrega despensas a personas y familias en situación vulnerable, sujeto a valoración y existencias."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Antes de ir:",
-                  "strong": true
-                },
-                {
-                  "text": " confirma fecha, documentos y si el registro está abierto. No se garantiza una despensa el mismo día."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificación:",
-                  "strong": true
-                },
-                {
-                  "text": " 12 de noviembre de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Despensas — Cáritas Puebla",
-                  "href": "https://www.caritaspuebla.org/servicios/despensas"
-                }
-              ]
-            }
-          ]
+          "address": "Dirección: 13 Sur 1701, barrio de Santiago, Puebla",
+          "phone": "+522222117330",
+          "website": "https://www.caritaspuebla.org/servicios/despensas",
+          "hours": "",
+          "how_to_access": "Antes de ir: confirma fecha, documentos y si el registro está abierto. No se garantiza una despensa el mismo día."
         },
         {
-          "type": "resource",
           "id": "banco-de-alimentos-caritas-puebla-apoyo-familiar",
-          "name": "Banco de Alimentos Cáritas Puebla — apoyo familiar",
+          "title": "Banco de Alimentos Cáritas Puebla — apoyo familiar",
+          "description": "Teléfono de Trabajo Social: 222 288 6161, extensiones 110, 111 y 112.\nSolicitud individual publicada: viernes, 8:00–12:00, con identificación, comprobante de domicilio, CURP de quienes viven en el hogar, datos de peso y estatura y fotografías. Se realiza estudio socio-nutricio y se asigna un punto de entrega si procede.\nImportante: está fuera del centro de Puebla y el apoyo no es una comida de emergencia. Llama antes de gastar en transporte y pregunta qué hacer si te falta un documento o domicilio fijo.\nÚltima verificación: 12 de noviembre de 2026\nCómo solicitar apoyo alimentario",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Dirección:",
-                  "strong": true
-                },
-                {
-                  "text": " Camino Antiguo a Tlaxcala 209, Parque Industrial Ocotlán, San Francisco Ocotlán, Coronango"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Teléfono de Trabajo Social:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "222 288 6161",
-                  "href": "tel:+522222886161"
-                },
-                {
-                  "text": ", extensiones 110, 111 y 112."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Solicitud individual publicada:",
-                  "strong": true
-                },
-                {
-                  "text": " viernes, 8:00–12:00, con identificación, comprobante de domicilio, CURP de quienes viven en el hogar, datos de peso y estatura y fotografías. Se realiza estudio socio-nutricio y se asigna un punto de entrega si procede."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Importante:",
-                  "strong": true
-                },
-                {
-                  "text": " está fuera del centro de Puebla y el apoyo no es una comida de emergencia. Llama antes de gastar en transporte y pregunta qué hacer si te falta un documento o domicilio fijo."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificación:",
-                  "strong": true
-                },
-                {
-                  "text": " 12 de noviembre de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Cómo solicitar apoyo alimentario",
-                  "href": "https://www.bapuebla.org.mx/apoyoalimentario"
-                }
-              ]
-            }
-          ]
+          "address": "Dirección: Camino Antiguo a Tlaxcala 209, Parque Industrial Ocotlán, San Francisco Ocotlán, Coronango",
+          "phone": "+522222886161",
+          "website": "https://www.bapuebla.org.mx/apoyoalimentario",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
       "id": "community",
-      "title": "4. Organizaciones comunitarias y religiosas",
-      "items": [
+      "title": "Organizaciones comunitarias y religiosas",
+      "entries": [
         {
-          "type": "resource",
           "id": "caritas-puebla",
-          "name": "Cáritas Puebla",
+          "title": "Cáritas Puebla",
+          "description": "Teléfono: 222 211 7330; correo: contacto@caritaspuebla.org. — mailto:contacto@caritaspuebla.org\nServicios publicados: Trabajo Social, atención médica, banco de medicamentos, despensas, rehabilitación básica, bazar y albergue de cuidados paliativos.\nÚltima verificación: 12 de noviembre de 2026\nServicios de Cáritas Puebla",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Dirección:",
-                  "strong": true
-                },
-                {
-                  "text": " 13 Sur 1701, barrio de Santiago, C.P. 72410, Puebla"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Teléfono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "222 211 7330",
-                  "href": "tel:+522222117330"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "correo:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "contacto@caritaspuebla.org",
-                  "href": "mailto:contacto@caritaspuebla.org"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Servicios publicados:",
-                  "strong": true
-                },
-                {
-                  "text": " Trabajo Social, atención médica, banco de medicamentos, despensas, rehabilitación básica, bazar y albergue de cuidados paliativos."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Antes de ir:",
-                  "strong": true
-                },
-                {
-                  "text": " llama para saber qué servicio puede recibirte, horario, documentos, costo y disponibilidad. El albergue no funciona como refugio general."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificación:",
-                  "strong": true
-                },
-                {
-                  "text": " 12 de noviembre de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Servicios de Cáritas Puebla",
-                  "href": "https://www.caritaspuebla.org/servicios"
-                }
-              ]
-            }
-          ]
+          "address": "Dirección: 13 Sur 1701, barrio de Santiago, C.P. 72410, Puebla",
+          "phone": "+522222117330",
+          "website": "https://www.caritaspuebla.org/servicios",
+          "hours": "",
+          "how_to_access": "Antes de ir: llama para saber qué servicio puede recibirte, horario, documentos, costo y disponibilidad. El albergue no funciona como refugio general."
         },
         {
-          "type": "resource",
           "id": "banco-de-alimentos-caritas-puebla",
-          "name": "Banco de Alimentos Cáritas Puebla",
+          "title": "Banco de Alimentos Cáritas Puebla",
+          "description": "Teléfonos publicados: 222 288 6161 y 222 288 5700.\nAyuda: paquetes alimentarios mediante estudio socio-nutricio y suministro a una red de comedores parroquiales. No es un comedor abierto todo el día.\nHorario general publicado: lunes a viernes, 8:30–18:00; sábado, 8:30–14:00. Las solicitudes familiares tienen un horario distinto.\nÚltima verificación: 12 de noviembre de 2026\nContacto — Banco de Alimentos",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Dirección:",
-                  "strong": true
-                },
-                {
-                  "text": " Camino Antiguo a Tlaxcala 209, Parque Industrial Ocotlán, San Francisco Ocotlán, Coronango"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Teléfonos publicados:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "222 288 6161",
-                  "href": "tel:+522222886161"
-                },
-                {
-                  "text": " y "
-                },
-                {
-                  "text": "222 288 5700",
-                  "href": "tel:+522222885700"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ayuda:",
-                  "strong": true
-                },
-                {
-                  "text": " paquetes alimentarios mediante estudio socio-nutricio y suministro a una red de comedores parroquiales. No es un comedor abierto todo el día."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Horario general publicado:",
-                  "strong": true
-                },
-                {
-                  "text": " lunes a viernes, 8:30–18:00; sábado, 8:30–14:00. Las solicitudes familiares tienen un horario distinto."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificación:",
-                  "strong": true
-                },
-                {
-                  "text": " 12 de noviembre de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Contacto — Banco de Alimentos",
-                  "href": "https://www.bapuebla.org.mx/contacto"
-                }
-              ]
-            }
-          ]
+          "address": "Dirección: Camino Antiguo a Tlaxcala 209, Parque Industrial Ocotlán, San Francisco Ocotlán, Coronango",
+          "phone": "+522222886161",
+          "website": "https://www.bapuebla.org.mx/contacto",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "arquidiocesis-de-puebla-instituciones-de-apoyo",
-          "name": "Arquidiócesis de Puebla — instituciones de apoyo",
+          "title": "Arquidiócesis de Puebla — instituciones de apoyo",
+          "description": "Directorio: incluye Cáritas, Banco de Alimentos, Casa de la Familia y otras instituciones diocesanas.\nCómo usarlo: si un comedor no abre ese día, pregunta en la parroquia por Pastoral Social, otra sede de la red o el contacto de Cáritas. Cada comunidad decide sus horarios y capacidad.\nImportante: ser iglesia no significa que ofrezca cama o comida diaria. Pregunta antes y explica la necesidad concreta.\nÚltima verificación: 12 de noviembre de 2026\nInstituciones — Arquidiócesis de Puebla",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Directorio:",
-                  "strong": true
-                },
-                {
-                  "text": " incluye Cáritas, Banco de Alimentos, Casa de la Familia y otras instituciones diocesanas."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Cómo usarlo:",
-                  "strong": true
-                },
-                {
-                  "text": " si un comedor no abre ese día, pregunta en la parroquia por Pastoral Social, otra sede de la red o el contacto de Cáritas. Cada comunidad decide sus horarios y capacidad."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Importante:",
-                  "strong": true
-                },
-                {
-                  "text": " ser iglesia no significa que ofrezca cama o comida diaria. Pregunta antes y explica la necesidad concreta."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificación:",
-                  "strong": true
-                },
-                {
-                  "text": " 12 de noviembre de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Instituciones — Arquidiócesis de Puebla",
-                  "href": "https://www.arquidiocesispuebla.org/instituciones"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.arquidiocesispuebla.org/instituciones",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "dif-puebla-capital-asesoria-familiar-gratuita",
-          "name": "DIF Puebla Capital — asesoría familiar gratuita",
+          "title": "DIF Puebla Capital — asesoría familiar gratuita",
+          "description": "Teléfono: 222 214 0000, extensión 205.\nServicios publicados: orientación por violencia familiar y asesoría en divorcio, pensión alimenticia, guarda y custodia o pérdida de patria potestad; puede incluir patrocinio jurídico después de valoración.\nHorario publicado: lunes a viernes, 9:00–17:00. En una emergencia de violencia, llama al 911 o Telmujer.\nÚltima verificación: 12 de noviembre de 2026\nAcompañamiento jurídico — DIF Puebla Capital",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Dirección:",
-                  "strong": true
-                },
-                {
-                  "text": " 16 Sur 3911, colonia Anzures, Puebla"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Teléfono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "222 214 0000",
-                  "href": "tel:+522222140000"
-                },
-                {
-                  "text": ", extensión 205."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Servicios publicados:",
-                  "strong": true
-                },
-                {
-                  "text": " orientación por violencia familiar y asesoría en divorcio, pensión alimenticia, guarda y custodia o pérdida de patria potestad; puede incluir patrocinio jurídico después de valoración."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Horario publicado:",
-                  "strong": true
-                },
-                {
-                  "text": " lunes a viernes, 9:00–17:00. En una emergencia de violencia, llama al 911 o Telmujer."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificación:",
-                  "strong": true
-                },
-                {
-                  "text": " 12 de noviembre de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Acompañamiento jurídico — DIF Puebla Capital",
-                  "href": "https://dif.pueblacapital.gob.mx/noticias/boletin-de-prensa-088-ofrece-smdif-acompanamiento-juridico-a-personas-en-situacion-vulnerable"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "health",
-      "title": "5. Salud, salud mental y adicciones",
-      "items": [
-        {
-          "type": "resource",
-          "id": "emergencia-medica",
-          "name": "Emergencia médica",
-          "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "911:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "911",
-                  "href": "tel:911"
-                },
-                {
-                  "text": ". "
-                },
-                {
-                  "text": "SUMA:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "222 232 8080",
-                  "href": "tel:+522222328080"
-                },
-                {
-                  "text": ", "
-                },
-                {
-                  "text": "222 232 8081",
-                  "href": "tel:+522222328081"
-                },
-                {
-                  "text": " y "
-                },
-                {
-                  "text": "222 232 8082",
-                  "href": "tel:+522222328082"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Llama por:",
-                  "strong": true
-                },
-                {
-                  "text": " dolor intenso de pecho, dificultad para respirar, sangrado abundante, convulsión, intoxicación, pérdida de conciencia, lesión grave o riesgo inmediato."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "No retrases una urgencia por falta de dinero o documentos.",
-                  "strong": true
-                },
-                {
-                  "text": " Explica desde el principio que la persona no tiene vivienda, identificación o seguridad social."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificación:",
-                  "strong": true
-                },
-                {
-                  "text": " 12 de noviembre de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Emergencias — Secretaría de Salud de Puebla",
-                  "href": "https://ss.puebla.gob.mx/emergencias"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "directorio-de-hospitales-y-centros-de-salud",
-          "name": "Directorio de hospitales y centros de salud",
-          "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Secretaría de Salud de Puebla:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "222 551 0600",
-                  "href": "tel:+522225510600"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Servicio:",
-                  "strong": true
-                },
-                {
-                  "text": " el directorio oficial permite buscar centros de salud, hospitales, urgencias, consulta general, odontología, psiquiatría y otros servicios."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Antes de ir:",
-                  "strong": true
-                },
-                {
-                  "text": " llama para confirmar si la unidad recibe pacientes sin cita, documentos necesarios, gratuidad, medicamentos y horario. En una emergencia usa 911."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificación:",
-                  "strong": true
-                },
-                {
-                  "text": " 12 de noviembre de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Directorio oficial de unidades de salud",
-                  "href": "https://ss.puebla.gob.mx/directorio-hospitales-y-c-de-salud"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "linea-de-la-vida-salud-mental-y-adicciones",
-          "name": "Línea de la Vida — salud mental y adicciones",
-          "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Teléfono gratuito:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "800 911 2000",
-                  "href": "tel:+528009112000"
-                },
-                {
-                  "text": ", 24 horas, todos los días."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Servicio:",
-                  "strong": true
-                },
-                {
-                  "text": " orientación confidencial sobre ansiedad, depresión, crisis emocional, riesgo suicida, consumo de alcohol u otras sustancias y derivación a atención presencial."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "En peligro inmediato, intento en curso o sobredosis:",
-                  "strong": true
-                },
-                {
-                  "text": " llama al 911. No dejes sola a la persona si puedes permanecer sin ponerte en riesgo."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificación:",
-                  "strong": true
-                },
-                {
-                  "text": " 12 de noviembre de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Línea de la Vida — Gobierno de México",
-                  "href": "https://www.gob.mx/conasama/es/articulos/linea-de-la-vida-800-911-2000?idiom=es"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "centros-de-integracion-juvenil-puebla",
-          "name": "Centros de Integración Juvenil — Puebla",
-          "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Dirección publicada:",
-                  "strong": true
-                },
-                {
-                  "text": " Ignacio Allende 57, interior 3, colonia Insurgentes Oriente, Puebla"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Teléfonos publicados:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "222 246 2008",
-                  "href": "tel:+522222462008"
-                },
-                {
-                  "text": ", "
-                },
-                {
-                  "text": "222 246 2028",
-                  "href": "tel:+522222462028"
-                },
-                {
-                  "text": " y "
-                },
-                {
-                  "text": "222 232 9372",
-                  "href": "tel:+522222329372"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Servicio:",
-                  "strong": true
-                },
-                {
-                  "text": " prevención y tratamiento de problemas con alcohol, tabaco y otras sustancias, con medicina, psicología y trabajo social."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Antes de ir:",
-                  "strong": true
-                },
-                {
-                  "text": " llama para confirmar cita, costo, horario y atención a personas adultas. CIJ nacional también atiende en "
-                },
-                {
-                  "text": "55 5212 1212",
-                  "href": "tel:+525552121212"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificación:",
-                  "strong": true
-                },
-                {
-                  "text": " 12 de noviembre de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Tratamiento y rehabilitación — CIJ",
-                  "href": "https://www.gob.mx/salud/cij/acciones-y-programas/programa-de-tratamiento-y-rehabilitacion-117988"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "caritas-puebla-atencion-medica-y-medicamentos",
-          "name": "Cáritas Puebla — atención médica y medicamentos",
-          "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Dirección:",
-                  "strong": true
-                },
-                {
-                  "text": " 13 Sur 1701, barrio de Santiago, Puebla"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Teléfono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "222 211 7330",
-                  "href": "tel:+522222117330"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Servicios publicados:",
-                  "strong": true
-                },
-                {
-                  "text": " atención médica, Trabajo Social, banco de medicamentos con receta, rehabilitación básica y cuidados paliativos."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Antes de ir:",
-                  "strong": true
-                },
-                {
-                  "text": " pregunta por cita, cuota, receta, estudio socioeconómico y existencia del medicamento. No suspendas ni cambies un tratamiento sin indicación clínica."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificación:",
-                  "strong": true
-                },
-                {
-                  "text": " 12 de noviembre de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Salud y bienestar — Cáritas Puebla",
-                  "href": "https://www.caritaspuebla.org/servicios"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "medico-imparable-consulta-a-domicilio",
-          "name": "Médico Imparable — consulta a domicilio",
-          "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Unidad Médica Integral:",
-                  "strong": true
-                },
-                {
-                  "text": " avenida Eduardo Cue Merlo 201, San Baltazar Campeche, Puebla"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Teléfono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "222 214 0000",
-                  "href": "tel:+522222140000"
-                },
-                {
-                  "text": ", extensión 222; "
-                },
-                {
-                  "text": "WhatsApp:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "221 702 1163",
-                  "href": "tel:+522217021163"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Servicio gratuito:",
-                  "strong": true
-                },
-                {
-                  "text": " consulta general a domicilio y medicamento del cuadro básico después de valoración para personas mayores de 60 años, personas con discapacidad que no pueden trasladarse y otras personas de atención prioritaria."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Requisitos publicados:",
-                  "strong": true
-                },
-                {
-                  "text": " identificación y comprobante de domicilio del municipio; CURP para menores. Si estás en la calle o no tienes documentos, llama y pregunta si Trabajo Social puede orientar una alternativa."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificación:",
-                  "strong": true
-                },
-                {
-                  "text": " 12 de noviembre de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Médico Imparable — DIF Puebla Capital",
-                  "href": "https://dif.pueblacapital.gob.mx/salud-integral/medico-imparable"
-                }
-              ]
-            }
-          ]
+          "address": "Dirección: 16 Sur 3911, colonia Anzures, Puebla",
+          "phone": "+522222140000",
+          "website": "https://dif.pueblacapital.gob.mx/noticias/boletin-de-prensa-088-ofrece-smdif-acompanamiento-juridico-a-personas-en-situacion-vulnerable",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
       "id": "hygiene",
-      "title": "6. Regaderas, ropa, internet y teléfono",
-      "items": [
+      "title": "Regaderas, ropa, internet y teléfono",
+      "entries": [
         {
-          "type": "resource",
           "id": "regaderas-y-aseo-dormitorio-municipal",
-          "name": "Regaderas y aseo — Dormitorio Municipal",
+          "title": "Regaderas y aseo — Dormitorio Municipal",
+          "description": "Teléfono: 222 214 0000, extensión 229.\nServicio: baños y regaderas con agua caliente para personas admitidas en el dormitorio nocturno.\nImportante: no se encontró una regadera pública diurna separada. Pregunta si puedes usar el aseo al ingresar y qué artículos personales entregan o debes llevar.\nÚltima verificación: 12 de noviembre de 2026\nBaños y regaderas — DIF Puebla Capital",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Dirección:",
-                  "strong": true
-                },
-                {
-                  "text": " avenida 16 Oriente 207, colonia Centro"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Teléfono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "222 214 0000",
-                  "href": "tel:+522222140000"
-                },
-                {
-                  "text": ", extensión 229."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Servicio:",
-                  "strong": true
-                },
-                {
-                  "text": " baños y regaderas con agua caliente para personas admitidas en el dormitorio nocturno."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Importante:",
-                  "strong": true
-                },
-                {
-                  "text": " no se encontró una regadera pública diurna separada. Pregunta si puedes usar el aseo al ingresar y qué artículos personales entregan o debes llevar."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificación:",
-                  "strong": true
-                },
-                {
-                  "text": " 12 de noviembre de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Baños y regaderas — DIF Puebla Capital",
-                  "href": "https://dif.pueblacapital.gob.mx/noticias/pie-de-foto-070-realiza-dif-puebla-capital-recorrido-nocturno-para-canalizar-a-personas-al-dormitorio-municipal"
-                }
-              ]
-            }
-          ]
+          "address": "Dirección: avenida 16 Oriente 207, colonia Centro",
+          "phone": "+522222140000",
+          "website": "https://dif.pueblacapital.gob.mx/noticias/pie-de-foto-070-realiza-dif-puebla-capital-recorrido-nocturno-para-canalizar-a-personas-al-dormitorio-municipal",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "ropa-y-articulos-basicos-caritas-puebla",
-          "name": "Ropa y artículos básicos — Cáritas Puebla",
+          "title": "Ropa y artículos básicos — Cáritas Puebla",
+          "description": "Teléfono: 222 211 7330.\nServicio publicado: bazar con artículos de primera necesidad a precios accesibles. Trabajo Social puede valorar necesidades urgentes, pero la entrega gratuita de ropa no está garantizada.\nÚltima verificación: 12 de noviembre de 2026\nBazar y Trabajo Social — Cáritas Puebla",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Dirección:",
-                  "strong": true
-                },
-                {
-                  "text": " 13 Sur 1701, barrio de Santiago, Puebla"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Teléfono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "222 211 7330",
-                  "href": "tel:+522222117330"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Servicio publicado:",
-                  "strong": true
-                },
-                {
-                  "text": " bazar con artículos de primera necesidad a precios accesibles. Trabajo Social puede valorar necesidades urgentes, pero la entrega gratuita de ropa no está garantizada."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Antes de ir:",
-                  "strong": true
-                },
-                {
-                  "text": " pregunta por ropa, cobijas, calzado, artículos de higiene, precio y existencias. Explica si no puedes pagar."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificación:",
-                  "strong": true
-                },
-                {
-                  "text": " 12 de noviembre de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Bazar y Trabajo Social — Cáritas Puebla",
-                  "href": "https://www.caritaspuebla.org/servicios"
-                }
-              ]
-            }
-          ]
+          "address": "Dirección: 13 Sur 1701, barrio de Santiago, Puebla",
+          "phone": "+522222117330",
+          "website": "https://www.caritaspuebla.org/servicios",
+          "hours": "",
+          "how_to_access": "Antes de ir: pregunta por ropa, cobijas, calzado, artículos de higiene, precio y existencias. Explica si no puedes pagar."
         },
         {
-          "type": "resource",
           "id": "wi-fi-publico-gratuito",
-          "name": "Wi-Fi público gratuito",
+          "title": "Wi-Fi público gratuito",
+          "description": "Servicio municipal: el Ayuntamiento mantiene puntos de Wi-Fi gratuito en mercados, bibliotecas, parques, canchas, zonas turísticas, clínicas, hospitales, unidades habitacionales y juntas auxiliares.\nCómo localizar uno: consulta el mapa municipal de puntos Wi-Fi o llama al 072. La señal y el horario del espacio pueden variar.\nSeguridad: evita introducir contraseñas bancarias en una red pública y cierra la sesión en dispositivos compartidos.\nÚltima verificación: 12 de noviembre de 2026\nPuntos Wi-Fi — Municipio de Puebla",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Servicio municipal:",
-                  "strong": true
-                },
-                {
-                  "text": " el Ayuntamiento mantiene puntos de Wi-Fi gratuito en mercados, bibliotecas, parques, canchas, zonas turísticas, clínicas, hospitales, unidades habitacionales y juntas auxiliares."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Cómo localizar uno:",
-                  "strong": true
-                },
-                {
-                  "text": " consulta el mapa municipal de puntos Wi-Fi o llama al 072. La señal y el horario del espacio pueden variar."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Seguridad:",
-                  "strong": true
-                },
-                {
-                  "text": " evita introducir contraseñas bancarias en una red pública y cierra la sesión en dispositivos compartidos."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificación:",
-                  "strong": true
-                },
-                {
-                  "text": " 12 de noviembre de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Puntos Wi-Fi — Municipio de Puebla",
-                  "href": "https://gobiernodelaciudad.pueblacapital.gob.mx/24-27/dependencias/secretaria-de-administracion-y-tecnologias-de-la-informacion"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://gobiernodelaciudad.pueblacapital.gob.mx/24-27/dependencias/secretaria-de-administracion-y-tecnologias-de-la-informacion",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "computadora-e-internet-para-buscar-empleo",
-          "name": "Computadora e internet para buscar empleo",
+          "title": "Computadora e internet para buscar empleo",
+          "description": "Teléfono: 222 232 5513; atención nacional: 079.\nServicio: las oficinas del SNE pueden tener Centros de Intermediación Laboral con computadora, internet y apoyo gratuito para registrarse y buscar vacantes.\nÚltima verificación: 12 de noviembre de 2026\nServicios de intermediación laboral — SNE",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Servicio Nacional de Empleo:",
-                  "strong": true
-                },
-                {
-                  "text": " callejón de la 10 Norte 806, Paseo de San Francisco, barrio de El Alto, Puebla"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Teléfono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "222 232 5513",
-                  "href": "tel:+522222325513"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "atención nacional:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "079",
-                  "href": "tel:079"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Servicio:",
-                  "strong": true
-                },
-                {
-                  "text": " las oficinas del SNE pueden tener Centros de Intermediación Laboral con computadora, internet y apoyo gratuito para registrarse y buscar vacantes."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Antes de ir:",
-                  "strong": true
-                },
-                {
-                  "text": " llama para confirmar que el equipo esté disponible y qué identificación o CURP necesitas."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificación:",
-                  "strong": true
-                },
-                {
-                  "text": " 12 de noviembre de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Servicios de intermediación laboral — SNE",
-                  "href": "https://empleo.gob.mx/static/servicios-intermediacion-laboral.html"
-                }
-              ]
-            }
-          ]
+          "address": "Servicio Nacional de Empleo: callejón de la 10 Norte 806, Paseo de San Francisco, barrio de El Alto, Puebla",
+          "phone": "+522222325513",
+          "website": "https://empleo.gob.mx/static/servicios-intermediacion-laboral.html",
+          "hours": "",
+          "how_to_access": "Antes de ir: llama para confirmar que el equipo esté disponible y qué identificación o CURP necesitas."
         }
       ]
     },
     {
-      "id": "government",
-      "title": "7. Apoyos, trabajo e ingresos",
-      "items": [
+      "id": "clothing",
+      "title": "Clothing",
+      "entries": []
+    },
+    {
+      "id": "health",
+      "title": "Salud, salud mental y adicciones",
+      "entries": [
         {
-          "type": "resource",
-          "id": "servicio-nacional-de-empleo-puebla",
-          "name": "Servicio Nacional de Empleo Puebla",
+          "id": "emergencia-medica",
+          "title": "Emergencia médica",
+          "description": "911: 911. SUMA: 222 232 8080, 222 232 8081 y 222 232 8082.\nLlama por: dolor intenso de pecho, dificultad para respirar, sangrado abundante, convulsión, intoxicación, pérdida de conciencia, lesión grave o riesgo inmediato.\nNo retrases una urgencia por falta de dinero o documentos. Explica desde el principio que la persona no tiene vivienda, identificación o seguridad social.\nÚltima verificación: 12 de noviembre de 2026\nEmergencias — Secretaría de Salud de Puebla",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Oficina central:",
-                  "strong": true
-                },
-                {
-                  "text": " callejón de la 10 Norte 806, Paseo de San Francisco, barrio de El Alto, Puebla"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Teléfonos:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "222 232 5513",
-                  "href": "tel:+522222325513"
-                },
-                {
-                  "text": " y "
-                },
-                {
-                  "text": "221 653 3081",
-                  "href": "tel:+522216533081"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "atención nacional:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "079",
-                  "href": "tel:079"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Servicio gratuito:",
-                  "strong": true
-                },
-                {
-                  "text": " orientación, registro, bolsa de trabajo, talleres de búsqueda y vínculo con vacantes. La convocatoria publicada pide 18 años o más y CURP."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Horario publicado:",
-                  "strong": true
-                },
-                {
-                  "text": " lunes a viernes, 9:00–18:00. Lleva CURP, identificación y datos de contacto si los tienes; pregunta por apoyo documental si te falta algo."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Importante:",
-                  "strong": true
-                },
-                {
-                  "text": " el SNE no cobra por registrarte y no garantiza contratación. No pagues por una supuesta vacante oficial."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificación:",
-                  "strong": true
-                },
-                {
-                  "text": " 12 de noviembre de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Programa de Apoyo al Empleo — Puebla",
-                  "href": "https://st.puebla.gob.mx/images/convocatorias/PAE2025PUEBLA.pdf"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "911",
+          "website": "https://ss.puebla.gob.mx/emergencias",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
-          "id": "bolsa-de-trabajo-cis-angelopolis",
-          "name": "Bolsa de trabajo — CIS Angelópolis",
+          "id": "directorio-de-hospitales-y-centros-de-salud",
+          "title": "Directorio de hospitales y centros de salud",
+          "description": "Secretaría de Salud de Puebla: 222 551 0600.\nServicio: el directorio oficial permite buscar centros de salud, hospitales, urgencias, consulta general, odontología, psiquiatría y otros servicios.\nÚltima verificación: 12 de noviembre de 2026\nDirectorio oficial de unidades de salud",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Dirección:",
-                  "strong": true
-                },
-                {
-                  "text": " avenida Atlixcáyotl 1101, Reserva Territorial Atlixcáyotl, edificio Norte, planta baja, Puebla"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Teléfono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "222 303 4600",
-                  "href": "tel:+522223034600"
-                },
-                {
-                  "text": ", extensión 292140."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Horario publicado:",
-                  "strong": true
-                },
-                {
-                  "text": " lunes a viernes, 8:00–17:00. Ofrece orientación y vinculación laboral gratuita."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Antes de ir:",
-                  "strong": true
-                },
-                {
-                  "text": " confirma si necesitas cita, CURP, identificación y currículum. Pregunta por vacantes de ingreso inmediato, pero verifica contrato, salario y lugar antes de aceptar."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificación:",
-                  "strong": true
-                },
-                {
-                  "text": " 12 de noviembre de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ventanillas del Servicio Nacional de Empleo",
-                  "href": "https://st.puebla.gob.mx/images/convocatorias/PAE2025PUEBLA.pdf"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+522225510600",
+          "website": "https://ss.puebla.gob.mx/directorio-hospitales-y-c-de-salud",
+          "hours": "",
+          "how_to_access": "Antes de ir: llama para confirmar si la unidad recibe pacientes sin cita, documentos necesarios, gratuidad, medicamentos y horario. En una emergencia usa 911."
         },
         {
-          "type": "resource",
-          "id": "portal-del-empleo",
-          "name": "Portal del Empleo",
+          "id": "linea-de-la-vida-salud-mental-y-adicciones",
+          "title": "Línea de la Vida — salud mental y adicciones",
+          "description": "Teléfono gratuito: 800 911 2000, 24 horas, todos los días.\nServicio: orientación confidencial sobre ansiedad, depresión, crisis emocional, riesgo suicida, consumo de alcohol u otras sustancias y derivación a atención presencial.\nEn peligro inmediato, intento en curso o sobredosis: llama al 911. No dejes sola a la persona si puedes permanecer sin ponerte en riesgo.\nÚltima verificación: 12 de noviembre de 2026\nLínea de la Vida — Gobierno de México",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Atención:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "079",
-                  "href": "tel:079"
-                },
-                {
-                  "text": "; el servicio publica vacantes y orientación sin costo."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Consejo de seguridad:",
-                  "strong": true
-                },
-                {
-                  "text": " no entregues dinero, datos bancarios, NIP o documentos originales por una oferta. Confirma razón social, dirección, salario, horario y prestaciones."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Sin teléfono o internet:",
-                  "strong": true
-                },
-                {
-                  "text": " usa el Centro de Intermediación Laboral del SNE y pide ayuda para crear correo y currículum."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificación:",
-                  "strong": true
-                },
-                {
-                  "text": " 12 de noviembre de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Portal del Empleo — Gobierno de México",
-                  "href": "https://empleo.gob.mx/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+528009112000",
+          "website": "https://www.gob.mx/conasama/es/articulos/linea-de-la-vida-800-911-2000?idiom=es",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
-          "id": "delegacion-de-programas-para-el-bienestar-puebla",
-          "name": "Delegación de Programas para el Bienestar — Puebla",
+          "id": "centros-de-integracion-juvenil-puebla",
+          "title": "Centros de Integración Juvenil — Puebla",
+          "description": "Teléfonos publicados: 222 246 2008, 222 246 2028 y 222 232 9372.\nServicio: prevención y tratamiento de problemas con alcohol, tabaco y otras sustancias, con medicina, psicología y trabajo social.\nÚltima verificación: 12 de noviembre de 2026\nTratamiento y rehabilitación — CIJ",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Dirección:",
-                  "strong": true
-                },
-                {
-                  "text": " avenida 41 Poniente 109, colonia Gabriel Pastor Primera Sección, Puebla"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Teléfono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "222 214 3000",
-                  "href": "tel:+522222143000"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "Línea de Bienestar:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "800 639 4264",
-                  "href": "tel:+528006394264"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Pregunta por:",
-                  "strong": true
-                },
-                {
-                  "text": " pensión para personas mayores, pensión para personas con discapacidad, Mujeres Bienestar, apoyo a madres trabajadoras u otro programa cuya convocatoria esté abierta."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Importante:",
-                  "strong": true
-                },
-                {
-                  "text": " cada programa tiene edad, residencia, documentos y calendario propios. La información y el registro son gratuitos; nadie puede garantizarte el alta a cambio de dinero."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificación:",
-                  "strong": true
-                },
-                {
-                  "text": " 12 de noviembre de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Delegaciones de Bienestar — Gobierno de México",
-                  "href": "https://www.gob.mx/bienestar/acciones-y-programas/delegaciones-de-bienestar-en-los-estados.El"
-                }
-              ]
-            }
-          ]
+          "address": "Dirección publicada: Ignacio Allende 57, interior 3, colonia Insurgentes Oriente, Puebla",
+          "phone": "+522222462008",
+          "website": "https://www.gob.mx/salud/cij/acciones-y-programas/programa-de-tratamiento-y-rehabilitacion-117988",
+          "hours": "",
+          "how_to_access": "Antes de ir: llama para confirmar cita, costo, horario y atención a personas adultas. CIJ nacional también atiende en 55 5212 1212."
         },
         {
-          "type": "resource",
-          "id": "pension-para-personas-adultas-mayores",
-          "name": "Pensión para personas adultas mayores",
+          "id": "caritas-puebla-atencion-medica-y-medicamentos",
+          "title": "Cáritas Puebla — atención médica y medicamentos",
+          "description": "Teléfono: 222 211 7330.\nServicios publicados: atención médica, Trabajo Social, banco de medicamentos con receta, rehabilitación básica y cuidados paliativos.\nÚltima verificación: 12 de noviembre de 2026\nSalud y bienestar — Cáritas Puebla",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Elegibilidad básica publicada:",
-                  "strong": true
-                },
-                {
-                  "text": " personas mexicanas de 65 años o más que residen en México. En 2026 el monto oficial publicado es de 6,400 pesos bimestrales."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Primer paso:",
-                  "strong": true
-                },
-                {
-                  "text": " llama a Bienestar o consulta el módulo y periodo de registro. Normalmente se requieren acta, CURP, identificación, comprobante de domicilio y teléfono."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Sin documentos o domicilio fijo:",
-                  "strong": true
-                },
-                {
-                  "text": " pide primero orientación en DIF y Registro Civil. No pagues a intermediarios."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificación:",
-                  "strong": true
-                },
-                {
-                  "text": " 12 de noviembre de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Pensión para personas adultas mayores",
-                  "href": "https://www.programasparaelbienestar.gob.mx/programas/adultos-mayores/pension-para-personas-adultas-mayores/"
-                }
-              ]
-            }
-          ]
+          "address": "Dirección: 13 Sur 1701, barrio de Santiago, Puebla",
+          "phone": "+522222117330",
+          "website": "https://www.caritaspuebla.org/servicios",
+          "hours": "",
+          "how_to_access": "Antes de ir: pregunta por cita, cuota, receta, estudio socioeconómico y existencia del medicamento. No suspendas ni cambies un tratamiento sin indicación clínica."
         },
         {
-          "type": "resource",
-          "id": "pension-para-personas-con-discapacidad-permanente",
-          "name": "Pensión para personas con discapacidad permanente",
+          "id": "medico-imparable-consulta-a-domicilio",
+          "title": "Médico Imparable — consulta a domicilio",
+          "description": "Teléfono: 222 214 0000, extensión 222; WhatsApp: 221 702 1163.\nServicio gratuito: consulta general a domicilio y medicamento del cuadro básico después de valoración para personas mayores de 60 años, personas con discapacidad que no pueden trasladarse y otras personas de atención prioritaria.\nRequisitos publicados: identificación y comprobante de domicilio del municipio; CURP para menores. Si estás en la calle o no tienes documentos, llama y pregunta si Trabajo Social puede orientar una alternativa.\nÚltima verificación: 12 de noviembre de 2026\nMédico Imparable — DIF Puebla Capital",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Servicio:",
-                  "strong": true
-                },
-                {
-                  "text": " apoyo bimestral para personas con discapacidad permanente; el rango de edad depende de la entidad y de los convenios vigentes. En 2026 el monto oficial publicado es de 3,300 pesos bimestrales."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Primer paso:",
-                  "strong": true
-                },
-                {
-                  "text": " confirma elegibilidad y periodo de registro con Bienestar. Puede requerirse certificado de discapacidad, acta, CURP, identificación y comprobante."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "No se entrega en efectivo al registrarse.",
-                  "strong": true
-                },
-                {
-                  "text": " Desconfía de quien pida dinero para acelerar el trámite."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificación:",
-                  "strong": true
-                },
-                {
-                  "text": " 12 de noviembre de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Pensión para personas con discapacidad",
-                  "href": "https://www.programasparaelbienestar.gob.mx/programas/personas-con-discapacidad/pension-para-personas-con-discapacidad/"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "cmeri-rehabilitacion-y-capacitacion",
-          "name": "CMERI — rehabilitación y capacitación",
-          "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Dirección:",
-                  "strong": true
-                },
-                {
-                  "text": " avenida 11 Sur sin número, Cuarta Sección Bioparque Agua Santa, Puebla"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Teléfono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "222 241 5609",
-                  "href": "tel:+522222415609"
-                },
-                {
-                  "text": ", extensión 107."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Servicios:",
-                  "strong": true
-                },
-                {
-                  "text": " certificado de discapacidad, terapias física, ocupacional, de lenguaje y psicología; talleres de gastronomía, computación y auxiliar general."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Requisitos publicados:",
-                  "strong": true
-                },
-                {
-                  "text": " INE, CURP y comprobante de domicilio; se tramita en las instalaciones. Confirma cita, costo y alternativas si te falta un documento."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificación:",
-                  "strong": true
-                },
-                {
-                  "text": " 12 de noviembre de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "CMERI — DIF Puebla Capital",
-                  "href": "https://dif.pueblacapital.gob.mx/unidades-de-atencion/cmeri"
-                }
-              ]
-            }
-          ]
+          "address": "Unidad Médica Integral: avenida Eduardo Cue Merlo 201, San Baltazar Campeche, Puebla",
+          "phone": "+522222140000",
+          "website": "https://dif.pueblacapital.gob.mx/salud-integral/medico-imparable",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
+    },
+    {
+      "id": "mental-health",
+      "title": "Mental health and addiction",
+      "entries": []
+    },
+    {
+      "id": "public-facilities",
+      "title": "Public toilets and day facilities",
+      "entries": []
+    },
+    {
+      "id": "phone-internet",
+      "title": "Phone charging and internet",
+      "entries": []
+    },
+    {
+      "id": "transport",
+      "title": "Transport",
+      "entries": []
+    },
+    {
+      "id": "benefits",
+      "title": "Apoyos, trabajo e ingresos",
+      "entries": [
+        {
+          "id": "servicio-nacional-de-empleo-puebla",
+          "title": "Servicio Nacional de Empleo Puebla",
+          "description": "Teléfonos: 222 232 5513 y 221 653 3081; atención nacional: 079.\nServicio gratuito: orientación, registro, bolsa de trabajo, talleres de búsqueda y vínculo con vacantes. La convocatoria publicada pide 18 años o más y CURP.\nHorario publicado: lunes a viernes, 9:00–18:00. Lleva CURP, identificación y datos de contacto si los tienes; pregunta por apoyo documental si te falta algo.\nImportante: el SNE no cobra por registrarte y no garantiza contratación. No pagues por una supuesta vacante oficial.\nÚltima verificación: 12 de noviembre de 2026\nPrograma de Apoyo al Empleo — Puebla",
+          "last_verified": "2026-11-12",
+          "address": "Oficina central: callejón de la 10 Norte 806, Paseo de San Francisco, barrio de El Alto, Puebla",
+          "phone": "+522222325513",
+          "website": "https://st.puebla.gob.mx/images/convocatorias/PAE2025PUEBLA.pdf",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "bolsa-de-trabajo-cis-angelopolis",
+          "title": "Bolsa de trabajo — CIS Angelópolis",
+          "description": "Teléfono: 222 303 4600, extensión 292140.\nHorario publicado: lunes a viernes, 8:00–17:00. Ofrece orientación y vinculación laboral gratuita.\nÚltima verificación: 12 de noviembre de 2026\nVentanillas del Servicio Nacional de Empleo",
+          "last_verified": "2026-11-12",
+          "address": "Dirección: avenida Atlixcáyotl 1101, Reserva Territorial Atlixcáyotl, edificio Norte, planta baja, Puebla",
+          "phone": "+522223034600",
+          "website": "https://st.puebla.gob.mx/images/convocatorias/PAE2025PUEBLA.pdf",
+          "hours": "",
+          "how_to_access": "Antes de ir: confirma si necesitas cita, CURP, identificación y currículum. Pregunta por vacantes de ingreso inmediato, pero verifica contrato, salario y lugar antes de aceptar."
+        },
+        {
+          "id": "portal-del-empleo",
+          "title": "Portal del Empleo",
+          "description": "Consejo de seguridad: no entregues dinero, datos bancarios, NIP o documentos originales por una oferta. Confirma razón social, dirección, salario, horario y prestaciones.\nSin teléfono o internet: usa el Centro de Intermediación Laboral del SNE y pide ayuda para crear correo y currículum.\nÚltima verificación: 12 de noviembre de 2026\nPortal del Empleo — Gobierno de México",
+          "last_verified": "2026-11-12",
+          "address": "",
+          "phone": "079",
+          "website": "https://empleo.gob.mx/",
+          "hours": "Atención: 079; el servicio publica vacantes y orientación sin costo.",
+          "how_to_access": ""
+        },
+        {
+          "id": "delegacion-de-programas-para-el-bienestar-puebla",
+          "title": "Delegación de Programas para el Bienestar — Puebla",
+          "description": "Teléfono: 222 214 3000; Línea de Bienestar: 800 639 4264.\nPregunta por: pensión para personas mayores, pensión para personas con discapacidad, Mujeres Bienestar, apoyo a madres trabajadoras u otro programa cuya convocatoria esté abierta.\nImportante: cada programa tiene edad, residencia, documentos y calendario propios. La información y el registro son gratuitos; nadie puede garantizarte el alta a cambio de dinero.\nÚltima verificación: 12 de noviembre de 2026\nDelegaciones de Bienestar — Gobierno de México",
+          "last_verified": "2026-11-12",
+          "address": "Dirección: avenida 41 Poniente 109, colonia Gabriel Pastor Primera Sección, Puebla",
+          "phone": "+522222143000",
+          "website": "https://www.gob.mx/bienestar/acciones-y-programas/delegaciones-de-bienestar-en-los-estados.El",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "pension-para-personas-adultas-mayores",
+          "title": "Pensión para personas adultas mayores",
+          "description": "Elegibilidad básica publicada: personas mexicanas de 65 años o más que residen en México. En 2026 el monto oficial publicado es de 6,400 pesos bimestrales.\nPrimer paso: llama a Bienestar o consulta el módulo y periodo de registro. Normalmente se requieren acta, CURP, identificación, comprobante de domicilio y teléfono.\nSin documentos o domicilio fijo: pide primero orientación en DIF y Registro Civil. No pagues a intermediarios.\nÚltima verificación: 12 de noviembre de 2026\nPensión para personas adultas mayores",
+          "last_verified": "2026-11-12",
+          "address": "",
+          "phone": "",
+          "website": "https://www.programasparaelbienestar.gob.mx/programas/adultos-mayores/pension-para-personas-adultas-mayores/",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "pension-para-personas-con-discapacidad-permanente",
+          "title": "Pensión para personas con discapacidad permanente",
+          "description": "Servicio: apoyo bimestral para personas con discapacidad permanente; el rango de edad depende de la entidad y de los convenios vigentes. En 2026 el monto oficial publicado es de 3,300 pesos bimestrales.\nPrimer paso: confirma elegibilidad y periodo de registro con Bienestar. Puede requerirse certificado de discapacidad, acta, CURP, identificación y comprobante.\nNo se entrega en efectivo al registrarse. Desconfía de quien pida dinero para acelerar el trámite.\nÚltima verificación: 12 de noviembre de 2026\nPensión para personas con discapacidad",
+          "last_verified": "2026-11-12",
+          "address": "",
+          "phone": "",
+          "website": "https://www.programasparaelbienestar.gob.mx/programas/personas-con-discapacidad/pension-para-personas-con-discapacidad/",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "cmeri-rehabilitacion-y-capacitacion",
+          "title": "CMERI — rehabilitación y capacitación",
+          "description": "Teléfono: 222 241 5609, extensión 107.\nServicios: certificado de discapacidad, terapias física, ocupacional, de lenguaje y psicología; talleres de gastronomía, computación y auxiliar general.\nRequisitos publicados: INE, CURP y comprobante de domicilio; se tramita en las instalaciones. Confirma cita, costo y alternativas si te falta un documento.\nÚltima verificación: 12 de noviembre de 2026\nCMERI — DIF Puebla Capital",
+          "last_verified": "2026-11-12",
+          "address": "Dirección: avenida 11 Sur sin número, Cuarta Sección Bioparque Agua Santa, Puebla",
+          "phone": "+522222415609",
+          "website": "https://dif.pueblacapital.gob.mx/unidades-de-atencion/cmeri",
+          "hours": "",
+          "how_to_access": ""
+        }
+      ]
+    },
+    {
+      "id": "employment",
+      "title": "Employment",
+      "entries": []
+    },
+    {
+      "id": "legal",
+      "title": "Legal aid",
+      "entries": []
     },
     {
       "id": "documents",
-      "title": "8. Documentos, asesoría legal y derechos",
-      "items": [
+      "title": "Documentos, asesoría legal y derechos",
+      "entries": [
         {
-          "type": "resource",
           "id": "curp-consulta-gratuita",
-          "name": "CURP — consulta gratuita",
+          "title": "CURP — consulta gratuita",
+          "description": "Servicio: consulta e impresión oficial de CURP por clave o datos personales. No pagues a un intermediario solo por descargarla.\nSin internet o impresora: pide ayuda en el Dormitorio Municipal, DIF, Registro Civil o Centro de Intermediación Laboral.\nSi tus datos están mal o no apareces: acude al módulo de Registro Civil para corrección o incorporación.\nÚltima verificación: 12 de noviembre de 2026\nConsulta tu CURP — Gobierno de México",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Servicio:",
-                  "strong": true
-                },
-                {
-                  "text": " consulta e impresión oficial de CURP por clave o datos personales. No pagues a un intermediario solo por descargarla."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Sin internet o impresora:",
-                  "strong": true
-                },
-                {
-                  "text": " pide ayuda en el Dormitorio Municipal, DIF, Registro Civil o Centro de Intermediación Laboral."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Si tus datos están mal o no apareces:",
-                  "strong": true
-                },
-                {
-                  "text": " acude al módulo de Registro Civil para corrección o incorporación."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificación:",
-                  "strong": true
-                },
-                {
-                  "text": " 12 de noviembre de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Consulta tu CURP — Gobierno de México",
-                  "href": "https://www.gob.mx/curp/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.gob.mx/curp/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "registro-civil-y-correccion-de-curp",
-          "name": "Registro Civil y corrección de CURP",
+          "title": "Registro Civil y corrección de CURP",
+          "description": "Teléfonos: 800 911 4664, 800 911 6447, 800 640 8900 y 800 500 1133.\nServicios: actas certificadas, búsqueda o corrección de registros y orientación sobre CURP. Algunos trámites tienen costo y documentos específicos.\nMódulo CURP: CIS Puebla, vía Atlixcáyotl 1101, edificio Ejecutivo; lunes a viernes, 9:00–15:00. Confirma antes de ir.\nÚltima verificación: 12 de noviembre de 2026\nCorrección o incorporación de CURP — Puebla",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Dirección General:",
-                  "strong": true
-                },
-                {
-                  "text": " avenida 11 Oriente 2224, colonia Azcárate, C.P. 72501, Puebla"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Teléfonos:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "800 911 4664",
-                  "href": "tel:+528009114664"
-                },
-                {
-                  "text": ", "
-                },
-                {
-                  "text": "800 911 6447",
-                  "href": "tel:+528009116447"
-                },
-                {
-                  "text": ", "
-                },
-                {
-                  "text": "800 640 8900",
-                  "href": "tel:+528006408900"
-                },
-                {
-                  "text": " y "
-                },
-                {
-                  "text": "800 500 1133",
-                  "href": "tel:+528005001133"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Servicios:",
-                  "strong": true
-                },
-                {
-                  "text": " actas certificadas, búsqueda o corrección de registros y orientación sobre CURP. Algunos trámites tienen costo y documentos específicos."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Módulo CURP:",
-                  "strong": true
-                },
-                {
-                  "text": " CIS Puebla, vía Atlixcáyotl 1101, edificio Ejecutivo; lunes a viernes, 9:00–15:00. Confirma antes de ir."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificación:",
-                  "strong": true
-                },
-                {
-                  "text": " 12 de noviembre de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Corrección o incorporación de CURP — Puebla",
-                  "href": "https://ventanilla.puebla.gob.mx/web/fichaAsunto.do?asas_ide_asu=2522&opcion=0"
-                }
-              ]
-            }
-          ]
+          "address": "Dirección General: avenida 11 Oriente 2224, colonia Azcárate, C.P. 72501, Puebla",
+          "phone": "+528009114664",
+          "website": "https://ventanilla.puebla.gob.mx/web/fichaAsunto.do?asas_ide_asu=2522&opcion=0",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "asesoria-juridica-gratuita-dif-estatal",
-          "name": "Asesoría jurídica gratuita — DIF Estatal",
+          "title": "Asesoría jurídica gratuita — DIF Estatal",
+          "description": "Teléfono: 222 242 3640.\nServicio: orientación jurídica gratuita para el público, con prioridad a personas sin recursos y grupos vulnerables.\nÚltima verificación: 12 de noviembre de 2026\nAsesoría Jurídica — DIF Estatal Puebla",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Dirección:",
-                  "strong": true
-                },
-                {
-                  "text": " avenida Reforma 1305, colonia Centro Histórico, Puebla"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Teléfono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "222 242 3640",
-                  "href": "tel:+522222423640"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Servicio:",
-                  "strong": true
-                },
-                {
-                  "text": " orientación jurídica gratuita para el público, con prioridad a personas sin recursos y grupos vulnerables."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Antes de ir:",
-                  "strong": true
-                },
-                {
-                  "text": " llama para confirmar horario, competencia y documentos. Lleva una cronología corta y copias de cualquier papel relacionado."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificación:",
-                  "strong": true
-                },
-                {
-                  "text": " 12 de noviembre de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Asesoría Jurídica — DIF Estatal Puebla",
-                  "href": "https://difestatal.puebla.gob.mx/servicios/asesoria-juridica"
-                }
-              ]
-            }
-          ]
+          "address": "Dirección: avenida Reforma 1305, colonia Centro Histórico, Puebla",
+          "phone": "+522222423640",
+          "website": "https://difestatal.puebla.gob.mx/servicios/asesoria-juridica",
+          "hours": "",
+          "how_to_access": "Antes de ir: llama para confirmar horario, competencia y documentos. Lleva una cronología corta y copias de cualquier papel relacionado."
         },
         {
-          "type": "resource",
           "id": "instituto-de-la-defensoria-publica-de-puebla",
-          "name": "Instituto de la Defensoría Pública de Puebla",
+          "title": "Instituto de la Defensoría Pública de Puebla",
+          "description": "Servicio: orientación, asesoría, gestión, representación o defensa legal gratuita en asuntos que sean de su competencia.\nAntes de trasladarte: consulta el directorio y confirma sede, materia, horario y requisitos. Para orientación federal también está Defensatel, 800 224 2426.\nÚltima verificación: 12 de noviembre de 2026\nDefensoría Pública — Poder Judicial de Puebla",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Dirección publicada:",
-                  "strong": true
-                },
-                {
-                  "text": " Ciudad Judicial Siglo XXI, Periférico Ecológico 4000, Reserva Territorial Atlixcáyotl, San Andrés Cholula"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Servicio:",
-                  "strong": true
-                },
-                {
-                  "text": " orientación, asesoría, gestión, representación o defensa legal gratuita en asuntos que sean de su competencia."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Antes de trasladarte:",
-                  "strong": true
-                },
-                {
-                  "text": " consulta el directorio y confirma sede, materia, horario y requisitos. Para orientación federal también está Defensatel, "
-                },
-                {
-                  "text": "800 224 2426",
-                  "href": "tel:+528002242426"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificación:",
-                  "strong": true
-                },
-                {
-                  "text": " 12 de noviembre de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Defensoría Pública — Poder Judicial de Puebla",
-                  "href": "https://idp.pjpuebla.gob.mx/index.php/quienes-somos"
-                }
-              ]
-            }
-          ]
+          "address": "Dirección publicada: Ciudad Judicial Siglo XXI, Periférico Ecológico 4000, Reserva Territorial Atlixcáyotl, San Andrés Cholula",
+          "phone": "+528002242426",
+          "website": "https://idp.pjpuebla.gob.mx/index.php/quienes-somos",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "comision-de-derechos-humanos-del-estado-de-puebla",
-          "name": "Comisión de Derechos Humanos del Estado de Puebla",
+          "title": "Comisión de Derechos Humanos del Estado de Puebla",
+          "description": "Teléfonos: 222 136 1342, 222 309 4700 y 800 201 0105; correo: quejas@cdhpuebla.org.mx. — mailto:quejas@cdhpuebla.org.mx\nServicio gratuito: orientación y quejas por posibles violaciones de derechos cometidas por autoridades estatales o municipales. No necesitas abogado.\nGuarda si es seguro: nombres, placas, fecha, hora, lugar, fotos, documentos y testigos. En peligro inmediato, llama al 911.\nÚltima verificación: 12 de noviembre de 2026\nQuejas y orientación — CDH Puebla",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Dirección:",
-                  "strong": true
-                },
-                {
-                  "text": " 5 Poniente 339, colonia Centro, Puebla"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Teléfonos:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "222 136 1342",
-                  "href": "tel:+522221361342"
-                },
-                {
-                  "text": ", "
-                },
-                {
-                  "text": "222 309 4700",
-                  "href": "tel:+522223094700"
-                },
-                {
-                  "text": " y "
-                },
-                {
-                  "text": "800 201 0105",
-                  "href": "tel:+528002010105"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "correo:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "quejas@cdhpuebla.org.mx",
-                  "href": "mailto:quejas@cdhpuebla.org.mx"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Servicio gratuito:",
-                  "strong": true
-                },
-                {
-                  "text": " orientación y quejas por posibles violaciones de derechos cometidas por autoridades estatales o municipales. No necesitas abogado."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Guarda si es seguro:",
-                  "strong": true
-                },
-                {
-                  "text": " nombres, placas, fecha, hora, lugar, fotos, documentos y testigos. En peligro inmediato, llama al 911."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificación:",
-                  "strong": true
-                },
-                {
-                  "text": " 12 de noviembre de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Quejas y orientación — CDH Puebla",
-                  "href": "https://www.cdhpuebla.org.mx/v1/index.php/difusion/formulario-de-contacto"
-                }
-              ]
-            }
-          ]
+          "address": "Dirección: 5 Poniente 339, colonia Centro, Puebla",
+          "phone": "+522221361342",
+          "website": "https://www.cdhpuebla.org.mx/v1/index.php/difusion/formulario-de-contacto",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "profedet-derechos-laborales",
-          "name": "PROFEDET — derechos laborales",
+          "title": "PROFEDET — derechos laborales",
+          "description": "Teléfonos gratuitos: 800 911 7877 y 800 717 2942; correo: orientacionprofedet@stps.gob.mx. — mailto:orientacionprofedet@stps.gob.mx\nAyuda con: despido, salario no pagado, finiquito, prestaciones, seguridad social, discriminación laboral y otras dudas del trabajo.\nGuarda: mensajes, nombre y dirección del patrón, fechas, horarios, recibos y testigos. No firmes hojas en blanco.\nÚltima verificación: 12 de noviembre de 2026\nAsesoría gratuita — PROFEDET",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Teléfonos gratuitos:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "800 911 7877",
-                  "href": "tel:+528009117877"
-                },
-                {
-                  "text": " y "
-                },
-                {
-                  "text": "800 717 2942",
-                  "href": "tel:+528007172942"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "correo:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "orientacionprofedet@stps.gob.mx",
-                  "href": "mailto:orientacionprofedet@stps.gob.mx"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ayuda con:",
-                  "strong": true
-                },
-                {
-                  "text": " despido, salario no pagado, finiquito, prestaciones, seguridad social, discriminación laboral y otras dudas del trabajo."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Guarda:",
-                  "strong": true
-                },
-                {
-                  "text": " mensajes, nombre y dirección del patrón, fechas, horarios, recibos y testigos. No firmes hojas en blanco."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificación:",
-                  "strong": true
-                },
-                {
-                  "text": " 12 de noviembre de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Asesoría gratuita — PROFEDET",
-                  "href": "https://www.profedet.gob.mx/profedet/servicios/asesoria.html"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+528009117877",
+          "website": "https://www.profedet.gob.mx/profedet/servicios/asesoria.html",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "conapred-discriminacion",
-          "name": "CONAPRED — discriminación",
+          "title": "CONAPRED — discriminación",
+          "description": "Teléfono gratuito fuera de Ciudad de México: 800 543 0033.\nServicio: orientación y quejas por actos discriminatorios de particulares o autoridades federales; puede canalizar casos que correspondan a otra institución.\nHorario publicado: lunes a jueves, 9:00–17:30; viernes, 9:00–15:00. En violencia o peligro inmediato, llama al 911.\nÚltima verificación: 12 de noviembre de 2026\nQuejas y orientación — CONAPRED",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Teléfono gratuito fuera de Ciudad de México:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "800 543 0033",
-                  "href": "tel:+528005430033"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Servicio:",
-                  "strong": true
-                },
-                {
-                  "text": " orientación y quejas por actos discriminatorios de particulares o autoridades federales; puede canalizar casos que correspondan a otra institución."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Horario publicado:",
-                  "strong": true
-                },
-                {
-                  "text": " lunes a jueves, 9:00–17:30; viernes, 9:00–15:00. En violencia o peligro inmediato, llama al 911."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificación:",
-                  "strong": true
-                },
-                {
-                  "text": " 12 de noviembre de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Quejas y orientación — CONAPRED",
-                  "href": "https://www.conapred.gob.mx/quejas/quejas-y-orientacion"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+528005430033",
+          "website": "https://www.conapred.gob.mx/quejas/quejas-y-orientacion",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
+    },
+    {
+      "id": "mail",
+      "title": "Mailing address",
+      "entries": []
+    },
+    {
+      "id": "storage",
+      "title": "Storage",
+      "entries": []
     },
     {
       "id": "safety",
-      "title": "9. Mujeres, niñez, personas LGBT+ y migrantes",
-      "items": [
+      "title": "Mujeres, niñez, personas LGBT+ y migrantes",
+      "entries": [
         {
-          "type": "resource",
           "id": "telmujer-violencia-contra-las-mujeres",
-          "name": "Telmujer — violencia contra las mujeres",
+          "title": "Telmujer — violencia contra las mujeres",
+          "description": "Línea directa: 222 232 3738, 24 horas, todos los días; en una emergencia también 911 y pide Telmujer.\nServicio gratuito y confidencial: orientación jurídica y psicológica, valoración de riesgo y coordinación de respuesta de emergencia.\nWhatsApp en horario de oficina: jurídica, 222 360 5590; psicológica, 222 356 4020.\nSi necesitas salir hoy: dilo claramente y pide una ruta segura. No avises a la persona agresora si eso aumenta el riesgo.\nÚltima verificación: 12 de noviembre de 2026\nAtención por violencia — Secretaría de las Mujeres Puebla",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Línea directa:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "222 232 3738",
-                  "href": "tel:+522222323738"
-                },
-                {
-                  "text": ", 24 horas, todos los días; en una emergencia también 911 y pide Telmujer."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Servicio gratuito y confidencial:",
-                  "strong": true
-                },
-                {
-                  "text": " orientación jurídica y psicológica, valoración de riesgo y coordinación de respuesta de emergencia."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "WhatsApp en horario de oficina:",
-                  "strong": true
-                },
-                {
-                  "text": " jurídica, "
-                },
-                {
-                  "text": "222 360 5590",
-                  "href": "tel:+522223605590"
-                },
-                {
-                  "text": "; psicológica, "
-                },
-                {
-                  "text": "222 356 4020",
-                  "href": "tel:+522223564020"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Si necesitas salir hoy:",
-                  "strong": true
-                },
-                {
-                  "text": " dilo claramente y pide una ruta segura. No avises a la persona agresora si eso aumenta el riesgo."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificación:",
-                  "strong": true
-                },
-                {
-                  "text": " 12 de noviembre de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Atención por violencia — Secretaría de las Mujeres Puebla",
-                  "href": "https://sm.puebla.gob.mx/violencia-y-discriminacion"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+522222323738",
+          "website": "https://sm.puebla.gob.mx/violencia-y-discriminacion",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "centro-de-justicia-para-las-mujeres-puebla",
-          "name": "Centro de Justicia para las Mujeres — Puebla",
+          "title": "Centro de Justicia para las Mujeres — Puebla",
+          "description": "Teléfono: 222 240 5214, extensiones 7000, 7002 y 7015.\nAtención publicada: lunes a viernes, 9:00–21:00; sábado, 9:00–15:00. Brinda atención integral médica, psicológica, legal y social a mujeres víctimas de violencia y sus hijas e hijos.\nÚltima verificación: 12 de noviembre de 2026\nUnidades de atención — Fiscalía de Puebla",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Dirección:",
-                  "strong": true
-                },
-                {
-                  "text": " avenida 17 Poniente 1919, barrio de Santiago, Puebla"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Teléfono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "222 240 5214",
-                  "href": "tel:+522222405214"
-                },
-                {
-                  "text": ", extensiones 7000, 7002 y 7015."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Atención publicada:",
-                  "strong": true
-                },
-                {
-                  "text": " lunes a viernes, 9:00–21:00; sábado, 9:00–15:00. Brinda atención integral médica, psicológica, legal y social a mujeres víctimas de violencia y sus hijas e hijos."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Antes de ir:",
-                  "strong": true
-                },
-                {
-                  "text": " llama para confirmar acceso sin cita y si pueden coordinar refugio. En peligro inmediato, 911."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificación:",
-                  "strong": true
-                },
-                {
-                  "text": " 12 de noviembre de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Unidades de atención — Fiscalía de Puebla",
-                  "href": "https://ventanilla.puebla.gob.mx/textos/1/PUEBLA/doc/Unidades_de_investigacion_denuncias_fge.pdf"
-                }
-              ]
-            }
-          ]
+          "address": "Dirección: avenida 17 Poniente 1919, barrio de Santiago, Puebla",
+          "phone": "+522222405214",
+          "website": "https://ventanilla.puebla.gob.mx/textos/1/PUEBLA/doc/Unidades_de_investigacion_denuncias_fge.pdf",
+          "hours": "",
+          "how_to_access": "Antes de ir: llama para confirmar acceso sin cita y si pueden coordinar refugio. En peligro inmediato, 911."
         },
         {
-          "type": "resource",
           "id": "proteccion-de-ninas-ninos-y-adolescentes",
-          "name": "Protección de niñas, niños y adolescentes",
+          "title": "Protección de niñas, niños y adolescentes",
+          "description": "Teléfono: 222 295 1712; horario publicado: 9:00–18:00.\nUse para: abandono, violencia, explotación, pérdida de cuidados o un menor sin persona adulta segura. Puede intervenir y coordinar medidas de protección.\nEn peligro inmediato: 911. No dejes solo a un menor mientras buscas ayuda.\nÚltima verificación: 12 de noviembre de 2026\nDirectorio DIF Estatal — Procuraduría de Protección",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Procuraduría de Protección:",
-                  "strong": true
-                },
-                {
-                  "text": " carretera federal Puebla–Atlixco km 4.5, número 4405, colonia Emiliano Zapata, San Andrés Cholula"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Teléfono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "222 295 1712",
-                  "href": "tel:+522222951712"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "horario publicado:",
-                  "strong": true
-                },
-                {
-                  "text": " 9:00–18:00."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Use para:",
-                  "strong": true
-                },
-                {
-                  "text": " abandono, violencia, explotación, pérdida de cuidados o un menor sin persona adulta segura. Puede intervenir y coordinar medidas de protección."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "En peligro inmediato:",
-                  "strong": true
-                },
-                {
-                  "text": " 911. No dejes solo a un menor mientras buscas ayuda."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificación:",
-                  "strong": true
-                },
-                {
-                  "text": " 12 de noviembre de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Directorio DIF Estatal — Procuraduría de Protección",
-                  "href": "https://difestatal.puebla.gob.mx/quienes-somos"
-                }
-              ]
-            }
-          ]
+          "address": "Procuraduría de Protección: carretera federal Puebla–Atlixco km 4.5, número 4405, colonia Emiliano Zapata, San Andrés Cholula",
+          "phone": "+522222951712",
+          "website": "https://difestatal.puebla.gob.mx/quienes-somos",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "personas-mayores-y-personas-con-discapacidad",
-          "name": "Personas mayores y personas con discapacidad",
+          "title": "Personas mayores y personas con discapacidad",
+          "description": "Adultos mayores: 222 214 0000, extensiones 240 y 241. Apoyos de movilidad: extensiones 230 y 231.\nServicios: orientación, talleres, apoyo social y solicitudes de aparatos ortopédicos; estos últimos requieren certificado médico, identificación, CURP y comprobante del municipio.\nSi hay abandono, violencia o urgencia: llama al 911 o al DIF y explica el riesgo. Los talleres y aparatos no son una respuesta de emergencia.\nÚltima verificación: 12 de noviembre de 2026\nAdultos mayores — DIF Puebla Capital",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Unidad Médica Integral:",
-                  "strong": true
-                },
-                {
-                  "text": " avenida Eduardo Cue Merlo 201, San Baltazar Campeche, Puebla"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Adultos mayores:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "222 214 0000",
-                  "href": "tel:+522222140000"
-                },
-                {
-                  "text": ", extensiones 240 y 241. "
-                },
-                {
-                  "text": "Apoyos de movilidad:",
-                  "strong": true
-                },
-                {
-                  "text": " extensiones 230 y 231."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Servicios:",
-                  "strong": true
-                },
-                {
-                  "text": " orientación, talleres, apoyo social y solicitudes de aparatos ortopédicos; estos últimos requieren certificado médico, identificación, CURP y comprobante del municipio."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Si hay abandono, violencia o urgencia:",
-                  "strong": true
-                },
-                {
-                  "text": " llama al 911 o al DIF y explica el riesgo. Los talleres y aparatos no son una respuesta de emergencia."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificación:",
-                  "strong": true
-                },
-                {
-                  "text": " 12 de noviembre de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Adultos mayores — DIF Puebla Capital",
-                  "href": "https://dif.pueblacapital.gob.mx/desarrollo-social/adultos-mayores"
-                }
-              ]
-            }
-          ]
+          "address": "Unidad Médica Integral: avenida Eduardo Cue Merlo 201, San Baltazar Campeche, Puebla",
+          "phone": "+522222140000",
+          "website": "https://dif.pueblacapital.gob.mx/desarrollo-social/adultos-mayores",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "personas-lgbt-orientacion-ante-discriminacion",
-          "name": "Personas LGBT+ — orientación ante discriminación",
+          "title": "Personas LGBT+ — orientación ante discriminación",
+          "description": "CONAPRED: 800 543 0033. CDH Puebla: 800 201 0105.\nUse para: discriminación por orientación sexual, identidad o expresión de género, negativa indebida de un servicio, hostigamiento o abuso de autoridad.\nEn una agresión o amenaza inmediata: llama al 911. Si buscas albergue, pregunta expresamente por seguridad, nombre social, documentos, parejas y reglas del espacio.\nÚltima verificación: 12 de noviembre de 2026\nOrientación contra la discriminación — CONAPRED",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "CONAPRED:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "800 543 0033",
-                  "href": "tel:+528005430033"
-                },
-                {
-                  "text": ". "
-                },
-                {
-                  "text": "CDH Puebla:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "800 201 0105",
-                  "href": "tel:+528002010105"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Use para:",
-                  "strong": true
-                },
-                {
-                  "text": " discriminación por orientación sexual, identidad o expresión de género, negativa indebida de un servicio, hostigamiento o abuso de autoridad."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "En una agresión o amenaza inmediata:",
-                  "strong": true
-                },
-                {
-                  "text": " llama al 911. Si buscas albergue, pregunta expresamente por seguridad, nombre social, documentos, parejas y reglas del espacio."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificación:",
-                  "strong": true
-                },
-                {
-                  "text": " 12 de noviembre de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Orientación contra la discriminación — CONAPRED",
-                  "href": "https://www.conapred.gob.mx/quejas/quejas-y-orientacion"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+528005430033",
+          "website": "https://www.conapred.gob.mx/quejas/quejas-y-orientacion",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "instituto-poblano-de-asistencia-al-migrante",
-          "name": "Instituto Poblano de Asistencia al Migrante",
+          "title": "Instituto Poblano de Asistencia al Migrante",
+          "description": "Teléfono: 222 303 4600, extensiones 3318 y 3321.\nServicio: protección, documentación y orientación principalmente para personas migrantes poblanas en el extranjero, retornadas y sus familias.\nHorario publicado: lunes a viernes, 9:00–18:00. Si eres migrante extranjero en tránsito o solicitante de refugio, explica tu situación y pide canalización; no supongas que todos los programas del IPAM aplican.\nÚltima verificación: 12 de noviembre de 2026\nInstituto Poblano de Asistencia al Migrante",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Dirección:",
-                  "strong": true
-                },
-                {
-                  "text": " CIS, edificio Ejecutivo, segundo piso, vía Atlixcáyotl 1101, Reserva Territorial Atlixcáyotl, Puebla"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Teléfono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "222 303 4600",
-                  "href": "tel:+522223034600"
-                },
-                {
-                  "text": ", extensiones 3318 y 3321."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Servicio:",
-                  "strong": true
-                },
-                {
-                  "text": " protección, documentación y orientación principalmente para personas migrantes poblanas en el extranjero, retornadas y sus familias."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Horario publicado:",
-                  "strong": true
-                },
-                {
-                  "text": " lunes a viernes, 9:00–18:00. Si eres migrante extranjero en tránsito o solicitante de refugio, explica tu situación y pide canalización; no supongas que todos los programas del IPAM aplican."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificación:",
-                  "strong": true
-                },
-                {
-                  "text": " 12 de noviembre de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Instituto Poblano de Asistencia al Migrante",
-                  "href": "https://ipam.puebla.gob.mx/"
-                }
-              ]
-            }
-          ]
+          "address": "Dirección: CIS, edificio Ejecutivo, segundo piso, vía Atlixcáyotl 1101, Reserva Territorial Atlixcáyotl, Puebla",
+          "phone": "+522223034600",
+          "website": "https://ipam.puebla.gob.mx/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "orientacion-legal-para-migrantes-defensatel",
-          "name": "Orientación legal para migrantes — Defensatel",
+          "title": "Orientación legal para migrantes — Defensatel",
+          "description": "Teléfono gratuito: 800 224 2426, 24 horas.\nServicio: el Instituto Federal de Defensoría Pública ofrece orientación legal gratuita y cuenta con asesoría especializada para personas migrantes, refugiadas y solicitantes de protección.\nConsejo: no entregues pasaporte o documentos originales a desconocidos y no pagues por una supuesta cita garantizada con migración o refugio.\nÚltima verificación: 12 de noviembre de 2026\nInstituto Federal de Defensoría Pública",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Teléfono gratuito:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "800 224 2426",
-                  "href": "tel:+528002242426"
-                },
-                {
-                  "text": ", 24 horas."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Servicio:",
-                  "strong": true
-                },
-                {
-                  "text": " el Instituto Federal de Defensoría Pública ofrece orientación legal gratuita y cuenta con asesoría especializada para personas migrantes, refugiadas y solicitantes de protección."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Consejo:",
-                  "strong": true
-                },
-                {
-                  "text": " no entregues pasaporte o documentos originales a desconocidos y no pagues por una supuesta cita garantizada con migración o refugio."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificación:",
-                  "strong": true
-                },
-                {
-                  "text": " 12 de noviembre de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Instituto Federal de Defensoría Pública",
-                  "href": "https://ifdp.oaj.gob.mx/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+528002242426",
+          "website": "https://ifdp.oaj.gob.mx/",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
+    },
+    {
+      "id": "specialist-support",
+      "title": "Specialist support",
+      "entries": []
+    },
+    {
+      "id": "veterans",
+      "title": "Veterans support",
+      "entries": []
     },
     {
       "id": "pets",
-      "title": "10. Ayuda con animales",
-      "items": [
+      "title": "Ayuda con animales",
+      "entries": [
         {
-          "type": "resource",
           "id": "direccion-de-proteccion-animal-municipio-de-puebla",
-          "name": "Dirección de Protección Animal — Municipio de Puebla",
+          "title": "Dirección de Protección Animal — Municipio de Puebla",
+          "description": "Teléfono: 222 264 3251; horario publicado: lunes a viernes, 8:00–16:00.\nServicio: orientación y denuncias municipales por maltrato, crueldad, abandono u otros problemas de protección animal.\nEn peligro inmediato para una persona o animal: llama al 911. La oficina no garantiza alojamiento inmediato de una mascota.\nÚltima verificación: 12 de noviembre de 2026\nDirectorio de protección animal — Municipio de Puebla",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Dirección:",
-                  "strong": true
-                },
-                {
-                  "text": " Mirasoles 14, colonia Bugambilias, Puebla"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Teléfono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "222 264 3251",
-                  "href": "tel:+522222643251"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "horario publicado:",
-                  "strong": true
-                },
-                {
-                  "text": " lunes a viernes, 8:00–16:00."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Servicio:",
-                  "strong": true
-                },
-                {
-                  "text": " orientación y denuncias municipales por maltrato, crueldad, abandono u otros problemas de protección animal."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "En peligro inmediato para una persona o animal:",
-                  "strong": true
-                },
-                {
-                  "text": " llama al 911. La oficina no garantiza alojamiento inmediato de una mascota."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificación:",
-                  "strong": true
-                },
-                {
-                  "text": " 12 de noviembre de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Directorio de protección animal — Municipio de Puebla",
-                  "href": "https://gobiernodelaciudad.pueblacapital.gob.mx/24-27/media/com_dpattachments/attachments/com_content.article/cartel-cuidadoresponsable-2025.pdf"
-                }
-              ]
-            }
-          ]
+          "address": "Dirección: Mirasoles 14, colonia Bugambilias, Puebla",
+          "phone": "+522222643251",
+          "website": "https://gobiernodelaciudad.pueblacapital.gob.mx/24-27/media/com_dpattachments/attachments/com_content.article/cartel-cuidadoresponsable-2025.pdf",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "instituto-de-bienestar-animal-del-estado-de-puebla",
-          "name": "Instituto de Bienestar Animal del Estado de Puebla",
+          "title": "Instituto de Bienestar Animal del Estado de Puebla",
+          "description": "Teléfono: 222 273 6800, extensiones 1168 y 1212.\nServicio: orientación estatal, denuncias de maltrato y programas de bienestar animal. Confirma por teléfono si existe campaña veterinaria, resguardo o canalización disponible.\nÚltima verificación: 12 de noviembre de 2026\nInstituto de Bienestar Animal — Puebla",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Dirección:",
-                  "strong": true
-                },
-                {
-                  "text": " lateral Recta a Cholula km 5.5, número 2401, San Andrés Cholula"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Teléfono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "222 273 6800",
-                  "href": "tel:+522222736800"
-                },
-                {
-                  "text": ", extensiones 1168 y 1212."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Servicio:",
-                  "strong": true
-                },
-                {
-                  "text": " orientación estatal, denuncias de maltrato y programas de bienestar animal. Confirma por teléfono si existe campaña veterinaria, resguardo o canalización disponible."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificación:",
-                  "strong": true
-                },
-                {
-                  "text": " 12 de noviembre de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Instituto de Bienestar Animal — Puebla",
-                  "href": "https://iba.puebla.gob.mx/newiba"
-                }
-              ]
-            }
-          ]
+          "address": "Dirección: lateral Recta a Cholula km 5.5, número 2401, San Andrés Cholula",
+          "phone": "+522222736800",
+          "website": "https://iba.puebla.gob.mx/newiba",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "mascota-y-solicitud-de-dormitorio",
-          "name": "Mascota y solicitud de dormitorio",
+          "title": "Mascota y solicitud de dormitorio",
+          "description": "Importante: no se encontró una garantía oficial de admisión de mascotas. Confirma una solución segura antes de aceptar una canalización; no abandones al animal para entrar.\nSi necesita atención: pregunta a Protección Animal o al Instituto de Bienestar Animal por una jornada, valoración o asociación disponible. Los servicios y cupos cambian.\nÚltima verificación: 12 de noviembre de 2026\nReglas y contacto del Dormitorio Municipal",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Antes de ir:",
-                  "strong": true
-                },
-                {
-                  "text": " llama al Dormitorio Municipal al "
-                },
-                {
-                  "text": "222 214 0000",
-                  "href": "tel:+522222140000"
-                },
-                {
-                  "text": ", extensión 229, y explica especie, tamaño, temperamento y estado de salud del animal."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Importante:",
-                  "strong": true
-                },
-                {
-                  "text": " no se encontró una garantía oficial de admisión de mascotas. Confirma una solución segura antes de aceptar una canalización; no abandones al animal para entrar."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Si necesita atención:",
-                  "strong": true
-                },
-                {
-                  "text": " pregunta a Protección Animal o al Instituto de Bienestar Animal por una jornada, valoración o asociación disponible. Los servicios y cupos cambian."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificación:",
-                  "strong": true
-                },
-                {
-                  "text": " 12 de noviembre de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Reglas y contacto del Dormitorio Municipal",
-                  "href": "https://dif.pueblacapital.gob.mx/unidades-de-atencion/dormitorio-municipal"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+522222140000",
+          "website": "https://dif.pueblacapital.gob.mx/unidades-de-atencion/dormitorio-municipal",
+          "hours": "",
+          "how_to_access": "Antes de ir: llama al Dormitorio Municipal al 222 214 0000, extensión 229, y explica especie, tamaño, temperamento y estado de salud del animal."
         }
       ]
     },
     {
-      "id": "verificacion-y-correcciones",
+      "id": "other",
       "title": "Verificación y correcciones",
-      "items": [
+      "entries": [
         {
-          "type": "paragraph",
-          "content": [
-            {
-              "text": "Esta página fue verificada el 12 de noviembre de 2026 con fuentes del DIF Puebla Capital, DIF Estatal, Municipio de Puebla, Gobierno del Estado, Gobierno de México, Cáritas Puebla, Banco de Alimentos Cáritas Puebla y las propias organizaciones. Si encuentras un servicio cerrado, un número incorrecto o una condición diferente, consulta "
-            },
-            {
-              "text": "cómo enviar una corrección",
-              "href": "../../CONTRIBUTING.md"
-            },
-            {
-              "text": "."
-            }
-          ]
+          "id": "verificacion-y-correcciones-information",
+          "title": "Verificación y correcciones",
+          "description": "Esta página fue verificada el 12 de noviembre de 2026 con fuentes del DIF Puebla Capital, DIF Estatal, Municipio de Puebla, Gobierno del Estado, Gobierno de México, Cáritas Puebla, Banco de Alimentos Cáritas Puebla y las propias organizaciones. Si encuentras un servicio cerrado, un número incorrecto o una condición diferente, consulta cómo enviar una corrección. — ../../CONTRIBUTING.md",
+          "last_verified": "2026-11-12",
+          "address": "",
+          "phone": "",
+          "website": "",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     }

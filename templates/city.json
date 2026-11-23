@@ -1,6 +1,7 @@
 {
   "$schema": "https://nohomehelp.com/schemas/city.schema.json",
-  "schema_version": 1,
+  "documentation": "https://github.com/carlosbranco/no-home-help/blob/main/EDIT_CITY_JSON.md",
+  "schema_version": 2,
   "status": "draft",
   "locale": {
     "language": "en",
@@ -26,70 +27,133 @@
   "page": {
     "heading": "CITY - HOMELESS HELP",
     "last_verified": "YYYY-MM-DD",
-    "urgent": [
-      {
-        "type": "paragraph",
-        "content": [
-          { "text": "Immediate danger or medical emergency: ", "strong": true },
-          { "text": "112", "href": "tel:112" }
-        ]
-      }
-    ],
+    "urgent": "Immediate danger or medical emergency: 112",
     "notice": "Information can change. Call ahead when possible. A listing does not guarantee a bed, meal, appointment, benefit, treatment, or job.",
-    "intro": [
-      {
-        "type": "paragraph",
-        "content": "Explain the safest first step for a person who has nowhere to sleep tonight."
-      }
-    ],
-    "footer": [
-      {
-        "type": "paragraph",
-        "content": "List the main official sources used to verify this guide."
-      }
-    ]
+    "intro": "Explain the safest first step for a person who has nowhere to sleep tonight.",
+    "footer": "List the main official sources used to verify this guide."
   },
   "categories": [
     {
+      "id": "emergency",
+      "title": "Emergency help",
+      "entries": []
+    },
+    {
       "id": "shelter",
-      "title": "Emergency shelter",
-      "items": [
+      "title": "Shelter and housing",
+      "entries": [
         {
-          "type": "paragraph",
-          "content": "Explain how intake works and never promise that a bed is available."
-        },
-        {
-          "type": "resource",
-          "id": "example-intake",
-          "name": "Organization or service name",
+          "id": "example-service",
+          "title": "Official service name",
+          "description": "Explain what the service provides, who can use it, costs or required documents, and any important restrictions.",
           "last_verified": "YYYY-MM-DD",
-          "blocks": [
-            {
-              "type": "address",
-              "content": "Address or service area"
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                { "text": "Phone: ", "strong": true },
-                { "text": "+00 000 000 000", "href": "tel:+00000000000" }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": "Describe services, hours, eligibility, referral rules, and what the person should do next."
-            },
-            {
-              "type": "list",
-              "items": [
-                [
-                  { "text": "Official website", "href": "https://example.org/" }
-                ]
-              ]
-            }
-          ]
+          "address": "Public address or service area",
+          "phone": "+00 000 000 000",
+          "website": "https://example.org/service",
+          "hours": "Published opening hours, or leave empty",
+          "how_to_access": "Explain whether to call, walk in, book, or obtain a referral."
         }
       ]
+    },
+    {
+      "id": "food",
+      "title": "Food",
+      "entries": []
+    },
+    {
+      "id": "community",
+      "title": "Community and religious help",
+      "entries": []
+    },
+    {
+      "id": "hygiene",
+      "title": "Showers, laundry and hygiene",
+      "entries": []
+    },
+    {
+      "id": "clothing",
+      "title": "Clothing",
+      "entries": []
+    },
+    {
+      "id": "health",
+      "title": "Health care",
+      "entries": []
+    },
+    {
+      "id": "mental-health",
+      "title": "Mental health and addiction",
+      "entries": []
+    },
+    {
+      "id": "public-facilities",
+      "title": "Public toilets and day facilities",
+      "entries": []
+    },
+    {
+      "id": "phone-internet",
+      "title": "Phone charging and internet",
+      "entries": []
+    },
+    {
+      "id": "transport",
+      "title": "Transport",
+      "entries": []
+    },
+    {
+      "id": "benefits",
+      "title": "Government benefits and social support",
+      "entries": []
+    },
+    {
+      "id": "employment",
+      "title": "Employment",
+      "entries": []
+    },
+    {
+      "id": "legal",
+      "title": "Legal aid",
+      "entries": []
+    },
+    {
+      "id": "documents",
+      "title": "Documents and identification",
+      "entries": []
+    },
+    {
+      "id": "mail",
+      "title": "Mailing address",
+      "entries": []
+    },
+    {
+      "id": "storage",
+      "title": "Storage",
+      "entries": []
+    },
+    {
+      "id": "safety",
+      "title": "Safety and domestic violence",
+      "entries": []
+    },
+    {
+      "id": "specialist-support",
+      "title": "Specialist support",
+      "entries": []
+    },
+    {
+      "id": "veterans",
+      "title": "Veterans support",
+      "entries": []
+    },
+    {
+      "id": "pets",
+      "title": "Help for people with pets",
+      "entries": []
+    },
+    {
+      "id": "other",
+      "title": "Other useful resources",
+      "entries": []
     }
   ]
 }

@@ -1,6 +1,7 @@
 {
   "$schema": "https://nohomehelp.com/schemas/city.schema.json",
-  "schema_version": 1,
+  "documentation": "https://github.com/carlosbranco/no-home-help/blob/main/EDIT_CITY_JSON.md",
+  "schema_version": 2,
   "status": "published",
   "locale": {
     "language": "pt-BR",
@@ -26,4342 +27,1166 @@
   "page": {
     "heading": "Curitiba — ajuda para pessoas sem moradia",
     "last_verified": "2026-11-11",
-    "urgent": [
-      {
-        "type": "paragraph",
-        "content": [
-          {
-            "text": "Emergência médica — SAMU:",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "192",
-            "href": "tel:192"
-          },
-          {
-            "break": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "Polícia Militar:",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "190",
-            "href": "tel:190"
-          },
-          {
-            "text": "; "
-          },
-          {
-            "text": "Bombeiros:",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "193",
-            "href": "tel:193"
-          },
-          {
-            "text": "; "
-          },
-          {
-            "text": "Guarda Municipal:",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "153",
-            "href": "tel:153"
-          },
-          {
-            "break": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "Abordagem social e serviços municipais:",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "156",
-            "href": "tel:156"
-          },
-          {
-            "text": ", 24 horas"
-          },
-          {
-            "break": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "Direitos humanos:",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "100",
-            "href": "tel:100"
-          },
-          {
-            "text": "; "
-          },
-          {
-            "text": "violência contra a mulher:",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "180",
-            "href": "tel:180"
-          }
-        ]
-      }
-    ],
-    "notice": [
-      {
-        "text": "Vagas, horários, endereços e critérios podem mudar.",
-        "strong": true
-      },
-      {
-        "text": " Confirme antes de se deslocar. Nenhum serviço garante cama, refeição, dinheiro, tratamento, benefício ou emprego no mesmo dia. Em risco imediato, ligue 190, 192 ou 193."
-      }
-    ],
-    "intro": [
-      {
-        "type": "paragraph",
-        "content": [
-          {
-            "text": "Ao pedir ajuda, diga onde você está, um ponto de referência, se tem local seguro para esta noite, quando comeu pela última vez, se precisa de cuidados de saúde e se está com crianças ou animais. Informe também gravidez, deficiência, idade avançada ou risco de violência. Para acolhimento, comece pelo "
-          },
-          {
-            "text": "156",
-            "href": "tel:156"
-          },
-          {
-            "text": ", por um Centro POP ou por uma Casa de Passagem; a entrada depende de avaliação, perfil e espaço disponível."
-          }
-        ]
-      }
-    ],
-    "footer": [
-      {
-        "type": "paragraph",
-        "content": [
-          {
-            "text": "No Home Help oferece informação, não atendimento direto. "
-          },
-          {
-            "text": "Sobre o projeto",
-            "href": "../../about.html"
-          },
-          {
-            "text": " | "
-          },
-          {
-            "text": "Contribuir",
-            "href": "../../CONTRIBUTING.md"
-          },
-          {
-            "text": " | "
-          },
-          {
-            "text": "GitHub",
-            "href": "https://github.com/carlosbranco/no-home-help"
-          }
-        ]
-      }
-    ]
+    "urgent": "Emergência médica — SAMU: 192 Polícia Militar: 190; Bombeiros: 193; Guarda Municipal: 153 Abordagem social e serviços municipais: 156, 24 horas Direitos humanos: 100; violência contra a mulher: 180",
+    "notice": "Vagas, horários, endereços e critérios podem mudar. Confirme antes de se deslocar. Nenhum serviço garante cama, refeição, dinheiro, tratamento, benefício ou emprego no mesmo dia. Em risco imediato, ligue 190, 192 ou 193.",
+    "intro": "Ao pedir ajuda, diga onde você está, um ponto de referência, se tem local seguro para esta noite, quando comeu pela última vez, se precisa de cuidados de saúde e se está com crianças ou animais. Informe também gravidez, deficiência, idade avançada ou risco de violência. Para acolhimento, comece pelo 156, por um Centro POP ou por uma Casa de Passagem; a entrada depende de avaliação, perfil e espaço disponível.",
+    "footer": "No Home Help oferece informação, não atendimento direto. Sobre o projeto | Contribuir | GitHub — ../../about.html — ../../CONTRIBUTING.md — https://github.com/carlosbranco/no-home-help"
   },
   "categories": [
     {
       "id": "emergency",
-      "title": "1. Emergência e orientação imediata",
-      "items": [
+      "title": "Emergência e orientação imediata",
+      "entries": [
         {
-          "type": "resource",
           "id": "central-156-abordagem-social",
-          "name": "Central 156 — abordagem social",
+          "title": "Central 156 — abordagem social",
+          "description": "Telefone: 156, 24 horas, todos os dias, inclusive feriados. Para a Região Metropolitana e outras localidades: (41) 3074-6456.\nPeça abordagem para pessoa adulta, idosa, criança ou adolescente em situação de rua. Diga a localização exata, um ponto de referência, aparência e condição da pessoa. Se ela estiver inconsciente ou ferida, ligue primeiro para o SAMU, 192.\nAbordagem Social — Central 156",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "156",
-                  "href": "tel:156"
-                },
-                {
-                  "text": ", 24 horas, todos os dias, inclusive feriados. Para a Região Metropolitana e outras localidades: "
-                },
-                {
-                  "text": "(41) 3074-6456",
-                  "href": "tel:+554130746456"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Peça abordagem para pessoa adulta, idosa, criança ou adolescente em situação de rua. Diga a localização exata, um ponto de referência, aparência e condição da pessoa. Se ela estiver inconsciente ou ferida, ligue primeiro para o SAMU, 192."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Abordagem Social — Central 156",
-                  "href": "https://156.curitiba.pr.gov.br/Servico/Abordagem-Social---Situa%C3%A7%C3%A3o-de-Rua/440/Veja-todos-tipos-servicos-para-atender-cidadao-da-central-156-prefeitura-curitiba"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "156",
+          "website": "https://156.curitiba.pr.gov.br/Servico/Abordagem-Social---Situa%C3%A7%C3%A3o-de-Rua/440/Veja-todos-tipos-servicos-para-atender-cidadao-da-central-156-prefeitura-curitiba",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "samu-emergencia-medica",
-          "name": "SAMU — emergência médica",
+          "title": "SAMU — emergência médica",
+          "description": "Telefone gratuito: 192, 24 horas.\nLigue em caso de inconsciência, falta de ar, dor forte no peito, convulsão, sangramento grave, overdose, acidente ou outra urgência médica. Informe primeiro o endereço ou ponto de referência.\nSAMU Curitiba",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefone gratuito:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "192",
-                  "href": "tel:192"
-                },
-                {
-                  "text": ", 24 horas."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ligue em caso de inconsciência, falta de ar, dor forte no peito, convulsão, sangramento grave, overdose, acidente ou outra urgência médica. Informe primeiro o endereço ou ponto de referência."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "SAMU Curitiba",
-                  "href": "https://saude.curitiba.pr.gov.br/conteudo/samu/1956"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "192",
+          "website": "https://saude.curitiba.pr.gov.br/conteudo/samu/1956",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "policia-bombeiros-e-guarda-municipal",
-          "name": "Polícia, Bombeiros e Guarda Municipal",
+          "title": "Polícia, Bombeiros e Guarda Municipal",
+          "description": "Polícia Militar: 190; Bombeiros: 193; Guarda Municipal: 153.\nUse o 190 para violência, ameaça ou crime em andamento; o 193 para incêndio, resgate ou outro perigo grave. Para assistência social sem risco imediato, use o 156.\nTelefones de emergência — Prefeitura",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Polícia Militar:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "190",
-                  "href": "tel:190"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "Bombeiros:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "193",
-                  "href": "tel:193"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "Guarda Municipal:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "153",
-                  "href": "tel:153"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Use o 190 para violência, ameaça ou crime em andamento; o 193 para incêndio, resgate ou outro perigo grave. Para assistência social sem risco imediato, use o 156."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefones de emergência — Prefeitura",
-                  "href": "https://www.curitiba.pr.gov.br/servicos/telefones-de-emergencia/711"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "190",
+          "website": "https://www.curitiba.pr.gov.br/servicos/telefones-de-emergencia/711",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "disque-100-e-ligue-180",
-          "name": "Disque 100 e Ligue 180",
+          "title": "Disque 100 e Ligue 180",
+          "description": "Direitos humanos: 100; violência contra a mulher: 180.\nUse o 100 para denunciar violência, discriminação, retirada de pertences ou outra violação de direitos. O 180 orienta mulheres em situação de violência. Em perigo agora, ligue 190.\nOuvidoria Nacional de Direitos Humanos",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Direitos humanos:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "100",
-                  "href": "tel:100"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "violência contra a mulher:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "180",
-                  "href": "tel:180"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Use o 100 para denunciar violência, discriminação, retirada de pertences ou outra violação de direitos. O 180 orienta mulheres em situação de violência. Em perigo agora, ligue 190."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ouvidoria Nacional de Direitos Humanos",
-                  "href": "https://www.gov.br/mdh/pt-br/ondh/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "100",
+          "website": "https://www.gov.br/mdh/pt-br/ondh/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "frio-intenso-e-chuva",
-          "name": "Frio intenso e chuva",
+          "title": "Frio intenso e chuva",
+          "description": "Em noites frias, ligue 156 e informe a localização de quem precisa de abordagem. A Prefeitura amplia vagas emergenciais conforme o clima, mas uma solicitação não reserva cama.\nPeça que a equipe registre doença, idade, gravidez, deficiência, presença de crianças ou animal. Se houver hipotermia, confusão, inconsciência ou dificuldade respiratória, ligue 192.\nOperação de frio da FAS — 2026",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Em noites frias, ligue 156 e informe a localização de quem precisa de abordagem. A Prefeitura amplia vagas emergenciais conforme o clima, mas uma solicitação não reserva cama."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Peça que a equipe registre doença, idade, gravidez, deficiência, presença de crianças ou animal. Se houver hipotermia, confusão, inconsciência ou dificuldade respiratória, ligue 192."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Operação de frio da FAS — 2026",
-                  "href": "https://www.curitiba.pr.gov.br/noticias/frio-continua-e-fas-mantem-reforco-nas-abordagens-e-acolhimento-de-pessoas-em-situacao-de-rua/83028"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.curitiba.pr.gov.br/noticias/frio-continua-e-fas-mantem-reforco-nas-abordagens-e-acolhimento-de-pessoas-em-situacao-de-rua/83028",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
       "id": "shelter",
-      "title": "2. Acolhimento e apoio na rua",
-      "items": [
+      "title": "Acolhimento e apoio na rua",
+      "entries": [
         {
-          "type": "paragraph",
-          "content": [
-            {
-              "text": "Os Centros POP são de porta aberta durante o dia. As Casas de Passagem funcionam 24 horas e aceitam procura espontânea ou encaminhamento, mas fazem avaliação e dependem de capacidade. As Unidades de Acolhimento Institucional exigem avaliação e regulação pela FAS."
-            }
-          ]
-        },
-        {
-          "type": "resource",
           "id": "centro-pop-doutor-faivre",
-          "name": "Centro POP Doutor Faivre",
+          "title": "Centro POP Doutor Faivre",
+          "description": "Os Centros POP são de porta aberta durante o dia. As Casas de Passagem funcionam 24 horas e aceitam procura espontânea ou encaminhamento, mas fazem avaliação e dependem de capacidade. As Unidades de Acolhimento Institucional exigem avaliação e regulação pela FAS.\nHorário publicado: todos os dias, 8h–17h.\nAtendimento social, documentos, benefícios, saúde, cursos, intermediação de trabalho, convivência e encaminhamento para acolhimento. A procura pode ser espontânea; chegar ao Centro POP não garante cama.\nCentros POP de Curitiba",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Endereço:",
-                  "strong": true
-                },
-                {
-                  "text": " Rua Presidente Affonso Camargo, 177, Jardim Botânico"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Horário publicado:",
-                  "strong": true
-                },
-                {
-                  "text": " todos os dias, 8h–17h."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Atendimento social, documentos, benefícios, saúde, cursos, intermediação de trabalho, convivência e encaminhamento para acolhimento. A procura pode ser espontânea; chegar ao Centro POP não garante cama."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Centros POP de Curitiba",
-                  "href": "https://www.curitiba.pr.gov.br/servicos/centros-pop-de-curitiba/artes-visuais-cursos-solar-do-barao/415"
-                }
-              ]
-            }
-          ]
+          "address": "Endereço: Rua Presidente Affonso Camargo, 177, Jardim Botânico",
+          "phone": "",
+          "website": "https://www.curitiba.pr.gov.br/servicos/centros-pop-de-curitiba/artes-visuais-cursos-solar-do-barao/415",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "centro-pop-solidariedade",
-          "name": "Centro POP Solidariedade",
+          "title": "Centro POP Solidariedade",
+          "description": "Horário publicado: todos os dias, 8h–17h.\nOferece acompanhamento técnico, higiene, alimentação, atividades e encaminhamentos. Pergunte sobre documentos, CadÚnico, saúde, trabalho, guarda de pertences e acolhimento.\nRede para pessoas em situação de rua — FAS",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Endereço:",
-                  "strong": true
-                },
-                {
-                  "text": " Rua Engenheiros Rebouças, 875, Rebouças"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Horário publicado:",
-                  "strong": true
-                },
-                {
-                  "text": " todos os dias, 8h–17h."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Oferece acompanhamento técnico, higiene, alimentação, atividades e encaminhamentos. Pergunte sobre documentos, CadÚnico, saúde, trabalho, guarda de pertences e acolhimento."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Rede para pessoas em situação de rua — FAS",
-                  "href": "https://servicos-fas.curitiba.pr.gov.br/conteudo.aspx?idf=1637"
-                }
-              ]
-            }
-          ]
+          "address": "Endereço: Rua Engenheiros Rebouças, 875, Rebouças",
+          "phone": "",
+          "website": "https://servicos-fas.curitiba.pr.gov.br/conteudo.aspx?idf=1637",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "centro-pop-boqueirao",
-          "name": "Centro POP Boqueirão",
+          "title": "Centro POP Boqueirão",
+          "description": "Horário publicado: todos os dias, 8h–17h. Telefone publicado: (41) 3277-1092.\nPorta de entrada diurna para atendimento social, higiene, alimentação, documentos, benefícios, saúde, cursos e encaminhamentos.\nCentro POP — FAS",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Endereço:",
-                  "strong": true
-                },
-                {
-                  "text": " Rua Oliveira Viana, 1804, Vila Hauer"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Horário publicado:",
-                  "strong": true
-                },
-                {
-                  "text": " todos os dias, 8h–17h. "
-                },
-                {
-                  "text": "Telefone publicado:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(41) 3277-1092",
-                  "href": "tel:+554132771092"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Porta de entrada diurna para atendimento social, higiene, alimentação, documentos, benefícios, saúde, cursos e encaminhamentos."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Centro POP — FAS",
-                  "href": "https://servicos-fas.curitiba.pr.gov.br/conteudo.aspx?idf=211"
-                }
-              ]
-            }
-          ]
+          "address": "Endereço: Rua Oliveira Viana, 1804, Vila Hauer",
+          "phone": "+554132771092",
+          "website": "https://servicos-fas.curitiba.pr.gov.br/conteudo.aspx?idf=211",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "casa-de-passagem-padre-pio",
-          "name": "Casa de Passagem Padre Pio",
+          "title": "Casa de Passagem Padre Pio",
+          "description": "Atendimento publicado: 24 horas.\nAcolhimento imediato e emergencial, com cama, refeições, banho, lavanderia, kit de higiene, roupa ou calçado quando necessário e atendimento social. A entrada depende de entrevista, perfil e vaga.\nCasas de Passagem — FAS",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Endereço:",
-                  "strong": true
-                },
-                {
-                  "text": " Rua Engenheiros Rebouças, 875, Rebouças"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Atendimento publicado:",
-                  "strong": true
-                },
-                {
-                  "text": " 24 horas."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Acolhimento imediato e emergencial, com cama, refeições, banho, lavanderia, kit de higiene, roupa ou calçado quando necessário e atendimento social. A entrada depende de entrevista, perfil e vaga."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Casas de Passagem — FAS",
-                  "href": "https://servicos-fas.curitiba.pr.gov.br/conteudo.aspx?idf=1637"
-                }
-              ]
-            }
-          ]
+          "address": "Endereço: Rua Engenheiros Rebouças, 875, Rebouças",
+          "phone": "",
+          "website": "https://servicos-fas.curitiba.pr.gov.br/conteudo.aspx?idf=1637",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "casa-de-passagem-doutor-faivre",
-          "name": "Casa de Passagem Doutor Faivre",
+          "title": "Casa de Passagem Doutor Faivre",
+          "description": "Atendimento publicado: 24 horas.\nRecebe procura espontânea e encaminhamentos. Peça avaliação mesmo sem documentos, mas o acolhimento depende da capacidade e das regras atuais da unidade.\nProteção Social Especial — FAS",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Endereço:",
-                  "strong": true
-                },
-                {
-                  "text": " Rua Presidente Affonso Camargo, 177, Jardim Botânico"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Atendimento publicado:",
-                  "strong": true
-                },
-                {
-                  "text": " 24 horas."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Recebe procura espontânea e encaminhamentos. Peça avaliação mesmo sem documentos, mas o acolhimento depende da capacidade e das regras atuais da unidade."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Proteção Social Especial — FAS",
-                  "href": "https://servicos-fas.curitiba.pr.gov.br/conteudo.aspx?idf=1637"
-                }
-              ]
-            }
-          ]
+          "address": "Endereço: Rua Presidente Affonso Camargo, 177, Jardim Botânico",
+          "phone": "",
+          "website": "https://servicos-fas.curitiba.pr.gov.br/conteudo.aspx?idf=1637",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "casa-de-passagem-boqueirao",
-          "name": "Casa de Passagem Boqueirão",
+          "title": "Casa de Passagem Boqueirão",
+          "description": "Atendimento publicado: 24 horas.\nOferece acolhimento emergencial e atendimento social. Informe antecipadamente mobilidade reduzida, doença, necessidade de medicamento, crianças ou animal.\nEndereços de acolhimento — FAS",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Endereço:",
-                  "strong": true
-                },
-                {
-                  "text": " Rua Oliveira Viana, 1804, Vila Hauer"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Atendimento publicado:",
-                  "strong": true
-                },
-                {
-                  "text": " 24 horas."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Oferece acolhimento emergencial e atendimento social. Informe antecipadamente mobilidade reduzida, doença, necessidade de medicamento, crianças ou animal."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Endereços de acolhimento — FAS",
-                  "href": "https://servicos-fas.curitiba.pr.gov.br/conteudo.aspx?idf=1637"
-                }
-              ]
-            }
-          ]
+          "address": "Endereço: Rua Oliveira Viana, 1804, Vila Hauer",
+          "phone": "",
+          "website": "https://servicos-fas.curitiba.pr.gov.br/conteudo.aspx?idf=1637",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "casa-de-passagem-de-mulheres",
-          "name": "Casa de Passagem de Mulheres",
+          "title": "Casa de Passagem de Mulheres",
+          "description": "Atendimento publicado: 24 horas.\nAcolhimento emergencial para mulheres em situação de rua. Em caso de violência doméstica ou risco causado por agressor, procure também a Casa da Mulher Brasileira.\nCasa de Passagem de Mulheres — FAS",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Endereço:",
-                  "strong": true
-                },
-                {
-                  "text": " Rua Desembargador Westphalen, 1845, Rebouças"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Atendimento publicado:",
-                  "strong": true
-                },
-                {
-                  "text": " 24 horas."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Acolhimento emergencial para mulheres em situação de rua. Em caso de violência doméstica ou risco causado por agressor, procure também a Casa da Mulher Brasileira."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Casa de Passagem de Mulheres — FAS",
-                  "href": "https://servicos-fas.curitiba.pr.gov.br/conteudo.aspx?idf=1637"
-                }
-              ]
-            }
-          ]
+          "address": "Endereço: Rua Desembargador Westphalen, 1845, Rebouças",
+          "phone": "",
+          "website": "https://servicos-fas.curitiba.pr.gov.br/conteudo.aspx?idf=1637",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "unidades-de-acolhimento-institucional",
-          "name": "Unidades de Acolhimento Institucional",
+          "title": "Unidades de Acolhimento Institucional",
+          "description": "O acesso às UAIs é feito pela Central de Regulação de Vagas da FAS depois da avaliação por Centro POP, CREAS ou Casa de Passagem e com concordância da pessoa.\nNão existe entrada direta garantida. Explique ao técnico o que impede uma saída rápida da rua e peça para saber se a solicitação foi registrada.\nFluxo de regulação das UAIs",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "O acesso às UAIs é feito pela Central de Regulação de Vagas da FAS depois da avaliação por Centro POP, CREAS ou Casa de Passagem e com concordância da pessoa."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Não existe entrada direta garantida. Explique ao técnico o que impede uma saída rápida da rua e peça para saber se a solicitação foi registrada."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Fluxo de regulação das UAIs",
-                  "href": "https://servicos-fas.curitiba.pr.gov.br/conteudo.aspx?idf=1637"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://servicos-fas.curitiba.pr.gov.br/conteudo.aspx?idf=1637",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "casa-da-acolhida-e-do-regresso",
-          "name": "Casa da Acolhida e do Regresso",
+          "title": "Casa da Acolhida e do Regresso",
+          "description": "Telefones: (41) 3321-2705, 3320-3151 ou 3233-6892. Horário publicado: segunda a sábado, 8h–18h; fora desse período, confirme o plantão.\nAtende pessoas em trânsito, migrantes e pessoas em mobilidade geográfica ou desabrigo temporário. Pode orientar sobre retorno familiar e passagem, mas o apoio depende de avaliação.\nCasa da Acolhida — Prefeitura",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Endereço:",
-                  "strong": true
-                },
-                {
-                  "text": " Avenida Presidente Affonso Camargo, 330, Estação Rodoferroviária, ala estadual, desembarque"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefones:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(41) 3321-2705",
-                  "href": "tel:+554133212705"
-                },
-                {
-                  "text": ", "
-                },
-                {
-                  "text": "3320-3151",
-                  "href": "tel:+554133203151"
-                },
-                {
-                  "text": " ou "
-                },
-                {
-                  "text": "3233-6892",
-                  "href": "tel:+554132336892"
-                },
-                {
-                  "text": ". "
-                },
-                {
-                  "text": "Horário publicado:",
-                  "strong": true
-                },
-                {
-                  "text": " segunda a sábado, 8h–18h; fora desse período, confirme o plantão."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Atende pessoas em trânsito, migrantes e pessoas em mobilidade geográfica ou desabrigo temporário. Pode orientar sobre retorno familiar e passagem, mas o apoio depende de avaliação."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Casa da Acolhida — Prefeitura",
-                  "href": "https://www.curitiba.pr.gov.br/locais/casa-da-acolhida-e-do-regresso-de-curitiba/146"
-                }
-              ]
-            }
-          ]
+          "address": "Endereço: Avenida Presidente Affonso Camargo, 330, Estação Rodoferroviária, ala estadual, desembarque",
+          "phone": "+554133212705",
+          "website": "https://www.curitiba.pr.gov.br/locais/casa-da-acolhida-e-do-regresso-de-curitiba/146",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "se-nao-houver-vaga",
-          "name": "Se não houver vaga",
+          "title": "Se não houver vaga",
+          "description": "Peça uma alternativa concreta, o nome do serviço, como chegar e quando tentar novamente. Informe risco por frio, doença, gravidez, idade, deficiência, violência, crianças ou animais.\nUma indicação não reserva cama. Se o risco se tornar médico ou de segurança, use 192 ou 190. Para relatar violação de direitos, use 100 ou 156.",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Peça uma alternativa concreta, o nome do serviço, como chegar e quando tentar novamente. Informe risco por frio, doença, gravidez, idade, deficiência, violência, crianças ou animais."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Uma indicação não reserva cama. Se o risco se tornar médico ou de segurança, use 192 ou 190. Para relatar violação de direitos, use 100 ou 156."
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
       "id": "food",
-      "title": "3. Alimentação e organizações religiosas",
-      "items": [
+      "title": "Alimentação e organizações religiosas",
+      "entries": [
         {
-          "type": "resource",
           "id": "base-mesa-solidaria",
-          "name": "BASE — Mesa Solidária",
+          "title": "BASE — Mesa Solidária",
+          "description": "Ajuda religiosa: pergunte se oração, culto ou atividade é opcional. Você pode recusar prática religiosa e pedir informações sobre outras opções.\nWhatsApp: (41) 3350-3821.\nSegunda a sexta: senha para almoço a partir das 10h, refeição a partir das 11h; senha para jantar a partir das 17h, refeição a partir das 18h. Fins de semana e feriados: senha para café a partir das 8h30, almoço a partir das 10h e jantar a partir das 17h; as refeições começam às 9h, 12h e 18h.\nRefeições gratuitas conforme senhas, capacidade e parceiros. O local também reúne orientação social, saúde e emprego. Chegue antes.\nMesa Solidária BASE — horário atual",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Endereço:",
-                  "strong": true
-                },
-                {
-                  "text": " Alameda Doutor Muricy, 67, Centro"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "WhatsApp:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(41) 3350-3821",
-                  "href": "tel:+554133503821"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Segunda a sexta:",
-                  "strong": true
-                },
-                {
-                  "text": " senha para almoço a partir das 10h, refeição a partir das 11h; senha para jantar a partir das 17h, refeição a partir das 18h. "
-                },
-                {
-                  "text": "Fins de semana e feriados:",
-                  "strong": true
-                },
-                {
-                  "text": " senha para café a partir das 8h30, almoço a partir das 10h e jantar a partir das 17h; as refeições começam às 9h, 12h e 18h."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Refeições gratuitas conforme senhas, capacidade e parceiros. O local também reúne orientação social, saúde e emprego. Chegue antes."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Mesa Solidária BASE — horário atual",
-                  "href": "https://locais.curitiba.pr.gov.br/mesa-solidaria-base/2970/"
-                }
-              ]
-            }
-          ]
+          "address": "Endereço: Alameda Doutor Muricy, 67, Centro",
+          "phone": "+554133503821",
+          "website": "https://locais.curitiba.pr.gov.br/mesa-solidaria-base/2970/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "mesa-solidaria-patricia-casillo",
-          "name": "Mesa Solidária Patrícia Casillo",
+          "title": "Mesa Solidária Patrícia Casillo",
+          "description": "Horário publicado: segunda a sexta, 18h–21h. WhatsApp: (41) 3350-3821.\nRefeições gratuitas conforme a escala e a capacidade das organizações parceiras. Confirme o dia e o horário antes de ir, especialmente em feriados.\nMesa Solidária Patrícia Casillo",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Endereço:",
-                  "strong": true
-                },
-                {
-                  "text": " Avenida Doutor Dário Lopes dos Santos, 822, Jardim Botânico, sob o Viaduto do Capanema"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Horário publicado:",
-                  "strong": true
-                },
-                {
-                  "text": " segunda a sexta, 18h–21h. "
-                },
-                {
-                  "text": "WhatsApp:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(41) 3350-3821",
-                  "href": "tel:+554133503821"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Refeições gratuitas conforme a escala e a capacidade das organizações parceiras. Confirme o dia e o horário antes de ir, especialmente em feriados."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Mesa Solidária Patrícia Casillo",
-                  "href": "https://locais.curitiba.pr.gov.br/mesa-solidaria-patricia-casillo/2969"
-                }
-              ]
-            }
-          ]
+          "address": "Endereço: Avenida Doutor Dário Lopes dos Santos, 822, Jardim Botânico, sob o Viaduto do Capanema",
+          "phone": "+554133503821",
+          "website": "https://locais.curitiba.pr.gov.br/mesa-solidaria-patricia-casillo/2969",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "restaurante-popular-matriz",
-          "name": "Restaurante Popular Matriz",
+          "title": "Restaurante Popular Matriz",
+          "description": "Segunda a sexta: guichê a partir das 10h; refeições das 10h30 às 14h. Preço publicado: R$ 3.\nRefeição de baixo custo, não gratuita. A venda termina conforme o horário e a capacidade.\nRestaurantes Populares — Prefeitura",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Endereço:",
-                  "strong": true
-                },
-                {
-                  "text": " Praça Rui Barbosa, 101, Centro"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Segunda a sexta:",
-                  "strong": true
-                },
-                {
-                  "text": " guichê a partir das 10h; refeições das 10h30 às 14h. "
-                },
-                {
-                  "text": "Preço publicado:",
-                  "strong": true
-                },
-                {
-                  "text": " R$ 3."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Refeição de baixo custo, não gratuita. A venda termina conforme o horário e a capacidade."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Restaurantes Populares — Prefeitura",
-                  "href": "https://www.curitiba.pr.gov.br/servicos/restaurante-popular-de-curitiba/informacoes-e-indicadores-socioeconomicos-de-curitiba/86"
-                }
-              ]
-            }
-          ]
+          "address": "Endereço: Praça Rui Barbosa, 101, Centro",
+          "phone": "",
+          "website": "https://www.curitiba.pr.gov.br/servicos/restaurante-popular-de-curitiba/informacoes-e-indicadores-socioeconomicos-de-curitiba/86",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "restaurante-popular-capanema",
-          "name": "Restaurante Popular Capanema",
+          "title": "Restaurante Popular Capanema",
+          "description": "Segunda a sexta: 11h–14h. Preço publicado: R$ 3. Para dúvidas: (41) 3350-3815.\nRestaurante Popular Capanema — lista oficial",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Endereço:",
-                  "strong": true
-                },
-                {
-                  "text": " Rua Ubaldino do Amaral, 1671, Alto da Rua XV"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Segunda a sexta:",
-                  "strong": true
-                },
-                {
-                  "text": " 11h–14h. "
-                },
-                {
-                  "text": "Preço publicado:",
-                  "strong": true
-                },
-                {
-                  "text": " R$ 3. Para dúvidas: "
-                },
-                {
-                  "text": "(41) 3350-3815",
-                  "href": "tel:+554133503815"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Restaurante Popular Capanema — lista oficial",
-                  "href": "https://www.curitiba.pr.gov.br/servicos/restaurante-popular-de-curitiba/informacoes-e-indicadores-socioeconomicos-de-curitiba/86"
-                }
-              ]
-            }
-          ]
+          "address": "Endereço: Rua Ubaldino do Amaral, 1671, Alto da Rua XV",
+          "phone": "+554133503815",
+          "website": "https://www.curitiba.pr.gov.br/servicos/restaurante-popular-de-curitiba/informacoes-e-indicadores-socioeconomicos-de-curitiba/86",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "restaurante-popular-fazendinha",
-          "name": "Restaurante Popular Fazendinha",
+          "title": "Restaurante Popular Fazendinha",
+          "description": "Segunda a sexta: 11h–14h. Preço publicado: R$ 3.\nEndereços e horários oficiais",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Endereço:",
-                  "strong": true
-                },
-                {
-                  "text": " Rua Raul Pompéia, 190, Cidade Industrial"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Segunda a sexta:",
-                  "strong": true
-                },
-                {
-                  "text": " 11h–14h. "
-                },
-                {
-                  "text": "Preço publicado:",
-                  "strong": true
-                },
-                {
-                  "text": " R$ 3."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Endereços e horários oficiais",
-                  "href": "https://www.curitiba.pr.gov.br/servicos/restaurante-popular-de-curitiba/informacoes-e-indicadores-socioeconomicos-de-curitiba/86"
-                }
-              ]
-            }
-          ]
+          "address": "Endereço: Rua Raul Pompéia, 190, Cidade Industrial",
+          "phone": "",
+          "website": "https://www.curitiba.pr.gov.br/servicos/restaurante-popular-de-curitiba/informacoes-e-indicadores-socioeconomicos-de-curitiba/86",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "restaurante-popular-pinheirinho",
-          "name": "Restaurante Popular Pinheirinho",
+          "title": "Restaurante Popular Pinheirinho",
+          "description": "Segunda a sexta: 11h–14h. Preço publicado: R$ 3. A disponibilidade depende da capacidade diária.\nRestaurante Popular — serviço municipal",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Endereço:",
-                  "strong": true
-                },
-                {
-                  "text": " Rua Marechal Rondon, 40, Pinheirinho"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Segunda a sexta:",
-                  "strong": true
-                },
-                {
-                  "text": " 11h–14h. "
-                },
-                {
-                  "text": "Preço publicado:",
-                  "strong": true
-                },
-                {
-                  "text": " R$ 3. A disponibilidade depende da capacidade diária."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Restaurante Popular — serviço municipal",
-                  "href": "https://www.curitiba.pr.gov.br/servicos/restaurante-popular-de-curitiba/informacoes-e-indicadores-socioeconomicos-de-curitiba/86"
-                }
-              ]
-            }
-          ]
+          "address": "Endereço: Rua Marechal Rondon, 40, Pinheirinho",
+          "phone": "",
+          "website": "https://www.curitiba.pr.gov.br/servicos/restaurante-popular-de-curitiba/informacoes-e-indicadores-socioeconomicos-de-curitiba/86",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "restaurante-popular-sitio-cercado",
-          "name": "Restaurante Popular Sítio Cercado",
+          "title": "Restaurante Popular Sítio Cercado",
+          "description": "Segunda a sexta: 11h–14h. Preço publicado: R$ 3. Procure o Mesa Solidária se não puder pagar.\nInformações oficiais",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Endereço:",
-                  "strong": true
-                },
-                {
-                  "text": " Rua Mercúrio, 420, Sítio Cercado"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Segunda a sexta:",
-                  "strong": true
-                },
-                {
-                  "text": " 11h–14h. "
-                },
-                {
-                  "text": "Preço publicado:",
-                  "strong": true
-                },
-                {
-                  "text": " R$ 3. Procure o Mesa Solidária se não puder pagar."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Informações oficiais",
-                  "href": "https://www.curitiba.pr.gov.br/servicos/restaurante-popular-de-curitiba/informacoes-e-indicadores-socioeconomicos-de-curitiba/86"
-                }
-              ]
-            }
-          ]
+          "address": "Endereço: Rua Mercúrio, 420, Sítio Cercado",
+          "phone": "",
+          "website": "https://www.curitiba.pr.gov.br/servicos/restaurante-popular-de-curitiba/informacoes-e-indicadores-socioeconomicos-de-curitiba/86",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "restaurante-popular-tatuquara",
-          "name": "Restaurante Popular Tatuquara",
+          "title": "Restaurante Popular Tatuquara",
+          "description": "Segunda a sexta: 11h–14h. Preço publicado: R$ 3.\nRede de Restaurantes Populares",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Endereço:",
-                  "strong": true
-                },
-                {
-                  "text": " Rua Presidente João Goulart, 1350, Tatuquara"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Segunda a sexta:",
-                  "strong": true
-                },
-                {
-                  "text": " 11h–14h. "
-                },
-                {
-                  "text": "Preço publicado:",
-                  "strong": true
-                },
-                {
-                  "text": " R$ 3."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Rede de Restaurantes Populares",
-                  "href": "https://www.curitiba.pr.gov.br/servicos/restaurante-popular-de-curitiba/informacoes-e-indicadores-socioeconomicos-de-curitiba/86"
-                }
-              ]
-            }
-          ]
+          "address": "Endereço: Rua Presidente João Goulart, 1350, Tatuquara",
+          "phone": "",
+          "website": "https://www.curitiba.pr.gov.br/servicos/restaurante-popular-de-curitiba/informacoes-e-indicadores-socioeconomicos-de-curitiba/86",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "alimentacao-nos-centros-pop-e-casas-de-passagem",
-          "name": "Alimentação nos Centros POP e Casas de Passagem",
+          "title": "Alimentação nos Centros POP e Casas de Passagem",
+          "description": "Os Centros POP oferecem alimentação durante o atendimento diurno. As Casas de Passagem fornecem refeições às pessoas acolhidas, além de banho, lavanderia e itens básicos.\nPergunte o horário da próxima refeição e uma alternativa se a capacidade estiver esgotada.\nServiços da FAS para população de rua",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Os Centros POP oferecem alimentação durante o atendimento diurno. As Casas de Passagem fornecem refeições às pessoas acolhidas, além de banho, lavanderia e itens básicos."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Pergunte o horário da próxima refeição e uma alternativa se a capacidade estiver esgotada."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Serviços da FAS para população de rua",
-                  "href": "https://servicos-fas.curitiba.pr.gov.br/conteudo.aspx?idf=1637"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://servicos-fas.curitiba.pr.gov.br/conteudo.aspx?idf=1637",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "caritas-curitiba",
-          "name": "Cáritas Curitiba",
+          "title": "Cáritas Curitiba",
+          "description": "Telefone: (41) 2105-6301; e-mail: caritas@mitradecuritiba.org.br. — mailto:caritas@mitradecuritiba.org.br\nOrganização católica com ações de assistência e inclusão e apoio a migrantes e refugiados. Ligue antes para saber quais atendimentos, doações ou encaminhamentos estão disponíveis.\nCáritas — Arquidiocese de Curitiba",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Endereço:",
-                  "strong": true
-                },
-                {
-                  "text": " Rua Jaime Reis, 369, Alto São Francisco"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(41) 2105-6301",
-                  "href": "tel:+554121056301"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "e-mail:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "caritas@mitradecuritiba.org.br",
-                  "href": "mailto:caritas@mitradecuritiba.org.br"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Organização católica com ações de assistência e inclusão e apoio a migrantes e refugiados. Ligue antes para saber quais atendimentos, doações ou encaminhamentos estão disponíveis."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Cáritas — Arquidiocese de Curitiba",
-                  "href": "https://arquidiocesedecuritiba.org.br/comissao-pastoral/caritas/"
-                }
-              ]
-            }
-          ]
+          "address": "Endereço: Rua Jaime Reis, 369, Alto São Francisco",
+          "phone": "+554121056301",
+          "website": "https://arquidiocesedecuritiba.org.br/comissao-pastoral/caritas/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "mesa-fraterna-paroquia-bom-jesus-dos-perdoes",
-          "name": "Mesa Fraterna — Paróquia Bom Jesus dos Perdões",
+          "title": "Mesa Fraterna — Paróquia Bom Jesus dos Perdões",
+          "description": "Telefone: (41) 3281-7705.\nA Arquidiocese publicou distribuição de refeições, mas a programação detalhada encontrada é antiga. Ligue antes e pergunte se a ação está ativa, o dia, o horário e o limite.\nMesa Fraterna — Arquidiocese",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Endereço publicado:",
-                  "strong": true
-                },
-                {
-                  "text": " Praça Rui Barbosa, 149, Centro"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(41) 3281-7705",
-                  "href": "tel:+554132817705"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "A Arquidiocese publicou distribuição de refeições, mas a programação detalhada encontrada é antiga. Ligue antes e pergunte se a ação está ativa, o dia, o horário e o limite."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Mesa Fraterna — Arquidiocese",
-                  "href": "https://arquidiocesedecuritiba.org.br/mesa-fraterna-voltou/"
-                }
-              ]
-            }
-          ]
+          "address": "Endereço publicado: Praça Rui Barbosa, 149, Centro",
+          "phone": "+554132817705",
+          "website": "https://arquidiocesedecuritiba.org.br/mesa-fraterna-voltou/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "amor-que-comove-igreja-presbiteriana",
-          "name": "Amor que Comove — Igreja Presbiteriana",
+          "title": "Amor que Comove — Igreja Presbiteriana",
+          "description": "Telefones publicados: (41) 3224-0302, (41) 99575-9240 ou (41) 99957-8037.\nProjeto cristão que divulga entrega semanal de lanches e apoio na rua. A atividade inclui evangelização e apoio espiritual. Ligue para confirmar local, horário e regras.\nAmor que Comove",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefones publicados:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(41) 3224-0302",
-                  "href": "tel:+554132240302"
-                },
-                {
-                  "text": ", "
-                },
-                {
-                  "text": "(41) 99575-9240",
-                  "href": "tel:+5541995759240"
-                },
-                {
-                  "text": " ou "
-                },
-                {
-                  "text": "(41) 99957-8037",
-                  "href": "tel:+5541999578037"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Projeto cristão que divulga entrega semanal de lanches e apoio na rua. A atividade inclui evangelização e apoio espiritual. Ligue para confirmar local, horário e regras."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Amor que Comove",
-                  "href": "https://acpcuritiba.org.br/projetos-sociais/amor-que-comove/"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "content": [
-            {
-              "text": "Ajuda religiosa:",
-              "strong": true
-            },
-            {
-              "text": " pergunte se oração, culto ou atividade é opcional. Você pode recusar prática religiosa e pedir informações sobre outras opções."
-            }
-          ]
+          "address": "",
+          "phone": "+554132240302",
+          "website": "https://acpcuritiba.org.br/projetos-sociais/amor-que-comove/",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
-      "id": "basic",
-      "title": "4. Banho, roupa, banheiro e internet",
-      "items": [
+      "id": "community",
+      "title": "Community and religious help",
+      "entries": []
+    },
+    {
+      "id": "hygiene",
+      "title": "Banho, roupa, banheiro e internet",
+      "entries": [
         {
-          "type": "resource",
           "id": "banho-e-higiene-nos-tres-centros-pop",
-          "name": "Banho e higiene nos três Centros POP",
+          "title": "Banho e higiene nos três Centros POP",
+          "description": "Os Centros POP Doutor Faivre, Solidariedade e Boqueirão oferecem espaço de higiene e atendimento social, todos os dias, das 8h às 17h.\nPergunte sobre banho, kit de higiene, alimentação, lavanderia, roupa e guarda de pertences. A disponibilidade pode variar.\nHigiene e alimentação nos Centros POP",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Os Centros POP Doutor Faivre, Solidariedade e Boqueirão oferecem espaço de higiene e atendimento social, todos os dias, das 8h às 17h."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Pergunte sobre banho, kit de higiene, alimentação, lavanderia, roupa e guarda de pertences. A disponibilidade pode variar."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Higiene e alimentação nos Centros POP",
-                  "href": "https://servicos-fas.curitiba.pr.gov.br/conteudo.aspx?idf=211"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://servicos-fas.curitiba.pr.gov.br/conteudo.aspx?idf=211",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "banho-lavanderia-e-roupa-nas-casas-de-passagem",
-          "name": "Banho, lavanderia e roupa nas Casas de Passagem",
+          "title": "Banho, lavanderia e roupa nas Casas de Passagem",
+          "description": "As quatro Casas de Passagem publicam banho, lavanderia para roupas pessoais, kit de higiene e roupa ou calçado quando necessário para quem é acolhido.\nEsses itens dependem do estoque e do atendimento. A entrada exige avaliação e disponibilidade.\nEstrutura das Casas de Passagem",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "As quatro Casas de Passagem publicam banho, lavanderia para roupas pessoais, kit de higiene e roupa ou calçado quando necessário para quem é acolhido."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Esses itens dependem do estoque e do atendimento. A entrada exige avaliação e disponibilidade."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Estrutura das Casas de Passagem",
-                  "href": "https://servicos-fas.curitiba.pr.gov.br/conteudo.aspx?idf=1637"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://servicos-fas.curitiba.pr.gov.br/conteudo.aspx?idf=1637",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "banheiro-publico-no-centro-historico",
-          "name": "Banheiro público no Centro Histórico",
+          "title": "Banheiro público no Centro Histórico",
+          "description": "A Prefeitura iniciou em março de 2026 um teste de banheiro autolimpante gratuito, com horário anunciado das 7h às 22h. O período inicial de teste era de seis meses.\nBanheiro público — URBS",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Local publicado:",
-                  "strong": true
-                },
-                {
-                  "text": " SmartPark São Francisco, esquina das ruas Jaime Reis e Ermelino de Leão"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "A Prefeitura iniciou em março de 2026 um teste de banheiro autolimpante gratuito, com horário anunciado das 7h às 22h. O período inicial de teste era de seis meses."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Antes de ir:",
-                  "strong": true
-                },
-                {
-                  "text": " confirme pelo 156 se continua aberto."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Banheiro público — URBS",
-                  "href": "https://www.urbs.curitiba.pr.gov.br/portal/prefeitura-inicia-teste-de-primeiro-banheiro-publico-autolimpante-de-curitiba/"
-                }
-              ]
-            }
-          ]
+          "address": "Local publicado: SmartPark São Francisco, esquina das ruas Jaime Reis e Ermelino de Leão",
+          "phone": "",
+          "website": "https://www.urbs.curitiba.pr.gov.br/portal/prefeitura-inicia-teste-de-primeiro-banheiro-publico-autolimpante-de-curitiba/",
+          "hours": "",
+          "how_to_access": "Antes de ir: confirme pelo 156 se continua aberto."
         },
         {
-          "type": "resource",
           "id": "farol-do-saber-gibran-khalil-gibran-internet",
-          "name": "Farol do Saber Gibran Khalil Gibran — internet",
+          "title": "Farol do Saber Gibran Khalil Gibran — internet",
+          "description": "Horário publicado: segunda a sexta, 8h–12h e 13h–17h; sábado, 9h–13h. Telefone: (41) 3324-2456.\nBiblioteca pública com computadores e acesso gratuito à internet. Ligue para confirmar documentos e tempo de uso.\nMapa dos Faróis do Saber",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Endereço:",
-                  "strong": true
-                },
-                {
-                  "text": " Avenida João Gualberto, 141, Centro"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Horário publicado:",
-                  "strong": true
-                },
-                {
-                  "text": " segunda a sexta, 8h–12h e 13h–17h; sábado, 9h–13h. "
-                },
-                {
-                  "text": "Telefone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(41) 3324-2456",
-                  "href": "tel:+554133242456"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Biblioteca pública com computadores e acesso gratuito à internet. Ligue para confirmar documentos e tempo de uso."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Mapa dos Faróis do Saber",
-                  "href": "https://educacao.curitiba.pr.gov.br/unidades/?nome=farol+do+saber"
-                }
-              ]
-            }
-          ]
+          "address": "Endereço: Avenida João Gualberto, 141, Centro",
+          "phone": "+554133242456",
+          "website": "https://educacao.curitiba.pr.gov.br/unidades/?nome=farol+do+saber",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "wi-fi-curitiba",
-          "name": "Wi-Fi Curitiba",
+          "title": "Wi-Fi Curitiba",
+          "description": "A rede pública está disponível em praças, terminais, Ruas da Cidadania, Faróis do Saber e outros locais. Procure Wifi_Curitiba.\nO cadastro no e-Cidadão exige CPF e e-mail individual. Se não tiver, use um computador do Farol ou peça orientação no Centro POP.\nMapa e regras do Wi-Fi Curitiba",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "A rede pública está disponível em praças, terminais, Ruas da Cidadania, Faróis do Saber e outros locais. Procure "
-                },
-                {
-                  "text": "Wifi_Curitiba",
-                  "strong": true
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "O cadastro no e-Cidadão exige CPF e e-mail individual. Se não tiver, use um computador do Farol ou peça orientação no Centro POP."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Mapa e regras do Wi-Fi Curitiba",
-                  "href": "https://www.curitiba.pr.gov.br/noticias/wi-fi-curitiba-completa-tres-anos-com-328-pontos-de-acesso-pela-cidade/73643"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.curitiba.pr.gov.br/noticias/wi-fi-curitiba-completa-tres-anos-com-328-pontos-de-acesso-pela-cidade/73643",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "endereco-para-correspondencia",
-          "name": "Endereço para correspondência",
+          "title": "Endereço para correspondência",
+          "description": "O Centro POP pode funcionar como referência de endereço dentro do acompanhamento social, mas isso não significa permissão automática para receber correio.\nPeça autorização antes. Confirme como seu nome deve aparecer, quando buscar e por quanto tempo será guardado.\nCentro POP como referência",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "O Centro POP pode funcionar como referência de endereço dentro do acompanhamento social, mas isso não significa permissão automática para receber correio."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Peça autorização antes. Confirme como seu nome deve aparecer, quando buscar e por quanto tempo será guardado."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Centro POP como referência",
-                  "href": "https://servicos-fas.curitiba.pr.gov.br/conteudo.aspx?idf=1637"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://servicos-fas.curitiba.pr.gov.br/conteudo.aspx?idf=1637",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "pertences-e-carregamento-de-celular",
-          "name": "Pertences e carregamento de celular",
+          "title": "Pertences e carregamento de celular",
+          "description": "Pergunte no Centro POP ou na Casa de Passagem se há guarda de volumes e tomada disponível. As regras e a capacidade não estão publicadas como serviço universal.\nNão deixe documentos, medicamento ou telefone sem comprovante. Anote a data para retirada.",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Pergunte no Centro POP ou na Casa de Passagem se há guarda de volumes e tomada disponível. As regras e a capacidade não estão publicadas como serviço universal."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Não deixe documentos, medicamento ou telefone sem comprovante. Anote a data para retirada."
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
+    },
+    {
+      "id": "clothing",
+      "title": "Clothing",
+      "entries": []
     },
     {
       "id": "health",
-      "title": "5. Saúde",
-      "items": [
+      "title": "Saúde",
+      "entries": [
         {
-          "type": "resource",
           "id": "consultorio-na-rua",
-          "name": "Consultório na Rua",
+          "title": "Consultório na Rua",
+          "description": "Seis equipes móveis do SUS atendem com medicina, enfermagem, exames, testes rápidos, vacinação, curativos, medicamentos, contracepção, pré-natal, saúde mental e encaminhamentos.\nConsultório na Rua — 2026",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Seis equipes móveis do SUS atendem com medicina, enfermagem, exames, testes rápidos, vacinação, curativos, medicamentos, contracepção, pré-natal, saúde mental e encaminhamentos."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Como encontrar:",
-                  "strong": true
-                },
-                {
-                  "text": " pergunte no BASE, Centro POP, Casa de Passagem, Unidade de Saúde ou 156. O roteiro muda."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Consultório na Rua — 2026",
-                  "href": "https://www.curitiba.pr.gov.br/noticias/equipes-do-consultorio-na-rua-da-prefeitura-de-curitiba-fazem-1600-atendimentos-por-mes/85104"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.curitiba.pr.gov.br/noticias/equipes-do-consultorio-na-rua-da-prefeitura-de-curitiba-fazem-1600-atendimentos-por-mes/85104",
+          "hours": "",
+          "how_to_access": "Como encontrar: pergunte no BASE, Centro POP, Casa de Passagem, Unidade de Saúde ou 156. O roteiro muda."
         },
         {
-          "type": "resource",
           "id": "atendimento-sem-documentos",
-          "name": "Atendimento sem documentos",
+          "title": "Atendimento sem documentos",
+          "description": "A orientação municipal determina acolhimento da pessoa em situação de rua mesmo sem documento pessoal e mesmo fora do território de referência. Diga o nome pelo qual é conhecida e explique a situação.\nSe houver recusa, peça a coordenação, anote unidade, data e horário e procure ajuda no Centro POP. Em emergência, ligue 192.\nProcedimento municipal para população em situação de rua",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "A orientação municipal determina acolhimento da pessoa em situação de rua mesmo sem documento pessoal e mesmo fora do território de referência. Diga o nome pelo qual é conhecida e explique a situação."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Se houver recusa, peça a coordenação, anote unidade, data e horário e procure ajuda no Centro POP. Em emergência, ligue 192."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Procedimento municipal para população em situação de rua",
-                  "href": "https://mid.curitiba.pr.gov.br/2026/00464295.pdf"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://mid.curitiba.pr.gov.br/2026/00464295.pdf",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "upas-urgencia-e-emergencia",
-          "name": "UPAs — urgência e emergência",
+          "title": "UPAs — urgência e emergência",
+          "description": "Curitiba possui nove UPAs gratuitas do SUS, abertas 24 horas todos os dias. O atendimento é por classificação de risco.\nLeve documento se tiver, mas a falta dele não deve impedir o atendimento de pessoa em situação de rua. Em risco de morte, ligue 192.\nLista das nove UPAs",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Curitiba possui nove UPAs gratuitas do SUS, abertas 24 horas todos os dias. O atendimento é por classificação de risco."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Leve documento se tiver, mas a falta dele não deve impedir o atendimento de pessoa em situação de rua. Em risco de morte, ligue 192."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Lista das nove UPAs",
-                  "href": "https://www.curitiba.pr.gov.br/servicos/upas-unidades-de-pronto-atendimento/atendimento-regionais-abastecimento-alimentar/235"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.curitiba.pr.gov.br/servicos/upas-unidades-de-pronto-atendimento/atendimento-regionais-abastecimento-alimentar/235",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "upa-boa-vista",
-          "name": "UPA Boa Vista",
+          "title": "UPA Boa Vista",
+          "description": "Telefone: (41) 3251-1012. Atendimento 24 horas.\nUPA Boa Vista — lista oficial",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Endereço:",
-                  "strong": true
-                },
-                {
-                  "text": " Avenida Paraná, 3654, Bacacheri"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(41) 3251-1012",
-                  "href": "tel:+554132511012"
-                },
-                {
-                  "text": ". Atendimento 24 horas."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "UPA Boa Vista — lista oficial",
-                  "href": "https://www.curitiba.pr.gov.br/servicos/upas-unidades-de-pronto-atendimento/atendimento-regionais-abastecimento-alimentar/235"
-                }
-              ]
-            }
-          ]
+          "address": "Endereço: Avenida Paraná, 3654, Bacacheri",
+          "phone": "+554132511012",
+          "website": "https://www.curitiba.pr.gov.br/servicos/upas-unidades-de-pronto-atendimento/atendimento-regionais-abastecimento-alimentar/235",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "upa-cajuru",
-          "name": "UPA Cajuru",
+          "title": "UPA Cajuru",
+          "description": "Telefone: (41) 3226-4122. Atendimento 24 horas.\nUPA Cajuru — lista oficial",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Endereço:",
-                  "strong": true
-                },
-                {
-                  "text": " Rua Engenheiro Benedito Mário da Silva, 555, Cajuru"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(41) 3226-4122",
-                  "href": "tel:+554132264122"
-                },
-                {
-                  "text": ". Atendimento 24 horas."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "UPA Cajuru — lista oficial",
-                  "href": "https://www.curitiba.pr.gov.br/servicos/upas-unidades-de-pronto-atendimento/atendimento-regionais-abastecimento-alimentar/235"
-                }
-              ]
-            }
-          ]
+          "address": "Endereço: Rua Engenheiro Benedito Mário da Silva, 555, Cajuru",
+          "phone": "+554132264122",
+          "website": "https://www.curitiba.pr.gov.br/servicos/upas-unidades-de-pronto-atendimento/atendimento-regionais-abastecimento-alimentar/235",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "upa-fazendinha-urgencia-odontologica",
-          "name": "UPA Fazendinha — urgência odontológica",
+          "title": "UPA Fazendinha — urgência odontológica",
+          "description": "Telefone: (41) 3314-5106. A UPA funciona 24 horas. A urgência odontológica funciona à noite nos dias úteis e 24 horas em fins de semana e feriados.\nEquipamentos de saúde por distrito",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Endereço:",
-                  "strong": true
-                },
-                {
-                  "text": " Rua Carlos Klemtz, 1883, Fazendinha"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(41) 3314-5106",
-                  "href": "tel:+554133145106"
-                },
-                {
-                  "text": ". A UPA funciona 24 horas. A urgência odontológica funciona à noite nos dias úteis e 24 horas em fins de semana e feriados."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Equipamentos de saúde por distrito",
-                  "href": "https://saude.curitiba.pr.gov.br/conteudo/enderecos/1449"
-                }
-              ]
-            }
-          ]
+          "address": "Endereço: Rua Carlos Klemtz, 1883, Fazendinha",
+          "phone": "+554133145106",
+          "website": "https://saude.curitiba.pr.gov.br/conteudo/enderecos/1449",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "unidades-de-saude",
-          "name": "Unidades de Saúde",
+          "title": "Unidades de Saúde",
+          "description": "Procure uma Unidade de Saúde para feridas, infecções, vacinação, testes, pré-natal, doença crônica, receita e encaminhamento. A equipe deve orientar mesmo que você não saiba sua unidade de referência.\nDiretório da rede SUS Curitiba",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Procure uma Unidade de Saúde para feridas, infecções, vacinação, testes, pré-natal, doença crônica, receita e encaminhamento. A equipe deve orientar mesmo que você não saiba sua unidade de referência."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Diretório da rede SUS Curitiba",
-                  "href": "https://saude.curitiba.pr.gov.br/conteudo/enderecos/1449"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://saude.curitiba.pr.gov.br/conteudo/enderecos/1449",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "odontomovel-do-consultorio-na-rua",
-          "name": "Odontomóvel do Consultório na Rua",
+          "title": "Odontomóvel do Consultório na Rua",
+          "description": "Em 2026, a unidade odontológica móvel atendia de segunda a quinta na Casa de Passagem Padre Pio/Centro POP e às sextas perto da Unidade de Saúde Parolin.\nO roteiro pode mudar. Confirme antes no Centro POP, na Casa de Passagem ou na US Parolin.\nAtendimento odontológico na rua",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Em 2026, a unidade odontológica móvel atendia de segunda a quinta na Casa de Passagem Padre Pio/Centro POP e às sextas perto da Unidade de Saúde Parolin."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "O roteiro pode mudar. Confirme antes no Centro POP, na Casa de Passagem ou na US Parolin."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Atendimento odontológico na rua",
-                  "href": "https://www.curitiba.pr.gov.br/noticias/equipes-do-consultorio-na-rua-da-prefeitura-de-curitiba-fazem-1600-atendimentos-por-mes/85104"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.curitiba.pr.gov.br/noticias/equipes-do-consultorio-na-rua-da-prefeitura-de-curitiba-fazem-1600-atendimentos-por-mes/85104",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
       "id": "mental-health",
-      "title": "6. Saúde mental, álcool e outras drogas",
-      "items": [
+      "title": "Saúde mental, álcool e outras drogas",
+      "entries": [
         {
-          "type": "resource",
           "id": "crise-imediata",
-          "name": "Crise imediata",
+          "title": "Crise imediata",
+          "description": "Em tentativa de suicídio, overdose, inconsciência, convulsão, dificuldade de respirar ou risco imediato, ligue 192. Se houver violência ou arma, ligue 190.\nPara escuta emocional, o CVV atende pelo 188, 24 horas. O 188 não substitui o SAMU.\nCentro de Valorização da Vida",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Em tentativa de suicídio, overdose, inconsciência, convulsão, dificuldade de respirar ou risco imediato, ligue "
-                },
-                {
-                  "text": "192",
-                  "href": "tel:192"
-                },
-                {
-                  "text": ". Se houver violência ou arma, ligue "
-                },
-                {
-                  "text": "190",
-                  "href": "tel:190"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Para escuta emocional, o CVV atende pelo "
-                },
-                {
-                  "text": "188",
-                  "href": "tel:188"
-                },
-                {
-                  "text": ", 24 horas. O 188 não substitui o SAMU."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Centro de Valorização da Vida",
-                  "href": "https://cvv.org.br/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "192",
+          "website": "https://cvv.org.br/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "caps-territorial-portao",
-          "name": "CAPS Territorial Portão",
+          "title": "CAPS Territorial Portão",
+          "description": "Telefone: (41) 3333-1978. Atendimento publicado: 24 horas.\nAtende demanda de saúde mental. Pessoas com sofrimento grave e persistente podem procurar diretamente o CAPS de referência; a equipe avalia o caso e o território.\nCAPS Territorial Portão",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Endereço:",
-                  "strong": true
-                },
-                {
-                  "text": " Rua Nunes Machado, 1796, Rebouças"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(41) 3333-1978",
-                  "href": "tel:+554133331978"
-                },
-                {
-                  "text": ". "
-                },
-                {
-                  "text": "Atendimento publicado:",
-                  "strong": true
-                },
-                {
-                  "text": " 24 horas."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Atende demanda de saúde mental. Pessoas com sofrimento grave e persistente podem procurar diretamente o CAPS de referência; a equipe avalia o caso e o território."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "CAPS Territorial Portão",
-                  "href": "https://saude.curitiba.pr.gov.br/conteudo/enderecos/1449"
-                }
-              ]
-            }
-          ]
+          "address": "Endereço: Rua Nunes Machado, 1796, Rebouças",
+          "phone": "+554133331978",
+          "website": "https://saude.curitiba.pr.gov.br/conteudo/enderecos/1449",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "caps-territorial-pinheirinho",
-          "name": "CAPS Territorial Pinheirinho",
+          "title": "CAPS Territorial Pinheirinho",
+          "description": "Telefone: (41) 3343-5660. Atendimento publicado: 24 horas.\nCAPS Pinheirinho — endereço oficial",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Endereço:",
-                  "strong": true
-                },
-                {
-                  "text": " Rua João Bonat, 64, Novo Mundo"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(41) 3343-5660",
-                  "href": "tel:+554133435660"
-                },
-                {
-                  "text": ". "
-                },
-                {
-                  "text": "Atendimento publicado:",
-                  "strong": true
-                },
-                {
-                  "text": " 24 horas."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "CAPS Pinheirinho — endereço oficial",
-                  "href": "https://saude.curitiba.pr.gov.br/conteudo/enderecos/1449"
-                }
-              ]
-            }
-          ]
+          "address": "Endereço: Rua João Bonat, 64, Novo Mundo",
+          "phone": "+554133435660",
+          "website": "https://saude.curitiba.pr.gov.br/conteudo/enderecos/1449",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "primeiro-atendimento-e-reducao-de-danos",
-          "name": "Primeiro atendimento e redução de danos",
+          "title": "Primeiro atendimento e redução de danos",
+          "description": "Uma Unidade de Saúde, o Consultório na Rua ou um Centro POP pode iniciar o encaminhamento. O cuidado não deve exigir abstinência prévia para a primeira escuta.\nPeça informação sobre CAPS, medicação, desintoxicação hospitalar quando indicada e redução de danos. Pergunte se qualquer proposta residencial é voluntária, gratuita e por quanto tempo.\nRede de Saúde Mental de Curitiba",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Uma Unidade de Saúde, o Consultório na Rua ou um Centro POP pode iniciar o encaminhamento. O cuidado não deve exigir abstinência prévia para a primeira escuta."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Peça informação sobre CAPS, medicação, desintoxicação hospitalar quando indicada e redução de danos. Pergunte se qualquer proposta residencial é voluntária, gratuita e por quanto tempo."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Rede de Saúde Mental de Curitiba",
-                  "href": "https://saude.curitiba.pr.gov.br/conteudo/saude-mental/1953"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://saude.curitiba.pr.gov.br/conteudo/saude-mental/1953",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "saude-mental-no-base",
-          "name": "Saúde mental no BASE",
+          "title": "Saúde mental no BASE",
+          "description": "O Consultório na Rua realiza atendimentos e ações no BASE, inclusive saúde mental e redução de danos. Pergunte no local qual é o próximo dia da equipe.\nConsultório na Rua no BASE",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "O Consultório na Rua realiza atendimentos e ações no BASE, inclusive saúde mental e redução de danos. Pergunte no local qual é o próximo dia da equipe."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Consultório na Rua no BASE",
-                  "href": "https://www.curitiba.pr.gov.br/noticias/saude-mental-e-tema-de-acao-do-consultorio-na-rua-no-projeto-base/83427"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.curitiba.pr.gov.br/noticias/saude-mental-e-tema-de-acao-do-consultorio-na-rua-no-projeto-base/83427",
+          "hours": "",
+          "how_to_access": ""
+        }
+      ]
+    },
+    {
+      "id": "public-facilities",
+      "title": "Public toilets and day facilities",
+      "entries": []
+    },
+    {
+      "id": "phone-internet",
+      "title": "Phone charging and internet",
+      "entries": []
+    },
+    {
+      "id": "transport",
+      "title": "Transporte, rodoviária e aeroporto",
+      "entries": [
+        {
+          "id": "onibus-urbano",
+          "title": "Ônibus urbano",
+          "description": "A tarifa comum publicada para 2026 é R$ 6. Aos domingos e feriados, o Domingão Paga Meia cobra R$ 3. Confirme valores pelo 156 ou URBS.\nNão existe gratuidade geral apenas por estar em situação de rua. Pergunte ao Centro POP sobre deslocamento para serviço específico.\nTarifas em 2026",
+          "last_verified": "2026-11-11",
+          "address": "",
+          "phone": "",
+          "website": "https://www.curitiba.pr.gov.br/noticias/prefeitura-de-curitiba-mantem-tarifa-de-onibus-em-r-6-e-programas-sociais-no-transporte-em-2026/81220",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "tarifa-zero-para-entrevista",
+          "title": "Tarifa Zero para entrevista",
+          "description": "Quem cumpre os critérios pode receber no SINE duas passagens para entrevista encaminhada pelo próprio SINE. É necessário cartão URBS Usuário em nome do candidato.\nTarifa Zero a Caminho do Emprego",
+          "last_verified": "2026-11-11",
+          "address": "",
+          "phone": "",
+          "website": "https://www.curitiba.pr.gov.br/noticias/procurando-emprego-em-curitiba-conheca-os-servicos-da-prefeitura-que-podem-te-ajudar/77096",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "cartao-transporte-isento",
+          "title": "Cartão-transporte isento",
+          "description": "Pessoas com 65 anos ou mais têm gratuidade. Pessoas com deficiência ou algumas doenças crônicas podem ter direito conforme avaliação e renda.\nA FAS, CAPS e serviços municipais podem emitir encaminhamento conforme o caso. A URBS exige agendamento e documentação.\nCartão-transporte isento",
+          "last_verified": "2026-11-11",
+          "address": "",
+          "phone": "",
+          "website": "https://www.curitiba.pr.gov.br/servicos/cartao-transporte-isento-emissaorenovacao/casa-da-leitura-nair-de-macedo-biblioteca/115",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "rodoferroviaria-pessoas-em-transito",
+          "title": "Rodoferroviária — pessoas em trânsito",
+          "description": "Telefone: (41) 3321-2705. Procure antes de comprar bilhete se precisa de retorno familiar, orientação ou apoio temporário.\nAtendimento na Rodoferroviária",
+          "last_verified": "2026-11-11",
+          "address": "Casa da Acolhida: Avenida Presidente Affonso Camargo, 330, ala estadual, desembarque",
+          "phone": "+554133212705",
+          "website": "https://locais.curitiba.pr.gov.br/casa-da-acolhida-e-do-regresso-de-curitiba/146",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "aeroporto-internacional-afonso-pena",
+          "title": "Aeroporto Internacional Afonso Pena",
+          "description": "Central: 0800 727 4720, 24 horas.\nA linha metropolitana E32 liga o Aeroporto ao Terminal Boqueirão via Terminal Central. Confirme horários e tarifa com a empresa: (41) 2169-4321.\nTransporte no Aeroporto",
+          "last_verified": "2026-11-11",
+          "address": "Endereço: Avenida Rocha Pombo, Águas Belas, São José dos Pinhais, cerca de 18 km do centro",
+          "phone": "08007274720",
+          "website": "https://aeroportos.motiva.com.br/curitiba-pr/o-aeroporto/como-chegar-e-sair/?type=100003",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "problema-com-voo",
+          "title": "Problema com voo",
+          "description": "Fale primeiro com a companhia aérea e peça protocolo por escrito. Alimentação, hospedagem ou transporte dependem da causa e do tempo de espera; não pague intermediário para “liberar” assistência.\nSe ficar sem lugar seguro, ligue 156 quando estiver em Curitiba ou procure a assistência social de São José dos Pinhais enquanto estiver no aeroporto.\nDireitos do passageiro — ANAC",
+          "last_verified": "2026-11-11",
+          "address": "",
+          "phone": "",
+          "website": "https://www.gov.br/anac/pt-br/assuntos/passageiros",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
       "id": "benefits",
-      "title": "7. Benefícios e moradia",
-      "items": [
+      "title": "Benefícios e moradia",
+      "entries": [
         {
-          "type": "resource",
           "id": "centro-pop-primeiro-passo",
-          "name": "Centro POP — primeiro passo",
+          "title": "Centro POP — primeiro passo",
+          "description": "Peça avaliação para Cadastro Único, benefícios, documentos, saúde, trabalho e acolhimento. Diga que está em situação de rua para que o cadastro use o procedimento adequado.\nAtendimentos dos Centros POP",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Peça avaliação para Cadastro Único, benefícios, documentos, saúde, trabalho e acolhimento. Diga que está em situação de rua para que o cadastro use o procedimento adequado."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Atendimentos dos Centros POP",
-                  "href": "https://www.curitiba.pr.gov.br/servicos/centros-pop-de-curitiba/artes-visuais-cursos-solar-do-barao/415"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.curitiba.pr.gov.br/servicos/centros-pop-de-curitiba/artes-visuais-cursos-solar-do-barao/415",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "cras",
-          "name": "CRAS",
+          "title": "CRAS",
+          "description": "Curitiba possui 39 CRAS. O atendimento publicado é segunda a sexta, 8h–12h e 13h–17h. Oferecem Cadastro Único, orientação sobre BPC e outros benefícios e acompanhamento familiar.\nQuem vive na rua pode começar pelo Centro POP; quem tem referência em um bairro pode procurar o CRAS da região.\nLista dos CRAS",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Curitiba possui 39 CRAS. O atendimento publicado é segunda a sexta, 8h–12h e 13h–17h. Oferecem Cadastro Único, orientação sobre BPC e outros benefícios e acompanhamento familiar."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Quem vive na rua pode começar pelo Centro POP; quem tem referência em um bairro pode procurar o CRAS da região."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Lista dos CRAS",
-                  "href": "https://www.curitiba.pr.gov.br/servicos/cras-centros-de-referencia-assistencia-social/smf-legislacao-tributaria/252"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.curitiba.pr.gov.br/servicos/cras-centros-de-referencia-assistencia-social/smf-legislacao-tributaria/252",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "cadastro-unico",
-          "name": "Cadastro Único",
+          "title": "Cadastro Único",
+          "description": "O Cadastro Único é gratuito e não concede benefício automaticamente. Uma pessoa em situação de rua pode ser cadastrada como família de uma pessoa, conforme o procedimento específico.\nPeça protocolo ou confirmação e nunca pague para entrar no cadastro.\nCadastro Único — Governo Federal",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "O Cadastro Único é gratuito e não concede benefício automaticamente. Uma pessoa em situação de rua pode ser cadastrada como família de uma pessoa, conforme o procedimento específico."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Peça protocolo ou confirmação e nunca pague para entrar no cadastro."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Cadastro Único — Governo Federal",
-                  "href": "https://www.gov.br/pt-br/servicos/inscrever-se-no-cadastro-unico-para-programas-sociais-do-governo-federal"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.gov.br/pt-br/servicos/inscrever-se-no-cadastro-unico-para-programas-sociais-do-governo-federal",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "bpc-pessoa-idosa-ou-com-deficiencia",
-          "name": "BPC — pessoa idosa ou com deficiência",
+          "title": "BPC — pessoa idosa ou com deficiência",
+          "description": "O BPC pode atender pessoa a partir de 65 anos ou pessoa com deficiência de baixa renda, após análise. Não exige contribuição ao INSS, mas exige Cadastro Único atualizado e avaliação.\nPeça orientação no Centro POP ou CRAS. Ninguém pode garantir aprovação nem cobrar para colocar seu pedido na frente.\nBPC — informações oficiais",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "O BPC pode atender pessoa a partir de 65 anos ou pessoa com deficiência de baixa renda, após análise. Não exige contribuição ao INSS, mas exige Cadastro Único atualizado e avaliação."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Peça orientação no Centro POP ou CRAS. Ninguém pode garantir aprovação nem cobrar para colocar seu pedido na frente."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "BPC — informações oficiais",
-                  "href": "https://www.gov.br/mds/pt-br/acoes-e-programas/SUAS/beneficios-assistenciais/beneficio-assistencial-ao-idoso-e-a-pessoa-com-deficiencia-bpc"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.gov.br/mds/pt-br/acoes-e-programas/SUAS/beneficios-assistenciais/beneficio-assistencial-ao-idoso-e-a-pessoa-com-deficiencia-bpc",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "bolsa-familia",
-          "name": "Bolsa Família",
+          "title": "Bolsa Família",
+          "description": "A inclusão depende do Cadastro Único, renda, composição familiar e análise federal. Cadastro atualizado não significa pagamento imediato.\nNão entregue senha gov.br ou cartão a quem promete liberar benefício.\nBolsa Família — Governo Federal",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "A inclusão depende do Cadastro Único, renda, composição familiar e análise federal. Cadastro atualizado não significa pagamento imediato."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Não entregue senha gov.br ou cartão a quem promete liberar benefício."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Bolsa Família — Governo Federal",
-                  "href": "https://www.gov.br/mds/pt-br/acoes-e-programas/bolsa-familia/bolsa-familia/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.gov.br/mds/pt-br/acoes-e-programas/bolsa-familia/bolsa-familia/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "cohab-curitiba-cadastro-habitacional",
-          "name": "COHAB Curitiba — cadastro habitacional",
+          "title": "COHAB Curitiba — cadastro habitacional",
+          "description": "Telefones: 0800 041 3233 ou (41) 3350-8484.\nO cadastro é inscrição para programas habitacionais, não moradia imediata. Há critérios, fila e seleção.\nFila e cadastro da COHAB",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Endereço:",
-                  "strong": true
-                },
-                {
-                  "text": " Avenida Cândido de Abreu, 817, Centro Cívico"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefones:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "0800 041 3233",
-                  "href": "tel:08000413233"
-                },
-                {
-                  "text": " ou "
-                },
-                {
-                  "text": "(41) 3350-8484",
-                  "href": "tel:+554133508484"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "O cadastro é inscrição para programas habitacionais, não moradia imediata. Há critérios, fila e seleção."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Fila e cadastro da COHAB",
-                  "href": "https://cohab.curitiba.pr.gov.br/conteudo/fila-de-inscritos/1907"
-                }
-              ]
-            }
-          ]
+          "address": "Endereço: Avenida Cândido de Abreu, 817, Centro Cívico",
+          "phone": "08000413233",
+          "website": "https://cohab.curitiba.pr.gov.br/conteudo/fila-de-inscritos/1907",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "alerta-contra-fraude-de-moradia",
-          "name": "Alerta contra fraude de moradia",
+          "title": "Alerta contra fraude de moradia",
+          "description": "A inscrição na COHAB é gratuita. Não pague taxa, entrada, despachante ou promessa de avançar na fila. Use apenas canais oficiais.\nAlerta da COHAB — outubro de 2026",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "A inscrição na COHAB é gratuita. Não pague taxa, entrada, despachante ou promessa de avançar na fila. Use apenas canais oficiais."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Alerta da COHAB — outubro de 2026",
-                  "href": "https://www.curitiba.pr.gov.br/noticias/cohab-curitiba-alerta-para-anuncios-de-imoveis-em-paginas-nao-oficiais/85534"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.curitiba.pr.gov.br/noticias/cohab-curitiba-alerta-para-anuncios-de-imoveis-em-paginas-nao-oficiais/85534",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "creas-violacao-de-direitos",
-          "name": "CREAS — violação de direitos",
+          "title": "CREAS — violação de direitos",
+          "description": "Os dez CREAS atendem pessoas e famílias em violência, abandono, discriminação, rua ou outra violação. O acesso pode ser espontâneo ou por encaminhamento.\nHorário publicado: segunda a sexta, 8h–17h. Consulte o endereço da sua região ou use 156.\nCREAS de Curitiba",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Os dez CREAS atendem pessoas e famílias em violência, abandono, discriminação, rua ou outra violação. O acesso pode ser espontâneo ou por encaminhamento."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Horário publicado:",
-                  "strong": true
-                },
-                {
-                  "text": " segunda a sexta, 8h–17h. Consulte o endereço da sua região ou use 156."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "CREAS de Curitiba",
-                  "href": "https://www.curitiba.pr.gov.br/servicos/creas-centro-de-referencia-especializado/teatro-de-fantoches/258"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.curitiba.pr.gov.br/servicos/creas-centro-de-referencia-especializado/teatro-de-fantoches/258",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
-      "id": "jobs",
-      "title": "8. Trabalho e renda",
-      "items": [
+      "id": "employment",
+      "title": "Trabalho e renda",
+      "entries": [
         {
-          "type": "resource",
           "id": "base-orientacao-e-encaminhamento",
-          "name": "BASE — orientação e encaminhamento",
+          "title": "BASE — orientação e encaminhamento",
+          "description": "Nunca pague por vaga. O SINE não cobra para cadastrar, encaminhar ou contratar. Não entregue cartão bancário, senha ou documento original a recrutador.\nAlém das refeições, o BASE reúne orientação social, saúde, qualificação e oportunidades de trabalho. Pergunte pelos dias do SINE Móvel e por ajuda para documentos ou entrevista.\nPrograma BASE",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Endereço:",
-                  "strong": true
-                },
-                {
-                  "text": " Alameda Doutor Muricy, 67, Centro"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Além das refeições, o BASE reúne orientação social, saúde, qualificação e oportunidades de trabalho. Pergunte pelos dias do SINE Móvel e por ajuda para documentos ou entrevista."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Programa BASE",
-                  "href": "https://www.curitiba.pr.gov.br/noticias/programa-base-da-prefeitura-de-curitiba-oferece-oportunidade-real-de-reconstrucao-de-vida-as-pessoas-em-situacao-de-rua/82521"
-                }
-              ]
-            }
-          ]
+          "address": "Endereço: Alameda Doutor Muricy, 67, Centro",
+          "phone": "",
+          "website": "https://www.curitiba.pr.gov.br/noticias/programa-base-da-prefeitura-de-curitiba-oferece-oportunidade-real-de-reconstrucao-de-vida-as-pessoas-em-situacao-de-rua/82521",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "sine-municipal-matriz",
-          "name": "SINE Municipal Matriz",
+          "title": "SINE Municipal Matriz",
+          "description": "E-mail: vagas@curitiba.pr.gov.br. Intermediação gratuita de vagas e encaminhamento para entrevista. — mailto:vagas@curitiba.pr.gov.br\nSINE Municipal Curitiba",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Endereço:",
-                  "strong": true
-                },
-                {
-                  "text": " Praça Rui Barbosa, 101, sala 15, Centro"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "E-mail:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "vagas@curitiba.pr.gov.br",
-                  "href": "mailto:vagas@curitiba.pr.gov.br"
-                },
-                {
-                  "text": ". Intermediação gratuita de vagas e encaminhamento para entrevista."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "SINE Municipal Curitiba",
-                  "href": "https://desenvolvimentoeconomico.curitiba.pr.gov.br/conteudo/sine-municipal-curitiba/1207"
-                }
-              ]
-            }
-          ]
+          "address": "Endereço: Praça Rui Barbosa, 101, sala 15, Centro",
+          "phone": "",
+          "website": "https://desenvolvimentoeconomico.curitiba.pr.gov.br/conteudo/sine-municipal-curitiba/1207",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "sine-nas-ruas-da-cidadania",
-          "name": "SINE nas Ruas da Cidadania",
+          "title": "SINE nas Ruas da Cidadania",
+          "description": "Existem unidades nas dez Ruas da Cidadania, com atendimento publicado de segunda a sexta, 8h–17h.\nProcure a unidade mais próxima para vagas, carta de encaminhamento e Tarifa Zero para entrevista.\nSINE e Tarifa Zero — 2026",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Existem unidades nas dez Ruas da Cidadania, com atendimento publicado de segunda a sexta, 8h–17h."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Procure a unidade mais próxima para vagas, carta de encaminhamento e Tarifa Zero para entrevista."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "SINE e Tarifa Zero — 2026",
-                  "href": "https://www.curitiba.pr.gov.br/noticias/tarifa-zero-a-caminho-do-emprego-ja-beneficiou-quase-10-mil-trabalhadores-em-curitiba/83700"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.curitiba.pr.gov.br/noticias/tarifa-zero-a-caminho-do-emprego-ja-beneficiou-quase-10-mil-trabalhadores-em-curitiba/83700",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "sine-movel",
-          "name": "SINE Móvel",
+          "title": "SINE Móvel",
+          "description": "O veículo itinerante atende bairros e eventos, em geral de segunda a sexta, 9h–15h30. A agenda muda.\nPergunte no BASE, Centro POP ou site da Prefeitura onde estará. Já houve ações específicas para pessoas em situação de rua.\nSINE Móvel e população de rua",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "O veículo itinerante atende bairros e eventos, em geral de segunda a sexta, 9h–15h30. A agenda muda."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Pergunte no BASE, Centro POP ou site da Prefeitura onde estará. Já houve ações específicas para pessoas em situação de rua."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "SINE Móvel e população de rua",
-                  "href": "https://www.curitiba.pr.gov.br/noticias/sine-movel-leva-oportunidades-de-trabalho-a-pessoas-em-situacao-de-rua-em-curitiba/81410"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.curitiba.pr.gov.br/noticias/sine-movel-leva-oportunidades-de-trabalho-a-pessoas-em-situacao-de-rua-em-curitiba/81410",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "casa-do-trabalhador-do-parana",
-          "name": "Casa do Trabalhador do Paraná",
+          "title": "Casa do Trabalhador do Paraná",
+          "description": "Vagas, qualificação, seguro-desemprego, orientação psicológica, empreendedorismo e trabalho autônomo. Confirme o horário.\nCasa do Trabalhador — Paraná",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Endereço:",
-                  "strong": true
-                },
-                {
-                  "text": " Rua Pedro Ivo, 503, Centro"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Vagas, qualificação, seguro-desemprego, orientação psicológica, empreendedorismo e trabalho autônomo. Confirme o horário."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Casa do Trabalhador — Paraná",
-                  "href": "https://www.trabalho.pr.gov.br/Noticia/Curitiba-inaugura-primeira-Casa-do-Trabalhador-do-Estado-do-Parana"
-                }
-              ]
-            }
-          ]
+          "address": "Endereço: Rua Pedro Ivo, 503, Centro",
+          "phone": "",
+          "website": "https://www.trabalho.pr.gov.br/Noticia/Curitiba-inaugura-primeira-Casa-do-Trabalhador-do-Estado-do-Parana",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "emprega-curitiba",
-          "name": "Emprega Curitiba",
+          "title": "Emprega Curitiba",
+          "description": "Portal municipal de vagas. Se não tiver internet, use um Farol do Saber ou peça ajuda no SINE/Centro POP.\nDesconfie de vaga que cobra curso, uniforme, exame, cadastro ou material.\nEmprega Curitiba — portal oficial",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Portal municipal de vagas. Se não tiver internet, use um Farol do Saber ou peça ajuda no SINE/Centro POP."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Desconfie de vaga que cobra curso, uniforme, exame, cadastro ou material."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Emprega Curitiba — portal oficial",
-                  "href": "https://www.curitiba.pr.gov.br/noticias/encontre-no-site-emprega-curitiba-a-oportunidade-que-esta-procurando/83447"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.curitiba.pr.gov.br/noticias/encontre-no-site-emprega-curitiba-a-oportunidade-que-esta-procurando/83447",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "carteira-de-trabalho-digital",
-          "name": "Carteira de Trabalho Digital",
+          "title": "Carteira de Trabalho Digital",
+          "description": "A CTPS é digital e usa CPF e conta gov.br. A Central Alô Trabalho atende pelo 158.\nSe não tiver CPF, e-mail ou acesso à conta, peça apoio no Centro POP, SINE ou Casa do Trabalhador. Não compartilhe sua senha.\nCarteira de Trabalho Digital",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "A CTPS é digital e usa CPF e conta gov.br. A Central Alô Trabalho atende pelo "
-                },
-                {
-                  "text": "158",
-                  "href": "tel:158"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Se não tiver CPF, e-mail ou acesso à conta, peça apoio no Centro POP, SINE ou Casa do Trabalhador. Não compartilhe sua senha."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Carteira de Trabalho Digital",
-                  "href": "https://www.gov.br/pt-br/temas/carteira-de-trabalho-digital"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "158",
+          "website": "https://www.gov.br/pt-br/temas/carteira-de-trabalho-digital",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "tarifa-zero-a-caminho-do-emprego",
-          "name": "Tarifa Zero a Caminho do Emprego",
+          "title": "Tarifa Zero a Caminho do Emprego",
+          "description": "Fornece duas passagens para entrevista encaminhada pelo SINE, até três encaminhamentos por mês. Exige moradia em Curitiba, desemprego, renda familiar de até três salários mínimos, e-Cidadão, CPF, documento com foto e cartão URBS Usuário em seu nome.\nPeça junto com a carta de encaminhamento. Os créditos são só para a entrevista.\nRegras da Tarifa Zero",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Fornece duas passagens para entrevista encaminhada pelo SINE, até três encaminhamentos por mês. Exige moradia em Curitiba, desemprego, renda familiar de até três salários mínimos, e-Cidadão, CPF, documento com foto e cartão URBS Usuário em seu nome."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Peça junto com a carta de encaminhamento. Os créditos são só para a entrevista."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Regras da Tarifa Zero",
-                  "href": "https://www.curitiba.pr.gov.br/noticias/tarifa-zero-a-caminho-do-emprego-ja-beneficiou-quase-10-mil-trabalhadores-em-curitiba/83700"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "content": [
-            {
-              "text": "Nunca pague por vaga.",
-              "strong": true
-            },
-            {
-              "text": " O SINE não cobra para cadastrar, encaminhar ou contratar. Não entregue cartão bancário, senha ou documento original a recrutador."
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.curitiba.pr.gov.br/noticias/tarifa-zero-a-caminho-do-emprego-ja-beneficiou-quase-10-mil-trabalhadores-em-curitiba/83700",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
+    },
+    {
+      "id": "legal",
+      "title": "Legal aid",
+      "entries": []
     },
     {
       "id": "documents",
-      "title": "9. Documentos e ajuda jurídica",
-      "items": [
+      "title": "Documentos e ajuda jurídica",
+      "entries": [
         {
-          "type": "resource",
           "id": "documentacao-pelo-centro-pop",
-          "name": "Documentação pelo Centro POP",
+          "title": "Documentação pelo Centro POP",
+          "description": "Os Centros POP orientam e encaminham para documentação civil. Leve qualquer cópia, fotografia, boletim de ocorrência ou informação que ajude a localizar seu registro.\nPeça ajuda para certidão, CPF, CIN, título e conta gov.br. Guarde protocolos e não entregue originais sem recibo.\nEncaminhamento documental",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Os Centros POP orientam e encaminham para documentação civil. Leve qualquer cópia, fotografia, boletim de ocorrência ou informação que ajude a localizar seu registro."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Peça ajuda para certidão, CPF, CIN, título e conta gov.br. Guarde protocolos e não entregue originais sem recibo."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Encaminhamento documental",
-                  "href": "https://www.curitiba.pr.gov.br/servicos/centros-pop-de-curitiba/artes-visuais-cursos-solar-do-barao/415"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.curitiba.pr.gov.br/servicos/centros-pop-de-curitiba/artes-visuais-cursos-solar-do-barao/415",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "defensoria-publica-do-parana",
-          "name": "Defensoria Pública do Paraná",
+          "title": "Defensoria Pública do Paraná",
+          "description": "Primeiro atendimento: segunda a sexta, 8h–13h, por ordem de chegada, ou agendamento pela plataforma Luna. Telefone: (41) 3219-7300.\nAssistência jurídica gratuita. A pessoa em situação de rua tem atendimento prioritário; falta de documento ou comprovante de endereço não pode impedir o atendimento.\nCEAM — atendimento inicial",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Endereço:",
-                  "strong": true
-                },
-                {
-                  "text": " Rua José Bonifácio, 66, Centro, atrás da Catedral"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Primeiro atendimento:",
-                  "strong": true
-                },
-                {
-                  "text": " segunda a sexta, 8h–13h, por ordem de chegada, ou agendamento pela plataforma Luna. "
-                },
-                {
-                  "text": "Telefone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(41) 3219-7300",
-                  "href": "tel:+554132197300"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Assistência jurídica gratuita. A pessoa em situação de rua tem atendimento prioritário; falta de documento ou comprovante de endereço não pode impedir o atendimento."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "CEAM — atendimento inicial",
-                  "href": "https://www.defensoriapublica.pr.def.br/Pagina/CEAM-Centro-Estadual-de-Atendimento-Multidisciplinar"
-                }
-              ]
-            }
-          ]
+          "address": "Endereço: Rua José Bonifácio, 66, Centro, atrás da Catedral",
+          "phone": "+554132197300",
+          "website": "https://www.defensoriapublica.pr.def.br/Pagina/CEAM-Centro-Estadual-de-Atendimento-Multidisciplinar",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "segunda-via-de-certidao",
-          "name": "Segunda via de certidão",
+          "title": "Segunda via de certidão",
+          "description": "A Defensoria pode orientar ou solicitar gratuitamente a segunda via de certidão de nascimento ou casamento quando houver direito ao atendimento.\nInforme nome ao nascer, nomes dos pais, cidade, cartório e data aproximada do registro.\nDireitos e documentos — DPE-PR",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "A Defensoria pode orientar ou solicitar gratuitamente a segunda via de certidão de nascimento ou casamento quando houver direito ao atendimento."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Informe nome ao nascer, nomes dos pais, cidade, cartório e data aproximada do registro."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Direitos e documentos — DPE-PR",
-                  "href": "https://www.defensoriapublica.pr.def.br/sites/default/arquivos_restritos/files/documento/2022-10/folder_-_dia_nacional_da_populacao_em_situacao_de_rua_nucidh_2.pdf"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.defensoriapublica.pr.def.br/sites/default/arquivos_restritos/files/documento/2022-10/folder_-_dia_nacional_da_populacao_em_situacao_de_rua_nucidh_2.pdf",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "carteira-de-identidade-nacional-cin",
-          "name": "Carteira de Identidade Nacional — CIN",
+          "title": "Carteira de Identidade Nacional — CIN",
+          "description": "A primeira via é gratuita. O atendimento presencial exige agendamento e, em regra, certidão de nascimento ou casamento. O Instituto de Identificação pode pesquisar e inscrever o CPF de quem nunca teve.\nPeça ajuda no Centro POP se faltar certidão, endereço ou internet.\nSolicitar CIN — Polícia Civil",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "A primeira via é gratuita. O atendimento presencial exige agendamento e, em regra, certidão de nascimento ou casamento. O Instituto de Identificação pode pesquisar e inscrever o CPF de quem nunca teve."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Peça ajuda no Centro POP se faltar certidão, endereço ou internet."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Solicitar CIN — Polícia Civil",
-                  "href": "https://www.policiacivil.pr.gov.br/Pagina/SOLICITAR-CARTEIRA-DE-IDENTIDADE-NACIONAL"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.policiacivil.pr.gov.br/Pagina/SOLICITAR-CARTEIRA-DE-IDENTIDADE-NACIONAL",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "cpf",
-          "name": "CPF",
+          "title": "CPF",
+          "description": "A inscrição e regularização podem ser gratuitas pelos canais da Receita. Pontos conveniados podem cobrar taxa; não é necessário intermediário.\nQuando a pessoa não consegue solicitar sozinha, uma entidade de assistência ou saúde pode pedir a inscrição. Pergunte ao Centro POP.\nInscrever-se no CPF",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "A inscrição e regularização podem ser gratuitas pelos canais da Receita. Pontos conveniados podem cobrar taxa; não é necessário intermediário."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Quando a pessoa não consegue solicitar sozinha, uma entidade de assistência ou saúde pode pedir a inscrição. Pergunte ao Centro POP."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Inscrever-se no CPF",
-                  "href": "https://www.gov.br/pt-br/servicos/inscrever-no-cpf"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.gov.br/pt-br/servicos/inscrever-no-cpf",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "boletim-de-ocorrencia-e-violacao-de-direitos",
-          "name": "Boletim de ocorrência e violação de direitos",
+          "title": "Boletim de ocorrência e violação de direitos",
+          "description": "Em agressão, roubo ou destruição de pertences, procure uma delegacia ou acione 190 se estiver acontecendo. Anote nomes, placa, local, horário e testemunhas quando for seguro.\nPeça cópia ou número do boletim. A Defensoria e o Disque 100 podem orientar.\nComo a Defensoria atende a população de rua",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Em agressão, roubo ou destruição de pertences, procure uma delegacia ou acione 190 se estiver acontecendo. Anote nomes, placa, local, horário e testemunhas quando for seguro."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Peça cópia ou número do boletim. A Defensoria e o Disque 100 podem orientar."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Como a Defensoria atende a população de rua",
-                  "href": "https://www.defensoriapublica.pr.def.br/Noticia/Como-populacao-em-situacao-de-rua-e-atendida-pela-Defensoria"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.defensoriapublica.pr.def.br/Noticia/Como-populacao-em-situacao-de-rua-e-atendida-pela-Defensoria",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
-      "id": "migrants",
-      "title": "10. Migrantes e pessoas em trânsito",
-      "items": [
+      "id": "mail",
+      "title": "Mailing address",
+      "entries": []
+    },
+    {
+      "id": "storage",
+      "title": "Storage",
+      "entries": []
+    },
+    {
+      "id": "safety",
+      "title": "Safety and domestic violence",
+      "entries": []
+    },
+    {
+      "id": "specialist-support",
+      "title": "Migrantes e pessoas em trânsito",
+      "entries": [
         {
-          "type": "resource",
           "id": "casa-da-acolhida-e-do-regresso",
-          "name": "Casa da Acolhida e do Regresso",
+          "title": "Casa da Acolhida e do Regresso",
+          "description": "Telefone: (41) 3321-2705. Atende pessoas em trânsito e migrantes em vulnerabilidade.\nProcure antes de comprar passagem. Apoio para deslocamento ou retorno depende de avaliação.\nCasa da Acolhida e do Regresso",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Endereço:",
-                  "strong": true
-                },
-                {
-                  "text": " Avenida Presidente Affonso Camargo, 330, Rodoferroviária, ala estadual, desembarque"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(41) 3321-2705",
-                  "href": "tel:+554133212705"
-                },
-                {
-                  "text": ". Atende pessoas em trânsito e migrantes em vulnerabilidade."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Procure antes de comprar passagem. Apoio para deslocamento ou retorno depende de avaliação."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Casa da Acolhida e do Regresso",
-                  "href": "https://www.curitiba.pr.gov.br/locais/casa-da-acolhida-e-do-regresso-de-curitiba/146"
-                }
-              ]
-            }
-          ]
+          "address": "Endereço: Avenida Presidente Affonso Camargo, 330, Rodoferroviária, ala estadual, desembarque",
+          "phone": "+554133212705",
+          "website": "https://www.curitiba.pr.gov.br/locais/casa-da-acolhida-e-do-regresso-de-curitiba/146",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "caritas-curitiba-migrantes-e-refugiados",
-          "name": "Cáritas Curitiba — migrantes e refugiados",
+          "title": "Cáritas Curitiba — migrantes e refugiados",
+          "description": "Telefone: (41) 2105-6301.\nParceira indicada pelo ACNUR para proteção, documentação, apoio social e jurídico, emprego, atendimento psicológico e português. Ligue para confirmar dias, agendamento e idiomas.\nParceiros do ACNUR",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Endereço:",
-                  "strong": true
-                },
-                {
-                  "text": " Rua Jaime Reis, 369, Alto São Francisco"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(41) 2105-6301",
-                  "href": "tel:+554121056301"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Parceira indicada pelo ACNUR para proteção, documentação, apoio social e jurídico, emprego, atendimento psicológico e português. Ligue para confirmar dias, agendamento e idiomas."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Parceiros do ACNUR",
-                  "href": "https://help.unhcr.org/brazil/onde-encontrar-ajuda/organizacoes-parceiras-da-sociedade-civil/"
-                }
-              ]
-            }
-          ]
+          "address": "Endereço: Rua Jaime Reis, 369, Alto São Francisco",
+          "phone": "+554121056301",
+          "website": "https://help.unhcr.org/brazil/onde-encontrar-ajuda/organizacoes-parceiras-da-sociedade-civil/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "documentos-para-migrantes",
-          "name": "Documentos para migrantes",
+          "title": "Documentos para migrantes",
+          "description": "A Prefeitura reúne orientação sobre RNM ou protocolo de refúgio, CPF, Carteira de Trabalho, saúde, educação, assistência e emprego.\nNão entregue passaporte ou protocolo original a intermediário.\nPolíticas para Migrantes — Curitiba",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "A Prefeitura reúne orientação sobre RNM ou protocolo de refúgio, CPF, Carteira de Trabalho, saúde, educação, assistência e emprego."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Não entregue passaporte ou protocolo original a intermediário."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Políticas para Migrantes — Curitiba",
-                  "href": "https://desenvolvimentohumano.curitiba.pr.gov.br/conteudo/politicas-para-migrantes/1698"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://desenvolvimentohumano.curitiba.pr.gov.br/conteudo/politicas-para-migrantes/1698",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "trabalho-e-exploracao",
-          "name": "Trabalho e exploração",
+          "title": "Trabalho e exploração",
+          "description": "Migrantes com documentação válida têm os mesmos direitos trabalhistas. O SINE orienta sobre CTPS, vagas e qualificação.\nSe um empregador retém documento, impede a saída ou ameaça, procure a Defensoria, Cáritas, polícia ou Disque 100.\nDireitos e trabalho — Prefeitura",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Migrantes com documentação válida têm os mesmos direitos trabalhistas. O SINE orienta sobre CTPS, vagas e qualificação."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Se um empregador retém documento, impede a saída ou ameaça, procure a Defensoria, Cáritas, polícia ou Disque 100."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Direitos e trabalho — Prefeitura",
-                  "href": "https://desenvolvimentohumano.curitiba.pr.gov.br/conteudo/politicas-para-migrantes/1698"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://desenvolvimentohumano.curitiba.pr.gov.br/conteudo/politicas-para-migrantes/1698",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "casa-da-mulher-brasileira",
+          "title": "Casa da Mulher Brasileira",
+          "description": "Telefones: (41) 3221-2701 ou (41) 3221-2710. Atendimento: 24 horas.\nAcolhimento, apoio psicossocial, delegacia e proteção jurídica. Há alojamento curto de até 48 horas para risco iminente, com filhos menores e animais, após avaliação. Abrigos de proteção têm endereço sigiloso.\nCasa da Mulher Brasileira",
+          "last_verified": "2026-11-11",
+          "address": "Endereço: Avenida Paraná, 870, Cabral",
+          "phone": "+554132212701",
+          "website": "https://www.curitiba.pr.gov.br/servicos/casa-da-mulher-brasileira-de-curitiba/dam-refic-plano-de-recuperacao-fiscal/400",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "crianca-ou-adolescente-na-rua",
+          "title": "Criança ou adolescente na rua",
+          "description": "Ligue 156 e diga que se trata de menor. Se estiver perdida ou desorientada, aguarde a equipe quando for seguro. Em perigo, 190; emergência médica, 192.\nO acolhimento ocorre por decisão da Vara da Infância ou, em urgência, do Conselho Tutelar. Endereços dos abrigos não são divulgados.\nAcolhimento de menores",
+          "last_verified": "2026-11-11",
+          "address": "",
+          "phone": "156",
+          "website": "https://www.curitiba.pr.gov.br/servicos/acolhimento-institucional-criancaadolescente/defesa-administrativa-em-processo-administrativo-sanitario-vigilancia-sanitaria/262",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "conselhos-tutelares",
+          "title": "Conselhos Tutelares",
+          "description": "Curitiba tem dez Conselhos Tutelares. Eles protegem direitos e podem requisitar saúde, assistência, educação e segurança.\nConsulte o endereço da região; fora do horário ou em situação na rua, comece pelo 156 ou 190.\nLista dos Conselhos Tutelares",
+          "last_verified": "2026-11-11",
+          "address": "",
+          "phone": "",
+          "website": "https://desenvolvimentohumano.curitiba.pr.gov.br/conteudo/conselhos-tutelares/1681",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "pessoas-lgbtqia-e-discriminacao",
+          "title": "Pessoas LGBTQIA+ e discriminação",
+          "description": "Telefone: (41) 3221-2746, segunda a sexta, 8h–12h e 14h–18h; e-mail: diversidadesexual@curitiba.pr.gov.br. — mailto:diversidadesexual@curitiba.pr.gov.br\nPara denunciar LGBTfobia, use também 156, 100 ou 190 em perigo imediato.\nSecretaria da Mulher e Igualdade Étnico-Racial",
+          "last_verified": "2026-11-11",
+          "address": "Atendimento municipal: Rua Barão do Rio Branco, 45, 9º andar, Centro",
+          "phone": "+554132212746",
+          "website": "https://mulhereigualdade.curitiba.pr.gov.br/conteudo/contatos/10",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "pessoa-idosa",
+          "title": "Pessoa idosa",
+          "description": "Para abandono, violência ou exploração, ligue 156, 100 ou 0800 41 0001. Em perigo imediato, 190.\nInforme mobilidade, doença, medicação e risco ao solicitar abordagem.\nProteção à pessoa idosa — 2026",
+          "last_verified": "2026-11-11",
+          "address": "",
+          "phone": "156",
+          "website": "https://www.curitiba.pr.gov.br/noticias/quebrando-o-silencio-curitiba-tem-rede-de-combate-a-violencia-contra-a-pessoa-idosa/83558",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "pessoa-com-deficiencia",
+          "title": "Pessoa com deficiência",
+          "description": "O CREAS atende violação de direitos; o Departamento municipal oferece atendimento psicossocial a moradores de Curitiba.\nAo pedir acolhimento, explique acessibilidade, mobilidade, comunicação, equipamento e cuidador necessários.\nAtendimento psicossocial",
+          "last_verified": "2026-11-11",
+          "address": "",
+          "phone": "",
+          "website": "https://pessoacomdeficiencia.curitiba.pr.gov.br/conteudo/atendimento-psicossocial/1227",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "gestante-ou-pessoa-com-bebe",
+          "title": "Gestante ou pessoa com bebê",
+          "description": "Procure o Consultório na Rua ou Unidade de Saúde para pré-natal. Em sangramento, dor forte, desmaio ou trabalho de parto, ligue 192.\nInforme gravidez e crianças ao 156 ou à Casa de Passagem para avaliação adequada.\nPrograma Mãe Curitibana",
+          "last_verified": "2026-11-11",
+          "address": "",
+          "phone": "",
+          "website": "https://saude.curitiba.pr.gov.br/conteudo/mae-curitibana-vale-a-vida/1980",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "violacao-de-direitos",
+          "title": "Violação de direitos",
+          "description": "CREAS, Defensoria, 156 e Disque 100 orientam em abandono, violência, discriminação, retirada de pertences ou negação de serviço.\nGuarde nomes, datas, locais e protocolos quando for seguro. Em crime ou ameaça agora, ligue 190.\nCREAS — proteção especializada",
+          "last_verified": "2026-11-11",
+          "address": "",
+          "phone": "",
+          "website": "https://www.curitiba.pr.gov.br/servicos/creas-centro-de-referencia-especializado/teatro-de-fantoches/258",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
-      "id": "specialized",
-      "title": "11. Mulheres, crianças e outros grupos",
-      "items": [
-        {
-          "type": "resource",
-          "id": "casa-da-mulher-brasileira",
-          "name": "Casa da Mulher Brasileira",
-          "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Endereço:",
-                  "strong": true
-                },
-                {
-                  "text": " Avenida Paraná, 870, Cabral"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefones:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(41) 3221-2701",
-                  "href": "tel:+554132212701"
-                },
-                {
-                  "text": " ou "
-                },
-                {
-                  "text": "(41) 3221-2710",
-                  "href": "tel:+554132212710"
-                },
-                {
-                  "text": ". "
-                },
-                {
-                  "text": "Atendimento:",
-                  "strong": true
-                },
-                {
-                  "text": " 24 horas."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Acolhimento, apoio psicossocial, delegacia e proteção jurídica. Há alojamento curto de até 48 horas para risco iminente, com filhos menores e animais, após avaliação. Abrigos de proteção têm endereço sigiloso."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Casa da Mulher Brasileira",
-                  "href": "https://www.curitiba.pr.gov.br/servicos/casa-da-mulher-brasileira-de-curitiba/dam-refic-plano-de-recuperacao-fiscal/400"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "crianca-ou-adolescente-na-rua",
-          "name": "Criança ou adolescente na rua",
-          "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ligue "
-                },
-                {
-                  "text": "156",
-                  "href": "tel:156"
-                },
-                {
-                  "text": " e diga que se trata de menor. Se estiver perdida ou desorientada, aguarde a equipe quando for seguro. Em perigo, 190; emergência médica, 192."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "O acolhimento ocorre por decisão da Vara da Infância ou, em urgência, do Conselho Tutelar. Endereços dos abrigos não são divulgados."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Acolhimento de menores",
-                  "href": "https://www.curitiba.pr.gov.br/servicos/acolhimento-institucional-criancaadolescente/defesa-administrativa-em-processo-administrativo-sanitario-vigilancia-sanitaria/262"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "conselhos-tutelares",
-          "name": "Conselhos Tutelares",
-          "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Curitiba tem dez Conselhos Tutelares. Eles protegem direitos e podem requisitar saúde, assistência, educação e segurança."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Consulte o endereço da região; fora do horário ou em situação na rua, comece pelo 156 ou 190."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Lista dos Conselhos Tutelares",
-                  "href": "https://desenvolvimentohumano.curitiba.pr.gov.br/conteudo/conselhos-tutelares/1681"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "pessoas-lgbtqia-e-discriminacao",
-          "name": "Pessoas LGBTQIA+ e discriminação",
-          "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Atendimento municipal:",
-                  "strong": true
-                },
-                {
-                  "text": " Rua Barão do Rio Branco, 45, 9º andar, Centro"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(41) 3221-2746",
-                  "href": "tel:+554132212746"
-                },
-                {
-                  "text": ", segunda a sexta, 8h–12h e 14h–18h; "
-                },
-                {
-                  "text": "e-mail:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "diversidadesexual@curitiba.pr.gov.br",
-                  "href": "mailto:diversidadesexual@curitiba.pr.gov.br"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Para denunciar LGBTfobia, use também 156, 100 ou 190 em perigo imediato."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Secretaria da Mulher e Igualdade Étnico-Racial",
-                  "href": "https://mulhereigualdade.curitiba.pr.gov.br/conteudo/contatos/10"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "pessoa-idosa",
-          "name": "Pessoa idosa",
-          "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Para abandono, violência ou exploração, ligue "
-                },
-                {
-                  "text": "156",
-                  "href": "tel:156"
-                },
-                {
-                  "text": ", "
-                },
-                {
-                  "text": "100",
-                  "href": "tel:100"
-                },
-                {
-                  "text": " ou "
-                },
-                {
-                  "text": "0800 41 0001",
-                  "href": "tel:0800410001"
-                },
-                {
-                  "text": ". Em perigo imediato, 190."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Informe mobilidade, doença, medicação e risco ao solicitar abordagem."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Proteção à pessoa idosa — 2026",
-                  "href": "https://www.curitiba.pr.gov.br/noticias/quebrando-o-silencio-curitiba-tem-rede-de-combate-a-violencia-contra-a-pessoa-idosa/83558"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "pessoa-com-deficiencia",
-          "name": "Pessoa com deficiência",
-          "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "O CREAS atende violação de direitos; o Departamento municipal oferece atendimento psicossocial a moradores de Curitiba."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ao pedir acolhimento, explique acessibilidade, mobilidade, comunicação, equipamento e cuidador necessários."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Atendimento psicossocial",
-                  "href": "https://pessoacomdeficiencia.curitiba.pr.gov.br/conteudo/atendimento-psicossocial/1227"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "gestante-ou-pessoa-com-bebe",
-          "name": "Gestante ou pessoa com bebê",
-          "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Procure o Consultório na Rua ou Unidade de Saúde para pré-natal. Em sangramento, dor forte, desmaio ou trabalho de parto, ligue 192."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Informe gravidez e crianças ao 156 ou à Casa de Passagem para avaliação adequada."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Programa Mãe Curitibana",
-                  "href": "https://saude.curitiba.pr.gov.br/conteudo/mae-curitibana-vale-a-vida/1980"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "violacao-de-direitos",
-          "name": "Violação de direitos",
-          "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "CREAS, Defensoria, 156 e Disque 100 orientam em abandono, violência, discriminação, retirada de pertences ou negação de serviço."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Guarde nomes, datas, locais e protocolos quando for seguro. Em crime ou ameaça agora, ligue 190."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "CREAS — proteção especializada",
-                  "href": "https://www.curitiba.pr.gov.br/servicos/creas-centro-de-referencia-especializado/teatro-de-fantoches/258"
-                }
-              ]
-            }
-          ]
-        }
-      ]
+      "id": "veterans",
+      "title": "Veterans support",
+      "entries": []
     },
     {
       "id": "pets",
-      "title": "12. Ajuda com animais",
-      "items": [
+      "title": "Ajuda com animais",
+      "entries": [
         {
-          "type": "resource",
           "id": "antes-de-aceitar-acolhimento",
-          "name": "Antes de aceitar acolhimento",
+          "title": "Antes de aceitar acolhimento",
+          "description": "A FAS não publica que todas as Casas de Passagem aceitam animais. Informe espécie, porte e quantidade ao 156, Centro POP ou unidade e pergunte onde o animal ficará.\nNão abandone nem entregue o animal sem entender para quem vai, onde ficará e como recuperá-lo.",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "A FAS não publica que todas as Casas de Passagem aceitam animais. Informe espécie, porte e quantidade ao 156, Centro POP ou unidade e pergunte onde o animal ficará."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Não abandone nem entregue o animal sem entender para quem vai, onde ficará e como recuperá-lo."
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "hospital-veterinario-municipal-sao-francisco-de-assis",
-          "name": "Hospital Veterinário Municipal São Francisco de Assis",
+          "title": "Hospital Veterinário Municipal São Francisco de Assis",
+          "description": "Atende gratuitamente cães e gatos de públicos elegíveis, incluindo pessoas em situação de rua. Consultas eletivas são agendadas na Rede de Proteção Animal; emergências passam por triagem sem agendamento.\nPeça ao Centro POP ou à Rede ajuda para cadastro e deslocamento. Atendimento depende de triagem e capacidade.\nHospital Veterinário Municipal",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Atende gratuitamente cães e gatos de públicos elegíveis, incluindo pessoas em situação de rua. Consultas eletivas são agendadas na Rede de Proteção Animal; emergências passam por triagem sem agendamento."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Peça ao Centro POP ou à Rede ajuda para cadastro e deslocamento. Atendimento depende de triagem e capacidade."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Hospital Veterinário Municipal",
-                  "href": "https://www.curitiba.pr.gov.br/noticias/hospital-veterinario-municipal-faz-1-ano-com-30-mil-consultas-gratuitas-curitiba-ganhara-nova-unidade/81320"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.curitiba.pr.gov.br/noticias/hospital-veterinario-municipal-faz-1-ano-com-30-mil-consultas-gratuitas-curitiba-ganhara-nova-unidade/81320",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "hpet-clinica-veterinaria",
-          "name": "HPet Clínica Veterinária",
+          "title": "HPet Clínica Veterinária",
+          "description": "Parceria municipal com consultas, exames e procedimentos gratuitos para públicos elegíveis. O agendamento abre na Rede de Proteção Animal e as vagas são limitadas.\nAtendimento gratuito na HPet",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Endereço:",
-                  "strong": true
-                },
-                {
-                  "text": " Rua Vicente Geronasso, 1480, Boa Vista"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Parceria municipal com consultas, exames e procedimentos gratuitos para públicos elegíveis. O agendamento abre na Rede de Proteção Animal e as vagas são limitadas."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Atendimento gratuito na HPet",
-                  "href": "https://www.curitiba.pr.gov.br/noticias/em-menos-de-um-ano-prefeitura-e-hpet-fazem-mais-de-14-mil-atendimentos-gratuitos-de-caes-e-gatos-de-curitiba/81726"
-                }
-              ]
-            }
-          ]
+          "address": "Endereço: Rua Vicente Geronasso, 1480, Boa Vista",
+          "phone": "",
+          "website": "https://www.curitiba.pr.gov.br/noticias/em-menos-de-um-ano-prefeitura-e-hpet-fazem-mais-de-14-mil-atendimentos-gratuitos-de-caes-e-gatos-de-curitiba/81726",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "banco-de-racao",
-          "name": "Banco de Ração",
+          "title": "Banco de Ração",
+          "description": "O programa apoia pessoas em vulnerabilidade, organizações e protetores. Não há entrega diária garantida.\nPeça orientação no Centro POP ou ligue para a Rede: (41) 3350-9939 ou 3350-8933.\nRede de Proteção Animal",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "O programa apoia pessoas em vulnerabilidade, organizações e protetores. Não há entrega diária garantida."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Peça orientação no Centro POP ou ligue para a Rede: "
-                },
-                {
-                  "text": "(41) 3350-9939",
-                  "href": "tel:+554133509939"
-                },
-                {
-                  "text": " ou "
-                },
-                {
-                  "text": "3350-8933",
-                  "href": "tel:+554133508933"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Rede de Proteção Animal",
-                  "href": "https://protecaoanimal.curitiba.pr.gov.br/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+554133509939",
+          "website": "https://protecaoanimal.curitiba.pr.gov.br/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "castracao-gratuita",
-          "name": "Castração gratuita",
+          "title": "Castração gratuita",
+          "description": "A Prefeitura oferece castração por eventos e clínicas, com cadastro e agendamento. Pessoas em vulnerabilidade estão entre os públicos atendidos, conforme critérios e vagas.\nCastração — Rede de Proteção Animal",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "A Prefeitura oferece castração por eventos e clínicas, com cadastro e agendamento. Pessoas em vulnerabilidade estão entre os públicos atendidos, conforme critérios e vagas."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Castração — Rede de Proteção Animal",
-                  "href": "https://protecaoanimal.curitiba.pr.gov.br/castracao"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://protecaoanimal.curitiba.pr.gov.br/castracao",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "mulher-em-situacao-de-violencia-com-animal",
-          "name": "Mulher em situação de violência com animal",
+          "title": "Mulher em situação de violência com animal",
+          "description": "A Casa da Mulher Brasileira publica Espaço Pet para animais das mulheres no alojamento de passagem.\nLigue (41) 3221-2701 ou 3221-2710 e explique quantos animais estão com você.\nCasa da Mulher e Espaço Pet",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "A Casa da Mulher Brasileira publica Espaço Pet para animais das mulheres no alojamento de passagem."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ligue "
-                },
-                {
-                  "text": "(41) 3221-2701",
-                  "href": "tel:+554132212701"
-                },
-                {
-                  "text": " ou "
-                },
-                {
-                  "text": "3221-2710",
-                  "href": "tel:+554132212710"
-                },
-                {
-                  "text": " e explique quantos animais estão com você."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Casa da Mulher e Espaço Pet",
-                  "href": "https://www.curitiba.pr.gov.br/servicos/casa-da-mulher-brasileira-de-curitiba/dam-refic-plano-de-recuperacao-fiscal/400"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+554132212701",
+          "website": "https://www.curitiba.pr.gov.br/servicos/casa-da-mulher-brasileira-de-curitiba/dam-refic-plano-de-recuperacao-fiscal/400",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
-      "id": "transport",
-      "title": "13. Transporte, rodoviária e aeroporto",
-      "items": [
-        {
-          "type": "resource",
-          "id": "onibus-urbano",
-          "name": "Ônibus urbano",
-          "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "A tarifa comum publicada para 2026 é R$ 6. Aos domingos e feriados, o Domingão Paga Meia cobra R$ 3. Confirme valores pelo 156 ou URBS."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Não existe gratuidade geral apenas por estar em situação de rua. Pergunte ao Centro POP sobre deslocamento para serviço específico."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Tarifas em 2026",
-                  "href": "https://www.curitiba.pr.gov.br/noticias/prefeitura-de-curitiba-mantem-tarifa-de-onibus-em-r-6-e-programas-sociais-no-transporte-em-2026/81220"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "tarifa-zero-para-entrevista",
-          "name": "Tarifa Zero para entrevista",
-          "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Quem cumpre os critérios pode receber no SINE duas passagens para entrevista encaminhada pelo próprio SINE. É necessário cartão URBS Usuário em nome do candidato."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Tarifa Zero a Caminho do Emprego",
-                  "href": "https://www.curitiba.pr.gov.br/noticias/procurando-emprego-em-curitiba-conheca-os-servicos-da-prefeitura-que-podem-te-ajudar/77096"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "cartao-transporte-isento",
-          "name": "Cartão-transporte isento",
-          "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Pessoas com 65 anos ou mais têm gratuidade. Pessoas com deficiência ou algumas doenças crônicas podem ter direito conforme avaliação e renda."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "A FAS, CAPS e serviços municipais podem emitir encaminhamento conforme o caso. A URBS exige agendamento e documentação."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Cartão-transporte isento",
-                  "href": "https://www.curitiba.pr.gov.br/servicos/cartao-transporte-isento-emissaorenovacao/casa-da-leitura-nair-de-macedo-biblioteca/115"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "rodoferroviaria-pessoas-em-transito",
-          "name": "Rodoferroviária — pessoas em trânsito",
-          "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Casa da Acolhida:",
-                  "strong": true
-                },
-                {
-                  "text": " Avenida Presidente Affonso Camargo, 330, ala estadual, desembarque"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(41) 3321-2705",
-                  "href": "tel:+554133212705"
-                },
-                {
-                  "text": ". Procure antes de comprar bilhete se precisa de retorno familiar, orientação ou apoio temporário."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Atendimento na Rodoferroviária",
-                  "href": "https://locais.curitiba.pr.gov.br/casa-da-acolhida-e-do-regresso-de-curitiba/146"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "aeroporto-internacional-afonso-pena",
-          "name": "Aeroporto Internacional Afonso Pena",
-          "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Endereço:",
-                  "strong": true
-                },
-                {
-                  "text": " Avenida Rocha Pombo, Águas Belas, São José dos Pinhais, cerca de 18 km do centro"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Central:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "0800 727 4720",
-                  "href": "tel:08007274720"
-                },
-                {
-                  "text": ", 24 horas."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "A linha metropolitana E32 liga o Aeroporto ao Terminal Boqueirão via Terminal Central. Confirme horários e tarifa com a empresa: "
-                },
-                {
-                  "text": "(41) 2169-4321",
-                  "href": "tel:+554121694321"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Transporte no Aeroporto",
-                  "href": "https://aeroportos.motiva.com.br/curitiba-pr/o-aeroporto/como-chegar-e-sair/?type=100003"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "problema-com-voo",
-          "name": "Problema com voo",
-          "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Fale primeiro com a companhia aérea e peça protocolo por escrito. Alimentação, hospedagem ou transporte dependem da causa e do tempo de espera; não pague intermediário para “liberar” assistência."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Se ficar sem lugar seguro, ligue 156 quando estiver em Curitiba ou procure a assistência social de São José dos Pinhais enquanto estiver no aeroporto."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Direitos do passageiro — ANAC",
-                  "href": "https://www.gov.br/anac/pt-br/assuntos/passageiros"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "verify",
+      "id": "other",
       "title": "Confirmar antes de ir",
-      "items": [
+      "entries": [
         {
-          "type": "list",
-          "items": [
-            [
-              {
-                "text": "Ligue para confirmar endereço, horário, documentos, perfil atendido e disponibilidade."
-              }
-            ],
-            [
-              {
-                "text": "Uma indicação ou encaminhamento não reserva vaga, refeição, cama, benefício ou emprego."
-              }
-            ],
-            [
-              {
-                "text": "Não pague a intermediários por serviço público, abrigo, emprego, documento ou benefício."
-              }
-            ],
-            [
-              {
-                "text": "Em emergência médica, ligue 192; em violência, 190; em incêndio ou resgate, 193."
-              }
-            ]
-          ]
-        },
-        {
-          "type": "paragraph",
-          "content": [
-            {
-              "text": "Encontrou informação errada ou um serviço novo? "
-            },
-            {
-              "text": "Envie uma correção no GitHub",
-              "href": "https://github.com/carlosbranco/no-home-help/issues"
-            },
-            {
-              "text": ". Não publique nomes, documentos, diagnóstico ou localização de pessoas em risco."
-            }
-          ]
+          "id": "verify-information",
+          "title": "Confirmar antes de ir",
+          "description": "- Ligue para confirmar endereço, horário, documentos, perfil atendido e disponibilidade.\n- Uma indicação ou encaminhamento não reserva vaga, refeição, cama, benefício ou emprego.\n- Não pague a intermediários por serviço público, abrigo, emprego, documento ou benefício.\n- Em emergência médica, ligue 192; em violência, 190; em incêndio ou resgate, 193.\nEncontrou informação errada ou um serviço novo? Envie uma correção no GitHub. Não publique nomes, documentos, diagnóstico ou localização de pessoas em risco.",
+          "last_verified": "2026-11-11",
+          "address": "",
+          "phone": "",
+          "website": "https://github.com/carlosbranco/no-home-help/issues",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     }

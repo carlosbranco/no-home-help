@@ -1,6 +1,7 @@
 {
   "$schema": "https://nohomehelp.com/schemas/city.schema.json",
-  "schema_version": 1,
+  "documentation": "https://github.com/carlosbranco/no-home-help/blob/main/EDIT_CITY_JSON.md",
+  "schema_version": 2,
   "status": "published",
   "locale": {
     "language": "pt-BR",
@@ -26,4203 +27,856 @@
   "page": {
     "heading": "Rio de Janeiro — ajuda para pessoas sem moradia",
     "last_verified": "2026-11-11",
-    "urgent": [
-      {
-        "type": "paragraph",
-        "content": [
-          {
-            "text": "Emergência médica — SAMU:",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "192",
-            "href": "tel:192"
-          },
-          {
-            "break": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "Polícia Militar:",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "190",
-            "href": "tel:190"
-          },
-          {
-            "text": "; "
-          },
-          {
-            "text": "Bombeiros:",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "193",
-            "href": "tel:193"
-          },
-          {
-            "break": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "Abordagem social e assistência municipal:",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "1746",
-            "href": "tel:1746"
-          },
-          {
-            "break": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "Violência contra a mulher:",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "180",
-            "href": "tel:180"
-          },
-          {
-            "text": "; "
-          },
-          {
-            "text": "violações de direitos:",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "100",
-            "href": "tel:100"
-          }
-        ]
-      }
-    ],
-    "notice": [
-      {
-        "text": "Vagas, horários, preços, endereços e critérios podem mudar.",
-        "strong": true
-      },
-      {
-        "text": " Confirme antes de se deslocar. Nenhum serviço garante vaga, refeição, dinheiro, tratamento, benefício ou emprego no mesmo dia. Em risco imediato, ligue 190, 192 ou 193."
-      }
-    ],
-    "intro": [
-      {
-        "type": "paragraph",
-        "content": [
-          {
-            "text": "Ao pedir ajuda, diga onde você está, um ponto de referência, se tem um lugar seguro para esta noite, quando comeu pela última vez, se precisa de cuidados de saúde, se está com crianças ou animais e quais documentos possui. O acolhimento social é voluntário. Para uma vaga na rede municipal, comece pelo 1746, Centro POP, CREAS, equipe de abordagem ou Central de Recepção."
-          }
-        ]
-      }
-    ],
-    "footer": []
+    "urgent": "Emergência médica — SAMU: 192 Polícia Militar: 190; Bombeiros: 193 Abordagem social e assistência municipal: 1746 Violência contra a mulher: 180; violações de direitos: 100",
+    "notice": "Vagas, horários, preços, endereços e critérios podem mudar. Confirme antes de se deslocar. Nenhum serviço garante vaga, refeição, dinheiro, tratamento, benefício ou emprego no mesmo dia. Em risco imediato, ligue 190, 192 ou 193.",
+    "intro": "Ao pedir ajuda, diga onde você está, um ponto de referência, se tem um lugar seguro para esta noite, quando comeu pela última vez, se precisa de cuidados de saúde, se está com crianças ou animais e quais documentos possui. O acolhimento social é voluntário. Para uma vaga na rede municipal, comece pelo 1746, Centro POP, CREAS, equipe de abordagem ou Central de Recepção.",
+    "footer": ""
   },
   "categories": [
     {
       "id": "emergency",
-      "title": "1. Emergência e abordagem",
-      "items": [
+      "title": "Emergência e abordagem",
+      "entries": [
         {
-          "type": "resource",
           "id": "samu-emergencia-medica",
-          "name": "SAMU — emergência médica",
+          "title": "SAMU — emergência médica",
+          "description": "Telefone gratuito: 192, 24 horas.\nLigue em caso de: inconsciência, falta de ar, dor forte no peito, convulsão, sangramento grave, acidente ou outra urgência médica. Informe o local exato, ponto de referência e estado da pessoa.\nÚltima verificação: 11 de novembro de 2026\nSAMU Capital — Secretaria de Saúde",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefone gratuito:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "192",
-                  "href": "tel:192"
-                },
-                {
-                  "text": ", 24 horas."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ligue em caso de:",
-                  "strong": true
-                },
-                {
-                  "text": " inconsciência, falta de ar, dor forte no peito, convulsão, sangramento grave, acidente ou outra urgência médica. Informe o local exato, ponto de referência e estado da pessoa."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificação:",
-                  "strong": true
-                },
-                {
-                  "text": " 11 de novembro de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "SAMU Capital — Secretaria de Saúde",
-                  "href": "https://www.rj.gov.br/saude/samu-capital"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "192",
+          "website": "https://www.rj.gov.br/saude/samu-capital",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "policia-militar-e-corpo-de-bombeiros",
-          "name": "Polícia Militar e Corpo de Bombeiros",
+          "title": "Polícia Militar e Corpo de Bombeiros",
+          "description": "Polícia: 190; Bombeiros: 193.\nUse para: crime ou violência em andamento, ameaça imediata, incêndio, resgate, desabamento ou outro perigo grave. Para assistência social sem perigo imediato, use o 1746.\nÚltima verificação: 11 de novembro de 2026\nNúmeros nacionais de emergência",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Polícia:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "190",
-                  "href": "tel:190"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "Bombeiros:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "193",
-                  "href": "tel:193"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Use para:",
-                  "strong": true
-                },
-                {
-                  "text": " crime ou violência em andamento, ameaça imediata, incêndio, resgate, desabamento ou outro perigo grave. Para assistência social sem perigo imediato, use o 1746."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificação:",
-                  "strong": true
-                },
-                {
-                  "text": " 11 de novembro de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Números nacionais de emergência",
-                  "href": "https://www.gov.br/mcom/pt-br/noticias/2026/setembro/emergencia-voce-sabe-para-quem-ligar-quando-precisa-de-ajuda"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "190",
+          "website": "https://www.gov.br/mcom/pt-br/noticias/2026/setembro/emergencia-voce-sabe-para-quem-ligar-quando-precisa-de-ajuda",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "central-1746-abordagem-social",
-          "name": "Central 1746 — abordagem social",
+          "title": "Central 1746 — abordagem social",
+          "description": "Telefone: 1746; fora do código de área 21, (21) 3460-1746.\nPeça: orientação, abordagem social ou acesso à rede. Informe endereço completo, ponto de referência, telefone para retorno, crianças, animais e qualquer risco. As equipes atuam todos os dias e a abordagem não é remoção forçada.\nImportante: o portal publica prazo administrativo de até 15 dias úteis; em perigo ou urgência médica use 190, 192 ou 193.\nÚltima verificação: 11 de novembro de 2026\nAções de acolhimento — Rio 1746",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "1746",
-                  "href": "tel:1746"
-                },
-                {
-                  "text": "; fora do código de área 21, "
-                },
-                {
-                  "text": "(21) 3460-1746",
-                  "href": "tel:+552134601746"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Peça:",
-                  "strong": true
-                },
-                {
-                  "text": " orientação, abordagem social ou acesso à rede. Informe endereço completo, ponto de referência, telefone para retorno, crianças, animais e qualquer risco. As equipes atuam todos os dias e a abordagem não é remoção forçada."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Importante:",
-                  "strong": true
-                },
-                {
-                  "text": " o portal publica prazo administrativo de até 15 dias úteis; em perigo ou urgência médica use 190, 192 ou 193."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificação:",
-                  "strong": true
-                },
-                {
-                  "text": " 11 de novembro de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ações de acolhimento — Rio 1746",
-                  "href": "https://www.1746.rio/hc/pt-br/articles/10221121590427-Informa%C3%A7%C3%B5es-sobre-a%C3%A7%C3%B5es-de-acolhimento-a-pessoas-em-situa%C3%A7%C3%A3o-de-rua"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "1746",
+          "website": "https://www.1746.rio/hc/pt-br/articles/10221121590427-Informa%C3%A7%C3%B5es-sobre-a%C3%A7%C3%B5es-de-acolhimento-a-pessoas-em-situa%C3%A7%C3%A3o-de-rua",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "disque-100-violacoes-de-direitos-humanos",
-          "name": "Disque 100 — violações de direitos humanos",
+          "title": "Disque 100 — violações de direitos humanos",
+          "description": "Telefone: 100.\nUse para: violência, discriminação, abuso, exploração, retirada indevida de pertences ou recusa de direitos contra pessoas em situação de rua, crianças, idosos, pessoas com deficiência ou população LGBTI+. Em perigo imediato, ligue 190.\nÚltima verificação: 11 de novembro de 2026\nOuvidoria Nacional de Direitos Humanos",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "100",
-                  "href": "tel:100"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Use para:",
-                  "strong": true
-                },
-                {
-                  "text": " violência, discriminação, abuso, exploração, retirada indevida de pertences ou recusa de direitos contra pessoas em situação de rua, crianças, idosos, pessoas com deficiência ou população LGBTI+. Em perigo imediato, ligue 190."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificação:",
-                  "strong": true
-                },
-                {
-                  "text": " 11 de novembro de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ouvidoria Nacional de Direitos Humanos",
-                  "href": "https://www.gov.br/mdh/pt-br/ondh/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "100",
+          "website": "https://www.gov.br/mdh/pt-br/ondh/",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
       "id": "shelter",
-      "title": "2. Acolhimento, banho e apoio na rua",
-      "items": [
+      "title": "Acolhimento, banho e apoio na rua",
+      "entries": [
         {
-          "type": "resource",
           "id": "centro-pop-barbara-calazans",
-          "name": "Centro POP Bárbara Calazans",
+          "title": "Centro POP Bárbara Calazans",
+          "description": "Serviços: atendimento social, banho, higiene, lavagem de roupa, guarda de pertences, documentos, CadÚnico e encaminhamentos. A unidade atende principalmente Centro e bairros próximos.\nÚltima verificação: 11 de novembro de 2026\nCentro POP Bárbara Calazans — Prefeitura",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Endereço:",
-                  "strong": true
-                },
-                {
-                  "text": " Rua República do Líbano, 54, Centro"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Horário:",
-                  "strong": true
-                },
-                {
-                  "text": " segunda a sexta, 8h–17h; compareça diretamente."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Serviços:",
-                  "strong": true
-                },
-                {
-                  "text": " atendimento social, banho, higiene, lavagem de roupa, guarda de pertences, documentos, CadÚnico e encaminhamentos. A unidade atende principalmente Centro e bairros próximos."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificação:",
-                  "strong": true
-                },
-                {
-                  "text": " 11 de novembro de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Centro POP Bárbara Calazans — Prefeitura",
-                  "href": "https://assistenciasocial.prefeitura.rio/noticias/centro-pop-barbara-calazans-passa-por-reforma-e-ganha-acessibilidade-e-melhor-capacidade-de-atendimento/"
-                }
-              ]
-            }
-          ]
+          "address": "Endereço: Rua República do Líbano, 54, Centro",
+          "phone": "",
+          "website": "https://assistenciasocial.prefeitura.rio/noticias/centro-pop-barbara-calazans-passa-por-reforma-e-ganha-acessibilidade-e-melhor-capacidade-de-atendimento/",
+          "hours": "Horário: segunda a sexta, 8h–17h; compareça diretamente.",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "centro-pop-jose-saramago",
-          "name": "Centro POP José Saramago",
+          "title": "Centro POP José Saramago",
+          "description": "Telefone: (21) 2051-4118; horário: segunda a sexta, 8h–17h.\nServiços: ponto de apoio e atendimento social para pessoas em situação de rua, com encaminhamentos para acolhimento, documentos, benefícios, higiene e outros serviços.\nÚltima verificação: 11 de novembro de 2026\nCentros POP — Rio 1746",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Endereço:",
-                  "strong": true
-                },
-                {
-                  "text": " Rua da Regeneração, 654, Bonsucesso, Rio de Janeiro 21040-170"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(21) 2051-4118",
-                  "href": "tel:+552120514118"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "horário:",
-                  "strong": true
-                },
-                {
-                  "text": " segunda a sexta, 8h–17h."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Serviços:",
-                  "strong": true
-                },
-                {
-                  "text": " ponto de apoio e atendimento social para pessoas em situação de rua, com encaminhamentos para acolhimento, documentos, benefícios, higiene e outros serviços."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificação:",
-                  "strong": true
-                },
-                {
-                  "text": " 11 de novembro de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Centros POP — Rio 1746",
-                  "href": "https://www.1746.rio/hc/pt-br/articles/14456480918427-Informa%C3%A7%C3%B5es-sobre-o-Centro-de-Refer%C3%AAncia-Especializado-para-Popula%C3%A7%C3%A3o-em-Situa%C3%A7%C3%A3o-de-Rua-CENTRO-POP"
-                }
-              ]
-            }
-          ]
+          "address": "Endereço: Rua da Regeneração, 654, Bonsucesso, Rio de Janeiro 21040-170",
+          "phone": "+552120514118",
+          "website": "https://www.1746.rio/hc/pt-br/articles/14456480918427-Informa%C3%A7%C3%B5es-sobre-o-Centro-de-Refer%C3%AAncia-Especializado-para-Popula%C3%A7%C3%A3o-em-Situa%C3%A7%C3%A3o-de-Rua-CENTRO-POP",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "par-carioca-ponto-de-apoio-na-rua",
-          "name": "PAR Carioca — Ponto de Apoio na Rua",
+          "title": "PAR Carioca — Ponto de Apoio na Rua",
+          "description": "Serviços: banheiros, banho, lavanderia, armários com cadeado, barbeiro, itens de higiene, roupas, documentos, Consultório na Rua, saúde mental e atendimento veterinário com vacinação e microchipagem.\nÚltima verificação: 11 de novembro de 2026\nPAR Carioca — Prefeitura",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Localização publicada:",
-                  "strong": true
-                },
-                {
-                  "text": " Avenida Henrique Valadares, próximo à Praça da Cruz Vermelha, Centro"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Horário:",
-                  "strong": true
-                },
-                {
-                  "text": " portas abertas 24 horas. Confirme a entrada exata pelo 1746."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Serviços:",
-                  "strong": true
-                },
-                {
-                  "text": " banheiros, banho, lavanderia, armários com cadeado, barbeiro, itens de higiene, roupas, documentos, Consultório na Rua, saúde mental e atendimento veterinário com vacinação e microchipagem."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificação:",
-                  "strong": true
-                },
-                {
-                  "text": " 11 de novembro de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "PAR Carioca — Prefeitura",
-                  "href": "https://assistenciasocial.prefeitura.rio/noticias/rio-anuncia-plano-de-assistencia-para-pessoas-em-situacao-de-rua/"
-                }
-              ]
-            }
-          ]
+          "address": "Localização publicada: Avenida Henrique Valadares, próximo à Praça da Cruz Vermelha, Centro",
+          "phone": "",
+          "website": "https://assistenciasocial.prefeitura.rio/noticias/rio-anuncia-plano-de-assistencia-para-pessoas-em-situacao-de-rua/",
+          "hours": "Horário: portas abertas 24 horas. Confirme a entrada exata pelo 1746.",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "base-de-abordagem-social-do-centro",
-          "name": "Base de Abordagem Social do Centro",
+          "title": "Base de Abordagem Social do Centro",
+          "description": "Horário publicado: 24 horas.\nServiço: base das equipes que fazem escuta, orientação e mediação de acesso à assistência social, acolhimento e outros direitos. Para pedir abordagem em outro local, ligue 1746.\nÚltima verificação: 11 de novembro de 2026\nBase de abordagem — Prefeitura",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Endereço:",
-                  "strong": true
-                },
-                {
-                  "text": " Rua da Carioca, 58, Centro"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Horário publicado:",
-                  "strong": true
-                },
-                {
-                  "text": " 24 horas."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Serviço:",
-                  "strong": true
-                },
-                {
-                  "text": " base das equipes que fazem escuta, orientação e mediação de acesso à assistência social, acolhimento e outros direitos. Para pedir abordagem em outro local, ligue 1746."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificação:",
-                  "strong": true
-                },
-                {
-                  "text": " 11 de novembro de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Base de abordagem — Prefeitura",
-                  "href": "https://assistenciasocial.prefeitura.rio/noticias/abordagem-especializada-de-populacao-em-situacao-de-rua-ganha-base-no-centro/"
-                }
-              ]
-            }
-          ]
+          "address": "Endereço: Rua da Carioca, 58, Centro",
+          "phone": "",
+          "website": "https://assistenciasocial.prefeitura.rio/noticias/abordagem-especializada-de-populacao-em-situacao-de-rua-ganha-base-no-centro/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "central-de-recepcao-tom-jobim-adultos-e-familias",
-          "name": "Central de Recepção Tom Jobim — adultos e famílias",
+          "title": "Central de Recepção Tom Jobim — adultos e famílias",
+          "description": "Telefone: (21) 3975-2600.\nServiço: recepção emergencial de adultos e famílias em qualquer horário, avaliação e encaminhamento. Pode receber demanda espontânea ou encaminhada, mas a permanência depende da avaliação e das vagas da rede.\nÚltima verificação: 11 de novembro de 2026\nCentrais de Recepção — Prefeitura",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Endereço:",
-                  "strong": true
-                },
-                {
-                  "text": " Estrada dos Maracajás, 973, Galeão, Ilha do Governador"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(21) 3975-2600",
-                  "href": "tel:+552139752600"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Serviço:",
-                  "strong": true
-                },
-                {
-                  "text": " recepção emergencial de adultos e famílias em qualquer horário, avaliação e encaminhamento. Pode receber demanda espontânea ou encaminhada, mas a permanência depende da avaliação e das vagas da rede."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificação:",
-                  "strong": true
-                },
-                {
-                  "text": " 11 de novembro de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Centrais de Recepção — Prefeitura",
-                  "href": "https://assistenciasocial.prefeitura.rio/centrais-de-recepcao/"
-                }
-              ]
-            }
-          ]
+          "address": "Endereço: Estrada dos Maracajás, 973, Galeão, Ilha do Governador",
+          "phone": "+552139752600",
+          "website": "https://assistenciasocial.prefeitura.rio/centrais-de-recepcao/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "central-pastor-carlos-portela-pessoas-idosas",
-          "name": "Central Pastor Carlos Portela — pessoas idosas",
+          "title": "Central Pastor Carlos Portela — pessoas idosas",
+          "description": "Público: pessoas idosas de qualquer gênero que necessitem de recepção e encaminhamento social.\nÚltima verificação: 11 de novembro de 2026\nCentral de Recepção de Idosos — Prefeitura",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Endereço:",
-                  "strong": true
-                },
-                {
-                  "text": " Estrada dos Maracajás, 973, Galeão, Ilha do Governador"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Público:",
-                  "strong": true
-                },
-                {
-                  "text": " pessoas idosas de qualquer gênero que necessitem de recepção e encaminhamento social."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Acesso:",
-                  "strong": true
-                },
-                {
-                  "text": " peça orientação pelo 1746, CREAS ou Centro POP. A vaga não é garantida até a avaliação da rede."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificação:",
-                  "strong": true
-                },
-                {
-                  "text": " 11 de novembro de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Central de Recepção de Idosos — Prefeitura",
-                  "href": "https://assistenciasocial.prefeitura.rio/centrais-de-recepcao/"
-                }
-              ]
-            }
-          ]
+          "address": "Endereço: Estrada dos Maracajás, 973, Galeão, Ilha do Governador",
+          "phone": "",
+          "website": "https://assistenciasocial.prefeitura.rio/centrais-de-recepcao/",
+          "hours": "",
+          "how_to_access": "Acesso: peça orientação pelo 1746, CREAS ou Centro POP. A vaga não é garantida até a avaliação da rede."
         },
         {
-          "type": "resource",
           "id": "albergue-herbert-de-souza-betinho",
-          "name": "Albergue Herbert de Souza — Betinho",
+          "title": "Albergue Herbert de Souza — Betinho",
+          "description": "Última verificação: 11 de novembro de 2026\nUnidades de acolhimento — Prefeitura",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Endereço:",
-                  "strong": true
-                },
-                {
-                  "text": " Rua do Senado, 274, Centro"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Acesso:",
-                  "strong": true
-                },
-                {
-                  "text": " vagas reguladas pela rede municipal. Procure Centro POP, CREAS, abordagem social ou Central de Recepção; ir diretamente ao endereço não garante entrada."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificação:",
-                  "strong": true
-                },
-                {
-                  "text": " 11 de novembro de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Unidades de acolhimento — Prefeitura",
-                  "href": "https://assistenciasocial.prefeitura.rio/acolhimento/"
-                }
-              ]
-            }
-          ]
+          "address": "Endereço: Rua do Senado, 274, Centro",
+          "phone": "",
+          "website": "https://assistenciasocial.prefeitura.rio/acolhimento/",
+          "hours": "",
+          "how_to_access": "Acesso: vagas reguladas pela rede municipal. Procure Centro POP, CREAS, abordagem social ou Central de Recepção; ir diretamente ao endereço não garante entrada."
         },
         {
-          "type": "resource",
           "id": "albergue-nise-da-silveira",
-          "name": "Albergue Nise da Silveira",
+          "title": "Albergue Nise da Silveira",
+          "description": "Última verificação: 11 de novembro de 2026\nRede de acolhimento — Prefeitura",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Endereço:",
-                  "strong": true
-                },
-                {
-                  "text": " Rua General Cadwell, 297, Centro"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Acesso:",
-                  "strong": true
-                },
-                {
-                  "text": " solicite vaga por Centro POP, CREAS, abordagem social ou Central de Recepção. O encaminhamento depende do perfil e da disponibilidade."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificação:",
-                  "strong": true
-                },
-                {
-                  "text": " 11 de novembro de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Rede de acolhimento — Prefeitura",
-                  "href": "https://assistenciasocial.prefeitura.rio/acolhimento/"
-                }
-              ]
-            }
-          ]
+          "address": "Endereço: Rua General Cadwell, 297, Centro",
+          "phone": "",
+          "website": "https://assistenciasocial.prefeitura.rio/acolhimento/",
+          "hours": "",
+          "how_to_access": "Acesso: solicite vaga por Centro POP, CREAS, abordagem social ou Central de Recepção. O encaminhamento depende do perfil e da disponibilidade."
         },
         {
-          "type": "resource",
           "id": "albergue-martin-luther-king-jr",
-          "name": "Albergue Martin Luther King Jr.",
+          "title": "Albergue Martin Luther King Jr.",
+          "description": "Última verificação: 11 de novembro de 2026\nAcolhimento institucional — Prefeitura",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Endereço:",
-                  "strong": true
-                },
-                {
-                  "text": " Rua Sacadura Cabral, 43, Saúde"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Acesso:",
-                  "strong": true
-                },
-                {
-                  "text": " vagas reguladas; comece pelo 1746, Centro POP, CREAS ou equipe de abordagem. Confirme o público atendido antes de se deslocar."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificação:",
-                  "strong": true
-                },
-                {
-                  "text": " 11 de novembro de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Acolhimento institucional — Prefeitura",
-                  "href": "https://assistenciasocial.prefeitura.rio/acolhimento/"
-                }
-              ]
-            }
-          ]
+          "address": "Endereço: Rua Sacadura Cabral, 43, Saúde",
+          "phone": "",
+          "website": "https://assistenciasocial.prefeitura.rio/acolhimento/",
+          "hours": "",
+          "how_to_access": "Acesso: vagas reguladas; comece pelo 1746, Centro POP, CREAS ou equipe de abordagem. Confirme o público atendido antes de se deslocar."
         },
         {
-          "type": "resource",
           "id": "urs-realengo",
-          "name": "URS Realengo",
+          "title": "URS Realengo",
+          "description": "Última verificação: 11 de novembro de 2026\nUnidades de Reinserção Social — Prefeitura",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Endereço:",
-                  "strong": true
-                },
-                {
-                  "text": " Rua Professor Carlos Wenceslau, 211, Realengo; referência: Parque Realengo Susana Naspolini"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Acesso:",
-                  "strong": true
-                },
-                {
-                  "text": " unidade de reinserção social com encaminhamento pela rede municipal. A avaliação considera perfil e vagas disponíveis."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificação:",
-                  "strong": true
-                },
-                {
-                  "text": " 11 de novembro de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Unidades de Reinserção Social — Prefeitura",
-                  "href": "https://assistenciasocial.prefeitura.rio/acolhimento/"
-                }
-              ]
-            }
-          ]
+          "address": "Endereço: Rua Professor Carlos Wenceslau, 211, Realengo; referência: Parque Realengo Susana Naspolini",
+          "phone": "",
+          "website": "https://assistenciasocial.prefeitura.rio/acolhimento/",
+          "hours": "",
+          "how_to_access": "Acesso: unidade de reinserção social com encaminhamento pela rede municipal. A avaliação considera perfil e vagas disponíveis."
         },
         {
-          "type": "resource",
           "id": "albergue-david-miranda-pessoas-lgbtqia",
-          "name": "Albergue David Miranda — pessoas LGBTQIA+",
+          "title": "Albergue David Miranda — pessoas LGBTQIA+",
+          "description": "Público: adultos LGBTQIA+ em vulnerabilidade, conforme avaliação da assistência social.\nÚltima verificação: 11 de novembro de 2026\nAcolhimento especializado — Prefeitura",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Endereço:",
-                  "strong": true
-                },
-                {
-                  "text": " Rua Tenente Possolo, 49, Centro"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Público:",
-                  "strong": true
-                },
-                {
-                  "text": " adultos LGBTQIA+ em vulnerabilidade, conforme avaliação da assistência social."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Acesso:",
-                  "strong": true
-                },
-                {
-                  "text": " peça encaminhamento pelo Centro POP, CREAS ou 1746. Não viaje até a unidade sem confirmar o fluxo e a vaga."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificação:",
-                  "strong": true
-                },
-                {
-                  "text": " 11 de novembro de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Acolhimento especializado — Prefeitura",
-                  "href": "https://assistenciasocial.prefeitura.rio/acolhimento/"
-                }
-              ]
-            }
-          ]
+          "address": "Endereço: Rua Tenente Possolo, 49, Centro",
+          "phone": "",
+          "website": "https://assistenciasocial.prefeitura.rio/acolhimento/",
+          "hours": "",
+          "how_to_access": "Acesso: peça encaminhamento pelo Centro POP, CREAS ou 1746. Não viaje até a unidade sem confirmar o fluxo e a vaga."
         },
         {
-          "type": "resource",
           "id": "urs-maria-tereza-vieira-familias",
-          "name": "URS Maria Tereza Vieira — famílias",
+          "title": "URS Maria Tereza Vieira — famílias",
+          "description": "Público: famílias encaminhadas pela rede municipal.\nÚltima verificação: 11 de novembro de 2026\nRede para grupos e famílias — Prefeitura",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Endereço:",
-                  "strong": true
-                },
-                {
-                  "text": " Rua Botucatu, 215, Grajaú"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Público:",
-                  "strong": true
-                },
-                {
-                  "text": " famílias encaminhadas pela rede municipal."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Acesso:",
-                  "strong": true
-                },
-                {
-                  "text": " procure Centro POP, CREAS, abordagem ou Central Tom Jobim. Leve documentos se tiver, mas a falta deles não deve impedir a primeira orientação."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificação:",
-                  "strong": true
-                },
-                {
-                  "text": " 11 de novembro de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Rede para grupos e famílias — Prefeitura",
-                  "href": "https://assistenciasocial.prefeitura.rio/acolhimento/"
-                }
-              ]
-            }
-          ]
+          "address": "Endereço: Rua Botucatu, 215, Grajaú",
+          "phone": "",
+          "website": "https://assistenciasocial.prefeitura.rio/acolhimento/",
+          "hours": "",
+          "how_to_access": "Acesso: procure Centro POP, CREAS, abordagem ou Central Tom Jobim. Leve documentos se tiver, mas a falta deles não deve impedir a primeira orientação."
         },
         {
-          "type": "resource",
           "id": "urs-irma-dulce-mulheres-adultas",
-          "name": "URS Irmã Dulce — mulheres adultas",
+          "title": "URS Irmã Dulce — mulheres adultas",
+          "description": "Público: mulheres adultas encaminhadas pela assistência social.\nÚltima verificação: 11 de novembro de 2026\nAcolhimento para mulheres — Prefeitura",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Endereço:",
-                  "strong": true
-                },
-                {
-                  "text": " Rua Nacional, 470, Taquara"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Público:",
-                  "strong": true
-                },
-                {
-                  "text": " mulheres adultas encaminhadas pela assistência social."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Acesso:",
-                  "strong": true
-                },
-                {
-                  "text": " peça avaliação pelo Centro POP, CREAS, abordagem ou 1746. Se houver violência ou perseguição, não divulgue seu destino e ligue 180 ou 190."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificação:",
-                  "strong": true
-                },
-                {
-                  "text": " 11 de novembro de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Acolhimento para mulheres — Prefeitura",
-                  "href": "https://assistenciasocial.prefeitura.rio/acolhimento/"
-                }
-              ]
-            }
-          ]
+          "address": "Endereço: Rua Nacional, 470, Taquara",
+          "phone": "",
+          "website": "https://assistenciasocial.prefeitura.rio/acolhimento/",
+          "hours": "",
+          "how_to_access": "Acesso: peça avaliação pelo Centro POP, CREAS, abordagem ou 1746. Se houver violência ou perseguição, não divulgue seu destino e ligue 180 ou 190."
         },
         {
-          "type": "resource",
           "id": "animais-de-estimacao-no-acolhimento",
-          "name": "Animais de estimação no acolhimento",
+          "title": "Animais de estimação no acolhimento",
+          "description": "Regra municipal publicada: a rede deve permitir a entrada dos animais das pessoas acolhidas e oferecer apoio para vacinação, microchipagem e encaminhamento para castração.\nÚltima verificação: 11 de novembro de 2026\nRegras de acolhimento e animais — Prefeitura",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Regra municipal publicada:",
-                  "strong": true
-                },
-                {
-                  "text": " a rede deve permitir a entrada dos animais das pessoas acolhidas e oferecer apoio para vacinação, microchipagem e encaminhamento para castração."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Antes de ir:",
-                  "strong": true
-                },
-                {
-                  "text": " avise ao 1746, Centro POP ou Central que está com animal, informe espécie e porte e confirme a estrutura disponível na unidade indicada."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificação:",
-                  "strong": true
-                },
-                {
-                  "text": " 11 de novembro de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Regras de acolhimento e animais — Prefeitura",
-                  "href": "https://assistenciasocial.prefeitura.rio/noticias/rio-anuncia-plano-de-assistencia-para-pessoas-em-situacao-de-rua/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://assistenciasocial.prefeitura.rio/noticias/rio-anuncia-plano-de-assistencia-para-pessoas-em-situacao-de-rua/",
+          "hours": "",
+          "how_to_access": "Antes de ir: avise ao 1746, Centro POP ou Central que está com animal, informe espécie e porte e confirme a estrutura disponível na unidade indicada."
         }
       ]
     },
     {
       "id": "food",
-      "title": "3. Alimentação",
-      "items": [
+      "title": "Alimentação",
+      "entries": [
         {
-          "type": "resource",
           "id": "restaurante-do-povo-central-do-brasil",
-          "name": "Restaurante do Povo — Central do Brasil",
+          "title": "Restaurante do Povo — Central do Brasil",
+          "description": "Serviço: refeições a preço popular de segunda a sexta. O Estado publica valores entre R$ 1 e R$ 3,50; confirme preço, horário e quantidade no dia.\nÚltima verificação: 11 de novembro de 2026\nRestaurantes do Povo — Governo do Estado",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Endereço:",
-                  "strong": true
-                },
-                {
-                  "text": " Rua Barão de São Félix, sem número, Centro"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Serviço:",
-                  "strong": true
-                },
-                {
-                  "text": " refeições a preço popular de segunda a sexta. O Estado publica valores entre R$ 1 e R$ 3,50; confirme preço, horário e quantidade no dia."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificação:",
-                  "strong": true
-                },
-                {
-                  "text": " 11 de novembro de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Restaurantes do Povo — Governo do Estado",
-                  "href": "https://www.rj.gov.br/secsocial/node/120"
-                }
-              ]
-            }
-          ]
+          "address": "Endereço: Rua Barão de São Félix, sem número, Centro",
+          "phone": "",
+          "website": "https://www.rj.gov.br/secsocial/node/120",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "restaurante-do-povo-bonsucesso",
-          "name": "Restaurante do Povo — Bonsucesso",
+          "title": "Restaurante do Povo — Bonsucesso",
+          "description": "Serviço: refeições a preço popular de segunda a sexta. Chegue cedo e confirme horário e preço antes de viajar; a quantidade diária é limitada.\nÚltima verificação: 11 de novembro de 2026\nEndereços oficiais dos restaurantes",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Endereço:",
-                  "strong": true
-                },
-                {
-                  "text": " Avenida Brasil, 6431, Bonsucesso"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Serviço:",
-                  "strong": true
-                },
-                {
-                  "text": " refeições a preço popular de segunda a sexta. Chegue cedo e confirme horário e preço antes de viajar; a quantidade diária é limitada."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificação:",
-                  "strong": true
-                },
-                {
-                  "text": " 11 de novembro de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Endereços oficiais dos restaurantes",
-                  "href": "https://www.rj.gov.br/secsocial/node/120"
-                }
-              ]
-            }
-          ]
+          "address": "Endereço: Avenida Brasil, 6431, Bonsucesso",
+          "phone": "",
+          "website": "https://www.rj.gov.br/secsocial/node/120",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "restaurante-do-povo-bangu",
-          "name": "Restaurante do Povo — Bangu",
+          "title": "Restaurante do Povo — Bangu",
+          "description": "Serviço: refeições a preço popular de segunda a sexta. Consulte o funcionamento no mesmo dia, porque cardápio, preço e cota podem mudar.\nÚltima verificação: 11 de novembro de 2026\nPrograma Restaurante do Povo",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Endereço:",
-                  "strong": true
-                },
-                {
-                  "text": " Rua Francisco Real, 1780, Bangu"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Serviço:",
-                  "strong": true
-                },
-                {
-                  "text": " refeições a preço popular de segunda a sexta. Consulte o funcionamento no mesmo dia, porque cardápio, preço e cota podem mudar."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificação:",
-                  "strong": true
-                },
-                {
-                  "text": " 11 de novembro de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Programa Restaurante do Povo",
-                  "href": "https://www.rj.gov.br/secsocial/node/120"
-                }
-              ]
-            }
-          ]
+          "address": "Endereço: Rua Francisco Real, 1780, Bangu",
+          "phone": "",
+          "website": "https://www.rj.gov.br/secsocial/node/120",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "restaurante-do-povo-campo-grande",
-          "name": "Restaurante do Povo — Campo Grande",
+          "title": "Restaurante do Povo — Campo Grande",
+          "description": "Serviço: refeições a preço popular de segunda a sexta. Confirme o horário e leve o valor publicado, mas não dependa de um preço sem o confirmar.\nÚltima verificação: 11 de novembro de 2026\nRestaurante do Povo — Governo do Estado",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Endereço:",
-                  "strong": true
-                },
-                {
-                  "text": " Rua Campo Grande, 880, Campo Grande"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Serviço:",
-                  "strong": true
-                },
-                {
-                  "text": " refeições a preço popular de segunda a sexta. Confirme o horário e leve o valor publicado, mas não dependa de um preço sem o confirmar."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificação:",
-                  "strong": true
-                },
-                {
-                  "text": " 11 de novembro de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Restaurante do Povo — Governo do Estado",
-                  "href": "https://www.rj.gov.br/secsocial/node/120"
-                }
-              ]
-            }
-          ]
+          "address": "Endereço: Rua Campo Grande, 880, Campo Grande",
+          "phone": "",
+          "website": "https://www.rj.gov.br/secsocial/node/120",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "refettorio-gastromotiva-jantar-social",
-          "name": "Refettorio Gastromotiva — jantar social",
+          "title": "Refettorio Gastromotiva — jantar social",
+          "description": "Telefone: (21) 4141-1367; horário publicado para o jantar social: segunda a sexta, 17h–18h.\nImportante: o jantar é dirigido a pessoas em vulnerabilidade e pode usar convite ou encaminhamento de parceiros. Ligue antes para confirmar como entrar; o almoço no local é pago.\nÚltima verificação: 11 de novembro de 2026\nRefettorio Gastromotiva — Riotur",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Endereço:",
-                  "strong": true
-                },
-                {
-                  "text": " Rua da Lapa, 108, Lapa"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(21) 4141-1367",
-                  "href": "tel:+552141411367"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "horário publicado para o jantar social:",
-                  "strong": true
-                },
-                {
-                  "text": " segunda a sexta, 17h–18h."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Importante:",
-                  "strong": true
-                },
-                {
-                  "text": " o jantar é dirigido a pessoas em vulnerabilidade e pode usar convite ou encaminhamento de parceiros. Ligue antes para confirmar como entrar; o almoço no local é pago."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificação:",
-                  "strong": true
-                },
-                {
-                  "text": " 11 de novembro de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Refettorio Gastromotiva — Riotur",
-                  "href": "https://riotur.rio/onde_comer/restaurante-gastromovita/"
-                }
-              ]
-            }
-          ]
+          "address": "Endereço: Rua da Lapa, 108, Lapa",
+          "phone": "+552141411367",
+          "website": "https://riotur.rio/onde_comer/restaurante-gastromovita/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "fraternidade-na-rua-almoco",
-          "name": "Fraternidade na Rua — almoço",
+          "title": "Fraternidade na Rua — almoço",
+          "description": "Contato: (21) 96787-0566.\nAgenda publicada: almoço e assistência social, segunda a sexta às 12h; às quartas também há banho, roupas, artesanato e leitura. Chegue antes e confirme a agenda.\nÚltima verificação: 11 de novembro de 2026\nFraternidade na Rua — Polo Rio",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Endereço:",
-                  "strong": true
-                },
-                {
-                  "text": " Rua do Senado, 52, Centro"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Contato:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(21) 96787-0566",
-                  "href": "tel:+5521967870566"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Agenda publicada:",
-                  "strong": true
-                },
-                {
-                  "text": " almoço e assistência social, segunda a sexta às 12h; às quartas também há banho, roupas, artesanato e leitura. Chegue antes e confirme a agenda."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificação:",
-                  "strong": true
-                },
-                {
-                  "text": " 11 de novembro de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Fraternidade na Rua — Polo Rio",
-                  "href": "https://www.fraternidadesemfronteiras.org.br/projetos/fraternidade-na-rua-corrompido/polo-rio-de-janeiro/"
-                }
-              ]
-            }
-          ]
+          "address": "Endereço: Rua do Senado, 52, Centro",
+          "phone": "+5521967870566",
+          "website": "https://www.fraternidadesemfronteiras.org.br/projetos/fraternidade-na-rua-corrompido/polo-rio-de-janeiro/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "casa-franciscana-sefras",
-          "name": "Casa Franciscana — SEFRAS",
+          "title": "Casa Franciscana — SEFRAS",
+          "description": "Telefone: (21) 3090-9090.\nServiço publicado: distribuição diária de refeições a mais de 200 pessoas, além de ações de prevenção e cuidado. Ligue para confirmar ponto e horário antes de ir.\nÚltima verificação: 11 de novembro de 2026\nCasa Franciscana — SEFRAS",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Endereço:",
-                  "strong": true
-                },
-                {
-                  "text": " Rua Visconde da Gávea, 125, Centro, Rio de Janeiro 20221-400"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(21) 3090-9090",
-                  "href": "tel:+552130909090"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Serviço publicado:",
-                  "strong": true
-                },
-                {
-                  "text": " distribuição diária de refeições a mais de 200 pessoas, além de ações de prevenção e cuidado. Ligue para confirmar ponto e horário antes de ir."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificação:",
-                  "strong": true
-                },
-                {
-                  "text": " 11 de novembro de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Casa Franciscana — SEFRAS",
-                  "href": "https://www.sefras.org.br/populacao-em-situacao-de-rua"
-                }
-              ]
-            }
-          ]
+          "address": "Endereço: Rua Visconde da Gávea, 125, Centro, Rio de Janeiro 20221-400",
+          "phone": "+552130909090",
+          "website": "https://www.sefras.org.br/populacao-em-situacao-de-rua",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "alimentacao-no-centro-pop-e-no-par-carioca",
-          "name": "Alimentação no Centro POP e no PAR Carioca",
+          "title": "Alimentação no Centro POP e no PAR Carioca",
+          "description": "Centro POP: pode oferecer alimentação e encaminhar para a rede; vá de segunda a sexta, 8h–17h.\nPAR Carioca: funciona 24 horas e pode orientar sobre alimentação e outros apoios. A oferta concreta e os horários variam; pergunte no local.\nÚltima verificação: 11 de novembro de 2026\nServiços do Centro POP — Governo Federal",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Centro POP:",
-                  "strong": true
-                },
-                {
-                  "text": " pode oferecer alimentação e encaminhar para a rede; vá de segunda a sexta, 8h–17h."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "PAR Carioca:",
-                  "strong": true
-                },
-                {
-                  "text": " funciona 24 horas e pode orientar sobre alimentação e outros apoios. A oferta concreta e os horários variam; pergunte no local."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificação:",
-                  "strong": true
-                },
-                {
-                  "text": " 11 de novembro de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Serviços do Centro POP — Governo Federal",
-                  "href": "https://www.gov.br/mds/pt-br/acoes-e-programas/SUAS/original/unidades-de-atendimento/centro-de-referencia-especializado-para-pessoas-em-situacao-de-rua-centro-pop"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.gov.br/mds/pt-br/acoes-e-programas/SUAS/original/unidades-de-atendimento/centro-de-referencia-especializado-para-pessoas-em-situacao-de-rua-centro-pop",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
       "id": "community",
-      "title": "4. Organizações comunitárias e religiosas",
-      "items": [
+      "title": "Organizações comunitárias e religiosas",
+      "entries": [
         {
-          "type": "resource",
           "id": "fraternidade-na-rua-apoio-completo",
-          "name": "Fraternidade na Rua — apoio completo",
+          "title": "Fraternidade na Rua — apoio completo",
+          "description": "Serviços publicados: refeições, banho em dias específicos, higiene, roupas, corte de cabelo, apoio social e psicológico, oficinas e atendimento de saúde conforme a agenda.\nÚltima verificação: 11 de novembro de 2026\nAgenda do Polo Rio de Janeiro",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Endereço:",
-                  "strong": true
-                },
-                {
-                  "text": " Rua do Senado, 52, Centro"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Serviços publicados:",
-                  "strong": true
-                },
-                {
-                  "text": " refeições, banho em dias específicos, higiene, roupas, corte de cabelo, apoio social e psicológico, oficinas e atendimento de saúde conforme a agenda."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Antes de ir:",
-                  "strong": true
-                },
-                {
-                  "text": " consulte a agenda semanal; nem todos os serviços acontecem todos os dias."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificação:",
-                  "strong": true
-                },
-                {
-                  "text": " 11 de novembro de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Agenda do Polo Rio de Janeiro",
-                  "href": "https://www.fraternidadesemfronteiras.org.br/projetos/fraternidade-na-rua-corrompido/polo-rio-de-janeiro/"
-                }
-              ]
-            }
-          ]
+          "address": "Endereço: Rua do Senado, 52, Centro",
+          "phone": "",
+          "website": "https://www.fraternidadesemfronteiras.org.br/projetos/fraternidade-na-rua-corrompido/polo-rio-de-janeiro/",
+          "hours": "",
+          "how_to_access": "Antes de ir: consulte a agenda semanal; nem todos os serviços acontecem todos os dias."
         },
         {
-          "type": "resource",
           "id": "banho-de-amor-arquidiocese-do-rio",
-          "name": "Banho de Amor — Arquidiocese do Rio",
+          "title": "Banho de Amor — Arquidiocese do Rio",
+          "description": "Área de atuação: entorno da Catedral Metropolitana, no Centro.\nServiços: banhos humanizados, acolhida, escuta, atendimento social, itens de higiene, roupas e encaminhamentos para tratamento e abrigo.\nConfirmação: Vicariato Episcopal para a Caridade Social, (21) 2292-3132, ramal 332. Pergunte o dia, horário e ponto exato.\nÚltima verificação: 11 de novembro de 2026\nVicariato para a Caridade Social",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Área de atuação:",
-                  "strong": true
-                },
-                {
-                  "text": " entorno da Catedral Metropolitana, no Centro."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Serviços:",
-                  "strong": true
-                },
-                {
-                  "text": " banhos humanizados, acolhida, escuta, atendimento social, itens de higiene, roupas e encaminhamentos para tratamento e abrigo."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Confirmação:",
-                  "strong": true
-                },
-                {
-                  "text": " Vicariato Episcopal para a Caridade Social, "
-                },
-                {
-                  "text": "(21) 2292-3132",
-                  "href": "tel:+552122923132"
-                },
-                {
-                  "text": ", ramal 332. Pergunte o dia, horário e ponto exato."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificação:",
-                  "strong": true
-                },
-                {
-                  "text": " 11 de novembro de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Vicariato para a Caridade Social",
-                  "href": "https://arqrio.org.br/vicariato-episcopal-para-a-caridade-social/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+552122923132",
+          "website": "https://arqrio.org.br/vicariato-episcopal-para-a-caridade-social/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "vicariato-episcopal-para-a-caridade-social",
-          "name": "Vicariato Episcopal para a Caridade Social",
+          "title": "Vicariato Episcopal para a Caridade Social",
+          "description": "Telefone: (21) 2292-3132, ramal 332.\nServiço: articula paróquias, pastorais e entidades católicas que oferecem apoio social. Ligue para perguntar pela ação ativa mais próxima com alimentação, roupa, higiene ou encaminhamento.\nÚltima verificação: 11 de novembro de 2026\nProjetos e contatos do Vicariato",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Endereço:",
-                  "strong": true
-                },
-                {
-                  "text": " Rua Benjamin Constant, 23, 5.º andar, Glória"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(21) 2292-3132",
-                  "href": "tel:+552122923132"
-                },
-                {
-                  "text": ", ramal 332."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Serviço:",
-                  "strong": true
-                },
-                {
-                  "text": " articula paróquias, pastorais e entidades católicas que oferecem apoio social. Ligue para perguntar pela ação ativa mais próxima com alimentação, roupa, higiene ou encaminhamento."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificação:",
-                  "strong": true
-                },
-                {
-                  "text": " 11 de novembro de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Projetos e contatos do Vicariato",
-                  "href": "https://arqrio.org.br/vicariato-episcopal-para-a-caridade-social/"
-                }
-              ]
-            }
-          ]
+          "address": "Endereço: Rua Benjamin Constant, 23, 5.º andar, Glória",
+          "phone": "+552122923132",
+          "website": "https://arqrio.org.br/vicariato-episcopal-para-a-caridade-social/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "pares-caritas-rj-refugiados-e-solicitantes-de-refugio",
-          "name": "PARES Cáritas RJ — refugiados e solicitantes de refúgio",
+          "title": "PARES Cáritas RJ — refugiados e solicitantes de refúgio",
+          "description": "Telefones: (21) 99794-5436 ou (21) 2567-4105.\nServiços: apoio jurídico e social, documentos migratórios, acesso a serviços, cursos e emprego; cesta ou auxílio somente em casos avaliados e quando há disponibilidade. O atendimento diário é limitado.\nÚltima verificação: 11 de novembro de 2026\nAtendimento do PARES Cáritas RJ",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Endereço:",
-                  "strong": true
-                },
-                {
-                  "text": " Rua São Francisco Xavier, 483, Maracanã, Rio de Janeiro 20550-011"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefones:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(21) 99794-5436",
-                  "href": "tel:+5521997945436"
-                },
-                {
-                  "text": " ou "
-                },
-                {
-                  "text": "(21) 2567-4105",
-                  "href": "tel:+552125674105"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Horário:",
-                  "strong": true
-                },
-                {
-                  "text": " segunda, terça, quinta e sexta, 9h–12h e 13h30–16h; fechado quarta e feriados."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Serviços:",
-                  "strong": true
-                },
-                {
-                  "text": " apoio jurídico e social, documentos migratórios, acesso a serviços, cursos e emprego; cesta ou auxílio somente em casos avaliados e quando há disponibilidade. O atendimento diário é limitado."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificação:",
-                  "strong": true
-                },
-                {
-                  "text": " 11 de novembro de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Atendimento do PARES Cáritas RJ",
-                  "href": "https://www.caritas-rj.org.br/atendimentos.html"
-                }
-              ]
-            }
-          ]
+          "address": "Endereço: Rua São Francisco Xavier, 483, Maracanã, Rio de Janeiro 20550-011",
+          "phone": "+5521997945436",
+          "website": "https://www.caritas-rj.org.br/atendimentos.html",
+          "hours": "Horário: segunda, terça, quinta e sexta, 9h–12h e 13h30–16h; fechado quarta e feriados.",
+          "how_to_access": ""
         }
       ]
+    },
+    {
+      "id": "hygiene",
+      "title": "Showers, laundry and hygiene",
+      "entries": []
+    },
+    {
+      "id": "clothing",
+      "title": "Clothing",
+      "entries": []
     },
     {
       "id": "health",
-      "title": "5. Saúde e saúde mental",
-      "items": [
+      "title": "Saúde e saúde mental",
+      "entries": [
         {
-          "type": "resource",
           "id": "consultorio-na-rua",
-          "name": "Consultório na Rua",
+          "title": "Consultório na Rua",
+          "description": "Serviço: 15 equipes móveis na capital fazem consultas, vacinação, testes, curativos, pré-natal, prevenção, saúde mental e encaminhamentos pelo SUS.\nÚltima verificação: 11 de novembro de 2026\nConsultório na Rua no Rio — Ministério da Saúde",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Serviço:",
-                  "strong": true
-                },
-                {
-                  "text": " 15 equipes móveis na capital fazem consultas, vacinação, testes, curativos, pré-natal, prevenção, saúde mental e encaminhamentos pelo SUS."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Como encontrar:",
-                  "strong": true
-                },
-                {
-                  "text": " pergunte ao Centro POP, PAR Carioca, equipe de abordagem ou unidade de saúde qual é a rota no seu território. Os horários mudam conforme a área."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificação:",
-                  "strong": true
-                },
-                {
-                  "text": " 11 de novembro de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Consultório na Rua no Rio — Ministério da Saúde",
-                  "href": "https://www.gov.br/saude/pt-br/assuntos/noticias-ms/2026/outubro/rio-de-janeiro-conta-com-15-unidades-moveis-para-atendimento-a-populacao-em-situacao-de-rua"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.gov.br/saude/pt-br/assuntos/noticias-ms/2026/outubro/rio-de-janeiro-conta-com-15-unidades-moveis-para-atendimento-a-populacao-em-situacao-de-rua",
+          "hours": "",
+          "how_to_access": "Como encontrar: pergunte ao Centro POP, PAR Carioca, equipe de abordagem ou unidade de saúde qual é a rota no seu território. Os horários mudam conforme a área."
         },
         {
-          "type": "resource",
           "id": "clinica-da-familia-ou-centro-municipal-de-saude",
-          "name": "Clínica da Família ou Centro Municipal de Saúde",
+          "title": "Clínica da Família ou Centro Municipal de Saúde",
+          "description": "Serviços: consultas, curativos, vacinação, tuberculose, saúde sexual, receitas, pré-natal e encaminhamentos. Todo profissional do SUS tem responsabilidade de atender a população em situação de rua.\nComo localizar: use o serviço Onde Ser Atendido ou peça ao Centro POP/Consultório na Rua. Explique se não tem comprovante de endereço ou documento.\nÚltima verificação: 11 de novembro de 2026\nOnde Ser Atendido — Prefeitura",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Serviços:",
-                  "strong": true
-                },
-                {
-                  "text": " consultas, curativos, vacinação, tuberculose, saúde sexual, receitas, pré-natal e encaminhamentos. Todo profissional do SUS tem responsabilidade de atender a população em situação de rua."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Como localizar:",
-                  "strong": true
-                },
-                {
-                  "text": " use o serviço Onde Ser Atendido ou peça ao Centro POP/Consultório na Rua. Explique se não tem comprovante de endereço ou documento."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificação:",
-                  "strong": true
-                },
-                {
-                  "text": " 11 de novembro de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Onde Ser Atendido — Prefeitura",
-                  "href": "https://prefeitura.rio/ondeseratendido/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://prefeitura.rio/ondeseratendido/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "upa-cer-ou-hospital-urgencia",
-          "name": "UPA, CER ou hospital — urgência",
+          "title": "UPA, CER ou hospital — urgência",
+          "description": "Use para: problemas graves que precisam de avaliação no mesmo dia. As unidades de urgência e emergência funcionam 24 horas.\nEm risco de vida ou sem conseguir deslocar-se: ligue 192. Para encontrar a unidade, consulte a lista municipal.\nÚltima verificação: 11 de novembro de 2026\nUrgência e emergência — Prefeitura",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Use para:",
-                  "strong": true
-                },
-                {
-                  "text": " problemas graves que precisam de avaliação no mesmo dia. As unidades de urgência e emergência funcionam 24 horas."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Em risco de vida ou sem conseguir deslocar-se:",
-                  "strong": true
-                },
-                {
-                  "text": " ligue "
-                },
-                {
-                  "text": "192",
-                  "href": "tel:192"
-                },
-                {
-                  "text": ". Para encontrar a unidade, consulte a lista municipal."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificação:",
-                  "strong": true
-                },
-                {
-                  "text": " 11 de novembro de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Urgência e emergência — Prefeitura",
-                  "href": "https://saude.prefeitura.rio/urgencia-e-emergencia/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "192",
+          "website": "https://saude.prefeitura.rio/urgencia-e-emergencia/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "caps-saude-mental-e-alcool-ou-outras-drogas",
-          "name": "CAPS — saúde mental e álcool ou outras drogas",
+          "title": "CAPS — saúde mental e álcool ou outras drogas",
+          "description": "Serviço: cuidado em saúde mental, crise e redução de danos. Peça a unidade de referência no Centro POP, Consultório na Rua, Clínica da Família ou 1746.\nEm risco imediato, surto com perigo, inconsciência ou overdose: ligue 192. Acolhimento em CAPS não é vaga de moradia.\nÚltima verificação: 11 de novembro de 2026\nConsultório na Rua e articulação com CAPS",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Serviço:",
-                  "strong": true
-                },
-                {
-                  "text": " cuidado em saúde mental, crise e redução de danos. Peça a unidade de referência no Centro POP, Consultório na Rua, Clínica da Família ou 1746."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Em risco imediato, surto com perigo, inconsciência ou overdose:",
-                  "strong": true
-                },
-                {
-                  "text": " ligue 192. Acolhimento em CAPS não é vaga de moradia."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificação:",
-                  "strong": true
-                },
-                {
-                  "text": " 11 de novembro de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Consultório na Rua e articulação com CAPS",
-                  "href": "https://www.gov.br/saude/pt-br/composicao/saps/esf/consultorio-na-rua/consultorio-na-rua"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.gov.br/saude/pt-br/composicao/saps/esf/consultorio-na-rua/consultorio-na-rua",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "disque-saude-sus",
-          "name": "Disque Saúde — SUS",
+          "title": "Disque Saúde — SUS",
+          "description": "Telefone: 136.\nServiço: informação sobre o SUS, Cartão Nacional de Saúde, acesso a unidades e registro de reclamações. Não substitui o 192 em emergência.\nÚltima verificação: 11 de novembro de 2026\nOuvSUS e Disque Saúde 136",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "136",
-                  "href": "tel:136"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Serviço:",
-                  "strong": true
-                },
-                {
-                  "text": " informação sobre o SUS, Cartão Nacional de Saúde, acesso a unidades e registro de reclamações. Não substitui o 192 em emergência."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificação:",
-                  "strong": true
-                },
-                {
-                  "text": " 11 de novembro de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "OuvSUS e Disque Saúde 136",
-                  "href": "https://www.gov.br/saude/pt-br/canais-de-atendimento/ouvsus"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "136",
+          "website": "https://www.gov.br/saude/pt-br/canais-de-atendimento/ouvsus",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "saude-e-veterinario-no-par-carioca",
-          "name": "Saúde e veterinário no PAR Carioca",
+          "title": "Saúde e veterinário no PAR Carioca",
+          "description": "Local: Avenida Henrique Valadares, próximo à Praça da Cruz Vermelha, Centro; confirme a entrada pelo 1746.\nServiços: Consultório na Rua, prevenção, saúde mental e cuidados veterinários para animais de pessoas em situação de rua, incluindo vacinação e microchipagem conforme avaliação e disponibilidade.\nÚltima verificação: 11 de novembro de 2026\nServiços de saúde no PAR Carioca",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Local:",
-                  "strong": true
-                },
-                {
-                  "text": " Avenida Henrique Valadares, próximo à Praça da Cruz Vermelha, Centro; confirme a entrada pelo 1746."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Serviços:",
-                  "strong": true
-                },
-                {
-                  "text": " Consultório na Rua, prevenção, saúde mental e cuidados veterinários para animais de pessoas em situação de rua, incluindo vacinação e microchipagem conforme avaliação e disponibilidade."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificação:",
-                  "strong": true
-                },
-                {
-                  "text": " 11 de novembro de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Serviços de saúde no PAR Carioca",
-                  "href": "https://saude.prefeitura.rio/noticias/rio-anuncia-plano-de-assistencia-para-pessoas-em-situacao-de-rua/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://saude.prefeitura.rio/noticias/rio-anuncia-plano-de-assistencia-para-pessoas-em-situacao-de-rua/",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
-      "id": "government",
-      "title": "6. Benefícios e assistência pública",
-      "items": [
+      "id": "mental-health",
+      "title": "Mental health and addiction",
+      "entries": []
+    },
+    {
+      "id": "public-facilities",
+      "title": "Public toilets and day facilities",
+      "entries": []
+    },
+    {
+      "id": "phone-internet",
+      "title": "Phone charging and internet",
+      "entries": []
+    },
+    {
+      "id": "transport",
+      "title": "Transport",
+      "entries": []
+    },
+    {
+      "id": "benefits",
+      "title": "Benefícios e assistência pública",
+      "entries": [
         {
-          "type": "resource",
           "id": "cadrio-cadastro-unico",
-          "name": "CADRio — Cadastro Único",
+          "title": "CADRio — Cadastro Único",
+          "description": "Serviço: inscrição ou atualização do CadÚnico, usado para analisar acesso a Bolsa Família, BPC, Tarifa Social e outros programas. Cadastro não garante benefício.\nComo usar: agende no CADRio. Se não tem internet, peça ajuda no Centro POP, CRAS ou 1746.\nÚltima verificação: 11 de novembro de 2026\nCADRio — Prefeitura",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Central Centro:",
-                  "strong": true
-                },
-                {
-                  "text": " Rua da Carioca, 58, Centro"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Serviço:",
-                  "strong": true
-                },
-                {
-                  "text": " inscrição ou atualização do CadÚnico, usado para analisar acesso a Bolsa Família, BPC, Tarifa Social e outros programas. Cadastro não garante benefício."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Como usar:",
-                  "strong": true
-                },
-                {
-                  "text": " agende no CADRio. Se não tem internet, peça ajuda no Centro POP, CRAS ou 1746."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificação:",
-                  "strong": true
-                },
-                {
-                  "text": " 11 de novembro de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "CADRio — Prefeitura",
-                  "href": "https://assistenciasocial.prefeitura.rio/cadrio/"
-                }
-              ]
-            }
-          ]
+          "address": "Central Centro: Rua da Carioca, 58, Centro",
+          "phone": "",
+          "website": "https://assistenciasocial.prefeitura.rio/cadrio/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "cras-assistencia-e-beneficios",
-          "name": "CRAS — assistência e benefícios",
+          "title": "CRAS — assistência e benefícios",
+          "description": "Serviço: porta de entrada para proteção social básica, orientação sobre benefícios, CadÚnico, convivência e apoio familiar.\nÚltima verificação: 11 de novembro de 2026\nCRAS e endereços — Prefeitura",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Serviço:",
-                  "strong": true
-                },
-                {
-                  "text": " porta de entrada para proteção social básica, orientação sobre benefícios, CadÚnico, convivência e apoio familiar."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Como encontrar:",
-                  "strong": true
-                },
-                {
-                  "text": " consulte a lista por território ou ligue 1746. Para situações específicas de rua e acolhimento, o Centro POP ou CREAS pode ser a melhor primeira porta."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificação:",
-                  "strong": true
-                },
-                {
-                  "text": " 11 de novembro de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "CRAS e endereços — Prefeitura",
-                  "href": "https://assistenciasocial.prefeitura.rio/cras/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://assistenciasocial.prefeitura.rio/cras/",
+          "hours": "",
+          "how_to_access": "Como encontrar: consulte a lista por território ou ligue 1746. Para situações específicas de rua e acolhimento, o Centro POP ou CREAS pode ser a melhor primeira porta."
         },
         {
-          "type": "resource",
           "id": "creas-violacao-de-direitos-e-risco-social",
-          "name": "CREAS — violação de direitos e risco social",
+          "title": "CREAS — violação de direitos e risco social",
+          "description": "Horário geral publicado: segunda a sexta, 8h–17h.\nServiço: assistência especializada para pessoas e famílias com direitos ameaçados ou violados, inclusive situação de rua, violência e necessidade de acolhimento. Use a lista municipal para encontrar o território.\nÚltima verificação: 11 de novembro de 2026\nCREAS — Rio 1746",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Horário geral publicado:",
-                  "strong": true
-                },
-                {
-                  "text": " segunda a sexta, 8h–17h."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Serviço:",
-                  "strong": true
-                },
-                {
-                  "text": " assistência especializada para pessoas e famílias com direitos ameaçados ou violados, inclusive situação de rua, violência e necessidade de acolhimento. Use a lista municipal para encontrar o território."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificação:",
-                  "strong": true
-                },
-                {
-                  "text": " 11 de novembro de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "CREAS — Rio 1746",
-                  "href": "https://www.1746.rio/hc/pt-br/articles/14456306711067-Informa%C3%A7%C3%B5es-sobre-os-Centros-de-Refer%C3%AAncia-Especializado-de-Assist%C3%AAncia-Social-CREAS"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.1746.rio/hc/pt-br/articles/14456306711067-Informa%C3%A7%C3%B5es-sobre-os-Centros-de-Refer%C3%AAncia-Especializado-de-Assist%C3%AAncia-Social-CREAS",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "disque-social-beneficios-federais",
-          "name": "Disque Social — benefícios federais",
+          "title": "Disque Social — benefícios federais",
+          "description": "Telefone: 121; atendimento eletrônico 24 horas e humano nos horários publicados pelo Governo Federal.\nServiço: CadÚnico, Bolsa Família, BPC e outros programas sociais. Tenha CPF ou NIS se possuir, mas peça orientação mesmo sem eles.\nÚltima verificação: 11 de novembro de 2026\nDisque Social 121",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "121",
-                  "href": "tel:121"
-                },
-                {
-                  "text": "; atendimento eletrônico 24 horas e humano nos horários publicados pelo Governo Federal."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Serviço:",
-                  "strong": true
-                },
-                {
-                  "text": " CadÚnico, Bolsa Família, BPC e outros programas sociais. Tenha CPF ou NIS se possuir, mas peça orientação mesmo sem eles."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificação:",
-                  "strong": true
-                },
-                {
-                  "text": " 11 de novembro de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Disque Social 121",
-                  "href": "https://www.gov.br/mds/pt-br/canais_atendimento/disque-social-121"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "121",
+          "website": "https://www.gov.br/mds/pt-br/canais_atendimento/disque-social-121",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "beneficio-de-prestacao-continuada-bpc",
-          "name": "Benefício de Prestação Continuada — BPC",
+          "title": "Benefício de Prestação Continuada — BPC",
+          "description": "Para quem: pessoa com 65 anos ou mais ou pessoa com deficiência de família de baixa renda, se cumprir os critérios legais.\nPrimeiros passos: atualize o CadÚnico e peça orientação no CRAS, Centro POP, 121 ou INSS 135. Não pague intermediários; o pedido não garante concessão.\nÚltima verificação: 11 de novembro de 2026\nRegras oficiais do BPC",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Para quem:",
-                  "strong": true
-                },
-                {
-                  "text": " pessoa com 65 anos ou mais ou pessoa com deficiência de família de baixa renda, se cumprir os critérios legais."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Primeiros passos:",
-                  "strong": true
-                },
-                {
-                  "text": " atualize o CadÚnico e peça orientação no CRAS, Centro POP, 121 ou INSS 135. Não pague intermediários; o pedido não garante concessão."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificação:",
-                  "strong": true
-                },
-                {
-                  "text": " 11 de novembro de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Regras oficiais do BPC",
-                  "href": "https://www.gov.br/mds/pt-br/acoes-e-programas/SUAS/beneficios-assistenciais/beneficio-assistencial-ao-idoso-e-a-pessoa-com-deficiencia-bpc"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.gov.br/mds/pt-br/acoes-e-programas/SUAS/beneficios-assistenciais/beneficio-assistencial-ao-idoso-e-a-pessoa-com-deficiencia-bpc",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
-      "id": "work",
-      "title": "7. Trabalho e renda",
-      "items": [
+      "id": "employment",
+      "title": "Trabalho e renda",
+      "entries": [
         {
-          "type": "resource",
           "id": "central-do-trabalhador-centro-ciad",
-          "name": "Central do Trabalhador — Centro / CIAD",
+          "title": "Central do Trabalhador — Centro / CIAD",
+          "description": "Serviços: vagas, cadastro de currículo, orientações sobre cursos, Carteira de Trabalho Digital e seguro-desemprego. O CIAD concentra também vagas para pessoas com deficiência.\nDocumentos publicados: RG, CPF, PIS e currículo; se não os tiver, comece pelo Centro POP ou PAR Carioca.\nÚltima verificação: 11 de novembro de 2026\nCentral do Trabalhador — Prefeitura",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Endereço:",
-                  "strong": true
-                },
-                {
-                  "text": " Avenida Presidente Vargas, 1997, Centro"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Horário:",
-                  "strong": true
-                },
-                {
-                  "text": " segunda a sexta, 8h–16h."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Serviços:",
-                  "strong": true
-                },
-                {
-                  "text": " vagas, cadastro de currículo, orientações sobre cursos, Carteira de Trabalho Digital e seguro-desemprego. O CIAD concentra também vagas para pessoas com deficiência."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Documentos publicados:",
-                  "strong": true
-                },
-                {
-                  "text": " RG, CPF, PIS e currículo; se não os tiver, comece pelo Centro POP ou PAR Carioca."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificação:",
-                  "strong": true
-                },
-                {
-                  "text": " 11 de novembro de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Central do Trabalhador — Prefeitura",
-                  "href": "https://trabalho.prefeitura.rio/perguntas-frequentes/"
-                }
-              ]
-            }
-          ]
+          "address": "Endereço: Avenida Presidente Vargas, 1997, Centro",
+          "phone": "",
+          "website": "https://trabalho.prefeitura.rio/perguntas-frequentes/",
+          "hours": "Horário: segunda a sexta, 8h–16h.",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "posto-avancado-trabalha-rio-cidade-nova",
-          "name": "Posto Avançado Trabalha Rio — Cidade Nova",
+          "title": "Posto Avançado Trabalha Rio — Cidade Nova",
+          "description": "Serviços: cadastro em oportunidades, informação sobre vagas e cursos e orientação trabalhista básica. Leve os documentos que tiver e explique o que falta.\nÚltima verificação: 11 de novembro de 2026\nPostos e vagas da SMTE",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Endereço:",
-                  "strong": true
-                },
-                {
-                  "text": " Rua Afonso Cavalcanti, 455, Cidade Nova"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Horário:",
-                  "strong": true
-                },
-                {
-                  "text": " segunda a sexta, 8h–16h."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Serviços:",
-                  "strong": true
-                },
-                {
-                  "text": " cadastro em oportunidades, informação sobre vagas e cursos e orientação trabalhista básica. Leve os documentos que tiver e explique o que falta."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificação:",
-                  "strong": true
-                },
-                {
-                  "text": " 11 de novembro de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Postos e vagas da SMTE",
-                  "href": "https://trabalho.prefeitura.rio/noticias/12852-3-2-3-2-2-2-3-2-2-2-2-2-2-2-2-3-2/"
-                }
-              ]
-            }
-          ]
+          "address": "Endereço: Rua Afonso Cavalcanti, 455, Cidade Nova",
+          "phone": "",
+          "website": "https://trabalho.prefeitura.rio/noticias/12852-3-2-3-2-2-2-3-2-2-2-2-2-2-2-2-3-2/",
+          "hours": "Horário: segunda a sexta, 8h–16h.",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "oportunidades-cariocas-vagas-atualizadas",
-          "name": "Oportunidades Cariocas — vagas atualizadas",
+          "title": "Oportunidades Cariocas — vagas atualizadas",
+          "description": "Serviço: a Secretaria publica semanalmente vagas e recebe candidaturas pelo portal ou nos postos presenciais.\nImportante: a lista muda toda semana e candidatura não garante entrevista. Não pague por vaga. Quem não tem internet pode ir a uma Central do Trabalhador.\nÚltima verificação: 11 de novembro de 2026\nOportunidades Cariocas",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Serviço:",
-                  "strong": true
-                },
-                {
-                  "text": " a Secretaria publica semanalmente vagas e recebe candidaturas pelo portal ou nos postos presenciais."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Importante:",
-                  "strong": true
-                },
-                {
-                  "text": " a lista muda toda semana e candidatura não garante entrevista. Não pague por vaga. Quem não tem internet pode ir a uma Central do Trabalhador."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificação:",
-                  "strong": true
-                },
-                {
-                  "text": " 11 de novembro de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Oportunidades Cariocas",
-                  "href": "https://pref.rio/servicos/trabalho"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://pref.rio/servicos/trabalho",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "programa-trabalha-rio-atendimento-itinerante",
-          "name": "Programa Trabalha Rio — atendimento itinerante",
+          "title": "Programa Trabalha Rio — atendimento itinerante",
+          "description": "Serviço: ações semanais em diferentes bairros para cadastrar currículos, divulgar vagas e cursos e orientar sobre Carteira de Trabalho e seguro-desemprego.\nÚltima verificação: 11 de novembro de 2026\nPrograma Trabalha Rio",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Serviço:",
-                  "strong": true
-                },
-                {
-                  "text": " ações semanais em diferentes bairros para cadastrar currículos, divulgar vagas e cursos e orientar sobre Carteira de Trabalho e seguro-desemprego."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Como encontrar:",
-                  "strong": true
-                },
-                {
-                  "text": " consulte a programação municipal ou pergunte na Central do Trabalhador. Os locais mudam."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificação:",
-                  "strong": true
-                },
-                {
-                  "text": " 11 de novembro de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Programa Trabalha Rio",
-                  "href": "https://pref.rio/servicos/categoria/trabalho/programa-trabalha-rio-64b432e9"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://pref.rio/servicos/categoria/trabalho/programa-trabalha-rio-64b432e9",
+          "hours": "",
+          "how_to_access": "Como encontrar: consulte a programação municipal ou pergunte na Central do Trabalhador. Os locais mudam."
         },
         {
-          "type": "resource",
           "id": "sine-rj-e-emprega-brasil",
-          "name": "SINE-RJ e Emprega Brasil",
+          "title": "SINE-RJ e Emprega Brasil",
+          "description": "Serviços gratuitos: intermediação de emprego, seguro-desemprego e orientação sobre Carteira de Trabalho Digital.\nComo procurar vaga: use Emprega Brasil, SINE Fácil ou uma unidade presencial. O cadastro costuma pedir CTPS, CPF e PIS; peça ao Centro POP ajuda para obter os documentos primeiro.\nÚltima verificação: 11 de novembro de 2026\nSINE-RJ — perguntas frequentes",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Serviços gratuitos:",
-                  "strong": true
-                },
-                {
-                  "text": " intermediação de emprego, seguro-desemprego e orientação sobre Carteira de Trabalho Digital."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Como procurar vaga:",
-                  "strong": true
-                },
-                {
-                  "text": " use Emprega Brasil, SINE Fácil ou uma unidade presencial. O cadastro costuma pedir CTPS, CPF e PIS; peça ao Centro POP ajuda para obter os documentos primeiro."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificação:",
-                  "strong": true
-                },
-                {
-                  "text": " 11 de novembro de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "SINE-RJ — perguntas frequentes",
-                  "href": "https://www.rj.gov.br/trabalho/perguntas_frequentes"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.rj.gov.br/trabalho/perguntas_frequentes",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "pares-caritas-emprego-para-refugiados",
-          "name": "PARES Cáritas — emprego para refugiados",
+          "title": "PARES Cáritas — emprego para refugiados",
+          "description": "WhatsApp para vagas: (21) 97159-8473.\nPúblico: refugiados e solicitantes de refúgio. A Cáritas também orienta sobre documentação, cursos de português e capacitação. Pergunte pelos critérios e vagas atuais.\nÚltima verificação: 11 de novembro de 2026\nEmprego e cursos — PARES Cáritas RJ",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "WhatsApp para vagas:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(21) 97159-8473",
-                  "href": "tel:+5521971598473"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Público:",
-                  "strong": true
-                },
-                {
-                  "text": " refugiados e solicitantes de refúgio. A Cáritas também orienta sobre documentação, cursos de português e capacitação. Pergunte pelos critérios e vagas atuais."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificação:",
-                  "strong": true
-                },
-                {
-                  "text": " 11 de novembro de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Emprego e cursos — PARES Cáritas RJ",
-                  "href": "https://www.caritas-rj.org.br/atendimentos.html"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "documents",
-      "title": "8. Documentos, endereço e pertences",
-      "items": [
-        {
-          "type": "resource",
-          "id": "centro-pop-documentos-e-endereco-de-referencia",
-          "name": "Centro POP — documentos e endereço de referência",
-          "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Serviços:",
-                  "strong": true
-                },
-                {
-                  "text": " apoio para regularização de documentos civis, CadÚnico e outros encaminhamentos. O endereço do Centro POP pode ser usado como referência para documentos e inclusão no CadÚnico."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Acesso:",
-                  "strong": true
-                },
-                {
-                  "text": " compareça diretamente ao Bárbara Calazans ou José Saramago, segunda a sexta, 8h–17h. O primeiro atendimento é gratuito."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificação:",
-                  "strong": true
-                },
-                {
-                  "text": " 11 de novembro de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Documentos e endereço no Centro POP",
-                  "href": "https://www.gov.br/mds/pt-br/acoes-e-programas/SUAS/original/unidades-de-atendimento/centro-de-referencia-especializado-para-pessoas-em-situacao-de-rua-centro-pop"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "par-carioca-documentos-e-guarda-de-pertences",
-          "name": "PAR Carioca — documentos e guarda de pertences",
-          "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Serviços:",
-                  "strong": true
-                },
-                {
-                  "text": " auxílio para emitir documentos e armários com cadeado, além de banho, lavanderia e higiene."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Local:",
-                  "strong": true
-                },
-                {
-                  "text": " Avenida Henrique Valadares, próximo à Praça da Cruz Vermelha; aberto 24 horas. Confirme a entrada pelo 1746."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificação:",
-                  "strong": true
-                },
-                {
-                  "text": " 11 de novembro de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Serviços do PAR Carioca",
-                  "href": "https://assistenciasocial.prefeitura.rio/noticias/rio-anuncia-plano-de-assistencia-para-pessoas-em-situacao-de-rua/"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "cpf-receita-federal",
-          "name": "CPF — Receita Federal",
-          "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Serviço:",
-                  "strong": true
-                },
-                {
-                  "text": " inscrição, consulta e regularização do CPF. O procedimento adequado depende da situação e alguns parceiros podem cobrar tarifa autorizada."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Antes de pagar:",
-                  "strong": true
-                },
-                {
-                  "text": " peça ajuda no Centro POP ou PAR Carioca e confirme no portal oficial quais documentos e canais gratuitos estão disponíveis."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificação:",
-                  "strong": true
-                },
-                {
-                  "text": " 11 de novembro de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Meu CPF — Receita Federal",
-                  "href": "https://www.gov.br/receitafederal/pt-br/assuntos/meu-cpf"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "carteira-de-trabalho-digital",
-          "name": "Carteira de Trabalho Digital",
-          "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Orientação presencial:",
-                  "strong": true
-                },
-                {
-                  "text": " Central do Trabalhador, Trabalha Rio ou SINE-RJ."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Se não tem telefone, e-mail, CPF ou acesso digital:",
-                  "strong": true
-                },
-                {
-                  "text": " explique a situação no posto e procure primeiro o Centro POP para documentação e endereço de referência."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificação:",
-                  "strong": true
-                },
-                {
-                  "text": " 11 de novembro de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Carteira de Trabalho Digital — Governo Federal",
-                  "href": "https://www.gov.br/pt-br/temas/carteira-de-trabalho-digital"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+5521971598473",
+          "website": "https://www.caritas-rj.org.br/atendimentos.html",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
       "id": "legal",
-      "title": "9. Ajuda jurídica e direitos",
-      "items": [
+      "title": "Ajuda jurídica e direitos",
+      "entries": [
         {
-          "type": "resource",
           "id": "defensoria-publica-do-estado-central-129",
-          "name": "Defensoria Pública do Estado — Central 129",
+          "title": "Defensoria Pública do Estado — Central 129",
+          "description": "Telefone gratuito: 129, dias úteis, 9h–18h; webchat e aplicativo disponíveis 24 horas.\nServiço: orientação e agendamento de assistência jurídica gratuita para quem não pode pagar advogado. Diga se está em situação de rua, sem telefone, endereço ou documentos e se o caso é urgente.\nÚltima verificação: 11 de novembro de 2026\nCanais de atendimento da Defensoria",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefone gratuito:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "129",
-                  "href": "tel:129"
-                },
-                {
-                  "text": ", dias úteis, 9h–18h; webchat e aplicativo disponíveis 24 horas."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Serviço:",
-                  "strong": true
-                },
-                {
-                  "text": " orientação e agendamento de assistência jurídica gratuita para quem não pode pagar advogado. Diga se está em situação de rua, sem telefone, endereço ou documentos e se o caso é urgente."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificação:",
-                  "strong": true
-                },
-                {
-                  "text": " 11 de novembro de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Canais de atendimento da Defensoria",
-                  "href": "https://www.defensoria.rj.def.br/atendimento"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "129",
+          "website": "https://www.defensoria.rj.def.br/atendimento",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "nudedh-e-poprua-itinerante",
-          "name": "NUDEDH e PopRua Itinerante",
+          "title": "NUDEDH e PopRua Itinerante",
+          "description": "Serviço: o Núcleo de Defesa dos Direitos Humanos participa de ações PopRua com orientação jurídica, segunda via de documentos, benefícios e encaminhamentos para saúde e alimentação.\nComo encontrar a próxima ação: ligue 129 ou acompanhe o calendário da Defensoria. As ações são itinerantes e não acontecem diariamente no mesmo local.\nÚltima verificação: 11 de novembro de 2026\nPopRua Itinerante — Defensoria",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Serviço:",
-                  "strong": true
-                },
-                {
-                  "text": " o Núcleo de Defesa dos Direitos Humanos participa de ações PopRua com orientação jurídica, segunda via de documentos, benefícios e encaminhamentos para saúde e alimentação."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Como encontrar a próxima ação:",
-                  "strong": true
-                },
-                {
-                  "text": " ligue 129 ou acompanhe o calendário da Defensoria. As ações são itinerantes e não acontecem diariamente no mesmo local."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificação:",
-                  "strong": true
-                },
-                {
-                  "text": " 11 de novembro de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "PopRua Itinerante — Defensoria",
-                  "href": "https://www.defensoria.rj.def.br/noticia/detalhes/32671-Nudedh-PopRua-Itinerante-faz-acao-no-Centro-do-Rio"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.defensoria.rj.def.br/noticia/detalhes/32671-Nudedh-PopRua-Itinerante-faz-acao-no-Centro-do-Rio",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "direito-ao-atendimento-sem-endereco-fixo",
-          "name": "Direito ao atendimento sem endereço fixo",
+          "title": "Direito ao atendimento sem endereço fixo",
+          "description": "Regra: o Centro POP pode ser endereço de referência. A ausência de moradia ou comprovante não deve impedir o primeiro atendimento social ou de saúde.\nSe houver recusa: anote local, data e nome do serviço, peça justificativa e procure a Defensoria pelo 129 ou registre violação no 100.\nÚltima verificação: 11 de novembro de 2026\nDireitos e referência no Centro POP",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Regra:",
-                  "strong": true
-                },
-                {
-                  "text": " o Centro POP pode ser endereço de referência. A ausência de moradia ou comprovante não deve impedir o primeiro atendimento social ou de saúde."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Se houver recusa:",
-                  "strong": true
-                },
-                {
-                  "text": " anote local, data e nome do serviço, peça justificativa e procure a Defensoria pelo 129 ou registre violação no 100."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificação:",
-                  "strong": true
-                },
-                {
-                  "text": " 11 de novembro de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Direitos e referência no Centro POP",
-                  "href": "https://www.gov.br/mds/pt-br/acoes-e-programas/SUAS/original/unidades-de-atendimento/centro-de-referencia-especializado-para-pessoas-em-situacao-de-rua-centro-pop"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.gov.br/mds/pt-br/acoes-e-programas/SUAS/original/unidades-de-atendimento/centro-de-referencia-especializado-para-pessoas-em-situacao-de-rua-centro-pop",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "centro-de-cidadania-lgbti-capital-i",
-          "name": "Centro de Cidadania LGBTI — Capital I",
+          "title": "Centro de Cidadania LGBTI — Capital I",
+          "description": "Telefones: (21) 2334-9577 / 2334-9578.\nServiços: atendimento social e psicológico, apoio jurídico e encaminhamento em casos de violência, discriminação, documentos e vulnerabilidade. Confirme o horário antes de ir.\nÚltima verificação: 11 de novembro de 2026\nRio sem LGBTIfobia — Governo do Estado",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Endereço:",
-                  "strong": true
-                },
-                {
-                  "text": " prédio da Central do Brasil, 7.º andar, Centro"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefones:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(21) 2334-9577",
-                  "href": "tel:+552123349577"
-                },
-                {
-                  "text": " / "
-                },
-                {
-                  "text": "2334-9578",
-                  "href": "tel:+552123349578"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Serviços:",
-                  "strong": true
-                },
-                {
-                  "text": " atendimento social e psicológico, apoio jurídico e encaminhamento em casos de violência, discriminação, documentos e vulnerabilidade. Confirme o horário antes de ir."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificação:",
-                  "strong": true
-                },
-                {
-                  "text": " 11 de novembro de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Rio sem LGBTIfobia — Governo do Estado",
-                  "href": "https://www.rj.gov.br/secsocial/politicas_publicas_lgbtqi"
-                }
-              ]
-            }
-          ]
+          "address": "Endereço: prédio da Central do Brasil, 7.º andar, Centro",
+          "phone": "+552123349577",
+          "website": "https://www.rj.gov.br/secsocial/politicas_publicas_lgbtqi",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
+    },
+    {
+      "id": "documents",
+      "title": "Documentos, endereço e pertences",
+      "entries": [
+        {
+          "id": "centro-pop-documentos-e-endereco-de-referencia",
+          "title": "Centro POP — documentos e endereço de referência",
+          "description": "Serviços: apoio para regularização de documentos civis, CadÚnico e outros encaminhamentos. O endereço do Centro POP pode ser usado como referência para documentos e inclusão no CadÚnico.\nÚltima verificação: 11 de novembro de 2026\nDocumentos e endereço no Centro POP",
+          "last_verified": "2026-11-11",
+          "address": "",
+          "phone": "",
+          "website": "https://www.gov.br/mds/pt-br/acoes-e-programas/SUAS/original/unidades-de-atendimento/centro-de-referencia-especializado-para-pessoas-em-situacao-de-rua-centro-pop",
+          "hours": "",
+          "how_to_access": "Acesso: compareça diretamente ao Bárbara Calazans ou José Saramago, segunda a sexta, 8h–17h. O primeiro atendimento é gratuito."
+        },
+        {
+          "id": "par-carioca-documentos-e-guarda-de-pertences",
+          "title": "PAR Carioca — documentos e guarda de pertences",
+          "description": "Serviços: auxílio para emitir documentos e armários com cadeado, além de banho, lavanderia e higiene.\nLocal: Avenida Henrique Valadares, próximo à Praça da Cruz Vermelha; aberto 24 horas. Confirme a entrada pelo 1746.\nÚltima verificação: 11 de novembro de 2026\nServiços do PAR Carioca",
+          "last_verified": "2026-11-11",
+          "address": "",
+          "phone": "",
+          "website": "https://assistenciasocial.prefeitura.rio/noticias/rio-anuncia-plano-de-assistencia-para-pessoas-em-situacao-de-rua/",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "cpf-receita-federal",
+          "title": "CPF — Receita Federal",
+          "description": "Serviço: inscrição, consulta e regularização do CPF. O procedimento adequado depende da situação e alguns parceiros podem cobrar tarifa autorizada.\nAntes de pagar: peça ajuda no Centro POP ou PAR Carioca e confirme no portal oficial quais documentos e canais gratuitos estão disponíveis.\nÚltima verificação: 11 de novembro de 2026\nMeu CPF — Receita Federal",
+          "last_verified": "2026-11-11",
+          "address": "",
+          "phone": "",
+          "website": "https://www.gov.br/receitafederal/pt-br/assuntos/meu-cpf",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "carteira-de-trabalho-digital",
+          "title": "Carteira de Trabalho Digital",
+          "description": "Orientação presencial: Central do Trabalhador, Trabalha Rio ou SINE-RJ.\nSe não tem telefone, e-mail, CPF ou acesso digital: explique a situação no posto e procure primeiro o Centro POP para documentação e endereço de referência.\nÚltima verificação: 11 de novembro de 2026\nCarteira de Trabalho Digital — Governo Federal",
+          "last_verified": "2026-11-11",
+          "address": "",
+          "phone": "",
+          "website": "https://www.gov.br/pt-br/temas/carteira-de-trabalho-digital",
+          "hours": "",
+          "how_to_access": ""
+        }
+      ]
+    },
+    {
+      "id": "mail",
+      "title": "Mailing address",
+      "entries": []
+    },
+    {
+      "id": "storage",
+      "title": "Storage",
+      "entries": []
     },
     {
       "id": "safety",
-      "title": "10. Mulheres, crianças e pessoas em risco",
-      "items": [
+      "title": "Mulheres, crianças e pessoas em risco",
+      "entries": [
         {
-          "type": "resource",
           "id": "ligue-180-violencia-contra-a-mulher",
-          "name": "Ligue 180 — violência contra a mulher",
+          "title": "Ligue 180 — violência contra a mulher",
+          "description": "Telefone gratuito: 180, 24 horas; WhatsApp: (61) 9610-0180.\nServiço: acolhimento, orientação, denúncia e informação sobre o serviço especializado mais próximo. Em violência acontecendo ou risco imediato, ligue 190.\nÚltima verificação: 11 de novembro de 2026\nLigue 180 — Ministério das Mulheres",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefone gratuito:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "180",
-                  "href": "tel:180"
-                },
-                {
-                  "text": ", 24 horas; "
-                },
-                {
-                  "text": "WhatsApp:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(61) 9610-0180",
-                  "href": "tel:+556196100180"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Serviço:",
-                  "strong": true
-                },
-                {
-                  "text": " acolhimento, orientação, denúncia e informação sobre o serviço especializado mais próximo. Em violência acontecendo ou risco imediato, ligue 190."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificação:",
-                  "strong": true
-                },
-                {
-                  "text": " 11 de novembro de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ligue 180 — Ministério das Mulheres",
-                  "href": "https://www.gov.br/mulheres/pt-br/ligue180"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "180",
+          "website": "https://www.gov.br/mulheres/pt-br/ligue180",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "tem-saida-24h-central-1746",
-          "name": "Tem Saída 24h — Central 1746",
+          "title": "Tem Saída 24h — Central 1746",
+          "description": "Telefone: 1746, opção 8, 24 horas.\nServiço: orientação municipal para mulheres em situação de violência e para quem testemunha um caso. Diga se precisa de local seguro, saúde, polícia ou proteção jurídica. Endereços de abrigos sigilosos não são publicados.\nÚltima verificação: 11 de novembro de 2026\nTem Saída 24h — Prefeitura",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "1746",
-                  "href": "tel:1746"
-                },
-                {
-                  "text": ", opção 8, 24 horas."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Serviço:",
-                  "strong": true
-                },
-                {
-                  "text": " orientação municipal para mulheres em situação de violência e para quem testemunha um caso. Diga se precisa de local seguro, saúde, polícia ou proteção jurídica. Endereços de abrigos sigilosos não são publicados."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificação:",
-                  "strong": true
-                },
-                {
-                  "text": " 11 de novembro de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Tem Saída 24h — Prefeitura",
-                  "href": "https://prefeitura.rio/fazenda/politicas-de-protecao-da-mulher/prefeitura-abre-canal-de-atendimento-tem-saida-24h-sobre-violencia-contra-a-mulher/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "1746",
+          "website": "https://prefeitura.rio/fazenda/politicas-de-protecao-da-mulher/prefeitura-abre-canal-de-atendimento-tem-saida-24h-sobre-violencia-contra-a-mulher/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "nudem-defensoria-para-mulheres",
-          "name": "NUDEM — Defensoria para mulheres",
+          "title": "NUDEM — Defensoria para mulheres",
+          "description": "Pré-atendimento: 129, dias úteis, 9h–18h; presencial: segunda a quinta, 10h–16h, e casos urgentes também na sexta, 10h–16h.\nServiço: apoio jurídico em violência doméstica e outras violações contra mulheres. Em perigo no trajeto, ligue 190.\nÚltima verificação: 11 de novembro de 2026\nNUDEM — Defensoria Pública",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Endereço:",
-                  "strong": true
-                },
-                {
-                  "text": " Avenida Marechal Câmara, 271, 7.º andar, Centro"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Pré-atendimento:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "129",
-                  "href": "tel:129"
-                },
-                {
-                  "text": ", dias úteis, 9h–18h; "
-                },
-                {
-                  "text": "presencial:",
-                  "strong": true
-                },
-                {
-                  "text": " segunda a quinta, 10h–16h, e casos urgentes também na sexta, 10h–16h."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Serviço:",
-                  "strong": true
-                },
-                {
-                  "text": " apoio jurídico em violência doméstica e outras violações contra mulheres. Em perigo no trajeto, ligue 190."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificação:",
-                  "strong": true
-                },
-                {
-                  "text": " 11 de novembro de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "NUDEM — Defensoria Pública",
-                  "href": "https://defensoria.rj.def.br/cidadao/nudem"
-                }
-              ]
-            }
-          ]
+          "address": "Endereço: Avenida Marechal Câmara, 271, 7.º andar, Centro",
+          "phone": "129",
+          "website": "https://defensoria.rj.def.br/cidadao/nudem",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "saude-para-vitimas-de-violencia",
-          "name": "Saúde para vítimas de violência",
+          "title": "Saúde para vítimas de violência",
+          "description": "Onde: Clínica da Família ou Centro Municipal de Saúde para acolhimento sigiloso; UPA, CER ou hospital 24 horas em caso grave.\nImportante: procure assistência mesmo sem boletim de ocorrência. Em emergência médica, ligue 192; em risco imediato, 190.\nÚltima verificação: 11 de novembro de 2026\nViolência contra a mulher — Secretaria de Saúde",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Onde:",
-                  "strong": true
-                },
-                {
-                  "text": " Clínica da Família ou Centro Municipal de Saúde para acolhimento sigiloso; UPA, CER ou hospital 24 horas em caso grave."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Importante:",
-                  "strong": true
-                },
-                {
-                  "text": " procure assistência mesmo sem boletim de ocorrência. Em emergência médica, ligue 192; em risco imediato, 190."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificação:",
-                  "strong": true
-                },
-                {
-                  "text": " 11 de novembro de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Violência contra a mulher — Secretaria de Saúde",
-                  "href": "https://saude.prefeitura.rio/violencia-contra-a-mulher/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://saude.prefeitura.rio/violencia-contra-a-mulher/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "central-ademar-ferreira-de-oliveira-adolescentes-masculinos",
-          "name": "Central Ademar Ferreira de Oliveira — adolescentes masculinos",
+          "title": "Central Ademar Ferreira de Oliveira — adolescentes masculinos",
+          "description": "Público: adolescentes masculinos em situação de risco ou rua, conforme avaliação da rede de proteção.\nÚltima verificação: 11 de novembro de 2026\nAcolhimento de crianças e adolescentes — Prefeitura",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Endereço:",
-                  "strong": true
-                },
-                {
-                  "text": " Rua Benedito Hipólito, 163, Praça Onze / Centro; referência: Sambódromo"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Público:",
-                  "strong": true
-                },
-                {
-                  "text": " adolescentes masculinos em situação de risco ou rua, conforme avaliação da rede de proteção."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Acesso:",
-                  "strong": true
-                },
-                {
-                  "text": " ligue 1746 ou procure CREAS, Conselho Tutelar ou equipe de abordagem. Em perigo imediato, 190; para violação de direitos, 100."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificação:",
-                  "strong": true
-                },
-                {
-                  "text": " 11 de novembro de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Acolhimento de crianças e adolescentes — Prefeitura",
-                  "href": "https://assistenciasocial.prefeitura.rio/acolhimento/"
-                }
-              ]
-            }
-          ]
+          "address": "Endereço: Rua Benedito Hipólito, 163, Praça Onze / Centro; referência: Sambódromo",
+          "phone": "",
+          "website": "https://assistenciasocial.prefeitura.rio/acolhimento/",
+          "hours": "",
+          "how_to_access": "Acesso: ligue 1746 ou procure CREAS, Conselho Tutelar ou equipe de abordagem. Em perigo imediato, 190; para violação de direitos, 100."
         },
         {
-          "type": "resource",
           "id": "central-taiguara-criancas-e-adolescentes",
-          "name": "Central Taiguara — crianças e adolescentes",
+          "title": "Central Taiguara — crianças e adolescentes",
+          "description": "Telefone: (21) 99752-3150.\nPúblico publicado: meninos até 11 anos e meninas menores de 18 anos, conforme medida de proteção e avaliação. Procure 1746, CREAS, Conselho Tutelar ou abordagem; não deixe criança desacompanhada à porta.\nÚltima verificação: 11 de novembro de 2026\nCentral Taiguara — Prefeitura",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Endereço:",
-                  "strong": true
-                },
-                {
-                  "text": " Rua Padre Ildefonso Penalba, 134, Méier, Rio de Janeiro 20775-020"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(21) 99752-3150",
-                  "href": "tel:+5521997523150"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Público publicado:",
-                  "strong": true
-                },
-                {
-                  "text": " meninos até 11 anos e meninas menores de 18 anos, conforme medida de proteção e avaliação. Procure 1746, CREAS, Conselho Tutelar ou abordagem; não deixe criança desacompanhada à porta."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificação:",
-                  "strong": true
-                },
-                {
-                  "text": " 11 de novembro de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Central Taiguara — Prefeitura",
-                  "href": "https://assistenciasocial.prefeitura.rio/centrais-de-recepcao/"
-                }
-              ]
-            }
-          ]
+          "address": "Endereço: Rua Padre Ildefonso Penalba, 134, Méier, Rio de Janeiro 20775-020",
+          "phone": "+5521997523150",
+          "website": "https://assistenciasocial.prefeitura.rio/centrais-de-recepcao/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "republicas-para-jovens-de-18-a-21-anos",
-          "name": "Repúblicas para jovens de 18 a 21 anos",
+          "title": "Repúblicas para jovens de 18 a 21 anos",
+          "description": "Junior Heleno: Rua Sorocaba, 595, Botafogo.\nElza Soares: Rua Visconde de Jequitinhonha, 50, Rio Comprido.\nÚltima verificação: 11 de novembro de 2026\nRepúblicas de jovens — Prefeitura",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Junior Heleno:",
-                  "strong": true
-                },
-                {
-                  "text": " Rua Sorocaba, 595, Botafogo."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Elza Soares:",
-                  "strong": true
-                },
-                {
-                  "text": " Rua Visconde de Jequitinhonha, 50, Rio Comprido."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Acesso:",
-                  "strong": true
-                },
-                {
-                  "text": " moradia assistida para jovens encaminhados pela rede; não é entrada livre nem vaga imediata. Peça avaliação no Centro POP, CREAS ou 1746."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificação:",
-                  "strong": true
-                },
-                {
-                  "text": " 11 de novembro de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Repúblicas de jovens — Prefeitura",
-                  "href": "https://assistenciasocial.prefeitura.rio/acolhimento/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://assistenciasocial.prefeitura.rio/acolhimento/",
+          "hours": "",
+          "how_to_access": "Acesso: moradia assistida para jovens encaminhados pela rede; não é entrada livre nem vaga imediata. Peça avaliação no Centro POP, CREAS ou 1746."
         },
         {
-          "type": "resource",
           "id": "pessoas-lgbtqia-em-risco",
-          "name": "Pessoas LGBTQIA+ em risco",
+          "title": "Pessoas LGBTQIA+ em risco",
+          "description": "Acolhimento: Albergue David Miranda, com encaminhamento pelo Centro POP, CREAS ou 1746.\nDireitos e apoio psicossocial: Centro de Cidadania LGBTI Capital I, (21) 2334-9577. Em violência imediata, 190; para denunciar violação, 100.\nÚltima verificação: 11 de novembro de 2026\nRede de Cidadania LGBTI+",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Acolhimento:",
-                  "strong": true
-                },
-                {
-                  "text": " Albergue David Miranda, com encaminhamento pelo Centro POP, CREAS ou 1746."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Direitos e apoio psicossocial:",
-                  "strong": true
-                },
-                {
-                  "text": " Centro de Cidadania LGBTI Capital I, "
-                },
-                {
-                  "text": "(21) 2334-9577",
-                  "href": "tel:+552123349577"
-                },
-                {
-                  "text": ". Em violência imediata, 190; para denunciar violação, 100."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificação:",
-                  "strong": true
-                },
-                {
-                  "text": " 11 de novembro de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Rede de Cidadania LGBTI+",
-                  "href": "https://www.rj.gov.br/secsocial/politicas_publicas_lgbtqi"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+552123349577",
+          "website": "https://www.rj.gov.br/secsocial/politicas_publicas_lgbtqi",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "pessoas-idosas-sem-local-seguro",
-          "name": "Pessoas idosas sem local seguro",
+          "title": "Pessoas idosas sem local seguro",
+          "description": "Recepção: Central Pastor Carlos Portela, Estrada dos Maracajás, 973, Galeão.\nComo pedir ajuda: 1746, Centro POP, CREAS ou Central Tom Jobim. Para negligência, abuso ou abandono, ligue 100; em urgência médica, 192.\nÚltima verificação: 11 de novembro de 2026\nRede para pessoas idosas — Prefeitura",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Recepção:",
-                  "strong": true
-                },
-                {
-                  "text": " Central Pastor Carlos Portela, Estrada dos Maracajás, 973, Galeão."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Como pedir ajuda:",
-                  "strong": true
-                },
-                {
-                  "text": " 1746, Centro POP, CREAS ou Central Tom Jobim. Para negligência, abuso ou abandono, ligue 100; em urgência médica, 192."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificação:",
-                  "strong": true
-                },
-                {
-                  "text": " 11 de novembro de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Rede para pessoas idosas — Prefeitura",
-                  "href": "https://assistenciasocial.prefeitura.rio/centrais-de-recepcao/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://assistenciasocial.prefeitura.rio/centrais-de-recepcao/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "pessoas-com-animais",
-          "name": "Pessoas com animais",
+          "title": "Pessoas com animais",
+          "description": "PAR Carioca: atendimento veterinário, vacinação e microchipagem conforme disponibilidade.\nAcolhimento: informe sempre que está com animal antes do encaminhamento. A Prefeitura publicou que animais podem entrar nas unidades, mas confirme o espaço adequado para espécie e porte.\nÚltima verificação: 11 de novembro de 2026\nAtendimento veterinário no PAR Carioca",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "PAR Carioca:",
-                  "strong": true
-                },
-                {
-                  "text": " atendimento veterinário, vacinação e microchipagem conforme disponibilidade."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Acolhimento:",
-                  "strong": true
-                },
-                {
-                  "text": " informe sempre que está com animal antes do encaminhamento. A Prefeitura publicou que animais podem entrar nas unidades, mas confirme o espaço adequado para espécie e porte."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Última verificação:",
-                  "strong": true
-                },
-                {
-                  "text": " 11 de novembro de 2026"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Atendimento veterinário no PAR Carioca",
-                  "href": "https://saude.prefeitura.rio/noticias/caozinho-perdido-volta-para-casa-gracas-ao-microchip/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://saude.prefeitura.rio/noticias/caozinho-perdido-volta-para-casa-gracas-ao-microchip/",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
-      "id": "verificacao-e-correcoes",
+      "id": "specialist-support",
+      "title": "Specialist support",
+      "entries": []
+    },
+    {
+      "id": "veterans",
+      "title": "Veterans support",
+      "entries": []
+    },
+    {
+      "id": "pets",
+      "title": "Help for people with pets",
+      "entries": []
+    },
+    {
+      "id": "other",
       "title": "Verificação e correções",
-      "items": [
+      "entries": [
         {
-          "type": "paragraph",
-          "content": [
-            {
-              "text": "Esta página foi verificada em 11 de novembro de 2026 com fontes da Prefeitura do Rio, Governo do Estado, Governo Federal, Defensoria e organizações responsáveis pelos serviços. Se encontrar um serviço encerrado, número incorreto ou condição diferente, veja "
-            },
-            {
-              "text": "como enviar uma correção",
-              "href": "../../CONTRIBUTING.md"
-            },
-            {
-              "text": "."
-            }
-          ]
+          "id": "verificacao-e-correcoes-information",
+          "title": "Verificação e correções",
+          "description": "Esta página foi verificada em 11 de novembro de 2026 com fontes da Prefeitura do Rio, Governo do Estado, Governo Federal, Defensoria e organizações responsáveis pelos serviços. Se encontrar um serviço encerrado, número incorreto ou condição diferente, veja como enviar uma correção. — ../../CONTRIBUTING.md",
+          "last_verified": "2026-11-11",
+          "address": "",
+          "phone": "",
+          "website": "",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     }

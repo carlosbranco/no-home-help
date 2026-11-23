@@ -1,6 +1,7 @@
 {
   "$schema": "https://nohomehelp.com/schemas/city.schema.json",
-  "schema_version": 1,
+  "documentation": "https://github.com/carlosbranco/no-home-help/blob/main/EDIT_CITY_JSON.md",
+  "schema_version": 2,
   "status": "published",
   "locale": {
     "language": "fr",
@@ -26,3794 +27,988 @@
   "page": {
     "heading": "Montréal — aide aux personnes sans logement",
     "last_verified": "2026-11-12",
-    "urgent": [
-      {
-        "type": "paragraph",
-        "content": [
-          {
-            "text": "Urgence médicale, police ou incendie :",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "911",
-            "href": "tel:911"
-          },
-          {
-            "break": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "Refuges, repas et aide communautaire :",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "211",
-            "href": "tel:211"
-          },
-          {
-            "break": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "Info-Santé :",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "811",
-            "href": "tel:811"
-          },
-          {
-            "text": ", option 1; "
-          },
-          {
-            "text": "Info-Social :",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "811",
-            "href": "tel:811"
-          },
-          {
-            "text": ", option 2"
-          },
-          {
-            "break": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "Crise suicidaire, appel ou texto :",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "988",
-            "href": "tel:988"
-          },
-          {
-            "break": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "Violence conjugale :",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "1 800 363-9010",
-            "href": "tel:+18003639010"
-          }
-        ]
-      }
-    ],
-    "notice": [
-      {
-        "text": "Les places, horaires, critères et règles changent.",
-        "strong": true
-      },
-      {
-        "text": " Appelez avant de vous déplacer lorsque c’est possible. Aucune entrée ne garantit un lit, un repas, un rendez-vous, une prestation, un traitement ou un emploi le jour même."
-      }
-    ],
-    "intro": [
-      {
-        "type": "paragraph",
-        "content": [
-          {
-            "text": "Si vous n’avez pas d’endroit sûr pour cette nuit, commencez par le "
-          },
-          {
-            "text": "211",
-            "href": "tel:211"
-          },
-          {
-            "text": ". Dites votre âge, votre genre, si vous êtes en couple ou avec des enfants, si vous êtes Autochtone, si vous avez un animal, une limitation, un problème de santé ou de consommation, et dans quel secteur vous vous trouvez. Demandez le nom, l’adresse et la procédure d’admission avant de vous déplacer."
-          }
-        ]
-      }
-    ],
-    "footer": [
-      {
-        "type": "paragraph",
-        "content": [
-          {
-            "text": "No Home Help — information gratuite et statique, sans suivi."
-          }
-        ]
-      }
-    ]
+    "urgent": "Urgence médicale, police ou incendie : 911 Refuges, repas et aide communautaire : 211 Info-Santé : 811, option 1; Info-Social : 811, option 2 Crise suicidaire, appel ou texto : 988 Violence conjugale : 1 800 363-9010",
+    "notice": "Les places, horaires, critères et règles changent. Appelez avant de vous déplacer lorsque c’est possible. Aucune entrée ne garantit un lit, un repas, un rendez-vous, une prestation, un traitement ou un emploi le jour même.",
+    "intro": "Si vous n’avez pas d’endroit sûr pour cette nuit, commencez par le 211. Dites votre âge, votre genre, si vous êtes en couple ou avec des enfants, si vous êtes Autochtone, si vous avez un animal, une limitation, un problème de santé ou de consommation, et dans quel secteur vous vous trouvez. Demandez le nom, l’adresse et la procédure d’admission avant de vous déplacer.",
+    "footer": "No Home Help — information gratuite et statique, sans suivi."
   },
   "categories": [
     {
       "id": "emergency",
-      "title": "1. Urgences et première orientation",
-      "items": [
+      "title": "Urgences et première orientation",
+      "entries": [
         {
-          "type": "resource",
           "id": "911-danger-immediat",
-          "name": "911 — danger immédiat",
+          "title": "911 — danger immédiat",
+          "description": "Appelez : 911.\nPour une urgence médicale, une agression, un incendie, une surdose, une perte de conscience, une difficulté respiratoire ou un danger immédiat. Donnez d’abord l’emplacement exact.\nVille de Montréal — services d’urgence",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Appelez :",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "911",
-                  "href": "tel:911"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Pour une urgence médicale, une agression, un incendie, une surdose, une perte de conscience, une difficulté respiratoire ou un danger immédiat. Donnez d’abord l’emplacement exact."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ville de Montréal — services d’urgence",
-                  "href": "https://montreal.ca/services/securite-publique"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "911",
+          "website": "https://montreal.ca/services/securite-publique",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "211-refuges-repas-et-ressources-actuelles",
-          "name": "211 — refuges, repas et ressources actuelles",
+          "title": "211 — refuges, repas et ressources actuelles",
+          "description": "Appelez : 211. Le service municipal indique une orientation téléphonique 24 heures sur 24, 7 jours sur 7, en plus de 200 langues.\nDemandez une place adaptée à votre situation et une solution de rechange si elle est complète. Le 211 peut aussi orienter vers nourriture, logement, aide juridique, prestations et ÉMMIS.\nVille de Montréal — le 211",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Appelez :",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "211",
-                  "href": "tel:211"
-                },
-                {
-                  "text": ". Le service municipal indique une orientation téléphonique 24 heures sur 24, 7 jours sur 7, en plus de 200 langues."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Demandez une place adaptée à votre situation et une solution de rechange si elle est complète. Le 211 peut aussi orienter vers nourriture, logement, aide juridique, prestations et ÉMMIS."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ville de Montréal — le 211",
-                  "href": "https://montreal.ca/articles/le-211-un-acces-facile-aux-ressources-communautaires-3072"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "211",
+          "website": "https://montreal.ca/articles/le-211-un-acces-facile-aux-ressources-communautaires-3072",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "emmis-intervention-sociale-non-urgente-dans-l-espace-public",
-          "name": "ÉMMIS — intervention sociale non urgente dans l’espace public",
+          "title": "ÉMMIS — intervention sociale non urgente dans l’espace public",
+          "description": "L’Équipe mobile de médiation et d’intervention sociale intervient lorsqu’une personne vulnérable a besoin d’aide dans un espace public et que la police n’est pas nécessaire. En cas de danger, appelez le 911.\nVille de Montréal — itinérance et ÉMMIS",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Accès :",
-                  "strong": true
-                },
-                {
-                  "text": " appelez le "
-                },
-                {
-                  "text": "211",
-                  "href": "tel:211"
-                },
-                {
-                  "text": ", 24 heures sur 24."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "L’Équipe mobile de médiation et d’intervention sociale intervient lorsqu’une personne vulnérable a besoin d’aide dans un espace public et que la police n’est pas nécessaire. En cas de danger, appelez le 911."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ville de Montréal — itinérance et ÉMMIS",
-                  "href": "https://montreal.ca/sujets/itinerance-montreal"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "211",
+          "website": "https://montreal.ca/sujets/itinerance-montreal",
+          "hours": "",
+          "how_to_access": "Accès : appelez le 211, 24 heures sur 24."
         },
         {
-          "type": "resource",
           "id": "811-sante-et-soutien-psychosocial",
-          "name": "811 — santé et soutien psychosocial",
+          "title": "811 — santé et soutien psychosocial",
+          "description": "Info-Santé : 811, option 1; Info-Social : option 2. Service gratuit et confidentiel, 24 heures sur 24.\nUne infirmière peut évaluer un problème de santé. Un intervenant social peut écouter, évaluer une crise et orienter vers un service adapté.\nGouvernement du Québec — Info-Social 811",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Info-Santé :",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "811",
-                  "href": "tel:811"
-                },
-                {
-                  "text": ", option 1; "
-                },
-                {
-                  "text": "Info-Social :",
-                  "strong": true
-                },
-                {
-                  "text": " option 2. Service gratuit et confidentiel, 24 heures sur 24."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Une infirmière peut évaluer un problème de santé. Un intervenant social peut écouter, évaluer une crise et orienter vers un service adapté."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Gouvernement du Québec — Info-Social 811",
-                  "href": "https://www.quebec.ca/sante/trouver-une-ressource/info-social-811"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "811",
+          "website": "https://www.quebec.ca/sante/trouver-une-ressource/info-social-811",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "988-crise-suicidaire",
-          "name": "988 — crise suicidaire",
+          "title": "988 — crise suicidaire",
+          "description": "Appelez ou textez : 988, gratuitement, 24 heures sur 24, en français ou en anglais.\nPour vous-même ou une autre personne qui pense au suicide. Si le danger est immédiat ou si une personne ne répond plus, appelez le 911.\nGouvernement du Canada — aide en cas de crise",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Appelez ou textez :",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "988",
-                  "href": "tel:988"
-                },
-                {
-                  "text": ", gratuitement, 24 heures sur 24, en français ou en anglais."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Pour vous-même ou une autre personne qui pense au suicide. Si le danger est immédiat ou si une personne ne répond plus, appelez le 911."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Gouvernement du Canada — aide en cas de crise",
-                  "href": "https://www.canada.ca/fr/sante-publique/services/prevention-suicide/signes-precurseurs.html"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "988",
+          "website": "https://www.canada.ca/fr/sante-publique/services/prevention-suicide/signes-precurseurs.html",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "sos-violence-conjugale",
-          "name": "SOS violence conjugale",
+          "title": "SOS violence conjugale",
+          "description": "Appelez : 1 800 363-9010, 24 heures sur 24, 7 jours sur 7. Service gratuit, bilingue et confidentiel.\nLa ligne peut aider à préparer un départ sécuritaire et chercher une maison d’hébergement pour une personne victime et ses enfants. En danger maintenant, appelez le 911.\nGouvernement du Québec — aide et hébergement",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Appelez :",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "1 800 363-9010",
-                  "href": "tel:+18003639010"
-                },
-                {
-                  "text": ", 24 heures sur 24, 7 jours sur 7. Service gratuit, bilingue et confidentiel."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "La ligne peut aider à préparer un départ sécuritaire et chercher une maison d’hébergement pour une personne victime et ses enfants. En danger maintenant, appelez le 911."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Gouvernement du Québec — aide et hébergement",
-                  "href": "https://www.quebec.ca/famille-et-soutien-aux-personnes/violences/violence-conjugale/aide-ressources"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+18003639010",
+          "website": "https://www.quebec.ca/famille-et-soutien-aux-personnes/violences/violence-conjugale/aide-ressources",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "froid-ou-chaleur-extreme",
-          "name": "Froid ou chaleur extrême",
+          "title": "Froid ou chaleur extrême",
+          "description": "Les haltes saisonnières et leurs dates peuvent changer. Appelez le 211 pour un lieu ouvert aujourd’hui et le 311 pour l’information municipale.\nConfirmez l’ouverture avant de marcher ou de prendre le transport. Si une personne est confuse, inconsciente ou très malade à cause du froid ou de la chaleur, appelez le 911.\nVille de Montréal — haltes-chaleur",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Les haltes saisonnières et leurs dates peuvent changer. Appelez le "
-                },
-                {
-                  "text": "211",
-                  "href": "tel:211"
-                },
-                {
-                  "text": " pour un lieu ouvert aujourd’hui et le "
-                },
-                {
-                  "text": "311",
-                  "href": "tel:311"
-                },
-                {
-                  "text": " pour l’information municipale."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Confirmez l’ouverture avant de marcher ou de prendre le transport. Si une personne est confuse, inconsciente ou très malade à cause du froid ou de la chaleur, appelez le 911."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ville de Montréal — haltes-chaleur",
-                  "href": "https://montreal.ca/articles/haltes-chaleur-un-lieu-de-repit-pour-les-personnes-en-situation-ditinerance-100599"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "211",
+          "website": "https://montreal.ca/articles/haltes-chaleur-un-lieu-de-repit-pour-les-personnes-en-situation-ditinerance-100599",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
       "id": "shelter",
-      "title": "2. Hébergement et intervention de rue",
-      "items": [
+      "title": "Hébergement et intervention de rue",
+      "entries": [
         {
-          "type": "resource",
           "id": "orientation-vers-une-place-disponible",
-          "name": "Orientation vers une place disponible",
+          "title": "Orientation vers une place disponible",
+          "description": "Appelez le 211 avant de vous déplacer. Les ressources ne desservent pas toutes les mêmes âges, genres, couples, familles, niveaux de mobilité, consommations ou animaux.\nDemandez une deuxième option et le transport si la première ressource est complète ou trop loin.\nVille de Montréal — hébergement temporaire et urgence",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Appelez le "
-                },
-                {
-                  "text": "211",
-                  "href": "tel:211"
-                },
-                {
-                  "text": " avant de vous déplacer. Les ressources ne desservent pas toutes les mêmes âges, genres, couples, familles, niveaux de mobilité, consommations ou animaux."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Demandez une deuxième option et le transport si la première ressource est complète ou trop loin."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ville de Montréal — hébergement temporaire et urgence",
-                  "href": "https://montreal.ca/articles/ressources-dhebergement-temporaire-et-aide-aux-personnes-sans-logement-81149"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "211",
+          "website": "https://montreal.ca/articles/ressources-dhebergement-temporaire-et-aide-aux-personnes-sans-logement-81149",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "mission-old-brewery-pavillon-webster-pour-hommes",
-          "name": "Mission Old Brewery — pavillon Webster pour hommes",
+          "title": "Mission Old Brewery — pavillon Webster pour hommes",
+          "description": "Téléphone : 514 798-2244; service d’urgence 24 heures sur 24.\nAppelez pour connaître l’admission et la place disponible. L’organisme associe l’urgence à un accompagnement vers la stabilité résidentielle.\nMission Old Brewery — obtenir de l’aide",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Adresse :",
-                  "strong": true
-                },
-                {
-                  "text": " 915, rue Clark, Montréal, QC H2Z 1J8"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Téléphone :",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "514 798-2244",
-                  "href": "tel:+15147982244"
-                },
-                {
-                  "text": "; service d’urgence 24 heures sur 24."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Appelez pour connaître l’admission et la place disponible. L’organisme associe l’urgence à un accompagnement vers la stabilité résidentielle."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Mission Old Brewery — obtenir de l’aide",
-                  "href": "https://www.missionoldbrewery.ca/en/i-need-help"
-                }
-              ]
-            }
-          ]
+          "address": "Adresse : 915, rue Clark, Montréal, QC H2Z 1J8",
+          "phone": "+15147982244",
+          "website": "https://www.missionoldbrewery.ca/en/i-need-help",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "mission-old-brewery-pavillon-patricia-mackenzie-pour-femmes",
-          "name": "Mission Old Brewery — pavillon Patricia Mackenzie pour femmes",
+          "title": "Mission Old Brewery — pavillon Patricia Mackenzie pour femmes",
+          "description": "Téléphone : 514 526-6446; service d’urgence 24 heures sur 24.\nAppelez avant de vous déplacer et signalez grossesse, mobilité réduite, violence ou besoin médical.\nMission Old Brewery — services aux femmes",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Adresse :",
-                  "strong": true
-                },
-                {
-                  "text": " 1301, boulevard De Maisonneuve Est, Montréal, QC H2L 2A4"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Téléphone :",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "514 526-6446",
-                  "href": "tel:+15145266446"
-                },
-                {
-                  "text": "; service d’urgence 24 heures sur 24."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Appelez avant de vous déplacer et signalez grossesse, mobilité réduite, violence ou besoin médical."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Mission Old Brewery — services aux femmes",
-                  "href": "https://www.missionoldbrewery.ca/fr/services-aux-femmes"
-                }
-              ]
-            }
-          ]
+          "address": "Adresse : 1301, boulevard De Maisonneuve Est, Montréal, QC H2L 2A4",
+          "phone": "+15145266446",
+          "website": "https://www.missionoldbrewery.ca/fr/services-aux-femmes",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "mission-bon-accueil-refuge-macaulay-pour-hommes",
-          "name": "Mission Bon Accueil — refuge Macaulay pour hommes",
+          "title": "Mission Bon Accueil — refuge Macaulay pour hommes",
+          "description": "Téléphone : 514 935-6396. L’organisme demande d’appeler ou de se présenter dès 16 h pour réserver un lit pour la nuit.\nRepas, douche, vêtements et produits d’hygiène sont proposés aux usagers. Une arrivée ne garantit pas une place.\nMission Bon Accueil — refuge Macaulay",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Adresse :",
-                  "strong": true
-                },
-                {
-                  "text": " 1490, rue Saint-Antoine Ouest, Montréal, QC H3C 1C3"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Téléphone :",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "514 935-6396",
-                  "href": "tel:+15149356396"
-                },
-                {
-                  "text": ". L’organisme demande d’appeler ou de se présenter dès 16 h pour réserver un lit pour la nuit."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Repas, douche, vêtements et produits d’hygiène sont proposés aux usagers. Une arrivée ne garantit pas une place."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Mission Bon Accueil — refuge Macaulay",
-                  "href": "https://missionbonaccueil.com/obtenir-de-laide"
-                }
-              ]
-            }
-          ]
+          "address": "Adresse : 1490, rue Saint-Antoine Ouest, Montréal, QC H3C 1C3",
+          "phone": "+15149356396",
+          "website": "https://missionbonaccueil.com/obtenir-de-laide",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "maison-du-pere-hommes",
-          "name": "Maison du Père — hommes",
+          "title": "Maison du Père — hommes",
+          "description": "Hébergement d’urgence et référencement : 514 845-0168, poste 305.\nAppelez pour la procédure actuelle, les places et les critères. L’organisme offre aussi des parcours de réinsertion, santé et logement.\nMaison du Père — contacts des services",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Adresse :",
-                  "strong": true
-                },
-                {
-                  "text": " 550, boulevard René-Lévesque Est, Montréal, QC H2L 2L3"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Hébergement d’urgence et référencement :",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "514 845-0168",
-                  "href": "tel:+15148450168"
-                },
-                {
-                  "text": ", poste 305."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Appelez pour la procédure actuelle, les places et les critères. L’organisme offre aussi des parcours de réinsertion, santé et logement."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Maison du Père — contacts des services",
-                  "href": "https://maisondupere.org/nous-joindre/"
-                }
-              ]
-            }
-          ]
+          "address": "Adresse : 550, boulevard René-Lévesque Est, Montréal, QC H2L 2L3",
+          "phone": "+15148450168",
+          "website": "https://maisondupere.org/nous-joindre/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "cap-st-barnabe-trois-refuges-inclusifs",
-          "name": "CAP St-Barnabé — trois refuges inclusifs",
+          "title": "CAP St-Barnabé — trois refuges inclusifs",
+          "description": "Téléphone commun : 514 251-2081; ouverts 24 heures sur 24, 7 jours sur 7, selon les places.\nRefuge Bennett : 1475, avenue Bennett. Refuge Hochelaga : 4567, rue Hochelaga. Refuge L’Étape : 2345, rue de Chambly.\nLes refuges sont inclusifs. Hochelaga et L’Étape acceptent les couples et les animaux de compagnie. Confirmez toujours la place et les règles avant de venir.\nCAP St-Barnabé — hébergements d’urgence",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Téléphone commun :",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "514 251-2081",
-                  "href": "tel:+15142512081"
-                },
-                {
-                  "text": "; ouverts 24 heures sur 24, 7 jours sur 7, selon les places."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Refuge Bennett :",
-                  "strong": true
-                },
-                {
-                  "text": " 1475, avenue Bennett. "
-                },
-                {
-                  "text": "Refuge Hochelaga :",
-                  "strong": true
-                },
-                {
-                  "text": " 4567, rue Hochelaga. "
-                },
-                {
-                  "text": "Refuge L’Étape :",
-                  "strong": true
-                },
-                {
-                  "text": " 2345, rue de Chambly."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Les refuges sont inclusifs. Hochelaga et L’Étape acceptent les couples et les animaux de compagnie. Confirmez toujours la place et les règles avant de venir."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "CAP St-Barnabé — hébergements d’urgence",
-                  "href": "https://www.capstbarnabe.org/hebergement-d-urgence"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+15142512081",
+          "website": "https://www.capstbarnabe.org/hebergement-d-urgence",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "chez-doris-refuge-de-nuit-pour-femmes",
-          "name": "Chez Doris — refuge de nuit pour femmes",
+          "title": "Chez Doris — refuge de nuit pour femmes",
+          "description": "Téléphone : 514 937-2341, puis 0. Ouvert chaque nuit de 19 h 30 à 8 h 30.\nLa réservation se fait le jour même jusqu’à midi. Après cette heure, il est possible de se présenter à 20 h, selon les places disponibles.\nChez Doris — j’ai besoin d’aide",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Refuge :",
-                  "strong": true
-                },
-                {
-                  "text": " 1437, rue Chomedey, Montréal, QC H3H 2A7"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Téléphone :",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "514 937-2341",
-                  "href": "tel:+15149372341"
-                },
-                {
-                  "text": ", puis 0. Ouvert chaque nuit de 19 h 30 à 8 h 30."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "La réservation se fait le jour même jusqu’à midi. Après cette heure, il est possible de se présenter à 20 h, selon les places disponibles."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Chez Doris — j’ai besoin d’aide",
-                  "href": "https://chezdoris.org/jai-besoin-daide/"
-                }
-              ]
-            }
-          ]
+          "address": "Refuge : 1437, rue Chomedey, Montréal, QC H3H 2A7",
+          "phone": "+15149372341",
+          "website": "https://chezdoris.org/jai-besoin-daide/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "le-chainon-urgence-pour-femmes",
-          "name": "Le Chaînon — urgence pour femmes",
+          "title": "Le Chaînon — urgence pour femmes",
+          "description": "Téléphone : 514 845-0151, 24 heures sur 24. Réservation requise le jour même à partir de 14 h.\nLe séjour d’urgence peut durer jusqu’à trois nuits. La place dépend de l’évaluation et de la capacité.\nLe Chaînon — hébergement d’urgence",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Adresse :",
-                  "strong": true
-                },
-                {
-                  "text": " 4373, avenue de l’Esplanade, Montréal, QC H2W 1T2"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Téléphone :",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "514 845-0151",
-                  "href": "tel:+15148450151"
-                },
-                {
-                  "text": ", 24 heures sur 24. Réservation requise le jour même à partir de 14 h."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Le séjour d’urgence peut durer jusqu’à trois nuits. La place dépend de l’évaluation et de la capacité."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Le Chaînon — hébergement d’urgence",
-                  "href": "https://lechainon.org/hebergement/"
-                }
-              ]
-            }
-          ]
+          "address": "Adresse : 4373, avenue de l’Esplanade, Montréal, QC H2W 1T2",
+          "phone": "+15148450151",
+          "website": "https://lechainon.org/hebergement/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "projets-autochtones-du-quebec-refuge-principal",
-          "name": "Projets Autochtones du Québec — refuge principal",
+          "title": "Projets Autochtones du Québec — refuge principal",
+          "description": "Téléphone : 514 879-3310, poste 202; ouvert 24 heures sur 24 pour femmes et hommes autochtones.\nHébergement gratuit, repas, douches, buanderie, téléphone, internet et accompagnement. Ce site n’accepte pas l’alcool ou les drogues; demandez PAQ2 si nécessaire.\nPAQ — services et admission",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Adresse :",
-                  "strong": true
-                },
-                {
-                  "text": " 169, rue de la Gauchetière Est, Montréal, QC H2X 1P7"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Téléphone :",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "514 879-3310",
-                  "href": "tel:+15148793310"
-                },
-                {
-                  "text": ", poste 202; ouvert 24 heures sur 24 pour femmes et hommes autochtones."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Hébergement gratuit, repas, douches, buanderie, téléphone, internet et accompagnement. Ce site n’accepte pas l’alcool ou les drogues; demandez PAQ2 si nécessaire."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "PAQ — services et admission",
-                  "href": "https://www.paqc.org/services/"
-                }
-              ]
-            }
-          ]
+          "address": "Adresse : 169, rue de la Gauchetière Est, Montréal, QC H2X 1P7",
+          "phone": "+15148793310",
+          "website": "https://www.paqc.org/services/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "paq2-refuge-autochtone-a-bas-seuil",
-          "name": "PAQ2 — refuge autochtone à bas seuil",
+          "title": "PAQ2 — refuge autochtone à bas seuil",
+          "description": "Intervention psychosociale : 438 355-1434; ouvert 24 heures sur 24.\nPAQ2 accepte des personnes autochtones sous l’influence d’alcool ou de drogues et propose chambres, repas, salle de bain, buanderie et soutien. Appelez pour la disponibilité.\nPAQ2 — refuge à bas seuil",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Adresse :",
-                  "strong": true
-                },
-                {
-                  "text": " 2060, rue Saint-Dominique, Montréal, QC H2X 2X1"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Intervention psychosociale :",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "438 355-1434",
-                  "href": "tel:+14383551434"
-                },
-                {
-                  "text": "; ouvert 24 heures sur 24."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "PAQ2 accepte des personnes autochtones sous l’influence d’alcool ou de drogues et propose chambres, repas, salle de bain, buanderie et soutien. Appelez pour la disponibilité."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "PAQ2 — refuge à bas seuil",
-                  "href": "https://www.paqc.org/services/"
-                }
-              ]
-            }
-          ]
+          "address": "Adresse : 2060, rue Saint-Dominique, Montréal, QC H2X 2X1",
+          "phone": "+14383551434",
+          "website": "https://www.paqc.org/services/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "dans-la-rue-le-bunker-12-a-21-ans",
-          "name": "Dans la rue — Le Bunker, 12 à 21 ans",
+          "title": "Dans la rue — Le Bunker, 12 à 21 ans",
+          "description": "Téléphone : 514 524-0029 ou 1 888 520-7677. L’adresse est confidentielle.\nRefuge mixte ouvert toutes les nuits avec lit, repas chaud, douche, lavage et intervention. Appelez d’abord pour connaître l’adresse et l’admission.\nDans la rue — Le Bunker",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Téléphone :",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "514 524-0029",
-                  "href": "tel:+15145240029"
-                },
-                {
-                  "text": " ou "
-                },
-                {
-                  "text": "1 888 520-7677",
-                  "href": "tel:+18885207677"
-                },
-                {
-                  "text": ". L’adresse est confidentielle."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Refuge mixte ouvert toutes les nuits avec lit, repas chaud, douche, lavage et intervention. Appelez d’abord pour connaître l’adresse et l’admission."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Dans la rue — Le Bunker",
-                  "href": "https://danslarue.org/ou-trouver-de-laide/le-bunker-abri-durgence/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+15145240029",
+          "website": "https://danslarue.org/ou-trouver-de-laide/le-bunker-abri-durgence/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "si-tous-les-refuges-sont-complets",
-          "name": "Si tous les refuges sont complets",
+          "title": "Si tous les refuges sont complets",
+          "description": "Rappelez le 211 et demandez une autre ressource, une halte-répit, une navette ou une place dans un autre secteur. Dites clairement s’il y a un risque médical, une grossesse, un enfant, une limitation, un animal ou de la violence.\nNe payez jamais un intermédiaire pour une place. En danger immédiat, appelez le 911.\nVille de Montréal — aide et ressources",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Rappelez le 211 et demandez une autre ressource, une halte-répit, une navette ou une place dans un autre secteur. Dites clairement s’il y a un risque médical, une grossesse, un enfant, une limitation, un animal ou de la violence."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ne payez jamais un intermédiaire pour une place. En danger immédiat, appelez le 911."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ville de Montréal — aide et ressources",
-                  "href": "https://montreal.ca/sujets/itinerance-montreal"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://montreal.ca/sujets/itinerance-montreal",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
       "id": "food",
-      "title": "3. Repas et aide alimentaire",
-      "items": [
+      "title": "Repas et aide alimentaire",
+      "entries": [
         {
-          "type": "resource",
           "id": "accueil-bonneau-repas-chaud-gratuit",
-          "name": "Accueil Bonneau — repas chaud gratuit",
+          "title": "Accueil Bonneau — repas chaud gratuit",
+          "description": "Téléphone : 514 845-3906. Repas sur place du lundi au vendredi de 8 h 30 à 11 h 30 et les fins de semaine de 9 h à 11 h 30.\nCe n’est pas une banque alimentaire. Arrivez avant la fin du service et confirmez l’horaire les jours fériés.\nAccueil Bonneau — horaire des repas",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Adresse :",
-                  "strong": true
-                },
-                {
-                  "text": " 427, rue de la Commune Est, Montréal, QC H2Y 1J4"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Téléphone :",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "514 845-3906",
-                  "href": "tel:+15148453906"
-                },
-                {
-                  "text": ". Repas sur place du lundi au vendredi de 8 h 30 à 11 h 30 et les fins de semaine de 9 h à 11 h 30."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ce n’est pas une banque alimentaire. Arrivez avant la fin du service et confirmez l’horaire les jours fériés."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Accueil Bonneau — horaire des repas",
-                  "href": "https://www.accueilbonneau.com/nous-joindre/"
-                }
-              ]
-            }
-          ]
+          "address": "Adresse : 427, rue de la Commune Est, Montréal, QC H2Y 1J4",
+          "phone": "+15148453906",
+          "website": "https://www.accueilbonneau.com/nous-joindre/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "le-sac-a-dos-soupe-et-boissons",
-          "name": "Le Sac à dos — soupe et boissons",
+          "title": "Le Sac à dos — soupe et boissons",
+          "description": "Téléphone : 514 393-8868. Soupe gratuite à partir de 9 h; l’horaire régulier du centre varie selon le jour.\nLe déjeuner et le dîner complets sont réservés aux personnes engagées dans certains programmes. Demandez au comptoir ce qui est disponible aujourd’hui.\nLe Sac à dos — offre alimentaire",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Adresse :",
-                  "strong": true
-                },
-                {
-                  "text": " 222, rue Sainte-Catherine Est, Montréal, QC H2X 1L1"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Téléphone :",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "514 393-8868",
-                  "href": "tel:+15143938868"
-                },
-                {
-                  "text": ". Soupe gratuite à partir de 9 h; l’horaire régulier du centre varie selon le jour."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Le déjeuner et le dîner complets sont réservés aux personnes engagées dans certains programmes. Demandez au comptoir ce qui est disponible aujourd’hui."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Le Sac à dos — offre alimentaire",
-                  "href": "https://lesacados.org/centre-de-jour/"
-                }
-              ]
-            }
-          ]
+          "address": "Adresse : 222, rue Sainte-Catherine Est, Montréal, QC H2X 1L1",
+          "phone": "+15143938868",
+          "website": "https://lesacados.org/centre-de-jour/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "cap-st-barnabe-repas-du-centre-de-jour",
-          "name": "CAP St-Barnabé — repas du centre de jour",
+          "title": "CAP St-Barnabé — repas du centre de jour",
+          "description": "Téléphone : 514 251-2081. Centre de jour du lundi au vendredi de 9 h à 16 h; repas de midi à 13 h.\nAppelez pour confirmer le service et la capacité. Les personnes hébergées dans les refuges CAP reçoivent aussi un repas.\nCAP St-Barnabé — horaires",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Adresse :",
-                  "strong": true
-                },
-                {
-                  "text": " 1475, avenue Bennett, Montréal, QC H1V 2S5"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Téléphone :",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "514 251-2081",
-                  "href": "tel:+15142512081"
-                },
-                {
-                  "text": ". Centre de jour du lundi au vendredi de 9 h à 16 h; repas de midi à 13 h."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Appelez pour confirmer le service et la capacité. Les personnes hébergées dans les refuges CAP reçoivent aussi un repas."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "CAP St-Barnabé — horaires",
-                  "href": "https://www.capstbarnabe.org/horaires"
-                }
-              ]
-            }
-          ]
+          "address": "Adresse : 1475, avenue Bennett, Montréal, QC H1V 2S5",
+          "phone": "+15142512081",
+          "website": "https://www.capstbarnabe.org/horaires",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "mission-bon-accueil-marche-bon-accueil",
-          "name": "Mission Bon Accueil — Marché Bon Accueil",
+          "title": "Mission Bon Accueil — Marché Bon Accueil",
+          "description": "Téléphone : 514 937-9317.\nÉpicerie gratuite pour les membres admissibles. Il faut téléphoner pour un rendez-vous et ouvrir un dossier; ce n’est pas un repas immédiat sans inscription.\nMission Bon Accueil — aide alimentaire",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Adresse :",
-                  "strong": true
-                },
-                {
-                  "text": " 4755D, rue Acorn, Montréal, QC H4C 3L6"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Téléphone :",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "514 937-9317",
-                  "href": "tel:+15149379317"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Épicerie gratuite pour les membres admissibles. Il faut téléphoner pour un rendez-vous et ouvrir un dossier; ce n’est pas un repas immédiat sans inscription."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Mission Bon Accueil — aide alimentaire",
-                  "href": "https://missionbonaccueil.com/obtenir-de-laide"
-                }
-              ]
-            }
-          ]
+          "address": "Adresse : 4755D, rue Acorn, Montréal, QC H4C 3L6",
+          "phone": "+15149379317",
+          "website": "https://missionbonaccueil.com/obtenir-de-laide",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "repas-dans-les-refuges",
-          "name": "Repas dans les refuges",
+          "title": "Repas dans les refuges",
+          "description": "Mission Bon Accueil, CAP St-Barnabé, PAQ, Chez Doris, Le Chaînon et Le Bunker annoncent des repas pour les personnes admises. Un repas n’est pas garanti sans admission.\nSi vous avez besoin de manger mais ne pouvez pas dormir dans la ressource, demandez au 211 un service de repas ouvert au public aujourd’hui.\n211 Grand Montréal — recherche de ressources",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Mission Bon Accueil, CAP St-Barnabé, PAQ, Chez Doris, Le Chaînon et Le Bunker annoncent des repas pour les personnes admises. Un repas n’est pas garanti sans admission."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Si vous avez besoin de manger mais ne pouvez pas dormir dans la ressource, demandez au 211 un service de repas ouvert au public aujourd’hui."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "211 Grand Montréal — recherche de ressources",
-                  "href": "https://www.211qc.ca/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.211qc.ca/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "ne-pas-payer-pour-de-l-aide-communautaire-gratuite",
-          "name": "Ne pas payer pour de l’aide communautaire gratuite",
+          "title": "Ne pas payer pour de l’aide communautaire gratuite",
+          "description": "Les services présentés comme gratuits ne doivent pas vendre une place ou un tour. Ne remettez pas de pièce d’identité originale à un inconnu pour obtenir de la nourriture.\nEn cas de doute, appelez directement l’organisme ou le 211.\nVille de Montréal — orientation 211",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Les services présentés comme gratuits ne doivent pas vendre une place ou un tour. Ne remettez pas de pièce d’identité originale à un inconnu pour obtenir de la nourriture."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "En cas de doute, appelez directement l’organisme ou le 211."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ville de Montréal — orientation 211",
-                  "href": "https://montreal.ca/articles/le-211-un-acces-facile-aux-ressources-communautaires-3072"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://montreal.ca/articles/le-211-un-acces-facile-aux-ressources-communautaires-3072",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
-      "id": "basic",
-      "title": "4. Douches, vêtements, buanderie, courrier et casiers",
-      "items": [
+      "id": "community",
+      "title": "Community and religious help",
+      "entries": []
+    },
+    {
+      "id": "hygiene",
+      "title": "Douches, vêtements, buanderie, courrier et casiers",
+      "entries": [
         {
-          "type": "resource",
           "id": "accueil-bonneau-centre-de-jour",
-          "name": "Accueil Bonneau — centre de jour",
+          "title": "Accueil Bonneau — centre de jour",
+          "description": "Téléphone : 514 845-3906, poste 244 pour l’intervention de milieu.\nLe centre de jour annonce douche, salle multimédia, accompagnement et services de santé. Appelez pour l’heure de la douche et l’accès aux vêtements.\nAccueil Bonneau — carrefour multiservice",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Adresse :",
-                  "strong": true
-                },
-                {
-                  "text": " 427, rue de la Commune Est et services du carrefour multiservice voisin"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Téléphone :",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "514 845-3906",
-                  "href": "tel:+15148453906"
-                },
-                {
-                  "text": ", poste 244 pour l’intervention de milieu."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Le centre de jour annonce douche, salle multimédia, accompagnement et services de santé. Appelez pour l’heure de la douche et l’accès aux vêtements."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Accueil Bonneau — carrefour multiservice",
-                  "href": "https://www.accueilbonneau.com/programmes-et-services/carrefour-multiservice/"
-                }
-              ]
-            }
-          ]
+          "address": "Adresse : 427, rue de la Commune Est et services du carrefour multiservice voisin",
+          "phone": "+15148453906",
+          "website": "https://www.accueilbonneau.com/programmes-et-services/carrefour-multiservice/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "le-sac-a-dos-douche-gratuite",
-          "name": "Le Sac à dos — douche gratuite",
+          "title": "Le Sac à dos — douche gratuite",
+          "description": "Douches avec savon, shampoing et serviette, les lundi, mardi, jeudi et vendredi de 7 h à 12 h 30. Demandez au comptoir d’information.\nConfirmez l’horaire si c’est un jour férié ou une journée de distribution de chèques.\nLe Sac à dos — douches",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Adresse :",
-                  "strong": true
-                },
-                {
-                  "text": " 222, rue Sainte-Catherine Est"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Douches avec savon, shampoing et serviette, les lundi, mardi, jeudi et vendredi de 7 h à 12 h 30. Demandez au comptoir d’information."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Confirmez l’horaire si c’est un jour férié ou une journée de distribution de chèques."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Le Sac à dos — douches",
-                  "href": "https://lesacados.org/centre-de-jour/"
-                }
-              ]
-            }
-          ]
+          "address": "Adresse : 222, rue Sainte-Catherine Est",
+          "phone": "",
+          "website": "https://lesacados.org/centre-de-jour/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "le-sac-a-dos-buanderie",
-          "name": "Le Sac à dos — buanderie",
+          "title": "Le Sac à dos — buanderie",
+          "description": "Coût annoncé : 2 $ pour lavage, séchage et savon; lundi, mardi, jeudi et vendredi de 7 h à 12 h 30.\nPrésentez-vous au comptoir pour demander une place. Le coût et la capacité peuvent changer.\nLe Sac à dos — buanderie",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Coût annoncé :",
-                  "strong": true
-                },
-                {
-                  "text": " 2 $ pour lavage, séchage et savon; lundi, mardi, jeudi et vendredi de 7 h à 12 h 30."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Présentez-vous au comptoir pour demander une place. Le coût et la capacité peuvent changer."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Le Sac à dos — buanderie",
-                  "href": "https://lesacados.org/centre-de-jour/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://lesacados.org/centre-de-jour/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "le-sac-a-dos-adresse-postale",
-          "name": "Le Sac à dos — adresse postale",
+          "title": "Le Sac à dos — adresse postale",
+          "description": "Le comptoir postal permet aux personnes sans adresse fixe de recevoir courrier officiel, chèque, carte RAMQ et messages. Le service est gratuit pour les personnes admissibles à l’aide sociale et inscrites à Emploi-Québec.\nIl faut d’abord obtenir l’autorisation d’un bureau partenaire de Services Québec, puis se présenter au Sac à dos dans les cinq jours.\nLe Sac à dos — comptoir postal et critères",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Le comptoir postal permet aux personnes sans adresse fixe de recevoir courrier officiel, chèque, carte RAMQ et messages. Le service est gratuit pour les personnes admissibles à l’aide sociale et inscrites à Emploi-Québec."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Il faut d’abord obtenir l’autorisation d’un bureau partenaire de Services Québec, puis se présenter au Sac à dos dans les cinq jours."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Le Sac à dos — comptoir postal et critères",
-                  "href": "https://lesacados.org/louer-un-case-postale/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://lesacados.org/louer-un-case-postale/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "le-sac-a-dos-casiers-d-entreposage",
-          "name": "Le Sac à dos — casiers d’entreposage",
+          "title": "Le Sac à dos — casiers d’entreposage",
+          "description": "Le centre annonce des casiers à 10 $ par mois et des tiroirs à 5 $ par mois pour protéger effets personnels et documents.\nPrésentez-vous au centre de jour pour rencontrer l’intervenant responsable. Une demande ne garantit pas un casier disponible.\nLe Sac à dos — casiers",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Le centre annonce des casiers à 10 $ par mois et des tiroirs à 5 $ par mois pour protéger effets personnels et documents."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Présentez-vous au centre de jour pour rencontrer l’intervenant responsable. Une demande ne garantit pas un casier disponible."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Le Sac à dos — casiers",
-                  "href": "https://lesacados.org/louer-un-casier/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://lesacados.org/louer-un-casier/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "dopamine-hygiene-pour-personnes-qui-consomment",
-          "name": "Dopamine — hygiène pour personnes qui consomment",
+          "title": "Dopamine — hygiène pour personnes qui consomment",
+          "description": "Téléphone : 514 251-8872. Espace de répit, hygiène, écoute et références; ouvert six jours par semaine.\nAppelez pour confirmer l’adresse temporaire, l’heure de la douche ou de la buanderie et les services disponibles.\nDopamine — centre de jour",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Adresse temporaire du centre de jour :",
-                  "strong": true
-                },
-                {
-                  "text": " 3743, rue Sainte-Catherine Est"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Téléphone :",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "514 251-8872",
-                  "href": "tel:+15142518872"
-                },
-                {
-                  "text": ". Espace de répit, hygiène, écoute et références; ouvert six jours par semaine."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Appelez pour confirmer l’adresse temporaire, l’heure de la douche ou de la buanderie et les services disponibles."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Dopamine — centre de jour",
-                  "href": "https://www.dopamine.ca/"
-                }
-              ]
-            }
-          ]
+          "address": "Adresse temporaire du centre de jour : 3743, rue Sainte-Catherine Est",
+          "phone": "+15142518872",
+          "website": "https://www.dopamine.ca/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "internet-telephone-et-demarches",
-          "name": "Internet, téléphone et démarches",
+          "title": "Internet, téléphone et démarches",
+          "description": "PAQ annonce téléphone et internet pour les personnes admises. Accueil Bonneau offre une salle multimédia. Le Sac à dos réserve certains accès internet et téléphone aux participants de programmes.\nPour une option publique à proximité, demandez au 211 une bibliothèque ou un centre communautaire ouvert aujourd’hui.\nPAQ — services pratiques",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "PAQ annonce téléphone et internet pour les personnes admises. Accueil Bonneau offre une salle multimédia. Le Sac à dos réserve certains accès internet et téléphone aux participants de programmes."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Pour une option publique à proximité, demandez au 211 une bibliothèque ou un centre communautaire ouvert aujourd’hui."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "PAQ — services pratiques",
-                  "href": "https://www.paqc.org/services/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.paqc.org/services/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "toilettes-et-produits-menstruels",
-          "name": "Toilettes et produits menstruels",
+          "title": "Toilettes et produits menstruels",
+          "description": "Les centres de jour et plusieurs installations municipales disposent de toilettes pendant leurs heures d’ouverture. Plus de quarante lieux municipaux annoncent des produits menstruels gratuits.\nAppelez le 311 ou le 211 pour le lieu ouvert le plus proche; ne supposez pas qu’une toilette extérieure saisonnière est ouverte toute l’année.\nVille de Montréal — produits menstruels gratuits",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Les centres de jour et plusieurs installations municipales disposent de toilettes pendant leurs heures d’ouverture. Plus de quarante lieux municipaux annoncent des produits menstruels gratuits."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Appelez le 311 ou le 211 pour le lieu ouvert le plus proche; ne supposez pas qu’une toilette extérieure saisonnière est ouverte toute l’année."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ville de Montréal — produits menstruels gratuits",
-                  "href": "https://montreal.ca/articles/des-produits-menstruels-offerts-gratuitement-dans-des-edifices-municipaux-19106"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://montreal.ca/articles/des-produits-menstruels-offerts-gratuitement-dans-des-edifices-municipaux-19106",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
+    },
+    {
+      "id": "clothing",
+      "title": "Clothing",
+      "entries": []
     },
     {
       "id": "health",
-      "title": "5. Santé, santé mentale et réduction des risques",
-      "items": [
+      "title": "Santé, santé mentale et réduction des risques",
+      "entries": [
         {
-          "type": "resource",
           "id": "clsc-sainte-catherine-services-pour-personnes-en-situation-d-itinerance",
-          "name": "CLSC Sainte-Catherine — services pour personnes en situation d’itinérance",
+          "title": "CLSC Sainte-Catherine — services pour personnes en situation d’itinérance",
+          "description": "Téléphone : 514 527-2361. Accompagnement social et soins sans rendez-vous du lundi au vendredi de 8 h à 16 h.\nApportez les documents que vous avez, mais demandez de l’aide même si votre carte RAMQ manque ou est expirée. En urgence, 911.\nSanté Québec — services en itinérance",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Adresse :",
-                  "strong": true
-                },
-                {
-                  "text": " 66, rue Sainte-Catherine Est, Montréal, QC H2X 1K6"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Téléphone :",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "514 527-2361",
-                  "href": "tel:+15145272361"
-                },
-                {
-                  "text": ". Accompagnement social et soins sans rendez-vous du lundi au vendredi de 8 h à 16 h."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Apportez les documents que vous avez, mais demandez de l’aide même si votre carte RAMQ manque ou est expirée. En urgence, 911."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Santé Québec — services en itinérance",
-                  "href": "https://ciusss-centresudmtl.gouv.qc.ca/soins-et-services/itinerance"
-                }
-              ]
-            }
-          ]
+          "address": "Adresse : 66, rue Sainte-Catherine Est, Montréal, QC H2X 1K6",
+          "phone": "+15145272361",
+          "website": "https://ciusss-centresudmtl.gouv.qc.ca/soins-et-services/itinerance",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "dici-deuxieme-point-de-services-sans-rendez-vous",
-          "name": "DICI+ — deuxième point de services sans rendez-vous",
+          "title": "DICI+ — deuxième point de services sans rendez-vous",
+          "description": "Accompagnement social et soins du lundi au vendredi de 9 h 30 à 16 h 30, selon l’information officielle.\nAppelez le 811 avant de vous déplacer si vous ne savez pas quel point dessert votre besoin.\nSanté Québec — DICI+",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Adresse :",
-                  "strong": true
-                },
-                {
-                  "text": " 610, rue Saint-Alphonse, Montréal"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Accompagnement social et soins du lundi au vendredi de 9 h 30 à 16 h 30, selon l’information officielle."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Appelez le 811 avant de vous déplacer si vous ne savez pas quel point dessert votre besoin."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Santé Québec — DICI+",
-                  "href": "https://ciusss-centresudmtl.gouv.qc.ca/soins-et-services/itinerance"
-                }
-              ]
-            }
-          ]
+          "address": "Adresse : 610, rue Saint-Alphonse, Montréal",
+          "phone": "",
+          "website": "https://ciusss-centresudmtl.gouv.qc.ca/soins-et-services/itinerance",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "accueil-bonneau-espace-sante",
-          "name": "Accueil Bonneau — Espace Santé",
+          "title": "Accueil Bonneau — Espace Santé",
+          "description": "Soins de proximité, soins des pieds et clinique infirmière selon les journées annoncées. Les horaires spécialisés changent.\nCourriel d’information : espacesante@accueilbonneau.com; téléphone général 514 845-3906.\nAccueil Bonneau — Espace Santé",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Soins de proximité, soins des pieds et clinique infirmière selon les journées annoncées. Les horaires spécialisés changent."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Courriel d’information :",
-                  "strong": true
-                },
-                {
-                  "text": " espacesante@accueilbonneau.com; téléphone général "
-                },
-                {
-                  "text": "514 845-3906",
-                  "href": "tel:+15148453906"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Accueil Bonneau — Espace Santé",
-                  "href": "https://www.accueilbonneau.com/programmes-et-services/carrefour-multiservice/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+15148453906",
+          "website": "https://www.accueilbonneau.com/programmes-et-services/carrefour-multiservice/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "cactus-montreal-consommation-supervisee",
-          "name": "CACTUS Montréal — consommation supervisée",
+          "title": "CACTUS Montréal — consommation supervisée",
+          "description": "Téléphone : 514 847-0067; tous les jours de 15 h à 2 h selon Santé Québec.\nConsommation dans un environnement supervisé, matériel stérile, soutien et intervention en cas de surdose. Appelez pour confirmer l’heure de dernière admission.\nSanté Québec — sites de consommation supervisée",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Adresse :",
-                  "strong": true
-                },
-                {
-                  "text": " 1244, rue Berger, Montréal"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Téléphone :",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "514 847-0067",
-                  "href": "tel:+15148470067"
-                },
-                {
-                  "text": "; tous les jours de 15 h à 2 h selon Santé Québec."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Consommation dans un environnement supervisé, matériel stérile, soutien et intervention en cas de surdose. Appelez pour confirmer l’heure de dernière admission."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Santé Québec — sites de consommation supervisée",
-                  "href": "https://ciusss-centresudmtl.gouv.qc.ca/soins-et-services/problemes-de-consommation-ou-de-dependance/services-de-consommation-supervisee"
-                }
-              ]
-            }
-          ]
+          "address": "Adresse : 1244, rue Berger, Montréal",
+          "phone": "+15148470067",
+          "website": "https://ciusss-centresudmtl.gouv.qc.ca/soins-et-services/problemes-de-consommation-ou-de-dependance/services-de-consommation-supervisee",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "dopamine-jour-soir-et-consommation-supervisee",
-          "name": "Dopamine — jour, soir et consommation supervisée",
+          "title": "Dopamine — jour, soir et consommation supervisée",
+          "description": "Téléphone : 514 251-8872. Site de soir et consommation supervisée tous les jours de 19 h à 1 h; dernière admission à 0 h 30.\nLe centre de jour offre répit, hygiène, clinique, matériel de prévention, écoute et références.\nDopamine — services et horaires",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Site de soir :",
-                  "strong": true
-                },
-                {
-                  "text": " 4205, rue Ontario Est, Montréal"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Téléphone :",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "514 251-8872",
-                  "href": "tel:+15142518872"
-                },
-                {
-                  "text": ". Site de soir et consommation supervisée tous les jours de 19 h à 1 h; dernière admission à 0 h 30."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Le centre de jour offre répit, hygiène, clinique, matériel de prévention, écoute et références."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Dopamine — services et horaires",
-                  "href": "https://www.dopamine.ca/"
-                }
-              ]
-            }
-          ]
+          "address": "Site de soir : 4205, rue Ontario Est, Montréal",
+          "phone": "+15142518872",
+          "website": "https://www.dopamine.ca/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "l-anonyme-unite-mobile-de-consommation-supervisee",
-          "name": "L’Anonyme — unité mobile de consommation supervisée",
+          "title": "L’Anonyme — unité mobile de consommation supervisée",
+          "description": "Téléphone : 1 844 381-2455. Unité mobile tous les jours de 22 h 45 à 5 h selon Santé Québec.\nAppelez pour l’emplacement actuel. Ne consommez pas seul si une option supervisée est accessible.\nSanté Québec — unité mobile",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Téléphone :",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "1 844 381-2455",
-                  "href": "tel:+18443812455"
-                },
-                {
-                  "text": ". Unité mobile tous les jours de 22 h 45 à 5 h selon Santé Québec."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Appelez pour l’emplacement actuel. Ne consommez pas seul si une option supervisée est accessible."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Santé Québec — unité mobile",
-                  "href": "https://ciusss-centresudmtl.gouv.qc.ca/soins-et-services/problemes-de-consommation-ou-de-dependance/services-de-consommation-supervisee"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+18443812455",
+          "website": "https://ciusss-centresudmtl.gouv.qc.ca/soins-et-services/problemes-de-consommation-ou-de-dependance/services-de-consommation-supervisee",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "sante-mentale-et-crise",
-          "name": "Santé mentale et crise",
+          "title": "Santé mentale et crise",
+          "description": "Appelez le 811, option 2, pour une difficulté psychosociale ou une crise non urgente. Appelez ou textez le 988 pour une crise suicidaire.\nSi une personne est en danger immédiat, violente, inconsciente ou incapable de respirer, appelez le 911.\nGouvernement du Québec — santé mentale",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Appelez le "
-                },
-                {
-                  "text": "811",
-                  "href": "tel:811"
-                },
-                {
-                  "text": ", option 2, pour une difficulté psychosociale ou une crise non urgente. Appelez ou textez le "
-                },
-                {
-                  "text": "988",
-                  "href": "tel:988"
-                },
-                {
-                  "text": " pour une crise suicidaire."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Si une personne est en danger immédiat, violente, inconsciente ou incapable de respirer, appelez le 911."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Gouvernement du Québec — santé mentale",
-                  "href": "https://www.quebec.ca/sante/sante-mentale"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "811",
+          "website": "https://www.quebec.ca/sante/sante-mentale",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "soins-sans-carte-valide",
-          "name": "Soins sans carte valide",
+          "title": "Soins sans carte valide",
+          "description": "Une carte expirée peut bloquer certaines démarches, mais ne renoncez pas à demander des soins. Présentez-vous au service d’itinérance du CLSC ou demandez au 811 où aller.\nEn urgence, l’évaluation médicale ne doit pas être retardée par la recherche de documents. Appelez le 911 si nécessaire.\nSanté Québec — accès pour personnes sans logement",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Une carte expirée peut bloquer certaines démarches, mais ne renoncez pas à demander des soins. Présentez-vous au service d’itinérance du CLSC ou demandez au 811 où aller."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "En urgence, l’évaluation médicale ne doit pas être retardée par la recherche de documents. Appelez le 911 si nécessaire."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Santé Québec — accès pour personnes sans logement",
-                  "href": "https://ciusss-centresudmtl.gouv.qc.ca/soins-et-services/itinerance"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://ciusss-centresudmtl.gouv.qc.ca/soins-et-services/itinerance",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
+    },
+    {
+      "id": "mental-health",
+      "title": "Mental health and addiction",
+      "entries": []
+    },
+    {
+      "id": "public-facilities",
+      "title": "Public toilets and day facilities",
+      "entries": []
+    },
+    {
+      "id": "phone-internet",
+      "title": "Phone charging and internet",
+      "entries": []
+    },
+    {
+      "id": "transport",
+      "title": "Transport",
+      "entries": []
     },
     {
       "id": "benefits",
-      "title": "6. Prestations, logement et prévention",
-      "items": [
+      "title": "Prestations, logement et prévention",
+      "entries": [
         {
-          "type": "resource",
           "id": "aide-sociale-et-solidarite-sociale",
-          "name": "Aide sociale et solidarité sociale",
+          "title": "Aide sociale et solidarité sociale",
+          "description": "Région de Montréal : 514 873-4000; du lundi au vendredi, généralement de 8 h 30 à 16 h 30 et le mercredi de 10 h à 16 h 30.\nCes programmes peuvent couvrir des besoins de base selon les revenus, les biens, la résidence au Québec et les contraintes de santé. Un agent détermine l’admissibilité.\nGouvernement du Québec — aide financière",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Région de Montréal :",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "514 873-4000",
-                  "href": "tel:+15148734000"
-                },
-                {
-                  "text": "; du lundi au vendredi, généralement de 8 h 30 à 16 h 30 et le mercredi de 10 h à 16 h 30."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ces programmes peuvent couvrir des besoins de base selon les revenus, les biens, la résidence au Québec et les contraintes de santé. Un agent détermine l’admissibilité."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Gouvernement du Québec — aide financière",
-                  "href": "https://www.quebec.ca/famille-et-soutien-aux-personnes/programmes-assistance-sociale-aide-financiere/presentation-programmes-aide-financiere/programme-aide-sociale-programme-solidarite-sociale"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+15148734000",
+          "website": "https://www.quebec.ca/famille-et-soutien-aux-personnes/programmes-assistance-sociale-aide-financiere/presentation-programmes-aide-financiere/programme-aide-sociale-programme-solidarite-sociale",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "services-quebec-centre-ville",
-          "name": "Services Québec — centre-ville",
+          "title": "Services Québec — centre-ville",
+          "description": "Téléphone général Québec : 514 644-4545.\nDemandez aide sociale, emploi, déclaration d’identité et de domicile, ou orientation vers le bon bureau. Vérifiez les heures et la nécessité d’un rendez-vous.\nGouvernement du Québec — services en personne",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Adresse :",
-                  "strong": true
-                },
-                {
-                  "text": " 1260, rue Sainte-Catherine Est, 3e étage, Montréal, QC H2L 2H2"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Téléphone général Québec :",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "514 644-4545",
-                  "href": "tel:+15146444545"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Demandez aide sociale, emploi, déclaration d’identité et de domicile, ou orientation vers le bon bureau. Vérifiez les heures et la nécessité d’un rendez-vous."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Gouvernement du Québec — services en personne",
-                  "href": "https://www.quebec.ca/emploi/demande-information-services-aide-emploi"
-                }
-              ]
-            }
-          ]
+          "address": "Adresse : 1260, rue Sainte-Catherine Est, 3e étage, Montréal, QC H2L 2H2",
+          "phone": "+15146444545",
+          "website": "https://www.quebec.ca/emploi/demande-information-services-aide-emploi",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "allocation-logement",
-          "name": "Allocation-logement",
+          "title": "Allocation-logement",
+          "description": "Revenu Québec, Montréal : 514 940-1481.\nPour certaines familles et personnes de 50 ans ou plus qui consacrent une grande part de leur revenu au loyer. Il faut avoir un logement admissible; ce programme ne paie pas un lit d’urgence le soir même.\nGouvernement du Québec — Allocation-logement",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Revenu Québec, Montréal :",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "514 940-1481",
-                  "href": "tel:+15149401481"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Pour certaines familles et personnes de 50 ans ou plus qui consacrent une grande part de leur revenu au loyer. Il faut avoir un logement admissible; ce programme ne paie pas un lit d’urgence le soir même."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Gouvernement du Québec — Allocation-logement",
-                  "href": "https://www.quebec.ca/habitation-territoire/location/aides-financieres-au-logement/programme-allocation-logement"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+15149401481",
+          "website": "https://www.quebec.ca/habitation-territoire/location/aides-financieres-au-logement/programme-allocation-logement",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "aide-d-urgence-apres-perte-de-logement",
-          "name": "Aide d’urgence après perte de logement",
+          "title": "Aide d’urgence après perte de logement",
+          "description": "Le programme provincial peut soutenir certains frais d’hébergement temporaire, de déménagement ou d’entreposage par l’intermédiaire de la municipalité.\nAppelez le 311 ou le 211 et demandez le service d’aide à la recherche de logement. L’admissibilité et les montants ne sont pas automatiques.\nGouvernement du Québec — aide au loyer et urgence",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Le programme provincial peut soutenir certains frais d’hébergement temporaire, de déménagement ou d’entreposage par l’intermédiaire de la municipalité."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Appelez le 311 ou le 211 et demandez le service d’aide à la recherche de logement. L’admissibilité et les montants ne sont pas automatiques."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Gouvernement du Québec — aide au loyer et urgence",
-                  "href": "https://www.quebec.ca/habitation-territoire/location/besoin-logement/aide-loyer-urgence"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.quebec.ca/habitation-territoire/location/besoin-logement/aide-loyer-urgence",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "prevention-de-l-itinerance-mission-old-brewery",
-          "name": "Prévention de l’itinérance — Mission Old Brewery",
+          "title": "Prévention de l’itinérance — Mission Old Brewery",
+          "description": "Si vous risquez de perdre votre logement, contactez l’équipe de prévention avant l’expulsion ou le départ.\nCourriel : prevention@missionoldbrewery.ca. Donnez la date limite, le montant dû, les avis reçus et vos coordonnées sûres.\nMission Old Brewery — prévention",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Si vous risquez de perdre votre logement, contactez l’équipe de prévention avant l’expulsion ou le départ."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Courriel :",
-                  "strong": true
-                },
-                {
-                  "text": " prevention@missionoldbrewery.ca. Donnez la date limite, le montant dû, les avis reçus et vos coordonnées sûres."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Mission Old Brewery — prévention",
-                  "href": "https://www.missionoldbrewery.ca/en/i-need-help"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.missionoldbrewery.ca/en/i-need-help",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "dossiers-de-logement-et-listes-d-attente",
-          "name": "Dossiers de logement et listes d’attente",
+          "title": "Dossiers de logement et listes d’attente",
+          "description": "Demandez à un intervenant du refuge, du CLSC, de PAQ, de Chez Doris, de Maison du Père ou du 211 de vous aider à déposer les demandes adaptées.\nGardez une copie, la date, le numéro de dossier et les coordonnées utilisées. Une inscription ne garantit pas un logement rapide.\nVille de Montréal — hébergement et logement",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Demandez à un intervenant du refuge, du CLSC, de PAQ, de Chez Doris, de Maison du Père ou du 211 de vous aider à déposer les demandes adaptées."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Gardez une copie, la date, le numéro de dossier et les coordonnées utilisées. Une inscription ne garantit pas un logement rapide."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ville de Montréal — hébergement et logement",
-                  "href": "https://montreal.ca/articles/ressources-dhebergement-temporaire-et-aide-aux-personnes-sans-logement-81149"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://montreal.ca/articles/ressources-dhebergement-temporaire-et-aide-aux-personnes-sans-logement-81149",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
-      "id": "jobs",
-      "title": "7. Emploi et formation",
-      "items": [
+      "id": "employment",
+      "title": "Emploi et formation",
+      "entries": [
         {
-          "type": "resource",
           "id": "services-quebec-aide-a-l-emploi",
-          "name": "Services Québec — aide à l’emploi",
+          "title": "Services Québec — aide à l’emploi",
+          "description": "Les bureaux de Services Québec offrent des agents d’aide à l’emploi, une salle libre-service et une orientation vers des programmes.\nIl est possible de demander des services sans compte en ligne. Pour une demande en personne, une pièce d’identité avec photo peut être demandée; sollicitez un intervenant si elle manque.\nGouvernement du Québec — demande d’aide à l’emploi",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Les bureaux de Services Québec offrent des agents d’aide à l’emploi, une salle libre-service et une orientation vers des programmes."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Il est possible de demander des services sans compte en ligne. Pour une demande en personne, une pièce d’identité avec photo peut être demandée; sollicitez un intervenant si elle manque."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Gouvernement du Québec — demande d’aide à l’emploi",
-                  "href": "https://www.quebec.ca/emploi/demande-information-services-aide-emploi"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.quebec.ca/emploi/demande-information-services-aide-emploi",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "quebec-emploi-offres-officielles",
-          "name": "Québec emploi — offres officielles",
+          "title": "Québec emploi — offres officielles",
+          "description": "Information, région de Montréal : 514 644-4545.\nConsultez les offres gratuitement. Ne payez jamais pour postuler et ne donnez votre numéro d’assurance sociale qu’après une embauche réelle, lorsqu’il est légalement requis.\nGouvernement du Québec — Québec emploi",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Information, région de Montréal :",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "514 644-4545",
-                  "href": "tel:+15146444545"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Consultez les offres gratuitement. Ne payez jamais pour postuler et ne donnez votre numéro d’assurance sociale qu’après une embauche réelle, lorsqu’il est légalement requis."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Gouvernement du Québec — Québec emploi",
-                  "href": "https://www.quebec.ca/emploi/trouver-emploi-stage/consulter-offres-emplois"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+15146444545",
+          "website": "https://www.quebec.ca/emploi/trouver-emploi-stage/consulter-offres-emplois",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "mission-bon-accueil-aide-a-l-emploi",
-          "name": "Mission Bon Accueil — aide à l’emploi",
+          "title": "Mission Bon Accueil — aide à l’emploi",
+          "description": "Téléphone : 514 523-5288, poste 138.\nLe programme de 20 heures par semaine demande notamment d’être adulte, prestataire de l’aide sociale, d’avoir certains documents et une référence d’Emploi-Québec. Appelez pour confirmer l’admissibilité.\nMission Bon Accueil — compétences et emploi",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Programme de compétences :",
-                  "strong": true
-                },
-                {
-                  "text": " 4755D, rue Acorn, Montréal"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Téléphone :",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "514 523-5288",
-                  "href": "tel:+15145235288"
-                },
-                {
-                  "text": ", poste 138."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Le programme de 20 heures par semaine demande notamment d’être adulte, prestataire de l’aide sociale, d’avoir certains documents et une référence d’Emploi-Québec. Appelez pour confirmer l’admissibilité."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Mission Bon Accueil — compétences et emploi",
-                  "href": "https://missionbonaccueil.com/obtenir-de-laide"
-                }
-              ]
-            }
-          ]
+          "address": "Programme de compétences : 4755D, rue Acorn, Montréal",
+          "phone": "+15145235288",
+          "website": "https://missionbonaccueil.com/obtenir-de-laide",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "le-sac-a-dos-service-d-aide-a-l-emploi",
-          "name": "Le Sac à dos — service d’aide à l’emploi",
+          "title": "Le Sac à dos — service d’aide à l’emploi",
+          "description": "Téléphone : 514 393-8868.\nDemandez au centre de jour l’inscription au service d’aide à l’emploi, l’accès internet et l’accompagnement. Le comptoir postal peut aussi fournir une adresse aux personnes autorisées par Services Québec.\nLe Sac à dos — centre de jour et références",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Adresse :",
-                  "strong": true
-                },
-                {
-                  "text": " 222, rue Sainte-Catherine Est"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Téléphone :",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "514 393-8868",
-                  "href": "tel:+15143938868"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Demandez au centre de jour l’inscription au service d’aide à l’emploi, l’accès internet et l’accompagnement. Le comptoir postal peut aussi fournir une adresse aux personnes autorisées par Services Québec."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Le Sac à dos — centre de jour et références",
-                  "href": "https://lesacados.org/centre-de-jour/"
-                }
-              ]
-            }
-          ]
+          "address": "Adresse : 222, rue Sainte-Catherine Est",
+          "phone": "+15143938868",
+          "website": "https://lesacados.org/centre-de-jour/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "dans-la-rue-emploi-et-ecole-pour-les-jeunes",
-          "name": "Dans la rue — emploi et école pour les jeunes",
+          "title": "Dans la rue — emploi et école pour les jeunes",
+          "description": "Téléphone : 514 526-7677.\nLe centre aide les jeunes avec recherche d’emploi, scolarité, santé, droits et besoins de base. Présentez-vous pendant les heures du centre de jour.\nDans la rue — centre de jour",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Centre de jour :",
-                  "strong": true
-                },
-                {
-                  "text": " 1662, rue Ontario Est, Montréal, QC H2L 1S7"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Téléphone :",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "514 526-7677",
-                  "href": "tel:+15145267677"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Le centre aide les jeunes avec recherche d’emploi, scolarité, santé, droits et besoins de base. Présentez-vous pendant les heures du centre de jour."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Dans la rue — centre de jour",
-                  "href": "https://danslarue.org/ou-trouver-de-laide/centre-de-jour/"
-                }
-              ]
-            }
-          ]
+          "address": "Centre de jour : 1662, rue Ontario Est, Montréal, QC H2L 1S7",
+          "phone": "+15145267677",
+          "website": "https://danslarue.org/ou-trouver-de-laide/centre-de-jour/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "eviter-les-fausses-offres",
-          "name": "Éviter les fausses offres",
+          "title": "Éviter les fausses offres",
+          "description": "Ne payez pas de frais de recrutement, de formation obligatoire ou de matériel à un inconnu. N’envoyez pas de photo de documents ou de codes bancaires avant d’avoir vérifié l’employeur.\nDemandez des conditions écrites, le salaire, l’adresse de travail et le nom légal de l’entreprise.\nGouvernement du Canada — protéger son NAS",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ne payez pas de frais de recrutement, de formation obligatoire ou de matériel à un inconnu. N’envoyez pas de photo de documents ou de codes bancaires avant d’avoir vérifié l’employeur."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Demandez des conditions écrites, le salaire, l’adresse de travail et le nom légal de l’entreprise."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Gouvernement du Canada — protéger son NAS",
-                  "href": "https://www.canada.ca/en/employment-social-development/services/sin/protection.html"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.canada.ca/en/employment-social-development/services/sin/protection.html",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
+    },
+    {
+      "id": "legal",
+      "title": "Legal aid",
+      "entries": []
     },
     {
       "id": "documents",
-      "title": "8. Documents, aide juridique et immigration",
-      "items": [
+      "title": "Documents, aide juridique et immigration",
+      "entries": [
         {
-          "type": "resource",
           "id": "commencer-avec-un-intervenant",
-          "name": "Commencer avec un intervenant",
+          "title": "Commencer avec un intervenant",
+          "description": "Si tous vos documents ont été perdus ou volés, demandez au CLSC itinérance, au refuge, au Sac à dos ou au 211 un ordre de démarches. Certains documents exigent une identité, une adresse postale ou un répondant.\nGardez les originaux avec vous sauf si une autorité officielle vous donne un reçu écrit.\nSanté Québec — accompagnement en itinérance",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Si tous vos documents ont été perdus ou volés, demandez au CLSC itinérance, au refuge, au Sac à dos ou au 211 un ordre de démarches. Certains documents exigent une identité, une adresse postale ou un répondant."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Gardez les originaux avec vous sauf si une autorité officielle vous donne un reçu écrit."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Santé Québec — accompagnement en itinérance",
-                  "href": "https://ciusss-centresudmtl.gouv.qc.ca/soins-et-services/itinerance"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://ciusss-centresudmtl.gouv.qc.ca/soins-et-services/itinerance",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "carte-d-assurance-maladie-du-quebec",
-          "name": "Carte d’assurance maladie du Québec",
+          "title": "Carte d’assurance maladie du Québec",
+          "description": "RAMQ : 1 800 561-9749.\nPour une personne en situation d’itinérance, Services Québec peut établir une déclaration d’identité et de domicile selon les critères. Le Sac à dos peut aussi fournir une lettre de référence à certains participants.\nLe Sac à dos — aide pour la carte RAMQ",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "RAMQ :",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "1 800 561-9749",
-                  "href": "tel:+18005619749"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Pour une personne en situation d’itinérance, Services Québec peut établir une déclaration d’identité et de domicile selon les critères. Le Sac à dos peut aussi fournir une lettre de référence à certains participants."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Le Sac à dos — aide pour la carte RAMQ",
-                  "href": "https://lesacados.org/centre-de-jour/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+18005619749",
+          "website": "https://lesacados.org/centre-de-jour/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "numero-d-assurance-sociale",
-          "name": "Numéro d’assurance sociale",
+          "title": "Numéro d’assurance sociale",
+          "description": "Service Canada : 1 866 274-6627.\nLe NAS est nécessaire pour travailler et accéder à certains programmes. Il n’existe plus de carte plastique. Si vous le connaissez, vous pouvez obtenir une confirmation par Mon dossier Service Canada.\nGouvernement du Canada — demander un NAS",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Service Canada :",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "1 866 274-6627",
-                  "href": "tel:+18662746627"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Le NAS est nécessaire pour travailler et accéder à certains programmes. Il n’existe plus de carte plastique. Si vous le connaissez, vous pouvez obtenir une confirmation par Mon dossier Service Canada."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Gouvernement du Canada — demander un NAS",
-                  "href": "https://www.canada.ca/fr/emploi-developpement-social/services/numero-assurance-sociale/demande.html"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+18662746627",
+          "website": "https://www.canada.ca/fr/emploi-developpement-social/services/numero-assurance-sociale/demande.html",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "recevoir-du-courrier-sans-domicile-fixe",
-          "name": "Recevoir du courrier sans domicile fixe",
+          "title": "Recevoir du courrier sans domicile fixe",
+          "description": "Une adresse temporaire de refuge peut parfois servir pour paiements et courrier fédéral. Le Sac à dos offre aussi un comptoir postal aux personnes autorisées par les bureaux partenaires.\nDemandez toujours l’accord écrit ou clair de l’organisme avant d’utiliser son adresse.\nAgence du revenu du Canada — personnes sans adresse permanente",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Une adresse temporaire de refuge peut parfois servir pour paiements et courrier fédéral. Le Sac à dos offre aussi un comptoir postal aux personnes autorisées par les bureaux partenaires."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Demandez toujours l’accord écrit ou clair de l’organisme avant d’utiliser son adresse."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Agence du revenu du Canada — personnes sans adresse permanente",
-                  "href": "https://www.canada.ca/fr/agence-revenu/services/impot/particuliers/segments/insecurite-logement.html"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.canada.ca/fr/agence-revenu/services/impot/particuliers/segments/insecurite-logement.html",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "clinique-juridique-itinerante",
-          "name": "Clinique juridique itinérante",
+          "title": "Clinique juridique itinérante",
+          "description": "Montréal : 514 222-7274.\nInformation juridique, accompagnement sociojuridique et aide avec certaines dettes judiciaires pour personnes démunies, itinérantes ou marginalisées. La clinique se déplace dans des refuges et centres de jour.\nClinique juridique itinérante — services",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Montréal :",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "514 222-7274",
-                  "href": "tel:+15142227274"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Information juridique, accompagnement sociojuridique et aide avec certaines dettes judiciaires pour personnes démunies, itinérantes ou marginalisées. La clinique se déplace dans des refuges et centres de jour."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Clinique juridique itinérante — services",
-                  "href": "https://www.cji-mlc.org/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+15142227274",
+          "website": "https://www.cji-mlc.org/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "clinique-juridique-du-barreau-du-quebec",
-          "name": "Clinique juridique du Barreau du Québec",
+          "title": "Clinique juridique du Barreau du Québec",
+          "description": "Téléphone : 514 954-9512; consultations sur rendez-vous.\nAppelez pour vérifier si la clinique peut répondre à votre question et quels documents apporter. Ce service ne garantit pas une représentation devant le tribunal.\nClinique juridique — horaire et adresse",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Adresse :",
-                  "strong": true
-                },
-                {
-                  "text": " 445, boulevard Saint-Laurent, Montréal, QC H2Y 3T8"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Téléphone :",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "514 954-9512",
-                  "href": "tel:+15149549512"
-                },
-                {
-                  "text": "; consultations sur rendez-vous."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Appelez pour vérifier si la clinique peut répondre à votre question et quels documents apporter. Ce service ne garantit pas une représentation devant le tribunal."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Clinique juridique — horaire et adresse",
-                  "href": "https://www.cliniquejuridiquebarreau.ca/fr/horaires-et-adresses/"
-                }
-              ]
-            }
-          ]
+          "address": "Adresse : 445, boulevard Saint-Laurent, Montréal, QC H2Y 3T8",
+          "phone": "+15149549512",
+          "website": "https://www.cliniquejuridiquebarreau.ca/fr/horaires-et-adresses/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "praida-personnes-en-demande-d-asile",
-          "name": "PRAIDA — personnes en demande d’asile",
+          "title": "PRAIDA — personnes en demande d’asile",
+          "description": "Téléphone : 514 484-7878. Accueil sans rendez-vous; apportez tous les documents disponibles.\nServices gratuits, multilingues et confidentiels pour démarches d’asile, installation, logement, permis de travail, soutien psychosocial et mineurs non accompagnés. L’hébergement temporaire dépend de l’évaluation.\nPRAIDA — services pour demandeurs d’asile",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Adresse :",
-                  "strong": true
-                },
-                {
-                  "text": " 35, rue de Port-Royal Est, Montréal, QC H3L 3T1"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Téléphone :",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "514 484-7878",
-                  "href": "tel:+15144847878"
-                },
-                {
-                  "text": ". Accueil sans rendez-vous; apportez tous les documents disponibles."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Services gratuits, multilingues et confidentiels pour démarches d’asile, installation, logement, permis de travail, soutien psychosocial et mineurs non accompagnés. L’hébergement temporaire dépend de l’évaluation."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "PRAIDA — services pour demandeurs d’asile",
-                  "href": "https://www.ciussscentreouest.ca/programmes-et-services/praida-programme-regional-daccueil-et-dintegration-des-demandeurs-dasile/je-suis-une-personne-en-demande-dasile"
-                }
-              ]
-            }
-          ]
+          "address": "Adresse : 35, rue de Port-Royal Est, Montréal, QC H3L 3T1",
+          "phone": "+15144847878",
+          "website": "https://www.ciussscentreouest.ca/programmes-et-services/praida-programme-regional-daccueil-et-dintegration-des-demandeurs-dasile/je-suis-une-personne-en-demande-dasile",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "documents-perdus-ou-voles",
-          "name": "Documents perdus ou volés",
+          "title": "Documents perdus ou volés",
+          "description": "Pour un vol avec risque de fraude, faites un signalement à la police et gardez le numéro d’événement. Contactez ensuite l’autorité qui a émis chaque document.\nNe publiez pas de photo de pièce d’identité et ne payez pas une personne qui promet une délivrance accélérée.\nGouvernement du Canada — protéger NAS et prestations",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Pour un vol avec risque de fraude, faites un signalement à la police et gardez le numéro d’événement. Contactez ensuite l’autorité qui a émis chaque document."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ne publiez pas de photo de pièce d’identité et ne payez pas une personne qui promet une délivrance accélérée."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Gouvernement du Canada — protéger NAS et prestations",
-                  "href": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/segments/housing-insecurity.html"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/segments/housing-insecurity.html",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
-      "id": "specialized",
-      "title": "9. Femmes, jeunes, Autochtones, personnes LGBTQ+ et aînées",
-      "items": [
+      "id": "mail",
+      "title": "Mailing address",
+      "entries": []
+    },
+    {
+      "id": "storage",
+      "title": "Storage",
+      "entries": []
+    },
+    {
+      "id": "safety",
+      "title": "Safety and domestic violence",
+      "entries": []
+    },
+    {
+      "id": "specialist-support",
+      "title": "Femmes, jeunes, Autochtones, personnes LGBTQ+ et aînées",
+      "entries": [
         {
-          "type": "resource",
           "id": "chez-doris-centre-de-jour-pour-femmes",
-          "name": "Chez Doris — centre de jour pour femmes",
+          "title": "Chez Doris — centre de jour pour femmes",
+          "description": "Téléphone : 514 937-2341, puis 0. Ouvert tous les jours de 8 h à 19 h, sauf le mercredi de 8 h à 13 h et de 16 h à 19 h.\nRepas, besoins essentiels, santé, logement, gestion financière, emploi et programmes autochtones. Le refuge de nuit utilise une adresse distincte.\nChez Doris — services et horaires",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Adresse :",
-                  "strong": true
-                },
-                {
-                  "text": " 1430, rue Chomedey, Montréal, QC H3H 2A7"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Téléphone :",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "514 937-2341",
-                  "href": "tel:+15149372341"
-                },
-                {
-                  "text": ", puis 0. Ouvert tous les jours de 8 h à 19 h, sauf le mercredi de 8 h à 13 h et de 16 h à 19 h."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Repas, besoins essentiels, santé, logement, gestion financière, emploi et programmes autochtones. Le refuge de nuit utilise une adresse distincte."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Chez Doris — services et horaires",
-                  "href": "https://chezdoris.org/jai-besoin-daide/"
-                }
-              ]
-            }
-          ]
+          "address": "Adresse : 1430, rue Chomedey, Montréal, QC H3H 2A7",
+          "phone": "+15149372341",
+          "website": "https://chezdoris.org/jai-besoin-daide/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "violence-conjugale-ou-sexuelle",
-          "name": "Violence conjugale ou sexuelle",
+          "title": "Violence conjugale ou sexuelle",
+          "description": "Violence conjugale : 1 800 363-9010. Violence sexuelle : 1 888 933-9007. Les deux lignes sont offertes 24 heures sur 24.\nDemandez un plan de sécurité et une maison adaptée aux enfants, à la langue, à la mobilité ou à l’identité de genre. En danger immédiat, 911.\nGouvernement du Québec — violence et hébergement",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Violence conjugale :",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "1 800 363-9010",
-                  "href": "tel:+18003639010"
-                },
-                {
-                  "text": ". "
-                },
-                {
-                  "text": "Violence sexuelle :",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "1 888 933-9007",
-                  "href": "tel:+18889339007"
-                },
-                {
-                  "text": ". Les deux lignes sont offertes 24 heures sur 24."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Demandez un plan de sécurité et une maison adaptée aux enfants, à la langue, à la mobilité ou à l’identité de genre. En danger immédiat, 911."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Gouvernement du Québec — violence et hébergement",
-                  "href": "https://www.quebec.ca/famille-et-soutien-aux-personnes/violences/violence-conjugale/aide-ressources"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+18003639010",
+          "website": "https://www.quebec.ca/famille-et-soutien-aux-personnes/violences/violence-conjugale/aide-ressources",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "dans-la-rue-jeunes-de-12-a-21-ans",
-          "name": "Dans la rue — jeunes de 12 à 21 ans",
+          "title": "Dans la rue — jeunes de 12 à 21 ans",
+          "description": "Refuge Le Bunker : 514 524-0029. Centre de jour : 514 526-7677.\nHébergement, repas, hygiène, santé, école, emploi, droits et accompagnement. L’adresse du Bunker reste confidentielle.\nDans la rue — trouver de l’aide",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Refuge Le Bunker :",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "514 524-0029",
-                  "href": "tel:+15145240029"
-                },
-                {
-                  "text": ". "
-                },
-                {
-                  "text": "Centre de jour :",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "514 526-7677",
-                  "href": "tel:+15145267677"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Hébergement, repas, hygiène, santé, école, emploi, droits et accompagnement. L’adresse du Bunker reste confidentielle."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Dans la rue — trouver de l’aide",
-                  "href": "https://danslarue.org/ou-trouver-de-laide/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+15145240029",
+          "website": "https://danslarue.org/ou-trouver-de-laide/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "protection-de-la-jeunesse-enfant-en-danger",
-          "name": "Protection de la jeunesse — enfant en danger",
+          "title": "Protection de la jeunesse — enfant en danger",
+          "description": "DPJ de Montréal : 514 896-3100, 24 heures sur 24.\nPour un enfant seul, abandonné, maltraité, exploité ou dont la sécurité ou le développement est compromis. En danger immédiat, appelez aussi le 911.\nGouvernement du Québec — signalement au DPJ",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "DPJ de Montréal :",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "514 896-3100",
-                  "href": "tel:+15148963100"
-                },
-                {
-                  "text": ", 24 heures sur 24."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Pour un enfant seul, abandonné, maltraité, exploité ou dont la sécurité ou le développement est compromis. En danger immédiat, appelez aussi le 911."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Gouvernement du Québec — signalement au DPJ",
-                  "href": "https://www.quebec.ca/famille-et-soutien-aux-personnes/enfance/protection-de-la-jeunesse/faire-un-signalement-au-dpj/comment-faire-un-signalement"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+15148963100",
+          "website": "https://www.quebec.ca/famille-et-soutien-aux-personnes/enfance/protection-de-la-jeunesse/faire-un-signalement-au-dpj/comment-faire-un-signalement",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "projets-autochtones-du-quebec",
-          "name": "Projets Autochtones du Québec",
+          "title": "Projets Autochtones du Québec",
+          "description": "Téléphone : 514 879-3310. Refuges 24 heures sur 24, aide culturellement adaptée, navette, santé, identité, aide sociale, emploi et logement.\nLe refuge principal et PAQ2 ont des règles différentes concernant la consommation. Expliquez votre situation pour être orienté vers le bon site.\nPAQ — services d’urgence",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Téléphone :",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "514 879-3310",
-                  "href": "tel:+15148793310"
-                },
-                {
-                  "text": ". Refuges 24 heures sur 24, aide culturellement adaptée, navette, santé, identité, aide sociale, emploi et logement."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Le refuge principal et PAQ2 ont des règles différentes concernant la consommation. Expliquez votre situation pour être orienté vers le bon site."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "PAQ — services d’urgence",
-                  "href": "https://www.paqc.org/services/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+15148793310",
+          "website": "https://www.paqc.org/services/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "espoir-pour-le-mieux-etre-peuples-autochtones",
-          "name": "Espoir pour le mieux-être — peuples autochtones",
+          "title": "Espoir pour le mieux-être — peuples autochtones",
+          "description": "Appelez : 1 855 242-3310, 24 heures sur 24.\nSoutien émotionnel et intervention de crise en français et en anglais, avec cri, ojibwé ou inuktitut sur demande. En danger immédiat, 911.\nGouvernement du Canada — soutien autochtone",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Appelez :",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "1 855 242-3310",
-                  "href": "tel:+18552423310"
-                },
-                {
-                  "text": ", 24 heures sur 24."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Soutien émotionnel et intervention de crise en français et en anglais, avec cri, ojibwé ou inuktitut sur demande. En danger immédiat, 911."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Gouvernement du Canada — soutien autochtone",
-                  "href": "https://www.canada.ca/fr/sante-publique/services/prevention-suicide/signes-precurseurs.html"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+18552423310",
+          "website": "https://www.canada.ca/fr/sante-publique/services/prevention-suicide/signes-precurseurs.html",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "interligne-personnes-lgbtq",
-          "name": "Interligne — personnes LGBTQ+",
+          "title": "Interligne — personnes LGBTQ+",
+          "description": "Appelez ou textez : 1 888 505-1010, gratuitement et confidentiellement, 24 heures sur 24.\nÉcoute, information et orientation par et pour les personnes LGBTQ+, leurs proches et les professionnels. En urgence, 911.\nInterligne — services d’aide",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Appelez ou textez :",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "1 888 505-1010",
-                  "href": "tel:+18885051010"
-                },
-                {
-                  "text": ", gratuitement et confidentiellement, 24 heures sur 24."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Écoute, information et orientation par et pour les personnes LGBTQ+, leurs proches et les professionnels. En urgence, 911."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Interligne — services d’aide",
-                  "href": "https://interligne.co/services-aide/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+18885051010",
+          "website": "https://interligne.co/services-aide/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "refuges-inclusifs-pour-couples-et-personnes-lgbtq",
-          "name": "Refuges inclusifs pour couples et personnes LGBTQ+",
+          "title": "Refuges inclusifs pour couples et personnes LGBTQ+",
+          "description": "CAP St-Barnabé indique que ses trois refuges sont inclusifs. Hochelaga et L’Étape acceptent les couples; Bennett accorde une priorité aux personnes s’identifiant comme femmes et aux personnes âgées.\nAppelez le 514 251-2081 pour expliquer votre identité, votre couple et vos besoins sans présumer d’une place.\nCAP St-Barnabé — critères des refuges",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "CAP St-Barnabé indique que ses trois refuges sont inclusifs. Hochelaga et L’Étape acceptent les couples; Bennett accorde une priorité aux personnes s’identifiant comme femmes et aux personnes âgées."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Appelez le "
-                },
-                {
-                  "text": "514 251-2081",
-                  "href": "tel:+15142512081"
-                },
-                {
-                  "text": " pour expliquer votre identité, votre couple et vos besoins sans présumer d’une place."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "CAP St-Barnabé — critères des refuges",
-                  "href": "https://www.capstbarnabe.org/hebergement-d-urgence"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+15142512081",
+          "website": "https://www.capstbarnabe.org/hebergement-d-urgence",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "maltraitance-envers-une-personne-ainee",
-          "name": "Maltraitance envers une personne aînée",
+          "title": "Maltraitance envers une personne aînée",
+          "description": "Ligne Aide Maltraitance Adultes Aînés : 1 888 489-2287.\nPour exploitation financière, négligence, menaces, violence ou contrôle. En danger immédiat, 911; pour hébergement, 211.\nGouvernement du Québec — aînés et personnes vulnérables",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ligne Aide Maltraitance Adultes Aînés :",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "1 888 489-2287",
-                  "href": "tel:+18884892287"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Pour exploitation financière, négligence, menaces, violence ou contrôle. En danger immédiat, 911; pour hébergement, 211."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Gouvernement du Québec — aînés et personnes vulnérables",
-                  "href": "https://www.quebec.ca/justice-et-etat-civil/accompagnement-victimes-crime/aide-et-information"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+18884892287",
+          "website": "https://www.quebec.ca/justice-et-etat-civil/accompagnement-victimes-crime/aide-et-information",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "traite-de-personnes",
-          "name": "Traite de personnes",
+          "title": "Traite de personnes",
+          "description": "Ligne canadienne : 1 833 900-1010, 24 heures sur 24, multilingue.\nPour travail forcé, exploitation sexuelle, menaces, confiscation de documents ou contrôle. N’affrontez pas seul la personne qui vous exploite. En danger, 911.\nGouvernement du Canada — obtenir de l’aide",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ligne canadienne :",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "1 833 900-1010",
-                  "href": "tel:+18339001010"
-                },
-                {
-                  "text": ", 24 heures sur 24, multilingue."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Pour travail forcé, exploitation sexuelle, menaces, confiscation de documents ou contrôle. N’affrontez pas seul la personne qui vous exploite. En danger, 911."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Gouvernement du Canada — obtenir de l’aide",
-                  "href": "https://www.canada.ca/fr/femmes-egalite-genres/violence-fondee-sexe/obtenir-aide-maintenant.html"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+18339001010",
+          "website": "https://www.canada.ca/fr/femmes-egalite-genres/violence-fondee-sexe/obtenir-aide-maintenant.html",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "personne-avec-limitation-ou-besoin-medical",
-          "name": "Personne avec limitation ou besoin médical",
+          "title": "Personne avec limitation ou besoin médical",
+          "description": "Dites au 211 si vous utilisez un fauteuil, avez besoin d’oxygène, de réfrigération pour médicaments, d’aide pour les transferts, d’un interprète ou d’un espace calme.\nDemandez une confirmation d’accessibilité avant de vous déplacer. Pour une aggravation médicale, 811; pour un danger immédiat, 911.\nVille de Montréal — ressources d’hébergement",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Dites au 211 si vous utilisez un fauteuil, avez besoin d’oxygène, de réfrigération pour médicaments, d’aide pour les transferts, d’un interprète ou d’un espace calme."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Demandez une confirmation d’accessibilité avant de vous déplacer. Pour une aggravation médicale, 811; pour un danger immédiat, 911."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ville de Montréal — ressources d’hébergement",
-                  "href": "https://montreal.ca/articles/ressources-dhebergement-temporaire-et-aide-aux-personnes-sans-logement-81149"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://montreal.ca/articles/ressources-dhebergement-temporaire-et-aide-aux-personnes-sans-logement-81149",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
+    },
+    {
+      "id": "veterans",
+      "title": "Veterans support",
+      "entries": []
     },
     {
       "id": "pets",
-      "title": "10. Aide avec un animal",
-      "items": [
+      "title": "Aide avec un animal",
+      "entries": [
         {
-          "type": "resource",
           "id": "refuges-qui-annoncent-accepter-les-animaux",
-          "name": "Refuges qui annoncent accepter les animaux",
+          "title": "Refuges qui annoncent accepter les animaux",
+          "description": "CAP St-Barnabé indique que le Refuge Hochelaga, 4567 rue Hochelaga, et le Refuge L’Étape, 2345 rue de Chambly, acceptent les animaux de compagnie.\nAppelez le 514 251-2081 avant de vous déplacer. Demandez la place, les espèces acceptées, la laisse ou cage, la preuve de vaccination et ce qui se passe si l’animal est malade.\nCAP St-Barnabé — animaux acceptés",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "CAP St-Barnabé indique que le Refuge Hochelaga, 4567 rue Hochelaga, et le Refuge L’Étape, 2345 rue de Chambly, acceptent les animaux de compagnie."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Appelez le "
-                },
-                {
-                  "text": "514 251-2081",
-                  "href": "tel:+15142512081"
-                },
-                {
-                  "text": " avant de vous déplacer. Demandez la place, les espèces acceptées, la laisse ou cage, la preuve de vaccination et ce qui se passe si l’animal est malade."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "CAP St-Barnabé — animaux acceptés",
-                  "href": "https://www.capstbarnabe.org/hebergement-d-urgence"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+15142512081",
+          "website": "https://www.capstbarnabe.org/hebergement-d-urgence",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "avant-d-accepter-une-autre-place-avec-votre-animal",
-          "name": "Avant d’accepter une autre place avec votre animal",
+          "title": "Avant d’accepter une autre place avec votre animal",
+          "description": "Dites au 211 que vous avez un animal avant toute référence. Ne vous séparez pas de l’animal sur la base d’une promesse orale sans connaître le lieu, la durée et la personne responsable.\nAucune autre ressource de cette page ne garantit l’admission d’un animal.\nVille de Montréal — orientation 211",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Dites au 211 que vous avez un animal avant toute référence. Ne vous séparez pas de l’animal sur la base d’une promesse orale sans connaître le lieu, la durée et la personne responsable."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Aucune autre ressource de cette page ne garantit l’admission d’un animal."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ville de Montréal — orientation 211",
-                  "href": "https://montreal.ca/sujets/itinerance-montreal"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://montreal.ca/sujets/itinerance-montreal",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "proanima-services-animaliers-municipaux",
-          "name": "Proanima — services animaliers municipaux",
+          "title": "Proanima — services animaliers municipaux",
+          "description": "Téléphone : 514 379-2525. Depuis 2026, le centre dessert les 19 arrondissements.\nDemandez les services pour familles à faible revenu, nourriture, stérilisation, hébergement temporaire en situation de vulnérabilité et animal blessé. L’accès dépend du service et de la capacité.\nProanima Montréal — services",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Adresse :",
-                  "strong": true
-                },
-                {
-                  "text": " 9350, boulevard Pie-IX, Montréal"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Téléphone :",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "514 379-2525",
-                  "href": "tel:+15143792525"
-                },
-                {
-                  "text": ". Depuis 2026, le centre dessert les 19 arrondissements."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Demandez les services pour familles à faible revenu, nourriture, stérilisation, hébergement temporaire en situation de vulnérabilité et animal blessé. L’accès dépend du service et de la capacité."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Proanima Montréal — services",
-                  "href": "https://www.proanima.com/proanima-montreal/"
-                }
-              ]
-            }
-          ]
+          "address": "Adresse : 9350, boulevard Pie-IX, Montréal",
+          "phone": "+15143792525",
+          "website": "https://www.proanima.com/proanima-montreal/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "animal-blesse-en-danger-ou-victime-de-cruaute",
-          "name": "Animal blessé, en danger ou victime de cruauté",
+          "title": "Animal blessé, en danger ou victime de cruauté",
+          "description": "Animal blessé ou en danger : Proanima au 514 379-2525. Cruauté animale : SPCA au 1 855 711-7575.\nSi un animal suffoque dans un véhicule ou qu’une personne est aussi en danger immédiat, appelez le 911.\nVille de Montréal — signaler un animal en danger",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Animal blessé ou en danger :",
-                  "strong": true
-                },
-                {
-                  "text": " Proanima au "
-                },
-                {
-                  "text": "514 379-2525",
-                  "href": "tel:+15143792525"
-                },
-                {
-                  "text": ". "
-                },
-                {
-                  "text": "Cruauté animale :",
-                  "strong": true
-                },
-                {
-                  "text": " SPCA au "
-                },
-                {
-                  "text": "1 855 711-7575",
-                  "href": "tel:+18557117575"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Si un animal suffoque dans un véhicule ou qu’une personne est aussi en danger immédiat, appelez le 911."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ville de Montréal — signaler un animal en danger",
-                  "href": "https://montreal.ca/signaler-un-animal-blesse-ou-en-danger"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+15143792525",
+          "website": "https://montreal.ca/signaler-un-animal-blesse-ou-en-danger",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "aide-veterinaire-selon-le-revenu-et-le-secteur",
-          "name": "Aide vétérinaire selon le revenu et le secteur",
+          "title": "Aide vétérinaire selon le revenu et le secteur",
+          "description": "Le programme Un p’tit coup d’patte peut couvrir une partie de certains soins pour chiens ou chats de personnes à faible revenu résidant à Hochelaga-Maisonneuve. La personne doit normalement payer une partie du coût.\nL’admissibilité et l’approbation ne sont pas garanties. Un organisme d’aide aux personnes sans logement peut demander une exception pour un animal nécessitant des soins urgents.\nUn p’tit coup d’patte — critères",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Le programme Un p’tit coup d’patte peut couvrir une partie de certains soins pour chiens ou chats de personnes à faible revenu résidant à Hochelaga-Maisonneuve. La personne doit normalement payer une partie du coût."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "L’admissibilité et l’approbation ne sont pas garanties. Un organisme d’aide aux personnes sans logement peut demander une exception pour un animal nécessitant des soins urgents."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Un p’tit coup d’patte — critères",
-                  "href": "https://www.unptitcoupdpatte.com/en/aide"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.unptitcoupdpatte.com/en/aide",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
-      "id": "verification-et-corrections",
+      "id": "other",
       "title": "Vérification et corrections",
-      "items": [
+      "entries": [
         {
-          "type": "paragraph",
-          "content": [
-            {
-              "text": "Les coordonnées et services ont été vérifiés auprès de la Ville de Montréal, des gouvernements du Québec et du Canada, de Santé Québec et des pages officielles des organismes. Les liens sont placés directement sous chaque ressource."
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "content": [
-            {
-              "text": "Vous avez trouvé un service fermé, un mauvais numéro ou une nouvelle ressource? "
-            },
-            {
-              "text": "Consultez le guide de contribution",
-              "href": "../../CONTRIBUTING.md"
-            },
-            {
-              "text": " ou "
-            },
-            {
-              "text": "signalez une correction sur GitHub",
-              "href": "https://github.com/carlosbranco/no-home-help"
-            },
-            {
-              "text": "."
-            }
-          ]
+          "id": "verification-et-corrections-information",
+          "title": "Vérification et corrections",
+          "description": "Les coordonnées et services ont été vérifiés auprès de la Ville de Montréal, des gouvernements du Québec et du Canada, de Santé Québec et des pages officielles des organismes. Les liens sont placés directement sous chaque ressource.\nVous avez trouvé un service fermé, un mauvais numéro ou une nouvelle ressource? Consultez le guide de contribution ou signalez une correction sur GitHub. — ../../CONTRIBUTING.md",
+          "last_verified": "2026-11-12",
+          "address": "",
+          "phone": "",
+          "website": "https://github.com/carlosbranco/no-home-help",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     }

@@ -3,14 +3,12 @@ import path from "node:path";
 import {
   ROOT,
   escapeHtml,
-  inlineText,
   issueUrl,
   loadCityData,
   readLocations,
-  renderBlock,
-  renderInline,
   uiFor,
 } from "./lib/city-data.mjs";
+import { FIXED_CATEGORY_IDS } from "./lib/categories.mjs";
 
 const checkOnly = process.argv.includes("--check");
 const pruneDrafts = process.argv.includes("--prune-drafts") || checkOnly;
@@ -61,13 +59,8 @@ function dataRelativePath(city) {
   return `data/cities/${location.country_slug}/${location.region_slug}/${cityFilename(city, "json")}`;
 }
 
-function visibleBlock(block) {
-  if (block.type === "paragraph" || block.type === "address") return Boolean(inlineText(block.content));
-  return Array.isArray(block.items) && block.items.some((item) => inlineText(item));
-}
-
 function visibleCategory(category) {
-  return category.items.some((item) => item.type === "resource" ? item.name && item.blocks.some(visibleBlock) : visibleBlock(item));
+  return Array.isArray(category.entries) && category.entries.length > 0;
 }
 
 function validIsoDate(value) {
@@ -79,44 +72,31 @@ function validIsoDate(value) {
     && date.getUTCDate() === Number(match[3]);
 }
 
-function validateHref(href, context) {
-  if (/^tel:/i.test(href)) {
-    if (!/^tel:(?:%23|[+*#0-9])[0-9*#%(). -]*$/i.test(href)) failures.push(`${context}: invalid telephone link ${href}`);
-  } else if (/^https?:\/\//i.test(href)) {
-    try { new URL(href); } catch { failures.push(`${context}: invalid URL ${href}`); }
-  } else if (/^mailto:[^\s]+$/i.test(href)
-    || /^sms:[+0-9*#%(),;.-]+(?:\?[^\s]*)?$/i.test(href)
-    || /^#[a-z0-9][a-z0-9_-]*$/i.test(href)
-    || /^(?:\.\.\/|[a-z0-9./_-]+(?:\.html|\.md)(?:#.*)?)$/i.test(href)) {
-    return;
-  } else {
-    failures.push(`${context}: unsupported link ${href}`);
-  }
-}
-
-function validateInline(inline, context) {
-  if (typeof inline === "string") {
-    if (/<[^>]+>/.test(inline)) failures.push(`${context}: HTML is not allowed in text data`);
+function validateText(value, context, { required = false } = {}) {
+  if (typeof value !== "string") {
+    failures.push(`${context}: must be text`);
     return;
   }
-  if (!Array.isArray(inline)) failures.push(`${context}: inline content must be an array`);
-  for (const segment of inline ?? []) {
-    if (segment.href) validateHref(segment.href, context);
-    if (segment.text && /<[^>]+>/.test(segment.text)) failures.push(`${context}: HTML is not allowed in text data`);
-  }
+  if (required && !value.trim()) failures.push(`${context}: cannot be empty`);
+  if (/<[^>]+>/.test(value)) failures.push(`${context}: HTML is not allowed in text data`);
 }
 
-function validateBlock(block, context) {
-  if (["paragraph", "address"].includes(block.type)) validateInline(block.content, context);
-  else if (["list", "ordered-list"].includes(block.type)) for (const item of block.items ?? []) validateInline(item, context);
-  else failures.push(`${context}: unknown block type ${block.type}`);
+function validateWebsite(value, context) {
+  validateText(value, context);
+  if (!value) return;
+  if (!/^https?:\/\//i.test(value)) {
+    failures.push(`${context}: website must start with http:// or https://`);
+    return;
+  }
+  try { new URL(value); } catch { failures.push(`${context}: invalid website URL ${value}`); }
 }
 
 function validateCity(record) {
   const { data: city, relativeFile } = record;
   const context = relativeFile;
   if (typeof city.$schema !== "string" || !city.$schema) failures.push(`${context}: $schema is required`);
-  if (city.schema_version !== 1) failures.push(`${context}: schema_version must be 1`);
+  if (typeof city.documentation !== "string" || !city.documentation) failures.push(`${context}: documentation is required`);
+  if (city.schema_version !== 2) failures.push(`${context}: schema_version must be 2`);
   if (!["published", "draft"].includes(city.status)) failures.push(`${context}: status must be published or draft`);
   if (typeof city.locale?.primary !== "boolean") failures.push(`${context}: locale.primary must be true or false`);
   if (!/^[A-Za-z]{2,3}(?:-[A-Za-z0-9]{2,8})*$/.test(city.locale?.language ?? "")) failures.push(`${context}: locale.language must be a BCP 47 language tag`);
@@ -132,24 +112,28 @@ function validateCity(record) {
   for (const field of ["title", "description"]) if (!city.seo?.[field]) failures.push(`${context}: missing seo.${field}`);
   if (!city.page?.heading) failures.push(`${context}: missing page.heading`);
   if (!validIsoDate(city.page?.last_verified)) failures.push(`${context}: page.last_verified must be a real date in YYYY-MM-DD`);
-  for (const block of city.page?.urgent ?? []) validateBlock(block, `${context}: urgent`);
-  validateInline(city.page?.notice ?? [], `${context}: notice`);
-  for (const block of city.page?.intro ?? []) validateBlock(block, `${context}: intro`);
-  for (const block of city.page?.footer ?? []) validateBlock(block, `${context}: footer`);
+  for (const field of ["urgent", "notice", "intro", "footer"]) validateText(city.page?.[field], `${context}: page.${field}`);
   const categoryIds = new Set();
-  for (const category of city.categories ?? []) {
+  if (!Array.isArray(city.categories) || city.categories.length !== FIXED_CATEGORY_IDS.length) {
+    failures.push(`${context}: categories must contain the ${FIXED_CATEGORY_IDS.length} fixed categories`);
+  }
+  for (const [categoryIndex, category] of (city.categories ?? []).entries()) {
+    const expectedId = FIXED_CATEGORY_IDS[categoryIndex];
+    if (category.id !== expectedId) failures.push(`${context}: category ${categoryIndex + 1} must be ${expectedId}`);
     if (categoryIds.has(category.id)) failures.push(`${context}: duplicate category id ${category.id}`);
     categoryIds.add(category.id);
-    const resourceIds = new Set();
-    for (const item of category.items ?? []) {
-      if (item.type === "resource") {
-        if (resourceIds.has(item.id)) failures.push(`${context}: duplicate resource id ${item.id}`);
-        resourceIds.add(item.id);
-        if (!validIsoDate(item.last_verified)) failures.push(`${context}: ${item.id} needs a real last_verified date in YYYY-MM-DD`);
-        for (const block of item.blocks ?? []) validateBlock(block, `${context}: ${item.id}`);
-      } else {
-        validateBlock(item, `${context}: ${category.id}`);
-      }
+    validateText(category.title, `${context}: ${category.id}.title`, { required: true });
+    if (!Array.isArray(category.entries)) failures.push(`${context}: ${category.id}.entries must be an array`);
+    const entryIds = new Set();
+    for (const entry of category.entries ?? []) {
+      if (entryIds.has(entry.id)) failures.push(`${context}: duplicate entry id ${category.id}/${entry.id}`);
+      entryIds.add(entry.id);
+      if (!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(entry.id ?? "")) failures.push(`${context}: ${category.id} has invalid entry id ${entry.id}`);
+      validateText(entry.title, `${context}: ${category.id}/${entry.id}.title`, { required: true });
+      validateText(entry.description, `${context}: ${category.id}/${entry.id}.description`, { required: true });
+      if (!validIsoDate(entry.last_verified)) failures.push(`${context}: ${category.id}/${entry.id} needs a real last_verified date in YYYY-MM-DD`);
+      for (const field of ["address", "phone", "hours", "how_to_access"]) validateText(entry[field], `${context}: ${category.id}/${entry.id}.${field}`);
+      validateWebsite(entry.website, `${context}: ${category.id}/${entry.id}.website`);
     }
   }
   if (city.status === "published" && !(city.categories ?? []).some(visibleCategory)) failures.push(`${context}: a published city needs at least one non-empty category`);
@@ -159,15 +143,60 @@ function entryAnchor(categoryId, entryId) {
   return `${categoryId}--${entryId}`;
 }
 
-function renderResource(resource, category, city, ui, legacyAlias = false) {
-  const blocks = resource.blocks.map((block) => renderBlock(block, "        ")).join("\n");
+function renderLinkedText(value = "") {
+  const pattern = /(https?:\/\/[^\s]+|tel:[+*#0-9][^\s]*)/gi;
+  let output = "";
+  let cursor = 0;
+  for (const match of value.matchAll(pattern)) {
+    output += escapeHtml(value.slice(cursor, match.index));
+    const href = match[0];
+    const label = href.startsWith("tel:") ? href.slice(4) : href;
+    output += `<a href="${escapeHtml(href)}">${escapeHtml(label)}</a>`;
+    cursor = match.index + href.length;
+  }
+  output += escapeHtml(value.slice(cursor));
+  return output.replace(/\r?\n/g, "<br>");
+}
+
+function renderTextBlock(value, indent = "    ") {
+  if (!value?.trim()) return "";
+  return value.trim().split(/\n{2,}/).map((paragraph) => `${indent}<p>${renderLinkedText(paragraph)}</p>`).join("\n");
+}
+
+function telephoneHref(phone) {
+  const normalized = phone.replace(/[^+*#0-9]/g, "");
+  return normalized ? `tel:${normalized}` : "";
+}
+
+function websiteLabel(website) {
+  try {
+    const url = new URL(website);
+    return `${url.hostname.replace(/^www\./, "")}${url.pathname === "/" ? "" : url.pathname}`;
+  } catch {
+    return website;
+  }
+}
+
+function renderEntry(entry, category, city, ui, legacyAlias = false) {
+  const details = [];
+  if (entry.description) details.push(`        <p>${renderLinkedText(entry.description)}</p>`);
+  if (entry.address) details.push(`        <address>${renderLinkedText(entry.address)}</address>`);
+  if (entry.phone) {
+    const href = telephoneHref(entry.phone);
+    details.push(href
+      ? `        <p><a href="${escapeHtml(href)}">${escapeHtml(entry.phone)}</a></p>`
+      : `        <p>${escapeHtml(entry.phone)}</p>`);
+  }
+  if (entry.website) details.push(`        <p><a href="${escapeHtml(entry.website)}">${escapeHtml(websiteLabel(entry.website))}</a></p>`);
+  if (entry.hours) details.push(`        <p>${renderLinkedText(entry.hours)}</p>`);
+  if (entry.how_to_access) details.push(`        <p>${renderLinkedText(entry.how_to_access)}</p>`);
   return [
-    `      <article class="resource" id="${escapeHtml(entryAnchor(category.id, resource.id))}">`,
-    legacyAlias ? `        <span id="${escapeHtml(resource.id)}" class="anchor-alias" aria-hidden="true"></span>` : "",
-    `        <h3>${escapeHtml(resource.name)}</h3>`,
-    blocks,
-    `        <p class="meta"><strong>${escapeHtml(ui.verified)}:</strong> ${escapeHtml(resource.last_verified)}</p>`,
-    `        <p class="entry-report"><a href="${escapeHtml(issueUrl(city, `${category.id}/${resource.id}`))}">${escapeHtml(ui.report)}</a></p>`,
+    `      <article class="resource" id="${escapeHtml(entryAnchor(category.id, entry.id))}">`,
+    legacyAlias ? `        <span id="${escapeHtml(entry.id)}" class="anchor-alias" aria-hidden="true"></span>` : "",
+    `        <h3>${escapeHtml(entry.title)}</h3>`,
+    ...details,
+    `        <p class="meta"><strong>${escapeHtml(ui.verified)}:</strong> ${escapeHtml(entry.last_verified)}</p>`,
+    `        <p class="entry-report"><a href="${escapeHtml(issueUrl(city, `${category.id}/${entry.id}`))}">${escapeHtml(ui.report)}</a></p>`,
     "      </article>",
   ].filter(Boolean).join("\n");
 }
@@ -195,30 +224,29 @@ function renderCity(city, translations) {
   const dir = city.locale.direction === "rtl" ? " dir=\"rtl\"" : "";
   const location = city.location;
   const categories = city.categories.filter(visibleCategory);
-  const urgent = city.page.urgent.map((block) => renderBlock(block, "    ")).join("\n");
-  const intro = city.page.intro.map((block) => renderBlock(block, "    ")).join("\n");
+  const urgent = renderTextBlock(city.page.urgent);
+  const intro = renderTextBlock(city.page.intro);
   const contents = categories.map((category) => {
-    const menuTitle = category.title.replace(/^\s*\d+[.)]?\s*/, "");
-    return `        <li><a href="#${escapeHtml(category.id)}">${escapeHtml(menuTitle)}</a></li>`;
+    return `        <li><a href="#${escapeHtml(category.id)}">${escapeHtml(category.title)}</a></li>`;
   }).join("\n");
   const reservedIds = new Set(["top", "main-content", "contents-title", ...categories.map((category) => category.id)]);
   const legacyOwners = new Map();
   for (const category of categories) {
-    for (const resource of category.items.filter((item) => item.type === "resource")) {
-      if (!reservedIds.has(resource.id) && !legacyOwners.has(resource.id)) legacyOwners.set(resource.id, `${category.id}/${resource.id}`);
+    for (const entry of category.entries) {
+      if (!reservedIds.has(entry.id) && !legacyOwners.has(entry.id)) legacyOwners.set(entry.id, `${category.id}/${entry.id}`);
     }
   }
   const sections = categories.map((category) => {
-    const items = category.items.map((item) => item.type === "resource" ? renderResource(item, category, city, ui, legacyOwners.get(item.id) === `${category.id}/${item.id}`) : renderBlock(item, "      ")).join("\n");
+    const entries = category.entries.map((entry) => renderEntry(entry, category, city, ui, legacyOwners.get(entry.id) === `${category.id}/${entry.id}`)).join("\n");
     return [
       `    <section id="${escapeHtml(category.id)}">`,
       `      <h2>${escapeHtml(category.title)}</h2>`,
-      items,
+      entries,
       `      <p class="back-to-top"><a href="#top">${escapeHtml(ui.back)}</a></p>`,
       "    </section>",
     ].join("\n");
   }).join("\n\n");
-  const footerBlocks = city.page.footer.map((block) => renderBlock(block, "    ")).join("\n");
+  const footerBlocks = renderTextBlock(city.page.footer);
   return fillTemplate(templates.city, {
     LANG: escapeHtml(city.locale.language),
     DIR: dir,
@@ -237,7 +265,7 @@ function renderCity(city, translations) {
     URGENT: urgent,
     VERIFIED_LABEL: escapeHtml(ui.verified),
     LAST_VERIFIED: escapeHtml(city.page.last_verified),
-    NOTICE: renderInline(city.page.notice),
+    NOTICE: renderLinkedText(city.page.notice),
     INTRO: intro,
     CONTENTS_LABEL: escapeHtml(ui.contents),
     CONTENTS: contents,

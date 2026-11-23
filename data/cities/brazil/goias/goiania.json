@@ -1,6 +1,7 @@
 {
   "$schema": "https://nohomehelp.com/schemas/city.schema.json",
-  "schema_version": 1,
+  "documentation": "https://github.com/carlosbranco/no-home-help/blob/main/EDIT_CITY_JSON.md",
+  "schema_version": 2,
   "status": "published",
   "locale": {
     "language": "pt-BR",
@@ -26,3235 +27,790 @@
   "page": {
     "heading": "Goiânia — ajuda para pessoas sem moradia",
     "last_verified": "2026-11-12",
-    "urgent": [
-      {
-        "type": "paragraph",
-        "content": [
-          {
-            "text": "Emergência médica — SAMU:",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "192",
-            "href": "tel:192"
-          },
-          {
-            "break": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "Polícia Militar:",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "190",
-            "href": "tel:190"
-          },
-          {
-            "text": "; "
-          },
-          {
-            "text": "Bombeiros:",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "193",
-            "href": "tel:193"
-          },
-          {
-            "break": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "Serviços municipais:",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "156",
-            "href": "tel:156"
-          },
-          {
-            "text": "; "
-          },
-          {
-            "text": "abordagem social:",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "(62) 3524-2690",
-            "href": "tel:+556235242690"
-          },
-          {
-            "break": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "Direitos humanos:",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "100",
-            "href": "tel:100"
-          },
-          {
-            "text": "; "
-          },
-          {
-            "text": "violência contra a mulher:",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "180",
-            "href": "tel:180"
-          }
-        ]
-      }
-    ],
-    "notice": [
-      {
-        "text": "Vagas, filas, endereços, horários e critérios podem mudar.",
-        "strong": true
-      },
-      {
-        "text": " Confirme antes de se deslocar. Nenhum serviço garante cama, refeição, dinheiro, benefício, tratamento ou emprego no mesmo dia. Em risco imediato, ligue 190, 192 ou 193."
-      }
-    ],
-    "intro": [
-      {
-        "type": "paragraph",
-        "content": [
-          {
-            "text": "Se precisa de ajuda hoje, comece pelo Centro POP, pela Abordagem Social ou por uma Casa de Acolhida Cidadã. Diga onde está, um ponto de referência, se tem lugar seguro para esta noite, quando comeu pela última vez, se precisa de cuidados de saúde e se está com crianças, familiares ou animais. O Centro POP aceita procura espontânea sem exigir documentos; as vagas de acolhimento dependem de avaliação e disponibilidade."
-          }
-        ]
-      }
-    ],
-    "footer": [
-      {
-        "type": "paragraph",
-        "content": [
-          {
-            "text": "No Home Help — informação gratuita, leve e sem rastreamento."
-          }
-        ]
-      }
-    ]
+    "urgent": "Emergência médica — SAMU: 192 Polícia Militar: 190; Bombeiros: 193 Serviços municipais: 156; abordagem social: (62) 3524-2690 Direitos humanos: 100; violência contra a mulher: 180",
+    "notice": "Vagas, filas, endereços, horários e critérios podem mudar. Confirme antes de se deslocar. Nenhum serviço garante cama, refeição, dinheiro, benefício, tratamento ou emprego no mesmo dia. Em risco imediato, ligue 190, 192 ou 193.",
+    "intro": "Se precisa de ajuda hoje, comece pelo Centro POP, pela Abordagem Social ou por uma Casa de Acolhida Cidadã. Diga onde está, um ponto de referência, se tem lugar seguro para esta noite, quando comeu pela última vez, se precisa de cuidados de saúde e se está com crianças, familiares ou animais. O Centro POP aceita procura espontânea sem exigir documentos; as vagas de acolhimento dependem de avaliação e disponibilidade.",
+    "footer": "No Home Help — informação gratuita, leve e sem rastreamento."
   },
   "categories": [
     {
       "id": "emergency",
-      "title": "1. Emergência e orientação imediata",
-      "items": [
+      "title": "Emergência e orientação imediata",
+      "entries": [
         {
-          "type": "resource",
           "id": "samu-emergencia-medica",
-          "name": "SAMU — emergência médica",
+          "title": "SAMU — emergência médica",
+          "description": "Telefone gratuito: 192, 24 horas.\nLigue em caso de inconsciência, falta de ar, dor forte no peito, convulsão, sangramento grave, overdose, acidente ou outra urgência médica. Informe primeiro o endereço ou ponto de referência.\nSAMU 192 — Prefeitura de Goiânia",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefone gratuito:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "192",
-                  "href": "tel:192"
-                },
-                {
-                  "text": ", 24 horas."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ligue em caso de inconsciência, falta de ar, dor forte no peito, convulsão, sangramento grave, overdose, acidente ou outra urgência médica. Informe primeiro o endereço ou ponto de referência."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "SAMU 192 — Prefeitura de Goiânia",
-                  "href": "https://www.goiania.go.gov.br/sing_servicos/servico-de-atendimento-movel-de-urgencia-samu-192/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "192",
+          "website": "https://www.goiania.go.gov.br/sing_servicos/servico-de-atendimento-movel-de-urgencia-samu-192/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "policia-militar-e-corpo-de-bombeiros",
-          "name": "Polícia Militar e Corpo de Bombeiros",
+          "title": "Polícia Militar e Corpo de Bombeiros",
+          "description": "Polícia: 190; Bombeiros: 193.\nUse o 190 para ameaça, violência ou crime em andamento. Use o 193 para incêndio, resgate, desabamento, afogamento ou outro perigo grave. Para assistência social sem risco imediato, procure o Centro POP ou a Abordagem Social.\nTelefones de emergência — Prefeitura de Goiânia",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Polícia:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "190",
-                  "href": "tel:190"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "Bombeiros:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "193",
-                  "href": "tel:193"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Use o 190 para ameaça, violência ou crime em andamento. Use o 193 para incêndio, resgate, desabamento, afogamento ou outro perigo grave. Para assistência social sem risco imediato, procure o Centro POP ou a Abordagem Social."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefones de emergência — Prefeitura de Goiânia",
-                  "href": "https://www.goiania.go.gov.br/sobre-goiania/telefones-de-emergencia/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "190",
+          "website": "https://www.goiania.go.gov.br/sobre-goiania/telefones-de-emergencia/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "seas-abordagem-social",
-          "name": "SEAS — Abordagem Social",
+          "title": "SEAS — Abordagem Social",
+          "description": "Telefone: (62) 3524-2690. O serviço atua todos os dias, inclusive domingos e feriados, com equipes diurnas e noturnas.\nInforme a localização e um ponto de referência. A equipe pode ir à rua, escutar, orientar e mediar o acesso a assistência, saúde e acolhimento. Não faz retirada forçada e não garante vaga.\nAbordagem Social — Prefeitura de Goiânia",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Base:",
-                  "strong": true
-                },
-                {
-                  "text": " Alameda Botafogo, Quadra A, Lote 05, nº 68, Setor Central"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(62) 3524-2690",
-                  "href": "tel:+556235242690"
-                },
-                {
-                  "text": ". O serviço atua todos os dias, inclusive domingos e feriados, com equipes diurnas e noturnas."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Informe a localização e um ponto de referência. A equipe pode ir à rua, escutar, orientar e mediar o acesso a assistência, saúde e acolhimento. Não faz retirada forçada e não garante vaga."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Abordagem Social — Prefeitura de Goiânia",
-                  "href": "https://www.goiania.go.gov.br/sing_servicos/servico-especializado-em-abordagem-social/"
-                }
-              ]
-            }
-          ]
+          "address": "Base: Alameda Botafogo, Quadra A, Lote 05, nº 68, Setor Central",
+          "phone": "+556235242690",
+          "website": "https://www.goiania.go.gov.br/sing_servicos/servico-especializado-em-abordagem-social/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "atendimento-municipal-156",
-          "name": "Atendimento municipal 156",
+          "title": "Atendimento municipal 156",
+          "description": "Telefone: 156.\nPeça informação sobre assistência social, saúde municipal ou outro serviço da Prefeitura. Para abordagem de rua, o número direto encontrado é (62) 3524-2690.\nAtendimento 156 — Prefeitura de Goiânia",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "156",
-                  "href": "tel:156"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Peça informação sobre assistência social, saúde municipal ou outro serviço da Prefeitura. Para abordagem de rua, o número direto encontrado é (62) 3524-2690."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Atendimento 156 — Prefeitura de Goiânia",
-                  "href": "https://www.goiania.go.gov.br/sing_servicos/atendimento-156/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "156",
+          "website": "https://www.goiania.go.gov.br/sing_servicos/atendimento-156/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "disque-100-ligue-180-e-disque-social-121",
-          "name": "Disque 100, Ligue 180 e Disque Social 121",
+          "title": "Disque 100, Ligue 180 e Disque Social 121",
+          "description": "Direitos humanos: 100; violência contra a mulher: 180; benefícios sociais federais: 121.\nUse o 100 para denunciar violência, discriminação ou outra violação de direitos. O 180 orienta mulheres em situação de violência. O 121 informa sobre Cadastro Único, Bolsa Família, BPC e assistência social. Em perigo agora, ligue 190.\nOuvidoria Nacional de Direitos Humanos",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Direitos humanos:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "100",
-                  "href": "tel:100"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "violência contra a mulher:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "180",
-                  "href": "tel:180"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "benefícios sociais federais:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "121",
-                  "href": "tel:121"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Use o 100 para denunciar violência, discriminação ou outra violação de direitos. O 180 orienta mulheres em situação de violência. O 121 informa sobre Cadastro Único, Bolsa Família, BPC e assistência social. Em perigo agora, ligue 190."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ouvidoria Nacional de Direitos Humanos",
-                  "href": "https://www.gov.br/mdh/pt-br/ondh/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "100",
+          "website": "https://www.gov.br/mdh/pt-br/ondh/",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
       "id": "shelter",
-      "title": "2. Acolhimento e apoio na rua",
-      "items": [
+      "title": "Acolhimento e apoio na rua",
+      "entries": [
         {
-          "type": "resource",
           "id": "centro-pop-porta-de-entrada-sem-documento-obrigatorio",
-          "name": "Centro POP — porta de entrada sem documento obrigatório",
+          "title": "Centro POP — porta de entrada sem documento obrigatório",
+          "description": "Telefones: (62) 3524-1104 e (62) 3524-2579.\nAtende jovens, adultos, pessoas idosas e famílias em situação de rua. Crianças e adolescentes devem estar acompanhados por responsável. Oferece escuta, alimentação, higiene, lavanderia, guarda de pertences, regularização de documentos e encaminhamentos. A procura pode ser espontânea e não exige documento no primeiro acesso.\nA Prefeitura também publicou outra página indicando Rua Francisca Costa Cunha Tita, 679, Setor Aeroporto, e telefone (62) 99207-9703. Como há conflito entre páginas oficiais, telefone antes de viajar e confirme em qual prédio está o atendimento.\nCentro POP — Carta de Serviços",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Endereço publicado na Carta de Serviços:",
-                  "strong": true
-                },
-                {
-                  "text": " Alameda Botafogo, Quadra A, Lote 05, nº 68, Setor Central, CEP 74030-020"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefones:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(62) 3524-1104",
-                  "href": "tel:+556235241104"
-                },
-                {
-                  "text": " e "
-                },
-                {
-                  "text": "(62) 3524-2579",
-                  "href": "tel:+556235242579"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Atende jovens, adultos, pessoas idosas e famílias em situação de rua. Crianças e adolescentes devem estar acompanhados por responsável. Oferece escuta, alimentação, higiene, lavanderia, guarda de pertences, regularização de documentos e encaminhamentos. A procura pode ser espontânea e não exige documento no primeiro acesso."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "A Prefeitura também publicou outra página indicando Rua Francisca Costa Cunha Tita, 679, Setor Aeroporto, e telefone (62) 99207-9703. Como há conflito entre páginas oficiais, telefone antes de viajar e confirme em qual prédio está o atendimento."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Centro POP — Carta de Serviços",
-                  "href": "https://www.goiania.go.gov.br/sing_servicos/centro-de-referencia-especializado-para-a-populacao-em-situacao-de-rua/"
-                }
-              ]
-            }
-          ]
+          "address": "Endereço publicado na Carta de Serviços: Alameda Botafogo, Quadra A, Lote 05, nº 68, Setor Central, CEP 74030-020",
+          "phone": "+556235241104",
+          "website": "https://www.goiania.go.gov.br/sing_servicos/centro-de-referencia-especializado-para-a-populacao-em-situacao-de-rua/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "casa-de-acolhida-cidada-i-homens-adultos-e-pessoas-lgbtqia",
-          "name": "Casa de Acolhida Cidadã I — homens adultos e pessoas LGBTQIA+",
+          "title": "Casa de Acolhida Cidadã I — homens adultos e pessoas LGBTQIA+",
+          "description": "Telefone: (62) 3292-1925. Funcionamento: 24 horas.\nAcolhimento provisório para homens adultos e pessoas LGBTQIA+ em situação de rua, em trânsito, migrantes ou imigrantes, após avaliação. Inclui refeição, higiene, pernoite seguro, apoio psicossocial e encaminhamento para documentos e trabalho.\nÉ possível procurar diretamente ou chegar encaminhado. A entrada depende de avaliação e de vaga; telefone antes se puder.\nCasas de Acolhida Cidadã — Prefeitura de Goiânia",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Endereço:",
-                  "strong": true
-                },
-                {
-                  "text": " Avenida 24 de Outubro, 253, Quadra P-86, Lote 21, Setor dos Funcionários, CEP 74505-016"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(62) 3292-1925",
-                  "href": "tel:+556232921925"
-                },
-                {
-                  "text": ". "
-                },
-                {
-                  "text": "Funcionamento:",
-                  "strong": true
-                },
-                {
-                  "text": " 24 horas."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Acolhimento provisório para homens adultos e pessoas LGBTQIA+ em situação de rua, em trânsito, migrantes ou imigrantes, após avaliação. Inclui refeição, higiene, pernoite seguro, apoio psicossocial e encaminhamento para documentos e trabalho."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "É possível procurar diretamente ou chegar encaminhado. A entrada depende de avaliação e de vaga; telefone antes se puder."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Casas de Acolhida Cidadã — Prefeitura de Goiânia",
-                  "href": "https://www.goiania.go.gov.br/sing_servicos/casa-de-acolhida-cidada/"
-                }
-              ]
-            }
-          ]
+          "address": "Endereço: Avenida 24 de Outubro, 253, Quadra P-86, Lote 21, Setor dos Funcionários, CEP 74505-016",
+          "phone": "+556232921925",
+          "website": "https://www.goiania.go.gov.br/sing_servicos/casa-de-acolhida-cidada/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "casa-de-acolhida-cidada-ii-mulheres-e-familias",
-          "name": "Casa de Acolhida Cidadã II — mulheres e famílias",
+          "title": "Casa de Acolhida Cidadã II — mulheres e famílias",
+          "description": "Telefone: (62) 3524-5704. Funcionamento: 24 horas.\nAcolhimento provisório para mulheres e famílias em situação de rua ou em trânsito, incluindo migrantes e imigrantes, depois de avaliação. Oferece alimentação, higiene, pernoite, apoio social e psicológico e encaminhamentos.\nA existência do serviço não significa cama garantida. A entrada depende do perfil, da avaliação técnica e de vaga disponível.\nRegras e contatos oficiais das Casas de Acolhida",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Endereço:",
-                  "strong": true
-                },
-                {
-                  "text": " Rua 220, 977, Setor Leste Universitário, CEP 74603-140"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(62) 3524-5704",
-                  "href": "tel:+556235245704"
-                },
-                {
-                  "text": ". "
-                },
-                {
-                  "text": "Funcionamento:",
-                  "strong": true
-                },
-                {
-                  "text": " 24 horas."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Acolhimento provisório para mulheres e famílias em situação de rua ou em trânsito, incluindo migrantes e imigrantes, depois de avaliação. Oferece alimentação, higiene, pernoite, apoio social e psicológico e encaminhamentos."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "A existência do serviço não significa cama garantida. A entrada depende do perfil, da avaliação técnica e de vaga disponível."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Regras e contatos oficiais das Casas de Acolhida",
-                  "href": "https://www.goiania.go.gov.br/sing_servicos/casa-de-acolhida-cidada/"
-                }
-              ]
-            }
-          ]
+          "address": "Endereço: Rua 220, 977, Setor Leste Universitário, CEP 74603-140",
+          "phone": "+556235245704",
+          "website": "https://www.goiania.go.gov.br/sing_servicos/casa-de-acolhida-cidada/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "como-chegar-ao-acolhimento",
-          "name": "Como chegar ao acolhimento",
+          "title": "Como chegar ao acolhimento",
+          "description": "O regulamento municipal de 2026 permite entrada por procura espontânea ou encaminhamento do Centro POP, SEAS, saúde, Defensoria, serviço social da rodoviária, entidade religiosa ou forças de segurança.\nSe não houver vaga, peça à equipe uma alternativa concreta na rede. Informe gravidez, deficiência, doença, alta hospitalar, violência, idade, crianças, medicação e necessidade de acessibilidade.\nRegimento das Casas de Acolhida Cidadã — Decreto de 2026",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "O regulamento municipal de 2026 permite entrada por procura espontânea ou encaminhamento do Centro POP, SEAS, saúde, Defensoria, serviço social da rodoviária, entidade religiosa ou forças de segurança."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Se não houver vaga, peça à equipe uma alternativa concreta na rede. Informe gravidez, deficiência, doença, alta hospitalar, violência, idade, crianças, medicação e necessidade de acessibilidade."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Regimento das Casas de Acolhida Cidadã — Decreto de 2026",
-                  "href": "https://www.goiania.go.gov.br/html/gabinete_civil/sileg/dados/legis/2026/dc_20260716_000000120.html"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.goiania.go.gov.br/html/gabinete_civil/sileg/dados/legis/2026/dc_20260716_000000120.html",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "servico-social-no-terminal-rodoviario",
-          "name": "Serviço Social no Terminal Rodoviário",
+          "title": "Serviço Social no Terminal Rodoviário",
+          "description": "Telefone: (62) 3524-2572. Horário publicado: 8h–14h.\nAtende migrantes em vulnerabilidade. Pode orientar sobre Casa de Acolhida, Centro POP, almoço, banho, guarda-volumes, documentos e, conforme avaliação, passagem ou gratuidade. A falta de documento pode gerar orientação para fazer boletim de ocorrência.\nServiços Sociais do Terminal Rodoviário",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Local:",
-                  "strong": true
-                },
-                {
-                  "text": " Terminal Rodoviário, Rua 44, 399, Setor Norte Ferroviário, entre os boxes 11 e 12"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(62) 3524-2572",
-                  "href": "tel:+556235242572"
-                },
-                {
-                  "text": ". "
-                },
-                {
-                  "text": "Horário publicado:",
-                  "strong": true
-                },
-                {
-                  "text": " 8h–14h."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Atende migrantes em vulnerabilidade. Pode orientar sobre Casa de Acolhida, Centro POP, almoço, banho, guarda-volumes, documentos e, conforme avaliação, passagem ou gratuidade. A falta de documento pode gerar orientação para fazer boletim de ocorrência."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Serviços Sociais do Terminal Rodoviário",
-                  "href": "https://www.goiania.go.gov.br/sing_servicos/terminal-rodoviario/"
-                }
-              ]
-            }
-          ]
+          "address": "Local: Terminal Rodoviário, Rua 44, 399, Setor Norte Ferroviário, entre os boxes 11 e 12",
+          "phone": "+556235242572",
+          "website": "https://www.goiania.go.gov.br/sing_servicos/terminal-rodoviario/",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
       "id": "food",
-      "title": "3. Alimentação e organizações religiosas",
-      "items": [
+      "title": "Alimentação e organizações religiosas",
+      "entries": [
         {
-          "type": "resource",
           "id": "restaurante-do-bem-centro",
-          "name": "Restaurante do Bem — Centro",
+          "title": "Restaurante do Bem — Centro",
+          "description": "Horário publicado: segunda a sexta, 10h30–14h. Preço publicado: R$ 2 por almoço.\nServe refeição completa a preço social. Chegue cedo: o atendimento pode terminar ao atingir a capacidade. Confirme feriados e alterações com a OVG.\nContatos da rede: (62) 3270-8520 e (62) 98223-1234.\nRestaurante do Bem — OVG",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Endereço:",
-                  "strong": true
-                },
-                {
-                  "text": " Avenida Araguaia, esquina com Rua 3, Quadra 38, Lote 57 E, nº 514, Setor Central"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Horário publicado:",
-                  "strong": true
-                },
-                {
-                  "text": " segunda a sexta, 10h30–14h. "
-                },
-                {
-                  "text": "Preço publicado:",
-                  "strong": true
-                },
-                {
-                  "text": " R$ 2 por almoço."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Serve refeição completa a preço social. Chegue cedo: o atendimento pode terminar ao atingir a capacidade. Confirme feriados e alterações com a OVG."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Contatos da rede:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(62) 3270-8520",
-                  "href": "tel:+556232708520"
-                },
-                {
-                  "text": " e "
-                },
-                {
-                  "text": "(62) 98223-1234",
-                  "href": "tel:+5562982231234"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Restaurante do Bem — OVG",
-                  "href": "https://www.ovg.org.br/site/?programas=teste"
-                }
-              ]
-            }
-          ]
+          "address": "Endereço: Avenida Araguaia, esquina com Rua 3, Quadra 38, Lote 57 E, nº 514, Setor Central",
+          "phone": "+556232708520",
+          "website": "https://www.ovg.org.br/site/?programas=teste",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "restaurante-do-bem-campinas",
-          "name": "Restaurante do Bem — Campinas",
+          "title": "Restaurante do Bem — Campinas",
+          "description": "Horário publicado: segunda a sexta, 10h30–14h. Preço publicado: R$ 2 por almoço.\nNão foi publicada exigência de encaminhamento na página do programa. Leve o valor exato se puder e confirme antes de se deslocar em feriados.\nUnidades e contatos do Restaurante do Bem",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Endereço:",
-                  "strong": true
-                },
-                {
-                  "text": " Avenida Anhanguera, 8667, Quadra 97, Lote 07, Setor Campinas"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Horário publicado:",
-                  "strong": true
-                },
-                {
-                  "text": " segunda a sexta, 10h30–14h. "
-                },
-                {
-                  "text": "Preço publicado:",
-                  "strong": true
-                },
-                {
-                  "text": " R$ 2 por almoço."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Não foi publicada exigência de encaminhamento na página do programa. Leve o valor exato se puder e confirme antes de se deslocar em feriados."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Unidades e contatos do Restaurante do Bem",
-                  "href": "https://www.ovg.org.br/site/?programas=teste"
-                }
-              ]
-            }
-          ]
+          "address": "Endereço: Avenida Anhanguera, 8667, Quadra 97, Lote 07, Setor Campinas",
+          "phone": "",
+          "website": "https://www.ovg.org.br/site/?programas=teste",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "centro-pop-alimentacao-durante-o-atendimento",
-          "name": "Centro POP — alimentação durante o atendimento",
+          "title": "Centro POP — alimentação durante o atendimento",
+          "description": "O serviço municipal inclui acesso à alimentação, além de banho, lavanderia, guarda de pertences e acompanhamento. Não é restaurante aberto sem limite de refeições; o acesso integra o atendimento do Centro POP.\nConfirme o prédio: (62) 3524-1104, (62) 3524-2579 ou (62) 99207-9703.\nServiços do Centro POP",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "O serviço municipal inclui acesso à alimentação, além de banho, lavanderia, guarda de pertences e acompanhamento. Não é restaurante aberto sem limite de refeições; o acesso integra o atendimento do Centro POP."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Confirme o prédio:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(62) 3524-1104",
-                  "href": "tel:+556235241104"
-                },
-                {
-                  "text": ", "
-                },
-                {
-                  "text": "(62) 3524-2579",
-                  "href": "tel:+556235242579"
-                },
-                {
-                  "text": " ou "
-                },
-                {
-                  "text": "(62) 99207-9703",
-                  "href": "tel:+5562992079703"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Serviços do Centro POP",
-                  "href": "https://www.goiania.go.gov.br/sing_servicos/centro-de-referencia-especializado-para-a-populacao-em-situacao-de-rua/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+556235241104",
+          "website": "https://www.goiania.go.gov.br/sing_servicos/centro-de-referencia-especializado-para-a-populacao-em-situacao-de-rua/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "associacao-tio-cleobaldo-refeicoes-e-apoio-na-rua",
-          "name": "Associação Tio Cleobaldo — refeições e apoio na rua",
+          "title": "Associação Tio Cleobaldo — refeições e apoio na rua",
+          "description": "Telefone e WhatsApp divulgado: (62) 98164-7604.\nA associação prepara e distribui refeições a pessoas em situação de rua e vulnerabilidade. Como as rotas e dias podem mudar, ligue ou envie mensagem para saber o ponto da próxima entrega.\nDocumentos oficiais recentes confirmam a atividade da organização, mas publicam endereços diferentes. Não viaje para uma sede antiga sem confirmar pelo telefone.\nAssociação Tio Cleobaldo — Mapa Goiano",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefone e WhatsApp divulgado:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(62) 98164-7604",
-                  "href": "tel:+5562981647604"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "A associação prepara e distribui refeições a pessoas em situação de rua e vulnerabilidade. Como as rotas e dias podem mudar, ligue ou envie mensagem para saber o ponto da próxima entrega."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Documentos oficiais recentes confirmam a atividade da organização, mas publicam endereços diferentes. Não viaje para uma sede antiga sem confirmar pelo telefone."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Associação Tio Cleobaldo — Mapa Goiano",
-                  "href": "https://mapagoiano.cultura.go.gov.br/agente/20600/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+5562981647604",
+          "website": "https://mapagoiano.cultura.go.gov.br/agente/20600/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "casa-de-acolhida-sao-tomas-de-villanova",
-          "name": "Casa de Acolhida São Tomás de Villanova",
+          "title": "Casa de Acolhida São Tomás de Villanova",
+          "description": "Serviço religioso que apoia pessoas em situação de rua com alimentação, materiais de uso pessoal, escuta, orientação social e encaminhamentos para saúde, benefícios, documentos e contato familiar.\nA página oficial não publica endereço nem telefone local. Pergunte no Centro POP ou na Abordagem Social se o serviço está a receber pessoas e como chegar. Não considere o nome “Casa de Acolhida” como garantia de cama.\nCasa de Acolhida São Tomás de Villanova — SAEA",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Serviço religioso que apoia pessoas em situação de rua com alimentação, materiais de uso pessoal, escuta, orientação social e encaminhamentos para saúde, benefícios, documentos e contato familiar."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "A página oficial não publica endereço nem telefone local. Pergunte no Centro POP ou na Abordagem Social se o serviço está a receber pessoas e como chegar. Não considere o nome “Casa de Acolhida” como garantia de cama."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Casa de Acolhida São Tomás de Villanova — SAEA",
-                  "href": "https://saea.org.br/assistencia/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://saea.org.br/assistencia/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "servico-pastoral-dos-migrantes-arquidiocese-de-goiania",
-          "name": "Serviço Pastoral dos Migrantes — Arquidiocese de Goiânia",
+          "title": "Serviço Pastoral dos Migrantes — Arquidiocese de Goiânia",
+          "description": "Telefone publicado: (62) 3981-0365.\nA pastoral católica acolhe migrantes sem discriminação e pode ajudar com escuta, alimentos, roupas, currículo, procura de trabalho e encaminhamento para albergue ou assistência. Uma página antiga informa atendimento à tarde; confirme o horário atual pelo telefone.\nServiço Pastoral dos Migrantes — contato atual da Arquidiocese",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Local:",
-                  "strong": true
-                },
-                {
-                  "text": " Terminal Rodoviário Dom Fernando Gomes dos Santos, próximo ao embarque leste, box 24"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefone publicado:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(62) 3981-0365",
-                  "href": "tel:+556239810365"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "A pastoral católica acolhe migrantes sem discriminação e pode ajudar com escuta, alimentos, roupas, currículo, procura de trabalho e encaminhamento para albergue ou assistência. Uma página antiga informa atendimento à tarde; confirme o horário atual pelo telefone."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Serviço Pastoral dos Migrantes — contato atual da Arquidiocese",
-                  "href": "https://arquidiocesedegoiania.org.br/pastorais-app/"
-                }
-              ]
-            }
-          ]
+          "address": "Local: Terminal Rodoviário Dom Fernando Gomes dos Santos, próximo ao embarque leste, box 24",
+          "phone": "+556239810365",
+          "website": "https://arquidiocesedegoiania.org.br/pastorais-app/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "servico-social-da-rodoviaria-almoco-e-encaminhamentos",
-          "name": "Serviço Social da Rodoviária — almoço e encaminhamentos",
+          "title": "Serviço Social da Rodoviária — almoço e encaminhamentos",
+          "description": "O serviço municipal informa encaminhamento para almoço em entidades conveniadas e pode ajudar migrantes em vulnerabilidade com banho, ligações e guarda-volumes.\nTelefone: (62) 3524-2572. Confirme o atendimento antes de ir.\nServiço Social do Terminal Rodoviário",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Local:",
-                  "strong": true
-                },
-                {
-                  "text": " Rodoviária de Goiânia, entre os boxes 11 e 12"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "O serviço municipal informa encaminhamento para almoço em entidades conveniadas e pode ajudar migrantes em vulnerabilidade com banho, ligações e guarda-volumes."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(62) 3524-2572",
-                  "href": "tel:+556235242572"
-                },
-                {
-                  "text": ". Confirme o atendimento antes de ir."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Serviço Social do Terminal Rodoviário",
-                  "href": "https://www.goiania.go.gov.br/sing_servicos/terminal-rodoviario/"
-                }
-              ]
-            }
-          ]
+          "address": "Local: Rodoviária de Goiânia, entre os boxes 11 e 12",
+          "phone": "+556235242572",
+          "website": "https://www.goiania.go.gov.br/sing_servicos/terminal-rodoviario/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "banco-de-alimentos-da-ovg-apoio-semanal-a-familias",
-          "name": "Banco de Alimentos da OVG — apoio semanal a famílias",
+          "title": "Banco de Alimentos da OVG — apoio semanal a famílias",
+          "description": "Famílias em vulnerabilidade podem passar por cadastro com assistente social no Banco de Alimentos, na Ceasa-GO, para eventual recebimento semanal. O programa é gratuito e depende de avaliação e capacidade.\nPeça informações atuais à OVG pelo (62) 3207-9400 ou no Centro POP/CRAS. Não vá à Ceasa sem confirmar o local e a documentação.\nCadastro no Banco de Alimentos da OVG",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Famílias em vulnerabilidade podem passar por cadastro com assistente social no Banco de Alimentos, na Ceasa-GO, para eventual recebimento semanal. O programa é gratuito e depende de avaliação e capacidade."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Peça informações atuais à OVG pelo "
-                },
-                {
-                  "text": "(62) 3207-9400",
-                  "href": "tel:+556232079400"
-                },
-                {
-                  "text": " ou no Centro POP/CRAS. Não vá à Ceasa sem confirmar o local e a documentação."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Cadastro no Banco de Alimentos da OVG",
-                  "href": "https://agencia.go.gov.br/banco-de-alimentos-da-ovg-orienta-familias-sobre-cadastro-para-receber-alimentos-semanalmente/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+556232079400",
+          "website": "https://agencia.go.gov.br/banco-de-alimentos-da-ovg-orienta-familias-sobre-cadastro-para-receber-alimentos-semanalmente/",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
-      "id": "basic",
-      "title": "4. Banho, roupa, lavanderia, pertences e telefone",
-      "items": [
+      "id": "community",
+      "title": "Community and religious help",
+      "entries": []
+    },
+    {
+      "id": "hygiene",
+      "title": "Banho, roupa, lavanderia, pertences e telefone",
+      "entries": [
         {
-          "type": "resource",
           "id": "centro-pop-banho-lavanderia-e-guarda-de-pertences",
-          "name": "Centro POP — banho, lavanderia e guarda de pertences",
+          "title": "Centro POP — banho, lavanderia e guarda de pertences",
+          "description": "O Centro POP oferece espaço de higiene pessoal, lavanderia e guarda de pertences durante o acompanhamento. Também permite usar o seu endereço como referência ou comprovante de residência quando a pessoa é atendida pela unidade.\nConfirme o endereço antes de ir: (62) 3524-1104 ou (62) 3524-2579.\nEstrutura do Centro POP",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "O Centro POP oferece espaço de higiene pessoal, lavanderia e guarda de pertences durante o acompanhamento. Também permite usar o seu endereço como referência ou comprovante de residência quando a pessoa é atendida pela unidade."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Confirme o endereço antes de ir:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(62) 3524-1104",
-                  "href": "tel:+556235241104"
-                },
-                {
-                  "text": " ou "
-                },
-                {
-                  "text": "(62) 3524-2579",
-                  "href": "tel:+556235242579"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Estrutura do Centro POP",
-                  "href": "https://www.goiania.go.gov.br/sing_servicos/centro-de-referencia-especializado-para-a-populacao-em-situacao-de-rua/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+556235241104",
+          "website": "https://www.goiania.go.gov.br/sing_servicos/centro-de-referencia-especializado-para-a-populacao-em-situacao-de-rua/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "casas-de-acolhida-cidada-higiene-e-roupa-durante-a-estadia",
-          "name": "Casas de Acolhida Cidadã — higiene e roupa durante a estadia",
+          "title": "Casas de Acolhida Cidadã — higiene e roupa durante a estadia",
+          "description": "As duas casas fornecem alimentação, higiene e pernoite seguro às pessoas acolhidas. Pergunte o que pode levar, onde guardar bagagem e se existe roupa disponível.\nCAC I: (62) 3292-1925; CAC II: (62) 3524-5704. O acesso depende de avaliação e vaga.\nServiços das Casas de Acolhida",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "As duas casas fornecem alimentação, higiene e pernoite seguro às pessoas acolhidas. Pergunte o que pode levar, onde guardar bagagem e se existe roupa disponível."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "CAC I:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(62) 3292-1925",
-                  "href": "tel:+556232921925"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "CAC II:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(62) 3524-5704",
-                  "href": "tel:+556235245704"
-                },
-                {
-                  "text": ". O acesso depende de avaliação e vaga."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Serviços das Casas de Acolhida",
-                  "href": "https://www.goiania.go.gov.br/sing_servicos/casa-de-acolhida-cidada/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+556232921925",
+          "website": "https://www.goiania.go.gov.br/sing_servicos/casa-de-acolhida-cidada/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "rodoviaria-banho-guarda-volumes-e-chamadas",
-          "name": "Rodoviária — banho, guarda-volumes e chamadas",
+          "title": "Rodoviária — banho, guarda-volumes e chamadas",
+          "description": "Para migrantes em risco social, o serviço municipal informa possibilidade de isenção das taxas de banho e guarda-volumes e realização de chamadas telefônicas, depois de atendimento.\nHorário publicado: 8h–14h. Telefone: (62) 3524-2572.\nServiços sociais da Rodoviária",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Local:",
-                  "strong": true
-                },
-                {
-                  "text": " Rua 44, 399, Setor Norte Ferroviário, entre os boxes 11 e 12"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Para migrantes em risco social, o serviço municipal informa possibilidade de isenção das taxas de banho e guarda-volumes e realização de chamadas telefônicas, depois de atendimento."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Horário publicado:",
-                  "strong": true
-                },
-                {
-                  "text": " 8h–14h. "
-                },
-                {
-                  "text": "Telefone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(62) 3524-2572",
-                  "href": "tel:+556235242572"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Serviços sociais da Rodoviária",
-                  "href": "https://www.goiania.go.gov.br/sing_servicos/terminal-rodoviario/"
-                }
-              ]
-            }
-          ]
+          "address": "Local: Rua 44, 399, Setor Norte Ferroviário, entre os boxes 11 e 12",
+          "phone": "+556235242572",
+          "website": "https://www.goiania.go.gov.br/sing_servicos/terminal-rodoviario/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "roupas-e-itens-de-higiene",
-          "name": "Roupas e itens de higiene",
+          "title": "Roupas e itens de higiene",
+          "description": "A Pastoral dos Migrantes e a Casa São Tomás de Villanova informam doação de roupas ou materiais de uso pessoal conforme disponibilidade. Ligue primeiro; doações variam e podem acabar.\nSe não houver material, peça ao Centro POP ou à Abordagem Social indicação de outro ponto ativo no mesmo dia.\nApoio da Pastoral dos Migrantes",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "A Pastoral dos Migrantes e a Casa São Tomás de Villanova informam doação de roupas ou materiais de uso pessoal conforme disponibilidade. Ligue primeiro; doações variam e podem acabar."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Se não houver material, peça ao Centro POP ou à Abordagem Social indicação de outro ponto ativo no mesmo dia."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Apoio da Pastoral dos Migrantes",
-                  "href": "https://arquidiocesedegoiania.org.br/servico-pastoral-dos-migrantes/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://arquidiocesedegoiania.org.br/servico-pastoral-dos-migrantes/",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
+    },
+    {
+      "id": "clothing",
+      "title": "Clothing",
+      "entries": []
     },
     {
       "id": "health",
-      "title": "5. Saúde, saúde mental e álcool ou outras drogas",
-      "items": [
+      "title": "Saúde, saúde mental e álcool ou outras drogas",
+      "entries": [
         {
-          "type": "resource",
           "id": "consultorio-na-rua",
-          "name": "Consultório na Rua",
+          "title": "Consultório na Rua",
+          "description": "Equipes móveis do SUS atendem pessoas em situação de rua e articulam cuidados com o Centro POP e unidades de saúde. Como as rotas mudam, peça o encontro com a equipe no Centro POP, na Abordagem Social ou no CAIS Vila Nova.\nLeve receitas e embalagens de medicamentos se tiver. Não interrompa tratamento apenas por falta de endereço; peça orientação sobre a unidade que pode continuar o cuidado.\nPlano Municipal de Saúde 2026–2029",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Equipes móveis do SUS atendem pessoas em situação de rua e articulam cuidados com o Centro POP e unidades de saúde. Como as rotas mudam, peça o encontro com a equipe no Centro POP, na Abordagem Social ou no CAIS Vila Nova."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Leve receitas e embalagens de medicamentos se tiver. Não interrompa tratamento apenas por falta de endereço; peça orientação sobre a unidade que pode continuar o cuidado."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Plano Municipal de Saúde 2026–2029",
-                  "href": "https://saude.goiania.go.gov.br/wp-content/uploads/sites/3/2026/02/PMS-2026-A-2029-04fev2026.pdf"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://saude.goiania.go.gov.br/wp-content/uploads/sites/3/2026/02/PMS-2026-A-2029-04fev2026.pdf",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "teleconsulta-de-goiania-consultas-basicas-no-sus",
-          "name": "Teleconsulta de Goiânia — consultas básicas no SUS",
+          "title": "Teleconsulta de Goiânia — consultas básicas no SUS",
+          "description": "Telefone gratuito: 0800 646 1560.\nAgenda consultas clínicas e eletivas e direciona para a unidade mais próxima do endereço informado. Se vive na rua, explique a situação e dê o local onde costuma permanecer ou use o Centro POP como referência quando já for atendido ali.\nTeleconsulta — Prefeitura de Goiânia",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefone gratuito:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "0800 646 1560",
-                  "href": "tel:08006461560"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Agenda consultas clínicas e eletivas e direciona para a unidade mais próxima do endereço informado. Se vive na rua, explique a situação e dê o local onde costuma permanecer ou use o Centro POP como referência quando já for atendido ali."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Teleconsulta — Prefeitura de Goiânia",
-                  "href": "https://www.goiania.go.gov.br/sing_servicos/central-de-atendimento-ao-cidadao-teleconsulta-de-goiania/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "08006461560",
+          "website": "https://www.goiania.go.gov.br/sing_servicos/central-de-atendimento-ao-cidadao-teleconsulta-de-goiania/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "upa-jardim-america-urgencia-24-horas",
-          "name": "UPA Jardim América — urgência 24 horas",
+          "title": "UPA Jardim América — urgência 24 horas",
+          "description": "Atendimento 24 horas com classificação de risco para problemas agudos, dor forte, falta de ar, febre alta, trauma, crise convulsiva e outras urgências. Casos mais graves têm prioridade.\nEscalas e endereços de urgência em 2026",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Endereço:",
-                  "strong": true
-                },
-                {
-                  "text": " Praça C-201, s/n, Jardim América, CEP 74210-180"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Atendimento 24 horas com classificação de risco para problemas agudos, dor forte, falta de ar, febre alta, trauma, crise convulsiva e outras urgências. Casos mais graves têm prioridade."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Escalas e endereços de urgência em 2026",
-                  "href": "https://saude.goiania.go.gov.br/escalas-de-profissional/escala-medica-de-urgencia-4/"
-                }
-              ]
-            }
-          ]
+          "address": "Endereço: Praça C-201, s/n, Jardim América, CEP 74210-180",
+          "phone": "",
+          "website": "https://saude.goiania.go.gov.br/escalas-de-profissional/escala-medica-de-urgencia-4/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "upa-noroeste-urgencia-24-horas",
-          "name": "UPA Noroeste — urgência 24 horas",
+          "title": "UPA Noroeste — urgência 24 horas",
+          "description": "Recepção: (62) 3524-3460. Funciona 24 horas com classificação de risco.\nEm emergência com risco de vida e sem transporte seguro, ligue 192 em vez de se deslocar por conta própria.\nUPAs 24 horas — Secretaria Municipal de Saúde",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Endereço:",
-                  "strong": true
-                },
-                {
-                  "text": " Rua JC-22 com JC-27, s/n, Jardim Curitiba I"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Recepção:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(62) 3524-3460",
-                  "href": "tel:+556235243460"
-                },
-                {
-                  "text": ". Funciona 24 horas com classificação de risco."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Em emergência com risco de vida e sem transporte seguro, ligue 192 em vez de se deslocar por conta própria."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "UPAs 24 horas — Secretaria Municipal de Saúde",
-                  "href": "https://saude.goiania.go.gov.br/sobre-a-secretaria/consultas-sus/unidade-de-pronto-atendimento-upas-24-horas/"
-                }
-              ]
-            }
-          ]
+          "address": "Endereço: Rua JC-22 com JC-27, s/n, Jardim Curitiba I",
+          "phone": "+556235243460",
+          "website": "https://saude.goiania.go.gov.br/sobre-a-secretaria/consultas-sus/unidade-de-pronto-atendimento-upas-24-horas/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "caps-ad-casa-alcool-e-outras-drogas",
-          "name": "CAPS AD Casa — álcool e outras drogas",
+          "title": "CAPS AD Casa — álcool e outras drogas",
+          "description": "Horário publicado nas escalas de 2026: segunda a sexta, 7h–18h.\nOferece cuidado multiprofissional em saúde mental relacionado com álcool e outras drogas. Procure para avaliação e plano de cuidado; não há garantia de internação.\nEscalas das unidades de saúde mental — 2026",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Endereço:",
-                  "strong": true
-                },
-                {
-                  "text": " Rua 55, Quadra 120, Lote 33, nº 922, Setor Central"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Horário publicado nas escalas de 2026:",
-                  "strong": true
-                },
-                {
-                  "text": " segunda a sexta, 7h–18h."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Oferece cuidado multiprofissional em saúde mental relacionado com álcool e outras drogas. Procure para avaliação e plano de cuidado; não há garantia de internação."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Escalas das unidades de saúde mental — 2026",
-                  "href": "https://saude.goiania.go.gov.br/escalas-de-profissional/escalas-unidades-de-saude-mental-3/"
-                }
-              ]
-            }
-          ]
+          "address": "Endereço: Rua 55, Quadra 120, Lote 33, nº 922, Setor Central",
+          "phone": "",
+          "website": "https://saude.goiania.go.gov.br/escalas-de-profissional/escalas-unidades-de-saude-mental-3/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "caps-ad-ipe-alcool-e-outras-drogas",
-          "name": "CAPS AD Ipê — álcool e outras drogas",
+          "title": "CAPS AD Ipê — álcool e outras drogas",
+          "description": "Horário publicado: segunda a sexta, 7h–19h.\nAtendimento comunitário para problemas ligados a álcool e outras drogas. Confirme a porta de entrada e o horário antes de ir. Em overdose, inconsciência ou falta de ar, ligue 192.\nCAPS de Goiânia — escalas atuais",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Endereço:",
-                  "strong": true
-                },
-                {
-                  "text": " Rua Dona Mariquinha com Rua Jules Verne, Quadra 24, Lotes 09 e 10, Setor Negrão de Lima"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Horário publicado:",
-                  "strong": true
-                },
-                {
-                  "text": " segunda a sexta, 7h–19h."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Atendimento comunitário para problemas ligados a álcool e outras drogas. Confirme a porta de entrada e o horário antes de ir. Em overdose, inconsciência ou falta de ar, ligue 192."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "CAPS de Goiânia — escalas atuais",
-                  "href": "https://saude.goiania.go.gov.br/escalas-de-profissional/escalas-unidades-de-saude-mental-3/"
-                }
-              ]
-            }
-          ]
+          "address": "Endereço: Rua Dona Mariquinha com Rua Jules Verne, Quadra 24, Lotes 09 e 10, Setor Negrão de Lima",
+          "phone": "",
+          "website": "https://saude.goiania.go.gov.br/escalas-de-profissional/escalas-unidades-de-saude-mental-3/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "caps-cativar-saude-mental",
-          "name": "CAPS Cativar — saúde mental",
+          "title": "CAPS Cativar — saúde mental",
+          "description": "Horário publicado: segunda a sexta, 7h–19h.\nProcure para avaliação em sofrimento mental persistente. Em risco imediato de morte, confusão grave, violência ou crise médica, use 192, 190 ou uma UPA.\nSaúde mental — Prefeitura de Goiânia",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Endereço:",
-                  "strong": true
-                },
-                {
-                  "text": " Rua 9, nº 62, Quadra 18, Lote 10, Setor Central, CEP 74013-040"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Horário publicado:",
-                  "strong": true
-                },
-                {
-                  "text": " segunda a sexta, 7h–19h."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Procure para avaliação em sofrimento mental persistente. Em risco imediato de morte, confusão grave, violência ou crise médica, use 192, 190 ou uma UPA."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Saúde mental — Prefeitura de Goiânia",
-                  "href": "https://saude.goiania.go.gov.br/escalas-de-profissional/escalas-unidades-de-saude-mental-3/"
-                }
-              ]
-            }
-          ]
+          "address": "Endereço: Rua 9, nº 62, Quadra 18, Lote 10, Setor Central, CEP 74013-040",
+          "phone": "",
+          "website": "https://saude.goiania.go.gov.br/escalas-de-profissional/escalas-unidades-de-saude-mental-3/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "testes-rapidos-de-hiv-sifilis-e-hepatites",
-          "name": "Testes rápidos de HIV, sífilis e hepatites",
+          "title": "Testes rápidos de HIV, sífilis e hepatites",
+          "description": "A rede municipal disponibiliza testes rápidos para HIV, sífilis e hepatites B e C em várias unidades. Pergunte ao Centro POP ou à Teleconsulta qual unidade está a testar sem marcação no dia.\nO teste e o aconselhamento são confidenciais. Se houver exposição muito recente ao HIV, procure uma urgência rapidamente e pergunte sobre PEP; o tratamento precisa começar o quanto antes.\nTestagem rápida na rede municipal",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "A rede municipal disponibiliza testes rápidos para HIV, sífilis e hepatites B e C em várias unidades. Pergunte ao Centro POP ou à Teleconsulta qual unidade está a testar sem marcação no dia."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "O teste e o aconselhamento são confidenciais. Se houver exposição muito recente ao HIV, procure uma urgência rapidamente e pergunte sobre PEP; o tratamento precisa começar o quanto antes."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Testagem rápida na rede municipal",
-                  "href": "https://saude.goiania.go.gov.br/_servicos/7690-2/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://saude.goiania.go.gov.br/_servicos/7690-2/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "ouvidoria-da-saude",
-          "name": "Ouvidoria da Saúde",
+          "title": "Ouvidoria da Saúde",
+          "description": "Telefone gratuito: 0800 646 1510.\nUse para informação, reclamação ou dificuldade de acesso ao SUS municipal. Anote o nome da unidade, data, hora e o que ocorreu.\nUnidades do SUS em Goiânia",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefone gratuito:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "0800 646 1510",
-                  "href": "tel:08006461510"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Use para informação, reclamação ou dificuldade de acesso ao SUS municipal. Anote o nome da unidade, data, hora e o que ocorreu."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Unidades do SUS em Goiânia",
-                  "href": "https://saude.goiania.go.gov.br/sobre-a-secretaria/consultas-sus/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "08006461510",
+          "website": "https://saude.goiania.go.gov.br/sobre-a-secretaria/consultas-sus/",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
+    },
+    {
+      "id": "mental-health",
+      "title": "Mental health and addiction",
+      "entries": []
+    },
+    {
+      "id": "public-facilities",
+      "title": "Public toilets and day facilities",
+      "entries": []
+    },
+    {
+      "id": "phone-internet",
+      "title": "Phone charging and internet",
+      "entries": []
+    },
+    {
+      "id": "transport",
+      "title": "Transport",
+      "entries": []
     },
     {
       "id": "benefits",
-      "title": "6. Benefícios e moradia",
-      "items": [
+      "title": "Benefícios e moradia",
+      "entries": [
         {
-          "type": "resource",
           "id": "cadastro-unico-para-pessoas-em-situacao-de-rua",
-          "name": "Cadastro Único para pessoas em situação de rua",
+          "title": "Cadastro Único para pessoas em situação de rua",
+          "description": "Pessoas que vivem na rua, sozinhas ou com a família, podem ser cadastradas. A Prefeitura indica os CRAS; o Centro POP também pode ajudar com documentos e encaminhamento. Se não tem comprovante de residência, explique a situação e peça para usar o endereço de referência do Centro POP depois do atendimento.\nO cadastro não aprova automaticamente Bolsa Família, BPC, moradia ou outro benefício. Cada programa aplica os próprios critérios.\nCadastro Único — Prefeitura de Goiânia",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Pessoas que vivem na rua, sozinhas ou com a família, podem ser cadastradas. A Prefeitura indica os CRAS; o Centro POP também pode ajudar com documentos e encaminhamento. Se não tem comprovante de residência, explique a situação e peça para usar o endereço de referência do Centro POP depois do atendimento."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "O cadastro não aprova automaticamente Bolsa Família, BPC, moradia ou outro benefício. Cada programa aplica os próprios critérios."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Cadastro Único — Prefeitura de Goiânia",
-                  "href": "https://www.goiania.go.gov.br/sing_servicos/servico-de-gestao-do-cadastro-unico/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.goiania.go.gov.br/sing_servicos/servico-de-gestao-do-cadastro-unico/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "cras-cadastro-unico-e-beneficios",
-          "name": "CRAS — Cadastro Único e benefícios",
+          "title": "CRAS — Cadastro Único e benefícios",
+          "description": "Os CRAS fazem Cadastro Único, orientação social e pedidos de benefícios eventuais. A página municipal mantém a lista de unidades, endereços e telefones.\nAntes de escolher uma unidade, telefone para confirmar se atende o bairro ou local de referência e se é preciso senha. O Centro POP pode encaminhar a pessoa em situação de rua ao serviço adequado.\nLista de CRAS e contatos",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Os CRAS fazem Cadastro Único, orientação social e pedidos de benefícios eventuais. A página municipal mantém a lista de unidades, endereços e telefones."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Antes de escolher uma unidade, telefone para confirmar se atende o bairro ou local de referência e se é preciso senha. O Centro POP pode encaminhar a pessoa em situação de rua ao serviço adequado."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Lista de CRAS e contatos",
-                  "href": "https://www.goiania.go.gov.br/sing_servicos/servico-de-gestao-do-cadastro-unico/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.goiania.go.gov.br/sing_servicos/servico-de-gestao-do-cadastro-unico/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "beneficios-eventuais-municipais",
-          "name": "Benefícios eventuais municipais",
+          "title": "Benefícios eventuais municipais",
+          "description": "Podem apoiar situações de nascimento, morte, vulnerabilidade temporária ou calamidade, depois de avaliação social. O pedido é feito no CRAS e não existe pagamento automático.\nSecretaria municipal: (62) 3524-1309. Pergunte qual CRAS deve procurar.\nBenefícios eventuais — Prefeitura de Goiânia",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Podem apoiar situações de nascimento, morte, vulnerabilidade temporária ou calamidade, depois de avaliação social. O pedido é feito no CRAS e não existe pagamento automático."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Secretaria municipal:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(62) 3524-1309",
-                  "href": "tel:+556235241309"
-                },
-                {
-                  "text": ". Pergunte qual CRAS deve procurar."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Benefícios eventuais — Prefeitura de Goiânia",
-                  "href": "https://www.goiania.go.gov.br/sing_servicos/beneficios-eventuais/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+556235241309",
+          "website": "https://www.goiania.go.gov.br/sing_servicos/beneficios-eventuais/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "bpc-pessoa-com-deficiencia-ou-com-65-anos-ou-mais",
-          "name": "BPC — pessoa com deficiência ou com 65 anos ou mais",
+          "title": "BPC — pessoa com deficiência ou com 65 anos ou mais",
+          "description": "O Benefício de Prestação Continuada pode pagar um salário mínimo mensal a pessoa com deficiência ou com 65 anos ou mais que cumpra os critérios de baixa renda e demais requisitos. Não é aposentadoria e não exige contribuição prévia.\nÉ necessário Cadastro Único atualizado e CPF dos membros da família. O pedido é gratuito pelo Meu INSS, telefone 135 ou agência do INSS. Não pague intermediários.\nBPC — Ministério do Desenvolvimento e Assistência Social",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "O Benefício de Prestação Continuada pode pagar um salário mínimo mensal a pessoa com deficiência ou com 65 anos ou mais que cumpra os critérios de baixa renda e demais requisitos. Não é aposentadoria e não exige contribuição prévia."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "É necessário Cadastro Único atualizado e CPF dos membros da família. O pedido é gratuito pelo Meu INSS, telefone "
-                },
-                {
-                  "text": "135",
-                  "href": "tel:135"
-                },
-                {
-                  "text": " ou agência do INSS. Não pague intermediários."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "BPC — Ministério do Desenvolvimento e Assistência Social",
-                  "href": "https://www.gov.br/mds/pt-br/acoes-e-programas/SUAS/beneficios-assistenciais/beneficio-assistencial-ao-idoso-e-a-pessoa-com-deficiencia-bpc"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "135",
+          "website": "https://www.gov.br/mds/pt-br/acoes-e-programas/SUAS/beneficios-assistenciais/beneficio-assistencial-ao-idoso-e-a-pessoa-com-deficiencia-bpc",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "programa-pra-ter-onde-morar-aluguel-social",
-          "name": "Programa Pra Ter Onde Morar — Aluguel Social",
+          "title": "Programa Pra Ter Onde Morar — Aluguel Social",
+          "description": "O programa estadual exige critérios e documentos, incluindo Cadastro Único e tempo de residência. A página geral indicava as inscrições de Goiânia como suspensas na verificação de novembro de 2026, embora exista edital municipal atualizado em maio.\nNão conte com o benefício para resolver a noite de hoje. Confirme a situação atual na AGEHAB: (62) 3096-5005 ou (62) 3096-5050.\nSituação dos editais do Aluguel Social",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "O programa estadual exige critérios e documentos, incluindo Cadastro Único e tempo de residência. A página geral indicava as inscrições de Goiânia como suspensas na verificação de novembro de 2026, embora exista edital municipal atualizado em maio."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Não conte com o benefício para resolver a noite de hoje. Confirme a situação atual na AGEHAB: "
-                },
-                {
-                  "text": "(62) 3096-5005",
-                  "href": "tel:+556230965005"
-                },
-                {
-                  "text": " ou "
-                },
-                {
-                  "text": "(62) 3096-5050",
-                  "href": "tel:+556230965050"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Situação dos editais do Aluguel Social",
-                  "href": "https://goias.gov.br/agehab/programa-pra-ter-onde-morar-aluguel-social-edital-por-cidade/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+556230965005",
+          "website": "https://goias.gov.br/agehab/programa-pra-ter-onde-morar-aluguel-social-edital-por-cidade/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "passagem-excepcional-para-retorno-familiar",
-          "name": "Passagem excepcional para retorno familiar",
+          "title": "Passagem excepcional para retorno familiar",
+          "description": "A lei municipal de 2026 permite, em casos avaliados, passagem intermunicipal ou interestadual para retorno de pessoa em situação de rua ao município de origem ou residência familiar.\nPeça avaliação no Centro POP, na Abordagem Social ou no Serviço Social da Rodoviária. Não compre uma viagem contando com reembolso e não aceite deslocamento sem destino seguro confirmado.\nLei municipal dos benefícios eventuais — 2026",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "A lei municipal de 2026 permite, em casos avaliados, passagem intermunicipal ou interestadual para retorno de pessoa em situação de rua ao município de origem ou residência familiar."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Peça avaliação no Centro POP, na Abordagem Social ou no Serviço Social da Rodoviária. Não compre uma viagem contando com reembolso e não aceite deslocamento sem destino seguro confirmado."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Lei municipal dos benefícios eventuais — 2026",
-                  "href": "https://www.goiania.go.gov.br/html/gabinete_civil/sileg/dados/legis/2026/lo_20260914_000011707.html"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.goiania.go.gov.br/html/gabinete_civil/sileg/dados/legis/2026/lo_20260914_000011707.html",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
-      "id": "jobs",
-      "title": "7. Trabalho e renda",
-      "items": [
+      "id": "employment",
+      "title": "Trabalho e renda",
+      "entries": [
         {
-          "type": "resource",
           "id": "sine-goias-central-de-vagas",
-          "name": "SINE Goiás — Central de Vagas",
+          "title": "SINE Goiás — Central de Vagas",
+          "description": "Telefones: (62) 98104-3288 e (62) 98104-0140.\nHorário publicado: segunda a sexta, 7h–19h; sábado, 8h–12h. Procure vagas, encaminhamento e orientação. Leve CPF e documentos que tiver. Uma vaga anunciada não garante contratação.\nSINE Goiás — postos e contatos",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Endereço:",
-                  "strong": true
-                },
-                {
-                  "text": " Palácio Pedro Ludovico Teixeira, Rua 82, 400, Praça Cívica, Centro"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefones:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(62) 98104-3288",
-                  "href": "tel:+5562981043288"
-                },
-                {
-                  "text": " e "
-                },
-                {
-                  "text": "(62) 98104-0140",
-                  "href": "tel:+5562981040140"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Horário publicado:",
-                  "strong": true
-                },
-                {
-                  "text": " segunda a sexta, 7h–19h; sábado, 8h–12h. Procure vagas, encaminhamento e orientação. Leve CPF e documentos que tiver. Uma vaga anunciada não garante contratação."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "SINE Goiás — postos e contatos",
-                  "href": "https://goias.gov.br/social/categoria/acoes/trabalho/sine/"
-                }
-              ]
-            }
-          ]
+          "address": "Endereço: Palácio Pedro Ludovico Teixeira, Rua 82, 400, Praça Cívica, Centro",
+          "phone": "+5562981043288",
+          "website": "https://goias.gov.br/social/categoria/acoes/trabalho/sine/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "encaminhamento-para-trabalho-pelo-centro-pop-e-casas-de-acolhida",
-          "name": "Encaminhamento para trabalho pelo Centro POP e Casas de Acolhida",
+          "title": "Encaminhamento para trabalho pelo Centro POP e Casas de Acolhida",
+          "description": "O Centro POP trabalha autonomia e encaminhamentos; as Casas de Acolhida informam orientação para o mercado de trabalho. Em Goiânia, a regulamentação municipal prevê encaminhamento de pessoas atendidas pela assistência para vagas reservadas.\nPeça ajuda para montar currículo, regularizar documentos, obter telefone de contato e chegar ao SINE. Nenhuma equipe pode prometer emprego.\nEncaminhamento ao trabalho para pessoas em situação de rua",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "O Centro POP trabalha autonomia e encaminhamentos; as Casas de Acolhida informam orientação para o mercado de trabalho. Em Goiânia, a regulamentação municipal prevê encaminhamento de pessoas atendidas pela assistência para vagas reservadas."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Peça ajuda para montar currículo, regularizar documentos, obter telefone de contato e chegar ao SINE. Nenhuma equipe pode prometer emprego."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Encaminhamento ao trabalho para pessoas em situação de rua",
-                  "href": "https://www.goiania.go.gov.br/html/gabinete_civil/sileg/dados/legis/2024/dc_20241129_000004685.html"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.goiania.go.gov.br/html/gabinete_civil/sileg/dados/legis/2024/dc_20241129_000004685.html",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "carteira-de-trabalho-digital",
-          "name": "Carteira de Trabalho Digital",
+          "title": "Carteira de Trabalho Digital",
+          "description": "É gratuita e usa o CPF como número principal. Pode ser acessada pela internet com conta gov.br. Para contratação pelo eSocial, o CPF é suficiente; a pessoa não precisa pagar pela emissão.\nSe não tem telefone ou internet, peça apoio no Centro POP, SINE, Serviço Social da Rodoviária ou Pastoral dos Migrantes.\nObter a Carteira de Trabalho Digital",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "É gratuita e usa o CPF como número principal. Pode ser acessada pela internet com conta gov.br. Para contratação pelo eSocial, o CPF é suficiente; a pessoa não precisa pagar pela emissão."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Se não tem telefone ou internet, peça apoio no Centro POP, SINE, Serviço Social da Rodoviária ou Pastoral dos Migrantes."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Obter a Carteira de Trabalho Digital",
-                  "href": "https://www.gov.br/pt-br/servicos/obter-a-carteira-de-trabalho"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.gov.br/pt-br/servicos/obter-a-carteira-de-trabalho",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "pastoral-dos-migrantes-curriculo-e-procura-de-emprego",
-          "name": "Pastoral dos Migrantes — currículo e procura de emprego",
+          "title": "Pastoral dos Migrantes — currículo e procura de emprego",
+          "description": "A pastoral informa apoio para elaborar currículo e procurar trabalho, além de roupas, alimento e encaminhamento. Confirme disponibilidade e horário no (62) 3981-0365.\nNão entregue documentos originais a desconhecidos e não pague para concorrer a emprego.\nPastoral dos Migrantes em Goiânia",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Local:",
-                  "strong": true
-                },
-                {
-                  "text": " Rodoviária de Goiânia, box 24"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "A pastoral informa apoio para elaborar currículo e procurar trabalho, além de roupas, alimento e encaminhamento. Confirme disponibilidade e horário no "
-                },
-                {
-                  "text": "(62) 3981-0365",
-                  "href": "tel:+556239810365"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Não entregue documentos originais a desconhecidos e não pague para concorrer a emprego."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Pastoral dos Migrantes em Goiânia",
-                  "href": "https://scalabrinianas.org/pastoral-goiania/"
-                }
-              ]
-            }
-          ]
+          "address": "Local: Rodoviária de Goiânia, box 24",
+          "phone": "+556239810365",
+          "website": "https://scalabrinianas.org/pastoral-goiania/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "trabalho-informal-com-seguranca",
-          "name": "Trabalho informal com segurança",
+          "title": "Trabalho informal com segurança",
+          "description": "Peça no Centro POP ou CRAS orientação sobre cursos, ACESSUAS Trabalho e geração de renda. Se alguém oferecer trabalho com alojamento, confirme endereço, pagamento, horas e liberdade para sair.\nRetenção de documentos, dívida imposta, ameaça ou impedimento de sair podem indicar exploração. Ligue 100 ou 190 em caso de perigo.\nComo reconhecer e denunciar trabalho análogo ao escravo",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Peça no Centro POP ou CRAS orientação sobre cursos, ACESSUAS Trabalho e geração de renda. Se alguém oferecer trabalho com alojamento, confirme endereço, pagamento, horas e liberdade para sair."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Retenção de documentos, dívida imposta, ameaça ou impedimento de sair podem indicar exploração. Ligue 100 ou 190 em caso de perigo."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Como reconhecer e denunciar trabalho análogo ao escravo",
-                  "href": "https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/inspecao-do-trabalho/areas-de-atuacao/combate-ao-trabalho-escravo-e-analogo-ao-de-escravo"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/inspecao-do-trabalho/areas-de-atuacao/combate-ao-trabalho-escravo-e-analogo-ao-de-escravo",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
+    },
+    {
+      "id": "legal",
+      "title": "Legal aid",
+      "entries": []
     },
     {
       "id": "documents",
-      "title": "8. Documentos, ajuda jurídica e migrantes",
-      "items": [
+      "title": "Documentos, ajuda jurídica e migrantes",
+      "entries": [
         {
-          "type": "resource",
           "id": "regularizacao-de-documentos-no-centro-pop",
-          "name": "Regularização de documentos no Centro POP",
+          "title": "Regularização de documentos no Centro POP",
+          "description": "O Centro POP ajuda a regularizar documentos e pode fornecer endereço de referência às pessoas que acompanha. Comece ali se perdeu certidão, CPF, identidade ou Carteira de Trabalho.\nA falta de documentos não deve impedir o primeiro atendimento do próprio Centro POP. Peça uma lista escrita do que precisa obter e em que ordem.\nCentro POP — documentos e endereço de referência",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "O Centro POP ajuda a regularizar documentos e pode fornecer endereço de referência às pessoas que acompanha. Comece ali se perdeu certidão, CPF, identidade ou Carteira de Trabalho."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "A falta de documentos não deve impedir o primeiro atendimento do próprio Centro POP. Peça uma lista escrita do que precisa obter e em que ordem."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Centro POP — documentos e endereço de referência",
-                  "href": "https://www.goiania.go.gov.br/sing_servicos/centro-de-referencia-especializado-para-a-populacao-em-situacao-de-rua/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.goiania.go.gov.br/sing_servicos/centro-de-referencia-especializado-para-a-populacao-em-situacao-de-rua/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "carteira-de-identidade-nacional-vapt-vupt-araguaia-shopping",
-          "name": "Carteira de Identidade Nacional — Vapt Vupt Araguaia Shopping",
+          "title": "Carteira de Identidade Nacional — Vapt Vupt Araguaia Shopping",
+          "description": "Horário publicado: segunda a sexta, 8h–17h; sábado, 8h–13h. A emissão da CIN normalmente exige agendamento no Portal Expresso.\nAntes de agendar, confirme certidão e CPF necessários. O Centro POP e o Serviço Social da Rodoviária podem orientar casos de perda de documentos ou falta de recursos.\nCIN no Vapt Vupt Araguaia Shopping",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Endereço:",
-                  "strong": true
-                },
-                {
-                  "text": " Rua 44, 399, Setor Central, Araguaia Shopping"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Horário publicado:",
-                  "strong": true
-                },
-                {
-                  "text": " segunda a sexta, 8h–17h; sábado, 8h–13h. A emissão da CIN normalmente exige agendamento no Portal Expresso."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Antes de agendar, confirme certidão e CPF necessários. O Centro POP e o Serviço Social da Rodoviária podem orientar casos de perda de documentos ou falta de recursos."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "CIN no Vapt Vupt Araguaia Shopping",
-                  "href": "https://goias.gov.br/vapt-vupt-do-araguaia-shopping-amplia-coleta-biometrica-para-carteira-de-identidade-nacional/"
-                }
-              ]
-            }
-          ]
+          "address": "Endereço: Rua 44, 399, Setor Central, Araguaia Shopping",
+          "phone": "",
+          "website": "https://goias.gov.br/vapt-vupt-do-araguaia-shopping-amplia-coleta-biometrica-para-carteira-de-identidade-nacional/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "defensoria-publica-do-estado-de-goias-orientacao-gratuita",
-          "name": "Defensoria Pública do Estado de Goiás — orientação gratuita",
+          "title": "Defensoria Pública do Estado de Goiás — orientação gratuita",
+          "description": "Central de informações: (62) 3602-1224, segunda a sexta, 8h–18h.\nA Defensoria atende pessoas sem condições de pagar advogado em temas como família, documentos, moradia, saúde, direitos humanos e questões criminais. Ligue primeiro para saber qual unidade de Goiânia atende o problema.\nUnidades e áreas de atendimento da Defensoria",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Central de informações:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(62) 3602-1224",
-                  "href": "tel:+556236021224"
-                },
-                {
-                  "text": ", segunda a sexta, 8h–18h."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "A Defensoria atende pessoas sem condições de pagar advogado em temas como família, documentos, moradia, saúde, direitos humanos e questões criminais. Ligue primeiro para saber qual unidade de Goiânia atende o problema."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Unidades e áreas de atendimento da Defensoria",
-                  "href": "https://www2.defensoria.go.def.br/unidades-de-atendimento"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+556236021224",
+          "website": "https://www2.defensoria.go.def.br/unidades-de-atendimento",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "dpe-go-direitos-humanos-mulheres-e-discriminacao",
-          "name": "DPE-GO — direitos humanos, mulheres e discriminação",
+          "title": "DPE-GO — direitos humanos, mulheres e discriminação",
+          "description": "Núcleo de Direitos Humanos: (62) 3157-1040; Núcleo de Defesa da Mulher: (62) 3157-1039.\nConfirme por telefone se é necessário encaminhamento ou senha e leve tudo o que tiver: documentos, fotografias, boletim de ocorrência, receita, negativa escrita ou protocolo.\nContatos oficiais da DPE-GO",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Unidade Sul:",
-                  "strong": true
-                },
-                {
-                  "text": " Avenida Cora Coralina, Setor Sul, Goiânia"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Núcleo de Direitos Humanos:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(62) 3157-1040",
-                  "href": "tel:+556231571040"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "Núcleo de Defesa da Mulher:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(62) 3157-1039",
-                  "href": "tel:+556231571039"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Confirme por telefone se é necessário encaminhamento ou senha e leve tudo o que tiver: documentos, fotografias, boletim de ocorrência, receita, negativa escrita ou protocolo."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Contatos oficiais da DPE-GO",
-                  "href": "https://www2.defensoria.go.def.br/unidades-de-atendimento"
-                }
-              ]
-            }
-          ]
+          "address": "Unidade Sul: Avenida Cora Coralina, Setor Sul, Goiânia",
+          "phone": "+556231571040",
+          "website": "https://www2.defensoria.go.def.br/unidades-de-atendimento",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "servico-social-da-rodoviaria-migrantes-em-vulnerabilidade",
-          "name": "Serviço Social da Rodoviária — migrantes em vulnerabilidade",
+          "title": "Serviço Social da Rodoviária — migrantes em vulnerabilidade",
+          "description": "Orienta sobre documento perdido, Casa de Acolhida, Centro POP, banho, alimentação, guarda-volumes e eventual retorno familiar. Se não houver documento, o serviço informa encaminhamento para boletim de ocorrência.\nTelefone: (62) 3524-2572. Horário publicado: 8h–14h.\nAtendimento a migrantes na Rodoviária",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Local:",
-                  "strong": true
-                },
-                {
-                  "text": " Rua 44, 399, entre os boxes 11 e 12"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Orienta sobre documento perdido, Casa de Acolhida, Centro POP, banho, alimentação, guarda-volumes e eventual retorno familiar. Se não houver documento, o serviço informa encaminhamento para boletim de ocorrência."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(62) 3524-2572",
-                  "href": "tel:+556235242572"
-                },
-                {
-                  "text": ". "
-                },
-                {
-                  "text": "Horário publicado:",
-                  "strong": true
-                },
-                {
-                  "text": " 8h–14h."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Atendimento a migrantes na Rodoviária",
-                  "href": "https://www.goiania.go.gov.br/sing_servicos/terminal-rodoviario/"
-                }
-              ]
-            }
-          ]
+          "address": "Local: Rua 44, 399, entre os boxes 11 e 12",
+          "phone": "+556235242572",
+          "website": "https://www.goiania.go.gov.br/sing_servicos/terminal-rodoviario/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "pastoral-dos-migrantes-acolhimento-e-regularizacao",
-          "name": "Pastoral dos Migrantes — acolhimento e regularização",
+          "title": "Pastoral dos Migrantes — acolhimento e regularização",
+          "description": "Apoia migrantes e refugiados com escuta, documentos, currículo, procura de trabalho, alimentação, roupa e encaminhamentos. A página oficial afirma que o atendimento não faz discriminação.\nTelefone: (62) 3981-0365. Confirme o horário antes de ir.\nServiço Pastoral dos Migrantes — Goiânia",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Local:",
-                  "strong": true
-                },
-                {
-                  "text": " Rodoviária, embarque leste, box 24"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Apoia migrantes e refugiados com escuta, documentos, currículo, procura de trabalho, alimentação, roupa e encaminhamentos. A página oficial afirma que o atendimento não faz discriminação."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(62) 3981-0365",
-                  "href": "tel:+556239810365"
-                },
-                {
-                  "text": ". Confirme o horário antes de ir."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Serviço Pastoral dos Migrantes — Goiânia",
-                  "href": "https://scalabrinianas.org/pastoral-goiania/"
-                }
-              ]
-            }
-          ]
+          "address": "Local: Rodoviária, embarque leste, box 24",
+          "phone": "+556239810365",
+          "website": "https://scalabrinianas.org/pastoral-goiania/",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
-      "id": "specialized",
-      "title": "9. Mulheres, jovens, pessoas LGBTQIA+, idosas e com deficiência",
-      "items": [
+      "id": "mail",
+      "title": "Mailing address",
+      "entries": []
+    },
+    {
+      "id": "storage",
+      "title": "Storage",
+      "entries": []
+    },
+    {
+      "id": "safety",
+      "title": "Safety and domestic violence",
+      "entries": []
+    },
+    {
+      "id": "specialist-support",
+      "title": "Mulheres, jovens, pessoas LGBTQIA+, idosas e com deficiência",
+      "entries": [
         {
-          "type": "resource",
           "id": "centro-de-referencia-cora-coralina-mulheres-em-situacao-de-violencia",
-          "name": "Centro de Referência Cora Coralina — mulheres em situação de violência",
+          "title": "Centro de Referência Cora Coralina — mulheres em situação de violência",
+          "description": "Telefones: (62) 3524-2933 e (62) 3524-2934. Horário publicado: segunda a sexta, 8h–17h.\nOferece atendimento social, psicológico e orientação jurídica. O atendimento deve ocorrer mesmo sem RG ou CPF. Outra página municipal publica endereço diferente; confirme por telefone antes de se deslocar.\nCentro de Referência Cora Coralina",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Endereço publicado na Carta de Serviços:",
-                  "strong": true
-                },
-                {
-                  "text": " Rua 74 com Rua 59, nº 423, Setor Central"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefones:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(62) 3524-2933",
-                  "href": "tel:+556235242933"
-                },
-                {
-                  "text": " e "
-                },
-                {
-                  "text": "(62) 3524-2934",
-                  "href": "tel:+556235242934"
-                },
-                {
-                  "text": ". "
-                },
-                {
-                  "text": "Horário publicado:",
-                  "strong": true
-                },
-                {
-                  "text": " segunda a sexta, 8h–17h."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Oferece atendimento social, psicológico e orientação jurídica. O atendimento deve ocorrer mesmo sem RG ou CPF. Outra página municipal publica endereço diferente; confirme por telefone antes de se deslocar."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Centro de Referência Cora Coralina",
-                  "href": "https://www.goiania.go.gov.br/sing_servicos/centro-de-referencia-a-mulher-cora-coralina/"
-                }
-              ]
-            }
-          ]
+          "address": "Endereço publicado na Carta de Serviços: Rua 74 com Rua 59, nº 423, Setor Central",
+          "phone": "+556235242933",
+          "website": "https://www.goiania.go.gov.br/sing_servicos/centro-de-referencia-a-mulher-cora-coralina/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "casa-abrigo-sempre-viva-endereco-protegido",
-          "name": "Casa Abrigo Sempre Viva — endereço protegido",
+          "title": "Casa Abrigo Sempre Viva — endereço protegido",
+          "description": "Acolhe mulheres sob ameaça de morte, mas o endereço não deve ser divulgado. O acesso passa por avaliação da rede, incluindo as Delegacias Especializadas de Atendimento à Mulher.\nLigue 180 para orientação, 153 para Mulher Mais Segura ou 190 em perigo imediato. Não tente localizar a casa por conta própria.\nRede de proteção e acesso à Casa Abrigo",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Acolhe mulheres sob ameaça de morte, mas o endereço não deve ser divulgado. O acesso passa por avaliação da rede, incluindo as Delegacias Especializadas de Atendimento à Mulher."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ligue 180",
-                  "strong": true
-                },
-                {
-                  "text": " para orientação, "
-                },
-                {
-                  "text": "153",
-                  "strong": true
-                },
-                {
-                  "text": " para Mulher Mais Segura ou "
-                },
-                {
-                  "text": "190",
-                  "strong": true
-                },
-                {
-                  "text": " em perigo imediato. Não tente localizar a casa por conta própria."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Rede de proteção e acesso à Casa Abrigo",
-                  "href": "https://www.goiania.go.gov.br/sing_servicos/acolhimento-de-mulheres-vitimas-de-violencia-domestica-e-ou-familiar/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.goiania.go.gov.br/sing_servicos/acolhimento-de-mulheres-vitimas-de-violencia-domestica-e-ou-familiar/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "1a-deam-delegacia-da-mulher-regiao-central",
-          "name": "1ª DEAM — Delegacia da Mulher, região central",
+          "title": "1ª DEAM — Delegacia da Mulher, região central",
+          "description": "Telefones: (62) 3201-2801 e (62) 3201-2802.\nProcure para denunciar violência e pedir proteção. Em agressão em andamento ou perigo imediato, ligue 190. Para orientação confidencial, ligue 180.\nDelegacias e rede de atendimento à mulher",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Endereço:",
-                  "strong": true
-                },
-                {
-                  "text": " Rua 24, 203, Quadra 49, Lote 27, Centro"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefones:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(62) 3201-2801",
-                  "href": "tel:+556232012801"
-                },
-                {
-                  "text": " e "
-                },
-                {
-                  "text": "(62) 3201-2802",
-                  "href": "tel:+556232012802"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Procure para denunciar violência e pedir proteção. Em agressão em andamento ou perigo imediato, ligue 190. Para orientação confidencial, ligue 180."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Delegacias e rede de atendimento à mulher",
-                  "href": "https://www.goiania.go.gov.br/sing_servicos/acolhimento-de-mulheres-vitimas-de-violencia-domestica-e-ou-familiar/"
-                }
-              ]
-            }
-          ]
+          "address": "Endereço: Rua 24, 203, Quadra 49, Lote 27, Centro",
+          "phone": "+556232012801",
+          "website": "https://www.goiania.go.gov.br/sing_servicos/acolhimento-de-mulheres-vitimas-de-violencia-domestica-e-ou-familiar/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "casa-de-acolhida-cidada-i-pessoas-lgbtqia",
-          "name": "Casa de Acolhida Cidadã I — pessoas LGBTQIA+",
+          "title": "Casa de Acolhida Cidadã I — pessoas LGBTQIA+",
+          "description": "A Prefeitura inclui expressamente pessoas LGBTQIA+ no perfil da CAC I. O serviço funciona 24 horas, mas a entrada depende de avaliação e vaga.\nTelefone: (62) 3292-1925. Denúncias de discriminação ou violência também podem ser feitas pelo 100; em perigo imediato, 190.\nPerfil de atendimento da CAC I",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Endereço:",
-                  "strong": true
-                },
-                {
-                  "text": " Avenida 24 de Outubro, 253, Setor dos Funcionários"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "A Prefeitura inclui expressamente pessoas LGBTQIA+ no perfil da CAC I. O serviço funciona 24 horas, mas a entrada depende de avaliação e vaga."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(62) 3292-1925",
-                  "href": "tel:+556232921925"
-                },
-                {
-                  "text": ". Denúncias de discriminação ou violência também podem ser feitas pelo 100; em perigo imediato, 190."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Perfil de atendimento da CAC I",
-                  "href": "https://www.goiania.go.gov.br/sing_servicos/casa-de-acolhida-cidada/"
-                }
-              ]
-            }
-          ]
+          "address": "Endereço: Avenida 24 de Outubro, 253, Setor dos Funcionários",
+          "phone": "+556232921925",
+          "website": "https://www.goiania.go.gov.br/sing_servicos/casa-de-acolhida-cidada/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "complexo-24-horas-criancas-e-adolescentes-de-goiania",
-          "name": "Complexo 24 Horas — crianças e adolescentes de Goiânia",
+          "title": "Complexo 24 Horas — crianças e adolescentes de Goiânia",
+          "description": "Telefone: (62) 3201-7133. Funciona 24 horas.\nCasa de passagem para crianças e adolescentes em risco, situação de rua ou com vínculos rompidos. O acolhimento envolve equipe técnica e articulação com Conselho Tutelar e Justiça. Em perigo imediato, ligue 190 ou 100.\nComplexo 24 Horas — Prefeitura de Goiânia",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Endereço:",
-                  "strong": true
-                },
-                {
-                  "text": " Rua 1105, Quadra 204, Lote 23, Setor Pedro Ludovico"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(62) 3201-7133",
-                  "href": "tel:+556232017133"
-                },
-                {
-                  "text": ". Funciona 24 horas."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Casa de passagem para crianças e adolescentes em risco, situação de rua ou com vínculos rompidos. O acolhimento envolve equipe técnica e articulação com Conselho Tutelar e Justiça. Em perigo imediato, ligue 190 ou 100."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Complexo 24 Horas — Prefeitura de Goiânia",
-                  "href": "https://www.goiania.go.gov.br/sing_servicos/servico-de-acolhimento-institucional-complexo-24-horas/"
-                }
-              ]
-            }
-          ]
+          "address": "Endereço: Rua 1105, Quadra 204, Lote 23, Setor Pedro Ludovico",
+          "phone": "+556232017133",
+          "website": "https://www.goiania.go.gov.br/sing_servicos/servico-de-acolhimento-institucional-complexo-24-horas/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "craspi-saude-da-pessoa-idosa",
-          "name": "CRASPI — saúde da pessoa idosa",
+          "title": "CRASPI — saúde da pessoa idosa",
+          "description": "Telefone: (62) 3030-4091. Horário publicado: segunda a sexta, 7h–19h.\nAtendimento especializado para pessoas idosas com limitação funcional, mediante encaminhamento da atenção primária e regulação. Para começar, procure uma unidade de saúde ou ligue para a Teleconsulta.\nCRASPI — critérios de acesso",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Endereço:",
-                  "strong": true
-                },
-                {
-                  "text": " Avenida Armando de Godói, 326, Cidade Jardim"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(62) 3030-4091",
-                  "href": "tel:+556230304091"
-                },
-                {
-                  "text": ". "
-                },
-                {
-                  "text": "Horário publicado:",
-                  "strong": true
-                },
-                {
-                  "text": " segunda a sexta, 7h–19h."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Atendimento especializado para pessoas idosas com limitação funcional, mediante encaminhamento da atenção primária e regulação. Para começar, procure uma unidade de saúde ou ligue para a Teleconsulta."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "CRASPI — critérios de acesso",
-                  "href": "https://www.goiania.go.gov.br/sing_servicos/centro-de-referencia-em-atencao-a-saude-da-pessoa-idosa-craspi/"
-                }
-              ]
-            }
-          ]
+          "address": "Endereço: Avenida Armando de Godói, 326, Cidade Jardim",
+          "phone": "+556230304091",
+          "website": "https://www.goiania.go.gov.br/sing_servicos/centro-de-referencia-em-atencao-a-saude-da-pessoa-idosa-craspi/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "protecao-social-para-pessoa-com-deficiencia-ou-idosa-e-familia",
-          "name": "Proteção social para pessoa com deficiência ou idosa e família",
+          "title": "Proteção social para pessoa com deficiência ou idosa e família",
+          "description": "Telefone publicado: (62) 3524-1770.\nServiço do SUAS para pessoas com deficiência ou idosas com dependência e famílias, especialmente quando existem violação de direitos, exclusão ou sobrecarga do cuidador. Pode ocorrer no Centro Dia, CREAS, unidade referenciada ou domicílio.\nPeça ao Centro POP, CRAS ou CREAS a avaliação e o endereço atual de atendimento.\nProteção social especial — Prefeitura de Goiânia",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefone publicado:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(62) 3524-1770",
-                  "href": "tel:+556235241770"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Serviço do SUAS para pessoas com deficiência ou idosas com dependência e famílias, especialmente quando existem violação de direitos, exclusão ou sobrecarga do cuidador. Pode ocorrer no Centro Dia, CREAS, unidade referenciada ou domicílio."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Peça ao Centro POP, CRAS ou CREAS a avaliação e o endereço atual de atendimento."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Proteção social especial — Prefeitura de Goiânia",
-                  "href": "https://www.goiania.go.gov.br/sing_servicos/servico-de-protecao-social-especial-para-pessoas-com-deficiencia-idosas-e-suas-familias/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+556235241770",
+          "website": "https://www.goiania.go.gov.br/sing_servicos/servico-de-protecao-social-especial-para-pessoas-com-deficiencia-idosas-e-suas-familias/",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
+    },
+    {
+      "id": "veterans",
+      "title": "Veterans support",
+      "entries": []
     },
     {
       "id": "pets",
-      "title": "10. Ajuda com animais",
-      "items": [
+      "title": "Ajuda com animais",
+      "entries": [
         {
-          "type": "resource",
           "id": "unidade-ambiental-de-saude-e-bem-estar-animal",
-          "name": "Unidade Ambiental de Saúde e Bem-Estar Animal",
+          "title": "Unidade Ambiental de Saúde e Bem-Estar Animal",
+          "description": "Dúvidas: (62) 3291-2202. Atende cães e gatos de tutores de baixa renda inscritos em programa social, com consultas, curativos, medicação e outros cuidados ambulatoriais.\nDistribuição de senhas publicada: 7h–8h e 13h–14h. A página pede RG, CPF, comprovante de endereço e prova de inscrição social, mas a norma permite avaliação do serviço social para tutor de baixa renda sem cadastro. Explique se vive na rua e leve o que tiver.\nAtendimento veterinário municipal",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Endereço:",
-                  "strong": true
-                },
-                {
-                  "text": " Rua 75 com Rua 66, nº 137, Centro, CEP 74055-110"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Dúvidas:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(62) 3291-2202",
-                  "href": "tel:+556232912202"
-                },
-                {
-                  "text": ". Atende cães e gatos de tutores de baixa renda inscritos em programa social, com consultas, curativos, medicação e outros cuidados ambulatoriais."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Distribuição de senhas publicada:",
-                  "strong": true
-                },
-                {
-                  "text": " 7h–8h e 13h–14h. A página pede RG, CPF, comprovante de endereço e prova de inscrição social, mas a norma permite avaliação do serviço social para tutor de baixa renda sem cadastro. Explique se vive na rua e leve o que tiver."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Atendimento veterinário municipal",
-                  "href": "https://www.goiania.go.gov.br/sing_servicos/unidade-ambiental-de-saude-bem-estar-animal/"
-                }
-              ]
-            }
-          ]
+          "address": "Endereço: Rua 75 com Rua 66, nº 137, Centro, CEP 74055-110",
+          "phone": "+556232912202",
+          "website": "https://www.goiania.go.gov.br/sing_servicos/unidade-ambiental-de-saude-bem-estar-animal/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "gerencia-de-bem-estar-animal-castracao-e-orientacao",
-          "name": "Gerência de Bem-Estar Animal — castração e orientação",
+          "title": "Gerência de Bem-Estar Animal — castração e orientação",
+          "description": "Telefone: (62) 3030-2811. Horário publicado: segunda a sexta, 8h–11h30 e 13h–18h.\nFaz cadastro de castração, orienta protetores e recebe informação sobre abandono ou maus-tratos. Confirme fila e critérios; não há garantia de atendimento no mesmo dia.\nGerência de Bem-Estar Animal — AMMA",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Endereço:",
-                  "strong": true
-                },
-                {
-                  "text": " Rua 75 com Rua 66, nº 137, Centro"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(62) 3030-2811",
-                  "href": "tel:+556230302811"
-                },
-                {
-                  "text": ". "
-                },
-                {
-                  "text": "Horário publicado:",
-                  "strong": true
-                },
-                {
-                  "text": " segunda a sexta, 8h–11h30 e 13h–18h."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Faz cadastro de castração, orienta protetores e recebe informação sobre abandono ou maus-tratos. Confirme fila e critérios; não há garantia de atendimento no mesmo dia."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Gerência de Bem-Estar Animal — AMMA",
-                  "href": "https://www.goiania.go.gov.br/amma/fale-conosco/"
-                }
-              ]
-            }
-          ]
+          "address": "Endereço: Rua 75 com Rua 66, nº 137, Centro",
+          "phone": "+556230302811",
+          "website": "https://www.goiania.go.gov.br/amma/fale-conosco/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "hospital-veterinario-da-ufg",
-          "name": "Hospital Veterinário da UFG",
+          "title": "Hospital Veterinário da UFG",
+          "description": "Agendamento: (62) 3521-1596 ou (62) 3521-1587.\nAtende animais domésticos em várias especialidades. A UFG não informa na Carta de Serviços que o atendimento seja gratuito; pergunte preços, triagem, documentos e horários antes de ir.\nServiço veterinário — Carta de Serviços da UFG",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Endereço:",
-                  "strong": true
-                },
-                {
-                  "text": " Campus Samambaia, Avenida Esperança, s/n, Goiânia"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Agendamento:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(62) 3521-1596",
-                  "href": "tel:+556235211596"
-                },
-                {
-                  "text": " ou "
-                },
-                {
-                  "text": "(62) 3521-1587",
-                  "href": "tel:+556235211587"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Atende animais domésticos em várias especialidades. A UFG não informa na Carta de Serviços que o atendimento seja gratuito; pergunte preços, triagem, documentos e horários antes de ir."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Serviço veterinário — Carta de Serviços da UFG",
-                  "href": "https://secplan.ufg.br/p/cartadeservicos?atr=pt-BR&locale=pt-BR"
-                }
-              ]
-            }
-          ]
+          "address": "Endereço: Campus Samambaia, Avenida Esperança, s/n, Goiânia",
+          "phone": "+556235211596",
+          "website": "https://secplan.ufg.br/p/cartadeservicos?atr=pt-BR&locale=pt-BR",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "antes-de-aceitar-acolhimento-com-um-animal",
-          "name": "Antes de aceitar acolhimento com um animal",
+          "title": "Antes de aceitar acolhimento com um animal",
+          "description": "As páginas municipais das Casas de Acolhida não publicam uma política clara para animais. Telefone antes e explique espécie, tamanho e se tem guia, caixa ou vacinação. Peça à Abordagem Social alternativa segura se a unidade não aceitar o animal.\nNão abandone o animal para conseguir atendimento. Peça apoio ao Centro POP, à AMMA ou a um protetor indicado pela rede.\nContatos de bem-estar animal da Prefeitura",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "As páginas municipais das Casas de Acolhida não publicam uma política clara para animais. Telefone antes e explique espécie, tamanho e se tem guia, caixa ou vacinação. Peça à Abordagem Social alternativa segura se a unidade não aceitar o animal."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Não abandone o animal para conseguir atendimento. Peça apoio ao Centro POP, à AMMA ou a um protetor indicado pela rede."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Contatos de bem-estar animal da Prefeitura",
-                  "href": "https://www.goiania.go.gov.br/amma/fale-conosco/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.goiania.go.gov.br/amma/fale-conosco/",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
-      "id": "confirmar-antes-de-sair",
+      "id": "other",
       "title": "Confirmar antes de sair",
-      "items": [
+      "entries": [
         {
-          "type": "paragraph",
-          "content": [
-            {
-              "text": "Use os links oficiais para confirmar alterações. Ao telefonar, pergunte: “Está aberto hoje?”, “Qual é o endereço atual?”, “Preciso de documento ou encaminhamento?”, “Existe senha ou fila?”, “Atendem o meu perfil?” e “Há vaga agora?”. Anote o nome do serviço e a hora da chamada."
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "content": [
-            {
-              "text": "Esta página não pertence à Prefeitura, ao Governo de Goiás nem às organizações listadas. Reúne informação pública para facilitar o primeiro contato. Se encontrar erro, envie uma correção com fonte verificável."
-            }
-          ]
+          "id": "confirmar-antes-de-sair-information",
+          "title": "Confirmar antes de sair",
+          "description": "Use os links oficiais para confirmar alterações. Ao telefonar, pergunte: “Está aberto hoje?”, “Qual é o endereço atual?”, “Preciso de documento ou encaminhamento?”, “Existe senha ou fila?”, “Atendem o meu perfil?” e “Há vaga agora?”. Anote o nome do serviço e a hora da chamada.\nEsta página não pertence à Prefeitura, ao Governo de Goiás nem às organizações listadas. Reúne informação pública para facilitar o primeiro contato. Se encontrar erro, envie uma correção com fonte verificável.",
+          "last_verified": "2026-11-12",
+          "address": "",
+          "phone": "",
+          "website": "",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     }

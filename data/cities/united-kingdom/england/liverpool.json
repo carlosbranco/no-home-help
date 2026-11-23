@@ -1,6 +1,7 @@
 {
   "$schema": "https://nohomehelp.com/schemas/city.schema.json",
-  "schema_version": 1,
+  "documentation": "https://github.com/carlosbranco/no-home-help/blob/main/EDIT_CITY_JSON.md",
+  "schema_version": 2,
   "status": "published",
   "locale": {
     "language": "en-GB",
@@ -26,3628 +27,1015 @@
   "page": {
     "heading": "Liverpool homeless and housing-crisis help",
     "last_verified": "2026-11-11",
-    "urgent": [
-      {
-        "type": "paragraph",
-        "content": [
-          {
-            "text": "Immediate danger, serious illness, police, fire or ambulance:",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "999",
-            "href": "tel:999"
-          },
-          {
-            "text": " or "
-          },
-          {
-            "text": "112",
-            "href": "tel:112"
-          },
-          {
-            "break": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "Sleeping outside or nowhere safe tonight:",
-            "strong": true
-          },
-          {
-            "text": " Always Help Available / No Second Night Out "
-          },
-          {
-            "text": "0300 123 2041",
-            "href": "tel:+443001232041"
-          },
-          {
-            "text": ", 24 hours"
-          },
-          {
-            "break": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "Council homelessness and emergency housing:",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "0151 233 3044",
-            "href": "tel:+441512333044"
-          },
-          {
-            "text": ", day or night"
-          },
-          {
-            "break": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "Urgent but not life-threatening medical or mental-health help:",
-            "strong": true
-          },
-          {
-            "text": " NHS "
-          },
-          {
-            "text": "111",
-            "href": "tel:111"
-          },
-          {
-            "text": "; select the mental-health option for urgent mental-health support"
-          }
-        ]
-      }
-    ],
-    "notice": [
-      {
-        "text": "Beds, meals, opening times and eligibility can change.",
-        "strong": true
-      },
-      {
-        "text": " Call before travelling when possible. An assessment, outreach contact or referral does not guarantee accommodation. Never pay anyone who claims they can secure a council or charity place."
-      }
-    ],
-    "intro": [
-      {
-        "type": "paragraph",
-        "content": [
-          {
-            "text": "Tell the worker where you are tonight, where you usually sleep, your age, whether children are with you, and whether pregnancy, disability, illness, domestic abuse, immigration restrictions or a pet affects what is safe. If a service cannot help, ask for the next safe option and write down the advice."
-          }
-        ]
-      },
-      {
-        "type": "paragraph",
-        "content": [
-          {
-            "text": "Start here:",
-            "strong": true
-          },
-          {
-            "text": " if you have nowhere safe tonight, call "
-          },
-          {
-            "text": "0300 123 2041",
-            "href": "tel:+443001232041"
-          },
-          {
-            "text": ". Also contact Liverpool City Council and say clearly that you want to make a homeless application. If you may lose your home within eight weeks, ask for prevention help now."
-          }
-        ]
-      }
-    ],
-    "footer": [
-      {
-        "type": "paragraph",
-        "content": [
-          {
-            "text": "Is something wrong or outdated?",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "Submit a correction",
-            "href": "../../CONTRIBUTING.md"
-          },
-          {
-            "text": ". Never post personal or sensitive information publicly."
-          }
-        ]
-      }
-    ]
+    "urgent": "Immediate danger, serious illness, police, fire or ambulance: 999 or 112 Sleeping outside or nowhere safe tonight: Always Help Available / No Second Night Out 0300 123 2041, 24 hours Council homelessness and emergency housing: 0151 233 3044, day or night Urgent but not life-threatening medical or mental-health help: NHS 111; select the mental-health option for urgent mental-health support",
+    "notice": "Beds, meals, opening times and eligibility can change. Call before travelling when possible. An assessment, outreach contact or referral does not guarantee accommodation. Never pay anyone who claims they can secure a council or charity place.",
+    "intro": "Tell the worker where you are tonight, where you usually sleep, your age, whether children are with you, and whether pregnancy, disability, illness, domestic abuse, immigration restrictions or a pet affects what is safe. If a service cannot help, ask for the next safe option and write down the advice.\nStart here: if you have nowhere safe tonight, call 0300 123 2041. Also contact Liverpool City Council and say clearly that you want to make a homeless application. If you may lose your home within eight weeks, ask for prevention help now.",
+    "footer": "Is something wrong or outdated? Submit a correction. Never post personal or sensitive information publicly. — ../../CONTRIBUTING.md"
   },
   "categories": [
     {
-      "id": "urgent-help",
-      "title": "1. Urgent housing and street outreach",
-      "items": [
+      "id": "emergency",
+      "title": "Urgent housing and street outreach",
+      "entries": [
         {
-          "type": "resource",
           "id": "emergency-services",
-          "name": "Emergency services",
+          "title": "Emergency services",
+          "description": "Phone: 999 or 112.\nCall for immediate violence, serious injury, overdose, breathing difficulty, loss of consciousness, fire or another life-threatening emergency. Give the exact location or nearest landmark first. If you cannot speak on a mobile call to police, listen and press 55 when prompted.\nNHS guidance on calling 999",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "999",
-                  "href": "tel:999"
-                },
-                {
-                  "text": " or "
-                },
-                {
-                  "text": "112",
-                  "href": "tel:112"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Call for immediate violence, serious injury, overdose, breathing difficulty, loss of consciousness, fire or another life-threatening emergency. Give the exact location or nearest landmark first. If you cannot speak on a mobile call to police, listen and press 55 when prompted."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "NHS guidance on calling 999",
-                  "href": "https://www.nhs.uk/nhs-services/urgent-and-emergency-care-services/when-to-call-999/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "999",
+          "website": "https://www.nhs.uk/nhs-services/urgent-and-emergency-care-services/when-to-call-999/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "always-help-available-no-second-night-out",
-          "name": "Always Help Available / No Second Night Out",
+          "title": "Always Help Available / No Second Night Out",
+          "description": "Phone: 0300 123 2041, 24 hours. Call if you are sleeping outside or have nowhere to stay tonight. The Whitechapel Centre operates this service for the council.\nGive your location, circumstances and a safe way to make contact. The team can arrange an assessment and connect you with outreach or the temporary Night Assessment Hub when appropriate. The hub has a confidential address and is accessed through the service: it is not a walk-in shelter and a bed is not guaranteed.\nWhitechapel urgent help | council rough-sleeper help — https://www.whitechapelcentre.co.uk/get-help.html",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "0300 123 2041",
-                  "href": "tel:+443001232041"
-                },
-                {
-                  "text": ", 24 hours. Call if you are sleeping outside or have nowhere to stay tonight. The Whitechapel Centre operates this service for the council."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Give your location, circumstances and a safe way to make contact. The team can arrange an assessment and connect you with outreach or the temporary Night Assessment Hub when appropriate. The hub has a confidential address and is accessed through the service: it is not a walk-in shelter and a bed is not guaranteed."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Whitechapel urgent help",
-                  "href": "https://www.whitechapelcentre.co.uk/get-help.html"
-                },
-                {
-                  "text": " | "
-                },
-                {
-                  "text": "council rough-sleeper help",
-                  "href": "https://liverpool.gov.uk/housing/homeless-or-at-risk/help-for-rough-sleepers/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+443001232041",
+          "website": "https://liverpool.gov.uk/housing/homeless-or-at-risk/help-for-rough-sleepers/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "liverpool-city-council-homeless-application",
-          "name": "Liverpool City Council homeless application",
+          "title": "Liverpool City Council homeless application",
+          "description": "Phone: 0151 233 3044, day or night. Use the council's online application as well when you can.\nSay clearly that you are homeless or at risk and want to make an application. Explain children, pregnancy, disability, illness, care history, domestic abuse or another reason you may be especially vulnerable. Emergency accommodation depends on the council's legal assessment.\nCouncil homelessness help and application",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "0151 233 3044",
-                  "href": "tel:+441512333044"
-                },
-                {
-                  "text": ", day or night. Use the council's online application as well when you can."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Say clearly that you are homeless or at risk and want to make an application. Explain children, pregnancy, disability, illness, care history, domestic abuse or another reason you may be especially vulnerable. Emergency accommodation depends on the council's legal assessment."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Council homelessness help and application",
-                  "href": "https://liverpool.gov.uk/housing/homeless-or-at-risk/homeless"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+441512333044",
+          "website": "https://liverpool.gov.uk/housing/homeless-or-at-risk/homeless",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "whitechapel-city-region-outreach",
-          "name": "Whitechapel City Region Outreach",
+          "title": "Whitechapel City Region Outreach",
+          "description": "Phone: 0300 123 2041. Outreach normally operates Monday–Friday from 7am and at other times when necessary.\nGive an exact public sleeping location, time and description. Workers can assess needs and involve health or mental-health nurses. Contact does not guarantee that a person will be found or offered accommodation that day.\nCity Region Outreach",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "0300 123 2041",
-                  "href": "tel:+443001232041"
-                },
-                {
-                  "text": ". Outreach normally operates Monday–Friday from 7am and at other times when necessary."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Give an exact public sleeping location, time and description. Workers can assess needs and involve health or mental-health nurses. Contact does not guarantee that a person will be found or offered accommodation that day."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "City Region Outreach",
-                  "href": "https://www.whitechapelcentre.co.uk/city-region-outreach.html"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+443001232041",
+          "website": "https://www.whitechapelcentre.co.uk/city-region-outreach.html",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "severe-weather",
-          "name": "Severe weather",
+          "title": "Severe weather",
+          "description": "Liverpool makes extra provision during severe weather, including when night temperatures are forecast at 2°C or below and during some storms or high winds. Call 0300 123 2041 and ask whether arrangements are active. Access still requires contact and assessment.\nCouncil severe-weather information",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Liverpool makes extra provision during severe weather, including when night temperatures are forecast at 2°C or below and during some storms or high winds. Call "
-                },
-                {
-                  "text": "0300 123 2041",
-                  "href": "tel:+443001232041"
-                },
-                {
-                  "text": " and ask whether arrangements are active. Access still requires contact and assessment."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Council severe-weather information",
-                  "href": "https://liverpool.gov.uk/housing/homeless-or-at-risk/help-for-rough-sleepers/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+443001232041",
+          "website": "https://liverpool.gov.uk/housing/homeless-or-at-risk/help-for-rough-sleepers/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "unsafe-home-or-domestic-abuse",
-          "name": "Unsafe home or domestic abuse",
+          "title": "Unsafe home or domestic abuse",
+          "description": "Call 999 in immediate danger. For housing help call 0151 233 3044. Do not return for papers or belongings if it is unsafe.\nNational Domestic Abuse Helpline: 0808 2000 247, 24 hours. Men's Advice Line: 0808 801 0327. LGBT+ helpline: 0800 999 5428.\nCouncil housing help if you need to flee",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Call 999 in immediate danger. For housing help call "
-                },
-                {
-                  "text": "0151 233 3044",
-                  "href": "tel:+441512333044"
-                },
-                {
-                  "text": ". Do not return for papers or belongings if it is unsafe."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "National Domestic Abuse Helpline:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "0808 2000 247",
-                  "href": "tel:+448082000247"
-                },
-                {
-                  "text": ", 24 hours. "
-                },
-                {
-                  "text": "Men's Advice Line:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "0808 801 0327",
-                  "href": "tel:+448088010327"
-                },
-                {
-                  "text": ". "
-                },
-                {
-                  "text": "LGBT+ helpline:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "0800 999 5428",
-                  "href": "tel:+448009995428"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Council housing help if you need to flee",
-                  "href": "https://liverpool.gov.uk/housing/homeless-or-at-risk/advice-for-homeless-issues/housing-help-if-you-need-to-flee/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+441512333044",
+          "website": "https://liverpool.gov.uk/housing/homeless-or-at-risk/advice-for-homeless-issues/housing-help-if-you-need-to-flee/",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
-      "id": "day-centres",
-      "title": "2. Day centres, shelter pathways and housing support",
-      "items": [
+      "id": "shelter",
+      "title": "Day centres, shelter pathways and housing support",
+      "entries": [
         {
-          "type": "resource",
           "id": "whitechapel-homeless-advice-centre",
-          "name": "Whitechapel Homeless Advice Centre",
+          "title": "Whitechapel Homeless Advice Centre",
+          "description": "Phone: 0151 207 7617. Open Monday–Friday 9am–4pm; call first for a same-day appointment.\nFor people aged 16+ who are homeless or at risk. Housing and welfare advice, prevention, accommodation options, reconnection, and referrals to health and recovery services. People sleeping outside can also ask about showers, laundry and clothing.\nHomeless Advice Centre",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " Langsdale Street, Liverpool L3 8DT"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "0151 207 7617",
-                  "href": "tel:+441512077617"
-                },
-                {
-                  "text": ". Open Monday–Friday 9am–4pm; call first for a same-day appointment."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "For people aged 16+ who are homeless or at risk. Housing and welfare advice, prevention, accommodation options, reconnection, and referrals to health and recovery services. People sleeping outside can also ask about showers, laundry and clothing."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Homeless Advice Centre",
-                  "href": "https://www.whitechapelcentre.co.uk/advice-centre.html"
-                }
-              ]
-            }
-          ]
+          "address": "Address: Langsdale Street, Liverpool L3 8DT",
+          "phone": "+441512077617",
+          "website": "https://www.whitechapelcentre.co.uk/advice-centre.html",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "hub-homeless-resolution-service",
-          "name": "Hub Homeless Resolution Service",
+          "title": "Hub Homeless Resolution Service",
+          "description": "Phone: 0151 207 8677.\n- Monday–Friday 8am–3pm: Whitechapel Centre, Langsdale Street, L3 8DT.\n- Monday–Friday 3pm–9pm: The Basement, 50–60 Parr Street, L1 4JN.\n- Saturday and Sunday 8am–12 noon: Whitechapel Centre.\nFor new rough sleepers and people at immediate risk, including people staying in squats. You can attend during published hours for assessment. This is not a guaranteed accommodation placement.\nHub and Homeless service leaflet",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "0151 207 8677",
-                  "href": "tel:+441512078677"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "list",
-              "items": [
-                [
-                  {
-                    "text": "Monday–Friday 8am–3pm:",
-                    "strong": true
-                  },
-                  {
-                    "text": " Whitechapel Centre, Langsdale Street, L3 8DT."
-                  }
-                ],
-                [
-                  {
-                    "text": "Monday–Friday 3pm–9pm:",
-                    "strong": true
-                  },
-                  {
-                    "text": " The Basement, 50–60 Parr Street, L1 4JN."
-                  }
-                ],
-                [
-                  {
-                    "text": "Saturday and Sunday 8am–12 noon:",
-                    "strong": true
-                  },
-                  {
-                    "text": " Whitechapel Centre."
-                  }
-                ]
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "For new rough sleepers and people at immediate risk, including people staying in squats. You can attend during published hours for assessment. This is not a guaranteed accommodation placement."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Hub and Homeless service leaflet",
-                  "href": "https://www.whitechapelcentre.co.uk/uploads/7/6/0/9/7609171/hub__homeless_leaflet.pdf"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+441512078677",
+          "website": "https://www.whitechapelcentre.co.uk/uploads/7/6/0/9/7609171/hub__homeless_leaflet.pdf",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "whitechapel-prevention-support",
-          "name": "Whitechapel prevention support",
+          "title": "Whitechapel prevention support",
+          "description": "Phone: 0151 207 7617; ask for Housing Support, Monday–Friday 12 noon–4pm. An online referral is also available for Liverpool residents.\nAsk before an eviction, family breakdown or tenancy problem becomes an emergency. Register with the council's Housing Solutions service as well.\nHelp when at risk",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "0151 207 7617",
-                  "href": "tel:+441512077617"
-                },
-                {
-                  "text": "; ask for Housing Support, Monday–Friday 12 noon–4pm. An online referral is also available for Liverpool residents."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ask before an eviction, family breakdown or tenancy problem becomes an emergency. Register with the council's Housing Solutions service as well."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Help when at risk",
-                  "href": "https://www.whitechapelcentre.co.uk/for-people-at-risk-of-homelessness.html"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+441512077617",
+          "website": "https://www.whitechapelcentre.co.uk/for-people-at-risk-of-homelessness.html",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "ymca-together-supported-accommodation",
-          "name": "YMCA Together supported accommodation",
+          "title": "YMCA Together supported accommodation",
+          "description": "Phone: 0151 600 3530. Supported accommodation may accept single people aged 16+ after assessment, including people with mental-health, substance-use or offending histories, and some people with dogs.\nAccess is through the local assessment and referral system. A self-referral starts an assessment; it does not secure a room.\ncurrent Homeless England listing",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Referral address:",
-                  "strong": true
-                },
-                {
-                  "text": " 15 Leeds Street, Liverpool L3 6HU"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "0151 600 3530",
-                  "href": "tel:+441516003530"
-                },
-                {
-                  "text": ". Supported accommodation may accept single people aged 16+ after assessment, including people with mental-health, substance-use or offending histories, and some people with dogs."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Access is through the local assessment and referral system. A self-referral starts an assessment; it does not secure a room."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "current Homeless England listing",
-                  "href": "https://homeless.org.uk/homeless-england/service/ymca-liverpool/"
-                }
-              ]
-            }
-          ]
+          "address": "Referral address: 15 Leeds Street, Liverpool L3 6HU",
+          "phone": "+441516003530",
+          "website": "https://homeless.org.uk/homeless-england/service/ymca-liverpool/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "night-assessment-hub",
-          "name": "Night Assessment Hub",
+          "title": "Night Assessment Hub",
+          "description": "This temporary overnight assessment service is reached only through Whitechapel outreach or Always Help Available on 0300 123 2041. Its address is confidential.\nDo not travel to an old night-shelter address, and do not assume that making contact guarantees a place.\nWhitechapel access information",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "This temporary overnight assessment service is reached only through Whitechapel outreach or Always Help Available on "
-                },
-                {
-                  "text": "0300 123 2041",
-                  "href": "tel:+443001232041"
-                },
-                {
-                  "text": ". Its address is confidential."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Do not travel to an old night-shelter address, and do not assume that making contact guarantees a place."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Whitechapel access information",
-                  "href": "https://www.whitechapelcentre.co.uk/advice-centre.html"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+443001232041",
+          "website": "https://www.whitechapelcentre.co.uk/advice-centre.html",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "homeless-england-directory",
-          "name": "Homeless England directory",
+          "title": "Homeless England directory",
+          "description": "Search current accommodation, day centres and specialist services by location and eligibility. Confirm the referral route, vacancies and pet rules directly.\nSearch Homeless England",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Search current accommodation, day centres and specialist services by location and eligibility. Confirm the referral route, vacancies and pet rules directly."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Search Homeless England",
-                  "href": "https://homeless.org.uk/homeless-england/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://homeless.org.uk/homeless-england/",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
       "id": "food",
-      "title": "3. Food, meals and faith-based help",
-      "items": [
+      "title": "Food, meals and faith-based help",
+      "entries": [
         {
-          "type": "resource",
           "id": "whitechapel-centre",
-          "name": "Whitechapel Centre",
+          "title": "Whitechapel Centre",
+          "description": "People sleeping outside can ask about food and practical essentials alongside showers, laundry, clothing and housing advice. Call 0151 207 7617 first.\nWhitechapel Centre",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " Langsdale Street, Liverpool L3 8DT"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "People sleeping outside can ask about food and practical essentials alongside showers, laundry, clothing and housing advice. Call "
-                },
-                {
-                  "text": "0151 207 7617",
-                  "href": "tel:+441512077617"
-                },
-                {
-                  "text": " first."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Whitechapel Centre",
-                  "href": "https://www.whitechapelcentre.co.uk/advice-centre.html"
-                }
-              ]
-            }
-          ]
+          "address": "Address: Langsdale Street, Liverpool L3 8DT",
+          "phone": "+441512077617",
+          "website": "https://www.whitechapelcentre.co.uk/advice-centre.html",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "micah-foodbank-st-vincent-de-paul",
-          "name": "Micah foodbank: St Vincent de Paul",
+          "title": "Micah foodbank: St Vincent de Paul",
+          "description": "This is a faith-community service, but help is based on need and the parish states that all are welcome.\nMicah foodbank access | St Vincent's parish — https://www.stvincentsparish.org.uk/",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " St Vincent de Paul Parish Church, Hardy Street, Liverpool L1 5JN"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Open:",
-                  "strong": true
-                },
-                {
-                  "text": " Tuesday 10:30am–12 noon. Micah offers an emergency three-day food parcel, normally once a week for up to four weeks. The official page says it is open to anybody in need; take bags."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "This is a faith-community service, but help is based on need and the parish states that all are welcome."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Micah foodbank access",
-                  "href": "https://micahliverpool.com/our-food-bank/"
-                },
-                {
-                  "text": " | "
-                },
-                {
-                  "text": "St Vincent's parish",
-                  "href": "https://www.stvincentsparish.org.uk/"
-                }
-              ]
-            }
-          ]
+          "address": "Address: St Vincent de Paul Parish Church, Hardy Street, Liverpool L1 5JN",
+          "phone": "",
+          "website": "https://micahliverpool.com/our-food-bank/",
+          "hours": "Open: Tuesday 10:30am–12 noon. Micah offers an emergency three-day food parcel, normally once a week for up to four weeks. The official page says it is open to anybody in need; take bags.",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "micah-foodbank-st-bride-s",
-          "name": "Micah foodbank: St Bride's",
+          "title": "Micah foodbank: St Bride's",
+          "description": "Micah locations",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " St Bride's Church, Percy Street, Liverpool L8 7LT"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Open:",
-                  "strong": true
-                },
-                {
-                  "text": " Thursday 10:30am–12 noon. The same Micah access rules apply. Stock and queues can vary."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Micah locations",
-                  "href": "https://micahliverpool.com/our-food-bank/"
-                }
-              ]
-            }
-          ]
+          "address": "Address: St Bride's Church, Percy Street, Liverpool L8 7LT",
+          "phone": "",
+          "website": "https://micahliverpool.com/our-food-bank/",
+          "hours": "Open: Thursday 10:30am–12 noon. The same Micah access rules apply. Stock and queues can vary.",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "liverpool-lighthouse-community-connect",
-          "name": "Liverpool Lighthouse Community Connect",
+          "title": "Liverpool Lighthouse Community Connect",
+          "description": "Normally Tuesday–Thursday 10am–3pm in autumn and winter as a warm drop-in with tea, coffee, a pantry and some free hot meals. Published meal times include Tuesday and Wednesday at 12 noon and Thursday at 1pm; pantry Wednesday 12:30pm–2pm.\nWellbeing workers may help with housing, benefits and debt. Confirm the seasonal timetable.\nCommunity Connect",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " Oakfield Road, Anfield, Liverpool L4 0UF"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Normally Tuesday–Thursday 10am–3pm in autumn and winter as a warm drop-in with tea, coffee, a pantry and some free hot meals. Published meal times include Tuesday and Wednesday at 12 noon and Thursday at 1pm; pantry Wednesday 12:30pm–2pm."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Wellbeing workers may help with housing, benefits and debt. Confirm the seasonal timetable."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Community Connect",
-                  "href": "https://www.liverpoollighthouse.com/community-connect"
-                }
-              ]
-            }
-          ]
+          "address": "Address: Oakfield Road, Anfield, Liverpool L4 0UF",
+          "phone": "",
+          "website": "https://www.liverpoollighthouse.com/community-connect",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "tuebrook-hope-centre",
-          "name": "Tuebrook Hope Centre",
+          "title": "Tuebrook Hope Centre",
+          "description": "A free community meal is listed for Thursday 12 noon–1pm. Check the current map entry before travelling.\nFeeding Liverpool food map",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " Buckingham Road, Tuebrook, Liverpool"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "A free community meal is listed for Thursday 12 noon–1pm. Check the current map entry before travelling."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Feeding Liverpool food map",
-                  "href": "https://www.feedingliverpool.org/community-food-spaces/map/"
-                }
-              ]
-            }
-          ]
+          "address": "Address: Buckingham Road, Tuebrook, Liverpool",
+          "phone": "",
+          "website": "https://www.feedingliverpool.org/community-food-spaces/map/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "columba-s-kitchen",
-          "name": "Columba's Kitchen",
+          "title": "Columba's Kitchen",
+          "description": "Free food support is listed for Friday 9:15am–11:30am. Confirm before a long journey.\nFeeding Liverpool listing",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 76 Pinehurst Road, Liverpool L4 2TZ"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Free food support is listed for Friday 9:15am–11:30am. Confirm before a long journey."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Feeding Liverpool listing",
-                  "href": "https://www.feedingliverpool.org/community-food-spaces/map/"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 76 Pinehurst Road, Liverpool L4 2TZ",
+          "phone": "",
+          "website": "https://www.feedingliverpool.org/community-food-spaces/map/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "hope-community-fridge",
-          "name": "Hope Community Fridge",
+          "title": "Hope Community Fridge",
+          "description": "Surplus food is normally available Thursday 11am–1pm. Availability depends on donations.\nCommunity food-space map",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " Kensington Elim Church, Coleridge Street, Liverpool L6 6BT"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Surplus food is normally available Thursday 11am–1pm. Availability depends on donations."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Community food-space map",
-                  "href": "https://www.feedingliverpool.org/community-food-spaces/map/"
-                }
-              ]
-            }
-          ]
+          "address": "Address: Kensington Elim Church, Coleridge Street, Liverpool L6 6BT",
+          "phone": "",
+          "website": "https://www.feedingliverpool.org/community-food-spaces/map/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "team-oasis-free-food-lounge",
-          "name": "Team Oasis Free Food Lounge",
+          "title": "Team Oasis Free Food Lounge",
+          "description": "Listed sessions include Wednesday 10am–12 noon and some alternate Thursdays 11am–1pm. Confirm whether the Thursday session runs that week.\nFeeding Liverpool listing",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 121–125 Park Hill Road, Liverpool"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Listed sessions include Wednesday 10am–12 noon and some alternate Thursdays 11am–1pm. Confirm whether the Thursday session runs that week."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Feeding Liverpool listing",
-                  "href": "https://www.feedingliverpool.org/community-food-spaces/map/"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 121–125 Park Hill Road, Liverpool",
+          "phone": "",
+          "website": "https://www.feedingliverpool.org/community-food-spaces/map/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "places-of-welcome-community-cafe",
-          "name": "Places of Welcome Community Café",
+          "title": "Places of Welcome Community Café",
+          "description": "A free community café is listed for Tuesday 12 noon–2pm. Check the map before travelling.\nFeeding Liverpool map",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " Christ Church Cabin, 40 Sedgemoor Road, Liverpool L11 3BR"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "A free community café is listed for Tuesday 12 noon–2pm. Check the map before travelling."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Feeding Liverpool map",
-                  "href": "https://www.feedingliverpool.org/community-food-spaces/map/"
-                }
-              ]
-            }
-          ]
+          "address": "Address: Christ Church Cabin, 40 Sedgemoor Road, Liverpool L11 3BR",
+          "phone": "",
+          "website": "https://www.feedingliverpool.org/community-food-spaces/map/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "liverpool-foodbanks-and-voucher-help",
-          "name": "Liverpool foodbanks and voucher help",
+          "title": "Liverpool foodbanks and voucher help",
+          "description": "Trussell foodbanks normally require a voucher from a health visitor, social worker, Citizens Advice or another partner. They aim to provide at least three days of emergency food. Church and community services may use different rules.\nCall Citizens Advice on 0808 278 7840 if you need referral help.\nCouncil foodbank guidance | Feeding Liverpool crisis support — https://www.feedingliverpool.org/crisis-support/",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Trussell foodbanks normally require a voucher from a health visitor, social worker, Citizens Advice or another partner. They aim to provide at least three days of emergency food. Church and community services may use different rules."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Call Citizens Advice on "
-                },
-                {
-                  "text": "0808 278 7840",
-                  "href": "tel:+448082787840"
-                },
-                {
-                  "text": " if you need referral help."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Council foodbank guidance",
-                  "href": "https://liverpool.gov.uk/benefits/help-in-a-crisis/foodbanks/"
-                },
-                {
-                  "text": " | "
-                },
-                {
-                  "text": "Feeding Liverpool crisis support",
-                  "href": "https://www.feedingliverpool.org/crisis-support/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+448082787840",
+          "website": "https://liverpool.gov.uk/benefits/help-in-a-crisis/foodbanks/",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
+    },
+    {
+      "id": "community",
+      "title": "Community and religious help",
+      "entries": []
     },
     {
       "id": "hygiene",
-      "title": "4. Showers, laundry, clothing and essentials",
-      "items": [
+      "title": "Showers, laundry, clothing and essentials",
+      "entries": [
         {
-          "type": "resource",
           "id": "whitechapel-showers-and-laundry",
-          "name": "Whitechapel showers and laundry",
+          "title": "Whitechapel showers and laundry",
+          "description": "People sleeping outside can ask for a hot shower, laundry, clothing and practical essentials at Langsdale Street. Call 0151 207 7617 and ask about that day's access.\nWhitechapel facilities",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "People sleeping outside can ask for a hot shower, laundry, clothing and practical essentials at Langsdale Street. Call "
-                },
-                {
-                  "text": "0151 207 7617",
-                  "href": "tel:+441512077617"
-                },
-                {
-                  "text": " and ask about that day's access."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Whitechapel facilities",
-                  "href": "https://www.whitechapelcentre.co.uk/advice-centre.html"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+441512077617",
+          "website": "https://www.whitechapelcentre.co.uk/advice-centre.html",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "asylum-link-clothing-and-essentials",
-          "name": "Asylum Link clothing and essentials",
+          "title": "Asylum Link clothing and essentials",
+          "description": "People seeking asylum can ask about essential clothing, meals and practical support Monday–Thursday 9:30am–4pm. Call 0151 709 1713 first.\nAsylum Link",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " St Anne's Centre, Overbury Street, Liverpool L7 3HJ; enter through the church car park on Harbord Street"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "People seeking asylum can ask about essential clothing, meals and practical support Monday–Thursday 9:30am–4pm. Call "
-                },
-                {
-                  "text": "0151 709 1713",
-                  "href": "tel:+441517091713"
-                },
-                {
-                  "text": " first."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Asylum Link",
-                  "href": "https://www.asylumlink.org.uk/about/management-and-staff/"
-                }
-              ]
-            }
-          ]
+          "address": "Address: St Anne's Centre, Overbury Street, Liverpool L7 3HJ; enter through the church car park on Harbord Street",
+          "phone": "+441517091713",
+          "website": "https://www.asylumlink.org.uk/about/management-and-staff/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "crisis-and-resilience-fund",
-          "name": "Crisis and Resilience Fund",
+          "title": "Crisis and Resilience Fund",
+          "description": "The council may help an eligible Liverpool resident in a sudden financial crisis with clothing and hygiene items. Call 0800 456 1523 or 0151 233 3053, Monday–Friday 8am–6pm. Help is assessed, not guaranteed.\nFund information",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "The council may help an eligible Liverpool resident in a sudden financial crisis with clothing and hygiene items. Call "
-                },
-                {
-                  "text": "0800 456 1523",
-                  "href": "tel:+448004561523"
-                },
-                {
-                  "text": " or "
-                },
-                {
-                  "text": "0151 233 3053",
-                  "href": "tel:+441512333053"
-                },
-                {
-                  "text": ", Monday–Friday 8am–6pm. Help is assessed, not guaranteed."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Fund information",
-                  "href": "https://liverpool.gov.uk/crf"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+448004561523",
+          "website": "https://liverpool.gov.uk/crf",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
+      "id": "clothing",
+      "title": "Clothing",
+      "entries": []
+    },
+    {
       "id": "health",
-      "title": "5. Health and dental care",
-      "items": [
+      "title": "Health and dental care",
+      "entries": [
         {
-          "type": "resource",
           "id": "nhs-urgent-care",
-          "name": "NHS urgent care",
+          "title": "NHS urgent care",
+          "description": "Emergency: 999. Urgent but not life-threatening: 111 or NHS 111 online. Say if you have no fixed address, phone, transport or safe place to recover.\nNHS 111 online",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Emergency:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "999",
-                  "href": "tel:999"
-                },
-                {
-                  "text": ". "
-                },
-                {
-                  "text": "Urgent but not life-threatening:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "111",
-                  "href": "tel:111"
-                },
-                {
-                  "text": " or NHS 111 online. Say if you have no fixed address, phone, transport or safe place to recover."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "NHS 111 online",
-                  "href": "https://111.nhs.uk/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "999",
+          "website": "https://111.nhs.uk/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "brownlow-health-homelessness-service",
-          "name": "Brownlow Health homelessness service",
+          "title": "Brownlow Health homelessness service",
+          "description": "Phone: 0151 285 4578. The multidisciplinary service supports people who are homeless or in hostels, with homeless nurses, alcohol and drug workers, outreach and hospital in-reach.\nA weekly Homeless Access Clinic is published for Thursday 12:30pm–2:30pm. Call first to confirm the exact clinic site.\nBrownlow service | contact details — https://central.brownlowhealth.nhs.uk/contact-us/",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Central practice:",
-                  "strong": true
-                },
-                {
-                  "text": " 26 Argyle Street, Liverpool L1 5DL"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "0151 285 4578",
-                  "href": "tel:+441512854578"
-                },
-                {
-                  "text": ". The multidisciplinary service supports people who are homeless or in hostels, with homeless nurses, alcohol and drug workers, outreach and hospital in-reach."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "A weekly Homeless Access Clinic is published for Thursday 12:30pm–2:30pm. Call first to confirm the exact clinic site."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Brownlow service",
-                  "href": "https://brownlowhealth.nhs.uk/about-us/"
-                },
-                {
-                  "text": " | "
-                },
-                {
-                  "text": "contact details",
-                  "href": "https://central.brownlowhealth.nhs.uk/contact-us/"
-                }
-              ]
-            }
-          ]
+          "address": "Central practice: 26 Argyle Street, Liverpool L1 5DL",
+          "phone": "+441512854578",
+          "website": "https://brownlowhealth.nhs.uk/about-us/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "register-with-a-gp-without-an-address-or-id",
-          "name": "Register with a GP without an address or ID",
+          "title": "Register with a GP without an address or ID",
+          "description": "You do not need proof of address, immigration status, identification or an NHS number to register with a GP. You can use a temporary address or the surgery's address with permission.\nOfficial GP registration rules",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "You do not need proof of address, immigration status, identification or an NHS number to register with a GP. You can use a temporary address or the surgery's address with permission."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Official GP registration rules",
-                  "href": "https://www.nhs.uk/nhs-services/gps/how-to-register-with-a-gp-surgery/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.nhs.uk/nhs-services/gps/how-to-register-with-a-gp-surgery/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "urgent-dental-care",
-          "name": "Urgent dental care",
+          "title": "Urgent dental care",
+          "description": "Call NHS 111 for severe pain, swelling, bleeding, infection or a broken tooth when you cannot get a dentist. Call 999 for swelling affecting breathing or swallowing or a major facial injury.\nFind an NHS dentist",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Call NHS "
-                },
-                {
-                  "text": "111",
-                  "href": "tel:111"
-                },
-                {
-                  "text": " for severe pain, swelling, bleeding, infection or a broken tooth when you cannot get a dentist. Call 999 for swelling affecting breathing or swallowing or a major facial injury."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Find an NHS dentist",
-                  "href": "https://www.nhs.uk/service-search/find-a-dentist"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "111",
+          "website": "https://www.nhs.uk/service-search/find-a-dentist",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "sexual-health-services",
-          "name": "Sexual health services",
+          "title": "Sexual health services",
+          "description": "Use the NHS finder for free, confidential STI testing, contraception and clinics. Ask NHS 111 about urgent symptoms or emergency contraception if a clinic is closed.\nFind a sexual-health clinic",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Use the NHS finder for free, confidential STI testing, contraception and clinics. Ask NHS 111 about urgent symptoms or emergency contraception if a clinic is closed."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Find a sexual-health clinic",
-                  "href": "https://www.nhs.uk/service-search/sexual-health/find-a-sexual-health-clinic"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.nhs.uk/service-search/sexual-health/find-a-sexual-health-clinic",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
       "id": "mental-health",
-      "title": "6. Mental health, alcohol and drugs",
-      "items": [
+      "title": "Mental health, alcohol and drugs",
+      "entries": [
         {
-          "type": "resource",
           "id": "urgent-mental-health-support",
-          "name": "Urgent mental-health support",
+          "title": "Urgent mental-health support",
+          "description": "Call NHS 111 and select the mental-health option for 24-hour urgent support in Liverpool. Call 999 if there is immediate danger to life.\nSamaritans: 116 123, free, 24 hours, for confidential listening.\nMersey Care urgent help",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Call NHS "
-                },
-                {
-                  "text": "111",
-                  "href": "tel:111"
-                },
-                {
-                  "text": " and select the mental-health option for 24-hour urgent support in Liverpool. Call 999 if there is immediate danger to life."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Samaritans:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "116 123",
-                  "href": "tel:116123"
-                },
-                {
-                  "text": ", free, 24 hours, for confidential listening."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Mersey Care urgent help",
-                  "href": "https://www.merseycare.nhs.uk/urgent-help"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "111",
+          "website": "https://www.merseycare.nhs.uk/urgent-help",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "river-liverpool-drug-and-alcohol-support",
-          "name": "River Liverpool drug and alcohol support",
+          "title": "River Liverpool drug and alcohol support",
+          "description": "Phone: 0151 706 7888. Free, confidential support for adults aged 18+, including assessment, medication, detox or rehabilitation pathways, groups, family support and employment or health help.\nSelf-refer online or walk into a River hub without an appointment. Published general hours are Monday–Friday 9am–5pm, with Wednesday to 7pm; check the hub first.\nRiver Liverpool",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "0151 706 7888",
-                  "href": "tel:+441517067888"
-                },
-                {
-                  "text": ". Free, confidential support for adults aged 18+, including assessment, medication, detox or rehabilitation pathways, groups, family support and employment or health help."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Self-refer online or walk into a River hub without an appointment. Published general hours are Monday–Friday 9am–5pm, with Wednesday to 7pm; check the hub first."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "River Liverpool",
-                  "href": "https://www.changegrowlive.org/service/liverpool/info"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+441517067888",
+          "website": "https://www.changegrowlive.org/service/liverpool/info",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "life-rooms",
-          "name": "Life Rooms",
+          "title": "Life Rooms",
+          "description": "Phone: 0151 478 6556, Monday–Friday 9am–5pm. Adults aged 18+ can self-refer for practical wellbeing support concerning housing, benefits, debt, employment, learning and social connection.\nLife Rooms is not a crisis service. Use NHS 111 when help is urgent.\nMersey Care help",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "0151 478 6556",
-                  "href": "tel:+441514786556"
-                },
-                {
-                  "text": ", Monday–Friday 9am–5pm. Adults aged 18+ can self-refer for practical wellbeing support concerning housing, benefits, debt, employment, learning and social connection."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Life Rooms is not a crisis service. Use NHS 111 when help is urgent."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Mersey Care help",
-                  "href": "https://www.merseycare.nhs.uk/urgent-help"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+441514786556",
+          "website": "https://www.merseycare.nhs.uk/urgent-help",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "liverpool-talking-therapies",
-          "name": "Liverpool Talking Therapies",
+          "title": "Liverpool Talking Therapies",
+          "description": "Phone: 0151 228 2300. Ask about self-referral for non-urgent anxiety, depression and related problems. Waiting times and eligibility vary.\nNon-urgent support",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "0151 228 2300",
-                  "href": "tel:+441512282300"
-                },
-                {
-                  "text": ". Ask about self-referral for non-urgent anxiety, depression and related problems. Waiting times and eligibility vary."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Non-urgent support",
-                  "href": "https://www.merseycare.nhs.uk/urgent-help"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+441512282300",
+          "website": "https://www.merseycare.nhs.uk/urgent-help",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
       "id": "public-facilities",
-      "title": "7. Toilets, internet, charging and warm spaces",
-      "items": [
+      "title": "Toilets, internet, charging and warm spaces",
+      "entries": [
         {
-          "type": "resource",
           "id": "liverpool-central-library",
-          "name": "Liverpool Central Library",
+          "title": "Liverpool Central Library",
+          "description": "Gender-neutral, accessible and Changing Places toilets are available. Printing costs money. Ask staff before charging a device.\nLibrary facilities | computer rules — https://liverpool.gov.uk/libraries/other-resources/computer-use-in-liverpool-libraries/",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " William Brown Street, Liverpool L3 8EW"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Open:",
-                  "strong": true
-                },
-                {
-                  "text": " Monday–Friday 9am–8pm and Saturday 9am–5pm; closed bank holidays. Free unlimited Wi-Fi does not require membership. Computers require free membership and are walk-up, subject to capacity."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Gender-neutral, accessible and Changing Places toilets are available. Printing costs money. Ask staff before charging a device."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Library facilities",
-                  "href": "https://liverpool.gov.uk/libraries/explore-central-library/central-library/"
-                },
-                {
-                  "text": " | "
-                },
-                {
-                  "text": "computer rules",
-                  "href": "https://liverpool.gov.uk/libraries/other-resources/computer-use-in-liverpool-libraries/"
-                }
-              ]
-            }
-          ]
+          "address": "Address: William Brown Street, Liverpool L3 8EW",
+          "phone": "",
+          "website": "https://liverpool.gov.uk/libraries/explore-central-library/central-library/",
+          "hours": "Open: Monday–Friday 9am–8pm and Saturday 9am–5pm; closed bank holidays. Free unlimited Wi-Fi does not require membership. Computers require free membership and are walk-up, subject to capacity.",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "liverpool-one-free-toilets",
-          "name": "Liverpool ONE free toilets",
+          "title": "Liverpool ONE free toilets",
+          "description": "Free toilets include accessible, stoma-friendly and changing facilities. Published hours are Monday–Friday 9am–8pm, Saturday 9am–7pm and Sunday 10:30am–5pm, with different bank-holiday hours.\nLiverpool ONE toilets",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " Information Centre, 5 Wall Street, Liverpool L1 8JQ"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Free toilets include accessible, stoma-friendly and changing facilities. Published hours are Monday–Friday 9am–8pm, Saturday 9am–7pm and Sunday 10:30am–5pm, with different bank-holiday hours."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Liverpool ONE toilets",
-                  "href": "https://www.liverpool-one.com/en/information-centre-toilets"
-                }
-              ]
-            }
-          ]
+          "address": "Address: Information Centre, 5 Wall Street, Liverpool L1 8JQ",
+          "phone": "",
+          "website": "https://www.liverpool-one.com/en/information-centre-toilets",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "branch-libraries",
-          "name": "Branch libraries",
+          "title": "Branch libraries",
+          "description": "All Liverpool libraries provide free Wi-Fi; computers, printing and photocopying are also available. Allerton, Garston, Norris Green and Speke Parklands can help with online council tasks. Not every branch has a public toilet.\nFind a branch and facilities",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "All Liverpool libraries provide free Wi-Fi; computers, printing and photocopying are also available. Allerton, Garston, Norris Green and Speke Parklands can help with online council tasks. Not every branch has a public toilet."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Find a branch and facilities",
-                  "href": "https://liverpool.gov.uk/libraries/branch-libraries"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://liverpool.gov.uk/libraries/branch-libraries",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "liverpool-lighthouse-warm-space",
-          "name": "Liverpool Lighthouse warm space",
+          "title": "Liverpool Lighthouse warm space",
+          "description": "Community Connect normally provides a warm indoor space, tea and coffee at Oakfield Road, L4 0UF, Tuesday–Thursday 10am–3pm during autumn and winter. Check the seasonal timetable.\nCommunity Connect",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Community Connect normally provides a warm indoor space, tea and coffee at Oakfield Road, L4 0UF, Tuesday–Thursday 10am–3pm during autumn and winter. Check the seasonal timetable."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Community Connect",
-                  "href": "https://www.liverpoollighthouse.com/community-connect"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.liverpoollighthouse.com/community-connect",
+          "hours": "",
+          "how_to_access": ""
+        }
+      ]
+    },
+    {
+      "id": "phone-internet",
+      "title": "Phone charging and internet",
+      "entries": []
+    },
+    {
+      "id": "transport",
+      "title": "Transport and Liverpool John Lennon Airport",
+      "entries": [
+        {
+          "id": "merseytravel-journey-planning",
+          "title": "Merseytravel journey planning",
+          "description": "Use the official planner and live updates for buses, trains and ferries. Ask a housing, health, council or Jobcentre worker before an appointment whether travel can be authorised; help is not automatic.\nTimetables and planner | live disruptions — https://www.merseytravel.gov.uk/travel-updates/",
+          "last_verified": "2026-11-11",
+          "address": "",
+          "phone": "",
+          "website": "https://www.merseytravel.gov.uk/timetables/",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "city-centre-travel-help",
+          "title": "City-centre travel help",
+          "description": "Liverpool ONE Travel Centre: 1 Canning Place, L1 8LB, Monday–Saturday 10am–5pm. Queen Square: Queen Square Bus Station, L1 1RG, Monday–Saturday 8am–6:30pm and Sunday 10am–5pm.\nAsk about routes, fares and tickets. Holiday hours can differ.\nMerseytravel Centres",
+          "last_verified": "2026-11-11",
+          "address": "",
+          "phone": "",
+          "website": "https://www.merseytravel.gov.uk/help-and-support/merseytravel-centres/",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "emergency-travel-costs",
+          "title": "Emergency travel costs",
+          "description": "The Crisis and Resilience Fund may help an eligible resident with necessary bus fares during a sudden financial crisis. Apply before buying a ticket when possible.\nCrisis and Resilience Fund",
+          "last_verified": "2026-11-11",
+          "address": "",
+          "phone": "",
+          "website": "https://liverpool.gov.uk/crf",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "liverpool-john-lennon-airport-by-bus",
+          "title": "Liverpool John Lennon Airport by bus",
+          "description": "The 500 links Liverpool ONE and the airport about every 30 minutes; Arriva publishes a journey of about 30 minutes and service from around 4am to midnight. Routes 80A and 86A also connect the city, Liverpool South Parkway and airport.\nCheck the day's timetable and fare. The terminal is not accommodation; if stranded with nowhere safe, call 0300 123 2041.\nCurrent airport bus routes",
+          "last_verified": "2026-11-11",
+          "address": "",
+          "phone": "+443001232041",
+          "website": "https://www.arrivabus.co.uk/airport-services/liverpool-john-lennon",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "airport-connection-by-train",
+          "title": "Airport connection by train",
+          "description": "Liverpool South Parkway is the nearest main rail station. Continue by an 80A, 86A or other current airport bus. Some rail tickets can include the bus connection when the destination is Liverpool John Lennon Airport.\nRail and bus connection",
+          "last_verified": "2026-11-11",
+          "address": "",
+          "phone": "",
+          "website": "https://www.eastmidlandsrailway.co.uk/routes-destinations/airports/liverpool-john-lennon-airport",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
       "id": "benefits",
-      "title": "8. Benefits and emergency money",
-      "items": [
+      "title": "Benefits and emergency money",
+      "entries": [
         {
-          "type": "resource",
           "id": "liverpool-crisis-and-resilience-fund",
-          "name": "Liverpool Crisis and Resilience Fund",
+          "title": "Liverpool Crisis and Resilience Fund",
+          "description": "Phone: 0800 456 1523 or 0151 233 3053, Monday–Friday 8am–6pm.\nLiverpool residents aged 16+ on a low income may receive short-term help after a sudden financial crisis. Possible help includes food, utilities, clothing, hygiene, furniture, travel, phone or internet and some rent shortfalls or housing costs. You do not have to receive benefits.\nAn award is not guaranteed. Urgent cases may be decided within 48 hours. Apply online, by phone, through a One Stop Shop or support organisation.\nFund rules and application",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "0800 456 1523",
-                  "href": "tel:+448004561523"
-                },
-                {
-                  "text": " or "
-                },
-                {
-                  "text": "0151 233 3053",
-                  "href": "tel:+441512333053"
-                },
-                {
-                  "text": ", Monday–Friday 8am–6pm."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Liverpool residents aged 16+ on a low income may receive short-term help after a sudden financial crisis. Possible help includes food, utilities, clothing, hygiene, furniture, travel, phone or internet and some rent shortfalls or housing costs. You do not have to receive benefits."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "An award is not guaranteed. Urgent cases may be decided within 48 hours. Apply online, by phone, through a One Stop Shop or support organisation."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Fund rules and application",
-                  "href": "https://liverpool.gov.uk/crf"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+448004561523",
+          "website": "https://liverpool.gov.uk/crf",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "universal-credit-without-a-fixed-address",
-          "name": "Universal Credit without a fixed address",
+          "title": "Universal Credit without a fixed address",
+          "description": "You can claim while rough sleeping, sofa surfing or staying in a hostel. With permission, use a trusted person's, hostel, day-centre or Jobcentre address. If you lack ID, a bank account, phone, email or National Insurance number, say so: alternatives may be possible.\nTell your work coach about homelessness, mental ill health or recovery needs and ask whether your claimant commitment should change temporarily.\nUniversal Credit guidance",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "You can claim while rough sleeping, sofa surfing or staying in a hostel. With permission, use a trusted person's, hostel, day-centre or Jobcentre address. If you lack ID, a bank account, phone, email or National Insurance number, say so: alternatives may be possible."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Tell your work coach about homelessness, mental ill health or recovery needs and ask whether your claimant commitment should change temporarily."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Universal Credit guidance",
-                  "href": "https://www.gov.uk/government/publications/universal-credit-and-homeless-people/applying-for-universal-credit-information-for-homeless-people"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.gov.uk/government/publications/universal-credit-and-homeless-people/applying-for-universal-credit-information-for-homeless-people",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "citizens-advice-liverpool",
-          "name": "Citizens Advice Liverpool",
+          "title": "Citizens Advice Liverpool",
+          "description": "General advice: 0808 278 7840, Monday–Friday 9am–5pm. Free advice on benefits, housing, work, family, immigration, consumer problems and discrimination.\nDebt: 0300 330 1196, Monday–Friday 9am–5pm. High-demand drop-ins may close when full.\nCitizens Advice | debt help — https://citizensadviceliverpool.org.uk/debt-money/",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "General advice:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "0808 278 7840",
-                  "href": "tel:+448082787840"
-                },
-                {
-                  "text": ", Monday–Friday 9am–5pm. Free advice on benefits, housing, work, family, immigration, consumer problems and discrimination."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Debt:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "0300 330 1196",
-                  "href": "tel:+443003301196"
-                },
-                {
-                  "text": ", Monday–Friday 9am–5pm. High-demand drop-ins may close when full."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Citizens Advice",
-                  "href": "https://citizensadviceliverpool.org.uk/get-advice/"
-                },
-                {
-                  "text": " | "
-                },
-                {
-                  "text": "debt help",
-                  "href": "https://citizensadviceliverpool.org.uk/debt-money/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+448082787840",
+          "website": "https://citizensadviceliverpool.org.uk/get-advice/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "council-benefits-advice-and-appointments",
-          "name": "Council benefits advice and appointments",
+          "title": "Council benefits advice and appointments",
+          "description": "The council can check entitlement, help with forms and challenges, and refer urgent problems. For a face-to-face or phone benefits appointment call 0151 233 3009, Monday–Friday 8am–6pm.\nAppointments use selected branch libraries. Say if you have no internet, phone, ID or safe correspondence address.\nBenefits advice | One Stop Shops — https://liverpool.gov.uk/customerhubs",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "The council can check entitlement, help with forms and challenges, and refer urgent problems. For a face-to-face or phone benefits appointment call "
-                },
-                {
-                  "text": "0151 233 3009",
-                  "href": "tel:+441512333009"
-                },
-                {
-                  "text": ", Monday–Friday 8am–6pm."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Appointments use selected branch libraries. Say if you have no internet, phone, ID or safe correspondence address."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Benefits advice",
-                  "href": "https://liverpool.gov.uk/benefits/advice-and-support/benefits-advice/"
-                },
-                {
-                  "text": " | "
-                },
-                {
-                  "text": "One Stop Shops",
-                  "href": "https://liverpool.gov.uk/customerhubs"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+441512333009",
+          "website": "https://liverpool.gov.uk/benefits/advice-and-support/benefits-advice/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "housing-benefit-in-supported-accommodation",
-          "name": "Housing Benefit in supported accommodation",
+          "title": "Housing Benefit in supported accommodation",
+          "description": "Housing Benefit can still apply to some hostel, supported, sheltered or council-arranged temporary accommodation even when other costs use Universal Credit. Ask the provider and council which claim is correct.\nHousing Benefit guidance",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Housing Benefit can still apply to some hostel, supported, sheltered or council-arranged temporary accommodation even when other costs use Universal Credit. Ask the provider and council which claim is correct."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Housing Benefit guidance",
-                  "href": "https://www.gov.uk/housing-benefit"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.gov.uk/housing-benefit",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
-      "id": "work",
-      "title": "9. Work, training and travel to a new job",
-      "items": [
+      "id": "employment",
+      "title": "Work, training and travel to a new job",
+      "entries": [
         {
-          "type": "resource",
           "id": "liverpool-in-work",
-          "name": "Liverpool in Work",
+          "title": "Liverpool in Work",
+          "description": "Phone: 0151 233 5312; email: liverpoolinwork@liverpool.gov.uk. — mailto:liverpoolinwork@liverpool.gov.uk\nFree personalised employment help for Liverpool residents aged 18+, including skills, confidence, apprenticeships, work trials and one-to-one support. Connect to Work is for jobseekers facing additional barriers.\nLiverpool in Work",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "0151 233 5312",
-                  "href": "tel:+441512335312"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "email:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "liverpoolinwork@liverpool.gov.uk",
-                  "href": "mailto:liverpoolinwork@liverpool.gov.uk"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Free personalised employment help for Liverpool residents aged 18+, including skills, confidence, apprenticeships, work trials and one-to-one support. Connect to Work is for jobseekers facing additional barriers."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Liverpool in Work",
-                  "href": "https://liverpool.gov.uk/liverpoolinwork"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+441512335312",
+          "website": "https://liverpool.gov.uk/liverpoolinwork",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "find-vacancies-and-a-jobcentre",
-          "name": "Find vacancies and a Jobcentre",
+          "title": "Find vacancies and a Jobcentre",
+          "description": "Use the official Find a Job service and postcode search for a current Jobcentre. Do not rely on an old office address. A Jobcentre can help with Universal Credit, work-coach appointments and National Insurance questions.\nFind a Job | find a Jobcentre — https://find-your-nearest-jobcentre.dwp.gov.uk/",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Use the official Find a Job service and postcode search for a current Jobcentre. Do not rely on an old office address. A Jobcentre can help with Universal Credit, work-coach appointments and National Insurance questions."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Find a Job",
-                  "href": "https://www.gov.uk/find-a-job"
-                },
-                {
-                  "text": " | "
-                },
-                {
-                  "text": "find a Jobcentre",
-                  "href": "https://find-your-nearest-jobcentre.dwp.gov.uk/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.gov.uk/find-a-job",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "national-careers-service",
-          "name": "National Careers Service",
+          "title": "National Careers Service",
+          "description": "Free advice on CVs, interviews, qualifications, training and careers for adults in England. Ask for phone or online support if you cannot travel.\nNational Careers Service",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Free advice on CVs, interviews, qualifications, training and careers for adults in England. Ask for phone or online support if you cannot travel."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "National Careers Service",
-                  "href": "https://nationalcareers.service.gov.uk/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://nationalcareers.service.gov.uk/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "life-rooms-employment-and-learning-help",
-          "name": "Life Rooms employment and learning help",
+          "title": "Life Rooms employment and learning help",
+          "description": "Call 0151 478 6556 for practical help with employment, learning, benefits and housing when wellbeing or mental health is also a barrier. It is not a recruitment agency or emergency service.\nLife Rooms",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Call "
-                },
-                {
-                  "text": "0151 478 6556",
-                  "href": "tel:+441514786556"
-                },
-                {
-                  "text": " for practical help with employment, learning, benefits and housing when wellbeing or mental health is also a barrier. It is not a recruitment agency or emergency service."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Life Rooms",
-                  "href": "https://www.merseycare.nhs.uk/our-services/life-rooms"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+441514786556",
+          "website": "https://www.merseycare.nhs.uk/our-services/life-rooms",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "travel-phone-or-essentials-for-work",
-          "name": "Travel, phone or essentials for work",
+          "title": "Travel, phone or essentials for work",
+          "description": "The Crisis and Resilience Fund may help an eligible resident with travel, phone or internet costs during a sudden crisis. A Jobcentre work coach may consider the Flexible Support Fund for agreed work costs. Ask before paying; neither is automatic.\nLiverpool crisis support",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "The Crisis and Resilience Fund may help an eligible resident with travel, phone or internet costs during a sudden crisis. A Jobcentre work coach may consider the Flexible Support Fund for agreed work costs. Ask before paying; neither is automatic."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Liverpool crisis support",
-                  "href": "https://liverpool.gov.uk/crf"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "documents",
-      "title": "10. Documents, phone, mail and storage",
-      "items": [
-        {
-          "type": "resource",
-          "id": "national-insurance-number",
-          "name": "National Insurance number",
-          "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Check old payslips, benefit letters, a tax account or UKVI account first. You may start work before receiving a number if you can prove the right to work, and do not need one to start a benefit claim."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Apply for or find a number",
-                  "href": "https://www.gov.uk/apply-national-insurance-number"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "prove-the-right-to-work",
-          "name": "Prove the right to work",
-          "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "British and Irish citizens may use an eligible passport or a birth or adoption certificate together with an official document showing their National Insurance number. Other people may use a share code or eligible immigration documents."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Do not pay an unofficial agent. Ask Citizens Advice or a regulated adviser if status is unclear."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Official right-to-work service",
-                  "href": "https://www.gov.uk/prove-right-to-work"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "replace-a-birth-certificate",
-          "name": "Replace a birth certificate",
-          "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Order through the General Register Office or relevant register office. Fees apply. Ask a support worker about safe delivery and possible fee help."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Order a certificate",
-                  "href": "https://www.gov.uk/order-copy-birth-death-marriage-certificate"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "passport-advice",
-          "name": "Passport advice",
-          "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Contact HM Passport Office before paying if documents, referees or delivery are difficult. A charity may help you apply but cannot guarantee the fee."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Passport Adviceline",
-                  "href": "https://www.gov.uk/passport-advice-line"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "phone-and-online-access",
-          "name": "Phone and online access",
-          "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Libraries provide free Wi-Fi, and Central Library has walk-up computers for members. The Crisis and Resilience Fund may assess phone or internet costs; equipment or credit is not guaranteed."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Library internet",
-                  "href": "https://liverpool.gov.uk/libraries/other-resources/computer-use-in-liverpool-libraries/"
-                },
-                {
-                  "text": " | "
-                },
-                {
-                  "text": "crisis fund",
-                  "href": "https://liverpool.gov.uk/crf"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "mail-and-document-storage",
-          "name": "Mail and document storage",
-          "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ask whether a hostel, day centre, trusted person or Jobcentre can authorise a care-of address. Confirm collection rules."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Do not",
-                  "strong": true
-                },
-                {
-                  "text": " send post or leave identification, papers or belongings at a service without explicit permission. No verified open-access public luggage-storage service was found."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Care-of address options",
-                  "href": "https://www.gov.uk/government/publications/universal-credit-and-homeless-people/applying-for-universal-credit-information-for-homeless-people"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://liverpool.gov.uk/crf",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
       "id": "legal",
-      "title": "11. Housing law, debt and legal advice",
-      "items": [
+      "title": "Housing law, debt and legal advice",
+      "entries": [
         {
-          "type": "resource",
           "id": "shelter-merseyside",
-          "name": "Shelter Merseyside",
+          "title": "Shelter Merseyside",
+          "description": "New Legal Aid appointments: 0344 515 1300, Monday–Friday 9am–5pm. Appointment and eligibility check required.\nNational emergency housing helpline: 0808 800 4444, Monday–Friday 8am–5pm.\nShelter Merseyside",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Legal Aid service:",
-                  "strong": true
-                },
-                {
-                  "text": " Holy Trinity Church, Richmond Park, Liverpool L6 5AD"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "New Legal Aid appointments:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "0344 515 1300",
-                  "href": "tel:+443445151300"
-                },
-                {
-                  "text": ", Monday–Friday 9am–5pm. Appointment and eligibility check required."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "National emergency housing helpline:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "0808 800 4444",
-                  "href": "tel:+448088004444"
-                },
-                {
-                  "text": ", Monday–Friday 8am–5pm."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Shelter Merseyside",
-                  "href": "https://england.shelter.org.uk/get_help/local_services/merseyside"
-                }
-              ]
-            }
-          ]
+          "address": "Legal Aid service: Holy Trinity Church, Richmond Park, Liverpool L6 5AD",
+          "phone": "+443445151300",
+          "website": "https://england.shelter.org.uk/get_help/local_services/merseyside",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "merseyside-law-centre",
-          "name": "Merseyside Law Centre",
+          "title": "Merseyside Law Centre",
+          "description": "Phone: 0151 709 0504. Free specialist housing advice and representation for Merseyside residents who cannot afford it; welfare-benefit advice is currently limited to Liverpool City Council residents.\nDrop-in clinics are wheelchair accessible. Check the current timetable and funding criteria.\nMerseyside Law Centre",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " Kuumba Imani Millennium Centre, 4 Princes Road, Liverpool L8 1TH"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "0151 709 0504",
-                  "href": "tel:+441517090504"
-                },
-                {
-                  "text": ". Free specialist housing advice and representation for Merseyside residents who cannot afford it; welfare-benefit advice is currently limited to Liverpool City Council residents."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Drop-in clinics are wheelchair accessible. Check the current timetable and funding criteria."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Merseyside Law Centre",
-                  "href": "https://www.merseysidelawcentre.co.uk/"
-                }
-              ]
-            }
-          ]
+          "address": "Address: Kuumba Imani Millennium Centre, 4 Princes Road, Liverpool L8 1TH",
+          "phone": "+441517090504",
+          "website": "https://www.merseysidelawcentre.co.uk/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "citizens-advice-liverpool",
-          "name": "Citizens Advice Liverpool",
+          "title": "Citizens Advice Liverpool",
+          "description": "Call 0808 278 7840, Monday–Friday 9am–5pm, for free advice on housing, benefits, work, family and some immigration issues. For debt call 0300 330 1196.\nTake notices, court papers, tenancy papers and benefit letters if you have them, but seek help even when papers are missing.\nCitizens Advice Liverpool",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Call "
-                },
-                {
-                  "text": "0808 278 7840",
-                  "href": "tel:+448082787840"
-                },
-                {
-                  "text": ", Monday–Friday 9am–5pm, for free advice on housing, benefits, work, family and some immigration issues. For debt call "
-                },
-                {
-                  "text": "0300 330 1196",
-                  "href": "tel:+443003301196"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Take notices, court papers, tenancy papers and benefit letters if you have them, but seek help even when papers are missing."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Citizens Advice Liverpool",
-                  "href": "https://citizensadviceliverpool.org.uk/get-advice/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+448082787840",
+          "website": "https://citizensadviceliverpool.org.uk/get-advice/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "civil-legal-advice",
-          "name": "Civil Legal Advice",
+          "title": "Civil Legal Advice",
+          "description": "Call 0345 345 4345. Legal Aid advice may be available for eligible housing, debt, discrimination and domestic-abuse problems.\nDo not miss a court hearing while waiting for advice. Take the papers and ask about the Housing Possession Court Duty Scheme.\nCivil Legal Advice",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Call "
-                },
-                {
-                  "text": "0345 345 4345",
-                  "href": "tel:+443453454345"
-                },
-                {
-                  "text": ". Legal Aid advice may be available for eligible housing, debt, discrimination and domestic-abuse problems."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Do not miss a court hearing while waiting for advice. Take the papers and ask about the Housing Possession Court Duty Scheme."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Civil Legal Advice",
-                  "href": "https://www.gov.uk/civil-legal-advice"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+443453454345",
+          "website": "https://www.gov.uk/civil-legal-advice",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
-      "id": "migrants",
-      "title": "12. Migrants, asylum and exploitation",
-      "items": [
+      "id": "documents",
+      "title": "Documents, phone, mail and storage",
+      "entries": [
         {
-          "type": "resource",
+          "id": "national-insurance-number",
+          "title": "National Insurance number",
+          "description": "Check old payslips, benefit letters, a tax account or UKVI account first. You may start work before receiving a number if you can prove the right to work, and do not need one to start a benefit claim.\nApply for or find a number",
+          "last_verified": "2026-11-11",
+          "address": "",
+          "phone": "",
+          "website": "https://www.gov.uk/apply-national-insurance-number",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "prove-the-right-to-work",
+          "title": "Prove the right to work",
+          "description": "British and Irish citizens may use an eligible passport or a birth or adoption certificate together with an official document showing their National Insurance number. Other people may use a share code or eligible immigration documents.\nDo not pay an unofficial agent. Ask Citizens Advice or a regulated adviser if status is unclear.\nOfficial right-to-work service",
+          "last_verified": "2026-11-11",
+          "address": "",
+          "phone": "",
+          "website": "https://www.gov.uk/prove-right-to-work",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "replace-a-birth-certificate",
+          "title": "Replace a birth certificate",
+          "description": "Order through the General Register Office or relevant register office. Fees apply. Ask a support worker about safe delivery and possible fee help.\nOrder a certificate",
+          "last_verified": "2026-11-11",
+          "address": "",
+          "phone": "",
+          "website": "https://www.gov.uk/order-copy-birth-death-marriage-certificate",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "passport-advice",
+          "title": "Passport advice",
+          "description": "Contact HM Passport Office before paying if documents, referees or delivery are difficult. A charity may help you apply but cannot guarantee the fee.\nPassport Adviceline",
+          "last_verified": "2026-11-11",
+          "address": "",
+          "phone": "",
+          "website": "https://www.gov.uk/passport-advice-line",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "phone-and-online-access",
+          "title": "Phone and online access",
+          "description": "Libraries provide free Wi-Fi, and Central Library has walk-up computers for members. The Crisis and Resilience Fund may assess phone or internet costs; equipment or credit is not guaranteed.\nLibrary internet | crisis fund — https://liverpool.gov.uk/crf",
+          "last_verified": "2026-11-11",
+          "address": "",
+          "phone": "",
+          "website": "https://liverpool.gov.uk/libraries/other-resources/computer-use-in-liverpool-libraries/",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "mail-and-document-storage",
+          "title": "Mail and document storage",
+          "description": "Ask whether a hostel, day centre, trusted person or Jobcentre can authorise a care-of address. Confirm collection rules.\nDo not send post or leave identification, papers or belongings at a service without explicit permission. No verified open-access public luggage-storage service was found.\nCare-of address options",
+          "last_verified": "2026-11-11",
+          "address": "",
+          "phone": "",
+          "website": "https://www.gov.uk/government/publications/universal-credit-and-homeless-people/applying-for-universal-credit-information-for-homeless-people",
+          "hours": "",
+          "how_to_access": ""
+        }
+      ]
+    },
+    {
+      "id": "mail",
+      "title": "Mailing address",
+      "entries": []
+    },
+    {
+      "id": "storage",
+      "title": "Storage",
+      "entries": []
+    },
+    {
+      "id": "safety",
+      "title": "Safety and domestic violence",
+      "entries": []
+    },
+    {
+      "id": "specialist-support",
+      "title": "Migrants, asylum and exploitation",
+      "entries": [
+        {
           "id": "asylum-link-merseyside",
-          "name": "Asylum Link Merseyside",
+          "title": "Asylum Link Merseyside",
+          "description": "Phone: 0151 709 1713. Open Monday–Thursday 9:30am–4pm.\nCasework, immigration advice within its authorisation, English classes, wellbeing activities, hot meals, clothing and help accessing housing, GPs and services. Priority is given to people in Liverpool City Region and areas with little specialist support.\nAsylum Link",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " St Anne's Centre, Overbury Street, Liverpool L7 3HJ; enter through the church car park on Harbord Street"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "0151 709 1713",
-                  "href": "tel:+441517091713"
-                },
-                {
-                  "text": ". Open Monday–Thursday 9:30am–4pm."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Casework, immigration advice within its authorisation, English classes, wellbeing activities, hot meals, clothing and help accessing housing, GPs and services. Priority is given to people in Liverpool City Region and areas with little specialist support."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Asylum Link",
-                  "href": "https://www.asylumlink.org.uk/about/management-and-staff/"
-                }
-              ]
-            }
-          ]
+          "address": "Address: St Anne's Centre, Overbury Street, Liverpool L7 3HJ; enter through the church car park on Harbord Street",
+          "phone": "+441517091713",
+          "website": "https://www.asylumlink.org.uk/about/management-and-staff/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "migrant-help-asylum-helpline",
-          "name": "Migrant Help asylum helpline",
+          "title": "Migrant Help asylum helpline",
+          "description": "Freephone: 0808 8010 503. Help with asylum support, destitution, accommodation problems and finding legal representation. Migrant Help is not a law firm.\nGOV.UK asylum helplines",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Freephone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "0808 8010 503",
-                  "href": "tel:+448088010503"
-                },
-                {
-                  "text": ". Help with asylum support, destitution, accommodation problems and finding legal representation. Migrant Help is not a law firm."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "GOV.UK asylum helplines",
-                  "href": "https://www.gov.uk/asylum-helplines"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+448088010503",
+          "website": "https://www.gov.uk/asylum-helplines",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "refugee-women-connect",
-          "name": "Refugee Women Connect",
+          "title": "Refugee Women Connect",
+          "description": "Support for women asylum seekers, refugees and survivors of trafficking across Merseyside, including outreach, weekly drop-ins, emotional and practical support, English learning and access to services.\nLocations can change. Contact the team before attending.\nRefugee Women Connect",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Support for women asylum seekers, refugees and survivors of trafficking across Merseyside, including outreach, weekly drop-ins, emotional and practical support, English learning and access to services."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Locations can change. Contact the team before attending."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Refugee Women Connect",
-                  "href": "https://www.refugeewomenconnect.org.uk/who-we-are"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.refugeewomenconnect.org.uk/who-we-are",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "sahir-lgbtq-refugees-and-asylum-seekers",
-          "name": "Sahir: LGBTQ+ refugees and asylum seekers",
+          "title": "Sahir: LGBTQ+ refugees and asylum seekers",
+          "description": "Phone: 0151 673 1972, weekdays 10am–4pm; email: info@sahir.org.uk. — mailto:info@sahir.org.uk\nInformation, advice and signposting, plus counselling, HIV and wider LGBTQ+ health and wellbeing support.\nSahir services",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "0151 673 1972",
-                  "href": "tel:+441516731972"
-                },
-                {
-                  "text": ", weekdays 10am–4pm; "
-                },
-                {
-                  "text": "email:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "info@sahir.org.uk",
-                  "href": "mailto:info@sahir.org.uk"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Information, advice and signposting, plus counselling, HIV and wider LGBTQ+ health and wellbeing support."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Sahir services",
-                  "href": "https://www.sahir.org.uk/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+441516731972",
+          "website": "https://www.sahir.org.uk/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "modern-slavery-and-exploitation-helpline",
-          "name": "Modern Slavery and Exploitation Helpline",
+          "title": "Modern Slavery and Exploitation Helpline",
+          "description": "Call 08000 121 700. Current temporary hours are 12 noon–5pm daily. Call 999 for immediate danger.\nConfidential guidance if someone is controlled, threatened, forced to work or have sex, has pay or documents withheld, or cannot leave.\nModern Slavery Helpline",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Call "
-                },
-                {
-                  "text": "08000 121 700",
-                  "href": "tel:+448000121700"
-                },
-                {
-                  "text": ". Current temporary hours are 12 noon–5pm daily. Call 999 for immediate danger."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Confidential guidance if someone is controlled, threatened, forced to work or have sex, has pay or documents withheld, or cannot leave."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Modern Slavery Helpline",
-                  "href": "https://www.modernslaveryhelpline.org/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+448000121700",
+          "website": "https://www.modernslaveryhelpline.org/",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "liverpool-domestic-abuse-service",
+          "title": "Liverpool Domestic Abuse Service",
+          "description": "Freephone: 0800 084 2744; office: 0151 263 7474. Open Monday–Thursday 9am–5pm and Friday 9am–3pm.\nWomen-led, women-only support for women and girls affected by domestic abuse, including drop-in, referral and outreach. Refuge depends on assessment and availability.\nLDAS contact",
+          "last_verified": "2026-11-11",
+          "address": "",
+          "phone": "+448000842744",
+          "website": "https://liverpooldomesticabuseservice.org.uk/contact-us/",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "domestic-abuse-help-for-all-survivors",
+          "title": "Domestic-abuse help for all survivors",
+          "description": "The council lists local services for women, men, families and young people. Merseyside Domestic Violence Service: 07802 722703. Paul Lavelle Foundation for men: 0151 651 3777.\nCall 999 in immediate danger. Ask for an interpreter if needed.\nCouncil domestic-abuse services",
+          "last_verified": "2026-11-11",
+          "address": "",
+          "phone": "+447802722703",
+          "website": "https://liverpool.gov.uk/communities-and-safety/crime-and-safety/domestic-abuse",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "young-people-and-ymca-together",
+          "title": "Young people and YMCA Together",
+          "description": "People aged 16+ may be assessed for supported accommodation. Call Always Help Available on 0300 123 2041 or YMCA Together on 0151 600 3530.\nIf under 18, say your age immediately and ask for Children's Services. Call 999 if in danger. Sofa surfing still counts as homelessness.\nYMCA Together listing",
+          "last_verified": "2026-11-11",
+          "address": "",
+          "phone": "+443001232041",
+          "website": "https://homeless.org.uk/homeless-england/service/ymca-liverpool/",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "care-leavers",
+          "title": "Care leavers",
+          "description": "Liverpool must help if you were looked after by any local authority while aged 16 or 17. Care leavers aged 21–25 can also ask the leaving-care service for homelessness help.\nTell Housing Options that you are a care leaver and contact your personal adviser.\nCare-leaver housing help",
+          "last_verified": "2026-11-11",
+          "address": "",
+          "phone": "",
+          "website": "https://liverpool.gov.uk/children-and-families/childrens-social-care/leaving-care-local-offer/help-for-homeless-care-leavers/",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "sahir-lgbtq-and-hiv-support",
+          "title": "Sahir: LGBTQ+ and HIV support",
+          "description": "Phone: 0151 673 1972, weekdays 10am–4pm. LGBTQ+ health and wellbeing, counselling, peer groups, advocacy, HIV support and help for LGBTQ+ refugees.\nSahir is not emergency accommodation. For domestic-abuse support call Galop on 0800 999 5428.\nSahir Liverpool",
+          "last_verified": "2026-11-11",
+          "address": "Address: 2nd Floor, 151 Dale Street, Liverpool L2 2AH",
+          "phone": "+441516731972",
+          "website": "https://www.sahir.org.uk/",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "liverpool-veterans-hq",
+          "title": "Liverpool Veterans HQ",
+          "description": "Phone: 0151 261 9878; email: info@veteranshqliverpool.com. — mailto:info@veteranshqliverpool.com\nIn-person support concerning housing, health, addiction, welfare, debt, legal issues, work, training and social connection. Contact does not guarantee accommodation.\nGOV.UK listing",
+          "last_verified": "2026-11-11",
+          "address": "Address: 28 St Domingo Vale, Liverpool L5 6RW",
+          "phone": "+441512619878",
+          "website": "https://www.gov.uk/veteran-support-organisations/liverpool-veterans-hq",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "op-fortitude-veterans-at-risk",
+          "title": "Op FORTITUDE: veterans at risk",
+          "description": "Call 0800 952 0774. Veterans can self-refer for housing and tenancy support through the national pathway. Accommodation is individually assessed.\nOp FORTITUDE",
+          "last_verified": "2026-11-11",
+          "address": "",
+          "phone": "+448009520774",
+          "website": "https://www.britishlegion.org.uk/get-support/expert-guidance/housing/op-fortitude",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "age-concern-liverpool-and-sefton-age-50",
+          "title": "Age Concern Liverpool and Sefton: age 50+",
+          "description": "Phone: 0151 330 5678, Monday–Friday 10am–3pm.\nFree information and signposting on benefits, debt, housing, health, social care and local services.\nAge Concern information",
+          "last_verified": "2026-11-11",
+          "address": "Address: The Frances Suite, 1st Floor, 151 Dale Street, Liverpool L2 2JH",
+          "phone": "+441513305678",
+          "website": "https://ageconcernliverpoolandsefton.org.uk/information-advice-service/",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "adult-social-care-disability-and-safeguarding",
+          "title": "Adult social care, disability and safeguarding",
+          "description": "Phone: 0151 459 2606. Call if illness, disability, injury, abuse, neglect or self-neglect affects an adult's daily living or safety. Call 999 for immediate danger.\nSocial care does not replace a homeless application. Contact both services if care needs affect safe accommodation.\nAdult social care | report abuse or neglect — https://liverpool.gov.uk/publicsafeguarding",
+          "last_verified": "2026-11-11",
+          "address": "",
+          "phone": "+441514592606",
+          "website": "https://liverpool.gov.uk/adultsocialcare",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
-      "id": "specialist",
-      "title": "13. Women, young people, LGBTQ+ people, veterans, older and disabled people",
-      "items": [
-        {
-          "type": "resource",
-          "id": "liverpool-domestic-abuse-service",
-          "name": "Liverpool Domestic Abuse Service",
-          "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Freephone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "0800 084 2744",
-                  "href": "tel:+448000842744"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "office:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "0151 263 7474",
-                  "href": "tel:+441512637474"
-                },
-                {
-                  "text": ". Open Monday–Thursday 9am–5pm and Friday 9am–3pm."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Women-led, women-only support for women and girls affected by domestic abuse, including drop-in, referral and outreach. Refuge depends on assessment and availability."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "LDAS contact",
-                  "href": "https://liverpooldomesticabuseservice.org.uk/contact-us/"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "domestic-abuse-help-for-all-survivors",
-          "name": "Domestic-abuse help for all survivors",
-          "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "The council lists local services for women, men, families and young people. "
-                },
-                {
-                  "text": "Merseyside Domestic Violence Service:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "07802 722703",
-                  "href": "tel:+447802722703"
-                },
-                {
-                  "text": ". "
-                },
-                {
-                  "text": "Paul Lavelle Foundation for men:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "0151 651 3777",
-                  "href": "tel:+441516513777"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Call 999 in immediate danger. Ask for an interpreter if needed."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Council domestic-abuse services",
-                  "href": "https://liverpool.gov.uk/communities-and-safety/crime-and-safety/domestic-abuse"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "young-people-and-ymca-together",
-          "name": "Young people and YMCA Together",
-          "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "People aged 16+ may be assessed for supported accommodation. Call Always Help Available on "
-                },
-                {
-                  "text": "0300 123 2041",
-                  "href": "tel:+443001232041"
-                },
-                {
-                  "text": " or YMCA Together on "
-                },
-                {
-                  "text": "0151 600 3530",
-                  "href": "tel:+441516003530"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "If under 18, say your age immediately and ask for Children's Services. Call 999 if in danger. Sofa surfing still counts as homelessness."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "YMCA Together listing",
-                  "href": "https://homeless.org.uk/homeless-england/service/ymca-liverpool/"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "care-leavers",
-          "name": "Care leavers",
-          "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Liverpool must help if you were looked after by any local authority while aged 16 or 17. Care leavers aged 21–25 can also ask the leaving-care service for homelessness help."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Tell Housing Options that you are a care leaver and contact your personal adviser."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Care-leaver housing help",
-                  "href": "https://liverpool.gov.uk/children-and-families/childrens-social-care/leaving-care-local-offer/help-for-homeless-care-leavers/"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "sahir-lgbtq-and-hiv-support",
-          "name": "Sahir: LGBTQ+ and HIV support",
-          "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 2nd Floor, 151 Dale Street, Liverpool L2 2AH"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "0151 673 1972",
-                  "href": "tel:+441516731972"
-                },
-                {
-                  "text": ", weekdays 10am–4pm. LGBTQ+ health and wellbeing, counselling, peer groups, advocacy, HIV support and help for LGBTQ+ refugees."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Sahir is not emergency accommodation. For domestic-abuse support call Galop on "
-                },
-                {
-                  "text": "0800 999 5428",
-                  "href": "tel:+448009995428"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Sahir Liverpool",
-                  "href": "https://www.sahir.org.uk/"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "liverpool-veterans-hq",
-          "name": "Liverpool Veterans HQ",
-          "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 28 St Domingo Vale, Liverpool L5 6RW"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "0151 261 9878",
-                  "href": "tel:+441512619878"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "email:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "info@veteranshqliverpool.com",
-                  "href": "mailto:info@veteranshqliverpool.com"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "In-person support concerning housing, health, addiction, welfare, debt, legal issues, work, training and social connection. Contact does not guarantee accommodation."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "GOV.UK listing",
-                  "href": "https://www.gov.uk/veteran-support-organisations/liverpool-veterans-hq"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "op-fortitude-veterans-at-risk",
-          "name": "Op FORTITUDE: veterans at risk",
-          "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Call "
-                },
-                {
-                  "text": "0800 952 0774",
-                  "href": "tel:+448009520774"
-                },
-                {
-                  "text": ". Veterans can self-refer for housing and tenancy support through the national pathway. Accommodation is individually assessed."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Op FORTITUDE",
-                  "href": "https://www.britishlegion.org.uk/get-support/expert-guidance/housing/op-fortitude"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "age-concern-liverpool-and-sefton-age-50",
-          "name": "Age Concern Liverpool and Sefton: age 50+",
-          "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " The Frances Suite, 1st Floor, 151 Dale Street, Liverpool L2 2JH"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "0151 330 5678",
-                  "href": "tel:+441513305678"
-                },
-                {
-                  "text": ", Monday–Friday 10am–3pm."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Free information and signposting on benefits, debt, housing, health, social care and local services."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Age Concern information",
-                  "href": "https://ageconcernliverpoolandsefton.org.uk/information-advice-service/"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "adult-social-care-disability-and-safeguarding",
-          "name": "Adult social care, disability and safeguarding",
-          "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "0151 459 2606",
-                  "href": "tel:+441514592606"
-                },
-                {
-                  "text": ". Call if illness, disability, injury, abuse, neglect or self-neglect affects an adult's daily living or safety. Call 999 for immediate danger."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Social care does not replace a homeless application. Contact both services if care needs affect safe accommodation."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Adult social care",
-                  "href": "https://liverpool.gov.uk/adultsocialcare"
-                },
-                {
-                  "text": " | "
-                },
-                {
-                  "text": "report abuse or neglect",
-                  "href": "https://liverpool.gov.uk/publicsafeguarding"
-                }
-              ]
-            }
-          ]
-        }
-      ]
+      "id": "veterans",
+      "title": "Veterans support",
+      "entries": []
     },
     {
       "id": "pets",
-      "title": "14. Help with pets",
-      "items": [
+      "title": "Help with pets",
+      "entries": [
         {
-          "type": "resource",
           "id": "streetvet-liverpool",
-          "name": "StreetVet Liverpool",
+          "title": "StreetVet Liverpool",
+          "description": "Volunteer vets provide a monthly city-centre outreach clinic for pets belonging to people experiencing homelessness. Care can include checks, vaccinations, microchipping, parasite treatment, medication and pet essentials.\nThe public date and location are not fixed on the official page. Use the help form or ask Whitechapel. StreetVet is not an emergency service.\nStreetVet Liverpool | request help — https://www.streetvet.org.uk/get-help-now/",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Volunteer vets provide a monthly city-centre outreach clinic for pets belonging to people experiencing homelessness. Care can include checks, vaccinations, microchipping, parasite treatment, medication and pet essentials."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "The public date and location are not fixed on the official page. Use the help form or ask Whitechapel. StreetVet is not an emergency service."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "StreetVet Liverpool",
-                  "href": "https://www.streetvet.org.uk/about-us/where-we-operate/liverpool/"
-                },
-                {
-                  "text": " | "
-                },
-                {
-                  "text": "request help",
-                  "href": "https://www.streetvet.org.uk/get-help-now/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.streetvet.org.uk/about-us/where-we-operate/liverpool/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "dogs-trust-together-through-homelessness",
-          "name": "Dogs Trust Together Through Homelessness",
+          "title": "Dogs Trust Together Through Homelessness",
+          "description": "The UK-wide scheme helps eligible dog owners with veterinary costs and finding dog-friendly services. A participating homelessness service may need to apply. Assessment applies; existing bills and every procedure are not automatically covered.\nTogether Through Homelessness",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "The UK-wide scheme helps eligible dog owners with veterinary costs and finding dog-friendly services. A participating homelessness service may need to apply. Assessment applies; existing bills and every procedure are not automatically covered."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Together Through Homelessness",
-                  "href": "https://www.dogstrusthopeproject.org.uk/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.dogstrusthopeproject.org.uk/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "tell-every-service-about-your-pet",
-          "name": "Tell every service about your pet",
+          "title": "Tell every service about your pet",
+          "description": "Some placements accept pets and others do not. Tell the council and referrer the species, size, health, behaviour and vaccination status. Ask for a pet-friendly option before accepting or rejecting a placement.\nDo not abandon an animal or arrive at an unknown hostel expecting admission.\nSearch dog-friendly services",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Some placements accept pets and others do not. Tell the council and referrer the species, size, health, behaviour and vaccination status. Ask for a pet-friendly option before accepting or rejecting a placement."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Do not abandon an animal or arrive at an unknown hostel expecting admission."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Search dog-friendly services",
-                  "href": "https://www.dogstrusthopeproject.org.uk/help-with-dog-friendly-services"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.dogstrusthopeproject.org.uk/help-with-dog-friendly-services",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
-      "id": "transport",
-      "title": "15. Transport and Liverpool John Lennon Airport",
-      "items": [
-        {
-          "type": "resource",
-          "id": "merseytravel-journey-planning",
-          "name": "Merseytravel journey planning",
-          "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Use the official planner and live updates for buses, trains and ferries. Ask a housing, health, council or Jobcentre worker before an appointment whether travel can be authorised; help is not automatic."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Timetables and planner",
-                  "href": "https://www.merseytravel.gov.uk/timetables/"
-                },
-                {
-                  "text": " | "
-                },
-                {
-                  "text": "live disruptions",
-                  "href": "https://www.merseytravel.gov.uk/travel-updates/"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "city-centre-travel-help",
-          "name": "City-centre travel help",
-          "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Liverpool ONE Travel Centre:",
-                  "strong": true
-                },
-                {
-                  "text": " 1 Canning Place, L1 8LB, Monday–Saturday 10am–5pm. "
-                },
-                {
-                  "text": "Queen Square:",
-                  "strong": true
-                },
-                {
-                  "text": " Queen Square Bus Station, L1 1RG, Monday–Saturday 8am–6:30pm and Sunday 10am–5pm."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ask about routes, fares and tickets. Holiday hours can differ."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Merseytravel Centres",
-                  "href": "https://www.merseytravel.gov.uk/help-and-support/merseytravel-centres/"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "emergency-travel-costs",
-          "name": "Emergency travel costs",
-          "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "The Crisis and Resilience Fund may help an eligible resident with necessary bus fares during a sudden financial crisis. Apply before buying a ticket when possible."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Crisis and Resilience Fund",
-                  "href": "https://liverpool.gov.uk/crf"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "liverpool-john-lennon-airport-by-bus",
-          "name": "Liverpool John Lennon Airport by bus",
-          "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "The 500 links Liverpool ONE and the airport about every 30 minutes; Arriva publishes a journey of about 30 minutes and service from around 4am to midnight. Routes 80A and 86A also connect the city, Liverpool South Parkway and airport."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Check the day's timetable and fare. The terminal is not accommodation; if stranded with nowhere safe, call "
-                },
-                {
-                  "text": "0300 123 2041",
-                  "href": "tel:+443001232041"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Current airport bus routes",
-                  "href": "https://www.arrivabus.co.uk/airport-services/liverpool-john-lennon"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "airport-connection-by-train",
-          "name": "Airport connection by train",
-          "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Liverpool South Parkway is the nearest main rail station. Continue by an 80A, 86A or other current airport bus. Some rail tickets can include the bus connection when the destination is Liverpool John Lennon Airport."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Rail and bus connection",
-                  "href": "https://www.eastmidlandsrailway.co.uk/routes-destinations/airports/liverpool-john-lennon-airport"
-                }
-              ]
-            }
-          ]
-        }
-      ]
+      "id": "other",
+      "title": "Other useful resources",
+      "entries": []
     }
   ]
 }

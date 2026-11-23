@@ -12,6 +12,8 @@ The public website is static, lightweight, privacy-respecting, and open source. 
 
 The universal data contract is [`schemas/city.schema.json`](schemas/city.schema.json). Every country and language uses the same fields. Public-facing content is written in the guide's local language, while stable technical keys remain in English.
 
+All city files contain the same fixed categories. Every service uses the same simple fields: title, description, verification date, address, phone, website, hours, and access instructions. Empty fields and categories are hidden automatically.
+
 ```text
 data/cities/<country>/<region>/<city>.json
                          └───────┬───────┘
@@ -44,6 +46,8 @@ The generator creates `lisboa.html`, `lisboa.en.html`, and `lisboa.es.html`, and
 Read [`data/cities/README.md`](data/cities/README.md) for the complete naming and editing rules.
 
 ## Add or edit a city
+
+First-time contributors should start with [`EDIT_CITY_JSON.md`](EDIT_CITY_JSON.md). It explains every field in the model and includes a no-install workflow for proposing a correction directly through GitHub.
 
 1. Copy [`templates/city.json`](templates/city.json).
 2. Place it in the correct country and region folders.

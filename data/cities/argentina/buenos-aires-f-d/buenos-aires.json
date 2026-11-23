@@ -1,6 +1,7 @@
 {
   "$schema": "https://nohomehelp.com/schemas/city.schema.json",
-  "schema_version": 1,
+  "documentation": "https://github.com/carlosbranco/no-home-help/blob/main/EDIT_CITY_JSON.md",
+  "schema_version": 2,
   "status": "published",
   "locale": {
     "language": "es",
@@ -26,2369 +27,626 @@
   "page": {
     "heading": "Buenos Aires — ayuda ante la situación de calle",
     "last_verified": "2026-11-10",
-    "urgent": [
-      {
-        "type": "paragraph",
-        "content": [
-          {
-            "text": "Atención social inmediata y alojamiento:",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "108",
-            "href": "tel:108"
-          },
-          {
-            "text": ", las 24 horas"
-          },
-          {
-            "break": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "Emergencia médica SAME:",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "107",
-            "href": "tel:107"
-          },
-          {
-            "break": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "Policía:",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "911",
-            "href": "tel:911"
-          },
-          {
-            "text": "; "
-          },
-          {
-            "text": "emergencias de la Ciudad:",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "103",
-            "href": "tel:103"
-          },
-          {
-            "break": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "Violencia de género:",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "144",
-            "href": "tel:144"
-          },
-          {
-            "text": "; "
-          },
-          {
-            "text": "niñas, niños y adolescentes:",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "102",
-            "href": "tel:102"
-          }
-        ]
-      }
-    ],
-    "notice": [
-      {
-        "text": "Las vacantes, horarios, recorridos y requisitos pueden cambiar.",
-        "strong": true
-      },
-      {
-        "text": " Llamá antes de trasladarte. Ningún recurso garantiza cama, dinero, atención o trabajo el mismo día. Ante peligro inmediato llamá al 911 o al 107."
-      }
-    ],
-    "intro": [
-      {
-        "type": "paragraph",
-        "content": [
-          {
-            "text": "Al pedir ayuda indicá la ubicación exacta, si hay un lugar seguro para esta noche, cuándo comiste por última vez, lesiones o enfermedades, edad, discapacidad, embarazo, niñas o niños a cargo y si tenés documentación. Si avisás por otra persona, describí su ubicación, apariencia y estado, y aclará si acepta ayuda cuando lo sepas."
-          }
-        ]
-      },
-      {
-        "type": "paragraph",
-        "content": [
-          {
-            "text": "Primer paso recomendado:",
-            "strong": true
-          },
-          {
-            "text": " llamá al 108. La Línea de Atención Social Inmediata funciona todos los días, deriva a equipos profesionales y puede coordinar traslado a un Centro de Inclusión Social adecuado para personas solas o familias."
-          }
-        ]
-      }
-    ],
-    "footer": [
-      {
-        "type": "paragraph",
-        "content": [
-          {
-            "text": "¿Encontraste información incorrecta o desactualizada?",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "Proponé una corrección",
-            "href": "../../CONTRIBUTING.md"
-          },
-          {
-            "text": ". No publiques datos personales o sensibles."
-          }
-        ]
-      }
-    ]
+    "urgent": "Atención social inmediata y alojamiento: 108, las 24 horas Emergencia médica SAME: 107 Policía: 911; emergencias de la Ciudad: 103 Violencia de género: 144; niñas, niños y adolescentes: 102",
+    "notice": "Las vacantes, horarios, recorridos y requisitos pueden cambiar. Llamá antes de trasladarte. Ningún recurso garantiza cama, dinero, atención o trabajo el mismo día. Ante peligro inmediato llamá al 911 o al 107.",
+    "intro": "Al pedir ayuda indicá la ubicación exacta, si hay un lugar seguro para esta noche, cuándo comiste por última vez, lesiones o enfermedades, edad, discapacidad, embarazo, niñas o niños a cargo y si tenés documentación. Si avisás por otra persona, describí su ubicación, apariencia y estado, y aclará si acepta ayuda cuando lo sepas.\nPrimer paso recomendado: llamá al 108. La Línea de Atención Social Inmediata funciona todos los días, deriva a equipos profesionales y puede coordinar traslado a un Centro de Inclusión Social adecuado para personas solas o familias.",
+    "footer": "¿Encontraste información incorrecta o desactualizada? Proponé una corrección. No publiques datos personales o sensibles. — ../../CONTRIBUTING.md"
   },
   "categories": [
     {
       "id": "emergency",
-      "title": "1. Ayuda urgente",
-      "items": [
+      "title": "Ayuda urgente",
+      "entries": [
         {
-          "type": "resource",
           "id": "linea-108-atencion-social-inmediata",
-          "name": "Línea 108 — Atención Social Inmediata",
+          "title": "Línea 108 — Atención Social Inmediata",
+          "description": "Teléfono: 108, gratuito, las 24 horas y los 365 días.\nServicio: recibe pedidos por personas y familias en situación de calle, envía equipos profesionales y deriva al recurso social adecuado. Decí la ubicación exacta, estado de salud y composición familiar.\nGobierno de la Ciudad — Línea 108",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Teléfono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "108",
-                  "href": "tel:108"
-                },
-                {
-                  "text": ", gratuito, las 24 horas y los 365 días."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Servicio:",
-                  "strong": true
-                },
-                {
-                  "text": " recibe pedidos por personas y familias en situación de calle, envía equipos profesionales y deriva al recurso social adecuado. Decí la ubicación exacta, estado de salud y composición familiar."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Gobierno de la Ciudad — Línea 108",
-                  "href": "https://buenosaires.gob.ar/desarrollohumanoyhabitat/linea-108"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "108",
+          "website": "https://buenosaires.gob.ar/desarrollohumanoyhabitat/linea-108",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "same-emergencia-medica",
-          "name": "SAME — emergencia médica",
+          "title": "SAME — emergencia médica",
+          "description": "Teléfono: 107.\nCuándo llamar: pérdida de conocimiento, dolor de pecho, dificultad para respirar, hemorragia, lesión grave, intoxicación, hipotermia u otra urgencia médica. Informá dirección y referencias claras.\nTeléfonos oficiales de emergencia de la Ciudad",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Teléfono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "107",
-                  "href": "tel:107"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Cuándo llamar:",
-                  "strong": true
-                },
-                {
-                  "text": " pérdida de conocimiento, dolor de pecho, dificultad para respirar, hemorragia, lesión grave, intoxicación, hipotermia u otra urgencia médica. Informá dirección y referencias claras."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Teléfonos oficiales de emergencia de la Ciudad",
-                  "href": "https://buenosaires.gob.ar/gcaba_historico/salud/salud-mental/atencion-telefonica"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "107",
+          "website": "https://buenosaires.gob.ar/gcaba_historico/salud/salud-mental/atencion-telefonica",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "policia-911",
-          "name": "Policía — 911",
+          "title": "Policía — 911",
+          "description": "Teléfono: 911.\nCuándo llamar: agresión, amenaza, robo en curso, explotación, retención de documentos o peligro inmediato. No vuelvas solo a un lugar inseguro para recuperar pertenencias.\nRed de Atención — teléfonos útiles",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Teléfono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "911",
-                  "href": "tel:911"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Cuándo llamar:",
-                  "strong": true
-                },
-                {
-                  "text": " agresión, amenaza, robo en curso, explotación, retención de documentos o peligro inmediato. No vuelvas solo a un lugar inseguro para recuperar pertenencias."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Red de Atención — teléfonos útiles",
-                  "href": "https://buenosaires.gob.ar/desarrollohumanoyhabitat/red-de-atencion-0"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "911",
+          "website": "https://buenosaires.gob.ar/desarrollohumanoyhabitat/red-de-atencion-0",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "emergencias-en-la-via-publica-103",
-          "name": "Emergencias en la vía pública — 103",
+          "title": "Emergencias en la vía pública — 103",
+          "description": "Teléfono: 103.\nCuándo llamar: riesgo ambiental, incendio, derrumbe, inundación u otra emergencia de la Ciudad. Para atención social de una persona en calle usá 108; para medicina, 107.\nGobierno de la Ciudad — teléfonos útiles",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Teléfono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "103",
-                  "href": "tel:103"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Cuándo llamar:",
-                  "strong": true
-                },
-                {
-                  "text": " riesgo ambiental, incendio, derrumbe, inundación u otra emergencia de la Ciudad. Para atención social de una persona en calle usá 108; para medicina, 107."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Gobierno de la Ciudad — teléfonos útiles",
-                  "href": "https://buenosaires.gob.ar/gcaba_historico/salud/salud-mental/atencion-telefonica"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "103",
+          "website": "https://buenosaires.gob.ar/gcaba_historico/salud/salud-mental/atencion-telefonica",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
       "id": "shelter",
-      "title": "2. Alojamiento y centros de inclusión",
-      "items": [
+      "title": "Alojamiento y centros de inclusión",
+      "entries": [
         {
-          "type": "resource",
           "id": "red-de-centros-de-inclusion-social",
-          "name": "Red de Centros de Inclusión Social",
+          "title": "Red de Centros de Inclusión Social",
+          "description": "Ingreso y traslado: 108.\nServicio: cama, comida caliente, ducha, higiene, ropa y seguimiento profesional. Hay dispositivos para familias y para personas solas según género y necesidades. La asignación depende de evaluación y vacantes.\nCentros de Inclusión Social",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ingreso y traslado:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "108",
-                  "href": "tel:108"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Servicio:",
-                  "strong": true
-                },
-                {
-                  "text": " cama, comida caliente, ducha, higiene, ropa y seguimiento profesional. Hay dispositivos para familias y para personas solas según género y necesidades. La asignación depende de evaluación y vacantes."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Centros de Inclusión Social",
-                  "href": "https://buenosaires.gob.ar/desarrollohumanoyhabitat/centros-de-inclusion-social"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "108",
+          "website": "https://buenosaires.gob.ar/desarrollohumanoyhabitat/centros-de-inclusion-social",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "centro-de-inclusion-social-costanera-familias",
-          "name": "Centro de Inclusión Social Costanera — familias",
+          "title": "Centro de Inclusión Social Costanera — familias",
+          "description": "Datos oficiales de hogares y paradores",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Dirección:",
-                  "strong": true
-                },
-                {
-                  "text": " avenida España 2256, La Boca"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ingreso:",
-                  "strong": true
-                },
-                {
-                  "text": " pedí derivación al 108. El conjunto de datos oficial actualizado en junio de 2026 identifica este centro para familias; no vayas sin confirmar vacante y puerta de acceso."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Datos oficiales de hogares y paradores",
-                  "href": "https://data.buenosaires.gob.ar/dataset/hogares-paradores/resource/juqdkmgo-1181-resource"
-                }
-              ]
-            }
-          ]
+          "address": "Dirección: avenida España 2256, La Boca",
+          "phone": "",
+          "website": "https://data.buenosaires.gob.ar/dataset/hogares-paradores/resource/juqdkmgo-1181-resource",
+          "hours": "",
+          "how_to_access": "Ingreso: pedí derivación al 108. El conjunto de datos oficial actualizado en junio de 2026 identifica este centro para familias; no vayas sin confirmar vacante y puerta de acceso."
         },
         {
-          "type": "resource",
           "id": "parador-retiro-varones",
-          "name": "Parador Retiro — varones",
+          "title": "Parador Retiro — varones",
+          "description": "Registro municipal actualizado",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Dirección:",
-                  "strong": true
-                },
-                {
-                  "text": " avenida Gendarmería Nacional 522, Retiro"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ingreso:",
-                  "strong": true
-                },
-                {
-                  "text": " llamá al 108. El registro oficial lo clasifica para varones; el acceso, horario y disponibilidad deben confirmarse el mismo día."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Registro municipal actualizado",
-                  "href": "https://data.buenosaires.gob.ar/el/dataset/hogares-paradores/resource/juqdkmgo-1181-resource-xlsx"
-                }
-              ]
-            }
-          ]
+          "address": "Dirección: avenida Gendarmería Nacional 522, Retiro",
+          "phone": "",
+          "website": "https://data.buenosaires.gob.ar/el/dataset/hogares-paradores/resource/juqdkmgo-1181-resource-xlsx",
+          "hours": "",
+          "how_to_access": "Ingreso: llamá al 108. El registro oficial lo clasifica para varones; el acceso, horario y disponibilidad deben confirmarse el mismo día."
         },
         {
-          "type": "resource",
           "id": "hogar-26-de-julio-mujeres-y-madres-con-hijos",
-          "name": "Hogar 26 de Julio — mujeres y madres con hijos",
+          "title": "Hogar 26 de Julio — mujeres y madres con hijos",
+          "description": "Buenos Aires Data — hogares y paradores",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Dirección:",
-                  "strong": true
-                },
-                {
-                  "text": " avenida Belgrano 482, Monserrat"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ingreso:",
-                  "strong": true
-                },
-                {
-                  "text": " por el 108. Informá si hay niñas o niños, embarazo, discapacidad o violencia para recibir el dispositivo adecuado; la dirección pública no garantiza admisión directa."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Buenos Aires Data — hogares y paradores",
-                  "href": "https://data.buenosaires.gob.ar/el/dataset/hogares-paradores/resource/juqdkmgo-1181-resource-xlsx"
-                }
-              ]
-            }
-          ]
+          "address": "Dirección: avenida Belgrano 482, Monserrat",
+          "phone": "",
+          "website": "https://data.buenosaires.gob.ar/el/dataset/hogares-paradores/resource/juqdkmgo-1181-resource-xlsx",
+          "hours": "",
+          "how_to_access": "Ingreso: por el 108. Informá si hay niñas o niños, embarazo, discapacidad o violencia para recibir el dispositivo adecuado; la dirección pública no garantiza admisión directa."
         },
         {
-          "type": "resource",
           "id": "hogar-felix-lora-varones",
-          "name": "Hogar Félix Lora — varones",
+          "title": "Hogar Félix Lora — varones",
+          "description": "Fuente de datos oficial",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Dirección:",
-                  "strong": true
-                },
-                {
-                  "text": " avenida Paseo Colón 811, San Telmo"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ingreso:",
-                  "strong": true
-                },
-                {
-                  "text": " coordiná por el 108. Es un dispositivo propio de la Ciudad para varones; consultá vacantes, horario, equipaje permitido y documentación."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Fuente de datos oficial",
-                  "href": "https://data.buenosaires.gob.ar/el/dataset/hogares-paradores/resource/juqdkmgo-1181-resource-xlsx"
-                }
-              ]
-            }
-          ]
+          "address": "Dirección: avenida Paseo Colón 811, San Telmo",
+          "phone": "",
+          "website": "https://data.buenosaires.gob.ar/el/dataset/hogares-paradores/resource/juqdkmgo-1181-resource-xlsx",
+          "hours": "",
+          "how_to_access": "Ingreso: coordiná por el 108. Es un dispositivo propio de la Ciudad para varones; consultá vacantes, horario, equipaje permitido y documentación."
         },
         {
-          "type": "resource",
           "id": "parador-bepo-ghezzi-varones",
-          "name": "Parador Bepo Ghezzi — varones",
+          "title": "Parador Bepo Ghezzi — varones",
+          "description": "Registro oficial de dispositivos",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Dirección:",
-                  "strong": true
-                },
-                {
-                  "text": " Herminio Masantonio 2970, Parque Patricios"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ingreso:",
-                  "strong": true
-                },
-                {
-                  "text": " llamá al 108. Confirmá la vacante antes de trasladarte; los equipos pueden indicar otro centro según salud, edad o capacidad."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Registro oficial de dispositivos",
-                  "href": "https://data.buenosaires.gob.ar/el/dataset/hogares-paradores/resource/juqdkmgo-1181-resource-xlsx"
-                }
-              ]
-            }
-          ]
+          "address": "Dirección: Herminio Masantonio 2970, Parque Patricios",
+          "phone": "",
+          "website": "https://data.buenosaires.gob.ar/el/dataset/hogares-paradores/resource/juqdkmgo-1181-resource-xlsx",
+          "hours": "",
+          "how_to_access": "Ingreso: llamá al 108. Confirmá la vacante antes de trasladarte; los equipos pueden indicar otro centro según salud, edad o capacidad."
         },
         {
-          "type": "resource",
           "id": "centro-la-boca-varones-con-discapacidad",
-          "name": "Centro La Boca — varones con discapacidad",
+          "title": "Centro La Boca — varones con discapacidad",
+          "description": "Datos de hogares y paradores",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Dirección:",
-                  "strong": true
-                },
-                {
-                  "text": " avenida Don Pedro de Mendoza 1357, La Boca"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ingreso:",
-                  "strong": true
-                },
-                {
-                  "text": " por el 108. El registro oficial lo destina a varones con discapacidad; explicá movilidad, medicación, apoyos y atención necesaria al solicitar derivación."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Datos de hogares y paradores",
-                  "href": "https://data.buenosaires.gob.ar/el/dataset/hogares-paradores/resource/juqdkmgo-1181-resource-xlsx"
-                }
-              ]
-            }
-          ]
+          "address": "Dirección: avenida Don Pedro de Mendoza 1357, La Boca",
+          "phone": "",
+          "website": "https://data.buenosaires.gob.ar/el/dataset/hogares-paradores/resource/juqdkmgo-1181-resource-xlsx",
+          "hours": "",
+          "how_to_access": "Ingreso: por el 108. El registro oficial lo destina a varones con discapacidad; explicá movilidad, medicación, apoyos y atención necesaria al solicitar derivación."
         },
         {
-          "type": "resource",
           "id": "red-de-hogares-de-caritas-buenos-aires",
-          "name": "Red de Hogares de Cáritas Buenos Aires",
+          "title": "Red de Hogares de Cáritas Buenos Aires",
+          "description": "Contacto: hogares@caritasbsas.org.ar\nServicio: alojamiento, contención y acompañamiento profesional para mujeres y varones adultos en situación de calle. Se realiza una entrevista; la ubicación y admisión dependen de la necesidad y de las vacantes.\nCáritas Buenos Aires — Red de Hogares",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Contacto:",
-                  "strong": true
-                },
-                {
-                  "text": " hogares@caritasbsas.org.ar"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Servicio:",
-                  "strong": true
-                },
-                {
-                  "text": " alojamiento, contención y acompañamiento profesional para mujeres y varones adultos en situación de calle. Se realiza una entrevista; la ubicación y admisión dependen de la necesidad y de las vacantes."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Cáritas Buenos Aires — Red de Hogares",
-                  "href": "https://caritasbsas.org.ar/hogares/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://caritasbsas.org.ar/hogares/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "fundacion-camino-a-jerico-hogar-brochero",
-          "name": "Fundación Camino a Jericó — Hogar Brochero",
+          "title": "Fundación Camino a Jericó — Hogar Brochero",
+          "description": "Teléfono: 11 4795-6646.\nServicio: alojamiento y atención las 24 horas, alimentación, higiene, salud primaria y talleres. Está fuera de CABA; llamá antes y confirmá admisión y traslado.\nFicha oficial de Camino a Jericó",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Contacto institucional:",
-                  "strong": true
-                },
-                {
-                  "text": " Malaver 1745, Olivos, Provincia de Buenos Aires"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Teléfono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "11 4795-6646",
-                  "href": "tel:+541147956646"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Servicio:",
-                  "strong": true
-                },
-                {
-                  "text": " alojamiento y atención las 24 horas, alimentación, higiene, salud primaria y talleres. Está fuera de CABA; llamá antes y confirmá admisión y traslado."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ficha oficial de Camino a Jericó",
-                  "href": "https://buenosaires.gob.ar/organizacion-civil/fundacion-camino-jerico"
-                }
-              ]
-            }
-          ]
+          "address": "Contacto institucional: Malaver 1745, Olivos, Provincia de Buenos Aires",
+          "phone": "+541147956646",
+          "website": "https://buenosaires.gob.ar/organizacion-civil/fundacion-camino-jerico",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
       "id": "food",
-      "title": "3. Comida, duchas y ropa",
-      "items": [
+      "title": "Comida, duchas y ropa",
+      "entries": [
         {
-          "type": "resource",
           "id": "comida-ducha-y-ropa-en-los-centros-de-inclusion",
-          "name": "Comida, ducha y ropa en los Centros de Inclusión",
+          "title": "Comida, ducha y ropa en los Centros de Inclusión",
+          "description": "Servicio: los centros brindan comida caliente, cama, ducha, higiene y ropa a quienes ingresan. Avisá sobre alergias, diabetes o dieta médica al equipo.\nRed de Atención de la Ciudad",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Acceso:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "108",
-                  "href": "tel:108"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Servicio:",
-                  "strong": true
-                },
-                {
-                  "text": " los centros brindan comida caliente, cama, ducha, higiene y ropa a quienes ingresan. Avisá sobre alergias, diabetes o dieta médica al equipo."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Red de Atención de la Ciudad",
-                  "href": "https://buenosaires.gob.ar/desarrollohumanoyhabitat/red-de-atencion-0"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "108",
+          "website": "https://buenosaires.gob.ar/desarrollohumanoyhabitat/red-de-atencion-0",
+          "hours": "",
+          "how_to_access": "Acceso: 108."
         },
         {
-          "type": "resource",
           "id": "santuario-san-cayetano-comedor-nocturno",
-          "name": "Santuario San Cayetano — comedor nocturno",
+          "title": "Santuario San Cayetano — comedor nocturno",
+          "description": "Atención social: lunes a viernes de 08:00 a 15:00. Entrega viandas a personas en situación de calle y familias con necesidad; confirmá el horario actual del comedor antes de ir.\nServicio Social San Cayetano",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Dirección:",
-                  "strong": true
-                },
-                {
-                  "text": " Cuzco 220, Liniers"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Atención social:",
-                  "strong": true
-                },
-                {
-                  "text": " lunes a viernes de 08:00 a 15:00. Entrega viandas a personas en situación de calle y familias con necesidad; confirmá el horario actual del comedor antes de ir."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Servicio Social San Cayetano",
-                  "href": "https://www.sancayetano.org.ar/servicio-social/"
-                }
-              ]
-            }
-          ]
+          "address": "Dirección: Cuzco 220, Liniers",
+          "phone": "",
+          "website": "https://www.sancayetano.org.ar/servicio-social/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "santuario-san-cayetano-duchas-ropa-y-medicamentos",
-          "name": "Santuario San Cayetano — duchas, ropa y medicamentos",
+          "title": "Santuario San Cayetano — duchas, ropa y medicamentos",
+          "description": "Servicio: duchas, ropa, alimentos y orientación. También entrega medicamentos gratuitos con receta pública de hasta 30 días; no entrega psicofármacos ni medicación que requiera frío.\nServicios y condiciones actuales",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Dirección:",
-                  "strong": true
-                },
-                {
-                  "text": " Cuzco 220, Liniers"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Servicio:",
-                  "strong": true
-                },
-                {
-                  "text": " duchas, ropa, alimentos y orientación. También entrega medicamentos gratuitos con receta pública de hasta 30 días; no entrega psicofármacos ni medicación que requiera frío."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Servicios y condiciones actuales",
-                  "href": "https://www.sancayetano.org.ar/servicio-social/"
-                }
-              ]
-            }
-          ]
+          "address": "Dirección: Cuzco 220, Liniers",
+          "phone": "",
+          "website": "https://www.sancayetano.org.ar/servicio-social/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "amigos-en-el-camino-recorridas-nocturnas",
-          "name": "Amigos en el Camino — recorridas nocturnas",
+          "title": "Amigos en el Camino — recorridas nocturnas",
+          "description": "Teléfono: 11 3910-2998. Realiza recorridas con alimentos, abrigo y kits de higiene. Contactá a la organización para conocer el punto y día de la próxima salida.\nFicha oficial de Amigos en el Camino",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Sede:",
-                  "strong": true
-                },
-                {
-                  "text": " Ecuador 462, CABA"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Teléfono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "11 3910-2998",
-                  "href": "tel:+541139102998"
-                },
-                {
-                  "text": ". Realiza recorridas con alimentos, abrigo y kits de higiene. Contactá a la organización para conocer el punto y día de la próxima salida."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ficha oficial de Amigos en el Camino",
-                  "href": "https://buenosaires.gob.ar/organizacion-civil/asociacion-civil-amigos-en-el-camino"
-                }
-              ]
-            }
-          ]
+          "address": "Sede: Ecuador 462, CABA",
+          "phone": "+541139102998",
+          "website": "https://buenosaires.gob.ar/organizacion-civil/asociacion-civil-amigos-en-el-camino",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "camino-a-jerico-desayuno-e-higiene",
-          "name": "Camino a Jericó — desayuno e higiene",
+          "title": "Camino a Jericó — desayuno e higiene",
+          "description": "Teléfono: 11 4795-6646.\nServicio: el espacio «Hoy Puede Ser un Buen Día» ofrece desayuno e higiene dos veces por semana. Llamá para confirmar dirección, días y si acepta acceso directo.\nGobierno de la Ciudad — Camino a Jericó",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Teléfono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "11 4795-6646",
-                  "href": "tel:+541147956646"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Servicio:",
-                  "strong": true
-                },
-                {
-                  "text": " el espacio «Hoy Puede Ser un Buen Día» ofrece desayuno e higiene dos veces por semana. Llamá para confirmar dirección, días y si acepta acceso directo."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Gobierno de la Ciudad — Camino a Jericó",
-                  "href": "https://buenosaires.gob.ar/organizacion-civil/fundacion-camino-jerico"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+541147956646",
+          "website": "https://buenosaires.gob.ar/organizacion-civil/fundacion-camino-jerico",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
       "id": "community",
-      "title": "4. Organizaciones civiles y religiosas",
-      "items": [
+      "title": "Organizaciones civiles y religiosas",
+      "entries": [
         {
-          "type": "resource",
           "id": "amigos-en-el-camino-acompanamiento-integral",
-          "name": "Amigos en el Camino — acompañamiento integral",
+          "title": "Amigos en el Camino — acompañamiento integral",
+          "description": "Teléfono: 11 3910-2998.\nAyuda: trabajo social, trámites, turnos médicos, subsidios, acompañamiento hospitalario y elementos para un primer empleo, además de las recorridas.\nInformación oficial de la organización",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Dirección:",
-                  "strong": true
-                },
-                {
-                  "text": " Ecuador 462, CABA"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Teléfono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "11 3910-2998",
-                  "href": "tel:+541139102998"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ayuda:",
-                  "strong": true
-                },
-                {
-                  "text": " trabajo social, trámites, turnos médicos, subsidios, acompañamiento hospitalario y elementos para un primer empleo, además de las recorridas."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Información oficial de la organización",
-                  "href": "https://buenosaires.gob.ar/organizacion-civil/asociacion-civil-amigos-en-el-camino"
-                }
-              ]
-            }
-          ]
+          "address": "Dirección: Ecuador 462, CABA",
+          "phone": "+541139102998",
+          "website": "https://buenosaires.gob.ar/organizacion-civil/asociacion-civil-amigos-en-el-camino",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "caritas-buenos-aires",
-          "name": "Cáritas Buenos Aires",
+          "title": "Cáritas Buenos Aires",
+          "description": "Contacto para hogares: hogares@caritasbsas.org.ar\nAyuda: entrevista, alojamiento y acompañamiento profesional mediante su red de hogares. Explicá género, edad, salud y urgencia; la admisión no es automática.\nRed de Hogares de Cáritas",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Contacto para hogares:",
-                  "strong": true
-                },
-                {
-                  "text": " hogares@caritasbsas.org.ar"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ayuda:",
-                  "strong": true
-                },
-                {
-                  "text": " entrevista, alojamiento y acompañamiento profesional mediante su red de hogares. Explicá género, edad, salud y urgencia; la admisión no es automática."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Red de Hogares de Cáritas",
-                  "href": "https://caritasbsas.org.ar/hogares/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://caritasbsas.org.ar/hogares/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "servicio-social-san-cayetano",
-          "name": "Servicio Social San Cayetano",
+          "title": "Servicio Social San Cayetano",
+          "description": "Horario publicado: lunes a viernes de 08:00 a 15:00.\nAyuda: orientación sobre documentación, violencia, adicciones, hogares, pensiones, derechos sociales, alimentos, ropa, duchas y empleo.\nSantuario San Cayetano — servicio social",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Dirección:",
-                  "strong": true
-                },
-                {
-                  "text": " Cuzco 220, Liniers"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Horario publicado:",
-                  "strong": true
-                },
-                {
-                  "text": " lunes a viernes de 08:00 a 15:00."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ayuda:",
-                  "strong": true
-                },
-                {
-                  "text": " orientación sobre documentación, violencia, adicciones, hogares, pensiones, derechos sociales, alimentos, ropa, duchas y empleo."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Santuario San Cayetano — servicio social",
-                  "href": "https://www.sancayetano.org.ar/servicio-social/"
-                }
-              ]
-            }
-          ]
+          "address": "Dirección: Cuzco 220, Liniers",
+          "phone": "",
+          "website": "https://www.sancayetano.org.ar/servicio-social/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "accion-por-personas-en-situacion-de-calle",
-          "name": "Acción por Personas en Situación de Calle",
+          "title": "Acción por Personas en Situación de Calle",
+          "description": "Ayuda: organización civil que realiza recorridas y acompañamiento regular a personas y familias en calle. Consultá sus canales antes de acercarte para conocer atención y disponibilidad actuales.\nAcciónPSC — información institucional",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ayuda:",
-                  "strong": true
-                },
-                {
-                  "text": " organización civil que realiza recorridas y acompañamiento regular a personas y familias en calle. Consultá sus canales antes de acercarte para conocer atención y disponibilidad actuales."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "AcciónPSC — información institucional",
-                  "href": "https://accionpsc.com/accionpsc/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://accionpsc.com/accionpsc/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "camino-a-jerico-convalecencia-y-recuperacion",
-          "name": "Camino a Jericó — convalecencia y recuperación",
+          "title": "Camino a Jericó — convalecencia y recuperación",
+          "description": "Teléfono: 11 4795-6646.\nAyuda: además del hogar, posee una Posada de Convalecientes para recuperación física. Está en Provincia de Buenos Aires; se requiere contacto y evaluación previos.\nFicha oficial del programa",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Teléfono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "11 4795-6646",
-                  "href": "tel:+541147956646"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ayuda:",
-                  "strong": true
-                },
-                {
-                  "text": " además del hogar, posee una Posada de Convalecientes para recuperación física. Está en Provincia de Buenos Aires; se requiere contacto y evaluación previos."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ficha oficial del programa",
-                  "href": "https://buenosaires.gob.ar/organizacion-civil/fundacion-camino-jerico"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+541147956646",
+          "website": "https://buenosaires.gob.ar/organizacion-civil/fundacion-camino-jerico",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
+    },
+    {
+      "id": "hygiene",
+      "title": "Showers, laundry and hygiene",
+      "entries": []
+    },
+    {
+      "id": "clothing",
+      "title": "Clothing",
+      "entries": []
     },
     {
       "id": "health",
-      "title": "5. Salud y consumos problemáticos",
-      "items": [
+      "title": "Salud y consumos problemáticos",
+      "entries": [
         {
-          "type": "resource",
           "id": "same-107",
-          "name": "SAME — 107",
+          "title": "SAME — 107",
+          "description": "Teléfono: 107.\nUso: urgencias médicas graves. No esperes una recorrida social si hay pérdida de conocimiento, dificultad respiratoria, sangrado importante o hipotermia.\nTeléfonos de salud de la Ciudad",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Teléfono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "107",
-                  "href": "tel:107"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Uso:",
-                  "strong": true
-                },
-                {
-                  "text": " urgencias médicas graves. No esperes una recorrida social si hay pérdida de conocimiento, dificultad respiratoria, sangrado importante o hipotermia."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Teléfonos de salud de la Ciudad",
-                  "href": "https://buenosaires.gob.ar/gcaba_historico/salud/salud-mental/atencion-telefonica"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "107",
+          "website": "https://buenosaires.gob.ar/gcaba_historico/salud/salud-mental/atencion-telefonica",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "hospitales-publicos-y-cesac",
-          "name": "Hospitales públicos y CeSAC",
+          "title": "Hospitales públicos y CeSAC",
+          "description": "Orientación: 147.\nServicio: la red pública ofrece atención en hospitales y Centros de Salud y Acción Comunitaria. Pedí al 147 el establecimiento más cercano y confirmá si requiere turno; ante urgencia llamá al 107.\nEstablecimientos de salud de la Ciudad",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Orientación:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "147",
-                  "href": "tel:147"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Servicio:",
-                  "strong": true
-                },
-                {
-                  "text": " la red pública ofrece atención en hospitales y Centros de Salud y Acción Comunitaria. Pedí al 147 el establecimiento más cercano y confirmá si requiere turno; ante urgencia llamá al 107."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Establecimientos de salud de la Ciudad",
-                  "href": "https://buenosaires.gob.ar/salud/hospitales-y-establecimientos-de-salud"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "147",
+          "website": "https://buenosaires.gob.ar/salud/hospitales-y-establecimientos-de-salud",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "salud-mental-responde",
-          "name": "Salud Mental Responde",
+          "title": "Salud Mental Responde",
+          "description": "Teléfono: 0800-333-1665, gratuito, confidencial y las 24 horas.\nServicio: evaluación, contención y orientación hacia salud mental, consumos problemáticos, violencia, adolescencia y otros recursos. Ante una emergencia médica usá 107.\nSalud Mental Responde",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Teléfono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "0800-333-1665",
-                  "href": "tel:08003331665"
-                },
-                {
-                  "text": ", gratuito, confidencial y las 24 horas."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Servicio:",
-                  "strong": true
-                },
-                {
-                  "text": " evaluación, contención y orientación hacia salud mental, consumos problemáticos, violencia, adolescencia y otros recursos. Ante una emergencia médica usá 107."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Salud Mental Responde",
-                  "href": "https://buenosaires.gob.ar/gcaba_historico/salud/salud-mental/atencion-telefonica"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "08003331665",
+          "website": "https://buenosaires.gob.ar/gcaba_historico/salud/salud-mental/atencion-telefonica",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "linea-108-opcion-3-consumos-problematicos",
-          "name": "Línea 108, opción 3 — consumos problemáticos",
+          "title": "Línea 108, opción 3 — consumos problemáticos",
+          "description": "Teléfono: 108, opción 3, las 24 horas.\nServicio: orientación y derivación para personas con consumo problemático de sustancias y sus allegados. Informá si la persona está en calle y si existe riesgo médico inmediato.\nGuía oficial de servicios sociales",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Teléfono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "108",
-                  "href": "tel:108"
-                },
-                {
-                  "text": ", opción 3, las 24 horas."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Servicio:",
-                  "strong": true
-                },
-                {
-                  "text": " orientación y derivación para personas con consumo problemático de sustancias y sus allegados. Informá si la persona está en calle y si existe riesgo médico inmediato."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Guía oficial de servicios sociales",
-                  "href": "https://buenosaires.gob.ar/sites/default/files/2024-10/20241014%20-%20GUIA%20DE%20SERVICIOS%20SOCIALES%202024.pdf"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "108",
+          "website": "https://buenosaires.gob.ar/sites/default/files/2024-10/20241014%20-%20GUIA%20DE%20SERVICIOS%20SOCIALES%202024.pdf",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "guardias-de-salud-mental",
-          "name": "Guardias de salud mental",
+          "title": "Guardias de salud mental",
+          "description": "Orientación: 0800-333-1665.\nServicio: los hospitales generales públicos cuentan con guardias interdisciplinarias de salud mental. La línea indica la más cercana; si el riesgo es inmediato llamá al 107.\nGuía oficial de acceso a salud mental",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Orientación:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "0800-333-1665",
-                  "href": "tel:08003331665"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Servicio:",
-                  "strong": true
-                },
-                {
-                  "text": " los hospitales generales públicos cuentan con guardias interdisciplinarias de salud mental. La línea indica la más cercana; si el riesgo es inmediato llamá al 107."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Guía oficial de acceso a salud mental",
-                  "href": "https://buenosaires.gob.ar/sites/default/files/2023-10/Guia%20de%20Acceso%20a%20la%20Informacion%20para%20Personas%20Mayores%20de%20la%20CABA.pdf"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "08003331665",
+          "website": "https://buenosaires.gob.ar/sites/default/files/2023-10/Guia%20de%20Acceso%20a%20la%20Informacion%20para%20Personas%20Mayores%20de%20la%20CABA.pdf",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
-      "id": "government",
-      "title": "6. Ayuda pública y social",
-      "items": [
+      "id": "mental-health",
+      "title": "Mental health and addiction",
+      "entries": []
+    },
+    {
+      "id": "public-facilities",
+      "title": "Public toilets and day facilities",
+      "entries": []
+    },
+    {
+      "id": "phone-internet",
+      "title": "Phone charging and internet",
+      "entries": []
+    },
+    {
+      "id": "transport",
+      "title": "Transport",
+      "entries": []
+    },
+    {
+      "id": "benefits",
+      "title": "Ayuda pública y social",
+      "entries": [
         {
-          "type": "resource",
           "id": "buenos-aires-presente-y-red-de-atencion",
-          "name": "Buenos Aires Presente y Red de Atención",
+          "title": "Buenos Aires Presente y Red de Atención",
+          "description": "Red de Atención",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Dirección administrativa:",
-                  "strong": true
-                },
-                {
-                  "text": " avenida Entre Ríos 1285"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Acceso:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "108",
-                  "href": "tel:108"
-                },
-                {
-                  "text": ". Equipos de psicología, trabajo social y operadores recorren las comunas las 24 horas y derivan a servicios adecuados."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Red de Atención",
-                  "href": "https://buenosaires.gob.ar/desarrollohumanoyhabitat/red-de-atencion-0"
-                }
-              ]
-            }
-          ]
+          "address": "Dirección administrativa: avenida Entre Ríos 1285",
+          "phone": "108",
+          "website": "https://buenosaires.gob.ar/desarrollohumanoyhabitat/red-de-atencion-0",
+          "hours": "",
+          "how_to_access": "Acceso: 108. Equipos de psicología, trabajo social y operadores recorren las comunas las 24 horas y derivan a servicios adecuados."
         },
         {
-          "type": "resource",
           "id": "sedes-para-programas-sociales",
-          "name": "Sedes para programas sociales",
+          "title": "Sedes para programas sociales",
+          "description": "Ejemplos: Piedras 1277, San Nicolás; avenida San Juan 2353, San Cristóbal; Coronel Salvadores 799, La Boca; avenida Rivadavia 7202, 3.º piso, Flores.\nServicio: orientación y postulación a programas según cada situación. Los horarios y documentos varían; revisá la sede y requisitos antes de ir.\nPostulaciones para programas sociales",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ejemplos:",
-                  "strong": true
-                },
-                {
-                  "text": " Piedras 1277, San Nicolás; avenida San Juan 2353, San Cristóbal; Coronel Salvadores 799, La Boca; avenida Rivadavia 7202, 3.º piso, Flores."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Servicio:",
-                  "strong": true
-                },
-                {
-                  "text": " orientación y postulación a programas según cada situación. Los horarios y documentos varían; revisá la sede y requisitos antes de ir."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Postulaciones para programas sociales",
-                  "href": "https://buenosaires.gob.ar/tramites/postulaciones-para-programas-sociales"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://buenosaires.gob.ar/tramites/postulaciones-para-programas-sociales",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "atencion-ciudadana-147",
-          "name": "Atención ciudadana — 147",
+          "title": "Atención ciudadana — 147",
+          "description": "Teléfono: 147.\nServicio: información sobre oficinas, hospitales y trámites de la Ciudad. Para una persona que necesita cama o intervención en calle, usá directamente el 108.\nTeléfonos útiles de la Ciudad",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Teléfono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "147",
-                  "href": "tel:147"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Servicio:",
-                  "strong": true
-                },
-                {
-                  "text": " información sobre oficinas, hospitales y trámites de la Ciudad. Para una persona que necesita cama o intervención en calle, usá directamente el 108."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Teléfonos útiles de la Ciudad",
-                  "href": "https://buenosaires.gob.ar/desarrollohumanoyhabitat/red-de-atencion-0"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "147",
+          "website": "https://buenosaires.gob.ar/desarrollohumanoyhabitat/red-de-atencion-0",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
-      "id": "work",
-      "title": "7. Trabajo y capacitación",
-      "items": [
+      "id": "employment",
+      "title": "Trabajo y capacitación",
+      "entries": [
         {
-          "type": "resource",
           "id": "trabajoba-direccion-general-de-empleo",
-          "name": "TrabajoBA — Dirección General de Empleo",
+          "title": "TrabajoBA — Dirección General de Empleo",
+          "description": "Teléfono: 11 4131-5900; correo: trabajoba@buenosaires.gob.ar\nServicio: orientación y acceso a ofertas de empleo. Consultá requisitos, atención presencial y documentación antes de ir.\nContacto oficial de TrabajoBA",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Dirección:",
-                  "strong": true
-                },
-                {
-                  "text": " Bartolomé Mitre 575, piso 1"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Teléfono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "11 4131-5900",
-                  "href": "tel:+541141315900"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "correo:",
-                  "strong": true
-                },
-                {
-                  "text": " trabajoba@buenosaires.gob.ar"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Servicio:",
-                  "strong": true
-                },
-                {
-                  "text": " orientación y acceso a ofertas de empleo. Consultá requisitos, atención presencial y documentación antes de ir."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Contacto oficial de TrabajoBA",
-                  "href": "https://trabajo.buenosaires.gob.ar/contacto"
-                }
-              ]
-            }
-          ]
+          "address": "Dirección: Bartolomé Mitre 575, piso 1",
+          "phone": "+541141315900",
+          "website": "https://trabajo.buenosaires.gob.ar/contacto",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "san-cayetano-orientacion-laboral",
-          "name": "San Cayetano — orientación laboral",
+          "title": "San Cayetano — orientación laboral",
+          "description": "Servicio: currículum, entrevista, búsqueda de trabajo, cooperativas y cursos como cuidados, panadería, electricidad, informática y jardinería. Confirmá cursos y cupos actuales.\nÁrea laboral y capacitación",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Dirección:",
-                  "strong": true
-                },
-                {
-                  "text": " Cuzco 220, Liniers"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Servicio:",
-                  "strong": true
-                },
-                {
-                  "text": " currículum, entrevista, búsqueda de trabajo, cooperativas y cursos como cuidados, panadería, electricidad, informática y jardinería. Confirmá cursos y cupos actuales."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Área laboral y capacitación",
-                  "href": "https://www.sancayetano.org.ar/servicio-social/"
-                }
-              ]
-            }
-          ]
+          "address": "Dirección: Cuzco 220, Liniers",
+          "phone": "",
+          "website": "https://www.sancayetano.org.ar/servicio-social/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "amigos-en-el-camino-saca-t",
-          "name": "Amigos en el Camino — SACA-T",
+          "title": "Amigos en el Camino — SACA-T",
+          "description": "Teléfono: 11 3910-2998.\nServicio: acompañamiento para salir de la calle mediante trabajo y provisión de insumos para el primer empleo. La ayuda depende de evaluación y recursos disponibles.\nPrograma de inserción laboral",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Teléfono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "11 3910-2998",
-                  "href": "tel:+541139102998"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Servicio:",
-                  "strong": true
-                },
-                {
-                  "text": " acompañamiento para salir de la calle mediante trabajo y provisión de insumos para el primer empleo. La ayuda depende de evaluación y recursos disponibles."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Programa de inserción laboral",
-                  "href": "https://buenosaires.gob.ar/organizacion-civil/asociacion-civil-amigos-en-el-camino"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "documents",
-      "title": "8. DNI y documentación",
-      "items": [
-        {
-          "type": "resource",
-          "id": "programa-identificar-renaper",
-          "name": "Programa Identificar — RENAPER",
-          "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "WhatsApp:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "+54 9 11 5805-8813",
-                  "href": "tel:+5491158058813"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "correo:",
-                  "strong": true
-                },
-                {
-                  "text": " identificar@renaper.gob.ar"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Servicio:",
-                  "strong": true
-                },
-                {
-                  "text": " acompañamiento para partida de nacimiento, Certificado de Pre-identificación y DNI de personas no documentadas, en situación de calle, violencia u otra vulnerabilidad."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "RENAPER — Programa Identificar",
-                  "href": "https://www.argentina.gob.ar/interior/renaper/programa-identificar"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "tramite-de-dni",
-          "name": "Trámite de DNI",
-          "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Orientación:",
-                  "strong": true
-                },
-                {
-                  "text": " centros de documentación RENAPER y registros civiles. La modalidad, turno, costo y requisitos dependen del trámite."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Consejo:",
-                  "strong": true
-                },
-                {
-                  "text": " si nunca tuviste DNI o no podés cumplir los requisitos por estar en calle, usá primero el Programa Identificar o pedí acompañamiento al 108."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Argentina.gob.ar — tramitar el DNI",
-                  "href": "https://www.argentina.gob.ar/interior/dni"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "documentacion-desde-un-centro-de-inclusion",
-          "name": "Documentación desde un Centro de Inclusión",
-          "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ingreso:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "108",
-                  "href": "tel:108"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Servicio:",
-                  "strong": true
-                },
-                {
-                  "text": " el equipo profesional evalúa y orienta el acceso a documentación, salud, salud mental y otros beneficios. Llevá cualquier copia o dato de documentos anteriores."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Servicios de los Centros de Inclusión Social",
-                  "href": "https://buenosaires.gob.ar/desarrollohumanoyhabitat/centros-de-inclusion-social"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+541139102998",
+          "website": "https://buenosaires.gob.ar/organizacion-civil/asociacion-civil-amigos-en-el-camino",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
       "id": "legal",
-      "title": "9. Asistencia jurídica",
-      "items": [
+      "title": "Asistencia jurídica",
+      "entries": [
         {
-          "type": "resource",
           "id": "servicios-juridicos-a-la-comunidad",
-          "name": "Servicios jurídicos a la comunidad",
+          "title": "Servicios jurídicos a la comunidad",
+          "description": "Teléfono: 11 4323-9200, interno 7522.\nServicio: asesoramiento y patrocinio gratuito en familia y violencia doméstica para residentes vulnerables de CABA. Existen requisitos de ingresos; víctimas de violencia familiar reciben atención sin depender de su patrimonio.\nProcuración General — servicio gratuito",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Dirección:",
-                  "strong": true
-                },
-                {
-                  "text": " Uruguay 432, lunes a viernes de 10:00 a 14:00"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Teléfono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "11 4323-9200",
-                  "href": "tel:+541143239200"
-                },
-                {
-                  "text": ", interno 7522."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Servicio:",
-                  "strong": true
-                },
-                {
-                  "text": " asesoramiento y patrocinio gratuito en familia y violencia doméstica para residentes vulnerables de CABA. Existen requisitos de ingresos; víctimas de violencia familiar reciben atención sin depender de su patrimonio."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Procuración General — servicio gratuito",
-                  "href": "https://buenosaires.gob.ar/tramites/servicios-juridicos-la-comunidad"
-                }
-              ]
-            }
-          ]
+          "address": "Dirección: Uruguay 432, lunes a viernes de 10:00 a 14:00",
+          "phone": "+541143239200",
+          "website": "https://buenosaires.gob.ar/tramites/servicios-juridicos-la-comunidad",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "consultorio-juridico-gratuito-del-cpacf",
-          "name": "Consultorio Jurídico Gratuito del CPACF",
+          "title": "Consultorio Jurídico Gratuito del CPACF",
+          "description": "Turnos e información: 11 4379-8700, interno 249.\nServicio: asesoramiento y patrocinio para personas sin recursos. La atención sin turno se publica de martes a jueves de 09:00 a 13:00; confirmá antes de ir.\nGuía jurídica oficial — CPACF",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Dirección:",
-                  "strong": true
-                },
-                {
-                  "text": " Uruguay 412, 2.º piso"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Turnos e información:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "11 4379-8700",
-                  "href": "tel:+541143798700"
-                },
-                {
-                  "text": ", interno 249."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Servicio:",
-                  "strong": true
-                },
-                {
-                  "text": " asesoramiento y patrocinio para personas sin recursos. La atención sin turno se publica de martes a jueves de 09:00 a 13:00; confirmá antes de ir."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Guía jurídica oficial — CPACF",
-                  "href": "https://buenosaires.gob.ar/gcaba_historico/guiajuridicagratuita/colegio-publico-de-abogados-de-la-capital-federal-cpacf-0"
-                }
-              ]
-            }
-          ]
+          "address": "Dirección: Uruguay 412, 2.º piso",
+          "phone": "+541143798700",
+          "website": "https://buenosaires.gob.ar/gcaba_historico/guiajuridicagratuita/colegio-publico-de-abogados-de-la-capital-federal-cpacf-0",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "centros-de-acceso-a-justicia",
-          "name": "Centros de Acceso a Justicia",
+          "title": "Centros de Acceso a Justicia",
+          "description": "Teléfono de referencia: 11 4370-0591 / 11 4370-0566.\nServicio: atención legal primaria, prestaciones sociales, mediación comunitaria y acceso a patrocinio gratuito. Pedí la sede activa más cercana y su horario.\nCentros de Acceso a Justicia",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Teléfono de referencia:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "11 4370-0591",
-                  "href": "tel:+541143700591"
-                },
-                {
-                  "text": " / "
-                },
-                {
-                  "text": "11 4370-0566",
-                  "href": "tel:+541143700566"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Servicio:",
-                  "strong": true
-                },
-                {
-                  "text": " atención legal primaria, prestaciones sociales, mediación comunitaria y acceso a patrocinio gratuito. Pedí la sede activa más cercana y su horario."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Centros de Acceso a Justicia",
-                  "href": "https://buenosaires.gob.ar/gcaba_historico/proveedor/centro-de-acceso-justicia-caj"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+541143700591",
+          "website": "https://buenosaires.gob.ar/gcaba_historico/proveedor/centro-de-acceso-justicia-caj",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "patrocinio-penal-gratuito-para-victimas",
-          "name": "Patrocinio penal gratuito para víctimas",
+          "title": "Patrocinio penal gratuito para víctimas",
+          "description": "WhatsApp: 11 4094-5901; correo: patrocinio.victimas@buenosaires.gob.ar\nServicio: asesoramiento y patrocinio penal para residentes de CABA víctimas o testigos de determinados delitos graves. La atención presencial es sólo con cita.\nPatrocinio penal gratuito",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "WhatsApp:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "11 4094-5901",
-                  "href": "tel:+541140945901"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "correo:",
-                  "strong": true
-                },
-                {
-                  "text": " patrocinio.victimas@buenosaires.gob.ar"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Servicio:",
-                  "strong": true
-                },
-                {
-                  "text": " asesoramiento y patrocinio penal para residentes de CABA víctimas o testigos de determinados delitos graves. La atención presencial es sólo con cita."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Patrocinio penal gratuito",
-                  "href": "https://buenosaires.gob.ar/gcaba_historico/justicia/patrocinio-penal-gratuito"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+541140945901",
+          "website": "https://buenosaires.gob.ar/gcaba_historico/justicia/patrocinio-penal-gratuito",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
-      "id": "safety",
-      "title": "10. Mujeres, niñez y seguridad",
-      "items": [
+      "id": "documents",
+      "title": "DNI y documentación",
+      "entries": [
         {
-          "type": "resource",
-          "id": "linea-144-violencia-de-genero",
-          "name": "Línea 144 — violencia de género",
+          "id": "programa-identificar-renaper",
+          "title": "Programa Identificar — RENAPER",
+          "description": "WhatsApp: +54 9 11 5805-8813; correo: identificar@renaper.gob.ar\nServicio: acompañamiento para partida de nacimiento, Certificado de Pre-identificación y DNI de personas no documentadas, en situación de calle, violencia u otra vulnerabilidad.\nRENAPER — Programa Identificar",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Teléfono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "144",
-                  "href": "tel:144"
-                },
-                {
-                  "text": ", gratis y las 24 horas."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Servicio:",
-                  "strong": true
-                },
-                {
-                  "text": " escucha, contención y asesoramiento psicológico, jurídico y social ante violencia física, psicológica, sexual, económica o patrimonial. Ante ataque o peligro inmediato llamá al 911."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Guía oficial de contención y servicios",
-                  "href": "https://buenosaires.gob.ar/sites/default/files/2024-11/guia%20para%20jefas%20de%20familia%20pdf%20con%20hipervinculos_0.pdf"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+5491158058813",
+          "website": "https://www.argentina.gob.ar/interior/renaper/programa-identificar",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
-          "id": "linea-102-ninez-y-adolescencia",
-          "name": "Línea 102 — niñez y adolescencia",
+          "id": "tramite-de-dni",
+          "title": "Trámite de DNI",
+          "description": "Orientación: centros de documentación RENAPER y registros civiles. La modalidad, turno, costo y requisitos dependen del trámite.\nConsejo: si nunca tuviste DNI o no podés cumplir los requisitos por estar en calle, usá primero el Programa Identificar o pedí acompañamiento al 108.\nArgentina.gob.ar — tramitar el DNI",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Teléfono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "102",
-                  "href": "tel:102"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Servicio:",
-                  "strong": true
-                },
-                {
-                  "text": " orientación y protección de derechos de niñas, niños y adolescentes. Informá si están solos, en calle, sin alimento o expuestos a violencia; en emergencia llamá también al 911 o 107."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Teléfonos oficiales de la Ciudad",
-                  "href": "https://buenosaires.gob.ar/gcaba_historico/salud/salud-mental/atencion-telefonica"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.argentina.gob.ar/interior/dni",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
-          "id": "centros-integrales-de-la-mujer",
-          "name": "Centros Integrales de la Mujer",
+          "id": "documentacion-desde-un-centro-de-inclusion",
+          "title": "Documentación desde un Centro de Inclusión",
+          "description": "Servicio: el equipo profesional evalúa y orienta el acceso a documentación, salud, salud mental y otros beneficios. Llevá cualquier copia o dato de documentos anteriores.\nServicios de los Centros de Inclusión Social",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Derivación:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "144",
-                  "href": "tel:144"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Servicio:",
-                  "strong": true
-                },
-                {
-                  "text": " asistencia gratuita psicológica y social, orientación y patrocinio jurídico. Se puede consultar por teléfono o personalmente; el centro coordina entrevistas y, si hay riesgo grave, un refugio seguro."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Guía 2025 de servicios por violencia",
-                  "href": "https://buenosaires.gob.ar/sites/default/files/2025-08/202400613%20-%20GUIA%20DE%20SERVICIOS%20SOCIALES%202025%20%285%29.pdf"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "alojamiento-para-mujeres-madres-y-familias",
-          "name": "Alojamiento para mujeres, madres y familias",
-          "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Acceso:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "108",
-                  "href": "tel:108"
-                },
-                {
-                  "text": "; si hay violencia, "
-                },
-                {
-                  "text": "144",
-                  "href": "tel:144"
-                },
-                {
-                  "text": "; en peligro inmediato, 911."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Servicio:",
-                  "strong": true
-                },
-                {
-                  "text": " la Ciudad dispone de centros adaptados a familias y mujeres con hijas e hijos. Decí expresamente si existe una amenaza para evitar una derivación insegura."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Red de Atención e Inclusión Social",
-                  "href": "https://buenosaires.gob.ar/desarrollohumanoyhabitat/red-de-atencion-0"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "108",
+          "website": "https://buenosaires.gob.ar/desarrollohumanoyhabitat/centros-de-inclusion-social",
+          "hours": "",
+          "how_to_access": "Ingreso: 108."
         }
       ]
+    },
+    {
+      "id": "mail",
+      "title": "Mailing address",
+      "entries": []
+    },
+    {
+      "id": "storage",
+      "title": "Storage",
+      "entries": []
+    },
+    {
+      "id": "safety",
+      "title": "Mujeres, niñez y seguridad",
+      "entries": [
+        {
+          "id": "linea-144-violencia-de-genero",
+          "title": "Línea 144 — violencia de género",
+          "description": "Teléfono: 144, gratis y las 24 horas.\nServicio: escucha, contención y asesoramiento psicológico, jurídico y social ante violencia física, psicológica, sexual, económica o patrimonial. Ante ataque o peligro inmediato llamá al 911.\nGuía oficial de contención y servicios",
+          "last_verified": "2026-11-10",
+          "address": "",
+          "phone": "144",
+          "website": "https://buenosaires.gob.ar/sites/default/files/2024-11/guia%20para%20jefas%20de%20familia%20pdf%20con%20hipervinculos_0.pdf",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "linea-102-ninez-y-adolescencia",
+          "title": "Línea 102 — niñez y adolescencia",
+          "description": "Teléfono: 102.\nServicio: orientación y protección de derechos de niñas, niños y adolescentes. Informá si están solos, en calle, sin alimento o expuestos a violencia; en emergencia llamá también al 911 o 107.\nTeléfonos oficiales de la Ciudad",
+          "last_verified": "2026-11-10",
+          "address": "",
+          "phone": "102",
+          "website": "https://buenosaires.gob.ar/gcaba_historico/salud/salud-mental/atencion-telefonica",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "centros-integrales-de-la-mujer",
+          "title": "Centros Integrales de la Mujer",
+          "description": "Derivación: 144.\nServicio: asistencia gratuita psicológica y social, orientación y patrocinio jurídico. Se puede consultar por teléfono o personalmente; el centro coordina entrevistas y, si hay riesgo grave, un refugio seguro.\nGuía 2025 de servicios por violencia",
+          "last_verified": "2026-11-10",
+          "address": "",
+          "phone": "144",
+          "website": "https://buenosaires.gob.ar/sites/default/files/2025-08/202400613%20-%20GUIA%20DE%20SERVICIOS%20SOCIALES%202025%20%285%29.pdf",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "alojamiento-para-mujeres-madres-y-familias",
+          "title": "Alojamiento para mujeres, madres y familias",
+          "description": "Servicio: la Ciudad dispone de centros adaptados a familias y mujeres con hijas e hijos. Decí expresamente si existe una amenaza para evitar una derivación insegura.\nRed de Atención e Inclusión Social",
+          "last_verified": "2026-11-10",
+          "address": "",
+          "phone": "108",
+          "website": "https://buenosaires.gob.ar/desarrollohumanoyhabitat/red-de-atencion-0",
+          "hours": "",
+          "how_to_access": "Acceso: 108; si hay violencia, 144; en peligro inmediato, 911."
+        }
+      ]
+    },
+    {
+      "id": "specialist-support",
+      "title": "Specialist support",
+      "entries": []
+    },
+    {
+      "id": "veterans",
+      "title": "Veterans support",
+      "entries": []
+    },
+    {
+      "id": "pets",
+      "title": "Help for people with pets",
+      "entries": []
+    },
+    {
+      "id": "other",
+      "title": "Other useful resources",
+      "entries": []
     }
   ]
 }

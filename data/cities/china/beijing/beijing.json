@@ -1,6 +1,7 @@
 {
   "$schema": "https://nohomehelp.com/schemas/city.schema.json",
-  "schema_version": 1,
+  "documentation": "https://github.com/carlosbranco/no-home-help/blob/main/EDIT_CITY_JSON.md",
+  "schema_version": 2,
   "status": "published",
   "locale": {
     "language": "zh-Hans",
@@ -26,1747 +27,461 @@
   "page": {
     "heading": "北京 — 无家可归及临时遇困援助",
     "last_verified": "2026-11-10",
-    "urgent": [
-      {
-        "type": "paragraph",
-        "content": [
-          {
-            "text": "人身危险、暴力或犯罪:",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "110",
-            "href": "tel:110"
-          },
-          {
-            "break": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "火灾:",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "119",
-            "href": "tel:119"
-          },
-          {
-            "break": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "危重疾病或严重受伤:",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "120",
-            "href": "tel:120"
-          },
-          {
-            "break": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "今晚露宿街头或不知道去哪里:",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "12345",
-            "href": "tel:12345"
-          },
-          {
-            "text": "，请求联系所在区救助站"
-          },
-          {
-            "break": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "心理危机:",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "12356",
-            "href": "tel:12356"
-          }
-        ]
-      }
-    ],
-    "notice": [
-      {
-        "text": "开放时间、地址、床位和申请条件可能改变。",
-        "strong": true
-      },
-      {
-        "text": " 出发前请先电话确认。任何机构都不能保证当天一定能提供床位、现金、食物、医疗费用或工作。救助站提供的是自愿、免费的临时救助，不是长期住房。"
-      }
-    ],
-    "intro": [
-      {
-        "type": "paragraph",
-        "content": [
-          {
-            "text": "求助时请说明你现在的位置、今晚有没有安全住处、是否有食物、身体状况、是否带着儿童、是否遭受暴力、有没有身份证件和返乡需要。如果无法自己前往，或发现未成年人、老人、残疾人、行动不便者露宿街头，请拨打110或12345并说明准确位置。"
-          }
-        ]
-      }
-    ],
-    "footer": [
-      {
-        "type": "paragraph",
-        "content": [
-          {
-            "text": "No Home Help不收取费用，也不代表任何列出的机构。紧急情况请使用当地紧急电话。"
-          }
-        ]
-      }
-    ]
+    "urgent": "人身危险、暴力或犯罪: 110 火灾: 119 危重疾病或严重受伤: 120 今晚露宿街头或不知道去哪里: 12345，请求联系所在区救助站 心理危机: 12356",
+    "notice": "开放时间、地址、床位和申请条件可能改变。 出发前请先电话确认。任何机构都不能保证当天一定能提供床位、现金、食物、医疗费用或工作。救助站提供的是自愿、免费的临时救助，不是长期住房。",
+    "intro": "求助时请说明你现在的位置、今晚有没有安全住处、是否有食物、身体状况、是否带着儿童、是否遭受暴力、有没有身份证件和返乡需要。如果无法自己前往，或发现未成年人、老人、残疾人、行动不便者露宿街头，请拨打110或12345并说明准确位置。",
+    "footer": "No Home Help不收取费用，也不代表任何列出的机构。紧急情况请使用当地紧急电话。"
   },
   "categories": [
     {
       "id": "emergency",
-      "title": "1. 紧急情况和公共热线",
-      "items": [
+      "title": "紧急情况和公共热线",
+      "entries": [
         {
-          "type": "resource",
           "id": "110",
-          "name": "公安报警 — 110",
+          "title": "公安报警 — 110",
+          "description": "电话: 110\n何时使用: 正在发生的暴力、犯罪、人身威胁、严重纠纷，或者需要警方紧急保护和协助时。告诉接警员准确位置、发生了什么和是否有人受伤。\n北京市便民常用电话查询",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "电话:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "110",
-                  "href": "tel:110"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "何时使用:",
-                  "strong": true
-                },
-                {
-                  "text": " 正在发生的暴力、犯罪、人身威胁、严重纠纷，或者需要警方紧急保护和协助时。告诉接警员准确位置、发生了什么和是否有人受伤。"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "北京市便民常用电话查询",
-                  "href": "https://www.beijing.gov.cn/fwcj/dianhuafw/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "110",
+          "website": "https://www.beijing.gov.cn/fwcj/dianhuafw/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "119-120",
-          "name": "消防和医疗急救 — 119 / 120",
+          "title": "消防和医疗急救 — 119 / 120",
+          "description": "火灾、浓烟或被困: 119\n危重疾病、意识不清、呼吸困难、严重受伤: 120\n重要: 危重症状直接拨120，不要先步行去较远的救助站。说明患者症状、所在街道、附近地标和联系电话。\n北京市便民常用电话查询",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "火灾、浓烟或被困:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "119",
-                  "href": "tel:119"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "危重疾病、意识不清、呼吸困难、严重受伤:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "120",
-                  "href": "tel:120"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "重要:",
-                  "strong": true
-                },
-                {
-                  "text": " 危重症状直接拨120，不要先步行去较远的救助站。说明患者症状、所在街道、附近地标和联系电话。"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "北京市便民常用电话查询",
-                  "href": "https://www.beijing.gov.cn/fwcj/dianhuafw/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "119",
+          "website": "https://www.beijing.gov.cn/fwcj/dianhuafw/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "12345",
-          "name": "北京12345市民热线",
+          "title": "北京12345市民热线",
+          "description": "电话: 12345 或 010-12345\n可以求助: 报告有人露宿街头，询问所在区救助站、街道社会救助窗口、临时救助、医疗救助、妇女儿童保护和其他非紧急公共服务。\n重要: 这是非紧急服务。人身危险、火灾或危重疾病请拨110、119或120。\n北京市政府热线查询",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "电话:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "12345",
-                  "href": "tel:12345"
-                },
-                {
-                  "text": " 或 "
-                },
-                {
-                  "text": "010-12345",
-                  "href": "tel:+861012345"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "可以求助:",
-                  "strong": true
-                },
-                {
-                  "text": " 报告有人露宿街头，询问所在区救助站、街道社会救助窗口、临时救助、医疗救助、妇女儿童保护和其他非紧急公共服务。"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "重要:",
-                  "strong": true
-                },
-                {
-                  "text": " 这是非紧急服务。人身危险、火灾或危重疾病请拨110、119或120。"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "北京市政府热线查询",
-                  "href": "https://www.beijing.gov.cn/fwcj/dianhuafw/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "12345",
+          "website": "https://www.beijing.gov.cn/fwcj/dianhuafw/",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
       "id": "shelter",
-      "title": "2. 临时住宿和救助站",
-      "items": [
+      "title": "临时住宿和救助站",
+      "entries": [
         {
-          "type": "paragraph",
-          "content": [
-            {
-              "text": "救助站面向生活无着、露宿街头或因务工不着、被偷被骗、寻亲不遇等暂时陷入困境且无处居住的人，提供免费、自愿、临时的基本食宿、急病转送、联系亲属和返乡协助。入站需要登记和核实情况，不能作为长期住房。以下地址和电话来自北京市民政局救助机构数据；出发前先电话确认。"
-            }
-          ]
-        },
-        {
-          "type": "resource",
           "id": "item",
-          "name": "东城区救助站",
+          "title": "东城区救助站",
+          "description": "救助站面向生活无着、露宿街头或因务工不着、被偷被骗、寻亲不遇等暂时陷入困境且无处居住的人，提供免费、自愿、临时的基本食宿、急病转送、联系亲属和返乡协助。入站需要登记和核实情况，不能作为长期住房。以下地址和电话来自北京市民政局救助机构数据；出发前先电话确认。\n值班电话: 010-67160805\n北京市救助站官方数据",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "地址:",
-                  "strong": true
-                },
-                {
-                  "text": " 东城区永外桃园东里6-1号"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "值班电话:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "010-67160805",
-                  "href": "tel:+861067160805"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "北京市救助站官方数据",
-                  "href": "https://data.beijing.gov.cn/dataDetail/sjyl/%E5%8C%97%E4%BA%AC%E5%B8%82%E6%B0%91%E6%94%BF%E5%B1%80/%E6%95%91%E5%8A%A9%E7%AB%99%E4%BF%A1%E6%81%AF/%E6%95%91%E5%8A%A9%E7%AB%99%E4%BF%A1%E6%81%AF.html"
-                }
-              ]
-            }
-          ]
+          "address": "地址: 东城区永外桃园东里6-1号",
+          "phone": "+861067160805",
+          "website": "https://data.beijing.gov.cn/dataDetail/sjyl/%E5%8C%97%E4%BA%AC%E5%B8%82%E6%B0%91%E6%94%BF%E5%B1%80/%E6%95%91%E5%8A%A9%E7%AB%99%E4%BF%A1%E6%81%AF/%E6%95%91%E5%8A%A9%E7%AB%99%E4%BF%A1%E6%81%AF.html",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "item-2",
-          "name": "西城区救助站",
+          "title": "西城区救助站",
+          "description": "值班电话: 010-63464201\n北京市救助站官方数据",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "地址:",
-                  "strong": true
-                },
-                {
-                  "text": " 西城区广外小红庙甲11号"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "值班电话:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "010-63464201",
-                  "href": "tel:+861063464201"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "北京市救助站官方数据",
-                  "href": "https://data.beijing.gov.cn/dataDetail/sjyl/%E5%8C%97%E4%BA%AC%E5%B8%82%E6%B0%91%E6%94%BF%E5%B1%80/%E6%95%91%E5%8A%A9%E7%AB%99%E4%BF%A1%E6%81%AF/%E6%95%91%E5%8A%A9%E7%AB%99%E4%BF%A1%E6%81%AF.html"
-                }
-              ]
-            }
-          ]
+          "address": "地址: 西城区广外小红庙甲11号",
+          "phone": "+861063464201",
+          "website": "https://data.beijing.gov.cn/dataDetail/sjyl/%E5%8C%97%E4%BA%AC%E5%B8%82%E6%B0%91%E6%94%BF%E5%B1%80/%E6%95%91%E5%8A%A9%E7%AB%99%E4%BF%A1%E6%81%AF/%E6%95%91%E5%8A%A9%E7%AB%99%E4%BF%A1%E6%81%AF.html",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "item-3",
-          "name": "朝阳区救助站",
+          "title": "朝阳区救助站",
+          "description": "值班电话: 010-84394991\n北京市救助站官方数据",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "地址:",
-                  "strong": true
-                },
-                {
-                  "text": " 朝阳区金盏乡楼梓庄东高路临31号"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "值班电话:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "010-84394991",
-                  "href": "tel:+861084394991"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "北京市救助站官方数据",
-                  "href": "https://data.beijing.gov.cn/dataDetail/sjyl/%E5%8C%97%E4%BA%AC%E5%B8%82%E6%B0%91%E6%94%BF%E5%B1%80/%E6%95%91%E5%8A%A9%E7%AB%99%E4%BF%A1%E6%81%AF/%E6%95%91%E5%8A%A9%E7%AB%99%E4%BF%A1%E6%81%AF.html"
-                }
-              ]
-            }
-          ]
+          "address": "地址: 朝阳区金盏乡楼梓庄东高路临31号",
+          "phone": "+861084394991",
+          "website": "https://data.beijing.gov.cn/dataDetail/sjyl/%E5%8C%97%E4%BA%AC%E5%B8%82%E6%B0%91%E6%94%BF%E5%B1%80/%E6%95%91%E5%8A%A9%E7%AB%99%E4%BF%A1%E6%81%AF/%E6%95%91%E5%8A%A9%E7%AB%99%E4%BF%A1%E6%81%AF.html",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "item-4",
-          "name": "海淀区救助站",
+          "title": "海淀区救助站",
+          "description": "值班电话: 010-82771220\n北京市救助站官方数据",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "地址:",
-                  "strong": true
-                },
-                {
-                  "text": " 海淀区西北旺镇唐家岭村41区"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "值班电话:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "010-82771220",
-                  "href": "tel:+861082771220"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "北京市救助站官方数据",
-                  "href": "https://data.beijing.gov.cn/dataDetail/sjyl/%E5%8C%97%E4%BA%AC%E5%B8%82%E6%B0%91%E6%94%BF%E5%B1%80/%E6%95%91%E5%8A%A9%E7%AB%99%E4%BF%A1%E6%81%AF/%E6%95%91%E5%8A%A9%E7%AB%99%E4%BF%A1%E6%81%AF.html"
-                }
-              ]
-            }
-          ]
+          "address": "地址: 海淀区西北旺镇唐家岭村41区",
+          "phone": "+861082771220",
+          "website": "https://data.beijing.gov.cn/dataDetail/sjyl/%E5%8C%97%E4%BA%AC%E5%B8%82%E6%B0%91%E6%94%BF%E5%B1%80/%E6%95%91%E5%8A%A9%E7%AB%99%E4%BF%A1%E6%81%AF/%E6%95%91%E5%8A%A9%E7%AB%99%E4%BF%A1%E6%81%AF.html",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "item-5",
-          "name": "丰台区救助站",
+          "title": "丰台区救助站",
+          "description": "值班电话: 010-83884107\n北京市救助站官方数据",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "地址:",
-                  "strong": true
-                },
-                {
-                  "text": " 丰台区大灰厂村578号"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "值班电话:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "010-83884107",
-                  "href": "tel:+861083884107"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "北京市救助站官方数据",
-                  "href": "https://data.beijing.gov.cn/dataDetail/sjyl/%E5%8C%97%E4%BA%AC%E5%B8%82%E6%B0%91%E6%94%BF%E5%B1%80/%E6%95%91%E5%8A%A9%E7%AB%99%E4%BF%A1%E6%81%AF/%E6%95%91%E5%8A%A9%E7%AB%99%E4%BF%A1%E6%81%AF.html"
-                }
-              ]
-            }
-          ]
+          "address": "地址: 丰台区大灰厂村578号",
+          "phone": "+861083884107",
+          "website": "https://data.beijing.gov.cn/dataDetail/sjyl/%E5%8C%97%E4%BA%AC%E5%B8%82%E6%B0%91%E6%94%BF%E5%B1%80/%E6%95%91%E5%8A%A9%E7%AB%99%E4%BF%A1%E6%81%AF/%E6%95%91%E5%8A%A9%E7%AB%99%E4%BF%A1%E6%81%AF.html",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "item-6",
-          "name": "石景山区救助站",
+          "title": "石景山区救助站",
+          "description": "值班电话: 010-88950502\n其他区: 门头沟、房山、通州、顺义及其他区也有救助站。不确定管辖或无法自行前往时拨12345，说明当前位置和行动困难。\n北京市民政局2026年救助机构数据",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "地址:",
-                  "strong": true
-                },
-                {
-                  "text": " 石景山区黑石头村中街2号"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "值班电话:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "010-88950502",
-                  "href": "tel:+861088950502"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "其他区:",
-                  "strong": true
-                },
-                {
-                  "text": " 门头沟、房山、通州、顺义及其他区也有救助站。不确定管辖或无法自行前往时拨12345，说明当前位置和行动困难。"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "北京市民政局2026年救助机构数据",
-                  "href": "https://data.beijing.gov.cn/zyml/ajg/smzj/e0300a6fd6774e418f8a0be9456a5c5f.htm"
-                }
-              ]
-            }
-          ]
+          "address": "地址: 石景山区黑石头村中街2号",
+          "phone": "+861088950502",
+          "website": "https://data.beijing.gov.cn/zyml/ajg/smzj/e0300a6fd6774e418f8a0be9456a5c5f.htm",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
       "id": "food",
-      "title": "3. 食物和基本生活物资",
-      "items": [
+      "title": "食物和基本生活物资",
+      "entries": [
         {
-          "type": "resource",
           "id": "item",
-          "name": "救助站内基本食宿",
+          "title": "救助站内基本食宿",
+          "description": "内容: 对符合临时救助条件的人，救助站可提供符合基本卫生和安全需要的食物、住处、洗浴、通讯联系、急病转送和返乡协助，不向受助者收费。\n如何申请: 联系所在区救助站或拨12345，说明你没有食物、今晚没有安全住处、目前位置和健康状况。\n北京市民政局救助机构信息",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "内容:",
-                  "strong": true
-                },
-                {
-                  "text": " 对符合临时救助条件的人，救助站可提供符合基本卫生和安全需要的食物、住处、洗浴、通讯联系、急病转送和返乡协助，不向受助者收费。"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "如何申请:",
-                  "strong": true
-                },
-                {
-                  "text": " 联系所在区救助站或拨12345，说明你没有食物、今晚没有安全住处、目前位置和健康状况。"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "北京市民政局救助机构信息",
-                  "href": "https://data.beijing.gov.cn/zyml/ajg/smzj/e0300a6fd6774e418f8a0be9456a5c5f.htm"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://data.beijing.gov.cn/zyml/ajg/smzj/e0300a6fd6774e418f8a0be9456a5c5f.htm",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "item-2",
-          "name": "街道临时救助 — 食物、衣物和临时住所",
+          "title": "街道临时救助 — 食物、衣物和临时住所",
+          "description": "申请地点: 户籍地或住所地街道办事处、乡镇人民政府。情况紧急时，区民政部门和街镇应先行采取措施保障基本生活。\n可能提供: 临时救助金，或协调救助站、慈善超市和社会组织提供临时住所、食物、衣物、心理干预及其他服务。\n注意: 需要核实困难情况，不保证每项物资都有库存。没有固定住所时先拨12345说明你当前所在街道。\n北京市社会救助实施办法",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "申请地点:",
-                  "strong": true
-                },
-                {
-                  "text": " 户籍地或住所地街道办事处、乡镇人民政府。情况紧急时，区民政部门和街镇应先行采取措施保障基本生活。"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "可能提供:",
-                  "strong": true
-                },
-                {
-                  "text": " 临时救助金，或协调救助站、慈善超市和社会组织提供临时住所、食物、衣物、心理干预及其他服务。"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "注意:",
-                  "strong": true
-                },
-                {
-                  "text": " 需要核实困难情况，不保证每项物资都有库存。没有固定住所时先拨12345说明你当前所在街道。"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "北京市社会救助实施办法",
-                  "href": "https://sfj.beijing.gov.cn/sfj/index/483217/517522/index1.html"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://sfj.beijing.gov.cn/sfj/index/483217/517522/index1.html",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "item-3",
-          "name": "慈善超市和社区物资援助",
+          "title": "慈善超市和社区物资援助",
+          "description": "内容: 慈善超市利用社会捐赠，为符合条件的困难群众提供食品、衣物和生活用品等物质帮助。\n怎么找: 向所在街道社会救助窗口或12345询问最近仍在运行的慈善超市、领取资格、所需凭证和开放时间。慈善超市并非普通人随到随领的免费商店。\n北京市民政局慈善超市说明",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "内容:",
-                  "strong": true
-                },
-                {
-                  "text": " 慈善超市利用社会捐赠，为符合条件的困难群众提供食品、衣物和生活用品等物质帮助。"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "怎么找:",
-                  "strong": true
-                },
-                {
-                  "text": " 向所在街道社会救助窗口或12345询问最近仍在运行的慈善超市、领取资格、所需凭证和开放时间。慈善超市并非普通人随到随领的免费商店。"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "北京市民政局慈善超市说明",
-                  "href": "https://mzj.beijing.gov.cn/art/2013/9/29/art_371_294648.html"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://mzj.beijing.gov.cn/art/2013/9/29/art_371_294648.html",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
-      "id": "charity",
-      "title": "4. 慈善与社区援助",
-      "items": [
+      "id": "community",
+      "title": "慈善与社区援助",
+      "entries": [
         {
-          "type": "resource",
           "id": "item",
-          "name": "北京市慈善协会",
+          "title": "北京市慈善协会",
+          "description": "热线: 010-62352173\n项目咨询: 010-68336183\n内容: 开展助学、助医、助老、助困和应急救助等项目。先电话说明所在区、具体困难及已经申请的政府救助，询问当前项目和转介方式。\n注意: 不是24小时救助站，也不保证个人直接获得现金、食物或床位；项目通常有对象、材料和审核条件。\n- 协会和救助项目介绍\n- 联系电话 — https://www.bca.org.cn/web/article/402881225914c395015914c4e7f00000/402881dd57da67ec0157da6bad440000.html",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "热线:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "010-62352173",
-                  "href": "tel:+861062352173"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "项目咨询:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "010-68336183",
-                  "href": "tel:+861068336183"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "内容:",
-                  "strong": true
-                },
-                {
-                  "text": " 开展助学、助医、助老、助困和应急救助等项目。先电话说明所在区、具体困难及已经申请的政府救助，询问当前项目和转介方式。"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "注意:",
-                  "strong": true
-                },
-                {
-                  "text": " 不是24小时救助站，也不保证个人直接获得现金、食物或床位；项目通常有对象、材料和审核条件。"
-                }
-              ]
-            },
-            {
-              "type": "list",
-              "items": [
-                [
-                  {
-                    "text": "协会和救助项目介绍",
-                    "href": "https://www.bca.org.cn/web/article/402881225914c395015914c4e7f00000/27.html"
-                  }
-                ],
-                [
-                  {
-                    "text": "联系电话",
-                    "href": "https://www.bca.org.cn/web/article/402881225914c395015914c4e7f00000/402881dd57da67ec0157da6bad440000.html"
-                  }
-                ]
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+861062352173",
+          "website": "https://www.bca.org.cn/web/article/402881225914c395015914c4e7f00000/27.html",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "item-2",
-          "name": "街道民政服务站和社区转介",
+          "title": "街道民政服务站和社区转介",
+          "description": "服务: 协助发现困难、提交社会救助申请、链接慈善资源、社区社会工作、儿童和老年服务，以及向区级民政和慈善机构逐级转介。\n如何找到: 拨12345，提供当前街道或附近地标，询问最近的街道民政服务站、社会救助窗口或社区居委会。\n政府救助与慈善帮扶衔接实施意见",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "服务:",
-                  "strong": true
-                },
-                {
-                  "text": " 协助发现困难、提交社会救助申请、链接慈善资源、社区社会工作、儿童和老年服务，以及向区级民政和慈善机构逐级转介。"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "如何找到:",
-                  "strong": true
-                },
-                {
-                  "text": " 拨12345，提供当前街道或附近地标，询问最近的街道民政服务站、社会救助窗口或社区居委会。"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "政府救助与慈善帮扶衔接实施意见",
-                  "href": "https://mzj.beijing.gov.cn/art/2024/12/26/art_10688_3576.html"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://mzj.beijing.gov.cn/art/2024/12/26/art_10688_3576.html",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
+    },
+    {
+      "id": "hygiene",
+      "title": "Showers, laundry and hygiene",
+      "entries": []
+    },
+    {
+      "id": "clothing",
+      "title": "Clothing",
+      "entries": []
     },
     {
       "id": "health",
-      "title": "5. 医疗和健康",
-      "items": [
+      "title": "医疗和健康",
+      "entries": [
         {
-          "type": "resource",
           "id": "12320",
-          "name": "北京卫生健康热线 — 12320",
+          "title": "北京卫生健康热线 — 12320",
+          "description": "电话: 12320\n服务: 卫生健康政策、就医和公共卫生信息咨询。可询问附近社区卫生服务中心，并说明没有固定住处、证件、医保或支付能力的实际情况。\n紧急情况: 需要救护车请拨120。\n北京市常用热线电话",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "电话:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "12320",
-                  "href": "tel:12320"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "服务:",
-                  "strong": true
-                },
-                {
-                  "text": " 卫生健康政策、就医和公共卫生信息咨询。可询问附近社区卫生服务中心，并说明没有固定住处、证件、医保或支付能力的实际情况。"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "紧急情况:",
-                  "strong": true
-                },
-                {
-                  "text": " 需要救护车请拨120。"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "北京市常用热线电话",
-                  "href": "https://www.beijing.gov.cn/fwcj/dianhuafw/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "12320",
+          "website": "https://www.beijing.gov.cn/fwcj/dianhuafw/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "item",
-          "name": "救助站的急病转送",
+          "title": "救助站的急病转送",
+          "description": "内容: 救助站可对站内突发急病人员安排及时送医。街面发现危重病、严重受伤、意识不清或疑似急性精神危机的露宿者，应先拨120或110并提供位置。\n重要: 入站并不代表所有医疗费用自动免费；向工作人员如实说明医保、证件和支付困难。\n北京市民政局救助机构信息",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "内容:",
-                  "strong": true
-                },
-                {
-                  "text": " 救助站可对站内突发急病人员安排及时送医。街面发现危重病、严重受伤、意识不清或疑似急性精神危机的露宿者，应先拨120或110并提供位置。"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "重要:",
-                  "strong": true
-                },
-                {
-                  "text": " 入站并不代表所有医疗费用自动免费；向工作人员如实说明医保、证件和支付困难。"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "北京市民政局救助机构信息",
-                  "href": "https://data.beijing.gov.cn/zyml/ajg/smzj/e0300a6fd6774e418f8a0be9456a5c5f.htm"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://data.beijing.gov.cn/zyml/ajg/smzj/e0300a6fd6774e418f8a0be9456a5c5f.htm",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "item-2",
-          "name": "困难人员医疗救助",
+          "title": "困难人员医疗救助",
+          "description": "咨询与申请: 向所在街道或乡镇社会救助窗口提出，或拨12345询问“困难人员医疗救助”。\n适用: 特困、低保、低收入及符合因病致贫等条件的人员。需要核实身份、家庭经济和医疗费用，不等于所有无力支付者自动免费。\n同时求助: 因突发重病导致基本生活严重困难时，同时询问临时救助。\n北京市基本公共服务标准中的医疗救助",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "咨询与申请:",
-                  "strong": true
-                },
-                {
-                  "text": " 向所在街道或乡镇社会救助窗口提出，或拨12345询问“困难人员医疗救助”。"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "适用:",
-                  "strong": true
-                },
-                {
-                  "text": " 特困、低保、低收入及符合因病致贫等条件的人员。需要核实身份、家庭经济和医疗费用，不等于所有无力支付者自动免费。"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "同时求助:",
-                  "strong": true
-                },
-                {
-                  "text": " 因突发重病导致基本生活严重困难时，同时询问临时救助。"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "北京市基本公共服务标准中的医疗救助",
-                  "href": "https://www.beijing.gov.cn/zhengce/gfxwj/sj/202406/W020240611366479365775.pdf"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.beijing.gov.cn/zhengce/gfxwj/sj/202406/W020240611366479365775.pdf",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
-      "id": "government",
-      "title": "6. 政府社会救助",
-      "items": [
+      "id": "mental-health",
+      "title": "Mental health and addiction",
+      "entries": []
+    },
+    {
+      "id": "public-facilities",
+      "title": "Public toilets and day facilities",
+      "entries": []
+    },
+    {
+      "id": "phone-internet",
+      "title": "Phone charging and internet",
+      "entries": []
+    },
+    {
+      "id": "transport",
+      "title": "Transport",
+      "entries": []
+    },
+    {
+      "id": "benefits",
+      "title": "政府社会救助",
+      "entries": [
         {
-          "type": "resource",
           "id": "item",
-          "name": "街道或乡镇临时救助",
+          "title": "街道或乡镇临时救助",
+          "description": "适用: 因火灾、交通事故、突发重大疾病或其他特殊原因，暂时无法得到家庭支持、基本生活陷入困境的家庭或个人。\n申请: 向户籍地或住所地街道办事处、乡镇人民政府提出。可发放临时救助金、提供服务或转介其他救助；情况紧急时可先行救助。\n证件不全: 不要放弃求助，先向窗口或12345说明紧急情况、当前住处和能提供的身份信息。\n北京市社会救助实施办法",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "适用:",
-                  "strong": true
-                },
-                {
-                  "text": " 因火灾、交通事故、突发重大疾病或其他特殊原因，暂时无法得到家庭支持、基本生活陷入困境的家庭或个人。"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "申请:",
-                  "strong": true
-                },
-                {
-                  "text": " 向户籍地或住所地街道办事处、乡镇人民政府提出。可发放临时救助金、提供服务或转介其他救助；情况紧急时可先行救助。"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "证件不全:",
-                  "strong": true
-                },
-                {
-                  "text": " 不要放弃求助，先向窗口或12345说明紧急情况、当前住处和能提供的身份信息。"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "北京市社会救助实施办法",
-                  "href": "https://sfj.beijing.gov.cn/sfj/index/483217/517522/index1.html"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://sfj.beijing.gov.cn/sfj/index/483217/517522/index1.html",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "item-2",
-          "name": "社会救助一站式服务",
+          "title": "社会救助一站式服务",
+          "description": "事项: 低保、低收入家庭认定、特困人员供养、临时救助、医疗救助、教育和采暖等专项救助。\n线上入口: 北京市政务服务网社会救助专区。没有手机或不会操作时，可到街道窗口请求线下办理或请居委会协助。\n北京社会救助一站式服务",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "事项:",
-                  "strong": true
-                },
-                {
-                  "text": " 低保、低收入家庭认定、特困人员供养、临时救助、医疗救助、教育和采暖等专项救助。"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "线上入口:",
-                  "strong": true
-                },
-                {
-                  "text": " 北京市政务服务网社会救助专区。没有手机或不会操作时，可到街道窗口请求线下办理或请居委会协助。"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "北京社会救助一站式服务",
-                  "href": "https://banshi.beijing.gov.cn/pubtask/bhyjs/shjz/shjz.html"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://banshi.beijing.gov.cn/pubtask/bhyjs/shjz/shjz.html",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "item-3",
-          "name": "北京市民政局社会救助服务专区",
+          "title": "北京市民政局社会救助服务专区",
+          "description": "可以查询: 低保、低保边缘家庭、特困供养、临时救助、家庭经济状况认定和专项救助政策及申请入口。\n电话帮助: 政策看不懂或不知道找哪个街道时拨12345，明确说“基本生活困难，需要社会救助”。\n北京市民政局社会救助服务专区",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "可以查询:",
-                  "strong": true
-                },
-                {
-                  "text": " 低保、低保边缘家庭、特困供养、临时救助、家庭经济状况认定和专项救助政策及申请入口。"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "电话帮助:",
-                  "strong": true
-                },
-                {
-                  "text": " 政策看不懂或不知道找哪个街道时拨12345，明确说“基本生活困难，需要社会救助”。"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "北京市民政局社会救助服务专区",
-                  "href": "https://mzj.beijing.gov.cn/col/col11040/index.html"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://mzj.beijing.gov.cn/col/col11040/index.html",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
-      "id": "work",
-      "title": "7. 找工作和劳动权益",
-      "items": [
+      "id": "employment",
+      "title": "找工作和劳动权益",
+      "entries": [
         {
-          "type": "resource",
           "id": "12333",
-          "name": "北京人社热线 — 12333",
+          "title": "北京人社热线 — 12333",
+          "description": "电话: 12333 或 010-12333，全天24小时人工服务。\n服务: 就业、失业登记、职业培训、社会保险、劳动权益和投诉举报咨询。说明你没有固定住处或证件不全，请求推荐可线下办理的公共就业服务机构。\n北京12333热线专栏",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "电话:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "12333",
-                  "href": "tel:12333"
-                },
-                {
-                  "text": " 或 "
-                },
-                {
-                  "text": "010-12333",
-                  "href": "tel:+861012333"
-                },
-                {
-                  "text": "，全天24小时人工服务。"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "服务:",
-                  "strong": true
-                },
-                {
-                  "text": " 就业、失业登记、职业培训、社会保险、劳动权益和投诉举报咨询。说明你没有固定住处或证件不全，请求推荐可线下办理的公共就业服务机构。"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "北京12333热线专栏",
-                  "href": "https://rsj.beijing.gov.cn/bm/ztzl/12333rx/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "12333",
+          "website": "https://rsj.beijing.gov.cn/bm/ztzl/12333rx/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "item",
-          "name": "公共就业服务中心和零工服务",
+          "title": "公共就业服务中心和零工服务",
+          "description": "中心城区部分电话: 东城 010-84038687；西城 010-63025864；朝阳 010-57596100转8；海淀 010-68940680。\n- 各区公共就业服务机构一览表\n- 2026年首都公共就业服务地图 — https://www.beijing.gov.cn/fuwu/bmfw/sy/jrts/202603/t20260324_4564313.html",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "中心城区部分电话:",
-                  "strong": true
-                },
-                {
-                  "text": " 东城 "
-                },
-                {
-                  "text": "010-84038687",
-                  "href": "tel:+861084038687"
-                },
-                {
-                  "text": "；西城 "
-                },
-                {
-                  "text": "010-63025864",
-                  "href": "tel:+861063025864"
-                },
-                {
-                  "text": "；朝阳 "
-                },
-                {
-                  "text": "010-57596100转8",
-                  "href": "tel:+861057596100"
-                },
-                {
-                  "text": "；海淀 "
-                },
-                {
-                  "text": "010-68940680",
-                  "href": "tel:+861068940680"
-                },
-                {
-                  "text": "。"
-                }
-              ]
-            },
-            {
-              "type": "list",
-              "items": [
-                [
-                  {
-                    "text": "各区公共就业服务机构一览表",
-                    "href": "https://fuwu.rsj.beijing.gov.cn/jycy/jycs/gghyfwjgylb.html"
-                  }
-                ],
-                [
-                  {
-                    "text": "2026年首都公共就业服务地图",
-                    "href": "https://www.beijing.gov.cn/fuwu/bmfw/sy/jrts/202603/t20260324_4564313.html"
-                  }
-                ]
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+861084038687",
+          "website": "https://fuwu.rsj.beijing.gov.cn/jycy/jycs/gghyfwjgylb.html",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "item-2",
-          "name": "欠薪、黑职介和求职诈骗",
+          "title": "欠薪、黑职介和求职诈骗",
+          "description": "求职时: 不交押金、培训贷或“内推费”，不让招聘方扣押身份证原件。保留劳动合同、工资记录、考勤、聊天记录、工作地点和公司名称。\n投诉: 拨12333或12345询问属地劳动保障监察机构；需要法律意见拨12348。遇限制人身自由、暴力或诈骗立即拨110。\n北京人社部门求职安全提示",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "求职时:",
-                  "strong": true
-                },
-                {
-                  "text": " 不交押金、培训贷或“内推费”，不让招聘方扣押身份证原件。保留劳动合同、工资记录、考勤、聊天记录、工作地点和公司名称。"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "投诉:",
-                  "strong": true
-                },
-                {
-                  "text": " 拨12333或12345询问属地劳动保障监察机构；需要法律意见拨12348。遇限制人身自由、暴力或诈骗立即拨110。"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "北京人社部门求职安全提示",
-                  "href": "https://rsj.beijing.gov.cn/xxgk/2024qt/202507/W020250721550002868053.pdf"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "documents",
-      "title": "8. 身份证件、寻亲和返乡",
-      "items": [
-        {
-          "type": "resource",
-          "id": "item",
-          "name": "身份证挂失和异地补领",
-          "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "挂失:",
-                  "strong": true
-                },
-                {
-                  "text": " 身份证丢失或被盗，可到就近的户籍派出所或办证大厅申报挂失。"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "非京籍补领:",
-                  "strong": true
-                },
-                {
-                  "text": " 在京长期居住、就业或就学的外省市户籍人员，可到城区任意户籍派出所、远郊区城镇派出所或分局户政大厅申请。通常需要户口簿或有效的北京居住证明；收费每证40元。"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "困难:",
-                  "strong": true
-                },
-                {
-                  "text": " 没有所需证明或无力支付时，先向救助站说明，请求身份核实和返乡协助，不要向陌生人购买证件。"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "北京市公安局非京籍身份证补领指南",
-                  "href": "https://www.beijing.gov.cn/fuwu/bmfw/bmzt/sfz/blzn/201806/t20180622_1857523.html"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "item-2",
-          "name": "救助站寻亲和返乡协助",
-          "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "内容:",
-                  "strong": true
-                },
-                {
-                  "text": " 救助站可帮助核实身份、联系亲属或所在单位。符合救助条件且没有返回住所地或单位交通费的人，可按核实后的目的地获得相应乘车凭证。"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "注意:",
-                  "strong": true
-                },
-                {
-                  "text": " 返乡方式、身份和目的地需要核实，不是现金或任意旅行费用报销。无法准确说出个人信息的人也可以先求助。"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "北京市民政局救助机构信息",
-                  "href": "https://data.beijing.gov.cn/zyml/ajg/smzj/e0300a6fd6774e418f8a0be9456a5c5f.htm"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://rsj.beijing.gov.cn/xxgk/2024qt/202507/W020250721550002868053.pdf",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
       "id": "legal",
-      "title": "9. 法律援助",
-      "items": [
+      "title": "法律援助",
+      "entries": [
         {
-          "type": "resource",
           "id": "12348",
-          "name": "12348公共法律服务热线",
+          "title": "12348公共法律服务热线",
+          "description": "电话: 12348 或 010-12348\n服务: 法律咨询，并帮助判断应向哪个法律援助机构申请。可咨询欠薪、社会救助、家庭暴力、赡养抚养、劳动关系、人身损害和刑事案件等问题。\n费用: 热线咨询和获批准的法律援助免费；是否受理由事项范围、管辖和申请条件决定。\n北京市司法局公共法律服务入口",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "电话:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "12348",
-                  "href": "tel:12348"
-                },
-                {
-                  "text": " 或 "
-                },
-                {
-                  "text": "010-12348",
-                  "href": "tel:+861012348"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "服务:",
-                  "strong": true
-                },
-                {
-                  "text": " 法律咨询，并帮助判断应向哪个法律援助机构申请。可咨询欠薪、社会救助、家庭暴力、赡养抚养、劳动关系、人身损害和刑事案件等问题。"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "费用:",
-                  "strong": true
-                },
-                {
-                  "text": " 热线咨询和获批准的法律援助免费；是否受理由事项范围、管辖和申请条件决定。"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "北京市司法局公共法律服务入口",
-                  "href": "https://sfj.beijing.gov.cn/sfj/zmhd15/hdjl/index.html"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "12348",
+          "website": "https://sfj.beijing.gov.cn/sfj/zmhd15/hdjl/index.html",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "item",
-          "name": "北京市法律援助中心",
+          "title": "北京市法律援助中心",
+          "description": "预约申请电话: 010-86329900\n办公时间: 工作日9:00至11:30、13:30至17:30。也可到区法律援助中心、街道公共法律服务站或社区公共法律服务室咨询。\n行动不便: 残疾人申请有绿色通道；工作人员可帮助书写困难者填写材料，并可为行动不便者提供上门服务。\n- 市区公共法律服务中心地址和电话\n- 法律援助绿色通道说明 — https://www.beijing.gov.cn/ywdt/gzdt/202505/t20250520_4093639.html",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "预约申请电话:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "010-86329900",
-                  "href": "tel:+861086329900"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "办公时间:",
-                  "strong": true
-                },
-                {
-                  "text": " 工作日9:00至11:30、13:30至17:30。也可到区法律援助中心、街道公共法律服务站或社区公共法律服务室咨询。"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "行动不便:",
-                  "strong": true
-                },
-                {
-                  "text": " 残疾人申请有绿色通道；工作人员可帮助书写困难者填写材料，并可为行动不便者提供上门服务。"
-                }
-              ]
-            },
-            {
-              "type": "list",
-              "items": [
-                [
-                  {
-                    "text": "市区公共法律服务中心地址和电话",
-                    "href": "https://sfj.beijing.gov.cn/sfj/sfdt/ywdt82/flfw93/743831535/index.html"
-                  }
-                ],
-                [
-                  {
-                    "text": "法律援助绿色通道说明",
-                    "href": "https://www.beijing.gov.cn/ywdt/gzdt/202505/t20250520_4093639.html"
-                  }
-                ]
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+861086329900",
+          "website": "https://sfj.beijing.gov.cn/sfj/sfdt/ywdt82/flfw93/743831535/index.html",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
-      "id": "safety",
-      "title": "10. 妇女、儿童和心理支持",
-      "items": [
+      "id": "documents",
+      "title": "身份证件、寻亲和返乡",
+      "entries": [
         {
-          "type": "resource",
-          "id": "110-12338",
-          "name": "家庭暴力和临时庇护 — 110 / 12338",
+          "id": "item",
+          "title": "身份证挂失和异地补领",
+          "description": "挂失: 身份证丢失或被盗，可到就近的户籍派出所或办证大厅申报挂失。\n非京籍补领: 在京长期居住、就业或就学的外省市户籍人员，可到城区任意户籍派出所、远郊区城镇派出所或分局户政大厅申请。通常需要户口簿或有效的北京居住证明；收费每证40元。\n困难: 没有所需证明或无力支付时，先向救助站说明，请求身份核实和返乡协助，不要向陌生人购买证件。\n北京市公安局非京籍身份证补领指南",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "正在发生暴力或有人身危险:",
-                  "strong": true
-                },
-                {
-                  "text": " 拨"
-                },
-                {
-                  "text": "110",
-                  "href": "tel:110"
-                },
-                {
-                  "text": "。"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "妇女维权:",
-                  "strong": true
-                },
-                {
-                  "text": " 拨"
-                },
-                {
-                  "text": "12338",
-                  "href": "tel:12338"
-                },
-                {
-                  "text": "咨询妇女权益、家庭暴力和转介服务。"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "临时庇护:",
-                  "strong": true
-                },
-                {
-                  "text": " 北京各区救助管理机构设有反家暴救助服务，可为因家庭暴力无家可归的受害人提供相对独立的临时庇护和基本生活救助。拨12345或所在区救助站确认。"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "北京市反家暴救助工作规定",
-                  "href": "https://www.beijing.gov.cn/zhengce/gfxwj/201905/t20190522_56834.html"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.beijing.gov.cn/fuwu/bmfw/bmzt/sfz/blzn/201806/t20180622_1857523.html",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
-          "id": "12345-12355",
-          "name": "未成年人保护 — 12345 / 12355",
+          "id": "item-2",
+          "title": "救助站寻亲和返乡协助",
+          "description": "内容: 救助站可帮助核实身份、联系亲属或所在单位。符合救助条件且没有返回住所地或单位交通费的人，可按核实后的目的地获得相应乘车凭证。\n注意: 返乡方式、身份和目的地需要核实，不是现金或任意旅行费用报销。无法准确说出个人信息的人也可以先求助。\n北京市民政局救助机构信息",
           "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "生活无着、受伤害或无人照料:",
-                  "strong": true
-                },
-                {
-                  "text": " 拨12345请求未成年人救助保护，或拨110处理紧急危险。"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "青少年支持:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "12355",
-                  "href": "tel:12355"
-                },
-                {
-                  "text": "提供青少年心理与法律支持。说明未成年人年龄、当前位置、是否有安全住处和监护人情况。"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "北京市民政局未成年人救助保护导航",
-                  "href": "https://mzj.beijing.gov.cn/art/2025/5/23/art_11000_687168.html"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "12356",
-          "name": "北京心理援助热线 — 12356",
-          "last_verified": "2026-11-10",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "电话:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "12356",
-                  "href": "tel:12356"
-                },
-                {
-                  "text": "，全天24小时公益服务。"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "适用:",
-                  "strong": true
-                },
-                {
-                  "text": " 强烈焦虑、绝望、惊恐、失眠、创伤、情绪失控，或有伤害自己或他人的想法。接线人员提供心理健康教育、心理咨询、疏导和危机干预。"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "立即危险:",
-                  "strong": true
-                },
-                {
-                  "text": " 同时拨110或120，告诉接线员你是否独自一人和准确位置，留在有人的安全地点。"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "北京市卫生健康委的12356服务说明",
-                  "href": "https://wjw.beijing.gov.cn/xwzx_20031/mtjj/202502/t20250210_4007076.html"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://data.beijing.gov.cn/zyml/ajg/smzj/e0300a6fd6774e418f8a0be9456a5c5f.htm",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
+    },
+    {
+      "id": "mail",
+      "title": "Mailing address",
+      "entries": []
+    },
+    {
+      "id": "storage",
+      "title": "Storage",
+      "entries": []
+    },
+    {
+      "id": "safety",
+      "title": "妇女、儿童和心理支持",
+      "entries": [
+        {
+          "id": "110-12338",
+          "title": "家庭暴力和临时庇护 — 110 / 12338",
+          "description": "正在发生暴力或有人身危险: 拨110。\n妇女维权: 拨12338咨询妇女权益、家庭暴力和转介服务。\n临时庇护: 北京各区救助管理机构设有反家暴救助服务，可为因家庭暴力无家可归的受害人提供相对独立的临时庇护和基本生活救助。拨12345或所在区救助站确认。\n北京市反家暴救助工作规定",
+          "last_verified": "2026-11-10",
+          "address": "",
+          "phone": "110",
+          "website": "https://www.beijing.gov.cn/zhengce/gfxwj/201905/t20190522_56834.html",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "12345-12355",
+          "title": "未成年人保护 — 12345 / 12355",
+          "description": "生活无着、受伤害或无人照料: 拨12345请求未成年人救助保护，或拨110处理紧急危险。\n青少年支持: 12355提供青少年心理与法律支持。说明未成年人年龄、当前位置、是否有安全住处和监护人情况。\n北京市民政局未成年人救助保护导航",
+          "last_verified": "2026-11-10",
+          "address": "",
+          "phone": "12355",
+          "website": "https://mzj.beijing.gov.cn/art/2025/5/23/art_11000_687168.html",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "12356",
+          "title": "北京心理援助热线 — 12356",
+          "description": "电话: 12356，全天24小时公益服务。\n适用: 强烈焦虑、绝望、惊恐、失眠、创伤、情绪失控，或有伤害自己或他人的想法。接线人员提供心理健康教育、心理咨询、疏导和危机干预。\n立即危险: 同时拨110或120，告诉接线员你是否独自一人和准确位置，留在有人的安全地点。\n北京市卫生健康委的12356服务说明",
+          "last_verified": "2026-11-10",
+          "address": "",
+          "phone": "12356",
+          "website": "https://wjw.beijing.gov.cn/xwzx_20031/mtjj/202502/t20250210_4007076.html",
+          "hours": "",
+          "how_to_access": ""
+        }
+      ]
+    },
+    {
+      "id": "specialist-support",
+      "title": "Specialist support",
+      "entries": []
+    },
+    {
+      "id": "veterans",
+      "title": "Veterans support",
+      "entries": []
+    },
+    {
+      "id": "pets",
+      "title": "Help for people with pets",
+      "entries": []
+    },
+    {
+      "id": "other",
+      "title": "Other useful resources",
+      "entries": []
     }
   ]
 }

@@ -1,6 +1,7 @@
 {
   "$schema": "https://nohomehelp.com/schemas/city.schema.json",
-  "schema_version": 1,
+  "documentation": "https://github.com/carlosbranco/no-home-help/blob/main/EDIT_CITY_JSON.md",
+  "schema_version": 2,
   "status": "published",
   "locale": {
     "language": "es",
@@ -26,2491 +27,757 @@
   "page": {
     "heading": "Cali — ayuda para habitantes de calle",
     "last_verified": "2026-11-11",
-    "urgent": [
-      {
-        "type": "paragraph",
-        "content": [
-          {
-            "text": "Emergencias y Policía:",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "123",
-            "href": "tel:123"
-          },
-          {
-            "break": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "Salud mental, gratuita y 24 horas:",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "106",
-            "href": "tel:106"
-          },
-          {
-            "break": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "Mujeres en riesgo de feminicidio:",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "311 612 0000",
-            "href": "tel:+573116120000"
-          },
-          {
-            "break": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "Violencia contra las mujeres:",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "155",
-            "href": "tel:155"
-          },
-          {
-            "text": "; "
-          },
-          {
-            "text": "niñez en riesgo:",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "141",
-            "href": "tel:141"
-          },
-          {
-            "break": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "Fiscalía:",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "122",
-            "href": "tel:122"
-          }
-        ]
-      }
-    ],
-    "notice": [
-      {
-        "text": "Los cupos, horarios, requisitos y existencias cambian.",
-        "strong": true
-      },
-      {
-        "text": " Llame antes de trasladarse cuando sea posible. Ninguna entrada garantiza cama, comida, cita, subsidio, documento, tratamiento o empleo el mismo día."
-      }
-    ],
-    "intro": [
-      {
-        "type": "paragraph",
-        "content": [
-          {
-            "text": "Cali mantiene una red con atención básica, centros de acogida de día, dormitorios sociales, Hogar de Paso, centros para personas mayores y equipos móviles. La sede que corresponde depende de la edad, salud, consumo, voluntad de iniciar un proceso y cupos. La Fundación Samaritanos de la Calle y los equipos de Bienestar Social pueden orientar a la sede adecuada."
-          }
-        ]
-      }
-    ],
-    "footer": [
-      {
-        "type": "paragraph",
-        "content": [
-          {
-            "text": "No Home Help — información gratuita y estática, sin seguimiento."
-          }
-        ]
-      }
-    ]
+    "urgent": "Emergencias y Policía: 123 Salud mental, gratuita y 24 horas: 106 Mujeres en riesgo de feminicidio: 311 612 0000 Violencia contra las mujeres: 155; niñez en riesgo: 141 Fiscalía: 122",
+    "notice": "Los cupos, horarios, requisitos y existencias cambian. Llame antes de trasladarse cuando sea posible. Ninguna entrada garantiza cama, comida, cita, subsidio, documento, tratamiento o empleo el mismo día.",
+    "intro": "Cali mantiene una red con atención básica, centros de acogida de día, dormitorios sociales, Hogar de Paso, centros para personas mayores y equipos móviles. La sede que corresponde depende de la edad, salud, consumo, voluntad de iniciar un proceso y cupos. La Fundación Samaritanos de la Calle y los equipos de Bienestar Social pueden orientar a la sede adecuada.",
+    "footer": "No Home Help — información gratuita y estática, sin seguimiento."
   },
   "categories": [
     {
       "id": "emergency",
-      "title": "1. Emergencias y primera orientación",
-      "items": [
+      "title": "Emergencias y primera orientación",
+      "entries": [
         {
-          "type": "resource",
           "id": "123-emergencias",
-          "name": "123 — emergencias",
+          "title": "123 — emergencias",
+          "description": "Llame: 123, 24 horas.\nPara peligro inmediato, violencia, delito, incendio, accidente, pérdida de conciencia, dificultad respiratoria, herida grave, sobredosis o conducta suicida. Diga primero la ubicación exacta.\nAlcaldía de Cali — líneas de emergencia",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Llame:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "123",
-                  "href": "tel:123"
-                },
-                {
-                  "text": ", 24 horas."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Para peligro inmediato, violencia, delito, incendio, accidente, pérdida de conciencia, dificultad respiratoria, herida grave, sobredosis o conducta suicida. Diga primero la ubicación exacta."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Alcaldía de Cali — líneas de emergencia",
-                  "href": "https://www.cali.gov.co/seguridad/publicaciones/177491/conozca-como-activar-la-ruta-de-atencion-para-violencia-de-genero/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "123",
+          "website": "https://www.cali.gov.co/seguridad/publicaciones/177491/conozca-como-activar-la-ruta-de-atencion-para-violencia-de-genero/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "106-salud-mental",
-          "name": "106 — salud mental",
+          "title": "106 — salud mental",
+          "description": "Llame: 106; WhatsApp: 316 245 8423, 24 horas.\nTeleorientación gratuita y anónima, sin exigir afiliación a EPS, para crisis, angustia, consumo, riesgo suicida y acceso a la red de salud. Si hay peligro inmediato pida activar Código Dorado y llame también al 123.\nAlcaldía — Línea 106 en 2026",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Llame:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "106",
-                  "href": "tel:106"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "WhatsApp:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "316 245 8423",
-                  "href": "tel:+573162458423"
-                },
-                {
-                  "text": ", 24 horas."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Teleorientación gratuita y anónima, sin exigir afiliación a EPS, para crisis, angustia, consumo, riesgo suicida y acceso a la red de salud. Si hay peligro inmediato pida activar Código Dorado y llame también al 123."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Alcaldía — Línea 106 en 2026",
-                  "href": "https://www.cali.gov.co/boletines/publicaciones/192156/alcaldia-de-cali-prioriza-la-salud-mental-calenos-tienen-a-disposicion-la-linea-106-para-teleorientacion/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "106",
+          "website": "https://www.cali.gov.co/boletines/publicaciones/192156/alcaldia-de-cali-prioriza-la-salud-mental-calenos-tienen-a-disposicion-la-linea-106-para-teleorientacion/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "fundacion-samaritanos-de-la-calle",
-          "name": "Fundación Samaritanos de la Calle",
+          "title": "Fundación Samaritanos de la Calle",
+          "description": "Teléfonos: (602) 889 5206 o (602) 889 5881.\nOpera con el Distrito la atención a habitantes de calle mediante sedes, dormitorios y dispositivos móviles. Llame o acuda a la sede principal para saber qué centro corresponde y si recibe ingresos ese día.\nSamaritanos de la Calle — sitio oficial",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Sede principal:",
-                  "strong": true
-                },
-                {
-                  "text": " carrera 12 # 10-60, barrio San Bosco"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Teléfonos:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(602) 889 5206",
-                  "href": "tel:+576028895206"
-                },
-                {
-                  "text": " o "
-                },
-                {
-                  "text": "(602) 889 5881",
-                  "href": "tel:+576028895881"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Opera con el Distrito la atención a habitantes de calle mediante sedes, dormitorios y dispositivos móviles. Llame o acuda a la sede principal para saber qué centro corresponde y si recibe ingresos ese día."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Samaritanos de la Calle — sitio oficial",
-                  "href": "https://fundacionsamaritanosdelacalle.org/"
-                }
-              ]
-            }
-          ]
+          "address": "Sede principal: carrera 12 # 10-60, barrio San Bosco",
+          "phone": "+576028895206",
+          "website": "https://fundacionsamaritanosdelacalle.org/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "secretaria-de-bienestar-social",
-          "name": "Secretaría de Bienestar Social",
+          "title": "Secretaría de Bienestar Social",
+          "description": "Coordina el Sistema de Atención Integral para Habitantes de Calle. Para una ruta actual, pregunte por el Programa Habitantes de Calle o por un Punto de Información y Orientación Social.\nNo todos los servicios se solicitan directamente en el CAM; confirme dónde presentarse.\nSecretaría de Bienestar Social",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Dirección:",
-                  "strong": true
-                },
-                {
-                  "text": " avenida 2 Norte # 10-70, CAM, Cali"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Coordina el Sistema de Atención Integral para Habitantes de Calle. Para una ruta actual, pregunte por el Programa Habitantes de Calle o por un Punto de Información y Orientación Social."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "No todos los servicios se solicitan directamente en el CAM; confirme dónde presentarse."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Secretaría de Bienestar Social",
-                  "href": "https://www.cali.gov.co/bienestar/"
-                }
-              ]
-            }
-          ]
+          "address": "Dirección: avenida 2 Norte # 10-70, CAM, Cali",
+          "phone": "",
+          "website": "https://www.cali.gov.co/bienestar/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "personeria-derechos-humanos-24-horas",
-          "name": "Personería — derechos humanos, 24 horas",
+          "title": "Personería — derechos humanos, 24 horas",
+          "description": "Línea 24 horas: 318 335 5722.\nPara orientación ante vulneración de derechos, barreras de acceso, violencia institucional o necesidad de acompañamiento. La Personería no reemplaza el 123 ante peligro inmediato.\nPersonería de Cali — acompañamiento jurídico",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Línea 24 horas:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "318 335 5722",
-                  "href": "tel:+573183355722"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Para orientación ante vulneración de derechos, barreras de acceso, violencia institucional o necesidad de acompañamiento. La Personería no reemplaza el 123 ante peligro inmediato."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Personería de Cali — acompañamiento jurídico",
-                  "href": "https://personeriacali.gov.co/servicios-acompanamiento-juridico/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+573183355722",
+          "website": "https://personeriacali.gov.co/servicios-acompanamiento-juridico/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "dispositivo-movil-y-equipos-en-calle",
-          "name": "Dispositivo Móvil y equipos en calle",
+          "title": "Dispositivo Móvil y equipos en calle",
+          "description": "Equipos interdisciplinarios recorren diariamente sectores con alta presencia de habitantes de calle, ofrecen atención básica y conectan con los centros fijos.\nPregunte en Samaritanos o Bienestar Social por el recorrido actual; las jornadas temporales anunciadas en prensa no sustituyen la oferta permanente.\nAlcaldía — modelo de atención 2026",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Equipos interdisciplinarios recorren diariamente sectores con alta presencia de habitantes de calle, ofrecen atención básica y conectan con los centros fijos."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Pregunte en Samaritanos o Bienestar Social por el recorrido actual; las jornadas temporales anunciadas en prensa no sustituyen la oferta permanente."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Alcaldía — modelo de atención 2026",
-                  "href": "https://www.cali.gov.co/boletines/publicaciones/194527/cali-transforma-su-centro-con-dignidad-mas-de-1000-atenciones-diarias-garantizan-oportunidades-a-habitantes-de-calle/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.cali.gov.co/boletines/publicaciones/194527/cali-transforma-su-centro-con-dignidad-mas-de-1000-atenciones-diarias-garantizan-oportunidades-a-habitantes-de-calle/",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
       "id": "shelter",
-      "title": "2. Alojamiento, centros de día y atención en calle",
-      "items": [
+      "title": "Alojamiento, centros de día y atención en calle",
+      "entries": [
         {
-          "type": "resource",
           "id": "dormitorios-sociales-nocturnos",
-          "name": "Dormitorios sociales nocturnos",
+          "title": "Dormitorios sociales nocturnos",
+          "description": "La Alcaldía informó en septiembre de 2026 que la red nocturna alberga hasta 220 usuarios. Las sedes y perfiles se asignan dentro del sistema, no por llegada a cualquier dirección.\nLlame a Samaritanos al (602) 889 5206 para acceso, horario, requisitos y cupo actual.\nAlcaldía — dormitorios sociales 2026",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "La Alcaldía informó en septiembre de 2026 que la red nocturna alberga hasta 220 usuarios. Las sedes y perfiles se asignan dentro del sistema, no por llegada a cualquier dirección."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Llame a Samaritanos al "
-                },
-                {
-                  "text": "(602) 889 5206",
-                  "href": "tel:+576028895206"
-                },
-                {
-                  "text": " para acceso, horario, requisitos y cupo actual."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Alcaldía — dormitorios sociales 2026",
-                  "href": "https://www.cali.gov.co/boletines/publicaciones/194527/cali-transforma-su-centro-con-dignidad-mas-de-1000-atenciones-diarias-garantizan-oportunidades-a-habitantes-de-calle/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+576028895206",
+          "website": "https://www.cali.gov.co/boletines/publicaciones/194527/cali-transforma-su-centro-con-dignidad-mas-de-1000-atenciones-diarias-garantizan-oportunidades-a-habitantes-de-calle/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "hogar-de-paso-proceso-de-inclusion",
-          "name": "Hogar de Paso — proceso de inclusión",
+          "title": "Hogar de Paso — proceso de inclusión",
+          "description": "Servicio de alto umbral para personas que desean avanzar en un proceso estable de superación de la vida en calle. La red municipal reportó 45 cupos en 2026.\nEl ingreso requiere valoración y disponibilidad; no es refugio automático para la misma noche. Solicite evaluación a Samaritanos o al equipo móvil.\nAlcaldía — Hogar de Paso",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Servicio de alto umbral para personas que desean avanzar en un proceso estable de superación de la vida en calle. La red municipal reportó 45 cupos en 2026."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "El ingreso requiere valoración y disponibilidad; no es refugio automático para la misma noche. Solicite evaluación a Samaritanos o al equipo móvil."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Alcaldía — Hogar de Paso",
-                  "href": "https://www.cali.gov.co/boletines/publicaciones/194527/cali-transforma-su-centro-con-dignidad-mas-de-1000-atenciones-diarias-garantizan-oportunidades-a-habitantes-de-calle/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.cali.gov.co/boletines/publicaciones/194527/cali-transforma-su-centro-con-dignidad-mas-de-1000-atenciones-diarias-garantizan-oportunidades-a-habitantes-de-calle/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "centro-de-atencion-basica-barrio-sucre",
-          "name": "Centro de atención básica — barrio Sucre",
+          "title": "Centro de atención básica — barrio Sucre",
+          "description": "Servicio de bajo umbral con requisitos mínimos, autocuidado y acompañamiento en salud. Está pensado para conectar a quienes aún no ingresan a procesos residenciales.\nLa ubicación operativa y el acceso pueden cambiar; confirme con Samaritanos antes de ir.\nAlcaldía — atención básica 2026",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Servicio de bajo umbral con requisitos mínimos, autocuidado y acompañamiento en salud. Está pensado para conectar a quienes aún no ingresan a procesos residenciales."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "La ubicación operativa y el acceso pueden cambiar; confirme con Samaritanos antes de ir."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Alcaldía — atención básica 2026",
-                  "href": "https://www.cali.gov.co/boletines/publicaciones/194527/cali-transforma-su-centro-con-dignidad-mas-de-1000-atenciones-diarias-garantizan-oportunidades-a-habitantes-de-calle/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.cali.gov.co/boletines/publicaciones/194527/cali-transforma-su-centro-con-dignidad-mas-de-1000-atenciones-diarias-garantizan-oportunidades-a-habitantes-de-calle/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "centros-de-acogida-de-dia",
-          "name": "Centros de acogida de día",
+          "title": "Centros de acogida de día",
+          "description": "La red de mediano umbral mantiene centros en El Piloto, Santa Elena y San Bosco, con atención conjunta para hasta 300 personas según la Alcaldía.\nOfrecen servicios diurnos y orientación hacia dormitorios o procesos. Llame para identificar sede, horario y perfil correctos.\nAlcaldía — centros de acogida",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "La red de mediano umbral mantiene centros en El Piloto, Santa Elena y San Bosco, con atención conjunta para hasta 300 personas según la Alcaldía."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ofrecen servicios diurnos y orientación hacia dormitorios o procesos. Llame para identificar sede, horario y perfil correctos."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Alcaldía — centros de acogida",
-                  "href": "https://www.cali.gov.co/boletines/publicaciones/194527/cali-transforma-su-centro-con-dignidad-mas-de-1000-atenciones-diarias-garantizan-oportunidades-a-habitantes-de-calle/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.cali.gov.co/boletines/publicaciones/194527/cali-transforma-su-centro-con-dignidad-mas-de-1000-atenciones-diarias-garantizan-oportunidades-a-habitantes-de-calle/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "sede-san-bosco-samaritanos",
-          "name": "Sede San Bosco — Samaritanos",
+          "title": "Sede San Bosco — Samaritanos",
+          "description": "Punto oficial de la Fundación para orientación, atención integral e inclusión. La organización sirve alimentación en varias casas y desarrolla procesos sociales y productivos.\nLa sede principal no garantiza cama inmediata; pregunte por el servicio que corresponde.\nFundación Samaritanos de la Calle",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Dirección:",
-                  "strong": true
-                },
-                {
-                  "text": " carrera 12 # 10-60, San Bosco"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Punto oficial de la Fundación para orientación, atención integral e inclusión. La organización sirve alimentación en varias casas y desarrolla procesos sociales y productivos."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "La sede principal no garantiza cama inmediata; pregunte por el servicio que corresponde."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Fundación Samaritanos de la Calle",
-                  "href": "https://fundacionsamaritanosdelacalle.org/"
-                }
-              ]
-            }
-          ]
+          "address": "Dirección: carrera 12 # 10-60, San Bosco",
+          "phone": "",
+          "website": "https://fundacionsamaritanosdelacalle.org/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "centros-para-personas-mayores",
-          "name": "Centros para personas mayores",
+          "title": "Centros para personas mayores",
+          "description": "En 2026 funcionaban tres centros en Santa Rosa, Sucre y San Bosco, con modalidades de día y noche para personas mayores habitantes de calle o en riesgo.\nInforme edad, movilidad, enfermedades, medicamentos y necesidad de ayuda para actividades diarias; el ingreso requiere valoración y cupo.\nAlcaldía — atención a personas mayores",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "En 2026 funcionaban tres centros en Santa Rosa, Sucre y San Bosco, con modalidades de día y noche para personas mayores habitantes de calle o en riesgo."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Informe edad, movilidad, enfermedades, medicamentos y necesidad de ayuda para actividades diarias; el ingreso requiere valoración y cupo."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Alcaldía — atención a personas mayores",
-                  "href": "https://www.cali.gov.co/boletines/publicaciones/194527/cali-transforma-su-centro-con-dignidad-mas-de-1000-atenciones-diarias-garantizan-oportunidades-a-habitantes-de-calle/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.cali.gov.co/boletines/publicaciones/194527/cali-transforma-su-centro-con-dignidad-mas-de-1000-atenciones-diarias-garantizan-oportunidades-a-habitantes-de-calle/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "si-no-hay-cupo-o-no-acepta-la-sede",
-          "name": "Si no hay cupo o no acepta la sede",
+          "title": "Si no hay cupo o no acepta la sede",
+          "description": "Pida al equipo que registre la situación y explique otra alternativa: centro diurno, dispositivo móvil, dormitorio diferente, salud o ruta especializada. Diga si existe riesgo por violencia, embarazo, edad, discapacidad o enfermedad.\nPara una condición que pone la vida en riesgo, use 123; un centro social no sustituye urgencias.\nAlcaldía — atención integral",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Pida al equipo que registre la situación y explique otra alternativa: centro diurno, dispositivo móvil, dormitorio diferente, salud o ruta especializada. Diga si existe riesgo por violencia, embarazo, edad, discapacidad o enfermedad."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Para una condición que pone la vida en riesgo, use 123; un centro social no sustituye urgencias."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Alcaldía — atención integral",
-                  "href": "https://www.cali.gov.co/boletines/publicaciones/194490/alcaldia-activo-jornada-integral-para-atender-a-personas-en-situacion-de-calle-en-el-centro-de-cali/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.cali.gov.co/boletines/publicaciones/194490/alcaldia-activo-jornada-integral-para-atender-a-personas-en-situacion-de-calle-en-el-centro-de-cali/",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
       "id": "food",
-      "title": "3. Alimentación y ayuda comunitaria",
-      "items": [
+      "title": "Alimentación y ayuda comunitaria",
+      "entries": [
         {
-          "type": "resource",
           "id": "alimentacion-en-la-red-municipal",
-          "name": "Alimentación en la red municipal",
+          "title": "Alimentación en la red municipal",
+          "description": "La red de casas de paso, centros de día, dormitorios y centros para mayores incluye alimentación para sus usuarios. El servicio depende del centro, turno y cupo.\nPregunte a Samaritanos qué sede puede recibirle y en qué horario; no todas las casas hacen entrega abierta desde la calle.\nAlcaldía — servicios esenciales",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "La red de casas de paso, centros de día, dormitorios y centros para mayores incluye alimentación para sus usuarios. El servicio depende del centro, turno y cupo."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Pregunte a Samaritanos qué sede puede recibirle y en qué horario; no todas las casas hacen entrega abierta desde la calle."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Alcaldía — servicios esenciales",
-                  "href": "https://www.cali.gov.co/boletines/publicaciones/194527/cali-transforma-su-centro-con-dignidad-mas-de-1000-atenciones-diarias-garantizan-oportunidades-a-habitantes-de-calle/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.cali.gov.co/boletines/publicaciones/194527/cali-transforma-su-centro-con-dignidad-mas-de-1000-atenciones-diarias-garantizan-oportunidades-a-habitantes-de-calle/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "fundacion-samaritanos-de-la-calle",
-          "name": "Fundación Samaritanos de la Calle",
+          "title": "Fundación Samaritanos de la Calle",
+          "description": "La Fundación informa que sirve desayunos, almuerzos y comidas en varias casas de acuerdo con programación de grupos voluntarios.\nLlame al (602) 889 5206 para saber dónde y cuándo puede acceder; no se garantiza comida fuera de horario.\nSamaritanos — alimentación",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Dirección:",
-                  "strong": true
-                },
-                {
-                  "text": " carrera 12 # 10-60, San Bosco"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "La Fundación informa que sirve desayunos, almuerzos y comidas en varias casas de acuerdo con programación de grupos voluntarios."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Llame al "
-                },
-                {
-                  "text": "(602) 889 5206",
-                  "href": "tel:+576028895206"
-                },
-                {
-                  "text": " para saber dónde y cuándo puede acceder; no se garantiza comida fuera de horario."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Samaritanos — alimentación",
-                  "href": "https://fundacionsamaritanosdelacalle.org/"
-                }
-              ]
-            }
-          ]
+          "address": "Dirección: carrera 12 # 10-60, San Bosco",
+          "phone": "+576028895206",
+          "website": "https://fundacionsamaritanosdelacalle.org/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "dispositivo-movil",
-          "name": "Dispositivo Móvil",
+          "title": "Dispositivo Móvil",
+          "description": "En recorridos y jornadas, los equipos brindan asistencia alimentaria y conectan a la oferta fija. La ubicación cambia según el territorio.\nNo dependa de la dirección de una feria temporal. Pregunte al Programa Habitantes de Calle por el recorrido vigente.\nAlcaldía — Dispositivo Móvil",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "En recorridos y jornadas, los equipos brindan asistencia alimentaria y conectan a la oferta fija. La ubicación cambia según el territorio."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "No dependa de la dirección de una feria temporal. Pregunte al Programa Habitantes de Calle por el recorrido vigente."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Alcaldía — Dispositivo Móvil",
-                  "href": "https://www.cali.gov.co/bienestar/publicaciones/153717/cali-cuenta-con-atencion-integral-para-los-habitantes-de-calle/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.cali.gov.co/bienestar/publicaciones/153717/cali-cuenta-con-atencion-integral-para-los-habitantes-de-calle/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "centros-de-acogida-de-dia",
-          "name": "Centros de acogida de día",
+          "title": "Centros de acogida de día",
+          "description": "Los centros de El Piloto, Santa Elena y San Bosco forman parte de la oferta continua y ofrecen alimentación junto con higiene, enfermería y acompañamiento.\nEl ingreso está sujeto a capacidad y normas del centro; confirme sede con Samaritanos.\nAlcaldía — red diurna",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Los centros de El Piloto, Santa Elena y San Bosco forman parte de la oferta continua y ofrecen alimentación junto con higiene, enfermería y acompañamiento."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "El ingreso está sujeto a capacidad y normas del centro; confirme sede con Samaritanos."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Alcaldía — red diurna",
-                  "href": "https://www.cali.gov.co/boletines/publicaciones/194527/cali-transforma-su-centro-con-dignidad-mas-de-1000-atenciones-diarias-garantizan-oportunidades-a-habitantes-de-calle/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.cali.gov.co/boletines/publicaciones/194527/cali-transforma-su-centro-con-dignidad-mas-de-1000-atenciones-diarias-garantizan-oportunidades-a-habitantes-de-calle/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "no-pagar-por-ayuda-publica",
-          "name": "No pagar por ayuda pública",
+          "title": "No pagar por ayuda pública",
+          "description": "Los servicios sociales municipales y la orientación de Personería no deben vender cupos ni turnos. No entregue dinero ni documentos originales a un supuesto intermediario.\nDenuncie cobros o condicionamientos ante Personería al 318 335 5722.\nPersonería — defensa de derechos",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Los servicios sociales municipales y la orientación de Personería no deben vender cupos ni turnos. No entregue dinero ni documentos originales a un supuesto intermediario."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Denuncie cobros o condicionamientos ante Personería al "
-                },
-                {
-                  "text": "318 335 5722",
-                  "href": "tel:+573183355722"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Personería — defensa de derechos",
-                  "href": "https://personeriacali.gov.co/servicios-acompanamiento-juridico/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+573183355722",
+          "website": "https://personeriacali.gov.co/servicios-acompanamiento-juridico/",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
-      "id": "basic",
-      "title": "4. Duchas, ropa, lavandería, baños e internet",
-      "items": [
+      "id": "community",
+      "title": "Community and religious help",
+      "entries": []
+    },
+    {
+      "id": "hygiene",
+      "title": "Duchas, ropa, lavandería, baños e internet",
+      "entries": [
         {
-          "type": "resource",
           "id": "duchas-y-ropa-limpia",
-          "name": "Duchas y ropa limpia",
+          "title": "Duchas y ropa limpia",
+          "description": "La red municipal reporta duchas, ropa limpia y autocuidado en los centros para habitantes de calle. Pregunte al Dispositivo Móvil o a Samaritanos por la sede de menor barrera disponible.\nAlcaldía — higiene y ropa",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "La red municipal reporta duchas, ropa limpia y autocuidado en los centros para habitantes de calle. Pregunte al Dispositivo Móvil o a Samaritanos por la sede de menor barrera disponible."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Alcaldía — higiene y ropa",
-                  "href": "https://www.cali.gov.co/boletines/publicaciones/194527/cali-transforma-su-centro-con-dignidad-mas-de-1000-atenciones-diarias-garantizan-oportunidades-a-habitantes-de-calle/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.cali.gov.co/boletines/publicaciones/194527/cali-transforma-su-centro-con-dignidad-mas-de-1000-atenciones-diarias-garantizan-oportunidades-a-habitantes-de-calle/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "lavanderia",
-          "name": "Lavandería",
+          "title": "Lavandería",
+          "description": "Los centros del sistema incluyen servicio de lavandería para usuarios según turno y capacidad. No es una lavandería pública abierta sin ingreso al programa.\nPregunte qué prendas puede llevar y cuándo recogerlas; no deje documentos o medicamentos en los bolsillos.\nAlcaldía — lavandería",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Los centros del sistema incluyen servicio de lavandería para usuarios según turno y capacidad. No es una lavandería pública abierta sin ingreso al programa."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Pregunte qué prendas puede llevar y cuándo recogerlas; no deje documentos o medicamentos en los bolsillos."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Alcaldía — lavandería",
-                  "href": "https://www.cali.gov.co/boletines/publicaciones/194527/cali-transforma-su-centro-con-dignidad-mas-de-1000-atenciones-diarias-garantizan-oportunidades-a-habitantes-de-calle/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.cali.gov.co/boletines/publicaciones/194527/cali-transforma-su-centro-con-dignidad-mas-de-1000-atenciones-diarias-garantizan-oportunidades-a-habitantes-de-calle/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "ropero-de-samaritanos",
-          "name": "Ropero de Samaritanos",
+          "title": "Ropero de Samaritanos",
+          "description": "La Fundación recibe y distribuye ropa nueva o usada en buen estado a sus usuarios. La disponibilidad de talla, calzado y prendas cambia.\nTeléfono: (602) 889 5206.\nSamaritanos — ropero",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "La Fundación recibe y distribuye ropa nueva o usada en buen estado a sus usuarios. La disponibilidad de talla, calzado y prendas cambia."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Teléfono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(602) 889 5206",
-                  "href": "tel:+576028895206"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Samaritanos — ropero",
-                  "href": "https://fundacionsamaritanosdelacalle.org/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+576028895206",
+          "website": "https://fundacionsamaritanosdelacalle.org/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "acceso-digital-y-tramites",
-          "name": "Acceso digital y trámites",
+          "title": "Acceso digital y trámites",
+          "description": "Los Puntos de Apropiación Digital y bibliotecas públicas pueden ayudar con internet y formularios. Algunos servicios requieren registro, documento o turno.\nEn un PIO Social o centro de acogida pida ayuda para ubicar el punto más cercano. No comparta contraseñas, códigos bancarios ni claves de correo.\nAlcaldía — oferta digital",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Los Puntos de Apropiación Digital y bibliotecas públicas pueden ayudar con internet y formularios. Algunos servicios requieren registro, documento o turno."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "En un PIO Social o centro de acogida pida ayuda para ubicar el punto más cercano. No comparta contraseñas, códigos bancarios ni claves de correo."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Alcaldía — oferta digital",
-                  "href": "https://www.cali.gov.co/tic/publicaciones/147940/convocatorias-datic/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.cali.gov.co/tic/publicaciones/147940/convocatorias-datic/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "guardar-documentos-y-medicamentos",
-          "name": "Guardar documentos y medicamentos",
+          "title": "Guardar documentos y medicamentos",
+          "description": "Pregunte en el centro si existe casillero o custodia y exija una identificación del paquete. Mantenga consigo la cédula, medicamentos indispensables y números importantes cuando sea seguro.\nNo entregue originales a personas que prometen empleo, alojamiento o subsidios por fuera de una entidad identificada.\nPersonería — orientación de derechos",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Pregunte en el centro si existe casillero o custodia y exija una identificación del paquete. Mantenga consigo la cédula, medicamentos indispensables y números importantes cuando sea seguro."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "No entregue originales a personas que prometen empleo, alojamiento o subsidios por fuera de una entidad identificada."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Personería — orientación de derechos",
-                  "href": "https://personeriacali.gov.co/servicios-acompanamiento-juridico/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://personeriacali.gov.co/servicios-acompanamiento-juridico/",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
+    },
+    {
+      "id": "clothing",
+      "title": "Clothing",
+      "entries": []
     },
     {
       "id": "health",
-      "title": "5. Salud, salud mental, consumo e infecciones",
-      "items": [
+      "title": "Salud, salud mental, consumo e infecciones",
+      "entries": [
         {
-          "type": "resource",
           "id": "atencion-de-urgencias",
-          "name": "Atención de urgencias",
+          "title": "Atención de urgencias",
+          "description": "En Colombia una urgencia debe ser atendida sin autorización previa. Si hay riesgo inmediato llame al 123 o acuda a urgencias; explique síntomas, tiempo de evolución y consumo reciente.\nLa falta de cédula o afiliación no debe retrasar una emergencia vital. Para barreras de acceso llame a Personería.\nMinisterio de Salud — atención de urgencias",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "En Colombia una urgencia debe ser atendida sin autorización previa. Si hay riesgo inmediato llame al 123 o acuda a urgencias; explique síntomas, tiempo de evolución y consumo reciente."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "La falta de cédula o afiliación no debe retrasar una emergencia vital. Para barreras de acceso llame a Personería."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ministerio de Salud — atención de urgencias",
-                  "href": "https://www.minsalud.gov.co/salud/PServicios/Paginas/garantia-a-la-atencion-de-urgencias.aspx"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.minsalud.gov.co/salud/PServicios/Paginas/garantia-a-la-atencion-de-urgencias.aspx",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "linea-106-orientacion-psicologica",
-          "name": "Línea 106 — orientación psicológica",
+          "title": "Línea 106 — orientación psicológica",
+          "description": "Teléfono: 106; WhatsApp: 316 245 8423, 24 horas.\nNo exige EPS, edad ni identificación y puede usarse de forma anónima. Para intento de suicidio o plan concreto, pida Código Dorado y active 123.\nAlcaldía — Código Dorado",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Teléfono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "106",
-                  "href": "tel:106"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "WhatsApp:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "316 245 8423",
-                  "href": "tel:+573162458423"
-                },
-                {
-                  "text": ", 24 horas."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "No exige EPS, edad ni identificación y puede usarse de forma anónima. Para intento de suicidio o plan concreto, pida Código Dorado y active 123."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Alcaldía — Código Dorado",
-                  "href": "https://www.cali.gov.co/boletines/publicaciones/192266/para-prevenir-riesgos-en-salud-mental-el-gobierno-de-alejandro-eder-promueve-el-codigo-dorado/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "106",
+          "website": "https://www.cali.gov.co/boletines/publicaciones/192266/para-prevenir-riesgos-en-salud-mental-el-gobierno-de-alejandro-eder-promueve-el-codigo-dorado/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "enfermeria-y-seguimiento-en-centros",
-          "name": "Enfermería y seguimiento en centros",
+          "title": "Enfermería y seguimiento en centros",
+          "description": "La red para habitantes de calle incluye enfermería y seguimiento de tratamientos. Al ingresar, informe medicamentos, alergias, heridas, embarazo, diagnóstico y EPS si la conoce.\nEl servicio no reemplaza urgencias hospitalarias.\nAlcaldía — atención en salud",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "La red para habitantes de calle incluye enfermería y seguimiento de tratamientos. Al ingresar, informe medicamentos, alergias, heridas, embarazo, diagnóstico y EPS si la conoce."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "El servicio no reemplaza urgencias hospitalarias."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Alcaldía — atención en salud",
-                  "href": "https://www.cali.gov.co/boletines/publicaciones/194527/cali-transforma-su-centro-con-dignidad-mas-de-1000-atenciones-diarias-garantizan-oportunidades-a-habitantes-de-calle/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.cali.gov.co/boletines/publicaciones/194527/cali-transforma-su-centro-con-dignidad-mas-de-1000-atenciones-diarias-garantizan-oportunidades-a-habitantes-de-calle/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "centro-de-atencion-movil-a-la-drogodependencia",
-          "name": "Centro de Atención Móvil a la Drogodependencia",
+          "title": "Centro de Atención Móvil a la Drogodependencia",
+          "description": "CAMAD y equipos del Sistema de Atención Integral realizan abordaje, reducción de riesgos y conexión con salud para personas con consumo de sustancias.\nPregunte al Dispositivo Móvil o Línea 106 por el punto vigente. Para sobredosis o pérdida de conciencia use 123.\nAlcaldía — CAMAD y salud mental",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "CAMAD y equipos del Sistema de Atención Integral realizan abordaje, reducción de riesgos y conexión con salud para personas con consumo de sustancias."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Pregunte al Dispositivo Móvil o Línea 106 por el punto vigente. Para sobredosis o pérdida de conciencia use 123."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Alcaldía — CAMAD y salud mental",
-                  "href": "https://www.cali.gov.co/boletines/publicaciones/190806/en-articulacion-con-organismos-de-la-alcaldia-de-cali-se-avanza-en-la-politica-distrital-de-salud-mental/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.cali.gov.co/boletines/publicaciones/190806/en-articulacion-con-organismos-de-la-alcaldia-de-cali-se-avanza-en-la-politica-distrital-de-salud-mental/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "salud-sexual-vih-e-infecciones",
-          "name": "Salud sexual, VIH e infecciones",
+          "title": "Salud sexual, VIH e infecciones",
+          "description": "Las jornadas integrales municipales incluyen salud sexual y reproductiva e infecciones de transmisión sexual. Pregunte por pruebas, preservativos, tratamiento y vinculación a la red.\nLa atención debe ser confidencial. Una agresión sexual requiere atención urgente en salud y puede denunciarse al 122.\nAlcaldía — jornada de salud 2026",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Las jornadas integrales municipales incluyen salud sexual y reproductiva e infecciones de transmisión sexual. Pregunte por pruebas, preservativos, tratamiento y vinculación a la red."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "La atención debe ser confidencial. Una agresión sexual requiere atención urgente en salud y puede denunciarse al 122."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Alcaldía — jornada de salud 2026",
-                  "href": "https://www.cali.gov.co/boletines/publicaciones/194490/alcaldia-activo-jornada-integral-para-atender-a-personas-en-situacion-de-calle-en-el-centro-de-cali/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.cali.gov.co/boletines/publicaciones/194490/alcaldia-activo-jornada-integral-para-atender-a-personas-en-situacion-de-calle-en-el-centro-de-cali/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "afiliacion-al-sistema-de-salud",
-          "name": "Afiliación al sistema de salud",
+          "title": "Afiliación al sistema de salud",
+          "description": "Los equipos sociales ayudan a verificar o gestionar afiliación. Lleve cédula, comprobante de trámite o cualquier dato de identificación que tenga.\nSi no figura en una EPS, pida orientación en Sisbén y Secretaría de Salud; no pague a tramitadores.\nAlcaldía — trámites Sisbén",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Los equipos sociales ayudan a verificar o gestionar afiliación. Lleve cédula, comprobante de trámite o cualquier dato de identificación que tenga."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Si no figura en una EPS, pida orientación en Sisbén y Secretaría de Salud; no pague a tramitadores."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Alcaldía — trámites Sisbén",
-                  "href": "https://www.cali.gov.co/planeacion/publicaciones/142066/sisben/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.cali.gov.co/planeacion/publicaciones/142066/sisben/",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
+    },
+    {
+      "id": "mental-health",
+      "title": "Mental health and addiction",
+      "entries": []
+    },
+    {
+      "id": "public-facilities",
+      "title": "Public toilets and day facilities",
+      "entries": []
+    },
+    {
+      "id": "phone-internet",
+      "title": "Phone charging and internet",
+      "entries": []
+    },
+    {
+      "id": "transport",
+      "title": "Transport",
+      "entries": []
     },
     {
       "id": "benefits",
-      "title": "6. Sisbén, salud, programas sociales y vivienda",
-      "items": [
+      "title": "Sisbén, salud, programas sociales y vivienda",
+      "entries": [
         {
-          "type": "resource",
           "id": "sisben-cali",
-          "name": "Sisbén Cali",
+          "title": "Sisbén Cali",
+          "description": "Teléfonos: (602) 413 9087 o (602) 668 0180; lunes–viernes 7:30–17:00.\nPara encuesta, actualización e inclusión. Los trámites requieren documentos y normalmente dirección del hogar; una persona sin vivienda debe pedir orientación específica y apoyo del programa de calle.\nAlcaldía — Sisbén y puntos de atención",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Sede principal:",
-                  "strong": true
-                },
-                {
-                  "text": " calle 4A # 35A-64, Cali"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Teléfonos:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(602) 413 9087",
-                  "href": "tel:+576024139087"
-                },
-                {
-                  "text": " o "
-                },
-                {
-                  "text": "(602) 668 0180",
-                  "href": "tel:+576026680180"
-                },
-                {
-                  "text": "; lunes–viernes 7:30–17:00."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Para encuesta, actualización e inclusión. Los trámites requieren documentos y normalmente dirección del hogar; una persona sin vivienda debe pedir orientación específica y apoyo del programa de calle."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Alcaldía — Sisbén y puntos de atención",
-                  "href": "https://www.cali.gov.co/desarrolloinstitucional/publicaciones/179288/que-es-el-sisben-y-como-registrarse/"
-                }
-              ]
-            }
-          ]
+          "address": "Sede principal: calle 4A # 35A-64, Cali",
+          "phone": "+576024139087",
+          "website": "https://www.cali.gov.co/desarrolloinstitucional/publicaciones/179288/que-es-el-sisben-y-como-registrarse/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "puntos-de-informacion-y-orientacion-social",
-          "name": "Puntos de Información y Orientación Social",
+          "title": "Puntos de Información y Orientación Social",
+          "description": "Los PIO acercan la oferta para población vulnerable, mujeres, personas mayores, víctimas y otras poblaciones en distintas comunas.\nPregunte en Bienestar Social por el punto más cercano y qué trámite puede realizar allí; los horarios y sedes se actualizan.\nAlcaldía — PIO Sociales",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Los PIO acercan la oferta para población vulnerable, mujeres, personas mayores, víctimas y otras poblaciones en distintas comunas."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Pregunte en Bienestar Social por el punto más cercano y qué trámite puede realizar allí; los horarios y sedes se actualizan."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Alcaldía — PIO Sociales",
-                  "href": "https://www.cali.gov.co/bienestar/publicaciones/184748/la-alcaldia-de-cali-sigue-llegando-a-los-territorios-apoyando-a-las-victimas-del-conflicto-armado-con-oferta-integral/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.cali.gov.co/bienestar/publicaciones/184748/la-alcaldia-de-cali-sigue-llegando-a-los-territorios-apoyando-a-las-victimas-del-conflicto-armado-con-oferta-integral/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "atencion-para-personas-mayores",
-          "name": "Atención para personas mayores",
+          "title": "Atención para personas mayores",
+          "description": "Los centros de Santa Rosa, Sucre y San Bosco atienden personas mayores habitantes de calle o en riesgo, con modalidades de día y noche.\nPida valoración al Programa Habitantes de Calle; un subsidio económico no es automático ni reemplaza alojamiento urgente.\nAlcaldía — centros para mayores",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Los centros de Santa Rosa, Sucre y San Bosco atienden personas mayores habitantes de calle o en riesgo, con modalidades de día y noche."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Pida valoración al Programa Habitantes de Calle; un subsidio económico no es automático ni reemplaza alojamiento urgente."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Alcaldía — centros para mayores",
-                  "href": "https://www.cali.gov.co/boletines/publicaciones/194527/cali-transforma-su-centro-con-dignidad-mas-de-1000-atenciones-diarias-garantizan-oportunidades-a-habitantes-de-calle/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.cali.gov.co/boletines/publicaciones/194527/cali-transforma-su-centro-con-dignidad-mas-de-1000-atenciones-diarias-garantizan-oportunidades-a-habitantes-de-calle/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "victimas-del-conflicto-armado",
-          "name": "Víctimas del conflicto armado",
+          "title": "Víctimas del conflicto armado",
+          "description": "Teléfono: (602) 880 0126; lunes–viernes 7:30–16:30.\nOrientación sobre Registro Único de Víctimas, asistencia, reparación y rutas sociales. Lleve documento o datos del caso si los tiene.\nAlcaldía — portafolio de atención",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Centro Regional de Atención a Víctimas:",
-                  "strong": true
-                },
-                {
-                  "text": " carrera 16 # 15-75, barrio Guayaquil"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Teléfono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(602) 880 0126",
-                  "href": "tel:+576028800126"
-                },
-                {
-                  "text": "; lunes–viernes 7:30–16:30."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Orientación sobre Registro Único de Víctimas, asistencia, reparación y rutas sociales. Lleve documento o datos del caso si los tiene."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Alcaldía — portafolio de atención",
-                  "href": "https://intranet.cali.gov.co/wp-content/uploads/2025/11/Portafolio-de-servicios-Alcaldia-Distrital-de-Santiago-de-Cali-2025.pdf"
-                }
-              ]
-            }
-          ]
+          "address": "Centro Regional de Atención a Víctimas: carrera 16 # 15-75, barrio Guayaquil",
+          "phone": "+576028800126",
+          "website": "https://intranet.cali.gov.co/wp-content/uploads/2025/11/Portafolio-de-servicios-Alcaldia-Distrital-de-Santiago-de-Cali-2025.pdf",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "vivienda-y-arriendo",
-          "name": "Vivienda y arriendo",
+          "title": "Vivienda y arriendo",
+          "description": "Los programas de vivienda tienen convocatorias, requisitos y procesos; no resuelven una cama inmediata. Pida al equipo social evaluar la ruta aplicable y evitar perder documentos o plazos.\nNo entregue dinero a quien prometa cupo garantizado en vivienda pública.\nSecretaría de Vivienda de Cali",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Los programas de vivienda tienen convocatorias, requisitos y procesos; no resuelven una cama inmediata. Pida al equipo social evaluar la ruta aplicable y evitar perder documentos o plazos."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "No entregue dinero a quien prometa cupo garantizado en vivienda pública."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Secretaría de Vivienda de Cali",
-                  "href": "https://www.cali.gov.co/vivienda/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.cali.gov.co/vivienda/",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
-      "id": "jobs",
-      "title": "7. Empleo, formación e ingresos",
-      "items": [
+      "id": "employment",
+      "title": "Empleo, formación e ingresos",
+      "entries": [
         {
-          "type": "resource",
           "id": "agencia-publica-de-empleo-sena",
-          "name": "Agencia Pública de Empleo SENA",
+          "title": "Agencia Pública de Empleo SENA",
+          "description": "Registro de hoja de vida, orientación, búsqueda de vacantes e intermediación gratuita. No garantiza contratación.\nSi no tiene correo, documento o acceso digital, pida apoyo en el centro de acogida antes de ir.\nSENA — directorio de Agencias de Empleo",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Dirección:",
-                  "strong": true
-                },
-                {
-                  "text": " calle 23 Norte # 2N-38, barrio San Vicente"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Registro de hoja de vida, orientación, búsqueda de vacantes e intermediación gratuita. No garantiza contratación."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Si no tiene correo, documento o acceso digital, pida apoyo en el centro de acogida antes de ir."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "SENA — directorio de Agencias de Empleo",
-                  "href": "https://www.sena.edu.co/es-co/trabajo/Documents/Informacion-de-Oficinas-APE-SENA.pdf"
-                }
-              ]
-            }
-          ]
+          "address": "Dirección: calle 23 Norte # 2N-38, barrio San Vicente",
+          "phone": "",
+          "website": "https://www.sena.edu.co/es-co/trabajo/Documents/Informacion-de-Oficinas-APE-SENA.pdf",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "oferta-distrital-de-empleabilidad",
-          "name": "Oferta distrital de empleabilidad",
+          "title": "Oferta distrital de empleabilidad",
+          "description": "La Secretaría de Desarrollo Económico publica rutas de empleo y enlaces a agencias autorizadas. Revise convocatorias vigentes; muchas requieren inscripción previa.\nAlcaldía — empleabilidad",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "La Secretaría de Desarrollo Económico publica rutas de empleo y enlaces a agencias autorizadas. Revise convocatorias vigentes; muchas requieren inscripción previa."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Alcaldía — empleabilidad",
-                  "href": "https://www.cali.gov.co/desarrolloeconomico/publicaciones/150259/empleabilidad/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.cali.gov.co/desarrolloeconomico/publicaciones/150259/empleabilidad/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "talleres-y-formacion-en-la-red-de-calle",
-          "name": "Talleres y formación en la red de calle",
+          "title": "Talleres y formación en la red de calle",
+          "description": "Los centros municipales incluyen talleres formativos y acompañamiento hacia inclusión social y laboral. El acceso depende de la etapa del proceso y continuidad.\nPregunte en Samaritanos qué programa está abierto y si exige permanencia en un centro.\nAlcaldía — talleres 2026",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Los centros municipales incluyen talleres formativos y acompañamiento hacia inclusión social y laboral. El acceso depende de la etapa del proceso y continuidad."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Pregunte en Samaritanos qué programa está abierto y si exige permanencia en un centro."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Alcaldía — talleres 2026",
-                  "href": "https://www.cali.gov.co/boletines/publicaciones/194527/cali-transforma-su-centro-con-dignidad-mas-de-1000-atenciones-diarias-garantizan-oportunidades-a-habitantes-de-calle/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.cali.gov.co/boletines/publicaciones/194527/cali-transforma-su-centro-con-dignidad-mas-de-1000-atenciones-diarias-garantizan-oportunidades-a-habitantes-de-calle/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "centro-integrate-migrantes-y-retornados",
-          "name": "Centro Intégrate — migrantes y retornados",
+          "title": "Centro Intégrate — migrantes y retornados",
+          "description": "Lunes–viernes 7:30–16:30. Ofrece rutas de empleo, emprendimiento, orientación jurídica y apoyo psicosocial para población migrante, retornada y de acogida.\nAlcaldía — Centro Intégrate 2026",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Dirección:",
-                  "strong": true
-                },
-                {
-                  "text": " Fundación Carvajal, carrera 28F # 72I-79, El Poblado"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Lunes–viernes 7:30–16:30. Ofrece rutas de empleo, emprendimiento, orientación jurídica y apoyo psicosocial para población migrante, retornada y de acogida."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Alcaldía — Centro Intégrate 2026",
-                  "href": "https://www.cali.gov.co/boletines/publicaciones/192357/cali-abre-en-el-oriente-un-centro-que-conecta-a-migrantes-con-empleo-derechos-y-nuevas-oportunidades/"
-                }
-              ]
-            }
-          ]
+          "address": "Dirección: Fundación Carvajal, carrera 28F # 72I-79, El Poblado",
+          "phone": "",
+          "website": "https://www.cali.gov.co/boletines/publicaciones/192357/cali-abre-en-el-oriente-un-centro-que-conecta-a-migrantes-con-empleo-derechos-y-nuevas-oportunidades/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "evitar-ofertas-fraudulentas-o-explotacion",
-          "name": "Evitar ofertas fraudulentas o explotación",
+          "title": "Evitar ofertas fraudulentas o explotación",
+          "description": "No pague por una vacante, no entregue la cédula original y exija por escrito empleador, dirección, horario, salario y funciones. Conserve capturas y mensajes.\nSi retienen documentos, amenazan, obligan a trabajar o impiden salir, llame al 123 o Fiscalía 122.\nServicio Público de Empleo — orientación",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "No pague por una vacante, no entregue la cédula original y exija por escrito empleador, dirección, horario, salario y funciones. Conserve capturas y mensajes."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Si retienen documentos, amenazan, obligan a trabajar o impiden salir, llame al 123 o Fiscalía 122."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Servicio Público de Empleo — orientación",
-                  "href": "https://www.serviciodeempleo.gov.co/atencion-a-la-ciudadania/preguntas-frecuentes"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.serviciodeempleo.gov.co/atencion-a-la-ciudadania/preguntas-frecuentes",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
+    },
+    {
+      "id": "legal",
+      "title": "Legal aid",
+      "entries": []
     },
     {
       "id": "documents",
-      "title": "8. Documentos, ayuda legal, víctimas y migración",
-      "items": [
+      "title": "Documentos, ayuda legal, víctimas y migración",
+      "entries": [
         {
-          "type": "resource",
           "id": "registraduria-especial-de-cali",
-          "name": "Registraduría Especial de Cali",
+          "title": "Registraduría Especial de Cali",
+          "description": "Trámites de cédula, tarjeta de identidad y registro civil. El duplicado puede tener costo; pregunte por exoneraciones o apoyo si no puede pagar.\nAntes de trasladarse, consulte la oficina y modalidad del trámite en el directorio oficial.\nRegistraduría — oficinas de Cali",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Dirección:",
-                  "strong": true
-                },
-                {
-                  "text": " calle 8A # 39-105, barrio Cámbulos"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Trámites de cédula, tarjeta de identidad y registro civil. El duplicado puede tener costo; pregunte por exoneraciones o apoyo si no puede pagar."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Antes de trasladarse, consulte la oficina y modalidad del trámite en el directorio oficial."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Registraduría — oficinas de Cali",
-                  "href": "https://wapp.registraduria.gov.co/GTH/directorio/municipio.php?departamento=VALLE+DEL+CAUCA&municipio=Cali"
-                }
-              ]
-            }
-          ]
+          "address": "Dirección: calle 8A # 39-105, barrio Cámbulos",
+          "phone": "",
+          "website": "https://wapp.registraduria.gov.co/GTH/directorio/municipio.php?departamento=VALLE+DEL+CAUCA&municipio=Cali",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "apoyo-para-recuperar-documentos",
-          "name": "Apoyo para recuperar documentos",
+          "title": "Apoyo para recuperar documentos",
+          "description": "La red municipal informa acompañamiento en trámites de identidad. Pida al trabajador social del centro una constancia, orientación de pago y cita.\nNo entregue dinero a tramitadores; los cupos sociales no dependen de pagar a un intermediario.\nAlcaldía — apoyo documental",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "La red municipal informa acompañamiento en trámites de identidad. Pida al trabajador social del centro una constancia, orientación de pago y cita."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "No entregue dinero a tramitadores; los cupos sociales no dependen de pagar a un intermediario."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Alcaldía — apoyo documental",
-                  "href": "https://www.cali.gov.co/boletines/publicaciones/194527/cali-transforma-su-centro-con-dignidad-mas-de-1000-atenciones-diarias-garantizan-oportunidades-a-habitantes-de-calle/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.cali.gov.co/boletines/publicaciones/194527/cali-transforma-su-centro-con-dignidad-mas-de-1000-atenciones-diarias-garantizan-oportunidades-a-habitantes-de-calle/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "personeria-orientacion-juridica-gratuita",
-          "name": "Personería — orientación jurídica gratuita",
+          "title": "Personería — orientación jurídica gratuita",
+          "description": "Teléfonos: (602) 653 3812 o 318 335 5713.\nOrientación y acompañamiento en vulneraciones de derechos, sin cita y sin costo, por orden de llegada. No lleva procesos judiciales particulares.\nPersonería — servicio jurídico",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Dirección:",
-                  "strong": true
-                },
-                {
-                  "text": " Bahía del CAM, avenida 2 Norte # 10-70"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Teléfonos:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(602) 653 3812",
-                  "href": "tel:+576026533812"
-                },
-                {
-                  "text": " o "
-                },
-                {
-                  "text": "318 335 5713",
-                  "href": "tel:+573183355713"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Orientación y acompañamiento en vulneraciones de derechos, sin cita y sin costo, por orden de llegada. No lleva procesos judiciales particulares."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Personería — servicio jurídico",
-                  "href": "https://personeriacali.gov.co/servicios-acompanamiento-juridico/"
-                }
-              ]
-            }
-          ]
+          "address": "Dirección: Bahía del CAM, avenida 2 Norte # 10-70",
+          "phone": "+576026533812",
+          "website": "https://personeriacali.gov.co/servicios-acompanamiento-juridico/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "accion-de-tutela-y-urgencia-de-derechos",
-          "name": "Acción de tutela y urgencia de derechos",
+          "title": "Acción de tutela y urgencia de derechos",
+          "description": "La Personería ayuda a radicar tutela cuando un derecho fundamental requiere protección judicial. Lleve respuestas, órdenes, historia clínica o cualquier soporte; explique los plazos.\nUna tutela no sustituye una llamada al 123 ante peligro de vida.\nPersonería — tutela y atención",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "La Personería ayuda a radicar tutela cuando un derecho fundamental requiere protección judicial. Lleve respuestas, órdenes, historia clínica o cualquier soporte; explique los plazos."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Una tutela no sustituye una llamada al 123 ante peligro de vida."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Personería — tutela y atención",
-                  "href": "https://personeriacali.gov.co/servicios-acompanamiento-juridico/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://personeriacali.gov.co/servicios-acompanamiento-juridico/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "centro-integrate-regularizacion-migratoria",
-          "name": "Centro Intégrate — regularización migratoria",
+          "title": "Centro Intégrate — regularización migratoria",
+          "description": "Orientación jurídica, regularización, trámites migratorios, apoyo psicosocial, empleo y emprendimiento para migrantes, refugiados, retornados y comunidad de acogida.\nEl servicio orienta, pero no garantiza aprobación de un permiso ni reemplaza a Migración Colombia.\nAlcaldía — Centro Intégrate",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Dirección:",
-                  "strong": true
-                },
-                {
-                  "text": " carrera 28F # 72I-79, El Poblado"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Orientación jurídica, regularización, trámites migratorios, apoyo psicosocial, empleo y emprendimiento para migrantes, refugiados, retornados y comunidad de acogida."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "El servicio orienta, pero no garantiza aprobación de un permiso ni reemplaza a Migración Colombia."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Alcaldía — Centro Intégrate",
-                  "href": "https://www.cali.gov.co/boletines/publicaciones/194067/centro-integrate-no-se-detiene-en-su-atencion-a-la-poblacion-migrante-y-comunidades-de-acogida-en-cali/"
-                }
-              ]
-            }
-          ]
+          "address": "Dirección: carrera 28F # 72I-79, El Poblado",
+          "phone": "",
+          "website": "https://www.cali.gov.co/boletines/publicaciones/194067/centro-integrate-no-se-detiene-en-su-atencion-a-la-poblacion-migrante-y-comunidades-de-acogida-en-cali/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "centro-de-atencion-inmediata-al-migrante",
-          "name": "Centro de Atención Inmediata al Migrante",
+          "title": "Centro de Atención Inmediata al Migrante",
+          "description": "Punto municipal para orientación inicial a población migrante. Pregunte en información de la Terminal por la oficina y horario actual.\nPara un caso complejo o seguimiento, el Centro Intégrate de El Poblado tiene equipo interdisciplinario.\nAlcaldía — tres puntos para migrantes",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Ubicación:",
-                  "strong": true
-                },
-                {
-                  "text": " Terminal de Transportes de Cali"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Punto municipal para orientación inicial a población migrante. Pregunte en información de la Terminal por la oficina y horario actual."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Para un caso complejo o seguimiento, el Centro Intégrate de El Poblado tiene equipo interdisciplinario."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Alcaldía — tres puntos para migrantes",
-                  "href": "https://www.cali.gov.co/boletines/publicaciones/194067/centro-integrate-no-se-detiene-en-su-atencion-a-la-poblacion-migrante-y-comunidades-de-acogida-en-cali/"
-                }
-              ]
-            }
-          ]
+          "address": "Ubicación: Terminal de Transportes de Cali",
+          "phone": "",
+          "website": "https://www.cali.gov.co/boletines/publicaciones/194067/centro-integrate-no-se-detiene-en-su-atencion-a-la-poblacion-migrante-y-comunidades-de-acogida-en-cali/",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
-      "id": "specialized",
-      "title": "9. Mujeres, niñez, personas LGBTIQ+, mayores y discapacidad",
-      "items": [
+      "id": "mail",
+      "title": "Mailing address",
+      "entries": []
+    },
+    {
+      "id": "storage",
+      "title": "Storage",
+      "entries": []
+    },
+    {
+      "id": "safety",
+      "title": "Safety and domestic violence",
+      "entries": []
+    },
+    {
+      "id": "specialist-support",
+      "title": "Mujeres, niñez, personas LGBTIQ+, mayores y discapacidad",
+      "entries": [
         {
-          "type": "resource",
           "id": "casa-matria-linea-facil-24-7",
-          "name": "Casa Matria — línea fácil 24/7",
+          "title": "Casa Matria — línea fácil 24/7",
+          "description": "Teléfono y WhatsApp: 311 612 0000, 24 horas.\nOrientación inmediata para mujeres en riesgo de feminicidio. Casa Matria ofrece acompañamiento jurídico y psicosocial y puede activar el Hogar de Acogida tras valoración.\nEl hogar ha recibido mujeres con dependientes y mascotas; no garantiza cupo inmediato. En peligro llame 123.\nAlcaldía — Casa Matria 2026",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Teléfono y WhatsApp:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "311 612 0000",
-                  "href": "tel:+573116120000"
-                },
-                {
-                  "text": ", 24 horas."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Orientación inmediata para mujeres en riesgo de feminicidio. Casa Matria ofrece acompañamiento jurídico y psicosocial y puede activar el Hogar de Acogida tras valoración."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "El hogar ha recibido mujeres con dependientes y mascotas; no garantiza cupo inmediato. En peligro llame 123."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Alcaldía — Casa Matria 2026",
-                  "href": "https://www.cali.gov.co/boletines/publicaciones/192910/mas-de-2700-mujeres-en-riesgo-de-feminicidio-han-buscado-ayuda-en-la-linea-247-de-casa-matria-durante-2026/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+573116120000",
+          "website": "https://www.cali.gov.co/boletines/publicaciones/192910/mas-de-2700-mujeres-en-riesgo-de-feminicidio-han-buscado-ayuda-en-la-linea-247-de-casa-matria-durante-2026/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "casa-matria-atencion-de-dia",
-          "name": "Casa Matria — atención de día",
+          "title": "Casa Matria — atención de día",
+          "description": "Citas: 350 803 2031.\nOrientación jurídica y acompañamiento psicosocial gratuito para mujeres víctimas de violencias. No pague por el servicio.\nAlcaldía — atención gratuita a mujeres",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Dirección:",
-                  "strong": true
-                },
-                {
-                  "text": " calle 10 Norte # 9N-07, barrio Juanambú"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Citas:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "350 803 2031",
-                  "href": "tel:+573508032031"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Orientación jurídica y acompañamiento psicosocial gratuito para mujeres víctimas de violencias. No pague por el servicio."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Alcaldía — atención gratuita a mujeres",
-                  "href": "https://www.cali.gov.co/boletines/publicaciones/192646/eres-victima-de-violencia-de-genero-estos-son-los-puntos-de-atencion-para-mujeres-dispuestos-por-la-alcaldia-de-cali/"
-                }
-              ]
-            }
-          ]
+          "address": "Dirección: calle 10 Norte # 9N-07, barrio Juanambú",
+          "phone": "+573508032031",
+          "website": "https://www.cali.gov.co/boletines/publicaciones/192646/eres-victima-de-violencia-de-genero-estos-son-los-puntos-de-atencion-para-mujeres-dispuestos-por-la-alcaldia-de-cali/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "ninas-ninos-y-adolescentes-en-riesgo",
-          "name": "Niñas, niños y adolescentes en riesgo",
+          "title": "Niñas, niños y adolescentes en riesgo",
+          "description": "ICBF: 141, 24 horas; emergencia inmediata: 123.\nPara abandono, maltrato, explotación, violencia sexual o un menor solo en calle. No lleve al menor a un dormitorio de adultos ni lo entregue a desconocidos.\nICBF — Línea 141",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "ICBF:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "141",
-                  "href": "tel:141"
-                },
-                {
-                  "text": ", 24 horas; "
-                },
-                {
-                  "text": "emergencia inmediata:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "123",
-                  "href": "tel:123"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Para abandono, maltrato, explotación, violencia sexual o un menor solo en calle. No lleve al menor a un dormitorio de adultos ni lo entregue a desconocidos."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "ICBF — Línea 141",
-                  "href": "https://www.icbf.gov.co/linea-141"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "141",
+          "website": "https://www.icbf.gov.co/linea-141",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "centro-de-atencion-calidiversidad",
-          "name": "Centro de Atención CaliDiversidad",
+          "title": "Centro de Atención CaliDiversidad",
+          "description": "Teléfono: 323 303 6110.\nOrientación jurídica, atención psicosocial y activación de rutas para población LGBTIQ+ ante violencia, discriminación o vulneración de derechos.\nAlcaldía — sede CaliDiversidad 2026",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Dirección:",
-                  "strong": true
-                },
-                {
-                  "text": " calle 61 Norte # 3BN-19, barrio La Flora"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Teléfono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "323 303 6110",
-                  "href": "tel:+573233036110"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Orientación jurídica, atención psicosocial y activación de rutas para población LGBTIQ+ ante violencia, discriminación o vulneración de derechos."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Alcaldía — sede CaliDiversidad 2026",
-                  "href": "https://intranet.cali.gov.co/2026/03/11/calidiversidad-estrena-nueva-sede-en-el-norte/"
-                }
-              ]
-            }
-          ]
+          "address": "Dirección: calle 61 Norte # 3BN-19, barrio La Flora",
+          "phone": "+573233036110",
+          "website": "https://intranet.cali.gov.co/2026/03/11/calidiversidad-estrena-nueva-sede-en-el-norte/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "personas-mayores-en-calle",
-          "name": "Personas mayores en calle",
+          "title": "Personas mayores en calle",
+          "description": "Solicite en Samaritanos o Bienestar Social valoración para los centros de Santa Rosa, Sucre o San Bosco. Explique movilidad, medicamentos, memoria y necesidad de asistencia.\nAnte confusión repentina, caída grave, dolor de pecho o dificultad para respirar, llame 123.\nAlcaldía — centros especializados",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Solicite en Samaritanos o Bienestar Social valoración para los centros de Santa Rosa, Sucre o San Bosco. Explique movilidad, medicamentos, memoria y necesidad de asistencia."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ante confusión repentina, caída grave, dolor de pecho o dificultad para respirar, llame 123."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Alcaldía — centros especializados",
-                  "href": "https://www.cali.gov.co/boletines/publicaciones/194527/cali-transforma-su-centro-con-dignidad-mas-de-1000-atenciones-diarias-garantizan-oportunidades-a-habitantes-de-calle/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.cali.gov.co/boletines/publicaciones/194527/cali-transforma-su-centro-con-dignidad-mas-de-1000-atenciones-diarias-garantizan-oportunidades-a-habitantes-de-calle/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "personas-con-discapacidad",
-          "name": "Personas con discapacidad",
+          "title": "Personas con discapacidad",
+          "description": "Al pedir albergue o atención, informe movilidad, comunicación, apoyos, silla, oxígeno, medicamentos y acompañante. Pregunte por accesibilidad antes del traslado.\nSi una entidad niega atención sin alternativa o hay discriminación, solicite apoyo de Personería.\nBienestar Social — atención poblacional",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Al pedir albergue o atención, informe movilidad, comunicación, apoyos, silla, oxígeno, medicamentos y acompañante. Pregunte por accesibilidad antes del traslado."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Si una entidad niega atención sin alternativa o hay discriminación, solicite apoyo de Personería."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Bienestar Social — atención poblacional",
-                  "href": "https://www.cali.gov.co/bienestar/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.cali.gov.co/bienestar/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "migrantes-con-necesidad-de-proteccion",
-          "name": "Migrantes con necesidad de protección",
+          "title": "Migrantes con necesidad de protección",
+          "description": "Centro Intégrate ofrece atención diferencial a mujeres y población LGBTIQ+, regularización, apoyo legal y psicosocial. Para emergencia use 123; para niñez 141.\nOrientación: 316 362 2468.\nAlcaldía — Centro Intégrate y rutas",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Centro Intégrate ofrece atención diferencial a mujeres y población LGBTIQ+, regularización, apoyo legal y psicosocial. Para emergencia use 123; para niñez 141."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Orientación:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "316 362 2468",
-                  "href": "tel:+573163622468"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Alcaldía — Centro Intégrate y rutas",
-                  "href": "https://www.cali.gov.co/seguridad/publicaciones/177491/conozca-como-activar-la-ruta-de-atencion-para-violencia-de-genero/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+573163622468",
+          "website": "https://www.cali.gov.co/seguridad/publicaciones/177491/conozca-como-activar-la-ruta-de-atencion-para-violencia-de-genero/",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
+    },
+    {
+      "id": "veterans",
+      "title": "Veterans support",
+      "entries": []
     },
     {
       "id": "pets",
-      "title": "10. Ayuda con animales",
-      "items": [
+      "title": "Ayuda con animales",
+      "entries": [
         {
-          "type": "resource",
           "id": "pregunte-por-el-animal-antes-de-aceptar-alojamiento",
-          "name": "Pregunte por el animal antes de aceptar alojamiento",
+          "title": "Pregunte por el animal antes de aceptar alojamiento",
+          "description": "Informe especie, tamaño, comportamiento, estado de salud y si tiene guacal o correa. Pregunte si puede permanecer con usted y qué alternativa segura ofrecen si no.\nCasa Matria ha acogido mascotas dentro de núcleos protegidos, pero cada ingreso depende de valoración y cupo. Los demás centros no garantizan admisión animal.\nCasa Matria — Hogar de Acogida",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Informe especie, tamaño, comportamiento, estado de salud y si tiene guacal o correa. Pregunte si puede permanecer con usted y qué alternativa segura ofrecen si no."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Casa Matria ha acogido mascotas dentro de núcleos protegidos, pero cada ingreso depende de valoración y cupo. Los demás centros no garantizan admisión animal."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Casa Matria — Hogar de Acogida",
-                  "href": "https://www.cali.gov.co/boletines/publicaciones/192910/mas-de-2700-mujeres-en-riesgo-de-feminicidio-han-buscado-ayuda-en-la-linea-247-de-casa-matria-durante-2026/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.cali.gov.co/boletines/publicaciones/192910/mas-de-2700-mujeres-en-riesgo-de-feminicidio-han-buscado-ayuda-en-la-linea-247-de-casa-matria-durante-2026/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "centro-de-bienestar-animal-urgencias-24-7",
-          "name": "Centro de Bienestar Animal — urgencias 24/7",
+          "title": "Centro de Bienestar Animal — urgencias 24/7",
+          "description": "Urgencias veterinarias para perros y gatos todos los días. Atención integral gratuita principalmente para cuidadores con Sisbén A o B; sin Sisbén, estabilizan emergencias y remiten.\nLleve documento físico si lo tiene y disponibilidad de tiempo. La atención depende del triage veterinario.\nAlcaldía — urgencias veterinarias",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Dirección:",
-                  "strong": true
-                },
-                {
-                  "text": " carrera 56 # 7 Oeste-315, barrio Bella Suiza"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Urgencias veterinarias para perros y gatos todos los días. Atención integral gratuita principalmente para cuidadores con Sisbén A o B; sin Sisbén, estabilizan emergencias y remiten."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Lleve documento físico si lo tiene y disponibilidad de tiempo. La atención depende del triage veterinario."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Alcaldía — urgencias veterinarias",
-                  "href": "https://www.cali.gov.co/boletines/publicaciones/189573/tu-mascota-esta-en-una-urgencia-asi-funciona-la-atencion-247-del-centro-de-bienestar-animal-de-cali/"
-                }
-              ]
-            }
-          ]
+          "address": "Dirección: carrera 56 # 7 Oeste-315, barrio Bella Suiza",
+          "phone": "",
+          "website": "https://www.cali.gov.co/boletines/publicaciones/189573/tu-mascota-esta-en-una-urgencia-asi-funciona-la-atencion-247-del-centro-de-bienestar-animal-de-cali/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "consulta-veterinaria-para-sisben-a-o-b",
-          "name": "Consulta veterinaria para Sisbén A o B",
+          "title": "Consulta veterinaria para Sisbén A o B",
+          "description": "WhatsApp: 318 275 0101.\nConsulta, esterilización, cirugía y otros servicios gratuitos para cuidadores responsables con clasificación Sisbén A o B, sujetos a cita, documentos y disponibilidad.\nAlcaldía — atención veterinaria gratuita",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "WhatsApp:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "318 275 0101",
-                  "href": "tel:+573182750101"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Consulta, esterilización, cirugía y otros servicios gratuitos para cuidadores responsables con clasificación Sisbén A o B, sujetos a cita, documentos y disponibilidad."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Alcaldía — atención veterinaria gratuita",
-                  "href": "https://www.cali.gov.co/boletines/publicaciones/187185/atencion-si-tienes-sisben-a-o-b-tu-animal-de-compania-puede-recibir-atencion-veterinaria-gratuita-en-el-centro-de-bienestar-animal-de-cali/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+573182750101",
+          "website": "https://www.cali.gov.co/boletines/publicaciones/187185/atencion-si-tienes-sisben-a-o-b-tu-animal-de-compania-puede-recibir-atencion-veterinaria-gratuita-en-el-centro-de-bienestar-animal-de-cali/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "no-abandonar-ni-entregar-por-una-promesa",
-          "name": "No abandonar ni entregar por una promesa",
+          "title": "No abandonar ni entregar por una promesa",
+          "description": "Si un centro no acepta al animal, pida una referencia verificable y condiciones de devolución. No entregue el animal ni documentos a una persona no identificada.\nConserve fotos, carné, medicamentos y datos de quien recibe temporalmente al animal.\nUAEPA — información oficial",
           "last_verified": "2026-11-11",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Si un centro no acepta al animal, pida una referencia verificable y condiciones de devolución. No entregue el animal ni documentos a una persona no identificada."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Conserve fotos, carné, medicamentos y datos de quien recibe temporalmente al animal."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "UAEPA — información oficial",
-                  "href": "https://www.cali.gov.co/proteccionanimal/publicaciones/178255/localizacion-fisica-dias-y-horarios-de-atencion/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.cali.gov.co/proteccionanimal/publicaciones/178255/localizacion-fisica-dias-y-horarios-de-atencion/",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
-      "id": "verificacion-y-correcciones",
+      "id": "other",
       "title": "Verificación y correcciones",
-      "items": [
+      "entries": [
         {
-          "type": "paragraph",
-          "content": [
-            {
-              "text": "Esta página usa fuentes de la Alcaldía de Cali, Personería, Registraduría, SENA, ICBF y sitios oficiales de los prestadores. Cuando una sede o jornada puede cambiar, se indica que debe confirmarse."
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "content": [
-            {
-              "text": "¿Encontró un servicio cerrado, un teléfono incorrecto o una ayuda nueva? "
-            },
-            {
-              "text": "Consulte cómo contribuir",
-              "href": "../../CONTRIBUTING.md"
-            },
-            {
-              "text": " o "
-            },
-            {
-              "text": "envíe una corrección en GitHub",
-              "href": "https://github.com/carlosbranco/no-home-help"
-            },
-            {
-              "text": "."
-            }
-          ]
+          "id": "verificacion-y-correcciones-information",
+          "title": "Verificación y correcciones",
+          "description": "Esta página usa fuentes de la Alcaldía de Cali, Personería, Registraduría, SENA, ICBF y sitios oficiales de los prestadores. Cuando una sede o jornada puede cambiar, se indica que debe confirmarse.\n¿Encontró un servicio cerrado, un teléfono incorrecto o una ayuda nueva? Consulte cómo contribuir o envíe una corrección en GitHub. — ../../CONTRIBUTING.md",
+          "last_verified": "2026-11-11",
+          "address": "",
+          "phone": "",
+          "website": "https://github.com/carlosbranco/no-home-help",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     }

@@ -1,6 +1,7 @@
 {
   "$schema": "https://nohomehelp.com/schemas/city.schema.json",
-  "schema_version": 1,
+  "documentation": "https://github.com/carlosbranco/no-home-help/blob/main/EDIT_CITY_JSON.md",
+  "schema_version": 2,
   "status": "published",
   "locale": {
     "language": "en",
@@ -26,3216 +27,856 @@
   "page": {
     "heading": "Vancouver — help for people experiencing homelessness",
     "last_verified": "2026-11-12",
-    "urgent": [
-      {
-        "type": "paragraph",
-        "content": [
-          {
-            "text": "Life-threatening emergency:",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "911",
-            "href": "tel:911"
-          },
-          {
-            "break": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "Current shelter spaces:",
-            "strong": true
-          },
-          {
-            "text": " call or text "
-          },
-          {
-            "text": "211",
-            "href": "tel:211"
-          },
-          {
-            "text": ", or check the live BC211 shelter list"
-          },
-          {
-            "break": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "Street outreach:",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "604-665-3318",
-            "href": "tel:6046653318"
-          },
-          {
-            "text": "; outreach cell "
-          },
-          {
-            "text": "604-968-1825",
-            "href": "tel:6049681825"
-          },
-          {
-            "break": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "Health advice:",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "811",
-            "href": "tel:811"
-          },
-          {
-            "text": ", 24 hours"
-          },
-          {
-            "break": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "Violence or exploitation:",
-            "strong": true
-          },
-          {
-            "text": " call or text VictimLinkBC at "
-          },
-          {
-            "text": "1-800-563-0808",
-            "href": "tel:18005630808"
-          },
-          {
-            "text": ", 24 hours"
-          }
-        ]
-      }
-    ],
-    "notice": [
-      {
-        "text": "Hours, eligibility and spaces can change.",
-        "strong": true
-      },
-      {
-        "text": " Call before travelling when possible. A listing does not guarantee a bed, meal, payment, appointment, document or job. BC211's Vancouver shelter list is the best starting point for current bed and mat information."
-      }
-    ],
-    "intro": [
-      {
-        "type": "paragraph",
-        "content": [
-          {
-            "text": "When asking for help, say where you are, your age, whether you have a safe place tonight, and whether children, a partner, a pet, large belongings, accessibility needs or urgent health needs are involved. Ask the worker to explain the intake process before you travel."
-          }
-        ]
-      }
-    ],
-    "footer": [
-      {
-        "type": "paragraph",
-        "content": [
-          {
-            "text": "No Home Help is not part of the City, Province or any service provider. Verify information before travelling."
-          }
-        ]
-      }
-    ]
+    "urgent": "Life-threatening emergency: 911 Current shelter spaces: call or text 211, or check the live BC211 shelter list Street outreach: 604-665-3318; outreach cell 604-968-1825 Health advice: 811, 24 hours Violence or exploitation: call or text VictimLinkBC at 1-800-563-0808, 24 hours",
+    "notice": "Hours, eligibility and spaces can change. Call before travelling when possible. A listing does not guarantee a bed, meal, payment, appointment, document or job. BC211's Vancouver shelter list is the best starting point for current bed and mat information.",
+    "intro": "When asking for help, say where you are, your age, whether you have a safe place tonight, and whether children, a partner, a pet, large belongings, accessibility needs or urgent health needs are involved. Ask the worker to explain the intake process before you travel.",
+    "footer": "No Home Help is not part of the City, Province or any service provider. Verify information before travelling."
   },
   "categories": [
     {
       "id": "emergency",
-      "title": "1. Emergency and first contact",
-      "items": [
+      "title": "Emergency and first contact",
+      "entries": [
         {
-          "type": "resource",
           "id": "911-immediate-danger",
-          "name": "911 — immediate danger",
+          "title": "911 — immediate danger",
+          "description": "Phone: 911. Call for a serious medical emergency, suspected overdose, fire, violence or a crime in progress.\nGive the exact address, nearest intersection or visible landmark. Say what happened and whether the person is conscious and breathing. If it is safe, stay on the line and follow the operator's instructions.\nEmergency guidance — City of Vancouver",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "911",
-                  "href": "tel:911"
-                },
-                {
-                  "text": ". Call for a serious medical emergency, suspected overdose, fire, violence or a crime in progress."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Give the exact address, nearest intersection or visible landmark. Say what happened and whether the person is conscious and breathing. If it is safe, stay on the line and follow the operator's instructions."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Emergency guidance — City of Vancouver",
-                  "href": "https://vancouver.ca/people-programs/carnegie-centre-outreach-programs.aspx"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "911",
+          "website": "https://vancouver.ca/people-programs/carnegie-centre-outreach-programs.aspx",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "bc211-shelter-food-and-local-services",
-          "name": "BC211 — shelter, food and local services",
+          "title": "BC211 — shelter, food and local services",
+          "description": "Call or text: 211. Current navigator hours are 9am to 9pm on weekdays, excluding statutory holidays. The website can be searched at any time.\nAsk for a shelter that fits your age, gender, household, accessibility and pet needs. BC211 can also search for food, health, legal, financial, newcomer and transport services. It cannot reserve or guarantee a bed.\nBC211",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Call or text:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "211",
-                  "href": "tel:211"
-                },
-                {
-                  "text": ". Current navigator hours are 9am to 9pm on weekdays, excluding statutory holidays. The website can be searched at any time."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ask for a shelter that fits your age, gender, household, accessibility and pet needs. BC211 can also search for food, health, legal, financial, newcomer and transport services. It cannot reserve or guarantee a bed."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "BC211",
-                  "href": "https://bc.211.ca/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "211",
+          "website": "https://bc.211.ca/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "homelessness-services-outreach-team",
-          "name": "Homelessness Services Outreach Team",
+          "title": "Homelessness Services Outreach Team",
+          "description": "Office: 604-665-3318. Outreach cell: 604-968-1825. Drop-in is first come, first served, Monday to Friday, 9am to 4pm, except statutory holidays.\nCity outreach workers can help with shelter, housing applications, income benefits, identification, health referrals, clothing, detox and harm-reduction supplies. The team also conducts street outreach.\nHomelessness Services Outreach Team — City of Vancouver",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Drop-in:",
-                  "strong": true
-                },
-                {
-                  "text": " 392 Powell Street"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Office:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "604-665-3318",
-                  "href": "tel:6046653318"
-                },
-                {
-                  "text": ". "
-                },
-                {
-                  "text": "Outreach cell:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "604-968-1825",
-                  "href": "tel:6049681825"
-                },
-                {
-                  "text": ". Drop-in is first come, first served, Monday to Friday, 9am to 4pm, except statutory holidays."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "City outreach workers can help with shelter, housing applications, income benefits, identification, health referrals, clothing, detox and harm-reduction supplies. The team also conducts street outreach."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Homelessness Services Outreach Team — City of Vancouver",
-                  "href": "https://vancouver.ca/people-programs/carnegie-centre-outreach-programs.aspx"
-                }
-              ]
-            }
-          ]
+          "address": "Drop-in: 392 Powell Street",
+          "phone": "6046653318",
+          "website": "https://vancouver.ca/people-programs/carnegie-centre-outreach-programs.aspx",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "victimlinkbc-violence-crime-and-human-trafficking",
-          "name": "VictimLinkBC — violence, crime and human trafficking",
+          "title": "VictimLinkBC — violence, crime and human trafficking",
+          "description": "Call or text: 1-800-563-0808, 24 hours. The service is confidential, toll-free and multilingual.\nVictimLinkBC can provide immediate support and referrals to transition houses, victim services, counselling and legal or safety-planning resources. You do not need to be certain that a crime occurred before contacting the service. Call 911 for immediate danger.\nVictimLinkBC — Government of British Columbia",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Call or text:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "1-800-563-0808",
-                  "href": "tel:18005630808"
-                },
-                {
-                  "text": ", 24 hours. The service is confidential, toll-free and multilingual."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "VictimLinkBC can provide immediate support and referrals to transition houses, victim services, counselling and legal or safety-planning resources. You do not need to be certain that a crime occurred before contacting the service. Call 911 for immediate danger."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "VictimLinkBC — Government of British Columbia",
-                  "href": "https://www2.gov.bc.ca/gov/content/justice/criminal-justice/victims-of-crime/victimlinkbc"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "18005630808",
+          "website": "https://www2.gov.bc.ca/gov/content/justice/criminal-justice/victims-of-crime/victimlinkbc",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "winter-shelters-and-extreme-weather-response",
+          "title": "Winter shelters and Extreme Weather Response",
+          "description": "Temporary winter shelters normally add spaces during the colder months. Extreme Weather Response sites open only when an alert is active. Criteria include cold, snow, freezing rain, severe wind and heavy rain.\nUse the live BC211 list immediately before travelling. An address published for the winter does not mean the site is active or has space tonight.\nShelters and winter response — City of Vancouver",
+          "last_verified": "2026-11-12",
+          "address": "",
+          "phone": "",
+          "website": "https://vancouver.ca/people-programs/shelters.aspx",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "warming-centres",
+          "title": "Warming centres",
+          "description": "The City activates warming centres when the temperature reaches or feels like -4°C or below. These centres provide a warm indoor space but are not set up with beds or mats.\nActivation locations are announced with extreme-weather alerts. Check the City shelter page, the BC211 list or ask a shelter or outreach worker before going.\nCurrent winter response — City of Vancouver",
+          "last_verified": "2026-11-12",
+          "address": "",
+          "phone": "",
+          "website": "https://vancouver.ca/people-programs/shelters.aspx",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "cooling-centres",
+          "title": "Cooling centres",
+          "description": "During hot weather, City community centres and libraries provide air-conditioned spaces. No registration, payment or identification is required; seating, drinking water and washrooms are available.\nMost community-centre cooling sites accept well-behaved pets, but Evelyne Saller and Carnegie do not, and pets are not allowed in library cooling centres. Check the current map and hours during a heat event.\nHot-weather resources — City of Vancouver",
+          "last_verified": "2026-11-12",
+          "address": "",
+          "phone": "",
+          "website": "https://vancouver.ca/home-property-development/hot-weather.aspx",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "wildfire-smoke-and-cleaner-air",
+          "title": "Wildfire smoke and cleaner air",
+          "description": "City facilities with cleaner air operate during their regular hours and may provide relief from smoke. Limit strenuous outdoor activity, drink water and carry prescribed rescue medication.\nCall 811 for health advice. Call 911 for severe breathing trouble, chest pain, fainting or another immediate emergency.\nCleaner-air guidance — City of Vancouver",
+          "last_verified": "2026-11-12",
+          "address": "",
+          "phone": "",
+          "website": "https://vancouver.ca/files/cov/cleaner-air-map-english.pdf",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
       "id": "shelter",
-      "title": "2. Shelter and street outreach",
-      "items": [
+      "title": "Shelter and street outreach",
+      "entries": [
         {
-          "type": "resource",
           "id": "live-vancouver-shelter-list",
-          "name": "Live Vancouver shelter list",
+          "title": "Live Vancouver shelter list",
+          "description": "BC211 lists beds and mats for adults, women, youth and families, with filters for pets, large belongings and wheelchair access. The list is normally updated twice on weekdays, at 11:30am and 7:30pm, excluding statutory holidays.\nVancouver shelter list — BC211",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "BC211 lists beds and mats for adults, women, youth and families, with filters for pets, large belongings and wheelchair access. The list is normally updated twice on weekdays, at 11:30am and 7:30pm, excluding statutory holidays."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Before travelling:",
-                  "strong": true
-                },
-                {
-                  "text": " check the intake notes and call the shelter. A listing may say full, may change after the update or may require an in-person draw, referral or assessment."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Vancouver shelter list — BC211",
-                  "href": "https://bc.211.ca/shelter-lists/?cities=vancouver"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://bc.211.ca/shelter-lists/?cities=vancouver",
+          "hours": "",
+          "how_to_access": "Before travelling: check the intake notes and call the shelter. A listing may say full, may change after the update or may require an in-person draw, referral or assessment."
         },
         {
-          "type": "resource",
           "id": "bc-housing-shelter-map",
-          "name": "BC Housing shelter map",
+          "title": "BC Housing shelter map",
+          "description": "The provincial map shows year-round, temporary, winter and Extreme Weather Response shelters, plus drop-in centres. It shows locations and program information but does not guarantee that a bed is free.\nHousing Assistance: 604-433-2218 in the Lower Mainland or 1-800-257-7756 elsewhere in British Columbia.\nEmergency Shelter Program — BC Housing",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "The provincial map shows year-round, temporary, winter and Extreme Weather Response shelters, plus drop-in centres. It shows locations and program information but does not guarantee that a bed is free."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Housing Assistance:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "604-433-2218",
-                  "href": "tel:6044332218"
-                },
-                {
-                  "text": " in the Lower Mainland or "
-                },
-                {
-                  "text": "1-800-257-7756",
-                  "href": "tel:18002577756"
-                },
-                {
-                  "text": " elsewhere in British Columbia."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Emergency Shelter Program — BC Housing",
-                  "href": "https://www.bchousing.org/housing-assistance/homelessness-services/emergency-shelter-program"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "6044332218",
+          "website": "https://www.bchousing.org/housing-assistance/homelessness-services/emergency-shelter-program",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "yukon-shelter-adults-of-any-gender",
-          "name": "Yukon Shelter — adults of any gender",
+          "title": "Yukon Shelter — adults of any gender",
+          "description": "Shelter desk: 604-264-1680, extension 1. The year-round shelter serves adults aged 19 and older. BC211 currently lists it as pet-friendly and wheelchair accessible.\nCall for current space and intake instructions. Pet capacity, storage and accessibility arrangements can still vary.\nYukon Housing Centre — Lookout Housing and Health Society",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 2088 Yukon Street"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Shelter desk:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "604-264-1680, extension 1",
-                  "href": "tel:6042641680"
-                },
-                {
-                  "text": ". The year-round shelter serves adults aged 19 and older. BC211 currently lists it as pet-friendly and wheelchair accessible."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Call for current space and intake instructions. Pet capacity, storage and accessibility arrangements can still vary."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Yukon Housing Centre — Lookout Housing and Health Society",
-                  "href": "https://lookoutsociety.ca/contact-us/"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 2088 Yukon Street",
+          "phone": "6042641680",
+          "website": "https://lookoutsociety.ca/contact-us/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "union-gospel-mission-men-s-emergency-shelter",
-          "name": "Union Gospel Mission men's emergency shelter",
+          "title": "Union Gospel Mission men's emergency shelter",
+          "description": "Reception: 604-253-3323, open 24 hours. The men's shelter operates year-round and provides a place to sleep, showers, laundry and overnight storage.\nContact reception before going to ask about eligibility, current space and intake. The same site has outreach staff, meals and a clothing room.\nGet help — Union Gospel Mission",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 601 East Hastings Street; enter from Princess Avenue"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Reception:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "604-253-3323",
-                  "href": "tel:6042533323"
-                },
-                {
-                  "text": ", open 24 hours. The men's shelter operates year-round and provides a place to sleep, showers, laundry and overnight storage."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Contact reception before going to ask about eligibility, current space and intake. The same site has outreach staff, meals and a clothing room."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Get help — Union Gospel Mission",
-                  "href": "https://ugm.ca/get-help"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 601 East Hastings Street; enter from Princess Avenue",
+          "phone": "6042533323",
+          "website": "https://ugm.ca/get-help",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "belkin-house-adults-and-families",
-          "name": "Belkin House — adults and families",
+          "title": "Belkin House — adults and families",
+          "description": "Phone: 604-681-3405. The Salvation Army describes a year-round, wheelchair-accessible shelter with three meals a day and other supports. The program is alcohol- and drug-free.\nCall about current eligibility, family composition and bed availability before travelling.\nBelkin House emergency shelter — Salvation Army",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 555 Homer Street"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "604-681-3405",
-                  "href": "tel:6046813405"
-                },
-                {
-                  "text": ". The Salvation Army describes a year-round, wheelchair-accessible shelter with three meals a day and other supports. The program is alcohol- and drug-free."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Call about current eligibility, family composition and bed availability before travelling."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Belkin House emergency shelter — Salvation Army",
-                  "href": "https://tsasites.salvationarmy.ca/web/belkin-communities-of-hope/services/emergency-shelter"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 555 Homer Street",
+          "phone": "6046813405",
+          "website": "https://tsasites.salvationarmy.ca/web/belkin-communities-of-hope/services/emergency-shelter",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "downtown-eastside-women-s-shelter",
-          "name": "Downtown Eastside Women's Shelter",
+          "title": "Downtown Eastside Women's Shelter",
+          "description": "Phones: 604-742-4980 or 778-926-4580. The Downtown Eastside Women's Centre lists this emergency shelter as open 24 hours, every day.\nContact the shelter about current space and intake. The service is for self-identified women; the provider also operates drop-in centres and other shelter sites.\nEmergency shelter — Downtown Eastside Women's Centre",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 412 East Cordova Street"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phones:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "604-742-4980",
-                  "href": "tel:6047424980"
-                },
-                {
-                  "text": " or "
-                },
-                {
-                  "text": "778-926-4580",
-                  "href": "tel:7789264580"
-                },
-                {
-                  "text": ". The Downtown Eastside Women's Centre lists this emergency shelter as open 24 hours, every day."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Contact the shelter about current space and intake. The service is for self-identified women; the provider also operates drop-in centres and other shelter sites."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Emergency shelter — Downtown Eastside Women's Centre",
-                  "href": "https://dewc.ca/location/emergency-shelter-412-east-cordova-st/"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 412 East Cordova Street",
+          "phone": "6047424980",
+          "website": "https://dewc.ca/location/emergency-shelter-412-east-cordova-st/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "wish-shelter-street-based-sex-workers",
-          "name": "WISH Shelter — street-based sex workers",
+          "title": "WISH Shelter — street-based sex workers",
+          "description": "Participant phone: 604-558-4031. WISH operates a 24-hour shelter for women and gender-diverse street-based sex workers, with food, showers, laundry, clothing and harm-reduction supplies.\nCall about eligibility and current intake. Some beds are for short respite and others for longer stays while housing is sought.\nWISH Shelter",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 340 Alexander Street"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Participant phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "604-558-4031",
-                  "href": "tel:6045584031"
-                },
-                {
-                  "text": ". WISH operates a 24-hour shelter for women and gender-diverse street-based sex workers, with food, showers, laundry, clothing and harm-reduction supplies."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Call about eligibility and current intake. Some beds are for short respite and others for longer stays while housing is sought."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "WISH Shelter",
-                  "href": "https://wish-vancouver.net/program/wish-shelter/"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 340 Alexander Street",
+          "phone": "6045584031",
+          "website": "https://wish-vancouver.net/program/wish-shelter/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "covenant-house-ages-16-to-24",
-          "name": "Covenant House — ages 16 to 24",
+          "title": "Covenant House — ages 16 to 24",
+          "description": "Phone: 604-685-7474. Toll-free: 1-877-685-7474. Youth can self-refer for free shelter and services; no parent or social worker is required to make the referral.\nCall about the Crisis Program or Sanctuary and explain any health, safety or substance-use needs. Admission depends on the appropriate program and available space.\nGet help — Covenant House Vancouver",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Crisis program:",
-                  "strong": true
-                },
-                {
-                  "text": " 1280 Seymour Street; "
-                },
-                {
-                  "text": "drop-in:",
-                  "strong": true
-                },
-                {
-                  "text": " 1302 Seymour Street"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "604-685-7474",
-                  "href": "tel:6046857474"
-                },
-                {
-                  "text": ". "
-                },
-                {
-                  "text": "Toll-free:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "1-877-685-7474",
-                  "href": "tel:18776857474"
-                },
-                {
-                  "text": ". Youth can self-refer for free shelter and services; no parent or social worker is required to make the referral."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Call about the Crisis Program or Sanctuary and explain any health, safety or substance-use needs. Admission depends on the appropriate program and available space."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Get help — Covenant House Vancouver",
-                  "href": "https://www.covenanthousebc.org/get-help/"
-                }
-              ]
-            }
-          ]
+          "address": "Crisis program: 1280 Seymour Street; drop-in: 1302 Seymour Street",
+          "phone": "6046857474",
+          "website": "https://www.covenanthousebc.org/get-help/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "directions-youth-services-ages-13-to-24",
-          "name": "Directions Youth Services — ages 13 to 24",
+          "title": "Directions Youth Services — ages 13 to 24",
+          "description": "Call or text: 604-633-1472. The low-barrier drop-in is open 24 hours and accepts youth with pets, substance use or mental-health challenges.\nThe regular overnight shelter has 12 beds for ages 19 to 24. Current intake is in person: speak to staff from 8pm to 8:30pm for the 9pm draw; no intake after 2am. Check with staff because the process can change.\nDirections drop-in and overnight shelter",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 1138 Burrard Street"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Call or text:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "604-633-1472",
-                  "href": "tel:6046331472"
-                },
-                {
-                  "text": ". The low-barrier drop-in is open 24 hours and accepts youth with pets, substance use or mental-health challenges."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "The regular overnight shelter has 12 beds for ages 19 to 24. Current intake is in person: speak to staff from 8pm to 8:30pm for the 9pm draw; no intake after 2am. Check with staff because the process can change."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Directions drop-in and overnight shelter",
-                  "href": "https://fsgv.ca/what-we-do/youth-services/directions/drop-in-centre/"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 1138 Burrard Street",
+          "phone": "6046331472",
+          "website": "https://fsgv.ca/what-we-do/youth-services/directions/drop-in-centre/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "indigenous-led-shelter-and-transition-program",
-          "name": "Indigenous-led shelter and transition program",
+          "title": "Indigenous-led shelter and transition program",
+          "description": "The Vancouver Aboriginal Friendship Centre Society operates a structured 90-day shelter and transition program for adults aged 19 and older, with housing navigation, meals, laundry, cultural programming and other supports.\nAccess is by referral only through an emergency shelter or community health provider; walk-in admission is not accepted. Pets may be considered case by case.\nShelter program — Vancouver Aboriginal Friendship Centre Society",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Ho'-kee-melh Kloshe Lum:",
-                  "strong": true
-                },
-                {
-                  "text": " 1015 East Hastings Street"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "The Vancouver Aboriginal Friendship Centre Society operates a structured 90-day shelter and transition program for adults aged 19 and older, with housing navigation, meals, laundry, cultural programming and other supports."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Access is by referral only",
-                  "strong": true
-                },
-                {
-                  "text": " through an emergency shelter or community health provider; walk-in admission is not accepted. Pets may be considered case by case."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Shelter program — Vancouver Aboriginal Friendship Centre Society",
-                  "href": "https://vafcs.org/shelters"
-                }
-              ]
-            }
-          ]
+          "address": "Ho'-kee-melh Kloshe Lum: 1015 East Hastings Street",
+          "phone": "",
+          "website": "https://vafcs.org/shelters",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "if-a-shelter-is-full",
-          "name": "If a shelter is full",
+          "title": "If a shelter is full",
+          "description": "Ask the worker to check another site, explain the next update time and identify any winter or extreme-weather space. Do not assume a different site accepts the same age, household, pet, mobility device or belongings.\nCheck the BC211 live list again later, call or text 211 during navigator hours, or contact City outreach. Call 911 if remaining outside creates an immediate medical emergency.\nCheck current spaces — BC211",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ask the worker to check another site, explain the next update time and identify any winter or extreme-weather space. Do not assume a different site accepts the same age, household, pet, mobility device or belongings."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Check the BC211 live list again later, call or text 211 during navigator hours, or contact City outreach. Call 911 if remaining outside creates an immediate medical emergency."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Check current spaces — BC211",
-                  "href": "https://bc.211.ca/shelter-lists/?cities=vancouver"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://bc.211.ca/shelter-lists/?cities=vancouver",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
       "id": "food",
-      "title": "3. Free meals and groceries",
-      "items": [
+      "title": "Free meals and groceries",
+      "entries": [
         {
-          "type": "resource",
           "id": "union-gospel-mission-free-meals",
-          "name": "Union Gospel Mission — free meals",
+          "title": "Union Gospel Mission — free meals",
+          "description": "Meal tickets are available 15 minutes before service. Lunch is served every day at 11am. Dinner is served Monday to Friday at 6pm and Saturday and Sunday at 4pm.\nSchedules can change on holidays or during operational disruptions. Contact reception at 604-253-3323 if travelling a long distance.\nMeal times — Union Gospel Mission",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 601 East Hastings Street; enter from Princess Avenue"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Meal tickets are available 15 minutes before service. Lunch is served every day at 11am. Dinner is served Monday to Friday at 6pm and Saturday and Sunday at 4pm."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Schedules can change on holidays or during operational disruptions. Contact reception at "
-                },
-                {
-                  "text": "604-253-3323",
-                  "href": "tel:6042533323"
-                },
-                {
-                  "text": " if travelling a long distance."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Meal times — Union Gospel Mission",
-                  "href": "https://ugm.ca/get-help"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 601 East Hastings Street; enter from Princess Avenue",
+          "phone": "6042533323",
+          "website": "https://ugm.ca/get-help",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "the-door-is-open-catholic-drop-in-and-meals",
-          "name": "The Door Is Open — Catholic drop-in and meals",
+          "title": "The Door Is Open — Catholic drop-in and meals",
+          "description": "Phone: 604-669-0498. Free lunch is listed at 11am Monday, Tuesday, Thursday, Friday and Saturday; 12 noon Sunday. Wednesday has a women's breakfast at 8:30am and women's lunch at 11:30am.\nThe drop-in also provides clothing, counselling and referrals. Confirm the schedule before going, especially on holidays.\nThe Door Is Open",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 255 Dunlevy Avenue"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "604-669-0498",
-                  "href": "tel:6046690498"
-                },
-                {
-                  "text": ". Free lunch is listed at 11am Monday, Tuesday, Thursday, Friday and Saturday; 12 noon Sunday. Wednesday has a women's breakfast at 8:30am and women's lunch at 11:30am."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "The drop-in also provides clothing, counselling and referrals. Confirm the schedule before going, especially on holidays."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "The Door Is Open",
-                  "href": "https://thedoorisopen.ca/"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 255 Dunlevy Avenue",
+          "phone": "6046690498",
+          "website": "https://thedoorisopen.ca/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "downtown-eastside-women-s-centre-daily-meals",
-          "name": "Downtown Eastside Women's Centre — daily meals",
+          "title": "Downtown Eastside Women's Centre — daily meals",
+          "description": "Phone: 604-681-8480. Breakfast is listed at 10am, lunch from 12:30pm to 1:45pm and snacks from 3pm to 3:30pm every day.\nThe low-barrier centre serves women and also offers clothing, showers, washrooms, toiletries, mail, phone and computer access. It opens at 11am on Wednesdays and may close one Wednesday each month on income-assistance payment day.\n302 Columbia Street — Downtown Eastside Women's Centre",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 302 Columbia Street"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "604-681-8480",
-                  "href": "tel:6046818480"
-                },
-                {
-                  "text": ". Breakfast is listed at 10am, lunch from 12:30pm to 1:45pm and snacks from 3pm to 3:30pm every day."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "The low-barrier centre serves women and also offers clothing, showers, washrooms, toiletries, mail, phone and computer access. It opens at 11am on Wednesdays and may close one Wednesday each month on income-assistance payment day."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "302 Columbia Street — Downtown Eastside Women's Centre",
-                  "href": "https://dewc.ca/location/302-columbia-street/"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 302 Columbia Street",
+          "phone": "6046818480",
+          "website": "https://dewc.ca/location/302-columbia-street/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "greater-vancouver-food-bank",
-          "name": "Greater Vancouver Food Bank",
+          "title": "Greater Vancouver Food Bank",
+          "description": "Bring government photo ID, recent proof of an address in the service area and identification for dependants. A new client who arrives at a distribution site with only their own ID can receive food on the first visit, but must complete registration for ongoing weekly access.\nFood bank registration | Current locations and schedule — https://foodbank.bc.ca/find-food/locations/",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Registration:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "604-876-3601, option 1",
-                  "href": "tel:6048763601"
-                },
-                {
-                  "text": " or reception@foodbank.bc.ca. Registration appointments are required; walk-in registration is not offered."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Bring government photo ID, recent proof of an address in the service area and identification for dependants. A new client who arrives at a distribution site with only their own ID can receive food on the first visit, but must complete registration for ongoing weekly access."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Food bank registration",
-                  "href": "https://foodbank.bc.ca/find-food/registration/"
-                },
-                {
-                  "text": " | "
-                },
-                {
-                  "text": "Current locations and schedule",
-                  "href": "https://foodbank.bc.ca/find-food/locations/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "6048763601",
+          "website": "https://foodbank.bc.ca/find-food/registration/",
+          "hours": "",
+          "how_to_access": "Registration: 604-876-3601, option 1 or reception@foodbank.bc.ca. Registration appointments are required; walk-in registration is not offered."
         },
         {
-          "type": "resource",
           "id": "carnegie-gathering-place-and-evelyne-saller-cafeterias",
-          "name": "Carnegie, Gathering Place and Evelyne Saller cafeterias",
+          "title": "Carnegie, Gathering Place and Evelyne Saller cafeterias",
+          "description": "City community centres offer low-cost meals. Carnegie Community Centre is at 401 Main Street; Gathering Place is at 609 Helmcken Street; Evelyne Saller Centre is at 404 Alexander Street.\nEvelyne Saller currently advertises $2 full-course meals. Menus, serving times, membership requirements and capacity can change, so check the City pages or call the centre before relying on a specific meal.\nCommunity centres with additional supports — City of Vancouver",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "City community centres offer low-cost meals. Carnegie Community Centre is at 401 Main Street; Gathering Place is at 609 Helmcken Street; Evelyne Saller Centre is at 404 Alexander Street."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Evelyne Saller currently advertises $2 full-course meals. Menus, serving times, membership requirements and capacity can change, so check the City pages or call the centre before relying on a specific meal."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Community centres with additional supports — City of Vancouver",
-                  "href": "https://vancouver.ca/people-programs/homeless-and-low-income-resources.aspx"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://vancouver.ca/people-programs/homeless-and-low-income-resources.aspx",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "find-more-meals-near-you",
-          "name": "Find more meals near you",
+          "title": "Find more meals near you",
+          "description": "The City maintains lists and maps of free or low-cost groceries and meals. BC211 can search by neighbourhood, dietary need, age or household type.\nAsk whether identification, registration, a referral, a container or early arrival is required. A published schedule can change without notice.\nFree and low-cost resources — City of Vancouver",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "The City maintains lists and maps of free or low-cost groceries and meals. BC211 can search by neighbourhood, dietary need, age or household type."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ask whether identification, registration, a referral, a container or early arrival is required. A published schedule can change without notice."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Free and low-cost resources — City of Vancouver",
-                  "href": "https://vancouver.ca/people-programs/free-and-low-cost-resources.aspx"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://vancouver.ca/people-programs/free-and-low-cost-resources.aspx",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
-      "id": "basic",
-      "title": "4. Showers, laundry, clothing, mail and internet",
-      "items": [
+      "id": "community",
+      "title": "Community and religious help",
+      "entries": []
+    },
+    {
+      "id": "hygiene",
+      "title": "Showers, laundry, clothing, mail and internet",
+      "entries": [
         {
-          "type": "resource",
           "id": "evelyne-saller-centre-showers-and-laundry",
-          "name": "Evelyne Saller Centre — showers and laundry",
+          "title": "Evelyne Saller Centre — showers and laundry",
+          "description": "Phone: 604-665-3075. The City lists free showers and laundry, health supports, a low-cost cafeteria and free Wi-Fi for low-income and at-risk adults.\nCapacity and service times are separate from building hours. Call or ask at the front desk about same-day sign-up before waiting.\nEvelyne Saller Centre — City of Vancouver",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 404 Alexander Street"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "604-665-3075",
-                  "href": "tel:6046653075"
-                },
-                {
-                  "text": ". The City lists free showers and laundry, health supports, a low-cost cafeteria and free Wi-Fi for low-income and at-risk adults."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Capacity and service times are separate from building hours. Call or ask at the front desk about same-day sign-up before waiting."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Evelyne Saller Centre — City of Vancouver",
-                  "href": "https://vancouver.ca/parks-recreation-culture/evelyne-saller-centre.aspx"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 404 Alexander Street",
+          "phone": "6046653075",
+          "website": "https://vancouver.ca/parks-recreation-culture/evelyne-saller-centre.aspx",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "gathering-place-community-centre",
-          "name": "Gathering Place Community Centre",
+          "title": "Gathering Place Community Centre",
+          "description": "Phone: 604-665-2391. Services include showers, laundry, washrooms, a reading room, education centre, low-cost cafeteria, free Wi-Fi and some clothing support.\nAsk about membership or ID requirements and current sign-up times. Showers, laundry and clothing may reach capacity.\nGathering Place — City of Vancouver",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 609 Helmcken Street"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "604-665-2391",
-                  "href": "tel:6046652391"
-                },
-                {
-                  "text": ". Services include showers, laundry, washrooms, a reading room, education centre, low-cost cafeteria, free Wi-Fi and some clothing support."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ask about membership or ID requirements and current sign-up times. Showers, laundry and clothing may reach capacity."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Gathering Place — City of Vancouver",
-                  "href": "https://vancouver.ca/people-programs/homeless-and-low-income-resources.aspx"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 609 Helmcken Street",
+          "phone": "6046652391",
+          "website": "https://vancouver.ca/people-programs/homeless-and-low-income-resources.aspx",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "downtown-eastside-women-s-centre-practical-needs",
-          "name": "Downtown Eastside Women's Centre — practical needs",
+          "title": "Downtown Eastside Women's Centre — practical needs",
+          "description": "Drop-in services for women include hot meals, free clothing, safe washrooms, showers, toiletries, menstrual products, a secure mailing address, phone and computer access, first aid and harm-reduction supplies.\nServices and hours differ between the two sites. Phone 604-681-8480 or check the location pages before going.\nDrop-in centres — Downtown Eastside Women's Centre",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Addresses:",
-                  "strong": true
-                },
-                {
-                  "text": " 302 Columbia Street and 25 East Hastings Street"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Drop-in services for women include hot meals, free clothing, safe washrooms, showers, toiletries, menstrual products, a secure mailing address, phone and computer access, first aid and harm-reduction supplies."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Services and hours differ between the two sites. Phone "
-                },
-                {
-                  "text": "604-681-8480",
-                  "href": "tel:6046818480"
-                },
-                {
-                  "text": " or check the location pages before going."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Drop-in centres — Downtown Eastside Women's Centre",
-                  "href": "https://dewc.ca/sites-services/drop-in-centres/"
-                }
-              ]
-            }
-          ]
+          "address": "Addresses: 302 Columbia Street and 25 East Hastings Street",
+          "phone": "6046818480",
+          "website": "https://dewc.ca/sites-services/drop-in-centres/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "directions-youth-services-practical-needs",
-          "name": "Directions Youth Services — practical needs",
+          "title": "Directions Youth Services — practical needs",
+          "description": "Youth aged 13 to 24 can use washrooms, hot showers, laundry and lockers and may receive food, clothing, shoes, toiletries and harm-reduction supplies. The drop-in is open 24 hours.\nCall or text: 604-633-1472. Ask staff about ID, mail, housing, health and employment help.\nDirections Drop-In Centre",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 1138 Burrard Street"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Youth aged 13 to 24 can use washrooms, hot showers, laundry and lockers and may receive food, clothing, shoes, toiletries and harm-reduction supplies. The drop-in is open 24 hours."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Call or text:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "604-633-1472",
-                  "href": "tel:6046331472"
-                },
-                {
-                  "text": ". Ask staff about ID, mail, housing, health and employment help."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Directions Drop-In Centre",
-                  "href": "https://fsgv.ca/what-we-do/youth-services/directions/drop-in-centre/"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 1138 Burrard Street",
+          "phone": "6046331472",
+          "website": "https://fsgv.ca/what-we-do/youth-services/directions/drop-in-centre/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "free-and-emergency-clothing",
-          "name": "Free and emergency clothing",
+          "title": "Free and emergency clothing",
+          "description": "The City list includes The Door Is Open, Evelyne Saller Centre, Gathering Place, Lookout and RainCity locations. Clothing is subject to availability and some sites require membership or ID.\nCall first if you need a specific size, footwear, work clothing, rain gear, blankets or menstrual products.\nClothing providers — City of Vancouver",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "The City list includes The Door Is Open, Evelyne Saller Centre, Gathering Place, Lookout and RainCity locations. Clothing is subject to availability and some sites require membership or ID."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Call first if you need a specific size, footwear, work clothing, rain gear, blankets or menstrual products."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Clothing providers — City of Vancouver",
-                  "href": "https://vancouver.ca/people-programs/free-and-low-cost-resources.aspx"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://vancouver.ca/people-programs/free-and-low-cost-resources.aspx",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "vancouver-public-library-internet-and-documents",
-          "name": "Vancouver Public Library — internet and documents",
+          "title": "Vancouver Public Library — internet and documents",
+          "description": "The Central Library has computers, Wi-Fi, charging stations, printers, photocopiers and scanners. Scanning to email is free; printing has a charge.\nAsk the Level 2 Service Desk about a free Library or Internet Access card. Ask staff about alternatives if you do not have standard identification.\nCentral Library | Printing and scanning — https://www.vpl.ca/facilities/printers-photocopiers-and-scanners",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Central Library:",
-                  "strong": true
-                },
-                {
-                  "text": " 350 West Georgia Street"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "The Central Library has computers, Wi-Fi, charging stations, printers, photocopiers and scanners. Scanning to email is free; printing has a charge."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ask the Level 2 Service Desk about a free Library or Internet Access card. Ask staff about alternatives if you do not have standard identification."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Central Library",
-                  "href": "https://www.vpl.ca/branches/central"
-                },
-                {
-                  "text": " | "
-                },
-                {
-                  "text": "Printing and scanning",
-                  "href": "https://www.vpl.ca/facilities/printers-photocopiers-and-scanners"
-                }
-              ]
-            }
-          ]
+          "address": "Central Library: 350 West Georgia Street",
+          "phone": "",
+          "website": "https://www.vpl.ca/branches/central",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
+    },
+    {
+      "id": "clothing",
+      "title": "Clothing",
+      "entries": []
     },
     {
       "id": "health",
-      "title": "5. Health, mental health and substance use",
-      "items": [
+      "title": "Health, mental health and substance use",
+      "entries": [
         {
-          "type": "resource",
           "id": "healthlink-bc-811",
-          "name": "HealthLink BC 811",
+          "title": "HealthLink BC 811",
+          "description": "Phone: 811, 24 hours. A navigator can find local care and connect callers to a registered nurse for non-emergency symptoms. Translation is available in more than 130 languages.\nUse 811 to ask about walk-in care, community clinics, mental-health services or medication questions. Call 911 for severe breathing trouble, chest pain, unconsciousness, major bleeding, overdose or another immediate threat to life.\nHealthLink BC 811 services",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "811",
-                  "href": "tel:811"
-                },
-                {
-                  "text": ", 24 hours. A navigator can find local care and connect callers to a registered nurse for non-emergency symptoms. Translation is available in more than 130 languages."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Use 811 to ask about walk-in care, community clinics, mental-health services or medication questions. Call 911 for severe breathing trouble, chest pain, unconsciousness, major bleeding, overdose or another immediate threat to life."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "HealthLink BC 811 services",
-                  "href": "https://www.healthlinkbc.ca/find-care/healthlink-bc-8-1-1-services"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "811",
+          "website": "https://www.healthlinkbc.ca/find-care/healthlink-bc-8-1-1-services",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "community-health-care-without-a-regular-doctor",
-          "name": "Community health care without a regular doctor",
+          "title": "Community health care without a regular doctor",
+          "description": "Ask 811 or a shelter or outreach worker to find the appropriate Vancouver Coastal Health clinic. Explain if you have no fixed address, no phone, no valid health card, mobility needs or medication that may be lost or stolen.\nCommunity health centres serve different areas and programs. Call first because many services require an appointment or have specific eligibility.\nVancouver mental-health and substance-use services — Vancouver Coastal Health",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ask 811 or a shelter or outreach worker to find the appropriate Vancouver Coastal Health clinic. Explain if you have no fixed address, no phone, no valid health card, mobility needs or medication that may be lost or stolen."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Community health centres serve different areas and programs. Call first because many services require an appointment or have specific eligibility."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Vancouver mental-health and substance-use services — Vancouver Coastal Health",
-                  "href": "https://www.vch.ca/en/health-topics/vancouver-mental-health-and-substance-use-services"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.vch.ca/en/health-topics/vancouver-mental-health-and-substance-use-services",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "insite-supervised-consumption-and-health-support",
-          "name": "Insite — supervised consumption and health support",
+          "title": "Insite — supervised consumption and health support",
+          "description": "Vancouver Coastal Health's December 2025 map lists supervised injection from 9am to 2am daily and drug checking from 10am to 6pm. Staff can respond to overdose and connect people with health and treatment services.\nHours can change. Check the current Vancouver map before going. For an overdose already happening, call 911 and give naloxone if available.\nVancouver supervised consumption and overdose-prevention map — Vancouver Coastal Health",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 139 East Hastings Street"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Vancouver Coastal Health's December 2025 map lists supervised injection from 9am to 2am daily and drug checking from 10am to 6pm. Staff can respond to overdose and connect people with health and treatment services."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Hours can change. Check the current Vancouver map before going. For an overdose already happening, call 911 and give naloxone if available."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Vancouver supervised consumption and overdose-prevention map — Vancouver Coastal Health",
-                  "href": "https://www.vch.ca/en/media/29016"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 139 East Hastings Street",
+          "phone": "",
+          "website": "https://www.vch.ca/en/media/29016",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "other-overdose-prevention-and-drug-checking-sites",
-          "name": "Other overdose-prevention and drug-checking sites",
+          "title": "Other overdose-prevention and drug-checking sites",
+          "description": "The current VCH map includes Powell Street Getaway, Overdose Prevention Society, Hope to Health, Molson, Astoria and Get Your Drugs Tested. Services differ: some support injection, some inhalation and some drug checking.\nUse the map for exact addresses and hours. Do not use alone; carry naloxone when possible. Call 911 for a suspected overdose.\nCurrent Vancouver harm-reduction sites — Vancouver Coastal Health",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "The current VCH map includes Powell Street Getaway, Overdose Prevention Society, Hope to Health, Molson, Astoria and Get Your Drugs Tested. Services differ: some support injection, some inhalation and some drug checking."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Use the map for exact addresses and hours. Do not use alone; carry naloxone when possible. Call 911 for a suspected overdose."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Current Vancouver harm-reduction sites — Vancouver Coastal Health",
-                  "href": "https://www.vch.ca/en/media/29016"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.vch.ca/en/media/29016",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "substance-use-treatment-navigation",
-          "name": "Substance-use treatment navigation",
+          "title": "Substance-use treatment navigation",
+          "description": "Access Central: 1-866-658-1221. Vancouver Coastal Health lists this referral line for services including Vancouver detox, Harbour Light Detox, Daytox and other substance-use supports.\nA call does not guarantee same-day admission. Tell the navigator about withdrawal risk, pregnancy, medications, accessibility and whether you have somewhere safe to wait.\nHarm-reduction and substance-use guide — Vancouver Coastal Health",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Access Central:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "1-866-658-1221",
-                  "href": "tel:18666581221"
-                },
-                {
-                  "text": ". Vancouver Coastal Health lists this referral line for services including Vancouver detox, Harbour Light Detox, Daytox and other substance-use supports."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "A call does not guarantee same-day admission. Tell the navigator about withdrawal risk, pregnancy, medications, accessibility and whether you have somewhere safe to wait."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Harm-reduction and substance-use guide — Vancouver Coastal Health",
-                  "href": "https://www.vch.ca/sites/default/files/import/documents/Harm-reduction-and-substance-use-resources-guide.pdf"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "18666581221",
+          "website": "https://www.vch.ca/sites/default/files/import/documents/Harm-reduction-and-substance-use-resources-guide.pdf",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "phs-health-and-dental-services",
-          "name": "PHS health and dental services",
+          "title": "PHS health and dental services",
+          "description": "PHS Community Services Society operates low-barrier primary care, dental, mental-health, addiction and harm-reduction services for people who face barriers to mainstream care in the Downtown Eastside.\nPrograms have different intake rules. Ask a PHS site, outreach worker, shelter worker or 811 which clinic fits your need and whether an appointment is required.\nPHS Community Services Society",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "PHS Community Services Society operates low-barrier primary care, dental, mental-health, addiction and harm-reduction services for people who face barriers to mainstream care in the Downtown Eastside."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Programs have different intake rules. Ask a PHS site, outreach worker, shelter worker or 811 which clinic fits your need and whether an appointment is required."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "PHS Community Services Society",
-                  "href": "https://www.phs.ca/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.phs.ca/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "mental-health-distress",
-          "name": "Mental-health distress",
+          "title": "Mental-health distress",
+          "description": "If there is immediate danger, a serious injury or someone cannot stay safe, call 911. For non-emergency mental-health care, call 811 and ask for a health navigator or contact City outreach, a shelter worker or a community clinic.\nSay if you need a non-police option, interpretation, Indigenous cultural support, youth care or help related to substance use. Availability varies and an assessment may be required.\nMental-health supports — HealthLink BC",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "If there is immediate danger, a serious injury or someone cannot stay safe, call 911. For non-emergency mental-health care, call 811 and ask for a health navigator or contact City outreach, a shelter worker or a community clinic."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Say if you need a non-police option, interpretation, Indigenous cultural support, youth care or help related to substance use. Availability varies and an assessment may be required."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Mental-health supports — HealthLink BC",
-                  "href": "https://www.healthlinkbc.ca/mental-health-and-substance-use/mental-health/mental-health-supports-and-resources"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.healthlinkbc.ca/mental-health-and-substance-use/mental-health/mental-health-supports-and-resources",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
-      "id": "income",
-      "title": "6. Income, housing and transport support",
-      "items": [
+      "id": "mental-health",
+      "title": "Mental health and addiction",
+      "entries": []
+    },
+    {
+      "id": "public-facilities",
+      "title": "Public toilets and day facilities",
+      "entries": []
+    },
+    {
+      "id": "phone-internet",
+      "title": "Phone charging and internet",
+      "entries": []
+    },
+    {
+      "id": "transport",
+      "title": "Transport",
+      "entries": []
+    },
+    {
+      "id": "benefits",
+      "title": "Income, housing and transport support",
+      "entries": [
         {
-          "type": "resource",
           "id": "income-and-disability-assistance",
-          "name": "Income and disability assistance",
+          "title": "Income and disability assistance",
+          "description": "Phone: 1-866-866-0800. Apply through My Self Serve, by phone or at an income-assistance office. Tell the worker if you urgently need food, shelter or medical attention.\nVancouver offices include Dockside at 180 Main Street, Kiwassa at 205 Powell Street, Strathcona at 687 Powell Street and other neighbourhood locations. Offices normally close from noon to 1pm; confirm before going.\nApply for assistance | Office locations — https://www2.gov.bc.ca/gov/content/family-social-supports/income-assistance/access-services",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "1-866-866-0800",
-                  "href": "tel:18668660800"
-                },
-                {
-                  "text": ". Apply through My Self Serve, by phone or at an income-assistance office. Tell the worker if you urgently need food, shelter or medical attention."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Vancouver offices include Dockside at 180 Main Street, Kiwassa at 205 Powell Street, Strathcona at 687 Powell Street and other neighbourhood locations. Offices normally close from noon to 1pm; confirm before going."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Apply for assistance",
-                  "href": "https://www2.gov.bc.ca/gov/content/family-social-supports/income-assistance/apply-for-assistance"
-                },
-                {
-                  "text": " | "
-                },
-                {
-                  "text": "Office locations",
-                  "href": "https://www2.gov.bc.ca/gov/content/family-social-supports/income-assistance/access-services"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "18668660800",
+          "website": "https://www2.gov.bc.ca/gov/content/family-social-supports/income-assistance/apply-for-assistance",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "if-you-do-not-have-all-required-identification",
-          "name": "If you do not have all required identification",
+          "title": "If you do not have all required identification",
+          "description": "Do not assume you cannot apply. Provincial policy allows temporary assistance in some cases while required ID is being pursued after identity has been verified.\nAsk the intake worker what can be used in your case and request help from City outreach or a shelter worker to replace missing documents. Eligibility is assessed individually.\nIdentification requirements — Government of British Columbia",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Do not assume you cannot apply. Provincial policy allows temporary assistance in some cases while required ID is being pursued after identity has been verified."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ask the intake worker what can be used in your case and request help from City outreach or a shelter worker to replace missing documents. Eligibility is assessed individually."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Identification requirements — Government of British Columbia",
-                  "href": "https://www2.gov.bc.ca/gov/content/governments/policies-for-government/bcea-policy-and-procedure-manual/application-and-intake/identification-requirements"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www2.gov.bc.ca/gov/content/governments/policies-for-government/bcea-policy-and-procedure-manual/application-and-intake/identification-requirements",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "bc-housing-registry-subsidized-housing",
-          "name": "BC Housing Registry — subsidized housing",
+          "title": "BC Housing Registry — subsidized housing",
+          "description": "Lower Mainland: 604-433-2218. Toll-free: 1-800-257-7756. Eligible low-income people, including single people or couples who are homeless or at risk, can apply.\nThe Housing Listings are not a vacancy list, and some buildings require a separate application directly to the provider. Apply to every suitable building and keep contact information updated.\nSubsidized housing — BC Housing",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Lower Mainland:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "604-433-2218",
-                  "href": "tel:6044332218"
-                },
-                {
-                  "text": ". "
-                },
-                {
-                  "text": "Toll-free:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "1-800-257-7756",
-                  "href": "tel:18002577756"
-                },
-                {
-                  "text": ". Eligible low-income people, including single people or couples who are homeless or at risk, can apply."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "The Housing Listings are not a vacancy list, and some buildings require a separate application directly to the provider. Apply to every suitable building and keep contact information updated."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Subsidized housing — BC Housing",
-                  "href": "https://www.bchousing.org/housing-assistance/rental-housing/subsidized-housing"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "6044332218",
+          "website": "https://www.bchousing.org/housing-assistance/rental-housing/subsidized-housing",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "housing-search-and-application-help",
-          "name": "Housing search and application help",
+          "title": "Housing search and application help",
+          "description": "City outreach at 392 Powell Street can help with housing applications and move-in steps. Shelter and community workers may also complete referrals or supporting forms when a program requires professional verification.\nNo worker can guarantee a unit or move-in date. Keep copies of applications, record building codes and report changes to your phone, mailing address or household.\nHousing help through City outreach",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "City outreach at 392 Powell Street can help with housing applications and move-in steps. Shelter and community workers may also complete referrals or supporting forms when a program requires professional verification."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "No worker can guarantee a unit or move-in date. Keep copies of applications, record building codes and report changes to your phone, mailing address or household."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Housing help through City outreach",
-                  "href": "https://vancouver.ca/people-programs/carnegie-centre-outreach-programs.aspx"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://vancouver.ca/people-programs/carnegie-centre-outreach-programs.aspx",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "vancouver-rent-bank-eviction-prevention",
-          "name": "Vancouver Rent Bank — eviction prevention",
+          "title": "Vancouver Rent Bank — eviction prevention",
+          "description": "Phone: 604-566-9685. The Vancouver Rent Bank may offer an interest-free loan for eligible low- to moderate-income renters facing a temporary crisis involving rent, utilities or a deposit.\nIt is a loan, not an automatic grant. Proof of tenancy, bank statements, income and identification are normally required, and the applicant must be able to cover ongoing costs and repayment.\nVancouver Rent Bank contact | Eligibility and application — https://bcrentbank.ca/how-to-apply/",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "604-566-9685",
-                  "href": "tel:6045669685"
-                },
-                {
-                  "text": ". The Vancouver Rent Bank may offer an interest-free loan for eligible low- to moderate-income renters facing a temporary crisis involving rent, utilities or a deposit."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "It is a loan, not an automatic grant. Proof of tenancy, bank statements, income and identification are normally required, and the applicant must be able to cover ongoing costs and repayment."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Vancouver Rent Bank contact",
-                  "href": "https://bcrentbank.ca/contact/"
-                },
-                {
-                  "text": " | "
-                },
-                {
-                  "text": "Eligibility and application",
-                  "href": "https://bcrentbank.ca/how-to-apply/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "6045669685",
+          "website": "https://bcrentbank.ca/contact/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "bc-bus-pass-program",
-          "name": "BC Bus Pass Program",
+          "title": "BC Bus Pass Program",
+          "description": "The provincial program provides a subsidized annual pass to eligible low-income seniors and people receiving disability assistance. It works on TransLink but not on HandyDART or West Coast Express.\nApply or ask about eligibility: 1-866-866-0800. Being homeless by itself does not create eligibility; ask an assistance worker about other transport support.\nBC Bus Pass Program",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "The provincial program provides a subsidized annual pass to eligible low-income seniors and people receiving disability assistance. It works on TransLink but not on HandyDART or West Coast Express."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Apply or ask about eligibility:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "1-866-866-0800",
-                  "href": "tel:18668660800"
-                },
-                {
-                  "text": ". Being homeless by itself does not create eligibility; ask an assistance worker about other transport support."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "BC Bus Pass Program",
-                  "href": "https://www2.gov.bc.ca/buspassprogram"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "18668660800",
+          "website": "https://www2.gov.bc.ca/buspassprogram",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
-      "id": "work",
-      "title": "7. Work and training",
-      "items": [
+      "id": "employment",
+      "title": "Work and training",
+      "entries": [
         {
-          "type": "resource",
           "id": "workbc-centres-free-employment-help",
-          "name": "WorkBC centres — free employment help",
+          "title": "WorkBC centres — free employment help",
+          "description": "WorkBC offers free computers, internet, printing and scanning, job listings, résumé and interview help, workshops and one-to-one employment planning for eligible job seekers.\nA downtown centre is at 200-250 West Pender Street, 604-334-6372. Other centres serve Burrard, Commercial Drive, East 3rd Avenue, Midtown West and South Vancouver. Call to confirm intake and hours.\nWorkBC centre services and locations",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "WorkBC offers free computers, internet, printing and scanning, job listings, résumé and interview help, workshops and one-to-one employment planning for eligible job seekers."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "A downtown centre is at 200-250 West Pender Street, "
-                },
-                {
-                  "text": "604-334-6372",
-                  "href": "tel:6043346372"
-                },
-                {
-                  "text": ". Other centres serve Burrard, Commercial Drive, East 3rd Avenue, Midtown West and South Vancouver. Call to confirm intake and hours."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "WorkBC centre services and locations",
-                  "href": "https://www.workbc.ca/get-support/workbc-centre-services"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "6043346372",
+          "website": "https://www.workbc.ca/get-support/workbc-centre-services",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "directions-youth-employment-and-education",
-          "name": "Directions — youth employment and education",
+          "title": "Directions — youth employment and education",
+          "description": "Youth aged 13 to 24 can ask about employment workshops, job support, education, ID replacement and connections to training while using the 24-hour drop-in.\nCall or text: 604-633-1472. Programs and workshop schedules change, so ask staff what is currently open.\nDirections Youth Services",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Youth aged 13 to 24 can ask about employment workshops, job support, education, ID replacement and connections to training while using the 24-hour drop-in."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Call or text:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "604-633-1472",
-                  "href": "tel:6046331472"
-                },
-                {
-                  "text": ". Programs and workshop schedules change, so ask staff what is currently open."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Directions Youth Services",
-                  "href": "https://fsgv.ca/programs/directions-youth-services/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "6046331472",
+          "website": "https://fsgv.ca/programs/directions-youth-services/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "indigenous-employment-and-training",
-          "name": "Indigenous employment and training",
+          "title": "Indigenous employment and training",
+          "description": "The free Employment and Life Skills Training program is for people who self-identify as First Nations, Métis or Inuit. It offers employment workshops, short certifications, computer and transport support, food and work gear during training.\nContact the Friendship Centre at 604-251-4844 to ask about intake and upcoming sessions.\nEmployment and Life Skills Training — VAFCS",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " Vancouver Aboriginal Friendship Centre, 1607 East Hastings Street"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "The free Employment and Life Skills Training program is for people who self-identify as First Nations, Métis or Inuit. It offers employment workshops, short certifications, computer and transport support, food and work gear during training."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Contact the Friendship Centre at "
-                },
-                {
-                  "text": "604-251-4844",
-                  "href": "tel:6042514844"
-                },
-                {
-                  "text": " to ask about intake and upcoming sessions."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Employment and Life Skills Training — VAFCS",
-                  "href": "https://vafcs.org/elst"
-                }
-              ]
-            }
-          ]
+          "address": "Address: Vancouver Aboriginal Friendship Centre, 1607 East Hastings Street",
+          "phone": "6042514844",
+          "website": "https://vafcs.org/elst",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "issofbc-newcomer-employment-support",
-          "name": "ISSofBC — newcomer employment support",
+          "title": "ISSofBC — newcomer employment support",
+          "description": "Phone: 604-684-2561. Free programs can help eligible newcomers, refugee claimants and asylum seekers with settlement, English, job search and career planning.\nEligibility depends on immigration status and the specific program. Ask about BC SAFE HAVEN or the appropriate employment service.\nVancouver Welcome Centre — ISSofBC",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Welcome Centre:",
-                  "strong": true
-                },
-                {
-                  "text": " 2610 Victoria Drive"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "604-684-2561",
-                  "href": "tel:6046842561"
-                },
-                {
-                  "text": ". Free programs can help eligible newcomers, refugee claimants and asylum seekers with settlement, English, job search and career planning."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Eligibility depends on immigration status and the specific program. Ask about BC SAFE HAVEN or the appropriate employment service."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Vancouver Welcome Centre — ISSofBC",
-                  "href": "https://issbc.org/locations/vancouver-welcome-centre/"
-                }
-              ]
-            }
-          ]
+          "address": "Welcome Centre: 2610 Victoria Drive",
+          "phone": "6046842561",
+          "website": "https://issbc.org/locations/vancouver-welcome-centre/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "protect-yourself-from-job-scams",
-          "name": "Protect yourself from job scams",
+          "title": "Protect yourself from job scams",
+          "description": "Do not pay for a job offer, send money to an employer, deposit a cheque and return part of it, or share a SIN before a legitimate employer needs it for payroll.\nAsk WorkBC to review a suspicious offer. Keep your SIN confidential and do not use it as general identification.\nProtecting your SIN — Government of Canada",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Do not pay for a job offer, send money to an employer, deposit a cheque and return part of it, or share a SIN before a legitimate employer needs it for payroll."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ask WorkBC to review a suspicious offer. Keep your SIN confidential and do not use it as general identification."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Protecting your SIN — Government of Canada",
-                  "href": "https://www.canada.ca/en/employment-social-development/services/sin/reports/code-of-practice.html"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.canada.ca/en/employment-social-development/services/sin/reports/code-of-practice.html",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
+    },
+    {
+      "id": "legal",
+      "title": "Legal aid",
+      "entries": []
     },
     {
       "id": "documents",
-      "title": "8. Identification, legal help and tenancy",
-      "items": [
+      "title": "Identification, legal help and tenancy",
+      "entries": [
         {
-          "type": "resource",
           "id": "social-insurance-number",
-          "name": "Social Insurance Number",
+          "title": "Social Insurance Number",
+          "description": "A SIN is needed to work in Canada and access some government programs. There is no fee to apply. Service Canada no longer issues plastic SIN cards.\nSIN Program: 1-866-274-6627. Required documents depend on citizenship or immigration status. Ask a shelter or outreach worker for help scanning documents or arranging a safe mailing address.\nApply for a SIN — Government of Canada",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "A SIN is needed to work in Canada and access some government programs. There is no fee to apply. Service Canada no longer issues plastic SIN cards."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "SIN Program:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "1-866-274-6627",
-                  "href": "tel:18662746627"
-                },
-                {
-                  "text": ". Required documents depend on citizenship or immigration status. Ask a shelter or outreach worker for help scanning documents or arranging a safe mailing address."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Apply for a SIN — Government of Canada",
-                  "href": "https://www.canada.ca/en/employment-social-development/services/sin/apply.html"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "18662746627",
+          "website": "https://www.canada.ca/en/employment-social-development/services/sin/apply.html",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "bc-identification-card",
-          "name": "BC identification card",
+          "title": "BC identification card",
+          "description": "A BCID is government photo identification for people who do not drive. An appointment, accepted identity documents and a fee are normally required at a driver licensing office.\nBefore paying or travelling, use the ICBC document checker. City outreach can help apply for or safely store identification and may identify help with replacement costs.\nApply for a BCID — ICBC",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "A BCID is government photo identification for people who do not drive. An appointment, accepted identity documents and a fee are normally required at a driver licensing office."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Before paying or travelling, use the ICBC document checker. City outreach can help apply for or safely store identification and may identify help with replacement costs."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Apply for a BCID — ICBC",
-                  "href": "https://www.icbc.com/driver-licensing/getting-licensed/Apply-for-a-bcid"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.icbc.com/driver-licensing/getting-licensed/Apply-for-a-bcid",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "benefits-and-tax-mail-without-a-permanent-home",
-          "name": "Benefits and tax mail without a permanent home",
+          "title": "Benefits and tax mail without a permanent home",
+          "description": "The Canada Revenue Agency says a person without a permanent home can use a temporary address, such as a shelter, to continue receiving payments and mail.\nAsk the shelter or drop-in for permission before using its address. Check how often mail must be collected and what name or identification is required. Update each government department separately when the address changes.\nCRA help for people experiencing housing insecurity",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "The Canada Revenue Agency says a person without a permanent home can use a temporary address, such as a shelter, to continue receiving payments and mail."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ask the shelter or drop-in for permission before using its address. Check how often mail must be collected and what name or identification is required. Update each government department separately when the address changes."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "CRA help for people experiencing housing insecurity",
-                  "href": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/segments/housing-insecurity.html"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/segments/housing-insecurity.html",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "legal-aid-bc",
-          "name": "Legal Aid BC",
+          "title": "Legal Aid BC",
+          "description": "Greater Vancouver: 604-408-2172. Elsewhere in BC: 1-866-577-2525. Legal Aid assesses eligibility for covered legal matters.\nHave court papers, deadlines and available proof of income ready. If the matter is urgent, say the next hearing, eviction or response date at the start of the call.\nCall Legal Aid BC",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Greater Vancouver:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "604-408-2172",
-                  "href": "tel:6044082172"
-                },
-                {
-                  "text": ". "
-                },
-                {
-                  "text": "Elsewhere in BC:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "1-866-577-2525",
-                  "href": "tel:18665772525"
-                },
-                {
-                  "text": ". Legal Aid assesses eligibility for covered legal matters."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Have court papers, deadlines and available proof of income ready. If the matter is urgent, say the next hearing, eviction or response date at the start of the call."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Call Legal Aid BC",
-                  "href": "https://legalaid.bc.ca/contact/call-us"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "6044082172",
+          "website": "https://legalaid.bc.ca/contact/call-us",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "first-united-legal-advocacy",
-          "name": "FIRST UNITED legal advocacy",
+          "title": "FIRST UNITED legal advocacy",
+          "description": "Phone: 604-251-3323. Advocates help with income assistance, disability benefits, Employment Insurance, employment standards, government debt, tenancy and related issues.\nDrop-in intake times and the service location can change. Check the current page before going and bring notices, decisions, identification and deadlines if available.\nLegal advocacy — FIRST UNITED",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "604-251-3323",
-                  "href": "tel:6042513323"
-                },
-                {
-                  "text": ". Advocates help with income assistance, disability benefits, Employment Insurance, employment standards, government debt, tenancy and related issues."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Drop-in intake times and the service location can change. Check the current page before going and bring notices, decisions, identification and deadlines if available."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Legal advocacy — FIRST UNITED",
-                  "href": "https://firstunited.ca/how-we-help/legal-advocacy/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "6042513323",
+          "website": "https://firstunited.ca/how-we-help/legal-advocacy/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "tenancy-and-eviction-help",
-          "name": "Tenancy and eviction help",
+          "title": "Tenancy and eviction help",
+          "description": "Contact a legal or tenant organization immediately after receiving an eviction notice. Do not ignore the notice; dispute deadlines can be short. FIRST UNITED and other organizations listed by the City can explain options.\nThe Vancouver Rent Bank may help with an eligible temporary financial crisis, but an application does not by itself stop an eviction. Keep copies of every notice, payment and message.\nRenter supports and protections — City of Vancouver",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Contact a legal or tenant organization immediately after receiving an eviction notice. Do not ignore the notice; dispute deadlines can be short. FIRST UNITED and other organizations listed by the City can explain options."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "The Vancouver Rent Bank may help with an eligible temporary financial crisis, but an application does not by itself stop an eviction. Keep copies of every notice, payment and message."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Renter supports and protections — City of Vancouver",
-                  "href": "https://vancouver.ca/people-programs/rental-and-renter-protection.aspx"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://vancouver.ca/people-programs/rental-and-renter-protection.aspx",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "lost-or-stolen-documents",
-          "name": "Lost or stolen documents",
+          "title": "Lost or stolen documents",
+          "description": "Make a list of what is missing and contact each issuer. Ask City outreach, Directions, DEWC or another trusted worker to help with applications, fees, photocopies, secure storage and a mailing address.\nDo not send original documents unless an official process specifically requires them. Record application numbers and keep digital copies in a secure account when possible.\nIdentification help — City outreach",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Make a list of what is missing and contact each issuer. Ask City outreach, Directions, DEWC or another trusted worker to help with applications, fees, photocopies, secure storage and a mailing address."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Do not send original documents unless an official process specifically requires them. Record application numbers and keep digital copies in a secure account when possible."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Identification help — City outreach",
-                  "href": "https://vancouver.ca/people-programs/carnegie-centre-outreach-programs.aspx"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://vancouver.ca/people-programs/carnegie-centre-outreach-programs.aspx",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
-      "id": "specialist",
-      "title": "9. Women, youth, Indigenous people, newcomers and 2SLGBTQIA+ people",
-      "items": [
+      "id": "mail",
+      "title": "Mailing address",
+      "entries": []
+    },
+    {
+      "id": "storage",
+      "title": "Storage",
+      "entries": []
+    },
+    {
+      "id": "safety",
+      "title": "Safety and domestic violence",
+      "entries": []
+    },
+    {
+      "id": "specialist-support",
+      "title": "Women, youth, Indigenous people, newcomers and 2SLGBTQIA+ people",
+      "entries": [
         {
-          "type": "resource",
           "id": "women-and-gender-diverse-people",
-          "name": "Women and gender-diverse people",
+          "title": "Women and gender-diverse people",
+          "description": "Downtown Eastside Women's Centre offers low-barrier drop-in, meals, showers, clothing, mail, housing support, advocacy and victim services. Its 412 East Cordova shelter is open 24 hours.\nWISH provides shelter and services for women and gender-diverse street-based sex workers. If violence or exploitation is involved, call or text VictimLinkBC at 1-800-563-0808.\nDowntown Eastside Women's Centre | WISH Shelter — https://dewc.ca/",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Downtown Eastside Women's Centre offers low-barrier drop-in, meals, showers, clothing, mail, housing support, advocacy and victim services. Its 412 East Cordova shelter is open 24 hours."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "WISH provides shelter and services for women and gender-diverse street-based sex workers. If violence or exploitation is involved, call or text VictimLinkBC at "
-                },
-                {
-                  "text": "1-800-563-0808",
-                  "href": "tel:18005630808"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Downtown Eastside Women's Centre",
-                  "href": "https://dewc.ca/"
-                },
-                {
-                  "text": " | "
-                },
-                {
-                  "text": "WISH Shelter",
-                  "href": "https://wish-vancouver.net/program/wish-shelter/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "18005630808",
+          "website": "https://wish-vancouver.net/program/wish-shelter/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "youth-aged-13-to-24",
-          "name": "Youth aged 13 to 24",
+          "title": "Youth aged 13 to 24",
+          "description": "Directions is open 24 hours at 1138 Burrard Street for food, showers, laundry, lockers, health connections, ID help, employment support and an overnight shelter for ages 19 to 24.\nCovenant House serves ages 16 to 24 with drop-in, crisis shelter and specialist programs. Call both providers if one program does not fit your age or needs.\nDirections youth homelessness services | Covenant House — https://fsgv.ca/find-help/homelessness/",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Directions is open 24 hours at 1138 Burrard Street for food, showers, laundry, lockers, health connections, ID help, employment support and an overnight shelter for ages 19 to 24."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Covenant House serves ages 16 to 24 with drop-in, crisis shelter and specialist programs. Call both providers if one program does not fit your age or needs."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Directions youth homelessness services",
-                  "href": "https://fsgv.ca/find-help/homelessness/"
-                },
-                {
-                  "text": " | "
-                },
-                {
-                  "text": "Covenant House",
-                  "href": "https://www.covenanthousebc.org/get-help/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.covenanthousebc.org/get-help/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "indigenous-housing-and-outreach",
-          "name": "Indigenous housing and outreach",
+          "title": "Indigenous housing and outreach",
+          "description": "Phone: 604-200-5708, extension 2001. VAFCS supports Indigenous people who are homeless or at risk with housing placement, financial assistance, case management, employment and cultural connection.\nHours are listed as Monday to Friday, 9am to 5pm. Funding and housing are not guaranteed; contact the intake worker to confirm eligibility and current capacity.\nReaching Home — Vancouver Aboriginal Friendship Centre Society",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Reaching Home intake:",
-                  "strong": true
-                },
-                {
-                  "text": " 1015 East Hastings Street"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "604-200-5708, extension 2001",
-                  "href": "tel:6042005708"
-                },
-                {
-                  "text": ". VAFCS supports Indigenous people who are homeless or at risk with housing placement, financial assistance, case management, employment and cultural connection."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Hours are listed as Monday to Friday, 9am to 5pm. Funding and housing are not guaranteed; contact the intake worker to confirm eligibility and current capacity."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Reaching Home — Vancouver Aboriginal Friendship Centre Society",
-                  "href": "https://vafcs.org/reaching-home-program"
-                }
-              ]
-            }
-          ]
+          "address": "Reaching Home intake: 1015 East Hastings Street",
+          "phone": "6042005708",
+          "website": "https://vafcs.org/reaching-home-program",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "newcomers-refugees-and-asylum-seekers",
-          "name": "Newcomers, refugees and asylum seekers",
+          "title": "Newcomers, refugees and asylum seekers",
+          "description": "Phone: 604-684-2561. The centre provides free settlement, English, employment and referrals for housing, health, legal and family services in many languages.\nBC SAFE HAVEN supports refugee claimants and asylum seekers with the claim process, settlement, English, job search, mental-health referrals and urgent accommodation search. Eligibility varies by program.\nVancouver Welcome Centre — ISSofBC",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "ISSofBC Welcome Centre:",
-                  "strong": true
-                },
-                {
-                  "text": " 2610 Victoria Drive"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "604-684-2561",
-                  "href": "tel:6046842561"
-                },
-                {
-                  "text": ". The centre provides free settlement, English, employment and referrals for housing, health, legal and family services in many languages."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "BC SAFE HAVEN supports refugee claimants and asylum seekers with the claim process, settlement, English, job search, mental-health referrals and urgent accommodation search. Eligibility varies by program."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Vancouver Welcome Centre — ISSofBC",
-                  "href": "https://issbc.org/locations/vancouver-welcome-centre/"
-                }
-              ]
-            }
-          ]
+          "address": "ISSofBC Welcome Centre: 2610 Victoria Drive",
+          "phone": "6046842561",
+          "website": "https://issbc.org/locations/vancouver-welcome-centre/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "2slgbtqia-support",
-          "name": "2SLGBTQIA+ support",
+          "title": "2SLGBTQIA+ support",
+          "description": "Phone: 604-684-5307. QMUNITY offers peer groups, counselling, information and referrals, youth and older-adult services, and low-barrier legal help.\nThe current office is reached by 23 stairs; accessible meetings can be arranged on request. It is not an emergency shelter. Tell BC211, Directions or Covenant House where you feel safest.\nQMUNITY programs and services | Contact and accessibility — https://www.qmunity.ca/contact",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "QMUNITY:",
-                  "strong": true
-                },
-                {
-                  "text": " 1170 Bute Street"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Phone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "604-684-5307",
-                  "href": "tel:6046845307"
-                },
-                {
-                  "text": ". QMUNITY offers peer groups, counselling, information and referrals, youth and older-adult services, and low-barrier legal help."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "The current office is reached by 23 stairs; accessible meetings can be arranged on request. It is not an emergency shelter. Tell BC211, Directions or Covenant House where you feel safest."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "QMUNITY programs and services",
-                  "href": "https://www.qmunity.ca/programs-services"
-                },
-                {
-                  "text": " | "
-                },
-                {
-                  "text": "Contact and accessibility",
-                  "href": "https://www.qmunity.ca/contact"
-                }
-              ]
-            }
-          ]
+          "address": "QMUNITY: 1170 Bute Street",
+          "phone": "6046845307",
+          "website": "https://www.qmunity.ca/programs-services",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "families",
-          "name": "Families",
+          "title": "Families",
+          "description": "Tell BC211 immediately if children are with you so the navigator can look for a family placement. BC Housing's current Vancouver list includes the Vi Fineday Family Shelter at 1906 West 15th Avenue, but intake and space must be confirmed.\nDo not travel to a family shelter without checking the referral process. Mention pregnancy, child age, custody, accessibility, school and safety needs.\nCurrent provincial Vancouver shelter list — BC Housing",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Tell BC211 immediately if children are with you so the navigator can look for a family placement. BC Housing's current Vancouver list includes the Vi Fineday Family Shelter at 1906 West 15th Avenue, but intake and space must be confirmed."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Do not travel to a family shelter without checking the referral process. Mention pregnancy, child age, custody, accessibility, school and safety needs."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Current provincial Vancouver shelter list — BC Housing",
-                  "href": "https://www.bchousing.org/news/releases/shelter-spaces-opening-for-people-in-need-during-winter-weather"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.bchousing.org/news/releases/shelter-spaces-opening-for-people-in-need-during-winter-weather",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
+    },
+    {
+      "id": "veterans",
+      "title": "Veterans support",
+      "entries": []
     },
     {
       "id": "pets",
-      "title": "10. Help with a pet",
-      "items": [
+      "title": "Help with a pet",
+      "entries": [
         {
-          "type": "resource",
           "id": "find-a-shelter-that-accepts-pets",
-          "name": "Find a shelter that accepts pets",
+          "title": "Find a shelter that accepts pets",
+          "description": "Use the pet-friendly filter on the BC211 shelter list and call the site before travelling. Ask about species, size, number of animals, crates, vaccination records and whether the animal stays with you.\nDirections accepts youth with pets, and BC211 currently marks several adult shelters as pet-friendly. Capacity can change even when the general policy allows animals.\nPet-friendly shelter filter — BC211",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Use the pet-friendly filter on the BC211 shelter list and call the site before travelling. Ask about species, size, number of animals, crates, vaccination records and whether the animal stays with you."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Directions accepts youth with pets, and BC211 currently marks several adult shelters as pet-friendly. Capacity can change even when the general policy allows animals."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Pet-friendly shelter filter — BC211",
-                  "href": "https://bc.211.ca/shelter-lists/?cities=vancouver"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://bc.211.ca/shelter-lists/?cities=vancouver",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "charlie-s-pet-food-bank",
-          "name": "Charlie's Pet Food Bank",
+          "title": "Charlie's Pet Food Bank",
+          "description": "The BC SPCA lists service every Tuesday from 11am to 1pm for homeless, outdoor, low-income and senior pet guardians in the Downtown Eastside. It distributes pet food and supplies and may offer nail trimming, grooming and training advice.\nAnimal Helpline: 1-855-622-7722. Call to confirm the schedule or ask about other pet-food locations.\nPet food bank — BC SPCA",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Address:",
-                  "strong": true
-                },
-                {
-                  "text": " 543 Powell Street"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "The BC SPCA lists service every Tuesday from 11am to 1pm for homeless, outdoor, low-income and senior pet guardians in the Downtown Eastside. It distributes pet food and supplies and may offer nail trimming, grooming and training advice."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Animal Helpline:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "1-855-622-7722",
-                  "href": "tel:18556227722"
-                },
-                {
-                  "text": ". Call to confirm the schedule or ask about other pet-food locations."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Pet food bank — BC SPCA",
-                  "href": "https://spca.bc.ca/get-help/pet-care/food-bank-for-pet-food-and-supplies/"
-                }
-              ]
-            }
-          ]
+          "address": "Address: 543 Powell Street",
+          "phone": "18556227722",
+          "website": "https://spca.bc.ca/get-help/pet-care/food-bank-for-pet-food-and-supplies/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "emergency-care-or-temporary-safekeeping",
-          "name": "Emergency care or temporary safekeeping",
+          "title": "Emergency care or temporary safekeeping",
+          "description": "The BC SPCA may offer short-term emergency boarding in situations such as hospitalization, interpersonal violence, fire or flood. Availability and eligibility are assessed.\nCall the Animal Helpline before going. If leaving violence, also ask VictimLinkBC about pet-safe planning and the SPCA Safekeepers program.\nBC SPCA community services",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "The BC SPCA may offer short-term emergency boarding in situations such as hospitalization, interpersonal violence, fire or flood. Availability and eligibility are assessed."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Call the Animal Helpline before going. If leaving violence, also ask VictimLinkBC about pet-safe planning and the SPCA Safekeepers program."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "BC SPCA community services",
-                  "href": "https://spca.bc.ca/about-us/our-work/community-work/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://spca.bc.ca/about-us/our-work/community-work/",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
-      "id": "weather",
-      "title": "11. Cold, heat and smoke",
-      "items": [
-        {
-          "type": "resource",
-          "id": "winter-shelters-and-extreme-weather-response",
-          "name": "Winter shelters and Extreme Weather Response",
-          "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Temporary winter shelters normally add spaces during the colder months. Extreme Weather Response sites open only when an alert is active. Criteria include cold, snow, freezing rain, severe wind and heavy rain."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Use the live BC211 list immediately before travelling. An address published for the winter does not mean the site is active or has space tonight."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Shelters and winter response — City of Vancouver",
-                  "href": "https://vancouver.ca/people-programs/shelters.aspx"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "warming-centres",
-          "name": "Warming centres",
-          "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "The City activates warming centres when the temperature reaches or feels like -4°C or below. These centres provide a warm indoor space but are not set up with beds or mats."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Activation locations are announced with extreme-weather alerts. Check the City shelter page, the BC211 list or ask a shelter or outreach worker before going."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Current winter response — City of Vancouver",
-                  "href": "https://vancouver.ca/people-programs/shelters.aspx"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "cooling-centres",
-          "name": "Cooling centres",
-          "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "During hot weather, City community centres and libraries provide air-conditioned spaces. No registration, payment or identification is required; seating, drinking water and washrooms are available."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Most community-centre cooling sites accept well-behaved pets, but Evelyne Saller and Carnegie do not, and pets are not allowed in library cooling centres. Check the current map and hours during a heat event."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Hot-weather resources — City of Vancouver",
-                  "href": "https://vancouver.ca/home-property-development/hot-weather.aspx"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "wildfire-smoke-and-cleaner-air",
-          "name": "Wildfire smoke and cleaner air",
-          "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "City facilities with cleaner air operate during their regular hours and may provide relief from smoke. Limit strenuous outdoor activity, drink water and carry prescribed rescue medication."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Call 811 for health advice. Call 911 for severe breathing trouble, chest pain, fainting or another immediate emergency."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Cleaner-air guidance — City of Vancouver",
-                  "href": "https://vancouver.ca/files/cov/cleaner-air-map-english.pdf"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "sources",
+      "id": "other",
       "title": "Sources and corrections",
-      "items": [
+      "entries": [
         {
-          "type": "paragraph",
-          "content": [
-            {
-              "text": "This page prioritizes current government pages, the live BC211 shelter list and providers' own websites. Shelter space, weather response, meal schedules and intake rules can change without notice. Confirm before travelling and report any incorrect detail."
-            }
-          ]
-        },
-        {
-          "type": "list",
-          "items": [
-            [
-              {
-                "text": "Vancouver shelter list — BC211",
-                "href": "https://bc.211.ca/shelter-lists/?cities=vancouver"
-              }
-            ],
-            [
-              {
-                "text": "Homelessness services — City of Vancouver",
-                "href": "https://vancouver.ca/people-programs/homeless-and-low-income-resources.aspx"
-              }
-            ],
-            [
-              {
-                "text": "Homelessness services — BC Housing",
-                "href": "https://www.bchousing.org/housing-assistance/homelessness-services"
-              }
-            ],
-            [
-              {
-                "text": "Health and harm-reduction sites — Vancouver Coastal Health",
-                "href": "https://www.vch.ca/en/media/29016"
-              }
-            ],
-            [
-              {
-                "text": "Submit a correction or add a resource",
-                "href": "../../CONTRIBUTING.md"
-              }
-            ]
-          ]
+          "id": "sources-information",
+          "title": "Sources and corrections",
+          "description": "This page prioritizes current government pages, the live BC211 shelter list and providers' own websites. Shelter space, weather response, meal schedules and intake rules can change without notice. Confirm before travelling and report any incorrect detail.\n- Vancouver shelter list — BC211 — https://bc.211.ca/shelter-lists/?cities=vancouver\n- Homelessness services — City of Vancouver\n- Homelessness services — BC Housing — https://www.bchousing.org/housing-assistance/homelessness-services\n- Health and harm-reduction sites — Vancouver Coastal Health — https://www.vch.ca/en/media/29016\n- Submit a correction or add a resource — ../../CONTRIBUTING.md",
+          "last_verified": "2026-11-12",
+          "address": "",
+          "phone": "",
+          "website": "https://vancouver.ca/people-programs/homeless-and-low-income-resources.aspx",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     }

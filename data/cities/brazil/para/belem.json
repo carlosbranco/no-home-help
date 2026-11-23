@@ -1,6 +1,7 @@
 {
   "$schema": "https://nohomehelp.com/schemas/city.schema.json",
-  "schema_version": 1,
+  "documentation": "https://github.com/carlosbranco/no-home-help/blob/main/EDIT_CITY_JSON.md",
+  "schema_version": 2,
   "status": "published",
   "locale": {
     "language": "pt-BR",
@@ -26,4044 +27,914 @@
   "page": {
     "heading": "Belém — ajuda para pessoas sem moradia",
     "last_verified": "2026-11-12",
-    "urgent": [
-      {
-        "type": "paragraph",
-        "content": [
-          {
-            "text": "Emergência médica — SAMU:",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "192",
-            "href": "tel:192"
-          },
-          {
-            "break": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "Polícia Militar:",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "190",
-            "href": "tel:190"
-          },
-          {
-            "text": "; "
-          },
-          {
-            "text": "Bombeiros:",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "193",
-            "href": "tel:193"
-          },
-          {
-            "break": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "Centro POP São Brás:",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "(91) 3219-3360",
-            "href": "tel:+559132193360"
-          },
-          {
-            "text": " ou "
-          },
-          {
-            "text": "(91) 99127-0370",
-            "href": "tel:+5591991270370"
-          },
-          {
-            "break": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "Funpapa:",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "(91) 98431-4738",
-            "href": "tel:+5591984314738"
-          },
-          {
-            "text": "; "
-          },
-          {
-            "text": "direitos humanos:",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "100",
-            "href": "tel:100"
-          },
-          {
-            "break": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "Violência contra a mulher:",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "180",
-            "href": "tel:180"
-          },
-          {
-            "text": "; "
-          },
-          {
-            "text": "apoio emocional:",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "188",
-            "href": "tel:188"
-          }
-        ]
-      }
-    ],
-    "notice": [
-      {
-        "text": "Vagas, refeições, horários, equipes e critérios podem mudar.",
-        "strong": true
-      },
-      {
-        "text": " Ligue ou peça confirmação antes de atravessar a cidade. Uma decisão da Justiça Federal publicada em outubro de 2026 apontou falhas e insuficiência na rede de Belém. Nenhuma listagem garante cama, refeição, benefício, tratamento, dinheiro ou emprego no mesmo dia."
-      }
-    ],
-    "intro": [
-      {
-        "type": "paragraph",
-        "content": [
-          {
-            "text": "Se precisar de várias coisas ao mesmo tempo, comece por um dos "
-          },
-          {
-            "text": "Centros POP",
-            "href": "#centro-pop"
-          },
-          {
-            "text": ". O primeiro atendimento é gratuito e não exige documento. Diga onde dormiu, quando comeu pela última vez, se precisa de atendimento de saúde, se está com crianças ou animais, se corre risco de violência e quais documentos possui."
-          }
-        ]
-      }
-    ],
-    "footer": [
-      {
-        "type": "paragraph",
-        "content": [
-          {
-            "text": "No Home Help — informação gratuita, estática e sem rastreamento."
-          }
-        ]
-      }
-    ]
+    "urgent": "Emergência médica — SAMU: 192 Polícia Militar: 190; Bombeiros: 193 Centro POP São Brás: (91) 3219-3360 ou (91) 99127-0370 Funpapa: (91) 98431-4738; direitos humanos: 100 Violência contra a mulher: 180; apoio emocional: 188",
+    "notice": "Vagas, refeições, horários, equipes e critérios podem mudar. Ligue ou peça confirmação antes de atravessar a cidade. Uma decisão da Justiça Federal publicada em outubro de 2026 apontou falhas e insuficiência na rede de Belém. Nenhuma listagem garante cama, refeição, benefício, tratamento, dinheiro ou emprego no mesmo dia.",
+    "intro": "Se precisar de várias coisas ao mesmo tempo, comece por um dos Centros POP. O primeiro atendimento é gratuito e não exige documento. Diga onde dormiu, quando comeu pela última vez, se precisa de atendimento de saúde, se está com crianças ou animais, se corre risco de violência e quais documentos possui. — #centro-pop",
+    "footer": "No Home Help — informação gratuita, estática e sem rastreamento."
   },
   "categories": [
     {
-      "id": "o-que-fazer-hoje",
-      "title": "O que fazer hoje",
-      "items": [
-        {
-          "type": "ordered-list",
-          "items": [
-            [
-              {
-                "text": "Perigo, doença grave ou violência agora:",
-                "strong": true
-              },
-              {
-                "text": " ligue "
-              },
-              {
-                "text": "192",
-                "href": "tel:192"
-              },
-              {
-                "text": ", "
-              },
-              {
-                "text": "190",
-                "href": "tel:190"
-              },
-              {
-                "text": " ou "
-              },
-              {
-                "text": "193",
-                "href": "tel:193"
-              },
-              {
-                "text": " e informe o local exato."
-              }
-            ],
-            [
-              {
-                "text": "Sem lugar seguro para esta noite:",
-                "strong": true
-              },
-              {
-                "text": " procure o Centro POP São Brás, na Avenida José Bonifácio, 704, entre 8h e 17h nos dias úteis. Pergunte sobre o Espaço Acolher e outras vagas. A conversa não reserva cama."
-              }
-            ],
-            [
-              {
-                "text": "Precisa de comida, banho, documentos ou CadÚnico:",
-                "strong": true
-              },
-              {
-                "text": " peça atendimento no Centro POP. Em Icoaraci, procure a Travessa São Roque, 355. Chegue cedo e confirme a oferta do dia."
-              }
-            ]
-          ]
-        }
-      ]
-    },
-    {
       "id": "emergency",
-      "title": "1. Emergência e abordagem social",
-      "items": [
+      "title": "O que fazer hoje",
+      "entries": [
         {
-          "type": "resource",
+          "id": "o-que-fazer-hoje-information",
+          "title": "O que fazer hoje",
+          "description": "1. Perigo, doença grave ou violência agora: ligue 192, 190 ou 193 e informe o local exato.\n2. Sem lugar seguro para esta noite: procure o Centro POP São Brás, na Avenida José Bonifácio, 704, entre 8h e 17h nos dias úteis. Pergunte sobre o Espaço Acolher e outras vagas. A conversa não reserva cama.\n3. Precisa de comida, banho, documentos ou CadÚnico: peça atendimento no Centro POP. Em Icoaraci, procure a Travessa São Roque, 355. Chegue cedo e confirme a oferta do dia.",
+          "last_verified": "2026-11-12",
+          "address": "",
+          "phone": "192",
+          "website": "",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
           "id": "samu-policia-militar-e-bombeiros",
-          "name": "SAMU, Polícia Militar e Bombeiros",
+          "title": "SAMU, Polícia Militar e Bombeiros",
+          "description": "SAMU: 192; Polícia Militar: 190; Bombeiros: 193.\nUse em caso de doença ou ferimento grave, dificuldade para respirar, desmaio, overdose, violência em andamento, incêndio, desabamento ou outro risco imediato. Informe primeiro o local e um ponto de referência.\nA Justiça Federal determinou que a situação de rua não pode ser motivo para recusa ou demora do socorro. Se for seguro, anote horário, nome do atendente e protocolo. Em risco imediato, ligue novamente ou peça ajuda a uma pessoa próxima.\nSAMU 192 — Prefeitura de Belém · decisão sobre atendimento sem discriminação — https://www.mpf.mp.br/o-mpf/unidades/pr-pa/noticias/justica-federal-determina-medidas-para-populacao-em-situacao-de-rua-em-belem-pa-em-acao-de-mps-e-defensorias",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "SAMU:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "192",
-                  "href": "tel:192"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "Polícia Militar:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "190",
-                  "href": "tel:190"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "Bombeiros:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "193",
-                  "href": "tel:193"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Use em caso de doença ou ferimento grave, dificuldade para respirar, desmaio, overdose, violência em andamento, incêndio, desabamento ou outro risco imediato. Informe primeiro o local e um ponto de referência."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "A Justiça Federal determinou que a situação de rua não pode ser motivo para recusa ou demora do socorro. Se for seguro, anote horário, nome do atendente e protocolo. Em risco imediato, ligue novamente ou peça ajuda a uma pessoa próxima."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "SAMU 192 — Prefeitura de Belém",
-                  "href": "https://prefeitura.belem.pa.gov.br/servicos/samu-192-servico-de-atendimento-movel-de-urgencia/"
-                },
-                {
-                  "text": " · "
-                },
-                {
-                  "text": "decisão sobre atendimento sem discriminação",
-                  "href": "https://www.mpf.mp.br/o-mpf/unidades/pr-pa/noticias/justica-federal-determina-medidas-para-populacao-em-situacao-de-rua-em-belem-pa-em-acao-de-mps-e-defensorias"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "192",
+          "website": "https://prefeitura.belem.pa.gov.br/servicos/samu-192-servico-de-atendimento-movel-de-urgencia/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "funpapa-orientacao-e-acesso-a-rede",
-          "name": "Funpapa — orientação e acesso à rede",
+          "title": "Funpapa — orientação e acesso à rede",
+          "description": "Telefone: (91) 98431-4738; horário publicado: 8h–17h.\nA Fundação Papa João XXIII coordena Centros POP, acolhimento, CadÚnico e outros serviços de assistência social. Ligue para confirmar qual unidade atende a necessidade e qual equipe pode fazer abordagem no local.\nFunpapa — informações atualizadas em 2026",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Endereço:",
-                  "strong": true
-                },
-                {
-                  "text": " Avenida Rômulo Maiorana, 1018, entre Vileta e Timbó"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(91) 98431-4738",
-                  "href": "tel:+5591984314738"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "horário publicado:",
-                  "strong": true
-                },
-                {
-                  "text": " 8h–17h."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "A Fundação Papa João XXIII coordena Centros POP, acolhimento, CadÚnico e outros serviços de assistência social. Ligue para confirmar qual unidade atende a necessidade e qual equipe pode fazer abordagem no local."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Funpapa — informações atualizadas em 2026",
-                  "href": "https://prefeitura.belem.pa.gov.br/secretarias/funpapa-fundacao-papa-joao-xxiii/"
-                }
-              ]
-            }
-          ]
+          "address": "Endereço: Avenida Rômulo Maiorana, 1018, entre Vileta e Timbó",
+          "phone": "+5591984314738",
+          "website": "https://prefeitura.belem.pa.gov.br/secretarias/funpapa-fundacao-papa-joao-xxiii/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "abordagem-social",
-          "name": "Abordagem social",
+          "title": "Abordagem social",
+          "description": "Peça a equipe pelos Centros POP ou pela Funpapa. Informe rua, número aproximado, ponto de referência, roupa da pessoa, necessidade urgente e se há criança, doença, violência ou dificuldade de locomoção.\nNúmeros publicados em protocolo municipal recente: São Brás (91) 99127-0370, Icoaraci (91) 98423-8300 e Funpapa (91) 98431-4738. Confirme a cobertura atual porque rotas e escalas mudam.\nO contato não obriga ninguém a aceitar atendimento e não garante vaga ou chegada no mesmo dia.\nComo funciona a assistência social em Belém · protocolo de atendimento publicado pelo MDH — https://ruasvisiveis.mdh.gov.br/protocolo-de-atendimento-a-pop-rua-cop-30/",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Peça a equipe pelos Centros POP ou pela Funpapa.",
-                  "strong": true
-                },
-                {
-                  "text": " Informe rua, número aproximado, ponto de referência, roupa da pessoa, necessidade urgente e se há criança, doença, violência ou dificuldade de locomoção."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Números publicados em protocolo municipal recente: São Brás "
-                },
-                {
-                  "text": "(91) 99127-0370",
-                  "href": "tel:+5591991270370"
-                },
-                {
-                  "text": ", Icoaraci "
-                },
-                {
-                  "text": "(91) 98423-8300",
-                  "href": "tel:+5591984238300"
-                },
-                {
-                  "text": " e Funpapa "
-                },
-                {
-                  "text": "(91) 98431-4738",
-                  "href": "tel:+5591984314738"
-                },
-                {
-                  "text": ". Confirme a cobertura atual porque rotas e escalas mudam."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "O contato não obriga ninguém a aceitar atendimento e não garante vaga ou chegada no mesmo dia."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Como funciona a assistência social em Belém",
-                  "href": "https://agencia.belem.pa.gov.br/do-acolhimento-a-escuta-como-funciona-a-assistencia-social-em-belem/"
-                },
-                {
-                  "text": " · "
-                },
-                {
-                  "text": "protocolo de atendimento publicado pelo MDH",
-                  "href": "https://ruasvisiveis.mdh.gov.br/protocolo-de-atendimento-a-pop-rua-cop-30/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+5591991270370",
+          "website": "https://agencia.belem.pa.gov.br/do-acolhimento-a-escuta-como-funciona-a-assistencia-social-em-belem/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "direitos-humanos-e-apoio-emocional",
-          "name": "Direitos humanos e apoio emocional",
+          "title": "Direitos humanos e apoio emocional",
+          "description": "Disque Direitos Humanos: 100; WhatsApp municipal para violações: (91) 98436-0474; CVV: 188, gratuito, 24 horas.\nUse o 100 ou o canal municipal para violência institucional, discriminação e outras violações. O 188 oferece conversa confidencial em sofrimento emocional. Se houver risco médico imediato, ligue 192.\nAtendimento a violações de direitos · Centro de Valorização da Vida — https://cvv.org.br/",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Disque Direitos Humanos:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "100",
-                  "href": "tel:100"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "WhatsApp municipal para violações:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(91) 98436-0474",
-                  "href": "tel:+5591984360474"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "CVV:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "188",
-                  "href": "tel:188"
-                },
-                {
-                  "text": ", gratuito, 24 horas."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Use o 100 ou o canal municipal para violência institucional, discriminação e outras violações. O 188 oferece conversa confidencial em sofrimento emocional. Se houver risco médico imediato, ligue 192."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Atendimento a violações de direitos",
-                  "href": "https://prefeitura.belem.pa.gov.br/servicos/atendimento-as-situacoes-de-violacoes-de-direitos/"
-                },
-                {
-                  "text": " · "
-                },
-                {
-                  "text": "Centro de Valorização da Vida",
-                  "href": "https://cvv.org.br/"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "centro-pop",
-      "title": "2. Centros POP e apoio durante o dia",
-      "items": [
-        {
-          "type": "resource",
-          "id": "centro-pop-sao-bras",
-          "name": "Centro POP São Brás",
-          "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Endereço:",
-                  "strong": true
-                },
-                {
-                  "text": " Avenida José Bonifácio, 704, São Brás"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefones:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(91) 3219-3360",
-                  "href": "tel:+559132193360"
-                },
-                {
-                  "text": " ou "
-                },
-                {
-                  "text": "(91) 99127-0370",
-                  "href": "tel:+5591991270370"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "horário publicado:",
-                  "strong": true
-                },
-                {
-                  "text": " segunda a sexta, 8h–17h."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Porta de entrada para alimentação, higiene, CadÚnico, documentos, saúde, acolhimento, formação profissional e outras referências. O atendimento inicial é gratuito e não exige documento."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "O endereço pode ser usado como referência em documentos e no CadÚnico após orientação da equipe. Peça instrução por escrito antes de informar o local como endereço de correspondência."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Endereço, horário e refeições — Prefeitura de Belém",
-                  "href": "https://agencia.belem.pa.gov.br/prefeitura-de-belem-combate-a-inseguranca-alimentar/"
-                },
-                {
-                  "text": " · "
-                },
-                {
-                  "text": "Serviço nacional do Centro POP",
-                  "href": "https://www.gov.br/pt-br/servicos/acessar-centro-pop-centro-de-referencia-especializado-para-populacao-em-situacao-de-rua"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "100",
+          "website": "https://prefeitura.belem.pa.gov.br/servicos/atendimento-as-situacoes-de-violacoes-de-direitos/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
-          "id": "centro-pop-icoaraci",
-          "name": "Centro POP Icoaraci",
+          "id": "calor-extremo",
+          "title": "Calor extremo",
+          "description": "Procure sombra e local ventilado, beba água em pequenas quantidades e evite esforço entre 10h e 16h quando possível. Confusão, desmaio, convulsão, pele muito quente ou dificuldade para respirar exigem 192.\nCentro POP e bibliotecas podem oferecer espaço coberto durante o horário, mas confirme a entrada. Não dependa de uma fonte pública de água sem saber se é potável.\nOrientações municipais sobre calor extremo",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Endereço:",
-                  "strong": true
-                },
-                {
-                  "text": " Travessa São Roque, 355, Icoaraci"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefones:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(91) 3227-9020",
-                  "href": "tel:+559132279020"
-                },
-                {
-                  "text": " ou "
-                },
-                {
-                  "text": "(91) 98423-8300",
-                  "href": "tel:+5591984238300"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "horário publicado:",
-                  "strong": true
-                },
-                {
-                  "text": " segunda a sexta, 8h–17h."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Atende pessoas em situação de rua com alimentação, higiene, escuta social e encaminhamentos. Confirme se o seu caso deve ser atendido em Icoaraci ou em São Brás."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Rede de alimentação e Centros POP",
-                  "href": "https://agencia.belem.pa.gov.br/prefeitura-de-belem-combate-a-inseguranca-alimentar/"
-                },
-                {
-                  "text": " · "
-                },
-                {
-                  "text": "Contatos publicados pelo MDH",
-                  "href": "https://ruasvisiveis.mdh.gov.br/protocolo-de-atendimento-a-pop-rua-cop-30/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://agencia.belem.pa.gov.br/calor-extremo-coloca-belem-em-alerta-maximo-para-o-el-nino/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
-          "id": "o-que-pedir-no-centro-pop",
-          "name": "O que pedir no Centro POP",
+          "id": "chuva-forte-alagamento-ou-risco-de-desabamento",
+          "title": "Chuva forte, alagamento ou risco de desabamento",
+          "description": "Defesa Civil municipal: (91) 98439-0646; Bombeiros: 193; SAMU: 192.\nVá para terreno alto e local com pessoas. Não atravesse água corrente, não toque em fiação e não durma perto de muro, barranco ou árvore instável. Peça ao Centro POP ou Funpapa o ponto emergencial atual.\nDefesa Civil — risco de desabamento · emergência por chuva em Belém — https://agencia.belem.pa.gov.br/prefeitura-decreta-emergencia-apos-chuva-recorde-em-belem/",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Peça avaliação para refeição, banho, lavanderia, guarda temporária de pertences, segunda via de documentos, CadÚnico, atendimento do Consultório na Rua, abrigo, benefícios e trabalho."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Explique se não tem telefone, endereço, documento ou dinheiro para transporte. Peça nome do serviço, endereço, horário e forma de entrada antes de sair. Um encaminhamento não prova que haverá vaga."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Serviços da Funpapa",
-                  "href": "https://prefeitura.belem.pa.gov.br/secretarias/funpapa-fundacao-papa-joao-xxiii/"
-                },
-                {
-                  "text": " · "
-                },
-                {
-                  "text": "Direitos no Centro POP",
-                  "href": "https://www.gov.br/pt-br/servicos/acessar-centro-pop-centro-de-referencia-especializado-para-populacao-em-situacao-de-rua"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+5591984390646",
+          "website": "https://prefeitura.belem.pa.gov.br/servicos/risco-de-desabamento/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
-          "id": "se-o-atendimento-anunciado-nao-estiver-funcionando",
-          "name": "Se o atendimento anunciado não estiver funcionando",
+          "id": "alertas-meteorologicos",
+          "title": "Alertas meteorológicos",
+          "description": "Consulte avisos do INMET em telefone ou computador de biblioteca. Um alerta não informa automaticamente qual abrigo está aberto; confirme com Funpapa, Centro POP ou Defesa Civil.\nINMET — avisos meteorológicos",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Peça que expliquem qual serviço está ativo naquele dia e qual alternativa atende a mesma necessidade. Anote data, horário, nome da unidade e orientação recebida."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Relatos oficiais recentes e uma decisão judicial apontaram falhas na rede. Se houver recusa discriminatória ou risco grave, use 100, Defensoria ou o canal municipal de direitos. Em emergência médica, 192."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "MPF — decisão de outubro de 2026",
-                  "href": "https://www.mpf.mp.br/o-mpf/unidades/pr-pa/noticias/justica-federal-determina-medidas-para-populacao-em-situacao-de-rua-em-belem-pa-em-acao-de-mps-e-defensorias"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://avisos.inmet.gov.br/",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "plano-pratico-para-as-proximas-24-horas-information",
+          "title": "Plano prático para as próximas 24 horas",
+          "description": "1. Escolha o Centro POP mais próximo e chegue dentro do horário publicado.\n2. Peça primeiro alimentação, higiene, saúde urgente e um lugar seguro para a noite.\n3. Depois peça documentos, CadÚnico, trabalho e acompanhamento. Anote nomes, horários e protocolos.\n4. Se uma porta estiver fechada, peça uma alternativa concreta antes de sair. Em risco imediato, use 190, 192 ou 193.",
+          "last_verified": "2026-11-12",
+          "address": "",
+          "phone": "",
+          "website": "",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
       "id": "shelter",
-      "title": "3. Acolhimento noturno e abrigo",
-      "items": [
+      "title": "Centros POP e apoio durante o dia",
+      "entries": [
         {
-          "type": "resource",
+          "id": "centro-pop-sao-bras",
+          "title": "Centro POP São Brás",
+          "description": "Telefones: (91) 3219-3360 ou (91) 99127-0370; horário publicado: segunda a sexta, 8h–17h.\nPorta de entrada para alimentação, higiene, CadÚnico, documentos, saúde, acolhimento, formação profissional e outras referências. O atendimento inicial é gratuito e não exige documento.\nO endereço pode ser usado como referência em documentos e no CadÚnico após orientação da equipe. Peça instrução por escrito antes de informar o local como endereço de correspondência.\nEndereço, horário e refeições — Prefeitura de Belém · Serviço nacional do Centro POP — https://www.gov.br/pt-br/servicos/acessar-centro-pop-centro-de-referencia-especializado-para-populacao-em-situacao-de-rua",
+          "last_verified": "2026-11-12",
+          "address": "Endereço: Avenida José Bonifácio, 704, São Brás",
+          "phone": "+559132193360",
+          "website": "https://agencia.belem.pa.gov.br/prefeitura-de-belem-combate-a-inseguranca-alimentar/",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "centro-pop-icoaraci",
+          "title": "Centro POP Icoaraci",
+          "description": "Telefones: (91) 3227-9020 ou (91) 98423-8300; horário publicado: segunda a sexta, 8h–17h.\nAtende pessoas em situação de rua com alimentação, higiene, escuta social e encaminhamentos. Confirme se o seu caso deve ser atendido em Icoaraci ou em São Brás.\nRede de alimentação e Centros POP · Contatos publicados pelo MDH — https://ruasvisiveis.mdh.gov.br/protocolo-de-atendimento-a-pop-rua-cop-30/",
+          "last_verified": "2026-11-12",
+          "address": "Endereço: Travessa São Roque, 355, Icoaraci",
+          "phone": "+559132279020",
+          "website": "https://agencia.belem.pa.gov.br/prefeitura-de-belem-combate-a-inseguranca-alimentar/",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "o-que-pedir-no-centro-pop",
+          "title": "O que pedir no Centro POP",
+          "description": "Peça avaliação para refeição, banho, lavanderia, guarda temporária de pertences, segunda via de documentos, CadÚnico, atendimento do Consultório na Rua, abrigo, benefícios e trabalho.\nExplique se não tem telefone, endereço, documento ou dinheiro para transporte. Peça nome do serviço, endereço, horário e forma de entrada antes de sair. Um encaminhamento não prova que haverá vaga.\nServiços da Funpapa · Direitos no Centro POP — https://www.gov.br/pt-br/servicos/acessar-centro-pop-centro-de-referencia-especializado-para-populacao-em-situacao-de-rua",
+          "last_verified": "2026-11-12",
+          "address": "",
+          "phone": "",
+          "website": "https://prefeitura.belem.pa.gov.br/secretarias/funpapa-fundacao-papa-joao-xxiii/",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "se-o-atendimento-anunciado-nao-estiver-funcionando",
+          "title": "Se o atendimento anunciado não estiver funcionando",
+          "description": "Peça que expliquem qual serviço está ativo naquele dia e qual alternativa atende a mesma necessidade. Anote data, horário, nome da unidade e orientação recebida.\nRelatos oficiais recentes e uma decisão judicial apontaram falhas na rede. Se houver recusa discriminatória ou risco grave, use 100, Defensoria ou o canal municipal de direitos. Em emergência médica, 192.\nMPF — decisão de outubro de 2026",
+          "last_verified": "2026-11-12",
+          "address": "",
+          "phone": "",
+          "website": "https://www.mpf.mp.br/o-mpf/unidades/pr-pa/noticias/justica-federal-determina-medidas-para-populacao-em-situacao-de-rua-em-belem-pa-em-acao-de-mps-e-defensorias",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
           "id": "espaco-acolher-entrada-direta-a-noite",
-          "name": "Espaço Acolher — entrada direta à noite",
+          "title": "Espaço Acolher — entrada direta à noite",
+          "description": "Funcionamento divulgado: todos os dias até 7h. Fontes municipais de 2026 publicaram 18h e 19h como horário de abertura. Chegue cedo e confirme pelo Centro POP ou Funpapa.\nSão 50 vagas por noite, com jantar, café da manhã, banho, lavanderia, guarda de pertences e atendimento social. A entrada é direta até o limite da capacidade.\nHá prioridade para mulheres, famílias com crianças, pessoas idosas, com deficiência e transexuais. Crianças precisam estar com responsável. O ingresso depende de vaga e de critérios de segurança e saúde.\nEspaço Acolher — inauguração e critérios · horário e refeições — https://agencia.belem.pa.gov.br/prefeitura-de-belem-combate-a-inseguranca-alimentar/",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Endereço:",
-                  "strong": true
-                },
-                {
-                  "text": " Rua Aristides Lobo, 290, Campina"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Funcionamento divulgado:",
-                  "strong": true
-                },
-                {
-                  "text": " todos os dias até 7h. Fontes municipais de 2026 publicaram 18h e 19h como horário de abertura. Chegue cedo e confirme pelo Centro POP ou Funpapa."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "São 50 vagas por noite, com jantar, café da manhã, banho, lavanderia, guarda de pertences e atendimento social. A entrada é direta até o limite da capacidade."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Há prioridade para mulheres, famílias com crianças, pessoas idosas, com deficiência e transexuais. Crianças precisam estar com responsável. O ingresso depende de vaga e de critérios de segurança e saúde."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Espaço Acolher — inauguração e critérios",
-                  "href": "https://agencia.belem.pa.gov.br/belem-ganha-espaco-para-acolher-pessoas-em-situacao-de-rua/"
-                },
-                {
-                  "text": " · "
-                },
-                {
-                  "text": "horário e refeições",
-                  "href": "https://agencia.belem.pa.gov.br/prefeitura-de-belem-combate-a-inseguranca-alimentar/"
-                }
-              ]
-            }
-          ]
+          "address": "Endereço: Rua Aristides Lobo, 290, Campina",
+          "phone": "",
+          "website": "https://agencia.belem.pa.gov.br/belem-ganha-espaco-para-acolher-pessoas-em-situacao-de-rua/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "camar-i-ou-saif-i-homens-adultos",
-          "name": "CAMAR I ou SAIF I — homens adultos",
+          "title": "CAMAR I ou SAIF I — homens adultos",
+          "description": "Telefones: (91) 3219-1161 ou (91) 98424-1219.\nAcolhimento para homens de 18 a 59 anos, com alimentação, higiene e acompanhamento. A permanência pode chegar a seis meses conforme avaliação técnica.\nO acesso é por encaminhamento do Centro POP e depende de vaga. Leve RG, CPF e NIS se tiver, mas avise ao Centro POP se perdeu tudo.\nCAMAR — serviço municipal",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Endereço publicado:",
-                  "strong": true
-                },
-                {
-                  "text": " Avenida Alcindo Cacela, 1994, Nazaré"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefones:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(91) 3219-1161",
-                  "href": "tel:+559132191161"
-                },
-                {
-                  "text": " ou "
-                },
-                {
-                  "text": "(91) 98424-1219",
-                  "href": "tel:+5591984241219"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Acolhimento para homens de 18 a 59 anos, com alimentação, higiene e acompanhamento. A permanência pode chegar a seis meses conforme avaliação técnica."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "O acesso é por encaminhamento do Centro POP e depende de vaga. Leve RG, CPF e NIS se tiver, mas avise ao Centro POP se perdeu tudo."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "CAMAR — serviço municipal",
-                  "href": "https://prefeitura.belem.pa.gov.br/servicos/casa-abrigo-para-pessoas-adultas-e-familias-em-situacao-de-rua/"
-                }
-              ]
-            }
-          ]
+          "address": "Endereço publicado: Avenida Alcindo Cacela, 1994, Nazaré",
+          "phone": "+559132191161",
+          "website": "https://prefeitura.belem.pa.gov.br/servicos/casa-abrigo-para-pessoas-adultas-e-familias-em-situacao-de-rua/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "camar-ii-ou-saif-ii-mulheres-e-familias",
-          "name": "CAMAR II ou SAIF II — mulheres e famílias",
+          "title": "CAMAR II ou SAIF II — mulheres e famílias",
+          "description": "Telefones: (91) 3283-4873 ou (91) 98424-2609.\nAcolhimento para mulheres e famílias em situação de rua. O acesso exige avaliação e encaminhamento do Centro POP, caso haja vaga.\nSe houver ameaça ou violência doméstica, não viaje diretamente a um abrigo comum sem plano de segurança. Ligue 180 ou 190.\nCAMAR II — critérios e contatos",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Endereço publicado:",
-                  "strong": true
-                },
-                {
-                  "text": " Passagem Santa Lúcia, 4, São Brás"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefones:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(91) 3283-4873",
-                  "href": "tel:+559132834873"
-                },
-                {
-                  "text": " ou "
-                },
-                {
-                  "text": "(91) 98424-2609",
-                  "href": "tel:+5591984242609"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Acolhimento para mulheres e famílias em situação de rua. O acesso exige avaliação e encaminhamento do Centro POP, caso haja vaga."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Se houver ameaça ou violência doméstica, não viaje diretamente a um abrigo comum sem plano de segurança. Ligue 180 ou 190."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "CAMAR II — critérios e contatos",
-                  "href": "https://prefeitura.belem.pa.gov.br/servicos/casa-abrigo-para-pessoas-adultas-e-familias-em-situacao-de-rua/"
-                }
-              ]
-            }
-          ]
+          "address": "Endereço publicado: Passagem Santa Lúcia, 4, São Brás",
+          "phone": "+559132834873",
+          "website": "https://prefeitura.belem.pa.gov.br/servicos/casa-abrigo-para-pessoas-adultas-e-familias-em-situacao-de-rua/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "se-nao-houver-vaga",
-          "name": "Se não houver vaga",
+          "title": "Se não houver vaga",
+          "description": "Peça uma alternativa concreta, com endereço, horário e modo de entrada. Informe doença, gravidez, criança, idade avançada, deficiência, violência, uso de medicação e presença de animal.\nNão pague intermediário por cama. Comunidade terapêutica não é abrigo geral. Qualquer encaminhamento para tratamento de álcool ou outras drogas deve ser voluntário, sem transporte forçado.\nDireitos no acolhimento — decisão judicial",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Peça uma alternativa concreta, com endereço, horário e modo de entrada. Informe doença, gravidez, criança, idade avançada, deficiência, violência, uso de medicação e presença de animal."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Não pague intermediário por cama. Comunidade terapêutica não é abrigo geral. Qualquer encaminhamento para tratamento de álcool ou outras drogas deve ser voluntário, sem transporte forçado."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Direitos no acolhimento — decisão judicial",
-                  "href": "https://www.mpf.mp.br/o-mpf/unidades/pr-pa/noticias/justica-federal-determina-medidas-para-populacao-em-situacao-de-rua-em-belem-pa-em-acao-de-mps-e-defensorias"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.mpf.mp.br/o-mpf/unidades/pr-pa/noticias/justica-federal-determina-medidas-para-populacao-em-situacao-de-rua-em-belem-pa-em-acao-de-mps-e-defensorias",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
       "id": "food",
-      "title": "4. Alimentação",
-      "items": [
+      "title": "Alimentação",
+      "entries": [
         {
-          "type": "resource",
           "id": "refeicoes-nos-centros-pop",
-          "name": "Refeições nos Centros POP",
+          "title": "Refeições nos Centros POP",
+          "description": "São Brás: Avenida José Bonifácio, 704. Icoaraci: Travessa São Roque, 355.\nA Prefeitura informa café da manhã, almoço e lanche da tarde nas duas unidades, durante o atendimento de segunda a sexta, 8h–17h. A quantidade é limitada e o horário de cada refeição não está garantido.\nChegue cedo, pergunte na recepção e não atravesse a cidade sem confirmar quando possível.\nRefeições na rede municipal",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "São Brás:",
-                  "strong": true
-                },
-                {
-                  "text": " Avenida José Bonifácio, 704. "
-                },
-                {
-                  "text": "Icoaraci:",
-                  "strong": true
-                },
-                {
-                  "text": " Travessa São Roque, 355."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "A Prefeitura informa café da manhã, almoço e lanche da tarde nas duas unidades, durante o atendimento de segunda a sexta, 8h–17h. A quantidade é limitada e o horário de cada refeição não está garantido."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Chegue cedo, pergunte na recepção e não atravesse a cidade sem confirmar quando possível."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Refeições na rede municipal",
-                  "href": "https://agencia.belem.pa.gov.br/prefeitura-de-belem-combate-a-inseguranca-alimentar/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://agencia.belem.pa.gov.br/prefeitura-de-belem-combate-a-inseguranca-alimentar/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "restaurante-popular-dr-oswaldo-coelho",
-          "name": "Restaurante Popular Dr. Oswaldo Coelho",
+          "title": "Restaurante Popular Dr. Oswaldo Coelho",
+          "description": "Horário publicado: segunda a sexta, 11h–15h; preço: R$ 2, até acabar a oferta do dia.\nNão é exclusivo para pessoas em situação de rua. A Prefeitura informa validação de cadastro e identificação na primeira utilização. Se não tiver documento ou NIS, pergunte antes no Centro POP como acessar.\nA venda pode começar antes do serviço da refeição. Chegue cedo e confirme feriados ou mudanças temporárias.\nRestaurante Popular — endereço e funcionamento",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Endereço:",
-                  "strong": true
-                },
-                {
-                  "text": " Rua 13 de Maio, 137, Campina"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Horário publicado:",
-                  "strong": true
-                },
-                {
-                  "text": " segunda a sexta, 11h–15h; "
-                },
-                {
-                  "text": "preço:",
-                  "strong": true
-                },
-                {
-                  "text": " R$ 2, até acabar a oferta do dia."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Não é exclusivo para pessoas em situação de rua. A Prefeitura informa validação de cadastro e identificação na primeira utilização. Se não tiver documento ou NIS, pergunte antes no Centro POP como acessar."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "A venda pode começar antes do serviço da refeição. Chegue cedo e confirme feriados ou mudanças temporárias."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Restaurante Popular — endereço e funcionamento",
-                  "href": "https://agencia.belem.pa.gov.br/restaurante-popular-chega-aos-3-meses-com-62-mil-refeicoes-servidas/"
-                }
-              ]
-            }
-          ]
+          "address": "Endereço: Rua 13 de Maio, 137, Campina",
+          "phone": "",
+          "website": "https://agencia.belem.pa.gov.br/restaurante-popular-chega-aos-3-meses-com-62-mil-refeicoes-servidas/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "jantar-e-cafe-da-manha-no-espaco-acolher",
-          "name": "Jantar e café da manhã no Espaço Acolher",
+          "title": "Jantar e café da manhã no Espaço Acolher",
+          "description": "As refeições são destinadas às pessoas admitidas para o pernoite. Chegar ao endereço não garante entrada nem refeição se as 50 vagas estiverem preenchidas.\nConfirme o horário de abertura e chegue cedo.\nAlimentação no Espaço Acolher",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Endereço:",
-                  "strong": true
-                },
-                {
-                  "text": " Rua Aristides Lobo, 290, Campina"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "As refeições são destinadas às pessoas admitidas para o pernoite. Chegar ao endereço não garante entrada nem refeição se as 50 vagas estiverem preenchidas."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Confirme o horário de abertura e chegue cedo."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Alimentação no Espaço Acolher",
-                  "href": "https://agencia.belem.pa.gov.br/espaco-acolher-garante-alimentacao-digna-as-pessoas-em-situacao-de-rua/"
-                }
-              ]
-            }
-          ]
+          "address": "Endereço: Rua Aristides Lobo, 290, Campina",
+          "phone": "",
+          "website": "https://agencia.belem.pa.gov.br/espaco-acolher-garante-alimentacao-digna-as-pessoas-em-situacao-de-rua/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "caritas-arquidiocesana-de-belem",
-          "name": "Cáritas Arquidiocesana de Belém",
+          "title": "Cáritas Arquidiocesana de Belém",
+          "description": "Telefone: (91) 3355-2711; email: caritas@caritasarqbelem.org.br. — mailto:caritas@caritasarqbelem.org.br\nA organização católica apoia famílias vulneráveis e pessoas em situação de rua, mas não publica refeição ou abrigo diário neste endereço. Ligue e diga exatamente se precisa de comida, roupa, documento ou encaminhamento.\nPergunte se qualquer atividade religiosa é opcional.\nCáritas Arquidiocesana — contato oficial",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Endereço:",
-                  "strong": true
-                },
-                {
-                  "text": " Avenida Governador José Malcher, 915, Nazaré"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(91) 3355-2711",
-                  "href": "tel:+559133552711"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "email:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "caritas@caritasarqbelem.org.br",
-                  "href": "mailto:caritas@caritasarqbelem.org.br"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "A organização católica apoia famílias vulneráveis e pessoas em situação de rua, mas não publica refeição ou abrigo diário neste endereço. Ligue e diga exatamente se precisa de comida, roupa, documento ou encaminhamento."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Pergunte se qualquer atividade religiosa é opcional."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Cáritas Arquidiocesana — contato oficial",
-                  "href": "https://caritasarqbelem.org.br/contato/"
-                }
-              ]
-            }
-          ]
+          "address": "Endereço: Avenida Governador José Malcher, 915, Nazaré",
+          "phone": "+559133552711",
+          "website": "https://caritasarqbelem.org.br/contato/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "pastoral-do-povo-da-rua",
-          "name": "Pastoral do Povo da Rua",
+          "title": "Pastoral do Povo da Rua",
+          "description": "A Pastoral participou de ações de alimentação e cuidado em Belém, mas não foi encontrado calendário público permanente. Peça ao Centro POP ou à Cáritas o contato atual antes de se deslocar.\nUma ação ou notícia anterior não significa refeição diária.\nAção municipal com a Pastoral do Povo da Rua",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "A Pastoral participou de ações de alimentação e cuidado em Belém, mas não foi encontrado calendário público permanente. Peça ao Centro POP ou à Cáritas o contato atual antes de se deslocar."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Uma ação ou notícia anterior não significa refeição diária."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ação municipal com a Pastoral do Povo da Rua",
-                  "href": "https://agencia.belem.pa.gov.br/prefeitura-leva-cuidado-e-acolhimento-a-populacao-em-situacao-de-rua/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://agencia.belem.pa.gov.br/prefeitura-leva-cuidado-e-acolhimento-a-populacao-em-situacao-de-rua/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "igrejas-e-acoes-periodicas",
-          "name": "Igrejas e ações periódicas",
+          "title": "Igrejas e ações periódicas",
+          "description": "A Igreja Adventista divulgou uma ação com comida e banho móvel perto da Praça da República em novembro de 2026. A Assembleia de Deus mantém a campanha Missão Contra a Fome. Nenhuma das duas fontes publica refeição diária aberta.\nAdventista do Marco: Travessa Barão do Triunfo, 3590. Assembleia de Deus: Avenida Governador Magalhães Barata, 53; telefone (91) 3115-3630.\nLigue antes e pergunte pela próxima distribuição. Não conte com comida sem confirmação.\nAção adventista em Belém · Missão Contra a Fome — https://adbelem.org.br/missao-contra-a-fome/",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "A Igreja Adventista divulgou uma ação com comida e banho móvel perto da Praça da República em novembro de 2026. A Assembleia de Deus mantém a campanha Missão Contra a Fome. Nenhuma das duas fontes publica refeição diária aberta."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Adventista do Marco:",
-                  "strong": true
-                },
-                {
-                  "text": " Travessa Barão do Triunfo, 3590. "
-                },
-                {
-                  "text": "Assembleia de Deus:",
-                  "strong": true
-                },
-                {
-                  "text": " Avenida Governador Magalhães Barata, 53; telefone "
-                },
-                {
-                  "text": "(91) 3115-3630",
-                  "href": "tel:+559131153630"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ligue antes e pergunte pela próxima distribuição. Não conte com comida sem confirmação."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ação adventista em Belém",
-                  "href": "https://noticias.adventistas.org/pt/acao-social-leva-alimentacao-banho-e-acolhimento-a-pessoas-em-situacao-de-rua-em-belem/"
-                },
-                {
-                  "text": " · "
-                },
-                {
-                  "text": "Missão Contra a Fome",
-                  "href": "https://adbelem.org.br/missao-contra-a-fome/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+559131153630",
+          "website": "https://noticias.adventistas.org/pt/acao-social-leva-alimentacao-banho-e-acolhimento-a-pessoas-em-situacao-de-rua-em-belem/",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
-      "id": "basic",
-      "title": "5. Banho, roupa, lavanderia e pertences",
-      "items": [
+      "id": "community",
+      "title": "Community and religious help",
+      "entries": []
+    },
+    {
+      "id": "hygiene",
+      "title": "Banho, roupa, lavanderia e pertences",
+      "entries": [
         {
-          "type": "resource",
           "id": "higiene-e-lavanderia-no-centro-pop",
-          "name": "Higiene e lavanderia no Centro POP",
+          "title": "Higiene e lavanderia no Centro POP",
+          "description": "Os Centros POP oferecem cuidados de higiene e podem orientar sobre banho, lavanderia, roupa e guarda de pertences. Confirme o que está disponível naquele dia, a ordem de chegada e os limites de volume.\nNão deixe documento, remédio, dinheiro, cartão ou telefone sem recibo e explicação clara.\nCentro POP — serviços da Funpapa · Serviço nacional — https://www.gov.br/pt-br/servicos/acessar-centro-pop-centro-de-referencia-especializado-para-populacao-em-situacao-de-rua",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Os Centros POP oferecem cuidados de higiene e podem orientar sobre banho, lavanderia, roupa e guarda de pertences. Confirme o que está disponível naquele dia, a ordem de chegada e os limites de volume."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Não deixe documento, remédio, dinheiro, cartão ou telefone sem recibo e explicação clara."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Centro POP — serviços da Funpapa",
-                  "href": "https://prefeitura.belem.pa.gov.br/secretarias/funpapa-fundacao-papa-joao-xxiii/"
-                },
-                {
-                  "text": " · "
-                },
-                {
-                  "text": "Serviço nacional",
-                  "href": "https://www.gov.br/pt-br/servicos/acessar-centro-pop-centro-de-referencia-especializado-para-populacao-em-situacao-de-rua"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://prefeitura.belem.pa.gov.br/secretarias/funpapa-fundacao-papa-joao-xxiii/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "banho-lavanderia-e-pertences-no-espaco-acolher",
-          "name": "Banho, lavanderia e pertences no Espaço Acolher",
+          "title": "Banho, lavanderia e pertences no Espaço Acolher",
+          "description": "As pessoas admitidas para o pernoite têm acesso a banho, materiais de higiene, lavanderia e guarda de pertences. Pergunte na entrada sobre objetos proibidos, tamanho das malas, medicação e horário para recuperar tudo.\nEssas facilidades não estão garantidas a quem não conseguir vaga.\nEstrutura do Espaço Acolher",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "As pessoas admitidas para o pernoite têm acesso a banho, materiais de higiene, lavanderia e guarda de pertences. Pergunte na entrada sobre objetos proibidos, tamanho das malas, medicação e horário para recuperar tudo."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Essas facilidades não estão garantidas a quem não conseguir vaga."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Estrutura do Espaço Acolher",
-                  "href": "https://agencia.belem.pa.gov.br/belem-ganha-espaco-para-acolher-pessoas-em-situacao-de-rua/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://agencia.belem.pa.gov.br/belem-ganha-espaco-para-acolher-pessoas-em-situacao-de-rua/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "roupa-e-itens-de-higiene",
-          "name": "Roupa e itens de higiene",
+          "title": "Roupa e itens de higiene",
+          "description": "Peça ao Centro POP uma verificação de estoque e encaminhamento. A Cáritas e igrejas podem ter campanhas pontuais, mas não publicam inventário ou entrega diária.\nDiga tamanho, necessidade de roupa íntima, calçado, absorvente, fralda ou item de chuva. A indicação de uma organização não garante que o item esteja disponível.\nCáritas — contato · Funpapa — https://caritasarqbelem.org.br/contato/",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Peça ao Centro POP uma verificação de estoque e encaminhamento. A Cáritas e igrejas podem ter campanhas pontuais, mas não publicam inventário ou entrega diária."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Diga tamanho, necessidade de roupa íntima, calçado, absorvente, fralda ou item de chuva. A indicação de uma organização não garante que o item esteja disponível."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Cáritas — contato",
-                  "href": "https://caritasarqbelem.org.br/contato/"
-                },
-                {
-                  "text": " · "
-                },
-                {
-                  "text": "Funpapa",
-                  "href": "https://prefeitura.belem.pa.gov.br/secretarias/funpapa-fundacao-papa-joao-xxiii/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://prefeitura.belem.pa.gov.br/secretarias/funpapa-fundacao-papa-joao-xxiii/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "casa-rua-nazareno-tourinho-confirme-antes",
-          "name": "Casa Rua Nazareno Tourinho — confirme antes",
+          "title": "Casa Rua Nazareno Tourinho — confirme antes",
+          "description": "A Prefeitura descreve banho, alimentação básica, curativos e atendimento multiprofissional com acesso pelo Consultório na Rua. Inspeções recentes do MPF apontaram falhas graves na atenção à saúde da população de rua.\nNão use a Casa Rua como única opção sem confirmar com Centro POP ou Consultório na Rua o que realmente está funcionando.\nDescrição municipal da Casa Rua · MPF — inspeção e pedido de medidas urgentes — https://www.mpf.mp.br/o-mpf/unidades/pr-pa/noticias/mpf-mppa-dpu-e-dpe-pa-pedem-a-justica-medidas-urgentes-para-a-saude-da-populacao-de-rua-em-belem-pa",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Endereço publicado:",
-                  "strong": true
-                },
-                {
-                  "text": " Rua João Diogo, 221, Campina"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "A Prefeitura descreve banho, alimentação básica, curativos e atendimento multiprofissional com acesso pelo Consultório na Rua. Inspeções recentes do MPF apontaram falhas graves na atenção à saúde da população de rua."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Não use a Casa Rua como única opção sem confirmar com Centro POP ou Consultório na Rua o que realmente está funcionando."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Descrição municipal da Casa Rua",
-                  "href": "https://prefeitura.belem.pa.gov.br/servicos/casa-rua-casa-nazareno-tourinho/"
-                },
-                {
-                  "text": " · "
-                },
-                {
-                  "text": "MPF — inspeção e pedido de medidas urgentes",
-                  "href": "https://www.mpf.mp.br/o-mpf/unidades/pr-pa/noticias/mpf-mppa-dpu-e-dpe-pa-pedem-a-justica-medidas-urgentes-para-a-saude-da-populacao-de-rua-em-belem-pa"
-                }
-              ]
-            }
-          ]
+          "address": "Endereço publicado: Rua João Diogo, 221, Campina",
+          "phone": "",
+          "website": "https://prefeitura.belem.pa.gov.br/servicos/casa-rua-casa-nazareno-tourinho/",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
+    },
+    {
+      "id": "clothing",
+      "title": "Clothing",
+      "entries": []
     },
     {
       "id": "health",
-      "title": "6. Saúde, saúde mental e álcool ou outras drogas",
-      "items": [
+      "title": "Saúde, saúde mental e álcool ou outras drogas",
+      "entries": [
         {
-          "type": "resource",
           "id": "consultorio-na-rua",
-          "name": "Consultório na Rua",
+          "title": "Consultório na Rua",
+          "description": "Equipe móvel com médico, enfermagem, psicologia e técnico de enfermagem. Faz atendimento de saúde, curativos e acompanhamento de tratamentos. Não exige documento.\nBase Jurunas: UMS Jurunas, Rua Fernando Guilhon, sem número, entre Bernardo Sayão e Breves; (91) 3272-4848.\nBase Icoaraci: UMS Icoaraci, Rua Manoel Barata, 840; (91) 3227-1550.\nA equipe trabalha na rua. Pergunte ao Centro POP onde estará e não trate os endereços das bases como agenda fixa.\nConsultório na Rua — serviço municipal",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Equipe móvel com médico, enfermagem, psicologia e técnico de enfermagem. Faz atendimento de saúde, curativos e acompanhamento de tratamentos. Não exige documento."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Base Jurunas:",
-                  "strong": true
-                },
-                {
-                  "text": " UMS Jurunas, Rua Fernando Guilhon, sem número, entre Bernardo Sayão e Breves; "
-                },
-                {
-                  "text": "(91) 3272-4848",
-                  "href": "tel:+559132724848"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Base Icoaraci:",
-                  "strong": true
-                },
-                {
-                  "text": " UMS Icoaraci, Rua Manoel Barata, 840; "
-                },
-                {
-                  "text": "(91) 3227-1550",
-                  "href": "tel:+559132271550"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "A equipe trabalha na rua. Pergunte ao Centro POP onde estará e não trate os endereços das bases como agenda fixa."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Consultório na Rua — serviço municipal",
-                  "href": "https://prefeitura.belem.pa.gov.br/servicos/consultorio-na-rua-populacao-em-vulnerabilidade-social/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+559132724848",
+          "website": "https://prefeitura.belem.pa.gov.br/servicos/consultorio-na-rua-populacao-em-vulnerabilidade-social/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "casa-rua-nazareno-tourinho-saude-com-alerta",
-          "name": "Casa Rua Nazareno Tourinho — saúde com alerta",
+          "title": "Casa Rua Nazareno Tourinho — saúde com alerta",
+          "description": "A descrição municipal inclui curativos, vacinação, saúde mental e cuidado de tuberculose, hanseníase e HIV. O acesso divulgado é pelo Consultório na Rua.\nO MPF registrou deficiências recentes. Pergunte ao Centro POP ou à equipe de rua qual atendimento está ativo e qual unidade do SUS é alternativa. Em emergência, 192.\nCasa Rua — carta de serviços · MPF — situação recente — https://www.mpf.mp.br/o-mpf/unidades/pr-pa/noticias/mpf-mppa-dpu-e-dpe-pa-pedem-a-justica-medidas-urgentes-para-a-saude-da-populacao-de-rua-em-belem-pa",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Endereço publicado:",
-                  "strong": true
-                },
-                {
-                  "text": " Rua João Diogo, 221, Campina"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "A descrição municipal inclui curativos, vacinação, saúde mental e cuidado de tuberculose, hanseníase e HIV. O acesso divulgado é pelo Consultório na Rua."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "O MPF registrou deficiências recentes. Pergunte ao Centro POP ou à equipe de rua qual atendimento está ativo e qual unidade do SUS é alternativa. Em emergência, 192."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Casa Rua — carta de serviços",
-                  "href": "https://prefeitura.belem.pa.gov.br/servicos/casa-rua-casa-nazareno-tourinho/"
-                },
-                {
-                  "text": " · "
-                },
-                {
-                  "text": "MPF — situação recente",
-                  "href": "https://www.mpf.mp.br/o-mpf/unidades/pr-pa/noticias/mpf-mppa-dpu-e-dpe-pa-pedem-a-justica-medidas-urgentes-para-a-saude-da-populacao-de-rua-em-belem-pa"
-                }
-              ]
-            }
-          ]
+          "address": "Endereço publicado: Rua João Diogo, 221, Campina",
+          "phone": "",
+          "website": "https://prefeitura.belem.pa.gov.br/servicos/casa-rua-casa-nazareno-tourinho/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "caps-iii-casa-mental-marisa-santos-adultos",
-          "name": "CAPS III Casa Mental Marisa Santos — adultos",
+          "title": "CAPS III Casa Mental Marisa Santos — adultos",
+          "description": "Centro de atenção psicossocial para sofrimento mental grave e persistente. Fonte municipal anterior informa funcionamento 24 horas, mas confirme antes de ir.\nPara crise com risco de morte, ferimento ou perda de consciência, ligue 192. Para apoio emocional sem emergência, 188.\nRede municipal de saúde mental e endereços",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Endereço publicado:",
-                  "strong": true
-                },
-                {
-                  "text": " Travessa Dom Romualdo de Seixas, 1954, Nazaré"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Centro de atenção psicossocial para sofrimento mental grave e persistente. Fonte municipal anterior informa funcionamento 24 horas, mas confirme antes de ir."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Para crise com risco de morte, ferimento ou perda de consciência, ligue 192. Para apoio emocional sem emergência, 188."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Rede municipal de saúde mental e endereços",
-                  "href": "https://saude.belem.pa.gov.br/novos-servicos-e-reestruturacao-de-unidades-marcam-a-gestao-da-saude-em-belem/"
-                }
-              ]
-            }
-          ]
+          "address": "Endereço publicado: Travessa Dom Romualdo de Seixas, 1954, Nazaré",
+          "phone": "",
+          "website": "https://saude.belem.pa.gov.br/novos-servicos-e-reestruturacao-de-unidades-marcam-a-gestao-da-saude-em-belem/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "caps-ad-alcool-e-outras-drogas",
-          "name": "CAPS AD — álcool e outras drogas",
+          "title": "CAPS AD — álcool e outras drogas",
+          "description": "Atendimento gratuito pelo SUS para necessidades relacionadas ao uso de álcool ou outras drogas. Ligue à SESMA no (91) 3184-6115 para confirmar horário e forma de acolhimento.\nSe não tiver documentos, peça ao Centro POP ou Consultório na Rua ajuda para acessar. Tratamento e comunidade terapêutica devem ser voluntários.\nCAPS Álcool e outras Drogas · SESMA — contato atual — https://prefeitura.belem.pa.gov.br/secretarias/sesma-secretaria-municipal-de-saude/",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Endereço publicado:",
-                  "strong": true
-                },
-                {
-                  "text": " Avenida Governador José Malcher, 1457, Nazaré"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Atendimento gratuito pelo SUS para necessidades relacionadas ao uso de álcool ou outras drogas. Ligue à SESMA no "
-                },
-                {
-                  "text": "(91) 3184-6115",
-                  "href": "tel:+559131846115"
-                },
-                {
-                  "text": " para confirmar horário e forma de acolhimento."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Se não tiver documentos, peça ao Centro POP ou Consultório na Rua ajuda para acessar. Tratamento e comunidade terapêutica devem ser voluntários."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "CAPS Álcool e outras Drogas",
-                  "href": "https://prefeitura.belem.pa.gov.br/servicos/centro-de-atencao-psicossocial-alcool-e-outras-drogas/"
-                },
-                {
-                  "text": " · "
-                },
-                {
-                  "text": "SESMA — contato atual",
-                  "href": "https://prefeitura.belem.pa.gov.br/secretarias/sesma-secretaria-municipal-de-saude/"
-                }
-              ]
-            }
-          ]
+          "address": "Endereço publicado: Avenida Governador José Malcher, 1457, Nazaré",
+          "phone": "+559131846115",
+          "website": "https://prefeitura.belem.pa.gov.br/servicos/centro-de-atencao-psicossocial-alcool-e-outras-drogas/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "cta-hiv-sifilis-e-hepatites",
-          "name": "CTA — HIV, sífilis e hepatites",
+          "title": "CTA — HIV, sífilis e hepatites",
+          "description": "Centro de Testagem e Aconselhamento para exames e orientação. Horário municipal anteriormente publicado: segunda a sexta, 8h–17h. Confirme pelo SESMA antes de viajar.\nO atendimento é sigiloso. Para necessidade imediata de profilaxia após exposição, procure urgência do SUS o quanto antes.\nServiços municipais de saúde",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Endereço publicado:",
-                  "strong": true
-                },
-                {
-                  "text": " Travessa Rui Barbosa, 1059, Reduto"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Centro de Testagem e Aconselhamento para exames e orientação. Horário municipal anteriormente publicado: segunda a sexta, 8h–17h. Confirme pelo SESMA antes de viajar."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "O atendimento é sigiloso. Para necessidade imediata de profilaxia após exposição, procure urgência do SUS o quanto antes."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Serviços municipais de saúde",
-                  "href": "https://saude.belem.pa.gov.br/novos-servicos-e-reestruturacao-de-unidades-marcam-a-gestao-da-saude-em-belem/"
-                }
-              ]
-            }
-          ]
+          "address": "Endereço publicado: Travessa Rui Barbosa, 1059, Reduto",
+          "phone": "",
+          "website": "https://saude.belem.pa.gov.br/novos-servicos-e-reestruturacao-de-unidades-marcam-a-gestao-da-saude-em-belem/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "se-houver-recusa-de-atendimento",
-          "name": "Se houver recusa de atendimento",
+          "title": "Se houver recusa de atendimento",
+          "description": "A situação de rua não deve justificar recusa do SAMU ou atraso na assistência. Se for seguro, peça justificativa, identificação do responsável e protocolo. Depois procure Defensoria, direitos humanos ou MPF.\nNão deixe uma reclamação atrasar um socorro. Se o risco continuar, ligue 192 novamente ou vá à unidade de urgência indicada.\nDecisão federal sobre o protocolo de saúde",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "A situação de rua não deve justificar recusa do SAMU ou atraso na assistência. Se for seguro, peça justificativa, identificação do responsável e protocolo. Depois procure Defensoria, direitos humanos ou MPF."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Não deixe uma reclamação atrasar um socorro. Se o risco continuar, ligue 192 novamente ou vá à unidade de urgência indicada."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Decisão federal sobre o protocolo de saúde",
-                  "href": "https://www.mpf.mp.br/o-mpf/unidades/pr-pa/noticias/justica-federal-determina-medidas-para-populacao-em-situacao-de-rua-em-belem-pa-em-acao-de-mps-e-defensorias"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.mpf.mp.br/o-mpf/unidades/pr-pa/noticias/justica-federal-determina-medidas-para-populacao-em-situacao-de-rua-em-belem-pa-em-acao-de-mps-e-defensorias",
+          "hours": "",
+          "how_to_access": ""
+        }
+      ]
+    },
+    {
+      "id": "mental-health",
+      "title": "Mental health and addiction",
+      "entries": []
+    },
+    {
+      "id": "public-facilities",
+      "title": "Public toilets and day facilities",
+      "entries": []
+    },
+    {
+      "id": "phone-internet",
+      "title": "Phone charging and internet",
+      "entries": []
+    },
+    {
+      "id": "transport",
+      "title": "Internet, transporte e deslocamento",
+      "entries": [
+        {
+          "id": "internet-e-computadores-gratuitos",
+          "title": "Internet e computadores gratuitos",
+          "description": "Use a Biblioteca Arthur Vianna, Avenida Gentil Bittencourt, 650, ou a Biblioteca Avertano Rocha, Rua Siqueira Mendes, Icoaraci. Confirme horários, cadastro, computadores, impressão e tomada.\nNão deixe telefone carregando sem supervisão. Evite inserir senha bancária em computador público; termine a sessão e apague arquivos baixados.\nBiblioteca Arthur Vianna · Biblioteca Avertano Rocha — https://agencia.belem.pa.gov.br/apos-revitalizacao-nova-biblioteca-avertano-rocha-amplia-acesso/",
+          "last_verified": "2026-11-12",
+          "address": "",
+          "phone": "",
+          "website": "https://www.fcp.pa.gov.br/cursos-e-oficinas/11/biblioteca-publica-arthur-vianna/",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "passe-facil-gratuidades-especificas",
+          "title": "Passe Fácil — gratuidades específicas",
+          "description": "O sistema municipal prevê gratuidade para categorias como pessoa idosa e Passe Especial, conforme idade, deficiência e documentos. A situação de rua, por si só, não garante passagem gratuita.\nPeça ao Centro POP ajuda para verificar elegibilidade, documentos e posto atual. Não compre cartão de terceiro e não entregue senha.\nIntegra Belém e Passe Fácil · locais atuais de atendimento — https://seguranca.belem.pa.gov.br/servicos-online/locais-de-atendimento/",
+          "last_verified": "2026-11-12",
+          "address": "",
+          "phone": "",
+          "website": "https://seguranca.belem.pa.gov.br/integra-belem/",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "antes-de-aceitar-um-encaminhamento-distante",
+          "title": "Antes de aceitar um encaminhamento distante",
+          "description": "Pergunte endereço completo, bairro, ponto de referência, horário-limite, ônibus e quem receberá. Confirme se o serviço realmente espera você e se há ajuda com transporte.\nNão use todo o dinheiro numa viagem baseada apenas em promessa verbal. Peça telefone e plano alternativo.\nFunpapa — orientação",
+          "last_verified": "2026-11-12",
+          "address": "",
+          "phone": "",
+          "website": "https://prefeitura.belem.pa.gov.br/secretarias/funpapa-fundacao-papa-joao-xxiii/",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
       "id": "benefits",
-      "title": "7. CadÚnico, benefícios e moradia",
-      "items": [
+      "title": "CadÚnico, benefícios e moradia",
+      "entries": [
         {
-          "type": "resource",
           "id": "cadunico-pelo-centro-pop",
-          "name": "CadÚnico pelo Centro POP",
+          "title": "CadÚnico pelo Centro POP",
+          "description": "O Centro POP pode orientar cadastro ou atualização, emitir encaminhamentos e servir como referência de endereço conforme a situação. A falta de documento não impede o primeiro atendimento.\nPeça ajuda para reunir CPF, título, certidões e dados familiares. Cadastro não garante Bolsa Família, BPC, moradia ou pagamento imediato.\nCentro POP e CadÚnico · Funpapa — https://prefeitura.belem.pa.gov.br/secretarias/funpapa-fundacao-papa-joao-xxiii/",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "O Centro POP pode orientar cadastro ou atualização, emitir encaminhamentos e servir como referência de endereço conforme a situação. A falta de documento não impede o primeiro atendimento."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Peça ajuda para reunir CPF, título, certidões e dados familiares. Cadastro não garante Bolsa Família, BPC, moradia ou pagamento imediato."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Centro POP e CadÚnico",
-                  "href": "https://www.gov.br/pt-br/servicos/acessar-centro-pop-centro-de-referencia-especializado-para-populacao-em-situacao-de-rua"
-                },
-                {
-                  "text": " · "
-                },
-                {
-                  "text": "Funpapa",
-                  "href": "https://prefeitura.belem.pa.gov.br/secretarias/funpapa-fundacao-papa-joao-xxiii/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.gov.br/pt-br/servicos/acessar-centro-pop-centro-de-referencia-especializado-para-populacao-em-situacao-de-rua",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "central-do-cadunico",
-          "name": "Central do CadÚnico",
+          "title": "Central do CadÚnico",
+          "description": "Telefone: (91) 3238-0767; horário publicado: 8h–17h.\nO endereço é distante do centro. Se estiver sem dinheiro, documentos ou referência de endereço, comece pelo Centro POP para evitar uma viagem perdida.\nCentral do CadÚnico — Prefeitura de Belém",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Endereço:",
-                  "strong": true
-                },
-                {
-                  "text": " Rodovia Augusto Montenegro, 6955, Condomínio Cidade Jardim II, Quadra 2, Lote 5, Tapanã"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(91) 3238-0767",
-                  "href": "tel:+559132380767"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "horário publicado:",
-                  "strong": true
-                },
-                {
-                  "text": " 8h–17h."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "O endereço é distante do centro. Se estiver sem dinheiro, documentos ou referência de endereço, comece pelo Centro POP para evitar uma viagem perdida."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Central do CadÚnico — Prefeitura de Belém",
-                  "href": "https://prefeitura.belem.pa.gov.br/servicos/central-do-cadunico-cadastro-nacional-dos-programas-sociais-do-governo-federal/"
-                }
-              ]
-            }
-          ]
+          "address": "Endereço: Rodovia Augusto Montenegro, 6955, Condomínio Cidade Jardim II, Quadra 2, Lote 5, Tapanã",
+          "phone": "+559132380767",
+          "website": "https://prefeitura.belem.pa.gov.br/servicos/central-do-cadunico-cadastro-nacional-dos-programas-sociais-do-governo-federal/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "duvidas-sobre-beneficios-sociais-121",
-          "name": "Dúvidas sobre benefícios sociais — 121",
+          "title": "Dúvidas sobre benefícios sociais — 121",
+          "description": "Telefone: 121.\nCanal federal para dúvidas sobre CadÚnico, Bolsa Família, BPC e outros programas. Tenha CPF ou NIS se possuir. O atendente informa situação e regras, mas não aprova benefício por telefone.\nDisque Social 121",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "121",
-                  "href": "tel:121"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Canal federal para dúvidas sobre CadÚnico, Bolsa Família, BPC e outros programas. Tenha CPF ou NIS se possuir. O atendente informa situação e regras, mas não aprova benefício por telefone."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Disque Social 121",
-                  "href": "https://www.gov.br/mds/pt-br/canais_atendimento/disque-social-121"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "121",
+          "website": "https://www.gov.br/mds/pt-br/canais_atendimento/disque-social-121",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "sicape-calamidade-e-emergencia-temporaria",
-          "name": "SICAPE — calamidade e emergência temporária",
+          "title": "SICAPE — calamidade e emergência temporária",
+          "description": "Telefone publicado: (91) 3073-1656; horário: 8h–17h.\nAtende famílias e pessoas afetadas por calamidade ou emergência temporária. Benefícios eventuais dependem de avaliação, documentos e regras; não são renda garantida para qualquer situação.\nSICAPE — carta de serviços",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Endereço:",
-                  "strong": true
-                },
-                {
-                  "text": " Avenida Rômulo Maiorana, 1018"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefone publicado:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(91) 3073-1656",
-                  "href": "tel:+559130731656"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "horário:",
-                  "strong": true
-                },
-                {
-                  "text": " 8h–17h."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Atende famílias e pessoas afetadas por calamidade ou emergência temporária. Benefícios eventuais dependem de avaliação, documentos e regras; não são renda garantida para qualquer situação."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "SICAPE — carta de serviços",
-                  "href": "https://prefeitura.belem.pa.gov.br/servicos/servico-de-protecao-em-situacao-de-calamidade-publica-e-emergencia-sicape/"
-                }
-              ]
-            }
-          ]
+          "address": "Endereço: Avenida Rômulo Maiorana, 1018",
+          "phone": "+559130731656",
+          "website": "https://prefeitura.belem.pa.gov.br/servicos/servico-de-protecao-em-situacao-de-calamidade-publica-e-emergencia-sicape/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "moradia-e-aluguel",
-          "name": "Moradia e aluguel",
+          "title": "Moradia e aluguel",
+          "description": "Não foi encontrada uma porta de entrada que garanta aluguel ou casa imediata para qualquer pessoa. Peça ao Centro POP avaliação social, registro da situação de rua e informação sobre programas municipais, estaduais ou federais abertos.\nNão pague taxa para entrar em fila de habitação pública. Peça protocolo e confira o órgão responsável.\nFunpapa — assistência social",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Não foi encontrada uma porta de entrada que garanta aluguel ou casa imediata para qualquer pessoa. Peça ao Centro POP avaliação social, registro da situação de rua e informação sobre programas municipais, estaduais ou federais abertos."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Não pague taxa para entrar em fila de habitação pública. Peça protocolo e confira o órgão responsável."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Funpapa — assistência social",
-                  "href": "https://prefeitura.belem.pa.gov.br/secretarias/funpapa-fundacao-papa-joao-xxiii/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://prefeitura.belem.pa.gov.br/secretarias/funpapa-fundacao-papa-joao-xxiii/",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
-      "id": "work",
-      "title": "8. Trabalho, qualificação e renda",
-      "items": [
+      "id": "employment",
+      "title": "Trabalho, qualificação e renda",
+      "entries": [
         {
-          "type": "resource",
           "id": "sine-belem",
-          "name": "Sine Belém",
+          "title": "Sine Belém",
+          "description": "Intermediação de vagas, orientação profissional, seguro-desemprego e encaminhamento para qualificação. O atendimento é gratuito.\nContato geral da Seaster: (91) 3110-1800. Ligue para confirmar horário, documentos e se há distribuição de senhas.\nO cadastro não garante entrevista ou contratação. Peça ajuda ao Centro POP se não tiver comprovante de endereço, telefone ou documentos.\nNova sede do Sine Belém — Seaster · Contato da Seaster — https://www.seaster.pa.gov.br/node/364",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Endereço:",
-                  "strong": true
-                },
-                {
-                  "text": " Travessa Padre Eutíquio, 1308, Batista Campos"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Intermediação de vagas, orientação profissional, seguro-desemprego e encaminhamento para qualificação. O atendimento é gratuito."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Contato geral da Seaster:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(91) 3110-1800",
-                  "href": "tel:+559131101800"
-                },
-                {
-                  "text": ". Ligue para confirmar horário, documentos e se há distribuição de senhas."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "O cadastro não garante entrevista ou contratação. Peça ajuda ao Centro POP se não tiver comprovante de endereço, telefone ou documentos."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Nova sede do Sine Belém — Seaster",
-                  "href": "https://www.seaster.pa.gov.br/node/817"
-                },
-                {
-                  "text": " · "
-                },
-                {
-                  "text": "Contato da Seaster",
-                  "href": "https://www.seaster.pa.gov.br/node/364"
-                }
-              ]
-            }
-          ]
+          "address": "Endereço: Travessa Padre Eutíquio, 1308, Batista Campos",
+          "phone": "+559131101800",
+          "website": "https://www.seaster.pa.gov.br/node/817",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "secretaria-municipal-de-trabalho-e-emprego",
-          "name": "Secretaria Municipal de Trabalho e Emprego",
+          "title": "Secretaria Municipal de Trabalho e Emprego",
+          "description": "Telefone: (91) 98501-6819; horário publicado: 8h–17h.\nPergunte sobre qualificação, emprego, empreendedorismo e ações vigentes. Confirme antes de ir porque projetos e inscrições têm períodos próprios.\nEstrutura e contato da SEMTE",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Endereço:",
-                  "strong": true
-                },
-                {
-                  "text": " Avenida Gentil Bittencourt, 1868, 2º andar, São Brás"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(91) 98501-6819",
-                  "href": "tel:+5591985016819"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "horário publicado:",
-                  "strong": true
-                },
-                {
-                  "text": " 8h–17h."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Pergunte sobre qualificação, emprego, empreendedorismo e ações vigentes. Confirme antes de ir porque projetos e inscrições têm períodos próprios."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Estrutura e contato da SEMTE",
-                  "href": "https://prefeitura.belem.pa.gov.br/estrutura-organizacional/"
-                }
-              ]
-            }
-          ]
+          "address": "Endereço: Avenida Gentil Bittencourt, 1868, 2º andar, São Brás",
+          "phone": "+5591985016819",
+          "website": "https://prefeitura.belem.pa.gov.br/estrutura-organizacional/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "apoio-pelo-centro-pop-e-espaco-acolher",
-          "name": "Apoio pelo Centro POP e Espaço Acolher",
+          "title": "Apoio pelo Centro POP e Espaço Acolher",
+          "description": "Peça avaliação para documentos, currículo, contato telefônico, encaminhamento ao Sine e inscrição em qualificação. O Espaço Acolher também anunciou articulação com a equipe de trabalho e emprego para pessoas admitidas.\nTrabalho social não significa vaga reservada. Peça cópia do currículo e anote empresa, endereço, horário e nome do contato.\nApoio para reinserção no Espaço Acolher · Centro POP — https://prefeitura.belem.pa.gov.br/secretarias/funpapa-fundacao-papa-joao-xxiii/",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Peça avaliação para documentos, currículo, contato telefônico, encaminhamento ao Sine e inscrição em qualificação. O Espaço Acolher também anunciou articulação com a equipe de trabalho e emprego para pessoas admitidas."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Trabalho social não significa vaga reservada. Peça cópia do currículo e anote empresa, endereço, horário e nome do contato."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Apoio para reinserção no Espaço Acolher",
-                  "href": "https://agencia.belem.pa.gov.br/belem-ganha-espaco-para-acolher-pessoas-em-situacao-de-rua/"
-                },
-                {
-                  "text": " · "
-                },
-                {
-                  "text": "Centro POP",
-                  "href": "https://prefeitura.belem.pa.gov.br/secretarias/funpapa-fundacao-papa-joao-xxiii/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://agencia.belem.pa.gov.br/belem-ganha-espaco-para-acolher-pessoas-em-situacao-de-rua/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "evite-golpes-de-emprego",
-          "name": "Evite golpes de emprego",
+          "title": "Evite golpes de emprego",
+          "description": "Não pague por vaga, entrevista, uniforme ou curso obrigatório sem verificar a empresa. Não entregue cartão bancário, senha, código de verificação ou documento original.\nPeça salário, horário, endereço, transporte e tipo de contrato por escrito. Se houver retenção de documentos, ameaça ou trabalho forçado, ligue 100 ou 190.\nServiços oficiais para o trabalhador",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Não pague por vaga, entrevista, uniforme ou curso obrigatório sem verificar a empresa. Não entregue cartão bancário, senha, código de verificação ou documento original."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Peça salário, horário, endereço, transporte e tipo de contrato por escrito. Se houver retenção de documentos, ameaça ou trabalho forçado, ligue 100 ou 190."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Serviços oficiais para o trabalhador",
-                  "href": "https://www.gov.br/trabalho-e-emprego/pt-br/servicos/trabalhador"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "documents",
-      "title": "9. Documentos, correspondência e acesso digital",
-      "items": [
-        {
-          "type": "resource",
-          "id": "comece-pelo-centro-pop-se-perdeu-tudo",
-          "name": "Comece pelo Centro POP se perdeu tudo",
-          "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Peça registro da situação, orientação para certidão, CPF, Carteira de Identidade Nacional e uma referência de endereço. O primeiro atendimento não exige documento."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Solicite lista escrita do que falta e guarde protocolo. A primeira CIN é gratuita; segunda via de certidão civil pode ter gratuidade para quem não pode pagar, conforme avaliação e procedimento."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Governo federal — acesso a serviços sem documentos",
-                  "href": "https://www.gov.br/mdh/pt-br/assuntos/noticias/2026/defeso-eleitoral/setembro/pessoas-em-situacao-de-rua-saiba-como-acessar-servicos-publicos-e-onde-buscar-atendimento/"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "estacoes-cidadania",
-          "name": "Estações Cidadania",
-          "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Guamá:",
-                  "strong": true
-                },
-                {
-                  "text": " Avenida José Bonifácio, 2308; "
-                },
-                {
-                  "text": "(91) 3217-4107",
-                  "href": "tel:+559132174107"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Pátio Belém:",
-                  "strong": true
-                },
-                {
-                  "text": " Travessa Padre Eutíquio, 1078. "
-                },
-                {
-                  "text": "Bosque Grão-Pará:",
-                  "strong": true
-                },
-                {
-                  "text": " Avenida Centenário, 1052. "
-                },
-                {
-                  "text": "Icoaraci:",
-                  "strong": true
-                },
-                {
-                  "text": " Rua Lopo de Castro, 78."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "As unidades reúnem serviços públicos, incluindo identificação em unidades e períodos específicos. Confirme qual posto emite o documento desejado, necessidade de agendamento e documentos."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Estações Cidadania — Governo do Pará",
-                  "href": "https://www.seplad.pa.gov.br/estacao-cidadania/"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "centro-de-atendimento-ao-cidadao-da-alepa",
-          "name": "Centro de Atendimento ao Cidadão da Alepa",
-          "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Localização publicada:",
-                  "strong": true
-                },
-                {
-                  "text": " Rua Félix Roque, ao lado da Assembleia Legislativa do Pará"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(91) 3182-8496",
-                  "href": "tel:+559131828496"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Oferece orientação jurídica e serviços como primeira via de identidade e encaminhamento para certidão, conforme agenda e requisitos. Ligue para confirmar vaga, horário e documentos."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Centro de Atendimento ao Cidadão — Alepa",
-                  "href": "https://www.alepa.pa.gov.br/Home/Page/CentrodeAtendimentoaoCidadao"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "biblioteca-publica-arthur-vianna",
-          "name": "Biblioteca Pública Arthur Vianna",
-          "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Endereço:",
-                  "strong": true
-                },
-                {
-                  "text": " Avenida Gentil Bittencourt, 650, Nazaré"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(91) 3284-9013",
-                  "href": "tel:+559132849013"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "horário publicado:",
-                  "strong": true
-                },
-                {
-                  "text": " segunda a sexta, 9h–18h."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Biblioteca com Wi-Fi e Infocentro. Pergunte se é necessário cadastro ou documento para computador, impressão, tomada e guarda de mochila."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Biblioteca Arthur Vianna — Fundação Cultural do Pará",
-                  "href": "https://www.fcp.pa.gov.br/cursos-e-oficinas/11/biblioteca-publica-arthur-vianna/"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "biblioteca-avertano-rocha-icoaraci",
-          "name": "Biblioteca Avertano Rocha — Icoaraci",
-          "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Endereço:",
-                  "strong": true
-                },
-                {
-                  "text": " Rua Siqueira Mendes, sem número, Icoaraci"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Horário publicado:",
-                  "strong": true
-                },
-                {
-                  "text": " segunda a sexta, 9h–15h."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "A Prefeitura informa computadores e serviços gratuitos mediante cadastro simples no local. Confirme uso, impressão e feriados."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Biblioteca Avertano Rocha — serviços e horário",
-                  "href": "https://agencia.belem.pa.gov.br/apos-revitalizacao-nova-biblioteca-avertano-rocha-amplia-acesso/"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "correspondencia-segura",
-          "name": "Correspondência segura",
-          "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Não use endereço de Centro POP, abrigo ou organização sem autorização expressa. Pergunte qual nome escrever, que documentos precisa mostrar, quanto tempo guardam cartas e se aceitam correspondência de banco, Justiça ou benefício."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Uma referência de endereço não é automaticamente comprovante de residência. Para documento ou benefício, peça ao assistente social a declaração adequada."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Centro POP como referência",
-                  "href": "https://www.gov.br/pt-br/servicos/acessar-centro-pop-centro-de-referencia-especializado-para-populacao-em-situacao-de-rua"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.gov.br/trabalho-e-emprego/pt-br/servicos/trabalhador",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
       "id": "legal",
-      "title": "10. Ajuda jurídica e proteção de direitos",
-      "items": [
+      "title": "Ajuda jurídica e proteção de direitos",
+      "entries": [
         {
-          "type": "resource",
           "id": "defensoria-publica-do-estado-do-para",
-          "name": "Defensoria Pública do Estado do Pará",
+          "title": "Defensoria Pública do Estado do Pará",
+          "description": "Agendamento: 129; sede: (91) 3251-3700; horário publicado: 8h–14h.\nAtendimento jurídico gratuito para quem se enquadra nos critérios. A página lista documentos, mas, se estiver sem RG, CPF ou comprovante, explique no 129 e peça ao Centro POP ajuda para comprovar a situação.\nA Defensoria não garante ação ou resultado; cada caso é avaliado.\nAgendamento e documentos — DPE/PA",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Sede:",
-                  "strong": true
-                },
-                {
-                  "text": " Rua Padre Prudêncio, 154, Belém"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Agendamento:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "129",
-                  "href": "tel:129"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "sede:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(91) 3251-3700",
-                  "href": "tel:+559132513700"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "horário publicado:",
-                  "strong": true
-                },
-                {
-                  "text": " 8h–14h."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Atendimento jurídico gratuito para quem se enquadra nos critérios. A página lista documentos, mas, se estiver sem RG, CPF ou comprovante, explique no 129 e peça ao Centro POP ajuda para comprovar a situação."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "A Defensoria não garante ação ou resultado; cada caso é avaliado."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Agendamento e documentos — DPE/PA",
-                  "href": "https://defensoria.pa.def.br/agende-seu-atendimento"
-                }
-              ]
-            }
-          ]
+          "address": "Sede: Rua Padre Prudêncio, 154, Belém",
+          "phone": "129",
+          "website": "https://defensoria.pa.def.br/agende-seu-atendimento",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "ministerio-publico-federal-no-para",
-          "name": "Ministério Público Federal no Pará",
+          "title": "Ministério Público Federal no Pará",
+          "description": "Telefone: (91) 3299-0111; canal nacional: 0800 000 5640.\nUse para violações de direitos com dimensão federal ou coletiva, como problemas sistemáticos na rede. Para defesa pessoal comum, comece pela Defensoria. O MPF não substitui advogado em todo caso.\nSala de Atendimento ao Cidadão — MPF",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Endereço:",
-                  "strong": true
-                },
-                {
-                  "text": " Rua Domingos Marreiros, 690, Umarizal"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(91) 3299-0111",
-                  "href": "tel:+559132990111"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "canal nacional:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "0800 000 5640",
-                  "href": "tel:08000005640"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Use para violações de direitos com dimensão federal ou coletiva, como problemas sistemáticos na rede. Para defesa pessoal comum, comece pela Defensoria. O MPF não substitui advogado em todo caso."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Sala de Atendimento ao Cidadão — MPF",
-                  "href": "https://www.mpf.mp.br/servicos/falar-com-o-mpf/salas-de-atendimento-ao-cidadao"
-                }
-              ]
-            }
-          ]
+          "address": "Endereço: Rua Domingos Marreiros, 690, Umarizal",
+          "phone": "+559132990111",
+          "website": "https://www.mpf.mp.br/servicos/falar-com-o-mpf/salas-de-atendimento-ao-cidadao",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "secretaria-municipal-de-cidadania-e-direitos-humanos",
-          "name": "Secretaria Municipal de Cidadania e Direitos Humanos",
+          "title": "Secretaria Municipal de Cidadania e Direitos Humanos",
+          "description": "Telefone: (91) 98800-1014; WhatsApp para violações: (91) 98436-0474; horário publicado: 8h–17h.\nCanal municipal para orientação e registro de violações. Em crime ou violência acontecendo agora, ligue 190.\nSEMCAD — contato · atendimento a violações — https://prefeitura.belem.pa.gov.br/servicos/atendimento-as-situacoes-de-violacoes-de-direitos/",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Endereço:",
-                  "strong": true
-                },
-                {
-                  "text": " Avenida Almirante Barroso, 1312"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(91) 98800-1014",
-                  "href": "tel:+5591988001014"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "WhatsApp para violações:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(91) 98436-0474",
-                  "href": "tel:+5591984360474"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "horário publicado:",
-                  "strong": true
-                },
-                {
-                  "text": " 8h–17h."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Canal municipal para orientação e registro de violações. Em crime ou violência acontecendo agora, ligue 190."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "SEMCAD — contato",
-                  "href": "https://prefeitura.belem.pa.gov.br/secretarias/semcad-secretaria-municipal-de-cidadania-assitencia-social-e-direitos-humanos/"
-                },
-                {
-                  "text": " · "
-                },
-                {
-                  "text": "atendimento a violações",
-                  "href": "https://prefeitura.belem.pa.gov.br/servicos/atendimento-as-situacoes-de-violacoes-de-direitos/"
-                }
-              ]
-            }
-          ]
+          "address": "Endereço: Avenida Almirante Barroso, 1312",
+          "phone": "+5591988001014",
+          "website": "https://prefeitura.belem.pa.gov.br/secretarias/semcad-secretaria-municipal-de-cidadania-assitencia-social-e-direitos-humanos/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "protecao-de-documentos-barraca-e-pertences",
-          "name": "Proteção de documentos, barraca e pertences",
+          "title": "Proteção de documentos, barraca e pertences",
+          "description": "Decisão federal determina que limpeza de rotina não retire pessoas à força nem recolha documentos, barracas, colchões, cobertores ou outros pertences essenciais. Em operações extraordinárias, devem existir aviso e regras específicas, salvo urgência justificada.\nSe for seguro, fotografe bens e documentos, anote data, horário, local, órgão e nomes. Não confronte agentes se houver risco. Procure 100, Defensoria, SEMCAD ou MPF.\nMPF — regras determinadas pela Justiça",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Decisão federal determina que limpeza de rotina não retire pessoas à força nem recolha documentos, barracas, colchões, cobertores ou outros pertences essenciais. Em operações extraordinárias, devem existir aviso e regras específicas, salvo urgência justificada."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Se for seguro, fotografe bens e documentos, anote data, horário, local, órgão e nomes. Não confronte agentes se houver risco. Procure 100, Defensoria, SEMCAD ou MPF."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "MPF — regras determinadas pela Justiça",
-                  "href": "https://www.mpf.mp.br/o-mpf/unidades/pr-pa/noticias/justica-federal-determina-medidas-para-populacao-em-situacao-de-rua-em-belem-pa-em-acao-de-mps-e-defensorias"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.mpf.mp.br/o-mpf/unidades/pr-pa/noticias/justica-federal-determina-medidas-para-populacao-em-situacao-de-rua-em-belem-pa-em-acao-de-mps-e-defensorias",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
+    },
+    {
+      "id": "documents",
+      "title": "Documentos, correspondência e acesso digital",
+      "entries": [
+        {
+          "id": "comece-pelo-centro-pop-se-perdeu-tudo",
+          "title": "Comece pelo Centro POP se perdeu tudo",
+          "description": "Peça registro da situação, orientação para certidão, CPF, Carteira de Identidade Nacional e uma referência de endereço. O primeiro atendimento não exige documento.\nSolicite lista escrita do que falta e guarde protocolo. A primeira CIN é gratuita; segunda via de certidão civil pode ter gratuidade para quem não pode pagar, conforme avaliação e procedimento.\nGoverno federal — acesso a serviços sem documentos",
+          "last_verified": "2026-11-12",
+          "address": "",
+          "phone": "",
+          "website": "https://www.gov.br/mdh/pt-br/assuntos/noticias/2026/defeso-eleitoral/setembro/pessoas-em-situacao-de-rua-saiba-como-acessar-servicos-publicos-e-onde-buscar-atendimento/",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "estacoes-cidadania",
+          "title": "Estações Cidadania",
+          "description": "Guamá: Avenida José Bonifácio, 2308; (91) 3217-4107.\nPátio Belém: Travessa Padre Eutíquio, 1078. Bosque Grão-Pará: Avenida Centenário, 1052. Icoaraci: Rua Lopo de Castro, 78.\nAs unidades reúnem serviços públicos, incluindo identificação em unidades e períodos específicos. Confirme qual posto emite o documento desejado, necessidade de agendamento e documentos.\nEstações Cidadania — Governo do Pará",
+          "last_verified": "2026-11-12",
+          "address": "",
+          "phone": "+559132174107",
+          "website": "https://www.seplad.pa.gov.br/estacao-cidadania/",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "centro-de-atendimento-ao-cidadao-da-alepa",
+          "title": "Centro de Atendimento ao Cidadão da Alepa",
+          "description": "Telefone: (91) 3182-8496.\nOferece orientação jurídica e serviços como primeira via de identidade e encaminhamento para certidão, conforme agenda e requisitos. Ligue para confirmar vaga, horário e documentos.\nCentro de Atendimento ao Cidadão — Alepa",
+          "last_verified": "2026-11-12",
+          "address": "Localização publicada: Rua Félix Roque, ao lado da Assembleia Legislativa do Pará",
+          "phone": "+559131828496",
+          "website": "https://www.alepa.pa.gov.br/Home/Page/CentrodeAtendimentoaoCidadao",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "biblioteca-publica-arthur-vianna",
+          "title": "Biblioteca Pública Arthur Vianna",
+          "description": "Telefone: (91) 3284-9013; horário publicado: segunda a sexta, 9h–18h.\nBiblioteca com Wi-Fi e Infocentro. Pergunte se é necessário cadastro ou documento para computador, impressão, tomada e guarda de mochila.\nBiblioteca Arthur Vianna — Fundação Cultural do Pará",
+          "last_verified": "2026-11-12",
+          "address": "Endereço: Avenida Gentil Bittencourt, 650, Nazaré",
+          "phone": "+559132849013",
+          "website": "https://www.fcp.pa.gov.br/cursos-e-oficinas/11/biblioteca-publica-arthur-vianna/",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "biblioteca-avertano-rocha-icoaraci",
+          "title": "Biblioteca Avertano Rocha — Icoaraci",
+          "description": "Horário publicado: segunda a sexta, 9h–15h.\nA Prefeitura informa computadores e serviços gratuitos mediante cadastro simples no local. Confirme uso, impressão e feriados.\nBiblioteca Avertano Rocha — serviços e horário",
+          "last_verified": "2026-11-12",
+          "address": "Endereço: Rua Siqueira Mendes, sem número, Icoaraci",
+          "phone": "",
+          "website": "https://agencia.belem.pa.gov.br/apos-revitalizacao-nova-biblioteca-avertano-rocha-amplia-acesso/",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "correspondencia-segura",
+          "title": "Correspondência segura",
+          "description": "Não use endereço de Centro POP, abrigo ou organização sem autorização expressa. Pergunte qual nome escrever, que documentos precisa mostrar, quanto tempo guardam cartas e se aceitam correspondência de banco, Justiça ou benefício.\nUma referência de endereço não é automaticamente comprovante de residência. Para documento ou benefício, peça ao assistente social a declaração adequada.\nCentro POP como referência",
+          "last_verified": "2026-11-12",
+          "address": "",
+          "phone": "",
+          "website": "https://www.gov.br/pt-br/servicos/acessar-centro-pop-centro-de-referencia-especializado-para-populacao-em-situacao-de-rua",
+          "hours": "",
+          "how_to_access": ""
+        }
+      ]
+    },
+    {
+      "id": "mail",
+      "title": "Mailing address",
+      "entries": []
+    },
+    {
+      "id": "storage",
+      "title": "Storage",
+      "entries": []
     },
     {
       "id": "safety",
-      "title": "11. Mulheres, crianças e pessoas em risco",
-      "items": [
+      "title": "Mulheres, crianças e pessoas em risco",
+      "entries": [
         {
-          "type": "resource",
           "id": "perigo-imediato-e-violencia-contra-a-mulher",
-          "name": "Perigo imediato e violência contra a mulher",
+          "title": "Perigo imediato e violência contra a mulher",
+          "description": "Polícia: 190; Central de Atendimento à Mulher: 180, 24 horas.\nO 180 orienta sobre serviços e direitos. Em agressão acontecendo agora, ameaça com arma ou risco de morte, use 190. Não informe ao agressor para onde irá.\nLigue 180",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Polícia:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "190",
-                  "href": "tel:190"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "Central de Atendimento à Mulher:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "180",
-                  "href": "tel:180"
-                },
-                {
-                  "text": ", 24 horas."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "O 180 orienta sobre serviços e direitos. Em agressão acontecendo agora, ameaça com arma ou risco de morte, use 190. Não informe ao agressor para onde irá."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ligue 180",
-                  "href": "https://www.gov.br/mulheres/pt-br/ligue180"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "190",
+          "website": "https://www.gov.br/mulheres/pt-br/ligue180",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "hospital-da-mulher-do-para",
-          "name": "Hospital da Mulher do Pará",
+          "title": "Hospital da Mulher do Pará",
+          "description": "Atendimento de urgência e emergência 24 horas para mulheres em situação de violência doméstica ou sexual. Em risco durante o deslocamento, peça orientação pelo 190 ou 180.\nPreserve roupas e mensagens se puder, mas não adie cuidado médico por falta de prova ou documento.\nHospital da Mulher — Governo do Pará",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Endereço:",
-                  "strong": true
-                },
-                {
-                  "text": " Avenida Gentil Bittencourt, 2175"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Atendimento de urgência e emergência 24 horas para mulheres em situação de violência doméstica ou sexual. Em risco durante o deslocamento, peça orientação pelo 190 ou 180."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Preserve roupas e mensagens se puder, mas não adie cuidado médico por falta de prova ou documento."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Hospital da Mulher — Governo do Pará",
-                  "href": "https://www.saude.pa.gov.br/hospital-da-mulher-do-para-reforca-combate-a-violencia-contra-a-mulher/"
-                }
-              ]
-            }
-          ]
+          "address": "Endereço: Avenida Gentil Bittencourt, 2175",
+          "phone": "",
+          "website": "https://www.saude.pa.gov.br/hospital-da-mulher-do-para-reforca-combate-a-violencia-contra-a-mulher/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "secretaria-municipal-da-mulher",
-          "name": "Secretaria Municipal da Mulher",
+          "title": "Secretaria Municipal da Mulher",
+          "description": "Telefone: (91) 98431-7437; acolhimento psicossocial: (91) 98440-0267; horário publicado: 8h–17h.\nOrientação e acolhimento psicossocial. Confirme se precisa de agendamento. Não é serviço policial nem pronto-socorro.\nSEMU — contato · acolhimento psicossocial — https://prefeitura.belem.pa.gov.br/servicos/atendimento-a-violencia-contra-mulher-acolhimento-psicossocial/",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Endereço:",
-                  "strong": true
-                },
-                {
-                  "text": " Rua São Boaventura, 135, Reduto"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(91) 98431-7437",
-                  "href": "tel:+5591984317437"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "acolhimento psicossocial:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(91) 98440-0267",
-                  "href": "tel:+5591984400267"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "horário publicado:",
-                  "strong": true
-                },
-                {
-                  "text": " 8h–17h."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Orientação e acolhimento psicossocial. Confirme se precisa de agendamento. Não é serviço policial nem pronto-socorro."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "SEMU — contato",
-                  "href": "https://prefeitura.belem.pa.gov.br/secretarias/semu-secretaria-da-mulher/"
-                },
-                {
-                  "text": " · "
-                },
-                {
-                  "text": "acolhimento psicossocial",
-                  "href": "https://prefeitura.belem.pa.gov.br/servicos/atendimento-a-violencia-contra-mulher-acolhimento-psicossocial/"
-                }
-              ]
-            }
-          ]
+          "address": "Endereço: Rua São Boaventura, 135, Reduto",
+          "phone": "+5591984317437",
+          "website": "https://prefeitura.belem.pa.gov.br/secretarias/semu-secretaria-da-mulher/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "abrigo-sigiloso-para-mulher-em-risco-de-morte",
-          "name": "Abrigo sigiloso para mulher em risco de morte",
+          "title": "Abrigo sigiloso para mulher em risco de morte",
+          "description": "O Espaço Emanuelle Rendeiro Diniz oferece acolhimento temporário e sigiloso para mulheres sob ameaça de morte e acompanhantes também ameaçados.\nO endereço não é publicado por segurança. A entrada depende de avaliação e encaminhamento pela rede de proteção, como polícia, Justiça e serviços especializados. Use 180 ou 190 para orientação.\nServiço municipal de acolhimento protegido",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "O Espaço Emanuelle Rendeiro Diniz oferece acolhimento temporário e sigiloso para mulheres sob ameaça de morte e acompanhantes também ameaçados."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "O endereço não é publicado por segurança. A entrada depende de avaliação e encaminhamento pela rede de proteção, como polícia, Justiça e serviços especializados. Use 180 ou 190 para orientação."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Serviço municipal de acolhimento protegido",
-                  "href": "https://prefeitura.belem.pa.gov.br/servicos/espaco-de-acolhimento-emanuelle-rendeiro-diniz/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://prefeitura.belem.pa.gov.br/servicos/espaco-de-acolhimento-emanuelle-rendeiro-diniz/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "crianca-ou-adolescente-em-risco",
-          "name": "Criança ou adolescente em risco",
+          "title": "Criança ou adolescente em risco",
+          "description": "Disque Direitos Humanos: 100; Polícia: 190 em perigo imediato.\nPara criança sozinha, exploração, violência, abandono ou desaparecimento, informe local, descrição e risco. Não publique foto ou nome nas redes sem orientação da autoridade.\nDisque 100",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Disque Direitos Humanos:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "100",
-                  "href": "tel:100"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "Polícia:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "190",
-                  "href": "tel:190"
-                },
-                {
-                  "text": " em perigo imediato."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Para criança sozinha, exploração, violência, abandono ou desaparecimento, informe local, descrição e risco. Não publique foto ou nome nas redes sem orientação da autoridade."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Disque 100",
-                  "href": "https://www.gov.br/mdh/pt-br/ondh/disque100"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "100",
+          "website": "https://www.gov.br/mdh/pt-br/ondh/disque100",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
-      "id": "specialized",
-      "title": "12. Pessoas LGBTQIAPN+, com deficiência, idosas, indígenas e migrantes",
-      "items": [
+      "id": "specialist-support",
+      "title": "Pessoas LGBTQIAPN+, com deficiência, idosas, indígenas e migrantes",
+      "entries": [
         {
-          "type": "resource",
           "id": "protocolo-municipal-lgbtqiapn",
-          "name": "Protocolo municipal LGBTQIAPN+",
+          "title": "Protocolo municipal LGBTQIAPN+",
+          "description": "A Prefeitura lançou em julho de 2026 um protocolo de proteção para pessoas LGBTQIAPN+ adultas em vulnerabilidade extrema, com acesso espontâneo ou por encaminhamento e apoio social, psicológico e jurídico.\nA notícia informava que a casa específica ainda seria concluída. Confirme a situação atual, entrada e vagas com SEMCAD no (91) 98800-1014 ou Funpapa no (91) 98431-4738.\nProtocolo municipal LGBTQIAPN+",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "A Prefeitura lançou em julho de 2026 um protocolo de proteção para pessoas LGBTQIAPN+ adultas em vulnerabilidade extrema, com acesso espontâneo ou por encaminhamento e apoio social, psicológico e jurídico."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "A notícia informava que a casa específica ainda seria concluída. Confirme a situação atual, entrada e vagas com SEMCAD no "
-                },
-                {
-                  "text": "(91) 98800-1014",
-                  "href": "tel:+5591988001014"
-                },
-                {
-                  "text": " ou Funpapa no "
-                },
-                {
-                  "text": "(91) 98431-4738",
-                  "href": "tel:+5591984314738"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Protocolo municipal LGBTQIAPN+",
-                  "href": "https://agencia.belem.pa.gov.br/prefeitura-lanca-protocolo-de-protecao-para-a-populacao-lgbtqiapn/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+5591988001014",
+          "website": "https://agencia.belem.pa.gov.br/prefeitura-lanca-protocolo-de-protecao-para-a-populacao-lgbtqiapn/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "centro-dia-para-pessoas-com-deficiencia",
-          "name": "Centro Dia para pessoas com deficiência",
+          "title": "Centro Dia para pessoas com deficiência",
+          "description": "Horário publicado: segunda a sexta, 8h–17h.\nAtendimento de pessoas com deficiência e suas famílias. Não é abrigo noturno. Peça ao Centro POP ajuda para acessibilidade, transporte, documentação e encaminhamento.\nCentro Dia na rede municipal · serviço da Funpapa — https://prefeitura.belem.pa.gov.br/secretarias/funpapa-fundacao-papa-joao-xxiii/",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Endereço:",
-                  "strong": true
-                },
-                {
-                  "text": " Travessa 9 de Janeiro, 1692"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Horário publicado:",
-                  "strong": true
-                },
-                {
-                  "text": " segunda a sexta, 8h–17h."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Atendimento de pessoas com deficiência e suas famílias. Não é abrigo noturno. Peça ao Centro POP ajuda para acessibilidade, transporte, documentação e encaminhamento."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Centro Dia na rede municipal",
-                  "href": "https://agencia.belem.pa.gov.br/prefeitura-de-belem-combate-a-inseguranca-alimentar/"
-                },
-                {
-                  "text": " · "
-                },
-                {
-                  "text": "serviço da Funpapa",
-                  "href": "https://prefeitura.belem.pa.gov.br/secretarias/funpapa-fundacao-papa-joao-xxiii/"
-                }
-              ]
-            }
-          ]
+          "address": "Endereço: Travessa 9 de Janeiro, 1692",
+          "phone": "",
+          "website": "https://agencia.belem.pa.gov.br/prefeitura-de-belem-combate-a-inseguranca-alimentar/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "pessoas-idosas-ou-com-mobilidade-reduzida",
-          "name": "Pessoas idosas ou com mobilidade reduzida",
+          "title": "Pessoas idosas ou com mobilidade reduzida",
+          "description": "Informe idade, doenças, medicação, necessidade de cadeira, acompanhante e dificuldade de locomoção ao Centro POP ou Funpapa. O Espaço Acolher declara prioridade para pessoas idosas e com deficiência, mas ainda depende de vaga.\nEm queda, falta de ar, confusão súbita ou outra emergência, 192.\nPrioridades no Espaço Acolher",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Informe idade, doenças, medicação, necessidade de cadeira, acompanhante e dificuldade de locomoção ao Centro POP ou Funpapa. O Espaço Acolher declara prioridade para pessoas idosas e com deficiência, mas ainda depende de vaga."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Em queda, falta de ar, confusão súbita ou outra emergência, 192."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Prioridades no Espaço Acolher",
-                  "href": "https://agencia.belem.pa.gov.br/belem-ganha-espaco-para-acolher-pessoas-em-situacao-de-rua/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://agencia.belem.pa.gov.br/belem-ganha-espaco-para-acolher-pessoas-em-situacao-de-rua/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "acolhimento-indigena-warao",
-          "name": "Acolhimento indígena Warao",
+          "title": "Acolhimento indígena Warao",
+          "description": "Espaço temporário especializado para famílias indígenas Warao acompanhadas pela rede. Não é abrigo geral para qualquer migrante.\nPeça acesso e orientação pela Funpapa ou SEMCAD. Não vá diretamente sem confirmação, especialmente com família e bagagem.\nNovo espaço para famílias Warao",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Localização publicada:",
-                  "strong": true
-                },
-                {
-                  "text": " Estrada Velha do Outeiro, Maracacuera"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Espaço temporário especializado para famílias indígenas Warao acompanhadas pela rede. Não é abrigo geral para qualquer migrante."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Peça acesso e orientação pela Funpapa ou SEMCAD. Não vá diretamente sem confirmação, especialmente com família e bagagem."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Novo espaço para famílias Warao",
-                  "href": "https://agencia.belem.pa.gov.br/novo-espaco-garante-dignidade-a-familias-warao-em-belem/"
-                }
-              ]
-            }
-          ]
+          "address": "Localização publicada: Estrada Velha do Outeiro, Maracacuera",
+          "phone": "",
+          "website": "https://agencia.belem.pa.gov.br/novo-espaco-garante-dignidade-a-familias-warao-em-belem/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "refugiados-e-migrantes",
-          "name": "Refugiados e migrantes",
+          "title": "Refugiados e migrantes",
+          "description": "Use a plataforma HELP do ACNUR para informações sobre documentação, proteção e serviços. O escritório não garante abrigo ou dinheiro.\nPara necessidade local imediata, peça ao Centro POP, SEMCAD ou Funpapa encaminhamento para alimentação, saúde e acolhimento.\nACNUR Brasil — contato e plataforma HELP",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Presença do ACNUR:",
-                  "strong": true
-                },
-                {
-                  "text": " Avenida Nazaré, 871, Nazaré"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Use a plataforma HELP do ACNUR para informações sobre documentação, proteção e serviços. O escritório não garante abrigo ou dinheiro."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Para necessidade local imediata, peça ao Centro POP, SEMCAD ou Funpapa encaminhamento para alimentação, saúde e acolhimento."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "ACNUR Brasil — contato e plataforma HELP",
-                  "href": "https://www.acnur.org/br/fale-conosco"
-                }
-              ]
-            }
-          ]
+          "address": "Presença do ACNUR: Avenida Nazaré, 871, Nazaré",
+          "phone": "",
+          "website": "https://www.acnur.org/br/fale-conosco",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
-      "id": "transport",
-      "title": "13. Internet, transporte e deslocamento",
-      "items": [
-        {
-          "type": "resource",
-          "id": "internet-e-computadores-gratuitos",
-          "name": "Internet e computadores gratuitos",
-          "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Use a Biblioteca Arthur Vianna, Avenida Gentil Bittencourt, 650, ou a Biblioteca Avertano Rocha, Rua Siqueira Mendes, Icoaraci. Confirme horários, cadastro, computadores, impressão e tomada."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Não deixe telefone carregando sem supervisão. Evite inserir senha bancária em computador público; termine a sessão e apague arquivos baixados."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Biblioteca Arthur Vianna",
-                  "href": "https://www.fcp.pa.gov.br/cursos-e-oficinas/11/biblioteca-publica-arthur-vianna/"
-                },
-                {
-                  "text": " · "
-                },
-                {
-                  "text": "Biblioteca Avertano Rocha",
-                  "href": "https://agencia.belem.pa.gov.br/apos-revitalizacao-nova-biblioteca-avertano-rocha-amplia-acesso/"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "passe-facil-gratuidades-especificas",
-          "name": "Passe Fácil — gratuidades específicas",
-          "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "O sistema municipal prevê gratuidade para categorias como pessoa idosa e Passe Especial, conforme idade, deficiência e documentos. A situação de rua, por si só, não garante passagem gratuita."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Peça ao Centro POP ajuda para verificar elegibilidade, documentos e posto atual. Não compre cartão de terceiro e não entregue senha."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Integra Belém e Passe Fácil",
-                  "href": "https://seguranca.belem.pa.gov.br/integra-belem/"
-                },
-                {
-                  "text": " · "
-                },
-                {
-                  "text": "locais atuais de atendimento",
-                  "href": "https://seguranca.belem.pa.gov.br/servicos-online/locais-de-atendimento/"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "antes-de-aceitar-um-encaminhamento-distante",
-          "name": "Antes de aceitar um encaminhamento distante",
-          "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Pergunte endereço completo, bairro, ponto de referência, horário-limite, ônibus e quem receberá. Confirme se o serviço realmente espera você e se há ajuda com transporte."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Não use todo o dinheiro numa viagem baseada apenas em promessa verbal. Peça telefone e plano alternativo."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Funpapa — orientação",
-                  "href": "https://prefeitura.belem.pa.gov.br/secretarias/funpapa-fundacao-papa-joao-xxiii/"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "weather",
-      "title": "14. Calor, chuva e alagamento",
-      "items": [
-        {
-          "type": "resource",
-          "id": "calor-extremo",
-          "name": "Calor extremo",
-          "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Procure sombra e local ventilado, beba água em pequenas quantidades e evite esforço entre 10h e 16h quando possível. Confusão, desmaio, convulsão, pele muito quente ou dificuldade para respirar exigem 192."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Centro POP e bibliotecas podem oferecer espaço coberto durante o horário, mas confirme a entrada. Não dependa de uma fonte pública de água sem saber se é potável."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Orientações municipais sobre calor extremo",
-                  "href": "https://agencia.belem.pa.gov.br/calor-extremo-coloca-belem-em-alerta-maximo-para-o-el-nino/"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "chuva-forte-alagamento-ou-risco-de-desabamento",
-          "name": "Chuva forte, alagamento ou risco de desabamento",
-          "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Defesa Civil municipal:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(91) 98439-0646",
-                  "href": "tel:+5591984390646"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "Bombeiros:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "193",
-                  "href": "tel:193"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "SAMU:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "192",
-                  "href": "tel:192"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Vá para terreno alto e local com pessoas. Não atravesse água corrente, não toque em fiação e não durma perto de muro, barranco ou árvore instável. Peça ao Centro POP ou Funpapa o ponto emergencial atual."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Defesa Civil — risco de desabamento",
-                  "href": "https://prefeitura.belem.pa.gov.br/servicos/risco-de-desabamento/"
-                },
-                {
-                  "text": " · "
-                },
-                {
-                  "text": "emergência por chuva em Belém",
-                  "href": "https://agencia.belem.pa.gov.br/prefeitura-decreta-emergencia-apos-chuva-recorde-em-belem/"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "alertas-meteorologicos",
-          "name": "Alertas meteorológicos",
-          "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Consulte avisos do INMET em telefone ou computador de biblioteca. Um alerta não informa automaticamente qual abrigo está aberto; confirme com Funpapa, Centro POP ou Defesa Civil."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "INMET — avisos meteorológicos",
-                  "href": "https://avisos.inmet.gov.br/"
-                }
-              ]
-            }
-          ]
-        }
-      ]
+      "id": "veterans",
+      "title": "Veterans support",
+      "entries": []
     },
     {
       "id": "pets",
-      "title": "15. Animais",
-      "items": [
+      "title": "Animais",
+      "entries": [
         {
-          "type": "resource",
           "id": "antes-de-aceitar-acolhimento-com-animal",
-          "name": "Antes de aceitar acolhimento com animal",
+          "title": "Antes de aceitar acolhimento com animal",
+          "description": "Informe que está com animal antes de aceitar qualquer encaminhamento. Pergunte se pode ficar junto, se exigem caixa, guia ou vacina e qual alternativa segura existe.\nNão abandone o animal por promessa verbal. Nenhum abrigo desta página publica garantia geral de aceitar animais.\nSecretaria de Proteção e Defesa Animal",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Informe que está com animal antes de aceitar qualquer encaminhamento. Pergunte se pode ficar junto, se exigem caixa, guia ou vacina e qual alternativa segura existe."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Não abandone o animal por promessa verbal. Nenhum abrigo desta página publica garantia geral de aceitar animais."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Secretaria de Proteção e Defesa Animal",
-                  "href": "https://prefeitura.belem.pa.gov.br/secretarias/sepda-secretaria-municipal-de-protecao-e-defesa-animal/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://prefeitura.belem.pa.gov.br/secretarias/sepda-secretaria-municipal-de-protecao-e-defesa-animal/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "hospital-veterinario-municipal-dr-vahia",
-          "name": "Hospital Veterinário Municipal Dr. Vahia",
+          "title": "Hospital Veterinário Municipal Dr. Vahia",
+          "description": "Telefone publicado: (91) 99286-7737; atendimento divulgado: diariamente a partir de 7h, com horários diferentes para rotina e urgência.\nVoltado a moradores de Belém com critérios de baixa renda e cadastro prévio. São pedidos documentos e comprovação ou declaração de residência. Se estiver sem endereço, peça ao Centro POP ou assistente social orientação sobre declaração.\nAtendimento e procedimento dependem de triagem, vaga e critérios. Ligue antes.\nHospital Veterinário — funcionamento · critérios do atendimento veterinário — https://prefeitura.belem.pa.gov.br/servicos/atendimento-veterinario/",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Endereço:",
-                  "strong": true
-                },
-                {
-                  "text": " Avenida José Bonifácio, 578"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefone publicado:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(91) 99286-7737",
-                  "href": "tel:+5591992867737"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "atendimento divulgado:",
-                  "strong": true
-                },
-                {
-                  "text": " diariamente a partir de 7h, com horários diferentes para rotina e urgência."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Voltado a moradores de Belém com critérios de baixa renda e cadastro prévio. São pedidos documentos e comprovação ou declaração de residência. Se estiver sem endereço, peça ao Centro POP ou assistente social orientação sobre declaração."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Atendimento e procedimento dependem de triagem, vaga e critérios. Ligue antes."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Hospital Veterinário — funcionamento",
-                  "href": "https://agencia.belem.pa.gov.br/hospital-veterinario-rede-integrada-vai-atender-ate-650-pets-por-dia/"
-                },
-                {
-                  "text": " · "
-                },
-                {
-                  "text": "critérios do atendimento veterinário",
-                  "href": "https://prefeitura.belem.pa.gov.br/servicos/atendimento-veterinario/"
-                }
-              ]
-            }
-          ]
+          "address": "Endereço: Avenida José Bonifácio, 578",
+          "phone": "+5591992867737",
+          "website": "https://agencia.belem.pa.gov.br/hospital-veterinario-rede-integrada-vai-atender-ate-650-pets-por-dia/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "clinica-veterinaria-municipal",
-          "name": "Clínica Veterinária Municipal",
+          "title": "Clínica Veterinária Municipal",
+          "description": "Agendamento publicado: (91) 99334-3367; horário divulgado: segunda a sexta, 8h–18h.\nConsultas e procedimentos para moradores que atendam aos critérios. Confirme cadastro, documentos, horário e se o caso precisa do hospital.\nClínica Veterinária — serviços",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Endereço:",
-                  "strong": true
-                },
-                {
-                  "text": " Avenida Marquês de Herval, 276"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Agendamento publicado:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(91) 99334-3367",
-                  "href": "tel:+5591993343367"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "horário divulgado:",
-                  "strong": true
-                },
-                {
-                  "text": " segunda a sexta, 8h–18h."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Consultas e procedimentos para moradores que atendam aos critérios. Confirme cadastro, documentos, horário e se o caso precisa do hospital."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Clínica Veterinária — serviços",
-                  "href": "https://agencia.belem.pa.gov.br/conheca-os-servicos-da-nova-clinica-veterinaria-municipal-de-belem/"
-                }
-              ]
-            }
-          ]
+          "address": "Endereço: Avenida Marquês de Herval, 276",
+          "phone": "+5591993343367",
+          "website": "https://agencia.belem.pa.gov.br/conheca-os-servicos-da-nova-clinica-veterinaria-municipal-de-belem/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "secretaria-de-protecao-e-defesa-animal",
-          "name": "Secretaria de Proteção e Defesa Animal",
+          "title": "Secretaria de Proteção e Defesa Animal",
+          "description": "Telefone: (91) 99334-3367; horário publicado: 8h–17h.\nOrienta sobre atendimento, proteção e denúncias. Para maus-tratos, use também 181. Em risco imediato para pessoas, 190.\nSEPDA — contato atual",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Endereço:",
-                  "strong": true
-                },
-                {
-                  "text": " Avenida Bernardo Sayão, 3224, Condor"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefone:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(91) 99334-3367",
-                  "href": "tel:+5591993343367"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "horário publicado:",
-                  "strong": true
-                },
-                {
-                  "text": " 8h–17h."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Orienta sobre atendimento, proteção e denúncias. Para maus-tratos, use também "
-                },
-                {
-                  "text": "181",
-                  "href": "tel:181"
-                },
-                {
-                  "text": ". Em risco imediato para pessoas, 190."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "SEPDA — contato atual",
-                  "href": "https://prefeitura.belem.pa.gov.br/secretarias/sepda-secretaria-municipal-de-protecao-e-defesa-animal/"
-                }
-              ]
-            }
-          ]
+          "address": "Endereço: Avenida Bernardo Sayão, 3224, Condor",
+          "phone": "+5591993343367",
+          "website": "https://prefeitura.belem.pa.gov.br/secretarias/sepda-secretaria-municipal-de-protecao-e-defesa-animal/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "animal-comunitario",
-          "name": "Animal comunitário",
+          "title": "Animal comunitário",
+          "description": "O projeto municipal trabalha com cães e gatos sem tutor por captura, castração e retorno ao local. Não é hospedagem de emergência para animal de uma pessoa acolhida.\nCentro de Controle de Zoonoses: (91) 3344-2350. Explique a situação e confirme o serviço aplicável.\nProjeto Animal Comunitário",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "O projeto municipal trabalha com cães e gatos sem tutor por captura, castração e retorno ao local. Não é hospedagem de emergência para animal de uma pessoa acolhida."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Centro de Controle de Zoonoses:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "(91) 3344-2350",
-                  "href": "tel:+559133442350"
-                },
-                {
-                  "text": ". Explique a situação e confirme o serviço aplicável."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Projeto Animal Comunitário",
-                  "href": "https://prefeitura.belem.pa.gov.br/servicos/projeto-animal-comunitario/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+559133442350",
+          "website": "https://prefeitura.belem.pa.gov.br/servicos/projeto-animal-comunitario/",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
-      "id": "plano-pratico-para-as-proximas-24-horas",
-      "title": "Plano prático para as próximas 24 horas",
-      "items": [
-        {
-          "type": "ordered-list",
-          "items": [
-            [
-              {
-                "text": "Escolha o Centro POP mais próximo e chegue dentro do horário publicado."
-              }
-            ],
-            [
-              {
-                "text": "Peça primeiro alimentação, higiene, saúde urgente e um lugar seguro para a noite."
-              }
-            ],
-            [
-              {
-                "text": "Depois peça documentos, CadÚnico, trabalho e acompanhamento. Anote nomes, horários e protocolos."
-              }
-            ],
-            [
-              {
-                "text": "Se uma porta estiver fechada, peça uma alternativa concreta antes de sair. Em risco imediato, use 190, 192 ou 193."
-              }
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "id": "verificacao-e-correcoes",
+      "id": "other",
       "title": "Verificação e correções",
-      "items": [
+      "entries": [
         {
-          "type": "paragraph",
-          "content": [
-            {
-              "text": "Esta página usa fontes governamentais, decisões públicas e páginas oficiais das organizações. Informações antigas ou sem agenda atual são identificadas e pedem confirmação."
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "content": [
-            {
-              "text": "Encontrou serviço fechado, telefone errado ou nova ajuda? "
-            },
-            {
-              "text": "Veja como contribuir",
-              "href": "../../CONTRIBUTING.md"
-            },
-            {
-              "text": " ou "
-            },
-            {
-              "text": "envie uma correção no GitHub",
-              "href": "https://github.com/carlosbranco/no-home-help"
-            },
-            {
-              "text": "."
-            }
-          ]
+          "id": "verificacao-e-correcoes-information",
+          "title": "Verificação e correções",
+          "description": "Esta página usa fontes governamentais, decisões públicas e páginas oficiais das organizações. Informações antigas ou sem agenda atual são identificadas e pedem confirmação.\nEncontrou serviço fechado, telefone errado ou nova ajuda? Veja como contribuir ou envie uma correção no GitHub. — ../../CONTRIBUTING.md",
+          "last_verified": "2026-11-12",
+          "address": "",
+          "phone": "",
+          "website": "https://github.com/carlosbranco/no-home-help",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     }

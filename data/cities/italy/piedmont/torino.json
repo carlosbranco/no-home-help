@@ -1,6 +1,7 @@
 {
   "$schema": "https://nohomehelp.com/schemas/city.schema.json",
-  "schema_version": 1,
+  "documentation": "https://github.com/carlosbranco/no-home-help/blob/main/EDIT_CITY_JSON.md",
+  "schema_version": 2,
   "status": "published",
   "locale": {
     "language": "it",
@@ -26,4051 +27,1091 @@
   "page": {
     "heading": "Torino — aiuto per persone senza dimora",
     "last_verified": "2026-11-12",
-    "urgent": [
-      {
-        "type": "paragraph",
-        "content": [
-          {
-            "text": "Emergenza immediata:",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "112",
-            "href": "tel:112"
-          },
-          {
-            "break": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "Letto, doccia, pasto e orientamento:",
-            "strong": true
-          },
-          {
-            "text": " Homeless Torino, via Sacchi 47"
-          },
-          {
-            "break": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "Servizio Adulti in Difficoltà:",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "011 011 31510",
-            "href": "tel:+3901101131510"
-          },
-          {
-            "break": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "Cure non urgenti:",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "116117",
-            "href": "tel:116117"
-          },
-          {
-            "break": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "Violenza e stalking:",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "1522",
-            "href": "tel:1522"
-          },
-          {
-            "text": "; "
-          },
-          {
-            "text": "minore in pericolo:",
-            "strong": true
-          },
-          {
-            "text": " "
-          },
-          {
-            "text": "114",
-            "href": "tel:114"
-          }
-        ]
-      }
-    ],
-    "notice": [
-      {
-        "text": "Posti, turni, documenti e criteri possono cambiare.",
-        "strong": true
-      },
-      {
-        "text": " Telefona prima di spostarti, quando possibile. Nessuna voce garantisce un letto, un pasto, una visita, un contributo o un lavoro nella stessa giornata."
-      }
-    ],
-    "intro": [
-      {
-        "type": "paragraph",
-        "content": [
-          {
-            "text": "Se non hai un posto sicuro per stanotte, vai prima a Homeless Torino in via Sacchi 47: è il punto comunale che verifica i posti disponibili e indirizza ai servizi adatti. Comunica subito se ci sono minori, gravidanza, disabilità, problemi di salute, violenza o animali. Presentarsi direttamente a un dormitorio non garantisce l'ingresso."
-          }
-        ]
-      }
-    ],
-    "footer": [
-      {
-        "type": "paragraph",
-        "content": [
-          {
-            "text": "No Home Help non è un servizio di emergenza e non sostituisce operatori sociali, sanitari o legali."
-          }
-        ]
-      }
-    ]
+    "urgent": "Emergenza immediata: 112 Letto, doccia, pasto e orientamento: Homeless Torino, via Sacchi 47 Servizio Adulti in Difficoltà: 011 011 31510 Cure non urgenti: 116117 Violenza e stalking: 1522; minore in pericolo: 114",
+    "notice": "Posti, turni, documenti e criteri possono cambiare. Telefona prima di spostarti, quando possibile. Nessuna voce garantisce un letto, un pasto, una visita, un contributo o un lavoro nella stessa giornata.",
+    "intro": "Se non hai un posto sicuro per stanotte, vai prima a Homeless Torino in via Sacchi 47: è il punto comunale che verifica i posti disponibili e indirizza ai servizi adatti. Comunica subito se ci sono minori, gravidanza, disabilità, problemi di salute, violenza o animali. Presentarsi direttamente a un dormitorio non garantisce l'ingresso.",
+    "footer": "No Home Help non è un servizio di emergenza e non sostituisce operatori sociali, sanitari o legali."
   },
   "categories": [
     {
-      "id": "emergenze",
-      "title": "1. Emergenze e primo accesso",
-      "items": [
+      "id": "emergency",
+      "title": "Emergenze e primo accesso",
+      "entries": [
         {
-          "type": "resource",
           "id": "112-emergenza-immediata",
-          "name": "112 — emergenza immediata",
+          "title": "112 — emergenza immediata",
+          "description": "Numero gratuito: 112, 24 ore su 24.\nChiama per pericolo di vita, violenza in corso, grave malore, overdose, incendio o persona incosciente. Indica posizione esatta e condizioni della persona.\nProtezione Civile Torino — numeri di emergenza",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Numero gratuito:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "112",
-                  "href": "tel:112"
-                },
-                {
-                  "text": ", 24 ore su 24."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Chiama per pericolo di vita, violenza in corso, grave malore, overdose, incendio o persona incosciente. Indica posizione esatta e condizioni della persona."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Protezione Civile Torino — numeri di emergenza",
-                  "href": "https://protezionecivile.comune.torino.it/numeri-utili/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "112",
+          "website": "https://protezionecivile.comune.torino.it/numeri-utili/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "homeless-torino-porta-unica-dei-servizi",
-          "name": "Homeless Torino — porta unica dei servizi",
+          "title": "Homeless Torino — porta unica dei servizi",
+          "description": "Accesso pubblicato: lunedì–venerdì 09:00–13:00 e 14:00–16:00; sabato 10:00–13:00 e 14:00–16:00.\nSportello ad accesso libero per orientamento, colloquio sociale, accoglienza notturna, docce, mense, salute, residenza virtuale, fermo posta e altri servizi. I posti letto dipendono da disponibilità e valutazione.\nCittà di Torino — dormitori, mense e accesso unificato",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Indirizzo:",
-                  "strong": true
-                },
-                {
-                  "text": " via Sacchi 47, Torino, vicino a Porta Nuova"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Accesso pubblicato:",
-                  "strong": true
-                },
-                {
-                  "text": " lunedì–venerdì 09:00–13:00 e 14:00–16:00; sabato 10:00–13:00 e 14:00–16:00."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Sportello ad accesso libero per orientamento, colloquio sociale, accoglienza notturna, docce, mense, salute, residenza virtuale, fermo posta e altri servizi. I posti letto dipendono da disponibilità e valutazione."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Città di Torino — dormitori, mense e accesso unificato",
-                  "href": "https://www.torinogiovani.it/vivere-a-torino/dormitori-a-torino"
-                }
-              ]
-            }
-          ]
+          "address": "Indirizzo: via Sacchi 47, Torino, vicino a Porta Nuova",
+          "phone": "",
+          "website": "https://www.torinogiovani.it/vivere-a-torino/dormitori-a-torino",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "servizio-adulti-in-difficolta",
-          "name": "Servizio Adulti in Difficoltà",
+          "title": "Servizio Adulti in Difficoltà",
+          "description": "Telefono: 011 011 31510; email: adulti@comune.torino.it. — mailto:adulti@comune.torino.it\nServizio sociale specializzato per adulti senza dimora. L'accesso pubblicato per informazioni e persone non ancora in carico è martedì e venerdì 09:30–12:30; telefona prima.\nCittà di Torino — servizi per adulti senza dimora",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Indirizzo:",
-                  "strong": true
-                },
-                {
-                  "text": " via Bruino 4, 10138 Torino"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "011 011 31510",
-                  "href": "tel:+3901101131510"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "email:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "adulti@comune.torino.it",
-                  "href": "mailto:adulti@comune.torino.it"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Servizio sociale specializzato per adulti senza dimora. L'accesso pubblicato per informazioni e persone non ancora in carico è martedì e venerdì 09:30–12:30; telefona prima."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Città di Torino — servizi per adulti senza dimora",
-                  "href": "https://www.comune.torino.it/servizi/servizi-abitativi-per-cittadini-senza-dimora"
-                }
-              ]
-            }
-          ]
+          "address": "Indirizzo: via Bruino 4, 10138 Torino",
+          "phone": "+3901101131510",
+          "website": "https://www.comune.torino.it/servizi/servizi-abitativi-per-cittadini-senza-dimora",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "pronto-intervento-sociale-prins",
-          "name": "Pronto Intervento Sociale — PRINS",
+          "title": "Pronto Intervento Sociale — PRINS",
+          "description": "Interviene 24 ore su 24 nelle emergenze sociali gravi, comprese persone senza dimora, minori, vittime di violenza, anziani e persone con disabilità. L'attivazione avviene normalmente tramite servizi sociali, Forze dell'Ordine o aziende sanitarie.\nSe la situazione è immediata e non sai chi contattare, chiama 112 e descrivi anche il bisogno sociale.\nCittà di Torino — Pronto Intervento Sociale",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Interviene 24 ore su 24 nelle emergenze sociali gravi, comprese persone senza dimora, minori, vittime di violenza, anziani e persone con disabilità. L'attivazione avviene normalmente tramite servizi sociali, Forze dell'Ordine o aziende sanitarie."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Se la situazione è immediata e non sai chi contattare, chiama 112 e descrivi anche il bisogno sociale."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Città di Torino — Pronto Intervento Sociale",
-                  "href": "https://www.comune.torino.it/amministrazione/pronto-intervento-sociale"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.comune.torino.it/amministrazione/pronto-intervento-sociale",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "freddo-o-caldo-estremo",
-          "name": "Freddo o caldo estremo",
+          "title": "Freddo o caldo estremo",
+          "description": "I posti stagionali cambiano. Chiedi a Homeless Torino cosa è attivo quel giorno. Le unità di strada diurne e la Boa Urbana Mobile notturna incontrano persone in strada e le indirizzano in base alla fragilità e ai posti.\nSe una persona è confusa, incosciente, respira male o non risponde, chiama subito 112.\nCittà di Torino — rete invernale",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "I posti stagionali cambiano. Chiedi a Homeless Torino cosa è attivo quel giorno. Le unità di strada diurne e la Boa Urbana Mobile notturna incontrano persone in strada e le indirizzano in base alla fragilità e ai posti."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Se una persona è confusa, incosciente, respira male o non risponde, chiama subito 112."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Città di Torino — rete invernale",
-                  "href": "https://www.comune.torino.it/novita/comunicati/piano-accoglienza-invernale-20252026-della-citta-torino"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.comune.torino.it/novita/comunicati/piano-accoglienza-invernale-20252026-della-citta-torino",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
-      "id": "accoglienza",
-      "title": "2. Accoglienza e aiuto in strada",
-      "items": [
+      "id": "shelter",
+      "title": "Accoglienza e aiuto in strada",
+      "entries": [
         {
-          "type": "resource",
           "id": "case-di-ospitalita-della-citta",
-          "name": "Case di ospitalità della Città",
+          "title": "Case di ospitalità della Città",
+          "description": "La rete comunale offre accoglienza temporanea gratuita per adulti idonei e può accogliere persone insieme ai loro animali. L'accesso non è diretto: occorre un colloquio a Homeless Torino.\nPorta i documenti disponibili, ma chiedi aiuto anche se li hai persi. Segnala problemi sanitari, disabilità, gravidanza, violenza, età superiore a 65 anni o dimissione ospedaliera.\nCittà di Torino — regole di accesso",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "La rete comunale offre accoglienza temporanea gratuita per adulti idonei e può accogliere persone insieme ai loro animali. L'accesso non è diretto: occorre un colloquio a Homeless Torino."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Porta i documenti disponibili, ma chiedi aiuto anche se li hai persi. Segnala problemi sanitari, disabilità, gravidanza, violenza, età superiore a 65 anni o dimissione ospedaliera."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Città di Torino — regole di accesso",
-                  "href": "https://www.torinogiovani.it/vivere-a-torino/dormitori-a-torino"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.torinogiovani.it/vivere-a-torino/dormitori-a-torino",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "asilo-notturno-umberto-i-uomini",
-          "name": "Asilo Notturno Umberto I — uomini",
+          "title": "Asilo Notturno Umberto I — uomini",
+          "description": "Telefono: 011 696 3290.\nAccoglienza maschile associativa. La fonte comunale indica prenotazione obbligatoria, documenti regolari e chiusura in agosto. Telefona per data utile e requisiti.\nTorinoGiovani — dormitori associativi",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Indirizzo:",
-                  "strong": true
-                },
-                {
-                  "text": " via Ormea 119, Torino"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "011 696 3290",
-                  "href": "tel:+390116963290"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Accoglienza maschile associativa. La fonte comunale indica prenotazione obbligatoria, documenti regolari e chiusura in agosto. Telefona per data utile e requisiti."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "TorinoGiovani — dormitori associativi",
-                  "href": "https://www.torinogiovani.it/vivere-a-torino/dormitori-a-torino"
-                }
-              ]
-            }
-          ]
+          "address": "Indirizzo: via Ormea 119, Torino",
+          "phone": "+390116963290",
+          "website": "https://www.torinogiovani.it/vivere-a-torino/dormitori-a-torino",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "sermig-pronta-accoglienza-e-comunita",
-          "name": "Sermig — pronta accoglienza e comunità",
+          "title": "Sermig — pronta accoglienza e comunità",
+          "description": "Telefono: 011 436 8566.\nPer uomini maggiorenni esiste pronta accoglienza con cena, colazione e doccia; per donne una comunità residenziale. Le procedure richiedono colloquio o appuntamento: chiama prima.\nCittà di Torino — servizi Sermig",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Sede:",
-                  "strong": true
-                },
-                {
-                  "text": " Arsenale della Pace, piazza Borgo Dora 61; accesso indicato in via Andreis 18/44A"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "011 436 8566",
-                  "href": "tel:+390114368566"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Per uomini maggiorenni esiste pronta accoglienza con cena, colazione e doccia; per donne una comunità residenziale. Le procedure richiedono colloquio o appuntamento: chiama prima."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Città di Torino — servizi Sermig",
-                  "href": "https://www.torinogiovani.it/vivere-a-torino/dormitori-a-torino"
-                }
-              ]
-            }
-          ]
+          "address": "Sede: Arsenale della Pace, piazza Borgo Dora 61; accesso indicato in via Andreis 18/44A",
+          "phone": "+390114368566",
+          "website": "https://www.torinogiovani.it/vivere-a-torino/dormitori-a-torino",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "bartolomeo-and-c-accoglienza-maschile",
-          "name": "Bartolomeo & C. — accoglienza maschile",
+          "title": "Bartolomeo & C. — accoglienza maschile",
+          "description": "Telefono: 011 534 854.\nLa sede effettua colloqui e decide gli inserimenti nei propri posti. Presentati solo negli orari confermati o telefona prima; il colloquio non assicura un letto.\nTorinoGiovani — Bartolomeo & C.",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Indirizzo:",
-                  "strong": true
-                },
-                {
-                  "text": " via Camerana 10/A, Torino"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "011 534 854",
-                  "href": "tel:+39011534854"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "La sede effettua colloqui e decide gli inserimenti nei propri posti. Presentati solo negli orari confermati o telefona prima; il colloquio non assicura un letto."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "TorinoGiovani — Bartolomeo & C.",
-                  "href": "https://www.torinogiovani.it/vivere-a-torino/dormitori-a-torino"
-                }
-              ]
-            }
-          ]
+          "address": "Indirizzo: via Camerana 10/A, Torino",
+          "phone": "+39011534854",
+          "website": "https://www.torinogiovani.it/vivere-a-torino/dormitori-a-torino",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "i-tralci-parrocchia-san-luca-uomini",
-          "name": "I Tralci — Parrocchia San Luca, uomini",
+          "title": "I Tralci — Parrocchia San Luca, uomini",
+          "description": "Telefono: 011 347 1300.\nAccoglienza maschile con contributo pubblicato per cena e pernottamento. È richiesto un documento valido. Telefona per costo, orario e disponibilità aggiornati.\nCittà di Torino — I Tralci",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Indirizzo:",
-                  "strong": true
-                },
-                {
-                  "text": " via Celeste Negarville 14, Torino"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "011 347 1300",
-                  "href": "tel:+390113471300"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Accoglienza maschile con contributo pubblicato per cena e pernottamento. È richiesto un documento valido. Telefona per costo, orario e disponibilità aggiornati."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Città di Torino — I Tralci",
-                  "href": "https://www.torinogiovani.it/vivere-a-torino/dormitori-a-torino"
-                }
-              ]
-            }
-          ]
+          "address": "Indirizzo: via Celeste Negarville 14, Torino",
+          "phone": "+390113471300",
+          "website": "https://www.torinogiovani.it/vivere-a-torino/dormitori-a-torino",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "croce-rossa-emergenza-freddo",
-          "name": "Croce Rossa — emergenza freddo",
+          "title": "Croce Rossa — emergenza freddo",
+          "description": "Struttura stagionale per uomini e donne. Non presumere che sia aperta o che ci siano posti: verifica lo stesso giorno con Homeless Torino.\nTorinoGiovani — accoglienza invernale",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Indirizzo pubblicato:",
-                  "strong": true
-                },
-                {
-                  "text": " via Traves 7, Torino"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Struttura stagionale per uomini e donne. Non presumere che sia aperta o che ci siano posti: verifica lo stesso giorno con Homeless Torino."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "TorinoGiovani — accoglienza invernale",
-                  "href": "https://www.torinogiovani.it/vivere-a-torino/dormitori-a-torino"
-                }
-              ]
-            }
-          ]
+          "address": "Indirizzo pubblicato: via Traves 7, Torino",
+          "phone": "",
+          "website": "https://www.torinogiovani.it/vivere-a-torino/dormitori-a-torino",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "residenze-e-housing-first",
-          "name": "Residenze e Housing First",
+          "title": "Residenze e Housing First",
+          "description": "La Città gestisce Residenza Marsigli per uomini, Casa Sidoli per donne, Housing First e altri alloggi temporanei. Non sono dormitori ad accesso diretto.\nL'inserimento richiede presa in carico e progetto dei servizi sociali o sanitari; alcune soluzioni richiedono residenza a Torino e soggiorno regolare.\nCittà di Torino — servizi abitativi e criteri",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "La Città gestisce Residenza Marsigli per uomini, Casa Sidoli per donne, Housing First e altri alloggi temporanei. Non sono dormitori ad accesso diretto."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "L'inserimento richiede presa in carico e progetto dei servizi sociali o sanitari; alcune soluzioni richiedono residenza a Torino e soggiorno regolare."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Città di Torino — servizi abitativi e criteri",
-                  "href": "https://www.comune.torino.it/servizi/servizi-abitativi-per-cittadini-senza-dimora"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.comune.torino.it/servizi/servizi-abitativi-per-cittadini-senza-dimora",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "se-non-c-e-posto",
-          "name": "Se non c'è posto",
+          "title": "Se non c'è posto",
+          "description": "Chiedi a Homeless Torino un'alternativa, un centro diurno o il contatto di un'unità di strada. Ripeti chiaramente se ci sono malattia, disabilità, gravidanza, minori, violenza, età avanzata o animali.\nNon pagare intermediari per ottenere un letto. Tieni con te documenti, farmaci e numeri importanti.\nCittà di Torino — rete di accoglienza",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Chiedi a Homeless Torino un'alternativa, un centro diurno o il contatto di un'unità di strada. Ripeti chiaramente se ci sono malattia, disabilità, gravidanza, minori, violenza, età avanzata o animali."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Non pagare intermediari per ottenere un letto. Tieni con te documenti, farmaci e numeri importanti."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Città di Torino — rete di accoglienza",
-                  "href": "https://www.comune.torino.it/novita/comunicati/piano-accoglienza-invernale-20252026-della-citta-torino"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.comune.torino.it/novita/comunicati/piano-accoglienza-invernale-20252026-della-citta-torino",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
-      "id": "cibo",
-      "title": "3. Cibo e aiuto religioso",
-      "items": [
+      "id": "food",
+      "title": "Cibo e aiuto religioso",
+      "entries": [
         {
-          "type": "paragraph",
-          "content": [
-            {
-              "text": "Molte mense chiedono una tessera rilasciata dall'associazione o da una parrocchia. Telefona prima, soprattutto in estate e nei festivi; un pasto non comporta automaticamente un posto letto."
-            }
-          ]
-        },
-        {
-          "type": "resource",
           "id": "mensa-sacro-cuore-di-gesu",
-          "name": "Mensa Sacro Cuore di Gesù",
+          "title": "Mensa Sacro Cuore di Gesù",
+          "description": "Molte mense chiedono una tessera rilasciata dall'associazione o da una parrocchia. Telefona prima, soprattutto in estate e nei festivi; un pasto non comporta automaticamente un posto letto.\nTelefono: 011 668 7827.\nPasti per persone indigenti e senza dimora. Chiedi come ottenere la tessera e conferma l'orario del giorno.\nCittà di Torino — mense attive",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Indirizzo:",
-                  "strong": true
-                },
-                {
-                  "text": " via Brugnone 3, Torino"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "011 668 7827",
-                  "href": "tel:+390116687827"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Pasti per persone indigenti e senza dimora. Chiedi come ottenere la tessera e conferma l'orario del giorno."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Città di Torino — mense attive",
-                  "href": "https://www.torinogiovani.it/vivere-a-torino/dormitori-a-torino"
-                }
-              ]
-            }
-          ]
+          "address": "Indirizzo: via Brugnone 3, Torino",
+          "phone": "+390116687827",
+          "website": "https://www.torinogiovani.it/vivere-a-torino/dormitori-a-torino",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "sant-alfonso-mensa-del-povero",
-          "name": "Sant'Alfonso — Mensa del Povero",
+          "title": "Sant'Alfonso — Mensa del Povero",
+          "description": "Telefono: 011 749 6457.\nPranzo nei giorni feriali indicati dalla fonte comunale. Telefona per tessera, turni e chiusure.\nTorinoGiovani — Mensa Sant'Alfonso",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Indirizzo:",
-                  "strong": true
-                },
-                {
-                  "text": " via Netro 5, Torino"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "011 749 6457",
-                  "href": "tel:+390117496457"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Pranzo nei giorni feriali indicati dalla fonte comunale. Telefona per tessera, turni e chiusure."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "TorinoGiovani — Mensa Sant'Alfonso",
-                  "href": "https://www.torinogiovani.it/vivere-a-torino/dormitori-a-torino"
-                }
-              ]
-            }
-          ]
+          "address": "Indirizzo: via Netro 5, Torino",
+          "phone": "+390117496457",
+          "website": "https://www.torinogiovani.it/vivere-a-torino/dormitori-a-torino",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "mensa-del-cottolengo",
-          "name": "Mensa del Cottolengo",
+          "title": "Mensa del Cottolengo",
+          "description": "Telefono: 011 522 5655.\nMensa religiosa per persone in difficoltà. Chiedi prima la procedura di primo accesso e l'orario aggiornato.\nCittà di Torino — Mensa del Cottolengo",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Indirizzo:",
-                  "strong": true
-                },
-                {
-                  "text": " via Andreis 26, Torino"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "011 522 5655",
-                  "href": "tel:+390115225655"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Mensa religiosa per persone in difficoltà. Chiedi prima la procedura di primo accesso e l'orario aggiornato."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Città di Torino — Mensa del Cottolengo",
-                  "href": "https://www.torinogiovani.it/vivere-a-torino/dormitori-a-torino"
-                }
-              ]
-            }
-          ]
+          "address": "Indirizzo: via Andreis 26, Torino",
+          "phone": "+390115225655",
+          "website": "https://www.torinogiovani.it/vivere-a-torino/dormitori-a-torino",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "mensa-sant-antonio-da-padova",
-          "name": "Mensa Sant'Antonio da Padova",
+          "title": "Mensa Sant'Antonio da Padova",
+          "description": "Telefono: 011 562 1917.\nPasto diurno dal lunedì al sabato secondo l'elenco comunale. Telefona per tessera e variazioni.\nTorinoGiovani — mense",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Indirizzo:",
-                  "strong": true
-                },
-                {
-                  "text": " via Sant'Antonio da Padova 7, Torino"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "011 562 1917",
-                  "href": "tel:+390115621917"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Pasto diurno dal lunedì al sabato secondo l'elenco comunale. Telefona per tessera e variazioni."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "TorinoGiovani — mense",
-                  "href": "https://www.torinogiovani.it/vivere-a-torino/dormitori-a-torino"
-                }
-              ]
-            }
-          ]
+          "address": "Indirizzo: via Sant'Antonio da Padova 7, Torino",
+          "phone": "+390115621917",
+          "website": "https://www.torinogiovani.it/vivere-a-torino/dormitori-a-torino",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "casa-santa-luisa-colazione",
-          "name": "Casa Santa Luisa — colazione",
+          "title": "Casa Santa Luisa — colazione",
+          "description": "Telefono: 011 578 0824.\nColazione per persone in difficoltà. Conferma giorni, orario e modalità di accesso.\nCittà di Torino — Casa Santa Luisa",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Indirizzo:",
-                  "strong": true
-                },
-                {
-                  "text": " via Nizza 24, Torino"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "011 578 0824",
-                  "href": "tel:+390115780824"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Colazione per persone in difficoltà. Conferma giorni, orario e modalità di accesso."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Città di Torino — Casa Santa Luisa",
-                  "href": "https://www.torinogiovani.it/vivere-a-torino/dormitori-a-torino"
-                }
-              ]
-            }
-          ]
+          "address": "Indirizzo: via Nizza 24, Torino",
+          "phone": "+390115780824",
+          "website": "https://www.torinogiovani.it/vivere-a-torino/dormitori-a-torino",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "mensa-dei-servizi-vincenziani-festivi",
-          "name": "Mensa dei Servizi Vincenziani — festivi",
+          "title": "Mensa dei Servizi Vincenziani — festivi",
+          "description": "Telefono: 011 480 433.\nPranzo nei giorni festivi secondo l'elenco cittadino. Telefona per confermare accesso e orario.\nTorinoGiovani — mense nei festivi",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Indirizzo:",
-                  "strong": true
-                },
-                {
-                  "text": " via Saccarelli 2, Torino"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "011 480 433",
-                  "href": "tel:+39011480433"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Pranzo nei giorni festivi secondo l'elenco cittadino. Telefona per confermare accesso e orario."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "TorinoGiovani — mense nei festivi",
-                  "href": "https://www.torinogiovani.it/vivere-a-torino/dormitori-a-torino"
-                }
-              ]
-            }
-          ]
+          "address": "Indirizzo: via Saccarelli 2, Torino",
+          "phone": "+39011480433",
+          "website": "https://www.torinogiovani.it/vivere-a-torino/dormitori-a-torino",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "mensa-del-povero-odv-centro-andrea",
-          "name": "Mensa del Povero ODV — Centro Andrea",
+          "title": "Mensa del Povero ODV — Centro Andrea",
+          "description": "Telefono: 011 898 9402.\nColazione domenicale secondo la pagina comunale. Verifica prima di partire.\nCittà di Torino — Centro Andrea",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Indirizzo:",
-                  "strong": true
-                },
-                {
-                  "text": " via Guinicelli 4, Largo Tabacchi, Torino"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "011 898 9402",
-                  "href": "tel:+390118989402"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Colazione domenicale secondo la pagina comunale. Verifica prima di partire."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Città di Torino — Centro Andrea",
-                  "href": "https://www.torinogiovani.it/vivere-a-torino/dormitori-a-torino"
-                }
-              ]
-            }
-          ]
+          "address": "Indirizzo: via Guinicelli 4, Largo Tabacchi, Torino",
+          "phone": "+390118989402",
+          "website": "https://www.torinogiovani.it/vivere-a-torino/dormitori-a-torino",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "caritas-maria-ausiliatrice-cena-del-lunedi",
-          "name": "Caritas Maria Ausiliatrice — cena del lunedì",
+          "title": "Caritas Maria Ausiliatrice — cena del lunedì",
+          "description": "Telefono: 328 332 3736.\nLa parrocchia pubblica una cena calda ogni lunedì sera per persone senza dimora o in difficoltà. Contatta il servizio per confermare.\nCaritas Maria Ausiliatrice — mensa",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Indirizzo:",
-                  "strong": true
-                },
-                {
-                  "text": " San Filippo Neri, via Principe Amedeo 8/A, Torino"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "328 332 3736",
-                  "href": "tel:+393283323736"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "La parrocchia pubblica una cena calda ogni lunedì sera per persone senza dimora o in difficoltà. Contatta il servizio per confermare."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Caritas Maria Ausiliatrice — mensa",
-                  "href": "https://caritas.parrocchiavaldocco.it/mensa/"
-                }
-              ]
-            }
-          ]
+          "address": "Indirizzo: San Filippo Neri, via Principe Amedeo 8/A, Torino",
+          "phone": "+393283323736",
+          "website": "https://caritas.parrocchiavaldocco.it/mensa/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "sermig-emporio-speranza",
-          "name": "Sermig — Emporio Speranza",
+          "title": "Sermig — Emporio Speranza",
+          "description": "Distribuisce alimenti, abbigliamento e altri beni dopo ascolto e valutazione. Offre anche orientamento fiscale, sanitario e lavorativo. Non è un supermercato ad accesso libero.\nSermig — Emporio Speranza",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Indirizzo:",
-                  "strong": true
-                },
-                {
-                  "text": " via Pinerolo 5, Torino"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Distribuisce alimenti, abbigliamento e altri beni dopo ascolto e valutazione. Offre anche orientamento fiscale, sanitario e lavorativo. Non è un supermercato ad accesso libero."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Sermig — Emporio Speranza",
-                  "href": "https://www.sermig.org/arsenali/arsenale-della-pace/accoglienza/emporio_speranza.html"
-                }
-              ]
-            }
-          ]
+          "address": "Indirizzo: via Pinerolo 5, Torino",
+          "phone": "",
+          "website": "https://www.sermig.org/arsenali/arsenale-della-pace/accoglienza/emporio_speranza.html",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
-      "id": "igiene",
-      "title": "4. Docce, vestiti, lavanderia e bagagli",
-      "items": [
+      "id": "community",
+      "title": "Community and religious help",
+      "entries": []
+    },
+    {
+      "id": "hygiene",
+      "title": "Docce, vestiti, lavanderia e bagagli",
+      "entries": [
         {
-          "type": "resource",
           "id": "ambulatorio-roberto-gamba-doccia-e-cambio-abiti",
-          "name": "Ambulatorio Roberto Gamba — doccia e cambio abiti",
+          "title": "Ambulatorio Roberto Gamba — doccia e cambio abiti",
+          "description": "Telefono: 011 435 9374.\nOltre alle cure, offre docce e cambio abiti in giorni specifici e distribuisce buoni doccia. Chiedi sul posto quando sono disponibili igiene e vestiario.\nCittà di Torino — servizi dell'ambulatorio",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Indirizzo:",
-                  "strong": true
-                },
-                {
-                  "text": " via Sacchi 49, Torino"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "011 435 9374",
-                  "href": "tel:+390114359374"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Oltre alle cure, offre docce e cambio abiti in giorni specifici e distribuisce buoni doccia. Chiedi sul posto quando sono disponibili igiene e vestiario."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Città di Torino — servizi dell'ambulatorio",
-                  "href": "https://www.torinogiovani.it/vivere-a-torino/dormitori-a-torino"
-                }
-              ]
-            }
-          ]
+          "address": "Indirizzo: via Sacchi 49, Torino",
+          "phone": "+390114359374",
+          "website": "https://www.torinogiovani.it/vivere-a-torino/dormitori-a-torino",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "bagno-pubblico-via-bianze",
-          "name": "Bagno pubblico — via Bianzè",
+          "title": "Bagno pubblico — via Bianzè",
+          "description": "Telefono: 011 749 3691.\nDocce, biancheria e prodotti per l'igiene; sede indicata come accessibile alle persone con disabilità. Telefona per orario, prezzo e disponibilità.\nCittà di Torino — bagni pubblici",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Indirizzo:",
-                  "strong": true
-                },
-                {
-                  "text": " via Bianzè 28, Torino"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "011 749 3691",
-                  "href": "tel:+390117493691"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Docce, biancheria e prodotti per l'igiene; sede indicata come accessibile alle persone con disabilità. Telefona per orario, prezzo e disponibilità."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Città di Torino — bagni pubblici",
-                  "href": "https://www.torinogiovani.it/vivere-a-torino/dormitori-a-torino"
-                }
-              ]
-            }
-          ]
+          "address": "Indirizzo: via Bianzè 28, Torino",
+          "phone": "+390117493691",
+          "website": "https://www.torinogiovani.it/vivere-a-torino/dormitori-a-torino",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "bagno-pubblico-via-aglie",
-          "name": "Bagno pubblico — via Agliè",
+          "title": "Bagno pubblico — via Agliè",
+          "description": "Telefono: 011 553 3938.\nDocce, biancheria e prodotti per l'igiene. La sede ospita anche servizi di comunità e facilitazione digitale; telefona prima.\nTorinoGiovani — via Agliè",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Indirizzo:",
-                  "strong": true
-                },
-                {
-                  "text": " via Agliè 9, Torino"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "011 553 3938",
-                  "href": "tel:+390115533938"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Docce, biancheria e prodotti per l'igiene. La sede ospita anche servizi di comunità e facilitazione digitale; telefona prima."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "TorinoGiovani — via Agliè",
-                  "href": "https://www.torinogiovani.it/vivere-a-torino/dormitori-a-torino"
-                }
-              ]
-            }
-          ]
+          "address": "Indirizzo: via Agliè 9, Torino",
+          "phone": "+390115533938",
+          "website": "https://www.torinogiovani.it/vivere-a-torino/dormitori-a-torino",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "bagno-pubblico-corso-regina-margherita",
-          "name": "Bagno pubblico — corso Regina Margherita",
+          "title": "Bagno pubblico — corso Regina Margherita",
+          "description": "Telefono: 011 817 2580.\nDocce e servizi per l'igiene. La pagina comunale lo indica come non accessibile alle persone con disabilità motorie; verifica orari e barriere.\nCittà di Torino — bagni pubblici",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Indirizzo:",
-                  "strong": true
-                },
-                {
-                  "text": " corso Regina Margherita 33, Torino"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "011 817 2580",
-                  "href": "tel:+390118172580"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Docce e servizi per l'igiene. La pagina comunale lo indica come non accessibile alle persone con disabilità motorie; verifica orari e barriere."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Città di Torino — bagni pubblici",
-                  "href": "https://www.torinogiovani.it/vivere-a-torino/dormitori-a-torino"
-                }
-              ]
-            }
-          ]
+          "address": "Indirizzo: corso Regina Margherita 33, Torino",
+          "phone": "+390118172580",
+          "website": "https://www.torinogiovani.it/vivere-a-torino/dormitori-a-torino",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "bagno-pubblico-via-cherasco",
-          "name": "Bagno pubblico — via Cherasco",
+          "title": "Bagno pubblico — via Cherasco",
+          "description": "Telefono: 011 792 0508.\nSede accessibile con docce, lavanderia a gettoni e sportello informativo per persone straniere. Telefona per orari e costi.\nTorinoGiovani — via Cherasco",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Indirizzo:",
-                  "strong": true
-                },
-                {
-                  "text": " via Cherasco 10, Torino"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "011 792 0508",
-                  "href": "tel:+390117920508"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Sede accessibile con docce, lavanderia a gettoni e sportello informativo per persone straniere. Telefona per orari e costi."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "TorinoGiovani — via Cherasco",
-                  "href": "https://www.torinogiovani.it/vivere-a-torino/dormitori-a-torino"
-                }
-              ]
-            }
-          ]
+          "address": "Indirizzo: via Cherasco 10, Torino",
+          "phone": "+390117920508",
+          "website": "https://www.torinogiovani.it/vivere-a-torino/dormitori-a-torino",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "vestiti-e-beni-essenziali",
-          "name": "Vestiti e beni essenziali",
+          "title": "Vestiti e beni essenziali",
+          "description": "Chiedi a Homeless Torino, Roberto Gamba o Emporio Speranza dove ottenere un cambio abiti. Le taglie e le scorte variano; non è garantita la consegna nello stesso giorno.\nSermig — beni di prima necessità",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Chiedi a Homeless Torino, Roberto Gamba o Emporio Speranza dove ottenere un cambio abiti. Le taglie e le scorte variano; non è garantita la consegna nello stesso giorno."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Sermig — beni di prima necessità",
-                  "href": "https://www.sermig.org/arsenali/arsenale-della-pace/accoglienza/emporio_speranza.html"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.sermig.org/arsenali/arsenale-della-pace/accoglienza/emporio_speranza.html",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "deposito-bagagli-e-fermo-posta",
-          "name": "Deposito bagagli e fermo posta",
+          "title": "Deposito bagagli e fermo posta",
+          "description": "Homeless Torino è collegato a centri che possono offrire deposito bagagli e fermo posta. Chiedi sede, durata, ricevuta e limiti. Non lasciare documenti originali, medicine indispensabili, telefono o denaro in depositi non ufficiali.\nCittà di Torino — centri servizi",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Homeless Torino è collegato a centri che possono offrire deposito bagagli e fermo posta. Chiedi sede, durata, ricevuta e limiti. Non lasciare documenti originali, medicine indispensabili, telefono o denaro in depositi non ufficiali."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Città di Torino — centri servizi",
-                  "href": "https://www.comune.torino.it/novita/comunicati/piano-accoglienza-invernale-20252026-della-citta-torino"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "spazi",
-      "title": "5. Spazi diurni, internet e ricarica",
-      "items": [
+          "address": "",
+          "phone": "",
+          "website": "https://www.comune.torino.it/novita/comunicati/piano-accoglienza-invernale-20252026-della-citta-torino",
+          "hours": "",
+          "how_to_access": ""
+        },
         {
-          "type": "resource",
           "id": "la-piccola-sosta-caritas",
-          "name": "La Piccola Sosta — Caritas",
+          "title": "La Piccola Sosta — Caritas",
+          "description": "Email: lasosta.caritas@gmail.com. — mailto:lasosta.caritas@gmail.com\nCentro diurno per stare al riparo, bere una bevanda calda, leggere, usare una postazione internet e ricevere ascolto. L'apertura pubblicata è in alcuni pomeriggi: conferma prima.\nCaritas Diocesana Torino — La Piccola Sosta",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Indirizzo:",
-                  "strong": true
-                },
-                {
-                  "text": " via Chiala 16/A, Torino"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Email:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "lasosta.caritas@gmail.com",
-                  "href": "mailto:lasosta.caritas@gmail.com"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Centro diurno per stare al riparo, bere una bevanda calda, leggere, usare una postazione internet e ricevere ascolto. L'apertura pubblicata è in alcuni pomeriggi: conferma prima."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Caritas Diocesana Torino — La Piccola Sosta",
-                  "href": "https://www.caritas.torino.it/page.php?item=100101"
-                }
-              ]
-            }
-          ]
+          "address": "Indirizzo: via Chiala 16/A, Torino",
+          "phone": "",
+          "website": "https://www.caritas.torino.it/page.php?item=100101",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "gruppo-abele-servizi-a-bassa-soglia",
-          "name": "Gruppo Abele — servizi a bassa soglia",
+          "title": "Gruppo Abele — servizi a bassa soglia",
+          "description": "Offre primo ascolto e gestisce servizi per persone in strada, dipendenze, povertà estrema, donne e vittime di tratta. Il drop-in svolge anche attività di strada e distribuzione di kit igienici o buoni doccia.\nGruppo Abele — hai bisogno di aiuto?",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Sede generale:",
-                  "strong": true
-                },
-                {
-                  "text": " corso Trapani 95, Torino"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Offre primo ascolto e gestisce servizi per persone in strada, dipendenze, povertà estrema, donne e vittime di tratta. Il drop-in svolge anche attività di strada e distribuzione di kit igienici o buoni doccia."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Gruppo Abele — hai bisogno di aiuto?",
-                  "href": "https://www.gruppoabele.org/it-schede-19-serve_aiuto"
-                }
-              ]
-            }
-          ]
+          "address": "Sede generale: corso Trapani 95, Torino",
+          "phone": "",
+          "website": "https://www.gruppoabele.org/it-schede-19-serve_aiuto",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "biblioteca-civica-centrale",
-          "name": "Biblioteca Civica Centrale",
+          "title": "Biblioteca Civica Centrale",
+          "description": "Telefono: 011 011 29800.\nL'accesso e la lettura sono gratuiti. L'iscrizione gratuita permette di usare postazioni internet; richiede documento e codice fiscale. Chiedi dove ricaricare un dispositivo senza lasciarlo incustodito.\nCittà di Torino — Biblioteca Centrale",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Indirizzo:",
-                  "strong": true
-                },
-                {
-                  "text": " via della Cittadella 5, Torino"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "011 011 29800",
-                  "href": "tel:+3901101129800"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "L'accesso e la lettura sono gratuiti. L'iscrizione gratuita permette di usare postazioni internet; richiede documento e codice fiscale. Chiedi dove ricaricare un dispositivo senza lasciarlo incustodito."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Città di Torino — Biblioteca Centrale",
-                  "href": "https://www.comune.torino.it/vivere-comune/luoghi/biblioteca-civica-centrale"
-                }
-              ]
-            }
-          ]
+          "address": "Indirizzo: via della Cittadella 5, Torino",
+          "phone": "+3901101129800",
+          "website": "https://www.comune.torino.it/vivere-comune/luoghi/biblioteca-civica-centrale",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "wi-fi-nelle-biblioteche",
-          "name": "Wi-Fi nelle biblioteche",
+          "title": "Wi-Fi nelle biblioteche",
+          "description": "FreeTorinoWiFi è disponibile in varie biblioteche. La registrazione può richiedere credenziali o un numero di telefono; il sito della biblioteca resta consultabile senza registrazione.\nBiblioteche Civiche — sedi con Wi-Fi",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "FreeTorinoWiFi è disponibile in varie biblioteche. La registrazione può richiedere credenziali o un numero di telefono; il sito della biblioteca resta consultabile senza registrazione."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Biblioteche Civiche — sedi con Wi-Fi",
-                  "href": "https://bct.comune.torino.it/servizi-dotazioni/accesso-freetorinowifi"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://bct.comune.torino.it/servizi-dotazioni/accesso-freetorinowifi",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "punti-di-facilitazione-digitale",
-          "name": "Punti di Facilitazione Digitale",
+          "title": "Punti di Facilitazione Digitale",
+          "description": "Offrono assistenza gratuita per servizi pubblici online, moduli, identità digitale e prenotazioni. Ci sono sedi presso via Agliè, Pastorale Migranti, Spazio Comune e Sermig. Telefona sempre prima.\nCittà di Torino — punti di facilitazione",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Offrono assistenza gratuita per servizi pubblici online, moduli, identità digitale e prenotazioni. Ci sono sedi presso via Agliè, Pastorale Migranti, Spazio Comune e Sermig. Telefona sempre prima."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Città di Torino — punti di facilitazione",
-                  "href": "https://www.comune.torino.it/schede-informative/sedi-orari-dei-punti-facilitazione-digitale-torino"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.comune.torino.it/schede-informative/sedi-orari-dei-punti-facilitazione-digitale-torino",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
-      "id": "salute",
-      "title": "6. Salute e odontoiatria",
-      "items": [
+      "id": "clothing",
+      "title": "Clothing",
+      "entries": []
+    },
+    {
+      "id": "health",
+      "title": "Salute e odontoiatria",
+      "entries": [
         {
-          "type": "resource",
           "id": "ambulatorio-sociosanitario-roberto-gamba",
-          "name": "Ambulatorio sociosanitario Roberto Gamba",
+          "title": "Ambulatorio sociosanitario Roberto Gamba",
+          "description": "Telefono: 011 435 9374.\nPer persone senza dimora: visite, medicazioni, consulenza, orientamento, colloqui sociali e alcuni servizi di igiene. Accesso gratuito senza appuntamento nel pomeriggio; l'apertura è più ampia in inverno.\nASL Città di Torino — Roberto Gamba e Centro ISI",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Indirizzo:",
-                  "strong": true
-                },
-                {
-                  "text": " via Sacchi 49, Torino"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "011 435 9374",
-                  "href": "tel:+390114359374"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Per persone senza dimora: visite, medicazioni, consulenza, orientamento, colloqui sociali e alcuni servizi di igiene. Accesso gratuito senza appuntamento nel pomeriggio; l'apertura è più ampia in inverno."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "ASL Città di Torino — Roberto Gamba e Centro ISI",
-                  "href": "https://www.aslcittaditorino.it/servizi/centri-isi-assistenza-sanitaria-agli-stranieri/"
-                }
-              ]
-            }
-          ]
+          "address": "Indirizzo: via Sacchi 49, Torino",
+          "phone": "+390114359374",
+          "website": "https://www.aslcittaditorino.it/servizi/centri-isi-assistenza-sanitaria-agli-stranieri/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "centro-isi-persone-straniere-senza-ssn",
-          "name": "Centro ISI — persone straniere senza SSN",
+          "title": "Centro ISI — persone straniere senza SSN",
+          "description": "Telefono: 011 240 3625; email: centro.isi@aslcittaditorino.it. — mailto:centro.isi@aslcittaditorino.it\nAssistenza urgente o essenziale e prevenzione per persone STP o ENI che non possono iscriversi normalmente al Servizio Sanitario Nazionale.\nASL Città di Torino — assistenza stranieri",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Indirizzo:",
-                  "strong": true
-                },
-                {
-                  "text": " via Bazzi 19, angolo lungo Dora Savona 24, Torino"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "011 240 3625",
-                  "href": "tel:+390112403625"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "email:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "centro.isi@aslcittaditorino.it",
-                  "href": "mailto:centro.isi@aslcittaditorino.it"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Assistenza urgente o essenziale e prevenzione per persone STP o ENI che non possono iscriversi normalmente al Servizio Sanitario Nazionale."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "ASL Città di Torino — assistenza stranieri",
-                  "href": "https://www.aslcittaditorino.it/servizi/centri-isi-assistenza-sanitaria-agli-stranieri/"
-                }
-              ]
-            }
-          ]
+          "address": "Indirizzo: via Bazzi 19, angolo lungo Dora Savona 24, Torino",
+          "phone": "+390112403625",
+          "website": "https://www.aslcittaditorino.it/servizi/centri-isi-assistenza-sanitaria-agli-stranieri/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "camminare-insieme-poliambulatorio-gratuito",
-          "name": "Camminare Insieme — poliambulatorio gratuito",
+          "title": "Camminare Insieme — poliambulatorio gratuito",
+          "description": "Telefono: 011 436 5980.\nAssistenza gratuita per persone con difficoltà di accesso al SSN, indipendentemente dalla cittadinanza. Offre medicina generale, specialità e polo materno-infantile. Telefona per prenotazione.\nCamminare Insieme — servizi e contatti",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Indirizzo:",
-                  "strong": true
-                },
-                {
-                  "text": " via San Giuseppe Benedetto Cottolengo 24/A, Torino"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "011 436 5980",
-                  "href": "tel:+390114365980"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Assistenza gratuita per persone con difficoltà di accesso al SSN, indipendentemente dalla cittadinanza. Offre medicina generale, specialità e polo materno-infantile. Telefona per prenotazione."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Camminare Insieme — servizi e contatti",
-                  "href": "https://www.camminare-insieme.it/"
-                }
-              ]
-            }
-          ]
+          "address": "Indirizzo: via San Giuseppe Benedetto Cottolengo 24/A, Torino",
+          "phone": "+390114365980",
+          "website": "https://www.camminare-insieme.it/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "centro-medico-sermig-cure-e-dentista",
-          "name": "Centro Medico Sermig — cure e dentista",
+          "title": "Centro Medico Sermig — cure e dentista",
+          "description": "Telefono: 011 436 8566.\nPer chi non trova una soluzione nel sistema pubblico o non può pagare cure private. Offre medicina generale, pediatria, specialità, occhiali, farmaci disponibili e odontoiatria, su valutazione e prenotazione.\nSermig — Centro Servizi Medici",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Ingresso:",
-                  "strong": true
-                },
-                {
-                  "text": " via Andreis 18/44, Torino"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "011 436 8566",
-                  "href": "tel:+390114368566"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Per chi non trova una soluzione nel sistema pubblico o non può pagare cure private. Offre medicina generale, pediatria, specialità, occhiali, farmaci disponibili e odontoiatria, su valutazione e prenotazione."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Sermig — Centro Servizi Medici",
-                  "href": "https://www.sermig.org/arsenali/arsenale-della-pace/centro-medico.html"
-                }
-              ]
-            }
-          ]
+          "address": "Ingresso: via Andreis 18/44, Torino",
+          "phone": "+390114368566",
+          "website": "https://www.sermig.org/arsenali/arsenale-della-pace/centro-medico.html",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "ambulatorio-misericordes",
-          "name": "Ambulatorio Misericordes",
+          "title": "Ambulatorio Misericordes",
+          "description": "Telefono: 011 663 4682; email: info@associazionemisericordes.it. — mailto:info@associazionemisericordes.it\nCure gratuite per persone escluse dal SSN. Non è ad accesso libero: occorre l'invio di un ente convenzionato. Chiedi a Homeless Torino o a un servizio sociale.\nMisericordes — modalità di accesso",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Indirizzo:",
-                  "strong": true
-                },
-                {
-                  "text": " via Baiardi 9, Torino"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "011 663 4682",
-                  "href": "tel:+390116634682"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "email:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "info@associazionemisericordes.it",
-                  "href": "mailto:info@associazionemisericordes.it"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Cure gratuite per persone escluse dal SSN. Non è ad accesso libero: occorre l'invio di un ente convenzionato. Chiedi a Homeless Torino o a un servizio sociale."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Misericordes — modalità di accesso",
-                  "href": "https://www.associazionemisericordes.it/"
-                }
-              ]
-            }
-          ]
+          "address": "Indirizzo: via Baiardi 9, Torino",
+          "phone": "+390116634682",
+          "website": "https://www.associazionemisericordes.it/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "consultori-familiari-asl",
-          "name": "Consultori familiari ASL",
+          "title": "Consultori familiari ASL",
+          "description": "Offrono gratuitamente salute della donna, gravidanza, contraccezione, prevenzione e sostegno psicologico e sociale. Molte sedi hanno accesso diretto. Segreteria: via San Secondo 16, 011 566 2980.\nASL Città di Torino — consultori e sedi",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Offrono gratuitamente salute della donna, gravidanza, contraccezione, prevenzione e sostegno psicologico e sociale. Molte sedi hanno accesso diretto. Segreteria: via San Secondo 16, "
-                },
-                {
-                  "text": "011 566 2980",
-                  "href": "tel:+390115662980"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "ASL Città di Torino — consultori e sedi",
-                  "href": "https://www.aslcittaditorino.it/strutture/consultori-familiari-e-pediatrici-sud/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+390115662980",
+          "website": "https://www.aslcittaditorino.it/strutture/consultori-familiari-e-pediatrici-sud/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "116117-cure-non-urgenti",
-          "name": "116117 — cure non urgenti",
+          "title": "116117 — cure non urgenti",
+          "description": "Numero: 116117.\nPer continuità assistenziale e orientamento quando non serve un'ambulanza. In pericolo immediato chiama 112.\nMinistero della Salute — 116117",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Numero:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "116117",
-                  "href": "tel:116117"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Per continuità assistenziale e orientamento quando non serve un'ambulanza. In pericolo immediato chiama 112."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ministero della Salute — 116117",
-                  "href": "https://www.salute.gov.it/new/it/tema/assistenza-sanitaria/numero-europeo-116117/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "116117",
+          "website": "https://www.salute.gov.it/new/it/tema/assistenza-sanitaria/numero-europeo-116117/",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
-      "id": "mentale",
-      "title": "7. Salute mentale e dipendenze",
-      "items": [
+      "id": "mental-health",
+      "title": "Salute mentale e dipendenze",
+      "entries": [
         {
-          "type": "resource",
           "id": "centri-di-salute-mentale-asl",
-          "name": "Centri di Salute Mentale — ASL",
+          "title": "Centri di Salute Mentale — ASL",
+          "description": "I CSM offrono prima accoglienza, visite psichiatriche, colloqui psicologici, infermeria e continuità delle terapie. La sede dipende dal quartiere; alcune accettano accesso diretto, altre richiedono prenotazione.\nIl CSM di via Petitti 24 riceve richieste di primo colloquio al 011 058 7511. In emergenza con rischio immediato chiama 112.\nASL Città di Torino — CSM via Petitti",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "I CSM offrono prima accoglienza, visite psichiatriche, colloqui psicologici, infermeria e continuità delle terapie. La sede dipende dal quartiere; alcune accettano accesso diretto, altre richiedono prenotazione."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Il CSM di via Petitti 24 riceve richieste di primo colloquio al "
-                },
-                {
-                  "text": "011 058 7511",
-                  "href": "tel:+390110587511"
-                },
-                {
-                  "text": ". In emergenza con rischio immediato chiama 112."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "ASL Città di Torino — CSM via Petitti",
-                  "href": "https://www.aslcittaditorino.it/sedi/centro-di-salute-mentale-via-petitti/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+390110587511",
+          "website": "https://www.aslcittaditorino.it/sedi/centro-di-salute-mentale-via-petitti/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "serd-dipendenze",
-          "name": "SERD — dipendenze",
+          "title": "SERD — dipendenze",
+          "description": "Offre valutazione, terapie, riduzione del danno, riabilitazione e sostegno sociale. Le sedi sono divise per zona e molte accettano accesso diretto senza impegnativa.\nUna sede Nord è in corso Vercelli 15, telefono 011 240 3899. Verifica sede e orari.\nASL Città di Torino — SERD · sedi Nord · sedi Sud — https://www.aslcittaditorino.it/strutture/serd-nord/ — https://www.aslcittaditorino.it/strutture/serd-sud/",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Offre valutazione, terapie, riduzione del danno, riabilitazione e sostegno sociale. Le sedi sono divise per zona e molte accettano accesso diretto senza impegnativa."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Una sede Nord è in corso Vercelli 15, telefono "
-                },
-                {
-                  "text": "011 240 3899",
-                  "href": "tel:+390112403899"
-                },
-                {
-                  "text": ". Verifica sede e orari."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "ASL Città di Torino — SERD",
-                  "href": "https://www.aslcittaditorino.it/servizi/serd/"
-                },
-                {
-                  "text": " · "
-                },
-                {
-                  "text": "sedi Nord",
-                  "href": "https://www.aslcittaditorino.it/strutture/serd-nord/"
-                },
-                {
-                  "text": " · "
-                },
-                {
-                  "text": "sedi Sud",
-                  "href": "https://www.aslcittaditorino.it/strutture/serd-sud/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "+390112403899",
+          "website": "https://www.aslcittaditorino.it/servizi/serd/",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "gruppo-abele-dipendenze-e-vita-in-strada",
-          "name": "Gruppo Abele — dipendenze e vita in strada",
+          "title": "Gruppo Abele — dipendenze e vita in strada",
+          "description": "Gestisce servizi a bassa soglia, attività di strada, comunità e percorsi per dipendenze. Contatta il primo ascolto per capire quale servizio è adatto.\nGruppo Abele — richiesta di aiuto",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Sede generale:",
-                  "strong": true
-                },
-                {
-                  "text": " corso Trapani 95, Torino"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Gestisce servizi a bassa soglia, attività di strada, comunità e percorsi per dipendenze. Contatta il primo ascolto per capire quale servizio è adatto."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Gruppo Abele — richiesta di aiuto",
-                  "href": "https://www.gruppoabele.org/it-schede-19-serve_aiuto"
-                }
-              ]
-            }
-          ]
+          "address": "Sede generale: corso Trapani 95, Torino",
+          "phone": "",
+          "website": "https://www.gruppoabele.org/it-schede-19-serve_aiuto",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "farmaci-e-continuita-delle-cure",
-          "name": "Farmaci e continuità delle cure",
+          "title": "Farmaci e continuità delle cure",
+          "description": "Non interrompere improvvisamente una terapia. Porta confezioni, ricette o fotografie dei farmaci a Roberto Gamba, al CSM o al SERD. Se hai perso tutto, indica nome, dose e ultima assunzione.\nPer overdose, convulsioni, perdita di coscienza o rischio immediato usa 112.\nASL Città di Torino",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Non interrompere improvvisamente una terapia. Porta confezioni, ricette o fotografie dei farmaci a Roberto Gamba, al CSM o al SERD. Se hai perso tutto, indica nome, dose e ultima assunzione."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Per overdose, convulsioni, perdita di coscienza o rischio immediato usa 112."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "ASL Città di Torino",
-                  "href": "https://www.aslcittaditorino.it/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.aslcittaditorino.it/",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
-      "id": "welfare",
-      "title": "8. Welfare, contributi e casa",
-      "items": [
-        {
-          "type": "resource",
-          "id": "servizi-sociali-territoriali",
-          "name": "Servizi sociali territoriali",
-          "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Per residenti, il servizio dipende da quartiere e bisogno: reddito, casa, lavoro, minori, disabilità o anziani. Per persone senza dimora con residenza virtuale, inizia dal Servizio Adulti in Difficoltà."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Porta documenti, ISEE se disponibile, atti di sfratto, certificati medici e scadenze. L'apertura di una pratica non garantisce un contributo."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Città di Torino — sedi dei servizi sociali",
-                  "href": "https://www.comune.torino.it/argomenti/assistenza-sociale/servizio-sociale/luoghi"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "assegno-di-inclusione-adi",
-          "name": "Assegno di Inclusione — ADI",
-          "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Misura nazionale per nuclei che rispettano requisiti economici, di residenza e composizione. La domanda richiede ISEE e un percorso di inclusione. Chiedi a INPS, patronato o servizio sociale di verificare i requisiti aggiornati."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "INPS — Assegno di Inclusione",
-                  "href": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.assegno-di-inclusione-adi.html"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "supporto-per-la-formazione-e-il-lavoro-sfl",
-          "name": "Supporto per la Formazione e il Lavoro — SFL",
-          "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Misura nazionale per adulti che rispettano i requisiti e partecipano a formazione o politica attiva. Verifica con INPS, Centro per l'Impiego o patronato prima della domanda."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "INPS — SFL",
-                  "href": "https://www.inps.it/it/it/inps-comunica/dossier/decreto-lavoro--cosa-cambia/supporto-per-la-formazione-e-il-lavoro.html"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "sportello-casa-sfratto-ed-emergenza-abitativa",
-          "name": "Sportello Casa — sfratto ed emergenza abitativa",
-          "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Indirizzo:",
-                  "strong": true
-                },
-                {
-                  "text": " via Orvieto 1/20/A, primo piano, Torino"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "011 011 24300",
-                  "href": "tel:+3901101124300"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "email:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "sportello.sfratti@comune.torino.it",
-                  "href": "mailto:sportello.sfratti@comune.torino.it"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Per residenti con sfratto, sgombero o altre cause previste e requisiti di edilizia sociale. Serve appuntamento e documentazione; non aspettare l'ultimo giorno."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Città di Torino — domanda e documenti",
-                  "href": "https://www.comune.torino.it/servizi/domanda-emergenza-abitativa"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "fimi-morosita-incolpevole",
-          "name": "FIMI — morosità incolpevole",
-          "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Il fondo può sostenere un accordo con il proprietario in alcuni sfratti per morosità incolpevole. Ha requisiti precisi e richiede collaborazione del locatore; non è un pagamento automatico."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Città di Torino — FIMI Salvasfratti",
-                  "href": "https://www.comune.torino.it/servizi/fondo-inquilini-morosi-incolpevoli-fimi"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "isee-caf-e-patronati",
-          "name": "ISEE, CAF e patronati",
-          "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Un CAF può preparare l'ISEE; un patronato può assistere con domande INPS. Chiedi prima se è gratuito, quali documenti servono e se occorre appuntamento. Non consegnare PIN o password."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Città di Torino — elenco CAF convenzionati",
-                  "href": "https://www.comune.torino.it/media/308"
-                }
-              ]
-            }
-          ]
-        }
-      ]
+      "id": "public-facilities",
+      "title": "Public toilets and day facilities",
+      "entries": []
     },
     {
-      "id": "lavoro",
-      "title": "9. Lavoro e formazione",
-      "items": [
-        {
-          "type": "resource",
-          "id": "centro-per-l-impiego-torino-nord",
-          "name": "Centro per l'Impiego Torino Nord",
-          "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Indirizzo:",
-                  "strong": true
-                },
-                {
-                  "text": " via Bologna 153, 10154 Torino"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Contact center:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "011 087 6000",
-                  "href": "tel:+390110876000"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "sede:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "011 087 6180",
-                  "href": "tel:+390110876180"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Offerte, certificati, orientamento, GOL, collocamento mirato e tirocini. L'appuntamento si prenota per telefono o PiemonteTu. Il servizio non garantisce un'assunzione."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Agenzia Piemonte Lavoro — Torino Nord",
-                  "href": "https://agenziapiemontelavoro.it/centro-per-limpiego/centro-per-limpiego-di-torino-nord/"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "centro-per-l-impiego-torino-sud",
-          "name": "Centro per l'Impiego Torino Sud",
-          "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Indirizzo:",
-                  "strong": true
-                },
-                {
-                  "text": " via Castelgomberto 75, 10137 Torino"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Contact center:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "011 087 6000",
-                  "href": "tel:+390110876000"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Servizi pubblici per ricerca, offerte, documenti lavorativi, orientamento e formazione. Prenota e chiedi quali documenti portare."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Agenzia Piemonte Lavoro — Torino Sud",
-                  "href": "https://agenziapiemontelavoro.it/centro-per-limpiego/centro-per-limpiego-di-torino-sud/"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "offerte-di-lavoro-regionali",
-          "name": "Offerte di lavoro regionali",
-          "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Le offerte dei Centri per l'Impiego sono pubblicate sul portale ufficiale. Un Punto di Facilitazione può aiutare con l'accesso. Diffida da chi chiede denaro per colloquio, contratto o divisa."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Agenzia Piemonte Lavoro — offerte",
-                  "href": "https://agenziapiemontelavoro.it/offerte-di-lavoro/"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "ufficio-pastorale-migranti-lavoro-e-italiano",
-          "name": "Ufficio Pastorale Migranti — lavoro e italiano",
-          "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Indirizzo:",
-                  "strong": true
-                },
-                {
-                  "text": " via Cottolengo 22, Torino"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefoni:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "011 246 2092",
-                  "href": "tel:+390112462092"
-                },
-                {
-                  "text": " o "
-                },
-                {
-                  "text": "011 246 2443",
-                  "href": "tel:+390112462443"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Ascolto e orientamento a persone migranti, compresi lavoro, lingua, consulenza legale, salute, fisco e discriminazione. Chiedi lo sportello corretto."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Pastorale Migranti — servizi",
-                  "href": "https://www.upmtorino.it/servizi/"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "sermig-orientamento-lavorativo",
-          "name": "Sermig — orientamento lavorativo",
-          "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Emporio Speranza collega le persone prese in carico a orientamento, tirocini e inserimento lavorativo. Non assegna posti immediati: l'accesso segue ascolto e progetto."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Sermig — percorsi di inclusione",
-                  "href": "https://www.sermig.org/arsenali/arsenale-della-pace/accoglienza/emporio_speranza.html"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "preparare-la-ricerca",
-          "name": "Preparare la ricerca",
-          "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Chiedi al Centro per l'Impiego o a una biblioteca aiuto per email, curriculum e candidature. Conserva copia di documenti, contratto e ore lavorate. Per sfruttamento o minacce chiama 112; per possibile tratta chiama "
-                },
-                {
-                  "text": "1577",
-                  "href": "tel:1577"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "TorinoGiovani — lavoro",
-                  "href": "https://www.torinogiovani.it/lavoro"
-                }
-              ]
-            }
-          ]
-        }
-      ]
+      "id": "phone-internet",
+      "title": "Phone charging and internet",
+      "entries": []
     },
     {
-      "id": "documenti",
-      "title": "10. Documenti, residenza e posta",
-      "items": [
+      "id": "transport",
+      "title": "Trasporti, stazioni e aeroporto",
+      "entries": [
         {
-          "type": "resource",
-          "id": "residenza-virtuale-via-lia-varesio",
-          "name": "Residenza virtuale — via Lia Varesio",
-          "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Torino usa l'indirizzo virtuale via Lia Varesio per persone senza dimora che hanno stabilito il domicilio nel Comune. La procedura richiede verifica e può passare da servizi sociali, Homeless Torino, associazioni o Spazio Comune."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Chiedi chi deve certificare il domicilio, dove ricevere la posta e come mantenere attiva l'iscrizione."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Città di Torino — vademecum anagrafico",
-                  "href": "https://www.comune.torino.it/amministrazione/documenti-dati/documenti/vademecum-per-laccesso-alliscrizione-anagrafica"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "anagrafe-centrale",
-          "name": "Anagrafe Centrale",
-          "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Indirizzo:",
-                  "strong": true
-                },
-                {
-                  "text": " via della Consolata 23, Torino"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "011 011 25380",
-                  "href": "tel:+3901101125380"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "email:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "info.anagrafe@comune.torino.it",
-                  "href": "mailto:info.anagrafe@comune.torino.it"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Gestisce anche il registro delle persone senza fissa dimora domiciliate a Torino. Per molte pratiche serve appuntamento; chiedi a Homeless Torino di preparare prima la pratica di residenza."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Città di Torino — Anagrafe Centrale",
-                  "href": "https://www.comune.torino.it/vivere-comune/luoghi/anagrafe-centrale"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "carta-d-identita-elettronica",
-          "name": "Carta d'identità elettronica",
-          "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Normalmente richiede appuntamento, fotografia, identificazione e pagamento. L'Anagrafe Centrale ha accesso libero soltanto per urgenze motivate. Se mancano denaro o documenti, chiedi prima al servizio sociale."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Città di Torino — carta d'identità",
-                  "href": "https://www.comune.torino.it/servizi/richiedere-carta-identita"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "fermo-posta-e-recapito",
-          "name": "Fermo posta e recapito",
-          "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Chiedi a Homeless Torino quale centro può ricevere la posta e con quali regole. Verifica frequenza del ritiro, durata e documenti richiesti: perdere una convocazione può interrompere pratiche."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Città di Torino — centri e fermo posta",
-                  "href": "https://www.comune.torino.it/novita/comunicati/piano-accoglienza-invernale-20252026-della-citta-torino"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "aiuto-digitale-per-prenotazioni-e-spid",
-          "name": "Aiuto digitale per prenotazioni e SPID",
-          "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Se una pratica richiede accesso online, usa un Punto di Facilitazione gratuito. Porta telefono, email e documenti, ma digita personalmente password e codici quando possibile."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Città di Torino — facilitazione digitale",
-                  "href": "https://www.comune.torino.it/schede-informative/sedi-orari-dei-punti-facilitazione-digitale-torino"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "legale",
-      "title": "11. Aiuto legale e migrazione",
-      "items": [
-        {
-          "type": "resource",
-          "id": "avvocato-di-strada-torino",
-          "name": "Avvocato di strada Torino",
-          "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Ricevimento:",
-                  "strong": true
-                },
-                {
-                  "text": " Bartolomeo & C., via Camerana 10, Torino"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Email:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "torino@avvocatodistrada.it",
-                  "href": "mailto:torino@avvocatodistrada.it"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Assistenza legale gratuita per persone senza dimora, anche su residenza, documenti e diritti. Le date vengono pubblicate dall'associazione: scrivi prima."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Avvocato di strada — Torino",
-                  "href": "https://www.avvocatodistrada.it/sedi-locali/torino/"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "spazio-comune-infostranieri",
-          "name": "Spazio Comune — InfoStranieri",
-          "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Indirizzo:",
-                  "strong": true
-                },
-                {
-                  "text": " via Bologna 49/A, Torino"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "011 011 29455",
-                  "href": "tel:+3901101129455"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "email:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "stranieri@comune.torino.it",
-                  "href": "mailto:stranieri@comune.torino.it"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Informazioni gratuite su immigrazione, pratiche e servizi per persone UE ed extra UE. È possibile presentarsi negli orari pubblicati o telefonare."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Città di Torino — InfoStranieri",
-                  "href": "https://www.comune.torino.it/servizi/sportello-infostranieri"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "ufficio-pastorale-migranti",
-          "name": "Ufficio Pastorale Migranti",
-          "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Indirizzo:",
-                  "strong": true
-                },
-                {
-                  "text": " via Cottolengo 22, Torino"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefoni:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "011 246 2092",
-                  "href": "tel:+390112462092"
-                },
-                {
-                  "text": " o "
-                },
-                {
-                  "text": "011 246 2443",
-                  "href": "tel:+390112462443"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Sportelli per ascolto, consulenza legale, salute, fisco, lavoro, lingua e discriminazione. Partecipa anche alla prenotazione di alcuni appuntamenti per protezione internazionale."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Pastorale Migranti — aree di aiuto",
-                  "href": "https://www.upmtorino.it/chi-siamo/le-aree/"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "prima-di-firmare",
-          "name": "Prima di firmare",
-          "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Non firmare dimissioni, rinunce, contratti, debiti o dichiarazioni che non capisci. Chiedi una copia e un interprete. Conserva fotografie di documenti, ricevute, messaggi e turni."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Comunica subito una scadenza: l'assistenza gratuita non sospende automaticamente i termini."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Avvocato di strada Torino",
-                  "href": "https://www.avvocatodistrada.it/sedi-locali/torino/"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "protezione",
-      "title": "12. Donne, minori, persone LGBTQIA+ e tratta",
-      "items": [
-        {
-          "type": "resource",
-          "id": "1522-violenza-e-stalking",
-          "name": "1522 — violenza e stalking",
-          "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Numero gratuito:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "1522",
-                  "href": "tel:1522"
-                },
-                {
-                  "text": ", 24 ore su 24 e in più lingue."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Puoi chiamare anche senza aver deciso di denunciare. Se l'aggressore è presente o c'è pericolo immediato chiama 112."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "1522 — servizio nazionale",
-                  "href": "https://www.1522.eu/"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "centro-antiviolenza-della-citta",
-          "name": "Centro Antiviolenza della Città",
-          "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Indirizzo:",
-                  "strong": true
-                },
-                {
-                  "text": " corso Unione Sovietica 228/D, Torino"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "011 011 31500",
-                  "href": "tel:+3901101131500"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "email:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "centroantiviolenza@comune.torino.it",
-                  "href": "mailto:centroantiviolenza@comune.torino.it"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Servizio gratuito con ascolto, orientamento e supporto alla denuncia. Non richiede documenti; l'accesso ordinario è su appuntamento. In urgenza usa 1522 o 112."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Città di Torino — Centro Antiviolenza",
-                  "href": "https://www.comune.torino.it/servizi/centro-antiviolenza"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "114-emergenza-infanzia",
-          "name": "114 — emergenza infanzia",
-          "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Numero gratuito:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "114",
-                  "href": "tel:114"
-                },
-                {
-                  "text": ", per minore in pericolo o grave disagio."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Per pericolo immediato chiama anche 112. Il Servizio Minori e Famiglie risponde nei feriali al "
-                },
-                {
-                  "text": "011 011 25660",
-                  "href": "tel:+3901101125660"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Città di Torino — Servizio Minori e Famiglie",
-                  "href": "https://www.comune.torino.it/amministrazione/servizio-minori-famiglie"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "casarcobaleno-supporto-lgbtqia",
-          "name": "CasArcobaleno — supporto LGBTQIA+",
-          "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Indirizzo:",
-                  "strong": true
-                },
-                {
-                  "text": " via Bernardino Lanino 3/A, Torino"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefono:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "011 765 0051",
-                  "href": "tel:+390117650051"
-                },
-                {
-                  "text": "; "
-                },
-                {
-                  "text": "email:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "casarcobaleno.torino@gmail.com",
-                  "href": "mailto:casarcobaleno.torino@gmail.com"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Riunisce associazioni e servizi e offre informazione, ascolto, orientamento legale e supporto contro discriminazione. Non è un dormitorio; per un posto sicuro indica il rischio anche a Homeless Torino."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "TorinoGiovani — CasArcobaleno",
-                  "href": "https://www.torinogiovani.it/luoghi/casarcobaleno"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "1577-numero-nazionale-antitratta",
-          "name": "1577 — numero nazionale antitratta",
-          "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Numero:",
-                  "strong": true
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "1577",
-                  "href": "tel:1577"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Per tratta e grave sfruttamento sessuale, lavorativo, nell'accattonaggio o in attività illecite. Può chiamare la persona coinvolta o chi conosce la situazione. In pericolo usa 112."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Dipartimento Pari Opportunità — numeri utili",
-                  "href": "https://www.pariopportunita.gov.it/it/numeri-utili/"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "gruppo-abele-aiuto-locale-contro-lo-sfruttamento",
-          "name": "Gruppo Abele — aiuto locale contro lo sfruttamento",
-          "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Sede generale:",
-                  "strong": true
-                },
-                {
-                  "text": " corso Trapani 95, Torino"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Offre ascolto, orientamento, unità di strada e percorsi protetti per vittime o potenziali vittime di tratta e sfruttamento. Non affrontare lo sfruttatore."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Gruppo Abele — immigrazione e tratta",
-                  "href": "https://www.gruppoabele.org/it-schede-21-immigrazione_e_tratta"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "fragilita",
-      "title": "13. Disabilità, anziani ed ex detenuti",
-      "items": [
-        {
-          "type": "resource",
-          "id": "segnala-subito-una-fragilita",
-          "name": "Segnala subito una fragilità",
-          "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "A Homeless Torino comunica mobilità ridotta, disabilità, terapia, età superiore a 65 anni, dimissione ospedaliera o bisogno di assistenza. Queste informazioni possono cambiare la struttura adatta."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Se c'è rischio sanitario immediato chiama 112."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Città di Torino — accoglienze specifiche",
-                  "href": "https://www.comune.torino.it/novita/comunicati/piano-accoglienza-invernale-20252026-della-citta-torino"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "servizi-sociali-per-disabilita-e-anziani",
-          "name": "Servizi sociali per disabilità e anziani",
-          "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Le équipe territoriali possono valutare assistenza domiciliare, invalidità, tutela, pasti e inserimenti. La sede dipende dalla circoscrizione; per una persona senza dimora inizia dal Servizio Adulti."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Città di Torino — sedi e competenze",
-                  "href": "https://www.comune.torino.it/argomenti/assistenza-sociale/servizio-sociale/luoghi"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "uscita-dal-carcere-o-misura-alternativa",
-          "name": "Uscita dal carcere o misura alternativa",
-          "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Contatta il Servizio Adulti in Difficoltà prima della dimissione, se possibile. Avvocato di strada può orientare su residenza e diritti; il SERD segue anche percorsi collegati a misure alternative."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Porta provvedimento, contatti dell'assistente sociale o UEPE, documenti e terapia."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Servizio Adulti",
-                  "href": "https://www.comune.torino.it/servizi/servizi-abitativi-per-cittadini-senza-dimora"
-                },
-                {
-                  "text": " · "
-                },
-                {
-                  "text": "Avvocato di strada",
-                  "href": "https://www.avvocatodistrada.it/sedi-locali/torino/"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "assistenza-in-stazione-sala-blu",
-          "name": "Assistenza in stazione — Sala Blu",
-          "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "La Sala Blu RFI di Porta Nuova assiste gratuitamente persone con disabilità o mobilità ridotta durante il viaggio. È al binario 1; da fisso "
-                },
-                {
-                  "text": "800 90 60 60",
-                  "href": "tel:800906060"
-                },
-                {
-                  "text": ", da cellulare "
-                },
-                {
-                  "text": "02 32 32 32",
-                  "href": "tel:+3902323232"
-                },
-                {
-                  "text": "."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "La richiesta deve rispettare un preavviso e ricevere conferma."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "RFI — Sala Blu",
-                  "href": "https://www.rfi.it/it/stazioni/pagine-stazioni/accessibilita/le-informazioni-sull-assistenza-delle-sale-blu-in-un-click.html"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "animali",
-      "title": "14. Aiuto con animali",
-      "items": [
-        {
-          "type": "resource",
-          "id": "accoglienza-comunale-con-animale",
-          "name": "Accoglienza comunale con animale",
-          "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "La Città dichiara che le case di ospitalità gestite per suo conto possono accogliere persone insieme agli animali. Dillo al colloquio, indicando specie, dimensione, guinzaglio o trasportino, documenti e farmaci."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "La possibilità concreta dipende da struttura e posti; non lasciare l'animale fuori senza un accordo sicuro."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Città di Torino — accoglienza con animali",
-                  "href": "https://www.torinogiovani.it/vivere-a-torino/dormitori-a-torino"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "canile-rifugio-in-caso-di-grave-disagio",
-          "name": "Canile Rifugio in caso di grave disagio",
-          "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Il rifugio comunale non è una pensione, ma può intervenire a sostegno di nuclei in difficoltà economica segnalati dai Servizi Sociali. Chiedi una valutazione formale."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Città di Torino — aiuto con l'animale",
-                  "href": "https://www.comune.torino.it/domande-frequenti/non-posso-piu-occuparmi-mio-animale-chi-mi-posso-rivolgere"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "resource",
-          "id": "veterinario-e-urgenze",
-          "name": "Veterinario e urgenze",
-          "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Chiedi a Homeless Torino o ai servizi sociali se esiste un progetto veterinario disponibile. Prima di cure private, domanda costo scritto e alternative. Per animale ferito sulla strada, chiama 112 e chiedi il servizio competente."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Città di Torino — servizi e riferimenti per animali",
-                  "href": "https://www.comune.torino.it/schede-informative/riferimenti-per-tutela-animali-torino"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "trasporti",
-      "title": "15. Trasporti, stazioni e aeroporto",
-      "items": [
-        {
-          "type": "resource",
           "id": "abbonamento-gtt-per-persone-disoccupate",
-          "name": "Abbonamento GTT per persone disoccupate",
+          "title": "Abbonamento GTT per persone disoccupate",
+          "description": "Esiste un abbonamento agevolato per residenti a Torino iscritti al Centro per l'Impiego come disoccupati o inoccupati che rispettano gli altri requisiti, compreso l'ISEE. Serve tessera BIP nominativa.\nVerifica importo e documenti prima di prenotare.\nGTT — condizioni degli abbonamenti agevolati",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Esiste un abbonamento agevolato per residenti a Torino iscritti al Centro per l'Impiego come disoccupati o inoccupati che rispettano gli altri requisiti, compreso l'ISEE. Serve tessera BIP nominativa."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Verifica importo e documenti prima di prenotare."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "GTT — condizioni degli abbonamenti agevolati",
-                  "href": "https://ecommerce.gtt.to.it/upload/NORME%20E%20CONDIZIONI%20ALL.pdf"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://ecommerce.gtt.to.it/upload/NORME%20E%20CONDIZIONI%20ALL.pdf",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "centro-servizi-gtt-porta-nuova",
-          "name": "Centro Servizi GTT — Porta Nuova",
+          "title": "Centro Servizi GTT — Porta Nuova",
+          "description": "Gestisce pratiche complesse e tessere agevolate, normalmente su appuntamento. Le persone con disabilità vengono servite anche quando gli appuntamenti ordinari sono esauriti.\nGTT — Centri di Servizi al Cliente",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "address",
-              "content": [
-                {
-                  "text": "Indirizzo:",
-                  "strong": true
-                },
-                {
-                  "text": " stazione Porta Nuova, lato binario 20"
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Gestisce pratiche complesse e tessere agevolate, normalmente su appuntamento. Le persone con disabilità vengono servite anche quando gli appuntamenti ordinari sono esauriti."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "GTT — Centri di Servizi al Cliente",
-                  "href": "https://gtt.to.it/cms/dialoga/72-uffici"
-                }
-              ]
-            }
-          ]
+          "address": "Indirizzo: stazione Porta Nuova, lato binario 20",
+          "phone": "",
+          "website": "https://gtt.to.it/cms/dialoga/72-uffici",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "porta-nuova-servizi-non-gratuiti",
-          "name": "Porta Nuova — servizi non gratuiti",
+          "title": "Porta Nuova — servizi non gratuiti",
+          "description": "Bagni, deposito bagagli, biglietti e altri servizi commerciali possono essere a pagamento. Per doccia, pasto, deposito sociale o aiuto usa Homeless Torino in via Sacchi 47.\nNon consegnare denaro o documenti a persone che promettono viaggi, lavoro o accoglienza senza ricevuta.\nRFI — Torino Porta Nuova",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Bagni, deposito bagagli, biglietti e altri servizi commerciali possono essere a pagamento. Per doccia, pasto, deposito sociale o aiuto usa Homeless Torino in via Sacchi 47."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Non consegnare denaro o documenti a persone che promettono viaggi, lavoro o accoglienza senza ricevuta."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "RFI — Torino Porta Nuova",
-                  "href": "https://www.rfi.it/it/stazioni/torino-porta-nuova.html"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.rfi.it/it/stazioni/torino-porta-nuova.html",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "aeroporto-di-torino-treno",
-          "name": "Aeroporto di Torino — treno",
+          "title": "Aeroporto di Torino — treno",
+          "description": "La ferrovia collega Caselle con Torino Porta Susa in circa mezz'ora. Orari e prezzi cambiano: controlla il giorno del viaggio e compra solo da canali ufficiali.\nTorino Airport — treno",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "La ferrovia collega Caselle con Torino Porta Susa in circa mezz'ora. Orari e prezzi cambiano: controlla il giorno del viaggio e compra solo da canali ufficiali."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Torino Airport — treno",
-                  "href": "https://www.aeroportoditorino.it/it/tomove/trasporti-e-parcheggi/in-treno"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.aeroportoditorino.it/it/tomove/trasporti-e-parcheggi/in-treno",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "aeroporto-di-torino-autobus",
-          "name": "Aeroporto di Torino — autobus",
+          "title": "Aeroporto di Torino — autobus",
+          "description": "Bus autorizzati collegano Caselle con Porta Nuova, Porta Susa o corso Vittorio Emanuele II. Confronta prezzo, ultima corsa e punto esatto sul sito ufficiale.\nTorino Airport — autobus",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Bus autorizzati collegano Caselle con Porta Nuova, Porta Susa o corso Vittorio Emanuele II. Confronta prezzo, ultima corsa e punto esatto sul sito ufficiale."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Torino Airport — autobus",
-                  "href": "https://www.aeroportoditorino.it/it/tomove/trasporti-e-parcheggi/in-bus"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.aeroportoditorino.it/it/tomove/trasporti-e-parcheggi/in-bus",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     },
     {
-      "id": "verifica",
-      "title": "16. Verifica, sicurezza e correzioni",
-      "items": [
+      "id": "benefits",
+      "title": "Welfare, contributi e casa",
+      "entries": [
         {
-          "type": "resource",
+          "id": "servizi-sociali-territoriali",
+          "title": "Servizi sociali territoriali",
+          "description": "Per residenti, il servizio dipende da quartiere e bisogno: reddito, casa, lavoro, minori, disabilità o anziani. Per persone senza dimora con residenza virtuale, inizia dal Servizio Adulti in Difficoltà.\nPorta documenti, ISEE se disponibile, atti di sfratto, certificati medici e scadenze. L'apertura di una pratica non garantisce un contributo.\nCittà di Torino — sedi dei servizi sociali",
+          "last_verified": "2026-11-12",
+          "address": "",
+          "phone": "",
+          "website": "https://www.comune.torino.it/argomenti/assistenza-sociale/servizio-sociale/luoghi",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "assegno-di-inclusione-adi",
+          "title": "Assegno di Inclusione — ADI",
+          "description": "Misura nazionale per nuclei che rispettano requisiti economici, di residenza e composizione. La domanda richiede ISEE e un percorso di inclusione. Chiedi a INPS, patronato o servizio sociale di verificare i requisiti aggiornati.\nINPS — Assegno di Inclusione",
+          "last_verified": "2026-11-12",
+          "address": "",
+          "phone": "",
+          "website": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.assegno-di-inclusione-adi.html",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "supporto-per-la-formazione-e-il-lavoro-sfl",
+          "title": "Supporto per la Formazione e il Lavoro — SFL",
+          "description": "Misura nazionale per adulti che rispettano i requisiti e partecipano a formazione o politica attiva. Verifica con INPS, Centro per l'Impiego o patronato prima della domanda.\nINPS — SFL",
+          "last_verified": "2026-11-12",
+          "address": "",
+          "phone": "",
+          "website": "https://www.inps.it/it/it/inps-comunica/dossier/decreto-lavoro--cosa-cambia/supporto-per-la-formazione-e-il-lavoro.html",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "sportello-casa-sfratto-ed-emergenza-abitativa",
+          "title": "Sportello Casa — sfratto ed emergenza abitativa",
+          "description": "Telefono: 011 011 24300; email: sportello.sfratti@comune.torino.it. — mailto:sportello.sfratti@comune.torino.it\nPer residenti con sfratto, sgombero o altre cause previste e requisiti di edilizia sociale. Serve appuntamento e documentazione; non aspettare l'ultimo giorno.\nCittà di Torino — domanda e documenti",
+          "last_verified": "2026-11-12",
+          "address": "Indirizzo: via Orvieto 1/20/A, primo piano, Torino",
+          "phone": "+3901101124300",
+          "website": "https://www.comune.torino.it/servizi/domanda-emergenza-abitativa",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "fimi-morosita-incolpevole",
+          "title": "FIMI — morosità incolpevole",
+          "description": "Il fondo può sostenere un accordo con il proprietario in alcuni sfratti per morosità incolpevole. Ha requisiti precisi e richiede collaborazione del locatore; non è un pagamento automatico.\nCittà di Torino — FIMI Salvasfratti",
+          "last_verified": "2026-11-12",
+          "address": "",
+          "phone": "",
+          "website": "https://www.comune.torino.it/servizi/fondo-inquilini-morosi-incolpevoli-fimi",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "isee-caf-e-patronati",
+          "title": "ISEE, CAF e patronati",
+          "description": "Un CAF può preparare l'ISEE; un patronato può assistere con domande INPS. Chiedi prima se è gratuito, quali documenti servono e se occorre appuntamento. Non consegnare PIN o password.\nCittà di Torino — elenco CAF convenzionati",
+          "last_verified": "2026-11-12",
+          "address": "",
+          "phone": "",
+          "website": "https://www.comune.torino.it/media/308",
+          "hours": "",
+          "how_to_access": ""
+        }
+      ]
+    },
+    {
+      "id": "employment",
+      "title": "Lavoro e formazione",
+      "entries": [
+        {
+          "id": "centro-per-l-impiego-torino-nord",
+          "title": "Centro per l'Impiego Torino Nord",
+          "description": "Contact center: 011 087 6000; sede: 011 087 6180.\nOfferte, certificati, orientamento, GOL, collocamento mirato e tirocini. L'appuntamento si prenota per telefono o PiemonteTu. Il servizio non garantisce un'assunzione.\nAgenzia Piemonte Lavoro — Torino Nord",
+          "last_verified": "2026-11-12",
+          "address": "Indirizzo: via Bologna 153, 10154 Torino",
+          "phone": "+390110876000",
+          "website": "https://agenziapiemontelavoro.it/centro-per-limpiego/centro-per-limpiego-di-torino-nord/",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "centro-per-l-impiego-torino-sud",
+          "title": "Centro per l'Impiego Torino Sud",
+          "description": "Contact center: 011 087 6000.\nServizi pubblici per ricerca, offerte, documenti lavorativi, orientamento e formazione. Prenota e chiedi quali documenti portare.\nAgenzia Piemonte Lavoro — Torino Sud",
+          "last_verified": "2026-11-12",
+          "address": "Indirizzo: via Castelgomberto 75, 10137 Torino",
+          "phone": "+390110876000",
+          "website": "https://agenziapiemontelavoro.it/centro-per-limpiego/centro-per-limpiego-di-torino-sud/",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "offerte-di-lavoro-regionali",
+          "title": "Offerte di lavoro regionali",
+          "description": "Le offerte dei Centri per l'Impiego sono pubblicate sul portale ufficiale. Un Punto di Facilitazione può aiutare con l'accesso. Diffida da chi chiede denaro per colloquio, contratto o divisa.\nAgenzia Piemonte Lavoro — offerte",
+          "last_verified": "2026-11-12",
+          "address": "",
+          "phone": "",
+          "website": "https://agenziapiemontelavoro.it/offerte-di-lavoro/",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "ufficio-pastorale-migranti-lavoro-e-italiano",
+          "title": "Ufficio Pastorale Migranti — lavoro e italiano",
+          "description": "Telefoni: 011 246 2092 o 011 246 2443.\nAscolto e orientamento a persone migranti, compresi lavoro, lingua, consulenza legale, salute, fisco e discriminazione. Chiedi lo sportello corretto.\nPastorale Migranti — servizi",
+          "last_verified": "2026-11-12",
+          "address": "Indirizzo: via Cottolengo 22, Torino",
+          "phone": "+390112462092",
+          "website": "https://www.upmtorino.it/servizi/",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "sermig-orientamento-lavorativo",
+          "title": "Sermig — orientamento lavorativo",
+          "description": "Emporio Speranza collega le persone prese in carico a orientamento, tirocini e inserimento lavorativo. Non assegna posti immediati: l'accesso segue ascolto e progetto.\nSermig — percorsi di inclusione",
+          "last_verified": "2026-11-12",
+          "address": "",
+          "phone": "",
+          "website": "https://www.sermig.org/arsenali/arsenale-della-pace/accoglienza/emporio_speranza.html",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "preparare-la-ricerca",
+          "title": "Preparare la ricerca",
+          "description": "Chiedi al Centro per l'Impiego o a una biblioteca aiuto per email, curriculum e candidature. Conserva copia di documenti, contratto e ore lavorate. Per sfruttamento o minacce chiama 112; per possibile tratta chiama 1577.\nTorinoGiovani — lavoro",
+          "last_verified": "2026-11-12",
+          "address": "",
+          "phone": "1577",
+          "website": "https://www.torinogiovani.it/lavoro",
+          "hours": "",
+          "how_to_access": ""
+        }
+      ]
+    },
+    {
+      "id": "legal",
+      "title": "Aiuto legale e migrazione",
+      "entries": [
+        {
+          "id": "avvocato-di-strada-torino",
+          "title": "Avvocato di strada Torino",
+          "description": "Email: torino@avvocatodistrada.it. — mailto:torino@avvocatodistrada.it\nAssistenza legale gratuita per persone senza dimora, anche su residenza, documenti e diritti. Le date vengono pubblicate dall'associazione: scrivi prima.\nAvvocato di strada — Torino",
+          "last_verified": "2026-11-12",
+          "address": "Ricevimento: Bartolomeo & C., via Camerana 10, Torino",
+          "phone": "",
+          "website": "https://www.avvocatodistrada.it/sedi-locali/torino/",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "spazio-comune-infostranieri",
+          "title": "Spazio Comune — InfoStranieri",
+          "description": "Telefono: 011 011 29455; email: stranieri@comune.torino.it. — mailto:stranieri@comune.torino.it\nInformazioni gratuite su immigrazione, pratiche e servizi per persone UE ed extra UE. È possibile presentarsi negli orari pubblicati o telefonare.\nCittà di Torino — InfoStranieri",
+          "last_verified": "2026-11-12",
+          "address": "Indirizzo: via Bologna 49/A, Torino",
+          "phone": "+3901101129455",
+          "website": "https://www.comune.torino.it/servizi/sportello-infostranieri",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "ufficio-pastorale-migranti",
+          "title": "Ufficio Pastorale Migranti",
+          "description": "Telefoni: 011 246 2092 o 011 246 2443.\nSportelli per ascolto, consulenza legale, salute, fisco, lavoro, lingua e discriminazione. Partecipa anche alla prenotazione di alcuni appuntamenti per protezione internazionale.\nPastorale Migranti — aree di aiuto",
+          "last_verified": "2026-11-12",
+          "address": "Indirizzo: via Cottolengo 22, Torino",
+          "phone": "+390112462092",
+          "website": "https://www.upmtorino.it/chi-siamo/le-aree/",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "prima-di-firmare",
+          "title": "Prima di firmare",
+          "description": "Non firmare dimissioni, rinunce, contratti, debiti o dichiarazioni che non capisci. Chiedi una copia e un interprete. Conserva fotografie di documenti, ricevute, messaggi e turni.\nComunica subito una scadenza: l'assistenza gratuita non sospende automaticamente i termini.\nAvvocato di strada Torino",
+          "last_verified": "2026-11-12",
+          "address": "",
+          "phone": "",
+          "website": "https://www.avvocatodistrada.it/sedi-locali/torino/",
+          "hours": "",
+          "how_to_access": ""
+        }
+      ]
+    },
+    {
+      "id": "documents",
+      "title": "Documenti, residenza e posta",
+      "entries": [
+        {
+          "id": "residenza-virtuale-via-lia-varesio",
+          "title": "Residenza virtuale — via Lia Varesio",
+          "description": "Torino usa l'indirizzo virtuale via Lia Varesio per persone senza dimora che hanno stabilito il domicilio nel Comune. La procedura richiede verifica e può passare da servizi sociali, Homeless Torino, associazioni o Spazio Comune.\nChiedi chi deve certificare il domicilio, dove ricevere la posta e come mantenere attiva l'iscrizione.\nCittà di Torino — vademecum anagrafico",
+          "last_verified": "2026-11-12",
+          "address": "",
+          "phone": "",
+          "website": "https://www.comune.torino.it/amministrazione/documenti-dati/documenti/vademecum-per-laccesso-alliscrizione-anagrafica",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "anagrafe-centrale",
+          "title": "Anagrafe Centrale",
+          "description": "Telefono: 011 011 25380; email: info.anagrafe@comune.torino.it. — mailto:info.anagrafe@comune.torino.it\nGestisce anche il registro delle persone senza fissa dimora domiciliate a Torino. Per molte pratiche serve appuntamento; chiedi a Homeless Torino di preparare prima la pratica di residenza.\nCittà di Torino — Anagrafe Centrale",
+          "last_verified": "2026-11-12",
+          "address": "Indirizzo: via della Consolata 23, Torino",
+          "phone": "+3901101125380",
+          "website": "https://www.comune.torino.it/vivere-comune/luoghi/anagrafe-centrale",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "carta-d-identita-elettronica",
+          "title": "Carta d'identità elettronica",
+          "description": "Normalmente richiede appuntamento, fotografia, identificazione e pagamento. L'Anagrafe Centrale ha accesso libero soltanto per urgenze motivate. Se mancano denaro o documenti, chiedi prima al servizio sociale.\nCittà di Torino — carta d'identità",
+          "last_verified": "2026-11-12",
+          "address": "",
+          "phone": "",
+          "website": "https://www.comune.torino.it/servizi/richiedere-carta-identita",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "fermo-posta-e-recapito",
+          "title": "Fermo posta e recapito",
+          "description": "Chiedi a Homeless Torino quale centro può ricevere la posta e con quali regole. Verifica frequenza del ritiro, durata e documenti richiesti: perdere una convocazione può interrompere pratiche.\nCittà di Torino — centri e fermo posta",
+          "last_verified": "2026-11-12",
+          "address": "",
+          "phone": "",
+          "website": "https://www.comune.torino.it/novita/comunicati/piano-accoglienza-invernale-20252026-della-citta-torino",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "aiuto-digitale-per-prenotazioni-e-spid",
+          "title": "Aiuto digitale per prenotazioni e SPID",
+          "description": "Se una pratica richiede accesso online, usa un Punto di Facilitazione gratuito. Porta telefono, email e documenti, ma digita personalmente password e codici quando possibile.\nCittà di Torino — facilitazione digitale",
+          "last_verified": "2026-11-12",
+          "address": "",
+          "phone": "",
+          "website": "https://www.comune.torino.it/schede-informative/sedi-orari-dei-punti-facilitazione-digitale-torino",
+          "hours": "",
+          "how_to_access": ""
+        }
+      ]
+    },
+    {
+      "id": "mail",
+      "title": "Mailing address",
+      "entries": []
+    },
+    {
+      "id": "storage",
+      "title": "Storage",
+      "entries": []
+    },
+    {
+      "id": "safety",
+      "title": "Donne, minori, persone LGBTQIA+ e tratta",
+      "entries": [
+        {
+          "id": "1522-violenza-e-stalking",
+          "title": "1522 — violenza e stalking",
+          "description": "Numero gratuito: 1522, 24 ore su 24 e in più lingue.\nPuoi chiamare anche senza aver deciso di denunciare. Se l'aggressore è presente o c'è pericolo immediato chiama 112.\n1522 — servizio nazionale",
+          "last_verified": "2026-11-12",
+          "address": "",
+          "phone": "1522",
+          "website": "https://www.1522.eu/",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "centro-antiviolenza-della-citta",
+          "title": "Centro Antiviolenza della Città",
+          "description": "Telefono: 011 011 31500; email: centroantiviolenza@comune.torino.it. — mailto:centroantiviolenza@comune.torino.it\nServizio gratuito con ascolto, orientamento e supporto alla denuncia. Non richiede documenti; l'accesso ordinario è su appuntamento. In urgenza usa 1522 o 112.\nCittà di Torino — Centro Antiviolenza",
+          "last_verified": "2026-11-12",
+          "address": "Indirizzo: corso Unione Sovietica 228/D, Torino",
+          "phone": "+3901101131500",
+          "website": "https://www.comune.torino.it/servizi/centro-antiviolenza",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "114-emergenza-infanzia",
+          "title": "114 — emergenza infanzia",
+          "description": "Numero gratuito: 114, per minore in pericolo o grave disagio.\nPer pericolo immediato chiama anche 112. Il Servizio Minori e Famiglie risponde nei feriali al 011 011 25660.\nCittà di Torino — Servizio Minori e Famiglie",
+          "last_verified": "2026-11-12",
+          "address": "",
+          "phone": "114",
+          "website": "https://www.comune.torino.it/amministrazione/servizio-minori-famiglie",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "casarcobaleno-supporto-lgbtqia",
+          "title": "CasArcobaleno — supporto LGBTQIA+",
+          "description": "Telefono: 011 765 0051; email: casarcobaleno.torino@gmail.com. — mailto:casarcobaleno.torino@gmail.com\nRiunisce associazioni e servizi e offre informazione, ascolto, orientamento legale e supporto contro discriminazione. Non è un dormitorio; per un posto sicuro indica il rischio anche a Homeless Torino.\nTorinoGiovani — CasArcobaleno",
+          "last_verified": "2026-11-12",
+          "address": "Indirizzo: via Bernardino Lanino 3/A, Torino",
+          "phone": "+390117650051",
+          "website": "https://www.torinogiovani.it/luoghi/casarcobaleno",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "1577-numero-nazionale-antitratta",
+          "title": "1577 — numero nazionale antitratta",
+          "description": "Numero: 1577.\nPer tratta e grave sfruttamento sessuale, lavorativo, nell'accattonaggio o in attività illecite. Può chiamare la persona coinvolta o chi conosce la situazione. In pericolo usa 112.\nDipartimento Pari Opportunità — numeri utili",
+          "last_verified": "2026-11-12",
+          "address": "",
+          "phone": "1577",
+          "website": "https://www.pariopportunita.gov.it/it/numeri-utili/",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "gruppo-abele-aiuto-locale-contro-lo-sfruttamento",
+          "title": "Gruppo Abele — aiuto locale contro lo sfruttamento",
+          "description": "Offre ascolto, orientamento, unità di strada e percorsi protetti per vittime o potenziali vittime di tratta e sfruttamento. Non affrontare lo sfruttatore.\nGruppo Abele — immigrazione e tratta",
+          "last_verified": "2026-11-12",
+          "address": "Sede generale: corso Trapani 95, Torino",
+          "phone": "",
+          "website": "https://www.gruppoabele.org/it-schede-21-immigrazione_e_tratta",
+          "hours": "",
+          "how_to_access": ""
+        }
+      ]
+    },
+    {
+      "id": "specialist-support",
+      "title": "Disabilità, anziani ed ex detenuti",
+      "entries": [
+        {
+          "id": "segnala-subito-una-fragilita",
+          "title": "Segnala subito una fragilità",
+          "description": "A Homeless Torino comunica mobilità ridotta, disabilità, terapia, età superiore a 65 anni, dimissione ospedaliera o bisogno di assistenza. Queste informazioni possono cambiare la struttura adatta.\nSe c'è rischio sanitario immediato chiama 112.\nCittà di Torino — accoglienze specifiche",
+          "last_verified": "2026-11-12",
+          "address": "",
+          "phone": "",
+          "website": "https://www.comune.torino.it/novita/comunicati/piano-accoglienza-invernale-20252026-della-citta-torino",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "servizi-sociali-per-disabilita-e-anziani",
+          "title": "Servizi sociali per disabilità e anziani",
+          "description": "Le équipe territoriali possono valutare assistenza domiciliare, invalidità, tutela, pasti e inserimenti. La sede dipende dalla circoscrizione; per una persona senza dimora inizia dal Servizio Adulti.\nCittà di Torino — sedi e competenze",
+          "last_verified": "2026-11-12",
+          "address": "",
+          "phone": "",
+          "website": "https://www.comune.torino.it/argomenti/assistenza-sociale/servizio-sociale/luoghi",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "uscita-dal-carcere-o-misura-alternativa",
+          "title": "Uscita dal carcere o misura alternativa",
+          "description": "Contatta il Servizio Adulti in Difficoltà prima della dimissione, se possibile. Avvocato di strada può orientare su residenza e diritti; il SERD segue anche percorsi collegati a misure alternative.\nPorta provvedimento, contatti dell'assistente sociale o UEPE, documenti e terapia.\nServizio Adulti · Avvocato di strada — https://www.avvocatodistrada.it/sedi-locali/torino/",
+          "last_verified": "2026-11-12",
+          "address": "",
+          "phone": "",
+          "website": "https://www.comune.torino.it/servizi/servizi-abitativi-per-cittadini-senza-dimora",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "assistenza-in-stazione-sala-blu",
+          "title": "Assistenza in stazione — Sala Blu",
+          "description": "La Sala Blu RFI di Porta Nuova assiste gratuitamente persone con disabilità o mobilità ridotta durante il viaggio. È al binario 1; da fisso 800 90 60 60, da cellulare 02 32 32 32.\nLa richiesta deve rispettare un preavviso e ricevere conferma.\nRFI — Sala Blu",
+          "last_verified": "2026-11-12",
+          "address": "",
+          "phone": "800906060",
+          "website": "https://www.rfi.it/it/stazioni/pagine-stazioni/accessibilita/le-informazioni-sull-assistenza-delle-sale-blu-in-un-click.html",
+          "hours": "",
+          "how_to_access": ""
+        }
+      ]
+    },
+    {
+      "id": "veterans",
+      "title": "Veterans support",
+      "entries": []
+    },
+    {
+      "id": "pets",
+      "title": "Aiuto con animali",
+      "entries": [
+        {
+          "id": "accoglienza-comunale-con-animale",
+          "title": "Accoglienza comunale con animale",
+          "description": "La Città dichiara che le case di ospitalità gestite per suo conto possono accogliere persone insieme agli animali. Dillo al colloquio, indicando specie, dimensione, guinzaglio o trasportino, documenti e farmaci.\nLa possibilità concreta dipende da struttura e posti; non lasciare l'animale fuori senza un accordo sicuro.\nCittà di Torino — accoglienza con animali",
+          "last_verified": "2026-11-12",
+          "address": "",
+          "phone": "",
+          "website": "https://www.torinogiovani.it/vivere-a-torino/dormitori-a-torino",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "canile-rifugio-in-caso-di-grave-disagio",
+          "title": "Canile Rifugio in caso di grave disagio",
+          "description": "Il rifugio comunale non è una pensione, ma può intervenire a sostegno di nuclei in difficoltà economica segnalati dai Servizi Sociali. Chiedi una valutazione formale.\nCittà di Torino — aiuto con l'animale",
+          "last_verified": "2026-11-12",
+          "address": "",
+          "phone": "",
+          "website": "https://www.comune.torino.it/domande-frequenti/non-posso-piu-occuparmi-mio-animale-chi-mi-posso-rivolgere",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "veterinario-e-urgenze",
+          "title": "Veterinario e urgenze",
+          "description": "Chiedi a Homeless Torino o ai servizi sociali se esiste un progetto veterinario disponibile. Prima di cure private, domanda costo scritto e alternative. Per animale ferito sulla strada, chiama 112 e chiedi il servizio competente.\nCittà di Torino — servizi e riferimenti per animali",
+          "last_verified": "2026-11-12",
+          "address": "",
+          "phone": "",
+          "website": "https://www.comune.torino.it/schede-informative/riferimenti-per-tutela-animali-torino",
+          "hours": "",
+          "how_to_access": ""
+        }
+      ]
+    },
+    {
+      "id": "other",
+      "title": "Verifica, sicurezza e correzioni",
+      "entries": [
+        {
           "id": "come-usare-questa-pagina",
-          "name": "Come usare questa pagina",
+          "title": "Come usare questa pagina",
+          "description": "Telefona prima di attraversare la città. Chiedi: chi può entrare, quali documenti servono, quanto costa, a che ora presentarsi e se c'è disponibilità.\nNon consegnare documenti originali senza ricevuta. Non pagare per promesse di letto, lavoro, contributo o corsia preferenziale.",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Telefona prima di attraversare la città. Chiedi: chi può entrare, quali documenti servono, quanto costa, a che ora presentarsi e se c'è disponibilità."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Non consegnare documenti originali senza ricevuta. Non pagare per promesse di letto, lavoro, contributo o corsia preferenziale."
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "fonti-principali",
-          "name": "Fonti principali",
+          "title": "Fonti principali",
+          "description": "Informazioni controllate su Città di Torino e TorinoGiovani, ASL Città di Torino, Agenzia Piemonte Lavoro, INPS, RFI, GTT, Torino Airport e siti ufficiali delle organizzazioni elencate.\nDormitori, mense e bagni · Città di Torino — assistenza · ASL Città di Torino — https://www.comune.torino.it/servizi/salute-benessere-assistenza — https://www.aslcittaditorino.it/",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Informazioni controllate su Città di Torino e TorinoGiovani, ASL Città di Torino, Agenzia Piemonte Lavoro, INPS, RFI, GTT, Torino Airport e siti ufficiali delle organizzazioni elencate."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Dormitori, mense e bagni",
-                  "href": "https://www.torinogiovani.it/vivere-a-torino/dormitori-a-torino"
-                },
-                {
-                  "text": " · "
-                },
-                {
-                  "text": "Città di Torino — assistenza",
-                  "href": "https://www.comune.torino.it/servizi/salute-benessere-assistenza"
-                },
-                {
-                  "text": " · "
-                },
-                {
-                  "text": "ASL Città di Torino",
-                  "href": "https://www.aslcittaditorino.it/"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://www.torinogiovani.it/vivere-a-torino/dormitori-a-torino",
+          "hours": "",
+          "how_to_access": ""
         },
         {
-          "type": "resource",
           "id": "segnala-una-correzione",
-          "name": "Segnala una correzione",
+          "title": "Segnala una correzione",
+          "description": "Se un servizio è chiuso, ha cambiato sede o procedura, invia una correzione con fonte verificabile. Non pubblicare nomi, cartelle sanitarie, numeri di documento, indirizzi protetti o storie personali.\nCome contribuire · Segnalazione su GitHub — ../../CONTRIBUTING.md",
           "last_verified": "2026-11-12",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Se un servizio è chiuso, ha cambiato sede o procedura, invia una correzione con fonte verificabile. Non pubblicare nomi, cartelle sanitarie, numeri di documento, indirizzi protetti o storie personali."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Come contribuire",
-                  "href": "../../CONTRIBUTING.md"
-                },
-                {
-                  "text": " · "
-                },
-                {
-                  "text": "Segnalazione su GitHub",
-                  "href": "https://github.com/carlosbranco/no-home-help/issues"
-                }
-              ]
-            }
-          ]
+          "address": "",
+          "phone": "",
+          "website": "https://github.com/carlosbranco/no-home-help/issues",
+          "hours": "",
+          "how_to_access": ""
         }
       ]
     }
