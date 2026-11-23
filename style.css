@@ -350,7 +350,7 @@ td:nth-child(2) {
 
   h1 {
     margin: 0 0 1.5mm;
-    font-size: 14pt;
+    font-size: 9pt;
   }
 
   h2 {
@@ -397,55 +397,14 @@ td:nth-child(2) {
   .skip-link,
   .back-to-top,
   .entry-report,
-  .site-actions {
-    display: none;
-  }
-
-  .urgent {
-    margin: 1.5mm 0;
-    padding: 1.5mm 0 1.5mm 2mm;
-    border-left-width: 2pt;
-  }
-
-  [dir="rtl"] .urgent {
-    padding: 1.5mm 2mm 1.5mm 0;
-  }
-
-  .notice {
-    margin: 1.5mm 0 2mm;
-    padding: 1mm 0;
-    font-size: 7.6pt;
-  }
-
+  .site-actions,
+  .urgent,
+  header > .meta,
+  .notice,
   .page-intro,
-  main > nav[aria-labelledby="contents-title"] {
-    column-span: all;
-  }
-
-  .page-intro:empty {
+  main > nav[aria-labelledby="contents-title"],
+  .directions-link-line {
     display: none;
-  }
-
-  main > nav[aria-labelledby="contents-title"] {
-    margin: 1.5mm 0 2.5mm;
-    padding: 1mm 0 1.5mm;
-    border-block: 0.75pt solid #555;
-    break-inside: avoid;
-  }
-
-  main > nav[aria-labelledby="contents-title"] h2 {
-    margin: 0 0 0.8mm;
-  }
-
-  main > nav[aria-labelledby="contents-title"] ol {
-    columns: 3;
-    column-gap: 6mm;
-    margin: 0;
-    padding-inline-start: 5mm;
-  }
-
-  main > nav[aria-labelledby="contents-title"] li {
-    break-inside: avoid;
   }
 
   section {

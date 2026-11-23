@@ -145,17 +145,26 @@ function entryAnchor(categoryId, entryId) {
 
 function renderLinkedText(value = "") {
   const pattern = /(https?:\/\/[^\s]+|tel:[+*#0-9][^\s]*)/gi;
-  let output = "";
-  let cursor = 0;
-  for (const match of value.matchAll(pattern)) {
-    output += escapeHtml(value.slice(cursor, match.index));
-    const href = match[0];
-    const label = href.startsWith("tel:") ? href.slice(4) : href;
-    output += `<a href="${escapeHtml(href)}">${escapeHtml(label)}</a>`;
-    cursor = match.index + href.length;
-  }
-  output += escapeHtml(value.slice(cursor));
-  return output.replace(/\r?\n/g, "<br>");
+  const directionsPattern = /https?:\/\/(?:www\.)?(?:google\.[^/]+\/maps|maps\.google\.|goo\.gl\/maps|maps\.apple\.|(?:www\.)?openstreetmap\.org\/directions|(?:www\.)?waze\.com)/i;
+  const lines = value.split(/\r?\n/);
+  return lines.map((line, index) => {
+    let output = "";
+    let cursor = 0;
+    let containsDirectionsLink = false;
+    for (const match of line.matchAll(pattern)) {
+      output += escapeHtml(line.slice(cursor, match.index));
+      const href = match[0];
+      const label = href.startsWith("tel:") ? href.slice(4) : href;
+      if (directionsPattern.test(href)) containsDirectionsLink = true;
+      output += `<a href="${escapeHtml(href)}">${escapeHtml(label)}</a>`;
+      cursor = match.index + href.length;
+    }
+    output += escapeHtml(line.slice(cursor));
+    const lineBreak = index < lines.length - 1 ? "<br>" : "";
+    return containsDirectionsLink
+      ? `<span class="directions-link-line">${output}${lineBreak}</span>`
+      : `${output}${lineBreak}`;
+  }).join("");
 }
 
 function renderTextBlock(value, indent = "    ") {
