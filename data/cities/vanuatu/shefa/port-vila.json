@@ -1,0 +1,276 @@
+{
+  "$schema": "https://nohomehelp.com/schemas/city.schema.json",
+  "documentation": "https://github.com/carlosbranco/no-home-help/blob/main/EDIT_CITY_JSON.md",
+  "schema_version": 2,
+  "status": "published",
+  "locale": {
+    "language": "en",
+    "direction": "ltr",
+    "primary": true
+  },
+  "location": {
+    "continent": "Oceania",
+    "country_code": "VU",
+    "country_name": "Vanuatu",
+    "country_local_name": "Vanuatu",
+    "country_slug": "vanuatu",
+    "region_code": "18",
+    "region_name": "Shefa",
+    "region_slug": "shefa",
+    "city_name": "Port Vila",
+    "city_slug": "port-vila"
+  },
+  "seo": {
+    "title": "Port Vila homeless help - No Home Help",
+    "description": "Verified shelter, food, health, safety, legal and social support for people experiencing homelessness in Port Vila."
+  },
+  "page": {
+    "heading": "PORT VILA - HOMELESS HELP",
+    "last_verified": "2026-11-23",
+    "urgent": "Police emergency: 111 on Digicel or 1111 on Vodafone. Hospital emergency: 112. Violence crisis and safe-house line: 161.",
+    "notice": "Information and availability can change. Call before travelling when possible. A listing does not guarantee a bed, meal, appointment, benefit, treatment or job.",
+    "intro": "No general walk-in homeless shelter is publicly listed for Port Vila. Women and children escaping violence can call the Vanuatu Women's Centre on 161 for confidential crisis support and safe-house referral. For other urgent needs, contact the Ministry of Justice and Community Services or Vanuatu Red Cross and explain the situation.",
+    "footer": "Main sources: Vanuatu Women's Centre, Ministry of Justice and Community Services, Office of the Public Solicitor, Vila Central Hospital, Vanuatu Family Health Association and Vanuatu Red Cross."
+  },
+  "categories": [
+    {
+      "id": "emergency",
+      "title": "Emergency help",
+      "entries": [
+        {
+          "id": "vwc-crisis-line",
+          "title": "Vanuatu Women's Centre crisis line",
+          "description": "Free confidential crisis counselling, legal support, safety planning and safe-house referral for women and children affected by violence.",
+          "last_verified": "2026-11-23",
+          "address": "Phone service and Port Vila office",
+          "phone": "161",
+          "website": "https://www.stanapstrong.com/help/",
+          "hours": "24 hours",
+          "how_to_access": "Call 161. Use Police 111 or 1111 if there is immediate danger."
+        },
+        {
+          "id": "vila-central-hospital",
+          "title": "Vila Central Hospital emergency",
+          "description": "Public hospital emergency care for serious illness or injury.",
+          "last_verified": "2026-11-23",
+          "address": "Port Vila",
+          "phone": "112",
+          "website": "https://moh.gov.vu/",
+          "hours": "Emergency service 24 hours",
+          "how_to_access": "Call 112 or attend the emergency department."
+        }
+      ]
+    },
+    {
+      "id": "shelter",
+      "title": "Shelter and housing",
+      "entries": [
+        {
+          "id": "vwc-safe-house",
+          "title": "Vanuatu Women's Centre safe-house referral",
+          "description": "Confidential safe accommodation may be arranged for women and children escaping family or sexual violence after a safety assessment.",
+          "last_verified": "2026-11-23",
+          "address": "Port Vila - confidential placement",
+          "phone": "161",
+          "website": "https://www.vanuatuwomenscentre.org/branches/",
+          "hours": "Crisis line 24 hours",
+          "how_to_access": "Call 161. Do not attempt to locate a confidential safe house directly."
+        }
+      ]
+    },
+    {
+      "id": "food",
+      "title": "Food",
+      "entries": []
+    },
+    {
+      "id": "community",
+      "title": "Community and religious help",
+      "entries": [
+        {
+          "id": "vanuatu-red-cross",
+          "title": "Vanuatu Red Cross Society",
+          "description": "Humanitarian, health and disaster assistance. Support depends on assessed need and current programmes; it is not a guaranteed daily food or shelter service.",
+          "last_verified": "2026-11-23",
+          "address": "Port Vila",
+          "phone": "",
+          "website": "https://www.ifrc.org/national-societies-directory/vanuatu-red-cross-society",
+          "hours": "Contact the national office",
+          "how_to_access": "Contact the society and explain the need. Use emergency numbers for immediate danger."
+        }
+      ]
+    },
+    {
+      "id": "hygiene",
+      "title": "Showers, laundry and hygiene",
+      "entries": []
+    },
+    {
+      "id": "clothing",
+      "title": "Clothing",
+      "entries": []
+    },
+    {
+      "id": "health",
+      "title": "Health care",
+      "entries": [
+        {
+          "id": "vila-central-hospital-health",
+          "title": "Vila Central Hospital",
+          "description": "Main referral hospital in Port Vila for emergency and specialist medical care.",
+          "last_verified": "2026-11-23",
+          "address": "Port Vila",
+          "phone": "+67822100",
+          "website": "https://moh.gov.vu/",
+          "hours": "Emergency service 24 hours",
+          "how_to_access": "Attend the emergency department for urgent care or call 112."
+        },
+        {
+          "id": "vanuatu-family-health-association",
+          "title": "Vanuatu Family Health Association",
+          "description": "Sexual and reproductive health information and clinical services in Port Vila.",
+          "last_verified": "2026-11-23",
+          "address": "Port Vila",
+          "phone": "+67822140",
+          "website": "https://www.ippf.org/about-us/member-associations/vanuatu",
+          "hours": "Call for current clinic hours",
+          "how_to_access": "Call before visiting and ask about costs and appointment requirements."
+        }
+      ]
+    },
+    {
+      "id": "mental-health",
+      "title": "Mental health and addiction",
+      "entries": [
+        {
+          "id": "mindcare-clinic",
+          "title": "Mindcare Clinic",
+          "description": "Mental-health support through Vila Central Hospital.",
+          "last_verified": "2026-11-23",
+          "address": "Vila Central Hospital, Port Vila",
+          "phone": "+67822100",
+          "website": "https://www.stanapstrong.com/help/",
+          "hours": "Call to confirm",
+          "how_to_access": "Call the hospital and ask for extension 1081. Use emergency care if there is immediate risk."
+        }
+      ]
+    },
+    {
+      "id": "public-facilities",
+      "title": "Public toilets and day facilities",
+      "entries": []
+    },
+    {
+      "id": "phone-internet",
+      "title": "Phone charging and internet",
+      "entries": []
+    },
+    {
+      "id": "transport",
+      "title": "Transport",
+      "entries": []
+    },
+    {
+      "id": "benefits",
+      "title": "Government benefits and social support",
+      "entries": []
+    },
+    {
+      "id": "employment",
+      "title": "Employment",
+      "entries": []
+    },
+    {
+      "id": "legal",
+      "title": "Legal aid",
+      "entries": [
+        {
+          "id": "public-solicitor-vanuatu",
+          "title": "Office of the Public Solicitor",
+          "description": "Legal assistance for people in need, including family law, maintenance, custody, domestic-violence protection orders and some civil or criminal matters.",
+          "last_verified": "2026-11-23",
+          "address": "Emile Mercet Street, Port Vila",
+          "phone": "+67823450",
+          "website": "https://pso.gov.vu/index.php/legal-assistance/civil-law-cases",
+          "hours": "Weekdays 7:30am-4:30pm",
+          "how_to_access": "Call 23450 or 33160 and ask about eligibility and intake."
+        }
+      ]
+    },
+    {
+      "id": "documents",
+      "title": "Documents and identification",
+      "entries": []
+    },
+    {
+      "id": "mail",
+      "title": "Mailing address",
+      "entries": []
+    },
+    {
+      "id": "storage",
+      "title": "Storage",
+      "entries": []
+    },
+    {
+      "id": "safety",
+      "title": "Safety and domestic violence",
+      "entries": [
+        {
+          "id": "vanuatu-womens-centre",
+          "title": "Vanuatu Women's Centre",
+          "description": "Free confidential counselling, legal advice, accompaniment and referrals to police, courts, hospitals and safe housing for survivors of domestic violence, sexual assault and child abuse.",
+          "last_verified": "2026-11-23",
+          "address": "Port Vila",
+          "phone": "161",
+          "website": "https://www.vanuatuwomenscentre.org/counselling/",
+          "hours": "24-hour helpline; office hours vary",
+          "how_to_access": "Call 161 or the office on 25674 or 24000."
+        },
+        {
+          "id": "family-protection-unit",
+          "title": "Police Family Protection Unit",
+          "description": "Police unit for family violence and protection matters.",
+          "last_verified": "2026-11-23",
+          "address": "Port Vila",
+          "phone": "+67822222",
+          "website": "https://www.stanapstrong.com/help/",
+          "hours": "Call to confirm",
+          "how_to_access": "Call 22222 or 555 2948 and ask for extensions 2806 or 2834. Use emergency Police 111 or 1111 if unsafe now."
+        }
+      ]
+    },
+    {
+      "id": "specialist-support",
+      "title": "Specialist support",
+      "entries": [
+        {
+          "id": "child-protection-focal-point",
+          "title": "Child Protection Focal Point",
+          "description": "Crisis support, legal advice and referrals concerning child protection.",
+          "last_verified": "2026-11-23",
+          "address": "Port Vila",
+          "phone": "+67822794",
+          "website": "https://www.stanapstrong.com/help/",
+          "hours": "Call for assistance",
+          "how_to_access": "Call and explain the child's immediate safety needs."
+        }
+      ]
+    },
+    {
+      "id": "veterans",
+      "title": "Veterans support",
+      "entries": []
+    },
+    {
+      "id": "pets",
+      "title": "Help for people with pets",
+      "entries": []
+    },
+    {
+      "id": "other",
+      "title": "Other useful resources",
+      "entries": []
+    }
+  ]
+}

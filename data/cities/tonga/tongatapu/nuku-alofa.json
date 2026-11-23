@@ -1,0 +1,277 @@
+{
+  "$schema": "https://nohomehelp.com/schemas/city.schema.json",
+  "documentation": "https://github.com/carlosbranco/no-home-help/blob/main/EDIT_CITY_JSON.md",
+  "schema_version": 2,
+  "status": "published",
+  "locale": {
+    "language": "en",
+    "direction": "ltr",
+    "primary": true
+  },
+  "location": {
+    "continent": "Oceania",
+    "country_code": "TO",
+    "country_name": "Tonga",
+    "country_local_name": "Tonga",
+    "country_slug": "tonga",
+    "region_code": "02",
+    "region_name": "Tongatapu",
+    "region_slug": "tongatapu",
+    "city_name": "Nuku'alofa",
+    "city_slug": "nuku-alofa"
+  },
+  "seo": {
+    "title": "Nuku'alofa homeless help - No Home Help",
+    "description": "Verified shelter, food, health, safety, legal and social support for people experiencing homelessness in Nuku'alofa."
+  },
+  "page": {
+    "heading": "NUKU'ALOFA - HOMELESS HELP",
+    "last_verified": "2026-11-23",
+    "urgent": "Immediate danger: contact Tonga Police. Violence or safe housing: Women and Children Crisis Centre 0800 444. Medical emergency: Vaiola Hospital.",
+    "notice": "Information and availability can change. Call before travelling when possible. A listing does not guarantee a bed, meal, appointment, benefit, treatment or job.",
+    "intro": "There is no published general walk-in homeless shelter in Nuku'alofa. Women and children escaping violence can contact WCCC for safe housing. The Salvation Army explicitly states that it does not provide accommodation locally, but it can provide emergency food, clothing, health outreach and other support.",
+    "footer": "Main sources: Women and Children Crisis Centre Tonga, Salvation Army Tonga, Tonga Ministry of Health and Public Service Commission."
+  },
+  "categories": [
+    {
+      "id": "emergency",
+      "title": "Emergency help",
+      "entries": [
+        {
+          "id": "wccc-crisis-line",
+          "title": "Women and Children Crisis Centre",
+          "description": "Free, confidential 24-hour crisis intervention, safety planning, counselling, advocacy and safe-housing support for survivors of violence and discrimination.",
+          "last_verified": "2026-11-23",
+          "address": "Taufa'ahau Road, Tungi Colonnade Building, Nuku'alofa",
+          "phone": "0800444",
+          "website": "https://wccctonga.com/",
+          "hours": "24-hour toll-free helpline",
+          "how_to_access": "Call 0800 444. Use police if there is immediate danger."
+        },
+        {
+          "id": "salvation-army-community-ministries",
+          "title": "Salvation Army Regional Community Ministries",
+          "description": "Emergency food parcels, clothing, a mobile health clinic, addiction counselling and other welfare support. The organisation states that it does not offer accommodation in Nuku'alofa.",
+          "last_verified": "2026-11-23",
+          "address": "Mosimani Building, corner Hala Fatafehi and Mateialona, Nuku'alofa",
+          "phone": "+67623760",
+          "website": "https://www.salvationarmy.org.nz/corps/nukualofa-corps/",
+          "hours": "Monday-Friday 8:30am-5:00pm",
+          "how_to_access": "Call before visiting and explain what help is needed."
+        }
+      ]
+    },
+    {
+      "id": "shelter",
+      "title": "Shelter and housing",
+      "entries": [
+        {
+          "id": "wccc-safe-housing",
+          "title": "WCCC safe housing",
+          "description": "Confidential refuge and safe-housing support for survivors of violence. Placement depends on safety assessment and space.",
+          "last_verified": "2026-11-23",
+          "address": "Nuku'alofa - confidential placement",
+          "phone": "0800444",
+          "website": "https://wccctonga.com/",
+          "hours": "Crisis line 24 hours",
+          "how_to_access": "Call the toll-free helpline. Do not travel to a confidential refuge without referral."
+        }
+      ]
+    },
+    {
+      "id": "food",
+      "title": "Food",
+      "entries": [
+        {
+          "id": "salvation-army-food",
+          "title": "Salvation Army emergency food parcels",
+          "description": "Emergency food parcels for people and families in hardship, subject to assessment and supplies.",
+          "last_verified": "2026-11-23",
+          "address": "Mosimani Building, corner Hala Fatafehi and Mateialona, Nuku'alofa",
+          "phone": "+67623760",
+          "website": "https://www.salvationarmy.org.nz/corps/nukualofa-corps/",
+          "hours": "Monday-Friday 8:30am-5:00pm",
+          "how_to_access": "Call first to confirm availability and what information to bring."
+        }
+      ]
+    },
+    {
+      "id": "community",
+      "title": "Community and religious help",
+      "entries": [
+        {
+          "id": "nukualofa-salvation-army",
+          "title": "Nuku'alofa Salvation Army",
+          "description": "Christian community service providing welfare, food, clothing, health outreach, addiction counselling and court or prison visitation.",
+          "last_verified": "2026-11-23",
+          "address": "Sopu, Nuku'alofa",
+          "phone": "+67624175",
+          "website": "https://www.salvationarmy.org.nz/corps/nukualofa-corps/",
+          "hours": "Contact the corps or Community Ministries",
+          "how_to_access": "Call for practical assistance; religious participation is not listed as a condition for welfare support."
+        }
+      ]
+    },
+    {
+      "id": "hygiene",
+      "title": "Showers, laundry and hygiene",
+      "entries": []
+    },
+    {
+      "id": "clothing",
+      "title": "Clothing",
+      "entries": [
+        {
+          "id": "salvation-army-clothing",
+          "title": "Salvation Army clothing support",
+          "description": "Emergency clothing and donated goods may be available through Regional Community Ministries.",
+          "last_verified": "2026-11-23",
+          "address": "Mosimani Building, corner Hala Fatafehi and Mateialona, Nuku'alofa",
+          "phone": "+67623760",
+          "website": "https://www.salvationarmy.org.nz/corps/nukualofa-corps/",
+          "hours": "Monday-Friday 8:30am-5:00pm",
+          "how_to_access": "Call first because stock changes."
+        }
+      ]
+    },
+    {
+      "id": "health",
+      "title": "Health care",
+      "entries": [
+        {
+          "id": "vaiola-hospital",
+          "title": "Vaiola Hospital",
+          "description": "Main referral hospital on Tongatapu and the appropriate destination for urgent medical care.",
+          "last_verified": "2026-11-23",
+          "address": "Taufa'ahau Road, Nuku'alofa",
+          "phone": "",
+          "website": "https://www.health.gov.to/",
+          "hours": "Emergency services operate continuously",
+          "how_to_access": "Go to the emergency department for urgent care."
+        },
+        {
+          "id": "salvation-army-mobile-clinic",
+          "title": "Salvation Army mobile health clinic",
+          "description": "Mobile clinic serving Popua and Patangata on alternating weeks. Contact Community Ministries to confirm the current location and date.",
+          "last_verified": "2026-11-23",
+          "address": "Popua or Patangata, Nuku'alofa",
+          "phone": "+67623760",
+          "website": "https://www.salvationarmy.org.nz/corps/nukualofa-corps/",
+          "hours": "Alternate Tuesdays 1:30pm-4:30pm; confirm first",
+          "how_to_access": "Call before travelling to learn which location is operating."
+        }
+      ]
+    },
+    {
+      "id": "mental-health",
+      "title": "Mental health and addiction",
+      "entries": [
+        {
+          "id": "adac",
+          "title": "Alcohol and Drug Awareness Centre",
+          "description": "Salvation Army counselling, assessment and education relating to alcohol, drugs, HIV, anger management and life skills.",
+          "last_verified": "2026-11-23",
+          "address": "Mosimani Building, corner Hala Fatafehi and Mateialona, Nuku'alofa",
+          "phone": "+67623760",
+          "website": "https://www.salvationarmy.org.nz/corps/nukualofa-corps/",
+          "hours": "Monday-Friday 8:30am-5:00pm",
+          "how_to_access": "Call Community Ministries for an assessment or appointment."
+        }
+      ]
+    },
+    {
+      "id": "public-facilities",
+      "title": "Public toilets and day facilities",
+      "entries": []
+    },
+    {
+      "id": "phone-internet",
+      "title": "Phone charging and internet",
+      "entries": []
+    },
+    {
+      "id": "transport",
+      "title": "Transport",
+      "entries": []
+    },
+    {
+      "id": "benefits",
+      "title": "Government benefits and social support",
+      "entries": []
+    },
+    {
+      "id": "employment",
+      "title": "Employment",
+      "entries": [
+        {
+          "id": "tonga-public-service-jobs",
+          "title": "Tonga Public Service Commission",
+          "description": "Official public-service vacancies and information about applying for government employment. Vacancies and requirements change.",
+          "last_verified": "2026-11-23",
+          "address": "Nuku'alofa",
+          "phone": "",
+          "website": "https://psc.gov.to/",
+          "hours": "Online information and government office hours",
+          "how_to_access": "Check current vacancies and follow the application instructions for each post."
+        }
+      ]
+    },
+    {
+      "id": "legal",
+      "title": "Legal aid",
+      "entries": []
+    },
+    {
+      "id": "documents",
+      "title": "Documents and identification",
+      "entries": []
+    },
+    {
+      "id": "mail",
+      "title": "Mailing address",
+      "entries": []
+    },
+    {
+      "id": "storage",
+      "title": "Storage",
+      "entries": []
+    },
+    {
+      "id": "safety",
+      "title": "Safety and domestic violence",
+      "entries": [
+        {
+          "id": "wccc",
+          "title": "Women and Children Crisis Centre Tonga",
+          "description": "Counselling, advocacy, crisis intervention, practical grants and confidential safe housing for survivors of violence.",
+          "last_verified": "2026-11-23",
+          "address": "Taufa'ahau Road, Tungi Colonnade Building, Nuku'alofa",
+          "phone": "+67622240",
+          "website": "https://wccctonga.com/",
+          "hours": "Office contact plus 24-hour toll-free line 0800 444",
+          "how_to_access": "Call 0800 444 for crisis help or +676 22 240 for the office."
+        }
+      ]
+    },
+    {
+      "id": "specialist-support",
+      "title": "Specialist support",
+      "entries": []
+    },
+    {
+      "id": "veterans",
+      "title": "Veterans support",
+      "entries": []
+    },
+    {
+      "id": "pets",
+      "title": "Help for people with pets",
+      "entries": []
+    },
+    {
+      "id": "other",
+      "title": "Other useful resources",
+      "entries": []
+    }
+  ]
+}

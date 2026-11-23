@@ -1,0 +1,346 @@
+{
+  "$schema": "https://nohomehelp.com/schemas/city.schema.json",
+  "documentation": "https://github.com/carlosbranco/no-home-help/blob/main/EDIT_CITY_JSON.md",
+  "schema_version": 2,
+  "status": "published",
+  "locale": {
+    "language": "en",
+    "direction": "ltr",
+    "primary": true
+  },
+  "location": {
+    "continent": "Oceania",
+    "country_code": "NZ",
+    "country_name": "New Zealand",
+    "country_local_name": "New Zealand",
+    "country_slug": "new-zealand",
+    "region_code": "G2",
+    "region_name": "Wellington Region",
+    "region_slug": "wellington-region",
+    "city_name": "Wellington",
+    "city_slug": "wellington"
+  },
+  "seo": {
+    "title": "Wellington homeless help - No Home Help",
+    "description": "Verified shelter, food, health, safety, legal and social support for people experiencing homelessness in Wellington."
+  },
+  "page": {
+    "heading": "WELLINGTON - HOMELESS HELP",
+    "last_verified": "2026-11-23",
+    "urgent": "Immediate danger or medical emergency: 111. Nowhere to stay: Work and Income 0800 559 009; age 65 or older 0800 552 002.",
+    "notice": "Information and availability can change. Call before travelling when possible. A listing does not guarantee a bed, meal, appointment, benefit, treatment or job.",
+    "intro": "If you need somewhere to stay tonight, call Work and Income before paying for accommodation. DCM supports people who are rough sleeping or without shelter, while Whakamaru and the Compassion Soup Kitchen provide practical daytime help, meals, showers and referrals.",
+    "footer": "Main sources: Work and Income, Ministry of Housing and Urban Development, DCM, Wellington City Mission, Te Aro Health Centre, Orange Sky, Kaibosh and the listed organisations."
+  },
+  "categories": [
+    {
+      "id": "emergency",
+      "title": "Emergency help",
+      "entries": [
+        {
+          "id": "work-and-income-emergency-housing",
+          "title": "Work and Income emergency housing",
+          "description": "Government assessment for people who have nowhere to stay tonight or within the next seven days. Work and Income considers other options first, then may arrange transitional or emergency accommodation if the person qualifies and space is available.",
+          "last_verified": "2026-11-23",
+          "address": "Phone service and Wellington service centres",
+          "phone": "+64800559009",
+          "website": "https://www.workandincome.govt.nz/housing/nowhere-to-stay/emergency-housing/apply",
+          "hours": "Phone weekdays 7:00am-6:00pm and Saturday 8:00am-1:00pm",
+          "how_to_access": "Call before booking or paying for a motel. People aged 65 or older can call 0800 552 002."
+        },
+        {
+          "id": "dcm",
+          "title": "DCM",
+          "description": "Specialist Wellington service for people who are rough sleeping, without shelter or at risk of homelessness. DCM assists with housing, benefits, identification, food, health connections and other practical needs.",
+          "last_verified": "2026-11-23",
+          "address": "2 Lukes Lane, Te Aro, Wellington 6011",
+          "phone": "+64800119689",
+          "website": "https://www.dcm.org.nz/contact",
+          "hours": "Weekday mornings 9:00am-12:00pm; phone support weekdays 9:00am-5:00pm",
+          "how_to_access": "Walk in during morning hours or call the freephone number."
+        }
+      ]
+    },
+    {
+      "id": "shelter",
+      "title": "Shelter and housing",
+      "entries": [
+        {
+          "id": "work-and-income-housing",
+          "title": "Emergency and transitional housing assessment",
+          "description": "Work and Income is the official route for urgent emergency housing and referrals to funded transitional housing. Emergency housing is short-term and usually reviewed after seven nights.",
+          "last_verified": "2026-11-23",
+          "address": "Wellington service centres and phone",
+          "phone": "+64800559009",
+          "website": "https://www.workandincome.govt.nz/housing/nowhere-to-stay",
+          "hours": "Check phone and service-centre hours",
+          "how_to_access": "Call first. Same-day accommodation is not guaranteed."
+        },
+        {
+          "id": "dcm-housing-support",
+          "title": "DCM housing support",
+          "description": "Housing-focused support for people sleeping rough or without shelter. Staff help people work toward emergency, transitional or long-term housing and navigate government services.",
+          "last_verified": "2026-11-23",
+          "address": "2 Lukes Lane, Te Aro, Wellington 6011",
+          "phone": "+6443847699",
+          "website": "https://www.dcm.org.nz/",
+          "hours": "Weekday mornings 9:00am-12:00pm",
+          "how_to_access": "Walk in or call 0800 119 689."
+        }
+      ]
+    },
+    {
+      "id": "food",
+      "title": "Food",
+      "entries": [
+        {
+          "id": "compassion-soup-kitchen",
+          "title": "Compassion Soup Kitchen",
+          "description": "Breakfast and a low-cost evening meal for people who need food. The service is listed by DCM and Kaibosh as a Wellington meal provider.",
+          "last_verified": "2026-11-23",
+          "address": "132 Tory Street, Wellington",
+          "phone": "+6443859299",
+          "website": "https://soupkitchen.org.nz/",
+          "hours": "Monday-Saturday breakfast 7:45am-8:45am; dinner 4:45pm-5:45pm",
+          "how_to_access": "Walk in. Confirm holiday hours before travelling."
+        },
+        {
+          "id": "whakamaru-food",
+          "title": "Whakamaru - Wellington City Mission",
+          "description": "Community hub with a café, social supermarket by appointment and support staff who can connect visitors with other services. Food support may require an appointment and identification.",
+          "last_verified": "2026-11-23",
+          "address": "4-8 Oxford Terrace, Mount Cook, Wellington 6021",
+          "phone": "+648002450900",
+          "website": "https://wellingtoncitymission.org.nz/visit-us/",
+          "hours": "Café Monday-Friday 7:30am-3:00pm and Saturday 8:00am-3:00pm; social supermarket by appointment",
+          "how_to_access": "Visit the hub or call 0800 245 0900. Ask how to access food support."
+        }
+      ]
+    },
+    {
+      "id": "community",
+      "title": "Community and religious help",
+      "entries": [
+        {
+          "id": "whakamaru-community-support",
+          "title": "Whakamaru community support",
+          "description": "Practical help, peer support and connections to housing, health and welfare services in an open community hub.",
+          "last_verified": "2026-11-23",
+          "address": "4-8 Oxford Terrace, Mount Cook, Wellington 6021",
+          "phone": "+648002450900",
+          "website": "https://wellingtoncitymission.org.nz/what-we-do/community-support-services/",
+          "hours": "Monday-Friday and Saturday; check the current service timetable",
+          "how_to_access": "Walk in and speak with the community support team."
+        }
+      ]
+    },
+    {
+      "id": "hygiene",
+      "title": "Showers, laundry and hygiene",
+      "entries": [
+        {
+          "id": "whakamaru-showers-laundry",
+          "title": "Whakamaru showers and laundry",
+          "description": "Free shower, toilet and laundry facilities. Internal showers and laundry are staffed; external showers are available around the clock.",
+          "last_verified": "2026-11-23",
+          "address": "4-8 Oxford Terrace, Mount Cook, Wellington 6021",
+          "phone": "+6442450900",
+          "website": "https://wellingtoncitymission.org.nz/what-we-do/other-support-services-at-whakamaru/",
+          "hours": "Internal showers Monday-Friday 9:00am-4:00pm and Saturday 9:00am-3:00pm; external showers 24 hours; laundry Monday-Friday 9:00am-4:00pm",
+          "how_to_access": "Walk in and ask staff to use the facilities."
+        },
+        {
+          "id": "orange-sky-wellington",
+          "title": "Orange Sky Wellington",
+          "description": "Free mobile laundry, shower and conversation service for anyone experiencing homelessness or hardship. The van operates alongside community partners at different locations.",
+          "last_verified": "2026-11-23",
+          "address": "Various Wellington locations",
+          "phone": "",
+          "website": "https://orangesky.org.nz/locations/wellington/",
+          "hours": "Locations and shifts vary",
+          "how_to_access": "Check the live Wellington schedule before travelling."
+        }
+      ]
+    },
+    {
+      "id": "clothing",
+      "title": "Clothing",
+      "entries": []
+    },
+    {
+      "id": "health",
+      "title": "Health care",
+      "entries": [
+        {
+          "id": "te-aro-health-centre",
+          "title": "Te Aro Health Centre",
+          "description": "Primary health care focused on people experiencing homelessness and other barriers to care. An outreach clinic also operates from DCM.",
+          "last_verified": "2026-11-23",
+          "address": "331 Willis Street, Te Aro, Wellington",
+          "phone": "+6443850255",
+          "website": "https://tearohealth.nz/",
+          "hours": "Clinic Monday-Friday 9:00am-12:00pm and 1:00pm-4:30pm; DCM outreach Monday-Thursday 9:00am-12:00pm",
+          "how_to_access": "Call or attend the clinic. Ask about fees and enrolment before treatment where possible."
+        },
+        {
+          "id": "ora-toa-whakamaru",
+          "title": "Ora Toa medical centre at Whakamaru",
+          "description": "Primary medical care on the first floor of Whakamaru. Wellington City Mission also provides a limited free dental service delivered by Ora Toa dentists.",
+          "last_verified": "2026-11-23",
+          "address": "4-8 Oxford Terrace, Mount Cook, Wellington 6021",
+          "phone": "+6442450010",
+          "website": "https://wellingtoncitymission.org.nz/what-we-do/other-support-services-at-whakamaru/",
+          "hours": "Medical centre Monday-Friday 8:30am-5:00pm",
+          "how_to_access": "Call for an appointment and ask about enrolment, fees and dental eligibility."
+        }
+      ]
+    },
+    {
+      "id": "mental-health",
+      "title": "Mental health and addiction",
+      "entries": []
+    },
+    {
+      "id": "public-facilities",
+      "title": "Public toilets and day facilities",
+      "entries": []
+    },
+    {
+      "id": "phone-internet",
+      "title": "Phone charging and internet",
+      "entries": [
+        {
+          "id": "wellington-city-libraries",
+          "title": "Wellington City Libraries",
+          "description": "Public libraries provide internet access, computers, charging points and help finding information. Access rules and computer availability vary by branch.",
+          "last_verified": "2026-11-23",
+          "address": "Several Wellington branches",
+          "phone": "+6448014040",
+          "website": "https://www.wcl.govt.nz/",
+          "hours": "Branch hours vary",
+          "how_to_access": "Choose a branch and check whether a library card is needed for computer use."
+        }
+      ]
+    },
+    {
+      "id": "transport",
+      "title": "Transport",
+      "entries": []
+    },
+    {
+      "id": "benefits",
+      "title": "Government benefits and social support",
+      "entries": [
+        {
+          "id": "work-and-income-wellington",
+          "title": "Work and Income Wellington",
+          "description": "Government benefits, hardship assistance, housing costs, emergency housing assessment and employment support.",
+          "last_verified": "2026-11-23",
+          "address": "Wellington service centres",
+          "phone": "+64800559009",
+          "website": "https://www.workandincome.govt.nz/about-work-and-income/contact-us/find-a-service-centre/wellington.html",
+          "hours": "Most centres weekdays 8:30am-5:00pm; Wednesday from 9:30am",
+          "how_to_access": "Call or visit a service centre. Bring identification if available, but call even if documents are missing."
+        }
+      ]
+    },
+    {
+      "id": "employment",
+      "title": "Employment",
+      "entries": [
+        {
+          "id": "work-and-income-employment",
+          "title": "Work and Income employment support",
+          "description": "Job-search assistance, training referrals and income support while looking for work. Support depends on eligibility and individual circumstances.",
+          "last_verified": "2026-11-23",
+          "address": "Wellington service centres and online",
+          "phone": "+64800559009",
+          "website": "https://www.workandincome.govt.nz/work/index.html",
+          "hours": "Service-centre hours vary",
+          "how_to_access": "Call or make an appointment at a Wellington service centre."
+        }
+      ]
+    },
+    {
+      "id": "legal",
+      "title": "Legal aid",
+      "entries": [
+        {
+          "id": "community-law-wellington",
+          "title": "Community Law Wellington and Hutt Valley",
+          "description": "Free initial legal help for people who cannot afford a lawyer. Services include housing, benefits, employment, debt and family matters, subject to capacity and eligibility.",
+          "last_verified": "2026-11-23",
+          "address": "Wellington region",
+          "phone": "",
+          "website": "https://communitylaw.org.nz/centre/wellington-hutt-valley/",
+          "hours": "Clinic times vary",
+          "how_to_access": "Check the current clinic timetable and call before visiting."
+        }
+      ]
+    },
+    {
+      "id": "documents",
+      "title": "Documents and identification",
+      "entries": [
+        {
+          "id": "dcm-id-support",
+          "title": "DCM identification support",
+          "description": "DCM helps people obtain identification, access the correct benefit, deal with debt and open a bank account when these barriers affect housing and stability.",
+          "last_verified": "2026-11-23",
+          "address": "2 Lukes Lane, Te Aro, Wellington 6011",
+          "phone": "+64800119689",
+          "website": "https://www.dcm.org.nz/contact",
+          "hours": "Weekday mornings 9:00am-12:00pm",
+          "how_to_access": "Walk in or call and explain which documents are missing."
+        }
+      ]
+    },
+    {
+      "id": "mail",
+      "title": "Mailing address",
+      "entries": []
+    },
+    {
+      "id": "storage",
+      "title": "Storage",
+      "entries": []
+    },
+    {
+      "id": "safety",
+      "title": "Safety and domestic violence",
+      "entries": [
+        {
+          "id": "womens-refuge",
+          "title": "Women's Refuge crisis line",
+          "description": "Confidential support and safe-housing referrals for women and children experiencing family violence. The national line connects callers with local refuge services.",
+          "last_verified": "2026-11-23",
+          "address": "Confidential Wellington and national service",
+          "phone": "+64800733843",
+          "website": "https://womensrefuge.org.nz/get-help/",
+          "hours": "24 hours",
+          "how_to_access": "Call 0800 REFUGE. Call 111 if there is immediate danger."
+        }
+      ]
+    },
+    {
+      "id": "specialist-support",
+      "title": "Specialist support",
+      "entries": []
+    },
+    {
+      "id": "veterans",
+      "title": "Veterans support",
+      "entries": []
+    },
+    {
+      "id": "pets",
+      "title": "Help for people with pets",
+      "entries": []
+    },
+    {
+      "id": "other",
+      "title": "Other useful resources",
+      "entries": []
+    }
+  ]
+}
