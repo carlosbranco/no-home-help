@@ -123,20 +123,6 @@ a:focus-visible {
   font-size: 0.9rem;
 }
 
-.quick-help {
-  margin: 1rem 0;
-  padding: 0.65rem 0.75rem;
-  border-block: 2px solid #333;
-}
-
-.quick-help h2 {
-  margin-top: 0;
-}
-
-.quick-help h3 {
-  margin-top: 0.7rem;
-}
-
 .urgent {
   margin: 0.8rem 0;
   padding: 0.6rem 0 0.6rem 0.75rem;
@@ -317,29 +303,176 @@ td:nth-child(2) {
   }
 }
 
+@page {
+  size: A4 portrait;
+  margin: 8mm 7mm 9mm;
+}
+
 @media print {
   :root {
-    font-size: 10.5pt;
+    font-size: 8.2pt;
+    line-height: 1.22;
   }
 
+  html,
   body {
+    width: auto;
+    margin: 0;
     padding: 0;
-  }
-
-  a {
+    background: #fff;
     color: #000;
   }
 
+  header,
+  main,
+  footer {
+    max-width: none;
+    margin-inline: 0;
+  }
+
+  header {
+    padding-top: 0;
+  }
+
+  main {
+    min-height: 0;
+    column-count: 2;
+    column-gap: 6mm;
+    column-rule: 0.25pt solid #aaa;
+  }
+
+  footer {
+    margin-top: 3mm;
+    padding-top: 1.5mm;
+    font-size: 7.4pt;
+    break-inside: avoid;
+  }
+
+  h1 {
+    margin: 0 0 1.5mm;
+    font-size: 14pt;
+  }
+
+  h2 {
+    margin: 2.5mm 0 1mm;
+    padding-bottom: 0.5mm;
+    font-size: 10.2pt;
+    border-bottom: 0.5pt solid #777;
+    break-after: avoid;
+  }
+
+  h3 {
+    margin: 1.5mm 0 0.5mm;
+    font-size: 8.7pt;
+    break-after: avoid;
+  }
+
+  p {
+    margin: 0.8mm 0;
+    orphans: 2;
+    widows: 2;
+  }
+
+  ul,
+  ol {
+    margin: 0.8mm 0 1.2mm;
+    padding-inline-start: 4mm;
+  }
+
+  li {
+    margin: 0.35mm 0;
+    orphans: 2;
+    widows: 2;
+    break-inside: avoid;
+  }
+
+  a,
+  a:visited {
+    color: #000;
+    text-decoration: none;
+  }
+
+  .breadcrumb,
+  .language-switcher,
   .skip-link,
   .back-to-top,
-  footer nav {
+  .entry-report,
+  .site-actions {
     display: none;
   }
 
-  h2,
-  h3,
-  .resource {
+  .urgent {
+    margin: 1.5mm 0;
+    padding: 1.5mm 0 1.5mm 2mm;
+    border-left-width: 2pt;
+  }
+
+  [dir="rtl"] .urgent {
+    padding: 1.5mm 2mm 1.5mm 0;
+  }
+
+  .notice {
+    margin: 1.5mm 0 2mm;
+    padding: 1mm 0;
+    font-size: 7.6pt;
+  }
+
+  .page-intro,
+  main > nav[aria-labelledby="contents-title"] {
+    column-span: all;
+  }
+
+  .page-intro:empty {
+    display: none;
+  }
+
+  main > nav[aria-labelledby="contents-title"] {
+    margin: 1.5mm 0 2.5mm;
+    padding: 1mm 0 1.5mm;
+    border-block: 0.75pt solid #555;
     break-inside: avoid;
+  }
+
+  main > nav[aria-labelledby="contents-title"] h2 {
+    margin: 0 0 0.8mm;
+  }
+
+  main > nav[aria-labelledby="contents-title"] ol {
+    columns: 3;
+    column-gap: 6mm;
+    margin: 0;
+    padding-inline-start: 5mm;
+  }
+
+  main > nav[aria-labelledby="contents-title"] li {
+    break-inside: avoid;
+  }
+
+  section {
+    break-inside: auto;
+  }
+
+  .resource {
+    margin: 1.5mm 0 2mm;
+    padding-top: 1mm;
+    border-top: 0.35pt solid #bbb;
+    break-inside: avoid;
+  }
+
+  .resource h3 {
+    margin-top: 0;
+  }
+
+  .resource p {
+    margin: 0.5mm 0;
+  }
+
+  .resource .meta {
+    font-size: 7.2pt;
+  }
+
+  address {
+    break-after: avoid;
   }
 }
 

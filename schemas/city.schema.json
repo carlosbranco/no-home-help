@@ -3,7 +3,7 @@
   "$id": "https://nohomehelp.com/schemas/city.schema.json",
   "title": "No Home Help city guide",
   "type": "object",
-  "required": ["$schema", "schema_version", "status", "locale", "location", "seo", "page", "quick_actions", "categories"],
+  "required": ["$schema", "schema_version", "status", "locale", "location", "seo", "page", "categories"],
   "properties": {
     "$schema": { "type": "string", "minLength": 1 },
     "schema_version": { "const": 1 },
@@ -64,17 +64,6 @@
       },
       "additionalProperties": false
     },
-    "quick_actions": {
-      "type": "object",
-      "description": "Explicit links to the most useful entries for each time horizon. References use category and entry IDs, so translated titles may change safely.",
-      "required": ["tonight", "this_week", "this_month"],
-      "properties": {
-        "tonight": { "$ref": "#/$defs/actionReferences" },
-        "this_week": { "$ref": "#/$defs/actionReferences" },
-        "this_month": { "$ref": "#/$defs/actionReferences" }
-      },
-      "additionalProperties": false
-    },
     "categories": {
       "type": "array",
       "items": {
@@ -101,20 +90,6 @@
   "$defs": {
     "slug": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
     "date": { "type": "string", "format": "date", "pattern": "^\\d{4}-\\d{2}-\\d{2}$" },
-    "actionReference": {
-      "type": "object",
-      "required": ["category_id", "entry_id"],
-      "properties": {
-        "category_id": { "$ref": "#/$defs/slug" },
-        "entry_id": { "$ref": "#/$defs/slug" }
-      },
-      "additionalProperties": false
-    },
-    "actionReferences": {
-      "type": "array",
-      "items": { "$ref": "#/$defs/actionReference" },
-      "uniqueItems": true
-    },
     "segment": {
       "type": "object",
       "properties": {

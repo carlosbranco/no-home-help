@@ -20,7 +20,6 @@ Sources checked:
 ## Technical checks
 
 - [ ] `npm run generate` and `npm run check` both pass.
-- [ ] `quick_actions` point to existing `category_id` and `entry_id` values.
 - [ ] The page works without JavaScript and with CSS disabled.
 - [ ] The JSON is written in the selected language and has the correct `locale.language` and `locale.primary` values.
 - [ ] No tracker, cookie, external font, dependency, or unnecessary media was added.

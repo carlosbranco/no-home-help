@@ -28,9 +28,8 @@ Do not edit generated city HTML or generated indexes directly. The generator wil
 7. Complete the [`CITY_RESEARCH_CHECKLIST.md`](CITY_RESEARCH_CHECKLIST.md).
 8. Add only categories with reliable local information.
 9. Give every resource a stable slug ID and `last_verified` date.
-10. Add the best resources to `quick_actions.tonight`, `quick_actions.this_week`, and `quick_actions.this_month` using `category_id` and `entry_id`.
-11. Add or update the city in `data/locations.csv` and follow [`data/POPULATION_POLICY.md`](data/POPULATION_POLICY.md).
-12. Change both the JSON status to `published` and the CSV page status to `verified` when the guide is ready.
+10. Add or update the city in `data/locations.csv` and follow [`data/POPULATION_POLICY.md`](data/POPULATION_POLICY.md).
+11. Change both the JSON status to `published` and the CSV page status to `verified` when the guide is ready.
 
 The generator automatically creates the city page, country index, region index, contents list, report links, and navigation.
 
@@ -105,7 +104,6 @@ Resource IDs need only be unique inside their category. The full stable referenc
 - `npm run generate` completes successfully.
 - `npm run check` completes successfully.
 - Emergency instructions are first.
-- `quick_actions` point to real entries.
 - Dates, telephone links, internal anchors, and source links are correct.
 - The page language and text direction are correct.
 - The guide contains no invented information or confidential address.

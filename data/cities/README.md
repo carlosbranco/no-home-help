@@ -36,9 +36,8 @@ The primary file uses `"primary": true`. Every translation uses `"primary": fals
 4. Write public-facing text in the guide's `locale.language`.
 5. Add only verified resources. Each resource needs its own `last_verified` date.
 6. Use plain strings for normal text. Use inline segment arrays only for links, bold text, emphasis, or line breaks.
-7. Point `quick_actions` at the most useful resource IDs for tonight, this week, and this month.
-8. Change `status` to `published`, update `data/locations.csv`, and run `npm run generate`.
-9. Run `npm run check` before opening a pull request.
+7. Change `status` to `published`, update `data/locations.csv`, and run `npm run generate`.
+8. Run `npm run check` before opening a pull request.
 
 Empty categories are not rendered. A draft JSON does not create a public page or appear in an index.
 
@@ -50,7 +49,7 @@ Category and resource IDs use lowercase ASCII slugs. A resource ID only needs to
 category-id/resource-id
 ```
 
-The same reference is used by `quick_actions`, HTML anchors, and the prefilled GitHub issue link shown on every resource.
+The same reference is used by HTML anchors and the prefilled GitHub issue link shown on every resource.
 
 ## Templates and schema
 

@@ -47,7 +47,6 @@ for (const record of published) {
     primaryCityPaths.set(cityPath, record.relativeFile);
   }
   const categoryIds = new Set();
-  const resourcesByCategory = new Map();
   for (const block of city.page.urgent) visitBlock(block, `${record.relativeFile}: urgent`);
   visitInline(city.page.notice, `${record.relativeFile}: notice`);
   for (const block of city.page.intro) visitBlock(block, `${record.relativeFile}: intro`);
@@ -66,16 +65,6 @@ for (const record of published) {
       } else {
         visitBlock(item, `${record.relativeFile}: ${category.id}`);
       }
-    }
-    resourcesByCategory.set(category.id, resourceIds);
-  }
-  for (const [timeframe, references] of Object.entries(city.quick_actions ?? {})) {
-    const seen = new Set();
-    for (const reference of references) {
-      const key = `${reference.category_id}/${reference.entry_id}`;
-      if (seen.has(key)) failures.push(`${record.relativeFile}: duplicate quick action ${timeframe} ${key}`);
-      seen.add(key);
-      if (!resourcesByCategory.get(reference.category_id)?.has(reference.entry_id)) failures.push(`${record.relativeFile}: quick action ${timeframe} points to missing entry ${key}`);
     }
   }
 }

@@ -137,7 +137,6 @@ function validateCity(record) {
   for (const block of city.page?.intro ?? []) validateBlock(block, `${context}: intro`);
   for (const block of city.page?.footer ?? []) validateBlock(block, `${context}: footer`);
   const categoryIds = new Set();
-  const resourcesByCategory = new Map();
   for (const category of city.categories ?? []) {
     if (categoryIds.has(category.id)) failures.push(`${context}: duplicate category id ${category.id}`);
     categoryIds.add(category.id);
@@ -152,24 +151,7 @@ function validateCity(record) {
         validateBlock(item, `${context}: ${category.id}`);
       }
     }
-    resourcesByCategory.set(category.id, resourceIds);
   }
-  const timeframes = ["tonight", "this_week", "this_month"];
-  for (const timeframe of timeframes) {
-    const references = city.quick_actions?.[timeframe];
-    if (!Array.isArray(references)) {
-      failures.push(`${context}: quick_actions.${timeframe} must be an array`);
-      continue;
-    }
-    const seen = new Set();
-    for (const reference of references) {
-      const key = `${reference.category_id}/${reference.entry_id}`;
-      if (seen.has(key)) failures.push(`${context}: duplicate quick action ${timeframe} ${key}`);
-      seen.add(key);
-      if (!resourcesByCategory.get(reference.category_id)?.has(reference.entry_id)) failures.push(`${context}: quick action ${timeframe} points to missing entry ${key}`);
-    }
-  }
-  for (const timeframe of Object.keys(city.quick_actions ?? {})) if (!timeframes.includes(timeframe)) failures.push(`${context}: unknown quick action timeframe ${timeframe}`);
   if (city.status === "published" && !(city.categories ?? []).some(visibleCategory)) failures.push(`${context}: a published city needs at least one non-empty category`);
 }
 
@@ -188,40 +170,6 @@ function renderResource(resource, category, city, ui, legacyAlias = false) {
     `        <p class="entry-report"><a href="${escapeHtml(issueUrl(city, `${category.id}/${resource.id}`))}">${escapeHtml(ui.report)}</a></p>`,
     "      </article>",
   ].filter(Boolean).join("\n");
-}
-
-function quickActions(city, categories, ui) {
-  const entries = new Map();
-  for (const category of categories) {
-    for (const resource of category.items.filter((item) => item.type === "resource")) {
-      entries.set(`${category.id}/${resource.id}`, { category, resource });
-    }
-  }
-  return [
-    { label: ui.tonight, references: city.quick_actions.tonight },
-    { label: ui.week, references: city.quick_actions.this_week },
-    { label: ui.month, references: city.quick_actions.this_month },
-  ].map((group) => ({
-    label: group.label,
-    entries: group.references.map((reference) => entries.get(`${reference.category_id}/${reference.entry_id}`)).filter(Boolean),
-  })).filter((group) => group.entries.length);
-}
-
-function renderQuickActions(city, categories, ui) {
-  const groups = quickActions(city, categories, ui);
-  if (!groups.length) return "";
-  const body = groups.map((group) => [
-    `      <h3>${escapeHtml(group.label)}</h3>`,
-    "      <ul>",
-    ...group.entries.map(({ category, resource }) => `        <li><a href="#${escapeHtml(entryAnchor(category.id, resource.id))}">${escapeHtml(resource.name)}</a></li>`),
-    "      </ul>",
-  ].join("\n")).join("\n");
-  return [
-    "    <section class=\"quick-help\" aria-labelledby=\"quick-help-title\">",
-    `      <h2 id="quick-help-title">${escapeHtml(ui.quick)}</h2>`,
-    body,
-    "    </section>",
-  ].join("\n");
 }
 
 function renderAlternateLinks(translations) {
@@ -249,8 +197,11 @@ function renderCity(city, translations) {
   const categories = city.categories.filter(visibleCategory);
   const urgent = city.page.urgent.map((block) => renderBlock(block, "    ")).join("\n");
   const intro = city.page.intro.map((block) => renderBlock(block, "    ")).join("\n");
-  const contents = categories.map((category) => `        <li><a href="#${escapeHtml(category.id)}">${escapeHtml(category.title)}</a></li>`).join("\n");
-  const reservedIds = new Set(["top", "main-content", "quick-help-title", "contents-title", ...categories.map((category) => category.id)]);
+  const contents = categories.map((category) => {
+    const menuTitle = category.title.replace(/^\s*\d+[.)]?\s*/, "");
+    return `        <li><a href="#${escapeHtml(category.id)}">${escapeHtml(menuTitle)}</a></li>`;
+  }).join("\n");
+  const reservedIds = new Set(["top", "main-content", "contents-title", ...categories.map((category) => category.id)]);
   const legacyOwners = new Map();
   for (const category of categories) {
     for (const resource of category.items.filter((item) => item.type === "resource")) {
@@ -268,7 +219,6 @@ function renderCity(city, translations) {
     ].join("\n");
   }).join("\n\n");
   const footerBlocks = city.page.footer.map((block) => renderBlock(block, "    ")).join("\n");
-  const quick = renderQuickActions(city, categories, ui);
   return fillTemplate(templates.city, {
     LANG: escapeHtml(city.locale.language),
     DIR: dir,
@@ -289,7 +239,6 @@ function renderCity(city, translations) {
     LAST_VERIFIED: escapeHtml(city.page.last_verified),
     NOTICE: renderInline(city.page.notice),
     INTRO: intro,
-    QUICK_ACTIONS: quick,
     CONTENTS_LABEL: escapeHtml(ui.contents),
     CONTENTS: contents,
     SECTIONS: sections,

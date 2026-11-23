@@ -150,7 +150,6 @@ Use `Verified`, `Needs confirmation`, `Not found`, or `Not applicable` as the fi
 - The wording makes access conditions and uncertainty clear.
 - Official government benefits and emergency links are included.
 - Each resource has a source and verification date where practical.
-- The `quick_actions` references point to the best entries for tonight, this week, and this month.
 - The city file follows `data/cities/<country>/<region>/<city>[.<language>].json` and uses the correct `locale.primary` value.
 - Duplicate entries in different categories add useful category-specific information.
 - Every telephone link, internal anchor, breadcrumb, and source link has been checked.

@@ -50,9 +50,8 @@ Read [`data/cities/README.md`](data/cities/README.md) for the complete naming an
 3. Keep `status` as `draft` while researching.
 4. Work through [`CITY_RESEARCH_CHECKLIST.md`](CITY_RESEARCH_CHECKLIST.md).
 5. Add real sources and a verification date for every entry.
-6. Point `quick_actions` to the most useful entries for tonight, this week, and this month.
-7. Change the JSON to `published` and the corresponding CSV row to `verified`.
-8. Run `npm run generate` and `npm run check`.
+6. Change the JSON to `published` and the corresponding CSV row to `verified`.
+7. Run `npm run generate` and `npm run check`.
 
 Generated HTML must not be edited directly. To change the design or semantic layout for every page, edit the files in `templates/` and regenerate.
 
