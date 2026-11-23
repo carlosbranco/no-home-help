@@ -392,6 +392,11 @@ td:nth-child(2) {
     text-decoration: none;
   }
 
+  a[href^="http"] {
+    overflow-wrap: anywhere;
+    word-break: break-all;
+  }
+
   .breadcrumb,
   .language-switcher,
   .skip-link,
@@ -412,6 +417,7 @@ td:nth-child(2) {
   }
 
   .resource {
+    max-width: 100%;
     margin: 1.5mm 0 2mm;
     padding-top: 1mm;
     border-top: 0.35pt solid #bbb;
