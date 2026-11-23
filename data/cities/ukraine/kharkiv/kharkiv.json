@@ -1,0 +1,335 @@
+{
+  "$schema": "https://nohomehelp.com/schemas/city.schema.json",
+  "documentation": "https://github.com/carlosbranco/no-home-help/blob/main/EDIT_CITY_JSON.md",
+  "schema_version": 2,
+  "status": "published",
+  "locale": {
+    "language": "uk",
+    "direction": "ltr",
+    "primary": true
+  },
+  "location": {
+    "continent": "Europe",
+    "country_code": "UA",
+    "country_name": "Ukraine",
+    "country_local_name": "Україна",
+    "country_slug": "ukraine",
+    "region_code": "07",
+    "region_name": "Kharkiv",
+    "region_slug": "kharkiv",
+    "city_name": "Харків",
+    "city_slug": "kharkiv"
+  },
+  "seo": {
+    "title": "Допомога бездомним у Харкові - No Home Help",
+    "description": "Перевірені ресурси ночівлі, їжі, гігієни, медицини, документів, роботи, правової та кризової допомоги у Харкові."
+  },
+  "page": {
+    "heading": "ХАРКІВ — ДОПОМОГА БЕЗДОМНИМ",
+    "last_verified": "2026-11-23",
+    "urgent": "Єдиний номер екстреної допомоги: 112. Швидка медична допомога: 103. Міська диспетчерська служба: 1562.",
+    "notice": "Наявність місць, графік і умови можуть змінюватися, особливо під час війни. За можливості телефонуйте заздалегідь. Запис не гарантує ліжко, їжу, прийом, виплату, роботу чи адвоката.",
+    "intro": "Харківський міський центр реінтеграції на вулиці Миру, 102 має нічліг, харчування та соціальний супровід. Телефонуйте перед поїздкою через безпекову ситуацію й можливі зміни.",
+    "footer": "Інформація може змінюватися. Телефонуйте заздалегідь і повідомляйте про помилки через посилання GitHub унизу."
+  },
+  "categories": [
+    {
+      "id": "emergency",
+      "title": "Екстрена допомога",
+      "entries": [
+        {
+          "id": "ekstrena-112",
+          "title": "Екстрена допомога — 112",
+          "description": "Для безпосередньої небезпеки, пожежі, насильства або іншої надзвичайної ситуації.",
+          "last_verified": "2026-11-23",
+          "address": "",
+          "phone": "112",
+          "website": "https://city.kharkiv.ua/news/suspilstvo/xarkivskii-centr-reintegraciyi-bezdomnix-osib-obsluziv-ponad-200-tisiac-gromadian",
+          "hours": "Цілодобово",
+          "how_to_access": "Назвіть точне місце й опишіть ситуацію."
+        },
+        {
+          "id": "shvydka-103",
+          "title": "Швидка медична допомога — 103",
+          "description": "Для невідкладного стану здоров’я.",
+          "last_verified": "2026-11-23",
+          "address": "",
+          "phone": "103",
+          "website": "https://help.gov.ua/",
+          "hours": "Цілодобово",
+          "how_to_access": "Назвіть місце, симптоми й небезпеку."
+        },
+        {
+          "id": "kharkiv-1562",
+          "title": "Міська диспетчерська служба — 1562",
+          "description": "Приймає звернення до міських служб і може уточнити актуальний контакт соціальної допомоги.",
+          "last_verified": "2026-11-23",
+          "address": "",
+          "phone": "1562",
+          "website": "https://1562.kharkivrada.gov.ua/",
+          "hours": "",
+          "how_to_access": "Опишіть місце перебування й потрібну допомогу."
+        }
+      ]
+    },
+    {
+      "id": "shelter",
+      "title": "Ночівля та житло",
+      "entries": [
+        {
+          "id": "centr-reintegratsii",
+          "title": "Харківський міський центр реінтеграції бездомних осіб",
+          "description": "Міський центр із нічлігом, зимовим пунктом обігріву, дворазовим харчуванням, медичним оглядом, документами та соціальним супроводом. Наявність місця змінюється.",
+          "last_verified": "2026-11-23",
+          "address": "вулиця Миру, 102, Харків",
+          "phone": "+380577258320",
+          "website": "https://city.kharkiv.ua/news/suspilstvo/xarkivskii-centr-reintegraciyi-bezdomnix-osib-obsluziv-ponad-200-tisiac-gromadian",
+          "hours": "У зимовий період пункт обігріву працює цілодобово; уточнюйте",
+          "how_to_access": "Телефонуйте 057 725-83-20, 725-83-18 або 725-83-19 перед поїздкою."
+        }
+      ]
+    },
+    {
+      "id": "food",
+      "title": "Безкоштовна їжа",
+      "entries": [
+        {
+          "id": "centr-reintegratsii-kharchuvannia",
+          "title": "Центр реінтеграції — харчування",
+          "description": "Для людей, яких обслуговує центр, передбачено дворазове харчування. Доступ залежить від прийому й ресурсів.",
+          "last_verified": "2026-11-23",
+          "address": "вулиця Миру, 102, Харків",
+          "phone": "+380577258320",
+          "website": "https://city.kharkiv.ua/news/suspilstvo/xarkivskii-centr-reintegraciyi-bezdomnix-osib-obsluziv-ponad-200-tisiac-gromadian",
+          "hours": "",
+          "how_to_access": "Телефонуйте й уточнюйте умови доступу."
+        },
+        {
+          "id": "food-for-life-kharkiv",
+          "title": "«Їжа Життя Харків» — гарячі обіди",
+          "description": "Безкоштовні гарячі обіди без анкет і попередніх умов за графіком організації. Розклад може змінюватися через безпеку.",
+          "last_verified": "2026-11-23",
+          "address": "вулиця Холодногірська, 39, Харків",
+          "phone": "+380505219500",
+          "website": "https://foodforlife.com.ua/",
+          "hours": "",
+          "how_to_access": "Зателефонуйте або перевірте актуальний графік перед поїздкою."
+        }
+      ]
+    },
+    {
+      "id": "community",
+      "title": "Церкви та релігійні організації",
+      "entries": [
+        {
+          "id": "caritas-kharkiv",
+          "title": "Карітас — пошук допомоги",
+          "description": "Католицька гуманітарна мережа з місцевими програмами їжі, гігієни, соціального й кризового супроводу. Послуги залежать від проєкту.",
+          "last_verified": "2026-11-23",
+          "address": "",
+          "phone": "",
+          "website": "https://caritas.ua/otrymaty-dopomohu/",
+          "hours": "",
+          "how_to_access": "Через офіційну карту знайдіть актуальний харківський центр і зателефонуйте."
+        }
+      ]
+    },
+    {
+      "id": "hygiene",
+      "title": "Душ, прання та гігієна",
+      "entries": [
+        {
+          "id": "centr-reintegratsii-hihiiena",
+          "title": "Центр реінтеграції — гігієна",
+          "description": "Базова гігієна й санітарні умови доступні людям, яких приймає центр. Уточнюйте через можливі зміни.",
+          "last_verified": "2026-11-23",
+          "address": "вулиця Миру, 102, Харків",
+          "phone": "+380577258320",
+          "website": "https://city.kharkiv.ua/news/suspilstvo/xarkivskii-centr-reintegraciyi-bezdomnix-osib-obsluziv-ponad-200-tisiac-gromadian",
+          "hours": "",
+          "how_to_access": "Телефонуйте перед відвідуванням."
+        }
+      ]
+    },
+    {
+      "id": "clothing",
+      "title": "Безкоштовний одяг",
+      "entries": []
+    },
+    {
+      "id": "health",
+      "title": "Безкоштовна або недорога медична допомога",
+      "entries": [
+        {
+          "id": "centr-reintegratsii-medychna",
+          "title": "Центр реінтеграції — медичний огляд",
+          "description": "Центр організовує первинний медичний огляд і доступ до медичних гарантій. Це не заміна швидкої допомоги.",
+          "last_verified": "2026-11-23",
+          "address": "вулиця Миру, 102, Харків",
+          "phone": "+380577258320",
+          "website": "https://city.kharkiv.ua/news/suspilstvo/xarkivskii-centr-reintegraciyi-bezdomnix-osib-obsluziv-ponad-200-tisiac-gromadian",
+          "hours": "",
+          "how_to_access": "Для загрози життю телефонуйте 103."
+        }
+      ]
+    },
+    {
+      "id": "mental-health",
+      "title": "Психічне здоров’я та залежності",
+      "entries": []
+    },
+    {
+      "id": "public-facilities",
+      "title": "Туалети та денні центри",
+      "entries": []
+    },
+    {
+      "id": "phone-internet",
+      "title": "Заряджання телефону та інтернет",
+      "entries": []
+    },
+    {
+      "id": "transport",
+      "title": "Безкоштовний або пільговий транспорт",
+      "entries": []
+    },
+    {
+      "id": "benefits",
+      "title": "Допомоги та соціальна підтримка",
+      "entries": [
+        {
+          "id": "departament-sotsialnoi-polityky",
+          "title": "Департамент соціальної політики Харківської міської ради",
+          "description": "Інформація про соціальні послуги, виплати та міські установи. Рішення залежить від статусу й документів.",
+          "last_verified": "2026-11-23",
+          "address": "",
+          "phone": "",
+          "website": "https://city.kharkiv.ua/committee/departments/departament-socialnoyi-politiki",
+          "hours": "",
+          "how_to_access": "Зверніться через міський контакт або 1562 й уточніть установу за вашою ситуацією."
+        }
+      ]
+    },
+    {
+      "id": "employment",
+      "title": "Допомога з працевлаштуванням",
+      "entries": [
+        {
+          "id": "derzhavna-sluzhba-zainiatosti",
+          "title": "Державна служба зайнятості",
+          "description": "Офіційні вакансії, консультації, професійне навчання й допомога шукачам роботи.",
+          "last_verified": "2026-11-23",
+          "address": "",
+          "phone": "0800 600 288",
+          "website": "https://dcz.gov.ua/",
+          "hours": "",
+          "how_to_access": "Телефонуйте або знайдіть актуальний харківський центр; офіційні вакансії не потребують оплати."
+        }
+      ]
+    },
+    {
+      "id": "legal",
+      "title": "Безкоштовна юридична допомога",
+      "entries": [
+        {
+          "id": "bezoplatna-pravnycha-dopomoha",
+          "title": "Безоплатна правнича допомога",
+          "description": "Національна система правових консультацій і, для визначених категорій, представництва. Рішення залежить від питання та права на послугу.",
+          "last_verified": "2026-11-23",
+          "address": "",
+          "phone": "0 800 213 103",
+          "website": "https://legalaid.gov.ua/",
+          "hours": "Будні; уточнюйте",
+          "how_to_access": "Телефонуйте й опишіть питання. Представництво не гарантується."
+        }
+      ]
+    },
+    {
+      "id": "documents",
+      "title": "Документи та посвідчення особи",
+      "entries": [
+        {
+          "id": "centr-reintegratsii-dokumenty",
+          "title": "Центр реінтеграції — відновлення документів",
+          "description": "Соціальні працівники допомагають із документами, реєстрацією та доступом до соціальних і медичних гарантій.",
+          "last_verified": "2026-11-23",
+          "address": "вулиця Миру, 102, Харків",
+          "phone": "+380577258320",
+          "website": "https://city.kharkiv.ua/news/suspilstvo/xarkivskii-centr-reintegraciyi-bezdomnix-osib-obsluziv-ponad-200-tisiac-gromadian",
+          "hours": "",
+          "how_to_access": "Візьміть будь-які копії або відомості, що збереглися, якщо вони є."
+        }
+      ]
+    },
+    {
+      "id": "mail",
+      "title": "Поштова адреса",
+      "entries": []
+    },
+    {
+      "id": "storage",
+      "title": "Зберігання речей",
+      "entries": []
+    },
+    {
+      "id": "safety",
+      "title": "Допомога при домашньому насильстві",
+      "entries": [
+        {
+          "id": "uriadova-1547",
+          "title": "Урядова лінія 1547",
+          "description": "Допомога з питань домашнього насильства, насильства за ознакою статі й насильства щодо дітей.",
+          "last_verified": "2026-11-23",
+          "address": "",
+          "phone": "1547",
+          "website": "https://1547.ukc.gov.ua/",
+          "hours": "Цілодобово",
+          "how_to_access": "Телефонуйте, коли це безпечно. За безпосередньої небезпеки телефонуйте 112."
+        },
+        {
+          "id": "la-strada-116123",
+          "title": "Ла Страда — 116 123",
+          "description": "Безкоштовна конфіденційна лінія психологічної й кризової підтримки, зокрема щодо насильства.",
+          "last_verified": "2026-11-23",
+          "address": "",
+          "phone": "116 123",
+          "website": "https://la-strada.org.ua/",
+          "hours": "Цілодобово",
+          "how_to_access": "Телефонуйте, коли це безпечно."
+        }
+      ]
+    },
+    {
+      "id": "specialist-support",
+      "title": "Спеціалізована підтримка",
+      "entries": [
+        {
+          "id": "humanitarian-hub-kharkiv",
+          "title": "Харківський гуманітарний хаб",
+          "description": "Офіційний контакт гуманітарної координації для уточнення доступної допомоги. Напрями й видача змінюються.",
+          "last_verified": "2026-11-23",
+          "address": "",
+          "phone": "+380671108011",
+          "website": "https://help.gov.ua/",
+          "hours": "",
+          "how_to_access": "Телефонуйте й уточнюйте актуальний вид допомоги та місце отримання."
+        }
+      ]
+    },
+    {
+      "id": "veterans",
+      "title": "Допомога ветеранам",
+      "entries": []
+    },
+    {
+      "id": "pets",
+      "title": "Допомога людям із тваринами",
+      "entries": []
+    },
+    {
+      "id": "other",
+      "title": "Інші корисні ресурси",
+      "entries": []
+    }
+  ]
+}

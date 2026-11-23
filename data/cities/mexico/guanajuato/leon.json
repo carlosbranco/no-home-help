@@ -1,0 +1,266 @@
+{
+  "$schema": "https://nohomehelp.com/schemas/city.schema.json",
+  "documentation": "https://github.com/carlosbranco/no-home-help/blob/main/EDIT_CITY_JSON.md",
+  "schema_version": 2,
+  "status": "published",
+  "locale": {
+    "language": "es",
+    "direction": "ltr",
+    "primary": true
+  },
+  "location": {
+    "continent": "Americas",
+    "country_code": "MX",
+    "country_name": "Mexico",
+    "country_local_name": "México",
+    "country_slug": "mexico",
+    "region_code": "11",
+    "region_name": "Guanajuato",
+    "region_slug": "guanajuato",
+    "city_name": "León",
+    "city_slug": "leon"
+  },
+  "seo": {
+    "title": "Ayuda para personas sin hogar en León - No Home Help",
+    "description": "Recursos verificados para personas sin hogar o en situación de calle en León."
+  },
+  "page": {
+    "heading": "LEÓN - AYUDA PARA PERSONAS SIN HOGAR",
+    "last_verified": "2026-11-23",
+    "urgent": "Peligro inmediato, incendio o emergencia médica: 911. DIF León puede orientar sobre brigadas y canalización.",
+    "notice": "La disponibilidad, los horarios, los requisitos y las plazas pueden cambiar. Llama antes de desplazarte. Una entrada no garantiza cama, comida, cita, prestación, trabajo ni representación legal.",
+    "intro": "El Albergue Amparo Peregrino anunció suspensión de servicio del 13 al 27 de noviembre de 2026 por mantenimiento. No dependas de él hasta confirmar su reapertura.",
+    "footer": "La información puede cambiar. Llama antes de desplazarte y comunica errores mediante el enlace de GitHub del pie de página."
+  },
+  "categories": [
+    {
+      "id": "emergency",
+      "title": "Ayuda de emergencia",
+      "entries": [
+        {
+          "id": "emergencias-911",
+          "title": "Emergencias — 911",
+          "description": "Para peligro inmediato, incendio, violencia o una emergencia médica grave.",
+          "last_verified": "2026-11-23",
+          "address": "",
+          "phone": "911",
+          "website": "https://enterate.leon.gob.mx/encabeza-ale-gutierrez-brigada-de-sensibilizacion-para-personas-en-situacion-de-calle/",
+          "hours": "24 horas",
+          "how_to_access": "Indica la ubicación exacta y explica lo que ocurre."
+        },
+        {
+          "id": "dif-leon-brigadas",
+          "title": "DIF León — atención a personas en calle",
+          "description": "Brigadas municipales realizan acercamiento, valoración, reintegración y canalización a opciones temporales o permanentes según el caso.",
+          "last_verified": "2026-11-23",
+          "address": "",
+          "phone": "",
+          "website": "https://dif.leon.gob.mx/detalle-enterate.php?b=3",
+          "hours": "",
+          "how_to_access": "Contacta al DIF o al 911 para solicitar orientación y una brigada; la canalización depende de valoración y plazas."
+        }
+      ]
+    },
+    {
+      "id": "shelter",
+      "title": "Alojamiento de emergencia y vivienda",
+      "entries": [
+        {
+          "id": "amparo-peregrino",
+          "title": "Cáritas León — Albergue Amparo Peregrino",
+          "description": "Albergue temporal con cena, ducha y valoración. AVISO: Cáritas anunció suspensión por mantenimiento del 13 al 27 de noviembre de 2026; confirma reapertura antes de acudir.",
+          "last_verified": "2026-11-23",
+          "address": "Calle 16 de Septiembre, León, Guanajuato",
+          "phone": "",
+          "website": "https://www.caritasleon.mx/programas/albergue",
+          "hours": "Ingreso habitual 8:00 PM–10:00 PM; suspendido hasta el 27 de noviembre de 2026",
+          "how_to_access": "No acudas sin llamar o confirmar en la web que el servicio ya reabrió."
+        }
+      ]
+    },
+    {
+      "id": "food",
+      "title": "Comida gratuita",
+      "entries": [
+        {
+          "id": "amparo-peregrino-cena",
+          "title": "Amparo Peregrino — cena",
+          "description": "La estancia habitual incluye cena, pero el servicio está suspendido por mantenimiento hasta el 27 de noviembre de 2026. No se garantiza comida sin ingreso.",
+          "last_verified": "2026-11-23",
+          "address": "Calle 16 de Septiembre, León, Guanajuato",
+          "phone": "",
+          "website": "https://www.caritasleon.mx/programas/albergue",
+          "hours": "Suspendido hasta el 27 de noviembre de 2026",
+          "how_to_access": "Confirma reapertura y acceso antes de desplazarte."
+        }
+      ]
+    },
+    {
+      "id": "community",
+      "title": "Iglesias y organizaciones religiosas",
+      "entries": [
+        {
+          "id": "caritas-leon",
+          "title": "Cáritas de León",
+          "description": "Organización católica con programas de asistencia. La disponibilidad y los requisitos dependen de cada programa.",
+          "last_verified": "2026-11-23",
+          "address": "",
+          "phone": "",
+          "website": "https://www.caritasleon.mx/",
+          "hours": "",
+          "how_to_access": "Contacta a Cáritas y pregunta qué ayuda está activa actualmente."
+        }
+      ]
+    },
+    {
+      "id": "hygiene",
+      "title": "Duchas, lavandería e higiene",
+      "entries": [
+        {
+          "id": "amparo-peregrino-ducha",
+          "title": "Amparo Peregrino — ducha",
+          "description": "La estancia habitual incluye ducha, pero el albergue está suspendido por mantenimiento hasta el 27 de noviembre de 2026.",
+          "last_verified": "2026-11-23",
+          "address": "Calle 16 de Septiembre, León, Guanajuato",
+          "phone": "",
+          "website": "https://www.caritasleon.mx/programas/albergue",
+          "hours": "Suspendido hasta el 27 de noviembre de 2026",
+          "how_to_access": "Confirma reapertura antes de acudir."
+        }
+      ]
+    },
+    {
+      "id": "clothing",
+      "title": "Ropa gratuita",
+      "entries": []
+    },
+    {
+      "id": "health",
+      "title": "Atención médica gratuita o de bajo coste",
+      "entries": []
+    },
+    {
+      "id": "mental-health",
+      "title": "Salud mental y adicciones",
+      "entries": []
+    },
+    {
+      "id": "public-facilities",
+      "title": "Baños públicos y centros de día",
+      "entries": []
+    },
+    {
+      "id": "phone-internet",
+      "title": "Carga de teléfono e internet",
+      "entries": []
+    },
+    {
+      "id": "transport",
+      "title": "Transporte gratuito o reducido",
+      "entries": []
+    },
+    {
+      "id": "benefits",
+      "title": "Prestaciones y ayuda social",
+      "entries": [
+        {
+          "id": "dif-leon-apoyo",
+          "title": "DIF León — trabajo social",
+          "description": "Valoración, acompañamiento y canalización a servicios para personas y familias vulnerables. Los apoyos no están garantizados.",
+          "last_verified": "2026-11-23",
+          "address": "",
+          "phone": "",
+          "website": "https://dif.leon.gob.mx/",
+          "hours": "",
+          "how_to_access": "Solicita entrevista de trabajo social y pregunta qué documentos aceptan."
+        }
+      ]
+    },
+    {
+      "id": "employment",
+      "title": "Ayuda para encontrar trabajo",
+      "entries": [
+        {
+          "id": "servicio-empleo-guanajuato",
+          "title": "Servicio Nacional de Empleo en Guanajuato",
+          "description": "Vinculación laboral, bolsa de trabajo, ferias y orientación gratuitas.",
+          "last_verified": "2026-11-23",
+          "address": "",
+          "phone": "",
+          "website": "https://sde.guanajuato.gob.mx/sdes/empleo/",
+          "hours": "",
+          "how_to_access": "Consulta la oficina más cercana y confirma horario."
+        }
+      ]
+    },
+    {
+      "id": "legal",
+      "title": "Asistencia jurídica gratuita",
+      "entries": [
+        {
+          "id": "prodheg",
+          "title": "Procuraduría de los Derechos Humanos de Guanajuato",
+          "description": "Orientación y quejas por posibles violaciones de derechos humanos. No reemplaza defensa legal en todos los asuntos.",
+          "last_verified": "2026-11-23",
+          "address": "",
+          "phone": "",
+          "website": "https://www.derechoshumanosgto.org.mx/",
+          "hours": "",
+          "how_to_access": "Contacta y explica el problema para recibir orientación."
+        }
+      ]
+    },
+    {
+      "id": "documents",
+      "title": "Documentos e identificación",
+      "entries": []
+    },
+    {
+      "id": "mail",
+      "title": "Dirección postal",
+      "entries": []
+    },
+    {
+      "id": "storage",
+      "title": "Guardado de pertenencias",
+      "entries": []
+    },
+    {
+      "id": "safety",
+      "title": "Apoyo ante violencia doméstica",
+      "entries": [
+        {
+          "id": "linea-075-mujeres",
+          "title": "Línea 075 Guanajuato",
+          "description": "Orientación para mujeres que viven violencia y conexión con servicios estatales.",
+          "last_verified": "2026-11-23",
+          "address": "",
+          "phone": "075",
+          "website": "https://igualdad.guanajuato.gob.mx/",
+          "hours": "",
+          "how_to_access": "Llama cuando sea seguro. En peligro inmediato, llama al 911."
+        }
+      ]
+    },
+    {
+      "id": "specialist-support",
+      "title": "Apoyo especializado",
+      "entries": []
+    },
+    {
+      "id": "veterans",
+      "title": "Ayuda para veteranos",
+      "entries": []
+    },
+    {
+      "id": "pets",
+      "title": "Ayuda para personas con animales",
+      "entries": []
+    },
+    {
+      "id": "other",
+      "title": "Otros recursos útiles",
+      "entries": []
+    }
+  ]
+}

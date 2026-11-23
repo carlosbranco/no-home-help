@@ -1,0 +1,324 @@
+{
+  "$schema": "https://nohomehelp.com/schemas/city.schema.json",
+  "documentation": "https://github.com/carlosbranco/no-home-help/blob/main/EDIT_CITY_JSON.md",
+  "schema_version": 2,
+  "status": "published",
+  "locale": {
+    "language": "en",
+    "direction": "ltr",
+    "primary": true
+  },
+  "location": {
+    "continent": "Americas",
+    "country_code": "US",
+    "country_name": "United States",
+    "country_local_name": "United States",
+    "country_slug": "usa",
+    "region_code": "WA",
+    "region_name": "Washington",
+    "region_slug": "washington",
+    "city_name": "Seattle",
+    "city_slug": "seattle"
+  },
+  "seo": {
+    "title": "Seattle Homeless Help - No Home Help",
+    "description": "Verified practical resources for people experiencing homelessness in Seattle."
+  },
+  "page": {
+    "heading": "SEATTLE - HOMELESS HELP",
+    "last_verified": "2026-11-23",
+    "urgent": "Immediate danger: 911. Shelter referrals: 211. Families needing same-day shelter: 206-245-1026. Crisis support: call or text 988.",
+    "notice": "Availability, eligibility, hours, and capacity can change. Call ahead when possible. A listing does not guarantee a bed, meal, appointment, benefit, job, or legal representation.",
+    "intro": "Call 211 for current shelter options. Families with children can call 206-245-1026 from 9:00 AM; space is not guaranteed.",
+    "footer": "Information can change. Call ahead when possible and report incorrect information through the GitHub link in the footer."
+  },
+  "categories": [
+    {
+      "id": "emergency",
+      "title": "Emergency help",
+      "entries": [
+        {
+          "id": "emergency-911",
+          "title": "Emergency services — 911",
+          "description": "For immediate danger, fire, a life-threatening medical emergency, or violence.",
+          "last_verified": "2026-11-23",
+          "address": "",
+          "phone": "911",
+          "website": "https://seattle.gov/documents/departments/humanservices/homeless%20services%20resources/don_2024_11_14_cidresourceguide%28en%29.pdf",
+          "hours": "24 hours",
+          "how_to_access": "Give the exact location and explain what is happening."
+        },
+        {
+          "id": "washington-211",
+          "title": "Washington 2-1-1",
+          "description": "Free referrals for shelter, food, health, benefits, and other resources.",
+          "last_verified": "2026-11-23",
+          "address": "",
+          "phone": "211",
+          "website": "https://wa211.org/",
+          "hours": "24 hours",
+          "how_to_access": "Dial 211 and explain your needs."
+        },
+        {
+          "id": "family-shelter-line",
+          "title": "Family Emergency Shelter Access Line",
+          "description": "Same-day family shelter access for households with children; placement depends on space.",
+          "last_verified": "2026-11-23",
+          "address": "",
+          "phone": "+12062451026",
+          "website": "https://kingcounty.gov/depts/community-human-services/housing/services/homeless-housing/coordinated-entry/access-points.aspx",
+          "hours": "Daily from 9:00 AM",
+          "how_to_access": "Call as early as possible."
+        }
+      ]
+    },
+    {
+      "id": "shelter",
+      "title": "Emergency shelters and housing",
+      "entries": [
+        {
+          "id": "coordinated-entry",
+          "title": "King County Coordinated Entry",
+          "description": "Assessment and connection to housing resources; not a same-day shelter guarantee.",
+          "last_verified": "2026-11-23",
+          "address": "",
+          "phone": "",
+          "website": "https://kingcounty.gov/depts/community-human-services/housing/services/homeless-housing/coordinated-entry/access-points.aspx",
+          "hours": "",
+          "how_to_access": "Contact the access point for your household."
+        },
+        {
+          "id": "william-booth-center",
+          "title": "Salvation Army William Booth Center",
+          "description": "Shelter serving adult men, including veterans. Eligibility and availability change.",
+          "last_verified": "2026-11-23",
+          "address": "811 Maynard Avenue South, Seattle, WA 98134",
+          "phone": "",
+          "website": "https://seattle.salvationarmy.org/seattle_services/seattle-social-services-shelters/",
+          "hours": "",
+          "how_to_access": "Call 211 or the center before traveling."
+        }
+      ]
+    },
+    {
+      "id": "food",
+      "title": "Free food",
+      "entries": [
+        {
+          "id": "compass-basic-services",
+          "title": "Compass Center — food and basic services",
+          "description": "Day-center food and basic services for adults experiencing homelessness; availability varies.",
+          "last_verified": "2026-11-23",
+          "address": "210 Alaskan Way South, Seattle, WA 98104",
+          "phone": "",
+          "website": "https://www.compasshousingalliance.org/what-we-do/compass-center/",
+          "hours": "",
+          "how_to_access": "Check current hours and arrive early."
+        }
+      ]
+    },
+    {
+      "id": "community",
+      "title": "Churches and religious organizations",
+      "entries": []
+    },
+    {
+      "id": "hygiene",
+      "title": "Showers, laundry and hygiene",
+      "entries": [
+        {
+          "id": "compass-hygiene",
+          "title": "Compass Center — hygiene",
+          "description": "Showers, laundry, restrooms, and hygiene support may be available.",
+          "last_verified": "2026-11-23",
+          "address": "210 Alaskan Way South, Seattle, WA 98104",
+          "phone": "",
+          "website": "https://www.compasshousingalliance.org/what-we-do/compass-center/",
+          "hours": "",
+          "how_to_access": "Ask about sign-up and capacity."
+        }
+      ]
+    },
+    {
+      "id": "clothing",
+      "title": "Free clothing",
+      "entries": []
+    },
+    {
+      "id": "health",
+      "title": "Free or low-cost medical care",
+      "entries": [
+        {
+          "id": "king-county-homeless-health",
+          "title": "King County homeless health services",
+          "description": "Clinics and outreach for people experiencing homelessness; locations and schedules vary.",
+          "last_verified": "2026-11-23",
+          "address": "",
+          "phone": "",
+          "website": "https://kingcounty.gov/en/dept/dph/health-safety/health-centers-programs-services/health-services-for-the-homeless",
+          "hours": "",
+          "how_to_access": "Find a current clinic and confirm hours."
+        }
+      ]
+    },
+    {
+      "id": "mental-health",
+      "title": "Mental health and substance use",
+      "entries": []
+    },
+    {
+      "id": "public-facilities",
+      "title": "Public toilets and day services",
+      "entries": [
+        {
+          "id": "compass-day-center",
+          "title": "Compass Center",
+          "description": "Day center with restrooms, hygiene, mail, banking, and navigation.",
+          "last_verified": "2026-11-23",
+          "address": "210 Alaskan Way South, Seattle, WA 98104",
+          "phone": "",
+          "website": "https://www.compasshousingalliance.org/what-we-do/compass-center/",
+          "hours": "",
+          "how_to_access": "Check in during current hours."
+        }
+      ]
+    },
+    {
+      "id": "phone-internet",
+      "title": "Phone charging and internet",
+      "entries": []
+    },
+    {
+      "id": "transport",
+      "title": "Free or reduced-cost transportation",
+      "entries": []
+    },
+    {
+      "id": "benefits",
+      "title": "Government benefits",
+      "entries": [
+        {
+          "id": "washington-connection",
+          "title": "Washington Connection",
+          "description": "Apply for food, medical, cash, and other public benefits.",
+          "last_verified": "2026-11-23",
+          "address": "",
+          "phone": "",
+          "website": "https://www.washingtonconnection.org/",
+          "hours": "",
+          "how_to_access": "Apply online; approval depends on eligibility."
+        }
+      ]
+    },
+    {
+      "id": "employment",
+      "title": "Employment assistance",
+      "entries": [
+        {
+          "id": "worksource-seattle",
+          "title": "WorkSource Seattle-King County",
+          "description": "Free job search, workshops, training information, and employer connections.",
+          "last_verified": "2026-11-23",
+          "address": "",
+          "phone": "",
+          "website": "https://www.seakingwdc.org/job-seekers/worksource-seattle-king-county",
+          "hours": "",
+          "how_to_access": "Find a center and confirm hours."
+        }
+      ]
+    },
+    {
+      "id": "legal",
+      "title": "Free legal aid",
+      "entries": [
+        {
+          "id": "northwest-justice-project",
+          "title": "Northwest Justice Project — CLEAR",
+          "description": "Free civil legal help for eligible low-income Washington residents.",
+          "last_verified": "2026-11-23",
+          "address": "",
+          "phone": "+18882011014",
+          "website": "https://nwjustice.org/get-legal-help",
+          "hours": "",
+          "how_to_access": "Call for screening."
+        }
+      ]
+    },
+    {
+      "id": "documents",
+      "title": "Documents and identification",
+      "entries": []
+    },
+    {
+      "id": "mail",
+      "title": "Mailing address",
+      "entries": []
+    },
+    {
+      "id": "storage",
+      "title": "Storage services",
+      "entries": []
+    },
+    {
+      "id": "safety",
+      "title": "Domestic violence support",
+      "entries": [
+        {
+          "id": "dv-hopeline",
+          "title": "King County Domestic Violence Hopeline",
+          "description": "Confidential support, safety planning, and referrals.",
+          "last_verified": "2026-11-23",
+          "address": "",
+          "phone": "+18777370242",
+          "website": "https://dvhopeline.org/",
+          "hours": "24 hours",
+          "how_to_access": "Call or chat when safe; call 911 for immediate danger."
+        }
+      ]
+    },
+    {
+      "id": "specialist-support",
+      "title": "Specialist support",
+      "entries": []
+    },
+    {
+      "id": "veterans",
+      "title": "Veterans assistance",
+      "entries": [
+        {
+          "id": "va-homeless-hotline",
+          "title": "National Call Center for Homeless Veterans",
+          "description": "Connects veterans who are homeless or at risk with VA services and local resources.",
+          "last_verified": "2026-11-23",
+          "address": "",
+          "phone": "+18774243838",
+          "website": "https://department.va.gov/homeless/nationalcallcenter/",
+          "hours": "24 hours",
+          "how_to_access": "Call and say you are a veteran who is homeless or at risk of losing housing."
+        }
+      ]
+    },
+    {
+      "id": "pets",
+      "title": "Help for people with pets",
+      "entries": [
+        {
+          "id": "seattle-humane-pet-food",
+          "title": "Seattle Humane Pet Food Bank",
+          "description": "Pet food help for eligible community members; enrollment and supply rules apply.",
+          "last_verified": "2026-11-23",
+          "address": "",
+          "phone": "",
+          "website": "https://www.seattlehumane.org/services/community-outreach/pet-food-bank/",
+          "hours": "",
+          "how_to_access": "Check eligibility before traveling."
+        }
+      ]
+    },
+    {
+      "id": "other",
+      "title": "Other useful resources",
+      "entries": []
+    }
+  ]
+}

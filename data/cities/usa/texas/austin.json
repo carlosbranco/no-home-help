@@ -1,0 +1,324 @@
+{
+  "$schema": "https://nohomehelp.com/schemas/city.schema.json",
+  "documentation": "https://github.com/carlosbranco/no-home-help/blob/main/EDIT_CITY_JSON.md",
+  "schema_version": 2,
+  "status": "published",
+  "locale": {
+    "language": "en",
+    "direction": "ltr",
+    "primary": true
+  },
+  "location": {
+    "continent": "Americas",
+    "country_code": "US",
+    "country_name": "United States",
+    "country_local_name": "United States",
+    "country_slug": "usa",
+    "region_code": "TX",
+    "region_name": "Texas",
+    "region_slug": "texas",
+    "city_name": "Austin",
+    "city_slug": "austin"
+  },
+  "seo": {
+    "title": "Austin Homeless Help - No Home Help",
+    "description": "Verified practical resources for people experiencing homelessness in Austin."
+  },
+  "page": {
+    "heading": "AUSTIN - HOMELESS HELP",
+    "last_verified": "2026-11-23",
+    "urgent": "Immediate danger: 911. Shelter navigation: 512-522-1097. Local information: 211. Crisis support: call or text 988.",
+    "notice": "Availability, eligibility, hours, and capacity can change. Call ahead when possible. A listing does not guarantee a bed, meal, appointment, benefit, job, or legal representation.",
+    "intro": "Call Sunrise Homeless Navigation Center at 512-522-1097 for shelter navigation. The Marshalling Yard does not accept walk-ins.",
+    "footer": "Information can change. Call ahead when possible and report incorrect information through the GitHub link in the footer."
+  },
+  "categories": [
+    {
+      "id": "emergency",
+      "title": "Emergency help",
+      "entries": [
+        {
+          "id": "emergency-911",
+          "title": "Emergency services — 911",
+          "description": "For immediate danger, fire, a life-threatening medical emergency, or violence.",
+          "last_verified": "2026-11-23",
+          "address": "",
+          "phone": "911",
+          "website": "https://www.austintexas.gov/homeless-strategies/services-offered",
+          "hours": "24 hours",
+          "how_to_access": "Give the exact location and explain what is happening."
+        },
+        {
+          "id": "sunrise-navigation-phone",
+          "title": "Sunrise Homeless Navigation Center phone line",
+          "description": "Navigation for shelter and other resources; a call does not guarantee a bed.",
+          "last_verified": "2026-11-23",
+          "address": "",
+          "phone": "+15125221097",
+          "website": "https://www.austintexas.gov/homeless-strategies/shelters",
+          "hours": "Monday–Friday, 8:00 AM–8:00 PM",
+          "how_to_access": "Explain your location, household, and urgent needs."
+        }
+      ]
+    },
+    {
+      "id": "shelter",
+      "title": "Emergency shelters and housing",
+      "entries": [
+        {
+          "id": "city-shelter-information",
+          "title": "City of Austin shelter information",
+          "description": "Official access guidance. Capacity, eligibility, and referral rules vary; the Marshalling Yard is referral-only.",
+          "last_verified": "2026-11-23",
+          "address": "",
+          "phone": "",
+          "website": "https://www.austintexas.gov/homeless-strategies/shelters",
+          "hours": "",
+          "how_to_access": "Call Sunrise and ask which current option fits your situation."
+        },
+        {
+          "id": "arch-front-steps",
+          "title": "Austin Resource Center for the Homeless (ARCH)",
+          "description": "Downtown shelter and service center. Bed availability and eligible groups can change.",
+          "last_verified": "2026-11-23",
+          "address": "500 East 7th Street, Austin, TX 78701",
+          "phone": "",
+          "website": "https://frontsteps.org/",
+          "hours": "",
+          "how_to_access": "Call or ask Sunrise before traveling."
+        }
+      ]
+    },
+    {
+      "id": "food",
+      "title": "Free food",
+      "entries": [
+        {
+          "id": "sunrise-basic-needs",
+          "title": "Sunrise — food and basic needs",
+          "description": "Day services can include food and connections to other help. Daily availability varies.",
+          "last_verified": "2026-11-23",
+          "address": "4430 Menchaca Road, Austin, TX 78745",
+          "phone": "+15125221097",
+          "website": "https://sunrisenavigationcenter.org/get-help/",
+          "hours": "",
+          "how_to_access": "Call or visit during posted hours."
+        }
+      ]
+    },
+    {
+      "id": "community",
+      "title": "Churches and religious organizations",
+      "entries": []
+    },
+    {
+      "id": "hygiene",
+      "title": "Showers, laundry and hygiene",
+      "entries": [
+        {
+          "id": "sunrise-hygiene",
+          "title": "Sunrise — showers and laundry",
+          "description": "Day services can include showers, laundry, restrooms, and hygiene supplies. Capacity varies.",
+          "last_verified": "2026-11-23",
+          "address": "4430 Menchaca Road, Austin, TX 78745",
+          "phone": "+15125221097",
+          "website": "https://sunrisenavigationcenter.org/get-help/",
+          "hours": "",
+          "how_to_access": "Arrive early and ask about sign-up."
+        }
+      ]
+    },
+    {
+      "id": "clothing",
+      "title": "Free clothing",
+      "entries": []
+    },
+    {
+      "id": "health",
+      "title": "Free or low-cost medical care",
+      "entries": [
+        {
+          "id": "city-health-resources",
+          "title": "Austin homelessness health resources",
+          "description": "Official city links to medical, mental-health, and substance-use services.",
+          "last_verified": "2026-11-23",
+          "address": "",
+          "phone": "",
+          "website": "https://www.austintexas.gov/homeless-strategies/services-offered",
+          "hours": "",
+          "how_to_access": "Use the city links or ask Sunrise for the closest clinic."
+        }
+      ]
+    },
+    {
+      "id": "mental-health",
+      "title": "Mental health and substance use",
+      "entries": []
+    },
+    {
+      "id": "public-facilities",
+      "title": "Public toilets and day services",
+      "entries": [
+        {
+          "id": "sunrise-day-center",
+          "title": "Sunrise Homeless Navigation Center",
+          "description": "Low-barrier day center with navigation and basic-needs services.",
+          "last_verified": "2026-11-23",
+          "address": "4430 Menchaca Road, Austin, TX 78745",
+          "phone": "+15125221097",
+          "website": "https://sunrisenavigationcenter.org/get-help/",
+          "hours": "",
+          "how_to_access": "Walk in during current service hours."
+        }
+      ]
+    },
+    {
+      "id": "phone-internet",
+      "title": "Phone charging and internet",
+      "entries": [
+        {
+          "id": "sunrise-connectivity",
+          "title": "Sunrise — charging and internet",
+          "description": "May provide phone charging, computer or internet access, and navigation.",
+          "last_verified": "2026-11-23",
+          "address": "4430 Menchaca Road, Austin, TX 78745",
+          "phone": "+15125221097",
+          "website": "https://sunrisenavigationcenter.org/get-help/",
+          "hours": "",
+          "how_to_access": "Ask staff about current availability."
+        }
+      ]
+    },
+    {
+      "id": "transport",
+      "title": "Free or reduced-cost transportation",
+      "entries": []
+    },
+    {
+      "id": "benefits",
+      "title": "Government benefits",
+      "entries": [
+        {
+          "id": "austin-neighborhood-centers",
+          "title": "Austin Public Health Neighborhood Centers",
+          "description": "Free help with food access, benefits, job search, screenings, and limited emergency assistance.",
+          "last_verified": "2026-11-23",
+          "address": "",
+          "phone": "",
+          "website": "https://www.austintexas.gov/services/get-help-neighborhood-centers",
+          "hours": "",
+          "how_to_access": "Find and call the closest center."
+        },
+        {
+          "id": "your-texas-benefits",
+          "title": "Your Texas Benefits",
+          "description": "Apply for SNAP, Medicaid, TANF, and other Texas benefits.",
+          "last_verified": "2026-11-23",
+          "address": "",
+          "phone": "211",
+          "website": "https://www.hhs.texas.gov/services",
+          "hours": "",
+          "how_to_access": "Call 211 or apply online; approval depends on eligibility."
+        }
+      ]
+    },
+    {
+      "id": "employment",
+      "title": "Employment assistance",
+      "entries": [
+        {
+          "id": "goodwill-central-texas-jobs",
+          "title": "Goodwill Central Texas job services",
+          "description": "Career coaching, job-search help, and training programs.",
+          "last_verified": "2026-11-23",
+          "address": "",
+          "phone": "",
+          "website": "https://www.goodwillcentraltexas.org/education-job-training/",
+          "hours": "",
+          "how_to_access": "Find a career center and confirm hours."
+        }
+      ]
+    },
+    {
+      "id": "legal",
+      "title": "Free legal aid",
+      "entries": [
+        {
+          "id": "texas-riogrande-legal-aid",
+          "title": "Texas RioGrande Legal Aid",
+          "description": "Free civil legal help for eligible low-income people; acceptance depends on issue and capacity.",
+          "last_verified": "2026-11-23",
+          "address": "",
+          "phone": "+18333298752",
+          "website": "https://www.trla.org/",
+          "hours": "",
+          "how_to_access": "Call for intake."
+        }
+      ]
+    },
+    {
+      "id": "documents",
+      "title": "Documents and identification",
+      "entries": []
+    },
+    {
+      "id": "mail",
+      "title": "Mailing address",
+      "entries": []
+    },
+    {
+      "id": "storage",
+      "title": "Storage services",
+      "entries": []
+    },
+    {
+      "id": "safety",
+      "title": "Domestic violence support",
+      "entries": [
+        {
+          "id": "safe-austin",
+          "title": "SAFE Austin",
+          "description": "Confidential support for domestic violence, sexual assault, child abuse, and trafficking.",
+          "last_verified": "2026-11-23",
+          "address": "",
+          "phone": "+15122677233",
+          "website": "https://www.safeaustin.org/get-help/",
+          "hours": "24-hour SAFEline",
+          "how_to_access": "Call when safe; call 911 for immediate danger."
+        }
+      ]
+    },
+    {
+      "id": "specialist-support",
+      "title": "Specialist support",
+      "entries": []
+    },
+    {
+      "id": "veterans",
+      "title": "Veterans assistance",
+      "entries": [
+        {
+          "id": "va-homeless-hotline",
+          "title": "National Call Center for Homeless Veterans",
+          "description": "Connects veterans who are homeless or at risk with VA services and local resources.",
+          "last_verified": "2026-11-23",
+          "address": "",
+          "phone": "+18774243838",
+          "website": "https://department.va.gov/homeless/nationalcallcenter/",
+          "hours": "24 hours",
+          "how_to_access": "Call and say you are a veteran who is homeless or at risk of losing housing."
+        }
+      ]
+    },
+    {
+      "id": "pets",
+      "title": "Help for people with pets",
+      "entries": []
+    },
+    {
+      "id": "other",
+      "title": "Other useful resources",
+      "entries": []
+    }
+  ]
+}

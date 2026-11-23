@@ -1,0 +1,300 @@
+{
+  "$schema": "https://nohomehelp.com/schemas/city.schema.json",
+  "documentation": "https://github.com/carlosbranco/no-home-help/blob/main/EDIT_CITY_JSON.md",
+  "schema_version": 2,
+  "status": "published",
+  "locale": {
+    "language": "es",
+    "direction": "ltr",
+    "primary": true
+  },
+  "location": {
+    "continent": "Americas",
+    "country_code": "PY",
+    "country_name": "Paraguay",
+    "country_local_name": "Paraguay",
+    "country_slug": "paraguay",
+    "region_code": "22",
+    "region_name": "Asuncion",
+    "region_slug": "asuncion",
+    "city_name": "Asunción",
+    "city_slug": "asuncion"
+  },
+  "seo": {
+    "title": "Ayuda para personas sin hogar en Asunción - No Home Help",
+    "description": "Recursos verificados para personas sin hogar o en situación de calle en Asunción."
+  },
+  "page": {
+    "heading": "ASUNCIÓN - AYUDA PARA PERSONAS SIN HOGAR",
+    "last_verified": "2026-11-23",
+    "urgent": "Peligro inmediato: 911. Emergencia médica SEME: 141. Albergue municipal Asunción Abriga: 0984 560 326.",
+    "notice": "La disponibilidad, los horarios, los requisitos y las plazas pueden cambiar. Llama antes de desplazarte. Una entrada no garantiza cama, comida, cita, prestación, trabajo ni representación legal.",
+    "intro": "Asunción Abriga funciona principalmente durante activaciones por frío. Llama al 0984 560 326 para confirmar apertura, transporte y plazas antes de acudir.",
+    "footer": "La información puede cambiar. Llama antes de desplazarte y comunica errores mediante el enlace de GitHub del pie de página."
+  },
+  "categories": [
+    {
+      "id": "emergency",
+      "title": "Ayuda de emergencia",
+      "entries": [
+        {
+          "id": "policia-911",
+          "title": "Emergencias — 911",
+          "description": "Para peligro inmediato, violencia, incendio o delito en curso.",
+          "last_verified": "2026-11-23",
+          "address": "",
+          "phone": "911",
+          "website": "https://www.asuncion.gov.py/intendencia/el-albergue-municipal-asuncion-abriga-ya-registra-historias-de-superacion-capacitacion-reinsercion-laboral-y-reunificacion-familiar",
+          "hours": "24 horas",
+          "how_to_access": "Indica la ubicación exacta y explica lo que ocurre."
+        },
+        {
+          "id": "seme-141",
+          "title": "SEME — 141",
+          "description": "Servicio de emergencias médicas extrahospitalarias.",
+          "last_verified": "2026-11-23",
+          "address": "",
+          "phone": "141",
+          "website": "https://www.mspbs.gov.py/",
+          "hours": "24 horas",
+          "how_to_access": "Indica ubicación, síntomas y riesgos."
+        },
+        {
+          "id": "asuncion-abriga-telefono",
+          "title": "Asunción Abriga — contacto",
+          "description": "Contacto municipal del operativo de albergue. La apertura depende de activación y capacidad.",
+          "last_verified": "2026-11-23",
+          "address": "",
+          "phone": "+595984560326",
+          "website": "https://www.asuncion.gov.py/intendencia/el-albergue-municipal-asuncion-abriga-ya-registra-historias-de-superacion-capacitacion-reinsercion-laboral-y-reunificacion-familiar",
+          "hours": "",
+          "how_to_access": "Llama para confirmar si está abierto y si hay traslado o plaza."
+        }
+      ]
+    },
+    {
+      "id": "shelter",
+      "title": "Alojamiento de emergencia y vivienda",
+      "entries": [
+        {
+          "id": "asuncion-abriga",
+          "title": "Albergue municipal Asunción Abriga",
+          "description": "Albergue activado por frío con estancia nocturna, alimentación, duchas, lavandería, ropa y acompañamiento. No debe suponerse abierto todo el año.",
+          "last_verified": "2026-11-23",
+          "address": "Centro Comunitario San Jerónimo, Avenida Stella Maris y Agustín Barboza, Asunción",
+          "phone": "+595984560326",
+          "website": "https://www.asuncion.gov.py/intendencia/el-albergue-municipal-asuncion-abriga-ya-registra-historias-de-superacion-capacitacion-reinsercion-laboral-y-reunificacion-familiar",
+          "hours": "Durante activaciones: aproximadamente 6:00 PM–9:00 AM",
+          "how_to_access": "Llama antes para confirmar activación, transporte, requisitos y plazas."
+        },
+        {
+          "id": "albergue-sen-invierno",
+          "title": "Albergue de invierno de la Secretaría de Emergencia Nacional",
+          "description": "Recurso estacional habilitado con apoyo sanitario durante olas de frío. Ubicación y apertura pueden variar por operativo.",
+          "last_verified": "2026-11-23",
+          "address": "",
+          "phone": "",
+          "website": "https://www.mspbs.gov.py/dgds/33041/albergue-para-personas-en-situacion-de-calle-es-inaugurado-en-asuncion-con-apoyo-de-salud.html",
+          "hours": "Solo cuando el operativo está activo",
+          "how_to_access": "Confirma con la SEN o el municipio dónde funciona actualmente."
+        }
+      ]
+    },
+    {
+      "id": "food",
+      "title": "Comida gratuita",
+      "entries": [
+        {
+          "id": "asuncion-abriga-comidas",
+          "title": "Asunción Abriga — comidas",
+          "description": "Durante activaciones, el albergue ofrece cena y desayuno a las personas admitidas.",
+          "last_verified": "2026-11-23",
+          "address": "Centro Comunitario San Jerónimo, Avenida Stella Maris y Agustín Barboza, Asunción",
+          "phone": "+595984560326",
+          "website": "https://www.asuncion.gov.py/intendencia/el-albergue-municipal-asuncion-abriga-ya-registra-historias-de-superacion-capacitacion-reinsercion-laboral-y-reunificacion-familiar",
+          "hours": "Durante activaciones",
+          "how_to_access": "Confirma apertura y plaza antes de desplazarte."
+        }
+      ]
+    },
+    {
+      "id": "community",
+      "title": "Iglesias y organizaciones religiosas",
+      "entries": []
+    },
+    {
+      "id": "hygiene",
+      "title": "Duchas, lavandería e higiene",
+      "entries": [
+        {
+          "id": "asuncion-abriga-higiene",
+          "title": "Asunción Abriga — duchas y lavandería",
+          "description": "El operativo municipal incluye duchas, lavandería y ropa para las personas admitidas.",
+          "last_verified": "2026-11-23",
+          "address": "Centro Comunitario San Jerónimo, Avenida Stella Maris y Agustín Barboza, Asunción",
+          "phone": "+595984560326",
+          "website": "https://www.asuncion.gov.py/intendencia/el-albergue-municipal-asuncion-abriga-ya-registra-historias-de-superacion-capacitacion-reinsercion-laboral-y-reunificacion-familiar",
+          "hours": "Durante activaciones",
+          "how_to_access": "Llama para confirmar que el albergue esté activo."
+        }
+      ]
+    },
+    {
+      "id": "clothing",
+      "title": "Ropa gratuita",
+      "entries": [
+        {
+          "id": "asuncion-abriga-ropa",
+          "title": "Asunción Abriga — ropa",
+          "description": "Puede entregar ropa a las personas acogidas, según donaciones y existencia.",
+          "last_verified": "2026-11-23",
+          "address": "Centro Comunitario San Jerónimo, Avenida Stella Maris y Agustín Barboza, Asunción",
+          "phone": "+595984560326",
+          "website": "https://www.asuncion.gov.py/intendencia/el-albergue-municipal-asuncion-abriga-ya-registra-historias-de-superacion-capacitacion-reinsercion-laboral-y-reunificacion-familiar",
+          "hours": "",
+          "how_to_access": "Pregunta al equipo; no se garantiza disponibilidad."
+        }
+      ]
+    },
+    {
+      "id": "health",
+      "title": "Atención médica gratuita o de bajo coste",
+      "entries": [
+        {
+          "id": "clinica-movil-albergue",
+          "title": "Atención sanitaria en operativos de albergue",
+          "description": "Durante olas de frío se ha instalado atención médica móvil en el albergue municipal. No es un servicio permanente.",
+          "last_verified": "2026-11-23",
+          "address": "",
+          "phone": "",
+          "website": "https://www.lanacion.com.py/pais/2026/07/07/habilitaran-clinica-movil-en-albergue-del-municipio-asunceno-ante-ola-de-frio/",
+          "hours": "Solo durante operativos anunciados",
+          "how_to_access": "Pregunta al albergue si hay atención sanitaria activa; para emergencia llama al 141."
+        }
+      ]
+    },
+    {
+      "id": "mental-health",
+      "title": "Salud mental y adicciones",
+      "entries": []
+    },
+    {
+      "id": "public-facilities",
+      "title": "Baños públicos y centros de día",
+      "entries": []
+    },
+    {
+      "id": "phone-internet",
+      "title": "Carga de teléfono e internet",
+      "entries": []
+    },
+    {
+      "id": "transport",
+      "title": "Transporte gratuito o reducido",
+      "entries": []
+    },
+    {
+      "id": "benefits",
+      "title": "Prestaciones y ayuda social",
+      "entries": [
+        {
+          "id": "ministerio-desarrollo-social",
+          "title": "Ministerio de Desarrollo Social",
+          "description": "Información y acceso a programas sociales nacionales. La admisión depende de requisitos.",
+          "last_verified": "2026-11-23",
+          "address": "",
+          "phone": "",
+          "website": "https://www.mds.gov.py/",
+          "hours": "",
+          "how_to_access": "Consulta programas y puntos de atención oficiales."
+        }
+      ]
+    },
+    {
+      "id": "employment",
+      "title": "Ayuda para encontrar trabajo",
+      "entries": [
+        {
+          "id": "mtess-empleo",
+          "title": "Ministerio de Trabajo, Empleo y Seguridad Social",
+          "description": "Servicios públicos de empleo, orientación, capacitación y vacantes.",
+          "last_verified": "2026-11-23",
+          "address": "",
+          "phone": "",
+          "website": "https://www.mtess.gov.py/",
+          "hours": "",
+          "how_to_access": "Consulta la bolsa de empleo y confirma puntos de atención."
+        }
+      ]
+    },
+    {
+      "id": "legal",
+      "title": "Asistencia jurídica gratuita",
+      "entries": [
+        {
+          "id": "defensa-publica-paraguay",
+          "title": "Ministerio de la Defensa Pública",
+          "description": "Defensa y asistencia jurídica pública dentro de sus competencias y requisitos.",
+          "last_verified": "2026-11-23",
+          "address": "",
+          "phone": "",
+          "website": "https://www.mdp.gov.py/",
+          "hours": "",
+          "how_to_access": "Contacta y explica el asunto para saber si corresponde al servicio."
+        }
+      ]
+    },
+    {
+      "id": "documents",
+      "title": "Documentos e identificación",
+      "entries": []
+    },
+    {
+      "id": "mail",
+      "title": "Dirección postal",
+      "entries": []
+    },
+    {
+      "id": "storage",
+      "title": "Guardado de pertenencias",
+      "entries": []
+    },
+    {
+      "id": "safety",
+      "title": "Apoyo ante violencia doméstica",
+      "entries": [
+        {
+          "id": "sos-mujer-137",
+          "title": "SOS Mujer — 137",
+          "description": "Línea gratuita de orientación y contención para mujeres en situación de violencia.",
+          "last_verified": "2026-11-23",
+          "address": "",
+          "phone": "137",
+          "website": "https://mujer.gov.py/",
+          "hours": "24 horas",
+          "how_to_access": "Llama cuando sea seguro. En peligro inmediato, llama al 911."
+        }
+      ]
+    },
+    {
+      "id": "specialist-support",
+      "title": "Apoyo especializado",
+      "entries": []
+    },
+    {
+      "id": "veterans",
+      "title": "Ayuda para veteranos",
+      "entries": []
+    },
+    {
+      "id": "pets",
+      "title": "Ayuda para personas con animales",
+      "entries": []
+    },
+    {
+      "id": "other",
+      "title": "Otros recursos útiles",
+      "entries": []
+    }
+  ]
+}

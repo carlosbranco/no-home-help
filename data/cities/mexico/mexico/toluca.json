@@ -1,0 +1,242 @@
+{
+  "$schema": "https://nohomehelp.com/schemas/city.schema.json",
+  "documentation": "https://github.com/carlosbranco/no-home-help/blob/main/EDIT_CITY_JSON.md",
+  "schema_version": 2,
+  "status": "published",
+  "locale": {
+    "language": "es",
+    "direction": "ltr",
+    "primary": true
+  },
+  "location": {
+    "continent": "Americas",
+    "country_code": "MX",
+    "country_name": "Mexico",
+    "country_local_name": "México",
+    "country_slug": "mexico",
+    "region_code": "15",
+    "region_name": "México",
+    "region_slug": "mexico",
+    "city_name": "Toluca",
+    "city_slug": "toluca"
+  },
+  "seo": {
+    "title": "Ayuda para personas sin hogar en Toluca - No Home Help",
+    "description": "Recursos verificados para personas sin hogar o en situación de calle en Toluca."
+  },
+  "page": {
+    "heading": "TOLUCA - AYUDA PARA PERSONAS SIN HOGAR",
+    "last_verified": "2026-11-23",
+    "urgent": "Peligro inmediato, incendio o emergencia médica: 911. DIF Toluca: 722 277 3977.",
+    "notice": "La disponibilidad, los horarios, los requisitos y las plazas pueden cambiar. Llama antes de desplazarte. Una entrada no garantiza cama, comida, cita, prestación, trabajo ni representación legal.",
+    "intro": "El refugio invernal municipal es estacional. Antes de desplazarte, llama al DIF Toluca para confirmar que esté activo, tenga plazas y acepte tu situación.",
+    "footer": "La información puede cambiar. Llama antes de desplazarte y comunica errores mediante el enlace de GitHub del pie de página."
+  },
+  "categories": [
+    {
+      "id": "emergency",
+      "title": "Ayuda de emergencia",
+      "entries": [
+        {
+          "id": "emergencias-911",
+          "title": "Emergencias — 911",
+          "description": "Para peligro inmediato, incendio, violencia o una emergencia médica grave.",
+          "last_verified": "2026-11-23",
+          "address": "",
+          "phone": "911",
+          "website": "https://www2.toluca.gob.mx/mantiene-toluca-apoyo-directo-a-personas-en-situacion-de-calle-por-bajas-temperaturas/",
+          "hours": "24 horas",
+          "how_to_access": "Indica la ubicación exacta y explica lo que ocurre."
+        },
+        {
+          "id": "dif-toluca",
+          "title": "DIF Toluca",
+          "description": "Orientación y trabajo social municipal para personas y familias vulnerables. La ayuda depende de valoración y disponibilidad.",
+          "last_verified": "2026-11-23",
+          "address": "Lago Balkach esquina Torres Chicas s/n, El Seminario, Toluca, Estado de México",
+          "phone": "+527222773977",
+          "website": "https://diftoluca.gob.mx/Paginas/Servicios/DesarrolloComunitario/index.php",
+          "hours": "Línea general 24 horas",
+          "how_to_access": "Llama y explica dónde estás, quién necesita ayuda y la urgencia."
+        }
+      ]
+    },
+    {
+      "id": "shelter",
+      "title": "Alojamiento de emergencia y vivienda",
+      "entries": [
+        {
+          "id": "refugio-temporal-invernal",
+          "title": "Refugio Temporal Invernal de Toluca",
+          "description": "Refugio municipal habilitado durante periodos de bajas temperaturas. Es estacional y no debe suponerse abierto todo el año.",
+          "last_verified": "2026-11-23",
+          "address": "Parque Luis Donaldo Colosio, Toluca, Estado de México",
+          "phone": "",
+          "website": "https://www2.toluca.gob.mx/mantiene-toluca-apoyo-directo-a-personas-en-situacion-de-calle-por-bajas-temperaturas/",
+          "hours": "Solo durante activaciones invernales",
+          "how_to_access": "Llama al DIF Toluca antes de acudir para confirmar apertura, requisitos y plazas."
+        }
+      ]
+    },
+    {
+      "id": "food",
+      "title": "Comida gratuita",
+      "entries": []
+    },
+    {
+      "id": "community",
+      "title": "Iglesias y organizaciones religiosas",
+      "entries": []
+    },
+    {
+      "id": "hygiene",
+      "title": "Duchas, lavandería e higiene",
+      "entries": []
+    },
+    {
+      "id": "clothing",
+      "title": "Ropa gratuita",
+      "entries": []
+    },
+    {
+      "id": "health",
+      "title": "Atención médica gratuita o de bajo coste",
+      "entries": []
+    },
+    {
+      "id": "mental-health",
+      "title": "Salud mental y adicciones",
+      "entries": []
+    },
+    {
+      "id": "public-facilities",
+      "title": "Baños públicos y centros de día",
+      "entries": []
+    },
+    {
+      "id": "phone-internet",
+      "title": "Carga de teléfono e internet",
+      "entries": []
+    },
+    {
+      "id": "transport",
+      "title": "Transporte gratuito o reducido",
+      "entries": []
+    },
+    {
+      "id": "benefits",
+      "title": "Prestaciones y ayuda social",
+      "entries": [
+        {
+          "id": "dif-toluca-apoyo-social",
+          "title": "DIF Toluca — apoyo social",
+          "description": "Valoración de necesidades y orientación a programas municipales para personas y familias vulnerables. La entrega de apoyos no está garantizada.",
+          "last_verified": "2026-11-23",
+          "address": "Lago Balkach esquina Torres Chicas s/n, El Seminario, Toluca, Estado de México",
+          "phone": "+527222773977",
+          "website": "https://diftoluca.gob.mx/Paginas/Servicios/DesarrolloComunitario/index.php",
+          "hours": "",
+          "how_to_access": "Solicita entrevista de trabajo social y pregunta qué documentos aceptan."
+        }
+      ]
+    },
+    {
+      "id": "employment",
+      "title": "Ayuda para encontrar trabajo",
+      "entries": [
+        {
+          "id": "servicio-empleo-edomex",
+          "title": "Servicio de Empleo del Estado de México",
+          "description": "Bolsa de trabajo, ferias de empleo, orientación y vinculación laboral gratuitas.",
+          "last_verified": "2026-11-23",
+          "address": "",
+          "phone": "",
+          "website": "https://strabajo.edomex.gob.mx/",
+          "hours": "",
+          "how_to_access": "Consulta oficinas y vacantes; confirma el horario antes de acudir."
+        }
+      ]
+    },
+    {
+      "id": "legal",
+      "title": "Asistencia jurídica gratuita",
+      "entries": [
+        {
+          "id": "defensoria-publica-edomex",
+          "title": "Instituto de la Defensoría Pública del Estado de México",
+          "description": "Orientación y defensa pública en asuntos dentro de su competencia. La aceptación depende del tipo de caso.",
+          "last_verified": "2026-11-23",
+          "address": "",
+          "phone": "",
+          "website": "https://idp.edomex.gob.mx/",
+          "hours": "",
+          "how_to_access": "Contacta la oficina y explica el problema para saber si corresponde al servicio."
+        }
+      ]
+    },
+    {
+      "id": "documents",
+      "title": "Documentos e identificación",
+      "entries": []
+    },
+    {
+      "id": "mail",
+      "title": "Dirección postal",
+      "entries": []
+    },
+    {
+      "id": "storage",
+      "title": "Guardado de pertenencias",
+      "entries": []
+    },
+    {
+      "id": "safety",
+      "title": "Apoyo ante violencia doméstica",
+      "entries": [
+        {
+          "id": "linea-sin-violencia",
+          "title": "Línea Sin Violencia del Estado de México",
+          "description": "Orientación confidencial para mujeres en situación de violencia y conexión con servicios de apoyo.",
+          "last_verified": "2026-11-23",
+          "address": "",
+          "phone": "+528001084053",
+          "website": "https://semujeres.edomex.gob.mx/linea_sin_violencia",
+          "hours": "24 horas",
+          "how_to_access": "Llama cuando sea seguro. En peligro inmediato, llama al 911."
+        }
+      ]
+    },
+    {
+      "id": "specialist-support",
+      "title": "Apoyo especializado",
+      "entries": []
+    },
+    {
+      "id": "veterans",
+      "title": "Ayuda para veteranos",
+      "entries": []
+    },
+    {
+      "id": "pets",
+      "title": "Ayuda para personas con animales",
+      "entries": []
+    },
+    {
+      "id": "other",
+      "title": "Otros recursos útiles",
+      "entries": [
+        {
+          "id": "toluca-atencion-calle",
+          "title": "Ayuntamiento de Toluca — atención a personas en calle",
+          "description": "Información oficial sobre brigadas municipales y activaciones por bajas temperaturas.",
+          "last_verified": "2026-11-23",
+          "address": "",
+          "phone": "",
+          "website": "https://www2.toluca.gob.mx/mantiene-toluca-apoyo-directo-a-personas-en-situacion-de-calle-por-bajas-temperaturas/",
+          "hours": "",
+          "how_to_access": "Usa la información para pedir orientación actual al municipio o al DIF."
+        }
+      ]
+    }
+  ]
+}

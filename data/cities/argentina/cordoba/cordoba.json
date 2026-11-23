@@ -1,0 +1,300 @@
+{
+  "$schema": "https://nohomehelp.com/schemas/city.schema.json",
+  "documentation": "https://github.com/carlosbranco/no-home-help/blob/main/EDIT_CITY_JSON.md",
+  "schema_version": 2,
+  "status": "published",
+  "locale": {
+    "language": "es",
+    "direction": "ltr",
+    "primary": true
+  },
+  "location": {
+    "continent": "Americas",
+    "country_code": "AR",
+    "country_name": "Argentina",
+    "country_local_name": "Argentina",
+    "country_slug": "argentina",
+    "region_code": "05",
+    "region_name": "Cordoba",
+    "region_slug": "cordoba",
+    "city_name": "Córdoba",
+    "city_slug": "cordoba"
+  },
+  "seo": {
+    "title": "Ayuda para personas sin hogar en Córdoba - No Home Help",
+    "description": "Recursos verificados para personas sin hogar o en situación de calle en Córdoba."
+  },
+  "page": {
+    "heading": "CÓRDOBA - AYUDA PARA PERSONAS SIN HOGAR",
+    "last_verified": "2026-11-23",
+    "urgent": "Peligro inmediato: 911. Emergencia médica: 107. Avisos sobre personas en calle y alojamiento municipal: WhatsApp 351 595 0589.",
+    "notice": "La disponibilidad, los horarios, los requisitos y las plazas pueden cambiar. Llama antes de desplazarte. Una entrada no garantiza cama, comida, cita, prestación, trabajo ni representación legal.",
+    "intro": "La Municipalidad recibe avisos por WhatsApp en el 351 595 0589 y coordina alojamiento y acompañamiento. La plaza no está garantizada.",
+    "footer": "La información puede cambiar. Llama antes de desplazarte y comunica errores mediante el enlace de GitHub del pie de página."
+  },
+  "categories": [
+    {
+      "id": "emergency",
+      "title": "Ayuda de emergencia",
+      "entries": [
+        {
+          "id": "emergencias-911",
+          "title": "Emergencias — 911",
+          "description": "Para peligro inmediato, incendio o violencia.",
+          "last_verified": "2026-11-23",
+          "address": "",
+          "phone": "911",
+          "website": "https://cordoba.gob.ar/alojamiento-a-personas-en-situacion-de-calle/",
+          "hours": "24 horas",
+          "how_to_access": "Indica la ubicación exacta y explica lo que ocurre."
+        },
+        {
+          "id": "emergencias-medicas-107",
+          "title": "Emergencias médicas — 107",
+          "description": "Atención prehospitalaria para emergencias médicas graves.",
+          "last_verified": "2026-11-23",
+          "address": "",
+          "phone": "107",
+          "website": "https://cordoba.gob.ar/salud/",
+          "hours": "24 horas",
+          "how_to_access": "Indica ubicación, síntomas y riesgos."
+        },
+        {
+          "id": "linea-personas-calle",
+          "title": "Línea municipal para personas en situación de calle",
+          "description": "Recibe avisos y coordina equipos municipales, alojamiento y acompañamiento según la situación y las plazas.",
+          "last_verified": "2026-11-23",
+          "address": "",
+          "phone": "+543515950589",
+          "website": "https://cordoba.gob.ar/alojamiento-a-personas-en-situacion-de-calle/",
+          "hours": "",
+          "how_to_access": "Envía WhatsApp con ubicación precisa y una descripción de la persona o grupo."
+        }
+      ]
+    },
+    {
+      "id": "shelter",
+      "title": "Alojamiento de emergencia y vivienda",
+      "entries": [
+        {
+          "id": "alojamiento-municipal",
+          "title": "Programa municipal de alojamiento",
+          "description": "La ciudad ofrece alojamiento y acompañamiento durante todo el año a personas en situación de calle. El acceso se coordina con equipos municipales.",
+          "last_verified": "2026-11-23",
+          "address": "",
+          "phone": "",
+          "website": "https://cordoba.gob.ar/alojamiento-a-personas-en-situacion-de-calle/",
+          "hours": "",
+          "how_to_access": "Escribe al 351 595 0589; confirma lugar de ingreso y plazas antes de desplazarte."
+        },
+        {
+          "id": "nuestra-casa",
+          "title": "Nuestra Casa",
+          "description": "Espacio municipal de transición y acompañamiento para personas que estuvieron en situación de calle, orientado a autonomía y reinserción. No es ingreso libre inmediato.",
+          "last_verified": "2026-11-23",
+          "address": "",
+          "phone": "",
+          "website": "https://cordoba.gob.ar/passerini-compartio-un-almuerzo-en-nuestra-casa-el-espacio-de-acompanamiento-para-personas-que-estuvieron-en-situacion-de-calle/",
+          "hours": "",
+          "how_to_access": "Consulta al equipo municipal cómo se realiza la derivación."
+        }
+      ]
+    },
+    {
+      "id": "food",
+      "title": "Comida gratuita",
+      "entries": [
+        {
+          "id": "programa-municipal-comidas",
+          "title": "Alojamiento municipal — comidas",
+          "description": "Los dispositivos de alojamiento municipal incluyen alimentación dentro del acompañamiento. Depende de ingreso y plaza.",
+          "last_verified": "2026-11-23",
+          "address": "",
+          "phone": "",
+          "website": "https://cordoba.gob.ar/alojamiento-a-personas-en-situacion-de-calle/",
+          "hours": "",
+          "how_to_access": "Contacta el 351 595 0589 para acceso al dispositivo."
+        }
+      ]
+    },
+    {
+      "id": "community",
+      "title": "Iglesias y organizaciones religiosas",
+      "entries": [
+        {
+          "id": "caritas-cordoba",
+          "title": "Cáritas Córdoba",
+          "description": "Red católica de asistencia social y comunitaria. La ayuda concreta, horarios y sedes varían; no se garantiza alojamiento.",
+          "last_verified": "2026-11-23",
+          "address": "",
+          "phone": "",
+          "website": "https://caritascordoba.org.ar/",
+          "hours": "",
+          "how_to_access": "Contacta la sede y pregunta qué servicio está disponible ese día."
+        }
+      ]
+    },
+    {
+      "id": "hygiene",
+      "title": "Duchas, lavandería e higiene",
+      "entries": [
+        {
+          "id": "alojamiento-municipal-higiene",
+          "title": "Alojamiento municipal — higiene",
+          "description": "Los dispositivos de alojamiento ofrecen condiciones básicas de higiene a quienes ingresan. Acceso sujeto a derivación y plazas.",
+          "last_verified": "2026-11-23",
+          "address": "",
+          "phone": "",
+          "website": "https://cordoba.gob.ar/alojamiento-a-personas-en-situacion-de-calle/",
+          "hours": "",
+          "how_to_access": "Solicita orientación por WhatsApp al 351 595 0589."
+        }
+      ]
+    },
+    {
+      "id": "clothing",
+      "title": "Ropa gratuita",
+      "entries": []
+    },
+    {
+      "id": "health",
+      "title": "Atención médica gratuita o de bajo coste",
+      "entries": [
+        {
+          "id": "salud-municipal-cordoba",
+          "title": "Red de salud municipal",
+          "description": "Información oficial sobre centros de salud y hospitales municipales. Para emergencia médica llama al 107.",
+          "last_verified": "2026-11-23",
+          "address": "",
+          "phone": "",
+          "website": "https://cordoba.gob.ar/salud/",
+          "hours": "",
+          "how_to_access": "Busca el centro más cercano y confirma horario y forma de atención."
+        }
+      ]
+    },
+    {
+      "id": "mental-health",
+      "title": "Salud mental y adicciones",
+      "entries": []
+    },
+    {
+      "id": "public-facilities",
+      "title": "Baños públicos y centros de día",
+      "entries": []
+    },
+    {
+      "id": "phone-internet",
+      "title": "Carga de teléfono e internet",
+      "entries": []
+    },
+    {
+      "id": "transport",
+      "title": "Transporte gratuito o reducido",
+      "entries": []
+    },
+    {
+      "id": "benefits",
+      "title": "Prestaciones y ayuda social",
+      "entries": [
+        {
+          "id": "politicas-sociales-cordoba",
+          "title": "Secretaría de Políticas Sociales y Desarrollo Humano",
+          "description": "Orientación sobre programas sociales municipales y acompañamiento a personas vulnerables.",
+          "last_verified": "2026-11-23",
+          "address": "",
+          "phone": "",
+          "website": "https://cordoba.gob.ar/secretaria-de-politicas-sociales/",
+          "hours": "",
+          "how_to_access": "Contacta la secretaría o pide derivación al equipo de calle."
+        }
+      ]
+    },
+    {
+      "id": "employment",
+      "title": "Ayuda para encontrar trabajo",
+      "entries": [
+        {
+          "id": "portal-empleo-argentina",
+          "title": "Portal Empleo",
+          "description": "Portal público nacional con búsqueda de empleo, cursos y programas de inserción laboral.",
+          "last_verified": "2026-11-23",
+          "address": "",
+          "phone": "",
+          "website": "https://www.portalempleo.gob.ar/",
+          "hours": "",
+          "how_to_access": "Crea una cuenta o solicita ayuda en una oficina de empleo."
+        }
+      ]
+    },
+    {
+      "id": "legal",
+      "title": "Asistencia jurídica gratuita",
+      "entries": [
+        {
+          "id": "defensoria-pueblo-cordoba",
+          "title": "Defensoría del Pueblo de la Provincia de Córdoba",
+          "description": "Orientación y recepción de reclamos sobre derechos y servicios públicos. No sustituye a un abogado en todos los casos.",
+          "last_verified": "2026-11-23",
+          "address": "",
+          "phone": "+548007770337",
+          "website": "https://defensoriacordoba.gob.ar/",
+          "hours": "",
+          "how_to_access": "Llama y explica el problema para recibir orientación."
+        }
+      ]
+    },
+    {
+      "id": "documents",
+      "title": "Documentos e identificación",
+      "entries": []
+    },
+    {
+      "id": "mail",
+      "title": "Dirección postal",
+      "entries": []
+    },
+    {
+      "id": "storage",
+      "title": "Guardado de pertenencias",
+      "entries": []
+    },
+    {
+      "id": "safety",
+      "title": "Apoyo ante violencia doméstica",
+      "entries": [
+        {
+          "id": "linea-144",
+          "title": "Línea 144",
+          "description": "Atención, contención y orientación ante violencia de género en Argentina.",
+          "last_verified": "2026-11-23",
+          "address": "",
+          "phone": "144",
+          "website": "https://www.argentina.gob.ar/generos/linea-144",
+          "hours": "24 horas",
+          "how_to_access": "Llama o usa los canales oficiales cuando sea seguro. En peligro inmediato, llama al 911."
+        }
+      ]
+    },
+    {
+      "id": "specialist-support",
+      "title": "Apoyo especializado",
+      "entries": []
+    },
+    {
+      "id": "veterans",
+      "title": "Ayuda para veteranos",
+      "entries": []
+    },
+    {
+      "id": "pets",
+      "title": "Ayuda para personas con animales",
+      "entries": []
+    },
+    {
+      "id": "other",
+      "title": "Otros recursos útiles",
+      "entries": []
+    }
+  ]
+}

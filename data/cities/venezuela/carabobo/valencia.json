@@ -1,0 +1,266 @@
+{
+  "$schema": "https://nohomehelp.com/schemas/city.schema.json",
+  "documentation": "https://github.com/carlosbranco/no-home-help/blob/main/EDIT_CITY_JSON.md",
+  "schema_version": 2,
+  "status": "published",
+  "locale": {
+    "language": "es",
+    "direction": "ltr",
+    "primary": true
+  },
+  "location": {
+    "continent": "Americas",
+    "country_code": "VE",
+    "country_name": "Venezuela",
+    "country_local_name": "Venezuela",
+    "country_slug": "venezuela",
+    "region_code": "07",
+    "region_name": "Carabobo",
+    "region_slug": "carabobo",
+    "city_name": "Valencia",
+    "city_slug": "valencia"
+  },
+  "seo": {
+    "title": "Ayuda para personas sin hogar en Valencia - No Home Help",
+    "description": "Recursos verificados para personas sin hogar o en situación de calle en Valencia."
+  },
+  "page": {
+    "heading": "VALENCIA - AYUDA PARA PERSONAS SIN HOGAR",
+    "last_verified": "2026-11-23",
+    "urgent": "Peligro inmediato: intenta 911 o 171; la conexión puede variar. Cruz Roja en Valencia: 0241 825 6436.",
+    "notice": "La disponibilidad, los horarios, los requisitos y las plazas pueden cambiar. Llama antes de desplazarte. Una entrada no garantiza cama, comida, cita, prestación, trabajo ni representación legal.",
+    "intro": "No encontramos una red pública actual y verificable de albergues generales con ingreso directo en Valencia. Empieza por Cruz Roja, Cáritas o los servicios municipales y confirma toda disponibilidad antes de desplazarte.",
+    "footer": "La información puede cambiar. Llama antes de desplazarte y comunica errores mediante el enlace de GitHub del pie de página."
+  },
+  "categories": [
+    {
+      "id": "emergency",
+      "title": "Ayuda de emergencia",
+      "entries": [
+        {
+          "id": "numeros-emergencia",
+          "title": "Emergencias — 911 o 171",
+          "description": "Números usados para emergencias en Venezuela; la cobertura y conexión pueden variar según operador y zona.",
+          "last_verified": "2026-11-23",
+          "address": "",
+          "phone": "911 / 171",
+          "website": "https://cruzroja.ve/nuestra-presencia/",
+          "hours": "24 horas cuando la red funciona",
+          "how_to_access": "Intenta ambos números. Si no conectan, acude al puesto policial, bomberos o centro de salud más cercano."
+        }
+      ]
+    },
+    {
+      "id": "shelter",
+      "title": "Alojamiento de emergencia y vivienda",
+      "entries": []
+    },
+    {
+      "id": "food",
+      "title": "Comida gratuita",
+      "entries": [
+        {
+          "id": "caritas-alimentos",
+          "title": "Cáritas — consulta de ayuda alimentaria",
+          "description": "Algunas sedes de Cáritas ofrecen apoyo alimentario según donaciones y programas activos. No se garantiza entrega en Valencia.",
+          "last_verified": "2026-11-23",
+          "address": "",
+          "phone": "",
+          "website": "https://caritasvenezuela.org/",
+          "hours": "",
+          "how_to_access": "Contacta primero con la sede local y pregunta por lugar, horario y requisitos."
+        }
+      ]
+    },
+    {
+      "id": "community",
+      "title": "Iglesias y organizaciones religiosas",
+      "entries": [
+        {
+          "id": "caritas-venezuela",
+          "title": "Cáritas de Venezuela",
+          "description": "Red católica de ayuda humanitaria. Los programas, sedes y suministros disponibles cambian y no garantizan alojamiento.",
+          "last_verified": "2026-11-23",
+          "address": "",
+          "phone": "",
+          "website": "https://caritasvenezuela.org/",
+          "hours": "",
+          "how_to_access": "Usa los contactos oficiales para localizar la Cáritas de Carabobo y confirmar la ayuda activa."
+        }
+      ]
+    },
+    {
+      "id": "hygiene",
+      "title": "Duchas, lavandería e higiene",
+      "entries": []
+    },
+    {
+      "id": "clothing",
+      "title": "Ropa gratuita",
+      "entries": []
+    },
+    {
+      "id": "health",
+      "title": "Atención médica gratuita o de bajo coste",
+      "entries": [
+        {
+          "id": "cruz-roja-carabobo",
+          "title": "Cruz Roja Venezolana — Hospital Luis Blanco Gasperi",
+          "description": "Hospital de la Cruz Roja en Valencia con servicios de salud. La atención, los costes y los horarios dependen del servicio.",
+          "last_verified": "2026-11-23",
+          "address": "Calle López Latouche, Urbanización Prebo, Valencia, Carabobo",
+          "phone": "+582418256436",
+          "website": "https://cruzroja.ve/nuestra-presencia/",
+          "hours": "",
+          "how_to_access": "Llama antes de acudir salvo emergencia; pregunta por el servicio y los requisitos."
+        }
+      ]
+    },
+    {
+      "id": "mental-health",
+      "title": "Salud mental y adicciones",
+      "entries": []
+    },
+    {
+      "id": "public-facilities",
+      "title": "Baños públicos y centros de día",
+      "entries": []
+    },
+    {
+      "id": "phone-internet",
+      "title": "Carga de teléfono e internet",
+      "entries": []
+    },
+    {
+      "id": "transport",
+      "title": "Transporte gratuito o reducido",
+      "entries": []
+    },
+    {
+      "id": "benefits",
+      "title": "Prestaciones y ayuda social",
+      "entries": [
+        {
+          "id": "sistema-patria",
+          "title": "Sistema Patria",
+          "description": "Plataforma oficial para programas y pagos sociales nacionales. El registro no garantiza una prestación.",
+          "last_verified": "2026-11-23",
+          "address": "",
+          "phone": "",
+          "website": "https://www.patria.org.ve/",
+          "hours": "",
+          "how_to_access": "Usa solo el sitio oficial y no entregues claves a intermediarios."
+        }
+      ]
+    },
+    {
+      "id": "employment",
+      "title": "Ayuda para encontrar trabajo",
+      "entries": [
+        {
+          "id": "ministerio-trabajo-venezuela",
+          "title": "Ministerio del Poder Popular para el Proceso Social de Trabajo",
+          "description": "Información oficial sobre trabajo, derechos laborales y oficinas de atención.",
+          "last_verified": "2026-11-23",
+          "address": "",
+          "phone": "",
+          "website": "https://www.mpppst.gob.ve/",
+          "hours": "",
+          "how_to_access": "Consulta el canal oficial y confirma la oficina competente en Carabobo."
+        }
+      ]
+    },
+    {
+      "id": "legal",
+      "title": "Asistencia jurídica gratuita",
+      "entries": [
+        {
+          "id": "defensoria-pueblo-venezuela",
+          "title": "Defensoría del Pueblo",
+          "description": "Orientación y recepción de denuncias sobre derechos humanos y servicios públicos. No sustituye defensa jurídica en todos los casos.",
+          "last_verified": "2026-11-23",
+          "address": "",
+          "phone": "",
+          "website": "https://www.defensoria.gob.ve/",
+          "hours": "",
+          "how_to_access": "Localiza la oficina de Carabobo y confirma horario antes de acudir."
+        }
+      ]
+    },
+    {
+      "id": "documents",
+      "title": "Documentos e identificación",
+      "entries": []
+    },
+    {
+      "id": "mail",
+      "title": "Dirección postal",
+      "entries": []
+    },
+    {
+      "id": "storage",
+      "title": "Guardado de pertenencias",
+      "entries": []
+    },
+    {
+      "id": "safety",
+      "title": "Apoyo ante violencia doméstica",
+      "entries": [
+        {
+          "id": "aliadas-en-cadena",
+          "title": "Aliadas en Cadena — orientación psicológica",
+          "description": "El directorio de servicios de violencia basada en género de UNFPA incluye contacto en Carabobo para orientación y apoyo psicológico. Confirma que la línea siga activa.",
+          "last_verified": "2026-11-23",
+          "address": "",
+          "phone": "+582418145914",
+          "website": "https://venezuela.unfpa.org/sites/default/files/pub-pdf/directorioserviciosvbg.pdf",
+          "hours": "",
+          "how_to_access": "Llama cuando sea seguro y pregunta por la atención disponible. En peligro inmediato, intenta 911 o 171."
+        },
+        {
+          "id": "cruz-roja-cicr-proteccion",
+          "title": "Cruz Roja / orientación de protección",
+          "description": "El directorio de UNFPA recoge un contacto móvil de Cruz Roja/CICR para orientación. La cobertura y horarios pueden cambiar.",
+          "last_verified": "2026-11-23",
+          "address": "",
+          "phone": "+584122665945",
+          "website": "https://venezuela.unfpa.org/sites/default/files/pub-pdf/directorioserviciosvbg.pdf",
+          "hours": "",
+          "how_to_access": "Llama y explica ubicación y necesidad; confirma si atiende actualmente en Carabobo."
+        }
+      ]
+    },
+    {
+      "id": "specialist-support",
+      "title": "Apoyo especializado",
+      "entries": [
+        {
+          "id": "acnur-ayuda-venezuela",
+          "title": "ACNUR Ayuda Venezuela",
+          "description": "Información para personas refugiadas, solicitantes de asilo, retornadas, desplazadas o con necesidades de protección.",
+          "last_verified": "2026-11-23",
+          "address": "",
+          "phone": "",
+          "website": "https://help.unhcr.org/venezuela/",
+          "hours": "",
+          "how_to_access": "Consulta los canales oficiales y evita pagar a intermediarios; los servicios de ACNUR son gratuitos."
+        }
+      ]
+    },
+    {
+      "id": "veterans",
+      "title": "Ayuda para veteranos",
+      "entries": []
+    },
+    {
+      "id": "pets",
+      "title": "Ayuda para personas con animales",
+      "entries": []
+    },
+    {
+      "id": "other",
+      "title": "Otros recursos útiles",
+      "entries": []
+    }
+  ]
+}

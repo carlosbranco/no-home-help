@@ -1,0 +1,336 @@
+{
+  "$schema": "https://nohomehelp.com/schemas/city.schema.json",
+  "documentation": "https://github.com/carlosbranco/no-home-help/blob/main/EDIT_CITY_JSON.md",
+  "schema_version": 2,
+  "status": "published",
+  "locale": {
+    "language": "en",
+    "direction": "ltr",
+    "primary": true
+  },
+  "location": {
+    "continent": "Americas",
+    "country_code": "US",
+    "country_name": "United States",
+    "country_local_name": "United States",
+    "country_slug": "usa",
+    "region_code": "OR",
+    "region_name": "Oregon",
+    "region_slug": "oregon",
+    "city_name": "Portland",
+    "city_slug": "portland"
+  },
+  "seo": {
+    "title": "Portland Homeless Help - No Home Help",
+    "description": "Verified practical resources for people experiencing homelessness in Portland."
+  },
+  "page": {
+    "heading": "PORTLAND - HOMELESS HELP",
+    "last_verified": "2026-11-23",
+    "urgent": "Immediate danger: 911. Shelter and local resource referrals: 211. Crisis support: call or text 988.",
+    "notice": "Availability, eligibility, hours, and capacity can change. Call ahead when possible. A listing does not guarantee a bed, meal, appointment, benefit, job, or legal representation.",
+    "intro": "Call 211 or use the Multnomah County shelter list for current openings. Services and capacity can change quickly.",
+    "footer": "Information can change. Call ahead when possible and report incorrect information through the GitHub link in the footer."
+  },
+  "categories": [
+    {
+      "id": "emergency",
+      "title": "Emergency help",
+      "entries": [
+        {
+          "id": "emergency-911",
+          "title": "Emergency services — 911",
+          "description": "For immediate danger, fire, a life-threatening medical emergency, or violence.",
+          "last_verified": "2026-11-23",
+          "address": "",
+          "phone": "911",
+          "website": "https://hsd.multco.us/find-help/",
+          "hours": "24 hours",
+          "how_to_access": "Give the exact location and explain what is happening."
+        },
+        {
+          "id": "oregon-211",
+          "title": "Oregon 2-1-1",
+          "description": "Free referrals for shelter, food, health, benefits, and other services.",
+          "last_verified": "2026-11-23",
+          "address": "",
+          "phone": "211",
+          "website": "https://www.211info.org/",
+          "hours": "24 hours",
+          "how_to_access": "Dial 211 and explain your current needs."
+        }
+      ]
+    },
+    {
+      "id": "shelter",
+      "title": "Emergency shelters and housing",
+      "entries": [
+        {
+          "id": "multnomah-shelter-list",
+          "title": "Multnomah County emergency shelter list",
+          "description": "Official list of emergency shelters and access instructions. Openings, eligibility, and intake methods vary.",
+          "last_verified": "2026-11-23",
+          "address": "",
+          "phone": "",
+          "website": "https://hsd.multco.us/emergency-shelters/list-of-shelters/",
+          "hours": "",
+          "how_to_access": "Check the current list or call 211 before traveling."
+        },
+        {
+          "id": "portland-rescue-mission",
+          "title": "Portland Rescue Mission — Burnside Shelter",
+          "description": "Faith-based emergency services for adults that can include meals, overnight shelter, restrooms, showers, clothing, and mail. Capacity varies.",
+          "last_verified": "2026-11-23",
+          "address": "111 West Burnside Street, Portland, OR 97209",
+          "phone": "",
+          "website": "https://portlandrescuemission.org/get-help/",
+          "hours": "",
+          "how_to_access": "Call or check current intake times; ask whether religious activities are optional."
+        }
+      ]
+    },
+    {
+      "id": "food",
+      "title": "Free food",
+      "entries": [
+        {
+          "id": "portland-rescue-mission-meals",
+          "title": "Portland Rescue Mission — meals",
+          "description": "Free meals and basic services; schedules can change.",
+          "last_verified": "2026-11-23",
+          "address": "111 West Burnside Street, Portland, OR 97209",
+          "phone": "",
+          "website": "https://portlandrescuemission.org/get-help/",
+          "hours": "",
+          "how_to_access": "Check current meal times before traveling."
+        },
+        {
+          "id": "cityteam-portland-meals",
+          "title": "CityTeam Portland — meals and shelter services",
+          "description": "Faith-based meals and basic services. Programs and eligible groups vary.",
+          "last_verified": "2026-11-23",
+          "address": "526 Southeast Grand Avenue, Portland, OR 97214",
+          "phone": "+15032319334",
+          "website": "https://cityteam.org/portland/",
+          "hours": "",
+          "how_to_access": "Call to confirm the current meal schedule."
+        }
+      ]
+    },
+    {
+      "id": "community",
+      "title": "Churches and religious organizations",
+      "entries": []
+    },
+    {
+      "id": "hygiene",
+      "title": "Showers, laundry and hygiene",
+      "entries": [
+        {
+          "id": "cityteam-showers",
+          "title": "CityTeam Portland — showers",
+          "description": "Shower access is offered on limited schedules; times and eligible groups can change.",
+          "last_verified": "2026-11-23",
+          "address": "526 Southeast Grand Avenue, Portland, OR 97214",
+          "phone": "+15032319334",
+          "website": "https://cityteam.org/portland/",
+          "hours": "",
+          "how_to_access": "Call before traveling and ask about the current shower schedule."
+        }
+      ]
+    },
+    {
+      "id": "clothing",
+      "title": "Free clothing",
+      "entries": []
+    },
+    {
+      "id": "health",
+      "title": "Free or low-cost medical care",
+      "entries": [
+        {
+          "id": "old-town-clinic",
+          "title": "Central City Concern — Old Town Clinic",
+          "description": "Primary and behavioral health care for adults, with experience serving people experiencing homelessness.",
+          "last_verified": "2026-11-23",
+          "address": "727 West Burnside Street, Portland, OR 97209",
+          "phone": "+15032284533",
+          "website": "https://centralcityconcern.org/health-care/old-town-clinic/",
+          "hours": "",
+          "how_to_access": "Call for current appointment and walk-in information."
+        }
+      ]
+    },
+    {
+      "id": "mental-health",
+      "title": "Mental health and substance use",
+      "entries": []
+    },
+    {
+      "id": "public-facilities",
+      "title": "Public toilets and day services",
+      "entries": [
+        {
+          "id": "multnomah-find-help",
+          "title": "Multnomah County Find Help",
+          "description": "Official directory for day services, hygiene, shelter, food, and related help.",
+          "last_verified": "2026-11-23",
+          "address": "",
+          "phone": "",
+          "website": "https://hsd.multco.us/find-help/",
+          "hours": "",
+          "how_to_access": "Use the directory or call 211 to confirm current access."
+        }
+      ]
+    },
+    {
+      "id": "phone-internet",
+      "title": "Phone charging and internet",
+      "entries": []
+    },
+    {
+      "id": "transport",
+      "title": "Free or reduced-cost transportation",
+      "entries": []
+    },
+    {
+      "id": "benefits",
+      "title": "Government benefits",
+      "entries": [
+        {
+          "id": "oregon-one",
+          "title": "ONE Oregon benefits portal",
+          "description": "Apply for food, medical, cash, and child-care benefits.",
+          "last_verified": "2026-11-23",
+          "address": "",
+          "phone": "",
+          "website": "https://one.oregon.gov/",
+          "hours": "",
+          "how_to_access": "Apply online or ask a service provider for help; approval depends on eligibility."
+        }
+      ]
+    },
+    {
+      "id": "employment",
+      "title": "Employment assistance",
+      "entries": [
+        {
+          "id": "worksource-portland",
+          "title": "WorkSource Portland Metro",
+          "description": "Free job-search assistance, training information, workshops, and employer connections.",
+          "last_verified": "2026-11-23",
+          "address": "",
+          "phone": "",
+          "website": "https://worksourceoregon.org/",
+          "hours": "",
+          "how_to_access": "Find a local center and confirm hours."
+        }
+      ]
+    },
+    {
+      "id": "legal",
+      "title": "Free legal aid",
+      "entries": [
+        {
+          "id": "oregon-law-center",
+          "title": "Oregon Law Center",
+          "description": "Free civil legal help for eligible low-income people; case acceptance depends on issue and capacity.",
+          "last_verified": "2026-11-23",
+          "address": "",
+          "phone": "+18006724919",
+          "website": "https://oregonlawcenter.org/how-to-get-help/",
+          "hours": "",
+          "how_to_access": "Call for screening."
+        }
+      ]
+    },
+    {
+      "id": "documents",
+      "title": "Documents and identification",
+      "entries": []
+    },
+    {
+      "id": "mail",
+      "title": "Mailing address",
+      "entries": [
+        {
+          "id": "portland-rescue-mission-mail",
+          "title": "Portland Rescue Mission — mail service",
+          "description": "Mail service may be available to registered guests; rules and capacity can change.",
+          "last_verified": "2026-11-23",
+          "address": "111 West Burnside Street, Portland, OR 97209",
+          "phone": "",
+          "website": "https://portlandrescuemission.org/get-help/",
+          "hours": "",
+          "how_to_access": "Ask staff about registration and current mail rules."
+        }
+      ]
+    },
+    {
+      "id": "storage",
+      "title": "Storage services",
+      "entries": []
+    },
+    {
+      "id": "safety",
+      "title": "Domestic violence support",
+      "entries": [
+        {
+          "id": "call-to-safety",
+          "title": "Call to Safety",
+          "description": "Confidential domestic and sexual violence crisis support and local referrals.",
+          "last_verified": "2026-11-23",
+          "address": "",
+          "phone": "+15032355333",
+          "website": "https://calltosafety.org/",
+          "hours": "24-hour crisis line",
+          "how_to_access": "Call when safe; call 911 for immediate danger."
+        }
+      ]
+    },
+    {
+      "id": "specialist-support",
+      "title": "Specialist support",
+      "entries": []
+    },
+    {
+      "id": "veterans",
+      "title": "Veterans assistance",
+      "entries": [
+        {
+          "id": "va-homeless-hotline",
+          "title": "National Call Center for Homeless Veterans",
+          "description": "Connects veterans who are homeless or at risk with VA services and local resources.",
+          "last_verified": "2026-11-23",
+          "address": "",
+          "phone": "+18774243838",
+          "website": "https://department.va.gov/homeless/nationalcallcenter/",
+          "hours": "24 hours",
+          "how_to_access": "Call and explain that you are a veteran who is homeless or at risk."
+        }
+      ]
+    },
+    {
+      "id": "pets",
+      "title": "Help for people with pets",
+      "entries": [
+        {
+          "id": "paw-team",
+          "title": "Portland Animal Welfare Team",
+          "description": "Veterinary and pet-support services for people experiencing homelessness or extreme poverty. Clinics and eligibility vary.",
+          "last_verified": "2026-11-23",
+          "address": "",
+          "phone": "+15032066033",
+          "website": "https://www.pawteam.org/",
+          "hours": "",
+          "how_to_access": "Check current clinic and appointment instructions."
+        }
+      ]
+    },
+    {
+      "id": "other",
+      "title": "Other useful resources",
+      "entries": []
+    }
+  ]
+}

@@ -1,0 +1,335 @@
+{
+  "$schema": "https://nohomehelp.com/schemas/city.schema.json",
+  "documentation": "https://github.com/carlosbranco/no-home-help/blob/main/EDIT_CITY_JSON.md",
+  "schema_version": 2,
+  "status": "published",
+  "locale": {
+    "language": "es",
+    "direction": "ltr",
+    "primary": true
+  },
+  "location": {
+    "continent": "Europe",
+    "country_code": "ES",
+    "country_name": "Spain",
+    "country_local_name": "España",
+    "country_slug": "spain",
+    "region_code": "60",
+    "region_name": "Valencia",
+    "region_slug": "valencia",
+    "city_name": "València",
+    "city_slug": "valencia"
+  },
+  "seo": {
+    "title": "Ayuda para personas sin hogar en València - No Home Help",
+    "description": "Recursos verificados para personas sin hogar o en situación de calle en València."
+  },
+  "page": {
+    "heading": "VALÈNCIA - AYUDA PARA PERSONAS SIN HOGAR",
+    "last_verified": "2026-11-23",
+    "urgent": "Peligro inmediato o emergencia médica: 112. Información municipal y servicios sociales: 010.",
+    "notice": "La disponibilidad, los horarios, los requisitos y las plazas pueden cambiar. Llama antes de desplazarte. Una entrada no garantiza cama, comida, cita, prestación, trabajo ni representación legal.",
+    "intro": "Para dormir hoy, contacta con los servicios sociales municipales o confirma el acceso al albergue de Ciutat Vella. Las entidades pueden tener lista de espera o derivación.",
+    "footer": "La información puede cambiar. Llama antes de desplazarte y comunica errores mediante el enlace de GitHub del pie de página."
+  },
+  "categories": [
+    {
+      "id": "emergency",
+      "title": "Ayuda de emergencia",
+      "entries": [
+        {
+          "id": "emergencias-112",
+          "title": "Emergencias — 112",
+          "description": "Para peligro inmediato, incendio, violencia o una emergencia médica grave.",
+          "last_verified": "2026-11-23",
+          "address": "",
+          "phone": "112",
+          "website": "https://www.valencia.es/es/servicios-sociales",
+          "hours": "24 horas",
+          "how_to_access": "Indica la ubicación exacta y explica lo que ocurre."
+        },
+        {
+          "id": "informacion-010",
+          "title": "Ayuntamiento de València — 010",
+          "description": "Información municipal y orientación hacia servicios sociales y recursos locales.",
+          "last_verified": "2026-11-23",
+          "address": "",
+          "phone": "010",
+          "website": "https://www.valencia.es/es/servicios-sociales",
+          "hours": "",
+          "how_to_access": "Llama y pide el centro municipal de servicios sociales que corresponde a tu ubicación."
+        }
+      ]
+    },
+    {
+      "id": "shelter",
+      "title": "Alojamiento de emergencia y vivienda",
+      "entries": [
+        {
+          "id": "albergue-ciutat-vella",
+          "title": "Albergue para Personas Sin Hogar Ciutat Vella",
+          "description": "Recurso municipal gestionado con Cruz Roja para alojamiento y acompañamiento. El acceso, los perfiles y las plazas pueden cambiar.",
+          "last_verified": "2026-11-23",
+          "address": "",
+          "phone": "",
+          "website": "https://www.valencia.es/es/-/recurso-social-albergue-para-personas-sin-hogar-ciutat-vella",
+          "hours": "",
+          "how_to_access": "Llama al 010 o contacta con servicios sociales para confirmar ingreso y disponibilidad."
+        },
+        {
+          "id": "san-juan-dios-albergue",
+          "title": "Sant Joan de Déu València — albergue",
+          "description": "Alojamiento y acompañamiento con alimentación, lavandería, ropero, consigna y apoyo sanitario básico. Acceso sujeto a valoración y plazas.",
+          "last_verified": "2026-11-23",
+          "address": "",
+          "phone": "",
+          "website": "https://www.sanjuandediosvalencia.org/proyectos/albergue/",
+          "hours": "",
+          "how_to_access": "Contacta antes de desplazarte para saber cómo se realiza el ingreso."
+        },
+        {
+          "id": "caritas-albergue-valencia",
+          "title": "Cáritas — albergue temporal",
+          "description": "Alojamiento temporal y proceso de inclusión para personas sin hogar. No es una cama garantizada ni necesariamente de ingreso directo.",
+          "last_verified": "2026-11-23",
+          "address": "",
+          "phone": "",
+          "website": "https://www.caritas.es/accion_social/albergue-temporal-para-personas-sin-hogar-en-valencia/",
+          "hours": "",
+          "how_to_access": "Contacta con Cáritas o servicios sociales para valoración y derivación."
+        }
+      ]
+    },
+    {
+      "id": "food",
+      "title": "Comida gratuita",
+      "entries": [
+        {
+          "id": "casa-caridad-comedor",
+          "title": "Casa Caridad València — comedor",
+          "description": "Entidad social con comedor y otros servicios básicos. Horarios, aforo y acceso pueden cambiar.",
+          "last_verified": "2026-11-23",
+          "address": "Paseo de la Pechina 9, 46008 València",
+          "phone": "",
+          "website": "https://casacaridad.com/",
+          "hours": "",
+          "how_to_access": "Confirma el horario y el proceso de acceso antes de acudir."
+        }
+      ]
+    },
+    {
+      "id": "community",
+      "title": "Iglesias y organizaciones religiosas",
+      "entries": [
+        {
+          "id": "caritas-valencia",
+          "title": "Cáritas València",
+          "description": "Red católica de acompañamiento social, alojamiento y otros apoyos. Cada programa tiene requisitos y disponibilidad propios.",
+          "last_verified": "2026-11-23",
+          "address": "",
+          "phone": "",
+          "website": "https://www.caritasvalencia.org/",
+          "hours": "",
+          "how_to_access": "Contacta la sede y pregunta por el punto de acogida correspondiente."
+        }
+      ]
+    },
+    {
+      "id": "hygiene",
+      "title": "Duchas, lavandería e higiene",
+      "entries": [
+        {
+          "id": "san-juan-dios-higiene",
+          "title": "Sant Joan de Déu — higiene y lavandería",
+          "description": "El albergue incluye servicios de higiene, lavandería y ropero para las personas admitidas.",
+          "last_verified": "2026-11-23",
+          "address": "",
+          "phone": "",
+          "website": "https://www.sanjuandediosvalencia.org/proyectos/albergue/",
+          "hours": "",
+          "how_to_access": "Pregunta por acceso y plazas antes de acudir."
+        },
+        {
+          "id": "casa-caridad-higiene",
+          "title": "Casa Caridad — higiene y centro de día",
+          "description": "Puede ofrecer duchas y otros servicios básicos dentro de sus programas. Capacidad y horarios varían.",
+          "last_verified": "2026-11-23",
+          "address": "Paseo de la Pechina 9, 46008 València",
+          "phone": "",
+          "website": "https://casacaridad.com/",
+          "hours": "",
+          "how_to_access": "Confirma el servicio actual y el horario."
+        }
+      ]
+    },
+    {
+      "id": "clothing",
+      "title": "Ropa gratuita",
+      "entries": []
+    },
+    {
+      "id": "health",
+      "title": "Atención médica gratuita o de bajo coste",
+      "entries": [
+        {
+          "id": "san-juan-dios-salud",
+          "title": "Sant Joan de Déu — apoyo sanitario básico",
+          "description": "El programa de albergue incluye apoyo sanitario básico y derivación. No sustituye urgencias médicas.",
+          "last_verified": "2026-11-23",
+          "address": "",
+          "phone": "",
+          "website": "https://www.sanjuandediosvalencia.org/proyectos/albergue/",
+          "hours": "",
+          "how_to_access": "Solicita información al equipo; para emergencia llama al 112."
+        }
+      ]
+    },
+    {
+      "id": "mental-health",
+      "title": "Salud mental y adicciones",
+      "entries": []
+    },
+    {
+      "id": "public-facilities",
+      "title": "Baños públicos y centros de día",
+      "entries": []
+    },
+    {
+      "id": "phone-internet",
+      "title": "Carga de teléfono e internet",
+      "entries": []
+    },
+    {
+      "id": "transport",
+      "title": "Transporte gratuito o reducido",
+      "entries": []
+    },
+    {
+      "id": "benefits",
+      "title": "Prestaciones y ayuda social",
+      "entries": [
+        {
+          "id": "servicios-sociales-valencia",
+          "title": "Centros Municipales de Servicios Sociales",
+          "description": "Valoración, información sobre prestaciones, acompañamiento y derivaciones. Las ayudas dependen de requisitos.",
+          "last_verified": "2026-11-23",
+          "address": "",
+          "phone": "010",
+          "website": "https://www.valencia.es/es/servicios-sociales",
+          "hours": "",
+          "how_to_access": "Llama al 010 para localizar el centro que te corresponde y pedir cita."
+        }
+      ]
+    },
+    {
+      "id": "employment",
+      "title": "Ayuda para encontrar trabajo",
+      "entries": [
+        {
+          "id": "valencia-activa",
+          "title": "València Activa",
+          "description": "Servicio municipal de empleo, orientación, formación y apoyo a la búsqueda de trabajo.",
+          "last_verified": "2026-11-23",
+          "address": "",
+          "phone": "",
+          "website": "https://valenciactiva.valencia.es/",
+          "hours": "",
+          "how_to_access": "Consulta puntos de atención y confirma si hace falta cita."
+        }
+      ]
+    },
+    {
+      "id": "legal",
+      "title": "Asistencia jurídica gratuita",
+      "entries": [
+        {
+          "id": "justicia-gratuita-gva",
+          "title": "Justicia gratuita — Generalitat Valenciana",
+          "description": "Información y solicitud de asistencia jurídica gratuita para personas que cumplen los requisitos.",
+          "last_verified": "2026-11-23",
+          "address": "",
+          "phone": "",
+          "website": "https://justiciaoberta.gva.es/es/justicia-gratuita",
+          "hours": "",
+          "how_to_access": "Consulta requisitos y dónde presentar la solicitud; la concesión no está garantizada."
+        }
+      ]
+    },
+    {
+      "id": "documents",
+      "title": "Documentos e identificación",
+      "entries": [
+        {
+          "id": "padron-valencia",
+          "title": "Padrón municipal y trámites",
+          "description": "Información oficial sobre empadronamiento. Las personas sin domicilio fijo pueden necesitar intervención de servicios sociales.",
+          "last_verified": "2026-11-23",
+          "address": "",
+          "phone": "010",
+          "website": "https://sede.valencia.es/sede/registro/procedimiento/PA.GP.10",
+          "hours": "",
+          "how_to_access": "Llama al 010 o pide apoyo a servicios sociales para conocer la documentación alternativa."
+        }
+      ]
+    },
+    {
+      "id": "mail",
+      "title": "Dirección postal",
+      "entries": []
+    },
+    {
+      "id": "storage",
+      "title": "Guardado de pertenencias",
+      "entries": [
+        {
+          "id": "san-juan-dios-consigna",
+          "title": "Sant Joan de Déu — consigna",
+          "description": "El albergue incluye consigna para las personas admitidas. No es almacenamiento público garantizado.",
+          "last_verified": "2026-11-23",
+          "address": "",
+          "phone": "",
+          "website": "https://www.sanjuandediosvalencia.org/proyectos/albergue/",
+          "hours": "",
+          "how_to_access": "Pregunta por ingreso y reglas de equipaje."
+        }
+      ]
+    },
+    {
+      "id": "safety",
+      "title": "Apoyo ante violencia doméstica",
+      "entries": [
+        {
+          "id": "linea-016",
+          "title": "Línea 016",
+          "description": "Información, asesoramiento jurídico y atención psicosocial ante violencia contra las mujeres. El 016 no aparece en la factura, pero puede quedar en el registro del teléfono.",
+          "last_verified": "2026-11-23",
+          "address": "",
+          "phone": "016",
+          "website": "https://violenciagenero.igualdad.gob.es/informacionUtil/recursos/telefono016/",
+          "hours": "24 horas",
+          "how_to_access": "Llama, escribe por WhatsApp al 600 000 016 o usa chat cuando sea seguro. En peligro inmediato llama al 112."
+        }
+      ]
+    },
+    {
+      "id": "specialist-support",
+      "title": "Apoyo especializado",
+      "entries": []
+    },
+    {
+      "id": "veterans",
+      "title": "Ayuda para veteranos",
+      "entries": []
+    },
+    {
+      "id": "pets",
+      "title": "Ayuda para personas con animales",
+      "entries": []
+    },
+    {
+      "id": "other",
+      "title": "Otros recursos útiles",
+      "entries": []
+    }
+  ]
+}

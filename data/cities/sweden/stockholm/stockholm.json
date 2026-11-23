@@ -1,0 +1,301 @@
+{
+  "$schema": "https://nohomehelp.com/schemas/city.schema.json",
+  "documentation": "https://github.com/carlosbranco/no-home-help/blob/main/EDIT_CITY_JSON.md",
+  "schema_version": 2,
+  "status": "published",
+  "locale": {
+    "language": "sv",
+    "direction": "ltr",
+    "primary": true
+  },
+  "location": {
+    "continent": "Europe",
+    "country_code": "SE",
+    "country_name": "Sweden",
+    "country_local_name": "Sverige",
+    "country_slug": "sweden",
+    "region_code": "26",
+    "region_name": "Stockholm",
+    "region_slug": "stockholm",
+    "city_name": "Stockholm",
+    "city_slug": "stockholm"
+  },
+  "seo": {
+    "title": "Hjälp vid hemlöshet i Stockholm - No Home Help",
+    "description": "Kontrollerade resurser för akutboende, mat, hygien, vård, socialt stöd, arbete och trygghet i Stockholm."
+  },
+  "page": {
+    "heading": "STOCKHOLM - HJÄLP VID HEMLÖSHET",
+    "last_verified": "2026-11-23",
+    "urgent": "Akut fara, brand eller allvarligt sjukdomstillstånd: 112. Vårdrådgivning: 1177.",
+    "notice": "Tillgänglighet, öppettider, villkor och platser kan ändras. Ring före besök när det är möjligt. En listning garanterar inte sängplats, mat, vård, bidrag, arbete eller juridiskt ombud.",
+    "intro": "Stockholms socialtjänst bedömer behov av akutboende och annat stöd. Kontakta socialtjänsten; boenden hos flera organisationer kräver placering från kommunen.",
+    "footer": "Information kan ändras. Ring före besök och rapportera fel via GitHub-länken längst ned."
+  },
+  "categories": [
+    {
+      "id": "emergency",
+      "title": "Akut hjälp",
+      "entries": [
+        {
+          "id": "sos-112",
+          "title": "SOS Alarm — 112",
+          "description": "Ring vid akut fara, brand, våld eller allvarligt sjukdomstillstånd.",
+          "last_verified": "2026-11-23",
+          "address": "",
+          "phone": "112",
+          "website": "https://www.sosalarm.se/112-och-andra-viktiga-nummer/112/",
+          "hours": "Dygnet runt",
+          "how_to_access": "Ange exakt plats och berätta vad som har hänt."
+        },
+        {
+          "id": "socialtjanst-hemloshet",
+          "title": "Stockholms stad — stöd till hemlösa",
+          "description": "Socialtjänsten bedömer behov av akutboende, socialt stöd och långsiktiga insatser. Hjälp och boende beror på bedömning och tillgång.",
+          "last_verified": "2026-11-23",
+          "address": "",
+          "phone": "",
+          "website": "https://socialtstod.stockholm/stod-till-hemlosa/",
+          "hours": "",
+          "how_to_access": "Följ stadens kontaktväg eller besök socialtjänsten och beskriv din situation."
+        }
+      ]
+    },
+    {
+      "id": "shelter",
+      "title": "Akutboende och boende",
+      "entries": [
+        {
+          "id": "stockholms-stadsmission-boende",
+          "title": "Stockholms Stadsmission — boenden",
+          "description": "Organisationen driver akut- och stödboenden. Många platser kräver beslut eller placering från socialtjänsten och kan inte bokas direkt.",
+          "last_verified": "2026-11-23",
+          "address": "",
+          "phone": "",
+          "website": "https://www.stadsmissionen.se/fa-stod/boende",
+          "hours": "",
+          "how_to_access": "Kontakta socialtjänsten för bedömning och fråga Stadsmissionen vilka vägar som gäller."
+        },
+        {
+          "id": "fralsningsarmen-boende",
+          "title": "Frälsningsarmén — hjälp med boende",
+          "description": "Frälsningsarmén driver boenden och hänvisar personer med akut bostadsbehov till kommunens socialtjänst för placering. Sängplats garanteras inte.",
+          "last_verified": "2026-11-23",
+          "address": "",
+          "phone": "",
+          "website": "https://www.fralsningsarmen.se/stockholm/sok-hjalp-i-stockholm/",
+          "hours": "",
+          "how_to_access": "Kontakta socialtjänsten först och ring verksamheten för aktuell information."
+        }
+      ]
+    },
+    {
+      "id": "food",
+      "title": "Gratis mat",
+      "entries": [
+        {
+          "id": "fralsningsarmen-mat",
+          "title": "Frälsningsarmén Stockholm — matstöd",
+          "description": "Lokala verksamheter kan erbjuda mat eller annan akut hjälp beroende på resurser och öppettider.",
+          "last_verified": "2026-11-23",
+          "address": "",
+          "phone": "",
+          "website": "https://www.fralsningsarmen.se/stockholm/sok-hjalp-i-stockholm/",
+          "hours": "",
+          "how_to_access": "Använd den officiella sidan för att hitta närmaste verksamhet och ring först."
+        }
+      ]
+    },
+    {
+      "id": "community",
+      "title": "Kyrkor och religiösa organisationer",
+      "entries": [
+        {
+          "id": "fralsningsarmen-stockholm",
+          "title": "Frälsningsarmén Stockholm",
+          "description": "Kyrklig organisation med socialt stöd, mat, kläder och boendeverksamhet. Utbudet varierar mellan verksamheter.",
+          "last_verified": "2026-11-23",
+          "address": "",
+          "phone": "",
+          "website": "https://www.fralsningsarmen.se/stockholm/sok-hjalp-i-stockholm/",
+          "hours": "",
+          "how_to_access": "Kontakta närmaste verksamhet och fråga vad som finns tillgängligt."
+        }
+      ]
+    },
+    {
+      "id": "hygiene",
+      "title": "Dusch, tvätt och hygien",
+      "entries": []
+    },
+    {
+      "id": "clothing",
+      "title": "Gratis kläder",
+      "entries": [
+        {
+          "id": "fralsningsarmen-klader",
+          "title": "Frälsningsarmén — klädstöd",
+          "description": "Vissa lokala verksamheter kan hjälpa med kläder efter bedömning och beroende på lager.",
+          "last_verified": "2026-11-23",
+          "address": "",
+          "phone": "",
+          "website": "https://www.fralsningsarmen.se/stockholm/sok-hjalp-i-stockholm/",
+          "hours": "",
+          "how_to_access": "Ring först och fråga om kläder finns och hur utdelning sker."
+        }
+      ]
+    },
+    {
+      "id": "health",
+      "title": "Gratis eller billig vård",
+      "entries": [
+        {
+          "id": "pelarbacken",
+          "title": "Pelarbacken vårdcentral för hemlösa",
+          "description": "Vårdcentral särskilt för personer som lever i hemlöshet, med medicinsk vård och samordning. Ring 112 vid akut fara.",
+          "last_verified": "2026-11-23",
+          "address": "Östgötagatan 10, Stockholm",
+          "phone": "",
+          "website": "https://www.1177.se/hitta-vard/kontaktkort/Pelarbacken-vardcentral-for-hemlosa-Sodermalm/",
+          "hours": "",
+          "how_to_access": "Kontrollera aktuella öppettider och om tidsbokning behövs."
+        }
+      ]
+    },
+    {
+      "id": "mental-health",
+      "title": "Psykisk hälsa och beroende",
+      "entries": [
+        {
+          "id": "vardradgivning-1177",
+          "title": "1177 Vårdguiden",
+          "description": "Sjukvårdsrådgivning och vägledning till vård, även för psykisk ohälsa. Vid akut fara ring 112.",
+          "last_verified": "2026-11-23",
+          "address": "",
+          "phone": "1177",
+          "website": "https://www.1177.se/",
+          "hours": "Dygnet runt",
+          "how_to_access": "Ring 1177 eller använd webbplatsen för att hitta rätt vård."
+        }
+      ]
+    },
+    {
+      "id": "public-facilities",
+      "title": "Toaletter och dagverksamhet",
+      "entries": []
+    },
+    {
+      "id": "phone-internet",
+      "title": "Telefonladdning och internet",
+      "entries": []
+    },
+    {
+      "id": "transport",
+      "title": "Gratis eller billigare resor",
+      "entries": []
+    },
+    {
+      "id": "benefits",
+      "title": "Bidrag och socialt stöd",
+      "entries": [
+        {
+          "id": "socialtjanst-ekonomiskt-bistand",
+          "title": "Stockholms socialtjänst — ekonomiskt bistånd",
+          "description": "Bedömning av försörjningsstöd och annat socialt stöd. Beslut beror på individuell prövning och underlag.",
+          "last_verified": "2026-11-23",
+          "address": "",
+          "phone": "",
+          "website": "https://socialtstod.stockholm/ekonomi-och-pengar/ekonomiskt-bistand/",
+          "hours": "",
+          "how_to_access": "Kontakta socialtjänsten i det område där du vistas och fråga vilka handlingar som kan användas."
+        }
+      ]
+    },
+    {
+      "id": "employment",
+      "title": "Jobbstöd",
+      "entries": [
+        {
+          "id": "arbetsformedlingen",
+          "title": "Arbetsförmedlingen",
+          "description": "Offentlig jobbsökning, planering, utbildningsinformation och stöd till arbetssökande.",
+          "last_verified": "2026-11-23",
+          "address": "",
+          "phone": "",
+          "website": "https://arbetsformedlingen.se/",
+          "hours": "",
+          "how_to_access": "Skriv in dig digitalt eller kontakta ett servicekontor för hjälp."
+        }
+      ]
+    },
+    {
+      "id": "legal",
+      "title": "Gratis juridisk hjälp",
+      "entries": []
+    },
+    {
+      "id": "documents",
+      "title": "Dokument och legitimation",
+      "entries": []
+    },
+    {
+      "id": "mail",
+      "title": "Postadress",
+      "entries": []
+    },
+    {
+      "id": "storage",
+      "title": "Förvaring",
+      "entries": []
+    },
+    {
+      "id": "safety",
+      "title": "Stöd vid våld i nära relation",
+      "entries": [
+        {
+          "id": "kvinnofridslinjen",
+          "title": "Kvinnofridslinjen — 116 016",
+          "description": "Nationell stödlinje för personer utsatta för hot eller våld. Samtalet är gratis och anonymt.",
+          "last_verified": "2026-11-23",
+          "address": "",
+          "phone": "116 016",
+          "website": "https://kvinnofridslinjen.se/",
+          "hours": "Dygnet runt",
+          "how_to_access": "Ring när det är säkert. Vid akut fara ring 112."
+        }
+      ]
+    },
+    {
+      "id": "specialist-support",
+      "title": "Särskilt stöd",
+      "entries": []
+    },
+    {
+      "id": "veterans",
+      "title": "Stöd för veteraner",
+      "entries": []
+    },
+    {
+      "id": "pets",
+      "title": "Hjälp för personer med djur",
+      "entries": []
+    },
+    {
+      "id": "other",
+      "title": "Andra användbara resurser",
+      "entries": [
+        {
+          "id": "stockholm-hemlosstod",
+          "title": "Stockholms stad — samlad information",
+          "description": "Officiell information om socialtjänst, boende och stöd för personer i hemlöshet.",
+          "last_verified": "2026-11-23",
+          "address": "",
+          "phone": "",
+          "website": "https://socialtstod.stockholm/stod-till-hemlosa/",
+          "hours": "",
+          "how_to_access": "Kontakta staden för aktuell bedömning och hänvisning."
+        }
+      ]
+    }
+  ]
+}

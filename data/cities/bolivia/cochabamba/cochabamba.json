@@ -1,0 +1,265 @@
+{
+  "$schema": "https://nohomehelp.com/schemas/city.schema.json",
+  "documentation": "https://github.com/carlosbranco/no-home-help/blob/main/EDIT_CITY_JSON.md",
+  "schema_version": 2,
+  "status": "published",
+  "locale": {
+    "language": "es",
+    "direction": "ltr",
+    "primary": true
+  },
+  "location": {
+    "continent": "Americas",
+    "country_code": "BO",
+    "country_name": "Bolivia",
+    "country_local_name": "Bolivia",
+    "country_slug": "bolivia",
+    "region_code": "02",
+    "region_name": "Cochabamba",
+    "region_slug": "cochabamba",
+    "city_name": "Cochabamba",
+    "city_slug": "cochabamba"
+  },
+  "seo": {
+    "title": "Ayuda para personas sin hogar en Cochabamba - No Home Help",
+    "description": "Recursos verificados para personas sin hogar o en situación de calle en Cochabamba."
+  },
+  "page": {
+    "heading": "COCHABAMBA - AYUDA PARA PERSONAS SIN HOGAR",
+    "last_verified": "2026-11-23",
+    "urgent": "Policía: 110. Ambulancia: 118. Bomberos: 119.",
+    "notice": "La disponibilidad, los horarios, los requisitos y las plazas pueden cambiar. Llama antes de desplazarte. Una entrada no garantiza cama, comida, cita, prestación, trabajo ni representación legal.",
+    "intro": "El albergue municipal Sumaj Punchay ha sido presentado como servicio para personas en situación de calle. Confirma ingreso, documento y plaza antes de desplazarte.",
+    "footer": "La información puede cambiar. Llama antes de desplazarte y comunica errores mediante el enlace de GitHub del pie de página."
+  },
+  "categories": [
+    {
+      "id": "emergency",
+      "title": "Ayuda de emergencia",
+      "entries": [
+        {
+          "id": "policia-110",
+          "title": "Policía — 110",
+          "description": "Para peligro inmediato, violencia o un delito en curso.",
+          "last_verified": "2026-11-23",
+          "address": "",
+          "phone": "110",
+          "website": "https://www.policia.bo/",
+          "hours": "24 horas",
+          "how_to_access": "Indica la ubicación exacta y explica lo que ocurre."
+        },
+        {
+          "id": "ambulancia-118",
+          "title": "Ambulancia — 118",
+          "description": "Número de ambulancia para emergencias médicas en Bolivia.",
+          "last_verified": "2026-11-23",
+          "address": "",
+          "phone": "118",
+          "website": "",
+          "hours": "24 horas",
+          "how_to_access": "Indica ubicación, síntomas y riesgos."
+        },
+        {
+          "id": "bomberos-119",
+          "title": "Bomberos — 119",
+          "description": "Para incendio, rescate y otras emergencias de bomberos.",
+          "last_verified": "2026-11-23",
+          "address": "",
+          "phone": "119",
+          "website": "",
+          "hours": "24 horas",
+          "how_to_access": "Indica la ubicación exacta."
+        }
+      ]
+    },
+    {
+      "id": "shelter",
+      "title": "Alojamiento de emergencia y vivienda",
+      "entries": [
+        {
+          "id": "sumaj-punchay",
+          "title": "Albergue municipal Sumaj Punchay",
+          "description": "Albergue para personas en situación de calle, con sectores para hombres y mujeres, desayuno y cena. La información publicada indica documento de identidad y entrada en horario limitado; confirma todo antes de acudir.",
+          "last_verified": "2026-11-23",
+          "address": "Circuito Bolivia, Cochabamba",
+          "phone": "",
+          "website": "https://www.eldiario.net/portal/2026/05/31/albergue-sumaj-punchay-atiende-todo-el-ano/",
+          "hours": "Ingreso publicado: 6:00 PM–8:30 PM",
+          "how_to_access": "Confirma apertura y plazas; lleva identificación si la tienes y pregunta alternativas si no la tienes."
+        }
+      ]
+    },
+    {
+      "id": "food",
+      "title": "Comida gratuita",
+      "entries": [
+        {
+          "id": "sumaj-punchay-comidas",
+          "title": "Sumaj Punchay — desayuno y cena",
+          "description": "El albergue ofrece desayuno y cena a las personas admitidas. No se garantiza comida sin plaza.",
+          "last_verified": "2026-11-23",
+          "address": "Circuito Bolivia, Cochabamba",
+          "phone": "",
+          "website": "https://unitel.bo/noticias/sociedad/habilitan-albergue-municipal-en-cochabamba-para-personas-en-situacion-de-calle-y-afectados-por-los-bloqueos-KC21231685",
+          "hours": "",
+          "how_to_access": "Solicita ingreso en el horario indicado y confirma plazas."
+        }
+      ]
+    },
+    {
+      "id": "community",
+      "title": "Iglesias y organizaciones religiosas",
+      "entries": []
+    },
+    {
+      "id": "hygiene",
+      "title": "Duchas, lavandería e higiene",
+      "entries": [
+        {
+          "id": "sumaj-punchay-higiene",
+          "title": "Sumaj Punchay — higiene",
+          "description": "El alojamiento municipal proporciona condiciones básicas de higiene a las personas admitidas. Confirma servicios y capacidad.",
+          "last_verified": "2026-11-23",
+          "address": "Circuito Bolivia, Cochabamba",
+          "phone": "",
+          "website": "https://www.eldiario.net/portal/2026/05/31/albergue-sumaj-punchay-atiende-todo-el-ano/",
+          "hours": "",
+          "how_to_access": "Pregunta al ingreso qué servicios están disponibles."
+        }
+      ]
+    },
+    {
+      "id": "clothing",
+      "title": "Ropa gratuita",
+      "entries": []
+    },
+    {
+      "id": "health",
+      "title": "Atención médica gratuita o de bajo coste",
+      "entries": []
+    },
+    {
+      "id": "mental-health",
+      "title": "Salud mental y adicciones",
+      "entries": []
+    },
+    {
+      "id": "public-facilities",
+      "title": "Baños públicos y centros de día",
+      "entries": []
+    },
+    {
+      "id": "phone-internet",
+      "title": "Carga de teléfono e internet",
+      "entries": []
+    },
+    {
+      "id": "transport",
+      "title": "Transporte gratuito o reducido",
+      "entries": []
+    },
+    {
+      "id": "benefits",
+      "title": "Prestaciones y ayuda social",
+      "entries": [
+        {
+          "id": "sedeges-cochabamba",
+          "title": "SEDEGES Cochabamba",
+          "description": "Servicio departamental de gestión social para poblaciones vulnerables. La atención y derivación dependen del caso.",
+          "last_verified": "2026-11-23",
+          "address": "",
+          "phone": "",
+          "website": "https://www.gobernaciondecochabamba.bo/",
+          "hours": "",
+          "how_to_access": "Contacta la Gobernación y pide el canal actual de SEDEGES."
+        }
+      ]
+    },
+    {
+      "id": "employment",
+      "title": "Ayuda para encontrar trabajo",
+      "entries": [
+        {
+          "id": "ministerio-trabajo-bolivia",
+          "title": "Ministerio de Trabajo — empleo",
+          "description": "Información pública sobre empleo, derechos laborales y servicios de intermediación.",
+          "last_verified": "2026-11-23",
+          "address": "",
+          "phone": "",
+          "website": "https://www.mintrabajo.gob.bo/",
+          "hours": "",
+          "how_to_access": "Consulta la jefatura departamental y confirma horario."
+        }
+      ]
+    },
+    {
+      "id": "legal",
+      "title": "Asistencia jurídica gratuita",
+      "entries": [
+        {
+          "id": "defensoria-pueblo-bolivia",
+          "title": "Defensoría del Pueblo",
+          "description": "Orientación y recepción de denuncias relacionadas con derechos humanos y servicios públicos.",
+          "last_verified": "2026-11-23",
+          "address": "",
+          "phone": "",
+          "website": "https://www.defensoria.gob.bo/",
+          "hours": "",
+          "how_to_access": "Contacta la oficina departamental de Cochabamba para orientación."
+        }
+      ]
+    },
+    {
+      "id": "documents",
+      "title": "Documentos e identificación",
+      "entries": []
+    },
+    {
+      "id": "mail",
+      "title": "Dirección postal",
+      "entries": []
+    },
+    {
+      "id": "storage",
+      "title": "Guardado de pertenencias",
+      "entries": []
+    },
+    {
+      "id": "safety",
+      "title": "Apoyo ante violencia doméstica",
+      "entries": [
+        {
+          "id": "slim-cochabamba",
+          "title": "Servicios Legales Integrales Municipales (SLIM)",
+          "description": "Atención legal, psicológica y social ante violencia. Los puntos y teléfonos pueden cambiar.",
+          "last_verified": "2026-11-23",
+          "address": "",
+          "phone": "",
+          "website": "https://www.cochabamba.bo/",
+          "hours": "",
+          "how_to_access": "Contacta al municipio o a la Policía para localizar el SLIM de turno. En peligro inmediato llama al 110."
+        }
+      ]
+    },
+    {
+      "id": "specialist-support",
+      "title": "Apoyo especializado",
+      "entries": []
+    },
+    {
+      "id": "veterans",
+      "title": "Ayuda para veteranos",
+      "entries": []
+    },
+    {
+      "id": "pets",
+      "title": "Ayuda para personas con animales",
+      "entries": []
+    },
+    {
+      "id": "other",
+      "title": "Otros recursos útiles",
+      "entries": []
+    }
+  ]
+}
