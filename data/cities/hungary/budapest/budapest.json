@@ -1,0 +1,324 @@
+{
+  "$schema": "https://nohomehelp.com/schemas/city.schema.json",
+  "documentation": "https://github.com/carlosbranco/no-home-help/blob/main/EDIT_CITY_JSON.md",
+  "schema_version": 2,
+  "status": "published",
+  "locale": {
+    "language": "hu-HU",
+    "direction": "ltr",
+    "primary": true
+  },
+  "location": {
+    "continent": "Europe",
+    "country_code": "HU",
+    "country_name": "Hungary",
+    "country_local_name": "Magyarország",
+    "country_slug": "hungary",
+    "region_code": "05",
+    "region_name": "Budapest",
+    "region_slug": "budapest",
+    "city_name": "Budapest",
+    "city_slug": "budapest"
+  },
+  "seo": {
+    "title": "Budapest - Segítség hajléktalan embereknek - No Home Help",
+    "description": "Éjjeli menedékhelyek, nappali ellátás, egészségügy, munkakeresés és krízisvonalak hajléktalan embereknek Budapesten."
+  },
+  "page": {
+    "heading": "BUDAPEST - SEGÍTSÉG HAJLÉKTALAN EMBEREKNEK",
+    "last_verified": "2026-11-23",
+    "urgent": "Életveszély vagy sürgős orvosi segítség: 112. Utcán élő, veszélyben lévő emberhez Menhely diszpécser: +36 1 338 4186.",
+    "notice": "A férőhelyek, nyitvatartások és feltételek változhatnak. Lehetőség szerint indulás előtt telefonáljon. A felsorolás nem garantál férőhelyet, étkezést, ellátást, támogatást vagy munkát.",
+    "intro": "",
+    "footer": "Fő források: Budapest Főváros, BMSZKI, Menhely Alapítvány és az Országos Kríziskezelő és Információs Telefonszolgálat."
+  },
+  "categories": [
+    {
+      "id": "emergency",
+      "title": "Sürgős segítség",
+      "entries": [
+        {
+          "id": "menhely-diszpecser",
+          "title": "Menhely Alapítvány diszpécserszolgálat",
+          "description": "A fővárosi utcai szociális szolgálatok 24 órás koordinációja. Hívja, ha valaki közterületen veszélyben van, vagy sürgős szociális segítségre és elhelyezési információra van szüksége.",
+          "last_verified": "2026-11-23",
+          "address": "",
+          "phone": "+36 1 338 4186",
+          "website": "https://budapest.hu/hirek/2026/01/02/nem-kuldenek-el-senkit-ellatatlanul",
+          "hours": "24 óra.",
+          "how_to_access": "Mondja el a pontos helyet, a személy állapotát és a legsürgősebb szükségletet. Életveszélyben hívja a 112-t."
+        }
+      ]
+    },
+    {
+      "id": "shelter",
+      "title": "Éjjeli menedékhely és lakhatás",
+      "entries": [
+        {
+          "id": "dozsa-ejjeli-menedekhely",
+          "title": "BMSZKI Dózsa György úti éjjeli menedékhely",
+          "description": "Ingyenes éjszakai menedék nők számára; tisztálkodás, mosás, ételmelegítés és szociális segítség. A férőhely nem garantált.",
+          "last_verified": "2026-11-23",
+          "address": "1134 Budapest, Dózsa György út 152.",
+          "phone": "+36 1 238 9553",
+          "website": "https://bmszki.hu/hu/szallasok/ejjeli-menedekhelyek",
+          "hours": "18:00–08:00.",
+          "how_to_access": "Általában előzetes regisztráció nélkül kereshető fel, de telefonon ellenőrizze a férőhelyet és a feltételeket."
+        },
+        {
+          "id": "konyves-ejjeli-menedekhely",
+          "title": "BMSZKI Könyves Kálmán körúti éjjeli menedékhely",
+          "description": "Ingyenes éjszakai menedék férfiak számára; tisztálkodás, mosás, ételmelegítés és szociális segítség. A férőhely nem garantált.",
+          "last_verified": "2026-11-23",
+          "address": "1087 Budapest, Könyves Kálmán körút 84.",
+          "phone": "+36 1 333 1194",
+          "website": "https://bmszki.hu/hu/szallasok/ejjeli-menedekhelyek",
+          "hours": "18:00–08:00.",
+          "how_to_access": "Telefonon ellenőrizze a férőhelyet és a belépési feltételeket."
+        },
+        {
+          "id": "aszodi-ejjeli-menedekhely",
+          "title": "BMSZKI Aszódi utcai éjjeli menedékhely",
+          "description": "Ingyenes éjszakai menedék nők, férfiak és párok számára; alapvető higiénés és szociális szolgáltatások. A férőhely nem garantált.",
+          "last_verified": "2026-11-23",
+          "address": "1097 Budapest, Aszódi utca 18.",
+          "phone": "+36 1 348 4400",
+          "website": "https://bmszki.hu/hu/szallasok/ejjeli-menedekhelyek",
+          "hours": "18:00–08:00.",
+          "how_to_access": "Telefonon ellenőrizze a férőhelyet és a belépési feltételeket."
+        },
+        {
+          "id": "krisztinavarosi-hajlektalan-centrum",
+          "title": "Krisztinavárosi Hajléktalan Centrum",
+          "description": "Éjjeli menedékhely, nappali szolgáltatások, tisztálkodás, mosás, csomagmegőrzés, telefon, internet, ruha és szociális ügyintézés.",
+          "last_verified": "2026-11-23",
+          "address": "1013 Budapest, Feszty Árpád utca 6.",
+          "phone": "+36 1 201 5818",
+          "website": "https://budapest.hu/api/file/doc/szocialis-kalauz-2026-v260528.pdf",
+          "hours": "24 órás központ; az egyes szolgáltatások ideje eltérhet.",
+          "how_to_access": "Telefonon kérdezze meg a férőhelyet és az adott szolgáltatás idejét."
+        }
+      ]
+    },
+    {
+      "id": "food",
+      "title": "Étkezés",
+      "entries": []
+    },
+    {
+      "id": "community",
+      "title": "Közösségi és egyházi segítség",
+      "entries": []
+    },
+    {
+      "id": "hygiene",
+      "title": "Tisztálkodás, mosás és higiénia",
+      "entries": [
+        {
+          "id": "feher-koz-nappali-melegedo",
+          "title": "Fehér köz nappali melegedő",
+          "description": "Nappali tartózkodás, tisztálkodási és alapvető szociális lehetőségek, valamint ügyintézési segítség hajléktalan embereknek.",
+          "last_verified": "2026-11-23",
+          "address": "1108 Budapest, Fehér köz 2.",
+          "phone": "+36 1 522 2790",
+          "website": "https://bmszki.hu/hu/about-us/nappali-melegedok-es-utcai-szocialis-munka/nappali-melegedok",
+          "hours": "Minden nap 08:00–18:00.",
+          "how_to_access": "Érkezés előtt telefonon ellenőrizze az aktuális szolgáltatásokat."
+        }
+      ]
+    },
+    {
+      "id": "clothing",
+      "title": "Ruházat",
+      "entries": []
+    },
+    {
+      "id": "health",
+      "title": "Egészségügyi ellátás",
+      "entries": [
+        {
+          "id": "kobanyai-egeszsegugyi-centrum",
+          "title": "BMSZKI Kőbányai Egészségügyi Centrum",
+          "description": "Háziorvosi, pszichiátriai, bőrgyógyászati, foglalkozás-egészségügyi és lábadozó ellátás hajléktalan embereknek. A BMSZKI szerint lakcímtől, TAJ-tól és biztosítási helyzettől függetlenül fogad.",
+          "last_verified": "2026-11-23",
+          "address": "1087 Budapest, Kőbányai út 22.; bejárat a Könyves Kálmán körút 84. felől",
+          "phone": "+36 1 323 3304",
+          "website": "https://bmszki.hu/hu/egeszsegugyi-ellatasaink",
+          "hours": "",
+          "how_to_access": "Telefonon kérdezze meg, melyik rendelésre és mikor érkezzen."
+        },
+        {
+          "id": "szabolcs-utcai-egeszsegugyi-centrum",
+          "title": "BMSZKI Szabolcs utcai Egészségügyi Centrum",
+          "description": "Hajléktalan emberek sürgős és általános háziorvosi ellátása, lábadozó és ápolási szolgáltatások.",
+          "last_verified": "2026-11-23",
+          "address": "1134 Budapest, Szabolcs utca 33–35.; bejárat a Vágány utca felől",
+          "phone": "+36 1 236 3500",
+          "website": "https://bmszki.hu/hu/szabolcs-utcai-reszleg",
+          "hours": "A sürgős háziorvosi ellátás 24 órás.",
+          "how_to_access": "Életveszélyben hívja a 112-t; egyébként telefonon kérjen tájékoztatást."
+        }
+      ]
+    },
+    {
+      "id": "mental-health",
+      "title": "Mentális egészség és addiktológia",
+      "entries": [
+        {
+          "id": "kobanyai-pszichiatriai-ellatas",
+          "title": "Pszichiátriai ellátás a Kőbányai Egészségügyi Centrumban",
+          "description": "Pszichiátriai szakellátás hajléktalan emberek számára a BMSZKI egészségügyi rendszerében.",
+          "last_verified": "2026-11-23",
+          "address": "1087 Budapest, Kőbányai út 22.; bejárat a Könyves Kálmán körút 84. felől",
+          "phone": "+36 1 323 3304",
+          "website": "https://bmszki.hu/hu/egeszsegugyi-ellatasaink",
+          "hours": "",
+          "how_to_access": "Telefonon kérdezze meg a rendelési időt és a beutalás feltételeit."
+        }
+      ]
+    },
+    {
+      "id": "public-facilities",
+      "title": "Nyilvános mosdók és nappali ellátás",
+      "entries": [
+        {
+          "id": "feher-koz-nappali-ellatas",
+          "title": "Fehér köz nappali melegedő",
+          "description": "Meleg, biztonságos nappali tartózkodási hely, ahol szociális munkások is segítenek.",
+          "last_verified": "2026-11-23",
+          "address": "1108 Budapest, Fehér köz 2.",
+          "phone": "+36 1 522 2790",
+          "website": "https://bmszki.hu/hu/about-us/nappali-melegedok-es-utcai-szocialis-munka/nappali-melegedok",
+          "hours": "Minden nap 08:00–18:00.",
+          "how_to_access": "Telefonon ellenőrizze a napi kapacitást."
+        }
+      ]
+    },
+    {
+      "id": "phone-internet",
+      "title": "Telefontöltés és internet",
+      "entries": [
+        {
+          "id": "krisztinavarosi-telefon-internet",
+          "title": "Telefon és internet a Krisztinavárosi Centrumban",
+          "description": "Telefon- és internethasználat, valamint szociális ügyintézési segítség a központ szolgáltatásai között.",
+          "last_verified": "2026-11-23",
+          "address": "1013 Budapest, Feszty Árpád utca 6.",
+          "phone": "+36 1 201 5818",
+          "website": "https://budapest.hu/api/file/doc/szocialis-kalauz-2026-v260528.pdf",
+          "hours": "",
+          "how_to_access": "Kérdezze meg a recepción, mikor és milyen feltételekkel használható."
+        }
+      ]
+    },
+    {
+      "id": "transport",
+      "title": "Közlekedés",
+      "entries": []
+    },
+    {
+      "id": "benefits",
+      "title": "Szociális ellátások és támogatások",
+      "entries": []
+    },
+    {
+      "id": "employment",
+      "title": "Munkakeresés",
+      "entries": [
+        {
+          "id": "szik-ugyfelszolgalat-es-munka",
+          "title": "BMSZKI SZIK ügyfélszolgálat és munkakeresési segítség",
+          "description": "Segítség önéletrajzhoz, internetes és telefonos álláskereséshez, munkához szükséges iratokhoz és ügyintézéshez.",
+          "last_verified": "2026-11-23",
+          "address": "1087 Budapest, Kőbányai út 22.",
+          "phone": "+36 1 236 3526 / +36 1 236 3527",
+          "website": "https://www.bmszki.hu/hu/gyakran-ismetelt-kerdesek",
+          "hours": "",
+          "how_to_access": "Telefonon érdeklődjön a fogadási időről."
+        }
+      ]
+    },
+    {
+      "id": "legal",
+      "title": "Jogi segítség",
+      "entries": []
+    },
+    {
+      "id": "documents",
+      "title": "Iratok és azonosítás",
+      "entries": [
+        {
+          "id": "szik-iratpotlas",
+          "title": "BMSZKI SZIK — segítség iratpótláshoz",
+          "description": "A BMSZKI ügyfélszolgálata segíthet a személyes iratok pótlásának és az ügyintézésnek az elindításában.",
+          "last_verified": "2026-11-23",
+          "address": "1087 Budapest, Kőbányai út 22.",
+          "phone": "+36 1 236 3526 / +36 1 236 3527",
+          "website": "https://www.bmszki.hu/hu/gyakran-ismetelt-kerdesek",
+          "hours": "",
+          "how_to_access": "Mondja el, melyik irat hiányzik; telefonon kérdezze meg, mit vigyen magával."
+        }
+      ]
+    },
+    {
+      "id": "mail",
+      "title": "Levelezési cím",
+      "entries": []
+    },
+    {
+      "id": "storage",
+      "title": "Csomagmegőrzés",
+      "entries": [
+        {
+          "id": "krisztinavarosi-csomagmegorzes",
+          "title": "Csomagmegőrzés a Krisztinavárosi Centrumban",
+          "description": "A központ csomagmegőrzést és alapvető nappali szolgáltatásokat biztosít a kapacitása és szabályai szerint.",
+          "last_verified": "2026-11-23",
+          "address": "1013 Budapest, Feszty Árpád utca 6.",
+          "phone": "+36 1 201 5818",
+          "website": "https://budapest.hu/api/file/doc/szocialis-kalauz-2026-v260528.pdf",
+          "hours": "",
+          "how_to_access": "Telefonon vagy a recepción kérdezze meg a méret-, idő- és hozzáférési szabályokat."
+        }
+      ]
+    },
+    {
+      "id": "safety",
+      "title": "Biztonság és kapcsolati erőszak",
+      "entries": [
+        {
+          "id": "okit",
+          "title": "OKIT — Országos Kríziskezelő és Információs Telefonszolgálat",
+          "description": "Ingyenes, országos segítség kapcsolati erőszak és emberkereskedelem esetén; tájékoztatás és szükség esetén kríziselhelyezés szervezése.",
+          "last_verified": "2026-11-23",
+          "address": "",
+          "phone": "+36 80 20 55 20",
+          "website": "https://okit.hu/",
+          "hours": "24 óra, az év minden napján.",
+          "how_to_access": "Azonnali veszélyben hívja a 112-t. A vonal belföldről ingyenes."
+        }
+      ]
+    },
+    {
+      "id": "specialist-support",
+      "title": "Speciális segítség",
+      "entries": []
+    },
+    {
+      "id": "veterans",
+      "title": "Veteránok támogatása",
+      "entries": []
+    },
+    {
+      "id": "pets",
+      "title": "Segítség állattal élőknek",
+      "entries": []
+    },
+    {
+      "id": "other",
+      "title": "További hasznos lehetőségek",
+      "entries": []
+    }
+  ]
+}
+

@@ -1,0 +1,278 @@
+{
+  "$schema": "https://nohomehelp.com/schemas/city.schema.json",
+  "documentation": "https://github.com/carlosbranco/no-home-help/blob/main/EDIT_CITY_JSON.md",
+  "schema_version": 2,
+  "status": "published",
+  "locale": {
+    "language": "es-SV",
+    "direction": "ltr",
+    "primary": true
+  },
+  "location": {
+    "continent": "Americas",
+    "country_code": "SV",
+    "country_name": "El Salvador",
+    "country_local_name": "El Salvador",
+    "country_slug": "el-salvador",
+    "region_code": "10",
+    "region_name": "San Salvador Department",
+    "region_slug": "san-salvador-department",
+    "city_name": "San Salvador",
+    "city_slug": "san-salvador"
+  },
+  "seo": {
+    "title": "San Salvador - Ayuda para personas sin hogar - No Home Help",
+    "description": "Albergues, comida, salud, empleo, asistencia legal y otros apoyos verificados para personas sin hogar en San Salvador."
+  },
+  "page": {
+    "heading": "SAN SALVADOR - AYUDA PARA PERSONAS SIN HOGAR",
+    "last_verified": "2026-11-23",
+    "urgent": "Emergencia médica: 132. Policía y peligro inmediato: 911.",
+    "notice": "La información, los horarios y la disponibilidad pueden cambiar. Llame antes de desplazarse cuando sea posible. Una referencia no garantiza cama, comida, consulta, beneficio o empleo.",
+    "intro": "",
+    "footer": "Fuentes principales: Ministerio de Salud, Alcaldía de San Salvador, Ministerio de Trabajo, Procuraduría General de la República y páginas oficiales o directorios humanitarios indicados."
+  },
+  "categories": [
+    {
+      "id": "emergency",
+      "title": "Ayuda de emergencia",
+      "entries": [
+        {
+          "id": "sistema-de-emergencias-medicas-132",
+          "title": "Sistema de Emergencias Médicas — 132",
+          "description": "Atención y coordinación de emergencias médicas prehospitalarias. Use 911 si también existe peligro inmediato o se necesita policía.",
+          "last_verified": "2026-11-23",
+          "address": "",
+          "phone": "132",
+          "website": "https://www.salud.gob.sv/direccion-del-sistema-de-emergencias-medicas-sem/",
+          "hours": "24 horas, todos los días.",
+          "how_to_access": "Explique la ubicación exacta, qué ocurrió y el estado de la persona."
+        }
+      ]
+    },
+    {
+      "id": "shelter",
+      "title": "Albergue y vivienda",
+      "entries": [
+        {
+          "id": "albergue-katya-miranda",
+          "title": "Albergue Katya Miranda",
+          "description": "Albergue nocturno municipal con espacio para dormir, comida, seguridad y coordinación de atención de salud. La capacidad y las reglas pueden cambiar.",
+          "last_verified": "2026-11-23",
+          "address": "Colonia Layco, 23 Calle Poniente y 11 Avenida Norte, San Salvador",
+          "phone": "",
+          "website": "https://elsalvador.cuentanos.org/articles/5863720996637",
+          "hours": "Ingreso indicado entre las 18:00 y las 20:00, todos los días.",
+          "how_to_access": "Llegue dentro del horario de ingreso y confirme disponibilidad. No se garantiza plaza."
+        },
+        {
+          "id": "albergue-divina-misericordia",
+          "title": "Albergue Divina Misericordia / Dormitorio Municipal Roque Dalton",
+          "description": "Alojamiento nocturno para personas adultas sin hogar. La primera visita incluye entrevista y evaluación; no se garantiza plaza.",
+          "last_verified": "2026-11-23",
+          "address": "6a Calle Oriente No. 623, Barrio San Esteban, junto a Iglesia Nuestra Señora de la Merced, San Salvador",
+          "phone": "7069-2868 / 2271-4240",
+          "website": "https://elsalvador.cuentanos.org/articles/5863720996637",
+          "hours": "Recepción desde las 17:00.",
+          "how_to_access": "Llame antes. El directorio indica que no se admite a personas intoxicadas y que puede pedirse constancia de antecedentes."
+        },
+        {
+          "id": "casa-del-migrante-scalabrini",
+          "title": "Casa del Migrante Scalabrini",
+          "description": "Acogida para personas migrantes con escucha, orientación legal y psicológica, higiene, ropa, comida y posible alojamiento temporal según evaluación y capacidad.",
+          "last_verified": "2026-11-23",
+          "address": "Colonia Mugdan, 6a Avenida Norte y Pasaje Viaud, 716, San Salvador",
+          "phone": "+503 2221-9725",
+          "website": "https://www.simn-global.org/centros-scalabrinianos/centro/casa-del-migrante-scalabrini-el-salvador/",
+          "hours": "Lunes a viernes, 08:00–17:00; sábado, 08:00–12:00.",
+          "how_to_access": "Llame para confirmar criterios, capacidad y documentos antes de acudir."
+        }
+      ]
+    },
+    {
+      "id": "food",
+      "title": "Alimentación",
+      "entries": [
+        {
+          "id": "comedor-mama-margarita",
+          "title": "Comedor Mamá Margarita",
+          "description": "Comedor que entrega alimentos a personas mayores vulnerables y a personas que viven en la calle. La alcaldía informa que atiende diariamente a decenas de personas sin hogar.",
+          "last_verified": "2026-11-23",
+          "address": "23a Calle Poniente y 1a Avenida Norte, Barrio San Miguelito, San Salvador",
+          "phone": "7604-7679",
+          "website": "https://sansalvador.gob.sv/alcalde-mario-duran-entrego-insumos-alimenticios-al-comedor-mama-margarita/",
+          "hours": "",
+          "how_to_access": "Llame para confirmar el horario de comida y si hay disponibilidad ese día."
+        }
+      ]
+    },
+    {
+      "id": "community",
+      "title": "Ayuda comunitaria y religiosa",
+      "entries": []
+    },
+    {
+      "id": "hygiene",
+      "title": "Duchas, lavandería e higiene",
+      "entries": []
+    },
+    {
+      "id": "clothing",
+      "title": "Ropa",
+      "entries": []
+    },
+    {
+      "id": "health",
+      "title": "Atención de salud",
+      "entries": [
+        {
+          "id": "teleamigo",
+          "title": "Teleamigo del Ministerio de Salud",
+          "description": "Orientación telefónica sobre problemas de salud, establecimientos cercanos y horarios de atención. No sustituye una ambulancia ni una consulta de emergencia.",
+          "last_verified": "2026-11-23",
+          "address": "",
+          "phone": "2221-1001",
+          "website": "https://asp.salud.gob.sv/teleamigo.asp",
+          "hours": "Todos los días, 07:00–19:00.",
+          "how_to_access": "Llame para orientación. En emergencia médica use 132."
+        }
+      ]
+    },
+    {
+      "id": "mental-health",
+      "title": "Salud mental y adicciones",
+      "entries": [
+        {
+          "id": "centro-solo-por-hoy",
+          "title": "Centro de Tratamiento Solo Por Hoy",
+          "description": "Tratamiento residencial para hombres adultos con problemas por consumo de alcohol u otras drogas, con atención médica, psicológica, psiquiátrica, alimentación y apoyo de rehabilitación.",
+          "last_verified": "2026-11-23",
+          "address": "San Salvador",
+          "phone": "2235-9521",
+          "website": "https://www.seguridad.gob.sv/cna/?page_id=5825",
+          "hours": "",
+          "how_to_access": "Llame para conocer criterios de ingreso, evaluación y disponibilidad."
+        }
+      ]
+    },
+    {
+      "id": "public-facilities",
+      "title": "Baños públicos y centros diurnos",
+      "entries": []
+    },
+    {
+      "id": "phone-internet",
+      "title": "Carga de teléfono e internet",
+      "entries": []
+    },
+    {
+      "id": "transport",
+      "title": "Transporte",
+      "entries": []
+    },
+    {
+      "id": "benefits",
+      "title": "Beneficios públicos y apoyo social",
+      "entries": []
+    },
+    {
+      "id": "employment",
+      "title": "Empleo",
+      "entries": [
+        {
+          "id": "mtps-inscripcion-empleo",
+          "title": "Ministerio de Trabajo — inscripción de personas que buscan empleo",
+          "description": "Registro gratuito como demandante de empleo y acceso a oportunidades. También existe el portal oportunidades.mtps.gob.sv.",
+          "last_verified": "2026-11-23",
+          "address": "Alameda Juan Pablo II y 17 Avenida Norte, Edificio 2, Centro de Gobierno, San Salvador",
+          "phone": "130 / 2529-3700",
+          "website": "https://www.mtps.gob.sv/servicios/inscripcion-de-demandantes-de-empleo/",
+          "hours": "Lunes a viernes, 07:30–12:30 y 13:10–15:30.",
+          "how_to_access": "Lleve DUI y currículum si los tiene. En el Edificio 2, busque el segundo nivel, puerta 4."
+        }
+      ]
+    },
+    {
+      "id": "legal",
+      "title": "Asistencia legal",
+      "entries": [
+        {
+          "id": "pgr-san-salvador",
+          "title": "Procuraduría Auxiliar de San Salvador",
+          "description": "Servicios públicos de asistencia jurídica en materias de familia, trabajo, propiedad, defensa pública, mediación, atención a mujeres y apoyo psicosocial.",
+          "last_verified": "2026-11-23",
+          "address": "13 Avenida Norte y 9 Calle Poniente, Torre PGR, 4.º nivel, Centro de Gobierno, San Salvador",
+          "phone": "2231-9484",
+          "website": "https://www.pgr.gob.sv/procuraduria-auxiliar-de-san-salvador/",
+          "hours": "",
+          "how_to_access": "Llame y explique el tipo de problema para confirmar el servicio, documentos y forma de atención."
+        }
+      ]
+    },
+    {
+      "id": "documents",
+      "title": "Documentos e identificación",
+      "entries": []
+    },
+    {
+      "id": "mail",
+      "title": "Dirección postal",
+      "entries": []
+    },
+    {
+      "id": "storage",
+      "title": "Guardado de pertenencias",
+      "entries": []
+    },
+    {
+      "id": "safety",
+      "title": "Seguridad y violencia doméstica",
+      "entries": [
+        {
+          "id": "estamos-contigo-pgr",
+          "title": "Estamos Contigo — atención a violencia",
+          "description": "Orientación y atención de la Procuraduría para personas que viven violencia, con apoyo legal y derivación a servicios de protección.",
+          "last_verified": "2026-11-23",
+          "address": "",
+          "phone": "2231-9595 / WhatsApp 7607-9013",
+          "website": "https://www.pgr.gob.sv/centro-de-atencion-virtual-caval/",
+          "hours": "",
+          "how_to_access": "En peligro inmediato llame al 911. Para orientación o seguimiento, use el teléfono o WhatsApp."
+        }
+      ]
+    },
+    {
+      "id": "specialist-support",
+      "title": "Apoyo especializado",
+      "entries": [
+        {
+          "id": "casa-del-migrante-orientacion",
+          "title": "Casa del Migrante — apoyo especializado",
+          "description": "Orientación legal y psicológica, comida, higiene, ropa y acompañamiento para personas migrantes, refugiadas o en tránsito.",
+          "last_verified": "2026-11-23",
+          "address": "Colonia Mugdan, 6a Avenida Norte y Pasaje Viaud, 716, San Salvador",
+          "phone": "+503 2221-9725",
+          "website": "https://www.simn-global.org/centros-scalabrinianos/centro/casa-del-migrante-scalabrini-el-salvador/",
+          "hours": "Lunes a viernes, 08:00–17:00; sábado, 08:00–12:00.",
+          "how_to_access": "Llame antes para confirmar el tipo de ayuda disponible."
+        }
+      ]
+    },
+    {
+      "id": "veterans",
+      "title": "Apoyo para veteranos",
+      "entries": []
+    },
+    {
+      "id": "pets",
+      "title": "Ayuda para personas con animales",
+      "entries": []
+    },
+    {
+      "id": "other",
+      "title": "Otros recursos útiles",
+      "entries": []
+    }
+  ]
+}
+
