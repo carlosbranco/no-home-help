@@ -1,0 +1,4636 @@
+{
+  "$schema": "https://nohomehelp.com/schemas/city.schema.json",
+  "schema_version": 1,
+  "status": "published",
+  "locale": {
+    "language": "it",
+    "direction": "ltr",
+    "primary": true
+  },
+  "location": {
+    "continent": "Europe",
+    "country_code": "IT",
+    "country_name": "Italy",
+    "country_local_name": "Italia",
+    "country_slug": "italy",
+    "region_code": "16",
+    "region_name": "Tuscany",
+    "region_slug": "tuscany",
+    "city_name": "Firenze",
+    "city_slug": "firenze"
+  },
+  "seo": {
+    "title": "Aiuto per persone senza dimora a Firenze - No Home Help",
+    "description": "Aiuto verificato a Firenze per persone senza dimora: accoglienza, pasti, docce, salute, welfare, lavoro, documenti, tutela, trasporti e animali."
+  },
+  "page": {
+    "heading": "Firenze — aiuto per persone senza dimora",
+    "last_verified": "2026-11-12",
+    "urgent": [
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "Emergenza immediata:",
+            "strong": true
+          },
+          {
+            "text": " "
+          },
+          {
+            "text": "112",
+            "href": "tel:112"
+          },
+          {
+            "break": true
+          },
+          {
+            "text": " "
+          },
+          {
+            "text": "Persona in strada e primo orientamento:",
+            "strong": true
+          },
+          {
+            "text": " La Fenice, "
+          },
+          {
+            "text": "055 0510241",
+            "href": "tel:+390550510241"
+          },
+          {
+            "break": true
+          },
+          {
+            "text": " "
+          },
+          {
+            "text": "Prenotazioni Albergo Popolare:",
+            "strong": true
+          },
+          {
+            "text": " "
+          },
+          {
+            "text": "055 211632",
+            "href": "tel:+39055211632"
+          },
+          {
+            "break": true
+          },
+          {
+            "text": " "
+          },
+          {
+            "text": "Cure non urgenti:",
+            "strong": true
+          },
+          {
+            "text": " "
+          },
+          {
+            "text": "116117",
+            "href": "tel:116117"
+          },
+          {
+            "break": true
+          },
+          {
+            "text": " "
+          },
+          {
+            "text": "Violenza e stalking:",
+            "strong": true
+          },
+          {
+            "text": " "
+          },
+          {
+            "text": "1522",
+            "href": "tel:1522"
+          },
+          {
+            "text": "; "
+          },
+          {
+            "text": "minore in pericolo:",
+            "strong": true
+          },
+          {
+            "text": " "
+          },
+          {
+            "text": "114",
+            "href": "tel:114"
+          }
+        ]
+      }
+    ],
+    "notice": [
+      {
+        "text": "Posti, turni, documenti e criteri possono cambiare.",
+        "strong": true
+      },
+      {
+        "text": " Telefona prima di spostarti, quando possibile. Nessuna voce garantisce un letto, un pasto, una visita, un contributo o un lavoro nella stessa giornata."
+      }
+    ],
+    "intro": [
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "Se non hai un posto sicuro per stanotte, contatta La Fenice nei giorni feriali e la portineria dell'Albergo Popolare negli altri orari. Comunica subito posizione, età, condizioni di salute e se ci sono minori, gravidanza, disabilità, violenza o animali. Presentarsi direttamente a una struttura non garantisce l'ingresso."
+          }
+        ]
+      }
+    ],
+    "footer": [
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "No Home Help non è un servizio di emergenza e non sostituisce operatori sociali, sanitari o legali."
+          }
+        ]
+      }
+    ]
+  },
+  "quick_actions": {
+    "tonight": [
+      {
+        "category_id": "emergenze",
+        "entry_id": "112-emergenza-immediata"
+      },
+      {
+        "category_id": "emergenze",
+        "entry_id": "centro-diurno-la-fenice-segnalazioni-e-orientamento"
+      },
+      {
+        "category_id": "emergenze",
+        "entry_id": "albergo-popolare-informazioni-fuori-orario"
+      }
+    ],
+    "this_week": [
+      {
+        "category_id": "cibo",
+        "entry_id": "mensa-caritas-baracca"
+      },
+      {
+        "category_id": "cibo",
+        "entry_id": "mensa-san-francesco-poverino"
+      },
+      {
+        "category_id": "cibo",
+        "entry_id": "la-fenice-colazione-e-pranzo-del-lunedi"
+      }
+    ],
+    "this_month": [
+      {
+        "category_id": "fragilita",
+        "entry_id": "pua-bisogni-sociosanitari-complessi"
+      },
+      {
+        "category_id": "fragilita",
+        "entry_id": "servizi-per-persone-anziane"
+      },
+      {
+        "category_id": "fragilita",
+        "entry_id": "centro-aiuto-vita-gravidanza-e-primi-due-anni"
+      }
+    ]
+  },
+  "categories": [
+    {
+      "id": "emergenze",
+      "title": "1. Emergenze e primo accesso",
+      "items": [
+        {
+          "type": "resource",
+          "id": "112-emergenza-immediata",
+          "name": "112 — emergenza immediata",
+          "last_verified": "2026-11-12",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Numero gratuito:",
+                  "strong": true
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "112",
+                  "href": "tel:112"
+                },
+                {
+                  "text": ", 24 ore su 24."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Chiama per pericolo di vita, violenza in corso, grave malore, overdose, incendio o persona incosciente. Indica posizione esatta e condizioni della persona. Il 112 non è il numero ordinario per chiedere un posto letto."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Ministero dell'Interno — numeri utili",
+                  "href": "https://www.interno.gov.it/it/numeri-utili"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "centro-diurno-la-fenice-segnalazioni-e-orientamento",
+          "name": "Centro diurno La Fenice — segnalazioni e orientamento",
+          "last_verified": "2026-11-12",
+          "blocks": [
+            {
+              "type": "address",
+              "content": [
+                {
+                  "text": "Indirizzo:",
+                  "strong": true
+                },
+                {
+                  "text": " via del Leone 35, Firenze"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Telefono:",
+                  "strong": true
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "055 0510241",
+                  "href": "tel:+390550510241"
+                },
+                {
+                  "text": "; segnalazioni di persone in strada dal lunedì al venerdì, 09:00–17:00."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "È un riferimento centrale per chi vive in strada. Orienta verso accoglienza, pasti, docce, salute e residenza anagrafica. Alcuni servizi richiedono invio sociale, registrazione o appuntamento."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Fuori Binario — mappa aggiornata dei servizi",
+                  "href": "https://www.fuoribinario.org/fuori-dal-tunnel/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "albergo-popolare-informazioni-fuori-orario",
+          "name": "Albergo Popolare — informazioni fuori orario",
+          "last_verified": "2026-11-12",
+          "blocks": [
+            {
+              "type": "address",
+              "content": [
+                {
+                  "text": "Indirizzo:",
+                  "strong": true
+                },
+                {
+                  "text": " via della Chiesa 68, Firenze"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Telefono:",
+                  "strong": true
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "055 211632",
+                  "href": "tel:+39055211632"
+                },
+                {
+                  "text": "; prenotazioni pubblicate dal lunedì al venerdì, 10:00–12:00."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "La portineria riceve anche segnalazioni quando La Fenice non è attiva. Una telefonata o una segnalazione non garantisce un posto: l'ingresso dipende dal canale corretto, dalla valutazione e dalla disponibilità."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Comune di Firenze — strutture di accoglienza",
+                  "href": "https://sociale.comune.fi.it/pagina/strutture-di-accoglienza"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "116117-cure-non-urgenti",
+          "name": "116117 — cure non urgenti",
+          "last_verified": "2026-11-12",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Numero:",
+                  "strong": true
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "116117",
+                  "href": "tel:116117"
+                },
+                {
+                  "text": "."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Per orientamento sanitario e continuità assistenziale quando non serve un'ambulanza. L'operatore indica il servizio disponibile nella zona e nell'orario della chiamata. In pericolo immediato usa 112."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "USL Toscana Centro — 116117",
+                  "href": "https://www.uslcentro.toscana.it/news/oltre-un-milione-e-duecentomila-chiamate-in-un-anno-per-il-servizio-116117"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "freddo-verificare-l-attivazione-ogni-giorno",
+          "name": "Freddo — verificare l'attivazione ogni giorno",
+          "last_verified": "2026-11-12",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Al momento della verifica il portale comunale indicava il servizio invernale come non attivo. La mappa locale pubblica prenotazioni presso Casa della Carità, via Corelli 91, telefono "
+                },
+                {
+                  "text": "337 121 3981",
+                  "href": "tel:+393371213981"
+                },
+                {
+                  "text": ", da dicembre a marzo; prima di partire chiedi se il piano 2026/27 è realmente iniziato."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Nella stagione precedente l'accoglienza era gratuita, dalle 19:00 alle 09:00, con cena, colazione e materiale igienico. Le regole e le sedi possono cambiare."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Comune di Firenze — stato del servizio invernale",
+                  "href": "https://www.comune.firenze.it/servizi/salute-benessere-e-assistenza/accoglienza-invernale"
+                },
+                {
+                  "text": " · "
+                },
+                {
+                  "text": "contatti locali aggiornati",
+                  "href": "https://www.fuoribinario.org/fuori-dal-tunnel/"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "accoglienza",
+      "title": "2. Accoglienza e aiuto in strada",
+      "items": [
+        {
+          "type": "resource",
+          "id": "albergo-popolare-fioretta-mazzei",
+          "name": "Albergo Popolare Fioretta Mazzei",
+          "last_verified": "2026-11-12",
+          "blocks": [
+            {
+              "type": "address",
+              "content": [
+                {
+                  "text": "Indirizzo:",
+                  "strong": true
+                },
+                {
+                  "text": " via della Chiesa 66–68, Firenze"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Telefono:",
+                  "strong": true
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "055 211632",
+                  "href": "tel:+39055211632"
+                },
+                {
+                  "text": "; prenotazioni dal lunedì al venerdì, 10:00–12:00."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Accoglienza temporanea comunale con diversi canali, compresi pronta accoglienza e invii sociali o sanitari. Non tutte le persone entrano dallo stesso canale e la presenza di posti varia."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Comune di Firenze — Albergo Popolare e modalità",
+                  "href": "https://sociale.comune.fi.it/pagina/strutture-di-accoglienza"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "casa-san-paolino-fondazione-solidarieta-caritas",
+          "name": "Casa San Paolino — Fondazione Solidarietà Caritas",
+          "last_verified": "2026-11-12",
+          "blocks": [
+            {
+              "type": "address",
+              "content": [
+                {
+                  "text": "Indirizzo:",
+                  "strong": true
+                },
+                {
+                  "text": " via del Porcellana 30, Firenze"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Accoglienza notturna con accompagnamento e servizi essenziali. L'accesso avviene attraverso i servizi e dipende dalla situazione e dai posti: non recarti aspettando un ingresso immediato."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Caritas Firenze — accoglienza notturna",
+                  "href": "https://www.fondazionesolidarietacaritas.it/cosa-facciamo/accoglienza/accoglienza-notturna-uomini/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "accoglienza-caritas-per-donne-e-madri-con-bambini",
+          "name": "Accoglienza Caritas per donne e madri con bambini",
+          "last_verified": "2026-11-12",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Casa San Michele, Casa Santa Chiara e altri progetti accolgono donne sole o madri con figli dopo segnalazione e valutazione. Per protezione e privacy non tutte le sedi devono essere raggiunte direttamente."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Contatta Caritas al "
+                },
+                {
+                  "text": "055 267701",
+                  "href": "tel:+39055267701"
+                },
+                {
+                  "text": ", un servizio sociale o il 1522 in caso di violenza."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Caritas Firenze — donne sole e mamme",
+                  "href": "https://www.fondazionesolidarietacaritas.it/cosa-facciamo/accoglienza/donne-sole-e-mamme-con-bambini/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "accoglienza-invernale-caritas",
+          "name": "Accoglienza invernale Caritas",
+          "last_verified": "2026-11-12",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "È un servizio stagionale per adulti senza dimora, con particolare attenzione alle persone più anziane o con salute precaria. Il servizio 2026/27 deve essere confermato prima di presentarsi."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Chiedi alla Casa della Carità, via Corelli 91, "
+                },
+                {
+                  "text": "337 121 3981",
+                  "href": "tel:+393371213981"
+                },
+                {
+                  "text": ", oppure a La Fenice. La richiesta non garantisce un letto."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Caritas Firenze — accoglienza invernale",
+                  "href": "https://www.fondazionesolidarietacaritas.it/cosa-facciamo/accoglienza/accoglienza-invernale/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "progetto-arcobaleno-ascolto-e-accompagnamento",
+          "name": "Progetto Arcobaleno — ascolto e accompagnamento",
+          "last_verified": "2026-11-12",
+          "blocks": [
+            {
+              "type": "address",
+              "content": [
+                {
+                  "text": "Indirizzo:",
+                  "strong": true
+                },
+                {
+                  "text": " via del Leone 9, Firenze"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Telefono:",
+                  "strong": true
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "055 280052",
+                  "href": "tel:+39055280052"
+                },
+                {
+                  "text": "."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Offre ascolto, orientamento e progetti per persone in difficoltà, oltre a servizi legali e per dipendenze. Chiama o scrivi prima per capire quale sportello può riceverti."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Progetto Arcobaleno — sito ufficiale",
+                  "href": "https://www.progettoarcobaleno.it/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "angeli-della-citta-aiuto-in-strada",
+          "name": "Angeli della Città — aiuto in strada",
+          "last_verified": "2026-11-12",
+          "blocks": [
+            {
+              "type": "address",
+              "content": [
+                {
+                  "text": "Indirizzo:",
+                  "strong": true
+                },
+                {
+                  "text": " via Sant'Agostino 19, Firenze"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Telefoni:",
+                  "strong": true
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "340 523 9889",
+                  "href": "tel:+393405239889"
+                },
+                {
+                  "text": " e "
+                },
+                {
+                  "text": "353 418 9595",
+                  "href": "tel:+393534189595"
+                },
+                {
+                  "text": "."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Distribuisce coperte, abiti e alimenti, normalmente su appuntamento e con ISEE quando disponibile. Orari pubblicati: lunedì, mercoledì e giovedì 10:00–12:30; martedì 15:00–18:00."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Fuori dal tunnel — orari e servizi",
+                  "href": "https://www.fuoribinario.org/fuori-dal-tunnel/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "se-non-c-e-posto",
+          "name": "Se non c'è posto",
+          "last_verified": "2026-11-12",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Chiedi a La Fenice o all'Albergo Popolare un'alternativa concreta, un centro diurno o una nuova verifica. Ripeti chiaramente se ci sono malattia, disabilità, gravidanza, minori, violenza, età avanzata, dimissione ospedaliera o animale."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Non pagare intermediari per ottenere un letto. Tieni con te documenti, farmaci e numeri importanti."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Coordinamento Toscano Marginalità — segnalazione online",
+                  "href": "https://www.coordinamentotoscanomarginalita.it/segnalazione-persone-in-difficolta/"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cibo",
+      "title": "3. Cibo e aiuto religioso",
+      "items": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "text": "Alcuni servizi richiedono un colloquio, una tessera, una registrazione o l'invio dei servizi sociali. Porta i documenti disponibili, ma chiedi comunque aiuto se li hai persi."
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "mensa-caritas-baracca",
+          "name": "Mensa Caritas Baracca",
+          "last_verified": "2026-11-12",
+          "blocks": [
+            {
+              "type": "address",
+              "content": [
+                {
+                  "text": "Indirizzo:",
+                  "strong": true
+                },
+                {
+                  "text": " via Francesco Baracca, accesso da via Petri 1, Firenze"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Telefono:",
+                  "strong": true
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "055 30609230",
+                  "href": "tel:+3905530609230"
+                },
+                {
+                  "text": "; pranzo pubblicato tutti i giorni, 11:00–13:15."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "È necessaria la registrazione. Chiedi prima dove fare il colloquio o ottenere la tessera temporanea; un pasto non comporta automaticamente un posto letto."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Caritas Firenze — mense",
+                  "href": "https://www.fondazionesolidarietacaritas.it/cosa-facciamo/mensa-e-servizi-alla-persona/mense-2/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "mensa-san-francesco-poverino",
+          "name": "Mensa San Francesco Poverino",
+          "last_verified": "2026-11-12",
+          "blocks": [
+            {
+              "type": "address",
+              "content": [
+                {
+                  "text": "Indirizzo:",
+                  "strong": true
+                },
+                {
+                  "text": " piazza Santissima Annunziata 2, Firenze"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Mensa religiosa per persone in difficoltà, normalmente chiusa la domenica. La registrazione passa dal centro di ascolto Caritas; conferma l'orario e la tessera prima di partire."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Caritas Firenze — Mensa San Francesco",
+                  "href": "https://www.fondazionesolidarietacaritas.it/cosa-facciamo/mensa-e-servizi-alla-persona/mense-2/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "la-fenice-colazione-e-pranzo-del-lunedi",
+          "name": "La Fenice — colazione e pranzo del lunedì",
+          "last_verified": "2026-11-12",
+          "blocks": [
+            {
+              "type": "address",
+              "content": [
+                {
+                  "text": "Indirizzo:",
+                  "strong": true
+                },
+                {
+                  "text": " via del Leone 35, Firenze"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Telefono:",
+                  "strong": true
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "055 0510241",
+                  "href": "tel:+390550510241"
+                },
+                {
+                  "text": "."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Colazione pubblicata tutti i giorni, 09:00–10:00; pranzo il lunedì alle 12:00. Chiedi se serve registrazione e verifica l'apertura nei festivi."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Fuori dal tunnel — cibo a Firenze",
+                  "href": "https://www.fuoribinario.org/fuori-dal-tunnel/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "ronda-della-carita-cena-serale",
+          "name": "Ronda della Carità — cena serale",
+          "last_verified": "2026-11-12",
+          "blocks": [
+            {
+              "type": "address",
+              "content": [
+                {
+                  "text": "Punto pubblicato:",
+                  "strong": true
+                },
+                {
+                  "text": " stazione Campo di Marte, angolo via Mannelli e viale Mazzini"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Telefono:",
+                  "strong": true
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "348 271 2275",
+                  "href": "tel:+393482712275"
+                },
+                {
+                  "text": "; cena pubblicata tutti i giorni alle 20:30."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Il punto o l'orario possono cambiare per lavori, eventi o emergenze: telefona prima quando possibile."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Fuori dal tunnel — distribuzioni serali",
+                  "href": "https://www.fuoribinario.org/fuori-dal-tunnel/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "vincenziani-banco-alimentare",
+          "name": "Vincenziani — banco alimentare",
+          "last_verified": "2026-11-12",
+          "blocks": [
+            {
+              "type": "address",
+              "content": [
+                {
+                  "text": "Distribuzione:",
+                  "strong": true
+                },
+                {
+                  "text": " via del Ronco Corto 20, Firenze"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Telefono:",
+                  "strong": true
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "055 0128846",
+                  "href": "tel:+390550128846"
+                },
+                {
+                  "text": "; distribuzione pubblicata mercoledì 14:00–16:00."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Per l'appuntamento, la segreteria è indicata il martedì 09:00–12:00 presso la parrocchia in via San Bartolo a Cintoia 82. Chiedi documenti, zona servita e disponibilità."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Fuori dal tunnel — banco alimentare",
+                  "href": "https://www.fuoribinario.org/fuori-dal-tunnel/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "misericordia-informazioni-sul-banco-alimentare",
+          "name": "Misericordia — informazioni sul banco alimentare",
+          "last_verified": "2026-11-12",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Telefono:",
+                  "strong": true
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "055 239393",
+                  "href": "tel:+39055239393"
+                },
+                {
+                  "text": "; informazioni pubblicate il martedì, 10:00–12:00."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Chiama per sapere sede, requisiti e data utile. Le scorte e i nuclei ammessi possono variare."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Fuori dal tunnel — aiuto alimentare",
+                  "href": "https://www.fuoribinario.org/fuori-dal-tunnel/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "centro-aiuto-vita-gravidanza-e-bambini-piccoli",
+          "name": "Centro Aiuto Vita — gravidanza e bambini piccoli",
+          "last_verified": "2026-11-12",
+          "blocks": [
+            {
+              "type": "address",
+              "content": [
+                {
+                  "text": "Indirizzo:",
+                  "strong": true
+                },
+                {
+                  "text": " piazza San Lorenzo 9, Firenze"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Telefono:",
+                  "strong": true
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "055 291516",
+                  "href": "tel:+39055291516"
+                },
+                {
+                  "text": "; dal lunedì al venerdì, 08:30–12:00."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Banco alimentare e vestiario per donne in gravidanza o con bambini fino a due anni. Telefona per il primo colloquio e i documenti disponibili."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Fuori dal tunnel — Centro Aiuto Vita",
+                  "href": "https://www.fuoribinario.org/fuori-dal-tunnel/"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "igiene",
+      "title": "4. Docce, vestiti e bagagli",
+      "items": [
+        {
+          "type": "resource",
+          "id": "la-fenice-docce",
+          "name": "La Fenice — docce",
+          "last_verified": "2026-11-12",
+          "blocks": [
+            {
+              "type": "address",
+              "content": [
+                {
+                  "text": "Indirizzo:",
+                  "strong": true
+                },
+                {
+                  "text": " via del Leone 35, Firenze"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Telefono:",
+                  "strong": true
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "055 0510241",
+                  "href": "tel:+390550510241"
+                },
+                {
+                  "text": "; dal lunedì al venerdì, 10:00–13:00."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Servizio per persone registrate e su prenotazione. Telefona prima: i turni e il materiale disponibile non sono garantiti."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Fuori dal tunnel — docce",
+                  "href": "https://www.fuoribinario.org/fuori-dal-tunnel/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "caritas-docce-cascine-del-riccio",
+          "name": "Caritas — docce Cascine del Riccio",
+          "last_verified": "2026-11-12",
+          "blocks": [
+            {
+              "type": "address",
+              "content": [
+                {
+                  "text": "Indirizzo:",
+                  "strong": true
+                },
+                {
+                  "text": " campo sportivo, via del Ponte a Iozzi 2, capolinea bus 36"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Telefono:",
+                  "strong": true
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "055 30609230",
+                  "href": "tel:+3905530609230"
+                },
+                {
+                  "text": "; lunedì, mercoledì e venerdì, 07:00–11:00."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Chiedi prima se serve registrazione, che cosa portare e se sono disponibili cambio abiti o prodotti igienici."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Caritas Firenze — servizi alla persona",
+                  "href": "https://www.fondazionesolidarietacaritas.it/cosa-facciamo/mensa-e-servizi-alla-persona/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "acisjf-help-center-kit-igienici",
+          "name": "ACISJF Help Center — kit igienici",
+          "last_verified": "2026-11-12",
+          "blocks": [
+            {
+              "type": "address",
+              "content": [
+                {
+                  "text": "Indirizzo:",
+                  "strong": true
+                },
+                {
+                  "text": " via Valfonda 1, Firenze, vicino a Santa Maria Novella"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Telefono:",
+                  "strong": true
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "055 294635",
+                  "href": "tel:+39055294635"
+                },
+                {
+                  "text": "."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Distribuisce, secondo disponibilità, assorbenti, pannolini, bagnoschiuma e spazzolini. Orari pubblicati: lunedì–giovedì 09:30–12:30 e 14:30–17:00; venerdì 09:30–12:30."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Fuori dal tunnel — kit igienici",
+                  "href": "https://www.fuoribinario.org/fuori-dal-tunnel/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "caritas-deposito-bagagli",
+          "name": "Caritas — deposito bagagli",
+          "last_verified": "2026-11-12",
+          "blocks": [
+            {
+              "type": "address",
+              "content": [
+                {
+                  "text": "Indirizzo:",
+                  "strong": true
+                },
+                {
+                  "text": " via Petri 1, angolo via Baracca, Firenze"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Telefono:",
+                  "strong": true
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "055 30609230",
+                  "href": "tel:+3905530609230"
+                },
+                {
+                  "text": "; orario pubblicato dal lunedì al sabato, 09:00–11:00."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Chiedi limiti, durata, oggetti vietati e ricevuta. Non lasciare documenti, farmaci urgenti, denaro o oggetti di valore."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Caritas Firenze — deposito e servizi",
+                  "href": "https://www.fondazionesolidarietacaritas.it/cosa-facciamo/mensa-e-servizi-alla-persona/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "le-curandaie-abbigliamento-e-attivita-diurne",
+          "name": "Le Curandaie — abbigliamento e attività diurne",
+          "last_verified": "2026-11-12",
+          "blocks": [
+            {
+              "type": "address",
+              "content": [
+                {
+                  "text": "Sede cuRemake:",
+                  "strong": true
+                },
+                {
+                  "text": " via Pepe 47/8, Firenze"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Telefono:",
+                  "strong": true
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "055 5385341",
+                  "href": "tel:+390555385341"
+                },
+                {
+                  "text": "; dal lunedì al venerdì, 09:30–13:00."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Un'altra sede su prenotazione è in via Mugello 21/23, telefono "
+                },
+                {
+                  "text": "055 5387839",
+                  "href": "tel:+390555387839"
+                },
+                {
+                  "text": ". Taglie e capi dipendono dalle scorte."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Fuori dal tunnel — vestiti",
+                  "href": "https://www.fuoribinario.org/fuori-dal-tunnel/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "vincenziani-guardaroba",
+          "name": "Vincenziani — guardaroba",
+          "last_verified": "2026-11-12",
+          "blocks": [
+            {
+              "type": "address",
+              "content": [
+                {
+                  "text": "Indirizzo:",
+                  "strong": true
+                },
+                {
+                  "text": " via del Ronco Corto 20, Firenze"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Telefono:",
+                  "strong": true
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "055 0128846",
+                  "href": "tel:+390550128846"
+                },
+                {
+                  "text": "."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Accettazione pubblicata il lunedì 09:30–12:30 e distribuzione il giovedì 09:30–12:00. Telefona per capire se occorre appuntamento o una segnalazione."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Fuori dal tunnel — guardaroba",
+                  "href": "https://www.fuoribinario.org/fuori-dal-tunnel/"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spazi",
+      "title": "5. Spazi diurni, internet e ricarica",
+      "items": [
+        {
+          "type": "resource",
+          "id": "la-fenice-centro-diurno",
+          "name": "La Fenice — centro diurno",
+          "last_verified": "2026-11-12",
+          "blocks": [
+            {
+              "type": "address",
+              "content": [
+                {
+                  "text": "Indirizzo:",
+                  "strong": true
+                },
+                {
+                  "text": " via del Leone 35, Firenze"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Telefono:",
+                  "strong": true
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "055 0510241",
+                  "href": "tel:+390550510241"
+                },
+                {
+                  "text": "."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Orari pubblicati: lunedì–venerdì 09:00–13:00 e 14:00–17:00, con accessi pomeridiani collegati ai servizi; sabato 09:00–13:00. Chiedi che cosa è disponibile senza invio."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Fuori dal tunnel — La Fenice",
+                  "href": "https://www.fuoribinario.org/fuori-dal-tunnel/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "acisjf-help-center-ascolto-e-orientamento",
+          "name": "ACISJF Help Center — ascolto e orientamento",
+          "last_verified": "2026-11-12",
+          "blocks": [
+            {
+              "type": "address",
+              "content": [
+                {
+                  "text": "Indirizzo:",
+                  "strong": true
+                },
+                {
+                  "text": " via Valfonda 1, Firenze"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Telefono:",
+                  "strong": true
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "055 294635",
+                  "href": "tel:+39055294635"
+                },
+                {
+                  "text": "."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Punto vicino alla stazione per ascolto, kit igienici, lavoro, supporto psicologico e orientamento legale. I singoli servizi hanno giorni diversi: presentati allo sportello di ascolto o telefona."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Fuori dal tunnel — Help Center",
+                  "href": "https://www.fuoribinario.org/fuori-dal-tunnel/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "biblioteca-delle-oblate-spazio-wi-fi-e-computer",
+          "name": "Biblioteca delle Oblate — spazio, Wi-Fi e computer",
+          "last_verified": "2026-11-12",
+          "blocks": [
+            {
+              "type": "address",
+              "content": [
+                {
+                  "text": "Indirizzo:",
+                  "strong": true
+                },
+                {
+                  "text": " via dell'Oriuolo 24, Firenze"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Telefono:",
+                  "strong": true
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "055 2616512",
+                  "href": "tel:+390552616512"
+                },
+                {
+                  "text": "."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Accesso gratuito, postazioni internet e rete Wi-Fi. Orari pubblicati: lunedì 14:00–19:00; martedì 09:00–19:00; mercoledì–venerdì 09:00–23:00; sabato 10:00–23:00. Per alcuni servizi serve iscrizione gratuita con documento."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Comune di Firenze — Biblioteca delle Oblate",
+                  "href": "https://cultura.comune.fi.it/pagina/le-biblioteche-comunali-fiorentine/biblioteca-delle-oblate"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "biblioteca-pietro-thouar-oltrarno",
+          "name": "Biblioteca Pietro Thouar — Oltrarno",
+          "last_verified": "2026-11-12",
+          "blocks": [
+            {
+              "type": "address",
+              "content": [
+                {
+                  "text": "Indirizzo:",
+                  "strong": true
+                },
+                {
+                  "text": " piazza Torquato Tasso 3, Firenze"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Telefono:",
+                  "strong": true
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "055 2398740",
+                  "href": "tel:+390552398740"
+                },
+                {
+                  "text": "."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Accesso gratuito, studio, internet e Wi-Fi. Orario settembre–giugno: lunedì 14:00–19:00; martedì–venerdì 09:00–19:00; sabato 10:00–18:00. Verifica chiusure festive."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Comune di Firenze — Biblioteca Thouar",
+                  "href": "https://cultura.comune.fi.it/pagina/le-biblioteche-comunali-fiorentine/biblioteca-pietro-thouar"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "firenze-wifi-e-consulenza-digitale",
+          "name": "Firenze WiFi e consulenza digitale",
+          "last_verified": "2026-11-12",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "La rete comunale Firenze WiFi è gratuita nelle aree coperte. Le biblioteche offrono anche consulenze gratuite, su prenotazione, per PC, internet, smartphone e servizi pubblici digitali."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Una rete aperta non è privata: evita operazioni bancarie su dispositivi condivisi e chiudi sempre gli account."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Comune di Firenze — Firenze WiFi",
+                  "href": "https://www.comune.firenze.it/firenzewifi"
+                },
+                {
+                  "text": " · "
+                },
+                {
+                  "text": "consulenze digitali 2026/27",
+                  "href": "https://cultura.comune.fi.it/dalle-redazioni/consulenze-digitali-2026-2027"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "salute",
+      "title": "6. Salute e odontoiatria",
+      "items": [
+        {
+          "type": "resource",
+          "id": "ambulatori-stenone-cure-per-persone-in-difficolta",
+          "name": "Ambulatori Stenone — cure per persone in difficoltà",
+          "last_verified": "2026-11-12",
+          "blocks": [
+            {
+              "type": "address",
+              "content": [
+                {
+                  "text": "Indirizzo:",
+                  "strong": true
+                },
+                {
+                  "text": " via del Leone 35, Firenze"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Telefono:",
+                  "strong": true
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "055 214994",
+                  "href": "tel:+39055214994"
+                },
+                {
+                  "text": "."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Orari pubblicati: lunedì 09:30–13:00 e 14:30–17:30; martedì 14:30–17:30; mercoledì–venerdì 09:30–13:00 e 14:30–17:30. Telefona per specialità, accesso e documenti."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Fuori dal tunnel — ambulatori Stenone",
+                  "href": "https://www.fuoribinario.org/fuori-dal-tunnel/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "ambulatorio-odontoiatrico-palagi-urgenze-dentali",
+          "name": "Ambulatorio odontoiatrico Palagi — urgenze dentali",
+          "last_verified": "2026-11-12",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Informazioni:",
+                  "strong": true
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "055 6937342",
+                  "href": "tel:+390556937342"
+                },
+                {
+                  "text": ", dal lunedì al venerdì 08:00–11:00."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Accesso pubblicato per urgenze dentistiche dal lunedì al sabato, 08:00–08:30. La gratuità richiede reddito basso documentato: telefona per sede esatta, requisiti e priorità clinica."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Fuori dal tunnel — odontoiatria",
+                  "href": "https://www.fuoribinario.org/fuori-dal-tunnel/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "consultori-familiari-gratuiti",
+          "name": "Consultori familiari — gratuiti",
+          "last_verified": "2026-11-12",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "I consultori offrono assistenza sanitaria, psicologica e sociale su sessualità, contraccezione, gravidanza, maternità, relazioni e violenza. La Regione indica accesso gratuito e non vincolato alla residenza."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Sede centrale utile: Istituto degli Innocenti, piazza Santissima Annunziata 13. Altre sedi sono in via D'Annunzio 2, via Chiusi 4/2, viale Morgagni 33 e via dell'Osteria 18."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "USL Toscana Centro — sedi e orari",
+                  "href": "https://www.uslcentro.toscana.it/consultorio/consultori-familiari?start=1"
+                },
+                {
+                  "text": " · "
+                },
+                {
+                  "text": "Regione Toscana — come funziona",
+                  "href": "https://www.regione.toscana.it/-/il-consultorio-%C3%A8-sempre-dalla-mia-parte"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "055-545454-orientamento-asl-toscana-centro",
+          "name": "055 545454 — orientamento ASL Toscana Centro",
+          "last_verified": "2026-11-12",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Telefono:",
+                  "strong": true
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "055 545454",
+                  "href": "tel:+39055545454"
+                },
+                {
+                  "text": ", poi tasto 1 per l'URP."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Chiedi CUP, medico, tessera sanitaria, esenzione, assistenza per persona straniera o sede territoriale. Se non hai documenti o residenza, spiega la situazione e chiedi il percorso corretto."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "USL Toscana Centro — sito ufficiale",
+                  "href": "https://www.uslcentro.toscana.it/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "diritti-del-malato-e-liste-di-attesa",
+          "name": "Diritti del malato e liste di attesa",
+          "last_verified": "2026-11-12",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "La mappa locale segnala sportelli gratuiti per orientamento sui diritti sanitari e sulle prestazioni non erogate nei tempi previsti, compresi CUB, Comunità delle Piagge e Sportello Liste di Attesa."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Chiedi prima quale sede è aperta e porta richiesta, prescrizione, prenotazione e risposte ricevute."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Fuori dal tunnel — sportelli salute",
+                  "href": "https://www.fuoribinario.org/fuori-dal-tunnel/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "trasporto-sanitario-misericordia",
+          "name": "Trasporto sanitario Misericordia",
+          "last_verified": "2026-11-12",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Telefono:",
+                  "strong": true
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "055 212222",
+                  "href": "tel:+39055212222"
+                },
+                {
+                  "text": "; orari informativi pubblicati lunedì–venerdì 08:30–13:30 e 14:30–17:30."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Chiedi costi, prescrizione e modalità del trasporto. Per un'emergenza sanitaria chiama 112."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Fuori dal tunnel — servizi sanitari",
+                  "href": "https://www.fuoribinario.org/fuori-dal-tunnel/"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mentale",
+      "title": "7. Salute mentale e dipendenze",
+      "items": [
+        {
+          "type": "resource",
+          "id": "centro-di-salute-mentale-quartieri-1-e-3",
+          "name": "Centro di Salute Mentale — Quartieri 1 e 3",
+          "last_verified": "2026-11-12",
+          "blocks": [
+            {
+              "type": "address",
+              "content": [
+                {
+                  "text": "Indirizzo:",
+                  "strong": true
+                },
+                {
+                  "text": " viale Giovine Italia 1/1, Firenze"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Telefoni:",
+                  "strong": true
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "055 6935505",
+                  "href": "tel:+390556935505"
+                },
+                {
+                  "text": " e "
+                },
+                {
+                  "text": "055 6937460",
+                  "href": "tel:+390556937460"
+                },
+                {
+                  "text": "."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Orario pubblicato lunedì–venerdì 07:30–19:00 e sabato 07:30–13:30. Il primo accesso ordinario passa normalmente dal medico; per urgenza spiega subito la situazione."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "USL Toscana Centro — tutte le sedi CSM",
+                  "href": "https://www.uslcentro.toscana.it/diagnosi-e-cura/i-servizi-per-la-salute-mentale/salute-mentale-adulti/zona-firenze-sedi-salute-mentale-adulti"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "serd-dipendenze-accesso-diretto",
+          "name": "SerD — dipendenze, accesso diretto",
+          "last_verified": "2026-11-12",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "I servizi per le dipendenze sono gratuiti e si può telefonare o presentarsi senza richiesta del medico. Sedi cittadine:"
+                }
+              ]
+            },
+            {
+              "type": "list",
+              "items": [
+                [
+                  {
+                    "text": "Quartieri 1 e 2: via dell'Arcolaio 2/a, "
+                  },
+                  {
+                    "text": "055 6934054",
+                    "href": "tel:+390556934054"
+                  },
+                  {
+                    "text": "."
+                  }
+                ],
+                [
+                  {
+                    "text": "Quartiere 5: Borgo Pinti 68r, "
+                  },
+                  {
+                    "text": "055 6934430",
+                    "href": "tel:+390556934430"
+                  },
+                  {
+                    "text": "."
+                  }
+                ],
+                [
+                  {
+                    "text": "Quartieri 3 e 4: lungarno Santa Rosa 15, "
+                  },
+                  {
+                    "text": "055 6935667",
+                    "href": "tel:+390556935667"
+                  },
+                  {
+                    "text": "."
+                  }
+                ]
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "USL Toscana Centro — orari SerD Firenze",
+                  "href": "https://www.uslcentro.toscana.it/diagnosi-e-cura/i-servizi-per-la-salute-mentale/i-servizi-per-le-dipendenze/modalita-di-accesso-servizi-per-le-dipendenze/modalita-di-accesso-servizi-per-le-dipendenze-zona-firenze"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "centro-java-riduzione-del-danno",
+          "name": "Centro Java — riduzione del danno",
+          "last_verified": "2026-11-12",
+          "blocks": [
+            {
+              "type": "address",
+              "content": [
+                {
+                  "text": "Punto:",
+                  "strong": true
+                },
+                {
+                  "text": " via Pietrapiana, angolo via Fiesolana, Firenze"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Telefono:",
+                  "strong": true
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "055 2340884",
+                  "href": "tel:+390552340884"
+                },
+                {
+                  "text": "."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Orari pubblicati lunedì–venerdì 15:00–19:00 e notturno venerdì–sabato 00:00–05:00. Offre contatto e supporto legato al consumo e alla vita notturna."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Fuori dal tunnel — dipendenze",
+                  "href": "https://www.fuoribinario.org/fuori-dal-tunnel/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "progetto-arcobaleno-gioco-d-azzardo",
+          "name": "Progetto Arcobaleno — gioco d'azzardo",
+          "last_verified": "2026-11-12",
+          "blocks": [
+            {
+              "type": "address",
+              "content": [
+                {
+                  "text": "Indirizzo:",
+                  "strong": true
+                },
+                {
+                  "text": " via del Leone 9, Firenze"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Telefono:",
+                  "strong": true
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "391 720 2861",
+                  "href": "tel:+393917202861"
+                },
+                {
+                  "text": "; su appuntamento."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Orari pubblicati martedì 14:00–16:00 e giovedì 10:00–12:00. Il servizio sostiene persone con problemi di gioco e familiari; chiama prima."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Fuori dal tunnel — gioco d'azzardo",
+                  "href": "https://www.fuoribinario.org/fuori-dal-tunnel/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "narcotici-anonimi",
+          "name": "Narcotici Anonimi",
+          "last_verified": "2026-11-12",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Numero nazionale:",
+                  "strong": true
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "06 84025043",
+                  "href": "tel:+390684025043"
+                },
+                {
+                  "text": "."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Gruppi di auto-aiuto con più incontri settimanali. Telefona per luogo e orario attuali; la partecipazione non sostituisce cure mediche o gestione di un'overdose."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Narcotici Anonimi Italia",
+                  "href": "https://www.na-italia.org/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "giocatori-anonimi-gruppi-a-firenze",
+          "name": "Giocatori Anonimi — gruppi a Firenze",
+          "last_verified": "2026-11-12",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Telefono:",
+                  "strong": true
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "338 216 6566",
+                  "href": "tel:+393382166566"
+                },
+                {
+                  "text": "."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Incontri pubblicati lunedì 21:00–22:30 in via Morosi 38 e venerdì 21:00–22:30 in via Marsuppini 9. Chiama prima per conferma e modalità del primo incontro."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Fuori dal tunnel — gruppi di auto-aiuto",
+                  "href": "https://www.fuoribinario.org/fuori-dal-tunnel/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "acisjf-ascolto-psicologico",
+          "name": "ACISJF — ascolto psicologico",
+          "last_verified": "2026-11-12",
+          "blocks": [
+            {
+              "type": "address",
+              "content": [
+                {
+                  "text": "Indirizzo:",
+                  "strong": true
+                },
+                {
+                  "text": " via Valfonda 1, Firenze"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Telefono:",
+                  "strong": true
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "055 294635",
+                  "href": "tel:+39055294635"
+                },
+                {
+                  "text": "; mercoledì 10:00–13:00, su appuntamento preso allo sportello di ascolto."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "È ascolto psicologico, non un pronto soccorso psichiatrico. Se c'è pericolo immediato chiama 112."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Fuori dal tunnel — supporto psicologico",
+                  "href": "https://www.fuoribinario.org/fuori-dal-tunnel/"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "welfare",
+      "title": "8. Welfare, contributi e casa",
+      "items": [
+        {
+          "type": "resource",
+          "id": "segretariato-sociale-primo-accesso",
+          "name": "Segretariato sociale — primo accesso",
+          "last_verified": "2026-11-12",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Numero verde:",
+                  "strong": true
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "800 508 286",
+                  "href": "tel:800508286"
+                },
+                {
+                  "text": "; lunedì, martedì, mercoledì e venerdì, 09:00–13:00."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Per residenti che chiedono per la prima volta una valutazione sociale. Spiega anche se non hai telefono stabile, documenti completi o un indirizzo ordinario."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Comune di Firenze — centri sociali e accesso",
+                  "href": "https://sociale.comune.fi.it/pagina/il-sistema-dei-servizi/centri-sociali"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "pua-disabilita-e-non-autosufficienza",
+          "name": "PUA — disabilità e non autosufficienza",
+          "last_verified": "2026-11-12",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Telefono:",
+                  "strong": true
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "055 2616283",
+                  "href": "tel:+390552616283"
+                },
+                {
+                  "text": ", dal lunedì al venerdì 09:00–13:00."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Punto unico per bisogni complessi, disabilità e non autosufficienza. Può orientare verso valutazione sociosanitaria e servizi domiciliari o territoriali; non garantisce accoglienza immediata."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Società della Salute Firenze — PUA",
+                  "href": "https://sds.comune.fi.it/pagina/non-autosufficienza"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "assegno-di-inclusione-adi",
+          "name": "Assegno di Inclusione — ADI",
+          "last_verified": "2026-11-12",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Sostegno nazionale soggetto a requisiti economici, familiari, di residenza e soggiorno. La domanda si presenta tramite INPS o patronato/CAF; le persone senza dimora possono chiedere una valutazione e un percorso sociale."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Non pagare chi promette l'approvazione. Chiedi ricevuta della domanda e conserva protocollo e appuntamenti."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Comune di Firenze — Assegno di Inclusione",
+                  "href": "https://sociale.comune.fi.it/dalle-redazioni/assegno-di-inclusione"
+                },
+                {
+                  "text": " · "
+                },
+                {
+                  "text": "INPS — requisiti e domanda",
+                  "href": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.assegno-di-inclusione-adi.html"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "casa-erp-e-contributi-affitto",
+          "name": "Casa, ERP e contributi affitto",
+          "last_verified": "2026-11-12",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Il Comune pubblica graduatorie per edilizia residenziale pubblica, contributi affitto e altri avvisi. Sono procedure con scadenze e requisiti: non equivalgono a un letto d'emergenza."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Controlla la pagina ufficiale o chiedi a un centro sociale, CAF o sindacato inquilini quale bando è aperto."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Comune di Firenze — casa",
+                  "href": "https://sociale.comune.fi.it/pagina/casa"
+                },
+                {
+                  "text": " · "
+                },
+                {
+                  "text": "avvisi sociali attuali",
+                  "href": "https://sociale.comune.fi.it/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "unione-inquilini-sfratti-e-affitto",
+          "name": "Unione Inquilini — sfratti e affitto",
+          "last_verified": "2026-11-12",
+          "blocks": [
+            {
+              "type": "address",
+              "content": [
+                {
+                  "text": "Indirizzo:",
+                  "strong": true
+                },
+                {
+                  "text": " via dei Pilastri 41r, Firenze"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Telefono:",
+                  "strong": true
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "393 589 5698",
+                  "href": "tel:+393935895698"
+                },
+                {
+                  "text": "; martedì, mercoledì e giovedì 17:00–19:00."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Sportello della rete antisfratto. Porta contratto, lettere, intimazioni, ricevute e documenti del tribunale. Non aspettare il giorno dello sfratto."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Fuori dal tunnel — casa e sfratti",
+                  "href": "https://www.fuoribinario.org/fuori-dal-tunnel/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "resistenza-casa-solidale",
+          "name": "Resistenza Casa Solidale",
+          "last_verified": "2026-11-12",
+          "blocks": [
+            {
+              "type": "address",
+              "content": [
+                {
+                  "text": "Indirizzo:",
+                  "strong": true
+                },
+                {
+                  "text": " Casa dei diritti sociali, piazza Baldinucci 8r, Firenze"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Telefoni:",
+                  "strong": true
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "335 124 6551",
+                  "href": "tel:+393351246551"
+                },
+                {
+                  "text": " e "
+                },
+                {
+                  "text": "345 967 1275",
+                  "href": "tel:+393459671275"
+                },
+                {
+                  "text": "; lunedì 17:00–19:30."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Orientamento della rete antisfratto. Porta tutti gli atti e chiedi quali passi hanno una scadenza."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Fuori dal tunnel — Resistenza Casa Solidale",
+                  "href": "https://www.fuoribinario.org/fuori-dal-tunnel/"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lavoro",
+      "title": "9. Lavoro e formazione",
+      "items": [
+        {
+          "type": "resource",
+          "id": "centro-per-l-impiego-firenze-centro",
+          "name": "Centro per l'Impiego Firenze Centro",
+          "last_verified": "2026-11-12",
+          "blocks": [
+            {
+              "type": "address",
+              "content": [
+                {
+                  "text": "Indirizzo:",
+                  "strong": true
+                },
+                {
+                  "text": " via Cavour 19 rosso, Firenze"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Telefono:",
+                  "strong": true
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "055 19985051",
+                  "href": "tel:+3905519985051"
+                },
+                {
+                  "text": "."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Servizi pubblici per iscrizione, orientamento, offerte e formazione. Orari pubblicati: lunedì, mercoledì e venerdì 09:00–13:00; martedì 09:00–13:00 e 15:00–17:00; giovedì 09:00–13:00 su appuntamento e 15:00–17:00."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "ARTI Toscana — sedi e orari",
+                  "href": "https://arti.toscana.it/centri-impiego-firenze-e-prato"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "altri-centri-per-l-impiego-in-citta",
+          "name": "Altri Centri per l'Impiego in città",
+          "last_verified": "2026-11-12",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                [
+                  {
+                    "text": "Firenze Isolotto: via delle Torri 23, "
+                  },
+                  {
+                    "text": "055 19985052",
+                    "href": "tel:+3905519985052"
+                  },
+                  {
+                    "text": "."
+                  }
+                ],
+                [
+                  {
+                    "text": "Firenze Mercadante: via Mercadante 42, "
+                  },
+                  {
+                    "text": "055 19985063",
+                    "href": "tel:+3905519985063"
+                  },
+                  {
+                    "text": "; anche collocamento mirato."
+                  }
+                ],
+                [
+                  {
+                    "text": "Firenze Parterre: piazza della Libertà 12, "
+                  },
+                  {
+                    "text": "055 19985053",
+                    "href": "tel:+3905519985053"
+                  },
+                  {
+                    "text": "."
+                  }
+                ]
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Verifica quale sede gestisce la pratica prima di partire."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "ARTI Toscana — Centri per l'Impiego",
+                  "href": "https://arti.toscana.it/centri-impiego-firenze-e-prato"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "acisjf-help-center-curriculum-e-ricerca-lavoro",
+          "name": "ACISJF Help Center — curriculum e ricerca lavoro",
+          "last_verified": "2026-11-12",
+          "blocks": [
+            {
+              "type": "address",
+              "content": [
+                {
+                  "text": "Indirizzo:",
+                  "strong": true
+                },
+                {
+                  "text": " via Valfonda 1, Firenze"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Telefono:",
+                  "strong": true
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "055 294635",
+                  "href": "tel:+39055294635"
+                },
+                {
+                  "text": "."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Sportello lavoro mercoledì e venerdì 09:30–12:30; stesura e aggiornamento CV anche lunedì–giovedì 14:30–16:30. Porta esperienze, contatti e documenti disponibili."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Fuori dal tunnel — sportelli lavoro",
+                  "href": "https://www.fuoribinario.org/fuori-dal-tunnel/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "nosotras-orientamento-lavorativo-per-donne",
+          "name": "Nosotras — orientamento lavorativo per donne",
+          "last_verified": "2026-11-12",
+          "blocks": [
+            {
+              "type": "address",
+              "content": [
+                {
+                  "text": "Indirizzo:",
+                  "strong": true
+                },
+                {
+                  "text": " via Faenza 103, Firenze"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Telefono:",
+                  "strong": true
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "055 2776326",
+                  "href": "tel:+390552776326"
+                },
+                {
+                  "text": "; dal lunedì al venerdì 09:30–13:00."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Orientamento lavorativo rivolto alle donne, compreso supporto alle donne migranti. Telefona per appuntamento, lingua disponibile e documenti."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Fuori dal tunnel — Nosotras",
+                  "href": "https://www.fuoribinario.org/fuori-dal-tunnel/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "programma-gol-formazione-e-riqualificazione",
+          "name": "Programma GOL — formazione e riqualificazione",
+          "last_verified": "2026-11-12",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Il Centro per l'Impiego può valutare l'accesso a corsi gratuiti e percorsi di accompagnamento al lavoro. Non tutti i corsi sono aperti nello stesso momento e la partecipazione non garantisce un'assunzione."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Regione Toscana — corsi GOL",
+                  "href": "https://www.regione.toscana.it/-/corsi-di-aggiornamento-e-riqualificazione-professionale"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "supporto-per-la-formazione-e-il-lavoro-sfl",
+          "name": "Supporto per la Formazione e il Lavoro — SFL",
+          "last_verified": "2026-11-12",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Misura nazionale soggetta a requisiti e partecipazione a un percorso tramite INPS, SIISL e Centro per l'Impiego. Chiedi assistenza a un patronato o CPI e non pagare intermediari."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Regione Toscana — SFL",
+                  "href": "https://www.regione.toscana.it/-/supporto-per-la-formazione-e-il-lavoro"
+                },
+                {
+                  "text": " · "
+                },
+                {
+                  "text": "INPS — domanda e requisiti",
+                  "href": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.supporto-per-la-formazione-e-il-lavoro-sfl-.html"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "fuori-binario-diffusione-del-giornale-di-strada",
+          "name": "Fuori Binario — diffusione del giornale di strada",
+          "last_verified": "2026-11-12",
+          "blocks": [
+            {
+              "type": "address",
+              "content": [
+                {
+                  "text": "Redazione:",
+                  "strong": true
+                },
+                {
+                  "text": " via del Leone 76, Firenze"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Telefono:",
+                  "strong": true
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "055 2286348",
+                  "href": "tel:+390552286348"
+                },
+                {
+                  "text": "; redazione lunedì, mercoledì e venerdì 15:00–18:00."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Il giornale è venduto da persone senza casa o in difficoltà come attività di reddito dignitosa. Contatta la redazione per sapere come diventare diffusore; non è un contratto di lavoro garantito."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Fuori Binario — diffusori",
+                  "href": "https://www.fuoribinario.org/diffusori/"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "documenti",
+      "title": "10. Documenti, residenza e servizi digitali",
+      "items": [
+        {
+          "type": "resource",
+          "id": "residenza-per-persone-senza-fissa-dimora",
+          "name": "Residenza per persone senza fissa dimora",
+          "last_verified": "2026-11-12",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Il Comune richiede di dimostrare un legame effettivo con Firenze, per esempio tramite servizi frequentati, ospitalità, mensa, docce o relazione sociale. L'iscrizione può permettere accesso a carta d'identità, sanità e prestazioni."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "La domanda e la documentazione vanno inviate all'ufficio comunale competente. Chiedi a La Fenice di aiutarti a raccogliere le prove e compilare correttamente."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Comune di Firenze — residenza senza fissa dimora",
+                  "href": "https://servizi.comune.fi.it/node/25430/backlinks"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "la-fenice-residenza-anagrafica",
+          "name": "La Fenice — residenza anagrafica",
+          "last_verified": "2026-11-12",
+          "blocks": [
+            {
+              "type": "address",
+              "content": [
+                {
+                  "text": "Indirizzo:",
+                  "strong": true
+                },
+                {
+                  "text": " via del Leone 35, Firenze"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Telefono:",
+                  "strong": true
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "055 0510241",
+                  "href": "tel:+390550510241"
+                },
+                {
+                  "text": "."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "La mappa locale indica La Fenice come riferimento per le residenze anagrafiche. Chiedi un appuntamento e porta qualunque documento o prova di presenza sul territorio disponibile."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Fuori dal tunnel — numeri utili",
+                  "href": "https://www.fuoribinario.org/fuori-dal-tunnel/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "infopoint-digitali-dei-quartieri",
+          "name": "InfoPoint digitali dei Quartieri",
+          "last_verified": "2026-11-12",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Sportelli gratuiti aiutano con SPID, email e servizi online del Comune. Le sedi e i calendari cambiano durante l'anno; chiama "
+                },
+                {
+                  "text": "055 055",
+                  "href": "tel:+39055055"
+                },
+                {
+                  "text": " o consulta la pagina prima di partire."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Non comunicare password o codici a chi non è identificato come operatore. Cambia la password dopo l'uso di un dispositivo condiviso."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Comune di Firenze — InfoPoint digitali 2026",
+                  "href": "https://quartieri.comune.fi.it/istruzione/indigitale2026"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "055-055-informazioni-comunali",
+          "name": "055 055 — informazioni comunali",
+          "last_verified": "2026-11-12",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Telefono:",
+                  "strong": true
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "055 055",
+                  "href": "tel:+39055055"
+                },
+                {
+                  "text": "."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Chiedi l'ufficio anagrafe competente, carta d'identità, residenza senza fissa dimora, servizi di quartiere o assistenza digitale. Non sostituisce il 112."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Comune di Firenze — contatti",
+                  "href": "https://www.comune.firenze.it/contatti"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "furto-o-smarrimento-di-documenti",
+          "name": "Furto o smarrimento di documenti",
+          "last_verified": "2026-11-12",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Fai denuncia alla Polizia di Stato o ai Carabinieri e chiedi una copia. Porta la denuncia a un ufficio anagrafe o consolato per il documento sostitutivo; per tessera sanitaria chiedi alla ASL."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Non lasciare l'unica copia della denuncia o dei documenti a terzi. Se non hai denaro o recapito, chiedi supporto a La Fenice o ACISJF."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Polizia di Stato — furti e smarrimenti",
+                  "href": "https://www.poliziadistato.it/articolo/denuncia-via-web-di-furti-e-smarrimenti"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "legale",
+      "title": "11. Aiuto legale e migrazione",
+      "items": [
+        {
+          "type": "resource",
+          "id": "progetto-arcobaleno-sportello-legale",
+          "name": "Progetto Arcobaleno — sportello legale",
+          "last_verified": "2026-11-12",
+          "blocks": [
+            {
+              "type": "address",
+              "content": [
+                {
+                  "text": "Indirizzo:",
+                  "strong": true
+                },
+                {
+                  "text": " via del Leone 9, Firenze"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Telefono:",
+                  "strong": true
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "055 280052",
+                  "href": "tel:+39055280052"
+                },
+                {
+                  "text": "; su appuntamento."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Orari pubblicati: primo lunedì del mese e ogni mercoledì 18:00–19:00. Porta atti, scadenze, verbali e documenti; la consulenza non garantisce che il caso possa essere seguito."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Progetto Arcobaleno — area legale",
+                  "href": "https://www.progettoarcobaleno.it/legale/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "avvocato-di-strada",
+          "name": "Avvocato di Strada",
+          "last_verified": "2026-11-12",
+          "blocks": [
+            {
+              "type": "address",
+              "content": [
+                {
+                  "text": "Indirizzo:",
+                  "strong": true
+                },
+                {
+                  "text": " via Liguria 1, Firenze"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Orario pubblicato:",
+                  "strong": true
+                },
+                {
+                  "text": " giovedì 17:30–19:00."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Assistenza legale dedicata alle persone senza dimora. Presentati presto e porta tutti i documenti; verifica eventuale appuntamento o chiusura."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Avvocato di Strada — sede di Firenze",
+                  "href": "https://www.avvocatodistrada.it/sedi/firenze/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "anelli-mancanti-immigrazione-e-lavoro",
+          "name": "Anelli Mancanti — immigrazione e lavoro",
+          "last_verified": "2026-11-12",
+          "blocks": [
+            {
+              "type": "address",
+              "content": [
+                {
+                  "text": "Indirizzo:",
+                  "strong": true
+                },
+                {
+                  "text": " via Palazzuolo 8, Firenze"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Telefoni:",
+                  "strong": true
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "055 2399533",
+                  "href": "tel:+390552399533"
+                },
+                {
+                  "text": " e WhatsApp scritto "
+                },
+                {
+                  "text": "334 9850793",
+                  "href": "tel:+393349850793"
+                },
+                {
+                  "text": "."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Immigrazione su appuntamento il primo, terzo e quarto giovedì del mese 19:00–21:00; lavoro il secondo giovedì 19:00–21:00. Conferma prima."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Fuori dal tunnel — sportelli legali",
+                  "href": "https://www.fuoribinario.org/fuori-dal-tunnel/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "acisjf-help-center-orientamento-legale",
+          "name": "ACISJF Help Center — orientamento legale",
+          "last_verified": "2026-11-12",
+          "blocks": [
+            {
+              "type": "address",
+              "content": [
+                {
+                  "text": "Indirizzo:",
+                  "strong": true
+                },
+                {
+                  "text": " via Valfonda 1, Firenze"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Telefono:",
+                  "strong": true
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "055 294635",
+                  "href": "tel:+39055294635"
+                },
+                {
+                  "text": "."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Due martedì al mese, 14:30–17:00, su appuntamento preso allo sportello di ascolto. Chiedi la prima data disponibile e porta le scadenze scritte."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Fuori dal tunnel — Help Center legale",
+                  "href": "https://www.fuoribinario.org/fuori-dal-tunnel/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "sportello-immigrazione-del-comune",
+          "name": "Sportello Immigrazione del Comune",
+          "last_verified": "2026-11-12",
+          "blocks": [
+            {
+              "type": "address",
+              "content": [
+                {
+                  "text": "Indirizzo:",
+                  "strong": true
+                },
+                {
+                  "text": " Villa Pallini, via Baracca 150/p; ingresso da viuzzo delle Calvane 1"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Telefono:",
+                  "strong": true
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "055 2767078",
+                  "href": "tel:+390552767078"
+                },
+                {
+                  "text": "."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Informazione e orientamento anche ad accesso libero; alcune pratiche richiedono appuntamento. Aiuta su soggiorno, ricongiungimento e servizi, ma non sostituisce una consulenza legale sul contenzioso."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Comune di Firenze — Sportello Immigrazione",
+                  "href": "https://sociale.comune.fi.it/pagina/sportello-immigrazione"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "circolo-arci-i-ciompi-pratiche-di-soggiorno",
+          "name": "Circolo ARCI I Ciompi — pratiche di soggiorno",
+          "last_verified": "2026-11-12",
+          "blocks": [
+            {
+              "type": "address",
+              "content": [
+                {
+                  "text": "Indirizzo:",
+                  "strong": true
+                },
+                {
+                  "text": " piazza dei Ciompi 11, Firenze"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Telefoni:",
+                  "strong": true
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "055 26297269",
+                  "href": "tel:+3905526297269"
+                },
+                {
+                  "text": " e WhatsApp scritto "
+                },
+                {
+                  "text": "327 1811734",
+                  "href": "tel:+393271811734"
+                },
+                {
+                  "text": "."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Orientamento e assistenza su pratiche per il soggiorno legale in Italia, solo su appuntamento; orario informativo pubblicato lunedì–venerdì 09:00–13:00."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Fuori dal tunnel — assistenza migrazione",
+                  "href": "https://www.fuoribinario.org/fuori-dal-tunnel/"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "protezione",
+      "title": "12. Donne, minori, persone LGBTQIA+ e tratta",
+      "items": [
+        {
+          "type": "resource",
+          "id": "1522-violenza-e-stalking",
+          "name": "1522 — violenza e stalking",
+          "last_verified": "2026-11-12",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Numero gratuito:",
+                  "strong": true
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "1522",
+                  "href": "tel:1522"
+                },
+                {
+                  "text": ", 24 ore su 24; disponibile anche chat sul sito ufficiale."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Per ascolto, orientamento e collegamento ai centri antiviolenza. Se il pericolo è immediato chiama 112. Non condividere con l'aggressore il luogo di una struttura protetta."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "1522 — sito ufficiale",
+                  "href": "https://www.1522.eu/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "artemisia-centro-antiviolenza",
+          "name": "Artemisia — centro antiviolenza",
+          "last_verified": "2026-11-12",
+          "blocks": [
+            {
+              "type": "address",
+              "content": [
+                {
+                  "text": "Indirizzo:",
+                  "strong": true
+                },
+                {
+                  "text": " via del Mezzetta 1 interno, Firenze"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Telefono:",
+                  "strong": true
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "055 601375",
+                  "href": "tel:+39055601375"
+                },
+                {
+                  "text": "; dal lunedì al venerdì 10:00–17:00."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Aiuto per donne, bambine e bambini vittime di violenza. Telefona in sicurezza; l'accesso a una casa protetta avviene con valutazione e non va pubblicizzato."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Artemisia — contatti",
+                  "href": "https://www.artemisiacentroantiviolenza.it/contatti/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "sportello-vanessa",
+          "name": "Sportello Vanessa",
+          "last_verified": "2026-11-12",
+          "blocks": [
+            {
+              "type": "address",
+              "content": [
+                {
+                  "text": "Indirizzo:",
+                  "strong": true
+                },
+                {
+                  "text": " Humanitas Firenze, via San Bartolo a Cintoia 20/H2"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Telefono:",
+                  "strong": true
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "348 071 9121",
+                  "href": "tel:+393480719121"
+                },
+                {
+                  "text": "."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Sportello antiviolenza con più turni settimanali e apertura il secondo e quarto sabato del mese. Telefona per l'orario utile e per organizzare un contatto sicuro."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Fuori dal tunnel — Stop violenza",
+                  "href": "https://www.fuoribinario.org/fuori-dal-tunnel/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "nosotras-supporto-per-donne-migranti",
+          "name": "Nosotras — supporto per donne migranti",
+          "last_verified": "2026-11-12",
+          "blocks": [
+            {
+              "type": "address",
+              "content": [
+                {
+                  "text": "Indirizzo:",
+                  "strong": true
+                },
+                {
+                  "text": " via Faenza 103, Firenze"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Telefono:",
+                  "strong": true
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "055 2776326",
+                  "href": "tel:+390552776326"
+                },
+                {
+                  "text": "; su appuntamento, lunedì–venerdì 09:00–13:00."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Ascolto e orientamento per donne, con competenze su migrazione, autonomia e violenza. Chiedi una modalità di contatto riservata se il telefono è controllato."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Nosotras — sito ufficiale",
+                  "href": "https://www.nosotras.it/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "spazio-intermedio-tratta-e-sfruttamento",
+          "name": "Spazio Intermedio — tratta e sfruttamento",
+          "last_verified": "2026-11-12",
+          "blocks": [
+            {
+              "type": "address",
+              "content": [
+                {
+                  "text": "Indirizzo:",
+                  "strong": true
+                },
+                {
+                  "text": " via dell'Agnolo 5, Firenze"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Telefoni:",
+                  "strong": true
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "055 284823",
+                  "href": "tel:+39055284823"
+                },
+                {
+                  "text": " e "
+                },
+                {
+                  "text": "392 2428438",
+                  "href": "tel:+393922428438"
+                },
+                {
+                  "text": "; martedì e giovedì 13:30–16:00."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Progetto Arcobaleno per persone vittime o a rischio di tratta e sfruttamento. Se chi ti controlla è vicino, cerca un telefono sicuro e non annunciare il contatto."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Progetto Arcobaleno — servizi",
+                  "href": "https://www.progettoarcobaleno.it/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "altre-sponde-discriminazione-e-persone-lgbtqia",
+          "name": "Altre Sponde — discriminazione e persone LGBTQIA+",
+          "last_verified": "2026-11-12",
+          "blocks": [
+            {
+              "type": "address",
+              "content": [
+                {
+                  "text": "Indirizzo:",
+                  "strong": true
+                },
+                {
+                  "text": " via delle Porte Nuove 33, Firenze"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Telefono:",
+                  "strong": true
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "327 561 9373",
+                  "href": "tel:+393275619373"
+                },
+                {
+                  "text": "; lunedì–venerdì 17:00–19:00."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Centro gratuito contro le discriminazioni con ascolto, orientamento psicologico, legale e ai servizi. Telefona per verificare accesso o appuntamento."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Altre Sponde — sito ufficiale",
+                  "href": "https://www.altresponde.it/home/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "114-emergenza-infanzia",
+          "name": "114 — emergenza infanzia",
+          "last_verified": "2026-11-12",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Numero gratuito:",
+                  "strong": true
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "114",
+                  "href": "tel:114"
+                },
+                {
+                  "text": ", 24 ore su 24."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Per situazioni di pericolo che coinvolgono bambini o adolescenti. In violenza o pericolo immediato chiama anche 112. Un minore solo non deve essere inviato a un dormitorio per adulti."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "114 Emergenza Infanzia",
+                  "href": "https://www.114.it/"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fragilita",
+      "title": "13. Disabilità, anziani, gravidanza ed ex detenuti",
+      "items": [
+        {
+          "type": "resource",
+          "id": "pua-bisogni-sociosanitari-complessi",
+          "name": "PUA — bisogni sociosanitari complessi",
+          "last_verified": "2026-11-12",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Telefono:",
+                  "strong": true
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "055 2616283",
+                  "href": "tel:+390552616283"
+                },
+                {
+                  "text": ", lunedì–venerdì 09:00–13:00."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Comunica se la persona non cammina, non può gestire farmaci, ha disabilità, demenza, bisogno di assistenza personale o dimissione ospedaliera. Chiedi una valutazione, non solo un elenco di strutture."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Società della Salute Firenze — non autosufficienza",
+                  "href": "https://sds.comune.fi.it/pagina/non-autosufficienza"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "servizi-per-persone-anziane",
+          "name": "Servizi per persone anziane",
+          "last_verified": "2026-11-12",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Il Comune orienta verso assistenza domiciliare, centri diurni, pasti e valutazioni per non autosufficienza. L'accesso dipende da valutazione, residenza e condizioni."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Per una persona anziana in strada contatta La Fenice e il Segretariato sociale, indicando età, salute, farmaci e capacità di movimento."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Comune di Firenze — servizi per anziani",
+                  "href": "https://sociale.comune.fi.it/pagina/anziani"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "centro-aiuto-vita-gravidanza-e-primi-due-anni",
+          "name": "Centro Aiuto Vita — gravidanza e primi due anni",
+          "last_verified": "2026-11-12",
+          "blocks": [
+            {
+              "type": "address",
+              "content": [
+                {
+                  "text": "Indirizzo:",
+                  "strong": true
+                },
+                {
+                  "text": " piazza San Lorenzo 9, Firenze"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Telefono:",
+                  "strong": true
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "055 291516",
+                  "href": "tel:+39055291516"
+                },
+                {
+                  "text": "; emergenze indicate al "
+                },
+                {
+                  "text": "339 718 8394",
+                  "href": "tel:+393397188394"
+                },
+                {
+                  "text": "."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Alimenti, vestiti e sostegno psicologico per donne in gravidanza o con bambini fino a due anni. Per problemi medici urgenti usa 112 o il percorso sanitario."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Fuori dal tunnel — Centro Aiuto Vita",
+                  "href": "https://www.fuoribinario.org/fuori-dal-tunnel/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "caritas-area-giustizia-e-fine-pena",
+          "name": "Caritas — area giustizia e fine pena",
+          "last_verified": "2026-11-12",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Caritas gestisce servizi e residenze collegati a misure alternative, fine pena e reinserimento. L'accesso passa dagli uffici giudiziari, dai servizi o da un progetto individuale."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Se sei in uscita dal carcere senza casa, chiedi prima della dimissione un contatto con servizio sociale, UEPE e Caritas."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Caritas Firenze — aree e servizi",
+                  "href": "https://www.fondazionesolidarietacaritas.it/2024/02/16/le-aree-e-i-servizi-della-fondazione/"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "animali",
+      "title": "14. Aiuto con animali",
+      "items": [
+        {
+          "type": "resource",
+          "id": "segnala-subito-l-animale-agli-operatori",
+          "name": "Segnala subito l'animale agli operatori",
+          "last_verified": "2026-11-12",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Quando chiedi accoglienza, comunica specie, dimensione, comportamento, guinzaglio o trasportino, microchip, farmaci e documenti. Chiedi quale soluzione 2026/27 accetta la coppia persona–animale."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Il Comune ha formato operatori di strada per sostenere anche i cani delle persone senza dimora, ma questo non garantisce una struttura disponibile."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Comune di Firenze — cani e persone senza dimora",
+                  "href": "https://www.comune.firenze.it/novita/area-stampa/comunicati-stampa/cani-con-senza-fissa-dimora-corso-di-formazione-gli-operatori"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "parco-degli-animali-canile-rifugio-comunale",
+          "name": "Parco degli Animali — canile rifugio comunale",
+          "last_verified": "2026-11-12",
+          "blocks": [
+            {
+              "type": "address",
+              "content": [
+                {
+                  "text": "Indirizzo:",
+                  "strong": true
+                },
+                {
+                  "text": " viuzzo del Pantanino 11, Firenze"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Telefoni:",
+                  "strong": true
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "055 7352018",
+                  "href": "tel:+390557352018"
+                },
+                {
+                  "text": " e "
+                },
+                {
+                  "text": "055 753224",
+                  "href": "tel:+39055753224"
+                },
+                {
+                  "text": "."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Contatta il servizio per animale smarrito, recuperato o per una situazione grave. Non consegnare l'animale senza aver compreso effetti, alternative e condizioni."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Comune di Firenze — Parco degli Animali",
+                  "href": "https://ambiente.comune.fi.it/spesadovecome/pagina/animali/parco-degli-animali"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "enpa-firenze-orientamento-per-animali",
+          "name": "ENPA Firenze — orientamento per animali",
+          "last_verified": "2026-11-12",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "La sezione locale pubblica contatti e riferimenti per tutela, segnalazioni e servizi veterinari. Spiega che vivi in strada e chiedi se esiste un aiuto attivo o un invio adatto."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Prima di cure private chiedi costo scritto. Per animale ferito sulla strada o pericolo immediato chiama 112 e chiedi il servizio competente."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "ENPA Firenze — contatti utili",
+                  "href": "https://enpafirenze.it/index.php?id=74"
+                },
+                {
+                  "text": " · "
+                },
+                {
+                  "text": "Comune — tutela animali",
+                  "href": "https://ambiente.comune.fi.it/riscossioneonline/pagina/animali"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "trasporti",
+      "title": "15. Trasporti, stazioni e aeroporto",
+      "items": [
+        {
+          "type": "resource",
+          "id": "autobus-e-tram-biglietto-urbano",
+          "name": "Autobus e tram — biglietto urbano",
+          "last_verified": "2026-11-12",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Alla verifica, il biglietto urbano capoluogo per Firenze costava 2 euro ed era valido 90 minuti dalla convalida. Prezzi e regole possono cambiare: controlla prima di salire."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Chiedi a un servizio sociale se esistono agevolazioni per disabilità o situazione economica. Non viaggiare senza titolo valido aspettando che la condizione di bisogno annulli una sanzione."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Autolinee Toscane — biglietto urbano",
+                  "href": "https://www.at-bus.it/it/ticket/biglietti-urbani/biglietto-urbano-capoluogo"
+                },
+                {
+                  "text": " · "
+                },
+                {
+                  "text": "agevolazioni",
+                  "href": "https://www.at-bus.it/it/accessibilita-titoli-viaggio"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "tramvia",
+          "name": "Tramvia",
+          "last_verified": "2026-11-12",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "La linea T1 collega Scandicci, Santa Maria Novella e Careggi; la T2 collega l'aeroporto, Santa Maria Novella e piazza San Marco. Usa lo stesso sistema tariffario urbano previsto dalle regole attuali."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Controlla lavori, ultima corsa e fermata accessibile prima di partire."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Gest — rete tramviaria",
+                  "href": "https://www.firenzetramvia.it/tramvia-oggi"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "santa-maria-novella-la-stazione-non-e-un-dormitorio",
+          "name": "Santa Maria Novella — la stazione non è un dormitorio",
+          "last_verified": "2026-11-12",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Per servizi sociali usa ACISJF in via Valfonda 1 o La Fenice. Bagni, deposito commerciale e altri servizi ferroviari possono essere a pagamento e la stazione chiude alcune aree."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Non consegnare denaro o documenti a chi promette lavoro, viaggio o accoglienza. Per assistenza ferroviaria a persone con disabilità usa Sala Blu."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "RFI — Firenze Santa Maria Novella",
+                  "href": "https://www.rfi.it/it/stazioni/firenze-santa-maria-novella.html"
+                },
+                {
+                  "text": " · "
+                },
+                {
+                  "text": "Sala Blu",
+                  "href": "https://www.rfi.it/it/stazioni/pagine-stazioni/accessibilita/le-informazioni-sull-assistenza-delle-sale-blu-in-un-click.html"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "aeroporto-amerigo-vespucci",
+          "name": "Aeroporto Amerigo Vespucci",
+          "last_verified": "2026-11-12",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "La tramvia T2 collega l'aeroporto con il centro. Il biglietto va acquistato e convalidato secondo le regole urbane; controlla l'ultima corsa."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "L'aeroporto non è un luogo sicuro o garantito per dormire. Se sei bloccato senza denaro, contatta i servizi sociali cittadini prima della notte."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Firenze Tramvia — linea T2 per l'aeroporto",
+                  "href": "https://www.firenzetramvia.it/linee/t2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verifica",
+      "title": "16. Verifica, sicurezza e correzioni",
+      "items": [
+        {
+          "type": "resource",
+          "id": "come-usare-questa-pagina",
+          "name": "Come usare questa pagina",
+          "last_verified": "2026-11-12",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Telefona prima di attraversare la città. Chiedi: chi può entrare, quali documenti servono, quanto costa, a che ora presentarsi e se c'è disponibilità."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Non consegnare documenti originali senza ricevuta. Non pagare per promesse di letto, lavoro, contributo o corsia preferenziale."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "mappa-locale-fuori-dal-tunnel",
+          "name": "Mappa locale Fuori dal tunnel",
+          "last_verified": "2026-11-12",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "La fonte locale principale è la mappa del giornale di strada Fuori Binario, aggiornata nell'ottobre 2026 con 40 servizi per cibo, accoglienza, docce, salute, lavoro, casa, tutela e assistenza legale."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Usala per controllare eventuali cambi successivi a questa pagina e segnala direttamente al progetto un errore locale."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Fuori Binario — Fuori dal tunnel",
+                  "href": "https://www.fuoribinario.org/fuori-dal-tunnel/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "fonti-istituzionali-e-associative",
+          "name": "Fonti istituzionali e associative",
+          "last_verified": "2026-11-12",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Le informazioni sono state incrociate con Comune di Firenze, Società della Salute, USL Toscana Centro, Regione Toscana, ARTI, INPS, Fondazione Solidarietà Caritas e siti ufficiali delle organizzazioni elencate."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Comune di Firenze — Sociale",
+                  "href": "https://sociale.comune.fi.it/"
+                },
+                {
+                  "text": " · "
+                },
+                {
+                  "text": "USL Toscana Centro",
+                  "href": "https://www.uslcentro.toscana.it/"
+                },
+                {
+                  "text": " · "
+                },
+                {
+                  "text": "Caritas — mappa dei servizi",
+                  "href": "https://www.fondazionesolidarietacaritas.it/mappadeiservizi/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "segnala-una-correzione",
+          "name": "Segnala una correzione",
+          "last_verified": "2026-11-12",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Se un servizio è chiuso, ha cambiato sede o procedura, invia una correzione con fonte verificabile. Non pubblicare nomi, cartelle sanitarie, numeri di documento, indirizzi protetti o storie personali."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Come contribuire",
+                  "href": "../../CONTRIBUTING.md"
+                },
+                {
+                  "text": " · "
+                },
+                {
+                  "text": "Segnalazione su GitHub",
+                  "href": "https://github.com/carlosbranco/no-home-help/issues"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

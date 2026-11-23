@@ -1,0 +1,2393 @@
+{
+  "$schema": "https://nohomehelp.com/schemas/city.schema.json",
+  "schema_version": 1,
+  "status": "published",
+  "locale": {
+    "language": "ru",
+    "direction": "ltr",
+    "primary": true
+  },
+  "location": {
+    "continent": "Europe",
+    "country_code": "RU",
+    "country_name": "Russia",
+    "country_local_name": "Россия",
+    "country_slug": "russia",
+    "region_code": "48",
+    "region_name": "Москва",
+    "region_slug": "moscow",
+    "city_name": "Москва",
+    "city_slug": "moskva"
+  },
+  "seo": {
+    "title": "Помощь бездомным в Москве - No Home Help",
+    "description": "Проверенная помощь бездомным и людям в жилищном кризисе в Москве: ночлег, еда, медицина, документы, работа, социальная и юридическая помощь."
+  },
+  "page": {
+    "heading": "Москва — помощь при бездомности и жилищном кризисе",
+    "last_verified": "2026-11-12",
+    "urgent": [
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "Экстренная помощь, полиция, пожарная служба:",
+            "strong": true
+          },
+          {
+            "text": " "
+          },
+          {
+            "text": "112",
+            "href": "tel:112"
+          },
+          {
+            "break": true
+          },
+          {
+            "text": " "
+          },
+          {
+            "text": "Скорая медицинская помощь:",
+            "strong": true
+          },
+          {
+            "text": " "
+          },
+          {
+            "text": "103",
+            "href": "tel:103"
+          },
+          {
+            "break": true
+          },
+          {
+            "text": " "
+          },
+          {
+            "text": "Социальный патруль:",
+            "strong": true
+          },
+          {
+            "text": " "
+          },
+          {
+            "text": "+7 499 357-01-80",
+            "href": "tel:+74993570180"
+          },
+          {
+            "text": " или "
+          },
+          {
+            "text": "+7 903 720-15-08",
+            "href": "tel:+79037201508"
+          },
+          {
+            "break": true
+          },
+          {
+            "text": " "
+          },
+          {
+            "text": "Круглосуточная психологическая помощь:",
+            "strong": true
+          },
+          {
+            "text": " "
+          },
+          {
+            "text": "051",
+            "href": "tel:051"
+          },
+          {
+            "text": " с городского или "
+          },
+          {
+            "text": "+7 495 051",
+            "href": "tel:+7495051"
+          },
+          {
+            "text": " с мобильного"
+          }
+        ]
+      }
+    ],
+    "notice": [
+      {
+        "text": "Места, часы, условия и свободные койки могут меняться.",
+        "strong": true
+      },
+      {
+        "text": " По возможности позвоните перед поездкой. Ночлег, деньги, лечение или работа в тот же день не гарантируются. При непосредственной опасности звоните 112."
+      }
+    ],
+    "intro": [
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "При обращении назовите точное местонахождение или ближайший ориентир, есть ли безопасное место на эту ночь, когда человек ел, есть ли травма, болезнь, инвалидность, дети или документы. Если вы звоните о другом человеке, опишите его одежду, состояние, место и, если известно, согласен ли он принять помощь."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "Важно:",
+            "strong": true
+          },
+          {
+            "text": " экстренный вызов 112 и бесплатная помощь «Ночлежки» доступны без документов. В городском центре может потребоваться медицинский осмотр и санитарная обработка; долгосрочное размещение, выплаты и отдельные программы имеют собственные условия."
+          }
+        ]
+      }
+    ],
+    "footer": [
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "Нашли ошибку или устаревшие данные?",
+            "strong": true
+          },
+          {
+            "text": " "
+          },
+          {
+            "text": "Предложите исправление",
+            "href": "../../CONTRIBUTING.md"
+          },
+          {
+            "text": ". Не публикуйте личные или чувствительные данные."
+          }
+        ]
+      }
+    ]
+  },
+  "quick_actions": {
+    "tonight": [
+      {
+        "category_id": "emergency",
+        "entry_id": "112"
+      },
+      {
+        "category_id": "emergency",
+        "entry_id": "item"
+      },
+      {
+        "category_id": "emergency",
+        "entry_id": "103"
+      }
+    ],
+    "this_week": [
+      {
+        "category_id": "food",
+        "entry_id": "item"
+      },
+      {
+        "category_id": "food",
+        "entry_id": "item-2"
+      },
+      {
+        "category_id": "food",
+        "entry_id": "item-3"
+      }
+    ],
+    "this_month": [
+      {
+        "category_id": "documents",
+        "entry_id": "item"
+      },
+      {
+        "category_id": "documents",
+        "entry_id": "item-2"
+      },
+      {
+        "category_id": "documents",
+        "entry_id": "item-3"
+      }
+    ]
+  },
+  "categories": [
+    {
+      "id": "emergency",
+      "title": "1. Экстренная помощь",
+      "items": [
+        {
+          "type": "resource",
+          "id": "112",
+          "name": "Единый номер экстренных служб — 112",
+          "last_verified": "2026-11-12",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Телефон:",
+                  "strong": true
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "112",
+                  "href": "tel:112"
+                },
+                {
+                  "text": ", круглосуточно и бесплатно."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Когда звонить:",
+                  "strong": true
+                },
+                {
+                  "text": " нападение, угроза жизни, пожар, потеря сознания, тяжёлая травма, сильное переохлаждение или необходимость полиции, спасателей и скорой. Сообщите точный адрес или ориентир."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Департамент труда и социальной защиты Москвы — помощь бездомным",
+                  "href": "https://dszn.ru/press-center/news/14149"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "item",
+          "name": "Социальный патруль",
+          "last_verified": "2026-11-12",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Диспетчерская:",
+                  "strong": true
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "+7 499 357-01-80",
+                  "href": "tel:+74993570180"
+                },
+                {
+                  "text": " или "
+                },
+                {
+                  "text": "+7 903 720-15-08",
+                  "href": "tel:+79037201508"
+                },
+                {
+                  "text": ", круглосуточно."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Помощь:",
+                  "strong": true
+                },
+                {
+                  "text": " выезд к человеку на улице, оценка ситуации и доставка в безопасный пункт или Центр социальной адаптации имени Е. П. Глинки. Назовите место, приметы и состояние человека."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Официальная информация о пунктах срочной помощи",
+                  "href": "https://sp66.mos.ru/eip-news/sp53_127"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "103",
+          "name": "Скорая медицинская помощь — 103",
+          "last_verified": "2026-11-12",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Телефон:",
+                  "strong": true
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "103",
+                  "href": "tel:103"
+                },
+                {
+                  "text": "; с любого телефона также "
+                },
+                {
+                  "text": "112",
+                  "href": "tel:112"
+                },
+                {
+                  "text": "."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Когда звонить:",
+                  "strong": true
+                },
+                {
+                  "text": " сильная боль в груди, затруднённое дыхание, потеря сознания, серьёзная травма, кровотечение, отравление или опасное переохлаждение. Не откладывайте вызов из-за отсутствия документов."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Департамент здравоохранения Москвы — экстренная помощь",
+                  "href": "https://mosgorzdrav.ru/ru-RU/emergency.html"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "item-2",
+          "name": "Московская служба психологической помощи",
+          "last_verified": "2026-11-12",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Телефон:",
+                  "strong": true
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "051",
+                  "href": "tel:051"
+                },
+                {
+                  "text": " с городского или "
+                },
+                {
+                  "text": "+7 495 051",
+                  "href": "tel:+7495051"
+                },
+                {
+                  "text": " с мобильного, круглосуточно."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Помощь:",
+                  "strong": true
+                },
+                {
+                  "text": " конфиденциальная поддержка при остром стрессе, страхе, насилии, утрате или кризисе. При непосредственной физической опасности сначала звоните 112."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Официальные номера психологической помощи",
+                  "href": "https://dgp132.mos.ru/spravochnaya-informatsiya/informatsiya-dlya-naseleniya/"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shelter",
+      "title": "2. Ночлег и размещение",
+      "items": [
+        {
+          "type": "resource",
+          "id": "item",
+          "name": "Центр имени Е. П. Глинки — приёмное отделение",
+          "last_verified": "2026-11-12",
+          "blocks": [
+            {
+              "type": "address",
+              "content": [
+                {
+                  "text": "Адрес:",
+                  "strong": true
+                },
+                {
+                  "text": " Иловайская улица, 22, Москва"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Направление:",
+                  "strong": true
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "+7 499 357-01-80",
+                  "href": "tel:+74993570180"
+                },
+                {
+                  "text": ", "
+                },
+                {
+                  "text": "+7 903 720-15-08",
+                  "href": "tel:+79037201508"
+                },
+                {
+                  "text": " или 112."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Помощь:",
+                  "strong": true
+                },
+                {
+                  "text": " круглосуточный приём и первичная оценка. Размещение зависит от состояния и мест; могут потребоваться медосмотр и санитарная обработка."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Официальный адрес приёмного отделения",
+                  "href": "https://sp66.mos.ru/eip-news/sp53_127"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "item-2",
+          "name": "Отделение «Дмитровское»",
+          "last_verified": "2026-11-12",
+          "blocks": [
+            {
+              "type": "address",
+              "content": [
+                {
+                  "text": "Адрес:",
+                  "strong": true
+                },
+                {
+                  "text": " Ижорская улица, 21, строение 3, Москва"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Телефон:",
+                  "strong": true
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "+7 499 357-01-80",
+                  "href": "tel:+74993570180"
+                },
+                {
+                  "text": ", круглосуточно."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Помощь:",
+                  "strong": true
+                },
+                {
+                  "text": " срочная социальная помощь и размещение по направлению. Город подтвердил круглосуточную работу в ноябре 2026 года; всё равно уточняйте наличие мест."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "График московских социальных учреждений",
+                  "href": "https://msp.dszn.ru/news/2026-11-03-grafik-raboty-sotsuchrezhdeniy-4-noyabrya?amp=true"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "item-3",
+          "name": "Стационарные пункты обогрева",
+          "last_verified": "2026-11-12",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Опубликованные адреса:",
+                  "strong": true
+                },
+                {
+                  "text": " Иловайская улица, 22; улица Матросова, 4; Ижорская улица, 21, строение 3; улица Михельсона, 6."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Перед поездкой:",
+                  "strong": true
+                },
+                {
+                  "text": " позвоните Социальному патрулю. Часть пунктов работает сезонно, режим и вход могут меняться."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Московская сеть пунктов обогрева",
+                  "href": "https://msp.dszn.ru/news/z3bon8aiz1-anastasiya-rakova-rasskazala-o-kruglosut"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "item-4",
+          "name": "Мобильные пункты у вокзалов",
+          "last_verified": "2026-11-12",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Места:",
+                  "strong": true
+                },
+                {
+                  "text": " район Ярославского, Курского, Павелецкого, Белорусского и Киевского вокзалов."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Режим:",
+                  "strong": true
+                },
+                {
+                  "text": " город публиковал зимнюю работу с 20:00 до 08:00. Это сезонная услуга: подтвердите действующий пункт и точное место у Социального патруля."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Информация о мобильных пунктах",
+                  "href": "https://msp.dszn.ru/news/z3bon8aiz1-anastasiya-rakova-rasskazala-o-kruglosut"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "item-5",
+          "name": "Социальная адаптация после срочного ночлега",
+          "last_verified": "2026-11-12",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Контакт:",
+                  "strong": true
+                },
+                {
+                  "text": " Центр имени Е. П. Глинки через "
+                },
+                {
+                  "text": "+7 499 357-01-80",
+                  "href": "tel:+74993570180"
+                },
+                {
+                  "text": "."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Помощь:",
+                  "strong": true
+                },
+                {
+                  "text": " индивидуальный план, восстановление документов, связь с родственниками, поиск работы и направление в подходящее учреждение. Сразу сообщите о болезни и инвалидности."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Департамент социальной защиты — услуги центра",
+                  "href": "https://dszn.ru/press-center/news/14149"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "item-6",
+          "name": "Реабилитационный приют «Ночлежки»",
+          "last_verified": "2026-11-12",
+          "blocks": [
+            {
+              "type": "address",
+              "content": [
+                {
+                  "text": "Адрес:",
+                  "strong": true
+                },
+                {
+                  "text": " Бумажный проезд, 2/2, строение 6, Москва"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Телефон:",
+                  "strong": true
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "+7 499 322-04-27",
+                  "href": "tel:+74993220427"
+                },
+                {
+                  "text": "."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Помощь:",
+                  "strong": true
+                },
+                {
+                  "text": " бесплатный круглогодичный приют и сопровождение. Это не гарантированный ночлег без записи: решение принимается после консультации с учётом ситуации и мест."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "«Ночлежка» — условия реабилитационного приюта",
+                  "href": "https://homeless.ru/projects/862338/?city=msk"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "item-7",
+          "name": "Кризисный центр помощи женщинам и детям",
+          "last_verified": "2026-11-12",
+          "blocks": [
+            {
+              "type": "address",
+              "content": [
+                {
+                  "text": "Адрес:",
+                  "strong": true
+                },
+                {
+                  "text": " улица Дубки, 9А, Москва"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Телефон:",
+                  "strong": true
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "+7 499 977-17-05",
+                  "href": "tel:+74999771705"
+                },
+                {
+                  "text": "; при опасности — 112."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Помощь:",
+                  "strong": true
+                },
+                {
+                  "text": " временное проживание, психологическая, юридическая и социальная реабилитация. Позвоните до приезда: размещение зависит от оценки и мест."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Официальные контакты кризисных служб",
+                  "href": "https://dgkbsv.mos.ru/zashhita-prav-nesovershennoletnix/"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "food",
+      "title": "3. Еда и горячие напитки",
+      "items": [
+        {
+          "type": "resource",
+          "id": "item",
+          "name": "Питание в Центре имени Е. П. Глинки",
+          "last_verified": "2026-11-12",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Направление:",
+                  "strong": true
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "+7 499 357-01-80",
+                  "href": "tel:+74993570180"
+                },
+                {
+                  "text": "."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Помощь:",
+                  "strong": true
+                },
+                {
+                  "text": " бесплатное питание входит в обслуживание проживающих в центре. Если вы не размещены, попросите диспетчера назвать ближайший действующий пункт питания или обогрева."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Закон Москвы о социальном обслуживании бездомных",
+                  "href": "https://www.mos.ru/upload/documents/files/3611/zakon_goroda_moskvy_ot_9_iyulya_2008_g_34.pdf"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "item-2",
+          "name": "«Ночной автобус» — ВДНХ",
+          "last_verified": "2026-11-12",
+          "blocks": [
+            {
+              "type": "address",
+              "content": [
+                {
+                  "text": "Остановка:",
+                  "strong": true
+                },
+                {
+                  "text": " улица Константинова, напротив дома 28, парковка у владения 13"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Опубликованное время:",
+                  "strong": true
+                },
+                {
+                  "text": " 19:00–20:00. Горячая еда, чай, гигиена и консультация; в рейсах участвуют медики. Проверьте маршрут в день поездки."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "«Ночлежка» — актуальный маршрут в Москве",
+                  "href": "https://homeless.ru/for-homeless/?city=msk"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "item-3",
+          "name": "«Ночной автобус» — Измайловский проезд",
+          "last_verified": "2026-11-12",
+          "blocks": [
+            {
+              "type": "address",
+              "content": [
+                {
+                  "text": "Остановка:",
+                  "strong": true
+                },
+                {
+                  "text": " Измайловский проезд, 28, парковка напротив храма Рождества Христова"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Опубликованное время:",
+                  "strong": true
+                },
+                {
+                  "text": " 20:30–21:00. Бесплатная горячая еда, чай, средства гигиены и первичная консультация."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Текущие московские точки «Ночного автобуса»",
+                  "href": "https://homeless.ru/for-homeless/?city=msk"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "item-4",
+          "name": "«Ночной автобус» — Новогиреево",
+          "last_verified": "2026-11-12",
+          "blocks": [
+            {
+              "type": "address",
+              "content": [
+                {
+                  "text": "Остановка:",
+                  "strong": true
+                },
+                {
+                  "text": " Фрязевская улица, 10Б, строение 13"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Опубликованное время:",
+                  "strong": true
+                },
+                {
+                  "text": " 21:30–22:15. Горячая еда, чай и базовые вещи. Пункт не является ночлегом; спросите команду о дальнейшем маршруте."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "«Ночлежка» — помощь в Москве",
+                  "href": "https://homeless.ru/for-homeless/?city=msk"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "item-5",
+          "name": "«Ангар спасения»",
+          "last_verified": "2026-11-12",
+          "blocks": [
+            {
+              "type": "address",
+              "content": [
+                {
+                  "text": "Адрес:",
+                  "strong": true
+                },
+                {
+                  "text": " Николоямская улица, 55, Москва"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Телефон:",
+                  "strong": true
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "+7 926 158-07-58",
+                  "href": "tel:+79261580758"
+                },
+                {
+                  "text": ". Горячая еда и чай, одежда, душ, стирка, первичная медицинская и социальная помощь. Уточните часы раздачи."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "«Милосердие» — действующий адрес и услуги",
+                  "href": "https://www.miloserdie.ru/news/angar-spaseniya-prosit-pozhertvovat-yabloki-dlya-bezdomnyh/amp/"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "community",
+      "title": "4. Некоммерческие и религиозные организации",
+      "items": [
+        {
+          "type": "resource",
+          "id": "item",
+          "name": "Консультационная служба «Ночлежки»",
+          "last_verified": "2026-11-12",
+          "blocks": [
+            {
+              "type": "address",
+              "content": [
+                {
+                  "text": "Адрес:",
+                  "strong": true
+                },
+                {
+                  "text": " Бумажный проезд, 2/2, строение 6"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Телефон:",
+                  "strong": true
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "+7 499 322-04-27",
+                  "href": "tel:+74993220427"
+                },
+                {
+                  "text": "; понедельник, среда и пятница 10:00–17:00, перерыв 14:00–15:00. Женский приём — вторник 11:30–13:30."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Помощь:",
+                  "strong": true
+                },
+                {
+                  "text": " бесплатно и без документов: паспорт, медицина, работа, жильё, юридические вопросы и связь с близкими."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Контакты московской «Ночлежки»",
+                  "href": "https://homeless.ru/contact/?city=msk"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "item-2",
+          "name": "Душ «Неравнодуш», прачечная и одежда",
+          "last_verified": "2026-11-12",
+          "blocks": [
+            {
+              "type": "address",
+              "content": [
+                {
+                  "text": "Адрес:",
+                  "strong": true
+                },
+                {
+                  "text": " Бумажный проезд, 2/2, строение 6"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Время:",
+                  "strong": true
+                },
+                {
+                  "text": " душ и прачечная 10:30–17:30 по опубликованным дням; вторник — для женщин. Одежду и гигиену обычно выдают 10:00–12:00."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Перед визитом:",
+                  "strong": true
+                },
+                {
+                  "text": " проверьте день и очередь по "
+                },
+                {
+                  "text": "+7 499 322-04-27",
+                  "href": "tel:+74993220427"
+                },
+                {
+                  "text": ". Услуги бесплатны, документы не нужны."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Расписание бесплатной помощи",
+                  "href": "https://homeless.ru/for-homeless/?city=msk"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "item-3",
+          "name": "«Ангар спасения» православной службы «Милосердие»",
+          "last_verified": "2026-11-12",
+          "blocks": [
+            {
+              "type": "address",
+              "content": [
+                {
+                  "text": "Адрес:",
+                  "strong": true
+                },
+                {
+                  "text": " Николоямская улица, 55"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Телефон:",
+                  "strong": true
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "+7 926 158-07-58",
+                  "href": "tel:+79261580758"
+                },
+                {
+                  "text": "."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Помощь:",
+                  "strong": true
+                },
+                {
+                  "text": " еда, одежда, душ, стирка, медицинская помощь, восстановление документов и семейных связей. Сначала уточните часы."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Церковная помощь бездомным в Москве",
+                  "href": "https://xn--b1afkimsn3a.xn--p1ai/dejatelnost/socialservice/pomoshh-bezdomnym/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "item-4",
+          "name": "Центр помощи имени Елизаветы Глинки",
+          "last_verified": "2026-11-12",
+          "blocks": [
+            {
+              "type": "address",
+              "content": [
+                {
+                  "text": "Адрес:",
+                  "strong": true
+                },
+                {
+                  "text": " Пятницкая улица, 18, строение 3, цокольный этаж, вход со двора"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Телефон:",
+                  "strong": true
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "+7 926 531-90-28",
+                  "href": "tel:+79265319028"
+                },
+                {
+                  "text": "; "
+                },
+                {
+                  "text": "приём:",
+                  "strong": true
+                },
+                {
+                  "text": " вторник–суббота 12:00–18:00."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Помощь:",
+                  "strong": true
+                },
+                {
+                  "text": " еда, гуманитарная поддержка и помощь больным. Позвоните заранее: для входа может понадобиться пропуск, помощь зависит от запасов."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Фонд «Доктор Лиза» — адрес и часы",
+                  "href": "https://liza.fund/tsentr-glinki/adres-vremya-raboty/"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "health",
+      "title": "5. Медицина и психологическая помощь",
+      "items": [
+        {
+          "type": "resource",
+          "id": "item",
+          "name": "Экстренная медицина",
+          "last_verified": "2026-11-12",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Телефон:",
+                  "strong": true
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "103",
+                  "href": "tel:103"
+                },
+                {
+                  "text": " или "
+                },
+                {
+                  "text": "112",
+                  "href": "tel:112"
+                },
+                {
+                  "text": "."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Когда:",
+                  "strong": true
+                },
+                {
+                  "text": " потеря сознания, серьёзная травма, затруднённое дыхание, сильная боль, кровотечение, отравление или переохлаждение."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Экстренная медицинская информация Москвы",
+                  "href": "https://mosgorzdrav.ru/ru-RU/emergency.html"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "item-2",
+          "name": "Первичная помощь в «Ангаре спасения»",
+          "last_verified": "2026-11-12",
+          "blocks": [
+            {
+              "type": "address",
+              "content": [
+                {
+                  "text": "Адрес:",
+                  "strong": true
+                },
+                {
+                  "text": " Николоямская улица, 55"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Телефон:",
+                  "strong": true
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "+7 926 158-07-58",
+                  "href": "tel:+79261580758"
+                },
+                {
+                  "text": ". Первичный осмотр и помощь с дальнейшим лечением; это не больница и не замена скорой. Уточняйте часы медицинского приёма."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Услуги «Ангара спасения»",
+                  "href": "https://www.miloserdie.ru/news/angar-spaseniya-prosit-pozhertvovat-yabloki-dlya-bezdomnyh/amp/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "item-3",
+          "name": "Медики «Ночного автобуса»",
+          "last_verified": "2026-11-12",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Маршрут:",
+                  "strong": true
+                },
+                {
+                  "text": " три вечерние точки указаны в разделе о еде."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Помощь:",
+                  "strong": true
+                },
+                {
+                  "text": " медицинские специалисты могут оценить состояние и объяснить дальнейшие действия. При тяжёлом состоянии не ждите автобус — звоните 103."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Текущий маршрут и услуги",
+                  "href": "https://homeless.ru/for-homeless/?city=msk"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "item-4",
+          "name": "Психологическая поддержка",
+          "last_verified": "2026-11-12",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Телефон:",
+                  "strong": true
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "051",
+                  "href": "tel:051"
+                },
+                {
+                  "text": " с городского или "
+                },
+                {
+                  "text": "+7 495 051",
+                  "href": "tel:+7495051"
+                },
+                {
+                  "text": " с мобильного, круглосуточно."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Помощь:",
+                  "strong": true
+                },
+                {
+                  "text": " разговор со специалистом при тревоге, панике, насилии, утрате и другом тяжёлом кризисе. При физической опасности звоните 112."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Городские телефоны помощи",
+                  "href": "https://gp219.mos.ru/informatsiya-dlya-patsientov/telefony-goryachikh-liniy/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "item-5",
+          "name": "Информация по лечению зависимостей",
+          "last_verified": "2026-11-12",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Телефон:",
+                  "strong": true
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "+7 495 421-55-55",
+                  "href": "tel:+74954215555"
+                },
+                {
+                  "text": "."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Часы:",
+                  "strong": true
+                },
+                {
+                  "text": " понедельник–пятница 08:00–20:00, суббота 09:00–16:45 по опубликованному графику. Спросите о ближайшем государственном приёме и документах."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Официальные контакты наркологической службы",
+                  "href": "https://dsp39.mos.ru/component/content/category/14-kontakty.html"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "government",
+      "title": "6. Государственная и социальная помощь",
+      "items": [
+        {
+          "type": "resource",
+          "id": "item",
+          "name": "Справочная Департамента социальной защиты",
+          "last_verified": "2026-11-12",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Телефон:",
+                  "strong": true
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "+7 495 870-44-44",
+                  "href": "tel:+74958704444"
+                },
+                {
+                  "text": ", круглосуточно."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Помощь:",
+                  "strong": true
+                },
+                {
+                  "text": " адреса и условия социальных служб, семейных центров, помощи пожилым, людям с инвалидностью, женщинам и детям. Скажите, что человек без жилья и где он находится."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Официальные контакты социальной защиты",
+                  "href": "https://msp.dszn.ru/contacts"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "item-2",
+          "name": "Общегородская справочная Москвы",
+          "last_verified": "2026-11-12",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Телефон:",
+                  "strong": true
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "+7 495 777-77-77",
+                  "href": "tel:+74957777777"
+                },
+                {
+                  "text": ", круглосуточно."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Помощь:",
+                  "strong": true
+                },
+                {
+                  "text": " поиск ближайшего центра госуслуг или учреждения. Уточните часы, запись, регистрацию и документы до поездки."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Официальные справочные телефоны Москвы",
+                  "href": "https://www.mos.ru/feedback/support/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "item-3",
+          "name": "Социальная помощь в больнице",
+          "last_verified": "2026-11-12",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Как попросить:",
+                  "strong": true
+                },
+                {
+                  "text": " если человек без жилья находится в больнице, попросите связать его с социальным координатором до выписки."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Помощь:",
+                  "strong": true
+                },
+                {
+                  "text": " координатор может связаться с Центром имени Е. П. Глинки и подготовить дальнейший маршрут. Не уходите без выписки, назначений и понятного места обращения."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Взаимодействие городских служб с больницами",
+                  "href": "https://msp.dszn.ru/news/z3bon8aiz1-anastasiya-rakova-rasskazala-o-kruglosut"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "work",
+      "title": "7. Работа и обучение",
+      "items": [
+        {
+          "type": "resource",
+          "id": "item",
+          "name": "Центр занятости «Моя работа»",
+          "last_verified": "2026-11-12",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Телефон:",
+                  "strong": true
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "+7 495 705-75-75",
+                  "href": "tel:+74957057575"
+                },
+                {
+                  "text": "."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Помощь:",
+                  "strong": true
+                },
+                {
+                  "text": " вакансии, резюме, консультация и обучение. Центр указывает, что для помощи с поиском работы постоянная московская регистрация не нужна; условия отдельных программ различаются."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Центр занятости населения Москвы",
+                  "href": "https://czn.mos.ru/EE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "item-2",
+          "name": "Флагманский центр «Моя работа»",
+          "last_verified": "2026-11-12",
+          "blocks": [
+            {
+              "type": "address",
+              "content": [
+                {
+                  "text": "Адрес:",
+                  "strong": true
+                },
+                {
+                  "text": " улица Щепкина, 38, строение 1"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Телефон:",
+                  "strong": true
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "+7 495 705-75-75",
+                  "href": "tel:+74957057575"
+                },
+                {
+                  "text": ". Позвоните до поездки, спросите о записи, документе личности и ближайшем районном отделе."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Офисы и отделы центра занятости",
+                  "href": "https://czn.mos.ru/EE/Offices/PkDepartment"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "item-3",
+          "name": "«Ночлежка» — помощь с трудоустройством",
+          "last_verified": "2026-11-12",
+          "blocks": [
+            {
+              "type": "address",
+              "content": [
+                {
+                  "text": "Адрес:",
+                  "strong": true
+                },
+                {
+                  "text": " Бумажный проезд, 2/2, строение 6"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Телефон:",
+                  "strong": true
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "+7 499 322-04-27",
+                  "href": "tel:+74993220427"
+                },
+                {
+                  "text": ". Социальный работник поможет с документами, телефоном, вакансией и жильём. Не отдавайте работодателю паспорт или банковскую карту."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Бесплатная консультационная помощь",
+                  "href": "https://homeless.ru/for-homeless/?city=msk"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "documents",
+      "title": "8. Документы",
+      "items": [
+        {
+          "type": "resource",
+          "id": "item",
+          "name": "Восстановление паспорта с «Ночлежкой»",
+          "last_verified": "2026-11-12",
+          "blocks": [
+            {
+              "type": "address",
+              "content": [
+                {
+                  "text": "Адрес:",
+                  "strong": true
+                },
+                {
+                  "text": " Бумажный проезд, 2/2, строение 6"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Телефон:",
+                  "strong": true
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "+7 499 322-04-27",
+                  "href": "tel:+74993220427"
+                },
+                {
+                  "text": ". Бесплатная консультация без документов, сбор подтверждений личности и юридическое сопровождение."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "«Ночлежка» — помощь с документами",
+                  "href": "https://homeless.ru/for-homeless/?city=msk"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "item-2",
+          "name": "Документы через «Ангар спасения»",
+          "last_verified": "2026-11-12",
+          "blocks": [
+            {
+              "type": "address",
+              "content": [
+                {
+                  "text": "Адрес:",
+                  "strong": true
+                },
+                {
+                  "text": " Николоямская улица, 55"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Телефон:",
+                  "strong": true
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "+7 926 158-07-58",
+                  "href": "tel:+79261580758"
+                },
+                {
+                  "text": ". Социальное сопровождение при восстановлении документов и связи с родственниками; уточните день приёма специалиста."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Церковная служба помощи бездомным",
+                  "href": "https://xn--b1afkimsn3a.xn--p1ai/dejatelnost/socialservice/pomoshh-bezdomnym/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "item-3",
+          "name": "Центры госуслуг и миграционные вопросы",
+          "last_verified": "2026-11-12",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Справочная:",
+                  "strong": true
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "+7 495 777-77-77",
+                  "href": "tel:+74957777777"
+                },
+                {
+                  "text": "."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Что спросить:",
+                  "strong": true
+                },
+                {
+                  "text": " ближайший центр госуслуг или подразделение по миграции, запись и подтверждения личности. Иностранцу при утрате паспорта обычно нужно также обратиться в полицию и консульство."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Официальная городская справочная",
+                  "href": "https://www.mos.ru/feedback/support/"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "legal",
+      "title": "9. Юридическая помощь",
+      "items": [
+        {
+          "type": "resource",
+          "id": "item",
+          "name": "Юридическая консультация «Ночлежки»",
+          "last_verified": "2026-11-12",
+          "blocks": [
+            {
+              "type": "address",
+              "content": [
+                {
+                  "text": "Адрес:",
+                  "strong": true
+                },
+                {
+                  "text": " Бумажный проезд, 2/2, строение 6"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Телефон:",
+                  "strong": true
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "+7 499 322-04-27",
+                  "href": "tel:+74993220427"
+                },
+                {
+                  "text": ". Бесплатно и без документов: паспорт, регистрация, пенсия, медицина и трудовые права. Назовите все сроки по делу."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Контакты и часы консультаций",
+                  "href": "https://homeless.ru/contact/?city=msk"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "item-2",
+          "name": "Адвокатская палата Москвы",
+          "last_verified": "2026-11-12",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Кому:",
+                  "strong": true
+                },
+                {
+                  "text": " малоимущим гражданам и другим указанным в законе категориям. На официальной странице опубликованы адвокаты и условия бесплатной помощи."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Перед обращением:",
+                  "strong": true
+                },
+                {
+                  "text": " проверьте право и документы; если документов нет, сначала обратитесь в «Ночлежку»."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Бесплатная помощь гражданам",
+                  "href": "https://www.advokatymoscow.ru/citizens/free-help/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "item-3",
+          "name": "Центр бесплатной юридической помощи «Надежда»",
+          "last_verified": "2026-11-12",
+          "blocks": [
+            {
+              "type": "address",
+              "content": [
+                {
+                  "text": "Адрес:",
+                  "strong": true
+                },
+                {
+                  "text": " Даниловский Вал, 22"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Телефон:",
+                  "strong": true
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "+7 499 764-78-15",
+                  "href": "tel:+74997647815"
+                },
+                {
+                  "text": ". Для малоимущих и других предусмотренных законом групп; позвоните и уточните право на приём, часы и документы."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Министерство юстиции — центр «Надежда»",
+                  "href": "https://www.minjust.gov.ru/ru/pages/centr-besplatnoj-yuridicheskoj-pomoshi-nadezhda/"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "safety",
+      "title": "10. Женщины, дети и безопасность",
+      "items": [
+        {
+          "type": "resource",
+          "id": "item",
+          "name": "Кризисный центр помощи женщинам и детям",
+          "last_verified": "2026-11-12",
+          "blocks": [
+            {
+              "type": "address",
+              "content": [
+                {
+                  "text": "Адрес:",
+                  "strong": true
+                },
+                {
+                  "text": " улица Дубки, 9А"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Телефон:",
+                  "strong": true
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "+7 499 977-17-05",
+                  "href": "tel:+74999771705"
+                },
+                {
+                  "text": ". Временное проживание, психологическая, юридическая и социальная помощь. При угрозе звоните 112."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Официальные кризисные контакты",
+                  "href": "https://dgkbsv.mos.ru/zashhita-prav-nesovershennoletnix/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "item-2",
+          "name": "Отделение «Надежда»",
+          "last_verified": "2026-11-12",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Телефон:",
+                  "strong": true
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "+7 499 729-51-81",
+                  "href": "tel:+74997295181"
+                },
+                {
+                  "text": "."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Помощь:",
+                  "strong": true
+                },
+                {
+                  "text": " профильная кризисная помощь женщинам и детям. Опишите безопасность, наличие детей и потребность в ночлеге; порядок приёма сообщит специалист."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Защита женщин и детей в Москве",
+                  "href": "https://dgkbsv.mos.ru/zashhita-prav-nesovershennoletnix/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "item-3",
+          "name": "Отделение «Маленькая мама»",
+          "last_verified": "2026-11-12",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Телефон:",
+                  "strong": true
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "+7 495 442-24-84",
+                  "href": "tel:+74954422484"
+                },
+                {
+                  "text": "."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Кому:",
+                  "strong": true
+                },
+                {
+                  "text": " беременным несовершеннолетним и молодым матерям с детьми в кризисе. Уточните возрастные условия, наличие мест и документы."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Официальные телефоны кризисных отделений",
+                  "href": "https://dgkbsv.mos.ru/zashhita-prav-nesovershennoletnix/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "item-4",
+          "name": "Детский телефон доверия",
+          "last_verified": "2026-11-12",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Телефон:",
+                  "strong": true
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "8 800 2000-122",
+                  "href": "tel:88002000122"
+                },
+                {
+                  "text": "; с мобильного также "
+                },
+                {
+                  "text": "124",
+                  "href": "tel:124"
+                },
+                {
+                  "text": ", бесплатно."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Помощь:",
+                  "strong": true
+                },
+                {
+                  "text": " анонимная психологическая поддержка детям, подросткам и родителям. При насилии, пропаже ребёнка или непосредственной угрозе дополнительно звоните 112."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Детский телефон доверия — контакты",
+                  "href": "https://telefon-doveria.ru/contacts/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "item-5",
+          "name": "Семейные центры Москвы",
+          "last_verified": "2026-11-12",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Справочная:",
+                  "strong": true
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "+7 495 777-77-77",
+                  "href": "tel:+74957777777"
+                },
+                {
+                  "text": "; психологическая помощь — 051 или "
+                },
+                {
+                  "text": "+7 495 051",
+                  "href": "tel:+7495051"
+                },
+                {
+                  "text": "."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Помощь:",
+                  "strong": true
+                },
+                {
+                  "text": " социальная и психологическая поддержка семьям и детям. Назовите район, возраст детей, срочность ночлега и риск насилия."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Городские телефоны защиты несовершеннолетних",
+                  "href": "https://dgkbsv.mos.ru/zashhita-prav-nesovershennoletnix/"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

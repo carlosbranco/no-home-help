@@ -1,0 +1,2187 @@
+{
+  "$schema": "https://nohomehelp.com/schemas/city.schema.json",
+  "schema_version": 1,
+  "status": "published",
+  "locale": {
+    "language": "zh-Hans",
+    "direction": "ltr",
+    "primary": true
+  },
+  "location": {
+    "continent": "Asia",
+    "country_code": "CN",
+    "country_name": "China",
+    "country_local_name": "中国",
+    "country_slug": "china",
+    "region_code": "GD",
+    "region_name": "Guangdong",
+    "region_slug": "guangdong",
+    "city_name": "Guangzhou",
+    "city_slug": "guangzhou"
+  },
+  "seo": {
+    "title": "广州无家可归及临时遇困援助 - No Home Help",
+    "description": "广州无家可归者和暂时遇困人员可使用的临时食宿、食物、医疗、社会救助、就业和法律援助信息。"
+  },
+  "page": {
+    "heading": "广州 — 无家可归及临时遇困援助",
+    "last_verified": "2026-11-10",
+    "urgent": [
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "人身危险、暴力或犯罪:",
+            "strong": true
+          },
+          {
+            "text": " "
+          },
+          {
+            "text": "110",
+            "href": "tel:110"
+          },
+          {
+            "break": true
+          },
+          {
+            "text": " "
+          },
+          {
+            "text": "火灾:",
+            "strong": true
+          },
+          {
+            "text": " "
+          },
+          {
+            "text": "119",
+            "href": "tel:119"
+          },
+          {
+            "break": true
+          },
+          {
+            "text": " "
+          },
+          {
+            "text": "危重疾病或严重受伤:",
+            "strong": true
+          },
+          {
+            "text": " "
+          },
+          {
+            "text": "120",
+            "href": "tel:120"
+          },
+          {
+            "break": true
+          },
+          {
+            "text": " "
+          },
+          {
+            "text": "今晚露宿街头:",
+            "strong": true
+          },
+          {
+            "text": " 市区救助分站 "
+          },
+          {
+            "text": "020-37246415",
+            "href": "tel:+862037246415"
+          },
+          {
+            "text": "，或市救助管理站 "
+          },
+          {
+            "text": "020-82266873",
+            "href": "tel:+862082266873"
+          },
+          {
+            "break": true
+          },
+          {
+            "text": " "
+          },
+          {
+            "text": "心理危机:",
+            "strong": true
+          },
+          {
+            "text": " "
+          },
+          {
+            "text": "12356",
+            "href": "tel:12356"
+          },
+          {
+            "text": " 或 "
+          },
+          {
+            "text": "020-81899120",
+            "href": "tel:+862081899120"
+          }
+        ]
+      }
+    ],
+    "notice": [
+      {
+        "text": "开放时间、地址、床位和申请条件可能改变。",
+        "strong": true
+      },
+      {
+        "text": " 出发前请先电话确认。任何机构都不能保证当天一定能提供床位、现金、食物、医疗费用或工作。救助管理站提供的是自愿、免费的临时救助，不是长期住房。"
+      }
+    ],
+    "intro": [
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "求助时请说明你现在的位置、今晚有没有安全住处、是否有食物、身体状况、是否带着儿童、是否遭受暴力、有没有身份证件和返乡需要。如果无法自己前往，或发现未成年人、老人、残疾人、行动不便者露宿街头，请拨打110、12345或救助管理机构电话并说明具体位置。"
+          }
+        ]
+      }
+    ],
+    "footer": [
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "No Home Help不收取费用，也不代表任何列出的机构。紧急情况请使用当地紧急电话。"
+          }
+        ]
+      }
+    ]
+  },
+  "quick_actions": {
+    "tonight": [
+      {
+        "category_id": "emergency",
+        "entry_id": "110"
+      },
+      {
+        "category_id": "emergency",
+        "entry_id": "119-120"
+      },
+      {
+        "category_id": "emergency",
+        "entry_id": "12345"
+      }
+    ],
+    "this_week": [
+      {
+        "category_id": "food",
+        "entry_id": "item"
+      },
+      {
+        "category_id": "food",
+        "entry_id": "item-2"
+      },
+      {
+        "category_id": "food",
+        "entry_id": "item-3"
+      }
+    ],
+    "this_month": [
+      {
+        "category_id": "documents",
+        "entry_id": "item"
+      },
+      {
+        "category_id": "documents",
+        "entry_id": "item-2"
+      },
+      {
+        "category_id": "legal",
+        "entry_id": "12348"
+      }
+    ]
+  },
+  "categories": [
+    {
+      "id": "emergency",
+      "title": "1. 紧急情况和公共热线",
+      "items": [
+        {
+          "type": "resource",
+          "id": "110",
+          "name": "公安报警 — 110",
+          "last_verified": "2026-11-10",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "电话:",
+                  "strong": true
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "110",
+                  "href": "tel:110"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "何时使用:",
+                  "strong": true
+                },
+                {
+                  "text": " 正在发生的暴力、犯罪、人身威胁、严重纠纷，或需要警方紧急保护时。说清楚时间、地点、发生了什么和你的联系方式。"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "广州110报警说明",
+                  "href": "https://gaj.gz.gov.cn/xxgk/zfxxgkml/zfxxgkml/qt/content/post_3983748.html"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "119-120",
+          "name": "消防和医疗急救 — 119 / 120",
+          "last_verified": "2026-11-10",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "火灾、浓烟或被困:",
+                  "strong": true
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "119",
+                  "href": "tel:119"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "危重疾病、意识不清、呼吸困难、严重受伤:",
+                  "strong": true
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "120",
+                  "href": "tel:120"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "注意:",
+                  "strong": true
+                },
+                {
+                  "text": " 需要救护车时告诉调度员准确位置、患者症状和联系电话，不要为了等待其他机构而延误急救。"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "广州市政府公布的紧急号码",
+                  "href": "https://www.eguangzhou.gov.cn/gzservice/content/post_27867.html"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "12345",
+          "name": "广州12345政务服务便民热线",
+          "last_verified": "2026-11-10",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "电话:",
+                  "strong": true
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "12345",
+                  "href": "tel:12345"
+                },
+                {
+                  "text": " 或 "
+                },
+                {
+                  "text": "020-12345",
+                  "href": "tel:+862012345"
+                },
+                {
+                  "text": "，全天24小时。"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "可以求助:",
+                  "strong": true
+                },
+                {
+                  "text": " 报告有人露宿街头，询问最近的救助管理站、街镇社会救助窗口、临时救助、慈善资源和其他非紧急公共服务。"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "重要:",
+                  "strong": true
+                },
+                {
+                  "text": " 12345不是警察、消防或救护车。危及人身安全时拨110、119或120。"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "2026年12345使用说明",
+                  "href": "https://zsj.gz.gov.cn/zwfw/12345zffwrx/content/post_10650507.html"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "960169",
+          "name": "广州多语种公共服务热线 — 960169",
+          "last_verified": "2026-11-10",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "电话:",
+                  "strong": true
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "960169",
+                  "href": "tel:960169"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "服务:",
+                  "strong": true
+                },
+                {
+                  "text": " 为不懂中文的来电人提供英语、日语、韩语、法语、俄语、阿拉伯语、西班牙语和葡萄牙语的公共服务口译，并可与110、119、120、12320等热线三方通话。"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "广州市政府多语种热线说明",
+                  "href": "https://www.eguangzhou.gov.cn/gzexpatsinguangzhou/content/post_29556.html"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shelter",
+      "title": "2. 临时住宿和救助管理站",
+      "items": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "text": "广州的救助管理机构为生活无着、无亲友投靠且未享受低保或特困供养的流浪乞讨和临时遇困人员提供免费、自愿、临时的基本生活救助。一般救助期限不超过10天，特殊情况可按规定延长。入站需要登记、安检和核实情况，不能作为长期住房。"
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "item",
+          "name": "广州市救助管理站",
+          "last_verified": "2026-11-10",
+          "blocks": [
+            {
+              "type": "address",
+              "content": [
+                {
+                  "text": "地址:",
+                  "strong": true
+                },
+                {
+                  "text": " 黄埔区果园五路9号"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "电话:",
+                  "strong": true
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "020-82266873",
+                  "href": "tel:+862082266873"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "接听:",
+                  "strong": true
+                },
+                {
+                  "text": " 节假日正常服务，8:30至次日8:30。可提供基本食宿、急病转送、寻亲、返乡和就业转介等临时救助。"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "广州市民政局直属单位联系方式",
+                  "href": "https://mzj.gz.gov.cn/zwgk/zfxxgkml/zfxxgkml/zzjg/lxfs/content/post_10819738.html"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "item-2",
+          "name": "广州市救助管理站市区分站",
+          "last_verified": "2026-11-10",
+          "blocks": [
+            {
+              "type": "address",
+              "content": [
+                {
+                  "text": "地址:",
+                  "strong": true
+                },
+                {
+                  "text": " 天河区水荫四横路41号"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "电话:",
+                  "strong": true
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "020-37246415",
+                  "href": "tel:+862037246415"
+                },
+                {
+                  "text": " / "
+                },
+                {
+                  "text": "020-37280416",
+                  "href": "tel:+862037280416"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "接听:",
+                  "strong": true
+                },
+                {
+                  "text": " 节假日正常服务，9:00至次日9:00。主要服务越秀、天河、荔湾和海珠中心城区，也承担街面流动救助及部分家暴受害人的临时庇护。"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "市区分站职责、地址和电话",
+                  "href": "https://mzj.gz.gov.cn/gkmlpt/content/10/10819/post_10819731.html"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "item-3",
+          "name": "花都区救助管理站",
+          "last_verified": "2026-11-10",
+          "blocks": [
+            {
+              "type": "address",
+              "content": [
+                {
+                  "text": "地址:",
+                  "strong": true
+                },
+                {
+                  "text": " 花都区梯面镇金梯大道绿河路19号"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "电话:",
+                  "strong": true
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "020-86781626",
+                  "href": "tel:+862086781626"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "出发前:",
+                  "strong": true
+                },
+                {
+                  "text": " 先电话说明你在花都区的具体位置、人数和健康状况，确认接待及交通方式。"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "广州救助管理机构官方一览表",
+                  "href": "https://mzj.gz.gov.cn/gk/fwjgylb/content/post_9635930.html"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "item-4",
+          "name": "番禺区救助管理中心",
+          "last_verified": "2026-11-10",
+          "blocks": [
+            {
+              "type": "address",
+              "content": [
+                {
+                  "text": "地址:",
+                  "strong": true
+                },
+                {
+                  "text": " 番禺区沙湾街福北路365号"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "电话:",
+                  "strong": true
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "020-34876061",
+                  "href": "tel:+862034876061"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "出发前:",
+                  "strong": true
+                },
+                {
+                  "text": " 先电话确认接待和交通路线；官方一览表附有公共交通指引。"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "广州救助管理机构官方一览表",
+                  "href": "https://mzj.gz.gov.cn/gk/fwjgylb/content/post_9635930.html"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "item-5",
+          "name": "从化区救助管理站",
+          "last_verified": "2026-11-10",
+          "blocks": [
+            {
+              "type": "address",
+              "content": [
+                {
+                  "text": "地址:",
+                  "strong": true
+                },
+                {
+                  "text": " 从化区江埔街罗沙路323号"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "电话:",
+                  "strong": true
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "020-87910833",
+                  "href": "tel:+862087910833"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "广州救助管理机构官方一览表",
+                  "href": "https://mzj.gz.gov.cn/gk/fwjgylb/content/post_9635930.html"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "item-6",
+          "name": "增城区救助管理站",
+          "last_verified": "2026-11-10",
+          "blocks": [
+            {
+              "type": "address",
+              "content": [
+                {
+                  "text": "地址:",
+                  "strong": true
+                },
+                {
+                  "text": " 增城区增江街东桥东路67号"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "电话:",
+                  "strong": true
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "020-82735503",
+                  "href": "tel:+862082735503"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "广州救助管理机构官方一览表",
+                  "href": "https://mzj.gz.gov.cn/gk/fwjgylb/content/post_9635930.html"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "food",
+      "title": "3. 食物和基本生活物资",
+      "items": [
+        {
+          "type": "resource",
+          "id": "item",
+          "name": "救助管理站内基本食宿",
+          "last_verified": "2026-11-10",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "内容:",
+                  "strong": true
+                },
+                {
+                  "text": " 对符合救助条件的人，救助站可提供符合食品卫生要求的食物、基本住处、洗浴、急病转送、通讯联系和返乡乘车凭证，不向受助者收费。"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "如何申请:",
+                  "strong": true
+                },
+                {
+                  "text": " 联系最近的救助站，说明你没有食物或安全住处、当前地点和是否有急病。工作人员会登记并核实是否属于临时救助对象。"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "广州市救助管理站章程和服务内容",
+                  "href": "https://mzj.gz.gov.cn/dt/gggs/content/post_9779060.html"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "item-2",
+          "name": "街镇临时救助 — 食品、衣物和临时住所",
+          "last_verified": "2026-11-10",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "申请地点:",
+                  "strong": true
+                },
+                {
+                  "text": " 目前所在街道办事处或镇人民政府的社会救助窗口。不知道地址时拨12345。"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "可能提供:",
+                  "strong": true
+                },
+                {
+                  "text": " 根据困难程度和审核结果，可能通过慈善超市购物券、实物、食品、衣物、生活用品、临时庇护场所或救助金保障基本生活。"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "注意:",
+                  "strong": true
+                },
+                {
+                  "text": " 需要申请和核实，不是任何人随到随领，也不保证每项援助都有库存或名额。"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "2026年广州社会救助“一件事”办事指南",
+                  "href": "https://mzj.gz.gov.cn/zzfwzq/gggs/content/post_10823127.html"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "item-3",
+          "name": "“善城暖屋”社区物资援助",
+          "last_verified": "2026-11-10",
+          "blocks": [
+            {
+              "type": "address",
+              "content": [
+                {
+                  "text": "已公布服务点:",
+                  "strong": true
+                },
+                {
+                  "text": " 荔湾区昌华街西关大屋社区，三连直街45号"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "内容:",
+                  "strong": true
+                },
+                {
+                  "text": " 向当地困难群众提供捐赠的当季衣物、鞋子、床上用品、洗浴用品和其他生活物资。"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "如何使用:",
+                  "strong": true
+                },
+                {
+                  "text": " 先联系昌华街或西关大屋社区，或拨12345确认当前开放时间、资格和物资。该点主要服务社区困难群众，不是全市全天候派发点。"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "广州市民政局的“善城暖屋”介绍",
+                  "href": "https://mzj.gz.gov.cn/gkmlpt/content/9/9215/post_9215753.html"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "charity",
+      "title": "4. 慈善与社区援助",
+      "items": [
+        {
+          "type": "resource",
+          "id": "item",
+          "name": "广州市慈善会",
+          "last_verified": "2026-11-10",
+          "blocks": [
+            {
+              "type": "address",
+              "content": [
+                {
+                  "text": "地址:",
+                  "strong": true
+                },
+                {
+                  "text": " 越秀区西湖路99号10楼"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "电话:",
+                  "strong": true
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "020-83179949",
+                  "href": "tel:+862083179949"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "内容:",
+                  "strong": true
+                },
+                {
+                  "text": " 开展助困、医疗救助、应急救助和“微心愿·善暖万家”等项目。个人通常需要经街道、社区、社会服务机构或合作慈善组织提交并审核，不是随到随领现金或食物。"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "如何求助:",
+                  "strong": true
+                },
+                {
+                  "text": " 先电话说明所在区、户籍或居住情况、具体困难和已申请的政府救助，询问当前项目及转介渠道。"
+                }
+              ]
+            },
+            {
+              "type": "list",
+              "items": [
+                [
+                  {
+                    "text": "广州市慈善会官网",
+                    "href": "https://www.guangzhoucishan.org.cn/"
+                  }
+                ],
+                [
+                  {
+                    "text": "微心愿项目申请方式",
+                    "href": "https://www.guangzhoucishan.org.cn/project/Projcontent/show/id/626"
+                  }
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "item-2",
+          "name": "广益联募 — 助医、助困和微心愿项目",
+          "last_verified": "2026-11-10",
+          "blocks": [
+            {
+              "type": "address",
+              "content": [
+                {
+                  "text": "办公地址:",
+                  "strong": true
+                },
+                {
+                  "text": " 越秀区西湖路99号10楼1006室"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "咨询电话:",
+                  "strong": true
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "020-83347173",
+                  "href": "tel:+862083347173"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "办公时间:",
+                  "strong": true
+                },
+                {
+                  "text": " 法定工作日9:00至12:00、14:00至18:00。"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "内容:",
+                  "strong": true
+                },
+                {
+                  "text": " 平台的机构救助板块包括助学、助医、助困和微心愿。咨询时说明你需要的是求助渠道而不是捐款，并询问能否由所在社区或合作机构提交个案。"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "广益联募平台介绍和联系方式",
+                  "href": "https://www.gyufc.org/pc-gyufc/module/aboutUs/index.html"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "item-3",
+          "name": "街道社会工作服务站和社区慈善资源",
+          "last_verified": "2026-11-10",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "可以求助:",
+                  "strong": true
+                },
+                {
+                  "text": " 生活帮扶、社会救助申请协助、社区慈善基金、探访、物资链接、养老或儿童服务，以及转介其他公益机构。"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "怎么找到:",
+                  "strong": true
+                },
+                {
+                  "text": " 拨12345，提供你当前所在的街道或附近地标，询问最近的“双百工程”社会工作服务站、慈善超市或社区临时救助点。"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "注意:",
+                  "strong": true
+                },
+                {
+                  "text": " 服务内容和物资因街道而异；先电话确认，不要假定现场一定有餐食或住宿。"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "“穗救易”社会救助和服务项目介绍",
+                  "href": "https://zsj.gz.gov.cn/zwfw/zwfwdt/zwfwxx/content/post_10030960.html"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "health",
+      "title": "5. 医疗和健康",
+      "items": [
+        {
+          "type": "resource",
+          "id": "12320",
+          "name": "广州卫生热线 — 12320",
+          "last_verified": "2026-11-10",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "电话:",
+                  "strong": true
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "12320",
+                  "href": "tel:12320"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "服务:",
+                  "strong": true
+                },
+                {
+                  "text": " 卫生政策、医疗卫生信息、就医引导、健康咨询和投诉举报。可询问附近的社区卫生服务中心，并说明你没有固定住处、证件或医保的实际情况。"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "紧急情况:",
+                  "strong": true
+                },
+                {
+                  "text": " 需要救护车请拨120。"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "广州市12320卫生热线说明",
+                  "href": "https://wjw.gz.gov.cn/attachment/0/53/53241/2431323.pdf"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "item",
+          "name": "救助站的急病转送",
+          "last_verified": "2026-11-10",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "内容:",
+                  "strong": true
+                },
+                {
+                  "text": " 受助者在站内突发急病时，救助站应及时送医疗机构。街面发现疑似精神障碍、突发危重疾病或严重受伤的露宿人员，可拨110、120、12345或救助站电话。"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "重要:",
+                  "strong": true
+                },
+                {
+                  "text": " 危重症状直接拨120，不要先自行前往路途较远的救助站。"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "救助站服务内容",
+                  "href": "https://mzj.gz.gov.cn/dt/gggs/content/post_9779060.html"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "item-2",
+          "name": "困难群众医疗救助",
+          "last_verified": "2026-11-10",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "带什么:",
+                  "strong": true
+                },
+                {
+                  "text": " 身份证明、医疗费用材料，以及按要求提供的居住、收入和财产状况资料。救助有对象和经济条件，不等于所有医疗费用自动免费。"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "咨询:",
+                  "strong": true
+                },
+                {
+                  "text": " 拨12345，说明你要咨询“医疗救助”而不是预约挂号。"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "2026年社会救助“一件事”指南",
+                  "href": "https://mzj.gz.gov.cn/zzfwzq/gggs/content/post_10823127.html"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "government",
+      "title": "6. 政府社会救助",
+      "items": [
+        {
+          "type": "resource",
+          "id": "item",
+          "name": "社会救助“一件事”",
+          "last_verified": "2026-11-10",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "适用:",
+                  "strong": true
+                },
+                {
+                  "text": " 符合收入和财产条件的低收入困难群体，以及因突发事件、意外伤害、重大疾病或其他特殊原因导致基本生活陷入困境的人。"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "可申请:",
+                  "strong": true
+                },
+                {
+                  "text": " 低收入人口认定、低保、特困供养、刚性支出困难家庭认定、临时救助、医疗救助、教育救助和部分就业帮扶。"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "申请:",
+                  "strong": true
+                },
+                {
+                  "text": " 到街道或镇社会救助窗口，或使用“穗好办”的“穗救易”。没有手机、证件不全或不会操作时，先拨12345请求线下地址和协助。"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "2026年官方办事指南",
+                  "href": "https://mzj.gz.gov.cn/zzfwzq/gggs/content/post_10823127.html"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "item-2",
+          "name": "中心城区各区社会救助窗口",
+          "last_verified": "2026-11-10",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "越秀区:",
+                  "strong": true
+                },
+                {
+                  "text": " 六榕路127号，"
+                },
+                {
+                  "text": "020-83304866",
+                  "href": "tel:+862083304866"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "海珠区:",
+                  "strong": true
+                },
+                {
+                  "text": " 新港中路489号佳信花园C3、C4栋首二层，"
+                },
+                {
+                  "text": "020-34071676",
+                  "href": "tel:+862034071676"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "荔湾区:",
+                  "strong": true
+                },
+                {
+                  "text": " 逢源路逢源北街26号，"
+                },
+                {
+                  "text": "020-81377350",
+                  "href": "tel:+862081377350"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "天河区:",
+                  "strong": true
+                },
+                {
+                  "text": " 黄埔大道中256-258号恒安大厦首三层，"
+                },
+                {
+                  "text": "020-37127118",
+                  "href": "tel:+862037127118"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "办公时间:",
+                  "strong": true
+                },
+                {
+                  "text": " 工作日9:00至12:00、14:00至18:00。先电话确认具体办理窗口和材料。"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "各区社会救助部门官方一览表",
+                  "href": "https://mzj.gz.gov.cn/gk/fwjgylb/content/post_10199577.html"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "item-3",
+          "name": "白云区和黄埔区社会救助窗口",
+          "last_verified": "2026-11-10",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "白云区:",
+                  "strong": true
+                },
+                {
+                  "text": " 广园中路238号区政府大楼1楼，"
+                },
+                {
+                  "text": "020-86388015",
+                  "href": "tel:+862086388015"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "黄埔区:",
+                  "strong": true
+                },
+                {
+                  "text": " 汇星路81号人防楼C栋9楼907室，"
+                },
+                {
+                  "text": "020-82112093",
+                  "href": "tel:+862082112093"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "其他区:",
+                  "strong": true
+                },
+                {
+                  "text": " 官方一览表还列出花都、番禺、南沙、从化和增城等区的地址和电话；也可拨12345按当前所在地转介。"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "各区社会救助部门官方一览表",
+                  "href": "https://mzj.gz.gov.cn/gk/fwjgylb/content/post_10199577.html"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "work",
+      "title": "7. 找工作和劳动权益",
+      "items": [
+        {
+          "type": "resource",
+          "id": "item",
+          "name": "救助站就业服务站",
+          "last_verified": "2026-11-10",
+          "blocks": [
+            {
+              "type": "address",
+              "content": [
+                {
+                  "text": "地点:",
+                  "strong": true
+                },
+                {
+                  "text": " 天河区水荫四横路41号，广州市救助管理站市区分站"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "电话:",
+                  "strong": true
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "020-37246415",
+                  "href": "tel:+862037246415"
+                },
+                {
+                  "text": " / "
+                },
+                {
+                  "text": "020-37280416",
+                  "href": "tel:+862037280416"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "服务:",
+                  "strong": true
+                },
+                {
+                  "text": " 面向受助和临时遇困人员提供就业政策咨询、职业介绍、岗位匹配、技能培训转介和心理支持。站内自助设备可查询广东公共就业服务岗位。"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "注意:",
+                  "strong": true
+                },
+                {
+                  "text": " 不收取求职费，但不保证立即录用。不要向招聘方交押金、担保费或身份证原件。"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "广州人社局关于救助站就业服务站的介绍",
+                  "href": "https://rsj.gz.gov.cn/ywzt/jycy/gzdt/content/post_10331791.html"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "item-2",
+          "name": "公共就业服务和就业驿站",
+          "last_verified": "2026-11-10",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "咨询:",
+                  "strong": true
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "12333",
+                  "href": "tel:12333"
+                },
+                {
+                  "text": " 或 "
+                },
+                {
+                  "text": "12345",
+                  "href": "tel:12345"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "服务:",
+                  "strong": true
+                },
+                {
+                  "text": " 全市就业驿站提供岗位信息、职业指导和重点群体就业帮扶。失业登记可在任一区、街镇公共就业服务机构办理，也可通过广东政务服务网或全国人社政务服务平台办理。"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "没有固定地址:",
+                  "strong": true
+                },
+                {
+                  "text": " 先向救助站就业服务站说明情况，请工作人员帮助确定最近且适合的线下服务点。"
+                }
+              ]
+            },
+            {
+              "type": "list",
+              "items": [
+                [
+                  {
+                    "text": "广州失业登记办理指南",
+                    "href": "https://rsj.gz.gov.cn/zmhd/cjwt/ldbz/content/post_10136045.html"
+                  }
+                ],
+                [
+                  {
+                    "text": "广州就业驿站服务介绍",
+                    "href": "https://rsj.gz.gov.cn/zzzq/zwdt/content/post_10737928.html"
+                  }
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "item-3",
+          "name": "欠薪、扣押证件和劳动争议",
+          "last_verified": "2026-11-10",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "先保存:",
+                  "strong": true
+                },
+                {
+                  "text": " 劳动合同、工资记录、考勤、工作证、聊天记录、照片、工地或公司名称和地址。不要把唯一证据交给对方。"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "咨询与投诉:",
+                  "strong": true
+                },
+                {
+                  "text": " 拨12333或12345询问有管辖权的劳动保障监察机构；法律问题也可拨12348。劳动仲裁可通过“粤省事”申请。"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "可以反映:",
+                  "strong": true
+                },
+                {
+                  "text": " 拖欠工资、违法收押金、扣押身份证、不提供劳动合同或离职证明等。"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "广州市劳动人事争议仲裁服务指南",
+                  "href": "https://rsj.gz.gov.cn/ywzt/ldgx/ldrszyzc/zcgg/content/post_2407253.html"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "documents",
+      "title": "8. 身份证件、寻亲和返乡",
+      "items": [
+        {
+          "type": "resource",
+          "id": "item",
+          "name": "居民身份证丢失补领",
+          "last_verified": "2026-11-10",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "办理:",
+                  "strong": true
+                },
+                {
+                  "text": " 广州各区户政办证窗口可办理居民身份证补领；符合条件的年满16周岁省外户籍人员也可使用全市11区的自助设备，丢失补领无需提供原身份证。"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "通常需要:",
+                  "strong": true
+                },
+                {
+                  "text": " 广东省居民身份证数字相片采集回执。部分省区或特殊情况需要到人工窗口。"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "预约与确认:",
+                  "strong": true
+                },
+                {
+                  "text": " 使用“广州公安”微信服务号、广东政务服务网或“穗好办”，或拨12345询问最近窗口。没有手机或钱拍照时，先向救助站说明。"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "广州公安省外户籍身份证补领说明",
+                  "href": "https://gaj.gz.gov.cn/gkmlpt/content/9/9781/post_9781110.html"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "item-2",
+          "name": "救助站寻亲、身份核实和返乡",
+          "last_verified": "2026-11-10",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "内容:",
+                  "strong": true
+                },
+                {
+                  "text": " 救助站可帮助联系亲属或所在单位、核实身份。符合救助条件且没有交通费返回住所地或单位的人，可按核实后的目的地获得乘车凭证。"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "注意:",
+                  "strong": true
+                },
+                {
+                  "text": " 返乡不是现金报销或任意旅行安排；救助站会核实身份、家庭情况和目的地。无法准确说出个人信息的人也可先求助。"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "救助站寻亲和返乡服务规定",
+                  "href": "https://mzj.gz.gov.cn/dt/gggs/content/post_9779060.html"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "legal",
+      "title": "9. 法律援助",
+      "items": [
+        {
+          "type": "resource",
+          "id": "12348",
+          "name": "12348公共法律服务热线",
+          "last_verified": "2026-11-10",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "电话:",
+                  "strong": true
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "12348",
+                  "href": "tel:12348"
+                },
+                {
+                  "text": "，提供全天法律咨询。"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "可以咨询:",
+                  "strong": true
+                },
+                {
+                  "text": " 欠薪、劳动关系、社会救助、赡养抚养、家庭暴力、人身损害、刑事案件和法律援助申请地点。"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "费用:",
+                  "strong": true
+                },
+                {
+                  "text": " 热线咨询和获批准的法律援助免费。是否受理由案件类型、管辖和申请条件决定。"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "广州司法局关于12348和法律援助的说明",
+                  "href": "https://sfj.gz.gov.cn/gzssfj/ztlm/rddbjyhzxta/content/post_7292896.html"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "item",
+          "name": "广州市法律援助服务大厅",
+          "last_verified": "2026-11-10",
+          "blocks": [
+            {
+              "type": "address",
+              "content": [
+                {
+                  "text": "地址:",
+                  "strong": true
+                },
+                {
+                  "text": " 越秀区仓边路42号"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "电话:",
+                  "strong": true
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "020-83562631",
+                  "href": "tel:+862083562631"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "办理时间:",
+                  "strong": true
+                },
+                {
+                  "text": " 周一至周五8:30至12:00、14:00至17:30，法定节假日除外。"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "申请:",
+                  "strong": true
+                },
+                {
+                  "text": " 广州实行法律援助申请市域通办，也可到各区法律援助机构提交。先电话说明事项、发生地点和经济情况，确认材料。"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "全市法律援助机构地址和电话",
+                  "href": "https://sfj.gz.gov.cn/xxgk/xxgkml/gzdt/tzgg/content/mpost_8280896.html"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "safety",
+      "title": "10. 妇女、儿童和心理支持",
+      "items": [
+        {
+          "type": "resource",
+          "id": "110-12338",
+          "name": "家庭暴力和妇女权益 — 110 / 12338",
+          "last_verified": "2026-11-10",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "正在发生暴力或有人身危险:",
+                  "strong": true
+                },
+                {
+                  "text": " 拨"
+                },
+                {
+                  "text": "110",
+                  "href": "tel:110"
+                },
+                {
+                  "text": "。"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "妇女维权热线:",
+                  "strong": true
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "12338",
+                  "href": "tel:12338"
+                },
+                {
+                  "text": "，咨询家庭暴力、婚姻家庭、妇女权益和转介服务。"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "临时庇护:",
+                  "strong": true
+                },
+                {
+                  "text": " 市区救助分站可为中心城区遭受家庭暴力且无处安身的受害人，特别是妇女和儿童，提供必要的临时庇护和保护。电话 "
+                },
+                {
+                  "text": "020-37246415",
+                  "href": "tel:+862037246415"
+                },
+                {
+                  "text": "。"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "市区救助分站的临时庇护职责",
+                  "href": "https://mzj.gz.gov.cn/gkmlpt/content/10/10819/post_10819731.html"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "item",
+          "name": "广州市未成年人救助保护中心",
+          "last_verified": "2026-11-10",
+          "blocks": [
+            {
+              "type": "address",
+              "content": [
+                {
+                  "text": "地址:",
+                  "strong": true
+                },
+                {
+                  "text": " 黄埔区果园五路9号"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "电话:",
+                  "strong": true
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "020-32687666",
+                  "href": "tel:+862032687666"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "接听:",
+                  "strong": true
+                },
+                {
+                  "text": " 节假日正常服务，8:30至次日8:30。"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "服务:",
+                  "strong": true
+                },
+                {
+                  "text": " 为流浪、生活无着或处于紧急困境的未成年人提供救助保护、临时监护、寻亲、返乡、医疗和法律援助转介。正在受伤害时同时拨110。"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "未成年人救助保护中心联系方式",
+                  "href": "https://mzj.gz.gov.cn/zwgk/zfxxgkml/zfxxgkml/zzjg/lxfs/content/post_10819738.html"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "12356-020-81899120",
+          "name": "心理援助 — 12356 / 020-81899120",
+          "last_verified": "2026-11-10",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "电话:",
+                  "strong": true
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "12356",
+                  "href": "tel:12356"
+                },
+                {
+                  "text": "，或广州心理援助热线 "
+                },
+                {
+                  "text": "020-81899120",
+                  "href": "tel:+862081899120"
+                },
+                {
+                  "text": "，24小时免费心理支持。"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "适用:",
+                  "strong": true
+                },
+                {
+                  "text": " 强烈焦虑、绝望、惊恐、失眠、情绪失控、创伤，或有伤害自己或他人的想法。直接告诉接线员你是否独自一人、有没有立即危险和所在位置。"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "立即危险:",
+                  "strong": true
+                },
+                {
+                  "text": " 同时拨110或120，留在有人的安全地点，并远离可能造成伤害的物品。"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "广州市卫生健康部门心理援助说明",
+                  "href": "https://kepu.wjw.gz.gov.cn/zs/content/post_3019.html"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "12355",
+          "name": "青少年支持 — 12355",
+          "last_verified": "2026-11-10",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "电话:",
+                  "strong": true
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "12355",
+                  "href": "tel:12355"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "适用:",
+                  "strong": true
+                },
+                {
+                  "text": " 儿童、青少年及照料人的心理、成长、家庭和权益问题。若未成年人今晚无安全住处，请直接联系未成年人救助保护中心或110，不要只等待普通咨询时段。"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "广州市教育局公布的青少年支持热线",
+                  "href": "https://jyj.gz.gov.cn/yw/jyxmt/content/post_8663527.html"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

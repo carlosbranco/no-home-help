@@ -1,114 +1,114 @@
 # Contributing to No Home Help
 
-Thank you for helping keep practical information available to people who may need it urgently.
+Thank you for helping keep urgent practical information accurate and accessible.
 
 - Website: [nohomehelp.com](https://nohomehelp.com/)
 - Repository: [github.com/carlosbranco/no-home-help](https://github.com/carlosbranco/no-home-help)
-- Issues: [report incorrect information or discuss a change](https://github.com/carlosbranco/no-home-help/issues)
+- Issues: [report or discuss a change](https://github.com/carlosbranco/no-home-help/issues)
 
-## The simple workflow
+## Simple workflow
 
 1. Fork the repository.
-2. Copy the [`city page template`](templates/city.html) or an existing page in the same local language.
-3. Add or correct verified information.
-4. Test every internal link and phone number.
-5. Submit a Pull Request.
+2. Copy [`templates/city.json`](templates/city.json), or edit an existing file under `data/cities/`.
+3. Research and verify the information.
+4. Run `npm run generate`.
+5. Run `npm run check`.
+6. Submit a Pull Request containing the JSON, generated HTML, and any necessary CSV change.
 
-You only need a text editor and a web browser.
-
-## Required design and code rules
-
-These requirements apply to every contribution:
-
-- Use static, semantic HTML5 and the existing shared `style.css`.
-- Do not add JavaScript, inline event handlers, frameworks, package managers, or build tools.
-- Do not add cookies, sessions, local storage, tracking, analytics, advertising, accounts, or personal-data collection.
-- Do not add images, SVG files, decorative icons, video, audio, or emojis.
-- Do not add external fonts, icon fonts, CDNs, widgets, embeds, iframes, or other dependencies.
-- Use relative links for internal navigation.
-- Keep the design mobile-first, single-column, compact, and readable at narrow widths.
-- Preserve the white background, black text, blue underlined links, system fonts, and approximately 750-pixel maximum content width.
-- Do not add cards, shadows, rounded corners, gradients, animations, hero sections, or decorative layout elements.
-- Make the page readable with CSS disabled, printable, and useful when the HTML file is saved offline.
-
-The project must remain extremely lightweight. A design change that makes a page larger or more complex needs a clear accessibility or practical-information benefit.
-
-## Language
-
-Write a page in the principal local language of the country or city it covers. Set `<html lang="...">` correctly. Keep official organization names unchanged unless the organization publishes a translated name.
-
-## Add a new country
-
-1. Create a lowercase ASCII country directory, such as `france/` or `brasil/`.
-2. Add the country's `index.html` in its principal local language.
-3. List its states, provinces, regions, districts, territories, or islands using the country's real administrative structure.
-4. Add the country to the main [`index.html`](index.html), including `hreflang` when appropriate.
-5. Add the initial geographic rows to [`data/locations.csv`](data/locations.csv).
-6. Add verified pages, or use the standard generated draft scaffold with `noindex` when the page is being reserved for contribution. Never present a draft as a completed help directory.
-
-Use [`portugal/index.html`](portugal/index.html) as a reference for a country organized by mainland districts and autonomous island regions. Use [`usa/index.html`](usa/index.html) as a reference for a country organized by states.
-
-## Add a state, province, region, or district
-
-1. Create a lowercase ASCII directory below the country directory.
-2. Add an `index.html` in the local language.
-3. List the principal cities or localities.
-4. Link verified city pages and clearly marked generated draft pages.
-5. A draft page must retain its `noindex` tag, generated marker, and contribution links until verified local information replaces the scaffold.
+Do not edit generated city HTML or generated indexes directly. The generator will replace those changes.
 
 ## Add a city
 
-1. Open the existing draft city page, or copy [`templates/city.html`](templates/city.html) into the correct regional directory when no page exists.
-2. Rename the file with a lowercase ASCII slug, such as `porto.html` or `los-angeles.html`.
-3. Set the correct page title, description, language, breadcrumb, and relative CSS path.
-4. Put emergency numbers and instructions first.
-5. Add a vertical contents list linking to sections on the same page.
-6. Work through the [`CITY_RESEARCH_CHECKLIST.md`](CITY_RESEARCH_CHECKLIST.md) and record the result for every category before deciding what belongs on the public page.
-7. Use only the relevant categories described in the [README category guide](README.md#city-resource-categories).
-8. Add each resource in the template's compact format: name, readable address, telephone number, services, hours, eligibility, verification date, and official links.
-9. Link the completed city page from its region page.
-10. Add or update the corresponding row in `data/locations.csv`.
-11. Open the page in a browser and complete the checklist below.
+1. Use the path `data/cities/<country>/<region>/<city>.json` with lowercase ASCII slugs.
+2. Copy the universal [`templates/city.json`](templates/city.json).
+3. Set the correct location, language, text direction, title, and description.
+4. Use `"primary": true` for the city's principal local-language file.
+5. Keep `"status": "draft"` while the guide is incomplete. Drafts do not appear on the site.
+6. Put emergency numbers and the first step for tonight at the beginning.
+7. Complete the [`CITY_RESEARCH_CHECKLIST.md`](CITY_RESEARCH_CHECKLIST.md).
+8. Add only categories with reliable local information.
+9. Give every resource a stable slug ID and `last_verified` date.
+10. Add the best resources to `quick_actions.tonight`, `quick_actions.this_week`, and `quick_actions.this_month` using `category_id` and `entry_id`.
+11. Add or update the city in `data/locations.csv` and follow [`data/POPULATION_POLICY.md`](data/POPULATION_POLICY.md).
+12. Change both the JSON status to `published` and the CSV page status to `verified` when the guide is ready.
 
-For an existing draft page, replace the scaffold rather than adding a second city file. Remove its `noindex` meta tag and generated draft marker only after the page contains verified emergency and local resource information. Then change `page_status` in `data/locations.csv` from `draft` to `verified`.
+The generator automatically creates the city page, country index, region index, contents list, report links, and navigation.
+
+## Add a translation
+
+Keep the same country, region, city, category, and entry identifiers. Add the lowercase language tag to the filename:
+
+```text
+lisboa.json       primary European Portuguese
+lisboa.en.json    English translation
+lisboa.es.json    Spanish translation
+```
+
+Set `locale.language` to its BCP 47 tag and `locale.primary` to `false`. Translate all public-facing text accurately, but do not translate official organization names unless the organization publishes that name. There must be exactly one published primary file for each city.
+
+## Edit the site design
+
+Generated pages use the HTML files in `templates/` and the shared `style.css`. Edit those files and run `npm run generate` to apply a layout change everywhere.
+
+Public output must have:
+
+- no client-side JavaScript or event handlers;
+- no cookies, browser storage, tracking, analytics, advertising, accounts, or personal-data collection;
+- no images, decorative SVG, emoji, video, audio, external fonts, CDNs, widgets, embeds, or iframes;
+- static semantic HTML and relative internal navigation;
+- a compact mobile-first single column that remains readable with CSS disabled and when printed;
+- no cards, shadows, rounded corners, gradients, animations, or decorative hero sections.
+
+Build-time Node scripts are allowed for generation and validation. Do not add a client framework or runtime dependency.
 
 ## Source and accuracy rules
 
 - Prefer official government and organization websites.
-- Include relevant official government support and benefits links even when the page also lists charities or local organizations.
-- Show the source with an `Official website` or `Official information` link.
-- Record `Last verified: YYYY-MM-DD` on the page and on each resource when practical.
-- Call an organization when its official page is unclear.
-- Never promise a bed, appointment, benefit, job, or eligibility decision.
-- Say whether a location is an intake center, shelter, drop-in center, or administrative office.
-- Disclose eligibility restrictions, referral requirements, costs, and religious participation requirements.
+- Include relevant official government support and benefits links.
+- Record `last_verified` as `YYYY-MM-DD` on every resource.
+- Include source links in the entry itself.
+- Call or email the organization when official information is unclear, when practical.
+- Never promise a bed, appointment, benefit, treatment, job, or eligibility decision.
+- Distinguish intake, shelter, drop-in, outreach, referral-only, and administrative services.
+- State eligibility, costs, required documents, religious participation, and access restrictions when known.
 - Do not publish confidential domestic-violence shelter addresses.
-- Omit a category when no reliable information is available.
-- Do not copy services from another city merely to fill a section.
-- For a major city, do not stop after finding the first usable result. Look for several independently verified options in shelters, food, religious help, health, and other high-need categories.
+- Do not copy services from another city to fill a category.
+- Omit an empty or unverified category; the generator also hides empty categories.
 
-## Resource categories
+## JSON guidance
 
-The standard categories and their intended content are explained in the [README category guide](README.md#city-resource-categories). Emergency shelters come first, followed by free food and churches or religious organizations. Include later categories only when useful, verified local information exists.
+Use a plain string for ordinary text:
 
-## City page checklist
+```json
+{
+  "type": "paragraph",
+  "content": "Call before travelling because hours can change."
+}
+```
 
-- Emergency numbers appear first.
-- Breadcrumbs and all internal links are relative.
-- The contents list uses normal HTML anchors.
-- Addresses and phone numbers appear as readable text.
-- Phone numbers also use `tel:` links.
-- Directions links are clearly labelled.
-- The information-change notice is present.
-- The page works with CSS disabled and at a narrow mobile width.
-- The page prints clearly.
-- There is no JavaScript, cookie, image, SVG, emoji, external font, embed, or external dependency.
-- Emergency shelters, food, and religious help appear near the beginning when verified information exists.
-- Empty categories have been removed.
+Use inline segments only when text needs a link, emphasis, bold text, or a line break:
 
-## Location CSV
+```json
+{
+  "type": "paragraph",
+  "content": [
+    { "text": "Phone: ", "strong": true },
+    { "text": "+351 000 000 000", "href": "tel:+351000000000" }
+  ]
+}
+```
 
-Keep `data/locations.csv` encoded as UTF-8 and preserve its header. A `country` row represents a country; a `city` row represents a selected city. Use lowercase ASCII slugs separated with hyphens. Keep no more than five cities per first-level administrative division and follow the thresholds, regional fallback rules, population sources, and status definitions in [`data/POPULATION_POLICY.md`](data/POPULATION_POLICY.md). Explain significant additions, removals, or replacements in the Pull Request.
+Resource IDs need only be unique inside their category. The full stable reference is `category-id/resource-id`. See [`data/cities/README.md`](data/cities/README.md) and [`schemas/city.schema.json`](schemas/city.schema.json).
+
+## Before opening a Pull Request
+
+- `npm run generate` completes successfully.
+- `npm run check` completes successfully.
+- Emergency instructions are first.
+- `quick_actions` point to real entries.
+- Dates, telephone links, internal anchors, and source links are correct.
+- The page language and text direction are correct.
+- The guide contains no invented information or confidential address.
+- The generated page is readable on a narrow screen and with CSS disabled.
 
 All Pull Requests require review before merging.
-

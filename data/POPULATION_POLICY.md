@@ -41,7 +41,7 @@ The population threshold is an editorial navigation rule, not a statement about 
 - `country`: one row for every country in scope, with the city and region fields empty;
 - `city`: one row for every selected city or regional fallback.
 
-`page_status` is `verified` only when a city page already contains reviewed local services. Generated pages use `draft`, include `noindex`, and must not be treated as service directories until a contributor researches and reviews them.
+`page_status` is `verified` only when the city's primary JSON contains reviewed local services and has `status: published`. A draft JSON generates no public page and is omitted from every index until a contributor researches and reviews it.
 
 ## Draft pages
 

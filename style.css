@@ -114,6 +114,29 @@ a:focus-visible {
   font-size: 0.92rem;
 }
 
+.language-switcher ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem 0.75rem;
+  padding-left: 0;
+  list-style: none;
+  font-size: 0.9rem;
+}
+
+.quick-help {
+  margin: 1rem 0;
+  padding: 0.65rem 0.75rem;
+  border-block: 2px solid #333;
+}
+
+.quick-help h2 {
+  margin-top: 0;
+}
+
+.quick-help h3 {
+  margin-top: 0.7rem;
+}
+
 .urgent {
   margin: 0.8rem 0;
   padding: 0.6rem 0 0.6rem 0.75rem;
@@ -149,6 +172,14 @@ a:focus-visible {
 .back-to-top {
   margin-top: 0.8rem;
   font-size: 0.9rem;
+}
+
+.entry-report {
+  font-size: 0.88rem;
+}
+
+.anchor-alias {
+  display: block;
 }
 
 address {

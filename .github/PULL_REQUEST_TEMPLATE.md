@@ -10,6 +10,8 @@ Describe the city, resource, correction, or translation.
 - [ ] I updated the `Last verified` date.
 - [ ] I did not claim that a bed, appointment, benefit, or job is guaranteed.
 - [ ] I did not publish a confidential shelter address.
+- [ ] I updated the city JSON rather than editing generated HTML directly.
+- [ ] Every changed resource has a `last_verified` date.
 
 Sources checked:
 
@@ -17,8 +19,9 @@ Sources checked:
 
 ## Technical checks
 
-- [ ] Internal links are relative and work from the repository subdirectory.
+- [ ] `npm run generate` and `npm run check` both pass.
+- [ ] `quick_actions` point to existing `category_id` and `entry_id` values.
 - [ ] The page works without JavaScript and with CSS disabled.
-- [ ] The page is written in the local language and has the correct `lang` value.
+- [ ] The JSON is written in the selected language and has the correct `locale.language` and `locale.primary` values.
 - [ ] No tracker, cookie, external font, dependency, or unnecessary media was added.
 

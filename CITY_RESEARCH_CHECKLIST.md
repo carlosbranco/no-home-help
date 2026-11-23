@@ -1,6 +1,6 @@
 # City Research Checklist
 
-Use this checklist to research and review every city page. It follows the full category structure used by the New York City page, but the services themselves must always be researched locally. Never copy a resource, telephone number, eligibility rule, or schedule from another city.
+Use this checklist to research and review every city JSON guide. It follows the full category structure used by the New York City guide, but the services themselves must always be researched locally. Never copy a resource, telephone number, eligibility rule, or schedule from another city.
 
 The objective is not to fill sections with weak listings. The objective is to find as much useful, current, verifiable help as the city can support. A major city will normally need several resources in the most important categories. A smaller locality may need fewer resources or links to the nearest regional service.
 
@@ -17,7 +17,7 @@ The objective is not to fill sections with weak listings. The objective is to fi
 - Do not publish a time, fare, capacity, address, or access rule unless a source supports it.
 - A name and location with an honest service description can still be useful when current hours are unavailable. Say that the visitor should call first.
 - Do not publish confidential shelter addresses, particularly for domestic-violence services.
-- If a category has no verified local result, omit it from the public page and record `Not found` or `Not applicable` in the research log.
+- If a category has no verified local result, omit it from the JSON or leave its `items` empty; the generator hides empty categories. Record `Not found` or `Not applicable` in the research log.
 
 ## Information to collect for each resource
 
@@ -143,14 +143,17 @@ Copy this table into a working note while researching a city. The working note d
 
 Use `Verified`, `Needs confirmation`, `Not found`, or `Not applicable` as the final status. Add the reason and the sources checked when a category is omitted.
 
-## Final page review
+## Final JSON and page review
 
 - Emergency instructions are visible before the contents list.
 - Major categories contain several options when the research found them.
 - The wording makes access conditions and uncertainty clear.
 - Official government benefits and emergency links are included.
 - Each resource has a source and verification date where practical.
+- The `quick_actions` references point to the best entries for tonight, this week, and this month.
+- The city file follows `data/cities/<country>/<region>/<city>[.<language>].json` and uses the correct `locale.primary` value.
 - Duplicate entries in different categories add useful category-specific information.
 - Every telephone link, internal anchor, breadcrumb, and source link has been checked.
 - The page contains no JavaScript, cookies, images, emojis, external fonts, embeds, or external dependencies.
 - The page remains readable on a narrow screen, with CSS disabled, when printed, and when saved offline.
+- `npm run generate` and `npm run check` both pass.

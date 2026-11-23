@@ -1,0 +1,13 @@
+{
+  "name": "no-home-help",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "generate": "node scripts/generate-site.mjs --prune-drafts",
+    "check": "node scripts/generate-site.mjs --check && node scripts/check-data.mjs && node scripts/check-generated-html.mjs",
+    "check:external": "node scripts/check-data.mjs --external-links"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

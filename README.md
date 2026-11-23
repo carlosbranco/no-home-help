@@ -1,160 +1,134 @@
 # No Home Help
 
-No Home Help is a free, international directory of practical services for people experiencing homelessness. The priority is to help someone find essential information in less than 30 seconds, including on an old phone or a slow connection.
+No Home Help is a free, international directory of practical services for people experiencing homelessness. It is designed to put urgent, locally verified information in front of someone quickly, including on an old phone or a slow connection.
 
 - Official website: [nohomehelp.com](https://nohomehelp.com/)
-- Official repository: [github.com/carlosbranco/no-home-help](https://github.com/carlosbranco/no-home-help)
+- Repository: [github.com/carlosbranco/no-home-help](https://github.com/carlosbranco/no-home-help)
 - Report incorrect information: [open a GitHub issue](https://github.com/carlosbranco/no-home-help/issues/new?template=incorrect-information.md)
 
-The project is humanitarian, open source, privacy-respecting, and community-maintained. It is not a commercial product.
+The public website is static, lightweight, privacy-respecting, and open source. City content lives in JSON; HTML pages and navigation indexes are generated from that data.
 
-## Non-negotiable technical rules
+## How the site works
 
-Every page and contribution must follow these rules:
+The universal data contract is [`schemas/city.schema.json`](schemas/city.schema.json). Every country and language uses the same fields. Public-facing content is written in the guide's local language, while stable technical keys remain in English.
 
-- static, semantic HTML5 only;
-- one small shared CSS file: [`style.css`](style.css);
-- no JavaScript, including inline scripts or event handlers;
-- no frameworks, package managers, build tools, or generated bundles;
-- no databases, registration, accounts, forms that collect personal data, or location permissions;
-- no cookies, sessions, local storage, tracking, analytics, or advertising;
-- no external dependencies, CDNs, embedded widgets, or iframes;
-- no external fonts or icon fonts; use system fonts only;
-- no images, SVG files, decorative icons, videos, or audio;
-- no emojis in page content, navigation, headings, or contributor documentation;
-- relative internal links, so the site works in a GitHub subdirectory or from saved files;
-- pages must remain readable with CSS disabled and when saved for offline use;
-- pages must be suitable for printing and saving as PDF.
+```text
+data/cities/<country>/<region>/<city>.json
+                         └───────┬───────┘
+                                 │ npm run generate
+                                 ▼
+             <country>/<region>/<city>.html
+```
 
-Do not add a tool or asset merely because it is convenient. The absence of JavaScript, images, external fonts, cookies, and dependencies is a core project requirement.
+Only `published` JSON files create pages or appear in indexes. Empty categories are hidden. Drafts remain in the repository for contributors but are absent from the public site.
 
-## Design rules
+Each resource has a `last_verified` date and its own link for reporting incorrect information. That report opens a prefilled GitHub issue containing the exact JSON file and `category/entry` identifier.
 
-No Home Help deliberately looks like a compact, traditional internet directory. It must not look like a modern startup landing page.
+## Multiple languages for one city
 
-- white background;
-- black text;
-- blue, underlined links;
-- Arial, Helvetica, or another system sans-serif font;
-- mobile-first, single-column content;
-- maximum content width of approximately 750 pixels;
-- readable text sizes and compact vertical spacing;
-- normal headings, paragraphs, and HTML lists;
-- emergency information before all other content;
-- vertical contents lists with same-page anchor links;
-- no cards, columns that are difficult to read on mobile, shadows, rounded corners, gradients, animations, or decorative whitespace;
-- no large hero sections, banners, illustrations, or purely decorative content.
+The primary file uses the city's principal local language:
 
-The design goal is speed, clarity, accessibility, and information density. A visitor in urgent need should see useful telephone numbers and instructions immediately.
+```text
+data/cities/portugal/lisboa/lisboa.json
+```
 
-## View the site
+Translations sit beside it with a language suffix:
 
-Open `index.html` in any web browser. No installation or local server is required.
+```text
+data/cities/portugal/lisboa/lisboa.en.json
+data/cities/portugal/lisboa/lisboa.es.json
+```
 
-## Start from the city template
+The generator creates `lisboa.html`, `lisboa.en.html`, and `lisboa.es.html`, and adds `hreflang`, canonical URLs, and links between the available versions. The primary JSON has `"primary": true`; translations have `"primary": false`.
 
-Use the [`templates/city.html`](templates/city.html) file when adding a city. It contains the required semantic structure, emergency block, verification notice, contents list, resource format, relative navigation, and report link.
+Read [`data/cities/README.md`](data/cities/README.md) for the complete naming and editing rules.
 
-An existing completed page, [`usa/new-york/new-york-city.html`](usa/new-york/new-york-city.html), can be used as a practical reference. Do not copy its services into another city; every local resource must be independently verified.
+## Add or edit a city
 
-Work through the [`CITY_RESEARCH_CHECKLIST.md`](CITY_RESEARCH_CHECKLIST.md) category by category before publishing. It explains what to search for, what facts to record, and how to document a category that is not available locally. Major cities should normally contain several verified choices in core categories such as shelter, food, religious help, health, and social support.
+1. Copy [`templates/city.json`](templates/city.json).
+2. Place it in the correct country and region folders.
+3. Keep `status` as `draft` while researching.
+4. Work through [`CITY_RESEARCH_CHECKLIST.md`](CITY_RESEARCH_CHECKLIST.md).
+5. Add real sources and a verification date for every entry.
+6. Point `quick_actions` to the most useful entries for tonight, this week, and this month.
+7. Change the JSON to `published` and the corresponding CSV row to `verified`.
+8. Run `npm run generate` and `npm run check`.
+
+Generated HTML must not be edited directly. To change the design or semantic layout for every page, edit the files in `templates/` and regenerate.
 
 ## Repository structure
 
 ```text
 .
-├── index.html
-├── style.css
 ├── data/
+│   ├── cities/
+│   │   └── country/region/city.json
 │   ├── locations.csv
 │   └── POPULATION_POLICY.md
-├── CITY_RESEARCH_CHECKLIST.md
-├── country-slug/
-│   ├── index.html
-│   └── region-slug/
-│       ├── index.html
-│       └── city-slug.html
-└── templates/
-    └── city.html
+├── schemas/
+│   └── city.schema.json
+├── scripts/
+│   ├── generate-site.mjs
+│   └── check-data.mjs
+├── templates/
+│   ├── city.json
+│   ├── city.html
+│   ├── country.html
+│   ├── region.html
+│   └── index.html
+├── style.css
+└── generated country and city HTML
 ```
 
-## Location data
+## Commands
 
-`data/locations.csv` is a UTF-8 geographic registry for 85 countries in Europe and the Americas. It distinguishes `country` rows from `city` rows and records the language, administrative division, population source, selection rule, and page status.
+Node.js 20 or newer is required only for contributors and CI. The published website itself has no runtime or client-side dependency.
 
-Each first-level administrative division has no more than five selected cities. The normal threshold is 200,000 inhabitants. A division with no qualifying city may use the 100,000 threshold; if it would still be empty, one smaller regional centre is retained as an explicitly labelled fallback. Read the complete [`data/POPULATION_POLICY.md`](data/POPULATION_POLICY.md) for the source definitions and selection rules.
-
-The list is a navigation and contribution seed, not a claim that services are already available. A `draft` city page contains no verified local help and uses `noindex` until contributors replace the scaffold with researched information.
-
-## Language policy
-
-Country and city pages should use the principal local language of the place they cover. Keep organization names as officially written and translate explanatory text accurately. Set the correct HTML `lang` attribute and add `hreflang` when linking across languages.
-
-Examples:
-
-- pages for the United States are written in English;
-- pages for Portugal are written in European Portuguese;
-- a new country should use its principal local language unless there is a documented reason to provide more than one language version.
-
-## City resource categories
-
-Add only categories for which reliable local information is available. Never create filler or invent a resource.
-
-| Category | What belongs in it |
-| --- | --- |
-| Emergency shelters | Instructions for someone with nowhere to sleep tonight; intake centers, placement hotlines, overnight and seasonal shelters. Clearly distinguish walk-in intake from referral-only services and never promise a bed. |
-| Free food | Free meals, soup kitchens, food banks, community kitchens, church meal programs, and emergency food assistance, with verified hours when available. |
-| Churches and religious organizations | Churches, missions, religious charities, meal programs, clothing, shelter, pastoral care, and other practical help. State the faith tradition and whether religious participation is required. |
-| Showers and laundry | Free showers, laundry, hygiene centers, drop-in centers, and hygiene-product distribution. |
-| Free clothing | Clothing, coats, shoes, socks, blankets, and clothing suitable for job interviews. |
-| Free or low-cost medical care | Clinics, mental health care, dental care, prescriptions, addiction services, and emergency medical instructions. |
-| Public toilets | Free and accessible toilets in public facilities, libraries, parks, or transit locations, including verified hours when possible. |
-| Phone charging and internet | Public libraries, charging locations, free Wi-Fi, computers, internet access, and telephone services. |
-| Free or reduced transportation | Free or discounted transit, charity bus passes, shelter transportation, and other verified travel assistance. |
-| Government benefits | Food, cash, health, housing, disability, unemployment, rental, and emergency assistance. Explain eligibility briefly and never guarantee approval. |
-| Employment assistance | Job centers, placement, training, résumé and interview help, computer access, and practical guidance for applying without a permanent address. |
-| Free legal aid | Housing, eviction, immigration, employment, public-benefit, identification, and other free civil legal help. |
-| Documents and identification | Help obtaining or replacing identification cards, birth certificates, driving licences, Social Security documents, or local equivalents. |
-| Mailing address | Authorized mail collection, care-of addresses, postal general delivery, and services that receive correspondence for active clients. |
-| Storage services | Free or low-cost storage and official allowances for personal belongings. |
-| Veterans assistance | Veteran shelters, health care, housing, employment, benefits, and crisis lines. |
-| Domestic violence support | Confidential hotlines, safety planning, emergency housing, legal help, and survivor services. Never publish confidential shelter addresses. |
-| Help for people with pets | Pet-friendly options, temporary care, food, veterinary help, service-animal rules, and programs intended to keep people and animals together. |
-| Airport transportation | The cheapest practical public route from major airports, with official route links, approximate fares, travel guidance, and connections toward the city or intake services. |
-| Other useful resources | Libraries, warming and cooling centers, drinking water, outreach teams, community centers, and verified help that does not fit another category. |
-
-Every city page begins with emergency information and a verification date. Categories with no verified information should be omitted rather than published empty.
-Include the relevant official government support and benefits links whenever they exist. Charity listings complement public services; they do not replace the official application, eligibility, or emergency information.
-
-## Contributing countries, regions, and cities
-
-Contributions are welcome for the entire directory, including:
-
-- new countries;
-- states, provinces, regions, districts, territories, and islands;
-- new cities and principal localities;
-- shelters, churches, food services, health care, employment help, and other resources;
-- corrections, updated hours, translations, and accessibility improvements.
-
-The navigation hierarchy is:
-
-```text
-Country -> State, province, region, or district -> City
+```sh
+npm run generate
+npm run check
+npm run check:external
 ```
 
-When adding a country, create its directory and `index.html`, write it in the local language, add it to the main country list, and add its geographic seed rows to [`data/locations.csv`](data/locations.csv). When adding a city, copy the [city template](templates/city.html), verify every resource, and link the new page from its region page.
+- `generate` validates JSON, regenerates all published pages and indexes, and removes only marked legacy draft scaffolds.
+- `check` confirms generated HTML is current and checks city references, dates, phone links, and CSV synchronization.
+- `check:external` checks external links; it is intended for the monthly CI job because remote sites can be temporarily unavailable.
 
-Generated draft city pages can also be edited in place. Replace the draft scaffold with the [city template](templates/city.html), complete the [research checklist](CITY_RESEARCH_CHECKLIST.md), remove `noindex` and the generated draft marker, and change the CSV `page_status` only after the information has been reviewed.
+No package installation is required; the scripts use only built-in Node.js modules.
 
-Read the complete [contribution guide](CONTRIBUTING.md) before opening a Pull Request.
+## Public-site rules
 
-## Accuracy and safety
+The generated site must remain:
 
-Prefer official government or organization sources. Never invent a service, address, phone number, opening time, fare, eligibility rule, or bed availability. Every city page must show a verification date and warn readers that information can change.
+- static semantic HTML5 with one shared CSS file;
+- free of client-side JavaScript, cookies, storage, tracking, analytics, and advertising;
+- free of images, video, audio, SVG decoration, emojis, external fonts, CDNs, embeds, and iframes;
+- mobile-first, single-column, readable with CSS disabled, and useful when saved offline;
+- based on system fonts, a white background, black text, and normal blue underlined links;
+- compact, accessible, and suitable for printing.
 
-The root [`CNAME`](CNAME) file declares `nohomehelp.com` as the custom domain for GitHub Pages. The domain must also be configured in the repository's Pages settings and in its DNS records.
+Build-time Node scripts are allowed only to validate data and generate these static files. Do not add a browser runtime, framework, dependency bundle, or remote asset.
+
+## Content and safety rules
+
+- Put emergency instructions and tonight's shelter path first.
+- Prefer official government and organization sources.
+- Include official government support and benefits links when available; charities complement them rather than replace them.
+- Never invent a service, address, phone number, time, fare, eligibility rule, or availability.
+- Never guarantee a bed, meal, appointment, benefit, treatment, or job.
+- Do not publish confidential shelter addresses.
+- Omit categories with no reliable local information.
+- Major cities should normally have several independently verified choices in shelter, food, religious help, health, and social support.
+- A smaller locality may contain fewer entries or a clearly explained route to the nearest regional service.
+
+The complete category-by-category standard is in [`CITY_RESEARCH_CHECKLIST.md`](CITY_RESEARCH_CHECKLIST.md).
+
+## Location registry
+
+[`data/locations.csv`](data/locations.csv) is the geographic and publication registry. It contains countries and selected cities, language, administrative division, population source, selection rule, and page status.
+
+Each first-level administrative division has no more than five selected cities. The normal population threshold is 200,000. A smaller division may use 100,000, and one smaller regional centre can be retained when needed so the division is not empty. See [`data/POPULATION_POLICY.md`](data/POPULATION_POLICY.md).
 
 ## License
 
 This project is released under the [MIT License](LICENSE).
-

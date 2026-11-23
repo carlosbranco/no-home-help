@@ -1,0 +1,3210 @@
+{
+  "$schema": "https://nohomehelp.com/schemas/city.schema.json",
+  "schema_version": 1,
+  "status": "published",
+  "locale": {
+    "language": "pt-BR",
+    "direction": "ltr",
+    "primary": true
+  },
+  "location": {
+    "continent": "Americas",
+    "country_code": "BR",
+    "country_name": "Brazil",
+    "country_local_name": "Brasil",
+    "country_slug": "brazil",
+    "region_code": "30",
+    "region_name": "Pernambuco",
+    "region_slug": "pernambuco",
+    "city_name": "Recife",
+    "city_slug": "recife"
+  },
+  "seo": {
+    "title": "Ajuda para pessoas em situação de rua no Recife - No Home Help",
+    "description": "Ajuda verificada no Recife para pessoas em situação de rua: acolhimento, refeições, banho, saúde, benefícios, emprego, documentos, direitos e apoio especializado."
+  },
+  "page": {
+    "heading": "Ajuda para pessoas em situação de rua no Recife",
+    "last_verified": "2026-11-11",
+    "urgent": [
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "Perigo imediato ou polícia:",
+            "strong": true
+          },
+          {
+            "text": " "
+          },
+          {
+            "text": "190",
+            "href": "tel:190"
+          },
+          {
+            "break": true
+          },
+          {
+            "text": " "
+          },
+          {
+            "text": "Urgência médica (SAMU):",
+            "strong": true
+          },
+          {
+            "text": " "
+          },
+          {
+            "text": "192",
+            "href": "tel:192"
+          },
+          {
+            "break": true
+          },
+          {
+            "text": " "
+          },
+          {
+            "text": "Bombeiros:",
+            "strong": true
+          },
+          {
+            "text": " "
+          },
+          {
+            "text": "193",
+            "href": "tel:193"
+          },
+          {
+            "break": true
+          },
+          {
+            "text": " "
+          },
+          {
+            "text": "Direitos humanos:",
+            "strong": true
+          },
+          {
+            "text": " "
+          },
+          {
+            "text": "Disque 100",
+            "href": "tel:100"
+          },
+          {
+            "break": true
+          },
+          {
+            "text": " "
+          },
+          {
+            "text": "Violência contra a mulher:",
+            "strong": true
+          },
+          {
+            "text": " "
+          },
+          {
+            "text": "Ligue 180",
+            "href": "tel:180"
+          }
+        ]
+      }
+    ],
+    "notice": [
+      {
+        "text": "Vagas, horários, refeições, documentos e critérios podem mudar.",
+        "strong": true
+      },
+      {
+        "text": " Sempre que possível, confirme antes de se deslocar. Nenhuma indicação garante vaga, atendimento, benefício, dinheiro ou emprego no mesmo dia. Em situação de risco imediato, ligue 190, 192 ou 193."
+      }
+    ],
+    "intro": [
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "Se está sem local seguro para esta noite, procure primeiro o "
+          },
+          {
+            "text": "CINPOP",
+            "href": "#urgent--cinpop-porta-de-entrada-com-varios-servicos"
+          },
+          {
+            "text": " ou o "
+          },
+          {
+            "text": "Centro POP",
+            "href": "#basic--centros-pop-higiene-e-descanso-durante-o-dia"
+          },
+          {
+            "text": " da sua região. O acesso ao Abrigo Noturno Irmã Dulce e a várias casas de acolhida depende de avaliação e encaminhamento da assistência social. Explique se está com crianças, se é pessoa idosa, se tem deficiência, doença, gravidez, animal de companhia ou se está em risco de violência."
+          }
+        ]
+      }
+    ],
+    "footer": []
+  },
+  "quick_actions": {
+    "tonight": [
+      {
+        "category_id": "urgent",
+        "entry_id": "emergencias"
+      },
+      {
+        "category_id": "urgent",
+        "entry_id": "defesa-civil-do-recife-risco-de-desabamento-alagamento-ou-deslizamento"
+      },
+      {
+        "category_id": "urgent",
+        "entry_id": "cinpop-porta-de-entrada-com-varios-servicos"
+      }
+    ],
+    "this_week": [
+      {
+        "category_id": "food",
+        "entry_id": "restaurantes-populares-refeicoes-gratuitas-com-encaminhamento"
+      },
+      {
+        "category_id": "food",
+        "entry_id": "casa-do-pao-cafe-almoco-e-jantar"
+      },
+      {
+        "category_id": "food",
+        "entry_id": "cinpop-refeitorio-e-atendimento-integrado"
+      }
+    ],
+    "this_month": [
+      {
+        "category_id": "documents",
+        "entry_id": "cinpop-documentos-e-orientacao-juridica"
+      },
+      {
+        "category_id": "documents",
+        "entry_id": "expresso-recife-e-apoio-com-cpf-e-certidoes"
+      },
+      {
+        "category_id": "documents",
+        "entry_id": "carteira-de-identidade-nacional-cin"
+      }
+    ]
+  },
+  "categories": [
+    {
+      "id": "urgent",
+      "title": "1. Ajuda urgente e atendimento de rua",
+      "items": [
+        {
+          "type": "resource",
+          "id": "emergencias",
+          "name": "Emergências",
+          "last_verified": "2026-11-11",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Polícia:",
+                  "strong": true
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "190",
+                  "href": "tel:190"
+                },
+                {
+                  "text": ". "
+                },
+                {
+                  "text": "SAMU:",
+                  "strong": true
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "192",
+                  "href": "tel:192"
+                },
+                {
+                  "text": ". "
+                },
+                {
+                  "text": "Bombeiros:",
+                  "strong": true
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "193",
+                  "href": "tel:193"
+                },
+                {
+                  "text": "."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Use estes números para violência em curso, acidente, incêndio, dificuldade para respirar, inconsciência, convulsão, overdose ou outra ameaça imediata à vida. Diga primeiro o local exato e o que está a acontecer."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Informação oficial sobre urgência médica no Recife",
+                  "href": "https://visit.recife.pe.gov.br/informacoes/saude/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "defesa-civil-do-recife-risco-de-desabamento-alagamento-ou-deslizamento",
+          "name": "Defesa Civil do Recife — risco de desabamento, alagamento ou deslizamento",
+          "last_verified": "2026-11-11",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Plantão 24 horas:",
+                  "strong": true
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "0800 081 3400",
+                  "href": "tel:08000813400"
+                },
+                {
+                  "text": "."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Ligue quando uma habitação, barreira ou área estiver em risco. Em períodos de chuva, os abrigos emergenciais só são ativados conforme a ocorrência e a orientação da Defesa Civil; confirme o local antes de se deslocar."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Defesa Civil — contacto oficial",
+                  "href": "https://www2.recife.pe.gov.br/node/297824"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "cinpop-porta-de-entrada-com-varios-servicos",
+          "name": "CINPOP — porta de entrada com vários serviços",
+          "last_verified": "2026-11-11",
+          "blocks": [
+            {
+              "type": "address",
+              "content": [
+                {
+                  "text": "Endereço:",
+                  "strong": true
+                },
+                {
+                  "text": " Rua Coelho Leite, 677, Santo Amaro, Recife"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Horário publicado:",
+                  "strong": true
+                },
+                {
+                  "text": " segunda a sexta-feira, das 7h30 às 17h."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Serviços:",
+                  "strong": true
+                },
+                {
+                  "text": " assistência social e de saúde, orientação jurídica, documentos, refeições, repouso, guarda-volumes, lavandaria, espaço de beleza, roupa, cursos e apoio para inclusão produtiva. O atendimento é dirigido à população em situação de rua e tem limite diário."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Prefeitura do Recife — CINPOP",
+                  "href": "https://www2.recife.pe.gov.br/noticias/06/11/2025/recife-inova-com-inauguracao-do-primeiro-centro-integrado-de-atencao-populacao"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "servico-especializado-em-abordagem-social-seas",
+          "name": "Serviço Especializado em Abordagem Social (SEAS)",
+          "last_verified": "2026-11-11",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "As equipas identificam e acompanham pessoas e famílias nas ruas e podem encaminhar para Centro POP, acolhimento, saúde e outros serviços. As equipas atuam diariamente; nas regiões centrais e sul há atendimento ampliado."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Como pedir:",
+                  "strong": true
+                },
+                {
+                  "text": " procure o CINPOP ou um Centro POP, ou solicite orientação à Secretaria de Assistência Social. Se houver risco de vida ou crime, não espere a abordagem: ligue 190 ou 192."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Ações de abordagem social no Recife",
+                  "href": "https://www2.recife.pe.gov.br/noticias/13/08/2026/prefeitura-reforca-acoes-integradas-de-cuidado-e-protecao-populacao-em-situacao"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "disque-100-violacoes-de-direitos-humanos",
+          "name": "Disque 100 — violações de direitos humanos",
+          "last_verified": "2026-11-11",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Telefone:",
+                  "strong": true
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "100",
+                  "href": "tel:100"
+                },
+                {
+                  "text": ", gratuito."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Recebe denúncias relacionadas com população em situação de rua, crianças e adolescentes, pessoas idosas, pessoas com deficiência, população LGBTQIA+, racismo, violência institucional e outras violações. Em perigo imediato, ligue também 190."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Ouvidoria Nacional de Direitos Humanos",
+                  "href": "https://www.gov.br/mdh/pt-br/ondh/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "ouvidoria-geral-do-recife",
+          "name": "Ouvidoria Geral do Recife",
+          "last_verified": "2026-11-11",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Telefone:",
+                  "strong": true
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "0800 281 0040",
+                  "href": "tel:08002810040"
+                },
+                {
+                  "text": ", segunda a sexta-feira, das 8h às 17h."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Use para reclamar de recusa indevida, mau atendimento ou problema num serviço municipal. Não substitui os números de emergência."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Registar manifestação",
+                  "href": "http://ouvidoria.recife.pe.gov.br/registre-sua-manifestacao"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shelter",
+      "title": "2. Acolhimento e acesso a abrigo",
+      "items": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "text": "Não se dirija diretamente a uma casa de acolhida contando com uma vaga.",
+              "strong": true
+            },
+            {
+              "text": " A maior parte da rede municipal exige avaliação e encaminhamento pelo Centro POP, CINPOP ou abordagem social. Informe a composição familiar e as necessidades específicas."
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "centro-pop-gloria-area-central",
+          "name": "Centro POP Glória — área central",
+          "last_verified": "2026-11-11",
+          "blocks": [
+            {
+              "type": "address",
+              "content": [
+                {
+                  "text": "Endereço publicado:",
+                  "strong": true
+                },
+                {
+                  "text": " Rua do Sossego, 563, Santo Amaro"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Telefone atualizado no Diário Oficial de 2026:",
+                  "strong": true
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "(81) 99332-2490",
+                  "href": "tel:+5581993322490"
+                },
+                {
+                  "text": ". "
+                },
+                {
+                  "text": "Horário:",
+                  "strong": true
+                },
+                {
+                  "text": " segunda a sexta-feira, das 8h às 17h."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Atendimento social para pessoas que usam a rua como moradia ou sobrevivência, com higiene, alimentação, lavandaria, descanso diurno, documentos e encaminhamento para acolhimento conforme avaliação e vaga."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Lista municipal de Centros POP",
+                  "href": "https://www2.recife.pe.gov.br/servico/creas-pop-para-populacao-em-situacao-de-rua"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "centro-pop-maria-lucia-casa-do-pao",
+          "name": "Centro POP Maria Lúcia — Casa do Pão",
+          "last_verified": "2026-11-11",
+          "blocks": [
+            {
+              "type": "address",
+              "content": [
+                {
+                  "text": "Endereço:",
+                  "strong": true
+                },
+                {
+                  "text": " Rua do Imperador Pedro II, 34–38, Santo Antônio, Recife"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Telefone municipal publicado:",
+                  "strong": true
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "(81) 3125-0103",
+                  "href": "tel:+558131250103"
+                },
+                {
+                  "text": ". Ligue para confirmar o fluxo e o horário antes de ir."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "A unidade funciona dentro da Casa do Pão e articula atendimento social, alimentação, higiene, documentos, saúde e orientação jurídica para pessoas em situação de rua."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Casa do Pão",
+                  "href": "https://www.casadopaorecife.org.br/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "centro-pop-neuza-gomes-madalena-e-regioes-2-a-5",
+          "name": "Centro POP Neuza Gomes — Madalena e regiões 2 a 5",
+          "last_verified": "2026-11-11",
+          "blocks": [
+            {
+              "type": "address",
+              "content": [
+                {
+                  "text": "Endereço:",
+                  "strong": true
+                },
+                {
+                  "text": " Rua Dr. João Coimbra, 66, Madalena, perto do Mercado da Madalena"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Telefone atualizado no Diário Oficial de 2026:",
+                  "strong": true
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "(81) 99488-6736",
+                  "href": "tel:+5581994886736"
+                },
+                {
+                  "text": ". "
+                },
+                {
+                  "text": "Horário:",
+                  "strong": true
+                },
+                {
+                  "text": " segunda a sexta-feira, das 8h às 17h."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Atendimento, higiene, alimentação, lavandaria, descanso e encaminhamento para a rede de acolhimento após avaliação social."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Centros POP do Recife",
+                  "href": "https://www2.recife.pe.gov.br/servico/creas-pop-para-populacao-em-situacao-de-rua"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "centro-pop-jose-pedro-zona-sul",
+          "name": "Centro POP José Pedro — zona sul",
+          "last_verified": "2026-11-11",
+          "blocks": [
+            {
+              "type": "address",
+              "content": [
+                {
+                  "text": "Endereço:",
+                  "strong": true
+                },
+                {
+                  "text": " Rua Sargento Waldir Correia, 247, Boa Viagem, perto da Estação Aeroporto"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Horário publicado:",
+                  "strong": true
+                },
+                {
+                  "text": " segunda a sexta-feira, das 8h às 17h. A Prefeitura não publica um telefone atual na página do serviço; confirme através do CINPOP ou compareça em horário de funcionamento."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Referência para Boa Viagem, Brasília Teimosa, Imbiribeira, Ipsep, Pina, Ibura, Jordão e Cohab."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Centros POP — áreas atendidas",
+                  "href": "https://www2.recife.pe.gov.br/servico/creas-pop-para-populacao-em-situacao-de-rua"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "abrigo-noturno-irma-dulce",
+          "name": "Abrigo Noturno Irmã Dulce",
+          "last_verified": "2026-11-11",
+          "blocks": [
+            {
+              "type": "address",
+              "content": [
+                {
+                  "text": "Endereço:",
+                  "strong": true
+                },
+                {
+                  "text": " Travessa do Gusmão, 178, São José, perto da Praça Sérgio Loreto"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Serviços:",
+                  "strong": true
+                },
+                {
+                  "text": " pernoite, alimentação, higiene e apoio psicossocial para adultos, pessoas idosas e pessoas com deficiência que conservem autonomia."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Acesso:",
+                  "strong": true
+                },
+                {
+                  "text": " peça avaliação num Centro POP, no CINPOP ou à abordagem social. A equipa verifica os critérios e a vaga e faz o encaminhamento. O abrigo funciona todos os dias, mas isso não significa que aceite chegada direta ou que haja vaga."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Como aceder ao Abrigo Noturno Irmã Dulce",
+                  "href": "https://conecta.recife.pe.gov.br/servico/358"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "acolhimento-municipal-para-adultos-e-familias",
+          "name": "Acolhimento municipal para adultos e famílias",
+          "last_verified": "2026-11-11",
+          "blocks": [
+            {
+              "type": "address",
+              "content": [
+                {
+                  "text": "Unidade indicada no portal:",
+                  "strong": true
+                },
+                {
+                  "text": " Rua Gregório Júnior, 370, Cordeiro, Recife"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "A rede oferece proteção provisória para indivíduos e famílias sem condições de autossustento. Mulheres com crianças e pessoas com deficiência têm prioridade publicada."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Acesso:",
+                  "strong": true
+                },
+                {
+                  "text": " avaliação e encaminhamento pelo Centro POP ou equipa de abordagem; não há garantia de vaga no mesmo dia."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Serviço de acolhimento para adultos e famílias",
+                  "href": "https://conecta.recife.pe.gov.br/servico/364"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "acolhimento-para-pessoas-com-60-anos-ou-mais",
+          "name": "Acolhimento para pessoas com 60 anos ou mais",
+          "last_verified": "2026-11-11",
+          "blocks": [
+            {
+              "type": "address",
+              "content": [
+                {
+                  "text": "Edusa Pereira:",
+                  "strong": true
+                },
+                {
+                  "text": " Rua Jerônimo Vilela, 515, Campo Grande"
+                },
+                {
+                  "break": true
+                },
+                {
+                  "text": "Ieda:",
+                  "strong": true
+                },
+                {
+                  "text": " Rua Áureo Xavier, 95, Cordeiro"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Acolhimento provisório com convivência, banho e refeições para pessoas idosas em situação de rua, abandono ou violência."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Acesso:",
+                  "strong": true
+                },
+                {
+                  "text": " procure o Centro POP ou a Delegacia do Idoso para avaliação. O encaminhamento depende de critérios e vaga; pessoas com 80 anos ou mais têm prioridade."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Acolhimento institucional para pessoas idosas",
+                  "href": "https://conecta.recife.pe.gov.br/servico/366"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "servico-de-acolhimento-em-republicas",
+          "name": "Serviço de Acolhimento em Repúblicas",
+          "last_verified": "2026-11-11",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Moradia subsidiada e apoio para grupos de adultos com vínculos familiares rompidos e sem condições de moradia ou autossustentação. Não é abrigo de entrada imediata."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Como pedir:",
+                  "strong": true
+                },
+                {
+                  "text": " pergunte ao técnico do Centro POP, CINPOP ou da casa de acolhida se o seu plano de acompanhamento permite encaminhamento para uma república."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Informação municipal sobre as repúblicas",
+                  "href": "https://www2.recife.pe.gov.br/servico/servico-de-acolhimento-em-republicas"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "food",
+      "title": "3. Refeições e alimentos",
+      "items": [
+        {
+          "type": "resource",
+          "id": "restaurantes-populares-refeicoes-gratuitas-com-encaminhamento",
+          "name": "Restaurantes Populares — refeições gratuitas com encaminhamento",
+          "last_verified": "2026-11-11",
+          "blocks": [
+            {
+              "type": "address",
+              "content": [
+                {
+                  "text": "Endereço publicado:",
+                  "strong": true
+                },
+                {
+                  "text": " Rua do Peixoto, 440, São José, Recife"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "A Prefeitura publica uma oferta diária total de 1.500 almoços e 100 jantares gratuitos para pessoas em situação de rua, através dos restaurantes Naíde Teodósio e Josué de Castro."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Antes de ir:",
+                  "strong": true
+                },
+                {
+                  "text": " procure um Centro POP ou o CINPOP. É necessária avaliação e indicação para o restaurante; a página municipal não publica os horários de distribuição nem garante refeição no mesmo dia."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Refeições gratuitas nos Restaurantes Populares",
+                  "href": "https://conecta.recife.pe.gov.br/servico/363"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "casa-do-pao-cafe-almoco-e-jantar",
+          "name": "Casa do Pão — café, almoço e jantar",
+          "last_verified": "2026-11-11",
+          "blocks": [
+            {
+              "type": "address",
+              "content": [
+                {
+                  "text": "Endereço:",
+                  "strong": true
+                },
+                {
+                  "text": " Rua do Imperador Pedro II, 34, Santo Antônio, Recife"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Serviços publicados:",
+                  "strong": true
+                },
+                {
+                  "text": " cerca de 2.000 refeições por semana, além de banho, roupa, corte de cabelo, atendimento social, médico, psicológico e jurídico."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Antes de ir:",
+                  "strong": true
+                },
+                {
+                  "text": " contacte a Casa do Pão pelo canal indicado no site para confirmar cadastro, horários e disponibilidade da refeição."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Casa do Pão — serviços",
+                  "href": "https://www.casadopaorecife.org.br/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "cinpop-refeitorio-e-atendimento-integrado",
+          "name": "CINPOP — refeitório e atendimento integrado",
+          "last_verified": "2026-11-11",
+          "blocks": [
+            {
+              "type": "address",
+              "content": [
+                {
+                  "text": "Endereço:",
+                  "strong": true
+                },
+                {
+                  "text": " Rua Coelho Leite, 677, Santo Amaro"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Horário publicado:",
+                  "strong": true
+                },
+                {
+                  "text": " segunda a sexta-feira, das 7h30 às 17h."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "O equipamento tem refeitório e reúne alimentação com assistência social, higiene, documentos e qualificação. A capacidade publicada é de cerca de 150 atendimentos por dia; chegar não garante refeição."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "CINPOP — informação oficial",
+                  "href": "https://www2.recife.pe.gov.br/noticias/06/11/2025/recife-inova-com-inauguracao-do-primeiro-centro-integrado-de-atencao-populacao"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "grupo-ampare-rondas-e-banho-solidario",
+          "name": "Grupo Ampare — rondas e Banho Solidário",
+          "last_verified": "2026-11-11",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "A organização realiza rondas com comida, escuta e itens essenciais e promove o Banho Solidário, com chuveiro, roupa limpa, higiene, alimentação e ações de saúde."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Importante:",
+                  "strong": true
+                },
+                {
+                  "text": " é um serviço móvel e as datas e locais variam. Consulte os canais atuais da organização antes de depender da próxima ação."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Grupo Ampare — ações atuais",
+                  "href": "https://www.grupoampare.com.br/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "nossa-ronda-solidaria",
+          "name": "Nossa Ronda Solidária",
+          "last_verified": "2026-11-11",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "A organização informa que sai às ruas a cada 15 dias com refeições, bebidas, kits de higiene, roupa e escuta. O percurso e o dia podem mudar."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Como usar:",
+                  "strong": true
+                },
+                {
+                  "text": " consulte a programação publicada ou contacte a organização para saber o próximo ponto. Não há local fixo de refeição diária."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Nossa Ronda Solidária",
+                  "href": "https://nossarondasolidaria.org.br/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "maos-que-alimentam-adra-pernambuco",
+          "name": "Mãos que Alimentam — ADRA Pernambuco",
+          "last_verified": "2026-11-11",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Projeto que distribui refeições prontas a comunidades vulneráveis e pessoas em situação de rua na Região Metropolitana do Recife. A ADRA informa atendimento semanal a mais de 500 pessoas."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Antes de depender da ação:",
+                  "strong": true
+                },
+                {
+                  "text": " o projeto é itinerante; pergunte à organização quando e onde será a próxima distribuição."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Mãos que Alimentam",
+                  "href": "https://adra.org.br/projetos/maos-que-alimentam-pe/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "associacao-caminho-do-bem",
+          "name": "Associação Caminho do Bem",
+          "last_verified": "2026-11-11",
+          "blocks": [
+            {
+              "type": "address",
+              "content": [
+                {
+                  "text": "Endereço de contacto:",
+                  "strong": true
+                },
+                {
+                  "text": " Rua José Rodrigues, 544, Pina, Recife"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Telefone:",
+                  "strong": true
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "(81) 99247-0514",
+                  "href": "tel:+5581992470514"
+                },
+                {
+                  "text": "."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "O programa Amor ao Próximo leva alimentação e cuidado a pessoas em situação de rua, mas não funciona como restaurante diário. Ligue para saber a próxima ação ou se existe encaminhamento disponível."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Caminho do Bem — contacto",
+                  "href": "https://ongcaminhodobem.org.br/contato/"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "basic",
+      "title": "4. Banho, roupa, lavandaria, internet e guarda-volumes",
+      "items": [
+        {
+          "type": "resource",
+          "id": "cinpop-banho-lavandaria-roupa-e-guarda-volumes",
+          "name": "CINPOP — banho, lavandaria, roupa e guarda-volumes",
+          "last_verified": "2026-11-11",
+          "blocks": [
+            {
+              "type": "address",
+              "content": [
+                {
+                  "text": "Endereço:",
+                  "strong": true
+                },
+                {
+                  "text": " Rua Coelho Leite, 677, Santo Amaro"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Horário publicado:",
+                  "strong": true
+                },
+                {
+                  "text": " segunda a sexta-feira, das 7h30 às 17h."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Dispõe de guarda-volumes, lavandaria, closet social, espaço de beleza, repouso, refeições e atendimento para documentação. Pergunte na receção a ordem e o limite diário de cada serviço."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Serviços atuais do CINPOP",
+                  "href": "https://www2.recife.pe.gov.br/noticias/19/08/2026/recife-anuncia-implantacao-do-centro-de-referencia-de-politicas-sobre-drogas"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "casa-do-pao-banho-roupa-e-corte-de-cabelo",
+          "name": "Casa do Pão — banho, roupa e corte de cabelo",
+          "last_verified": "2026-11-11",
+          "blocks": [
+            {
+              "type": "address",
+              "content": [
+                {
+                  "text": "Endereço:",
+                  "strong": true
+                },
+                {
+                  "text": " Rua do Imperador Pedro II, 34, Santo Antônio"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "A instituição publica higiene pessoal, banho, roupa e corte de cabelo, juntamente com alimentação e atendimento social. Confirme o horário e o processo de cadastro antes de ir."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Casa do Pão",
+                  "href": "https://www.casadopaorecife.org.br/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "centros-pop-higiene-e-descanso-durante-o-dia",
+          "name": "Centros POP — higiene e descanso durante o dia",
+          "last_verified": "2026-11-11",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Os Centros POP oferecem banho, alimentação, lavandaria, atendimento social e descanso durante o dia. Procure a unidade correspondente à sua região; leve os documentos que tiver, mas peça orientação mesmo que esteja sem identificação."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Horário geral publicado:",
+                  "strong": true
+                },
+                {
+                  "text": " segunda a sexta-feira, das 8h às 17h. Confirme na unidade, pois a capacidade diária pode encerrar antes."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Serviços de higiene e apoio nos Centros POP",
+                  "href": "https://conecta.recife.pe.gov.br/servico/364"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "grupo-ampare-banho-solidario",
+          "name": "Grupo Ampare — Banho Solidário",
+          "last_verified": "2026-11-11",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "A ação oferece chuveiro, roupa limpa, kits de higiene, alimento e, em algumas edições, saúde e vacinação. O local não é fixo."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Consulte a programação atual da organização. Não faça uma longa deslocação sem confirmar data, hora e ponto da ação."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Grupo Ampare",
+                  "href": "https://www.grupoampare.com.br/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "espacos-conecta-ajuda-presencial-com-servicos-digitais",
+          "name": "Espaços Conecta — ajuda presencial com serviços digitais",
+          "last_verified": "2026-11-11",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Atendentes ajudam gratuitamente a aceder a serviços municipais e federais, documentos e marcações. Uma opção próxima do centro é o Compaz Dom Hélder, Rua Lourenço de Sá, 140, Ilha Joana Bezerra, de segunda a sexta-feira, das 8h às 17h."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Existem ainda unidades no Compaz Eduardo Campos, Ariano Suassuna, Paulo Freire e Leda Alves. Verifique o endereço e horário mais útil na página oficial."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Espaços Conecta — locais e horários",
+                  "href": "https://conecta.recife.pe.gov.br/servico/982"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "conecta-recife-wifi-internet-publica-gratuita",
+          "name": "Conecta Recife WiFi — internet pública gratuita",
+          "last_verified": "2026-11-11",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "A rede municipal oferece Wi-Fi gratuito em centenas de praças, parques, terminais, mercados e centros culturais. Procure a rede “Conecta Recife” e siga o cadastro breve."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Segurança:",
+                  "strong": true
+                },
+                {
+                  "text": " evite guardar palavras-passe no computador de outra pessoa e termine a sessão de contas e benefícios ao sair."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Conecta Recife — internet gratuita",
+                  "href": "https://www.emprel.gov.br/conecta-recife-0"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "health",
+      "title": "5. Saúde, saúde mental e dependências",
+      "items": [
+        {
+          "type": "resource",
+          "id": "samu-e-rede-publica-de-urgencia",
+          "name": "SAMU e rede pública de urgência",
+          "last_verified": "2026-11-11",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Urgência médica:",
+                  "strong": true
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "192",
+                  "href": "tel:192"
+                },
+                {
+                  "text": "."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Chame o SAMU para dificuldade de respirar, dor forte no peito, perda de consciência, convulsão, ferimento grave, overdose ou outra situação potencialmente fatal. Para problemas não emergentes, peça ao Consultório na Rua ou ao CINPOP encaminhamento para a unidade SUS correta."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Saúde e urgências no Recife",
+                  "href": "https://visit.recife.pe.gov.br/informacoes/saude/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "consultorio-na-rua",
+          "name": "Consultório na Rua",
+          "last_verified": "2026-11-11",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Equipas multiprofissionais fazem escuta, curativos, vacinação, enfermagem, psicologia, redução de danos e encaminhamento para outros serviços de saúde. O acesso é destinado a quem está a viver na rua e não exige residência fixa."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Como encontrar:",
+                  "strong": true
+                },
+                {
+                  "text": " peça no Centro POP ou CINPOP o ponto e o horário da equipa mais próxima. As regiões central e sul têm cobertura ampliada, inclusive fins de semana e feriados."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Consultório na Rua — dados oficiais",
+                  "href": "https://dados.recife.pe.gov.br/dataset/consultorio-na-rua"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "casa-do-pao-consultas-voluntarias",
+          "name": "Casa do Pão — consultas voluntárias",
+          "last_verified": "2026-11-11",
+          "blocks": [
+            {
+              "type": "address",
+              "content": [
+                {
+                  "text": "Endereço:",
+                  "strong": true
+                },
+                {
+                  "text": " Rua do Imperador Pedro II, 34, Santo Antônio"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "A instituição publica consultas e acompanhamento semanais em clínica geral, dermatologia, angiologia, cardiologia e psicologia. Especialidades e profissionais voluntários podem mudar."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Contacte antes para saber o dia, os documentos pedidos e se ainda há vagas."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Casa do Pão — assistência médica e psicológica",
+                  "href": "https://www.casadopaorecife.org.br/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "caps-ad-alcool-e-outras-drogas",
+          "name": "CAPS AD — álcool e outras drogas",
+          "last_verified": "2026-11-11",
+          "blocks": [
+            {
+              "type": "address",
+              "content": [
+                {
+                  "text": "Unidade publicada no portal:",
+                  "strong": true
+                },
+                {
+                  "text": " Rua Rondônia, 100, Zumbi, Recife"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Atendimento público para pessoas com consumo problemático de álcool ou outras drogas, com acolhimento, redução de danos e construção de plano de cuidado. O primeiro atendimento avalia a necessidade e a unidade de referência."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Em overdose, inconsciência, convulsão ou perigo imediato, ligue 192; não espere pelo CAPS."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Atendimento no CAPS AD",
+                  "href": "https://conecta.recife.pe.gov.br/servico/1194"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "crise-emocional-e-prevencao-do-suicidio",
+          "name": "Crise emocional e prevenção do suicídio",
+          "last_verified": "2026-11-11",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "CVV:",
+                  "strong": true
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "188",
+                  "href": "tel:188"
+                },
+                {
+                  "text": ", gratuito, 24 horas. Para risco imediato, tentativa, violência ou necessidade médica urgente, ligue "
+                },
+                {
+                  "text": "192",
+                  "href": "tel:192"
+                },
+                {
+                  "text": " ou "
+                },
+                {
+                  "text": "190",
+                  "href": "tel:190"
+                },
+                {
+                  "text": "."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Também pode pedir ao Consultório na Rua, Centro POP, CINPOP ou unidade de saúde encaminhamento para a rede de saúde mental."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Centro de Valorização da Vida",
+                  "href": "https://cvv.org.br/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "cta-sae-gouveia-de-barros-hiv-e-outras-ist",
+          "name": "CTA/SAE Gouveia de Barros — HIV e outras IST",
+          "last_verified": "2026-11-11",
+          "blocks": [
+            {
+              "type": "address",
+              "content": [
+                {
+                  "text": "Endereço:",
+                  "strong": true
+                },
+                {
+                  "text": " Rua do Pombal, 115, Santo Amaro, Recife"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Centro municipal de testagem e aconselhamento para HIV, sífilis e hepatites B e C. A rede também oferece cuidado e tratamento de HIV no SAE Lessa de Andrade, Estrada dos Remédios, 2416, Madalena."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Confirme o horário antes de ir. Se a exposição sexual foi muito recente, diga isso imediatamente para avaliação de profilaxia pós-exposição."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Testagem e cuidado de HIV/IST no Recife",
+                  "href": "https://conecta.recife.pe.gov.br/servico/1186"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "ouvidoria-municipal-de-saude",
+          "name": "Ouvidoria Municipal de Saúde",
+          "last_verified": "2026-11-11",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Telefone:",
+                  "strong": true
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "0800 281 1520",
+                  "href": "tel:08002811520"
+                },
+                {
+                  "text": ", segunda a sexta-feira, das 7h às 19h."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Use para orientação sobre a rede, reclamação de atendimento ou dificuldade com um serviço municipal de saúde. Não é linha de emergência."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Contacto publicado pela Secretaria de Saúde",
+                  "href": "https://conecta.recife.pe.gov.br/servico/1194"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "benefits",
+      "title": "6. Cadastro Único, benefícios e habitação",
+      "items": [
+        {
+          "type": "resource",
+          "id": "central-do-cadastro-unico-do-recife",
+          "name": "Central do Cadastro Único do Recife",
+          "last_verified": "2026-11-11",
+          "blocks": [
+            {
+              "type": "address",
+              "content": [
+                {
+                  "text": "Endereço atual publicado:",
+                  "strong": true
+                },
+                {
+                  "text": " Rua Doutor João Vieira de Menezes, 401, Santo Amaro, Recife"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Horário publicado:",
+                  "strong": true
+                },
+                {
+                  "text": " segunda a sexta-feira, das 7h às 15h30. O atendimento nos CRAS costuma funcionar das 8h às 17h e pode exigir marcação."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Inscrição e atualização do CadÚnico para acesso a programas como Bolsa Família, Tarifa Social e outros benefícios sujeitos a critérios. Leve CPF, documento de identidade e os documentos que possuir das pessoas da família; se lhe faltar algo, peça orientação antes de desistir."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Cadastro Único no Recife",
+                  "href": "https://cadunico.recife.pe.gov.br/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "cadastro-unico-para-quem-nao-tem-morada-fixa",
+          "name": "Cadastro Único para quem não tem morada fixa",
+          "last_verified": "2026-11-11",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Uma pessoa em situação de rua pode fazer o CadÚnico. Se não tiver endereço, pode usar como referência o Centro POP, CREAS ou unidade de acolhimento onde é acompanhada."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "O Centro POP ou CINPOP também pode orientar sobre CPF, título de eleitor e outros documentos necessários. A inscrição não garante aprovação imediata de benefício."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Orientação federal para população em situação de rua",
+                  "href": "https://www.gov.br/mds/pt-br/acoes-e-programas/SUAS/original/servicos-e-programas/populacao-em-situacao-de-rua-no-cadastro-unico"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "cras-assistencia-social-no-territorio",
+          "name": "CRAS — assistência social no território",
+          "last_verified": "2026-11-11",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Os Centros de Referência de Assistência Social orientam sobre CadÚnico, benefícios eventuais e acompanhamento familiar. A unidade correta depende do bairro onde a pessoa vive ou mantém referência."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Se está a viver na rua:",
+                  "strong": true
+                },
+                {
+                  "text": " comece pelo Centro POP ou CINPOP, que pode referenciá-lo sem exigir morada convencional."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Endereços dos CRAS e atendimento CadÚnico",
+                  "href": "https://cadunico.recife.pe.gov.br/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "inss-e-beneficio-de-prestacao-continuada-bpc",
+          "name": "INSS e Benefício de Prestação Continuada (BPC)",
+          "last_verified": "2026-11-11",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Telefone do INSS:",
+                  "strong": true
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "135",
+                  "href": "tel:135"
+                },
+                {
+                  "text": ", de segunda a sábado, das 7h às 22h, horário de Brasília."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "O BPC pode atender pessoa com deficiência ou pessoa idosa com 65 anos ou mais em família de baixa renda, após análise. É necessário CadÚnico atualizado e CPF; não é aposentadoria e não é automático."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "BPC para pessoa com deficiência",
+                  "href": "https://www.gov.br/inss/pt-br/direitos-e-deveres/beneficios-assistenciais/beneficio-assistencial-a-pessoa-com-deficiencia-bpc-loas"
+                },
+                {
+                  "text": " | "
+                },
+                {
+                  "text": "BPC para pessoa idosa",
+                  "href": "https://www.gov.br/inss/pt-br/direitos-e-deveres/beneficios-assistenciais/beneficio-assistencial-a-pessoa-idosa-bpc-loas"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "apoio-para-habitacao-e-saida-da-rua",
+          "name": "Apoio para habitação e saída da rua",
+          "last_verified": "2026-11-11",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Peça ao técnico do Centro POP ou CINPOP uma avaliação do seu caso, atualização do CadÚnico e informação sobre acolhimento, república, benefícios eventuais e programas habitacionais abertos. O município não publica uma fila de “casa imediata” para entrada direta."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Guarde protocolos, comprovativos de atendimento e contactos do técnico. Desconfie de quem cobrar dinheiro para garantir vaga ou benefício público."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Secretaria de Assistência Social e Combate à Fome",
+                  "href": "https://www2.recife.pe.gov.br/pagina/secretaria-de-assistencia-social-e-combate-fome"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jobs",
+      "title": "7. Emprego, formação e rendimento",
+      "items": [
+        {
+          "type": "resource",
+          "id": "casa-do-trabalhador-do-recife",
+          "name": "Casa do Trabalhador do Recife",
+          "last_verified": "2026-11-11",
+          "blocks": [
+            {
+              "type": "address",
+              "content": [
+                {
+                  "text": "Endereço:",
+                  "strong": true
+                },
+                {
+                  "text": " Rua da Aurora, 425, Boa Vista, Recife"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Telefone:",
+                  "strong": true
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "(81) 3183-7016",
+                  "href": "tel:+558131837016"
+                },
+                {
+                  "text": ". "
+                },
+                {
+                  "text": "Horário:",
+                  "strong": true
+                },
+                {
+                  "text": " segunda a sexta-feira, das 8h às 17h."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Orientação sobre vagas, intermediação de emprego e serviços do trabalhador. Leve os documentos que tiver e pergunte o que pode ser iniciado enquanto recupera a identificação ou a Carteira de Trabalho Digital."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Casa do Trabalhador — contacto oficial",
+                  "href": "https://www.sedepe.pe.gov.br/unidade/casa-do-trabalhador-recife/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "go-recife-vagas-e-curriculo",
+          "name": "GO Recife — vagas e currículo",
+          "last_verified": "2026-11-11",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Plataforma municipal para procurar oportunidades e cadastrar currículo. Quem não tem computador ou precisa de ajuda pode usar um Espaço Conecta ou pedir apoio no CINPOP."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Cuidado:",
+                  "strong": true
+                },
+                {
+                  "text": " uma vaga legítima não deve exigir pagamento antecipado, compra de material, transferência por PIX ou entrega da palavra-passe do Gov.br."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "GO Recife",
+                  "href": "https://gorecife.recife.pe.gov.br/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "cinpop-qualificacao-e-inclusao-produtiva",
+          "name": "CINPOP — qualificação e inclusão produtiva",
+          "last_verified": "2026-11-11",
+          "blocks": [
+            {
+              "type": "address",
+              "content": [
+                {
+                  "text": "Endereço:",
+                  "strong": true
+                },
+                {
+                  "text": " Rua Coelho Leite, 677, Santo Amaro"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "O centro oferece oficinas e cursos de qualificação para pessoas em situação de rua e apoio para documentos, apresentação pessoal e reinserção produtiva. As turmas e critérios mudam."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Pergunte na receção pelas inscrições abertas e se existe ajuda para transporte, material ou recuperação de documentos."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Cursos e inclusão produtiva no CINPOP",
+                  "href": "https://www2.recife.pe.gov.br/noticias/19/08/2026/recife-anuncia-implantacao-do-centro-de-referencia-de-politicas-sobre-drogas"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "casa-do-pao-formacao-profissional",
+          "name": "Casa do Pão — formação profissional",
+          "last_verified": "2026-11-11",
+          "blocks": [
+            {
+              "type": "address",
+              "content": [
+                {
+                  "text": "Endereço:",
+                  "strong": true
+                },
+                {
+                  "text": " Rua do Imperador Pedro II, 34, Santo Antônio"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "A Casa do Pão publica formação profissional em parceria com outras instituições. Não são cursos permanentes e pode haver cadastro ou seleção."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Consulte quais turmas estão abertas e peça apoio para documentos e inscrição."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Casa do Pão — formação",
+                  "href": "https://www.casadopaorecife.org.br/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "carteira-de-trabalho-digital",
+          "name": "Carteira de Trabalho Digital",
+          "last_verified": "2026-11-11",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "O serviço federal permite consultar contratos, abono salarial e benefícios e apresentar o CPF como identificação da carteira. O acesso usa conta Gov.br."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Se não tem telefone, internet, CPF regular ou consegue entrar na conta, peça ajuda no Espaço Conecta, CINPOP ou Casa do Trabalhador. Nunca dê a palavra-passe a um recrutador."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Carteira de Trabalho Digital",
+                  "href": "https://www.gov.br/pt-br/temas/carteira-de-trabalho-digital"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "documents",
+      "title": "8. Documentos, apoio jurídico e direitos",
+      "items": [
+        {
+          "type": "resource",
+          "id": "cinpop-documentos-e-orientacao-juridica",
+          "name": "CINPOP — documentos e orientação jurídica",
+          "last_verified": "2026-11-11",
+          "blocks": [
+            {
+              "type": "address",
+              "content": [
+                {
+                  "text": "Endereço:",
+                  "strong": true
+                },
+                {
+                  "text": " Rua Coelho Leite, 677, Santo Amaro"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Apoia emissão e regularização de documentos e reúne orientação jurídica, mediação, conciliação e mutirões de certidões em parceria com outros órgãos. Os serviços disponíveis variam por dia."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Leve qualquer documento, fotografia, boletim de ocorrência ou cópia que ainda possua. Peça uma lista escrita do que falta e onde obter cada item."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Documentação e justiça no CINPOP",
+                  "href": "https://www2.recife.pe.gov.br/noticias/06/11/2025/recife-inova-com-inauguracao-do-primeiro-centro-integrado-de-atencao-populacao"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "expresso-recife-e-apoio-com-cpf-e-certidoes",
+          "name": "Expresso Recife e apoio com CPF e certidões",
+          "last_verified": "2026-11-11",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "O serviço municipal auxilia pessoas vulneráveis com CPF e com segundas vias de certidões e identidade. A localização dos serviços mudou ao longo do tempo."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Antes de ir:",
+                  "strong": true
+                },
+                {
+                  "text": " confirme no CINPOP ou na Central do CadÚnico, Rua Doutor João Vieira de Menezes, 401, Santo Amaro, onde o atendimento documental está a ser feito e se precisa de marcação."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Apoio municipal com CPF e documentos",
+                  "href": "https://www2.recife.pe.gov.br/noticias/29/04/2022/parceria-entre-pcr-e-receita-oferece-servicos-para-populacao-vulneravel"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "carteira-de-identidade-nacional-cin",
+          "name": "Carteira de Identidade Nacional (CIN)",
+          "last_verified": "2026-11-11",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "A primeira via da CIN é gratuita. A segunda via pode ter taxa; existem hipóteses de isenção e orientação social. O serviço pode ser marcado online ou feito presencialmente nos postos indicados pelo Estado."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Normalmente é necessária certidão de nascimento ou casamento e CPF. Se perdeu tudo ou não consegue pagar, procure primeiro o CINPOP, Centro POP ou Casa do Pão."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Emitir primeira ou segunda via da identidade",
+                  "href": "https://conecta.recife.pe.gov.br/servico/923"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "casa-do-pao-defensorias-e-recuperacao-de-documentos",
+          "name": "Casa do Pão — Defensorias e recuperação de documentos",
+          "last_verified": "2026-11-11",
+          "blocks": [
+            {
+              "type": "address",
+              "content": [
+                {
+                  "text": "Endereço:",
+                  "strong": true
+                },
+                {
+                  "text": " Rua do Imperador Pedro II, 34, Santo Antônio"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "A instituição publica assessoria jurídica em parceria com a Defensoria Pública da União e a Defensoria Pública do Estado, incluindo orientação para recuperar documentos."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Confirme o dia da equipa jurídica e leve os papéis relacionados com o problema. O atendimento depende da presença dos parceiros e da capacidade."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Casa do Pão — assistência jurídica",
+                  "href": "https://www.casadopaorecife.org.br/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "defensoria-publica-de-pernambuco",
+          "name": "Defensoria Pública de Pernambuco",
+          "last_verified": "2026-11-11",
+          "blocks": [
+            {
+              "type": "address",
+              "content": [
+                {
+                  "text": "Sede indicada no portal:",
+                  "strong": true
+                },
+                {
+                  "text": " Avenida Manoel Borba, 640, Boa Vista, Recife"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Atendente virtual no WhatsApp:",
+                  "strong": true
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "(81) 3182-3740",
+                  "href": "tel:+558131823740"
+                },
+                {
+                  "text": "."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Assistência jurídica gratuita em matérias estaduais, como família, guarda, moradia, consumidor e defesa criminal, conforme triagem. A unidade pode depender da área do problema; confirme pelo canal oficial antes de ir."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Defensoria Pública de Pernambuco",
+                  "href": "https://www.defensoria.pe.def.br/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "centro-de-referencia-em-direitos-humanos-margarida-alves",
+          "name": "Centro de Referência em Direitos Humanos Margarida Alves",
+          "last_verified": "2026-11-11",
+          "blocks": [
+            {
+              "type": "address",
+              "content": [
+                {
+                  "text": "Endereço:",
+                  "strong": true
+                },
+                {
+                  "text": " Cais do Apolo, 925, 6.º andar, Bairro do Recife"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Telefone:",
+                  "strong": true
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "(81) 3355-9221",
+                  "href": "tel:+558133559221"
+                },
+                {
+                  "text": ". "
+                },
+                {
+                  "text": "Horário:",
+                  "strong": true
+                },
+                {
+                  "text": " segunda a sexta-feira, das 8h às 17h."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Atende violações de direitos e articula proteção para grupos vulnerabilizados. Se o perigo estiver a acontecer agora, ligue 190 antes de esperar atendimento administrativo."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Serviços municipais de direitos humanos",
+                  "href": "https://www2.recife.pe.gov.br/pagina/secretaria-de-direitos-humanos-e-juventude-sdhj"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "disque-100-denuncia-e-protocolo",
+          "name": "Disque 100 — denúncia e protocolo",
+          "last_verified": "2026-11-11",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Telefone:",
+                  "strong": true
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "100",
+                  "href": "tel:100"
+                },
+                {
+                  "text": ", gratuito."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Descreva a pessoa ou grupo afetado, local, data, responsáveis e risco atual. Peça e guarde o número do protocolo. Pode denunciar violência, discriminação, expulsão indevida, retenção de documentos e outras violações."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Disque Direitos Humanos",
+                  "href": "https://www.gov.br/mdh/pt-br/ondh/"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "safety",
+      "title": "9. Mulheres, crianças, LGBTQIA+, migrantes e pessoas idosas",
+      "items": [
+        {
+          "type": "resource",
+          "id": "ligue-180-violencia-contra-a-mulher",
+          "name": "Ligue 180 — violência contra a mulher",
+          "last_verified": "2026-11-11",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Telefone:",
+                  "strong": true
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "180",
+                  "href": "tel:180"
+                },
+                {
+                  "text": ", gratuito, 24 horas. Em agressão em curso ou risco imediato, ligue "
+                },
+                {
+                  "text": "190",
+                  "href": "tel:190"
+                },
+                {
+                  "text": "."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Orienta sobre proteção, denúncia, Casa Abrigo, Delegacia da Mulher e serviços locais. Não confronte o agressor nem revele o endereço de um abrigo protegido."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Central de Atendimento à Mulher",
+                  "href": "https://www.gov.br/mulheres/pt-br/ligue180"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "centro-de-referencia-clarice-lispector",
+          "name": "Centro de Referência Clarice Lispector",
+          "last_verified": "2026-11-11",
+          "blocks": [
+            {
+              "type": "address",
+              "content": [
+                {
+                  "text": "Endereço:",
+                  "strong": true
+                },
+                {
+                  "text": " Rua Doutor Silva Ferreira, 122, Santo Amaro, Recife"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Telefone publicado:",
+                  "strong": true
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "(81) 3355-3008",
+                  "href": "tel:+558133553008"
+                },
+                {
+                  "text": "."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Acolhimento e orientação para mulheres adultas em situação de violência doméstica ou sexista, com equipa de serviço social, psicologia e apoio jurídico. Ligue para confirmar o atendimento e discutir segurança antes de se deslocar."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Rede especializada de atendimento a vítimas",
+                  "href": "https://portal.tjpe.jus.br/web/infancia-e-juventude/coordenadoria/ceavida/rede-especializada-de-atendimento-a-vitimas"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "centro-municipal-de-referencia-em-cidadania-lgbti",
+          "name": "Centro Municipal de Referência em Cidadania LGBTI+",
+          "last_verified": "2026-11-11",
+          "blocks": [
+            {
+              "type": "address",
+              "content": [
+                {
+                  "text": "Endereço:",
+                  "strong": true
+                },
+                {
+                  "text": " Rua dos Médicis, 86, Boa Vista, Recife"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Telefone:",
+                  "strong": true
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "(81) 3355-9890",
+                  "href": "tel:+558133559890"
+                },
+                {
+                  "text": ". "
+                },
+                {
+                  "text": "Horário:",
+                  "strong": true
+                },
+                {
+                  "text": " segunda a sexta-feira, das 8h às 17h."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Atendimento e articulação da rede para vítimas de discriminação e violência por orientação sexual ou identidade de género. Em perigo imediato, ligue 190."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Centro LGBTI+ do Recife",
+                  "href": "https://www2.recife.pe.gov.br/servico/centro-de-referencia-em-cidadania-lgbt"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "centro-popinho-criancas-e-adolescentes-em-situacao-de-rua",
+          "name": "Centro Popinho — crianças e adolescentes em situação de rua",
+          "last_verified": "2026-11-11",
+          "blocks": [
+            {
+              "type": "address",
+              "content": [
+                {
+                  "text": "Endereço:",
+                  "strong": true
+                },
+                {
+                  "text": " Rua Bernardo Guimarães, 428, Santo Amaro, Recife"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Telefone:",
+                  "strong": true
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "(81) 98847-9718",
+                  "href": "tel:+5581988479718"
+                },
+                {
+                  "text": ". "
+                },
+                {
+                  "text": "Horário publicado:",
+                  "strong": true
+                },
+                {
+                  "text": " todos os dias, das 8h às 18h."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Unidade especializada para crianças e adolescentes dos 7 aos 17 anos, com atendimento e acompanhamento. Para violência, abandono, exploração ou outra violação, ligue também ao Disque 100; em risco imediato, 190 ou 192."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Centro Popinho — informação oficial",
+                  "href": "https://www2.recife.pe.gov.br/noticias/04/10/2023/prefeitura-do-recife-abre-centro-de-referencia-para-criancas-e-adolescentes-em"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "casa-de-direitos-caritas-para-migrantes-e-refugiados",
+          "name": "Casa de Direitos — Cáritas para migrantes e refugiados",
+          "last_verified": "2026-11-11",
+          "blocks": [
+            {
+              "type": "address",
+              "content": [
+                {
+                  "text": "Endereço:",
+                  "strong": true
+                },
+                {
+                  "text": " Rua do Príncipe, 526, Bloco E, 1.º andar, Boa Vista, Recife"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Telefones/WhatsApp:",
+                  "strong": true
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "(81) 98223-1741",
+                  "href": "tel:+5581982231741"
+                },
+                {
+                  "text": " ou "
+                },
+                {
+                  "text": "(81) 99101-3873",
+                  "href": "tel:+5581991013873"
+                },
+                {
+                  "text": ". "
+                },
+                {
+                  "text": "Horário publicado:",
+                  "strong": true
+                },
+                {
+                  "text": " segunda a sexta, das 8h às 12h e das 13h às 17h."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Apoio a migrantes e refugiados em situação de vulnerabilidade. Contacte antes para confirmar os serviços disponíveis, idiomas e documentos necessários."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Rede humanitária — Cáritas Pernambuco",
+                  "href": "https://migrasegura.org/pt-br/informacao/necesidades-basicas-lista/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "acolhimento-protegido-para-pessoas-idosas",
+          "name": "Acolhimento protegido para pessoas idosas",
+          "last_verified": "2026-11-11",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Pessoas com 60 anos ou mais em situação de rua, abandono ou violência podem pedir avaliação no Centro POP ou na Delegacia do Idoso para as unidades Edusa Pereira e Ieda. O encaminhamento depende da avaliação e da vaga."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Para violência ou negligência, ligue "
+                },
+                {
+                  "text": "100",
+                  "href": "tel:100"
+                },
+                {
+                  "text": "; em perigo imediato, "
+                },
+                {
+                  "text": "190",
+                  "href": "tel:190"
+                },
+                {
+                  "text": "."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Acolhimento para pessoas idosas",
+                  "href": "https://conecta.recife.pe.gov.br/servico/366"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "nucleo-antirracista-de-pernambuco",
+          "name": "Núcleo Antirracista de Pernambuco",
+          "last_verified": "2026-11-11",
+          "blocks": [
+            {
+              "type": "address",
+              "content": [
+                {
+                  "text": "Endereço:",
+                  "strong": true
+                },
+                {
+                  "text": " Rua do Bom Jesus, 94, Praça do Arsenal, Bairro do Recife"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Canal da Ouvidoria estadual para acolher e encaminhar denúncias de racismo. Leve ou preserve mensagens, fotografias, nomes de testemunhas e outros elementos, quando for seguro fazê-lo."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Em violência ou ameaça imediata, ligue 190."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Núcleo Antirracista — contactos",
+                  "href": "https://sjdh.pe.gov.br/programas-e-projetos/nucleo-antirracista-ouvdh/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "secretaria-de-direitos-humanos-e-juventude",
+          "name": "Secretaria de Direitos Humanos e Juventude",
+          "last_verified": "2026-11-11",
+          "blocks": [
+            {
+              "type": "address",
+              "content": [
+                {
+                  "text": "Endereço:",
+                  "strong": true
+                },
+                {
+                  "text": " Cais do Apolo, 925, 6.º andar, Bairro do Recife"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Telefone:",
+                  "strong": true
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "(81) 3355-8205",
+                  "href": "tel:+558133558205"
+                },
+                {
+                  "text": ". "
+                },
+                {
+                  "text": "Horário:",
+                  "strong": true
+                },
+                {
+                  "text": " segunda a sexta-feira, das 8h às 17h."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Articula políticas e serviços para crianças e adolescentes, pessoas idosas, pessoas com deficiência, igualdade racial e população LGBTQIA+."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Secretaria de Direitos Humanos e Juventude",
+                  "href": "https://www2.recife.pe.gov.br/pagina/secretaria-de-direitos-humanos-e-juventude-sdhj"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pets",
+      "title": "10. Ajuda com animais",
+      "items": [
+        {
+          "type": "resource",
+          "id": "hospital-veterinario-do-recife-atendimento-publico",
+          "name": "Hospital Veterinário do Recife — atendimento público",
+          "last_verified": "2026-11-11",
+          "blocks": [
+            {
+              "type": "address",
+              "content": [
+                {
+                  "text": "Endereço:",
+                  "strong": true
+                },
+                {
+                  "text": " Avenida Professor Estevão Francisco da Costa, s/n, Cordeiro, Recife"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Emergência:",
+                  "strong": true
+                },
+                {
+                  "text": " a Prefeitura anunciou atendimento 24 horas em março de 2026. "
+                },
+                {
+                  "text": "Marcação de consultas e procedimentos:",
+                  "strong": true
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "(81) 3355-1670",
+                  "href": "tel:+558133551670"
+                },
+                {
+                  "text": ", segunda a sexta-feira."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Atendimento gratuito dirigido principalmente a tutores de baixa renda e a cães e gatos de residentes no Recife. Consultas eletivas, exames e cirurgias exigem marcação e critérios; leve documento e comprovativo que tiver."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Hospital Veterinário — emergência 24 horas",
+                  "href": "https://www2.recife.pe.gov.br/noticias/19/03/2026/hospital-veterinario-do-recife-passa-por-ampliacao-e-agora-conta-com-emergencia"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "conecta-patinhas-orientacao-veterinaria-gratuita",
+          "name": "Conecta Patinhas — orientação veterinária gratuita",
+          "last_verified": "2026-11-11",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Teletriagem e teleorientação por vídeo para tutores de cães e gatos do Recife. O animal deve estar junto do tutor durante a chamada; a equipa informa se é necessário atendimento presencial."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "A teleconsulta completa exige que o animal já tenha passado pelo Hospital Veterinário nos 180 dias anteriores. Use um Espaço Conecta se não tiver internet ou precisar de ajuda digital."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Conecta Patinhas",
+                  "href": "https://www2.recife.pe.gov.br/noticias/09/09/2026/conecta-patinhas-oferece-atendimento-veterinario-gratuito-sem-que-o-tutor"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "resource",
+          "id": "animal-de-companhia-e-acolhimento",
+          "name": "Animal de companhia e acolhimento",
+          "last_verified": "2026-11-11",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Avise o Centro POP ou CINPOP antes do encaminhamento: espécie, porte, comportamento, vacinação, doença, transportadora ou guia. As páginas municipais não garantem que todas as casas aceitem animais."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Peça uma solução que preserve o vínculo, como acolhimento compatível ou cuidado temporário. Não abandone o animal para entrar num abrigo e não viaje sem confirmar o destino."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Rede municipal de acolhimento",
+                  "href": "https://conecta.recife.pe.gov.br/servico/364"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verificacao-e-correcoes",
+      "title": "Verificação e correções",
+      "items": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "text": "Esta página foi verificada em 11 de novembro de 2026 com fontes da Prefeitura do Recife e do Conecta Recife, Governo de Pernambuco, Governo Federal, Casa do Pão, Cáritas e páginas diretas das organizações. Capacidade, horários e fluxos mudam. Se um serviço encerrou ou algum dado está errado, consulte "
+            },
+            {
+              "text": "como enviar uma correção",
+              "href": "../../CONTRIBUTING.md"
+            },
+            {
+              "text": "."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

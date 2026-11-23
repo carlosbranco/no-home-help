@@ -1,0 +1,102 @@
+{
+  "$schema": "https://nohomehelp.com/schemas/city.schema.json",
+  "schema_version": 1,
+  "status": "draft",
+  "locale": {
+    "language": "en",
+    "direction": "ltr",
+    "primary": true
+  },
+  "location": {
+    "continent": "Europe",
+    "country_code": "XX",
+    "country_name": "Country name in English",
+    "country_local_name": "Country name in the local language",
+    "country_slug": "country-slug",
+    "region_code": "REGION-CODE",
+    "region_name": "Region name",
+    "region_slug": "region-slug",
+    "city_name": "City name",
+    "city_slug": "city-slug"
+  },
+  "seo": {
+    "title": "City homeless help - No Home Help",
+    "description": "Verified local help for people experiencing homelessness in City."
+  },
+  "page": {
+    "heading": "CITY - HOMELESS HELP",
+    "last_verified": "YYYY-MM-DD",
+    "urgent": [
+      {
+        "type": "paragraph",
+        "content": [
+          { "text": "Immediate danger or medical emergency: ", "strong": true },
+          { "text": "112", "href": "tel:112" }
+        ]
+      }
+    ],
+    "notice": "Information can change. Call ahead when possible. A listing does not guarantee a bed, meal, appointment, benefit, treatment, or job.",
+    "intro": [
+      {
+        "type": "paragraph",
+        "content": "Explain the safest first step for a person who has nowhere to sleep tonight."
+      }
+    ],
+    "footer": [
+      {
+        "type": "paragraph",
+        "content": "List the main official sources used to verify this guide."
+      }
+    ]
+  },
+  "quick_actions": {
+    "tonight": [
+      { "category_id": "shelter", "entry_id": "example-intake" }
+    ],
+    "this_week": [],
+    "this_month": []
+  },
+  "categories": [
+    {
+      "id": "shelter",
+      "title": "Emergency shelter",
+      "items": [
+        {
+          "type": "paragraph",
+          "content": "Explain how intake works and never promise that a bed is available."
+        },
+        {
+          "type": "resource",
+          "id": "example-intake",
+          "name": "Organization or service name",
+          "last_verified": "YYYY-MM-DD",
+          "blocks": [
+            {
+              "type": "address",
+              "content": "Address or service area"
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                { "text": "Phone: ", "strong": true },
+                { "text": "+00 000 000 000", "href": "tel:+00000000000" }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": "Describe services, hours, eligibility, referral rules, and what the person should do next."
+            },
+            {
+              "type": "list",
+              "items": [
+                [
+                  { "text": "Official website", "href": "https://example.org/" }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
