@@ -1,0 +1,335 @@
+{
+  "$schema": "https://nohomehelp.com/schemas/city.schema.json",
+  "documentation": "https://github.com/carlosbranco/no-home-help/blob/main/EDIT_CITY_JSON.md",
+  "schema_version": 2,
+  "status": "published",
+  "locale": {
+    "language": "ar",
+    "direction": "rtl",
+    "primary": true
+  },
+  "location": {
+    "continent": "Africa",
+    "country_code": "TN",
+    "country_name": "Tunisia",
+    "country_local_name": "تونس",
+    "country_slug": "tunisia",
+    "region_code": "36",
+    "region_name": "Tunis Governorate",
+    "region_slug": "tunis-governorate",
+    "city_name": "تونس",
+    "city_slug": "tunis"
+  },
+  "seo": {
+    "title": "تونس — مساعدة الأشخاص بلا مأوى - No Home Help",
+    "description": "جهات اتصال موثقة في تونس للطوارئ والإيواء والطعام والصحة والسلامة والدعم الاجتماعي والقانوني."
+  },
+  "page": {
+    "heading": "تونس — مساعدة الأشخاص بلا مأوى",
+    "last_verified": "2026-11-24",
+    "urgent": "عند وجود خطر مباشر اتصل بخدمات الطوارئ المحلية المذكورة أدناه. قد تؤدي النزاعات والطقس والظروف المحلية إلى توقف الخدمات.",
+    "notice": "قد تتغير المعلومات والمواعيد وشروط القبول والأماكن المتاحة. اتصل قبل الذهاب. لا يضمن الإدراج سريرًا أو وجبة أو موعدًا أو مساعدة مالية أو علاجًا أو عملًا.",
+    "intro": "ابدأ بالخدمة الأنسب أدناه واذكر أنك في تونس، وهل لديك مكان آمن الليلة، وأي احتياج طبي أو أمني أو إعاقة أو حماية طفل.",
+    "footer": "يرتبط كل إدخال بمصدره. وُصفت الخدمات بحذر ولا يُعرض أي إيواء على أنه مضمون."
+  },
+  "categories": [
+    {
+      "id": "emergency",
+      "title": "المساعدة الطارئة",
+      "entries": [
+        {
+          "id": "item",
+          "title": "الهلال الأحمر التونسي",
+          "description": "تقدم الهلال الأحمر التونسي أو تنسق دعمًا يتعلق بـ المساعدة الطارئة في تونس أو لسكانها. اتصل مباشرة لتأكيد الشروط والموقع والتوفر الحالي. اتصل لتأكيد أقرب فرع نشط في تونس العاصمة؛ المقر ليس مأوى مفتوحًا.",
+          "last_verified": "2026-11-24",
+          "address": "Tunisia",
+          "phone": "",
+          "website": "https://www.ifrc.org/national-societies-directory/tunisian-red-crescent",
+          "hours": "",
+          "how_to_access": "اتصل أو راجع الموقع الرسمي قبل الذهاب. اسأل عن المساعدة المتاحة اليوم وما إذا كانت الإحالة أو الوثائق مطلوبة."
+        }
+      ]
+    },
+    {
+      "id": "shelter",
+      "title": "المأوى والسكن",
+      "entries": [
+        {
+          "id": "aihr-aide-juridique-et-sociale",
+          "title": "AIHR — aide juridique et sociale",
+          "description": "تقدم AIHR — aide juridique et sociale أو تنسق دعمًا يتعلق بـ المأوى والسكن في تونس أو لسكانها. اتصل مباشرة لتأكيد الشروط والموقع والتوفر الحالي. مساعدة قانونية واجتماعية وإحالة للنظافة أو الإقامة، خصوصًا للمهاجرين واللاجئين؛ السكن غير مضمون.",
+          "last_verified": "2026-11-24",
+          "address": "Tunis",
+          "phone": "+216 28 883 355",
+          "website": "https://rightsinexile.org/legal-assistance-by-country/tunisia-legal-assistance/",
+          "hours": "",
+          "how_to_access": "اتصل أو راجع الموقع الرسمي قبل الذهاب. اسأل عن المساعدة المتاحة اليوم وما إذا كانت الإحالة أو الوثائق مطلوبة."
+        }
+      ]
+    },
+    {
+      "id": "food",
+      "title": "الطعام",
+      "entries": [
+        {
+          "id": "samusocial-grand-tunis",
+          "title": "Samusocial Grand Tunis",
+          "description": "تقدم Samusocial Grand تونس أو تنسق دعمًا يتعلق بـ الطعام في تونس أو لسكانها. اتصل مباشرة لتأكيد الشروط والموقع والتوفر الحالي. فرق جوالة ودعم اجتماعي للأشخاص في الشارع. اتصل أو راجع الجهة لمعرفة التدخل الحالي؛ ليست كل الخدمات متاحة دون تقييم.",
+          "last_verified": "2026-11-24",
+          "address": "Grand Tunis",
+          "phone": "",
+          "website": "https://samu-social-international.com/en/carte-de-actions-dans-le-monde/tunisie/?lang=fr",
+          "hours": "",
+          "how_to_access": "اتصل أو راجع الموقع الرسمي قبل الذهاب. اسأل عن المساعدة المتاحة اليوم وما إذا كانت الإحالة أو الوثائق مطلوبة."
+        }
+      ]
+    },
+    {
+      "id": "community",
+      "title": "المساعدة المجتمعية والدينية",
+      "entries": [
+        {
+          "id": "item",
+          "title": "الهلال الأحمر التونسي",
+          "description": "تقدم الهلال الأحمر التونسي أو تنسق دعمًا يتعلق بـ المساعدة المجتمعية والدينية في تونس أو لسكانها. اتصل مباشرة لتأكيد الشروط والموقع والتوفر الحالي. اتصل لتأكيد أقرب فرع نشط في تونس العاصمة؛ المقر ليس مأوى مفتوحًا.",
+          "last_verified": "2026-11-24",
+          "address": "Tunisia",
+          "phone": "",
+          "website": "https://www.ifrc.org/national-societies-directory/tunisian-red-crescent",
+          "hours": "",
+          "how_to_access": "اتصل أو راجع الموقع الرسمي قبل الذهاب. اسأل عن المساعدة المتاحة اليوم وما إذا كانت الإحالة أو الوثائق مطلوبة."
+        }
+      ]
+    },
+    {
+      "id": "hygiene",
+      "title": "الاستحمام والغسيل والنظافة",
+      "entries": [
+        {
+          "id": "samusocial-grand-tunis",
+          "title": "Samusocial Grand Tunis",
+          "description": "تقدم Samusocial Grand تونس أو تنسق دعمًا يتعلق بـ الاستحمام والغسيل والنظافة في تونس أو لسكانها. اتصل مباشرة لتأكيد الشروط والموقع والتوفر الحالي. فرق جوالة ودعم اجتماعي للأشخاص في الشارع. اتصل أو راجع الجهة لمعرفة التدخل الحالي؛ ليست كل الخدمات متاحة دون تقييم.",
+          "last_verified": "2026-11-24",
+          "address": "Grand Tunis",
+          "phone": "",
+          "website": "https://samu-social-international.com/en/carte-de-actions-dans-le-monde/tunisie/?lang=fr",
+          "hours": "",
+          "how_to_access": "اتصل أو راجع الموقع الرسمي قبل الذهاب. اسأل عن المساعدة المتاحة اليوم وما إذا كانت الإحالة أو الوثائق مطلوبة."
+        }
+      ]
+    },
+    {
+      "id": "clothing",
+      "title": "الملابس",
+      "entries": []
+    },
+    {
+      "id": "health",
+      "title": "الرعاية الصحية",
+      "entries": [
+        {
+          "id": "samusocial-grand-tunis",
+          "title": "Samusocial Grand Tunis",
+          "description": "تقدم Samusocial Grand تونس أو تنسق دعمًا يتعلق بـ الرعاية الصحية في تونس أو لسكانها. اتصل مباشرة لتأكيد الشروط والموقع والتوفر الحالي. فرق جوالة ودعم اجتماعي للأشخاص في الشارع. اتصل أو راجع الجهة لمعرفة التدخل الحالي؛ ليست كل الخدمات متاحة دون تقييم.",
+          "last_verified": "2026-11-24",
+          "address": "Grand Tunis",
+          "phone": "",
+          "website": "https://samu-social-international.com/en/carte-de-actions-dans-le-monde/tunisie/?lang=fr",
+          "hours": "",
+          "how_to_access": "اتصل أو راجع الموقع الرسمي قبل الذهاب. اسأل عن المساعدة المتاحة اليوم وما إذا كانت الإحالة أو الوثائق مطلوبة."
+        },
+        {
+          "id": "item",
+          "title": "الهلال الأحمر التونسي",
+          "description": "تقدم الهلال الأحمر التونسي أو تنسق دعمًا يتعلق بـ الرعاية الصحية في تونس أو لسكانها. اتصل مباشرة لتأكيد الشروط والموقع والتوفر الحالي. اتصل لتأكيد أقرب فرع نشط في تونس العاصمة؛ المقر ليس مأوى مفتوحًا.",
+          "last_verified": "2026-11-24",
+          "address": "Tunisia",
+          "phone": "",
+          "website": "https://www.ifrc.org/national-societies-directory/tunisian-red-crescent",
+          "hours": "",
+          "how_to_access": "اتصل أو راجع الموقع الرسمي قبل الذهاب. اسأل عن المساعدة المتاحة اليوم وما إذا كانت الإحالة أو الوثائق مطلوبة."
+        }
+      ]
+    },
+    {
+      "id": "mental-health",
+      "title": "الصحة النفسية والإدمان",
+      "entries": [
+        {
+          "id": "samusocial-grand-tunis",
+          "title": "Samusocial Grand Tunis",
+          "description": "تقدم Samusocial Grand تونس أو تنسق دعمًا يتعلق بـ الصحة النفسية والإدمان في تونس أو لسكانها. اتصل مباشرة لتأكيد الشروط والموقع والتوفر الحالي. فرق جوالة ودعم اجتماعي للأشخاص في الشارع. اتصل أو راجع الجهة لمعرفة التدخل الحالي؛ ليست كل الخدمات متاحة دون تقييم.",
+          "last_verified": "2026-11-24",
+          "address": "Grand Tunis",
+          "phone": "",
+          "website": "https://samu-social-international.com/en/carte-de-actions-dans-le-monde/tunisie/?lang=fr",
+          "hours": "",
+          "how_to_access": "اتصل أو راجع الموقع الرسمي قبل الذهاب. اسأل عن المساعدة المتاحة اليوم وما إذا كانت الإحالة أو الوثائق مطلوبة."
+        }
+      ]
+    },
+    {
+      "id": "public-facilities",
+      "title": "المرافق العامة ومراكز النهار",
+      "entries": []
+    },
+    {
+      "id": "phone-internet",
+      "title": "الهاتف والشحن والإنترنت",
+      "entries": []
+    },
+    {
+      "id": "transport",
+      "title": "النقل",
+      "entries": []
+    },
+    {
+      "id": "benefits",
+      "title": "المساعدات الحكومية والدعم الاجتماعي",
+      "entries": [
+        {
+          "id": "item",
+          "title": "وزارة الشؤون الاجتماعية",
+          "description": "تقدم وزارة الشؤون الاجتماعية أو تنسق دعمًا يتعلق بـ المساعدات الحكومية والدعم الاجتماعي في تونس أو لسكانها. اتصل مباشرة لتأكيد الشروط والموقع والتوفر الحالي.",
+          "last_verified": "2026-11-24",
+          "address": "Tunis",
+          "phone": "",
+          "website": "https://www.social.gov.tn/",
+          "hours": "",
+          "how_to_access": "اتصل أو راجع الموقع الرسمي قبل الذهاب. اسأل عن المساعدة المتاحة اليوم وما إذا كانت الإحالة أو الوثائق مطلوبة."
+        }
+      ]
+    },
+    {
+      "id": "employment",
+      "title": "العمل",
+      "entries": []
+    },
+    {
+      "id": "legal",
+      "title": "المساعدة القانونية",
+      "entries": [
+        {
+          "id": "aihr-aide-juridique-et-sociale",
+          "title": "AIHR — aide juridique et sociale",
+          "description": "تقدم AIHR — aide juridique et sociale أو تنسق دعمًا يتعلق بـ المساعدة القانونية في تونس أو لسكانها. اتصل مباشرة لتأكيد الشروط والموقع والتوفر الحالي. مساعدة قانونية واجتماعية وإحالة للنظافة أو الإقامة، خصوصًا للمهاجرين واللاجئين؛ السكن غير مضمون.",
+          "last_verified": "2026-11-24",
+          "address": "Tunis",
+          "phone": "+216 28 883 355",
+          "website": "https://rightsinexile.org/legal-assistance-by-country/tunisia-legal-assistance/",
+          "hours": "",
+          "how_to_access": "اتصل أو راجع الموقع الرسمي قبل الذهاب. اسأل عن المساعدة المتاحة اليوم وما إذا كانت الإحالة أو الوثائق مطلوبة."
+        }
+      ]
+    },
+    {
+      "id": "documents",
+      "title": "الوثائق والهوية",
+      "entries": [
+        {
+          "id": "item",
+          "title": "وزارة الشؤون الاجتماعية",
+          "description": "تقدم وزارة الشؤون الاجتماعية أو تنسق دعمًا يتعلق بـ الوثائق والهوية في تونس أو لسكانها. اتصل مباشرة لتأكيد الشروط والموقع والتوفر الحالي.",
+          "last_verified": "2026-11-24",
+          "address": "Tunis",
+          "phone": "",
+          "website": "https://www.social.gov.tn/",
+          "hours": "",
+          "how_to_access": "اتصل أو راجع الموقع الرسمي قبل الذهاب. اسأل عن المساعدة المتاحة اليوم وما إذا كانت الإحالة أو الوثائق مطلوبة."
+        }
+      ]
+    },
+    {
+      "id": "mail",
+      "title": "عنوان بريدي",
+      "entries": []
+    },
+    {
+      "id": "storage",
+      "title": "حفظ الأغراض",
+      "entries": []
+    },
+    {
+      "id": "safety",
+      "title": "السلامة والعنف الأسري",
+      "entries": [
+        {
+          "id": "aihr-aide-juridique-et-sociale",
+          "title": "AIHR — aide juridique et sociale",
+          "description": "تقدم AIHR — aide juridique et sociale أو تنسق دعمًا يتعلق بـ السلامة والعنف الأسري في تونس أو لسكانها. اتصل مباشرة لتأكيد الشروط والموقع والتوفر الحالي. مساعدة قانونية واجتماعية وإحالة للنظافة أو الإقامة، خصوصًا للمهاجرين واللاجئين؛ السكن غير مضمون.",
+          "last_verified": "2026-11-24",
+          "address": "Tunis",
+          "phone": "+216 28 883 355",
+          "website": "https://rightsinexile.org/legal-assistance-by-country/tunisia-legal-assistance/",
+          "hours": "",
+          "how_to_access": "اتصل أو راجع الموقع الرسمي قبل الذهاب. اسأل عن المساعدة المتاحة اليوم وما إذا كانت الإحالة أو الوثائق مطلوبة."
+        }
+      ]
+    },
+    {
+      "id": "specialist-support",
+      "title": "دعم متخصص",
+      "entries": [
+        {
+          "id": "samusocial-grand-tunis",
+          "title": "Samusocial Grand Tunis",
+          "description": "تقدم Samusocial Grand تونس أو تنسق دعمًا يتعلق بـ دعم متخصص في تونس أو لسكانها. اتصل مباشرة لتأكيد الشروط والموقع والتوفر الحالي. فرق جوالة ودعم اجتماعي للأشخاص في الشارع. اتصل أو راجع الجهة لمعرفة التدخل الحالي؛ ليست كل الخدمات متاحة دون تقييم.",
+          "last_verified": "2026-11-24",
+          "address": "Grand Tunis",
+          "phone": "",
+          "website": "https://samu-social-international.com/en/carte-de-actions-dans-le-monde/tunisie/?lang=fr",
+          "hours": "",
+          "how_to_access": "اتصل أو راجع الموقع الرسمي قبل الذهاب. اسأل عن المساعدة المتاحة اليوم وما إذا كانت الإحالة أو الوثائق مطلوبة."
+        },
+        {
+          "id": "aihr-aide-juridique-et-sociale",
+          "title": "AIHR — aide juridique et sociale",
+          "description": "تقدم AIHR — aide juridique et sociale أو تنسق دعمًا يتعلق بـ دعم متخصص في تونس أو لسكانها. اتصل مباشرة لتأكيد الشروط والموقع والتوفر الحالي. مساعدة قانونية واجتماعية وإحالة للنظافة أو الإقامة، خصوصًا للمهاجرين واللاجئين؛ السكن غير مضمون.",
+          "last_verified": "2026-11-24",
+          "address": "Tunis",
+          "phone": "+216 28 883 355",
+          "website": "https://rightsinexile.org/legal-assistance-by-country/tunisia-legal-assistance/",
+          "hours": "",
+          "how_to_access": "اتصل أو راجع الموقع الرسمي قبل الذهاب. اسأل عن المساعدة المتاحة اليوم وما إذا كانت الإحالة أو الوثائق مطلوبة."
+        },
+        {
+          "id": "item",
+          "title": "الهلال الأحمر التونسي",
+          "description": "تقدم الهلال الأحمر التونسي أو تنسق دعمًا يتعلق بـ دعم متخصص في تونس أو لسكانها. اتصل مباشرة لتأكيد الشروط والموقع والتوفر الحالي. اتصل لتأكيد أقرب فرع نشط في تونس العاصمة؛ المقر ليس مأوى مفتوحًا.",
+          "last_verified": "2026-11-24",
+          "address": "Tunisia",
+          "phone": "",
+          "website": "https://www.ifrc.org/national-societies-directory/tunisian-red-crescent",
+          "hours": "",
+          "how_to_access": "اتصل أو راجع الموقع الرسمي قبل الذهاب. اسأل عن المساعدة المتاحة اليوم وما إذا كانت الإحالة أو الوثائق مطلوبة."
+        },
+        {
+          "id": "item-2",
+          "title": "وزارة الشؤون الاجتماعية",
+          "description": "تقدم وزارة الشؤون الاجتماعية أو تنسق دعمًا يتعلق بـ دعم متخصص في تونس أو لسكانها. اتصل مباشرة لتأكيد الشروط والموقع والتوفر الحالي.",
+          "last_verified": "2026-11-24",
+          "address": "Tunis",
+          "phone": "",
+          "website": "https://www.social.gov.tn/",
+          "hours": "",
+          "how_to_access": "اتصل أو راجع الموقع الرسمي قبل الذهاب. اسأل عن المساعدة المتاحة اليوم وما إذا كانت الإحالة أو الوثائق مطلوبة."
+        }
+      ]
+    },
+    {
+      "id": "veterans",
+      "title": "دعم المحاربين القدامى",
+      "entries": []
+    },
+    {
+      "id": "pets",
+      "title": "مساعدة أصحاب الحيوانات",
+      "entries": []
+    },
+    {
+      "id": "other",
+      "title": "موارد مفيدة أخرى",
+      "entries": []
+    }
+  ]
+}

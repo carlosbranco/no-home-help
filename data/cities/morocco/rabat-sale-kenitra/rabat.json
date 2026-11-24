@@ -1,0 +1,318 @@
+{
+  "$schema": "https://nohomehelp.com/schemas/city.schema.json",
+  "documentation": "https://github.com/carlosbranco/no-home-help/blob/main/EDIT_CITY_JSON.md",
+  "schema_version": 2,
+  "status": "published",
+  "locale": {
+    "language": "ar",
+    "direction": "rtl",
+    "primary": true
+  },
+  "location": {
+    "continent": "Africa",
+    "country_code": "MA",
+    "country_name": "Morocco",
+    "country_local_name": "المغرب",
+    "country_slug": "morocco",
+    "region_code": "04",
+    "region_name": "Rabat-Salé-Kénitra",
+    "region_slug": "rabat-sale-kenitra",
+    "city_name": "الرباط",
+    "city_slug": "rabat"
+  },
+  "seo": {
+    "title": "الرباط — مساعدة الأشخاص بلا مأوى - No Home Help",
+    "description": "جهات اتصال موثقة في الرباط للطوارئ والإيواء والطعام والصحة والسلامة والدعم الاجتماعي والقانوني."
+  },
+  "page": {
+    "heading": "الرباط — مساعدة الأشخاص بلا مأوى",
+    "last_verified": "2026-11-24",
+    "urgent": "عند وجود خطر مباشر اتصل بخدمات الطوارئ المحلية المذكورة أدناه. قد تؤدي النزاعات والطقس والظروف المحلية إلى توقف الخدمات.",
+    "notice": "قد تتغير المعلومات والمواعيد وشروط القبول والأماكن المتاحة. اتصل قبل الذهاب. لا يضمن الإدراج سريرًا أو وجبة أو موعدًا أو مساعدة مالية أو علاجًا أو عملًا.",
+    "intro": "ابدأ بالخدمة الأنسب أدناه واذكر أنك في الرباط، وهل لديك مكان آمن الليلة، وأي احتياج طبي أو أمني أو إعاقة أو حماية طفل.",
+    "footer": "يرتبط كل إدخال بمصدره. وُصفت الخدمات بحذر ولا يُعرض أي إيواء على أنه مضمون."
+  },
+  "categories": [
+    {
+      "id": "emergency",
+      "title": "المساعدة الطارئة",
+      "entries": []
+    },
+    {
+      "id": "shelter",
+      "title": "المأوى والسكن",
+      "entries": [
+        {
+          "id": "unhcr-social-assistance-rabat",
+          "title": "UNHCR social assistance — Rabat",
+          "description": "تقدم UNHCR social assistance — الرباط أو تنسق دعمًا يتعلق بـ المأوى والسكن في الرباط أو لسكانها. اتصل مباشرة لتأكيد الشروط والموقع والتوفر الحالي. الدعم مخصص للاجئين وطالبي اللجوء. الإيواء نادر ويُعطى حسب الهشاشة، خصوصًا للنساء والأطفال؛ لا يوجد سرير مضمون.",
+          "last_verified": "2026-11-24",
+          "address": "Rabat",
+          "phone": "+212 614 004 722 / +212 614 004 739 / +212 614 004 773 / +212 614 004 763",
+          "website": "https://help.unhcr.org/morocco/en/services/social-and-financial-assistance/",
+          "hours": "",
+          "how_to_access": "اتصل أو راجع الموقع الرسمي قبل الذهاب. اسأل عن المساعدة المتاحة اليوم وما إذا كانت الإحالة أو الوثائق مطلوبة."
+        },
+        {
+          "id": "masid-social-and-accommodation-referral",
+          "title": "MASID — social and accommodation referral",
+          "description": "تقدم MASID — social and accommodation referral أو تنسق دعمًا يتعلق بـ المأوى والسكن في الرباط أو لسكانها. اتصل مباشرة لتأكيد الشروط والموقع والتوفر الحالي. منصة إحالة اجتماعية للمهاجرين؛ تحقق من الأهلية والمكان المتاح.",
+          "last_verified": "2026-11-24",
+          "address": "Rabat",
+          "phone": "",
+          "website": "https://masid.ma/pages/social-iiwaa-en.html",
+          "hours": "",
+          "how_to_access": "اتصل أو راجع الموقع الرسمي قبل الذهاب. اسأل عن المساعدة المتاحة اليوم وما إذا كانت الإحالة أو الوثائق مطلوبة."
+        }
+      ]
+    },
+    {
+      "id": "food",
+      "title": "الطعام",
+      "entries": []
+    },
+    {
+      "id": "community",
+      "title": "المساعدة المجتمعية والدينية",
+      "entries": []
+    },
+    {
+      "id": "hygiene",
+      "title": "الاستحمام والغسيل والنظافة",
+      "entries": []
+    },
+    {
+      "id": "clothing",
+      "title": "الملابس",
+      "entries": []
+    },
+    {
+      "id": "health",
+      "title": "الرعاية الصحية",
+      "entries": []
+    },
+    {
+      "id": "mental-health",
+      "title": "الصحة النفسية والإدمان",
+      "entries": []
+    },
+    {
+      "id": "public-facilities",
+      "title": "المرافق العامة ومراكز النهار",
+      "entries": []
+    },
+    {
+      "id": "phone-internet",
+      "title": "الهاتف والشحن والإنترنت",
+      "entries": []
+    },
+    {
+      "id": "transport",
+      "title": "النقل",
+      "entries": []
+    },
+    {
+      "id": "benefits",
+      "title": "المساعدات الحكومية والدعم الاجتماعي",
+      "entries": [
+        {
+          "id": "unhcr-social-assistance-rabat",
+          "title": "UNHCR social assistance — Rabat",
+          "description": "تقدم UNHCR social assistance — الرباط أو تنسق دعمًا يتعلق بـ المساعدات الحكومية والدعم الاجتماعي في الرباط أو لسكانها. اتصل مباشرة لتأكيد الشروط والموقع والتوفر الحالي. الدعم مخصص للاجئين وطالبي اللجوء. الإيواء نادر ويُعطى حسب الهشاشة، خصوصًا للنساء والأطفال؛ لا يوجد سرير مضمون.",
+          "last_verified": "2026-11-24",
+          "address": "Rabat",
+          "phone": "+212 614 004 722 / +212 614 004 739 / +212 614 004 773 / +212 614 004 763",
+          "website": "https://help.unhcr.org/morocco/en/services/social-and-financial-assistance/",
+          "hours": "",
+          "how_to_access": "اتصل أو راجع الموقع الرسمي قبل الذهاب. اسأل عن المساعدة المتاحة اليوم وما إذا كانت الإحالة أو الوثائق مطلوبة."
+        },
+        {
+          "id": "item",
+          "title": "الوكالة الوطنية للدعم الاجتماعي",
+          "description": "تقدم الوكالة الوطنية للدعم الاجتماعي أو تنسق دعمًا يتعلق بـ المساعدات الحكومية والدعم الاجتماعي في الرباط أو لسكانها. اتصل مباشرة لتأكيد الشروط والموقع والتوفر الحالي.",
+          "last_verified": "2026-11-24",
+          "address": "Avenue Mohammed V, Rabat",
+          "phone": "+212 520 194 070 / +212 520 196 060",
+          "website": "https://www.anss.gov.ma/en/nous-contacter",
+          "hours": "",
+          "how_to_access": "اتصل أو راجع الموقع الرسمي قبل الذهاب. اسأل عن المساعدة المتاحة اليوم وما إذا كانت الإحالة أو الوثائق مطلوبة."
+        },
+        {
+          "id": "item-2",
+          "title": "وزارة التضامن والإدماج الاجتماعي والأسرة",
+          "description": "تقدم وزارة التضامن والإدماج الاجتماعي والأسرة أو تنسق دعمًا يتعلق بـ المساعدات الحكومية والدعم الاجتماعي في الرباط أو لسكانها. اتصل مباشرة لتأكيد الشروط والموقع والتوفر الحالي.",
+          "last_verified": "2026-11-24",
+          "address": "32 angle Jbel Ayachi et Fal Ould Oumeir, Agdal, Rabat",
+          "phone": "+212 537 276 566",
+          "website": "https://social.gov.ma/services-destines-aux-femmes/",
+          "hours": "",
+          "how_to_access": "اتصل أو راجع الموقع الرسمي قبل الذهاب. اسأل عن المساعدة المتاحة اليوم وما إذا كانت الإحالة أو الوثائق مطلوبة."
+        },
+        {
+          "id": "masid-social-and-accommodation-referral",
+          "title": "MASID — social and accommodation referral",
+          "description": "تقدم MASID — social and accommodation referral أو تنسق دعمًا يتعلق بـ المساعدات الحكومية والدعم الاجتماعي في الرباط أو لسكانها. اتصل مباشرة لتأكيد الشروط والموقع والتوفر الحالي. منصة إحالة اجتماعية للمهاجرين؛ تحقق من الأهلية والمكان المتاح.",
+          "last_verified": "2026-11-24",
+          "address": "Rabat",
+          "phone": "",
+          "website": "https://masid.ma/pages/social-iiwaa-en.html",
+          "hours": "",
+          "how_to_access": "اتصل أو راجع الموقع الرسمي قبل الذهاب. اسأل عن المساعدة المتاحة اليوم وما إذا كانت الإحالة أو الوثائق مطلوبة."
+        }
+      ]
+    },
+    {
+      "id": "employment",
+      "title": "العمل",
+      "entries": []
+    },
+    {
+      "id": "legal",
+      "title": "المساعدة القانونية",
+      "entries": [
+        {
+          "id": "unhcr-protection-line",
+          "title": "UNHCR protection line",
+          "description": "تقدم UNHCR protection line أو تنسق دعمًا يتعلق بـ المساعدة القانونية في الرباط أو لسكانها. اتصل مباشرة لتأكيد الشروط والموقع والتوفر الحالي. للاجئين وطالبي اللجوء.",
+          "last_verified": "2026-11-24",
+          "address": "Rabat",
+          "phone": "+212 666 584 361",
+          "website": "https://help.unhcr.org/morocco/en/services/social-and-financial-assistance/",
+          "hours": "الجمعة 09:00–12:00",
+          "how_to_access": "اتصل أو راجع الموقع الرسمي قبل الذهاب. اسأل عن المساعدة المتاحة اليوم وما إذا كانت الإحالة أو الوثائق مطلوبة."
+        }
+      ]
+    },
+    {
+      "id": "documents",
+      "title": "الوثائق والهوية",
+      "entries": [
+        {
+          "id": "item",
+          "title": "الوكالة الوطنية للدعم الاجتماعي",
+          "description": "تقدم الوكالة الوطنية للدعم الاجتماعي أو تنسق دعمًا يتعلق بـ الوثائق والهوية في الرباط أو لسكانها. اتصل مباشرة لتأكيد الشروط والموقع والتوفر الحالي.",
+          "last_verified": "2026-11-24",
+          "address": "Avenue Mohammed V, Rabat",
+          "phone": "+212 520 194 070 / +212 520 196 060",
+          "website": "https://www.anss.gov.ma/en/nous-contacter",
+          "hours": "",
+          "how_to_access": "اتصل أو راجع الموقع الرسمي قبل الذهاب. اسأل عن المساعدة المتاحة اليوم وما إذا كانت الإحالة أو الوثائق مطلوبة."
+        }
+      ]
+    },
+    {
+      "id": "mail",
+      "title": "عنوان بريدي",
+      "entries": []
+    },
+    {
+      "id": "storage",
+      "title": "حفظ الأغراض",
+      "entries": []
+    },
+    {
+      "id": "safety",
+      "title": "السلامة والعنف الأسري",
+      "entries": [
+        {
+          "id": "unhcr-protection-line",
+          "title": "UNHCR protection line",
+          "description": "تقدم UNHCR protection line أو تنسق دعمًا يتعلق بـ السلامة والعنف الأسري في الرباط أو لسكانها. اتصل مباشرة لتأكيد الشروط والموقع والتوفر الحالي. للاجئين وطالبي اللجوء.",
+          "last_verified": "2026-11-24",
+          "address": "Rabat",
+          "phone": "+212 666 584 361",
+          "website": "https://help.unhcr.org/morocco/en/services/social-and-financial-assistance/",
+          "hours": "الجمعة 09:00–12:00",
+          "how_to_access": "اتصل أو راجع الموقع الرسمي قبل الذهاب. اسأل عن المساعدة المتاحة اليوم وما إذا كانت الإحالة أو الوثائق مطلوبة."
+        },
+        {
+          "id": "item",
+          "title": "وزارة التضامن والإدماج الاجتماعي والأسرة",
+          "description": "تقدم وزارة التضامن والإدماج الاجتماعي والأسرة أو تنسق دعمًا يتعلق بـ السلامة والعنف الأسري في الرباط أو لسكانها. اتصل مباشرة لتأكيد الشروط والموقع والتوفر الحالي.",
+          "last_verified": "2026-11-24",
+          "address": "32 angle Jbel Ayachi et Fal Ould Oumeir, Agdal, Rabat",
+          "phone": "+212 537 276 566",
+          "website": "https://social.gov.ma/services-destines-aux-femmes/",
+          "hours": "",
+          "how_to_access": "اتصل أو راجع الموقع الرسمي قبل الذهاب. اسأل عن المساعدة المتاحة اليوم وما إذا كانت الإحالة أو الوثائق مطلوبة."
+        }
+      ]
+    },
+    {
+      "id": "specialist-support",
+      "title": "دعم متخصص",
+      "entries": [
+        {
+          "id": "unhcr-social-assistance-rabat",
+          "title": "UNHCR social assistance — Rabat",
+          "description": "تقدم UNHCR social assistance — الرباط أو تنسق دعمًا يتعلق بـ دعم متخصص في الرباط أو لسكانها. اتصل مباشرة لتأكيد الشروط والموقع والتوفر الحالي. الدعم مخصص للاجئين وطالبي اللجوء. الإيواء نادر ويُعطى حسب الهشاشة، خصوصًا للنساء والأطفال؛ لا يوجد سرير مضمون.",
+          "last_verified": "2026-11-24",
+          "address": "Rabat",
+          "phone": "+212 614 004 722 / +212 614 004 739 / +212 614 004 773 / +212 614 004 763",
+          "website": "https://help.unhcr.org/morocco/en/services/social-and-financial-assistance/",
+          "hours": "",
+          "how_to_access": "اتصل أو راجع الموقع الرسمي قبل الذهاب. اسأل عن المساعدة المتاحة اليوم وما إذا كانت الإحالة أو الوثائق مطلوبة."
+        },
+        {
+          "id": "unhcr-protection-line",
+          "title": "UNHCR protection line",
+          "description": "تقدم UNHCR protection line أو تنسق دعمًا يتعلق بـ دعم متخصص في الرباط أو لسكانها. اتصل مباشرة لتأكيد الشروط والموقع والتوفر الحالي. للاجئين وطالبي اللجوء.",
+          "last_verified": "2026-11-24",
+          "address": "Rabat",
+          "phone": "+212 666 584 361",
+          "website": "https://help.unhcr.org/morocco/en/services/social-and-financial-assistance/",
+          "hours": "الجمعة 09:00–12:00",
+          "how_to_access": "اتصل أو راجع الموقع الرسمي قبل الذهاب. اسأل عن المساعدة المتاحة اليوم وما إذا كانت الإحالة أو الوثائق مطلوبة."
+        },
+        {
+          "id": "item",
+          "title": "الوكالة الوطنية للدعم الاجتماعي",
+          "description": "تقدم الوكالة الوطنية للدعم الاجتماعي أو تنسق دعمًا يتعلق بـ دعم متخصص في الرباط أو لسكانها. اتصل مباشرة لتأكيد الشروط والموقع والتوفر الحالي.",
+          "last_verified": "2026-11-24",
+          "address": "Avenue Mohammed V, Rabat",
+          "phone": "+212 520 194 070 / +212 520 196 060",
+          "website": "https://www.anss.gov.ma/en/nous-contacter",
+          "hours": "",
+          "how_to_access": "اتصل أو راجع الموقع الرسمي قبل الذهاب. اسأل عن المساعدة المتاحة اليوم وما إذا كانت الإحالة أو الوثائق مطلوبة."
+        },
+        {
+          "id": "item-2",
+          "title": "وزارة التضامن والإدماج الاجتماعي والأسرة",
+          "description": "تقدم وزارة التضامن والإدماج الاجتماعي والأسرة أو تنسق دعمًا يتعلق بـ دعم متخصص في الرباط أو لسكانها. اتصل مباشرة لتأكيد الشروط والموقع والتوفر الحالي.",
+          "last_verified": "2026-11-24",
+          "address": "32 angle Jbel Ayachi et Fal Ould Oumeir, Agdal, Rabat",
+          "phone": "+212 537 276 566",
+          "website": "https://social.gov.ma/services-destines-aux-femmes/",
+          "hours": "",
+          "how_to_access": "اتصل أو راجع الموقع الرسمي قبل الذهاب. اسأل عن المساعدة المتاحة اليوم وما إذا كانت الإحالة أو الوثائق مطلوبة."
+        },
+        {
+          "id": "masid-social-and-accommodation-referral",
+          "title": "MASID — social and accommodation referral",
+          "description": "تقدم MASID — social and accommodation referral أو تنسق دعمًا يتعلق بـ دعم متخصص في الرباط أو لسكانها. اتصل مباشرة لتأكيد الشروط والموقع والتوفر الحالي. منصة إحالة اجتماعية للمهاجرين؛ تحقق من الأهلية والمكان المتاح.",
+          "last_verified": "2026-11-24",
+          "address": "Rabat",
+          "phone": "",
+          "website": "https://masid.ma/pages/social-iiwaa-en.html",
+          "hours": "",
+          "how_to_access": "اتصل أو راجع الموقع الرسمي قبل الذهاب. اسأل عن المساعدة المتاحة اليوم وما إذا كانت الإحالة أو الوثائق مطلوبة."
+        }
+      ]
+    },
+    {
+      "id": "veterans",
+      "title": "دعم المحاربين القدامى",
+      "entries": []
+    },
+    {
+      "id": "pets",
+      "title": "مساعدة أصحاب الحيوانات",
+      "entries": []
+    },
+    {
+      "id": "other",
+      "title": "موارد مفيدة أخرى",
+      "entries": []
+    }
+  ]
+}
