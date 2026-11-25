@@ -1,0 +1,240 @@
+{
+  "$schema": "https://nohomehelp.com/schemas/city.schema.json",
+  "documentation": "https://github.com/carlosbranco/no-home-help/blob/main/EDIT_CITY_JSON.md",
+  "schema_version": 2,
+  "status": "published",
+  "locale": {
+    "language": "fi",
+    "direction": "ltr",
+    "primary": true
+  },
+  "location": {
+    "continent": "Europe",
+    "country_code": "FI",
+    "country_name": "Finland",
+    "country_local_name": "Suomi",
+    "country_slug": "finland",
+    "region_code": "01",
+    "region_name": "Uusimaa",
+    "region_slug": "uusimaa",
+    "city_name": "Helsinki",
+    "city_slug": "helsinki"
+  },
+  "seo": {
+    "title": "Asunnottomuuden ja asumiskriisin apu Helsingissä - No Home Help",
+    "description": "Ajantasaiset yhteystiedot kaupungissa Helsinki: hätämajoitus, päiväkeskukset, ruoka, terveys, etuudet, työ ja muu apu."
+  },
+  "page": {
+    "heading": "Asunnottomuuden ja asumiskriisin apu Helsingissä",
+    "last_verified": "2026-11-24",
+    "urgent": "Välittömässä vaarassa tai hengenvaarallisessa sairaustilanteessa soita alla olevaan hätänumeroon.",
+    "notice": "Majoituspaikat ja palvelut voivat olla täynnä, muuttaa aikojaan tai vaatia arvioinnin tai lähetteen. Soita mahdollisuuksien mukaan ennen lähtöä. Mikään merkintä ei takaa yösijaa, asuntoa, hoitoa, etuutta tai työtä.",
+    "intro": "Jos yksi majoituspaikka on täynnä, kokeile muita paikallisia palveluja ja neuvontanumeroita. Kysy päiväkeskuksesta, liikkuvasta avusta, ruoasta, hygieniasta, terveydenhuollosta ja seuraavasta turvallisesta vaihtoehdosta; älä luota vain yhteen osoitteeseen.",
+    "footer": ""
+  },
+  "categories": [
+    {
+      "id": "emergency",
+      "title": "Hätäapu ja ohjaus",
+      "entries": [
+        {
+          "id": "helsingin-sosiaalipaivystys",
+          "title": "Helsingin sosiaalipäivystys",
+          "description": "Kiireellinen sosiaalityön arvio esimerkiksi ilman turvallista yösijaa, väkivaltatilanteessa tai vakavassa perhekriisissä. Ei takaa majoituspaikkaa, mutta voi arvioida tilanteen ja ohjata eteenpäin.",
+          "last_verified": "2026-11-24",
+          "address": "",
+          "phone": "+35820696006",
+          "website": "https://www.hel.fi/en/health-and-social-services/social-support-and-financial-assistance/guidance-and-advice/emergency-social-services",
+          "hours": "24 h",
+          "how_to_access": ""
+        },
+        {
+          "id": "112-hatanumero",
+          "title": "112 — hätänumero",
+          "description": "Soita välittömässä vaarassa, vakavassa sairauskohtauksessa, tulipalossa tai väkivaltatilanteessa. Kerro sijainti ensin.",
+          "last_verified": "2026-11-24",
+          "address": "",
+          "phone": "112",
+          "website": "https://112.fi/en/112-emergency-number",
+          "hours": "",
+          "how_to_access": ""
+        }
+      ]
+    },
+    {
+      "id": "shelter",
+      "title": "Majoitus ja asumisapu",
+      "entries": [
+        {
+          "id": "hietaniemenkadun-palvelukeskus-hietsu",
+          "title": "Hietaniemenkadun palvelukeskus (Hietsu)",
+          "description": "Ympärivuorokautinen palvelukeskus helsinkiläisille asunnottomille: tilapäinen yöpyminen, ateriat, suihku, pyykki, terveydenhoitaja ja sosiaaliohjaus. Paikkoja on rajallisesti; soita ja kysy tämän illan tilanne.",
+          "last_verified": "2026-11-24",
+          "address": "Hietaniemenkatu 5 B, 00100 Helsinki",
+          "phone": "+358931046628",
+          "website": "https://www.hel.fi/fi/sosiaali-ja-terveyspalvelut/sosiaalinen-ja-taloudellinen-tuki/asunnottomien-palvelut/hietaniemenkadun-palvelukeskus-eli-hietsu",
+          "hours": "Puhelin 24 h; ilmoittautuminen ja yöpyjien vastaanotto virallisen sivun mukaan",
+          "how_to_access": "Soita ennen lähtöä. Paikkaa ei voida taata; pyydä vaihtoehtoinen ohjaus, jos keskus on täynnä."
+        },
+        {
+          "id": "hatamajoitus-paperittomille",
+          "title": "Hätämajoitus paperittomille",
+          "description": "Helsingin hätämajoitus ilman oleskelulupaa oleville henkilöille. Palvelu tarjoaa turvallisen yön ja ohjausta; kapasiteetti ja sisäänpääsy tarkistetaan paikan päällä.",
+          "last_verified": "2026-11-24",
+          "address": "Kornetintie 10, Helsinki",
+          "phone": "",
+          "website": "https://www.hel.fi/fi/sosiaali-ja-terveyspalvelut/sosiaalinen-ja-taloudellinen-tuki/asunnottomien-palvelut/asunnottomien-majoitus-ja-asumispalvelut/hatamajoitus",
+          "hours": "",
+          "how_to_access": "Tarkista viralliselta sivulta nykyinen vastaanottoaika. Paikka ei ole taattu."
+        }
+      ]
+    },
+    {
+      "id": "food",
+      "title": "Ruoka",
+      "entries": []
+    },
+    {
+      "id": "community",
+      "title": "Community and religious help",
+      "entries": []
+    },
+    {
+      "id": "hygiene",
+      "title": "Suihku, pyykki ja hygienia",
+      "entries": []
+    },
+    {
+      "id": "clothing",
+      "title": "Clothing",
+      "entries": []
+    },
+    {
+      "id": "health",
+      "title": "Terveydenhuolto",
+      "entries": [
+        {
+          "id": "paivystysapu-116117",
+          "title": "Päivystysapu 116117",
+          "description": "Kiireellisissä mutta ei hengenvaarallisissa terveysongelmissa. Hengenvaarassa soita 112.",
+          "last_verified": "2026-11-24",
+          "address": "",
+          "phone": "116117",
+          "website": "https://116117.fi/en",
+          "hours": "",
+          "how_to_access": ""
+        }
+      ]
+    },
+    {
+      "id": "mental-health",
+      "title": "Mental health and addiction",
+      "entries": []
+    },
+    {
+      "id": "public-facilities",
+      "title": "Public toilets and day facilities",
+      "entries": []
+    },
+    {
+      "id": "phone-internet",
+      "title": "Phone charging and internet",
+      "entries": []
+    },
+    {
+      "id": "transport",
+      "title": "Transport",
+      "entries": []
+    },
+    {
+      "id": "benefits",
+      "title": "Etuudet ja sosiaalinen tuki",
+      "entries": [
+        {
+          "id": "helsingin-asumisneuvonta",
+          "title": "Helsingin asumisneuvonta",
+          "description": "Neuvonta vuokravelkaan, häätöuhkaan, asumisen ongelmiin ja palveluihin. Ei ole tämän illan hätämajoitus.",
+          "last_verified": "2026-11-24",
+          "address": "",
+          "phone": "",
+          "website": "https://www.hel.fi/fi/sosiaali-ja-terveyspalvelut/sosiaalinen-ja-taloudellinen-tuki/ohjeistusta-ja-neuvontaa/asumisneuvonta",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "kela-toimeentulotuki-ja-etuudet",
+          "title": "Kela — toimeentulotuki ja etuudet",
+          "description": "Viralliset tiedot perustoimeentulotuesta, asumisen tuista, sairausetuuksista ja asioinnista. Hakemus ei takaa välitöntä maksua.",
+          "last_verified": "2026-11-24",
+          "address": "",
+          "phone": "",
+          "website": "https://www.kela.fi/social-assistance",
+          "hours": "",
+          "how_to_access": ""
+        }
+      ]
+    },
+    {
+      "id": "employment",
+      "title": "Työ",
+      "entries": [
+        {
+          "id": "job-market-finland",
+          "title": "Job Market Finland",
+          "description": "Virallinen työnhaun, työvoimapalvelujen, koulutuksen ja paikallisten palvelupisteiden portaali.",
+          "last_verified": "2026-11-24",
+          "address": "",
+          "phone": "",
+          "website": "https://tyomarkkinatori.fi/en",
+          "hours": "",
+          "how_to_access": ""
+        }
+      ]
+    },
+    {
+      "id": "legal",
+      "title": "Oikeusapu",
+      "entries": []
+    },
+    {
+      "id": "documents",
+      "title": "Documents and identification",
+      "entries": []
+    },
+    {
+      "id": "mail",
+      "title": "Mailing address",
+      "entries": []
+    },
+    {
+      "id": "storage",
+      "title": "Storage",
+      "entries": []
+    },
+    {
+      "id": "safety",
+      "title": "Turvallisuus ja lähisuhdeväkivalta",
+      "entries": []
+    },
+    {
+      "id": "specialist-support",
+      "title": "Specialist support",
+      "entries": []
+    },
+    {
+      "id": "veterans",
+      "title": "Veterans support",
+      "entries": []
+    },
+    {
+      "id": "pets",
+      "title": "Help for people with pets",
+      "entries": []
+    },
+    {
+      "id": "other",
+      "title": "Muut hyödylliset palvelut",
+      "entries": []
+    }
+  ]
+}

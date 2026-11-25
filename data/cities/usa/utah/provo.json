@@ -1,0 +1,141 @@
+{
+  "$schema": "https://nohomehelp.com/schemas/city.schema.json",
+  "documentation": "https://github.com/carlosbranco/no-home-help/blob/main/EDIT_CITY_JSON.md",
+  "schema_version": 2,
+  "status": "published",
+  "locale": { "language": "en", "direction": "ltr", "primary": true },
+  "location": {
+    "continent": "Americas", "country_code": "US", "country_name": "United States", "country_local_name": "United States",
+    "country_slug": "usa", "region_code": "UT", "region_name": "Utah", "region_slug": "utah",
+    "city_name": "Provo", "city_slug": "provo"
+  },
+  "seo": {
+    "title": "Homeless and housing-crisis help in Provo - No Home Help",
+    "description": "Current Provo contacts for emergency shelter routes, meals, day services, health care, benefits, jobs, legal help and specialist support."
+  },
+  "page": {
+    "heading": "Homeless and housing-crisis help in Provo",
+    "last_verified": "2026-11-25",
+    "urgent": "Immediate danger, serious injury, overdose, fire or a crime in progress: call 911. Mental-health or substance-use crisis: call or text 988. Community referrals: call 211.",
+    "notice": "Utah County does not have a general year-round walk-in overnight shelter. Motel vouchers, warming-center services and housing programs are limited and eligibility-based. Call before travelling. No listing guarantees a room, bed, housing, appointment, benefit, payment, treatment or job.",
+    "intro": "For a place to sleep, start with Community Action during business hours; after hours use the Provo dispatch route shown below. Food & Care Coalition is the main local day-service hub but is not a general walk-in overnight shelter. If one option cannot help, ask for the next safe local or regional alternative.",
+    "footer": "No Home Help is independent of government and service providers. Information was checked against official provider or government pages; report a change if a number, address or access rule is no longer correct."
+  },
+  "categories": [
+    {
+      "id": "emergency", "title": "Emergency help and referral", "entries": [
+        { "id": "911-emergency-services", "title": "911 — emergency services", "description": "Call for immediate danger, serious injury, suspected overdose, fire or a crime in progress. Give the exact address or nearest intersection and describe the immediate risk.", "last_verified": "2026-11-25", "address": "", "phone": "911", "website": "https://www.provo.gov/162/Safety-and-Justice", "hours": "24 hours", "how_to_access": "Call 911. Do not use a shelter or crisis-line number instead when someone needs an ambulance, fire response or immediate police help." },
+        { "id": "provo-after-hours-shelter-dispatch", "title": "Provo dispatch — after-hours emergency-shelter screening", "description": "After-hours contact used by Community Action for limited, eligibility-based motel shelter in Utah County. A call does not guarantee a motel room or transport.", "last_verified": "2026-11-25", "address": "Telephone screening", "phone": "8018526210", "website": "https://communityactionprovo.org/get-help/housing/emergency-shelter.html", "hours": "Weekdays 18:00–00:00; weekends and holidays 09:00–00:00", "how_to_access": "Call during the published after-hours window. If screened as eligible, follow the dispatch instructions and visit Community Action the next business day." },
+        { "id": "utah-211", "title": "Utah 211 — community-service referrals", "description": "Statewide information and referral for food, housing, health care, transportation, legal help, benefits and other local programs. A navigator can search for more than one current option.", "last_verified": "2026-11-25", "address": "Telephone and online service", "phone": "211", "website": "https://211utah.org/", "hours": "Call 211 for current hours", "how_to_access": "Call 211 or use the online directory. Ask the navigator to confirm eligibility, hours and whether an appointment is required." },
+        { "id": "wasatch-receiving-outreach-center", "title": "Wasatch Behavioral Health Receiving and Outreach Center", "description": "Walk-in crisis evaluation and brief support for adults in Utah and Wasatch counties, with therapists and peer specialists and access to mobile crisis outreach when appropriate. Adults may stay for short-term stabilisation, but this is not a homeless shelter.", "last_verified": "2026-11-25", "address": "1175 E 300 N, Provo, UT 84606", "phone": "8018522131", "website": "https://www.wasatch.org/crisis-services-at-wbh/", "hours": "24 hours", "how_to_access": "Walk in or call. Call or text 988 for telephone crisis support, and call 911 for immediate danger or a medical emergency." }
+      ]
+    },
+    {
+      "id": "shelter", "title": "Shelter and housing access", "entries": [
+        { "id": "community-action-limited-motel-shelter", "title": "Community Action — limited motel shelter", "description": "Short-term hotel placement for eligible families, couples and vulnerable individuals because Utah County has no general full-time shelter. Placements are limited, case-by-case and usually one to three nights; identification is required.", "last_verified": "2026-11-25", "address": "815 S Freedom Boulevard, Suite 100, Provo, UT 84601", "phone": "8013738200", "website": "https://communityactionprovo.org/get-help/housing/emergency-shelter.html", "hours": "Office Monday–Friday 08:00–16:00; use Provo dispatch after hours", "how_to_access": "Call or visit for screening. Bring identification if available. Ask what to do if vouchers are exhausted and whether a winter warming center is operating." },
+        { "id": "food-care-coalition-housing", "title": "Food & Care Coalition — housing assessment and programs", "description": "Case managers assess people for transitional and permanent housing and other housing support. This is not a guaranteed same-night bed and program openings are limited.", "last_verified": "2026-11-25", "address": "299 E 900 S, Provo, UT 84606", "phone": "8013731825", "website": "https://foodandcare.org/services", "hours": "Call or visit during business hours", "how_to_access": "Ask client services for housing intake and an individual case-management assessment. Continue using the Community Action emergency route while waiting for a program opening." },
+        { "id": "refuge-utah-emergency-shelter", "title": "The Refuge Utah — confidential emergency shelter", "description": "Short-term confidential shelter for adults and children of all genders experiencing domestic or sexual violence, with food, clothing, advocacy, counselling and housing support. The location is not public.", "last_verified": "2026-11-25", "address": "Confidential shelter location in Utah County", "phone": "8013775500", "website": "https://therefugeutah.org/get-help/emergency-shelter.html", "hours": "Helpline 24 hours", "how_to_access": "Call from a safe device if possible. Ask about space, safe transport, accessibility, children and pets. Call 911 for immediate danger." },
+        { "id": "vantage-point-youth-crisis", "title": "Vantage Point — crisis shelter care for youth ages 10 to 17", "description": "Twenty-four-hour crisis residential support for youth ages 10 to 17 who are runaways, at risk of running away or facing serious family conflict. This is a youth crisis service, not general adult shelter.", "last_verified": "2026-11-25", "address": "1189 E 300 N, Provo, UT 84606", "phone": "8013732215", "website": "https://www.wasatch.org/crisis-services-at-wbh/", "hours": "24 hours", "how_to_access": "Call for screening and current availability. For immediate danger call 911; for a mental-health crisis call or text 988." }
+      ]
+    },
+    {
+      "id": "food", "title": "Food", "entries": [
+        { "id": "food-care-coalition-daily-meals", "title": "Food & Care Coalition — daily hot meals", "description": "Hot meals every day of the year. The dining hall is open to anyone who is hungry, with no appointment, identification or paperwork required for a meal.", "last_verified": "2026-11-25", "address": "299 E 900 S, Provo, UT 84606", "phone": "8013731825", "website": "https://foodandcare.org/resources/faqs", "hours": "Monday–Saturday breakfast, lunch and dinner; Sunday and holidays lunch; confirm current serving times", "how_to_access": "Walk in during meal service. Call before a long journey to confirm the next serving time." },
+        { "id": "community-action-food-pantry", "title": "Community Action Services and Food Bank — food pantry", "description": "Food pantry and case-management help for eligible Utah County residents, plus referrals to other food resources. Distribution rules and frequency limits apply.", "last_verified": "2026-11-25", "address": "815 S Freedom Boulevard, Suite 100, Provo, UT 84601", "phone": "8013738200", "website": "https://communityactionprovo.org/get-help/food-nutrition/food-bank.html", "hours": "Call for current pantry and intake hours", "how_to_access": "Call or complete the provider's intake process. Ask what identification or address information is needed and whether same-day food is available." },
+        { "id": "utah-food-bank-locator-provo", "title": "Utah Food Bank — find another pantry or mobile distribution", "description": "Official locator for partner pantries and mobile food distributions. Partner locations set their own hours and eligibility rules.", "last_verified": "2026-11-25", "address": "Use the official locator for the nearest site", "phone": "8019782452", "website": "https://www.utahfoodbank.org/find-a-pantry/", "hours": "Varies by partner", "how_to_access": "Search by address or ZIP code, then call the chosen site to confirm the next distribution, documents and service limits." }
+      ]
+    },
+    {
+      "id": "community", "title": "Community and religious help", "entries": [
+        { "id": "food-care-coalition-client-services", "title": "Food & Care Coalition — integrated day services", "description": "Local day-service hub combining meals, showers, laundry, hygiene items, case management, health care, mental-health support, housing help and education at one address.", "last_verified": "2026-11-25", "address": "299 E 900 S, Provo, UT 84606", "phone": "8013731825", "website": "https://foodandcare.org/services", "hours": "Call or visit during business hours; meal hours differ", "how_to_access": "Walk in and ask the client-services manager to complete program intake and identify the services you can use that day." },
+        { "id": "community-thrift-relief", "title": "Community Thrift and Relief", "description": "Community clothing and household-goods resource listed by Provo City. Stock, vouchers and eligibility may change.", "last_verified": "2026-11-25", "address": "515 N University Avenue, Provo, UT 84601", "phone": "8013777676", "website": "https://www.provo.gov/1045/Third-Party-Community-Resources-and-Serv", "hours": "Call for current hours", "how_to_access": "Call before visiting and ask whether a referral or voucher is needed for the item you need." }
+      ]
+    },
+    {
+      "id": "hygiene", "title": "Showers, laundry and hygiene", "entries": [
+        { "id": "food-care-coalition-hygiene", "title": "Food & Care Coalition — showers, laundry and hygiene", "description": "Showers, laundry and personal hygiene supplies for patrons. Appointments, sign-up times and daily capacity may apply.", "last_verified": "2026-11-25", "address": "299 E 900 S, Provo, UT 84606", "phone": "8013731825", "website": "https://foodandcare.org/resources/faqs", "hours": "Call or visit during regular business hours", "how_to_access": "Ask client services for the current shower and laundry sign-up procedure. Arrive early and confirm how much laundry can be accepted." }
+      ]
+    },
+    {
+      "id": "clothing", "title": "Clothing", "entries": [
+        { "id": "community-thrift-clothing", "title": "Community Thrift and Relief — clothing help", "description": "Community resource for clothing and household necessities. Items and sizes depend on donations.", "last_verified": "2026-11-25", "address": "515 N University Avenue, Provo, UT 84601", "phone": "8013777676", "website": "https://www.provo.gov/1045/Third-Party-Community-Resources-and-Serv", "hours": "Call for current hours", "how_to_access": "Call before travelling and ask whether you need a referral, voucher or identification." }
+      ]
+    },
+    {
+      "id": "health", "title": "Health care", "entries": [
+        { "id": "east-bay-health-center", "title": "East Bay Health Center — health care for people experiencing homelessness", "description": "Medical and limited dental care inside the Food & Care Coalition building, with telehealth available. Appointment and walk-in capacity can change.", "last_verified": "2026-11-25", "address": "299 E 900 S, Suite 101, Provo, UT 84606", "phone": "8014292000", "website": "https://www.mountainlands.org/eastbay", "hours": "Medical Monday–Friday 08:30–17:00, closed 11:45–12:45; dental Tuesday 09:00–17:00", "how_to_access": "Call for an appointment or ask Food & Care Coalition staff about same-day access. Call 911 for a life-threatening emergency." },
+        { "id": "mountainlands-provo-health-center", "title": "Mountainlands Provo Family Health Center", "description": "Community health center providing primary care, dental, mental-health and pharmacy services. Ask about sliding-fee eligibility and required documents.", "last_verified": "2026-11-25", "address": "589 S State Street, Provo, UT 84606", "phone": "8014292000", "website": "https://www.mountainlands.org/provo", "hours": "Medical Monday–Thursday 08:00–19:00, Friday 08:00–17:00, Saturday 08:00–13:30; other services differ", "how_to_access": "Call the main number for medical and mental health or 801-429-2013 for dental. Ask about fees, insurance and the earliest appointment." }
+      ]
+    },
+    {
+      "id": "mental-health", "title": "Mental health and addiction", "entries": [
+        { "id": "wasatch-roc-crisis-care", "title": "Wasatch Behavioral Health — 24-hour crisis receiving center", "description": "Immediate mental-health evaluation, peer support and short-term stabilisation for adults in Utah and Wasatch counties. Mobile crisis outreach can be arranged when appropriate.", "last_verified": "2026-11-25", "address": "1175 E 300 N, Provo, UT 84606", "phone": "8018522131", "website": "https://www.wasatch.org/crisis-services-at-wbh/", "hours": "24 hours", "how_to_access": "Walk in or call. Call or text 988 for crisis support; call 911 for immediate danger or medical emergency." },
+        { "id": "wasatch-behavioral-health-outpatient", "title": "Wasatch Behavioral Health — outpatient mental health and substance-use services", "description": "Public community mental-health provider for Utah County offering therapy, case management, psychiatric and substance-use services. Eligibility, fees and wait times vary.", "last_verified": "2026-11-25", "address": "750 N Freedom Boulevard, Provo, UT 84601", "phone": "8013734760", "website": "https://www.wasatch.org/", "hours": "Administration Monday–Friday 08:00–17:00; program hours vary", "how_to_access": "Call for intake and explain insurance or Medicaid status. Use the Receiving and Outreach Center or 988 for an immediate crisis." }
+      ]
+    },
+    {
+      "id": "public-facilities", "title": "Public toilets and day facilities", "entries": [
+        { "id": "food-care-coalition-day-services", "title": "Food & Care Coalition — indoor day services", "description": "Indoor service hub with dining, toilets, showers, laundry, case management and connections to health and housing support. It is not a general overnight shelter.", "last_verified": "2026-11-25", "address": "299 E 900 S, Provo, UT 84606", "phone": "8013731825", "website": "https://www.foodandcare.org/services/day-services", "hours": "Call or visit during business hours", "how_to_access": "Walk in and ask the client-services manager for intake and the day's service schedule." }
+      ]
+    },
+    {
+      "id": "phone-internet", "title": "Phone charging and internet", "entries": [
+        { "id": "provo-city-library", "title": "Provo City Library — computers, Wi-Fi and printing", "description": "Public library access to computers, internet and printing. Guest access, time limits and printing charges may apply.", "last_verified": "2026-11-25", "address": "550 N University Avenue, Provo, UT 84601", "phone": "8018526650", "website": "https://provolibrary.org/", "hours": "Check current library hours", "how_to_access": "Ask staff about a guest computer session, Wi-Fi, charging and printing. Protect passwords and personal information on public computers." }
+      ]
+    },
+    {
+      "id": "transport", "title": "Transport", "entries": [
+        { "id": "uta-reduced-fare-provo", "title": "UTA Reduced Fare FAREPAY Card — Provo Central", "description": "Reduced fares for qualifying low-income riders, people with disabilities, seniors and youth. Approval and identity or eligibility evidence are required.", "last_verified": "2026-11-25", "address": "Provo Central Station, 701 S Freedom Boulevard, Provo, UT 84601", "phone": "8012278923", "website": "https://www.rideuta.com/Fares-And-Passes/Individual-Fares/Reduced-Fare", "hours": "Customer service Monday–Friday 07:00–18:00", "how_to_access": "Apply online or visit Provo Central with the required evidence. Ask a case manager for help obtaining documents if necessary." }
+      ]
+    },
+    {
+      "id": "benefits", "title": "Benefits and social support", "entries": [
+        { "id": "provo-workforce-services-benefits", "title": "Utah Workforce Services — SNAP, medical and cash assistance", "description": "Applications and eligibility support for SNAP, medical, financial and child-care assistance. Approval is based on program rules.", "last_verified": "2026-11-25", "address": "1550 N Freedom Boulevard, Provo, UT 84604", "phone": "8013422600", "website": "https://jobs.utah.gov/customereducation/services/foodstamps/index.html", "hours": "Call for current lobby hours", "how_to_access": "Apply through myCase, by telephone or at the employment center. The initial SNAP application can be submitted before every verification document is available." }
+      ]
+    },
+    {
+      "id": "employment", "title": "Employment", "entries": [
+        { "id": "provo-workforce-services-jobs", "title": "Utah Workforce Services — Provo employment center", "description": "Job search, employment counselling and possible training or education support for eligible jobseekers. Services do not guarantee a job.", "last_verified": "2026-11-25", "address": "1550 N Freedom Boulevard, Provo, UT 84604", "phone": "8013422600", "website": "https://jobs.utah.gov/jobseeker/career/apply.html", "hours": "Call for current lobby and appointment hours", "how_to_access": "Apply online or visit the employment center. Ask for help creating an online account and explain if transportation, identification or internet access is a barrier." },
+        { "id": "food-care-employment-case-management", "title": "Food & Care Coalition — education and employment support", "description": "Individual case management and educational programs can help patrons work toward employment and stability. Available activities and partner schedules vary.", "last_verified": "2026-11-25", "address": "299 E 900 S, Provo, UT 84606", "phone": "8013731825", "website": "https://foodandcare.org/services", "hours": "During client-service hours", "how_to_access": "Complete client intake and ask for education, employment or benefits-related case management." }
+      ]
+    },
+    {
+      "id": "legal", "title": "Legal aid", "entries": [
+        { "id": "utah-legal-services-provo", "title": "Utah Legal Services — Provo civil legal aid", "description": "Free civil legal help for eligible low-income Utah residents, including some housing, public-benefit, family and consumer matters. Representation is not guaranteed.", "last_verified": "2026-11-25", "address": "455 N University Avenue, Suite 100, Provo, UT 84601", "phone": "8013746766", "website": "https://www.utahlegalservices.org/contact?set_language=en-us", "hours": "Public office Tuesday–Thursday 09:00–15:00; additional hours by appointment", "how_to_access": "Apply online or call intake before visiting. Explain any eviction, hearing or filing deadline immediately." }
+      ]
+    },
+    { "id": "documents", "title": "Documents and identification", "entries": [] },
+    {
+      "id": "mail", "title": "Mailing address", "entries": [
+        { "id": "food-care-coalition-mail", "title": "Food & Care Coalition — mailing address for patrons", "description": "Patrons may use the Coalition's address for essential correspondence, including employer, government and family contact. Ask staff how mail is labelled, collected and retained.", "last_verified": "2026-11-25", "address": "299 E 900 S, Provo, UT 84606", "phone": "8013731825", "website": "https://www.foodandcare.org/services/day-services", "hours": "Ask during client-service hours", "how_to_access": "Complete program intake before using the address. Confirm the exact name format, collection schedule and how long unclaimed mail is kept." }
+      ]
+    },
+    { "id": "storage", "title": "Storage", "entries": [] },
+    {
+      "id": "safety", "title": "Safety and domestic violence", "entries": [
+        { "id": "refuge-utah-helpline", "title": "The Refuge Utah — domestic and sexual violence helpline", "description": "Confidential safety planning, advocacy, counselling and emergency shelter for people of all genders and family types affected by domestic or sexual violence.", "last_verified": "2026-11-25", "address": "Shelter location is confidential", "phone": "8013775500", "website": "https://therefugeutah.org/get-help/new-domestic-violence-support.html", "hours": "24 hours", "how_to_access": "Call from a safe device if possible. Ask about emergency shelter, safe transport and support for children or pets. Call 911 for immediate danger." }
+      ]
+    },
+    {
+      "id": "specialist-support", "title": "Specialist support", "entries": [
+        { "id": "watch-homeless-services", "title": "Wasatch Behavioral Health WATCH Homeless Services", "description": "Behavioural-health and case-management support for people experiencing homelessness, based at the Food & Care Coalition campus. Program eligibility and availability vary.", "last_verified": "2026-11-25", "address": "299 E 900 S, Provo, UT 84606", "phone": "8018523779", "website": "https://www.wasatch.org/", "hours": "Call for current program hours", "how_to_access": "Call or ask Food & Care Coalition client services for a WATCH referral and intake information." },
+        { "id": "community-action-housing-case-management", "title": "Community Action — housing and self-sufficiency case management", "description": "Assessment for emergency assistance, rental or deposit help, food and longer-term self-sufficiency services. Funding and eligibility are limited.", "last_verified": "2026-11-25", "address": "815 S Freedom Boulevard, Suite 100, Provo, UT 84601", "phone": "8013738200", "website": "https://communityactionprovo.org/get-help/", "hours": "Monday–Friday 08:00–16:00", "how_to_access": "Complete the provider's intake and meet with a caseworker. Bring lease, eviction or income information if available, but call first if a deadline is near." }
+      ]
+    },
+    {
+      "id": "veterans", "title": "Veterans support", "entries": [
+        { "id": "va-homeless-veteran-line-provo", "title": "VA — homeless veteran help", "description": "VA help for veterans who are homeless or at risk, including shelter and housing referrals, health care, benefits, employment support and justice-system re-entry. Local care is coordinated through the Salt Lake City VA region.", "last_verified": "2026-11-25", "address": "Regional and telephone service", "phone": "8774243838", "website": "https://www.va.gov/salt-lake-city-health-care/health-services/homeless-veteran-care/", "hours": "National homeless-veteran line 24 hours", "how_to_access": "Call the national line or 801-582-1565 extension 2746. You do not need to prove eligibility before making the first call." }
+      ]
+    },
+    {
+      "id": "pets", "title": "Help for people with pets", "entries": [
+        { "id": "ruff-haven-regional-pet-care", "title": "Ruff Haven — regional temporary pet crisis care", "description": "Salt Lake-based short-term shelter or foster care for dogs and cats when an owner faces a qualifying crisis. This is a regional option; space and transport are not guaranteed.", "last_verified": "2026-11-25", "address": "Salt Lake City area; intake arranged after approval", "phone": "", "website": "https://www.ruffhaven.org/apply", "hours": "Apply online; response time varies", "how_to_access": "Apply online and explain the crisis, pet and transport situation. Ask a local case manager or The Refuge about nearer pet-safe options first." }
+      ]
+    },
+    {
+      "id": "other", "title": "Other useful resources", "entries": [
+        { "id": "provo-city-community-resources", "title": "Provo City — community-resource directory", "description": "City directory of food, housing, employment, health, legal and other community providers. Listings are a starting point; confirm details directly with each provider.", "last_verified": "2026-11-25", "address": "Online directory", "phone": "", "website": "https://www.provo.gov/1045/Third-Party-Community-Resources-and-Serv", "hours": "Online", "how_to_access": "Use the directory to identify another provider, then call that provider before travelling." }
+      ]
+    }
+  ]
+}

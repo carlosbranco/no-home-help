@@ -5,7 +5,9 @@
   "scripts": {
     "generate": "node scripts/generate-site.mjs --prune-drafts",
     "check": "node scripts/generate-site.mjs --check && node scripts/check-data.mjs && node scripts/check-generated-html.mjs",
-    "check:external": "node scripts/check-data.mjs --external-links"
+    "check:external": "node scripts/check-data.mjs --external-links",
+    "report:content": "node scripts/audit-content-depth.mjs",
+    "check:content": "node scripts/audit-content-depth.mjs --strict"
   },
   "engines": {
     "node": ">=20"

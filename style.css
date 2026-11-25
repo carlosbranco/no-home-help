@@ -82,6 +82,16 @@ li {
 a {
   color: #0645ad;
   text-decoration: underline;
+  overflow-wrap: anywhere;
+}
+
+h1,
+h2,
+h3,
+p,
+address,
+li {
+  overflow-wrap: anywhere;
 }
 
 a:visited {

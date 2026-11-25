@@ -1,0 +1,218 @@
+{
+  "$schema": "https://nohomehelp.com/schemas/city.schema.json",
+  "documentation": "https://github.com/carlosbranco/no-home-help/blob/main/EDIT_CITY_JSON.md",
+  "schema_version": 2,
+  "status": "published",
+  "locale": {
+    "language": "es",
+    "direction": "ltr",
+    "primary": true
+  },
+  "location": {
+    "continent": "Americas",
+    "country_code": "MX",
+    "country_name": "Mexico",
+    "country_local_name": "México",
+    "country_slug": "mexico",
+    "region_code": "02",
+    "region_name": "Baja California",
+    "region_slug": "baja-california",
+    "city_name": "Mexicali",
+    "city_slug": "mexicali"
+  },
+  "seo": {
+    "title": "Ayuda para personas sin hogar y en crisis de vivienda en Mexicali - No Home Help",
+    "description": "Contactos actuales en Mexicali para alojamiento de emergencia, atención diurna, comida, salud, prestaciones, empleo y otras ayudas."
+  },
+  "page": {
+    "heading": "Ayuda para personas sin hogar y en crisis de vivienda en Mexicali",
+    "last_verified": "2026-11-24",
+    "urgent": "Si hay peligro inmediato o una emergencia médica grave, llama al número de emergencias indicado abajo.",
+    "notice": "Los albergues y servicios pueden estar llenos, cambiar de horario o exigir valoración o derivación. Llama antes de desplazarte siempre que sea posible. Ninguna ficha garantiza cama, vivienda, tratamiento, prestación o empleo.",
+    "intro": "Si un albergue está lleno, prueba las otras puertas de entrada y líneas de derivación. Pregunta por centros de día, equipos de calle, comida, higiene, salud y la siguiente opción segura; no dependas de una sola dirección.",
+    "footer": ""
+  },
+  "categories": [
+    {
+      "id": "emergency",
+      "title": "Emergencias y derivación",
+      "entries": [
+        {
+          "id": "911-emergencias",
+          "title": "911 — emergencias",
+          "description": "Llama ante peligro inmediato, lesión grave, sobredosis, incendio u otra emergencia que amenace la vida.",
+          "last_verified": "2026-11-24",
+          "address": "",
+          "phone": "911",
+          "website": "https://www.gob.mx/911",
+          "hours": "",
+          "how_to_access": ""
+        }
+      ]
+    },
+    {
+      "id": "shelter",
+      "title": "Alojamiento y acceso a vivienda",
+      "entries": [
+        {
+          "id": "albergue-peregrino",
+          "title": "Albergue Peregrino",
+          "description": "Albergue municipal con valoración de ingreso. El cupo cambia; llama antes y pregunta por otra opción si no hay espacio.",
+          "last_verified": "2026-11-24",
+          "address": "Calzada de los Presidentes y Marina, Bellavista, Mexicali",
+          "phone": "+526865165274",
+          "website": "https://retys.mexicali.gob.mx/intranet/Tramite/Ficha/58?entidadId=45",
+          "hours": "Atención indicada 08:00–22:00; confirma",
+          "how_to_access": "Llama o consulta la página oficial antes de ir. La plaza no está garantizada; pregunta por requisitos, documentos, derivación y una alternativa si está lleno."
+        }
+      ]
+    },
+    {
+      "id": "food",
+      "title": "Alimentación",
+      "entries": []
+    },
+    {
+      "id": "community",
+      "title": "Community and religious help",
+      "entries": []
+    },
+    {
+      "id": "hygiene",
+      "title": "Duchas, lavandería e higiene",
+      "entries": []
+    },
+    {
+      "id": "clothing",
+      "title": "Clothing",
+      "entries": []
+    },
+    {
+      "id": "health",
+      "title": "Atención sanitaria",
+      "entries": []
+    },
+    {
+      "id": "mental-health",
+      "title": "Mental health and addiction",
+      "entries": []
+    },
+    {
+      "id": "public-facilities",
+      "title": "Public toilets and day facilities",
+      "entries": []
+    },
+    {
+      "id": "phone-internet",
+      "title": "Phone charging and internet",
+      "entries": []
+    },
+    {
+      "id": "transport",
+      "title": "Transport",
+      "entries": []
+    },
+    {
+      "id": "benefits",
+      "title": "Prestaciones y apoyo social",
+      "entries": [
+        {
+          "id": "dif-mexicali",
+          "title": "DIF Mexicali",
+          "description": "Trabajo social, protección familiar y derivación a servicios. Explica salud, edad, discapacidad, embarazo, menores o violencia.",
+          "last_verified": "2026-11-24",
+          "address": "",
+          "phone": "",
+          "website": "https://www.mexicali.gob.mx/dif/",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "directorio-del-dif",
+          "title": "Directorio del DIF",
+          "description": "El DIF estatal o municipal puede orientar sobre albergues, alimentos, protección familiar y trabajo social. Pide otra derivación si un recurso está lleno.",
+          "last_verified": "2026-11-24",
+          "address": "",
+          "phone": "",
+          "website": "https://www.gob.mx/difnacional",
+          "hours": "",
+          "how_to_access": ""
+        }
+      ]
+    },
+    {
+      "id": "employment",
+      "title": "Empleo",
+      "entries": [
+        {
+          "id": "servicio-nacional-de-empleo",
+          "title": "Servicio Nacional de Empleo",
+          "description": "Portal oficial para buscar empleo, ferias, consejería y oficinas del Servicio Nacional de Empleo. El registro no garantiza contratación.",
+          "last_verified": "2026-11-24",
+          "address": "",
+          "phone": "",
+          "website": "https://www.empleo.gob.mx/",
+          "hours": "",
+          "how_to_access": ""
+        }
+      ]
+    },
+    {
+      "id": "legal",
+      "title": "Ayuda jurídica",
+      "entries": [
+        {
+          "id": "instituto-federal-de-defensoria-publica",
+          "title": "Instituto Federal de Defensoría Pública",
+          "description": "Orientación y defensa jurídica gratuita en asuntos federales; consulta la delegación más cercana y los requisitos.",
+          "last_verified": "2026-11-24",
+          "address": "",
+          "phone": "",
+          "website": "https://www.ifdp.cjf.gob.mx/",
+          "hours": "",
+          "how_to_access": ""
+        }
+      ]
+    },
+    {
+      "id": "documents",
+      "title": "Documents and identification",
+      "entries": []
+    },
+    {
+      "id": "mail",
+      "title": "Mailing address",
+      "entries": []
+    },
+    {
+      "id": "storage",
+      "title": "Storage",
+      "entries": []
+    },
+    {
+      "id": "safety",
+      "title": "Seguridad y violencia de género",
+      "entries": []
+    },
+    {
+      "id": "specialist-support",
+      "title": "Specialist support",
+      "entries": []
+    },
+    {
+      "id": "veterans",
+      "title": "Veterans support",
+      "entries": []
+    },
+    {
+      "id": "pets",
+      "title": "Help for people with pets",
+      "entries": []
+    },
+    {
+      "id": "other",
+      "title": "Otros recursos útiles",
+      "entries": []
+    }
+  ]
+}

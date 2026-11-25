@@ -1,0 +1,229 @@
+{
+  "$schema": "https://nohomehelp.com/schemas/city.schema.json",
+  "documentation": "https://github.com/carlosbranco/no-home-help/blob/main/EDIT_CITY_JSON.md",
+  "schema_version": 2,
+  "status": "published",
+  "locale": {
+    "language": "pt",
+    "direction": "ltr",
+    "primary": true
+  },
+  "location": {
+    "continent": "Europe",
+    "country_code": "PT",
+    "country_name": "Portugal",
+    "country_local_name": "Portugal",
+    "country_slug": "portugal",
+    "region_code": "17",
+    "region_name": "Porto",
+    "region_slug": "porto",
+    "city_name": "Porto",
+    "city_slug": "porto"
+  },
+  "seo": {
+    "title": "Apoio a pessoas sem-abrigo e em crise habitacional em Porto - No Home Help",
+    "description": "Contactos atuais em Porto para alojamento urgente, centros de dia, alimentação, saúde, apoios, emprego e outros serviços."
+  },
+  "page": {
+    "heading": "Apoio a pessoas sem-abrigo e em crise habitacional em Porto",
+    "last_verified": "2026-11-24",
+    "urgent": "Em perigo imediato ou emergência médica grave, ligue para o número de emergência indicado abaixo.",
+    "notice": "Os alojamentos e serviços podem estar lotados, alterar horários ou exigir avaliação ou encaminhamento. Ligue antes de se deslocar sempre que possível. Nenhuma entrada garante cama, habitação, tratamento, apoio ou emprego.",
+    "intro": "Se um alojamento estiver cheio, tente as outras portas de entrada e linhas de encaminhamento. Pergunte por centros de dia, equipas de rua, alimentação, higiene, saúde e a próxima opção segura; não dependa de uma única morada.",
+    "footer": ""
+  },
+  "categories": [
+    {
+      "id": "emergency",
+      "title": "Emergência e encaminhamento",
+      "entries": [
+        {
+          "id": "linha-porto-solidario-atendimento-municipal",
+          "title": "Linha Porto. Solidário / atendimento municipal",
+          "description": "O Município indica o 220 100 220 para informação e encaminhamento social. Para emergência social urgente use também 144; uma chamada não garante alojamento.",
+          "last_verified": "2026-11-24",
+          "address": "",
+          "phone": "+351220100220",
+          "website": "https://www.cm-porto.pt/seguranca",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "112-emergencia",
+          "title": "112 — emergência",
+          "description": "Ligue em caso de perigo imediato, doença ou ferimento grave, incêndio ou outra emergência com risco de vida.",
+          "last_verified": "2026-11-24",
+          "address": "",
+          "phone": "112",
+          "website": "https://www.gov.pt/guias/contactos-de-emergencia-em-portugal?fsource=stcweb",
+          "hours": "24 horas",
+          "how_to_access": ""
+        },
+        {
+          "id": "144-linha-nacional-de-emergencia-social",
+          "title": "144 — Linha Nacional de Emergência Social",
+          "description": "A linha pública avalia situações urgentes de desproteção, incluindo falta de alojamento. A chamada não garante vaga; peça encaminhamento e alternativa.",
+          "last_verified": "2026-11-24",
+          "address": "",
+          "phone": "144",
+          "website": "https://www.seg-social.pt/linha-nacional-de-emergencia-social",
+          "hours": "24 horas",
+          "how_to_access": ""
+        }
+      ]
+    },
+    {
+      "id": "shelter",
+      "title": "Alojamento e acesso a habitação",
+      "entries": [
+        {
+          "id": "centro-de-acolhimento-temporario-joaquim-urbano",
+          "title": "Centro de Acolhimento Temporário Joaquim Urbano",
+          "description": "Alojamento temporário municipal com refeições, higiene, lavandaria, enfermagem e acompanhamento social. A admissão depende de avaliação e capacidade; ligue antes e peça alternativa se estiver lotado.",
+          "last_verified": "2026-11-24",
+          "address": "Rua Câmara Pestana 358, Porto",
+          "phone": "",
+          "website": "https://acaosocial.cm-porto.pt/pessoas-em-situacao-sem-abrigo/centro-de-acolhimento-temporario",
+          "hours": "24 horas",
+          "how_to_access": "Confirme o encaminhamento e a disponibilidade antes de se deslocar."
+        }
+      ]
+    },
+    {
+      "id": "food",
+      "title": "Alimentação",
+      "entries": []
+    },
+    {
+      "id": "community",
+      "title": "Community and religious help",
+      "entries": []
+    },
+    {
+      "id": "hygiene",
+      "title": "Banhos, lavandaria e higiene",
+      "entries": []
+    },
+    {
+      "id": "clothing",
+      "title": "Clothing",
+      "entries": []
+    },
+    {
+      "id": "health",
+      "title": "Cuidados de saúde",
+      "entries": []
+    },
+    {
+      "id": "mental-health",
+      "title": "Mental health and addiction",
+      "entries": []
+    },
+    {
+      "id": "public-facilities",
+      "title": "Public toilets and day facilities",
+      "entries": []
+    },
+    {
+      "id": "phone-internet",
+      "title": "Phone charging and internet",
+      "entries": []
+    },
+    {
+      "id": "transport",
+      "title": "Transport",
+      "entries": []
+    },
+    {
+      "id": "benefits",
+      "title": "Apoios e atendimento social",
+      "entries": [
+        {
+          "id": "seguranca-social-atendimento",
+          "title": "Segurança Social — atendimento",
+          "description": "Informação sobre RSI, prestações, ação social e marcação de atendimento. Os critérios e prazos variam.",
+          "last_verified": "2026-11-24",
+          "address": "",
+          "phone": "+351210545400",
+          "website": "https://www.seg-social.pt/linha-seguranca-social",
+          "hours": "",
+          "how_to_access": ""
+        }
+      ]
+    },
+    {
+      "id": "employment",
+      "title": "Emprego",
+      "entries": [
+        {
+          "id": "iefp-online",
+          "title": "IEFP Online",
+          "description": "Ofertas de emprego, inscrição e acesso aos serviços públicos de emprego e formação.",
+          "last_verified": "2026-11-24",
+          "address": "",
+          "phone": "",
+          "website": "https://iefponline.iefp.pt/",
+          "hours": "",
+          "how_to_access": ""
+        }
+      ]
+    },
+    {
+      "id": "legal",
+      "title": "Apoio jurídico",
+      "entries": []
+    },
+    {
+      "id": "documents",
+      "title": "Documents and identification",
+      "entries": []
+    },
+    {
+      "id": "mail",
+      "title": "Mailing address",
+      "entries": []
+    },
+    {
+      "id": "storage",
+      "title": "Storage",
+      "entries": []
+    },
+    {
+      "id": "safety",
+      "title": "Segurança e violência doméstica",
+      "entries": []
+    },
+    {
+      "id": "specialist-support",
+      "title": "Specialist support",
+      "entries": []
+    },
+    {
+      "id": "veterans",
+      "title": "Veterans support",
+      "entries": []
+    },
+    {
+      "id": "pets",
+      "title": "Help for people with pets",
+      "entries": []
+    },
+    {
+      "id": "other",
+      "title": "Outros recursos úteis",
+      "entries": [
+        {
+          "id": "npisa-porto-nucleo-de-apoio-a-pessoas-sem-abrigo",
+          "title": "NPISA Porto — núcleo de apoio a pessoas sem-abrigo",
+          "description": "Articula serviços de rua, alojamento, saúde e acompanhamento. O guia municipal indica atendimento e contactos; confirme antes de ir porque horários podem mudar.",
+          "last_verified": "2026-11-24",
+          "address": "Rua da Alegria 200, Porto",
+          "phone": "+351225899260",
+          "website": "https://coesaosocial.cm-porto.pt/files/uploads/cms/coesaosocial/3/files/1641903049-UJe33IKtHL.pdf",
+          "hours": "",
+          "how_to_access": ""
+        }
+      ]
+    }
+  ]
+}

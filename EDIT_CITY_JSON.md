@@ -62,6 +62,23 @@ Every city already contains the same categories in the correct order. Add entrie
 
 The categories cover emergency help, shelter, food, community and religious help, hygiene, clothing, health, mental health, public facilities, internet, transport, benefits, employment, legal aid, documents, mail, storage, safety, specialist support, veterans, pets, and other useful resources.
 
+## When is a city ready to publish?
+
+A page is not complete merely because it has one emergency number and one shelter. A useful guide needs several independent routes to help, especially because shelters can be full and eligibility differs.
+
+The content-depth report scales the minimum expectations by population:
+
+| City population | Resources | Filled categories | Shelter or housing routes | Independent source domains |
+| --- | ---: | ---: | ---: | ---: |
+| 1,000,000 or more | 20 | 10 | 3 | 8 |
+| 500,000–999,999 | 16 | 8 | 3 | 7 |
+| 200,000–499,999 | 12 | 7 | 2 | 6 |
+| Under 200,000 | 8 | 5 | 1 | 4 |
+
+Every published city should also cover emergency referral, shelter or housing access, food, health or mental-health care, benefits or another local social-support route, and employment support when the population is 200,000 or more. These are minimums, not targets: a large city should normally contain more.
+
+Run `npm run report:content` to see the backlog. Run `npm run check:content` when you want the command to fail until every published city reaches the minimum.
+
 ## Add a new city
 
 1. Copy [`templates/city.json`](templates/city.json).

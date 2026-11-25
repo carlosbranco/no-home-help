@@ -1,0 +1,229 @@
+{
+  "$schema": "https://nohomehelp.com/schemas/city.schema.json",
+  "documentation": "https://github.com/carlosbranco/no-home-help/blob/main/EDIT_CITY_JSON.md",
+  "schema_version": 2,
+  "status": "published",
+  "locale": {
+    "language": "no",
+    "direction": "ltr",
+    "primary": true
+  },
+  "location": {
+    "continent": "Europe",
+    "country_code": "NO",
+    "country_name": "Norway",
+    "country_local_name": "Norge",
+    "country_slug": "norway",
+    "region_code": "12",
+    "region_name": "Oslo",
+    "region_slug": "oslo",
+    "city_name": "Oslo",
+    "city_slug": "oslo"
+  },
+  "seo": {
+    "title": "Hjelp ved bostedsløshet og boligkrise i Oslo - No Home Help",
+    "description": "Oppdaterte kontakter i Oslo for akuttovernatting, dagtilbud, mat, helse, ytelser, arbeid og annen hjelp."
+  },
+  "page": {
+    "heading": "Hjelp ved bostedsløshet og boligkrise i Oslo",
+    "last_verified": "2026-11-24",
+    "urgent": "Ved akutt fare eller en livstruende medisinsk situasjon, ring nødnummeret nedenfor.",
+    "notice": "Overnattingssteder og tjenester kan være fulle, endre åpningstider eller kreve vurdering eller henvisning. Ring før du reiser når det er mulig. Ingen oppføring garanterer seng, bolig, behandling, ytelse eller arbeid.",
+    "intro": "Hvis ett overnattingssted er fullt, prøv de andre lokale tjenestene og henvisningslinjene nedenfor. Spør om dagtilbud, oppsøkende team, mat, hygiene, helsehjelp og neste trygge alternativ; ikke stol på én adresse.",
+    "footer": ""
+  },
+  "categories": [
+    {
+      "id": "emergency",
+      "title": "Akutthjelp og henvisning",
+      "entries": [
+        {
+          "id": "oslo-24-hour-social-and-health-hotlines",
+          "title": "Oslo 24-hour social and health hotlines",
+          "description": "Municipal list of round-the-clock crisis, social, medical and violence-support services. Ask which service can act tonight and what alternative exists if accommodation is full.",
+          "last_verified": "2026-11-24",
+          "address": "",
+          "phone": "",
+          "website": "https://www.oslo.kommune.no/english/24-hour-hotlines-and-services/",
+          "hours": "",
+          "how_to_access": ""
+        },
+        {
+          "id": "112-politi-113-medisinsk-n-d",
+          "title": "112 politi / 113 medisinsk nød",
+          "description": "Ring 112 ved akutt fare eller vold, og 113 ved livstruende sykdom eller skade.",
+          "last_verified": "2026-11-24",
+          "address": "",
+          "phone": "112",
+          "website": "https://www.politiet.no/en/english/contact-the-norwegian-police/",
+          "hours": "",
+          "how_to_access": ""
+        }
+      ]
+    },
+    {
+      "id": "shelter",
+      "title": "Overnatting og bolighjelp",
+      "entries": [
+        {
+          "id": "nav-midlertidig-botilbud",
+          "title": "NAV — midlertidig botilbud",
+          "description": "NAV-kontoret skal vurdere akutt behov for et midlertidig sted å bo. Tilbudet og stedet avhenger av vurdering og kapasitet; be om en alternativ løsning hvis første sted er fullt.",
+          "last_verified": "2026-11-24",
+          "address": "",
+          "phone": "",
+          "website": "https://www.oslo.kommune.no/english/24-hour-hotlines-and-services/",
+          "hours": "",
+          "how_to_access": "Kontakt bydelens NAV-kontor i åpningstiden eller sosial vakttjeneste ved akutt behov."
+        },
+        {
+          "id": "oslo-r-de-kors-emergency-shelter-for-migrants",
+          "title": "Oslo Røde Kors — emergency shelter for migrants",
+          "description": "Emergency overnight shelter for adult migrants with limited rights to public services. Capacity is limited and the service has a specific target group; call first.",
+          "last_verified": "2026-11-24",
+          "address": "",
+          "phone": "+4794858674",
+          "website": "https://www.rodekors.no/en/lokalforeninger/oslo/english-pages/emergency-shelter-oslo/",
+          "hours": "",
+          "how_to_access": "Call to confirm eligibility, current location, opening time and space."
+        }
+      ]
+    },
+    {
+      "id": "food",
+      "title": "Mat",
+      "entries": []
+    },
+    {
+      "id": "community",
+      "title": "Community and religious help",
+      "entries": []
+    },
+    {
+      "id": "hygiene",
+      "title": "Dusj, klesvask og hygiene",
+      "entries": []
+    },
+    {
+      "id": "clothing",
+      "title": "Clothing",
+      "entries": []
+    },
+    {
+      "id": "health",
+      "title": "Helsehjelp",
+      "entries": [
+        {
+          "id": "legevakt-116-117",
+          "title": "Legevakt 116 117",
+          "description": "Ring for hjelp som haster når fastlegen ikke er tilgjengelig. Ved fare for liv, ring 113.",
+          "last_verified": "2026-11-24",
+          "address": "",
+          "phone": "116117",
+          "website": "https://www.helsenorge.no/en/help-services-in-the-municipalities/out-of-hours-medical-service/",
+          "hours": "",
+          "how_to_access": ""
+        }
+      ]
+    },
+    {
+      "id": "mental-health",
+      "title": "Mental health and addiction",
+      "entries": []
+    },
+    {
+      "id": "public-facilities",
+      "title": "Public toilets and day facilities",
+      "entries": []
+    },
+    {
+      "id": "phone-internet",
+      "title": "Phone charging and internet",
+      "entries": []
+    },
+    {
+      "id": "transport",
+      "title": "Transport",
+      "entries": []
+    },
+    {
+      "id": "benefits",
+      "title": "Ytelser og sosial støtte",
+      "entries": [
+        {
+          "id": "nav-konomisk-sosialhjelp-og-midlertidig-botilbud",
+          "title": "NAV — økonomisk sosialhjelp og midlertidig botilbud",
+          "description": "Kontakt lokalt NAV-kontor om nødhjelp, økonomisk sosialhjelp og midlertidig botilbud. Vedtak og plass er ikke garantert.",
+          "last_verified": "2026-11-24",
+          "address": "",
+          "phone": "",
+          "website": "https://www.nav.no/ikke-bolig/en",
+          "hours": "",
+          "how_to_access": ""
+        }
+      ]
+    },
+    {
+      "id": "employment",
+      "title": "Arbeid",
+      "entries": [
+        {
+          "id": "nav-arbeidss-ker",
+          "title": "NAV — arbeidssøker",
+          "description": "Registrering som arbeidssøker, ledige stillinger, veiledning og lokale NAV-kontorer.",
+          "last_verified": "2026-11-24",
+          "address": "",
+          "phone": "",
+          "website": "https://arbeidsplassen.nav.no/en/work-in-norway/finding-a-job",
+          "hours": "",
+          "how_to_access": ""
+        }
+      ]
+    },
+    {
+      "id": "legal",
+      "title": "Juridisk hjelp",
+      "entries": []
+    },
+    {
+      "id": "documents",
+      "title": "Documents and identification",
+      "entries": []
+    },
+    {
+      "id": "mail",
+      "title": "Mailing address",
+      "entries": []
+    },
+    {
+      "id": "storage",
+      "title": "Storage",
+      "entries": []
+    },
+    {
+      "id": "safety",
+      "title": "Sikkerhet og vold i nære relasjoner",
+      "entries": []
+    },
+    {
+      "id": "specialist-support",
+      "title": "Specialist support",
+      "entries": []
+    },
+    {
+      "id": "veterans",
+      "title": "Veterans support",
+      "entries": []
+    },
+    {
+      "id": "pets",
+      "title": "Help for people with pets",
+      "entries": []
+    },
+    {
+      "id": "other",
+      "title": "Andre nyttige tjenester",
+      "entries": []
+    }
+  ]
+}
